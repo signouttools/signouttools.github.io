@@ -1,1 +1,119 @@
- 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'none'; style-src 'self'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="x-dns-prefetch-control" content="off">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browser-based tools for molecular pathology signout, with single-file HTML downloads for offline use.">
+  <meta name="theme-color" content="#14273a">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <title>Signout Tools</title>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell">
+      <p class="eyebrow">Molecular pathology</p>
+      <h1>Signout Tools</h1>
+      <p class="intro">Open a tool in your browser or download a single HTML file to use offline. All processing happens in your browser, and session data stays only in local browser memory. There is no server-side processing, automatic upload, or persistent app storage.</p>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section aria-labelledby="tools-title">
+      <h2 id="tools-title">Tool library</h2>
+      <ul class="tool-list">
+        <li class="tool">
+          <h3>SARA</h3>
+          <div class="tool-description">
+            <h4>Somatic Analysis and Review Application</h4>
+            <p>Review somatic variant reports and explore mutational signatures.</p>
+          </div>
+          <div class="actions">
+            <a class="open" href="tools/sara.html" aria-label="Open SARA">Open tool</a>
+            <a class="download" href="tools/sara.html" download="SARA.html" aria-label="Download stand-alone HTML for SARA">Download stand-alone HTML</a>
+          </div>
+        </li>
+        <li class="tool">
+          <h3>CARA</h3>
+          <div class="tool-description">
+            <h4>CNV Annotation and Review Application</h4>
+            <p>Review and annotate paired tumor–normal copy-number evidence.</p>
+          </div>
+          <div class="actions">
+            <a class="open" href="tools/cara.html" aria-label="Open CARA">Open tool</a>
+            <a class="download" href="tools/cara.html" download="CARA.html" aria-label="Download stand-alone HTML for CARA">Download stand-alone HTML</a>
+          </div>
+        </li>
+        <li class="tool">
+          <h3>FIQ</h3>
+          <div class="tool-description">
+            <h4>Fusion Investigation &amp; Quantification</h4>
+            <p>Investigate fusion read evidence in indexed hg19 BAM files.</p>
+          </div>
+          <div class="actions">
+            <a class="open" href="tools/fiq.html" aria-label="Open FIQ">Open tool</a>
+            <a class="download" href="tools/fiq.html" download="FIQ.html" aria-label="Download stand-alone HTML for FIQ">Download stand-alone HTML</a>
+          </div>
+        </li>
+        <li class="tool">
+          <h3>SAGE</h3>
+          <div class="tool-description">
+            <h4>Signature Analysis for Gel-based Experiments</h4>
+            <p>Review gel images, annotate bands, and compare reference signatures.</p>
+          </div>
+          <div class="actions">
+            <a class="open" href="tools/sage.html" aria-label="Open SAGE">Open tool</a>
+            <a class="download" href="tools/sage.html" download="SAGE.html" aria-label="Download stand-alone HTML for SAGE">Download stand-alone HTML</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="work-section" aria-labelledby="wip-title">
+      <h2 id="wip-title">Work in Progress</h2>
+      <div class="workflows">
+        <h3>Phase</h3>
+        <ul class="variant-list">
+          <li>
+            <div><h4>Manual haplotype workspace</h4><p>Inspect local read evidence and build haplotypes from indexed BAM files.</p></div>
+            <div class="actions">
+              <a class="open" href="tools/phase.html" aria-label="Open Phase manual">Open tool</a>
+              <a class="download" href="tools/phase.html" download="Phase.html" aria-label="Download stand-alone HTML for Phase manual">Download stand-alone HTML</a>
+            </div>
+          </li>
+          <li>
+            <div><h4>Automatic grouping</h4><p>Group compatible reads automatically.</p></div>
+            <div class="actions">
+              <a class="open" href="tools/phase-automatic.html" aria-label="Open Phase automatic">Open tool</a>
+              <a class="download" href="tools/phase-automatic.html" download="Phase-Automatic.html" aria-label="Download stand-alone HTML for Phase automatic">Download stand-alone HTML</a>
+            </div>
+          </li>
+          <li>
+            <div><h4>Assembly</h4><p>Explore a local assembly graph and reconstructed sequences.</p></div>
+            <div class="actions">
+              <a class="open" href="tools/phase-assembly.html" aria-label="Open Phase assembly">Open tool</a>
+              <a class="download" href="tools/phase-assembly.html" download="Phase-Assembly.html" aria-label="Download stand-alone HTML for Phase assembly">Download stand-alone HTML</a>
+            </div>
+          </li>
+          <li>
+            <div><h4>Specific variants</h4><p>Phase a supplied list of variants.</p></div>
+            <div class="actions">
+              <a class="open" href="tools/phase-specific.html" aria-label="Open Phase specific variants">Open tool</a>
+              <a class="download" href="tools/phase-specific.html" download="Phase-Specific.html" aria-label="Download stand-alone HTML for Phase specific variants">Download stand-alone HTML</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Suggest a tool</h2>
+      <p>If you’d like to suggest a tool to develop, reach out to <a href="mailto:msshamim@pm.me">msshamim@pm.me</a>.</p>
+    </section>
+
+    <footer>For offline use, open the downloaded HTML file in desktop Chrome or Edge.</footer>
+  </main>
+</body>
+</html>
