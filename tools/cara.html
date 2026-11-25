@@ -2,7 +2,7 @@
 <html lang="en" translate="no">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-a/IgHlnjTrI5iuURM5oRZ3ZLqUxz6iN4059hE8oxIQE=' 'sha256-b4X7rAJ+V/nc0PokArm/6gdQp4mH2rrDEddz/UPWR7s=' 'sha256-4YKWk5CHfqCYk+wZaGWz1j15DSbv3nUPEIMM7btOjC4=' 'sha256-kuQQXruIA129nz8PwZZyrnvcQjsaiA980fIuM7jxEf8=' 'sha256-yGOPQyUdKmZla/RqjE8y4/PEcS4mIxBjuU/8Ta3XVuE=' 'sha256-fyZNw6XptKIpmTfsdDNgAS9HlFuVXQWLfN+vpp9Y2DE=' 'sha256-CH2ZhtbNAUWT5mjWM9LCLgUy58+2t6NSCUBOWpxTSZk=' 'sha256-MqTvwC7LaqhlmHBAM2hq0noHupYB6LLx/JKEweHp+lQ=' 'sha256-Qxa7zkzd6owx4t22I8WadjsKKoGXIYzIs+Jr6WhFVYc=' 'sha256-3ZDYYuQFzqG14jKZb/hjFuzxJeHTqe/pavTdtuZm1Q4='; style-src 'none'; style-src-elem 'sha256-A5TccBZVhgzfJX7kngQIPJBYW2NsshbYngfN8KuDb/k=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'unsafe-inline'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-a/IgHlnjTrI5iuURM5oRZ3ZLqUxz6iN4059hE8oxIQE=' 'sha256-b4X7rAJ+V/nc0PokArm/6gdQp4mH2rrDEddz/UPWR7s=' 'sha256-4YKWk5CHfqCYk+wZaGWz1j15DSbv3nUPEIMM7btOjC4=' 'sha256-kuQQXruIA129nz8PwZZyrnvcQjsaiA980fIuM7jxEf8=' 'sha256-yGOPQyUdKmZla/RqjE8y4/PEcS4mIxBjuU/8Ta3XVuE=' 'sha256-fyZNw6XptKIpmTfsdDNgAS9HlFuVXQWLfN+vpp9Y2DE=' 'sha256-CH2ZhtbNAUWT5mjWM9LCLgUy58+2t6NSCUBOWpxTSZk=' 'sha256-MqTvwC7LaqhlmHBAM2hq0noHupYB6LLx/JKEweHp+lQ=' 'sha256-Qxa7zkzd6owx4t22I8WadjsKKoGXIYzIs+Jr6WhFVYc=' 'sha256-3ZDYYuQFzqG14jKZb/hjFuzxJeHTqe/pavTdtuZm1Q4='; style-src 'none'; style-src-elem 'sha256-A5TccBZVhgzfJX7kngQIPJBYW2NsshbYngfN8KuDb/k=' 'sha256-osYJUdI+nxSWuN/WoK7hW8pAb1dymL5pdPuTEz+IxjY='; style-src-attr 'unsafe-inline'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="light">
@@ -425,6 +425,12 @@ dialog.signout-about::backdrop {
   color: inherit;
 }
 
+.signout-about .signout-about-disclaimer {
+  margin-top: 1rem;
+  font-size: .9em;
+  font-weight: 650;
+}
+
 .signout-about .signout-about-close {
   flex: none;
   min-height: 2.25rem;
@@ -654,6 +660,7 @@ dialog.signout-about::backdrop {
     <p>CARA plots log₂ copy ratios and allele fractions for tumor and normal. Running means summarize the tracks. The paired imbalance track compares tumor and normal at matching alleles. Threshold labeling applies editable ranges to smoothed copy ratios after a baseline adjustment. Review proposed labels before accepting them.</p>
     <h3>Gene annotation</h3>
     <p>The bundled UCSC hg19 RefSeq gene spans supply interval overlaps, including introns. An overlap indicates that the interval touches the gene span.</p>
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>
   <dialog id="import-dialog">
     <form autocomplete="off" method="dialog" class="dialog-card">

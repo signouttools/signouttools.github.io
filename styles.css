@@ -164,6 +164,8 @@ footer {
   line-height: 1.5;
 }
 
+footer p + p { margin-top: .35rem; }
+
 @media (max-width: 48rem) {
   .tool, .workflows { grid-template-columns: 5rem minmax(0, 1fr); }
   .tool > .actions { grid-column: 2; }

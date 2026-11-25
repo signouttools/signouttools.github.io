@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-laC07/XXFn0eodZhYA0/5PCp4h97uo+JvtyRtWfLJY4=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-aRXNEWApjCb+ZupCodtHUp8/mvWukbN4hIXq2y9WI8A=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-laC07/XXFn0eodZhYA0/5PCp4h97uo+JvtyRtWfLJY4=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-aRXNEWApjCb+ZupCodtHUp8/mvWukbN4hIXq2y9WI8A=' 'sha256-osYJUdI+nxSWuN/WoK7hW8pAb1dymL5pdPuTEz+IxjY='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Phase · automatic grouping</title>
     <style>:root {
@@ -649,6 +649,12 @@ dialog.signout-about::backdrop {
   color: inherit;
 }
 
+.signout-about .signout-about-disclaimer {
+  margin-top: 1rem;
+  font-size: .9em;
+  font-weight: 650;
+}
+
 .signout-about .signout-about-close {
   flex: none;
   min-height: 2.25rem;
@@ -1103,6 +1109,7 @@ Base qualities: ${O.qual.join(",")}`}).join(`
     <p>Phase calls local SNPs and CIGAR indels and builds phase blocks from alleles observed together on fragments. Within a block it groups compatible allele patterns. Reads that fit multiple patterns can remain ambiguous, and overlapping mates count once. Disconnected blocks are reported separately. Group counts describe the observed fragments in each block.</p>
     <h3>Transcript catalog</h3>
     <p>Gene and transcript lookup uses bundled NCBI RefSeq coordinates from UCSC for hg19 and hg38.</p>
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>
   <script>
 (() => {

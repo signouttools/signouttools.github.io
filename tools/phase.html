@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-7qu4JWFSN8O94YzR4YeyARFaJPfzy6FbtAfJovCCylw=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-7tyr/MWw2iN8W4mUyflXeBwdy+hvws7e0pzsKM6cx+8=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-7qu4JWFSN8O94YzR4YeyARFaJPfzy6FbtAfJovCCylw=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-7tyr/MWw2iN8W4mUyflXeBwdy+hvws7e0pzsKM6cx+8=' 'sha256-osYJUdI+nxSWuN/WoK7hW8pAb1dymL5pdPuTEz+IxjY='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
     <title>Phase · manual haplotype workspace</title>
     <style>:root {
   font:
@@ -1204,6 +1204,12 @@ dialog.signout-about::backdrop {
   color: inherit;
 }
 
+.signout-about .signout-about-disclaimer {
+  margin-top: 1rem;
+  font-size: .9em;
+  font-weight: 650;
+}
+
 .signout-about .signout-about-close {
   flex: none;
   min-height: 2.25rem;
@@ -1653,6 +1659,7 @@ ${n+1}: ${w(X)?X.seq[q]:"SEQ unavailable"} \xB7 reference ${b.reference[n-b.regi
     <p>Phase reads the selected locus through the BAM index and pairs records by read name and read group. Conflicting callable bases or indels block a merge. Uncovered sites stay unknown. Site VAF counts alternate-supporting fragments among callable fragments and counts overlapping mates once. Group share uses all included fragments in the loaded interval.</p>
     <h3>Transcript catalog</h3>
     <p>Gene search uses bundled NCBI RefSeq transcript coordinates from UCSC for hg19 and hg38. Choose the assembly used to align the BAM.</p>
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>
   <script>
 (() => {

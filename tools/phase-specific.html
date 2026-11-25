@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-KKTI31m1aN+SZguiUDATUxKrupNAptT/48lOGxqmLig=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-TawbBxPBbUt9lR7Bvq1L8eGB7gaJWLzdR7g+1EKiJD4=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-KKTI31m1aN+SZguiUDATUxKrupNAptT/48lOGxqmLig=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-TawbBxPBbUt9lR7Bvq1L8eGB7gaJWLzdR7g+1EKiJD4=' 'sha256-osYJUdI+nxSWuN/WoK7hW8pAb1dymL5pdPuTEz+IxjY='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
     <title>Phase / specific variants</title>
     <style>:root {
   color-scheme: light;
@@ -901,6 +901,12 @@ dialog.signout-about::backdrop {
   color: inherit;
 }
 
+.signout-about .signout-about-disclaimer {
+  margin-top: 1rem;
+  font-size: .9em;
+  font-weight: 650;
+}
+
 .signout-about .signout-about-close {
   flex: none;
   min-height: 2.25rem;
@@ -1282,6 +1288,7 @@ dialog.signout-about::backdrop {
     <p>Phase queries each site through the BAM index. Read pairs count once, including when each mate covers a different site. Together and separate frequencies use fragments carrying at least one requested alternate and a callable REF or ALT at both sites. Optional helper SNPs report indirect links separately from direct fragment counts.</p>
     <h3>Transcript mapping</h3>
     <p>Coding HGVS uses bundled hg19/hg38 NCBI RefSeq coordinates from UCSC. Indels are evaluated at the stated coordinates. Equivalent shifted indels in repeats can be missed.</p>
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>
   <script>
 (() => {

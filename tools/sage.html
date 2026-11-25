@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'none'; img-src data: blob:; media-src 'none'; connect-src 'none'; font-src 'none'; script-src 'sha256-WXHynv4VBx6stf81fyrH1kKS2y2v+9f8DcgooNrQazE=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; style-src 'none'; style-src-elem 'sha256-nNjZpHIb+hIK4lQYEtr4c+qACn5/i4NuY5LAyK1wYOs=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'none'"
+      content="default-src 'none'; img-src data: blob:; media-src 'none'; connect-src 'none'; font-src 'none'; script-src 'sha256-WXHynv4VBx6stf81fyrH1kKS2y2v+9f8DcgooNrQazE=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; style-src 'none'; style-src-elem 'sha256-nNjZpHIb+hIK4lQYEtr4c+qACn5/i4NuY5LAyK1wYOs=' 'sha256-osYJUdI+nxSWuN/WoK7hW8pAb1dymL5pdPuTEz+IxjY='; style-src-attr 'unsafe-inline'; object-src 'none'; base-uri 'none'; form-action 'none'"
     >
     <meta http-equiv="Cache-Control" content="no-store">
     <meta http-equiv="Pragma" content="no-cache">
@@ -596,6 +596,12 @@ dialog.signout-about::backdrop {
 .signout-about p {
   margin: 0;
   color: inherit;
+}
+
+.signout-about .signout-about-disclaimer {
+  margin-top: 1rem;
+  font-size: .9em;
+  font-weight: 650;
 }
 
 .signout-about .signout-about-close {
@@ -3245,6 +3251,7 @@ dialog.signout-about::backdrop {
     <p>SAGE applies brightness, contrast, gamma, and other adjustments to a working copy on the canvas. The source image is left intact. Overlay crops and transforms affect how the layers are drawn.</p>
     <h3>Reference overlays</h3>
     <p>Overlay images come from files you select. Compare band positions by eye after alignment.</p>
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>
   <script>
 (() => {

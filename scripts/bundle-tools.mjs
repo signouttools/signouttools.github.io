@@ -91,6 +91,7 @@ function addAboutDialog(html, name) {
       <button class="signout-about-close" type="button" autofocus>Close</button>
     </div>
 ${content}
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>`;
   const script = `
 (() => {

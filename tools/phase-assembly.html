@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-/924xb0UCw9+FwXca6dugUnRYWXAB6r2IIyDqpvORLo=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-t6+9BQv+R761GU+f+Q6nuzl/dY8H6h5cGeT5oM0+oHQ=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-/924xb0UCw9+FwXca6dugUnRYWXAB6r2IIyDqpvORLo=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-t6+9BQv+R761GU+f+Q6nuzl/dY8H6h5cGeT5oM0+oHQ=' 'sha256-osYJUdI+nxSWuN/WoK7hW8pAb1dymL5pdPuTEz+IxjY='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
     <title>Phase · assembly</title>
     <style>:root {
   font:
@@ -668,6 +668,12 @@ dialog.signout-about::backdrop {
   color: inherit;
 }
 
+.signout-about .signout-about-disclaimer {
+  margin-top: 1rem;
+  font-size: .9em;
+  font-weight: 650;
+}
+
 .signout-about .signout-about-close {
   flex: none;
   min-height: 2.25rem;
@@ -1029,6 +1035,7 @@ dialog.signout-about::backdrop {
     <p>Phase builds a de Bruijn graph from local read sequences using k-mers (default 31) and condenses unbranched paths. Read paths define alternative sequences at graph branches. Paired fragments link these alternatives into local patterns. Ambiguous fragments can remain shared across patterns.</p>
     <h3>Reference and counts</h3>
     <p>Bundled NCBI RefSeq coordinates from UCSC support hg19/hg38 gene lookup. The optional genome reference labels assembled sequence. Pattern share and allele fraction are calculated from supporting fragments.</p>
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>
   <script>
 (() => {

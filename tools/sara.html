@@ -105,6 +105,12 @@ dialog.signout-about::backdrop {
   color: inherit;
 }
 
+.signout-about .signout-about-disclaimer {
+  margin-top: 1rem;
+  font-size: .9em;
+  font-weight: 650;
+}
+
 .signout-about .signout-about-close {
   flex: none;
   min-height: 2.25rem;
@@ -561,6 +567,7 @@ setup();
     <p>SARA checks reported protein positions against bundled Core, Broad, or Maximal gene-and-residue lists, using the selected distance window. The source datasets for those lists are undocumented in this release. A separate NCBI ClinVar pathogenic/likely pathogenic snapshot flags exact hg19 alleles after trimming shared bases. Truncating variants in the selected tumor suppressor gene tier also get a review flag.</p>
     <h3>Signatures and TMB</h3>
     <p>SBS-96 and DBS-78 profiles are compared with COSMIC v3.4 by cosine similarity, with an optional non-negative mixture fit. TMB divides qualifying variants by the configured assay size (default 42.964144 Mb). The UCSC chain maps hg19 alleles to hg38 when the full allele maps continuously.</p>
+    <p class="signout-about-disclaimer">For research use only.</p>
   </dialog>
   <script>
 (() => {
