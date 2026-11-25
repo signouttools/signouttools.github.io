@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="x-dns-prefetch-control" content="off">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-tmUEc40L6K4CC9bAM2akt1O2dI5RDJr2ZnPBKTuhoC8=' 'sha256-Tk4A7EC7RZLBVZLgINmSFMdu5Cz/L0d5L3mkWPFLNQI=' 'sha256-qKTeQn40e+nxQDaGKaOhQ5mjG9WKZG4M1gDshFlCupo=' 'sha256-zsklSIDl9Zp6R6wOFyIAJkfB0zZEb15yh062VKnKbGg='; style-src 'unsafe-inline'; img-src 'none'; worker-src blob:; child-src 'none'; connect-src 'none'; font-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-tmUEc40L6K4CC9bAM2akt1O2dI5RDJr2ZnPBKTuhoC8=' 'sha256-Tk4A7EC7RZLBVZLgINmSFMdu5Cz/L0d5L3mkWPFLNQI=' 'sha256-qKTeQn40e+nxQDaGKaOhQ5mjG9WKZG4M1gDshFlCupo=' 'sha256-zsklSIDl9Zp6R6wOFyIAJkfB0zZEb15yh062VKnKbGg=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; style-src 'unsafe-inline'; img-src 'none'; worker-src blob:; child-src 'none'; connect-src 'none'; font-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'">
   <meta name="color-scheme" content="light">
   <meta name="description" content="SARA is a private, offline application for somatic variant analysis and review.">
   <meta name="application-name" content="SARA">
@@ -25,6 +25,107 @@ body.column-resizing,body.column-resizing *{cursor:col-resize!important;user-sel
 .row-actions{min-height:48px;border-top:1px solid var(--line);border-bottom:0;border-radius:8px 8px 0 0;flex-wrap:wrap}.row-actions a{white-space:nowrap}.external-links{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.linkout-note{flex-basis:100%;text-align:right;margin-top:-5px}.tools-button{width:100%;padding:3px 6px;border:1px solid #9eacc1;border-radius:5px;background:#fff;color:var(--accent);font-size:11px;font-weight:700;cursor:pointer}.tools-button:hover,.tools-button:focus{background:#eff6ff;border-color:var(--accent)}
 .table-wrap th.not-sortable{cursor:default}
 </style>
+  <style>
+button.signout-about-trigger {
+  flex-shrink: 0;
+  min-height: 2rem;
+  padding: .25rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button.signout-about-trigger:hover {
+  color: #172839;
+  background: #e0ebf3;
+}
+
+button.signout-about-trigger:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+
+.signout-about-actions {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+
+dialog.signout-about {
+  box-sizing: border-box;
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: clamp(1rem, 4vw, 1.65rem);
+  overflow: auto;
+  color: #172839;
+  background: #fff;
+  border: 1px solid #c4d3df;
+  border-radius: .75rem;
+  box-shadow: 0 1rem 3rem #14273a30;
+  font: max(16px, 1rem)/1.5 system-ui, sans-serif;
+  text-align: start;
+}
+
+.dark-mode dialog.signout-about {
+  color: #e8f0f6;
+  background: #172839;
+  border-color: #4d6479;
+}
+
+dialog.signout-about::backdrop {
+  background: #111e31a3;
+}
+
+.signout-about-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.signout-about h2 {
+  margin: 0;
+  color: inherit;
+  font: 700 1.35em/1.2 system-ui, sans-serif;
+}
+
+.signout-about h3 {
+  margin: 1rem 0 .2rem;
+  color: inherit;
+  font: 700 .95em/1.35 system-ui, sans-serif;
+}
+
+.signout-about p {
+  margin: 0;
+  color: inherit;
+}
+
+.signout-about .signout-about-close {
+  flex: none;
+  min-height: 2.25rem;
+  padding: .2rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font: 650 .875em/1.3 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.signout-about .signout-about-close:hover {
+  background: #e0ebf3;
+}
+
+.signout-about .signout-about-close:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+</style>
 </head>
 <body spellcheck="false">
   <header class="app-header">
@@ -38,6 +139,7 @@ body.column-resizing,body.column-resizing *{cursor:col-resize!important;user-sel
     <div class="header-actions">
       <label class="button"><input id="report-input" type="file" accept=".csv,.tsv,.txt,text/csv,text/tab-separated-values" autocomplete="off" hidden>Open report</label>
       <label class="button"><input id="genome-input" type="file" accept=".2bit,application/octet-stream" autocomplete="off" hidden>Open hg19 .2bit</label>
+      <button type="button" data-signout-about class="signout-about-trigger" aria-haspopup="dialog">About</button>
       <button id="cancel-button" class="button" hidden>Cancel</button>
     </div>
   </header>
@@ -447,6 +549,27 @@ function setup(){
   initWorker()
 }
 setup();
+</script>
+  <dialog id="signout-about-dialog" class="signout-about" aria-labelledby="signout-about-title">
+    <div class="signout-about-top">
+      <h2 id="signout-about-title">About SARA</h2>
+      <button class="signout-about-close" type="button" autofocus>Close</button>
+    </div>
+    <h3>Use</h3>
+    <p>Open an hg19 somatic variant TSV or compact CSV. Use the Variants tab to filter and review calls. Add the matching hg19 .2bit file for SBS-96 sequence contexts, homopolymer checks, and indel anchoring.</p>
+    <h3>Hotspots and review flags</h3>
+    <p>SARA checks reported protein positions against bundled Core, Broad, or Maximal gene-and-residue lists, using the selected distance window. The source datasets for those lists are undocumented in this release. A separate NCBI ClinVar pathogenic/likely pathogenic snapshot flags exact hg19 alleles after trimming shared bases. Truncating variants in the selected tumor suppressor gene tier also get a review flag.</p>
+    <h3>Signatures and TMB</h3>
+    <p>SBS-96 and DBS-78 profiles are compared with COSMIC v3.4 by cosine similarity, with an optional non-negative mixture fit. TMB divides qualifying variants by the configured assay size (default 42.964144 Mb). The UCSC chain maps hg19 alleles to hg38 when the full allele maps continuously.</p>
+  </dialog>
+  <script>
+(() => {
+  const dialog = document.getElementById('signout-about-dialog');
+  dialog.querySelector('.signout-about-close').addEventListener('click', () => dialog.close());
+  document.addEventListener('click', event => {
+    if (event.target.closest('[data-signout-about]') && !dialog.open) dialog.showModal();
+  });
+})();
 </script>
 </body>
 </html>

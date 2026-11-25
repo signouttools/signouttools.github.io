@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { about } from './about-content.mjs';
 
 const site = fileURLToPath(new URL('../', import.meta.url));
 const sources = resolve(process.argv[2] ?? resolve(site, '..'));
@@ -10,6 +11,7 @@ const notices = {
   fiq: await readFile(new URL('./third-party-notices/fiq.txt', import.meta.url), 'utf8'),
   phase: await readFile(new URL('./third-party-notices/phase.txt', import.meta.url), 'utf8'),
 };
+const aboutStyle = '\n' + (await readFile(new URL('./about.css', import.meta.url), 'utf8')).replace(/\r\n?/g, '\n');
 const tools = [
   ['CARA/index.html', 'cara', true],
   ['SARA/index.html', 'sara'],
@@ -48,6 +50,79 @@ function useClassicFiqWorker(contents) {
     .replace(worker, 'new Worker($1,{name:$2})');
 }
 
+function replaceRequired(contents, marker, replacement) {
+  assert.match(contents, marker);
+  return contents.replace(marker, replacement);
+}
+
+function addAboutTrigger(contents, name) {
+  const prompt = name === 'cara' ? 'id="about-button"' : 'data-signout-about';
+  const button = `<button type="button" ${prompt} class="signout-about-trigger" aria-haspopup="dialog">About</button>`;
+  if (name === 'fiq') {
+    return replaceRequired(contents, /<div class="privacy-pill">[^\n]*<\/div>/,
+      privacy => `<div class="signout-about-actions">${privacy}${button}</div>`);
+  }
+  if (name === 'cara') {
+    contents = replaceRequired(contents, /<button id="about-button">About CARA<\/button>/, '');
+  }
+  const marker = {
+    cara: /<button id="download-review"/,
+    sara: /<button id="cancel-button"/,
+    sage: /<button id="themeToggleBtn"/,
+    phase: /<button id="toggleInputs"/,
+    'phase-automatic': /<button id="clear"/,
+    'phase-assembly': /<button id="reset"/,
+    'phase-specific': /<div class="privacy">[^<]*<span class="privacy-dot"><\/span>[^<]*<\/div>/,
+  }[name];
+  return replaceRequired(contents, marker, match => name === 'phase-specific'
+    ? `<div class="signout-about-actions">${match}${button}</div>`
+    : `${button}\n      ${match}`);
+}
+
+function addAboutDialog(html, name) {
+  const id = name === 'cara' ? 'about-dialog' : 'signout-about-dialog';
+  const { title, sections } = about[name];
+  const escape = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+  const content = sections.map(([heading, paragraph]) =>
+    `    <h3>${escape(heading)}</h3>\n    <p>${escape(paragraph)}</p>`).join('\n');
+  const dialog = `  <dialog id="${id}" class="signout-about" aria-labelledby="signout-about-title">
+    <div class="signout-about-top">
+      <h2 id="signout-about-title">About ${escape(title)}</h2>
+      <button class="signout-about-close" type="button" autofocus>Close</button>
+    </div>
+${content}
+  </dialog>`;
+  const script = `
+(() => {
+  const dialog = document.getElementById('${id}');
+  dialog.querySelector('.signout-about-close').addEventListener('click', () => dialog.close());
+  document.addEventListener('click', event => {
+    if (event.target.closest('[data-signout-about]') && !dialog.open) dialog.showModal();
+  });
+})();
+`;
+  if (name !== 'fiq') html = addAboutTrigger(html, name);
+  if (name === 'cara') {
+    html = replaceRequired(html, /^[ \t]*<dialog id="about-dialog"[\s\S]*?<\/dialog>/m, () => dialog);
+  }
+  html = replaceRequired(html, /^(\s*)<\/head>\s*\n(?=\s*<body\b)/m,
+    end => `  <style>${aboutStyle}</style>\n${end}`);
+  html = replaceRequired(html, /^([ \t]*)<\/body>/m, end =>
+    `${name === 'cara' ? '' : dialog + '\n'}  <script>${script}</script>\n${end}`);
+
+  return replaceRequired(html, csp, (_, open, original, close) => {
+    const allowHash = (policy, name, hash) =>
+      replaceRequired(policy, new RegExp(`\\b${name} (?=[^;])[^;]+`), directive => `${directive} '${hash}'`);
+    let policy = allowHash(original, 'script-src', digest(script));
+    // SARA already permits inline styles. Adding a hash to that directive would disable that permission.
+    if (name !== 'sara') {
+      const directive = policy.includes('style-src-elem ') ? 'style-src-elem' : 'style-src';
+      policy = allowHash(policy, directive, digest(aboutStyle));
+    }
+    return open + policy + close;
+  });
+}
+
 async function bundle(source, html, name) {
   const scripts = [];
   const styles = [];
@@ -73,7 +148,7 @@ async function bundle(source, html, name) {
     assert.doesNotMatch(contents, /<\/script\b|<!--/i);
     const defer = /\sdefer(?=\s|>)/.test(tag);
     const module = /\stype="module"/.test(tag);
-    if (name === 'fiq') contents = useClassicFiqWorker(contents);
+    if (name === 'fiq') contents = addAboutTrigger(useClassicFiqWorker(contents), name);
     if (name === 'sage') {
       // The standalone release has no prior storage or service worker to migrate.
       const cleanup = /^  function clearLegacyBrowserPersistence\(\) \{\n[\s\S]*?^  \}\n\n/m;
@@ -130,6 +205,7 @@ for (const [path, name, needsBundling] of tools) {
   const source = resolve(sources, path);
   const original = await readFile(source, 'utf8');
   let html = needsBundling ? await bundle(source, original, name) : removePhaseNavigation(original, name);
+  html = addAboutDialog(html, name);
   const notice = notices[name.split('-')[0]];
   if (notice) {
     assert.doesNotMatch(notice, /--!?>/);

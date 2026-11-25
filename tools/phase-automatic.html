@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-laC07/XXFn0eodZhYA0/5PCp4h97uo+JvtyRtWfLJY4='; script-src-attr 'none'; style-src 'sha256-aRXNEWApjCb+ZupCodtHUp8/mvWukbN4hIXq2y9WI8A='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-laC07/XXFn0eodZhYA0/5PCp4h97uo+JvtyRtWfLJY4=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-aRXNEWApjCb+ZupCodtHUp8/mvWukbN4hIXq2y9WI8A=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Phase · automatic grouping</title>
     <style>:root {
@@ -569,6 +569,107 @@ textarea {
   font-size: 10px;
 }
 </style>
+  <style>
+button.signout-about-trigger {
+  flex-shrink: 0;
+  min-height: 2rem;
+  padding: .25rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button.signout-about-trigger:hover {
+  color: #172839;
+  background: #e0ebf3;
+}
+
+button.signout-about-trigger:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+
+.signout-about-actions {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+
+dialog.signout-about {
+  box-sizing: border-box;
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: clamp(1rem, 4vw, 1.65rem);
+  overflow: auto;
+  color: #172839;
+  background: #fff;
+  border: 1px solid #c4d3df;
+  border-radius: .75rem;
+  box-shadow: 0 1rem 3rem #14273a30;
+  font: max(16px, 1rem)/1.5 system-ui, sans-serif;
+  text-align: start;
+}
+
+.dark-mode dialog.signout-about {
+  color: #e8f0f6;
+  background: #172839;
+  border-color: #4d6479;
+}
+
+dialog.signout-about::backdrop {
+  background: #111e31a3;
+}
+
+.signout-about-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.signout-about h2 {
+  margin: 0;
+  color: inherit;
+  font: 700 1.35em/1.2 system-ui, sans-serif;
+}
+
+.signout-about h3 {
+  margin: 1rem 0 .2rem;
+  color: inherit;
+  font: 700 .95em/1.35 system-ui, sans-serif;
+}
+
+.signout-about p {
+  margin: 0;
+  color: inherit;
+}
+
+.signout-about .signout-about-close {
+  flex: none;
+  min-height: 2.25rem;
+  padding: .2rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font: 650 .875em/1.3 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.signout-about .signout-about-close:hover {
+  background: #e0ebf3;
+}
+
+.signout-about .signout-about-close:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+</style>
   </head>
   <body>
     <header>
@@ -576,6 +677,7 @@ textarea {
         <b>phase<span> / </span></b><span>AUTOMATIC GROUPING</span>
       </div>
       <div class="privacy"><i></i> Offline · Session only</div>
+      <button type="button" data-signout-about class="signout-about-trigger" aria-haspopup="dialog">About</button>
       <button id="clear">Clear session</button>
     </header>
     <main>
@@ -989,6 +1091,27 @@ Sequence: ${O.seq}
 Base qualities: ${O.qual.join(",")}`}).join(`
 
 `)};x.onclick=p,x.onkeydown=F=>{(F.key==="Enter"||F.key===" ")&&(F.preventDefault(),p())},y("readTable").append(x)}}var Sr=null,hr=null,ur=new Map;function lr(){return Sr!==T&&(Sr=T,hr=new Map(T.result.reads.map(r=>[r.id,r])),ur.clear()),hr}function EV(r,V){let l=r.type==="family"?`${r.family.kind==="overview"?"g":"f"}${r.family.id}:${y("layer").value}`:`m${r.member.id}:${y("layer").value}`;if(ur.has(l))return ur.get(l);let c=r.type==="family"?r.family.members.map(u=>({...u,readIds:u.readIds.filter(X=>y("layer").value==="all"||(y("layer").value==="excluded"?lr().get(X).excluded:!lr().get(X).excluded))})).filter(u=>u.readIds.length):null;if(c&&(V=c.flatMap(u=>u.readIds)),r.type==="family"&&r.family.kind==="overview"){let u=Ul(c,lr(),T.reference,T.region.start,T.result.settings);return ur.set(l,u),u}let W=Yl(V.map(u=>lr().get(u)),T.reference,T.region.start);return ur.set(l,W),W}var G=null,xr=0,Tr=!1;function Q5(){if(!G?.moved||!T||!Y)return;let r=G.end-G.start,V=Math.max(T.region.start,Math.min(T.region.end-r,Math.round(G.start+(G.x-G.currentX)*r/G.width)));Y.start!==V&&(Y.start=V,Y.end=V+r,Vr=null,H())}function Ir(r=!1){if(xr&&cancelAnimationFrame(xr),xr=0,!G)return;r||Q5();let V=G.id;Tr=G.moved,G=null;let l=y("pileup");l.classList.remove("dragging"),l.hasPointerCapture(V)&&l.releasePointerCapture(V)}y("pileup").onpointerdown=r=>{if(!T||!Y||r.button!==0||!r.isPrimary||G)return;let V=y("pileup"),l=V.getBoundingClientRect();Tr=!1,G={id:r.pointerId,x:r.clientX,currentX:r.clientX,start:Y.start,end:Y.end,width:Math.max(1,l.width-130),moved:!1},V.setPointerCapture(r.pointerId),V.focus({preventScroll:!0})};y("pileup").onpointermove=r=>{!G||r.pointerId!==G.id||(G.currentX=r.clientX,Math.abs(r.clientX-G.x)>4&&(G.moved=!0,y("pileup").classList.add("dragging")),G.moved&&!xr&&(xr=requestAnimationFrame(()=>{xr=0,Q5()})))};y("pileup").onpointerup=r=>{G?.id===r.pointerId&&Ir()};y("pileup").onpointercancel=r=>{G?.id===r.pointerId&&Ir(!0)};y("pileup").onlostpointercapture=r=>{G?.id===r.pointerId&&Ir(!0)};y("pileup").addEventListener("pointermove",r=>{if(G||!T)return;let V=r.clientY-y("pileup").getBoundingClientRect().top;if(V<110){y("pileup").removeAttribute("title");return}let l=Kr()[Math.floor((V-110+w)/I)];if(!l)return;let c=l.family;if(c.blockID&&c.haplotypeID){mr.showGroup(c.blockID,c.haplotypeID);let W=T.result.hierarchy.find(X=>X.blockID===c.blockID),u=W.groups.find(X=>X.id===c.haplotypeID);y("pileup").title=mr.info(W,u)}else{let W=`${c.label||"Family"}: ${l.count} displayed fragments; ${c.excluded} excluded, ${c.duplicates} duplicate-marked. These records are not assigned to a unique supported haplotype. Expand to inspect every pair.`;mr.showSummary(W),y("pileup").title=W}});y("pileup").onclick=r=>{if(Tr){Tr=!1;return}let V=r.clientY-y("pileup").getBoundingClientRect().top;if(V<110)return;let l=Kr()[Math.floor((V-110+w)/I)];l?.type==="family"&&pl(l.family.id)};y("readScroll").onscroll=()=>{w=y("readScroll").scrollTop,H()};y("pileup").addEventListener("wheel",r=>{r.preventDefault(),y("readScroll").scrollTop+=r.deltaY},{passive:!1});y("collapse").onchange=()=>{Q(),H()};y("collapseAll").onclick=()=>{D.clear(),y("collapse").checked=!0,Q(),H()};y("expandAll").onclick=()=>{for(let r of T?C5():[])D.add(r.id);Q(),H()};function Ol(r){if(!Y)return;let V=(Y.start+Y.end)/2,l=Math.max(20,Math.min(T.region.end-T.region.start,(Y.end-Y.start)*r));Y.start=Math.max(T.region.start,Math.min(T.region.end-l,Math.floor(V-l/2))),Y.end=Math.min(T.region.end,Y.start+Math.ceil(l)),C=0,Q(),H()}function Hr(r){if(!Y)return;let V=Y.end-Y.start;Y.start=Math.max(T.region.start,Math.min(T.region.end-V,Math.round(Y.start+V*r))),Y.end=Y.start+V,C=0,Q(),H()}Kl(y("minVaf"),{current:()=>T?.result.settings.minVaf??(T?.02:null),busy:()=>!y("cancel").disabled,update:r=>{P(!0),S("Updating visible variants from loaded reads\u2026"),h.postMessage({type:"vaf",minVaf:r,request:++sr})},error:r=>S(r.message,!0)});y("zoomIn").onclick=()=>Ol(.5);y("zoomOut").onclick=()=>Ol(2);y("left").onclick=()=>Hr(-.5);y("right").onclick=()=>Hr(.5);y("fit").onclick=()=>{T&&(Y={...T.region},C=0,Q(),H())};for(let r of["sort","layer","clips"])y(r).onchange=()=>{C=0,Q(),H()};y("detail").onchange=()=>{D.clear(),ur.clear(),Q(),H()};y("pileup").onkeydown=r=>{if(["ArrowDown","ArrowUp","PageDown","PageUp","Home","End"].includes(r.key)){r.preventDefault();let V=y("readScroll");r.key==="Home"?V.scrollTop=0:r.key==="End"?V.scrollTop=V.scrollHeight:V.scrollTop+=(r.key==="ArrowUp"?-1:r.key==="ArrowDown"?1:r.key==="PageUp"?-20:20)*I;return}if(r.key==="Enter"){let V=Kr()[Math.floor(w/I)];V?.type==="family"&&pl(V.family.id);return}["ArrowLeft","ArrowRight","+","-"].includes(r.key)&&(r.preventDefault(),r.key==="ArrowLeft"?Hr(-.25):r.key==="ArrowRight"?Hr(.25):Ol(r.key==="+"?.5:2))};new ResizeObserver(()=>{H(),mr.draw()}).observe(y("canvasWrap"));})();
+</script>
+  <dialog id="signout-about-dialog" class="signout-about" aria-labelledby="signout-about-title">
+    <div class="signout-about-top">
+      <h2 id="signout-about-title">About Phase · Automatic grouping</h2>
+      <button class="signout-about-close" type="button" autofocus>Close</button>
+    </div>
+    <h3>Use</h3>
+    <p>Open a coordinate-sorted BAM, its BAI or CSI, and the alignment reference as .2bit or uncompressed FASTA with FAI. Choose a gene or 1-based interval, then select Analyze. Expand a group to inspect its original read pairs.</p>
+    <h3>Grouping</h3>
+    <p>Phase calls local SNPs and CIGAR indels and builds phase blocks from alleles observed together on fragments. Within a block it groups compatible allele patterns. Reads that fit multiple patterns can remain ambiguous, and overlapping mates count once. Disconnected blocks are reported separately. Group counts describe the observed fragments in each block.</p>
+    <h3>Transcript catalog</h3>
+    <p>Gene and transcript lookup uses bundled NCBI RefSeq coordinates from UCSC for hg19 and hg38.</p>
+  </dialog>
+  <script>
+(() => {
+  const dialog = document.getElementById('signout-about-dialog');
+  dialog.querySelector('.signout-about-close').addEventListener('click', () => dialog.close());
+  document.addEventListener('click', event => {
+    if (event.target.closest('[data-signout-about]') && !dialog.open) dialog.showModal();
+  });
+})();
 </script>
   </body>
 </html>

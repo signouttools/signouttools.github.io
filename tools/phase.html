@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-7qu4JWFSN8O94YzR4YeyARFaJPfzy6FbtAfJovCCylw='; script-src-attr 'none'; style-src 'sha256-7tyr/MWw2iN8W4mUyflXeBwdy+hvws7e0pzsKM6cx+8='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-7qu4JWFSN8O94YzR4YeyARFaJPfzy6FbtAfJovCCylw=' 'sha256-p50ovObecjq67nb7MR+pEMlx306jQOUnsxFZ/9rkTKE='; script-src-attr 'none'; style-src 'sha256-7tyr/MWw2iN8W4mUyflXeBwdy+hvws7e0pzsKM6cx+8=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'none'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'; manifest-src 'none'">
     <title>Phase · manual haplotype workspace</title>
     <style>:root {
   font:
@@ -1124,6 +1124,107 @@ body:not(.inputs-open) main {
   flex: 0 0 64px;
 }
 </style>
+  <style>
+button.signout-about-trigger {
+  flex-shrink: 0;
+  min-height: 2rem;
+  padding: .25rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button.signout-about-trigger:hover {
+  color: #172839;
+  background: #e0ebf3;
+}
+
+button.signout-about-trigger:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+
+.signout-about-actions {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+
+dialog.signout-about {
+  box-sizing: border-box;
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: clamp(1rem, 4vw, 1.65rem);
+  overflow: auto;
+  color: #172839;
+  background: #fff;
+  border: 1px solid #c4d3df;
+  border-radius: .75rem;
+  box-shadow: 0 1rem 3rem #14273a30;
+  font: max(16px, 1rem)/1.5 system-ui, sans-serif;
+  text-align: start;
+}
+
+.dark-mode dialog.signout-about {
+  color: #e8f0f6;
+  background: #172839;
+  border-color: #4d6479;
+}
+
+dialog.signout-about::backdrop {
+  background: #111e31a3;
+}
+
+.signout-about-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.signout-about h2 {
+  margin: 0;
+  color: inherit;
+  font: 700 1.35em/1.2 system-ui, sans-serif;
+}
+
+.signout-about h3 {
+  margin: 1rem 0 .2rem;
+  color: inherit;
+  font: 700 .95em/1.35 system-ui, sans-serif;
+}
+
+.signout-about p {
+  margin: 0;
+  color: inherit;
+}
+
+.signout-about .signout-about-close {
+  flex: none;
+  min-height: 2.25rem;
+  padding: .2rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font: 650 .875em/1.3 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.signout-about .signout-about-close:hover {
+  background: #e0ebf3;
+}
+
+.signout-about .signout-about-close:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+</style>
   </head>
   <body class="inputs-open">
     <header>
@@ -1135,7 +1236,8 @@ body:not(.inputs-open) main {
         </div>
       </div>
       <div class="chrome-controls">
-        <button id="toggleInputs" aria-expanded="true">Files & region</button
+        <button type="button" data-signout-about class="signout-about-trigger" aria-haspopup="dialog">About</button>
+      <button id="toggleInputs" aria-expanded="true">Files & region</button
         ><button id="toggleAnalysis" aria-expanded="false">
           Haplotypes / VAF</button
         ><button id="toggleTop" aria-expanded="true">Compact top</button
@@ -1539,6 +1641,27 @@ ${t.readIds.map(Z=>{let q=b.readById.get(Z);return`${q.flags&128?"R2":q.flags&64
 Mate: ${X.mateChr}:${X.mate+1}`),s?.detail)u+=`
 `+s.detail;else if(n>=b.region.start&&n<b.region.end){for(let Z of X.runs)if("M=X".includes(Z.op)&&n>=Z.refStart&&n<Z.refStart+Z.length){let q=Z.queryStart+n-Z.refStart;u+=`
 ${n+1}: ${w(X)?X.seq[q]:"SEQ unavailable"} \xB7 reference ${b.reference[n-b.region.start]} \xB7 base Q ${X.qual?.[q]===255?"unknown":X.qual?.[q]??"unknown"}`}}}y!==Kr&&(m("tooltip").textContent=u,Kr=y),m("tooltip").hidden=!1,m("tooltip").style.left=Math.min(innerWidth-390,Math.max(8,r.clientX+14))+"px",m("tooltip").style.top=Math.min(innerHeight-240,Math.max(8,r.clientY+15))+"px"}ql.onclick=r=>{if(!b)return;let c=ql.getBoundingClientRect(),l=r.clientX-c.left;l<H()||l>=Zl()-12||(o=Math.floor(Y.start+(l-H())/(Zl()-H()-12)*(Y.end-Y.start)),o=Math.max(b.region.start,Math.min(b.region.end-1,o)),m("siteLabel").textContent=`${b.region.chr}:${o+1}`,jr(),S(),xl(),m("sort").value==="allele"&&m("sort").onchange())};function xl(){if(!b||o===null){m("sitePanel").hidden=!0,m("siteLabel").textContent="No site selected";return}m("siteLabel").textContent=`${b.region.chr}:${o+1}`,m("sitePanel").hidden=!1,m("siteTitle").textContent=`${b.region.chr}:${o+1} \xB7 REF ${b.reference[o-b.region.start]}`;let r=m("siteStats"),c=pr(b,b.fragments.map(l=>l.id),o);r.replaceChildren(...[...c.counts].map(([l,e])=>F("p",`${l}: ${e}/${c.total} callable pairs (${Lr(e,c.total)})`,"detail-line")),F("p",`${c.unknown} uncovered/filtered \xB7 ${c.conflicting} contradictory pairs`,"muted"))}function Pe(){let r=m("groupList");if(r.replaceChildren(),!b)return;let c=b.activeIDs(b.fragments.map(l=>l.id)).length;for(let l of b.groups){let e=b.activeIDs(l.members).length,V=F("button",void 0,"group-chip");V.dataset.group=String(l.id),V.append(F("span","\u25CF","swatch"),F("strong",l.name),F("span",`${e} pairs \xB7 ${Lr(e,c)}`)),V.firstChild.style.color=bl(l.id),V.classList.toggle("selected",g?.kind==="group"&&g.id===l.id),V.onclick=()=>{nr({kind:"group",id:l.id});let W=h.findIndex(n=>n.kind==="group"&&n.group.id===l.id);m("readScroll").scrollTop=Math.max(0,I.byItem.get(W)?.y||0)},r.append(V)}}function nr(r){g=r;for(let l of document.querySelectorAll(".group-chip"))l.classList.toggle("selected",r?.kind==="group"&&+l.dataset.group===r.id);let c=m("inspector");if(c.replaceChildren(),!b||!r){m("inspectorTitle").textContent="Select a pair or haplotype",c.append(F("p","Hover reads for MAPQ. Select pairs to construct a haplotype; groups expose their fractions and variants here.","muted"));return}if(r.kind==="group"){let l=b.groups.find(t=>t.id===r.id);if(!l){nr(null);return}let e=Bl(b,l);m("inspectorTitle").textContent=l.name;let V=F("div",void 0,"rename"),W=F("input"),n=F("button","Rename");W.value=l.name,W.maxLength=80,W.setAttribute("aria-label","Rename haplotype"),n.onclick=()=>Wr(()=>b.rename(l.id,W.value),"Haplotype renamed."),V.append(W,n),c.append(V,F("p",`${e.members} included / ${e.assigned} assigned pairs \xB7 ${e.hidden} hidden`,"detail-line"),F("p",`Group pair share: ${e.members}/${e.total} (${Lr(e.members,e.total)})`,"detail-line"),F("p",`${e.summary.unknown} included pairs lack callable sequence at these settings.`,"muted")),e.summary.conflicts.length&&c.append(F("p",`${e.summary.conflicts.length} conflicting callable sites. Expand and ungroup contrary pairs, or revise evidence settings. No majority override is applied.`,"note warning")),c.append(F("p","Site VAF across all included callable pairs; within-group ALT fraction shown separately. Shares and VAFs are not cellular clone fractions.","note")),e.variants.length||c.append(F("p","No callable difference from reference in this haplotype.","muted"));let s=(t,X)=>{for(let Z of t){let q=F("div",void 0,"variant-stat");q.append(F("strong",`${Z.pos+1} ${Z.ref||"\u2205"} \u2192 ${Z.alt||"\u2205"}`),F("div",`Site VAF ${Z.altCount}/${Z.total} (${Lr(Z.altCount,Z.total)})`),F("div",`Within group ${Z.localAlt}/${Z.localTotal} (${Lr(Z.localAlt,Z.localTotal)})`)),q.onclick=()=>{o=Z.pos;let i=Math.min(100,b.region.end-b.region.start);zr(Z.pos-i/2,i),xl()},X.append(q)}};if(s(e.variants.slice(0,12),c),e.variants.length>12){let t=F("details");t.append(F("summary",`${e.variants.length-12} more variant positions`)),s(e.variants.slice(12),t),c.append(t)}c.append(F("p",`${e.summary.clips.length} distinct unaligned soft-clip sequences remain available on expansion.`,"muted"));let y=F("button",b.expanded.has(l.id)?"Collapse read pairs":"Expand read pairs");y.onclick=()=>{b.expanded.has(l.id)?b.expanded.delete(l.id):b.expanded.add(l.id),h=b.rows(m("sort").value,o,m("showHidden").checked),ur(),S(),E(),nr(r)};let u=F("button","Dissolve haplotype");u.onclick=()=>Wr(()=>{b.dissolve(l.id),g=null},"Haplotype dissolved; every read pair retained."),c.append(y,document.createTextNode(" "),u)}else{let l=b.fragments[r.id];if(!l)return;m("inspectorTitle").textContent=l.name;for(let e of l.readIds){let V=b.readById.get(e);c.append(F("p",`${V.flags&128?"Read 2":V.flags&64?"Read 1":"Read"} \xB7 MAPQ ${V.mq===255?"unknown":V.mq} \xB7 ${V.flags&16?"reverse":"forward"}`,"detail-line"),F("p",`${V.chr||b.region.chr}:${V.start+1}\u2013${V.end} \xB7 ${V.cigar||"no CIGAR"} \xB7 flags ${V.flags}`,"detail-line")),V.displayIssue&&c.append(F("p",V.displayIssue,"note warning"));let W=F("details");W.append(F("summary","Read sequence"),F("div",w(V)?V.seq:"Sequence unavailable","sequence")),c.append(W),V.sa&&c.append(F("p","SA: "+V.sa,"detail-line"))}c.append(F("p","Selection is the whole physical pair, including any available supplementary records.","note"))}}function Br(){let r=m("tree"),c=Math.max(85,(ir?.groups?.length||1)*30+30);r.style.height=c+"px";let{c:l,w:e}=c5(r,c);if(l.fillStyle="#fff",l.fillRect(0,0,e,c),Cr=[],m("cutLabel").textContent=m("treeCut").value+"% SNP difference",!b||!ir)return;if(ir.error){m("treeSummary").textContent=ir.error;return}let V=ir;if(m("treeSummary").textContent=`${V.groups.length} manual haplotypes \u2192 ${V.clusters.length} similarity clusters \xB7 ${V.sites.length} variable SNP sites${V.roots.length>1?" \xB7 disconnected evidence stays separate":""}.`,!V.groups.length)return;let W=Math.max(70,e*.4),n=W-8,s=new Map,y=0,u=q=>{let i=q.left?(u(q.left)+u(q.right))/2:25+y++*30;return s.set(q.id,i),i};V.roots.forEach(u);let t=q=>W-q.height*n;l.strokeStyle="#b1c6d3",l.lineWidth=1.3;function X(q){if(q.left){for(let i of[q.left,q.right])l.beginPath(),l.moveTo(t(q),s.get(i.id)),l.lineTo(t(i),s.get(i.id)),l.stroke(),X(i);l.beginPath(),l.moveTo(t(q),s.get(q.left.id)),l.lineTo(t(q),s.get(q.right.id)),l.stroke()}else{let i=b.groups.find(z=>z.id===q.groupID),a=s.get(q.id);l.fillStyle=bl(i.id),l.beginPath(),l.arc(W,a,3,0,Math.PI*2),l.fill(),l.fillStyle="#456c85",l.font="10px -apple-system,sans-serif",l.fillText(i.name.slice(0,18),W+10,a+3),Cr.push({id:i.id,y:a})}}V.roots.forEach(X),l.setLineDash([3,3]),l.strokeStyle="#d3af6d";let Z=W-+m("treeCut").value/100*n;l.beginPath(),l.moveTo(Z,5),l.lineTo(Z,c),l.stroke(),l.setLineDash([]),l.fillStyle="#859baa",l.font="8px sans-serif",l.fillText("SNP similarity \xB7 not ancestry",8,c-3)}m("treeCut").oninput=()=>{b&&(ir=Al(b,+m("treeCut").value/100),Br())};m("tree").onclick=r=>{if(!b)return;let c=m("tree").getBoundingClientRect(),l=Cr.find(e=>Math.abs(e.y-(r.clientY-c.top))<13);if(l){nr({kind:"group",id:l.id});let e=b.groups.find(V=>V.id===l.id);for(let V of e.members)(!b.hidden.has(V)||m("showHidden").checked)&&b.selection.add(V);S(),Q(),E()}};m("tree").onmousemove=r=>{if(!b||!Tr){m("tree").title="";return}let c=m("tree").getBoundingClientRect(),l=Cr.find(e=>Math.abs(e.y-(r.clientY-c.top))<13);if(l){let e=b.groups.find(W=>W.id===l.id),V=Bl(b,e);m("tree").title=`${e.name}: ${V.members}/${V.total} pair share (${Lr(V.members,V.total)}). ${V.variants.slice(0,6).map(W=>`${W.pos+1} ${W.alt}: site VAF ${W.altCount}/${W.total} (${Lr(W.altCount,W.total)})`).join("; ")}`}else m("tree").title=""};function E(r=0){let c=m("accessibleRows");if(!b){c.replaceChildren();return}let l=I.order,e=r*50,V=Math.min(e+50,l.length);if(c.replaceChildren(F("span",l.length?`${e+1}\u2013${V} of ${l.length} displayed items`:"No displayed items")),e>0){let W=F("button","Previous 50");W.onclick=()=>E(r-1),c.append(W)}if(V<l.length){let W=F("button","Next 50");W.onclick=()=>E(r+1),c.append(W)}for(let W of l.slice(e,V)){let n=h[W],s=I.byItem.get(W),y=F("button",`${n.kind==="group"?n.group.name:n.fragment.name}${n.members.some(u=>b.selection.has(u))?" \u2713":""}`);y.dataset.item=W,y.dataset.x=Math.max(H()+5,Math.min(U.clientWidth-18,(s.x1+s.x2)/2)),y.dataset.y=s.y+s.height/2,y.dataset.key=n.key,y.setAttribute("aria-pressed",String(n.members.length>0&&n.members.every(u=>b.selection.has(u)))),y.onclick=u=>W5(W,u.shiftKey),c.append(y)}}document.onkeydown=r=>{/INPUT|SELECT|TEXTAREA/.test(r.target.tagName)||((r.ctrlKey||r.metaKey)&&r.key.toLowerCase()==="z"?(r.preventDefault(),(r.shiftKey?m("redo"):m("undo")).click()):r.key==="Escape"?(xr(),m("clearSelection").click()):r.shiftKey&&r.key.toLowerCase()==="m"?(m("merge").click(),r.preventDefault()):r.shiftKey&&r.key.toLowerCase()==="h"?(m("hide").click(),r.preventDefault()):r.target===U&&r.key==="ArrowLeft"?(m("left").click(),r.preventDefault()):r.target===U&&r.key==="ArrowRight"&&(m("right").click(),r.preventDefault()))};new ResizeObserver(()=>{ur(),jr(),S(),Br()}).observe(m("readScroll"));kr();il();jr();S();Q();})();
+</script>
+  <dialog id="signout-about-dialog" class="signout-about" aria-labelledby="signout-about-title">
+    <div class="signout-about-top">
+      <h2 id="signout-about-title">About Phase · Manual</h2>
+      <button class="signout-about-close" type="button" autofocus>Close</button>
+    </div>
+    <h3>Use</h3>
+    <p>Open a coordinate-sorted BAM, its BAI or CSI, and the alignment reference as .2bit or uncompressed FASTA with FAI. Load a 1-based interval or choose a transcript. Select read pairs in the pileup and choose Merge selected.</p>
+    <h3>Evidence</h3>
+    <p>Phase reads the selected locus through the BAM index and pairs records by read name and read group. Conflicting callable bases or indels block a merge. Uncovered sites stay unknown. Site VAF counts alternate-supporting fragments among callable fragments and counts overlapping mates once. Group share uses all included fragments in the loaded interval.</p>
+    <h3>Transcript catalog</h3>
+    <p>Gene search uses bundled NCBI RefSeq transcript coordinates from UCSC for hg19 and hg38. Choose the assembly used to align the BAM.</p>
+  </dialog>
+  <script>
+(() => {
+  const dialog = document.getElementById('signout-about-dialog');
+  dialog.querySelector('.signout-about-close').addEventListener('click', () => dialog.close());
+  document.addEventListener('click', event => {
+    if (event.target.closest('[data-signout-about]') && !dialog.open) dialog.showModal();
+  });
+})();
 </script>
   </body>
 </html>

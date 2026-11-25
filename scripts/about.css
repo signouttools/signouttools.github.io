@@ -1,0 +1,99 @@
+button.signout-about-trigger {
+  flex-shrink: 0;
+  min-height: 2rem;
+  padding: .25rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button.signout-about-trigger:hover {
+  color: #172839;
+  background: #e0ebf3;
+}
+
+button.signout-about-trigger:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+
+.signout-about-actions {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+
+dialog.signout-about {
+  box-sizing: border-box;
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: clamp(1rem, 4vw, 1.65rem);
+  overflow: auto;
+  color: #172839;
+  background: #fff;
+  border: 1px solid #c4d3df;
+  border-radius: .75rem;
+  box-shadow: 0 1rem 3rem #14273a30;
+  font: max(16px, 1rem)/1.5 system-ui, sans-serif;
+  text-align: start;
+}
+
+.dark-mode dialog.signout-about {
+  color: #e8f0f6;
+  background: #172839;
+  border-color: #4d6479;
+}
+
+dialog.signout-about::backdrop {
+  background: #111e31a3;
+}
+
+.signout-about-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.signout-about h2 {
+  margin: 0;
+  color: inherit;
+  font: 700 1.35em/1.2 system-ui, sans-serif;
+}
+
+.signout-about h3 {
+  margin: 1rem 0 .2rem;
+  color: inherit;
+  font: 700 .95em/1.35 system-ui, sans-serif;
+}
+
+.signout-about p {
+  margin: 0;
+  color: inherit;
+}
+
+.signout-about .signout-about-close {
+  flex: none;
+  min-height: 2.25rem;
+  padding: .2rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font: 650 .875em/1.3 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.signout-about .signout-about-close:hover {
+  background: #e0ebf3;
+}
+
+.signout-about .signout-about-close:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}

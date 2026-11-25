@@ -24,8 +24,10 @@ node scripts/bundle-tools.mjs
 You can also pass the path to the parent directory containing the source checkouts.
 The script uses the current release HTML from SARA and the four documented Phase
 workflows. Phase workflow links live in the directory so each download opens
-independently. The script embeds the local JavaScript and CSS from CARA, FIQ, and
-SAGE and updates their CSP hashes. For SARA, FIQ, and Phase, rebuild in the source
+independently. All eight releases include an offline About dialog. Edit the
+copy in `scripts/about-content.mjs`, then rerun the bundler. The script embeds
+the local JavaScript and CSS from CARA, FIQ, and SAGE and updates CSP hashes.
+For SARA, FIQ, and Phase, rebuild in the source
 checkout first if the published source artifacts are stale. Review and commit the
 updated HTML files to publish them through GitHub Pages. Refresh the bundled
 third-party notices in `scripts/third-party-notices/` when FIQ or Phase updates

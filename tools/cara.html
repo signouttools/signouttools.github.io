@@ -2,7 +2,7 @@
 <html lang="en" translate="no">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-a/IgHlnjTrI5iuURM5oRZ3ZLqUxz6iN4059hE8oxIQE=' 'sha256-b4X7rAJ+V/nc0PokArm/6gdQp4mH2rrDEddz/UPWR7s=' 'sha256-4YKWk5CHfqCYk+wZaGWz1j15DSbv3nUPEIMM7btOjC4=' 'sha256-kuQQXruIA129nz8PwZZyrnvcQjsaiA980fIuM7jxEf8=' 'sha256-yGOPQyUdKmZla/RqjE8y4/PEcS4mIxBjuU/8Ta3XVuE=' 'sha256-fyZNw6XptKIpmTfsdDNgAS9HlFuVXQWLfN+vpp9Y2DE=' 'sha256-CH2ZhtbNAUWT5mjWM9LCLgUy58+2t6NSCUBOWpxTSZk=' 'sha256-MqTvwC7LaqhlmHBAM2hq0noHupYB6LLx/JKEweHp+lQ=' 'sha256-Qxa7zkzd6owx4t22I8WadjsKKoGXIYzIs+Jr6WhFVYc='; style-src 'none'; style-src-elem 'sha256-A5TccBZVhgzfJX7kngQIPJBYW2NsshbYngfN8KuDb/k='; style-src-attr 'unsafe-inline'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-a/IgHlnjTrI5iuURM5oRZ3ZLqUxz6iN4059hE8oxIQE=' 'sha256-b4X7rAJ+V/nc0PokArm/6gdQp4mH2rrDEddz/UPWR7s=' 'sha256-4YKWk5CHfqCYk+wZaGWz1j15DSbv3nUPEIMM7btOjC4=' 'sha256-kuQQXruIA129nz8PwZZyrnvcQjsaiA980fIuM7jxEf8=' 'sha256-yGOPQyUdKmZla/RqjE8y4/PEcS4mIxBjuU/8Ta3XVuE=' 'sha256-fyZNw6XptKIpmTfsdDNgAS9HlFuVXQWLfN+vpp9Y2DE=' 'sha256-CH2ZhtbNAUWT5mjWM9LCLgUy58+2t6NSCUBOWpxTSZk=' 'sha256-MqTvwC7LaqhlmHBAM2hq0noHupYB6LLx/JKEweHp+lQ=' 'sha256-Qxa7zkzd6owx4t22I8WadjsKKoGXIYzIs+Jr6WhFVYc=' 'sha256-3ZDYYuQFzqG14jKZb/hjFuzxJeHTqe/pavTdtuZm1Q4='; style-src 'none'; style-src-elem 'sha256-A5TccBZVhgzfJX7kngQIPJBYW2NsshbYngfN8KuDb/k=' 'sha256-//udCsCrLgncrMLj/TFKvZTuyup6dxvUIGrXd8CXueg='; style-src-attr 'unsafe-inline'; worker-src blob:; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; media-src 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="light">
@@ -345,6 +345,107 @@ th{background:#f5f8f9;font-weight:600}th,td{padding:9px 12px}tbody tr.selected{b
 .no-tracks-message{margin:0;padding:40px 20px;text-align:center;color:var(--muted);font-size:13px}
 
 </style>
+  <style>
+button.signout-about-trigger {
+  flex-shrink: 0;
+  min-height: 2rem;
+  padding: .25rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font-weight: 650;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button.signout-about-trigger:hover {
+  color: #172839;
+  background: #e0ebf3;
+}
+
+button.signout-about-trigger:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+
+.signout-about-actions {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+}
+
+dialog.signout-about {
+  box-sizing: border-box;
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: clamp(1rem, 4vw, 1.65rem);
+  overflow: auto;
+  color: #172839;
+  background: #fff;
+  border: 1px solid #c4d3df;
+  border-radius: .75rem;
+  box-shadow: 0 1rem 3rem #14273a30;
+  font: max(16px, 1rem)/1.5 system-ui, sans-serif;
+  text-align: start;
+}
+
+.dark-mode dialog.signout-about {
+  color: #e8f0f6;
+  background: #172839;
+  border-color: #4d6479;
+}
+
+dialog.signout-about::backdrop {
+  background: #111e31a3;
+}
+
+.signout-about-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.signout-about h2 {
+  margin: 0;
+  color: inherit;
+  font: 700 1.35em/1.2 system-ui, sans-serif;
+}
+
+.signout-about h3 {
+  margin: 1rem 0 .2rem;
+  color: inherit;
+  font: 700 .95em/1.35 system-ui, sans-serif;
+}
+
+.signout-about p {
+  margin: 0;
+  color: inherit;
+}
+
+.signout-about .signout-about-close {
+  flex: none;
+  min-height: 2.25rem;
+  padding: .2rem .65rem;
+  color: #172839;
+  background: #f1f5f8;
+  border: 1px solid #acbfce;
+  border-radius: .4rem;
+  font: 650 .875em/1.3 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.signout-about .signout-about-close:hover {
+  background: #e0ebf3;
+}
+
+.signout-about .signout-about-close:focus-visible {
+  outline: 2px solid #267489;
+  outline-offset: 2px;
+}
+</style>
 </head>
 <body spellcheck="false">
   <header class="app-header">
@@ -355,11 +456,12 @@ th{background:#f5f8f9;font-weight:600}th,td{padding:9px 12px}tbody tr.selected{b
       <details id="file-menu" class="toolbar-menu"><summary>File</summary><div class="menu-content">
         <button id="load-button">Load files…</button><button id="open-review">Open review…</button>
         <details id="export-menu"><summary>Export</summary><div class="export-options"><button id="export-tsv" disabled>Annotation table (.tsv)</button><button id="download-report" disabled>Report text (.txt)</button></div></details>
-        <button id="workspace-info-button">Workspace information</button><button id="about-button">About CARA</button><button id="clear-session" class="danger">Clear session</button>
+        <button id="workspace-info-button">Workspace information</button><button id="clear-session" class="danger">Clear session</button>
         <small>Local · memory only. Save a review file to continue later.</small>
       </div></details>
       <button id="undo-button" disabled title="Undo (Ctrl/⌘ Z)" aria-label="Undo">↶</button>
       <button id="redo-button" disabled title="Redo (Ctrl/⌘ Shift Z)" aria-label="Redo">↷</button>
+      <button type="button" id="about-button" class="signout-about-trigger" aria-haspopup="dialog">About</button>
       <button id="download-review" class="primary" disabled>Save review…</button>
     </div>
   </header>
@@ -541,18 +643,17 @@ th{background:#f5f8f9;font-weight:600}th,td{padding:9px 12px}tbody tr.selected{b
   <input id="file-input" type="file" accept=".tsv,.txt" multiple hidden>
   <input id="review-input" type="file" accept=".cnvreview,.json" hidden>
 
-  <dialog id="about-dialog" class="about-dialog">
-    <form autocomplete="off" method="dialog" class="dialog-card">
-      <div class="dialog-heading"><div><p class="eyebrow">About</p><h2>CARA</h2><p class="dialog-subtitle">CNV Annotation and Review Application</p></div><button value="close" aria-label="Close">×</button></div>
-      <p class="about-lead">Review paired tumor–normal copy-number evidence and record interval annotations without sending data anywhere.</p>
-      <div class="about-facts">
-        <div><strong>Private by design</strong><span>Evidence, annotations, and history stay in this browser tab.</span></div>
-        <div><strong>Offline workflow</strong><span>No server, account, network connection, or automatic disk storage.</span></div>
-        <div><strong>Built for hg19</strong><span>Load two copy-ratio and two allelic-count TSV files.</span></div>
-      </div>
-      <p class="fineprint">Use Save review to save a portable workspace. Current desktop Chrome or Edge recommended.</p>
-      <div class="dialog-actions"><button value="close" class="primary">Done</button></div>
-    </form>
+  <dialog id="about-dialog" class="signout-about" aria-labelledby="signout-about-title">
+    <div class="signout-about-top">
+      <h2 id="signout-about-title">About CARA</h2>
+      <button class="signout-about-close" type="button" autofocus>Close</button>
+    </div>
+    <h3>Use</h3>
+    <p>Load four hg19 TSVs together: copy ratios and allelic counts for tumor and matched normal. Confirm the file assignments, open a chromosome, and drag across a region in Annotate mode to record a label. Save review writes a file you can reopen later.</p>
+    <h3>Tracks and suggestions</h3>
+    <p>CARA plots log₂ copy ratios and allele fractions for tumor and normal. Running means summarize the tracks. The paired imbalance track compares tumor and normal at matching alleles. Threshold labeling applies editable ranges to smoothed copy ratios after a baseline adjustment. Review proposed labels before accepting them.</p>
+    <h3>Gene annotation</h3>
+    <p>The bundled UCSC hg19 RefSeq gene spans supply interval overlaps, including introns. An overlap indicates that the interval touches the gene span.</p>
   </dialog>
   <dialog id="import-dialog">
     <form autocomplete="off" method="dialog" class="dialog-card">
@@ -3566,6 +3667,15 @@ self.onmessage = async event => {
   bindEvents(); setMode("pan"); resetWorkspace();
 })();
 
+</script>
+  <script>
+(() => {
+  const dialog = document.getElementById('about-dialog');
+  dialog.querySelector('.signout-about-close').addEventListener('click', () => dialog.close());
+  document.addEventListener('click', event => {
+    if (event.target.closest('[data-signout-about]') && !dialog.open) dialog.showModal();
+  });
+})();
 </script>
 </body>
 </html>
