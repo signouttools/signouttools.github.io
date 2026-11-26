@@ -66,5 +66,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PPP2R2A encodes serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B alpha isoform. It participates in protein dephosphorylation and regulation of chromosome segregation.",
+      "source_ids": [
+        "ncbi-5520",
+        "uniprot-P63151"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

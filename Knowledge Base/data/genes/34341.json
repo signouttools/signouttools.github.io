@@ -64,5 +64,17 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CDKN2B-AS1 produces an antisense long noncoding RNA at the CDKN2A/CDKN2B locus that interacts with chromatin-regulatory complexes and can influence expression of neighboring cell-cycle regulators.",
+      "source_ids": [
+        "ncbi-100048912"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

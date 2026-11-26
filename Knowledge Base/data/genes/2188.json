@@ -64,5 +64,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "COL12A1 encodes collagen alpha-1(XII) chain. It participates in collagen fibril organization and endodermal cell differentiation.",
+      "source_ids": [
+        "ncbi-1303",
+        "uniprot-Q99715"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Ullrich congenital muscular dystrophy 2 (autosomal recessive); Bethlem myopathy 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

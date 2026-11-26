@@ -68,5 +68,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TAL2 encodes t-cell acute lymphocytic leukemia protein 2. It participates in regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6887",
+        "uniprot-Q16559"
+      ]
+    },
+    "somatic": {
+      "text": "TAL2 activation through rearrangements involving the T-cell receptor locus has been described in T-cell acute lymphoblastic leukemia.",
+      "source_ids": [
+        "ncbi-6887"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

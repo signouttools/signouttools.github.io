@@ -71,5 +71,18 @@
     "source_ids": [
       "gencc-SGC-179649.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NEIL3 encodes endonuclease 8-like 3. It participates in depurination and base-excision repair.",
+      "source_ids": [
+        "ncbi-55247",
+        "uniprot-Q8TAT5"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

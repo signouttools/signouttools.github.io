@@ -92,5 +92,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ANKRD11 encodes ankyrin repeat domain-containing protein 11. It participates in face morphogenesis and skeletal system morphogenesis.",
+      "source_ids": [
+        "ncbi-29123",
+        "uniprot-Q6UB99"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with KBG syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ANKRD11 have been reported in malignant lymphoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

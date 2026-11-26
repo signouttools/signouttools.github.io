@@ -184,5 +184,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EZH2 encodes the catalytic methyltransferase component of polycomb repressive complex 2, which methylates histone H3 lysine 27 to regulate transcriptional repression.",
+      "source_ids": [
+        "ncbi-2146"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Weaver syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EZH2 have been reported in follicular lymphoma, primary myelofibrosis, and acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

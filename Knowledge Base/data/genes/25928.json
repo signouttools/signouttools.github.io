@@ -84,5 +84,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "WDR73 encodes WD repeat domain 73. Its functions include protein-macromolecule adaptor activity and cytoplasmic microtubule organization.",
+      "source_ids": [
+        "ncbi-84942",
+        "uniprot-Q6P4I2"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Galloway-Mowat syndrome 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving WDR73 have been reported in breast carcinoma, colorectal carcinoma, and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

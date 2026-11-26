@@ -84,5 +84,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TMEM147 encodes transmembrane protein 147. Its functions include ribosome binding and multi-pass transmembrane protein insertion into ER membrane.",
+      "source_ids": [
+        "ncbi-10430",
+        "uniprot-Q9BVK8"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include neurodevelopmental disorder with facial dysmorphism, absent language, and pseudo-pelger-huet anomaly (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TMEM147 have been reported in glioblastoma, endometrial carcinoma, and prostate adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

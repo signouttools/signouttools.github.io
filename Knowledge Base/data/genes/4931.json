@@ -159,5 +159,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HLA-A encodes HLA class I histocompatibility antigen, A alpha chain. It participates in immune response and antibacterial humoral response.",
+      "source_ids": [
+        "ncbi-3105",
+        "uniprot-P04439"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving HLA-A have been reported in melanoma, colon adenocarcinoma, and acute myeloid leukemia. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

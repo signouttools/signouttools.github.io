@@ -50,5 +50,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "VSTM2A encodes v-set and transmembrane domain-containing protein 2A. It participates in positive regulation of gene expression and positive regulation of lipid storage.",
+      "source_ids": [
+        "ncbi-222008",
+        "uniprot-Q8TAG5"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

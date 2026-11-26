@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "VPS37B encodes VPS37B subunit of ESCRT-I. Its functions include calcium-dependent protein binding and macroautophagy.",
+      "source_ids": [
+        "ncbi-79720",
+        "uniprot-Q9H9H4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving VPS37B have been reported in medulloblastoma, ovarian carcinoma, and cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

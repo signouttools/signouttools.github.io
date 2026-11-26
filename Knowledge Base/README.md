@@ -18,6 +18,14 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 Then visit <http://127.0.0.1:8765/Knowledge%20Base/>. This is a static GitHub Pages-compatible prototype. It reads bundled JSON; it has no database service, analytics, patient entry, or external runtime lookup. Source links open only when selected. Direct `file://` opening is unsupported because browsers restrict local JSON fetching.
 
+## Report-language standard
+
+Copyable comments use concise, self-contained, third-person language suitable for a molecular report. Gene paragraphs describe normal function and supported germline, mosaic, and somatic disease associations. Hotspot comments describe the observed alteration, established biological effect where supported, and relevant cancer contexts. Disruption comments describe the conditional loss-of-function mechanism and gene-specific exceptions. Citations accompany biological claims.
+
+Panel membership, selection rationale, dataset versions, extraction methods, source-assertion grading, and curation notes remain outside report paragraphs. Selection provenance is available in the interface’s About section and the original inventory. Unresolved associations are omitted from the report projection and flagged separately; missing evidence is not converted into a negative clinical claim. All report comments retain draft status and the pathologist-review disclaimer.
+
+`report_summary` in each gene and `report_comment` in hotspot/disruption records provide the report-language projections. The underlying evidence summaries and assertions remain available for audit. The two original pilot files use report projections in `data/report-comment-overrides.json`. After regenerating evidence, run `prepare-report-comments.py` before building browser shards and the draft export.
+
 ## Stage one: selecting the gene inventory
 
 **Recommendation:** target 600–800 genes for the first release, allowing 500–1,000 after the source union and gap review. This is a planning range, not a measured union. Avoid adding weakly relevant genes solely to reach a number.
@@ -134,6 +142,7 @@ node 'Knowledge Base/scripts/validate.mjs'
 node --check 'Knowledge Base/app.js'
 python3 'Knowledge Base/scripts/validate-curation.py'
 python3 'Knowledge Base/scripts/validate-hotspots.py'
+python3 'Knowledge Base/scripts/validate-report-comments.py'
 ```
 
 The dependency-free validator covers the executable subset of this schema used by the pilot, plus cross-record rules. It is not a general JSON Schema engine. Use a full Draft 2020-12 validator in production CI before accepting external submissions.

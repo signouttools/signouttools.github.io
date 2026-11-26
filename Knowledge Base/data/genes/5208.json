@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HSD11B1 encodes hydroxysteroid 11-beta dehydrogenase 1. Its functions include 11-beta-hydroxysteroid dehydrogenase (NADP+) activity and 7-beta-hydroxysteroid dehydrogenase (NADP+) activity.",
+      "source_ids": [
+        "ncbi-3290",
+        "uniprot-P28845"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving HSD11B1 have been reported in breast carcinoma, cutaneous melanoma, and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

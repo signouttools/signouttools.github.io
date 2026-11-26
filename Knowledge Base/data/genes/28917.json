@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "JAZF1 encodes juxtaposed with another zinc finger protein 1. It participates in negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-221895",
+        "uniprot-Q86VZ6"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving JAZF1 have been reported in endometrial stromal sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

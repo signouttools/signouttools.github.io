@@ -61,5 +61,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ASAP1 encodes arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 1. It participates in cilium assembly and protein localization to cilium.",
+      "source_ids": [
+        "ncbi-50807",
+        "uniprot-Q9ULH1"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ASAP1 have been reported in CNS embryonal tumor with PLAG family gene alteration.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

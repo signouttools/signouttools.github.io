@@ -63,5 +63,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NUF2 encodes kinetochore protein Nuf2. It participates in chromosome segregation and kinetochore organization.",
+      "source_ids": [
+        "ncbi-83540",
+        "uniprot-Q9BZD4"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

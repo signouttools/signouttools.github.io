@@ -90,5 +90,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ABRAXAS1 encodes BRCA1-A complex subunit Abraxas 1. It participates in regulation of DNA repair and positive regulation of DNA repair.",
+      "source_ids": [
+        "ncbi-84142",
+        "uniprot-Q6UWZ7"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

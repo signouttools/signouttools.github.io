@@ -66,5 +66,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PRKD3 encodes serine/threonine-protein kinase D3. It participates in intracellular signal transduction and protein phosphorylation.",
+      "source_ids": [
+        "ncbi-23683",
+        "uniprot-O94806"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PRKD3 have been reported in polymorphous adenocarcinoma and cribriform adenocarcinoma of salivary gland.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

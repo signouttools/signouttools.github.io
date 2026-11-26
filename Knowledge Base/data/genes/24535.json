@@ -79,5 +79,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DCAF13 encodes DDB1 and CUL4 associated factor 13. Its functions include nuclear estrogen receptor binding and ubiquitin-like ligase-substrate adaptor activity.",
+      "source_ids": [
+        "ncbi-25879",
+        "uniprot-Q9NV06"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DCAF13 have been reported in breast carcinoma, esophageal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

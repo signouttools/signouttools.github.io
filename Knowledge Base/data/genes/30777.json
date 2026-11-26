@@ -51,5 +51,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CDCA7L encodes cell division cycle-associated 7-like protein. It participates in regulation of DNA-templated transcription and positive regulation of cell population proliferation.",
+      "source_ids": [
+        "ncbi-55536",
+        "uniprot-Q96GN5"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

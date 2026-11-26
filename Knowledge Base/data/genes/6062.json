@@ -87,5 +87,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ING1 encodes inhibitor of growth family member 1. Its functions include histone H3K4me3 reader activity and chromatin organization.",
+      "source_ids": [
+        "ncbi-3621",
+        "uniprot-Q9UK53"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ING1 have been reported in low-grade glioma, colorectal carcinoma, and endometrial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -78,5 +78,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "POM121 encodes POM121 transmembrane nucleoporin. Its functions include structural constituent of nuclear pore and nucleocytoplasmic transport.",
+      "source_ids": [
+        "ncbi-9883",
+        "uniprot-Q96HA1"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving POM121 have been reported in glioblastoma, cutaneous melanoma, and prostate adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

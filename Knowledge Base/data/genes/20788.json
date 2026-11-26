@@ -74,5 +74,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RHBDF2 encodes inactive rhomboid protein 2. It participates in regulation of protein secretion and negative regulation of protein secretion.",
+      "source_ids": [
+        "ncbi-79651",
+        "uniprot-Q6PJF5"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with palmoplantar keratoderma-esophageal carcinoma syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

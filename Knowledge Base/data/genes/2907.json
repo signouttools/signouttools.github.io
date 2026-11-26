@@ -53,5 +53,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DLK1 encodes protein delta homolog 1 [Cleaved into: Fetal antigen 1]. It participates in cell differentiation and negative regulation of ossification.",
+      "source_ids": [
+        "ncbi-8788",
+        "uniprot-P80370"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

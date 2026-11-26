@@ -66,5 +66,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CXXC5 encodes CXXC-type zinc finger protein 5. It participates in positive regulation of canonical NF-kappaB signal transduction and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-51523",
+        "uniprot-Q7LFL8"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CXXC5 have been reported in astroblastoma, MN1-altered and CNS tumor with BCOR/BCORL1 fusion.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

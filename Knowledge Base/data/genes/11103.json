@@ -246,5 +246,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SMARCB1 encodes a core component of SWI/SNF chromatin-remodeling complexes that regulate access to DNA and control transcriptional and differentiation programs.",
+      "source_ids": [
+        "ncbi-6598"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Coffin-Siris syndrome (autosomal dominant); rhabdoid tumor predisposition syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SMARCB1 have been reported in chordoma, epithelioid sarcoma, and rhabdoid tumor of kidney.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

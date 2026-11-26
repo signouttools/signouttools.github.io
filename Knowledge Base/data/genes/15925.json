@@ -94,5 +94,27 @@
     "source_ids": [
       "gencc-SGC-109045.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SAMHD1 encodes deoxynucleoside triphosphate triphosphohydrolase SAMHD1. It participates in double-strand break repair via homologous recombination and immune response.",
+      "source_ids": [
+        "ncbi-25939",
+        "uniprot-Q9Y3Z3"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include SAMHD1-related type 1 interferonopathy (autosomal recessive); Aicardi-Goutieres syndrome 5 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SAMHD1 have been reported in plasma cell myeloma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

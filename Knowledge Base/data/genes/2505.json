@@ -105,5 +105,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CTLA4 encodes cytotoxic T-lymphocyte protein 4. It participates in immune response and DNA damage response.",
+      "source_ids": [
+        "ncbi-1493",
+        "uniprot-P16410"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autoimmune lymphoproliferative syndrome due to CTLA4 haploinsufficiency (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CTLA4 have been reported in adult t-cell leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

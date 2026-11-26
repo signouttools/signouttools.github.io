@@ -124,5 +124,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PIM1 encodes serine/threonine-protein kinase pim-1. It participates in positive regulation of DNA-templated transcription and protein stabilization.",
+      "source_ids": [
+        "ncbi-5292",
+        "uniprot-P11309"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PIM1 have been reported in large b-cell lymphoma of immune-privileged sites, plasma cell myeloma, and non-Hodgkin lymphoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

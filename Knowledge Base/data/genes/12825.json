@@ -119,5 +119,22 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "XPO1 encodes exportin 1, a nuclear-export receptor that transports cargo proteins and RNA-associated complexes from the nucleus to the cytoplasm.",
+      "source_ids": [
+        "ncbi-7514"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving XPO1 have been reported in diffuse large b-Cell lymphoma, NOS and chronic lymphocytic leukemia/Small lymphocytic lymphoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

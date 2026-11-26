@@ -59,5 +59,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SHB encodes SH2 domain containing adaptor protein B. Its functions include phosphotyrosine residue binding and signal transduction.",
+      "source_ids": [
+        "ncbi-6461",
+        "uniprot-Q15464"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SHB have been reported in glioblastoma and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -93,5 +93,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ELOC encodes elongin-C. It participates in regulation of transcription by RNA polymerase II and transcription initiation at RNA polymerase II promoter.",
+      "source_ids": [
+        "ncbi-6921",
+        "uniprot-Q15369"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ELOC have been reported in ELOC-mutated renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

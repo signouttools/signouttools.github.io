@@ -104,5 +104,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYCL encodes protein L-Myc. It participates in regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-4610",
+        "uniprot-P12524"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYCL have been reported in small cell lung carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

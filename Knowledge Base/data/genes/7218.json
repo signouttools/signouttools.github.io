@@ -47,5 +47,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MPO encodes myeloperoxidase [Cleaved into: Myeloperoxidase; 89 kDa myeloperoxidase; 84 kDa myeloperoxidase; Myeloperoxidase light chain; Myeloperoxidase heavy chain; 38 kDa myeloperoxidase; 22 kDa myeloperoxidase]. It participates in defense response and nucleosome disassembly.",
+      "source_ids": [
+        "ncbi-4353",
+        "uniprot-P05164"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

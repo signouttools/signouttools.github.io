@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "XPO6 encodes exportin 6. Its functions include nuclear export signal receptor activity and small GTPase binding.",
+      "source_ids": [
+        "ncbi-23214",
+        "uniprot-Q96QU8"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving XPO6 have been reported in cutaneous melanoma, lung adenocarcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -367,5 +367,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "APC encodes a tumor-suppressor scaffold involved in the β-catenin destruction complex, helping restrain canonical Wnt signaling and regulate cellular organization.",
+      "source_ids": [
+        "ncbi-324"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with classic or attenuated familial adenomatous polyposis (autosomal dominant); gastric adenocarcinoma and proximal polyposis of the stomach (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving APC have been reported in colorectal adenocarcinoma, small intestinal adenocarcinoma, and gastric adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

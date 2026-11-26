@@ -85,5 +85,23 @@
     "source_ids": [
       "gencc-snapshot"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RIMS1 encodes regulating synaptic membrane exocytosis 1. Its functions include GTPase regulator activity and small GTPase binding.",
+      "source_ids": [
+        "ncbi-22999",
+        "uniprot-Q86UR5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RIMS1 have been reported in colorectal carcinoma, gastric adenocarcinoma, and prostate adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

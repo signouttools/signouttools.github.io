@@ -128,5 +128,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EPHA3 encodes ephrin type-A receptor 3. It participates in axon guidance and cell migration.",
+      "source_ids": [
+        "ncbi-2042",
+        "uniprot-P29320"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EPHA3 have been reported in melanoma, stomach adenocarcinoma, and esophageal adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

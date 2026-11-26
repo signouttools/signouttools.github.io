@@ -86,5 +86,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CDKN1C encodes cyclin-dependent kinase inhibitor 1C. It participates in negative regulation of epithelial cell proliferation and negative regulation of G1/S transition of mitotic cell cycle.",
+      "source_ids": [
+        "ncbi-1028",
+        "uniprot-P49918"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Beckwith-Wiedemann syndrome due to CDKN1C mutation (autosomal dominant); Beckwith-Wiedemann syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

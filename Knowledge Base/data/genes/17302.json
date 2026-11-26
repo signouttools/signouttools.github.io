@@ -77,5 +77,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NEGR1 encodes neuronal growth regulator 1. It participates in cholesterol homeostasis and protein secretion.",
+      "source_ids": [
+        "ncbi-257194",
+        "uniprot-Q7Z3B1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

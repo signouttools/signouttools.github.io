@@ -85,5 +85,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CHD3 encodes chromodomain helicase DNA binding protein 3. Its functions include ATP hydrolysis activity and ATP-dependent chromatin remodeler activity.",
+      "source_ids": [
+        "ncbi-1107",
+        "uniprot-Q12873"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Snijders Blok-Campeau syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CHD3 have been reported in low-grade glioma, lung adenocarcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

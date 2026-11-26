@@ -75,5 +75,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PTPRS encodes receptor-type tyrosine-protein phosphatase S. It participates in signal transduction and peptidyl-tyrosine dephosphorylation.",
+      "source_ids": [
+        "ncbi-5802",
+        "uniprot-Q13332"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

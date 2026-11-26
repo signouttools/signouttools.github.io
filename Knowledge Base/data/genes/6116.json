@@ -69,5 +69,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IRF1 encodes interferon regulatory factor 1. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-3659",
+        "uniprot-P10914"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving IRF1 have been reported in plasma cell myeloma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

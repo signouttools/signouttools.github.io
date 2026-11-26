@@ -100,5 +100,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "VEGFA encodes vascular endothelial growth factor A, long form [Cleaved into: N-VEGF; VEGFA]. It participates in negative regulation of miRNA transcription and positive regulation of canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-7422",
+        "uniprot-P15692"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -177,5 +177,22 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "U2AF1 encodes a component of the U2 auxiliary splicing factor that contributes to recognition of 3′ splice sites during pre-mRNA processing.",
+      "source_ids": [
+        "ncbi-7307"
+      ]
+    },
+    "somatic": {
+      "text": "Recurrent somatic U2AF1 mutations occur in myelodysplastic neoplasms. Their significance depends on the specific allele, accompanying abnormalities, and the integrated myeloid disease context.",
+      "source_ids": [
+        "pmid-22158538"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

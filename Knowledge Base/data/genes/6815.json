@@ -76,5 +76,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAGOH encodes mago homolog, exon junction complex subunit. Its functions include mRNA export from nucleus and mRNA metabolic process.",
+      "source_ids": [
+        "ncbi-4116",
+        "uniprot-P61326"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAGOH have been reported in glioblastoma, pancreatic adenocarcinoma, and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -184,5 +184,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RUNX1 encodes a DNA-binding transcription factor that forms the core-binding factor complex with CBFB and regulates hematopoietic development and differentiation.",
+      "source_ids": [
+        "ncbi-861"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary thrombocytopenia and hematologic cancer predisposition syndrome (autosomal dominant); hereditary thrombocytopenia and hematological cancer predisposition syndrome associated with RUNX1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RUNX1 have been reported in myeloid sarcoma, systemic mastocytosis, and acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

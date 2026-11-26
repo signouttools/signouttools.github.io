@@ -73,5 +73,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PDGFB encodes platelet-derived growth factor subunit B. It participates in positive regulation of MAP kinase activity and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-5155",
+        "uniprot-P01127"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with basal ganglia calcification, idiopathic, 5 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PDGFB have been reported in COL1A1::PDGFB fusion-associated uterine sarcoma and dermatofibrosarcoma protuberans, fibrosarcomatous.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -71,5 +71,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NFIC encodes nuclear factor I C. Its functions include DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription factor activity.",
+      "source_ids": [
+        "ncbi-4782",
+        "uniprot-P08651"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NFIC have been reported in lung adenocarcinoma, hepatocellular carcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -127,5 +127,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SOX2 encodes transcription factor SOX-2. It participates in chromatin organization and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-6657",
+        "uniprot-P48431"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with anophthalmia/microphthalmia-esophageal atresia syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SOX2 have been reported in lung squamous cell carcinoma and esophageal squamous cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

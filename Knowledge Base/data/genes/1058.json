@@ -128,5 +128,23 @@
       "gencc-SGC-103219.1",
       "gencc-SGC-107206.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BLM encodes recQ-like DNA helicase BLM. It participates in regulation of cyclin-dependent protein serine/threonine kinase activity and DNA repair.",
+      "source_ids": [
+        "ncbi-641",
+        "uniprot-P54132"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Bloom syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

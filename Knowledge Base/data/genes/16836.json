@@ -63,5 +63,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TGFBRAP1 encodes transforming growth factor beta receptor associated protein 1. Its functions include SMAD binding and transforming growth factor beta receptor binding.",
+      "source_ids": [
+        "ncbi-9392",
+        "uniprot-Q8WUH2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TGFBRAP1 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

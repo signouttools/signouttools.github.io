@@ -61,5 +61,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ERC1 encodes ELKS/Rab6-interacting/CAST family member 1. It participates in regulation of DNA-templated transcription and positive regulation of canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-23085",
+        "uniprot-Q8IUD2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ERC1 have been reported in kinase-altered spindle cell neoplasm (non-NTRK), malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

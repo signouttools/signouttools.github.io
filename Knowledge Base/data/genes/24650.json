@@ -83,5 +83,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EHMT1 encodes euchromatic histone lysine methyltransferase 1. Its functions include histone H3K27 methyltransferase activity and histone H3K9 methyltransferase activity.",
+      "source_ids": [
+        "ncbi-79813",
+        "uniprot-Q9H9B1"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Kleefstra syndrome (autosomal dominant); Kleefstra syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EHMT1 have been reported in hepatocellular carcinoma and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

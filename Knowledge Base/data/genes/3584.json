@@ -127,5 +127,23 @@
       "gencc-SGC-102739.1",
       "gencc-SGC-179950.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FANCC encodes Fanconi anemia group C protein. It participates in DNA repair and nucleotide-excision repair.",
+      "source_ids": [
+        "ncbi-2176",
+        "uniprot-Q00597"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Fanconi anemia complementation group C (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

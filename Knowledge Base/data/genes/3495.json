@@ -199,5 +199,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ETV6 encodes transcription factor ETV6. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2120",
+        "uniprot-P41212"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with thrombocytopenia 5 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ETV6 have been reported in infantile fibrosarcoma, papillary thyroid carcinoma, and secretory carcinoma of skin.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

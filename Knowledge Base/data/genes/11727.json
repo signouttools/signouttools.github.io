@@ -101,5 +101,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TERC encodes the RNA component of telomerase, providing the template used by the TERT catalytic subunit to add telomeric repeats to chromosome ends.",
+      "source_ids": [
+        "ncbi-7012"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic constitutional TERC variants cause autosomal dominant telomere biology disorders, including dyskeratosis congenita. Marrow failure and myeloid malignancy risk occur within this inherited disease context; a tumor-only result does not establish constitutional origin.",
+      "source_ids": [
+        "pmid-11574891",
+        "gencc-SGC-107615.2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic copy-number gain involving the TERC region has been associated with progression of cervical neoplasia to invasive carcinoma. Regional gain is distinct from the constitutional loss-of-function mechanisms underlying telomere biology disorders.",
+      "source_ids": [
+        "pmid-17054308"
+      ]
+    }
+  },
+  "report_gaps": []
 }

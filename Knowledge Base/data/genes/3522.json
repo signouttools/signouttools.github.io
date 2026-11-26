@@ -84,5 +84,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EYA4 encodes EYA transcriptional coactivator and phosphatase 4. Its functions include protein tyrosine phosphatase activity and anatomical structure morphogenesis.",
+      "source_ids": [
+        "ncbi-2070",
+        "uniprot-O95677"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include nonsyndromic genetic hearing loss (autosomal dominant); autosomal dominant nonsyndromic hearing loss 10 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EYA4 have been reported in lung adenocarcinoma, endometrial carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

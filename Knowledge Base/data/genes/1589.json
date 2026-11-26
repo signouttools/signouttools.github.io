@@ -149,5 +149,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CCNE1 encodes G1/S-specific cyclin-E1. It participates in protein phosphorylation and G1/S transition of mitotic cell cycle.",
+      "source_ids": [
+        "ncbi-898",
+        "uniprot-P24864"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CCNE1 have been reported in gastric adenocarcinoma, adrenocortical carcinoma, and esophageal adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

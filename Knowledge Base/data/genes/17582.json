@@ -115,5 +115,27 @@
     "source_ids": [
       "gencc-SGC-105885.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KAT6B encodes histone acetyltransferase KAT6B. It participates in regulation of DNA-templated transcription and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-23522",
+        "uniprot-Q8WYB5"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include KAT6B-related multiple congenital anomalies syndrome (autosomal dominant); blepharophimosis - intellectual disability syndrome, SBBYS type (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "KAT6B–CREBBP rearrangements have been described in acute myeloid leukemia.",
+      "source_ids": [
+        "ncbi-23522"
+      ]
+    }
+  },
+  "report_gaps": []
 }

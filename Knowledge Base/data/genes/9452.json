@@ -98,5 +98,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PROCR encodes protein C receptor. Its functions include signaling receptor activity and negative regulation of coagulation.",
+      "source_ids": [
+        "ncbi-10544",
+        "uniprot-Q9UNN8"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PROCR have been reported in breast carcinoma, cervical carcinoma, and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

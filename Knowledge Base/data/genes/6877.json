@@ -90,5 +90,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAPK3 encodes mitogen-activated protein kinase 3. It participates in intracellular signal transduction and positive regulation of telomere maintenance.",
+      "source_ids": [
+        "ncbi-5595",
+        "uniprot-P27361"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

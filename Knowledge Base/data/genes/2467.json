@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CSPG5 encodes chondroitin sulfate proteoglycan 5. Its functions include growth factor activity and axon regeneration.",
+      "source_ids": [
+        "ncbi-10675",
+        "uniprot-O95196"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CSPG5 have been reported in ovarian carcinoma, prostate adenocarcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

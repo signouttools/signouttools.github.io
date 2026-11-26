@@ -64,5 +64,23 @@
     "source_ids": [
       "gencc-SGC-106708.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLMAP encodes sarcolemmal membrane-associated protein. It participates in muscle contraction and negative regulation of hippo signaling.",
+      "source_ids": [
+        "ncbi-7871",
+        "uniprot-Q14BN4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SLMAP have been reported in kinase-altered spindle cell neoplasm (non-NTRK), malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -60,5 +60,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PDZRN3 encodes E3 ubiquitin-protein ligase PDZRN3. It participates in protein ubiquitination and neuromuscular junction development.",
+      "source_ids": [
+        "ncbi-23024",
+        "uniprot-Q9UPQ7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PDZRN3 have been reported in kinase-altered spindle cell neoplasm (non-NTRK), malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

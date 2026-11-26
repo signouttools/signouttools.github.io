@@ -61,5 +61,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CYP2C8 encodes cytochrome P450 family 2 subfamily C member 8. Its functions include arachidonate 11,12-epoxygenase activity and arachidonate 14,15-epoxygenase activity.",
+      "source_ids": [
+        "ncbi-1558",
+        "uniprot-P10632"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CYP2C8 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

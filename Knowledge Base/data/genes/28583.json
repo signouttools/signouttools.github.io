@@ -69,5 +69,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RSPO2 encodes r-spondin-2. It participates in limb development and positive regulation of Wnt signaling pathway.",
+      "source_ids": [
+        "ncbi-340419",
+        "uniprot-Q6UXX9"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with tetraamelia syndrome 2 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

@@ -69,5 +69,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ACP6 encodes acid phosphatase 6, lysophosphatidic. Its functions include lysophosphatidic acid phosphatase activity and lysobisphosphatidic acid metabolic process.",
+      "source_ids": [
+        "ncbi-51205",
+        "uniprot-Q9NPH0"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ACP6 have been reported in adrenocortical carcinoma, hepatocellular carcinoma, and papillary renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

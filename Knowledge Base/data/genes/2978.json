@@ -193,5 +193,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DNMT3A encodes a de novo DNA methyltransferase that establishes cytosine methylation patterns and helps regulate chromatin state, gene expression, and cellular differentiation.",
+      "source_ids": [
+        "ncbi-1788"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Tatton-Brown-Rahman overgrowth syndrome (autosomal dominant); Heyn-Sproul-Jackson syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DNMT3A have been reported in acute myeloid leukemia, myelodysplastic syndromes, and peripheral t-cell lymphoma, NOS.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

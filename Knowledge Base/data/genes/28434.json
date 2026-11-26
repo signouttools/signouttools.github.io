@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CCNQ encodes cyclin-Q. It participates in regulation of transcription by RNA polymerase II and regulation of cell cycle G2/M phase transition.",
+      "source_ids": [
+        "ncbi-92002",
+        "uniprot-Q8N1B3"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndactyly-telecanthus-anogenital and renal malformations syndrome (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

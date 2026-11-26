@@ -151,5 +151,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAP2K4 encodes dual specificity mitogen-activated protein kinase kinase 4. It participates in signal transduction and JNK cascade.",
+      "source_ids": [
+        "ncbi-6416",
+        "uniprot-P45985"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAP2K4 have been reported in hepatocellular carcinoma, colorectal adenocarcinoma, and invasive breast carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -57,5 +57,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ARHGAP6 encodes rho GTPase-activating protein 6. It participates in Rho protein signal transduction and positive regulation of intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-395",
+        "uniprot-O43182"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ARHGAP6 have been reported in gastric adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

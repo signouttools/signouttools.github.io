@@ -90,5 +90,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DTD2 encodes D-aminoacyl-tRNA deacylase 2. Its functions include Ala-tRNA(Thr) deacylase activity and D-aminoacyl-tRNA deacylase activity.",
+      "source_ids": [
+        "ncbi-112487",
+        "uniprot-Q96FN9"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DTD2 have been reported in colorectal carcinoma, prostate adenocarcinoma, and adrenocortical carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

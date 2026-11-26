@@ -110,5 +110,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TRAF7 encodes E3 ubiquitin-protein ligase TRAF7. It participates in apoptotic process and protein ubiquitination.",
+      "source_ids": [
+        "ncbi-84231",
+        "uniprot-Q6Q0C0"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndromic complex neurodevelopmental disorder (autosomal dominant); cardiac, facial, and digital anomalies with developmental delay (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TRAF7 have been reported in pleural mesothelioma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

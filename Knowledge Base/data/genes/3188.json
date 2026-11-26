@@ -101,5 +101,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EED encodes polycomb protein EED. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-8726",
+        "uniprot-O75530"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Cohen-Gibson syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EED have been reported in malignant peripheral nerve sheath tumor.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

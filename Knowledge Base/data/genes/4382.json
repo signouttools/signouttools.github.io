@@ -47,5 +47,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GNA14 encodes guanine nucleotide-binding protein subunit alpha-14. It participates in signal transduction and action potential.",
+      "source_ids": [
+        "ncbi-9630",
+        "uniprot-O95837"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

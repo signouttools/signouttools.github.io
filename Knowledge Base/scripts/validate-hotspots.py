@@ -57,6 +57,8 @@ for x in sites+alleles+disruptions:
  assert x['editorial']['status']=='draft' and x['editorial']['reviewer'] is None
  assert x['editorial']['disclaimer']==r['disclaimer']
  assert all(sid in sources for sid in x['comment']['source_ids'])
+ if 'report_comment' in x:
+  assert all(sid in sources and sources[sid]['kind']!='panel_reference' for sid in x['report_comment']['source_ids'])
  assert x['gene_id'] in geneids
  for refid in x.get('fda_reference_ids',[])+x.get('fda_exclusion_reference_ids',[]):
   assert refid in refs and x['gene_id'] in refs[refid]['gene_ids']
@@ -73,7 +75,7 @@ for i in index:
  shard=load(root/'data'/i['file']);expected=[s for s in sites if s['gene_id']==i['gene_id']];assert len(shard)==i['site_count']==len(expected)
  assert {s['id'] for s in shard}=={s['id'] for s in expected}
  for item in shard:
-  original=by_site[item['id']];assert item['comment']==original['comment'];assert item['fda_reference_ids']==original['fda_reference_ids'];assert {a['id'] for a in item['alleles']}==set(original['allele_ids'])
+  original=by_site[item['id']];assert item['comment']==original['comment'];assert item.get('report_comment')==original.get('report_comment');assert item['fda_reference_ids']==original['fda_reference_ids'];assert {a['id'] for a in item['alleles']}==set(original['allele_ids'])
   for a in item['alleles']:assert a=={k:v for k,v in by_allele[a['id']].items() if k!='observations'}
 if len(sys.argv)>1:
  cache=Path(sys.argv[1]);sys.path.insert(0,str(cache/'python-deps'));import xlrd,openpyxl

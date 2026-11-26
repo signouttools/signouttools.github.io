@@ -239,5 +239,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGFR3 encodes fibroblast growth factor receptor 3. It participates in positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction and positive regulation of phospholipase activity.",
+      "source_ids": [
+        "ncbi-2261",
+        "uniprot-P22607"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Crouzon syndrome-acanthosis nigricans syndrome (autosomal dominant); Muenke syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FGFR3 have been reported in plasma cell myeloma, spermatocytic tumor, and urothelial carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

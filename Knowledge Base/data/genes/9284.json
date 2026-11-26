@@ -52,5 +52,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PPP1R10 encodes serine/threonine-protein phosphatase 1 regulatory subunit 10. It participates in positive regulation of telomere maintenance and negative regulation of transcription elongation by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-5514",
+        "uniprot-Q96QC0"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

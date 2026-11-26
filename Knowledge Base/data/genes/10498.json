@@ -89,5 +89,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "S100A8 encodes S100 calcium binding protein A8. Its functions include arachidonate binding and calcium ion binding.",
+      "source_ids": [
+        "ncbi-6279",
+        "uniprot-P05109"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving S100A8 have been reported in glioblastoma, thyroid carcinoma, and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

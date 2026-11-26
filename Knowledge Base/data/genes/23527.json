@@ -66,5 +66,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FANK1 encodes fibronectin type III and ankyrin repeat domains 1. Its functions include negative regulation of apoptotic process and positive regulation of apoptotic process.",
+      "source_ids": [
+        "ncbi-92565",
+        "uniprot-Q8TC84"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FANK1 have been reported in adrenocortical carcinoma and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

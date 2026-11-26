@@ -90,5 +90,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CEP63 encodes centrosomal protein 63. Its functions include molecular adaptor activity and centriole replication.",
+      "source_ids": [
+        "ncbi-80254",
+        "uniprot-Q96MT8"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Seckel syndrome 6 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CEP63 have been reported in cutaneous melanoma, colorectal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

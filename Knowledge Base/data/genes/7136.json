@@ -73,5 +73,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MLLT3 encodes protein AF-9. It participates in regulation of chromatin organization and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4300",
+        "uniprot-P42568"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MLLT3 have been reported in melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

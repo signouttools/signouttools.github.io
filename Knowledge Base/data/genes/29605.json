@@ -112,5 +112,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SH2B3 encodes SH2B adapter protein 3. It participates in intracellular signal transduction and negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-10019",
+        "uniprot-Q9UQQ2"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with SH2B3-related immune system disorder (semidominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SH2B3 have been reported in indolent NK-cell lymphoproliferative disorder of the gastrointestinal tract.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

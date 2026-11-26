@@ -76,5 +76,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "OBP2B encodes odorant binding protein 2B. Its functions include odorant binding and small molecule binding.",
+      "source_ids": [
+        "ncbi-29989",
+        "uniprot-Q9NPH6"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving OBP2B have been reported in medulloblastoma, lung adenocarcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

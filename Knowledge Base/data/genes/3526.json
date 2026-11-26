@@ -62,5 +62,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EZH1 encodes histone-lysine N-methyltransferase EZH1. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2145",
+        "uniprot-Q92800"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

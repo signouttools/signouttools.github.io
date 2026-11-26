@@ -84,5 +84,27 @@
     "source_ids": [
       "gencc-snapshot"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "THBD encodes thrombomodulin. Its functions include calcium ion binding and signaling receptor activity.",
+      "source_ids": [
+        "ncbi-7056",
+        "uniprot-P07204"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include atypical hemolytic-uremic syndrome with thrombomodulin anomaly (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving THBD have been reported in colorectal carcinoma, endometrial carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

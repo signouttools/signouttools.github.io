@@ -80,5 +80,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DNMT3B encodes DNA (cytosine-5)-methyltransferase 3B. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of gene expression.",
+      "source_ids": [
+        "ncbi-1789",
+        "uniprot-Q9UBC3"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with immunodeficiency-centromeric instability-facial anomalies syndrome 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

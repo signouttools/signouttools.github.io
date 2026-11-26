@@ -67,5 +67,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DHX15 encodes ATP-dependent RNA helicase DHX15. It participates in RNA splicing and mRNA splicing, via spliceosome.",
+      "source_ids": [
+        "ncbi-1665",
+        "uniprot-O43143"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

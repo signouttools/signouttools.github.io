@@ -82,5 +82,23 @@
     "source_ids": [
       "gencc-snapshot"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CEP89 encodes centrosomal protein 89. Its functions include chemical synaptic transmission and cilium assembly.",
+      "source_ids": [
+        "ncbi-84902",
+        "uniprot-Q96ST8"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CEP89 have been reported in adrenocortical carcinoma, hepatocellular carcinoma, and chromophobe renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

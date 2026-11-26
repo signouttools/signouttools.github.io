@@ -69,5 +69,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ARHGAP28 encodes Rho GTPase activating protein 28. Its functions include GTPase activator activity and negative regulation of stress fiber assembly.",
+      "source_ids": [
+        "ncbi-79822",
+        "uniprot-Q9P2N2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ARHGAP28 have been reported in colorectal carcinoma, esophageal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

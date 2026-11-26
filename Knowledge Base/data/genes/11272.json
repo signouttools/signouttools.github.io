@@ -96,5 +96,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SPTA1 encodes spectrin alpha chain, erythrocytic 1. It participates in actin cytoskeleton organization and actin filament organization.",
+      "source_ids": [
+        "ncbi-6708",
+        "uniprot-P02549"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary spherocytosis type 3 (autosomal recessive); elliptocytosis 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

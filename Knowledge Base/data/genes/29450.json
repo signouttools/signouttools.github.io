@@ -65,5 +65,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GLIS2 encodes zinc finger protein GLIS2. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-84662",
+        "uniprot-Q9BZE0"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with nephronophthisis 7 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GLIS2 have been reported in acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

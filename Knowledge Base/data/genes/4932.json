@@ -119,5 +119,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HLA-B encodes HLA class I histocompatibility antigen, B alpha chain. It participates in defense response and immune response.",
+      "source_ids": [
+        "ncbi-3106",
+        "uniprot-P01889"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving HLA-B have been reported in malignant lymphoma, esophageal adenocarcinoma, and cervical squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -115,5 +115,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HGF encodes hepatocyte growth factor [Cleaved into: Hepatocyte growth factor alpha chain; Hepatocyte growth factor beta chain]. It participates in positive regulation of transcription by RNA polymerase II and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-3082",
+        "uniprot-P14210"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autosomal recessive nonsyndromic hearing loss 39 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving HGF have been reported in small cell lung cancer. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

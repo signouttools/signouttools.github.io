@@ -85,5 +85,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RELCH encodes RAB11 binding and LisH domain, coiled-coil and HEAT repeat containing. Its functions include intracellular cholesterol transport.",
+      "source_ids": [
+        "ncbi-57614",
+        "uniprot-Q9P260"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RELCH have been reported in lung adenocarcinoma, prostate adenocarcinoma, and adrenocortical carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

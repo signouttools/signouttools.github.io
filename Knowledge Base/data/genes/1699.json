@@ -167,5 +167,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CD79B encodes b-cell antigen receptor complex-associated protein beta chain. It participates in signal transduction and immune response.",
+      "source_ids": [
+        "ncbi-974",
+        "uniprot-P40259"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with agammaglobulinemia 6, autosomal recessive (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CD79B have been reported in diffuse large b-cell lymphoma, intravascular large b-cell lymphoma, and large b-cell lymphoma of immune-privileged sites.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

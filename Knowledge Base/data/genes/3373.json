@@ -252,5 +252,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EP300 encodes the p300 transcriptional coactivator and acetyltransferase, which regulates transcription through histone acetylation and interactions with transcription factors.",
+      "source_ids": [
+        "ncbi-2033"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Rubinstein-Taybi syndrome due to EP300 haploinsufficiency (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EP300 have been reported in CNS tumor with BCOR/BCORL1 fusion, biphasic hyalinizing psammomatous / NF2-inactivated renal cell carcinoma, and angiosarcoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

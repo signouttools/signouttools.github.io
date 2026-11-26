@@ -65,5 +65,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SFPQ encodes splicing factor, proline- and glutamine-rich. It participates in RNA splicing and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-6421",
+        "uniprot-P23246"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SFPQ have been reported in PEComa, malignant and TFE3-rearranged renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

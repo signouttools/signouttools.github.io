@@ -61,5 +61,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "XBP1 encodes x-box-binding protein 1 [Cleaved into: X-box-binding protein 1, cytoplasmic form; X-box-binding protein 1, luminal form]. It participates in transcription by RNA polymerase II and phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-7494",
+        "uniprot-P17861"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

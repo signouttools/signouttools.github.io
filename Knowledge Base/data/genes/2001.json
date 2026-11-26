@@ -99,5 +99,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GREM1 encodes gremlin-1. It participates in signal transduction and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-26585",
+        "uniprot-O60565"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary mixed polyposis syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

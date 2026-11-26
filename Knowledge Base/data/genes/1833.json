@@ -126,5 +126,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CEBPA encodes a basic leucine-zipper transcription factor that regulates differentiation programs, including granulocytic maturation, and can influence cell-cycle control.",
+      "source_ids": [
+        "ncbi-1050"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with acute myeloid leukemia (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CEBPA have been reported in acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

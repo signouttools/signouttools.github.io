@@ -105,5 +105,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GATA6 encodes transcription factor GATA-6. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2627",
+        "uniprot-Q92908"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with GATA6-related congenital heart disease with or without pancreatic hypoplasia or diabetes (autosomal dominant); heart defects, congenital, and other congenital anomalies (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GATA6 have been reported in esophageal adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

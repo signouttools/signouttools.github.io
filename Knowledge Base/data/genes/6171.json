@@ -79,5 +79,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ITK encodes tyrosine-protein kinase ITK/TSK. It participates in signal transduction and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-3702",
+        "uniprot-Q08881"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with lymphoproliferative syndrome 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ITK have been reported in nodal t-follicular helper cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

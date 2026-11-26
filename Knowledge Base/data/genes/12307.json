@@ -77,5 +77,29 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TRIP13 encodes pachytene checkpoint protein 2 homolog. It participates in transcription by RNA polymerase II and oogenesis.",
+      "source_ids": [
+        "ncbi-9319",
+        "uniprot-Q15645"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with oocyte maturation defect 9 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with mosaic variegated aneuploidy syndrome 3.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

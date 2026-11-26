@@ -116,5 +116,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PLCG1 encodes 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1. It participates in calcium-mediated signaling and cell migration.",
+      "source_ids": [
+        "ncbi-5335",
+        "uniprot-P19174"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PLCG1 have been reported in angiosarcoma, sézary syndrome, and mycosis fungoides.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

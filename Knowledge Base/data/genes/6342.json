@@ -214,5 +214,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KIT encodes the receptor for stem cell factor, a tyrosine kinase that regulates hematopoietic, melanocytic, germ-cell, and interstitial-cell lineages.",
+      "source_ids": [
+        "ncbi-3815"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with gastrointestinal stromal tumor (autosomal dominant); piebaldism (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KIT have been reported in mucosal melanoma, thymic carcinoma, and mast cell sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

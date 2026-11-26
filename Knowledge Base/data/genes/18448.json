@@ -64,5 +64,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NEIL1 encodes endonuclease 8-like 1 lyase Neil1). It participates in depyrimidination and base-excision repair.",
+      "source_ids": [
+        "ncbi-79661",
+        "uniprot-Q96FI4"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

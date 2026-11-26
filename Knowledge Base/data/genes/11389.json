@@ -194,5 +194,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "STK11 encodes serine/threonine-protein kinase STK11. It participates in activation of protein kinase activity and signal transduction.",
+      "source_ids": [
+        "ncbi-6794",
+        "uniprot-Q15831"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Peutz-Jeghers syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving STK11 have been reported in lung adenocarcinoma, STK11 adnexal tumor, and adenocarcinoma of cervix.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

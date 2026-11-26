@@ -65,5 +65,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MIB1 encodes E3 ubiquitin-protein ligase MIB1. It participates in endocytosis and protein ubiquitination.",
+      "source_ids": [
+        "ncbi-57534",
+        "uniprot-Q86YT6"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

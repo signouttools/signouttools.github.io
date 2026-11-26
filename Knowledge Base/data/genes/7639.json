@@ -77,5 +77,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NAP1L3 encodes nucleosome assembly protein 1 like 3. Its functions include chromatin binding and histone binding.",
+      "source_ids": [
+        "ncbi-4675",
+        "uniprot-Q99457"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NAP1L3 have been reported in colorectal carcinoma, esophageal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

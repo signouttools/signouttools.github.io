@@ -247,5 +247,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ARID1B encodes AT-rich interactive domain-containing protein 1B. It participates in transcription initiation-coupled chromatin remodeling and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-57492",
+        "uniprot-Q8NFD5"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Coffin-Siris syndrome (autosomal dominant); Coffin-Siris syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ARID1B have been reported in undifferentiated / dedifferentiated endometrial carcinoma, biphasic hyalinizing psammomatous / NF2-inactivated renal cell carcinoma, and angiosarcoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -60,5 +60,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MXI1 encodes max-interacting protein 1. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-4601",
+        "uniprot-P50539"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MXI1 have been reported in gastrointestinal NUT-rearranged sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TRUB1 encodes TruB pseudouridine synthase family member 1. Its functions include pre-miRNA binding and pseudouridine synthase activity.",
+      "source_ids": [
+        "ncbi-142940",
+        "uniprot-Q8WWH5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TRUB1 have been reported in lung adenocarcinoma, pancreatic adenocarcinoma, and bladder urothelial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

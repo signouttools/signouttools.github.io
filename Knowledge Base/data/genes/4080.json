@@ -72,5 +72,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GABRA6 encodes gamma-aminobutyric acid receptor subunit alpha-6 receptor subunit alpha-6). It participates in signal transduction and chloride transmembrane transport.",
+      "source_ids": [
+        "ncbi-2559",
+        "uniprot-Q16445"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

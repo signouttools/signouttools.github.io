@@ -73,5 +73,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AFDN encodes afadin. It participates in signal transduction and cell adhesion.",
+      "source_ids": [
+        "ncbi-4301",
+        "uniprot-P55196"
+      ]
+    },
+    "somatic": {
+      "text": "AFDN is a fusion partner of KMT2A in acute myeloid leukemia, including rearrangements involving chromosomes 6 and 11.",
+      "source_ids": [
+        "ncbi-4301"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

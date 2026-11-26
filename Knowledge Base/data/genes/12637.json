@@ -234,5 +234,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KDM6A encodes lysine-specific demethylase 6A demethylase 6A). It participates in chromatin remodeling and heart development.",
+      "source_ids": [
+        "ncbi-7403",
+        "uniprot-O15550"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Kabuki syndrome 2 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KDM6A have been reported in urothelial carcinoma, appendiceal goblet cell adenocarcinoma, and prostate.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

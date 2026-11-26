@@ -92,5 +92,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ATF1 encodes cyclic AMP-dependent transcription factor ATF-1. It participates in cAMP/PKA signal transduction and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-466",
+        "uniprot-P18846"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ATF1 have been reported in clear cell odontogenic carcinoma, clear cell sarcoma of soft tissue, and pulmonary hyalinizing clear cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

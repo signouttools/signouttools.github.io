@@ -51,5 +51,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SH3PXD2A encodes SH3 and PX domain-containing protein 2A. It participates in osteoclast fusion and superoxide anion generation.",
+      "source_ids": [
+        "ncbi-9644",
+        "uniprot-Q5TCZ1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

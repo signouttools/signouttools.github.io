@@ -74,5 +74,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PRSS8 encodes prostasin [Cleaved into: Prostasin light chain; Prostasin heavy chain]. It participates in protein processing and positive regulation of sodium ion transport.",
+      "source_ids": [
+        "ncbi-5652",
+        "uniprot-Q16651"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

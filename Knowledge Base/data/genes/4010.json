@@ -137,5 +137,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FUS encodes RNA-binding protein FUS. It participates in RNA splicing and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2521",
+        "uniprot-P35637"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with amyotrophic lateral sclerosis type 6 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FUS have been reported in liposarcoma, rhabdomyosarcoma, and NFATC2-rearranged sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

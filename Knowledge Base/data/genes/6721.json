@@ -57,5 +57,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LTK encodes leukocyte tyrosine kinase receptor. It participates in signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-4058",
+        "uniprot-P29376"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LTK have been reported in kinase-altered spindle cell neoplasm (non-NTRK), malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

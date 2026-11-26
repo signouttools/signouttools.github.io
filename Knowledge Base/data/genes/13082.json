@@ -67,5 +67,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LTN1 encodes listerin E3 ubiquitin protein ligase 1. Its functions include ribosomal large subunit binding and ubiquitin protein ligase activity.",
+      "source_ids": [
+        "ncbi-26046",
+        "uniprot-O94822"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LTN1 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

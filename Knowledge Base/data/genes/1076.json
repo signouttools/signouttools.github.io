@@ -115,5 +115,27 @@
     "source_ids": [
       "gencc-SGC-106241.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BMPR1A encodes bone morphogenetic protein receptor type-1A. It participates in positive regulation of miRNA transcription and positive regulation of SMAD protein signal transduction.",
+      "source_ids": [
+        "ncbi-657",
+        "uniprot-P36894"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include juvenile polyposis syndrome (autosomal dominant); generalized juvenile polyposis/juvenile polyposis coli (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BMPR1A have been reported in stomach adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

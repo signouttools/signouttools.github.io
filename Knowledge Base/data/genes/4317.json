@@ -110,5 +110,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GLI1 encodes transcription activator GLI1. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2735",
+        "uniprot-P08151"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GLI1 have been reported in gastroblastoma and GLI1-altered mesenchymal tumor, malignant/metastasizing.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

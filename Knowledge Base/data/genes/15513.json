@@ -63,5 +63,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SMYD3 encodes histone-lysine N-methyltransferase SMYD3. It participates in negative regulation of DNA-templated transcription and heart development.",
+      "source_ids": [
+        "ncbi-64754",
+        "uniprot-Q9H7B4"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

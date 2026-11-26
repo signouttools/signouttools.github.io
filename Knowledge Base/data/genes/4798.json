@@ -64,5 +64,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HABP2 encodes factor VII-activating protease [Cleaved into: Factor VII-activating protease 50 kDa N-terminal heavy chain; Factor VII-activating protease 50 kDa N-terminal heavy chain alternate form; Factor VII-activating protease 27 kDa C-terminal light chain; Factor VII-activating protease 27 kDa C-terminal light chain alternate form]. It participates in proteolysis and cell adhesion.",
+      "source_ids": [
+        "ncbi-3026",
+        "uniprot-Q14520"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

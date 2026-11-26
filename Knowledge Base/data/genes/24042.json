@@ -91,5 +91,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "WWTR1 encodes WW domain-containing transcription regulator protein 1. It participates in SMAD protein signal transduction and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-25937",
+        "uniprot-Q9GZV5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving WWTR1 have been reported in porocarcinoma, epithelioid hemangioendothelioma, and skin-analogue primary poroid carcinoma of the head and neck.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

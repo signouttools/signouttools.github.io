@@ -118,5 +118,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AKT2 encodes RAC-beta serine/threonine-protein kinase. It participates in signal transduction and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-208",
+        "uniprot-P31751"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hypoinsulinemic hypoglycemia and body hemihypertrophy (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

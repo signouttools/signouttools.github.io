@@ -55,5 +55,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PBX3 encodes pre-B-cell leukemia transcription factor 3. It participates in positive regulation of transcription by RNA polymerase II and brain development.",
+      "source_ids": [
+        "ncbi-5090",
+        "uniprot-P40426"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PBX3 have been reported in myoepithelial carcinoma of soft tissue/bone.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

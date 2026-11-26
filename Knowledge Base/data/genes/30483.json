@@ -89,5 +89,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PCMTD1 encodes protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 1. Its functions include protein-L-isoaspartate (D-aspartate) O-methyltransferase activity and ubiquitin-like ligase-substrate adaptor activity.",
+      "source_ids": [
+        "ncbi-115294",
+        "uniprot-Q96MG8"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PCMTD1 have been reported in cutaneous melanoma, lung adenocarcinoma, and prostate adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -77,5 +77,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BABAM1 encodes BRISC and BRCA1-A complex member 1. It participates in DNA repair-dependent chromatin remodeling and regulation of DNA repair.",
+      "source_ids": [
+        "ncbi-29086",
+        "uniprot-Q9NWV8"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

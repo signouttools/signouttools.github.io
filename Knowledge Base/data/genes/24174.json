@@ -63,5 +63,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ACSBG2 encodes acyl-CoA synthetase bubblegum family member 2. Its functions include arachidonate-CoA ligase activity and fatty acyl-CoA hydrolase activity.",
+      "source_ids": [
+        "ncbi-81616",
+        "uniprot-Q5FVE4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ACSBG2 have been reported in papillary renal cell carcinoma and clear cell renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

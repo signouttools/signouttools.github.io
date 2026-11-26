@@ -72,5 +72,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RBBP8 encodes DNA endonuclease RBBP8. It participates in homologous recombination and double-strand break repair via homologous recombination.",
+      "source_ids": [
+        "ncbi-5932",
+        "uniprot-Q99708"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Jawad syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

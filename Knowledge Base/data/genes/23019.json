@@ -124,5 +124,22 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ZRSR2 encodes a splicing factor important for recognition and processing of introns, particularly those handled by the minor spliceosome.",
+      "source_ids": [
+        "ncbi-8233"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic ZRSR2 mutations occur in myelodysplastic neoplasms and can disrupt splicing regulation. An isolated mutation does not independently establish an integrated myeloid diagnosis.",
+      "source_ids": [
+        "pmid-22389253"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

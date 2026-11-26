@@ -69,5 +69,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SHROOM1 encodes shroom family member 1. Its functions include actin filament binding and myosin II binding.",
+      "source_ids": [
+        "ncbi-134549",
+        "uniprot-Q2M3G4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SHROOM1 have been reported in adrenocortical carcinoma, hepatocellular carcinoma, and papillary renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

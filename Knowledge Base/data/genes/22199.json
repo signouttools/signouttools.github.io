@@ -54,5 +54,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "COBL encodes cordon-bleu WH2 repeat protein. Its functions include actin monomer binding and actin filament network formation.",
+      "source_ids": [
+        "ncbi-23242",
+        "uniprot-O75128"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving COBL have been reported in hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

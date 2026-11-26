@@ -138,5 +138,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CBL encodes E3 ubiquitin-protein ligase CBL. It participates in signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-867",
+        "uniprot-P22681"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with CBL-related disorder (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CBL have been reported in chronic myelomonocytic leukemia, juvenile myelomonocytic leukemia, and acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

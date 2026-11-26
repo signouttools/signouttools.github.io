@@ -72,5 +72,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GPS2 encodes g protein pathway suppressor 2. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2874",
+        "uniprot-Q13227"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

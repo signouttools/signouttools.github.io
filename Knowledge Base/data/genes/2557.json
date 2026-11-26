@@ -138,5 +138,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CUX1 encodes homeobox protein cut-like 1 [Cleaved into: CDP/Cux p110]. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-1523",
+        "uniprot-P39880"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant); global developmental delay with or without impaired intellectual development (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CUX1 have been reported in melanoma, glioblastoma, and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

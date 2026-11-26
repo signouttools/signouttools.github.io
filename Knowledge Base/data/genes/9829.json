@@ -174,5 +174,27 @@
       "gencc-SGC-104394.4",
       "gencc-SGC-105929.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RAF1 encodes RAF proto-oncogene serine/threonine-protein kinase. It participates in signal transduction and regulation of Rho protein signal transduction.",
+      "source_ids": [
+        "ncbi-5894",
+        "uniprot-P04049"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Noonan syndrome (autosomal dominant); Noonan syndrome 5 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RAF1 have been reported in amphicrine-like carcinoma, pleomorphic xanthoastrocytoma, and pancreatic acinar cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

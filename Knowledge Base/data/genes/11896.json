@@ -158,5 +158,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TNFAIP3 encodes tumor necrosis factor alpha-induced protein 3 [Cleaved into: A20p50; A20p37]. It participates in negative regulation of canonical NF-kappaB signal transduction and protein deubiquitination.",
+      "source_ids": [
+        "ncbi-7128",
+        "uniprot-P21580"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autoinflammatory syndrome, familial, Behcet-like 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TNFAIP3 have been reported in marginal zone lymphoma, classic Hodgkin lymphoma, and diffuse large b-cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

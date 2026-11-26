@@ -52,5 +52,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AHRR encodes aryl hydrocarbon receptor repressor. It participates in regulation of transcription by RNA polymerase II and xenobiotic metabolic process.",
+      "source_ids": [
+        "ncbi-57491",
+        "uniprot-A9YTQ3"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

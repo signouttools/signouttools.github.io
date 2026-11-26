@@ -111,5 +111,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PPARG encodes peroxisome proliferator-activated receptor gamma. It participates in negative regulation of DNA-templated transcription and negative regulation of miRNA transcription.",
+      "source_ids": [
+        "ncbi-5468",
+        "uniprot-P37231"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with lipodystrophy (semidominant); PPARG-related familial partial lipodystrophy (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PPARG have been reported in follicular thyroid carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

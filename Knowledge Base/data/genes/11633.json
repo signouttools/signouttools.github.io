@@ -125,5 +125,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TCF3 encodes transcription factor E2-alpha. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-6929",
+        "uniprot-P15923"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autosomal agammaglobulinemia (semidominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TCF3 have been reported in Burkitt lymphoma and b-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

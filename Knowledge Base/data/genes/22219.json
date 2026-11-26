@@ -60,5 +60,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KIAA1549 encodes UPF0606 protein KIAA1549. Its molecular function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-57670",
+        "uniprot-Q9HCM3"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with retinitis pigmentosa 86 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KIAA1549 have been reported in diffuse leptomeningeal glioneuronal tumor.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

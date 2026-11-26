@@ -199,5 +199,33 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GNAS encodes neuroendocrine secretory protein 55 [Cleaved into: LHAL tetrapeptide; GPIPIRRH peptide]. It participates in female pregnancy and protein secretion.",
+      "source_ids": [
+        "ncbi-2778",
+        "uniprot-O95467"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with progressive osseous heteroplasia (autosomal dominant); pseudohypoparathyroidism type 1A (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with McCune-Albright syndrome.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GNAS have been reported in appendiceal adenocarcinoma, pancreatic ductal adenocarcinoma, and juvenile granulosa cell tumor of ovary.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

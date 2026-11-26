@@ -88,5 +88,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FLI1 encodes friend leukemia integration 1 transcription factor. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2313",
+        "uniprot-Q01543"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with bleeding disorder, platelet-type, 21 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FLI1 have been reported in Ewing sarcoma and adamantinoma-like Ewing sarcoma of the head and neck.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

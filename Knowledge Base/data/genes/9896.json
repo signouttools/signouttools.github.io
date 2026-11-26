@@ -150,5 +150,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RBM10 encodes ribosome biogenesis inhibitor MINAS-60. It participates in negative regulation of ribosomal large subunit export from nucleus.",
+      "source_ids": [
+        "ncbi-8241",
+        "uniprot-P0DW28"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with TARP syndrome (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RBM10 have been reported in cholangiocarcinoma, lung adenocarcinoma, and colorectal adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

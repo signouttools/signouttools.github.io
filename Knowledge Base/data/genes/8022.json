@@ -93,5 +93,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NT5C2 encodes cytosolic purine 5'-nucleotidase. It participates in GMP metabolic process and IMP catabolic process.",
+      "source_ids": [
+        "ncbi-22978",
+        "uniprot-P49902"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with complex hereditary spastic paraplegia (autosomal recessive); hereditary spastic paraplegia 45 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

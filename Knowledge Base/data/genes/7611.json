@@ -92,5 +92,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYOD1 encodes myoblast determination protein 1. It participates in regulation of RNA splicing and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-4654",
+        "uniprot-P15172"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with myopathy, congenital, with diaphragmatic defects, respiratory insufficiency, and dysmorphic facies (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYOD1 have been reported in rhabdomyosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

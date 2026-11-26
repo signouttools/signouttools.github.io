@@ -109,5 +109,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SYK encodes tyrosine-protein kinase SYK. It participates in intracellular signal transduction and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6850",
+        "uniprot-P43405"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with immunodeficiency 82 with systemic inflammation (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SYK have been reported in nodal t-follicular helper cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

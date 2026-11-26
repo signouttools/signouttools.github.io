@@ -130,5 +130,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CSF1R encodes macrophage colony-stimulating factor 1 receptor. It participates in positive regulation of protein tyrosine kinase activity and signal transduction.",
+      "source_ids": [
+        "ncbi-1436",
+        "uniprot-P07333"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with brain abnormalities, neurodegeneration, and dysosteosclerosis (autosomal recessive); leukoencephalopathy, diffuse hereditary, with spheroids 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CSF1R have been reported in invasive breast carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

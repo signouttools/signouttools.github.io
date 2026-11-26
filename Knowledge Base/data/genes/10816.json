@@ -71,5 +71,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SCG5 encodes neuroendocrine protein 7B2 [Cleaved into: N-terminal peptide; C-terminal peptide]. It participates in intracellular protein transport and neuropeptide signaling pathway.",
+      "source_ids": [
+        "ncbi-6447",
+        "uniprot-P05408"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary mixed polyposis syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

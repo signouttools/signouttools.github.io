@@ -84,5 +84,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAF encodes transcription factor Maf. It participates in transcription by RNA polymerase II and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-4094",
+        "uniprot-O75444"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Ayme-Gripp syndrome (autosomal dominant); cataract 21 multiple types (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAF have been reported in plasma cell myeloma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

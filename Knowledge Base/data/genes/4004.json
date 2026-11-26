@@ -118,5 +118,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FUBP1 encodes far upstream element-binding protein 1. It participates in regulation of transcription by RNA polymerase II and positive regulation of gene expression.",
+      "source_ids": [
+        "ncbi-8880",
+        "uniprot-Q96AE4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FUBP1 have been reported in oligodendroglioma, IDH-mutant and 1p/19q-codeleted, low-Grade glioma, NOS, and chronic lymphocytic leukemia/Small lymphocytic lymphoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

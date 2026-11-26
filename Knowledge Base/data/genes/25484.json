@@ -96,5 +96,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KIF26B encodes kinesin family member 26B. Its functions include microtubule binding and microtubule motor activity.",
+      "source_ids": [
+        "ncbi-55083",
+        "uniprot-Q2KJY2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KIF26B have been reported in glioblastoma, low-grade glioma, and ovarian carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

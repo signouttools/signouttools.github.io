@@ -75,5 +75,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KEL encodes kell blood group glycoprotein. It participates in vasoconstriction and protein processing.",
+      "source_ids": [
+        "ncbi-3792",
+        "uniprot-P23276"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

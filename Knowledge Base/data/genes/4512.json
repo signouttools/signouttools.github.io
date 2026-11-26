@@ -67,5 +67,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ADGRG1 encodes adhesion G protein-coupled receptor G1 [Cleaved into: Adhesion G protein-coupled receptor G1, N-terminal fragment); Adhesion G protein-coupled receptor G1, C-terminal fragment)]. It participates in Rho protein signal transduction and positive regulation of Rho protein signal transduction.",
+      "source_ids": [
+        "ncbi-9289",
+        "uniprot-Q9Y653"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with bilateral frontoparietal polymicrogyria (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ADGRG1 have been reported in CNS embryonal tumor with PLAG family gene alteration.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

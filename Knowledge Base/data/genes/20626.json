@@ -68,5 +68,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CHD7 encodes ATP-dependent chromatin remodeler CHD7. It participates in regulation of DNA-templated transcription and cognition.",
+      "source_ids": [
+        "ncbi-55636",
+        "uniprot-Q9P2D1"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with CHARGE syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CHD7 have been reported in CNS embryonal tumor with PLAG family gene alteration.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

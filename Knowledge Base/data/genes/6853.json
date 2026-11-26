@@ -89,5 +89,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAP3K14 encodes mitogen-activated protein kinase kinase kinase 14. It participates in non-canonical NF-kappaB signal transduction and MAPK cascade.",
+      "source_ids": [
+        "ncbi-9020",
+        "uniprot-Q99558"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

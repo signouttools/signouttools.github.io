@@ -58,5 +58,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EMILIN2 encodes EMILIN-2. It participates in positive regulation of angiogenesis and regulation of blood pressure.",
+      "source_ids": [
+        "ncbi-84034",
+        "uniprot-Q9BXX0"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EMILIN2 have been reported in dermatofibrosarcoma protuberans, fibrosarcomatous.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

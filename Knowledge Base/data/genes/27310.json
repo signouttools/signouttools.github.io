@@ -132,5 +132,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FLCN encodes folliculin. It participates in intracellular signal transduction and regulation of Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-201163",
+        "uniprot-Q8NFG4"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Birt-Hogg-Dube syndrome (autosomal dominant); Birt-Hogg-Dube syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FLCN have been reported in lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

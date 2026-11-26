@@ -84,5 +84,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ATP6AP1 encodes v-type proton ATPase subunit S1. It participates in osteoclast development and vacuolar acidification.",
+      "source_ids": [
+        "ncbi-537",
+        "uniprot-Q15904"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with congenital disorder of glycosylation type II (x-linked); immunodeficiency 47 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

@@ -254,5 +254,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NOTCH2 encodes neurogenic locus notch homolog protein 2 [Cleaved into: Notch 2 extracellular truncation; Notch 2 intracellular domain]. It participates in intracellular signal transduction and positive regulation of miRNA transcription.",
+      "source_ids": [
+        "ncbi-4853",
+        "uniprot-Q04721"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Alagille syndrome (autosomal dominant); acroosteolysis dominant type (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NOTCH2 have been reported in mantle cell lymphoma, marginal zone lymphoma, and glomus tumor, malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -53,5 +53,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GOPC encodes golgi-associated PDZ and coiled-coil motif-containing protein. It participates in negative regulation of anion channel activity and apical protein localization.",
+      "source_ids": [
+        "ncbi-57120",
+        "uniprot-Q9HD26"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -50,5 +50,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HOXA9 encodes homeobox protein Hox-A9. It participates in DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-3205",
+        "uniprot-P31269"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

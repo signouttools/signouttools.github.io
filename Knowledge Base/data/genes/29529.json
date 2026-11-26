@@ -130,5 +130,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TBL1XR1 encodes f-box-like/WD repeat-containing protein TBL1XR1. It participates in positive regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-79718",
+        "uniprot-Q9BZK7"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant); Pierpont syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TBL1XR1 have been reported in Burkitt lymphoma, malignant lymphoma, and non-Hodgkin lymphoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

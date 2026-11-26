@@ -61,5 +61,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "UIMC1 encodes BRCA1-A complex subunit RAP80. It participates in DNA repair-dependent chromatin remodeling and regulation of DNA repair.",
+      "source_ids": [
+        "ncbi-51720",
+        "uniprot-Q96RL1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -109,5 +109,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PHOX2B encodes paired mesoderm homeobox protein 2B. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-8929",
+        "uniprot-Q99453"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Haddad syndrome (autosomal dominant); central hypoventilation syndrome, congenital, 1, with or without Hirschsprung disease (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

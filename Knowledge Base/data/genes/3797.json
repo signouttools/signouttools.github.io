@@ -54,5 +54,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FOSB encodes protein FosB. It participates in transcription by RNA polymerase II and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2354",
+        "uniprot-P53539"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -74,5 +74,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NHS encodes NHS actin remodeling regulator. Its functions include cell differentiation and lens development in camera-type eye.",
+      "source_ids": [
+        "ncbi-4810",
+        "uniprot-Q6T4R5"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Nance-Horan syndrome (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NHS have been reported in breast carcinoma, gastric adenocarcinoma, and chronic lymphocytic leukemia. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

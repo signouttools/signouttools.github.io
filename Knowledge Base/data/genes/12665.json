@@ -73,5 +73,27 @@
       "gencc-SGC-178029.1",
       "gencc-SGC-180423.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "VCL encodes vinculin. It participates in cell adhesion and cell-matrix adhesion.",
+      "source_ids": [
+        "ncbi-7414",
+        "uniprot-P18206"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include dilated cardiomyopathy 1W (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving VCL have been reported in ALK-rearranged renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

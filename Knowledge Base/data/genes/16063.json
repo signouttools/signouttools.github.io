@@ -57,5 +57,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MLLT10 encodes protein AF-10. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-8028",
+        "uniprot-P55197"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MLLT10 have been reported in t-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

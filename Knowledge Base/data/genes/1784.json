@@ -118,5 +118,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CDKN1A encodes cyclin-dependent kinase inhibitor 1. It participates in positive regulation of protein kinase activity and Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-1026",
+        "uniprot-P38936"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CDKN1A have been reported in hepatocellular carcinoma and bladder urothelial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

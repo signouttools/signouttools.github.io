@@ -61,5 +61,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PTPN1 encodes tyrosine-protein phosphatase non-receptor type 1. It participates in negative regulation of MAP kinase activity and regulation of signal transduction.",
+      "source_ids": [
+        "ncbi-5770",
+        "uniprot-P18031"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

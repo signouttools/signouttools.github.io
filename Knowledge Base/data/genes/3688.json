@@ -232,5 +232,33 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGFR1 encodes fibroblast growth factor receptor 1. It participates in positive regulation of MAP kinase activity and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-2260",
+        "uniprot-P11362"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Pfeiffer syndrome type 1 (autosomal dominant); Hartsfield-Bixler-Demyer syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with encephalocraniocutaneous lipomatosis.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FGFR1 have been reported in lung squamous cell carcinoma, phosphaturic mesenchymal tumor, malignant, and high-grade astrocytoma with piloid features.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

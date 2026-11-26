@@ -70,5 +70,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PBX1 encodes pre-B-cell leukemia transcription factor 1. It participates in positive regulation of transcription by RNA polymerase II and brain development.",
+      "source_ids": [
+        "ncbi-5087",
+        "uniprot-P40424"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with congenital anomalies of kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmental delay (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PBX1 have been reported in b-lymphoblastic leukemia/lymphoma and myoepithelial carcinoma of soft tissue/bone.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

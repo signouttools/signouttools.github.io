@@ -251,5 +251,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ASXL1 encodes a chromatin-regulatory protein involved in controlling histone modifications and transcriptional programs, including those governing hematopoietic differentiation.",
+      "source_ids": [
+        "ncbi-171023"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Bohring-Opitz syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ASXL1 have been reported in MDS/MPN, NOS, primary myelofibrosis, and systemic mastocytosis.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

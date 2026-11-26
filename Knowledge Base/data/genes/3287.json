@@ -76,5 +76,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EIF4E encodes eukaryotic translation initiation factor 4E. It participates in translational initiation and regulation of translation.",
+      "source_ids": [
+        "ncbi-1977",
+        "uniprot-P06730"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

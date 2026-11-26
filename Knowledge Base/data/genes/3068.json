@@ -64,5 +64,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DUSP2 encodes dual specificity protein phosphatase 2. It participates in signal transduction and endoderm formation.",
+      "source_ids": [
+        "ncbi-1844",
+        "uniprot-Q05923"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DUSP2 have been reported in t-cell/histiocyte-rich large b-cell lymphoma and nodular lymphocyte-predominant Hodgkin lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

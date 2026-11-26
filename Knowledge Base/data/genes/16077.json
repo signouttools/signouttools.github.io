@@ -72,5 +72,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DUSP22 encodes dual specificity protein phosphatase 22. It participates in intracellular signal transduction and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-56940",
+        "uniprot-Q9NRW4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DUSP22 have been reported in primary cutaneous anaplastic large cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

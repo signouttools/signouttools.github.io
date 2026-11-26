@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HFE encodes hereditary hemochromatosis protein. It participates in positive regulation of SMAD protein signal transduction and receptor-mediated endocytosis.",
+      "source_ids": [
+        "ncbi-3077",
+        "uniprot-Q30201"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hemochromatosis type 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

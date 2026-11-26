@@ -215,5 +215,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CYLD encodes ubiquitin carboxyl-terminal hydrolase CYLD. It participates in negative regulation of canonical NF-kappaB signal transduction and negative regulation of non-canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-1540",
+        "uniprot-Q9NQC7"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Brooke-Spiegler syndrome (autosomal dominant); familial cylindromatosis (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CYLD have been reported in cylindrocarcinoma, spiradenocarcinoma, and follicular dendritic cell sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

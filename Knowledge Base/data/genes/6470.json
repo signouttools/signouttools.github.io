@@ -79,5 +79,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "L1CAM encodes neural cell adhesion molecule L1. It participates in chemotaxis and axon development.",
+      "source_ids": [
+        "ncbi-3897",
+        "uniprot-P32004"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with L1 syndrome (x-linked); X-linked hydrocephalus with stenosis of the aqueduct of Sylvius (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

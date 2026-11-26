@@ -111,5 +111,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PLCG2 encodes 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2. It participates in intracellular signal transduction and positive regulation of intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-5336",
+        "uniprot-P16885"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autoinflammation-PLCG2-associated antibody deficiency-immune dysregulation (autosomal dominant); familial cold autoinflammatory syndrome 3 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

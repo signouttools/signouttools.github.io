@@ -224,5 +224,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RET encodes a receptor tyrosine kinase that transduces signals from glial-cell-line-derived neurotrophic factor family ligands through coreceptor-dependent signaling.",
+      "source_ids": [
+        "ncbi-5979"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with multiple endocrine neoplasia type 2A (autosomal dominant); multiple endocrine neoplasia type 2B (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RET have been reported in pheochromocytoma, cutaneous melanoma, and lung adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

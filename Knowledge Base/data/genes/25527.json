@@ -90,5 +90,23 @@
     "source_ids": [
       "gencc-snapshot"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ANKZF1 encodes ankyrin repeat and zinc finger peptidyl tRNA hydrolase 1. Its functions include catalytic activity, acting on a tRNA and RNA endonuclease activity.",
+      "source_ids": [
+        "ncbi-55139",
+        "uniprot-Q9H8Y5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ANKZF1 have been reported in low-grade glioma, cutaneous melanoma, and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

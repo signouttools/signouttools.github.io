@@ -135,5 +135,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MITF encodes microphthalmia-associated transcription factor. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4286",
+        "uniprot-O75030"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Waardenburg syndrome type 2 (autosomal dominant); Waardenburg syndrome type 2A (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

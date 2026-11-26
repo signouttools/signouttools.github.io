@@ -78,5 +78,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MST1R encodes macrophage-stimulating protein receptor [Cleaved into: Macrophage-stimulating protein receptor alpha chain; Macrophage-stimulating protein receptor beta chain]. It participates in positive regulation of MAP kinase activity and signal transduction.",
+      "source_ids": [
+        "ncbi-4486",
+        "uniprot-Q04912"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -70,5 +70,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MEF2C encodes myocyte-specific enhancer factor 2C. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4208",
+        "uniprot-Q06413"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant); neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MEF2C have been reported in microsecretory adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

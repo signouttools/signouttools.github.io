@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PANK3 encodes pantothenate kinase 3. Its functions include acetyl-CoA binding and pantothenate kinase activity.",
+      "source_ids": [
+        "ncbi-79646",
+        "uniprot-Q9H999"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PANK3 have been reported in colorectal carcinoma, adrenocortical carcinoma, and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

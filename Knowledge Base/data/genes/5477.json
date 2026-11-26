@@ -96,5 +96,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IGH is the immunoglobulin heavy-chain locus; its variable, diversity, joining, and constant segments support antibody production through somatic rearrangement in B cells.",
+      "source_ids": [
+        "ncbi-3492"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving IGH have been reported in plasmacytoma, Burkitt lymphoma, and follicular lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

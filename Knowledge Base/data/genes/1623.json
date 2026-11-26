@@ -84,5 +84,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CCT8 encodes chaperonin containing TCP1 subunit 8. Its functions include ATP hydrolysis activity and ATP-dependent protein folding chaperone.",
+      "source_ids": [
+        "ncbi-10694",
+        "uniprot-P50990"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CCT8 have been reported in low-grade glioma, prostate adenocarcinoma, and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -120,5 +120,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CSF3R encodes granulocyte colony-stimulating factor receptor. It participates in signal transduction and amelogenesis.",
+      "source_ids": [
+        "ncbi-1441",
+        "uniprot-Q99062"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autosomal recessive severe congenital neutropenia due to CSF3R deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CSF3R have been reported in chronic neutrophilic leukemia and acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

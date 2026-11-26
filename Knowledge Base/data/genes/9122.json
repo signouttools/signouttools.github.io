@@ -156,5 +156,26 @@
     "source_ids": [
       "gencc-SGC-106365.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PMS2 encodes the endonuclease component of the MLH1–PMS2 mismatch-repair complex, which helps remove replication-associated DNA errors.",
+      "source_ids": [
+        "ncbi-5395"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Lynch syndrome (autosomal dominant); Constitutional mismatch repair deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Loss of mismatch-repair function involving PMS2 is relevant in colorectal and endometrial carcinomas. Protein-expression loss or an MSI phenotype does not by itself establish a somatic sequence mutation.",
+      "source_ids": [
+        "amp-mmr-somatic"
+      ]
+    }
+  },
+  "report_gaps": []
 }

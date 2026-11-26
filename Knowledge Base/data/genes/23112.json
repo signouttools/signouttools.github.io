@@ -185,5 +185,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FAT3 encodes protocadherin Fat 3. It participates in cell morphogenesis and neuron migration.",
+      "source_ids": [
+        "ncbi-120114",
+        "uniprot-Q8TDW7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FAT3 have been reported in melanoma, pancreas, and angiosarcoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -55,5 +55,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FOXR2 encodes forkhead box protein R2. Its functions include DNA-binding transcription factor activity, RNA polymerase II-specific and sequence-specific double-stranded DNA binding.",
+      "source_ids": [
+        "ncbi-139628",
+        "uniprot-Q6PJQ5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FOXR2 have been reported in CNS neuroblastoma, FOXR2-activated.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

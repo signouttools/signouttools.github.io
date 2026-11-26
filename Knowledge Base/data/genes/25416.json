@@ -57,5 +57,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ATXN7L3 encodes ataxin-7-like protein 3. It participates in regulation of DNA repair and regulation of RNA splicing.",
+      "source_ids": [
+        "ncbi-56970",
+        "uniprot-Q14CW9"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ATXN7L3 have been reported in b-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

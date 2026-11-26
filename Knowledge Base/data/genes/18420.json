@@ -322,5 +322,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SETD2 encodes histone-lysine N-methyltransferase SETD2. It participates in mismatch repair and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-29072",
+        "uniprot-Q9BYW2"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with SETD2-related neurodevelopmental disorder without or with macrocephaly/overgrowth (autosomal dominant); SETD2-related microcephaly-severe intellectual disability-multiple congenital anomalies syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SETD2 have been reported in mesothelioma, collecting duct carcinoma, and hepatosplenic t-cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

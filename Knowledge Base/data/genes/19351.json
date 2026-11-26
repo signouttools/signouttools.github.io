@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BICC1 encodes protein bicaudal C homolog 1. It participates in mRNA catabolic process and determination of left/right symmetry.",
+      "source_ids": [
+        "ncbi-80114",
+        "uniprot-Q9H694"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BICC1 have been reported in intrahepatic cholangiocarcinoma and small-duct intrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

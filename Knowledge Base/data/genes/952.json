@@ -129,5 +129,23 @@
     "source_ids": [
       "gencc-SGC-106785.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BARD1 encodes BRCA1-associated RING domain protein 1. It participates in DNA repair and homologous recombination.",
+      "source_ids": [
+        "ncbi-580",
+        "uniprot-Q99728"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include BARD1-related cancer predisposition (autosomal dominant); hereditary breast carcinoma (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

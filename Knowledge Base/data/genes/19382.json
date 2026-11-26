@@ -66,5 +66,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SOCS2 encodes suppressor of cytokine signaling 2. It participates in intracellular signal transduction and regulation of signal transduction.",
+      "source_ids": [
+        "ncbi-8835",
+        "uniprot-O14508"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

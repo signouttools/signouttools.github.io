@@ -67,5 +67,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LIG4 encodes DNA ligase 4. It participates in V(D)J recombination and base-excision repair.",
+      "source_ids": [
+        "ncbi-3981",
+        "uniprot-P49917"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with DNA ligase IV deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

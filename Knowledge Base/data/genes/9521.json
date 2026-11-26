@@ -59,5 +59,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PSG4 encodes pregnancy specific beta-1-glycoprotein 4. Its functions include female pregnancy.",
+      "source_ids": [
+        "ncbi-5672",
+        "uniprot-Q00888"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PSG4 have been reported in cutaneous melanoma and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -63,5 +63,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "VIM encodes vimentin. It participates in intermediate filament organization and regulation of mRNA stability.",
+      "source_ids": [
+        "ncbi-7431",
+        "uniprot-P08670"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with cataract 30 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving VIM have been reported in YAP1::KMT2A-rearranged sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

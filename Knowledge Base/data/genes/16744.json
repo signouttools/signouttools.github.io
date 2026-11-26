@@ -69,5 +69,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CIZ1 encodes CDKN1A interacting zinc finger protein 1. Its functions include nucleic acid binding and zinc ion binding.",
+      "source_ids": [
+        "ncbi-25792",
+        "uniprot-Q9ULV3"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CIZ1 have been reported in glioblastoma, low-grade glioma, and papillary renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

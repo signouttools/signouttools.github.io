@@ -73,5 +73,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RPA1 encodes replication protein A 70 kDa DNA-binding subunit [Cleaved into: Replication protein A 70 kDa DNA-binding subunit, N-terminally processed]. It participates in DNA repair and mismatch repair.",
+      "source_ids": [
+        "ncbi-6117",
+        "uniprot-P27694"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with pulmonary fibrosis and/or bone marrow failure, telomere-related, 6 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

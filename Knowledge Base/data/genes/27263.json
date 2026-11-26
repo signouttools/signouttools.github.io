@@ -57,5 +57,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KANK4 encodes KN motif and ankyrin repeat domain-containing protein 4. It participates in negative regulation of actin filament polymerization.",
+      "source_ids": [
+        "ncbi-163782",
+        "uniprot-Q5T7N3"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KANK4 have been reported in amphicrine-like carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

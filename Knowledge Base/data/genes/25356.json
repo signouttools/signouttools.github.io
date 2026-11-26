@@ -64,5 +64,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SPRTN encodes DNA-dependent metalloprotease SPRTN. It participates in proteolysis and protein autoprocessing.",
+      "source_ids": [
+        "ncbi-83932",
+        "uniprot-Q9H040"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -77,5 +77,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DUSP16 encodes dual specificity phosphatase 16. Its functions include JUN kinase binding and MAP kinase tyrosine phosphatase activity.",
+      "source_ids": [
+        "ncbi-80824",
+        "uniprot-Q9BY84"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DUSP16 have been reported in breast carcinoma, colorectal carcinoma, and endometrial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

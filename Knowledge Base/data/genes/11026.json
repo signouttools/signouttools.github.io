@@ -55,5 +55,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLC3A2 encodes amino acid transporter heavy chain SLC3A2. It participates in L-histidine transport and L-leucine transport.",
+      "source_ids": [
+        "ncbi-6520",
+        "uniprot-P08195"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

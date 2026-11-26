@@ -68,5 +68,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MIR17HG is the host gene for the miR-17–92 microRNA cluster. Its primary transcript gives rise to microRNAs that regulate expression of target genes involved in growth and differentiation.",
+      "source_ids": [
+        "ncbi-407975"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Feingold syndrome type 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MIR17HG have been reported in embryonal tumor with multilayered rosettes.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

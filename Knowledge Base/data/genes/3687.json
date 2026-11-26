@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGF9 encodes fibroblast growth factor 9. It participates in signal transduction and neurogenesis.",
+      "source_ids": [
+        "ncbi-2254",
+        "uniprot-P31371"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with multiple synostoses syndrome (autosomal dominant); multiple synostoses syndrome 3 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

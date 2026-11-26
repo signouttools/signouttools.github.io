@@ -88,5 +88,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HMGA2 encodes high mobility group protein HMGI-C. It participates in positive regulation of protein serine/threonine kinase activity and chromatin organization.",
+      "source_ids": [
+        "ncbi-8091",
+        "uniprot-P52926"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Silver-Russell syndrome 5 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving HMGA2 have been reported in carcinoma ex pleomorphic adenoma, carcinosarcoma of salivary gland, and myoepithelial carcinoma of salivary gland.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

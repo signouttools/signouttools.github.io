@@ -115,5 +115,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RECQL4 encodes ATP-dependent DNA helicase Q4. It participates in DNA repair and telomere maintenance.",
+      "source_ids": [
+        "ncbi-9401",
+        "uniprot-O94761"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Rothmund-Thomson syndrome (autosomal recessive); Baller-Gerold syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

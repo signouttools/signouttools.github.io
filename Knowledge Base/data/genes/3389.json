@@ -101,5 +101,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EPHA5 encodes ephrin type-A receptor 5. It participates in axon guidance and axonal fasciculation.",
+      "source_ids": [
+        "ncbi-2044",
+        "uniprot-P54756"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

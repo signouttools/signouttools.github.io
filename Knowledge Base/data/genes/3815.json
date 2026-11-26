@@ -56,5 +56,18 @@
     "source_ids": [
       "gencc-SGC-104692.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FOXI1 encodes forkhead box protein I1. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2299",
+        "uniprot-Q12951"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

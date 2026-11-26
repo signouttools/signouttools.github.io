@@ -76,5 +76,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NCOA1 encodes nuclear receptor coactivator 1. It participates in positive regulation of DNA-templated transcription and mRNA transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-8648",
+        "uniprot-Q15788"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NCOA1 have been reported in MEIS1::NCOA1/2 primitive spindle cell sarcoma, uterine tumor resembling ovarian sex cord tumor, malignant, and pancreatic adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

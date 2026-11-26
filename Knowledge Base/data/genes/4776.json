@@ -126,5 +126,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "H3C2 encodes histone H3.1. It participates in chromatin organization and nucleosome assembly.",
+      "source_ids": [
+        "ncbi-8358",
+        "uniprot-P68431"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving H3C2 have been reported in esophageal adenocarcinoma, invasive breast carcinoma, and bladder urothelial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

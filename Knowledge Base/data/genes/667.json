@@ -169,5 +169,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RHOA encodes transforming protein RhoA. It participates in positive regulation of protein serine/threonine kinase activity and Rho protein signal transduction.",
+      "source_ids": [
+        "ncbi-387",
+        "uniprot-P61586"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RHOA have been reported in gastric adenocarcinoma, appendiceal goblet cell adenocarcinoma, and nodal t-follicular helper cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

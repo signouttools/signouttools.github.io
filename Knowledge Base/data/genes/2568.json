@@ -67,5 +67,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAMLD1 encodes mastermind-like domain-containing protein 1. It participates in regulation of transcription by RNA polymerase II and male gonad development.",
+      "source_ids": [
+        "ncbi-10046",
+        "uniprot-Q13495"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hypospadias 2, X-linked (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAMLD1 have been reported in ependymoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

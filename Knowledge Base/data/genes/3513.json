@@ -84,5 +84,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EXT2 encodes exostosin-2. It participates in ossification and glycosaminoglycan biosynthetic process.",
+      "source_ids": [
+        "ncbi-2132",
+        "uniprot-Q93063"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with exostoses, multiple, type 2 (autosomal dominant); seizures-scoliosis-macrocephaly syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EXT2 have been reported in chondrosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -80,5 +80,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TPSD1 encodes tryptase delta 1. Its functions include serine-type endopeptidase activity and serine-type peptidase activity.",
+      "source_ids": [
+        "ncbi-23430",
+        "uniprot-Q9BZJ3"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TPSD1 have been reported in low-grade glioma, colorectal carcinoma, and adrenocortical carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

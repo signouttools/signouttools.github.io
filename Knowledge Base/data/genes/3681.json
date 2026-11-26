@@ -112,5 +112,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGF3 encodes fibroblast growth factor 3. It participates in signal transduction and neurogenesis.",
+      "source_ids": [
+        "ncbi-2248",
+        "uniprot-P11487"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with deafness with labyrinthine aplasia, microtia, and microdontia (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Amplification of FGF3 has been reported in human tumors. A regional copy-number gain does not by itself identify the contribution of this gene relative to neighboring co-amplified genes.",
+      "source_ids": [
+        "ncbi-2248"
+      ]
+    }
+  },
+  "report_gaps": []
 }

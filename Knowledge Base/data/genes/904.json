@@ -101,5 +101,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AXIN2 encodes axin-2. It participates in regulation of mismatch repair and odontogenesis.",
+      "source_ids": [
+        "ncbi-8313",
+        "uniprot-Q9Y2T1"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with oligodontia-cancer predisposition syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "AXIN2 mutations have been reported in colorectal cancer, including mismatch-repair-deficient tumors. Variant-level interpretation is required.",
+      "source_ids": [
+        "ncbi-8313"
+      ]
+    }
+  },
+  "report_gaps": []
 }

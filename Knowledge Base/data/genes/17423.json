@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CHST12 encodes carbohydrate sulfotransferase 12. Its functions include 3'-phosphoadenosine 5'-phosphosulfate binding and chondroitin 4-sulfotransferase activity.",
+      "source_ids": [
+        "ncbi-55501",
+        "uniprot-Q9NRB3"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CHST12 have been reported in lung adenocarcinoma and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

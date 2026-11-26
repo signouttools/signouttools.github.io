@@ -86,5 +86,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LSM14A encodes LSM14A mRNA processing body assembly factor. Its functions include mRNA binding and mitotic spindle assembly.",
+      "source_ids": [
+        "ncbi-26065",
+        "uniprot-Q8ND56"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LSM14A have been reported in glioblastoma, colorectal carcinoma, and esophageal carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

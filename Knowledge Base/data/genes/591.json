@@ -119,5 +119,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BIRC3 encodes baculoviral IAP repeat-containing protein 3. It participates in canonical NF-kappaB signal transduction and non-canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-330",
+        "uniprot-Q13489"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BIRC3 have been reported in marginal zone lymphoma, chronic lymphocytic leukemia / small lymphocytic lymphoma, and lung squamous cell carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

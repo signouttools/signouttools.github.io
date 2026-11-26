@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CYP4A11 encodes cytochrome P450 family 4 subfamily A member 11. Its functions include alkane 1-monooxygenase activity and arachidonate epoxygenase activity.",
+      "source_ids": [
+        "ncbi-1579",
+        "uniprot-Q02928"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CYP4A11 have been reported in breast carcinoma and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

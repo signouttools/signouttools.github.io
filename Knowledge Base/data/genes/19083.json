@@ -49,5 +49,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CKS1B encodes cyclin-dependent kinases regulatory subunit 1. It participates in mitotic cell cycle phase transition.",
+      "source_ids": [
+        "ncbi-1163",
+        "uniprot-P61024"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

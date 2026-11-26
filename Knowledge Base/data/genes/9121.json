@@ -93,5 +93,18 @@
     "source_ids": [
       "gencc-SGC-106101.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PMS1 encodes PMS1 protein homolog 1. It participates in mismatch repair and response to xenobiotic stimulus.",
+      "source_ids": [
+        "ncbi-5378",
+        "uniprot-P54277"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

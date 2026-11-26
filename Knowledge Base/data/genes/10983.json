@@ -85,5 +85,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLC25A13 encodes electrogenic aspartate/glutamate antiporter SLC25A13, mitochondrial. It participates in cellular respiration and malate-aspartate shuttle.",
+      "source_ids": [
+        "ncbi-10165",
+        "uniprot-Q9UJS0"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with citrin deficiency (autosomal recessive); neonatal intrahepatic cholestasis due to citrin deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

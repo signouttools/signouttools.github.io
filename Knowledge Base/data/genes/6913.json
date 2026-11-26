@@ -153,5 +153,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAX encodes protein max. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4149",
+        "uniprot-P61244"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); pheochromocytoma (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAX have been reported in pheochromocytoma, plasma cell myeloma, and endometrial carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

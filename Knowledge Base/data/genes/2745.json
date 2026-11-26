@@ -165,5 +165,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DDX3X encodes ATP-dependent RNA helicase DDX3X. It participates in intracellular signal transduction and negative regulation of non-canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-1654",
+        "uniprot-O00571"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked syndromic intellectual disability (x-linked); intellectual disability, X-linked 102 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DDX3X have been reported in aggressive NK-cell leukemia, extranodal NK/T-cell lymphoma, and cribriform adenocarcinoma of salivary gland.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -110,5 +110,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PTPRT encodes receptor-type tyrosine-protein phosphatase T. It participates in signal transduction and cell adhesion.",
+      "source_ids": [
+        "ncbi-11122",
+        "uniprot-O14522"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PTPRT have been reported in melanoma, stomach adenocarcinoma, and ovarian epithelial tumor. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

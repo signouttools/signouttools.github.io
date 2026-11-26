@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ABTB3 encodes ankyrin repeat and BTB domain containing 3. Its functions include protein heterodimerization activity.",
+      "source_ids": [
+        "ncbi-121551",
+        "uniprot-A6QL63"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ABTB3 have been reported in esophageal carcinoma, gastric adenocarcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

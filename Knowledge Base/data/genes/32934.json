@@ -97,5 +97,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLCO1B7 encodes solute carrier organic anion transporter family member 1B7 (putative). Its functions include bile acid transmembrane transporter activity and secondary active transmembrane transporter activity.",
+      "source_ids": [
+        "ncbi-124902894",
+        "uniprot-G3V0H7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SLCO1B7 have been reported in glioblastoma, breast carcinoma, and cervical carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -181,5 +181,34 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SMO encodes protein smoothened. It participates in negative regulation of DNA-templated transcription and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6608",
+        "uniprot-Q99835"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Curry-Jones syndrome (autosomal dominant); congenital hypothalamic hamartoma syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with mosaic SMO syndrome.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SMO have been reported in medulloblastoma, basal cell carcinoma of skin, and skin.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

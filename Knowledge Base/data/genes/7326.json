@@ -101,5 +101,23 @@
     "source_ids": [
       "gencc-SGC-105598.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MSH3 encodes DNA mismatch repair protein Msh3. It participates in DNA repair and mismatch repair.",
+      "source_ids": [
+        "ncbi-4437",
+        "uniprot-P20585"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include familial adenomatous polyposis 4 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

@@ -117,5 +117,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGFR4 encodes fibroblast growth factor receptor 4. It participates in positive regulation of catalytic activity and cell migration.",
+      "source_ids": [
+        "ncbi-2264",
+        "uniprot-P22455"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FGFR4 have been reported in glioblastoma multiforme. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

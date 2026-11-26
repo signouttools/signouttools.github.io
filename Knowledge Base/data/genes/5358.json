@@ -86,5 +86,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IRF8 encodes interferon regulatory factor 8. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-3394",
+        "uniprot-Q02556"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Mendelian susceptibility to mycobacterial diseases due to partial IRF8 deficiency (autosomal dominant); immunodeficiency 32B (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving IRF8 have been reported in pediatric-type follicular lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -76,5 +76,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RAD54B encodes DNA repair and recombination protein RAD54B. It participates in homologous recombination and double-strand break repair via homologous recombination.",
+      "source_ids": [
+        "ncbi-25788",
+        "uniprot-Q9Y620"
+      ]
+    },
+    "somatic": {
+      "text": "Biallelic RAD54B sequence mutations have been reported in primary lymphoma and colorectal cancer, although individual findings require functional and clinical assessment.",
+      "source_ids": [
+        "ncbi-25788"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

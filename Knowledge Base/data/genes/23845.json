@@ -103,5 +103,23 @@
     "source_ids": [
       "gencc-SGC-105707.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLX4 encodes structure-specific endonuclease subunit SLX4. It participates in DNA repair and positive regulation of telomere maintenance.",
+      "source_ids": [
+        "ncbi-84464",
+        "uniprot-Q8IY92"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Fanconi anemia complementation group P (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

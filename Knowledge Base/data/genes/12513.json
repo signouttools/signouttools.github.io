@@ -79,5 +79,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "UCHL1 encodes ubiquitin C-terminal hydrolase L1. Its functions include alpha-2A adrenergic receptor binding and cysteine-type deubiquitinase activity.",
+      "source_ids": [
+        "ncbi-7345",
+        "uniprot-P09936"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include hereditary spastic paraplegia (autosomal dominant); spastic paraplegia 79A, autosomal dominant, with ataxia (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving UCHL1 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

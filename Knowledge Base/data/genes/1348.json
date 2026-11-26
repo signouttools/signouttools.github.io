@@ -65,5 +65,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SAMD9 encodes sterile alpha motif domain-containing protein 9. It participates in endosomal vesicle fusion.",
+      "source_ids": [
+        "ncbi-54809",
+        "uniprot-Q5K651"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with SAMD9-related spectrum and myeloid neoplasm risk (autosomal dominant); MIRAGE syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

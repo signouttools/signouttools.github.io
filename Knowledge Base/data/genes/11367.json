@@ -154,5 +154,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "STAT5B encodes signal transducer and activator of transcription 5B. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6777",
+        "uniprot-P51692"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with growth hormone insensitivity with immune dysregulation 1, autosomal recessive (autosomal recessive); growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving STAT5B have been reported in mycosis fungoides, chronic eosinophilic leukemia, and hepatosplenic t-cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

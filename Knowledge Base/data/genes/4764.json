@@ -137,5 +137,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "H3-3A encodes the histone variant H3.3, which is incorporated into chromatin independently of DNA replication and contributes to regulation of chromatin structure and transcription.",
+      "source_ids": [
+        "ncbi-3020"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Bryant-Li-Bhoj neurodevelopmental syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving H3-3A have been reported in malignant giant cell tumor of bone, diffuse midline glioma, H3 K27-altered, and diffuse hemispheric glioma, H3 G34-mutant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

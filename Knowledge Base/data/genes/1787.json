@@ -685,5 +685,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CDKN2A produces distinct tumor-suppressor proteins through alternative transcripts: p16INK4A regulates CDK4/6–RB signaling, while p14ARF influences the MDM2–p53 pathway.",
+      "source_ids": [
+        "ncbi-1029"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with melanoma-pancreatic cancer syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CDKN2A have been reported in thymoma, chordoma, and angiosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

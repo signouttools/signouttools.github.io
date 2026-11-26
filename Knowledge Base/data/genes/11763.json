@@ -72,5 +72,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TFRC encodes transferrin receptor protein 1 [Cleaved into: Transferrin receptor protein 1, serum form]. It participates in intracellular signal transduction and positive regulation of canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-7037",
+        "uniprot-P02786"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with TFRC-related combined immunodeficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

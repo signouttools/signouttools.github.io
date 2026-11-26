@@ -122,5 +122,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RIT1 encodes GTP-binding protein Rit1. It participates in signal transduction and Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-6016",
+        "uniprot-Q92963"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Noonan syndrome (autosomal dominant); Noonan syndrome 8 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RIT1 have been reported in lung adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

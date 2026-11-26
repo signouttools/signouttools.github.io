@@ -147,5 +147,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KDM5C encodes lysine-specific demethylase 5C demethylase 5C). It participates in regulation of DNA-templated transcription and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-8242",
+        "uniprot-P41229"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked complex neurodevelopmental disorder (x-linked); intellectual developmental disorder, X-linked, syndromic, Claes-Jensen type (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KDM5C have been reported in lung adenocarcinoma, renal cell carcinoma, and renal clear cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

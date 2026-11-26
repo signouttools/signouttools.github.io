@@ -67,5 +67,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MN1 encodes transcriptional activator MN1. It participates in regulation of DNA-templated transcription and negative regulation of osteoblast proliferation.",
+      "source_ids": [
+        "ncbi-4330",
+        "uniprot-Q10571"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with CEBALID syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MN1 have been reported in astroblastoma, MN1-altered.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

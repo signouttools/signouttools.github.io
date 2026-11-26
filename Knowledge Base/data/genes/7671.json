@@ -68,5 +68,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NCOA4 encodes nuclear receptor coactivator 4. It participates in autophagy and erythrocyte differentiation.",
+      "source_ids": [
+        "ncbi-8031",
+        "uniprot-Q13772"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NCOA4 have been reported in papillary thyroid carcinoma and intraductal carcinoma of salivary gland.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

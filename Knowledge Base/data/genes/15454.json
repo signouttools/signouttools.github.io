@@ -88,5 +88,23 @@
       "gencc-SGC-106377.4",
       "gencc-SGC-106626.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SHOC2 encodes leucine-rich repeat protein SHOC-2. It participates in intracellular signal transduction and positive regulation of Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-8036",
+        "uniprot-Q9UQ13"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Noonan syndrome-like disorder with loose anagen hair (autosomal dominant); Noonan syndrome-like disorder with loose anagen hair 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

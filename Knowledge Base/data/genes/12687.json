@@ -174,5 +174,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "VHL encodes the substrate-recognition component of an ubiquitin-ligase complex that promotes degradation of hypoxia-inducible factors under oxygen-replete conditions.",
+      "source_ids": [
+        "ncbi-7428"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with von Hippel-Lindau disease (autosomal dominant); Chuvash polycythemia (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving VHL have been reported in clear cell renal cell carcinoma, renal clear cell carcinoma, and pheochromocytoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

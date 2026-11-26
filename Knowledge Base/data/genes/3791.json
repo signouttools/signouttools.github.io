@@ -58,5 +58,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FOLR1 encodes folate receptor alpha. It participates in axon regeneration and heart looping.",
+      "source_ids": [
+        "ncbi-2348",
+        "uniprot-P15328"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with neurodegenerative syndrome due to cerebral folate transport deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

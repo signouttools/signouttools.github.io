@@ -216,5 +216,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PDGFRA encodes platelet-derived growth factor receptor alpha. It participates in positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction and luteinization.",
+      "source_ids": [
+        "ncbi-5156",
+        "uniprot-P16234"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with gastrointestinal stromal tumor (autosomal dominant); polyps, multiple and recurrent inflammatory fibroid, gastrointestinal (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PDGFRA have been reported in intimal sarcoma, glioblastoma, IDH-wildtype, and gastrointestinal stromal tumor.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

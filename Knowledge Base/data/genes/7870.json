@@ -63,5 +63,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NOL4 encodes nucleolar protein 4. Its molecular function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-8715",
+        "uniprot-O94818"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NOL4 have been reported in lung adenocarcinoma and esophageal carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

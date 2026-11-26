@@ -60,5 +60,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SMARCC1 encodes SWI/SNF complex subunit SMARCC1. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6599",
+        "uniprot-Q92922"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with SMARCC1-associated developmental dysgenesis syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

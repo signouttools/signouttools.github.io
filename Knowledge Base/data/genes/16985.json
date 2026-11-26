@@ -86,5 +86,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DHRS4 encodes dehydrogenase/reductase 4. Its functions include 3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity and 3-beta-hydroxysteroid 3-dehydrogenase (NADP+) activity.",
+      "source_ids": [
+        "ncbi-10901",
+        "uniprot-Q9BTZ2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DHRS4 have been reported in medulloblastoma, lung adenocarcinoma, and prostate adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

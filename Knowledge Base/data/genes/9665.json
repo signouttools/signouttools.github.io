@@ -79,5 +79,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PTPRB encodes receptor-type tyrosine-protein phosphatase beta. It participates in angiogenesis and dephosphorylation.",
+      "source_ids": [
+        "ncbi-5787",
+        "uniprot-P23467"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PTPRB have been reported in angiosarcoma, thymoma, and melanoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

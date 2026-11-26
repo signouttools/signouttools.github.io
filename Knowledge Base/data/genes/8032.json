@@ -154,5 +154,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NTRK2 encodes the TRKB neurotrophin receptor tyrosine kinase, which regulates neuronal survival, differentiation, and function.",
+      "source_ids": [
+        "ncbi-4915"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with developmental and epileptic encephalopathy, 58 (autosomal dominant); obesity, hyperphagia, and developmental delay (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NTRK2 have been reported in lung adenocarcinoma, infant-type hemispheric glioma, and NTRK-rearranged spindle cell neoplasm, malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

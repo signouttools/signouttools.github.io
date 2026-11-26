@@ -73,5 +73,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DMRT1 encodes doublesex- and mab-3-related transcription factor 1. It participates in intracellular signal transduction and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-1761",
+        "uniprot-Q9Y5R6"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with 46 XY differences of sex development (autosomal dominant); spermatogenic failure (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DMRT1 have been reported in spermatocytic tumor.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

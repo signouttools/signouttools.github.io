@@ -58,5 +58,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MTCP1 encodes protein p13 MTCP-1. It participates in intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-4515",
+        "uniprot-P56278"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MTCP1 have been reported in t-cell prolymphocytic leukemia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

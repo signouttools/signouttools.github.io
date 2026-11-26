@@ -129,5 +129,26 @@
     "source_ids": [
       "gencc-SGC-106787.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CHEK2 encodes the CHK2 checkpoint kinase, which transmits DNA-damage signals to regulators of cell-cycle progression and other stress responses.",
+      "source_ids": [
+        "ncbi-11200"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include CHEK2-related cancer predisposition (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CHEK2 have been reported in biphasic hyalinizing psammomatous / NF2-inactivated renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

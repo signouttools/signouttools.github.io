@@ -66,5 +66,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PTPN2 encodes tyrosine-protein phosphatase non-receptor type 2. It participates in erythrocyte differentiation and glucose homeostasis.",
+      "source_ids": [
+        "ncbi-5771",
+        "uniprot-P17706"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

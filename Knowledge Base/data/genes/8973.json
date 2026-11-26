@@ -84,5 +84,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PIK3C2G encodes phosphatidylinositol 3-kinase C2 domain-containing subunit gamma. It participates in phosphatidylinositol 3-kinase/protein kinase B signal transduction and cell migration.",
+      "source_ids": [
+        "ncbi-5288",
+        "uniprot-O75747"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

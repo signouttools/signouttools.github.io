@@ -81,5 +81,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TFG encodes protein TFG. It participates in positive regulation of canonical NF-kappaB signal transduction and COPII vesicle coat assembly.",
+      "source_ids": [
+        "ncbi-10342",
+        "uniprot-Q92734"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary motor and sensory neuropathy, Okinawa type (autosomal dominant); hereditary spastic paraplegia 57 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TFG have been reported in ALK-positive histiocytosis and NTRK-rearranged spindle cell sarcoma of the uterine cervix / corpus.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

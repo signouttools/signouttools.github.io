@@ -104,5 +104,27 @@
       "gencc-SGC-105048.4",
       "gencc-SGC-106556.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SOS1 encodes son of sevenless homolog 1. It participates in signal transduction and Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-6654",
+        "uniprot-Q07889"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Noonan syndrome (autosomal dominant); Noonan syndrome 4 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SOS1 have been reported in endometrial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

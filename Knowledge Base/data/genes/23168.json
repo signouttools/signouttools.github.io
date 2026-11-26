@@ -96,5 +96,23 @@
       "gencc-SGC-107119.2",
       "gencc-SGC-107144.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FANCM encodes Fanconi anemia group M protein. It participates in interstrand cross-link repair and replication fork processing.",
+      "source_ids": [
+        "ncbi-57697",
+        "uniprot-Q8IYD8"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include FANCM Fanconi-like genomic instability disorder (autosomal recessive); spermatogenic failure 28 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

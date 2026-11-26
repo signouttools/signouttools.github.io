@@ -76,5 +76,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "APOBR encodes apolipoprotein B receptor. Its functions include lipoprotein particle receptor activity and very-low-density lipoprotein particle receptor activity.",
+      "source_ids": [
+        "ncbi-55911",
+        "uniprot-Q0VD83"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving APOBR have been reported in breast carcinoma, ovarian carcinoma, and cervical carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

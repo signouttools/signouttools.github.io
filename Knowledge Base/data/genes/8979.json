@@ -244,5 +244,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PIK3R1 encodes phosphatidylinositol 3-kinase regulatory subunit alpha. It participates in positive regulation of RNA splicing and phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-5295",
+        "uniprot-P27986"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with PIK3R1-related immunodeficiency and SHORT syndrome (autosomal dominant); SHORT syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PIK3R1 have been reported in metaplastic breast carcinoma, endometrioid carcinoma of endometrium, and glioblastoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

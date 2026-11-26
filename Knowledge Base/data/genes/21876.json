@@ -76,5 +76,23 @@
     "source_ids": [
       "gencc-SGC-105032.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RINT1 encodes RAD50-interacting protein 1. It participates in mitotic G2 DNA damage checkpoint signaling and regulation of ER to Golgi vesicle-mediated transport.",
+      "source_ids": [
+        "ncbi-60561",
+        "uniprot-Q6NUQ1"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include infantile liver failure syndrome 3 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

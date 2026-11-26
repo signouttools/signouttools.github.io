@@ -91,5 +91,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TOP2B encodes DNA topoisomerase II beta. Its functions include chromatin binding and DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity.",
+      "source_ids": [
+        "ncbi-7155",
+        "uniprot-Q02880"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include B-cell immunodeficiency, distal limb anomalies, and urogenital malformations (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TOP2B have been reported in medulloblastoma, colorectal carcinoma, and endometrial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TAFAZZIN encodes tafazzin. It participates in cristae formation and cardiolipin acyl-chain remodeling.",
+      "source_ids": [
+        "ncbi-6901",
+        "uniprot-Q16635"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Barth syndrome (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

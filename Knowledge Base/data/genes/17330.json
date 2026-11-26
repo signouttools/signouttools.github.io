@@ -55,5 +55,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DDX28 encodes DEAD-box helicase 28. Its functions include ATP hydrolysis activity and RNA helicase activity.",
+      "source_ids": [
+        "ncbi-55794",
+        "uniprot-Q9NUL7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DDX28 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

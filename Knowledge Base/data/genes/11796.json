@@ -98,5 +98,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "THRA encodes thyroid hormone receptor alpha. Its functions include DNA-binding transcription factor activity and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "source_ids": [
+        "ncbi-7067",
+        "uniprot-P10827"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include congenital nongoitrous hypothyroidism 6 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving THRA have been reported in glioblastoma, low-grade glioma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

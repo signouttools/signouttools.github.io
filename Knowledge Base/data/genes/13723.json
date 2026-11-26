@@ -172,5 +172,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CTCF encodes transcriptional repressor CTCF. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-10664",
+        "uniprot-P49711"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndromic intellectual disability (autosomal dominant); CTCF-related neurodevelopmental disorder (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "CTCF mutations have been reported in invasive breast cancer, prostate cancer, and Wilms tumor.",
+      "source_ids": [
+        "ncbi-10664"
+      ]
+    }
+  },
+  "report_gaps": []
 }

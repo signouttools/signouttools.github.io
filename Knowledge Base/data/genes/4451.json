@@ -81,5 +81,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GPC3 encodes glypican-3 [Cleaved into: Glypican-3 alpha subunit; Glypican-3 beta subunit]. It participates in cell migration and anatomical structure morphogenesis.",
+      "source_ids": [
+        "ncbi-2719",
+        "uniprot-P51654"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Simpson-Golabi-Behmel syndrome (x-linked); Simpson-Golabi-Behmel syndrome type 1 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

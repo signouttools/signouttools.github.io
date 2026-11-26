@@ -52,5 +52,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RHCG encodes ammonium transporter Rh type C. It participates in amine transport and ammonium excretion.",
+      "source_ids": [
+        "ncbi-51458",
+        "uniprot-Q9UBD6"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

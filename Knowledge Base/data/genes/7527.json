@@ -132,5 +132,27 @@
       "gencc-SGC-106189.4",
       "gencc-SGC-106686.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MUTYH encodes adenine DNA glycosylase. It participates in DNA repair and mismatch repair.",
+      "source_ids": [
+        "ncbi-4595",
+        "uniprot-Q9UIF7"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include familial adenomatous polyposis 2 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MUTYH have been reported in amphicrine-like carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

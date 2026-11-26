@@ -66,5 +66,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TBX2 encodes T-box transcription factor 2. Its functions include DNA-binding transcription factor activity, RNA polymerase II-specific and DNA-binding transcription factor binding.",
+      "source_ids": [
+        "ncbi-6909",
+        "uniprot-Q13207"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TBX2 have been reported in low-grade glioma, adrenocortical carcinoma, and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

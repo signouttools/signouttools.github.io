@@ -159,5 +159,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SPOP encodes speckle-type POZ protein. It participates in protein polyubiquitination and regulation of proteolysis.",
+      "source_ids": [
+        "ncbi-8405",
+        "uniprot-O43791"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with neurodevelopmental disorder with relative macrocephaly and with or without cardiac or endocrine anomalies (autosomal dominant); neurodevelopmental disorder with microcephaly and dysmorphic facies (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SPOP have been reported in prostate adenocarcinoma, prostate, and non-Hodgkin lymphoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

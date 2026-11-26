@@ -61,5 +61,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ZBTB46 encodes zinc finger and BTB domain-containing protein 46. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-140685",
+        "uniprot-Q86UZ6"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ZBTB46 have been reported in amphicrine-like carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

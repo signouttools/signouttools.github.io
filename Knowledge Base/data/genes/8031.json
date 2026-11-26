@@ -156,5 +156,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NTRK1 encodes the TRKA receptor tyrosine kinase, which mediates nerve growth factor signaling important for neuronal development and survival.",
+      "source_ids": [
+        "ncbi-4914"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary sensory and autonomic neuropathy type 4 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NTRK1 have been reported in lung adenocarcinoma, infant-type hemispheric glioma, and NTRK-rearranged spindle cell neoplasm, malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -69,5 +69,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYO18B encodes myosin XVIIIB. Its functions include actin filament binding and cytoskeletal motor activity.",
+      "source_ids": [
+        "ncbi-84700",
+        "uniprot-Q8IUG5"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYO18B have been reported in cutaneous melanoma and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

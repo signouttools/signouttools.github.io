@@ -67,5 +67,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CD28 encodes t-cell-specific surface glycoprotein CD28. It participates in T cell activation and T cell costimulation.",
+      "source_ids": [
+        "ncbi-940",
+        "uniprot-P10747"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CD28 have been reported in adult t-cell leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -100,5 +100,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RTEL1 encodes regulator of telomere elongation helicase 1. It participates in DNA repair and telomere maintenance.",
+      "source_ids": [
+        "ncbi-51750",
+        "uniprot-Q9NZ71"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with pulmonary fibrosis and/or bone marrow failure, Telomere-related, 3 (semidominant); dyskeratosis congenita, autosomal recessive 5 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

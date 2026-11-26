@@ -199,5 +199,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AR encodes androgen receptor. It participates in signal transduction and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-367",
+        "uniprot-P10275"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Kennedy disease (x-linked); androgen insensitivity syndrome (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving AR have been reported in prostate adenocarcinoma, prostate, and cholangiocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

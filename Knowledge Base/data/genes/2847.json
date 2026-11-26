@@ -88,5 +88,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DGCR8 encodes microprocessor complex subunit DGCR8. It participates in DNA damage response and primary miRNA processing.",
+      "source_ids": [
+        "ncbi-54487",
+        "uniprot-Q8WYQ5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DGCR8 have been reported in Wilms tumor, pineoblastoma, and wilms' tumor.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

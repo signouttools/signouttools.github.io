@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CYP19A1 encodes aromatase. It participates in androgen catabolic process and estrogen biosynthetic process.",
+      "source_ids": [
+        "ncbi-1588",
+        "uniprot-P11511"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with aromatase deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

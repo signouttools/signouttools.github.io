@@ -116,5 +116,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RAD51D encodes DNA repair protein RAD51 homolog 4. It participates in DNA repair and telomere maintenance.",
+      "source_ids": [
+        "ncbi-5892",
+        "uniprot-O75771"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with RAD51D-related cancer predisposition (autosomal dominant); breast-ovarian cancer, familial, susceptibility to, 4 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

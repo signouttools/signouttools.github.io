@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "POU5F1 encodes POU domain, class 5, transcription factor 1. It participates in regulation of DNA-templated transcription and negative regulation of miRNA transcription.",
+      "source_ids": [
+        "ncbi-5460",
+        "uniprot-Q01860"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving POU5F1 have been reported in myoepithelial carcinoma of soft tissue/bone.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

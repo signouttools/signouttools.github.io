@@ -119,5 +119,33 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TFE3 encodes transcription factor E3. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-7030",
+        "uniprot-P19532"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked syndromic complex neurodevelopmental disorder (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with intellectual developmental disorder, X-linked, syndromic, with pigmentary mosaicism and coarse facies.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TFE3 have been reported in PEComa, malignant, alveolar soft part sarcoma, and epithelioid hemangioendothelioma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

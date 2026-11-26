@@ -88,5 +88,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ERRFI1 encodes ERBB receptor feedback inhibitor 1. It participates in negative regulation of epidermal growth factor-activated receptor activity and skin morphogenesis.",
+      "source_ids": [
+        "ncbi-54206",
+        "uniprot-Q9UJM3"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

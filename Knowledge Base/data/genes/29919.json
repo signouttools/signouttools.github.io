@@ -112,5 +112,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NUTM1 encodes NUT family member 1. Its molecular function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-256646",
+        "uniprot-Q86Y26"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NUTM1 have been reported in NUT carcinoma, porocarcinoma, and CIC-rearranged sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

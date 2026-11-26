@@ -99,5 +99,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NT5C3A encodes 5'-nucleotidase, cytosolic IIIA. Its functions include 5'-nucleotidase activity and magnesium ion binding.",
+      "source_ids": [
+        "ncbi-51251",
+        "uniprot-Q9H0P0"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include hemolytic anemia due to pyrimidine 5' nucleotidase deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NT5C3A have been reported in breast carcinoma, adrenocortical carcinoma, and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

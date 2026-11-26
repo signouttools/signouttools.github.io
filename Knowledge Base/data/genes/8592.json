@@ -92,5 +92,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PAK3 encodes serine/threonine-protein kinase PAK 3. It participates in intracellular signal transduction and axonogenesis.",
+      "source_ids": [
+        "ncbi-5063",
+        "uniprot-O75914"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked complex neurodevelopmental disorder (x-linked); intellectual developmental disorder, X-linked 30 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

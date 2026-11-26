@@ -139,5 +139,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AKT3 encodes RAC-gamma serine/threonine-protein kinase. It participates in signal transduction and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-10000",
+        "uniprot-Q9Y243"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving AKT3 have been reported in prostate and cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

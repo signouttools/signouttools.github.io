@@ -72,5 +72,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PRKACA encodes cAMP-dependent protein kinase catalytic subunit alpha. It participates in cAMP/PKA signal transduction and bone resorption.",
+      "source_ids": [
+        "ncbi-5566",
+        "uniprot-P17612"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with cardioacrofacial dysplasia 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PRKACA have been reported in fibrolamellar carcinoma and extrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

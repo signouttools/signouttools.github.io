@@ -119,5 +119,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYH9 encodes myosin-9. It participates in angiogenesis and cytokinetic process.",
+      "source_ids": [
+        "ncbi-4627",
+        "uniprot-P35579"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with macrothrombocytopenia and granulocyte inclusions with or without nephritis or sensorineural hearing loss (autosomal dominant); autosomal dominant nonsyndromic hearing loss 17 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYH9 have been reported in neuroblastoma, basal cell carcinoma, and ovarian epithelial tumor. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -90,5 +90,27 @@
     "source_ids": [
       "gencc-SGC-105205.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "COL6A3 encodes collagen alpha-3(VI) chain. It participates in muscle organ development and response to glucose.",
+      "source_ids": [
+        "ncbi-1293",
+        "uniprot-P12111"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include collagen 6-related myopathy (autosomal dominant); collagen 6-related myopathy (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving COL6A3 have been reported in melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -65,5 +65,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ATP6V1B2 encodes v-type proton ATPase subunit B, brain isoform. It participates in vacuolar acidification and ATP metabolic process.",
+      "source_ids": [
+        "ncbi-526",
+        "uniprot-P21281"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

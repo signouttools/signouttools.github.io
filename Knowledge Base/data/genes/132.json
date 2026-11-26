@@ -77,5 +77,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ACTB encodes actin, cytoplasmic 1 [Cleaved into: Actin, cytoplasmic 1, N-terminally processed]. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-60",
+        "uniprot-P60709"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Baraitser-Winter cerebrofrontofacial syndrome (autosomal dominant); Baraitser-Winter syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ACTB have been reported in GLI1-altered mesenchymal tumor, malignant/metastasizing.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

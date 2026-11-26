@@ -72,5 +72,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NR0B1 encodes nuclear receptor subfamily 0 group B member 1. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-190",
+        "uniprot-P51843"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked adrenal hypoplasia congenita (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

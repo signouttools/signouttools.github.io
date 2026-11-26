@@ -87,5 +87,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EML4 encodes echinoderm microtubule-associated protein-like 4. It participates in microtubule-based process and microtubule cytoskeleton organization.",
+      "source_ids": [
+        "ncbi-27436",
+        "uniprot-Q9HC35"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EML4 have been reported in lung adenocarcinoma, ALK-positive histiocytosis, and NTRK-rearranged spindle cell sarcoma of the uterine cervix / corpus.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

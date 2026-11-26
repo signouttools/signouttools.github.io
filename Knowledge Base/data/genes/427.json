@@ -211,5 +211,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ALK encodes a receptor tyrosine kinase involved in developmental signaling, with downstream effects on cell growth, survival, and differentiation.",
+      "source_ids": [
+        "ncbi-238"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with neuroblastoma, susceptibility to, 3 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ALK have been reported in cutaneous melanoma, lung adenocarcinoma, and ALK-positive histiocytosis.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

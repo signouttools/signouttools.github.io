@@ -314,5 +314,27 @@
     "source_ids": [
       "gencc-SGC-104877.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HRAS encodes a small GTPase that couples growth-factor receptor activity to downstream signaling pathways regulating cell proliferation, differentiation, and survival.",
+      "source_ids": [
+        "ncbi-3265"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Costello syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving HRAS have been reported in head and neck squamous cell carcinoma, bladder urothelial carcinoma, and salivary duct carcinoma.",
+      "source_ids": [
+        "intogen-20240920",
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

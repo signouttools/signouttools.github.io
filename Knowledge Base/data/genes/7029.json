@@ -227,5 +227,27 @@
     "source_ids": [
       "gencc-SGC-106628.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MET encodes the hepatocyte growth factor receptor tyrosine kinase, which regulates proliferation, survival, migration, and tissue-remodeling responses.",
+      "source_ids": [
+        "ncbi-4233"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include papillary renal cell carcinoma (autosomal dominant); hereditary papillary renal cell carcinoma (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MET have been reported in lung adenocarcinoma, gastric adenocarcinoma, and hepatocellular carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

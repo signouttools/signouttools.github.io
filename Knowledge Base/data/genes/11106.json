@@ -88,5 +88,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SMARCD1 encodes SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1. It participates in transcription initiation-coupled chromatin remodeling and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6602",
+        "uniprot-Q96GM5"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

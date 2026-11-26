@@ -216,5 +216,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IDH2 encodes a mitochondrial NADP-dependent isocitrate dehydrogenase that interconverts isocitrate and alpha-ketoglutarate while contributing to cellular NADPH metabolism.",
+      "source_ids": [
+        "ncbi-3418"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with mitochondrial disease (autosomal dominant); d-2-hydroxyglutaric aciduria 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving IDH2 have been reported in acute myeloid leukemia, sinonasal undifferentiated carcinoma, and chondrosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

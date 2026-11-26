@@ -101,5 +101,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SH2D1A encodes SH2 domain-containing protein 1A. It participates in cell-cell signaling and cellular defense response.",
+      "source_ids": [
+        "ncbi-4068",
+        "uniprot-O60880"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked lymphoproliferative disease due to SH2D1A deficiency (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

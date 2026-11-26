@@ -89,5 +89,22 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "H3-3B encodes the histone variant H3.3, which participates in replication-independent nucleosome assembly and regulation of chromatin organization.",
+      "source_ids": [
+        "ncbi-3021"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic H3-3B (formerly H3F3B) mutations are characteristic of chondroblastoma. Their alteration spectrum differs from the H3-3A-associated spectrum in giant cell tumor of bone; these are distinct gene–lesion associations.",
+      "source_ids": [
+        "pmid-24162739"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

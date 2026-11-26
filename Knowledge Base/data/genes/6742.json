@@ -154,5 +154,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LZTR1 encodes leucine-zipper-like transcriptional regulator 1. It participates in negative regulation of Ras protein signal transduction and protein ubiquitination.",
+      "source_ids": [
+        "ncbi-8216",
+        "uniprot-Q8N653"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with LZTR1-related schwannomatosis (autosomal dominant); Noonan syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LZTR1 have been reported in endometrial carcinoma, glioblastoma multiforme, and prostate adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

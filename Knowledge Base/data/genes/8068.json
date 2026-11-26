@@ -79,5 +79,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NUP98 encodes nuclear pore complex protein Nup98-Nup96 [Cleaved into: Nuclear pore complex protein Nup98; Nuclear pore complex protein Nup96]. It participates in positive regulation of mRNA splicing, via spliceosome and post-transcriptional tethering of RNA polymerase II gene DNA at nuclear periphery.",
+      "source_ids": [
+        "ncbi-4928",
+        "uniprot-P52948"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NUP98 have been reported in acute myeloid leukemia and lung squamous cell carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

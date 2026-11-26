@@ -165,5 +165,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SDHB encodes succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial. It participates in aerobic respiration and succinate metabolic process.",
+      "source_ids": [
+        "ncbi-6390",
+        "uniprot-P21912"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); mitochondrial disease (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SDHB have been reported in paraganglioma, SDH-deficient renal cell carcinoma, and succinate dehydrogenase (SDH)-deficient gastrointestinal stromal tumor.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -86,5 +86,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NOTCH4 encodes neurogenic locus notch homolog protein 4 [Cleaved into: Notch 4 extracellular truncation; Notch 4 intracellular domain]. It participates in positive regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-4855",
+        "uniprot-Q99466"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

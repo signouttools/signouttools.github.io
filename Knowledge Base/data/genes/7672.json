@@ -140,5 +140,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NCOR1 encodes nuclear receptor corepressor 1. It participates in negative regulation of DNA-templated transcription and negative regulation of miRNA transcription.",
+      "source_ids": [
+        "ncbi-9611",
+        "uniprot-O75376"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NCOR1 have been reported in prostate, pleural mesothelioma, and prostate adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -77,5 +77,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FRS2 encodes fibroblast growth factor receptor substrate 2. It participates in G protein-coupled receptor signaling pathway and fibroblast growth factor receptor signaling pathway.",
+      "source_ids": [
+        "ncbi-10818",
+        "uniprot-Q8WU20"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

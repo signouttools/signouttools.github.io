@@ -65,5 +65,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CAMTA1 encodes calmodulin-binding transcription activator 1. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-23261",
+        "uniprot-Q9Y6Y1"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with cerebellar dysfunction with variable cognitive and behavioral abnormalities (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CAMTA1 have been reported in epithelioid hemangioendothelioma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

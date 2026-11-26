@@ -118,5 +118,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BCL10 encodes b-cell lymphoma/leukemia 10. It participates in positive regulation of DNA-templated transcription and regulation of canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-8915",
+        "uniprot-O95999"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with immunodeficiency 37 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BCL10 have been reported in marginal zone lymphoma, malignant lymphoma, and diffuse large b-Cell lymphoma, NOS.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

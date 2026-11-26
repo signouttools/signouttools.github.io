@@ -92,5 +92,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FBXO11 encodes f-box only protein 11. It participates in protein ubiquitination and sensory perception of sound.",
+      "source_ids": [
+        "ncbi-80204",
+        "uniprot-Q86XK2"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FBXO11 have been reported in Burkitt lymphoma, malignant lymphoma, and non-Hodgkin lymphoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

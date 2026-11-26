@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ZBTB7A encodes zinc finger and BTB domain-containing protein 7A. It participates in DNA-templated transcription and chromatin organization.",
+      "source_ids": [
+        "ncbi-51341",
+        "uniprot-O95365"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with macrocephaly, neurodevelopmental delay, lymphoid hyperplasia, and persistent fetal hemoglobin (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

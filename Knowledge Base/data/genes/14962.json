@@ -68,5 +68,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SYT13 encodes synaptotagmin 13. Its functions include calcium ion sensor activity and calcium-dependent phospholipid binding.",
+      "source_ids": [
+        "ncbi-57586",
+        "uniprot-Q7L8C5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SYT13 have been reported in cutaneous melanoma and lung squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

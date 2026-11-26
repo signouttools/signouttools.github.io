@@ -63,5 +63,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ARHGAP33 encodes Rho GTPase activating protein 33. Its functions include GTPase activator activity and phosphatidylinositol binding.",
+      "source_ids": [
+        "ncbi-115703",
+        "uniprot-O14559"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ARHGAP33 have been reported in gastric adenocarcinoma and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

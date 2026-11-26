@@ -62,5 +62,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "YLPM1 encodes YLP motif-containing protein 1. It participates in regulation of telomere maintenance.",
+      "source_ids": [
+        "ncbi-56252",
+        "uniprot-P49750"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -78,5 +78,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BNC2 encodes basonuclin zinc finger protein 2. Its functions include regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-54796",
+        "uniprot-Q6ZN30"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include lower urinary tract obstruction, congenital (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BNC2 have been reported in lung adenocarcinoma, colorectal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -100,5 +100,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SRC encodes proto-oncogene tyrosine-protein kinase Src. It participates in signal transduction and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-6714",
+        "uniprot-P12931"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

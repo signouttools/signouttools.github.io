@@ -68,5 +68,18 @@
     "source_ids": [
       "gencc-SGC-106679.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RECQL encodes ATP-dependent DNA helicase Q1. It participates in DNA repair and double-strand break repair via homologous recombination.",
+      "source_ids": [
+        "ncbi-5965",
+        "uniprot-P46063"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

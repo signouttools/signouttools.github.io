@@ -746,5 +746,33 @@
     "source_ids": [
       "gencc-SGC-104409.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PIK3CA encodes the p110α catalytic subunit of class I phosphatidylinositol 3-kinase, which produces lipid signals that activate AKT-dependent growth and survival pathways.",
+      "source_ids": [
+        "ncbi-5290"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with megalencephaly-capillary malformation-polymicrogyria syndrome.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PIK3CA have been reported in invasive breast carcinoma of no special type, endometrioid carcinoma of endometrium, and colorectal adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

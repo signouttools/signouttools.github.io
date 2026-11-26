@@ -89,5 +89,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NTHL1 encodes endonuclease III-like protein 1 lyase). It participates in depyrimidination and nucleotide-excision repair.",
+      "source_ids": [
+        "ncbi-4913",
+        "uniprot-P78549"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with NTHL1-deficiency tumor predisposition syndrome (autosomal recessive); familial adenomatous polyposis 3 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

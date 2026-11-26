@@ -79,5 +79,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KCNH5 encodes potassium voltage-gated channel subfamily H member 5. Its functions include delayed rectifier potassium channel activity and protein-containing complex binding.",
+      "source_ids": [
+        "ncbi-27133",
+        "uniprot-Q8NCM2"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include neonatal/infantile epilepsy syndrome (autosomal dominant); developmental and epileptic encephalopathy 112 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KCNH5 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

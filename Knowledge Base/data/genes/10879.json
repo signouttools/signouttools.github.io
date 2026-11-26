@@ -73,5 +73,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "STIL encodes SCL-interrupting locus protein. It participates in centrosome duplication and forebrain development.",
+      "source_ids": [
+        "ncbi-6491",
+        "uniprot-Q15468"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autosomal recessive primary microcephaly (autosomal recessive); microcephaly 7, primary, autosomal recessive (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving STIL have been reported in t-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

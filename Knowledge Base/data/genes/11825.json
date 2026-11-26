@@ -133,5 +133,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NKX2-1 encodes homeobox protein Nkx-2.1. It participates in regulation of DNA-templated transcription and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-7080",
+        "uniprot-P43699"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with NKX2-1 related choreoathetosis and congenital hypothyroidism with or without pulmonary dysfunction (autosomal dominant); brain-lung-thyroid syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NKX2-1 have been reported in low-Grade glioma, NOS. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

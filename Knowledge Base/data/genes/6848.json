@@ -180,5 +180,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAP3K1 encodes mitogen-activated protein kinase kinase kinase 1. It participates in MAPK cascade and protein phosphorylation.",
+      "source_ids": [
+        "ncbi-4214",
+        "uniprot-Q13233"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with 46,XY sex reversal 6 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAP3K1 have been reported in invasive breast carcinoma of no special type, plasma cell myeloma, and colon adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

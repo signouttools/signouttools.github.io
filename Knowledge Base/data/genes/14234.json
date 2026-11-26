@@ -202,5 +202,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NSD1 encodes histone-lysine N-methyltransferase, H3 lysine-36 specific. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-64324",
+        "uniprot-Q96L73"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Sotos syndrome (autosomal dominant); Sotos syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NSD1 have been reported in biphasic hyalinizing psammomatous / NF2-inactivated renal cell carcinoma, melanoma, and esophagus/Stomach.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -126,5 +126,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome biogenesis, nucleic-acid handling, and regulation of cellular stress responses and genome stability.",
+      "source_ids": [
+        "ncbi-4869"
+      ]
+    },
+    "germline": {
+      "text": "Rare germline NPM1 variants have been reported in dyskeratosis congenita; evidence for a broader inherited bone-marrow-failure syndrome is limited.",
+      "source_ids": [
+        "pmid-31570891",
+        "gencc-SGC-107495.2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NPM1 have been reported in acute myeloid leukemia, myeloid sarcoma, and anaplastic large cell lymphoma, systemic.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

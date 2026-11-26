@@ -71,5 +71,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAGEC1 encodes MAGE family member C1. Its functions include negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-9947",
+        "uniprot-O60732"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAGEC1 have been reported in colorectal carcinoma, esophageal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

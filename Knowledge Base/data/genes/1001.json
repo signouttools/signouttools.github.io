@@ -142,5 +142,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BCL6 encodes a transcriptional repressor important for germinal-center B-cell development and regulation of differentiation and DNA-damage-response programs.",
+      "source_ids": [
+        "ncbi-604"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BCL6 have been reported in diffuse large b-cell lymphoma, nodular lymphocyte-predominant Hodgkin lymphoma, and DLBCL / high-grade b-cell lymphoma with MYC and BCL2 rearrangements.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

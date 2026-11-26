@@ -125,5 +125,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CALR encodes calreticulin, an endoplasmic-reticulum chaperone that assists glycoprotein folding and contributes to intracellular calcium homeostasis.",
+      "source_ids": [
+        "ncbi-811"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CALR have been reported in primary myelofibrosis, essential thrombocythemia, and myeloproliferative neoplasm, NOS.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -97,5 +97,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TAF1 encodes transcription initiation factor TFIID subunit 1250). It participates in transcription by RNA polymerase II and mRNA transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6872",
+        "uniprot-P21675"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with intellectual developmental disorder, X-linked, syndromic 33 (x-linked); X-linked dystonia-parkinsonism (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

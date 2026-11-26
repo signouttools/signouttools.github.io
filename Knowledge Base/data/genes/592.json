@@ -85,5 +85,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "XIAP encodes E3 ubiquitin-protein ligase XIAP. It participates in positive regulation of canonical NF-kappaB signal transduction and DNA damage response.",
+      "source_ids": [
+        "ncbi-331",
+        "uniprot-P98170"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked lymphoproliferative disease due to XIAP deficiency (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

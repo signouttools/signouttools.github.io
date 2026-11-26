@@ -61,5 +61,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "OLIG2 encodes oligodendrocyte transcription factor 2. It participates in positive regulation of transcription by RNA polymerase II and myelination.",
+      "source_ids": [
+        "ncbi-10215",
+        "uniprot-Q13516"
+      ]
+    },
+    "somatic": {
+      "text": "OLIG2 can be involved in chromosomal rearrangements associated with T-cell acute lymphoblastic leukemia. Expression as a lineage marker is a distinct observation.",
+      "source_ids": [
+        "ncbi-10215"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

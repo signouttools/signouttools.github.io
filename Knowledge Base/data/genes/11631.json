@@ -70,5 +70,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TCF20 encodes transcription factor 20. Its functions include transcription coactivator activity and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6942",
+        "uniprot-Q9UGU0"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include developmental delay with variable intellectual impairment and behavioral abnormalities (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TCF20 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

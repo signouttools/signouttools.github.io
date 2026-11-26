@@ -95,5 +95,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FANCI encodes Fanconi anemia group I protein. It participates in DNA damage response and interstrand cross-link repair.",
+      "source_ids": [
+        "ncbi-55215",
+        "uniprot-Q9NVI1"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Fanconi anemia complementation group I (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

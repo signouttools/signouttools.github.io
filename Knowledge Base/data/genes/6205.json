@@ -74,5 +74,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "JUNB encodes transcription factor JunB. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-3726",
+        "uniprot-P17275"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving JUNB have been reported in t-cell/histiocyte-rich large b-cell lymphoma and nodular lymphocyte-predominant Hodgkin lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "THSD7B encodes thrombospondin type 1 domain containing 7B. Its functions include actin cytoskeleton organization.",
+      "source_ids": [
+        "ncbi-80731",
+        "uniprot-Q9C0I4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving THSD7B have been reported in glioblastoma, cutaneous melanoma, and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

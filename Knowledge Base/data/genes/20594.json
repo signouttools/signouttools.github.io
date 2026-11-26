@@ -74,5 +74,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EGFL7 encodes epidermal growth factor-like protein 7. It participates in vasculogenesis and blood vessel development.",
+      "source_ids": [
+        "ncbi-51162",
+        "uniprot-Q9UHF1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

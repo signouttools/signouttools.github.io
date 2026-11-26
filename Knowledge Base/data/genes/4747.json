@@ -88,5 +88,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "H2BC5 encodes histone H2B type 1-D. It participates in chromatin organization and antibacterial humoral response.",
+      "source_ids": [
+        "ncbi-3017",
+        "uniprot-P58876"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

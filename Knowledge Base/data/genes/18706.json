@@ -53,5 +53,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GRIPAP1 encodes GRIP1-associated protein 1 [Cleaved into: GRASP-1 C-terminal chain]. It participates in negative regulation of receptor clustering and regulation of recycling endosome localization within postsynapse.",
+      "source_ids": [
+        "ncbi-56850",
+        "uniprot-Q4V328"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

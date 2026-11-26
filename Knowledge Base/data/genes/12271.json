@@ -46,5 +46,17 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TRG is the T-cell receptor gamma locus. Somatic variable-to-joining segment rearrangement contributes to the antigen-receptor repertoire of gamma-delta T cells.",
+      "source_ids": [
+        "ncbi-6965"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

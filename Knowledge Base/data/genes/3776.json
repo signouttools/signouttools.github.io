@@ -73,5 +73,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AFF2 encodes AF4/FMR2 family member 2. It participates in DNA-templated transcription elongation and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2334",
+        "uniprot-P51816"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with non-syndromic X-linked intellectual disability (x-linked); FRAXE intellectual disability (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving AFF2 have been reported in DEK::AFF2 fusion-associated sinonasal carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -83,5 +83,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CYP7B1 encodes cytochrome P450 family 7 subfamily B member 1. Its functions include 24S-hydroxycholesterol 7-alpha-hydroxylase activity and 25-hydroxycholesterol 7-alpha-hydroxylase activity.",
+      "source_ids": [
+        "ncbi-9420",
+        "uniprot-O75881"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include CYP7B1-related disorder of oxysterol accumulation (autosomal recessive); congenital bile acid synthesis defect 3 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CYP7B1 have been reported in gastric adenocarcinoma and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -110,5 +110,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CD79A encodes b-cell antigen receptor complex-associated protein alpha chain. It participates in B cell activation and B cell differentiation.",
+      "source_ids": [
+        "ncbi-973",
+        "uniprot-P11912"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with agammaglobulinemia 3, autosomal recessive (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

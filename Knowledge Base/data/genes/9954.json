@@ -112,5 +112,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "REL encodes proto-oncogene c-Rel. It participates in canonical NF-kappaB signal transduction and non-canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-5966",
+        "uniprot-Q04864"
+      ]
+    },
+    "somatic": {
+      "text": "REL mutation or amplification has been associated with B-cell lymphomas, including Hodgkin lymphoma.",
+      "source_ids": [
+        "ncbi-5966"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -112,5 +112,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RANBP2 encodes E3 SUMO-protein ligase RanBP2. It participates in negative regulation of transcription by RNA polymerase II and centrosome localization.",
+      "source_ids": [
+        "ncbi-5903",
+        "uniprot-P49792"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with familial acute necrotizing encephalopathy (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RANBP2 have been reported in epithelioid inflammatory myofibroblastic sarcoma, hepatocellular carcinoma, and renal clear cell carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

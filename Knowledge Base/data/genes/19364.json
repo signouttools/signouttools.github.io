@@ -92,5 +92,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RTKN2 encodes rhotekin 2. Its functions include adaptive immune response and hemopoiesis.",
+      "source_ids": [
+        "ncbi-219790",
+        "uniprot-Q8IZC4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RTKN2 have been reported in glioblastoma, breast carcinoma, and cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -87,5 +87,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGF23 encodes fibroblast growth factor 23 [Cleaved into: Fibroblast growth factor 23 N-terminal peptide; Fibroblast growth factor 23 C-terminal peptide]. It participates in positive regulation of DNA-templated transcription and neurogenesis.",
+      "source_ids": [
+        "ncbi-8074",
+        "uniprot-Q9GZV9"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autosomal dominant hypophosphatemic rickets (autosomal dominant); tumoral calcinosis, hyperphosphatemic, familial, 2 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

@@ -65,5 +65,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SERPINB4 encodes serpin B4. It participates in regulation of proteolysis and protection from natural killer cell mediated cytotoxicity.",
+      "source_ids": [
+        "ncbi-6318",
+        "uniprot-P48594"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -146,5 +146,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FH encodes fumarate hydratase, mitochondrial. It participates in urea cycle and DNA damage response.",
+      "source_ids": [
+        "ncbi-2271",
+        "uniprot-P07954"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary leiomyomatosis and renal cell cancer (autosomal dominant); fumaric aciduria (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FH have been reported in paraganglioma, pheochromocytoma, and Leydig cell tumor, malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

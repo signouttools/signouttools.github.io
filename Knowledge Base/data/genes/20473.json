@@ -137,5 +137,27 @@
     "source_ids": [
       "gencc-SGC-105114.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BRIP1 encodes Fanconi anemia group J protein. It participates in DNA repair and homologous recombination.",
+      "source_ids": [
+        "ncbi-83990",
+        "uniprot-Q9BX63"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Fanconi anemia complementation group J (autosomal recessive); familial ovarian cancer (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic BRIP1 loss-of-function mutations have been documented in ovarian carcinoma.",
+      "source_ids": [
+        "pmid-24240112"
+      ]
+    }
+  },
+  "report_gaps": []
 }

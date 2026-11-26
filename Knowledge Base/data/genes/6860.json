@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAP3K8 encodes mitogen-activated protein kinase kinase kinase 8. It participates in MAPK cascade and protein phosphorylation.",
+      "source_ids": [
+        "ncbi-1326",
+        "uniprot-P41279"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MAP3K8 have been reported in cutaneous melanoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

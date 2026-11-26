@@ -95,5 +95,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLC34A2 encodes sodium-dependent phosphate transport protein 2B (Na(+)-dependent phosphate cotransporter 2B)/Pi cotransporter 2B). It participates in phosphate ion transport and response to estrogen.",
+      "source_ids": [
+        "ncbi-10568",
+        "uniprot-O95436"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with pulmonary alveolar microlithiasis (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SLC34A2 have been reported in lung adenocarcinoma, acute myeloid leukemia, and colorectal adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

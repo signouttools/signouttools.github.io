@@ -316,5 +316,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NOTCH1 encodes a transmembrane receptor whose proteolytic activation releases an intracellular signaling component that regulates transcription, cell fate, and differentiation.",
+      "source_ids": [
+        "ncbi-4851"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with NOTCH1-related AOS spectrum disorder (autosomal dominant); Adams-Oliver syndrome 5 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NOTCH1 have been reported in mantle cell lymphoma, pleomorphic dermal sarcoma, and lung squamous cell carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

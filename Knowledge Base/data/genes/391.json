@@ -203,5 +203,29 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AKT1 encodes RAC-alpha serine/threonine-protein kinase. It participates in signal transduction and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-207",
+        "uniprot-P31749"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with Proteus syndrome.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving AKT1 have been reported in juvenile granulosa cell tumor of ovary, malignant adenomyoepithelioma of breast, and papillary carcinoma of breast, invasive.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -92,5 +92,23 @@
     "source_ids": [
       "gencc-SGC-104666.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MAGI2 encodes membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2. It participates in signal transduction and SMAD protein signal transduction.",
+      "source_ids": [
+        "ncbi-9863",
+        "uniprot-Q86UL8"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include nephrotic syndrome 15 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

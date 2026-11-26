@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PATZ1 encodes POZ-, AT hook-, and zinc finger-containing protein 1. It participates in regulation of DNA-templated transcription and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-23598",
+        "uniprot-Q9HBE1"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PATZ1 have been reported in thyroid-like follicular renal cell carcinoma and round cell sarcoma with EWSR1–non-ETS fusions.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

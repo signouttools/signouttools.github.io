@@ -86,5 +86,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RHEB encodes GTP-binding protein Rheb. It participates in signal transduction and small GTPase-mediated signal transduction.",
+      "source_ids": [
+        "ncbi-6009",
+        "uniprot-Q15382"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

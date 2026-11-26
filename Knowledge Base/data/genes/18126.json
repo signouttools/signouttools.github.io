@@ -84,5 +84,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ZNRF3 encodes E3 ubiquitin-protein ligase ZNRF3. It participates in limb development and protein ubiquitination.",
+      "source_ids": [
+        "ncbi-84133",
+        "uniprot-Q9ULT6"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ZNRF3 have been reported in adrenocortical carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

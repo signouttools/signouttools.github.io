@@ -68,5 +68,18 @@
     "source_ids": [
       "gencc-SGC-106873.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FAAP24 encodes Fanconi anemia core complex-associated protein 24. It participates in interstrand cross-link repair.",
+      "source_ids": [
+        "ncbi-91442",
+        "uniprot-Q9BTP7"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -125,5 +125,26 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GATA2 encodes a zinc-finger transcription factor important for hematopoietic stem and progenitor-cell maintenance and development of several blood-cell lineages.",
+      "source_ids": [
+        "ncbi-2624"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with GATA2 deficiency with susceptibility to MDS/AML (autosomal dominant); deafness-lymphedema-leukemia syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GATA2 have been reported in acute myeloid leukemia. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

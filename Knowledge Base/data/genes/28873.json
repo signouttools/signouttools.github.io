@@ -78,5 +78,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "VTCN1 encodes v-set domain-containing T-cell activation inhibitor 1. It participates in regulation of cytokine production and T cell receptor signaling pathway.",
+      "source_ids": [
+        "ncbi-79679",
+        "uniprot-Q7Z7D3"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

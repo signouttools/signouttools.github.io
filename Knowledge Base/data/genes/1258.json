@@ -62,5 +62,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SETD4 encodes SET domain-containing protein 4. It participates in chromatin remodeling and positive regulation of inflammatory response.",
+      "source_ids": [
+        "ncbi-54093",
+        "uniprot-Q9NVD3"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -74,5 +74,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MALAT1 produces a nuclear long noncoding RNA implicated in regulation of gene expression and ribonucleoprotein organization; processing of its precursor also generates a small cytoplasmic RNA.",
+      "source_ids": [
+        "ncbi-378938"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MALAT1 have been reported in gastroblastoma, TFEB-altered renal cell carcinoma, and GLI1-altered mesenchymal tumor, malignant/metastasizing.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

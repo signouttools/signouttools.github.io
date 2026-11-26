@@ -68,5 +68,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ASPSCR1 encodes tether containing UBX domain for GLUT4. It participates in ERAD pathway and glucose homeostasis.",
+      "source_ids": [
+        "ncbi-79058",
+        "uniprot-Q9BZE9"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ASPSCR1 have been reported in alveolar soft part sarcoma and TFE3-rearranged renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

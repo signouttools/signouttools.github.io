@@ -116,5 +116,23 @@
     "source_ids": [
       "gencc-SGC-105618.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NBN encodes nibrin. It participates in homologous recombination and telomere maintenance.",
+      "source_ids": [
+        "ncbi-4683",
+        "uniprot-O60934"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Nijmegen breakage syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

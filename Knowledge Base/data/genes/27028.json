@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CFAP90 encodes cilia and flagella associated protein 90. Its functions include flagellated sperm motility.",
+      "source_ids": [
+        "ncbi-134121",
+        "uniprot-A4QMS7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CFAP90 have been reported in lung adenocarcinoma and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

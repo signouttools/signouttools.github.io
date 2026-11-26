@@ -76,5 +76,23 @@
     "source_ids": [
       "gencc-snapshot"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PCSK5 encodes proprotein convertase subtilisin/kexin type 5. Its functions include endopeptidase activity and endopeptidase inhibitor activity.",
+      "source_ids": [
+        "ncbi-5125",
+        "uniprot-Q92824"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PCSK5 have been reported in cutaneous melanoma and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

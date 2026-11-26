@@ -250,6 +250,7 @@ python3 "Knowledge Base/scripts/import-hotspots.py" /path/to/hotspot-cache /path
 python3 "Knowledge Base/scripts/import-fda-references.py" /path/to/hotspot-cache
 python3 "Knowledge Base/scripts/draft-disruptions.py"
 python3 "Knowledge Base/scripts/link-hotspot-fda.py"
+python3 "Knowledge Base/scripts/prepare-report-comments.py"
 python3 "Knowledge Base/scripts/build-hotspot-browser.py"
 python3 "Knowledge Base/scripts/write-hotspot-review.py"
 node "Knowledge Base/scripts/validate.mjs"

@@ -78,5 +78,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TUBGCP6 encodes tubulin gamma complex component 6. Its functions include gamma-tubulin binding and microtubule binding.",
+      "source_ids": [
+        "ncbi-85378",
+        "uniprot-Q96RT7"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include microcephaly and chorioretinopathy 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TUBGCP6 have been reported in low-grade glioma, prostate adenocarcinoma, and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

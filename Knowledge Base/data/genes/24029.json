@@ -50,5 +50,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "INHBE encodes inhibin beta E chain. It participates in negative regulation of adipose tissue development and cell surface receptor protein serine/threonine kinase signaling pathway.",
+      "source_ids": [
+        "ncbi-83729",
+        "uniprot-P58166"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

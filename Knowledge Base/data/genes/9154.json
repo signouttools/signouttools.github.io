@@ -83,5 +83,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PNKP encodes bifunctional polynucleotide phosphatase/kinase [Includes: Polynucleotide 3'-phosphatase (2'(3')-polynucleotidase); Polynucleotide 5'-hydroxyl-kinase]. It participates in DNA repair and regulation of DNA repair.",
+      "source_ids": [
+        "ncbi-11284",
+        "uniprot-Q96T60"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with microcephaly, seizures, and developmental delay (autosomal recessive); ataxia - oculomotor apraxia type 4 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

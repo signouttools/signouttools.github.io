@@ -106,5 +106,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NUP93 encodes nuclear pore complex protein Nup93. It participates in positive regulation of SMAD protein signal transduction and nucleocytoplasmic transport.",
+      "source_ids": [
+        "ncbi-9688",
+        "uniprot-Q8N1F7"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with nephrotic syndrome, type 12 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

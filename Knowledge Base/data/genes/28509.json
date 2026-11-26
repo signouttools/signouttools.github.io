@@ -55,5 +55,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BEND2 encodes BEN domain-containing protein 2. Its molecular function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-139105",
+        "uniprot-Q8NDZ0"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BEND2 have been reported in astroblastoma, MN1-altered.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

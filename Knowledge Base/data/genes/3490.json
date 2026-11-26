@@ -129,5 +129,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ETV1 encodes ETS translocation variant 1. It participates in transcription by RNA polymerase II and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2115",
+        "uniprot-P50549"
+      ]
+    },
+    "somatic": {
+      "text": "ETV1 rearrangements can occur in Ewing sarcoma and prostate cancer, with multiple fusion partners described.",
+      "source_ids": [
+        "ncbi-2115"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

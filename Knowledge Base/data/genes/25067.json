@@ -63,5 +63,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "INTS12 encodes integrator complex subunit 12. Its functions include regulation of transcription elongation by RNA polymerase II and RNA polymerase II transcription initiation surveillance.",
+      "source_ids": [
+        "ncbi-57117",
+        "uniprot-Q96CB8"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving INTS12 have been reported in multiple myeloma and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

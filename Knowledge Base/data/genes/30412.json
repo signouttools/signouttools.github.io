@@ -65,5 +65,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SETD7 encodes histone-lysine N-methyltransferase SETD7. It participates in chromatin organization and heterochromatin organization.",
+      "source_ids": [
+        "ncbi-80854",
+        "uniprot-Q8WTS6"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

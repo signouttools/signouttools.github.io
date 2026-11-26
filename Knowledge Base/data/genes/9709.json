@@ -80,5 +80,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PVT1 is a noncoding locus near MYC that produces regulatory RNA transcripts. Its proximity to MYC is relevant when interpreting regional copy-number changes and rearrangements.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    },
+    "somatic": {
+      "text": "PVT1 copy-number gain and increased expression have been reported in breast and ovarian cancers, acute myeloid leukemia, and Hodgkin lymphoma. These observations should be distinguished from an established effect of an arbitrary sequence variant.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

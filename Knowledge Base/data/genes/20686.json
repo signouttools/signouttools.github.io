@@ -54,5 +54,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PASD1 encodes PAS domain containing repressor 1. Its functions include DNA-binding transcription factor binding and transcription regulator inhibitor activity.",
+      "source_ids": [
+        "ncbi-139135",
+        "uniprot-Q8IV76"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PASD1 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

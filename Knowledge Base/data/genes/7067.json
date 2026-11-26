@@ -97,5 +97,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CIITA encodes MHC class II transactivator. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-4261",
+        "uniprot-P33076"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with MHC class II deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CIITA have been reported in primary mediastinal large b-cell lymphoma and diffuse large b-Cell lymphoma, NOS.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

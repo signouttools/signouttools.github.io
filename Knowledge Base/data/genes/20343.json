@@ -49,5 +49,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GSKIP encodes GSK3B-interacting protein. It participates in negative regulation of protein kinase activity and regulation of Wnt signaling pathway.",
+      "source_ids": [
+        "ncbi-51527",
+        "uniprot-Q9P0R6"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

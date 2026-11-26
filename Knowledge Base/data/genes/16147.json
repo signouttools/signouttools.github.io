@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MCM8 encodes DNA helicase MCM8. It participates in double-strand break repair via homologous recombination and mismatch repair involved in maintenance of fidelity involved in DNA-dependent DNA replication.",
+      "source_ids": [
+        "ncbi-84515",
+        "uniprot-Q9UJA3"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with premature ovarian failure 10 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

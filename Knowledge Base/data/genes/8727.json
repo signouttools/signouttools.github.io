@@ -57,5 +57,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PCM1 encodes pericentriolar material 1 protein. It participates in centrosome cycle and cilium assembly.",
+      "source_ids": [
+        "ncbi-5108",
+        "uniprot-Q15154"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PCM1 have been reported in myeloid/lymphoid neoplasm with tyrosine kinase fusion.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -223,5 +223,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RNF43 encodes E3 ubiquitin-protein ligase RNF43. It participates in protein ubiquitination and stem cell proliferation.",
+      "source_ids": [
+        "ncbi-54894",
+        "uniprot-Q68DV7"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with sessile serrated polyposis cancer syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RNF43 have been reported in gastric adenocarcinoma, mucinous carcinoma of ovary, and pancreatic ductal adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

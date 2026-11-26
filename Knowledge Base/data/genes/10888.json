@@ -55,5 +55,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SIX2 encodes homeobox protein SIX2. It participates in regulation of transcription by RNA polymerase II and cell migration.",
+      "source_ids": [
+        "ncbi-10736",
+        "uniprot-Q9NPC8"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SIX2 have been reported in Wilms tumor.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

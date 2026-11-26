@@ -138,5 +138,23 @@
     "source_ids": [
       "gencc-SGC-104797.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EPCAM encodes epithelial cell adhesion molecule. It participates in positive regulation of transcription by RNA polymerase II and signal transduction involved in regulation of gene expression.",
+      "source_ids": [
+        "ncbi-4072",
+        "uniprot-P16422"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Lynch syndrome (autosomal dominant); Lynch syndrome 8 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

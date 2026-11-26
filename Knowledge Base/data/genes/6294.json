@@ -117,5 +117,23 @@
       "gencc-SGC-105449.4",
       "gencc-SGC-180440.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KCNQ1 encodes potassium voltage-gated channel subfamily KQT member 1. It participates in negative regulation of voltage-gated potassium channel activity and negative regulation of delayed rectifier potassium channel activity.",
+      "source_ids": [
+        "ncbi-3784",
+        "uniprot-P51787"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Jervell and Lange-Nielsen syndrome (autosomal recessive); long QT syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

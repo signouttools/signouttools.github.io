@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MRTFA encodes myocardin-related transcription factor A. It participates in positive regulation of miRNA transcription and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-57591",
+        "uniprot-Q969V6"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MRTFA have been reported in acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

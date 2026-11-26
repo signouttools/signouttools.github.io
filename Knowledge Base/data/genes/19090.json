@@ -76,5 +76,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EBF2 encodes EBF transcription factor 2. Its functions include DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "source_ids": [
+        "ncbi-64641",
+        "uniprot-Q9HAK2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EBF2 have been reported in glioblastoma, cutaneous melanoma, and endometrial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

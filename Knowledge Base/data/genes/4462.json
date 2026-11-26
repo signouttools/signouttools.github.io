@@ -58,5 +58,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GPNMB encodes transmembrane glycoprotein NMB. It participates in signal transduction and cell adhesion.",
+      "source_ids": [
+        "ncbi-10457",
+        "uniprot-Q14956"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with amyloidosis, primary localized cutaneous, 3 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

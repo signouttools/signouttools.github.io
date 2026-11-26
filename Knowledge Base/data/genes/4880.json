@@ -69,5 +69,23 @@
     "source_ids": [
       "gencc-SGC-107303.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HEY1 encodes hairy/enhancer-of-split related with YRPW motif protein 1. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-23462",
+        "uniprot-Q9Y5J3"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving HEY1 have been reported in chondrosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

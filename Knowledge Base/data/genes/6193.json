@@ -161,5 +161,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "JAK3 encodes tyrosine-protein kinase JAK3. It participates in intracellular signal transduction and cell differentiation.",
+      "source_ids": [
+        "ncbi-3718",
+        "uniprot-P52333"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with T-B+ severe combined immunodeficiency due to JAK3 deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving JAK3 have been reported in extranodal NK/T-cell lymphoma, t-cell prolymphocytic leukemia, and t-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

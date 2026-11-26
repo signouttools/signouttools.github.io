@@ -99,5 +99,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LMNA encodes prelamin-A/C [Cleaved into: Lamin-A/C]. It participates in regulation of telomere maintenance and cellular senescence.",
+      "source_ids": [
+        "ncbi-4000",
+        "uniprot-P02545"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with dilated cardiomyopathy 1A (autosomal dominant); lipodystrophy (semidominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LMNA have been reported in NTRK-rearranged spindle cell neoplasm, malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

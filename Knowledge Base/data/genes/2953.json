@@ -75,5 +75,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DNAH9 encodes dynein axonemal heavy chain 9. Its functions include dynein intermediate chain binding and dynein light intermediate chain binding.",
+      "source_ids": [
+        "ncbi-1770",
+        "uniprot-Q9NYC9"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include ciliary dyskinesia, primary, 40 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DNAH9 have been reported in cutaneous melanoma and esophageal carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

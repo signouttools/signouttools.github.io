@@ -148,5 +148,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TGFBR2 encodes TGF-beta receptor type-2. It participates in positive regulation of SMAD protein signal transduction and vasculogenesis.",
+      "source_ids": [
+        "ncbi-7048",
+        "uniprot-P37173"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Loeys-Dietz syndrome 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TGFBR2 have been reported in pancreas, cervical adenocarcinoma, and esophageal adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -72,5 +72,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGF6 encodes fibroblast growth factor 6. It participates in neurogenesis and regulation of cell migration.",
+      "source_ids": [
+        "ncbi-2251",
+        "uniprot-P10767"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

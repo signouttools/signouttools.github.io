@@ -217,5 +217,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TET2 encodes an enzyme that oxidizes methylated cytosine in DNA, contributing to DNA-demethylation pathways and regulation of hematopoietic differentiation.",
+      "source_ids": [
+        "ncbi-54790"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with immunodeficiency 75 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TET2 have been reported in myelodysplastic neoplasm, chronic myelomonocytic leukemia, and acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

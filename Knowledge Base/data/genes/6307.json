@@ -169,5 +169,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KDR encodes vascular endothelial growth factor receptor 2. It participates in positive regulation of nitric oxide-cGMP mediated signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-3791",
+        "uniprot-P35968"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with pulmonary arterial hypertension (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KDR have been reported in angiosarcoma, skin, and pancreas.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

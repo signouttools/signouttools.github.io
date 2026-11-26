@@ -72,5 +72,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PICALM encodes phosphatidylinositol-binding clathrin assembly protein. It participates in positive regulation of DNA-templated transcription and positive regulation of Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-8301",
+        "uniprot-Q13492"
+      ]
+    },
+    "somatic": {
+      "text": "PICALM–MLLT10 rearrangements have been reported in acute myeloid leukemia, acute lymphoblastic leukemia, and lymphoid malignancies.",
+      "source_ids": [
+        "ncbi-8301"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

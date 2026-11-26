@@ -112,5 +112,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ACVR1B encodes activin receptor type-1B. It participates in signal transduction and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-91",
+        "uniprot-P36896"
+      ]
+    },
+    "somatic": {
+      "text": "Sequence mutations in ACVR1B have been reported in pituitary tumors; their presence alone does not establish a uniform functional or clinical effect.",
+      "source_ids": [
+        "ncbi-91"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

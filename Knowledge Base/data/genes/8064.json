@@ -75,5 +75,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NUP214 encodes nuclear pore complex protein Nup214. It participates in nucleocytoplasmic transport and RNA export from nucleus.",
+      "source_ids": [
+        "ncbi-8021",
+        "uniprot-P35658"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with encephalopathy, acute, infection-induced, susceptibility to, 9 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NUP214 have been reported in acute myeloid leukemia and papillary renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -89,5 +89,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TPTE2 encodes transmembrane phosphoinositide 3-phosphatase and tensin homolog 2. Its functions include monoatomic ion channel activity and phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase activity.",
+      "source_ids": [
+        "ncbi-93492",
+        "uniprot-Q6XPS3"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TPTE2 have been reported in cutaneous melanoma, lung adenocarcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

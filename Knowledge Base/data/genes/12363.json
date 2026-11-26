@@ -174,5 +174,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TSC2 encodes tuberin. It participates in small GTPase-mediated signal transduction and regulation of small GTPase mediated signal transduction.",
+      "source_ids": [
+        "ncbi-7249",
+        "uniprot-P49815"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with tuberous sclerosis 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TSC2 have been reported in PEComa, malignant, pancreatic neuroendocrine tumor, and eosinophilic solid and cystic renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

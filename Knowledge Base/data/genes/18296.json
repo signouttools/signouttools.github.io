@@ -59,5 +59,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PPP4R2 encodes serine/threonine-protein phosphatase 4 regulatory subunit 2. It participates in regulation of double-strand break repair via homologous recombination and protein modification process.",
+      "source_ids": [
+        "ncbi-151987",
+        "uniprot-Q9NY27"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

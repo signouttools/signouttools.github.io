@@ -160,5 +160,28 @@
     "source_ids": [
       "gencc-SGC-101746.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PPM1D encodes protein phosphatase 1D. It participates in regulation of intracellular signal transduction and regulation of transcription initiation by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-8493",
+        "uniprot-O15297"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include syndromic intellectual disability (autosomal dominant); intellectual developmental disorder with gastrointestinal difficulties and high pain threshold (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PPM1D have been reported in diffuse midline glioma, H3 K27-altered, lung adenocarcinoma, and basal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

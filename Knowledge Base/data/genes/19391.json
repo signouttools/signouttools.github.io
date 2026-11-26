@@ -64,5 +64,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SOCS3 encodes suppressor of cytokine signaling 3. It participates in intracellular signal transduction and protein ubiquitination.",
+      "source_ids": [
+        "ncbi-9021",
+        "uniprot-O14543"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

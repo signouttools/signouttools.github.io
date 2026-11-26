@@ -81,5 +81,18 @@
     "source_ids": [
       "gencc-SGC-105283.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GEN1 encodes flap endonuclease GEN homolog 1. It participates in double-strand break repair via homologous recombination and replication fork processing.",
+      "source_ids": [
+        "ncbi-348654",
+        "uniprot-Q17RS7"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

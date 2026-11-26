@@ -134,5 +134,28 @@
     "source_ids": [
       "gencc-SGC-105507.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FOXP1 encodes forkhead box protein P1. It participates in negative regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-27086",
+        "uniprot-Q9H334"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include intellectual disability-severe speech delay-mild dysmorphism syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FOXP1 have been reported in marginal zone lymphoma, prostate adenocarcinoma, and invasive breast carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

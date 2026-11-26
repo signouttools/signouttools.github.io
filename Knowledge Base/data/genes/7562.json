@@ -172,5 +172,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYD88 encodes an adaptor for Toll-like and interleukin-1 receptor signaling that links receptor activation to downstream inflammatory signaling, including NF-κB activation.",
+      "source_ids": [
+        "ncbi-4615"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with pyogenic bacterial infections due to MyD88 deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYD88 have been reported in lymphoplasmacytic lymphoma, diffuse large b-cell lymphoma, and intravascular large b-cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

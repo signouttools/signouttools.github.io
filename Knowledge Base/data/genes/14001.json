@@ -59,5 +59,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PRDM14 encodes PR domain zinc finger protein 14. It participates in regulation of transcription by RNA polymerase II and germ cell development.",
+      "source_ids": [
+        "ncbi-63978",
+        "uniprot-Q9GZV8"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

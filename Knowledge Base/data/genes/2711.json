@@ -77,5 +77,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DCTN1 encodes dynactin subunit 1. It participates in centriole-centriole cohesion and cholesterol homeostasis.",
+      "source_ids": [
+        "ncbi-1639",
+        "uniprot-Q14203"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Perry syndrome (autosomal dominant); amyotrophic lateral sclerosis type 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving DCTN1 have been reported in ALK-positive histiocytosis.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

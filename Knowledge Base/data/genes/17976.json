@@ -73,5 +73,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RPL10L encodes ribosomal protein L10 like. Its functions include structural constituent of ribosome and male meiosis I.",
+      "source_ids": [
+        "ncbi-140801",
+        "uniprot-Q96L21"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RPL10L have been reported in lung adenocarcinoma, colorectal carcinoma, and esophageal carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

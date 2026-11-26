@@ -303,5 +303,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TERT encodes the catalytic reverse-transcriptase component of telomerase. Together with the TERC RNA template, it adds telomeric repeats to chromosome ends.",
+      "source_ids": [
+        "ncbi-7015"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with dyskeratosis congenita, autosomal dominant 2 (semidominant); dyskeratosis congenita, autosomal dominant 2 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TERT have been reported in liposarcoma, paraganglioma, and chondrosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

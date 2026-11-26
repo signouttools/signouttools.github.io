@@ -117,5 +117,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EPHA7 encodes ephrin type-A receptor 7. It participates in negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction and phosphorylation.",
+      "source_ids": [
+        "ncbi-2045",
+        "uniprot-Q15375"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EPHA7 have been reported in lung adenocarcinoma, hepatocellular carcinoma, and colorectal adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

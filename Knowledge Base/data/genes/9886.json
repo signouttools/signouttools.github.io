@@ -111,5 +111,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KDM5A encodes lysine-specific demethylase 5A demethylase 5A). It participates in regulation of DNA-templated transcription and transcription initiation-coupled chromatin remodeling.",
+      "source_ids": [
+        "ncbi-5927",
+        "uniprot-P29375"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

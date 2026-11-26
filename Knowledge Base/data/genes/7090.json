@@ -61,5 +61,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MICA encodes MHC class I polypeptide-related sequence A. Its functions include natural killer cell lectin-like receptor binding and receptor ligand activity.",
+      "source_ids": [
+        "ncbi-100507436",
+        "uniprot-Q29983"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MICA have been reported in colorectal carcinoma and hepatocellular carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

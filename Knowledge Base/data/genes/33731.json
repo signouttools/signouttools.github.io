@@ -73,5 +73,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "C3orf70 encodes chromosome 3 open reading frame 70. Its functions include circadian behavior and nervous system development.",
+      "source_ids": [
+        "ncbi-285382",
+        "uniprot-A6NLC5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving C3orf70 have been reported in breast carcinoma, cervical carcinoma, and bladder urothelial carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -69,5 +69,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PCED1B encodes PC-esterase domain containing 1B. Its molecular function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-91523",
+        "uniprot-Q96HM7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PCED1B have been reported in cutaneous melanoma and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

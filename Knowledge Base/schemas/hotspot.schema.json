@@ -193,6 +193,9 @@
               "type": "string"
             }
           }
+        },
+        "report_comment": {
+          "$ref": "#/$defs/section"
         }
       },
       "required": [
@@ -259,6 +262,9 @@
           "items": {
             "type": "string"
           }
+        },
+        "report_comment": {
+          "$ref": "#/$defs/section"
         }
       },
       "required": [
@@ -313,6 +319,9 @@
           "items": {
             "type": "string"
           }
+        },
+        "report_comment": {
+          "$ref": "#/$defs/section"
         }
       },
       "required": [

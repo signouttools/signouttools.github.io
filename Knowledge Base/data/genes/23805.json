@@ -158,5 +158,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ASXL2 encodes putative Polycomb group protein ASXL2. It participates in positive regulation of transcription by RNA polymerase II and positive regulation of fat cell differentiation.",
+      "source_ids": [
+        "ncbi-55252",
+        "uniprot-Q76L83"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndromic intellectual disability (autosomal dominant); Shashi-Pena syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic ASXL2 mutations have been reported in several cancer types, including breast, bladder, pancreatic, ovarian, prostate, and hematologic tumors.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    }
+  },
+  "report_gaps": []
 }

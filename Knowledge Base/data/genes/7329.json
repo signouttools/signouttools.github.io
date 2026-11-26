@@ -146,5 +146,26 @@
     "source_ids": [
       "gencc-SGC-106606.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MSH6 encodes the mismatch-recognition component of the MSH2–MSH6 complex, which detects base mismatches and small insertion/deletion loops during DNA mismatch repair.",
+      "source_ids": [
+        "ncbi-2956"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Lynch syndrome (autosomal dominant); Constitutional mismatch repair deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Loss of mismatch-repair function involving MSH6 is relevant in colorectal and endometrial carcinomas. Protein-expression loss or an MSI phenotype does not by itself establish a somatic sequence mutation.",
+      "source_ids": [
+        "amp-mmr-somatic"
+      ]
+    }
+  },
+  "report_gaps": []
 }

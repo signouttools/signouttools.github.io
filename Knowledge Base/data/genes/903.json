@@ -111,5 +111,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "AXIN1 encodes axin-1. It participates in cell development and protein-containing complex assembly.",
+      "source_ids": [
+        "ncbi-8312",
+        "uniprot-O15169"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving AXIN1 have been reported in hepatocellular carcinoma and glioblastoma multiforme.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -86,5 +86,24 @@
     "source_ids": [
       "gencc-SGC-104715.3"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NFATC2 encodes nuclear factor of activated T-cells, cytoplasmic 2. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4773",
+        "uniprot-Q13469"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NFATC2 have been reported in NFATC2-rearranged sarcoma, round cell sarcoma with EWSR1–non-ETS fusions, and rectal adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -351,5 +351,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SMARCA4 encodes BRG1, an ATP-dependent catalytic subunit of SWI/SNF chromatin-remodeling complexes that regulate nucleosome organization and gene expression.",
+      "source_ids": [
+        "ncbi-6597"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Coffin-Siris syndrome (autosomal dominant); rhabdoid tumor predisposition syndrome 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SMARCA4 have been reported in small cell carcinoma of ovary, hypercalcemic type, thoracic SMARCA4-deficient undifferentiated tumor, and lung adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

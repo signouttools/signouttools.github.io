@@ -217,5 +217,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "JAK2 encodes a nonreceptor tyrosine kinase that associates with cytokine receptors and transmits signals through STAT proteins and other downstream pathways in hematopoietic cells.",
+      "source_ids": [
+        "ncbi-3717"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with thrombocythemia 3 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving JAK2 have been reported in polycythemia vera, primary myelofibrosis, and classic Hodgkin lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

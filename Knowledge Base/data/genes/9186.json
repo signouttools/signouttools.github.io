@@ -83,5 +83,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "POLQ encodes DNA polymerase theta [Includes: Helicase POLQ; DNA polymerase POLQ]. It participates in DNA repair and negative regulation of double-strand break repair via homologous recombination.",
+      "source_ids": [
+        "ncbi-10721",
+        "uniprot-O75417"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving POLQ have been reported in melanoma, endometrial carcinoma, and lung squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

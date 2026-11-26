@@ -148,5 +148,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. Ligand-dependent signaling regulates survival, proliferation, and differentiation of these cells.",
+      "source_ids": [
+        "ncbi-2322"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FLT3 have been reported in myeloid sarcoma, acute myeloid leukemia, and acute leukemia of ambiguous lineage.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

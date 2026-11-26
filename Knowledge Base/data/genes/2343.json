@@ -97,5 +97,27 @@
     "source_ids": [
       "gencc-snapshot"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CRB1 encodes crumbs cell polarity complex component 1. Its functions include calcium ion binding and cell-cell signaling.",
+      "source_ids": [
+        "ncbi-23418",
+        "uniprot-P82279"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include inherited retinal dystrophy (autosomal recessive); Leber congenital amaurosis 8 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CRB1 have been reported in esophageal carcinoma, gastric adenocarcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

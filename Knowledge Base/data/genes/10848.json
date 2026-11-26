@@ -71,5 +71,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SHH encodes sonic hedgehog protein [Cleaved into: Sonic hedgehog protein N-product]. It participates in positive regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6469",
+        "uniprot-Q15465"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with holoprosencephaly 3 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SHH have been reported in medulloblastoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

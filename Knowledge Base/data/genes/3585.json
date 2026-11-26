@@ -109,5 +109,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FANCD2 encodes Fanconi anemia group D2 protein. It participates in interstrand cross-link repair and response to gamma radiation.",
+      "source_ids": [
+        "ncbi-2177",
+        "uniprot-Q9BXW9"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Fanconi anemia complementation group D2 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

@@ -64,5 +64,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "OGG1 encodes n-glycosylase/DNA lyase [Includes: 8-oxoguanine DNA glycosylase; DNA-(apurinic or apyrimidinic site) lyase]. It participates in regulation of DNA-templated transcription and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-4968",
+        "uniprot-O15527"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

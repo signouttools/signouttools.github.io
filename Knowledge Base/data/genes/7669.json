@@ -111,5 +111,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NCOA2 encodes nuclear receptor coactivator 2. It participates in regulation of DNA-templated transcription and mRNA transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-10499",
+        "uniprot-Q15596"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NCOA2 have been reported in chondrosarcoma, rhabdomyosarcoma, and MEIS1::NCOA1/2 primitive spindle cell sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -65,5 +65,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TRPS1 encodes zinc finger transcription factor Trps1. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-7227",
+        "uniprot-Q9UHF7"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with trichorhinophalangeal syndrome type I (autosomal dominant); trichorhinophalangeal syndrome, type III (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

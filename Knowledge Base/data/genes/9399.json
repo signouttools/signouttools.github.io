@@ -72,5 +72,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PRKCD encodes protein kinase C delta type [Cleaved into: Protein kinase C delta type regulatory subunit; Protein kinase C delta type catalytic subunit]. It participates in signal transduction and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-5580",
+        "uniprot-Q05655"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with systemic lupus erythematosus (autosomal recessive); autoimmune lymphoproliferative syndrome, type III caused by mutation in PRKCD (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PRKCD have been reported in non-Hodgkin lymphoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

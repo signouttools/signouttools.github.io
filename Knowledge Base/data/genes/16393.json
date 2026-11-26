@@ -186,5 +186,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CARD11 encodes caspase recruitment domain-containing protein 11. It participates in signal transduction and canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-84433",
+        "uniprot-Q9BXL7"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with BENTA disease (autosomal dominant); immunodeficiency 11b with atopic dermatitis (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CARD11 have been reported in sézary syndrome, diffuse large b-cell lymphoma, and adult t-cell leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

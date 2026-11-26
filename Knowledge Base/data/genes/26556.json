@@ -76,5 +76,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LRRC71 encodes leucine rich repeat containing 71. Its molecular function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-149499",
+        "uniprot-Q8N4P6"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LRRC71 have been reported in hepatocellular carcinoma, pancreatic adenocarcinoma, and papillary renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

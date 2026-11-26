@@ -56,5 +56,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CCNB3 encodes G2/mitotic-specific cyclin-B3. It participates in G1/S transition of mitotic cell cycle.",
+      "source_ids": [
+        "ncbi-85417",
+        "uniprot-Q8WWL7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CCNB3 have been reported in sarcoma with BCOR genetic alterations.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -143,5 +143,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GATA3 encodes trans-acting T-cell-specific transcription factor GATA-3. It participates in signal transduction and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2625",
+        "uniprot-P23771"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hypoparathyroidism-deafness-renal disease syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GATA3 have been reported in mucinous carcinoma of breast, invasive breast carcinoma of no special type, and invasive breast carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

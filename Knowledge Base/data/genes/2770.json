@@ -74,5 +74,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "DES encodes desmin. It participates in cytoskeleton organization and muscle contraction.",
+      "source_ids": [
+        "ncbi-1674",
+        "uniprot-P17661"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with dilated cardiomyopathy 1I (autosomal dominant); myofibrillar myopathy 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

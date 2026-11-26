@@ -95,5 +95,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PAX3 encodes paired box protein Pax-3. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-5077",
+        "uniprot-P23760"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Waardenburg syndrome (autosomal dominant); Waardenburg syndrome type 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PAX3 have been reported in rhabdomyosarcoma and biphenotypic sinonasal sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

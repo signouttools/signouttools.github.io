@@ -235,5 +235,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PBRM1 encodes protein polybromo-1. It participates in regulation of transcription by RNA polymerase II and chromatin remodeling.",
+      "source_ids": [
+        "ncbi-55193",
+        "uniprot-Q86U86"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PBRM1 have been reported in chordoma, clear cell renal cell carcinoma, and intrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

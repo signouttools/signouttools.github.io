@@ -129,5 +129,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IGF1R encodes insulin-like growth factor 1 receptor [Cleaved into: Insulin-like growth factor 1 receptor alpha chain; Insulin-like growth factor 1 receptor beta chain]. It participates in signal transduction and phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-3480",
+        "uniprot-P08069"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with growth delay due to insulin-like growth factor I resistance (autosomal dominant); growth delay due to insulin-like growth factor I resistance (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

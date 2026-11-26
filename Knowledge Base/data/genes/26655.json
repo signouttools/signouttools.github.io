@@ -64,5 +64,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MARCHF10 encodes membrane associated ring-CH-type finger 10. Its functions include ubiquitin protein ligase activity and zinc ion binding.",
+      "source_ids": [
+        "ncbi-162333",
+        "uniprot-Q8NA82"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MARCHF10 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

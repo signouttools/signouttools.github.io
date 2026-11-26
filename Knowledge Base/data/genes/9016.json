@@ -67,5 +67,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PKHD1 encodes fibrocystin. It participates in cell-cell adhesion and homeostatic process.",
+      "source_ids": [
+        "ncbi-5314",
+        "uniprot-P08F94"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autosomal recessive polycystic kidney disease (autosomal recessive); polycystic kidney disease 4 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

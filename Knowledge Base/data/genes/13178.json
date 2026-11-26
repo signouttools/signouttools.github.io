@@ -85,5 +85,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IKZF3 encodes zinc finger protein Aiolos. It participates in regulation of transcription by RNA polymerase II and mesoderm development.",
+      "source_ids": [
+        "ncbi-22806",
+        "uniprot-Q9UKT9"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with immunodeficiency 84 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving IKZF3 have been reported in diffuse large b-Cell lymphoma, NOS and chronic lymphocytic leukemia/Small lymphocytic lymphoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

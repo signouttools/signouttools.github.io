@@ -118,5 +118,27 @@
     "source_ids": [
       "gencc-SGC-105893.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RASA1 encodes ras GTPase-activating protein 1. It participates in signal transduction and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-5921",
+        "uniprot-P20936"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include capillary malformation-arteriovenous malformation 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RASA1 have been reported in lung squamous cell carcinoma and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TLX3 encodes t-cell leukemia homeobox protein 3. It participates in regulation of transcription by RNA polymerase II and animal organ development.",
+      "source_ids": [
+        "ncbi-30012",
+        "uniprot-O43711"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TLX3 have been reported in t-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

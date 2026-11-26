@@ -614,5 +614,27 @@
     "revision": 1,
     "change_note": "Initial format example; specialist review pending.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TP53 encodes the p53 transcription factor, a tumor suppressor that coordinates cellular stress responses through cell-cycle arrest, DNA repair, senescence, and apoptosis.",
+      "source_ids": [
+        "ncbi-tp53"
+      ]
+    },
+    "germline": {
+      "text": "Germline pathogenic variants cause autosomal dominant Li-Fraumeni syndrome, which predisposes to a broad spectrum of cancers, notably early-onset breast cancer, sarcomas, central nervous system tumors, and adrenocortical carcinoma.",
+      "source_ids": [
+        "genereviews-lfs"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic TP53 mutations occur across many cancer types. The biological effect varies by alteration, and a tumor-detected TP53 variant alone does not establish a germline diagnosis.",
+      "source_ids": [
+        "ncbi-tp53",
+        "genereviews-lfs"
+      ]
+    }
+  },
+  "report_gaps": []
 }

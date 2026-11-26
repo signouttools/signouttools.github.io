@@ -160,5 +160,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BCR encodes breakpoint cluster region protein. It participates in signal transduction and small GTPase-mediated signal transduction.",
+      "source_ids": [
+        "ncbi-613",
+        "uniprot-P11274"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BCR have been reported in acute myeloid leukemia, chronic myeloid leukemia, and b-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

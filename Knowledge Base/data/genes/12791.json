@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "WRN encodes bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN [Includes: 3'-5' exonuclease; ATP-dependent helicase]. It participates in mismatch repair and telomere maintenance.",
+      "source_ids": [
+        "ncbi-7486",
+        "uniprot-Q14191"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Werner syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

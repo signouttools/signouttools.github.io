@@ -20,3 +20,7 @@ details.variant-card > details { margin-top: 1rem; }
 .fda-references > summary { cursor: pointer; font-weight: 650; }
 .fda-reference { padding: 1rem 0; border-bottom: 1px solid var(--line, #cad4dd); overflow-wrap: anywhere; }
 .fda-reference h4 { margin: .25rem 0; }
+
+.about-library { margin: 1rem 0 1.5rem; padding: 1rem; border: 1px solid var(--line, #cad4dd); border-radius: .5rem; }
+.about-library > summary, .association-details > summary, .evidence-review > summary { cursor: pointer; font-weight: 650; }
+.association-details { margin: 1.25rem 0; }

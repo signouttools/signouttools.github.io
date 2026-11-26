@@ -61,5 +61,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "XRCC1 encodes DNA repair protein XRCC1. It participates in regulation of DNA repair and base-excision repair.",
+      "source_ids": [
+        "ncbi-7515",
+        "uniprot-P18887"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

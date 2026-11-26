@@ -75,5 +75,27 @@
     "source_ids": [
       "gencc-snapshot"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KCNJ8 encodes potassium inwardly rectifying channel subfamily J member 8. Its functions include ATP-activated inward rectifier potassium channel activity and ATPase-coupled monoatomic cation transmembrane transporter activity.",
+      "source_ids": [
+        "ncbi-3764",
+        "uniprot-Q15842"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include hypertrichotic osteochondrodysplasia Cantu type (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KCNJ8 have been reported in cutaneous melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

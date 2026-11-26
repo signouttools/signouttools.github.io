@@ -89,5 +89,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RAD51B encodes DNA repair protein RAD51 homolog 2. It participates in DNA repair and double-strand break repair via homologous recombination.",
+      "source_ids": [
+        "ncbi-5890",
+        "uniprot-O15315"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -88,5 +88,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RHOH encodes rho-related GTP-binding protein RhoH. It participates in signal transduction and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-399",
+        "uniprot-Q15669"
+      ]
+    },
+    "somatic": {
+      "text": "RHOH can be affected by aberrant somatic mutation or rearrangement in leukemias and lymphomas, including rearrangements involving BCL6.",
+      "source_ids": [
+        "ncbi-399"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

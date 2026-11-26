@@ -72,5 +72,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ATXN7 encodes ataxin-7. It participates in regulation of DNA repair and regulation of RNA splicing.",
+      "source_ids": [
+        "ncbi-6314",
+        "uniprot-O15265"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with spinocerebellar ataxia 7 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

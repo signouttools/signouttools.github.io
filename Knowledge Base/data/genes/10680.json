@@ -173,5 +173,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SDHA encodes succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial. It participates in nervous system development and succinate metabolic process.",
+      "source_ids": [
+        "ncbi-6389",
+        "uniprot-P31040"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); mitochondrial disease (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SDHA have been reported in paraganglioma, gastrointestinal stromal tumor, and SDH-deficient renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

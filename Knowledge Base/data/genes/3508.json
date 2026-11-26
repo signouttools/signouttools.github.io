@@ -213,5 +213,23 @@
     "source_ids": [
       "gencc-SGC-105469.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EWSR1 encodes RNA-binding protein EWS. It participates in regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2130",
+        "uniprot-Q01844"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EWSR1 have been reported in liposarcoma, Ewing sarcoma, and rhabdomyosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -75,5 +75,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLIT2 encodes slit homolog 2 protein [Cleaved into: Slit homolog 2 protein N-product; Slit homolog 2 protein C-product]. It participates in negative regulation of small GTPase mediated signal transduction and axon guidance.",
+      "source_ids": [
+        "ncbi-9353",
+        "uniprot-O94813"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

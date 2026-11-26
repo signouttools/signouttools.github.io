@@ -128,5 +128,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MEF2B encodes myocyte-specific enhancer factor 2B. It participates in positive regulation of transcription by RNA polymerase II and cell differentiation.",
+      "source_ids": [
+        "ncbi-100271849",
+        "uniprot-Q02080"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MEF2B have been reported in malignant lymphoma, non-Hodgkin lymphoma, and diffuse large b-Cell lymphoma, NOS. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

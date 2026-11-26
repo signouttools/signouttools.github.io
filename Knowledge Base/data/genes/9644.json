@@ -239,5 +239,27 @@
       "gencc-SGC-104968.4",
       "gencc-SGC-106504.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PTPN11 encodes tyrosine-protein phosphatase non-receptor type 11. It participates in positive regulation of intracellular signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-5781",
+        "uniprot-Q06124"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Noonan syndrome (autosomal dominant); Noonan syndrome with multiple lentigines (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PTPN11 have been reported in chronic myelomonocytic leukemia, juvenile myelomonocytic leukemia, and neuroblastoma / ganglioneuroblastoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -86,5 +86,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYT1L encodes myelin transcription factor 1 like. Its functions include cobalt ion binding and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "source_ids": [
+        "ncbi-23040",
+        "uniprot-Q9UL68"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include syndromic complex neurodevelopmental disorder (autosomal dominant); intellectual developmental disorder, autosomal dominant 39 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYT1L have been reported in esophageal carcinoma, uterine carcinosarcoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -61,5 +61,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "USP28 encodes ubiquitin carboxyl-terminal hydrolase 28. It participates in protein deubiquitination and DNA damage response.",
+      "source_ids": [
+        "ncbi-57646",
+        "uniprot-Q96RU2"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

@@ -77,5 +77,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CFAP20 encodes cilia and flagella associated protein 20. Its functions include cilium assembly and flagellated sperm motility.",
+      "source_ids": [
+        "ncbi-29105",
+        "uniprot-Q9Y6A4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CFAP20 have been reported in breast carcinoma, cervical carcinoma, and colorectal carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

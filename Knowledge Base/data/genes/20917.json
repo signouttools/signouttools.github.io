@@ -74,5 +74,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ALPK1 encodes alpha-protein kinase 1. It participates in positive regulation of canonical NF-kappaB signal transduction and cilium assembly.",
+      "source_ids": [
+        "ncbi-80216",
+        "uniprot-Q96QP1"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with retinal dystrophy, optic nerve edema, splenomegaly, anhidrosis, and migraine headache syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ALPK1 have been reported in spiradenocarcinoma and pancreatic adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

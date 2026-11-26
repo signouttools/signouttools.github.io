@@ -178,5 +178,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BRCA1 encodes a tumor-suppressor protein that coordinates the DNA-damage response and homologous-recombination repair, including functions performed with BARD1 and other repair factors.",
+      "source_ids": [
+        "ncbi-672"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with BRCA1-related cancer predisposition (autosomal dominant); Fanconi anemia, complementation group S (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BRCA1 have been reported in high-grade serous carcinoma, tubo-ovarian / peritoneal, invasive breast carcinoma, and pancreatic ductal adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

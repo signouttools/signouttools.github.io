@@ -145,5 +145,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "STAT6 encodes signal transducer and activator of transcription 6. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6778",
+        "uniprot-P42226"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hyper-IgE syndrome 6, autosomal dominant, with recurrent infections (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving STAT6 have been reported in classic Hodgkin lymphoma, mediastinal gray zone lymphoma, and primary mediastinal large b-cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

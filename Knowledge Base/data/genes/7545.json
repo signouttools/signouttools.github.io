@@ -127,5 +127,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYB encodes transcriptional activator Myb. It participates in regulation of DNA-templated transcription and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4602",
+        "uniprot-P10242"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYB have been reported in basal cell carcinoma of prostate, adenoid cystic carcinoma of breast, and pulmonary adenoid cystic carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

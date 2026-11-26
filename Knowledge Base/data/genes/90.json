@@ -105,5 +105,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ACADS encodes acyl-CoA dehydrogenase short chain. Its functions include acyl-CoA dehydrogenase activity and flavin adenine dinucleotide binding.",
+      "source_ids": [
+        "ncbi-35",
+        "uniprot-P16219"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include short chain acyl-CoA dehydrogenase deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ACADS have been reported in glioblastoma, low-grade glioma, and colorectal carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

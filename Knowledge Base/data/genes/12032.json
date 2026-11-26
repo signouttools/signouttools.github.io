@@ -87,5 +87,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TRAF2 encodes TNF receptor-associated factor 2. It participates in positive regulation of JUN kinase activity and signal transduction.",
+      "source_ids": [
+        "ncbi-7186",
+        "uniprot-Q12933"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

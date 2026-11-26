@@ -71,5 +71,18 @@
     "source_ids": [
       "gencc-SGC-106632.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KIF1B encodes kinesin-like protein KIF1B. It participates in vesicle-mediated transport and neuromuscular synaptic transmission.",
+      "source_ids": [
+        "ncbi-23095",
+        "uniprot-O60333"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

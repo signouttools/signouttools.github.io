@@ -92,5 +92,27 @@
     "source_ids": [
       "gencc-SGC-106926.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "COL1A2 encodes collagen alpha-2(I) chain. It participates in Rho protein signal transduction and odontogenesis.",
+      "source_ids": [
+        "ncbi-1278",
+        "uniprot-P08123"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include COL1A2-related Ehlers-Danlos syndrome (autosomal dominant); COL1A2-related osteogenesis imperfecta (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving COL1A2 have been reported in ALK-positive histiocytosis.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

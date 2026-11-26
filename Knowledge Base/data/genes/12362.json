@@ -202,5 +202,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TSC1 encodes hamartin. It participates in activation of GTPase activity and negative regulation of ATP-dependent activity.",
+      "source_ids": [
+        "ncbi-7248",
+        "uniprot-Q92574"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with tuberous sclerosis 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TSC1 have been reported in PEComa, malignant, pancreatic neuroendocrine tumor, and eosinophilic solid and cystic renal cell carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

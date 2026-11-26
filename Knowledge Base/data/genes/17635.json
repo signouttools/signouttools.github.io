@@ -140,5 +140,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CD274 encodes programmed cell death 1 ligand 1. It participates in signal transduction and immune response.",
+      "source_ids": [
+        "ncbi-29126",
+        "uniprot-Q9NZQ7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CD274 have been reported in classic Hodgkin lymphoma, primary mediastinal large b-cell lymphoma, and t-cell/histiocyte-rich large b-cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

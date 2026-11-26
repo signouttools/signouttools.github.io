@@ -155,5 +155,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MPL encodes the thrombopoietin receptor, which regulates hematopoietic stem-cell maintenance and megakaryocyte and platelet production through cytokine signaling.",
+      "source_ids": [
+        "ncbi-4352"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with congenital amegakaryocytic thrombocytopenia 1 (autosomal recessive); thrombocythemia 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MPL have been reported in primary myelofibrosis, essential thrombocythemia, and myeloproliferative neoplasm, NOS.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

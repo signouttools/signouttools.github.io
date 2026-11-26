@@ -226,5 +226,29 @@
     "revision": 1,
     "change_note": "Initial format example; specialist review pending.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IDH1 encodes a cytosolic and peroxisomal NADP-dependent enzyme that converts isocitrate to alpha-ketoglutarate and generates NADPH.",
+      "source_ids": [
+        "ncbi-idh1"
+      ]
+    },
+    "mosaic": {
+      "text": "Postzygotic mosaic variants are associated with Ollier disease and Maffucci syndrome.",
+      "source_ids": [
+        "medline-idh1"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic IDH1 mutations occur in diffuse gliomas, acute myeloid leukemia, and cholangiocarcinoma. Cancer-associated R132 variants can acquire a neomorphic activity that produces D-2-hydroxyglutarate; their significance must be interpreted within the specific disease context.",
+      "source_ids": [
+        "idh1-cohort-2021",
+        "dang-2009"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

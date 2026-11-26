@@ -62,5 +62,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SAMD9L encodes a SAM-domain-containing protein implicated in regulation of cellular growth and hematopoietic homeostasis. Its allele-specific effects require careful distinction from acquired clonal changes.",
+      "source_ids": [
+        "ncbi-219285"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with SAMD9L-related spectrum and myeloid neoplasm risk (autosomal dominant); ataxia-pancytopenia syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

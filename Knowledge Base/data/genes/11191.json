@@ -62,5 +62,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SOX11 encodes transcription factor SOX-11. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6664",
+        "uniprot-P35716"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with SOX11-related complex neurodevelopmental disorder with or without congenital anomalies (autosomal dominant); intellectual developmental disorder with microcephaly and with or without ocular malformations or hypogonadotropic hypogonadism (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

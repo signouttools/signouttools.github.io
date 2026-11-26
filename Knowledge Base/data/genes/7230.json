@@ -131,5 +131,27 @@
       "gencc-SGC-105247.4",
       "gencc-SGC-104981.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MRE11 encodes double-strand break repair protein MRE11. It participates in DNA repair and homologous recombination.",
+      "source_ids": [
+        "ncbi-4361",
+        "uniprot-P49959"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include ataxia-telangiectasia-like disorder 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic MRE11 alterations have been reported in ovarian carcinoma. Somatic involvement in a tumor is distinct from the separately assessed, refuted hereditary breast/ovarian cancer-predisposition claims.",
+      "source_ids": [
+        "pmid-24240112"
+      ]
+    }
+  },
+  "report_gaps": []
 }

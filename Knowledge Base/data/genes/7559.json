@@ -199,5 +199,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MYCN encodes an MYC-family transcription factor that regulates developmental growth and differentiation programs, particularly in neural and embryonal tissues.",
+      "source_ids": [
+        "ncbi-4613"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Feingold syndrome type 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MYCN have been reported in ependymoma, retinoblastoma, and medulloblastoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -78,5 +78,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BCL2L11 encodes bcl-2-like protein 11. It participates in apoptotic process and regulation of apoptotic process.",
+      "source_ids": [
+        "ncbi-10018",
+        "uniprot-O43521"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

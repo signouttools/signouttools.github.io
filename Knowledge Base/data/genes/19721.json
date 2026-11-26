@@ -77,5 +77,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CANT1 encodes calcium activated nucleotidase 1. Its functions include ADP phosphatase activity and calcium ion binding.",
+      "source_ids": [
+        "ncbi-124583",
+        "uniprot-Q8WVQ1"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Desbuquois dysplasia 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CANT1 have been reported in low-grade glioma, prostate adenocarcinoma, and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

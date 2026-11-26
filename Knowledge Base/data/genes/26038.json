@@ -108,5 +108,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TMEM127 encodes transmembrane protein 127. It participates in regulation of TOR signaling and negative regulation of TOR signaling.",
+      "source_ids": [
+        "ncbi-55654",
+        "uniprot-O75204"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); pheochromocytoma (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TMEM127 have been reported in pheochromocytoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

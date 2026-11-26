@@ -223,5 +223,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FGFR2 encodes fibroblast growth factor receptor 2. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2263",
+        "uniprot-P21802"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Apert syndrome (autosomal dominant); Beare-Stevenson cutis gyrata syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FGFR2 have been reported in gastric adenocarcinoma, intrahepatic cholangiocarcinoma, and small-duct intrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

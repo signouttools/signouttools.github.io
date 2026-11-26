@@ -102,5 +102,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NFIB encodes nuclear factor 1 B-type. It participates in negative regulation of miRNA transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4781",
+        "uniprot-O00712"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndromic complex neurodevelopmental disorder (autosomal dominant); macrocephaly, acquired, with impaired intellectual development (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NFIB have been reported in basal cell carcinoma of prostate, adenoid cystic carcinoma of breast, and pulmonary adenoid cystic carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

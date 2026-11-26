@@ -82,5 +82,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EVPL encodes envoplakin. Its functions include cadherin binding and structural molecule activity.",
+      "source_ids": [
+        "ncbi-2125",
+        "uniprot-Q92817"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EVPL have been reported in lung adenocarcinoma, colorectal carcinoma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

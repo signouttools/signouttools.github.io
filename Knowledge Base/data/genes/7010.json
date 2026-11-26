@@ -185,5 +185,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MEN1 encodes menin. It participates in DNA repair and transcription initiation-coupled chromatin remodeling.",
+      "source_ids": [
+        "ncbi-4221",
+        "uniprot-O00255"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with multiple endocrine neoplasia type 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MEN1 have been reported in adrenocortical carcinoma, pulmonary carcinoid tumor, and thymic neuroendocrine tumor.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

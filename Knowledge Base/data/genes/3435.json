@@ -116,5 +116,27 @@
     "source_ids": [
       "gencc-SGC-104045.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ERCC3 encodes general transcription and DNA repair factor IIH helicase/translocase subunit XPB. It participates in DNA repair and transcription-coupled nucleotide-excision repair.",
+      "source_ids": [
+        "ncbi-2071",
+        "uniprot-P19447"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include xeroderma pigmentosum group B (autosomal recessive); trichothiodystrophy 2, photosensitive (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ERCC3 have been reported in melanoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

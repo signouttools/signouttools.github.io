@@ -80,5 +80,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "H1-4 encodes histone H1.4. It participates in chromosome condensation and nucleosome assembly.",
+      "source_ids": [
+        "ncbi-3008",
+        "uniprot-P10412"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndromic intellectual disability (autosomal dominant); Rahman syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

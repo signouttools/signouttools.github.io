@@ -63,5 +63,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MPEG1 encodes macrophage-expressed gene 1 protein [Cleaved into: Macrophage-expressed gene 1 protein, processed form]. It participates in antibacterial innate immune response and defense response to bacterium.",
+      "source_ids": [
+        "ncbi-219972",
+        "uniprot-Q2M385"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

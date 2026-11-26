@@ -4,6 +4,7 @@ const $ = id => document.getElementById(id);
 const DISCLAIMER = 'Pathologist review needed — LLM-generated summary/review.';
 const state = { genes: [], variants: [], diseases: [], sources: [], selected: null, letter: '', tab: 'gene', diseaseMap: new Map(), searchMap: new Map() };
 Object.assign(state, {hotspots: [], hotspotMap: new Map(), hotspotCache: new Map(), disruptions: [], fda: []});
+state.reportOverrides = {};
 const categories = {solid: 'Solid tumors', hematologic: 'Hematologic neoplasms', cns: 'CNS tumors', pan_cancer: 'Multiple cancer types'};
 const roleNames = {oncogene: 'Oncogene', tumor_suppressor: 'Tumor suppressor', metabolic_driver: 'Metabolic driver', other: 'Role not assigned'};
 function el(tag, attrs = {}, text = '') {
@@ -49,7 +50,7 @@ function searchable(gene) {
   const variants = state.variants.filter(v => v.gene_id === gene.id).flatMap(v =>
     [v.label, v.selector.hgvs_c || '', v.selector.hgvs_p || '', ...v.selector.aliases, v.comment.text]);
   return normalize([gene.symbol, gene.name, ...gene.aliases, ...gene.roles, ...gene.pathways,
-    ...Object.values(gene.summary).map(s => s.text), ...terms, ...variants,
+    ...Object.values(gene.report_summary || gene.summary).map(s => s.text), ...terms, ...variants,
     ...(state.hotspotMap.get(gene.id)?.terms || []),
     ...fdaFor(gene).map(r => `${r.therapy} ${r.biomarker} ${r.criteria}`)].join(' '));
 }
@@ -177,16 +178,22 @@ function renderEntry(gene) {
   entry.append(el('p', {class: 'review-line'}, `Revision ${gene.editorial.revision} · Sources checked ${gene.editorial.sources_checked_on} · Specialist review pending`));
 }
 function renderGenePanel(panel, gene) {
-  const sections = ['function', 'germline', 'somatic'].map(key => gene.summary[key]);
+  const sections = gene.report_summary ? Object.values(gene.report_summary) : ['function', 'germline', 'somatic'].map(key => gene.summary[key]);
   const associations = [...gene.germline_associations, ...gene.somatic_associations, ...gene.mosaic_associations];
   const sourceIDs = [...new Set([...sections.flatMap(s => s.source_ids), ...associations.flatMap(a => a.source_ids)])];
   const heading = el('div', {class: 'section-heading'});
   const copy = el('button', {type: 'button', class: 'quiet'}, 'Copy draft paragraph');
-  copy.addEventListener('click', () => copyDraft(`${gene.symbol}\n\n${sections.map(s => `${s.text} ${citationText(s.source_ids)}`).join(' ')}`, sourceIDs));
+  copy.addEventListener('click', () => copyDraft(sections.map(s => `${s.text} ${citationText(s.source_ids)}`).join(' '), [...new Set(sections.flatMap(s => s.source_ids))]));
   heading.append(el('h3', {}, 'Report paragraph'), copy); panel.append(heading);
   const paragraph = el('p', {class: 'paragraph'});
   sections.forEach((section, index) => { if (index) paragraph.append(document.createTextNode(' ')); paragraph.append(citeText(section, sourceIDs)); });
   panel.append(paragraph);
+  if (gene.report_gaps?.length) {
+    const gaps = gene.report_gaps.map(g => g.startsWith('germline') ? 'germline' : 'somatic').join(' and ');
+    panel.append(el('p', {class: 'metadata'}, `Curation pending: ${gaps} disease associations. Unsupported associations are omitted from the report paragraph.`));
+  }
+  const associationDetails = el('details', {class: 'association-details'});
+  associationDetails.append(el('summary', {}, 'View disease associations'));
   const groups = el('div', {class: 'association-groups'});
   for (const [key, label] of [['germline_associations', 'Inherited disease'], ['somatic_associations', 'Somatic cancer associations'], ['mosaic_associations', 'Postzygotic mosaic disease']]) {
     if (key === 'mosaic_associations' && !gene[key].length) continue;
@@ -206,10 +213,10 @@ function renderGenePanel(panel, gene) {
     }
     groups.append(group);
   }
-  panel.append(groups);
+  associationDetails.append(groups); panel.append(associationDetails);
   if (gene.review_notes) {
-    const notes = el('section', {class: 'association-group evidence-review'});
-    notes.append(el('h3', {}, 'Evidence review'), citeText(gene.review_notes, gene.review_notes.source_ids, 'p'));
+    const notes = el('details', {class: 'association-group evidence-review'});
+    notes.append(el('summary', {}, 'View curation notes'), citeText(gene.review_notes, gene.review_notes.source_ids, 'p'));
     panel.append(notes);
     for (const id of gene.review_notes.source_ids) if (!sourceIDs.includes(id)) sourceIDs.push(id);
   }
@@ -247,11 +254,13 @@ function renderFDA(panel, gene) {
 function draftCard(record, title, context) {
   const card = el('details', {class: 'variant-card'});
   card.append(el('summary', {}, title), el('p', {class: 'notice'}, DISCLAIMER));
-  if (context) card.append(el('p', {class: 'context'}, context));
-  card.append(citeText(record.comment, record.comment.source_ids, 'p'));
+  const comment = record.report_comment || record.comment;
+  card.append(citeText(comment, comment.source_ids, 'p'));
+  const technical = el('details'); technical.append(el('summary', {}, 'Applicability and annotation notes'));
+  if (context) technical.append(el('p', {class: 'context'}, context));
   const notes = el('ul');
   (record.applicability_notes || []).forEach(note => notes.append(el('li', {}, note)));
-  card.append(notes);
+  technical.append(notes); card.append(technical);
   const regulatory = [...(record.fda_reference_ids || []), ...(record.fda_exclusion_reference_ids || [])];
   const regulatoryRefs = regulatory.map(id => state.fda.find(r => r.id === id));
   const alleleNames = [...new Set(regulatory.flatMap(id => record.fda_allele_labels?.[id] || [record.label]))].join(', ');
@@ -265,9 +274,9 @@ function draftCard(record, title, context) {
   copy.addEventListener('click', () => {
     const refs = regulatory.map(id => state.fda.find(r => r.id === id));
     const fdaText = refs.length ? `\n\n${regulatorySummary} ${citationText([...new Set(refs.flatMap(r => r.source_ids))])}` : '';
-    copyDraft(`${title}\n${context || ''}\n\n${record.comment.text} ${citationText(record.comment.source_ids)}\n\nApplicability: ${(record.applicability_notes || []).join(' ')}${fdaText}`, [...new Set([...record.comment.source_ids, ...refs.flatMap(r => r.source_ids)])]);
+    copyDraft(`${comment.text} ${citationText(comment.source_ids)}${fdaText}`, [...new Set([...comment.source_ids, ...refs.flatMap(r => r.source_ids)])]);
   });
-  card.append(copy, renderSources(record.comment.source_ids));
+  card.append(copy, renderSources(comment.source_ids));
   return card;
 }
 async function renderHotspots(panel, gene) {
@@ -295,7 +304,7 @@ async function renderHotspots(panel, gene) {
         for (const site of filtered) {
           const context = `${site.releases.join(', ').toUpperCase()} · ${site.kind.replaceAll('_', ' ')} · Source transcript: ${site.source_transcript || 'not supplied'}`;
           const card = draftCard(site, `${gene.symbol} ${site.residue} · ${site.alleles.length} observed alleles`, context);
-          card.append(el('p', {}, 'Source tumor contexts: ' + (site.disease_ids.map(id => disease(id).name).join('; ') || 'not supplied')));
+          const contexts = el('details'); contexts.append(el('summary', {}, 'View all reported tumor contexts'), el('p', {}, site.disease_ids.map(id => disease(id).name).join('; ') || 'not supplied')); card.append(contexts);
           if (site.alleles.length) {
             const alleles = el('details'); alleles.append(el('summary', {}, `Observed allele drafts (${site.alleles.length})`));
             alleles.append(el('p', {class: 'notice'}, 'These alleles were observed across the source cohorts. A tumor filter identifies sites reported in that context; it does not establish that every listed allele was seen in the selected tumor type.'));
@@ -321,16 +330,17 @@ function renderVariants(panel, variants) {
     return;
   }
   for (const variant of variants) {
+    const comment = state.reportOverrides[variant.id] || variant.comment;
     const sourceIDs = [...new Set([...variant.comment.source_ids, ...variant.selector.source_ids])];
     const card = el('section', {class: 'variant-card'});
     const top = el('div', {class: 'variant-top'});
     top.append(el('h3', {}, variant.label), el('span', {class: 'badge'}, 'Draft')); card.append(top);
     card.append(el('p', {class: 'context'}, `${disease(variant.disease_id).name} · Biological context`));
     card.append(el('p', {class: 'hgvs'}, `${variant.selector.transcript}:${variant.selector.hgvs_c} · ${variant.selector.hgvs_p}`));
-    const p = el('p', {class: 'paragraph'}); p.append(citeText(variant.comment, sourceIDs)); card.append(p);
+    const p = el('p', {class: 'paragraph'}); p.append(citeText(comment, sourceIDs)); card.append(p);
     const notes = el('ul'); variant.applicability_notes.forEach(note => notes.append(el('li', {}, note))); card.append(notes);
     const copy = el('button', {type: 'button', class: 'quiet'}, 'Copy draft comment');
-    copy.addEventListener('click', () => copyDraft(`${variant.label} · ${disease(variant.disease_id).name}\n${variant.selector.transcript}:${variant.selector.hgvs_c} · ${variant.selector.hgvs_p}\n\n${variant.comment.text} ${citationText(variant.comment.source_ids)}\n\nApplicability: ${variant.applicability_notes.join(' ')}`, sourceIDs));
+    copy.addEventListener('click', () => copyDraft(`${comment.text} ${citationText(comment.source_ids)}`, comment.source_ids));
     card.append(copy, renderSources(sourceIDs)); panel.append(card);
   }
 }
@@ -375,14 +385,15 @@ async function loadJSON(path) {
 async function init() {
   try {
     const manifest = await loadJSON('manifest.json');
-    const [genes, variants, diseases, sources, hotspots, disruptions, fda] = await Promise.all([
+    const [genes, variants, diseases, sources, hotspots, disruptions, fda, reportOverrides] = await Promise.all([
       manifest.gene_index_file ? loadJSON(manifest.gene_index_file) : Promise.all(manifest.gene_files.map(loadJSON)), Promise.all(manifest.variant_files.map(loadJSON)),
       loadJSON(manifest.disease_file), loadJSON(manifest.source_file),
       manifest.hotspot_index_file ? loadJSON(manifest.hotspot_index_file) : [],
       manifest.disruption_file ? loadJSON(manifest.disruption_file) : [],
-      manifest.fda_reference_file ? loadJSON(manifest.fda_reference_file) : []
+      manifest.fda_reference_file ? loadJSON(manifest.fda_reference_file) : [],
+      manifest.report_comment_override_file ? loadJSON(manifest.report_comment_override_file) : {}
     ]);
-    Object.assign(state, {genes, variants, diseases, sources, hotspots, disruptions, fda});
+    Object.assign(state, {genes, variants, diseases, sources, hotspots, disruptions, fda, reportOverrides});
     state.hotspotMap = new Map(hotspots.map(h => [h.gene_id, h]));
     state.diseaseMap = new Map(diseases.map(d => [d.id, d]));
     state.searchMap = new Map(genes.map(g => [g.id, searchable(g)]));

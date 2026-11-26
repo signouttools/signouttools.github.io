@@ -122,5 +122,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CDKN2C encodes cyclin-dependent kinase 4 inhibitor C. It participates in oligodendrocyte differentiation and negative regulation of cell growth.",
+      "source_ids": [
+        "ncbi-1031",
+        "uniprot-P42773"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CDKN2C have been reported in Burkitt lymphoma and low-Grade glioma, NOS. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

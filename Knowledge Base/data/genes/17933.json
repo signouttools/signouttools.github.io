@@ -86,5 +86,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KAT8 encodes lysine acetyltransferase 8. Its functions include enzyme binding and histone acetyltransferase activity.",
+      "source_ids": [
+        "ncbi-84148",
+        "uniprot-Q9H7Z6"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Li-Ghorbani-Weisz-Hubshman syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KAT8 have been reported in cutaneous melanoma, colorectal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

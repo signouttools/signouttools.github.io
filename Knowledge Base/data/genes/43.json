@@ -79,5 +79,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TAP1 encodes antigen peptide transporter 1. It participates in defense response and peptide transport.",
+      "source_ids": [
+        "ncbi-6890",
+        "uniprot-Q03518"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with MHC class I deficiency (autosomal recessive); MHC class I deficiency 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

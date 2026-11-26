@@ -65,5 +65,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PAXIP1 encodes PAX-interacting protein 1. It participates in DNA damage response, signal transduction by p53 class mediator and positive regulation of transcription initiation by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-22976",
+        "uniprot-Q6ZW49"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

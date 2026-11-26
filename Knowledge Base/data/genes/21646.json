@@ -45,5 +45,17 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SBDSP1 is a pseudogene related to SBDS. Sequence homology makes it relevant to assay specificity and variant-mapping review; it should not be assumed to encode the functional SBDS protein.",
+      "source_ids": [
+        "ncbi-155370"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

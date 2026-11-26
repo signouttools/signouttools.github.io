@@ -276,5 +276,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EGFR encodes an epidermal growth factor receptor family tyrosine kinase that activates growth and survival pathways, including RAS–MAPK and PI3K–AKT signaling.",
+      "source_ids": [
+        "ncbi-1956"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with non-small cell lung carcinoma (autosomal dominant); lung cancer (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EGFR have been reported in lung adenocarcinoma, glioblastoma, IDH-wildtype, and glioblastoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

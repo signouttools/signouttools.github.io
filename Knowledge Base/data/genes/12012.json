@@ -101,5 +101,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TPM3 encodes tropomyosin alpha-3 chain. It participates in muscle contraction and actin filament organization.",
+      "source_ids": [
+        "ncbi-7170",
+        "uniprot-P06753"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with TPM3-related myopathy (autosomal dominant); TPM3-related myopathy (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TPM3 have been reported in ALK-positive histiocytosis, ALK-rearranged renal cell carcinoma, and NTRK-rearranged spindle cell neoplasm, malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

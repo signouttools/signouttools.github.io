@@ -83,5 +83,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CREB1 encodes cyclic AMP-responsive element-binding protein 1. It participates in signal transduction and cAMP/PKA signal transduction.",
+      "source_ids": [
+        "ncbi-1385",
+        "uniprot-P16220"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CREB1 have been reported in clear cell odontogenic carcinoma, primary pulmonary myxoid sarcoma, and clear cell sarcoma of soft tissue.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

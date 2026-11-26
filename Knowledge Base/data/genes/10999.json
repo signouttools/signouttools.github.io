@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SLC27A5 encodes solute carrier family 27 member 5. Its functions include cholate-CoA ligase activity and long-chain fatty acid transmembrane transporter activity.",
+      "source_ids": [
+        "ncbi-10998",
+        "uniprot-Q9Y2P5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SLC27A5 have been reported in cutaneous melanoma and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

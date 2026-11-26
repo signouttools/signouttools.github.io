@@ -70,5 +70,18 @@
     "source_ids": [
       "gencc-SGC-105833.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "HDAC1 encodes histone deacetylase 1. It participates in chromatin organization and host-mediated suppression of viral transcription.",
+      "source_ids": [
+        "ncbi-3065",
+        "uniprot-Q13547"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

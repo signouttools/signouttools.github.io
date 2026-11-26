@@ -168,5 +168,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PRKAR1A encodes cAMP-dependent protein kinase type I-alpha regulatory subunit. It participates in intracellular signal transduction and negative regulation of cAMP/PKA signal transduction.",
+      "source_ids": [
+        "ncbi-5573",
+        "uniprot-P10644"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Carney complex, type 1 (autosomal dominant); Acrodysostosis 1 with or without hormone resistance (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PRKAR1A have been reported in adrenocortical carcinoma, Sertoli cell tumor, malignant, and malignant melanotic nerve sheath tumor.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

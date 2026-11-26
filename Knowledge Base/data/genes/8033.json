@@ -208,5 +208,22 @@
     "source_ids": [
       "gencc-SGC-105811.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NTRK3 encodes the TRKC neurotrophin receptor tyrosine kinase, which transduces neurotrophin signaling involved in neuronal development and maintenance.",
+      "source_ids": [
+        "ncbi-4916"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NTRK3 have been reported in lung adenocarcinoma, infantile fibrosarcoma, and papillary thyroid carcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

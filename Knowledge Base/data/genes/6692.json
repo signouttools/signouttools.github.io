@@ -75,5 +75,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LRP1 encodes LDL receptor related protein 1. Its functions include alpha-2 macroglobulin receptor activity and amyloid-beta binding.",
+      "source_ids": [
+        "ncbi-4035",
+        "uniprot-Q07954"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LRP1 have been reported in cutaneous melanoma, prostate adenocarcinoma, and papillary renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

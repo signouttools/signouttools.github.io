@@ -49,5 +49,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BMF encodes bcl-2-modifying factor. It participates in anoikis and negative regulation of autophagy.",
+      "source_ids": [
+        "ncbi-90427",
+        "uniprot-Q96LC9"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

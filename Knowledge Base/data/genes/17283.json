@@ -79,5 +79,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RIMS2 encodes regulating synaptic membrane exocytosis 2. Its functions include small GTPase binding and structural constituent of presynaptic active zone.",
+      "source_ids": [
+        "ncbi-9699",
+        "uniprot-Q9UQ26"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include cone-rod synaptic disorder syndrome, congenital nonprogressive (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RIMS2 have been reported in breast carcinoma, esophageal carcinoma, and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

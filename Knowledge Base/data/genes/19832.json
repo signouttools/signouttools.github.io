@@ -89,5 +89,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CLEC14A encodes C-type lectin domain containing 14A. Its functions include extracellular matrix binding and extracellular matrix protein binding.",
+      "source_ids": [
+        "ncbi-161198",
+        "uniprot-Q86T13"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CLEC14A have been reported in glioblastoma, cutaneous melanoma, and lung adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

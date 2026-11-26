@@ -98,5 +98,27 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PDHA1 encodes pyruvate dehydrogenase E1 subunit alpha 1. Its functions include pyruvate dehydrogenase (acetyl-transferring) activity and pyruvate decarboxylation to acetyl-CoA.",
+      "source_ids": [
+        "ncbi-5160",
+        "uniprot-P08559"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Leigh syndrome (x-linked); mitochondrial disease (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PDHA1 have been reported in glioblastoma, low-grade glioma, and pancreatic adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": []
 }

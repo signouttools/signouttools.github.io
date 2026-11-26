@@ -51,5 +51,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RBMX encodes RNA-binding motif protein, X chromosome [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]. It participates in mRNA splicing, via spliceosome and transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-27316",
+        "uniprot-P38159"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

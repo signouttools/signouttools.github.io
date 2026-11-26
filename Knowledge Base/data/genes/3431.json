@@ -221,5 +221,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ERBB3 encodes receptor tyrosine-protein kinase erbB-3. It participates in signal transduction and negative regulation of signal transduction.",
+      "source_ids": [
+        "ncbi-2065",
+        "uniprot-P21860"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with lethal congenital contracture syndrome 2 (autosomal recessive); visceral neuropathy, familial, 1, autosomal recessive (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "ERBB3 amplification and/or overexpression has been reported in several cancers, including prostate, bladder, and breast tumors; expression and sequence-mutation findings require separate interpretation.",
+      "source_ids": [
+        "ncbi-2065"
+      ]
+    }
+  },
+  "report_gaps": []
 }

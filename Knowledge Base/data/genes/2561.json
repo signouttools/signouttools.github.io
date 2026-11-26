@@ -126,5 +126,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CXCR4 encodes C-X-C chemokine receptor type 4. It participates in neurogenesis and apoptotic process.",
+      "source_ids": [
+        "ncbi-7852",
+        "uniprot-P61073"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with WHIM syndrome (autosomal dominant); WHIM syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CXCR4 have been reported in lymphoplasmacytic lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

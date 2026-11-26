@@ -108,5 +108,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CTNNA1 encodes catenin alpha-1. It participates in axon regeneration and cell adhesion.",
+      "source_ids": [
+        "ncbi-1495",
+        "uniprot-P35221"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with CTNNA1-related diffuse gastric and lobular breast cancer syndrome (autosomal dominant); hereditary macular dystrophy (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

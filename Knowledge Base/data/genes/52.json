@@ -98,5 +98,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ABCC10 encodes ATP binding cassette subfamily C member 10. Its functions include ABC-type glutathione S-conjugate transporter activity and ABC-type transporter activity.",
+      "source_ids": [
+        "ncbi-89845",
+        "uniprot-Q5T3U5"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ABCC10 have been reported in glioblastoma, breast carcinoma, and low-grade glioma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

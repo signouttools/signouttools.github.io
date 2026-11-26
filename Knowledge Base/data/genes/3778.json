@@ -77,5 +77,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "FN1 encodes fibronectin [Cleaved into: Anastellin; Ugl-Y1; Ugl-Y2; Ugl-Y3]. It participates in positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction and cell adhesion.",
+      "source_ids": [
+        "ncbi-2335",
+        "uniprot-P02751"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with spondylometaphyseal dysplasia, 'corner fracture' type (autosomal dominant); glomerulopathy with fibronectin deposits 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving FN1 have been reported in phosphaturic mesenchymal tumor, malignant.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

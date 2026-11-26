@@ -129,5 +129,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MCL1 encodes induced myeloid leukemia cell differentiation protein Mcl-1. It participates in cellular homeostasis and mitochondrial fusion.",
+      "source_ids": [
+        "ncbi-4170",
+        "uniprot-Q07820"
+      ]
+    },
+    "somatic": {
+      "text": "Focal MCL1 amplification has been observed across multiple cancer types, including lung and breast cancers. Functional studies support an anti-apoptotic survival role in amplified tumor models; an arbitrary sequence variant is a different finding.",
+      "source_ids": [
+        "pmid-20164920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -67,5 +67,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TNFRSF1B encodes tumor necrosis factor receptor superfamily member 1B [Cleaved into: Tumor necrosis factor receptor superfamily member 1b, membrane form; Tumor necrosis factor-binding protein 2]. It participates in activation of NF-kappaB-inducing kinase activity and inflammatory response.",
+      "source_ids": [
+        "ncbi-7133",
+        "uniprot-P20333"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

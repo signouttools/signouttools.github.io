@@ -64,5 +64,23 @@
     "source_ids": [
       "gencc-SGC-190020.1"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PLAGL1 encodes zinc finger protein PLAGL1. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-5325",
+        "uniprot-Q9UM63"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PLAGL1 have been reported in CNS embryonal tumor with PLAG family gene alteration.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -61,5 +61,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LCE1A encodes late cornified envelope 1A. Its functions include epidermis development.",
+      "source_ids": [
+        "ncbi-353131",
+        "uniprot-Q5T7P2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LCE1A have been reported in esophageal carcinoma and gastric adenocarcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

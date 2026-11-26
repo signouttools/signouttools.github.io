@@ -100,5 +100,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LYN encodes tyrosine-protein kinase Lyn. It participates in negative regulation of MAP kinase activity and signal transduction.",
+      "source_ids": [
+        "ncbi-4067",
+        "uniprot-P07948"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autoinflammatory disease, systemic, with vasculitis (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LYN have been reported in diffuse large b-Cell lymphoma, NOS. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

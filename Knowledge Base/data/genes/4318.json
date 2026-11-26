@@ -86,5 +86,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GLI2 encodes transcription activator GLI2 [Cleaved into: Transcription repressor GLI2R]. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2736",
+        "uniprot-P10070"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with holoprosencephaly 9 (autosomal dominant); postaxial polydactyly-anterior pituitary anomalies-facial dysmorphism syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GLI2 have been reported in GLI1-altered mesenchymal tumor, malignant/metastasizing.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

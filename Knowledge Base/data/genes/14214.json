@@ -157,5 +157,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CIC encodes protein capicua homolog. It participates in negative regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-23152",
+        "uniprot-Q96RK0"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant); intellectual developmental disorder, autosomal dominant 45 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CIC have been reported in CIC-rearranged sarcoma, CNS CIC-rearranged sarcoma, and oligodendroglioma, IDH-mutant and 1p/19q-codeleted.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

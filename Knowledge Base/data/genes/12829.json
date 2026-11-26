@@ -92,5 +92,18 @@
     "source_ids": [
       "gencc-SGC-105346.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "XRCC2 encodes DNA repair protein XRCC2. It participates in DNA repair and double-strand break repair via homologous recombination.",
+      "source_ids": [
+        "ncbi-7516",
+        "uniprot-O43543"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

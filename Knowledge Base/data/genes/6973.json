@@ -167,5 +167,22 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MDM2 encodes an E3 ubiquitin ligase and negative regulator of p53, helping control p53 stability and activity.",
+      "source_ids": [
+        "ncbi-4193"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving MDM2 have been reported in liposarcoma, osteosarcoma, and intimal sarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

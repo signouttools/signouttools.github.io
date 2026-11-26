@@ -209,5 +209,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CCND1 encodes G1/S-specific cyclin-D1. It participates in negative regulation of transcription by RNA polymerase II and liver development.",
+      "source_ids": [
+        "ncbi-595",
+        "uniprot-P24385"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CCND1 have been reported in mucosal melanoma, cutaneous melanoma, and plasma cell myeloma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

@@ -65,5 +65,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CREB3L2 encodes cyclic AMP-responsive element-binding protein 3-like protein 2 [Cleaved into: Processed cyclic AMP-responsive element-binding protein 3-like protein 2]. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-64764",
+        "uniprot-Q70SY1"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CREB3L2 have been reported in low-grade fibromyxoid sarcoma and sclerosing epithelioid fibrosarcoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

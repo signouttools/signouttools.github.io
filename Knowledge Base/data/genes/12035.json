@@ -61,5 +61,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TRAF5 encodes TNF receptor-associated factor 5. It participates in signal transduction and regulation of canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-7188",
+        "uniprot-O00463"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

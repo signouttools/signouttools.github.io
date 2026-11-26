@@ -62,5 +62,18 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "MLLT1 encodes protein ENL. It participates in positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4298",
+        "uniprot-Q03111"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

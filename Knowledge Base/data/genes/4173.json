@@ -105,5 +105,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GATA4 encodes transcription factor GATA-4. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2626",
+        "uniprot-P43694"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with GATA4-related congenital heart disease with or without pancreatic hypoplasia or diabetes (autosomal dominant); atrial septal defect 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving GATA4 have been reported in esophageal adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -147,5 +147,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IRF4 encodes interferon regulatory factor 4. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-3662",
+        "uniprot-Q15306"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with combined immunodeficiency (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving IRF4 have been reported in large b-cell lymphoma with IRF4 rearrangement, malignant lymphoma, and plasma cell myeloma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

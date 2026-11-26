@@ -73,5 +73,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ICOS encodes inducible T-cell costimulator. It participates in cell-cell adhesion and immune response.",
+      "source_ids": [
+        "ncbi-29851",
+        "uniprot-Q9Y6W8"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with common variable immunodeficiency (autosomal recessive); immunodeficiency, common variable, 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ICOS have been reported in adult t-cell leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

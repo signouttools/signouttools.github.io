@@ -16,7 +16,7 @@
   <a class="skip" href="#entry">Skip to gene entry</a>
   <header class="masthead">
     <div class="shell">
-      <nav aria-label="Site"><a href="../index.html">Signout Tools</a><a href="inventory/review.html">Review the original 1,133-gene roster</a><a href="README.md">Plan &amp; editorial guidelines</a></nav>
+      <nav aria-label="Site"><a href="../index.html">Signout Tools</a><a href="#about-library">About this library</a></nav>
       <div class="heading-row"><div><p class="eyebrow">Molecular pathology reference</p><h1>Knowledge Base</h1></div><span class="pilot-label">Draft library · v0.4</span></div>
       <p class="intro">Gene biology, inherited disease, and somatic cancer associations.<br> A concise starting point for molecular report drafting.</p>
       <div class="metrics" aria-label="Draft coverage"><span><strong id="gene-total">1,305</strong> draft genes</span><span><strong id="variant-total">1,747</strong> site / disruption comments</span><span><strong>4,468</strong> allele drafts</span></div>
@@ -24,6 +24,13 @@
   </header>
   <main class="shell">
     <aside class="notice"><strong>Pathologist review needed — LLM-generated summary/review.</strong> All 1,305 genes have an initial draft, including every gene in the three hotspot workbooks. Some disease associations remain unresolved. <a href="EVIDENCE-REVIEW.md">Evidence review</a> · <a href="HOTSPOT-REVIEW.md">Hotspot import &amp; FDA review status</a>.</aside>
+    <details id="about-library" class="about-library">
+      <summary>About this knowledge base</summary>
+      <p>This library provides draft report comments about gene function, inherited disease, somatic alterations, and cancer associations. All comments require molecular pathologist review.</p>
+      <p>The original 1,133-gene roster combines versioned gene lists from MSK-IMPACT 505, MSK-IMPACT Heme, DFCI OncoPanel 3, FoundationOne, and TruSight Oncology 500, supplemented by AMP educational guides and the Tumor Driver Atlas. Another 172 genes were added to represent every gene in the three Cancer Hotspots releases. Panel membership explains selection; it does not establish clinical significance.</p>
+      <p>Biological comments draw on NCBI/RefSeq, UniProt, germline disease assertions, and linked literature. Cohort recurrence is distinguished from variant-specific pathogenicity. FDA references provide regulatory context and require current-label review.</p>
+      <p><a href="inventory/review.html">Original roster and panel provenance</a> · <a href="README.md">Database plan and editorial guidelines</a> · <a href="HOTSPOT-REVIEW.md">Hotspot import and FDA review</a></p>
+    </details>
     <section class="search-panel" aria-label="Search and filter genes">
       <div class="search-field"><label for="search">Search the knowledge base</label><input id="search" type="search" disabled placeholder="Gene, alias, pathway, disease, or hotspot…" aria-describedby="search-help" autocomplete="off"><p id="search-help">Try “p53”, “MAPK”, “AML”, or “R132H”. All search words must match.</p></div>
       <div class="filter-field"><label for="category">Tumor category</label><select id="category" disabled><option value="">All categories</option><option value="solid">Solid tumors</option><option value="hematologic">Hematologic neoplasms</option><option value="cns">CNS tumors</option><option value="pan_cancer">Multiple cancer types</option></select></div>

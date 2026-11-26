@@ -331,6 +331,37 @@
         },
         "review_notes": {
           "$ref": "#/$defs/section"
+        },
+        "report_summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "function"
+          ],
+          "properties": {
+            "function": {
+              "$ref": "#/$defs/section"
+            },
+            "germline": {
+              "$ref": "#/$defs/section"
+            },
+            "mosaic": {
+              "$ref": "#/$defs/section"
+            },
+            "somatic": {
+              "$ref": "#/$defs/section"
+            }
+          }
+        },
+        "report_gaps": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "germline_association_requires_curation",
+              "somatic_association_requires_curation"
+            ]
+          }
         }
       },
       "required": [
@@ -788,6 +819,10 @@
           "minLength": 1
         },
         "disruption_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "report_comment_override_file": {
           "type": "string",
           "minLength": 1
         }

@@ -127,5 +127,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EIF1AX encodes eukaryotic translation initiation factor 1A, X-chromosomal. It participates in ribosome assembly and translational initiation.",
+      "source_ids": [
+        "ncbi-1964",
+        "uniprot-P47813"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EIF1AX have been reported in uveal melanoma, pulmonary carcinoid tumor, and follicular thyroid carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

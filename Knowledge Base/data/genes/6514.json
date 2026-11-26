@@ -109,5 +109,23 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "LATS1 encodes serine/threonine-protein kinase LATS1. It participates in negative regulation of cyclin-dependent protein serine/threonine kinase activity and hippo signaling.",
+      "source_ids": [
+        "ncbi-9113",
+        "uniprot-O95835"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving LATS1 have been reported in basal cell carcinoma, cervical adenocarcinoma, and ovarian epithelial tumor. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

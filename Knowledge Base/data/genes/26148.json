@@ -64,5 +64,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CRTC3 encodes CREB-regulated transcription coactivator 3. It participates in positive regulation of transcription by RNA polymerase II and macrophage activation.",
+      "source_ids": [
+        "ncbi-64784",
+        "uniprot-Q6UUV7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CRTC3 have been reported in pulmonary mucoepidermoid carcinoma and mucoepidermoid carcinoma of salivary gland.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

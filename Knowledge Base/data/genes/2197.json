@@ -100,5 +100,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "COL1A1 encodes collagen alpha-1(I) chain. It participates in positive regulation of DNA-templated transcription and osteoblast differentiation.",
+      "source_ids": [
+        "ncbi-1277",
+        "uniprot-P02452"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with COL1A1-related Ehlers-Danlos syndrome (autosomal dominant); Caffey disease (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving COL1A1 have been reported in COL1A1::PDGFB fusion-associated uterine sarcoma, dermatofibrosarcoma protuberans, fibrosarcomatous, and melanoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

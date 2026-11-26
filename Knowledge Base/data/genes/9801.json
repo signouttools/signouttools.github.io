@@ -134,5 +134,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "RAC1 encodes ras-related C3 botulinum toxin substrate 1. It participates in intracellular signal transduction and Rac protein signal transduction.",
+      "source_ids": [
+        "ncbi-5879",
+        "uniprot-P63000"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndromic intellectual disability (autosomal dominant); intellectual developmental disorder, autosomal dominant 48 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving RAC1 have been reported in melanoma, cutaneous melanoma, and head and neck squamous cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

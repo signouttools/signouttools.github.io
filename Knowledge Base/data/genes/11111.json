@@ -107,5 +107,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SMC1A encodes structural maintenance of chromosomes protein 1A. It participates in DNA repair and meiotic cell cycle.",
+      "source_ids": [
+        "ncbi-8243",
+        "uniprot-Q14683"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with X-linked complex neurodevelopmental disorder (x-linked); Cornelia de Lange syndrome 2 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SMC1A have been reported in acute myeloid leukemia. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -116,5 +116,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PIK3R2 encodes phosphatidylinositol 3-kinase regulatory subunit beta. It participates in phosphatidylinositol 3-kinase/protein kinase B signal transduction and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-5296",
+        "uniprot-O00459"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

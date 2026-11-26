@@ -123,5 +123,28 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NSD2 encodes histone-lysine N-methyltransferase NSD2. It participates in regulation of DNA-templated transcription and double-strand break repair.",
+      "source_ids": [
+        "ncbi-7468",
+        "uniprot-O96028"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with syndromic intellectual disability (autosomal dominant); Rauch-Steindl syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving NSD2 have been reported in plasma cell myeloma, acute lymphoblastic leukemia, and upper tract urothelial carcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

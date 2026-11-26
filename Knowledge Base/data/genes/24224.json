@@ -167,5 +167,24 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "CDK12 encodes cyclin-dependent kinase 12. It participates in regulation of MAP kinase activity and RNA splicing.",
+      "source_ids": [
+        "ncbi-51755",
+        "uniprot-Q9NYV4"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving CDK12 have been reported in prostate adenocarcinoma, melanoma, and prostate.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

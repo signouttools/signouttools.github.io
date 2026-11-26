@@ -69,5 +69,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ETNK1 encodes ethanolamine kinase 1. It participates in phosphatidylethanolamine biosynthetic process.",
+      "source_ids": [
+        "ncbi-55500",
+        "uniprot-Q9HBU6"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving ETNK1 have been reported in MDS/MPN with neutrophilia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

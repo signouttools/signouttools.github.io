@@ -143,5 +143,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "TNFRSF14 encodes tumor necrosis factor receptor superfamily member 14. It participates in immune response and T cell costimulation.",
+      "source_ids": [
+        "ncbi-8764",
+        "uniprot-Q92956"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving TNFRSF14 have been reported in pediatric-type follicular lymphoma, primary cutaneous follicle center lymphoma, and BCL2-rearrangement-negative, CD23-positive follicle center lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

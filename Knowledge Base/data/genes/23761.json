@@ -77,5 +77,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KBTBD4 encodes kelch repeat and BTB domain-containing protein 4. It participates in proteasome-mediated ubiquitin-dependent protein catabolic process.",
+      "source_ids": [
+        "ncbi-55709",
+        "uniprot-Q9NVX7"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KBTBD4 have been reported in medulloblastoma and pineal parenchymal tumor of intermediate differentiation.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

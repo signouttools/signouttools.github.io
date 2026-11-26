@@ -79,5 +79,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "GNB1 encodes guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1. It participates in signal transduction and Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-2782",
+        "uniprot-P62873"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with intellectual developmental disorder, autosomal dominant 42 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

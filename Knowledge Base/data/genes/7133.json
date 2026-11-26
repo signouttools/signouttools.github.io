@@ -457,5 +457,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KMT2D encodes histone-lysine N-methyltransferase 2D. It participates in regulation of DNA-templated transcription and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-8085",
+        "uniprot-O14686"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Kabuki syndrome 1 (autosomal dominant); choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KMT2D have been reported in follicular lymphoma, marginal zone lymphoma, and adamantinoma of long bones.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

@@ -704,5 +704,27 @@
     "source_ids": [
       "gencc-SGC-104941.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KRAS encodes a small GTPase that switches between GDP- and GTP-bound states to relay receptor-derived signals to pathways controlling proliferation and survival.",
+      "source_ids": [
+        "ncbi-3845"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Noonan syndrome (autosomal dominant); cardiofaciocutaneous syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KRAS have been reported in pancreatic ductal adenocarcinoma, colorectal adenocarcinoma, and lung adenocarcinoma.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  },
+  "report_gaps": []
 }

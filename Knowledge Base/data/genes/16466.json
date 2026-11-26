@@ -152,5 +152,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "SUFU encodes suppressor of fused homolog. It participates in signal transduction and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-51684",
+        "uniprot-Q9UMX1"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with medulloblastoma (autosomal dominant); nevoid basal cell carcinoma syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving SUFU have been reported in medulloblastoma and basal cell carcinoma of skin.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

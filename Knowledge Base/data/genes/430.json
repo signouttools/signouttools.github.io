@@ -94,5 +94,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "ALOX12B encodes arachidonate 12-lipoxygenase, 12R-type. It participates in lipid oxidation and lipoxygenase pathway.",
+      "source_ids": [
+        "ncbi-242",
+        "uniprot-O75342"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with autosomal recessive congenital ichthyosis 2 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

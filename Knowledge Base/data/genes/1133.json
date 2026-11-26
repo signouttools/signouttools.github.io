@@ -124,5 +124,26 @@
     "source_ids": [
       "gencc-SGC-106671.2"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BTK encodes Bruton tyrosine kinase, a signaling protein important for B-cell development and transmission of B-cell antigen-receptor signals.",
+      "source_ids": [
+        "ncbi-695"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Bruton-type agammaglobulinemia (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Acquired BTK mutations are documented in chronic lymphocytic leukemia under BTK-inhibitor selective pressure. This treatment-associated somatic context is distinct from constitutional BTK loss of function causing immunodeficiency.",
+      "source_ids": [
+        "pmid-24869598"
+      ]
+    }
+  },
+  "report_gaps": []
 }

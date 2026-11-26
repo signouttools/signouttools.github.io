@@ -70,5 +70,23 @@
     "revision": 1,
     "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "OVGP1 encodes oviductal glycoprotein 1. Its functions include chitin binding and chitinase activity.",
+      "source_ids": [
+        "ncbi-5016",
+        "uniprot-Q12889"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving OVGP1 have been reported in colorectal carcinoma, hepatocellular carcinoma, and chromophobe renal cell carcinoma. Recurrence alone does not establish the oncogenicity of an individual variant.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

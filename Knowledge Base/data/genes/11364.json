@@ -213,5 +213,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "STAT3 encodes signal transducer and activator of transcription 3. It participates in signal transduction and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-6774",
+        "uniprot-P40763"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with STAT3-related early-onset multisystem autoimmune disease (autosomal dominant); hyper-IgE recurrent infection syndrome 1, autosomal dominant (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving STAT3 have been reported in mycosis fungoides, extranodal NK/T-cell lymphoma, and hepatosplenic t-cell lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

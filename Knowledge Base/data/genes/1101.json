@@ -238,5 +238,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BRCA2 encodes a tumor-suppressor protein that loads and regulates RAD51 at damaged DNA, supporting accurate repair of double-strand breaks by homologous recombination.",
+      "source_ids": [
+        "ncbi-675"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with BRCA2-related cancer predisposition (autosomal dominant); Fanconi anemia complementation group D1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving BRCA2 have been reported in invasive breast carcinoma, high-grade serous carcinoma, tubo-ovarian / peritoneal, and prostate adenocarcinoma.",
+      "source_ids": [
+        "intogen-20240920",
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

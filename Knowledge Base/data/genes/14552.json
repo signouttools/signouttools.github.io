@@ -105,5 +105,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IKBKE encodes inhibitor of nuclear factor kappa-B kinase subunit epsilon. It participates in positive regulation of canonical NF-kappaB signal transduction and immune response.",
+      "source_ids": [
+        "ncbi-9641",
+        "uniprot-Q14164"
+      ]
+    },
+    "somatic": {
+      "text": "IKBKE amplification and overexpression have been described in breast carcinoma; these findings should not be equated with the effect of every sequence variant.",
+      "source_ids": [
+        "ncbi-9641"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

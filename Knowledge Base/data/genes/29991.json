@@ -55,5 +55,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "PAN3 encodes PAN2-PAN3 deadenylation complex subunit PAN3 (PAB1P-dependent poly(A)-specific ribonuclease) (Poly(A)-nuclease deadenylation complex subunit 3). It participates in nuclear-transcribed mRNA poly(A) tail shortening and positive regulation of cytoplasmic mRNA processing body assembly.",
+      "source_ids": [
+        "ncbi-255967",
+        "uniprot-Q58A45"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving PAN3 have been reported in b-lymphoblastic leukemia/lymphoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation"
+  ]
 }

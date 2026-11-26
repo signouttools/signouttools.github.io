@@ -68,5 +68,18 @@
     "source_ids": [
       "gencc-SGC-104861.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EXO1 encodes exonuclease 1. It participates in DNA repair and mismatch repair.",
+      "source_ids": [
+        "ncbi-9156",
+        "uniprot-Q9UQ84"
+      ]
+    }
+  },
+  "report_gaps": [
+    "germline_association_requires_curation",
+    "somatic_association_requires_curation"
+  ]
 }

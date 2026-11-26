@@ -103,5 +103,23 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "INSR encodes insulin receptor [Cleaved into: Insulin receptor subunit alpha; Insulin receptor subunit beta]. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-3643",
+        "uniprot-P06213"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Donohue syndrome (autosomal recessive); insulin-resistance syndrome type A (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

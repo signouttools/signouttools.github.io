@@ -305,5 +305,26 @@
     "source_ids": [
       "gencc-SGC-104429.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "BRAF encodes a RAF-family serine/threonine kinase that relays signals through the MAPK/ERK pathway to regulate cell growth and differentiation.",
+      "source_ids": [
+        "ncbi-braf"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include Cardiofaciocutaneous syndrome (autosomal dominant).",
+      "source_ids": [
+        "genereviews-cfc"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic activating BRAF mutations occur in melanoma, colorectal and thyroid carcinomas, lung carcinoma, and hairy cell leukemia, among other neoplasms. Interpretation depends on the specific alteration and tumor context; a generic BRAF finding does not establish a V600E mechanism.",
+      "source_ids": [
+        "ncbi-braf"
+      ]
+    }
+  },
+  "report_gaps": []
 }

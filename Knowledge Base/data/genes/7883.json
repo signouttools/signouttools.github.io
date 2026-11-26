@@ -133,5 +133,23 @@
     "source_ids": [
       "gencc-SGC-104296.4"
     ]
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "NOTCH3 encodes neurogenic locus notch homolog protein 3 [Cleaved into: Notch 3 extracellular truncation; Notch 3 intracellular domain]. It participates in positive regulation of miRNA transcription and axon guidance.",
+      "source_ids": [
+        "ncbi-4854",
+        "uniprot-Q9UM47"
+      ]
+    },
+    "germline": {
+      "text": "Germline disease associations include cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 1 (autosomal dominant); cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  },
+  "report_gaps": [
+    "somatic_association_requires_curation"
+  ]
 }

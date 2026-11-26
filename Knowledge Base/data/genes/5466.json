@@ -124,5 +124,27 @@
     "revision": 2,
     "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "IGF2 encodes insulin-like growth factor 2 [Cleaved into: Insulin-like growth factor II Ala-25 Del; Preptin]. It participates in regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-3481",
+        "uniprot-P01344"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Silver-Russell syndrome 3 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Loss of imprinting and increased IGF2 expression have been documented in colorectal cancer. These epigenetic/expression-associated observations are distinct from a somatic coding mutation.",
+      "source_ids": [
+        "pmid-19957330"
+      ]
+    }
+  },
+  "report_gaps": []
 }

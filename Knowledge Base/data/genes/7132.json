@@ -222,5 +222,26 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "KMT2A encodes a histone methyltransferase that helps establish H3K4 methylation and regulate transcriptional programs important for development and hematopoiesis.",
+      "source_ids": [
+        "ncbi-4297"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with Wiedemann-Steiner syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving KMT2A have been reported in thymoma, myeloid sarcoma, and acute myeloid leukemia.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }

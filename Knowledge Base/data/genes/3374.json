@@ -95,5 +95,27 @@
     "revision": 1,
     "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-  }
+  },
+  "report_summary": {
+    "function": {
+      "text": "EPAS1 encodes endothelial PAS domain-containing protein 1. It participates in signal transduction and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-2034",
+        "uniprot-Q99814"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic germline variants are associated with erythrocytosis, familial, 4 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic alterations involving EPAS1 have been reported in paraganglioma and pheochromocytoma.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "report_gaps": []
 }
