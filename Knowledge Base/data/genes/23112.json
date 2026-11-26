@@ -1,0 +1,189 @@
+{
+  "id": "HGNC:23112",
+  "symbol": "FAT3",
+  "name": "FAT atypical cadherin 3",
+  "ncbi_gene_id": "120114",
+  "aliases": [
+    "CDHF15",
+    "CDHR10",
+    "KIAA1989"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cell morphogenesis",
+    "neuron migration"
+  ],
+  "summary": {
+    "function": {
+      "text": "FAT3 encodes protocadherin Fat 3. Annotated molecular activities include calcium ion binding. It participates in cell morphogenesis and neuron migration.",
+      "source_ids": [
+        "ncbi-120114",
+        "uniprot-Q8TDW7"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Invasive Breast Carcinoma; Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma; Lung Squamous Cell Carcinoma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-angio",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-BRCA",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-CCRCC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "cholangiocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-CLLSLL",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-COAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-colorectal-adenocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-DLBCLNOS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-HNSC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-lung-squamous-cell-carcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "melanoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PAAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PANCREAS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-prad",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-671325987017",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-READ",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-STAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-STOMACH",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-WDTC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

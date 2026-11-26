@@ -1,0 +1,114 @@
+{
+  "id": "HGNC:12629",
+  "symbol": "USP6",
+  "name": "ubiquitin specific peptidase 6",
+  "ncbi_gene_id": "9098",
+  "aliases": [
+    "HRP1",
+    "TRE17",
+    "TRESMCR",
+    "Tre-2",
+    "Tre2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "protein deubiquitination",
+    "protein modification process"
+  ],
+  "summary": {
+    "function": {
+      "text": "USP6 encodes ubiquitin carboxyl-terminal hydrolase 6. Annotated molecular activities include cysteine-type deubiquitinase activity and cysteine-type endopeptidase activity. It participates in protein deubiquitination and protein modification process.",
+      "source_ids": [
+        "ncbi-9098",
+        "uniprot-P35125"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "USP6 rearrangements can produce promoter-driven overexpression in primary aneurysmal bone cysts. These alterations support a neoplastic process in this lesion and should not, by themselves, be interpreted as evidence of malignancy.",
+      "source_ids": [
+        "pmid-15509545"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "aml",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-BRCA",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-colorectal-adenocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-hepatocellular-carcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-lung-squamous-cell-carcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-NBL",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-prad",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-b0add023f61a",
+      "mechanism": "Gene-level alteration context supported by primary literature; pathologist review needed.",
+      "source_ids": [
+        "pmid-15509545"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

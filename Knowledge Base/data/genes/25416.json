@@ -1,0 +1,61 @@
+{
+  "id": "HGNC:25416",
+  "symbol": "ATXN7L3",
+  "name": "ataxin 7 like 3",
+  "ncbi_gene_id": "56970",
+  "aliases": [
+    "DKFZp761G2113"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of DNA repair",
+    "regulation of RNA splicing"
+  ],
+  "summary": {
+    "function": {
+      "text": "ATXN7L3 encodes ataxin-7-like protein 3. Annotated molecular activities include transcription coactivator activity and zinc ion binding. It participates in regulation of DNA repair and regulation of RNA splicing.",
+      "source_ids": [
+        "ncbi-56970",
+        "uniprot-Q14CW9"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include B-lymphoblastic leukemia/lymphoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-ball",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

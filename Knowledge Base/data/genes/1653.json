@@ -1,0 +1,71 @@
+{
+  "id": "HGNC:1653",
+  "symbol": "CD28",
+  "name": "CD28 molecule",
+  "ncbi_gene_id": "940",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "T cell activation",
+    "T cell costimulation"
+  ],
+  "summary": {
+    "function": {
+      "text": "CD28 encodes t-cell-specific surface glycoprotein CD28. Annotated molecular activities include coreceptor activity and transmembrane signaling receptor activity. It participates in T cell activation and T cell costimulation.",
+      "source_ids": [
+        "ncbi-940",
+        "uniprot-P10747"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Adult T-cell leukemia/lymphoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-atll",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "CD28",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

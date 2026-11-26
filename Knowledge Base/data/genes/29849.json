@@ -1,0 +1,64 @@
+{
+  "id": "HGNC:29849",
+  "symbol": "CADM2",
+  "name": "cell adhesion molecule 2",
+  "ncbi_gene_id": "253559",
+  "aliases": [
+    "IGSF4D",
+    "NECL3",
+    "Necl-3",
+    "SynCAM-2",
+    "SynCAM2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "homophilic cell-cell adhesion"
+  ],
+  "summary": {
+    "function": {
+      "text": "CADM2 encodes cell adhesion molecule 2. It participates in homophilic cell-cell adhesion.",
+      "source_ids": [
+        "ncbi-253559",
+        "uniprot-Q8N3J6"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Melanoma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "melanoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

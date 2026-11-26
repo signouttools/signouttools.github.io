@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tso500",
+    "name": "tso500",
+    "assay_family": "tso500",
+    "provider": "Illumina",
+    "version": "snapshot-2026-11-26-bd58a5aa7ca0",
+    "exact_list_url": "https://www.illumina.com/content/dam/illumina-marketing/documents/products/gene_lists/gene_list_trusight_oncology_500.xlsx",
+    "source_ids": [
+      "panel-tso500"
+    ],
+    "acquisition_status": "acquired"
+  },
+  {
+    "id": "impact505",
+    "name": "impact505",
+    "assay_family": "MSK-IMPACT",
+    "provider": "cBioPortal DataHub",
+    "version": "snapshot-2026-11-26-9eeecc446e4f",
+    "exact_list_url": "https://media.githubusercontent.com/media/cBioPortal/datahub/master/reference_data/gene_panels/data_gene_panel_impact505.txt",
+    "source_ids": [
+      "panel-impact505"
+    ],
+    "acquisition_status": "acquired"
+  },
+  {
+    "id": "heme468",
+    "name": "heme468",
+    "assay_family": "MSK-IMPACT",
+    "provider": "cBioPortal DataHub",
+    "version": "snapshot-2026-11-26-e35667df86c0",
+    "exact_list_url": "https://media.githubusercontent.com/media/cBioPortal/datahub/master/reference_data/gene_panels/data_gene_panel_heme468.txt",
+    "source_ids": [
+      "panel-heme468"
+    ],
+    "acquisition_status": "acquired"
+  },
+  {
+    "id": "glioma_dfci_2020_dfci_oncopanel3",
+    "name": "glioma_dfci_2020_dfci_oncopanel3",
+    "assay_family": "glioma_dfci_2020_dfci_oncopanel3",
+    "provider": "cBioPortal DataHub",
+    "version": "snapshot-2026-11-26-d732bfc1a301",
+    "exact_list_url": "https://media.githubusercontent.com/media/cBioPortal/datahub/master/reference_data/gene_panels/data_gene_panel_glioma_dfci_2020_dfci_oncopanel3.txt",
+    "source_ids": [
+      "panel-glioma_dfci_2020_dfci_oncopanel3"
+    ],
+    "acquisition_status": "acquired"
+  },
+  {
+    "id": "FoundationOne",
+    "name": "FoundationOne",
+    "assay_family": "FoundationOne",
+    "provider": "cBioPortal DataHub",
+    "version": "snapshot-2026-11-26-4eb108dbc2d9",
+    "exact_list_url": "https://media.githubusercontent.com/media/cBioPortal/datahub/master/reference_data/gene_panels/data_gene_panel_FoundationOne.txt",
+    "source_ids": [
+      "panel-FoundationOne"
+    ],
+    "acquisition_status": "acquired"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "id": "HGNC:18957",
+  "symbol": "MAGI2",
+  "name": "membrane associated guanylate kinase, WW and PDZ domain containing 2",
+  "ncbi_gene_id": "9863",
+  "aliases": [
+    "ACVRIP1",
+    "AIP1",
+    "ARIP1",
+    "KIAA0705",
+    "MAGI-2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "signal transduction",
+    "SMAD protein signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "MAGI2 encodes membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2. Annotated molecular activities include signaling receptor complex adaptor activity and SMAD binding. It participates in signal transduction and SMAD protein signal transduction.",
+      "source_ids": [
+        "ncbi-9863",
+        "uniprot-Q86UL8"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include nephrotic syndrome 15 (autosomal recessive). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-FoundationOne",
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0033262",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "MAGI2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "MAGI2",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "epilepsy: refuted evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-104666.4"
+    ]
+  }
+}

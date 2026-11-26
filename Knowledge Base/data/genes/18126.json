@@ -1,0 +1,88 @@
+{
+  "id": "HGNC:18126",
+  "symbol": "ZNRF3",
+  "name": "zinc and ring finger 3",
+  "ncbi_gene_id": "84133",
+  "aliases": [
+    "BK747E2.3",
+    "FLJ22057",
+    "KIAA1133",
+    "RNF203"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "limb development",
+    "protein ubiquitination"
+  ],
+  "summary": {
+    "function": {
+      "text": "ZNRF3 encodes E3 ubiquitin-protein ligase ZNRF3. Annotated molecular activities include ubiquitin-protein transferase activity and ubiquitin protein ligase activity. It participates in limb development and protein ubiquitination.",
+      "source_ids": [
+        "ncbi-84133",
+        "uniprot-Q9ULT6"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Adrenocortical carcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-adrenocortical-carcinoma",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "ZNRF3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "ZNRF3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

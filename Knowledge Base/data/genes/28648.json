@@ -1,0 +1,75 @@
+{
+  "id": "HGNC:28648",
+  "symbol": "DIS3L2",
+  "name": "DIS3 like 3'-5' exoribonuclease 2",
+  "ncbi_gene_id": "129563",
+  "aliases": [
+    "FAM6A",
+    "FLJ36974",
+    "MGC42174"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "mRNA catabolic process",
+    "miRNA catabolic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "DIS3L2 encodes DIS3-like exonuclease 2. Annotated molecular activities include 3'-5'-RNA exonuclease activity and RNA nuclease activity. It participates in mRNA catabolic process and miRNA catabolic process.",
+      "source_ids": [
+        "ncbi-129563",
+        "uniprot-Q8IYB7"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to Perlman syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0009965",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "DIS3L2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

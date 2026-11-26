@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:2942",
+  "symbol": "DNAH11",
+  "name": "dynein axonemal heavy chain 11",
+  "ncbi_gene_id": "8701",
+  "aliases": [
+    "CILD7",
+    "DNAHBL",
+    "DNAHC11",
+    "DNHBL",
+    "DPL11",
+    "Dnahc11"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "flagellated sperm motility",
+    "determination of left/right symmetry"
+  ],
+  "summary": {
+    "function": {
+      "text": "DNAH11 encodes dynein axonemal heavy chain 11. Annotated molecular activities include minus-end-directed microtubule motor activity and dynein intermediate chain binding. It participates in flagellated sperm motility and determination of left/right symmetry.",
+      "source_ids": [
+        "ncbi-8701",
+        "uniprot-Q96DT5"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to primary ciliary dyskinesia 7 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-PlasmaCellNeoplasms"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0012748",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

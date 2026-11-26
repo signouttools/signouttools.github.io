@@ -1,0 +1,55 @@
+{
+  "id": "HGNC:9910",
+  "symbol": "RBMX",
+  "name": "RNA binding motif protein X-linked",
+  "ncbi_gene_id": "27316",
+  "aliases": [
+    "HNRNPG",
+    "RNMX",
+    "hnRNP-G"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "mRNA splicing, via spliceosome",
+    "transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "RBMX encodes RNA-binding motif protein, X chromosome [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]. Annotated molecular activities include chromatin binding and mRNA binding. It participates in mRNA splicing, via spliceosome and transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-27316",
+        "uniprot-P38159"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-AdultTumorsKidney"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

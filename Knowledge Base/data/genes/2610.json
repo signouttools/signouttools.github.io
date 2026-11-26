@@ -1,0 +1,55 @@
+{
+  "id": "HGNC:2610",
+  "symbol": "CYP2A6",
+  "name": "cytochrome P450 family 2 subfamily A member 6",
+  "ncbi_gene_id": "1548",
+  "aliases": [
+    "CPA6",
+    "CYP2A",
+    "CYP2A3"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "coumarin catabolic process",
+    "coumarin metabolic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "CYP2A6 encodes cytochrome P450 2A6). Annotated molecular activities include arachidonate epoxygenase activity and coumarin 7-hydroxylase activity. It participates in coumarin catabolic process and coumarin metabolic process.",
+      "source_ids": [
+        "ncbi-1548",
+        "uniprot-P11509"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-AdultTumorsKidney"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

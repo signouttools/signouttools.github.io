@@ -1,0 +1,103 @@
+{
+  "id": "HGNC:6636",
+  "symbol": "LMNA",
+  "name": "lamin A/C",
+  "ncbi_gene_id": "4000",
+  "aliases": [
+    "CMD1A",
+    "HGPS",
+    "LGMD1B",
+    "LMN1",
+    "LMNL1",
+    "MADA",
+    "PRO1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of telomere maintenance",
+    "cellular senescence"
+  ],
+  "summary": {
+    "function": {
+      "text": "LMNA encodes prelamin-A/C [Cleaved into: Lamin-A/C]. Annotated molecular activities include structural molecule activity and structural constituent of cytoskeleton. It participates in regulation of telomere maintenance and cellular senescence.",
+      "source_ids": [
+        "ncbi-4000",
+        "uniprot-P02545"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to dilated cardiomyopathy 1A (autosomal dominant); lipodystrophy (semidominant). Additional curated associations are listed below.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include NTRK-rearranged spindle cell neoplasm, malignant. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0007269",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0006573",
+      "mechanism": "Semidominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0021569",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0008310",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0007906",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-ntrk",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

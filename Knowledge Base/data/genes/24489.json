@@ -1,0 +1,90 @@
+{
+  "id": "HGNC:24489",
+  "symbol": "LSM14A",
+  "name": "LSM14A mRNA processing body assembly factor",
+  "ncbi_gene_id": "26065",
+  "aliases": [
+    "C19orf13",
+    "DKFZP434D1335",
+    "FAM61A",
+    "RAP55",
+    "RAP55A"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "LSM14A is the approved symbol for LSM14A mRNA processing body assembly factor. Reviewed functional annotations implicate its product in mRNA binding; mitotic spindle assembly; negative regulation of translation.",
+      "source_ids": [
+        "ncbi-26065",
+        "uniprot-Q8ND56"
+      ]
+    },
+    "germline": {
+      "text": "No conflict-free strong or definitive constitutional disease relationship met the source-selection criteria for this draft; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Cancer Hotspots v1 reports recurrent residue-level observations in Colorectal carcinoma; Esophageal carcinoma; Glioblastoma. This is statistical recurrence evidence; it does not establish that every variant in this gene is a driver or a clinically actionable alteration. Evidence in this collection is restricted to the historical V1 release.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "hotspots-cohort-coadread",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-esca",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-gbm",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-paad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-ucec",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Added to ensure complete representation of genes in the three Cancer Hotspots original release workbooks.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — LLM source-linked hotspot supplement",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

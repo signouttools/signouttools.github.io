@@ -1,0 +1,78 @@
+{
+  "id": "HGNC:7820",
+  "symbol": "NHS",
+  "name": "NHS actin remodeling regulator",
+  "ncbi_gene_id": "4810",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "NHS is the approved symbol for NHS actin remodeling regulator. Reviewed functional annotations implicate its product in cell differentiation; lens development in camera-type eye.",
+      "source_ids": [
+        "ncbi-4810",
+        "uniprot-Q6T4R5"
+      ]
+    },
+    "germline": {
+      "text": "Retained strong or definitive GenCC associations include Nance-Horan syndrome (x-linked). Allele and inheritance require review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Cancer Hotspots v1 reports recurrent residue-level observations in Breast carcinoma; Chronic lymphocytic leukemia; Gastric adenocarcinoma. This is statistical recurrence evidence; it does not establish that every variant in this gene is a driver or a clinically actionable alteration. Evidence in this collection is restricted to the historical V1 release.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "hotspots-gencc-1f2bd68cb939",
+      "mechanism": "X-linked; Definitive GenCC assertion, ClinGen. Allele-specific review required.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "hotspots-cohort-brca",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-cll",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-stad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Added to ensure complete representation of genes in the three Cancer Hotspots original release workbooks.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — LLM source-linked hotspot supplement",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

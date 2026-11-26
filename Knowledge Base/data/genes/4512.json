@@ -1,0 +1,71 @@
+{
+  "id": "HGNC:4512",
+  "symbol": "ADGRG1",
+  "name": "adhesion G protein-coupled receptor G1",
+  "ncbi_gene_id": "9289",
+  "aliases": [
+    "GPR56",
+    "TM7LN4",
+    "TM7XN1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "Rho protein signal transduction",
+    "positive regulation of Rho protein signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "ADGRG1 encodes adhesion G protein-coupled receptor G1 [Cleaved into: Adhesion G protein-coupled receptor G1, N-terminal fragment); Adhesion G protein-coupled receptor G1, C-terminal fragment)]. Annotated molecular activities include G protein-coupled receptor activity and collagen binding. It participates in Rho protein signal transduction and positive regulation of Rho protein signal transduction.",
+      "source_ids": [
+        "ncbi-9289",
+        "uniprot-Q9Y653"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to bilateral frontoparietal polymicrogyria (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include CNS embryonal tumor with PLAG family gene alteration. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0011738",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-cns-plag",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

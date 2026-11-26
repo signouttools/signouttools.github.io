@@ -1,0 +1,77 @@
+{
+  "id": "HGNC:5351",
+  "symbol": "ICOS",
+  "name": "inducible T cell costimulator",
+  "ncbi_gene_id": "29851",
+  "aliases": [
+    "AILIM",
+    "CD278"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cell-cell adhesion",
+    "immune response"
+  ],
+  "summary": {
+    "function": {
+      "text": "ICOS encodes inducible T-cell costimulator. Annotated molecular activities include signaling receptor activity. It participates in cell-cell adhesion and immune response.",
+      "source_ids": [
+        "ncbi-29851",
+        "uniprot-Q9Y6W8"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to common variable immunodeficiency (autosomal recessive); immunodeficiency, common variable, 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Adult T-cell leukemia/lymphoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0015517",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0011864",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-atll",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Ancillary marker or assay-confounder mention; reserve pending explicit molecular inclusion rationale; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

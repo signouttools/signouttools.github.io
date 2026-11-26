@@ -1,0 +1,119 @@
+{
+  "id": "HGNC:4893",
+  "symbol": "HGF",
+  "name": "hepatocyte growth factor",
+  "ncbi_gene_id": "3082",
+  "aliases": [
+    "DFNB39",
+    "F-TCF",
+    "HGFB",
+    "HPTA",
+    "SF"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of transcription by RNA polymerase II",
+    "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "HGF encodes hepatocyte growth factor [Cleaved into: Hepatocyte growth factor alpha chain; Hepatocyte growth factor beta chain]. Annotated molecular activities include chemoattractant activity and growth factor activity. It participates in positive regulation of transcription by RNA polymerase II and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction.",
+      "source_ids": [
+        "ncbi-3082",
+        "uniprot-P14210"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to autosomal recessive nonsyndromic hearing loss 39 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Small Cell Lung Cancer. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0012003",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "curation-intogen-SCLC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "HGF",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "HGF",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "HGF",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "HGF",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

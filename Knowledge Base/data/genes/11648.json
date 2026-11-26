@@ -1,0 +1,67 @@
+{
+  "id": "HGNC:11648",
+  "symbol": "TCL1A",
+  "name": "TCL1 family AKT coactivator A",
+  "ncbi_gene_id": "8115",
+  "aliases": [
+    "TCL1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "intracellular signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "TCL1A encodes t-cell leukemia/lymphoma protein 1A. Annotated molecular activities include protein serine/threonine kinase activator activity and protein kinase binding. It participates in intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-8115",
+        "uniprot-P56279"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include T-cell prolymphocytic leukemia. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-tpll",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-DLBCLNOS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

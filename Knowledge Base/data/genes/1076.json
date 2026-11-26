@@ -1,0 +1,119 @@
+{
+  "id": "HGNC:1076",
+  "symbol": "BMPR1A",
+  "name": "bone morphogenetic protein receptor type 1A",
+  "ncbi_gene_id": "657",
+  "aliases": [
+    "ACVRLK3",
+    "ALK3",
+    "CD292"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of miRNA transcription",
+    "positive regulation of SMAD protein signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "BMPR1A encodes bone morphogenetic protein receptor type-1A. Annotated molecular activities include protein serine/threonine kinase activity and transmembrane receptor protein serine/threonine kinase activity. It participates in positive regulation of miRNA transcription and positive regulation of SMAD protein signal transduction.",
+      "source_ids": [
+        "ncbi-657",
+        "uniprot-P36894"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include juvenile polyposis syndrome (autosomal dominant); generalized juvenile polyposis/juvenile polyposis coli (autosomal dominant). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Stomach Adenocarcinoma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0017380",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0008276",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "curation-intogen-STAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "BMPR1A",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "BMPR1A",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "BMPR1A",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "pulmonary arterial hypertension: disputed evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-106241.2"
+    ]
+  }
+}

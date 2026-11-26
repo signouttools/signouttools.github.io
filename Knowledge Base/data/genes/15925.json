@@ -1,0 +1,98 @@
+{
+  "id": "HGNC:15925",
+  "symbol": "SAMHD1",
+  "name": "SAM and HD domain containing deoxynucleoside triphosphate triphosphohydrolase 1",
+  "ncbi_gene_id": "25939",
+  "aliases": [
+    "AGS5",
+    "HDDC1",
+    "MOP-5",
+    "Mg11",
+    "SBBI88"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "double-strand break repair via homologous recombination",
+    "immune response"
+  ],
+  "summary": {
+    "function": {
+      "text": "SAMHD1 encodes deoxynucleoside triphosphate triphosphohydrolase SAMHD1. Annotated molecular activities include dGTPase activity and RNA nuclease activity. It participates in double-strand break repair via homologous recombination and immune response.",
+      "source_ids": [
+        "ncbi-25939",
+        "uniprot-Q9Y3Z3"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include SAMHD1-related type 1 interferonopathy (autosomal recessive); Aicardi-Goutieres syndrome 5 (autosomal recessive). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Plasma Cell Myeloma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0700260",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0013059",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-myeloma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "SAMHD1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "chilblain lupus: disputed evidence (Illumina); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-109045.1"
+    ]
+  }
+}

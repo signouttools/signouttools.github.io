@@ -1,0 +1,64 @@
+{
+  "id": "HGNC:17704",
+  "symbol": "PDZRN3",
+  "name": "PDZ domain containing ring finger 3",
+  "ncbi_gene_id": "23024",
+  "aliases": [
+    "KIAA1095",
+    "LNX3",
+    "SEMACAP3",
+    "SEMCAP3"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "protein ubiquitination",
+    "neuromuscular junction development"
+  ],
+  "summary": {
+    "function": {
+      "text": "PDZRN3 encodes E3 ubiquitin-protein ligase PDZRN3. Annotated molecular activities include ubiquitin-protein transferase activity and ubiquitin protein ligase activity. It participates in protein ubiquitination and neuromuscular junction development.",
+      "source_ids": [
+        "ncbi-23024",
+        "uniprot-Q9UPQ7"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Kinase-altered spindle cell neoplasm (non-NTRK), malignant. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-kinase-spindle",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

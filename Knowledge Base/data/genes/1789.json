@@ -1,0 +1,126 @@
+{
+  "id": "HGNC:1789",
+  "symbol": "CDKN2C",
+  "name": "cyclin dependent kinase inhibitor 2C",
+  "ncbi_gene_id": "1031",
+  "aliases": [
+    "INK4C",
+    "p18"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "oligodendrocyte differentiation",
+    "negative regulation of cell growth"
+  ],
+  "summary": {
+    "function": {
+      "text": "CDKN2C encodes cyclin-dependent kinase 4 inhibitor C. Annotated molecular activities include cyclin-dependent protein serine/threonine kinase inhibitor activity and protein kinase binding. It participates in oligodendrocyte differentiation and negative regulation of cell growth.",
+      "source_ids": [
+        "ncbi-1031",
+        "uniprot-P42773"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Burkitt Lymphoma; Low-Grade Glioma, NOS. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-burkitt",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-LGGNOS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "CDKN2C",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "CDKN2C",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "CDKN2C",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "CDKN2C",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "CDKN2C",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

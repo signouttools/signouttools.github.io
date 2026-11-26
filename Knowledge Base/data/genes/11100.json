@@ -1,0 +1,355 @@
+{
+  "id": "HGNC:11100",
+  "symbol": "SMARCA4",
+  "name": "SWI/SNF related BAF chromatin remodeling complex subunit ATPase 4",
+  "ncbi_gene_id": "6597",
+  "aliases": [
+    "BAF190",
+    "BRG1",
+    "FLJ39786",
+    "SNF2",
+    "SNF2-BETA",
+    "SNF2L4",
+    "SNF2LB",
+    "SWI2",
+    "hSNF2b"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "SMARCA4 encodes BRG1, an ATP-dependent catalytic subunit of SWI/SNF chromatin-remodeling complexes that regulate nucleosome organization and gene expression.",
+      "source_ids": [
+        "ncbi-6597"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to Coffin-Siris syndrome (autosomal dominant); rhabdoid tumor predisposition syndrome 2 (autosomal dominant). Additional curated associations are listed below.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Lung adenocarcinoma; Sinonasal teratocarcinosarcoma; SMARCA4-deficient uterine sarcoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0015452",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0013224",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0013821",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-lung-adenocarcinoma",
+      "mechanism": "Educational atlas reports sequence alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft",
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-smarcaut",
+      "mechanism": "Educational atlas reports sequence alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-u-swisnf-gi",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-swi",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-u-tcs",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-scco",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-thoracic-smarca4-deficient-undifferentiated-tumor",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-utundiff",
+      "mechanism": "Educational atlas reports sequence alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-h-burkitt",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-BLADDER",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-BLCA",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-CCRCC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "cholangiocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-COAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-colorectal-adenocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-EGC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-esophageal-adenocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-esophageal-squamous-cell-carcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-hepatocellular-carcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-HNSC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-LGGNOS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-nm-mb",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-MLYM",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-NHL",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-NSCLC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-OVT",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PAAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PANCREAS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PAST",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-prcc",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-STAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "SMARCA4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "SMARCA4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "SMARCA4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "SMARCA4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "SMARCA4",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

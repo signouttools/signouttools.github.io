@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:6859",
+  "symbol": "MAP3K7",
+  "name": "mitogen-activated protein kinase kinase kinase 7",
+  "ncbi_gene_id": "6885",
+  "aliases": [
+    "MEKK7",
+    "TAK1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of JUN kinase activity",
+    "canonical NF-kappaB signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "MAP3K7 encodes mitogen-activated protein kinase kinase kinase 7. Annotated molecular activities include kinase activity and MAP kinase activity. It participates in positive regulation of JUN kinase activity and canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-6885",
+        "uniprot-O43318"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to cardiospondylocarpofacial syndrome (autosomal dominant); frontometaphyseal dysplasia 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0008005",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0014935",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "MAP3K7",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

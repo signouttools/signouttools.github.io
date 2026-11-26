@@ -1,0 +1,82 @@
+{
+  "id": "HGNC:30988",
+  "symbol": "BNC2",
+  "name": "basonuclin zinc finger protein 2",
+  "ncbi_gene_id": "54796",
+  "aliases": [
+    "BSN2",
+    "FLJ20043",
+    "bn2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "BNC2 is the approved symbol for basonuclin zinc finger protein 2. Reviewed functional annotations implicate its product in regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-54796",
+        "uniprot-Q6ZN30"
+      ]
+    },
+    "germline": {
+      "text": "Retained strong or definitive GenCC associations include lower urinary tract obstruction, congenital (autosomal dominant). Allele and inheritance require review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Cancer Hotspots v1 reports recurrent residue-level observations in Colorectal carcinoma; Lung adenocarcinoma; Gastric adenocarcinoma. This is statistical recurrence evidence; it does not establish that every variant in this gene is a driver or a clinically actionable alteration. Evidence in this collection is restricted to the historical V1 release.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "hotspots-gencc-99efb9e6d1b1",
+      "mechanism": "Autosomal dominant; Strong GenCC assertion, Labcorp Genetics (formerly Invitae). Allele-specific review required.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "hotspots-cohort-coadread",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-luad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-stad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Added to ensure complete representation of genes in the three Cancer Hotspots original release workbooks.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — LLM source-linked hotspot supplement",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

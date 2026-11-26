@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:3060",
+  "symbol": "DTX1",
+  "name": "deltex E3 ubiquitin ligase 1",
+  "ncbi_gene_id": "1840",
+  "aliases": [
+    "RNF140",
+    "hDx-1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA-templated transcription",
+    "transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "DTX1 encodes E3 ubiquitin-protein ligase DTX1. Annotated molecular activities include transcription coactivator activity and ubiquitin protein ligase activity. It participates in DNA-templated transcription and transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-1840",
+        "uniprot-Q86Y01"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "curation-intogen-CLLSLL",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "DTX1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:29905",
+  "symbol": "CSDE1",
+  "name": "cold shock domain containing E1",
+  "ncbi_gene_id": "7812",
+  "aliases": [
+    "D1S155E",
+    "UNR"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "CRD-mediated mRNA stabilization",
+    "male gonad development"
+  ],
+  "summary": {
+    "function": {
+      "text": "CSDE1 encodes cold shock domain-containing protein E1. Annotated molecular activities include protein-RNA adaptor activity and lncRNA binding. It participates in CRD-mediated mRNA stabilization and male gonad development.",
+      "source_ids": [
+        "ncbi-7812",
+        "uniprot-O75534"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to complex neurodevelopmental disorder (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0100038",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "CSDE1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

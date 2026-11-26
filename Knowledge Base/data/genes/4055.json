@@ -1,0 +1,69 @@
+{
+  "id": "HGNC:4055",
+  "symbol": "XRCC6",
+  "name": "X-ray repair cross complementing 6",
+  "ncbi_gene_id": "2547",
+  "aliases": [
+    "D22S671",
+    "D22S731",
+    "G22P1",
+    "KU70",
+    "ML8"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "telomere maintenance",
+    "negative regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "XRCC6 encodes DNA repair protein Ku70. Annotated molecular activities include transcription cis-regulatory region binding and 5'-deoxyribose-5-phosphate lyase activity. It participates in telomere maintenance and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-2547",
+        "uniprot-P12956"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "XRCC6",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "HGNC:21086",
+  "symbol": "MIB1",
+  "name": "MIB E3 ubiquitin protein ligase 1",
+  "ncbi_gene_id": "57534",
+  "aliases": [
+    "DIP-1",
+    "KIAA1323",
+    "MIB",
+    "ZZANK2",
+    "ZZZ6"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "endocytosis",
+    "protein ubiquitination"
+  ],
+  "summary": {
+    "function": {
+      "text": "MIB1 encodes E3 ubiquitin-protein ligase MIB1. Annotated molecular activities include ubiquitin-protein transferase activity and ubiquitin protein ligase activity. It participates in endocytosis and protein ubiquitination.",
+      "source_ids": [
+        "ncbi-57534",
+        "uniprot-Q86YT6"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "MIB1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

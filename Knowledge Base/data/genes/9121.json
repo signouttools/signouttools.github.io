@@ -1,0 +1,97 @@
+{
+  "id": "HGNC:9121",
+  "symbol": "PMS1",
+  "name": "PMS1 homolog 1, mismatch repair system component",
+  "ncbi_gene_id": "5378",
+  "aliases": [
+    "MLH2",
+    "PMSL1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "mismatch repair",
+    "response to xenobiotic stimulus"
+  ],
+  "summary": {
+    "function": {
+      "text": "PMS1 encodes PMS1 protein homolog 1. Annotated molecular activities include ATP hydrolysis activity and ATP-dependent DNA damage sensor activity. It participates in mismatch repair and response to xenobiotic stimulus.",
+      "source_ids": [
+        "ncbi-5378",
+        "uniprot-P54277"
+      ]
+    },
+    "germline": {
+      "text": "No established constitutional disease association is assigned after the condition-specific evidence review; disputed or limited relationships are withheld rather than treated as positive findings.",
+      "source_ids": [
+        "gencc-SGC-106101.4"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3",
+        "panel-impact505",
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "PMS1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "PMS1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "PMS1",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "Lynch syndrome: refuted evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-106101.4"
+    ]
+  }
+}

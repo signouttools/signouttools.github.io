@@ -1,0 +1,78 @@
+{
+  "id": "HGNC:15673",
+  "symbol": "PHIP",
+  "name": "PHIP subunit of CUL4-Ring ligase complex",
+  "ncbi_gene_id": "55023",
+  "aliases": [
+    "BRWD2",
+    "DCAF14",
+    "FLJ20705",
+    "RepID",
+    "WDR11",
+    "ndrp"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of DNA-templated transcription",
+    "regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "PHIP encodes PH-interacting protein. Annotated molecular activities include histone reader activity and insulin receptor binding. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-55023",
+        "uniprot-Q8WWQ0"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0035133",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "PHIP",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "HGNC:3513",
+  "symbol": "EXT2",
+  "name": "exostosin glycosyltransferase 2",
+  "ncbi_gene_id": "2132",
+  "aliases": [
+    "SOTV"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "ossification",
+    "glycosaminoglycan biosynthetic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "EXT2 encodes exostosin-2. Annotated molecular activities include glucuronosyltransferase activity and glycosyltransferase activity. It participates in ossification and glycosaminoglycan biosynthetic process.",
+      "source_ids": [
+        "ncbi-2132",
+        "uniprot-Q93063"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to exostoses, multiple, type 2 (autosomal dominant); seizures-scoliosis-macrocephaly syndrome (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Chondrosarcoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0007586",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0014731",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-chondro",
+      "mechanism": "Educational atlas reports sequence alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "EXT2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

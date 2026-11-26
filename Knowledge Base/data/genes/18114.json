@@ -1,0 +1,56 @@
+{
+  "id": "HGNC:18114",
+  "symbol": "KHDRBS2",
+  "name": "KH RNA binding domain containing, signal transduction associated 2",
+  "ncbi_gene_id": "202559",
+  "aliases": [
+    "KHDRBS2-OT",
+    "KHDRBS2-OT1",
+    "MGC26664",
+    "SLM-1",
+    "SLM1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of alternative mRNA splicing, via spliceosome"
+  ],
+  "summary": {
+    "function": {
+      "text": "KHDRBS2 encodes KH domain-containing, RNA-binding, signal transduction-associated protein 2. Annotated molecular activities include mRNA binding and poly(A) binding. It participates in regulation of alternative mRNA splicing, via spliceosome.",
+      "source_ids": [
+        "ncbi-202559",
+        "uniprot-Q5VWX1"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-AdultTumorsKidney"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "HGNC:11727",
+  "symbol": "TERC",
+  "name": "telomerase RNA component",
+  "ncbi_gene_id": "7012",
+  "aliases": [
+    "SCARNA19",
+    "TER",
+    "TR",
+    "TRC3",
+    "hTR"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "TERC encodes the RNA component of telomerase, providing the template used by the TERT catalytic subunit to add telomeric repeats to chromosome ends.",
+      "source_ids": [
+        "ncbi-7012"
+      ]
+    },
+    "germline": {
+      "text": "Pathogenic constitutional TERC variants cause autosomal dominant telomere biology disorders, including dyskeratosis congenita. Marrow failure and myeloid malignancy risk occur within this inherited disease context; a tumor-only result does not establish constitutional origin.",
+      "source_ids": [
+        "pmid-11574891",
+        "gencc-SGC-107615.2"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic copy-number gain involving the TERC region has been associated with progression of cervical neoplasia to invasive carcinoma. Regional gain is distinct from the constitutional loss-of-function mechanisms underlying telomere biology disorders.",
+      "source_ids": [
+        "pmid-17054308"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0007485",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "curation-b39cd30b0226",
+      "mechanism": "Primary-study gene-level somatic/epigenetic context; alteration class explicitly stated in the paragraph.",
+      "source_ids": [
+        "pmid-17054308"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "TERC",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "TERC",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "TERC",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

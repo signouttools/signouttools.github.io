@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:8059",
+  "symbol": "NUMA1",
+  "name": "nuclear mitotic apparatus protein 1",
+  "ncbi_gene_id": "4926",
+  "aliases": [
+    "NUMA"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "nucleus organization",
+    "anastral spindle assembly"
+  ],
+  "summary": {
+    "function": {
+      "text": "NUMA1 encodes nuclear mitotic apparatus protein 1. Annotated molecular activities include structural molecule activity and microtubule binding. It participates in nucleus organization and anastral spindle assembly.",
+      "source_ids": [
+        "ncbi-4926",
+        "uniprot-Q14980"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "NUMA1–RARA rearrangements have been described in acute promyelocytic leukemia.",
+      "source_ids": [
+        "ncbi-4926"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-e4b6d9013f36",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-4926"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-esophageal-adenocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

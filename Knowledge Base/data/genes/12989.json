@@ -1,0 +1,85 @@
+{
+  "id": "HGNC:12989",
+  "symbol": "ZMYM2",
+  "name": "zinc finger MYM-type containing 2",
+  "ncbi_gene_id": "7750",
+  "aliases": [
+    "FIM",
+    "MYM",
+    "RAMP",
+    "ZNF198"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "ZMYM2 encodes zinc finger MYM-type protein 2. Annotated molecular activities include zinc ion binding and ubiquitin conjugating enzyme binding. It participates in negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-7750",
+        "uniprot-Q9UBW7"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to syndromic complex neurodevelopmental disorder (autosomal dominant); neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Myeloid/lymphoid neoplasm with tyrosine kinase fusion. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0800439",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0859190",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-mlntk",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-prad",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

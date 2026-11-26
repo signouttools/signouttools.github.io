@@ -1,0 +1,80 @@
+{
+  "id": "HGNC:662",
+  "symbol": "ARFRP1",
+  "name": "ARF related protein 1",
+  "ncbi_gene_id": "10139",
+  "aliases": [
+    "ARL18",
+    "ARP",
+    "Arp1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "signal transduction",
+    "intracellular protein transport"
+  ],
+  "summary": {
+    "function": {
+      "text": "ARFRP1 encodes ADP-ribosylation factor-related protein 1. Annotated molecular activities include GTPase activity and GTP binding. It participates in signal transduction and intracellular protein transport.",
+      "source_ids": [
+        "ncbi-10139",
+        "uniprot-Q13795"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-FoundationOne",
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "ARFRP1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "ARFRP1",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

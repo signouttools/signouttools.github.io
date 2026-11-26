@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:12017",
+  "symbol": "TPR",
+  "name": "translocated promoter region, nuclear basket protein",
+  "ncbi_gene_id": "7175",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of transcription by RNA polymerase II",
+    "nucleocytoplasmic transport"
+  ],
+  "summary": {
+    "function": {
+      "text": "TPR encodes nucleoprotein TPR. Annotated molecular activities include protein homodimerization activity and structural constituent of nuclear pore. It participates in negative regulation of transcription by RNA polymerase II and nucleocytoplasmic transport.",
+      "source_ids": [
+        "ncbi-7175",
+        "uniprot-P12270"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include NTRK-rearranged spindle cell sarcoma of the uterine cervix / corpus. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-ntrk-uterine",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-nm-mb",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

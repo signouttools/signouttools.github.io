@@ -1,0 +1,88 @@
+{
+  "id": "HGNC:12033",
+  "symbol": "TRAF3",
+  "name": "TNF receptor associated factor 3",
+  "ncbi_gene_id": "7187",
+  "aliases": [
+    "CAP-1",
+    "CD40bp",
+    "CRAF1",
+    "LAP1",
+    "RNF118"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "signal transduction",
+    "regulation of canonical NF-kappaB signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "TRAF3 encodes TNF receptor-associated factor 3. Annotated molecular activities include signaling adaptor activity and ubiquitin-protein transferase activity. It participates in signal transduction and regulation of canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-7187",
+        "uniprot-Q13114"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Plasma Cell Myeloma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-myeloma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "TRAF3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "TRAF3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

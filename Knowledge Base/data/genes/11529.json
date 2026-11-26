@@ -1,0 +1,142 @@
+{
+  "id": "HGNC:11529",
+  "symbol": "EPCAM",
+  "name": "epithelial cell adhesion molecule",
+  "ncbi_gene_id": "4072",
+  "aliases": [
+    "17-1A",
+    "323/A3",
+    "Ber-Ep4",
+    "BerEp4",
+    "CD326",
+    "CO-17A",
+    "EGP-2",
+    "EGP34",
+    "EGP40",
+    "ESA",
+    "Ep-CAM",
+    "GA733-2",
+    "HEA125",
+    "KS1/4",
+    "KSA",
+    "Ly74",
+    "M4S1",
+    "MH99",
+    "MIC18",
+    "MK-1",
+    "MOC-31",
+    "MOC31",
+    "TACST-1",
+    "TACSTD1",
+    "TROP1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of transcription by RNA polymerase II",
+    "signal transduction involved in regulation of gene expression"
+  ],
+  "summary": {
+    "function": {
+      "text": "EPCAM encodes epithelial cell adhesion molecule. Annotated molecular activities include cadherin binding involved in cell-cell adhesion. It participates in positive regulation of transcription by RNA polymerase II and signal transduction involved in regulation of gene expression.",
+      "source_ids": [
+        "ncbi-4072",
+        "uniprot-P16422"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include Lynch syndrome (autosomal dominant); Lynch syndrome 8 (autosomal dominant). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3",
+        "panel-impact505",
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0005835",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0013196",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0013184",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "EPCAM",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "EPCAM",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "EPCAM",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "hereditary breast carcinoma: refuted evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-104797.4"
+    ]
+  }
+}

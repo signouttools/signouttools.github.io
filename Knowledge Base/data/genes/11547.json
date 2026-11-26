@@ -1,0 +1,71 @@
+{
+  "id": "HGNC:11547",
+  "symbol": "TAF15",
+  "name": "TATA-box binding protein associated factor 15",
+  "ncbi_gene_id": "8148",
+  "aliases": [
+    "Npl3",
+    "RBP56",
+    "TAF2N",
+    "hTAFII68"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of DNA-templated transcription",
+    "mRNA stabilization"
+  ],
+  "summary": {
+    "function": {
+      "text": "TAF15 encodes TATA-binding protein-associated factor 2N68). Annotated molecular activities include transcription coregulator activity. It participates in positive regulation of DNA-templated transcription and mRNA stabilization.",
+      "source_ids": [
+        "ncbi-8148",
+        "uniprot-Q92804"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Extraskeletal myxoid chondrosarcoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-emc",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PLMESO",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

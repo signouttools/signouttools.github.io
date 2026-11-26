@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:16971",
+  "symbol": "FRS2",
+  "name": "fibroblast growth factor receptor substrate 2",
+  "ncbi_gene_id": "10818",
+  "aliases": [
+    "FRS2A",
+    "FRS2alpha",
+    "SNT-1",
+    "SNT1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "G protein-coupled receptor signaling pathway",
+    "fibroblast growth factor receptor signaling pathway"
+  ],
+  "summary": {
+    "function": {
+      "text": "FRS2 encodes fibroblast growth factor receptor substrate 2. Annotated molecular activities include phosphatase activator activity and transmembrane receptor protein tyrosine kinase adaptor activity. It participates in G protein-coupled receptor signaling pathway and fibroblast growth factor receptor signaling pathway.",
+      "source_ids": [
+        "ncbi-10818",
+        "uniprot-Q8WU20"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-FoundationOne",
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "FRS2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "FRS2",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

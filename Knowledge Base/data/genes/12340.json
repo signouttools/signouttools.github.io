@@ -1,0 +1,69 @@
+{
+  "id": "HGNC:12340",
+  "symbol": "TRPS1",
+  "name": "transcriptional repressor GATA binding 1",
+  "ncbi_gene_id": "7227",
+  "aliases": [
+    "GC79",
+    "LGCR"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of transcription by RNA polymerase II",
+    "negative regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "TRPS1 encodes zinc finger transcription factor Trps1. Annotated molecular activities include DNA-binding transcription factor activity and DNA-binding transcription repressor activity, RNA polymerase II-specific. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-7227",
+        "uniprot-Q9UHF7"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to trichorhinophalangeal syndrome type I (autosomal dominant); trichorhinophalangeal syndrome, type III (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-Neuropathology"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0008596",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0008597",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Ancillary marker or assay-confounder mention; reserve pending explicit molecular inclusion rationale; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

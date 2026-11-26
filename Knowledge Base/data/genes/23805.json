@@ -1,0 +1,162 @@
+{
+  "id": "HGNC:23805",
+  "symbol": "ASXL2",
+  "name": "ASXL transcriptional regulator 2",
+  "ncbi_gene_id": "55252",
+  "aliases": [
+    "ASXH2",
+    "FLJ10898",
+    "KIAA1685"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of transcription by RNA polymerase II",
+    "positive regulation of fat cell differentiation"
+  ],
+  "summary": {
+    "function": {
+      "text": "ASXL2 encodes putative Polycomb group protein ASXL2. Annotated molecular activities include chromatin binding and peroxisome proliferator activated receptor binding. It participates in positive regulation of transcription by RNA polymerase II and positive regulation of fat cell differentiation.",
+      "source_ids": [
+        "ncbi-55252",
+        "uniprot-Q76L83"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to syndromic intellectual disability (autosomal dominant); Shashi-Pena syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic ASXL2 mutations have been reported in several cancer types, including breast, bladder, pancreatic, ovarian, prostate, and hematologic tumors.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0000508",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0014963",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-4effb7767b61",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-10626c124fe9",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-4c106ea10656",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-4a05d08284cf",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-4c8ac4007645",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-77e85f1d46c7",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-55252"
+      ]
+    },
+    {
+      "disease_id": "aml",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-BLCA",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "ASXL2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "ASXL2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "ASXL2",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

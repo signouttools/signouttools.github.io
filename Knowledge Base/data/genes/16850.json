@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:16850",
+  "symbol": "CTR9",
+  "name": "CTR9 component of Paf1/RNA polymerase II complex",
+  "ncbi_gene_id": "9646",
+  "aliases": [
+    "KIAA0155",
+    "SH2BP1",
+    "TSBP",
+    "p150TSP"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "chromatin organization",
+    "transcription elongation by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "CTR9 encodes RNA polymerase-associated protein CTR9 homolog. Annotated molecular activities include RNA polymerase II complex binding. It participates in chromatin organization and transcription elongation by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-9646",
+        "uniprot-Q6PD62"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "CTR9",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

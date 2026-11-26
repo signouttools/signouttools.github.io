@@ -1,0 +1,69 @@
+{
+  "id": "HGNC:29450",
+  "symbol": "GLIS2",
+  "name": "GLIS family zinc finger 2",
+  "ncbi_gene_id": "84662",
+  "aliases": [
+    "NPHP7"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of DNA-templated transcription",
+    "positive regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "GLIS2 encodes zinc finger protein GLIS2. Annotated molecular activities include DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription factor activity, RNA polymerase II-specific. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-84662",
+        "uniprot-Q9BZE0"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to nephronophthisis 7 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Acute myeloid leukemia. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0012680",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-aml",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

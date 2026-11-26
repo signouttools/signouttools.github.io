@@ -1,0 +1,57 @@
+{
+  "id": "HGNC:2907",
+  "symbol": "DLK1",
+  "name": "delta like non-canonical Notch ligand 1",
+  "ncbi_gene_id": "8788",
+  "aliases": [
+    "Delta1",
+    "FA1",
+    "Pref-1",
+    "ZOG",
+    "pG2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cell differentiation",
+    "negative regulation of ossification"
+  ],
+  "summary": {
+    "function": {
+      "text": "DLK1 encodes protein delta homolog 1 [Cleaved into: Fetal antigen 1]. Annotated molecular activities include calcium ion binding. It participates in cell differentiation and negative regulation of ossification.",
+      "source_ids": [
+        "ncbi-8788",
+        "uniprot-P80370"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-driver-atlas"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

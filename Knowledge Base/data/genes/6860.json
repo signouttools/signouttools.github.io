@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:6860",
+  "symbol": "MAP3K8",
+  "name": "mitogen-activated protein kinase kinase kinase 8",
+  "ncbi_gene_id": "1326",
+  "aliases": [
+    "COT",
+    "EST",
+    "ESTF",
+    "MEKK8",
+    "Tpl-2",
+    "c-COT"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "MAPK cascade",
+    "protein phosphorylation"
+  ],
+  "summary": {
+    "function": {
+      "text": "MAP3K8 encodes mitogen-activated protein kinase kinase kinase 8. Annotated molecular activities include protein serine kinase activity and protein serine/threonine kinase activity. It participates in MAPK cascade and protein phosphorylation.",
+      "source_ids": [
+        "ncbi-1326",
+        "uniprot-P41279"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Cutaneous melanoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-melanoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

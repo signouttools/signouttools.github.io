@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:21168",
+  "symbol": "RHOT1",
+  "name": "ras homolog family member T1",
+  "ncbi_gene_id": "55288",
+  "aliases": [
+    "ARHT1",
+    "FLJ11040",
+    "MIRO-1",
+    "MIRO1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cellular homeostasis",
+    "mitochondrial outer membrane permeabilization"
+  ],
+  "summary": {
+    "function": {
+      "text": "RHOT1 encodes mitochondrial Rho GTPase 1. Annotated molecular activities include GTPase activity and ATP hydrolysis activity. It participates in cellular homeostasis and mitochondrial outer membrane permeabilization.",
+      "source_ids": [
+        "ncbi-55288",
+        "uniprot-Q8IXI2"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "RHOT1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

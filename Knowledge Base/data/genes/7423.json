@@ -1,0 +1,62 @@
+{
+  "id": "HGNC:7423",
+  "symbol": "MTCP1",
+  "name": "mature T cell proliferation 1",
+  "ncbi_gene_id": "4515",
+  "aliases": [
+    "P13MTCP1",
+    "TCL1C",
+    "p8MTCP1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "intracellular signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "MTCP1 encodes protein p13 MTCP-1. Annotated molecular activities include protein serine/threonine kinase activator activity and protein kinase binding. It participates in intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-4515",
+        "uniprot-P56278"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include T-cell prolymphocytic leukemia. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-tpll",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

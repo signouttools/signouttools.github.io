@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:23156",
+  "symbol": "U2AF2",
+  "name": "U2 small nuclear RNA auxiliary factor 2",
+  "ncbi_gene_id": "11338",
+  "aliases": [
+    "U2AF65"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "mRNA splicing, via spliceosome",
+    "positive regulation of RNA splicing"
+  ],
+  "summary": {
+    "function": {
+      "text": "U2AF2 encodes splicing factor U2AF 65 kDa subunit). Annotated molecular activities include molecular function inhibitor activity and poly-pyrimidine tract binding. It participates in mRNA splicing, via spliceosome and positive regulation of RNA splicing.",
+      "source_ids": [
+        "ncbi-11338",
+        "uniprot-P26368"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to developmental delay, dysmorphic facies, and brain anomalies (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Acute Myeloid Leukemia. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0957810",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "aml",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "U2AF2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

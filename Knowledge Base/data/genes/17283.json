@@ -1,0 +1,83 @@
+{
+  "id": "HGNC:17283",
+  "symbol": "RIMS2",
+  "name": "regulating synaptic membrane exocytosis 2",
+  "ncbi_gene_id": "9699",
+  "aliases": [
+    "KIAA0751",
+    "OBOE",
+    "RAB3IP3",
+    "RIM2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "RIMS2 is the approved symbol for regulating synaptic membrane exocytosis 2. Reviewed functional annotations implicate its product in small GTPase binding; structural constituent of presynaptic active zone; adenylate cyclase-modulating G protein-coupled receptor signaling pathway.",
+      "source_ids": [
+        "ncbi-9699",
+        "uniprot-Q9UQ26"
+      ]
+    },
+    "germline": {
+      "text": "Retained strong or definitive GenCC associations include cone-rod synaptic disorder syndrome, congenital nonprogressive (autosomal recessive). Allele and inheritance require review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Cancer Hotspots v1 reports recurrent residue-level observations in Breast carcinoma; Esophageal carcinoma; Gastric adenocarcinoma. This is statistical recurrence evidence; it does not establish that every variant in this gene is a driver or a clinically actionable alteration. Evidence in this collection is restricted to the historical V1 release.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "hotspots-gencc-b1941153f147",
+      "mechanism": "Autosomal recessive; Strong GenCC assertion, Labcorp Genetics (formerly Invitae). Allele-specific review required.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "hotspots-cohort-brca",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-esca",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-stad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Added to ensure complete representation of genes in the three Cancer Hotspots original release workbooks.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — LLM source-linked hotspot supplement",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

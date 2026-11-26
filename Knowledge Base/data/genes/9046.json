@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:9046",
+  "symbol": "PLAGL1",
+  "name": "PLAG1 like zinc finger 1",
+  "ncbi_gene_id": "5325",
+  "aliases": [
+    "LOT1",
+    "ZAC"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of transcription by RNA polymerase II",
+    "positive regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "PLAGL1 encodes zinc finger protein PLAGL1. Annotated molecular activities include DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription repressor activity, RNA polymerase II-specific. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-5325",
+        "uniprot-Q9UM63"
+      ]
+    },
+    "germline": {
+      "text": "No established constitutional disease association is assigned after the condition-specific evidence review; disputed or limited relationships are withheld rather than treated as positive findings.",
+      "source_ids": [
+        "gencc-SGC-190020.1"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include CNS embryonal tumor with PLAG family gene alteration. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-cns-plag",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "congenital heart disease: disputed evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-190020.1"
+    ]
+  }
+}

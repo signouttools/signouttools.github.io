@@ -1,0 +1,88 @@
+{
+  "id": "HGNC:14193",
+  "symbol": "ARHGEF12",
+  "name": "Rho guanine nucleotide exchange factor 12",
+  "ncbi_gene_id": "23365",
+  "aliases": [
+    "KIAA0382",
+    "LARG"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "Rho protein signal transduction",
+    "regulation of small GTPase mediated signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "ARHGEF12 encodes rho guanine nucleotide exchange factor 12. Annotated molecular activities include GTPase activator activity and guanyl-nucleotide exchange factor activity. It participates in Rho protein signal transduction and regulation of small GTPase mediated signal transduction.",
+      "source_ids": [
+        "ncbi-23365",
+        "uniprot-Q9NZN5"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "ARHGEF12 has been described as a fusion partner in acute myeloid leukemia.",
+      "source_ids": [
+        "ncbi-23365"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-6c2881ff6bdf",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-23365"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-BRCA",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-CCRCC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "ARHGEF12",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

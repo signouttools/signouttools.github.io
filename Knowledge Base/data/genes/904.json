@@ -1,0 +1,105 @@
+{
+  "id": "HGNC:904",
+  "symbol": "AXIN2",
+  "name": "axin 2",
+  "ncbi_gene_id": "8313",
+  "aliases": [
+    "DKFZp781B0869",
+    "MGC126582"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of mismatch repair",
+    "odontogenesis"
+  ],
+  "summary": {
+    "function": {
+      "text": "AXIN2 encodes axin-2. Annotated molecular activities include molecular adaptor activity and I-SMAD binding. It participates in regulation of mismatch repair and odontogenesis.",
+      "source_ids": [
+        "ncbi-8313",
+        "uniprot-Q9Y2T1"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to oligodontia-cancer predisposition syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "AXIN2 mutations have been reported in colorectal cancer, including mismatch-repair-deficient tumors. Variant-level interpretation is required.",
+      "source_ids": [
+        "ncbi-8313"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0012075",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-9ec030c325ea",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-8313"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "AXIN2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "AXIN2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "AXIN2",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

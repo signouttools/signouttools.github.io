@@ -1,0 +1,150 @@
+{
+  "id": "HGNC:7329",
+  "symbol": "MSH6",
+  "name": "mutS homolog 6",
+  "ncbi_gene_id": "2956",
+  "aliases": [
+    "GTBP",
+    "MSH-6"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "MSH6 encodes the mismatch-recognition component of the MSH2–MSH6 complex, which detects base mismatches and small insertion/deletion loops during DNA mismatch repair.",
+      "source_ids": [
+        "ncbi-2956"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include Lynch syndrome (autosomal dominant); Constitutional mismatch repair deficiency (autosomal recessive). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Loss of mismatch-repair function involving MSH6 is relevant in colorectal and endometrial carcinomas. Protein-expression loss or an MSI phenotype does not by itself establish a somatic sequence mutation.",
+      "source_ids": [
+        "amp-mmr-somatic"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0005835",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "curation-cmmrd",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0013710",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from Laboratory for Molecular Medicine. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-9ec030c325ea",
+      "mechanism": "Tumor mismatch-repair deficiency context; protein loss is not itself a sequence-mutation call.",
+      "source_ids": [
+        "amp-mmr-somatic"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-c266a271d920",
+      "mechanism": "Tumor mismatch-repair deficiency context; protein loss is not itself a sequence-mutation call.",
+      "source_ids": [
+        "amp-mmr-somatic"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "MSH6",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "MSH6",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "MSH6",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "MSH6",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "MSH6",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "hereditary breast carcinoma: disputed evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-106606.4"
+    ]
+  }
+}

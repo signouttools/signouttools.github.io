@@ -1,0 +1,72 @@
+{
+  "id": "HGNC:20626",
+  "symbol": "CHD7",
+  "name": "chromodomain helicase DNA binding protein 7",
+  "ncbi_gene_id": "55636",
+  "aliases": [
+    "CRG",
+    "FLJ20357",
+    "FLJ20361",
+    "KIAA1416"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of DNA-templated transcription",
+    "cognition"
+  ],
+  "summary": {
+    "function": {
+      "text": "CHD7 encodes ATP-dependent chromatin remodeler CHD7. Annotated molecular activities include ATP hydrolysis activity and ATP-dependent chromatin remodeler activity. It participates in regulation of DNA-templated transcription and cognition.",
+      "source_ids": [
+        "ncbi-55636",
+        "uniprot-Q9P2D1"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to CHARGE syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include CNS embryonal tumor with PLAG family gene alteration. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0008965",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-cns-plag",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

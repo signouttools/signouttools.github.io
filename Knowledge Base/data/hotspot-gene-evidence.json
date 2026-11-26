@@ -1,0 +1,4253 @@
+{
+  "HGNC:10445": {
+    "ncbi_summary_sha256": "33e41447d4ae2041b989097a4adc9f44489d198ebbbf3636d78c6c2c272dd19c",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-107197",
+        "version_number": "3",
+        "disease_curie": "MONDO:0100038",
+        "disease_title": "complex neurodevelopmental disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_6ed830a6-af3b-44a4-9a84-bd8feb175ed4-2025-03-31T22:00:00.000Z",
+        "submitted_as_date": "2025-03-31T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:10493": {
+    "ncbi_summary_sha256": "392774c47b0313f643e56f1be2a043655785e6ec68a1cf3b54014580256b0e35",
+    "gencc_assertions": []
+  },
+  "HGNC:10498": {
+    "ncbi_summary_sha256": "9ee5277865aa2d522e881e902dd49d1008d150acfea1d68f809fa82f9f840823",
+    "gencc_assertions": []
+  },
+  "HGNC:10730": {
+    "ncbi_summary_sha256": "4cb10e6dca38df1f689fe8da01b1f33163d59793e945032b2d784ceb1b226abe",
+    "gencc_assertions": []
+  },
+  "HGNC:10838": {
+    "ncbi_summary_sha256": "f67a12379f7006c29a3eb05aee72499acc2c92c33f4cbae05e1fe196e59305d7",
+    "gencc_assertions": []
+  },
+  "HGNC:10999": {
+    "ncbi_summary_sha256": "115cbcd4c3e4fb1a64c0629c789f11912eff87f79171e6f088574818059c894b",
+    "gencc_assertions": []
+  },
+  "HGNC:11160": {
+    "ncbi_summary_sha256": "586e3e8160a2b24062da7a72f40b6eac3a3a09a421b67f09ec697e4e935b19ba",
+    "gencc_assertions": []
+  },
+  "HGNC:11569": {
+    "ncbi_summary_sha256": "6e862b99205d601527ef8721c7358d12dfa0f51820865cd93577a08909ae7313",
+    "gencc_assertions": []
+  },
+  "HGNC:11597": {
+    "ncbi_summary_sha256": "3a2575aef0d9c6bb7d6db002c9871b9332b46f9f9720fd69148e119e3457c5b3",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-102135",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032607",
+        "disease_title": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-02-10 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-109265",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032607",
+        "disease_title": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Illumina",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-06-23 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-114472",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032607",
+        "disease_title": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-19 12:32:40"
+      },
+      {
+        "sgc_id": "SGC-121500",
+        "version_number": "2",
+        "disease_curie": "MONDO:0032607",
+        "disease_title": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-180466",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032607",
+        "disease_title": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_6493be4a-2e94-43f2-af77-edbd0da11bb7-2025-04-22T16:00:00.000Z",
+        "submitted_as_date": "2025-04-22T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:11631": {
+    "ncbi_summary_sha256": "b2a1530fc2d5094dd3d938300fdae7be706100c3cb85f6ea26a7af672d306b4f",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-104393",
+        "version_number": "4",
+        "disease_curie": "MONDO:0032745",
+        "disease_title": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_619ae2be-5ab6-418d-8824-373369337faa-2020-10-07T17:20:01.182Z",
+        "submitted_as_date": "2020-10-07T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-108992",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032745",
+        "disease_title": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Illumina",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-07-28 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-109862",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032745",
+        "disease_title": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-03-15 19:36:36"
+      },
+      {
+        "sgc_id": "SGC-120222",
+        "version_number": "1",
+        "disease_curie": "MONDO:0000508",
+        "disease_title": "syndromic intellectual disability",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-121516",
+        "version_number": "2",
+        "disease_curie": "MONDO:0032745",
+        "disease_title": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-124525",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032745",
+        "disease_title": "developmental delay with variable intellectual impairment and behavioral abnormalities",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01713",
+        "submitted_as_date": "2016-11-22 00:00:00"
+      }
+    ]
+  },
+  "HGNC:11784": {
+    "ncbi_summary_sha256": "476302b79ee2ec9f1ba5936d8b9324f7c0a1b86abd8baa5efc5bd180f5babfcc",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-105924",
+        "version_number": "2",
+        "disease_curie": "MONDO:0013775",
+        "disease_title": "thrombomodulin-related bleeding disorder",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_358cb384-4303-425d-9b92-509c600c2d03-2023-11-06T18:00:00.000Z",
+        "submitted_as_date": "2023-11-06T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-106234",
+        "version_number": "2",
+        "disease_curie": "MONDO:0013775",
+        "disease_title": "thrombomodulin-related bleeding disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_65204ffc-d2bd-4334-bf9f-eaea618593dd-2023-11-06T18:00:00.000Z",
+        "submitted_as_date": "2023-11-06T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-107438",
+        "version_number": "2",
+        "disease_curie": "MONDO:0016244",
+        "disease_title": "atypical hemolytic-uremic syndrome",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_867df2fb-b300-4f48-8be0-e600bee48bdd-2024-06-28T16:00:00.000Z",
+        "submitted_as_date": "2024-06-28T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-108332",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013775",
+        "disease_title": "thrombomodulin-related bleeding disorder",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/516",
+        "submitted_as_date": "2020-03-04 13:04:16"
+      },
+      {
+        "sgc_id": "SGC-111629",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013044",
+        "disease_title": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-19 12:32:40"
+      },
+      {
+        "sgc_id": "SGC-114530",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013775",
+        "disease_title": "thrombomodulin-related bleeding disorder",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-19 12:32:40"
+      },
+      {
+        "sgc_id": "SGC-116183",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013775",
+        "disease_title": "thrombomodulin-related bleeding disorder",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-121577",
+        "version_number": "2",
+        "disease_curie": "MONDO:0013044",
+        "disease_title": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:11796": {
+    "ncbi_summary_sha256": "397e419fba8f5a9173ca964239a3b2a25225bc244c84adbaff13c9f45b19cf4f",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-110466",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013757",
+        "disease_title": "congenital nongoitrous hypothyroidism 6",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-19 12:32:40"
+      },
+      {
+        "sgc_id": "SGC-121586",
+        "version_number": "2",
+        "disease_curie": "MONDO:0013757",
+        "disease_title": "congenital nongoitrous hypothyroidism 6",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-122092",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013757",
+        "disease_title": "congenital nongoitrous hypothyroidism 6",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00553",
+        "submitted_as_date": "2015-07-22 00:00:00"
+      }
+    ]
+  },
+  "HGNC:11990": {
+    "ncbi_summary_sha256": "484f8f72dd3611ff9bb44edfdd628f32f48f3f72ec757989e1cbbb21a45b3ff6",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-103698",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012243",
+        "disease_title": "B-cell immunodeficiency, distal limb anomalies, and urogenital malformations",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-03-13 12:08:41"
+      },
+      {
+        "sgc_id": "SGC-103832",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012243",
+        "disease_title": "B-cell immunodeficiency, distal limb anomalies, and urogenital malformations",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2025-04-15 18:20:02"
+      },
+      {
+        "sgc_id": "SGC-103918",
+        "version_number": "1",
+        "disease_curie": "MONDO:0700092",
+        "disease_title": "neurodevelopmental disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2025-04-15 18:20:09"
+      },
+      {
+        "sgc_id": "SGC-104562",
+        "version_number": "3",
+        "disease_curie": "MONDO:0012243",
+        "disease_title": "B-cell immunodeficiency, distal limb anomalies, and urogenital malformations",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_677a64c1-b005-44f6-9846-a7f371222667-2026-11-17T17:00:00.000Z",
+        "submitted_as_date": "2026-11-17"
+      },
+      {
+        "sgc_id": "SGC-109269",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012243",
+        "disease_title": "B-cell immunodeficiency, distal limb anomalies, and urogenital malformations",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Illumina",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-10-21 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-121697",
+        "version_number": "2",
+        "disease_curie": "MONDO:0012243",
+        "disease_title": "B-cell immunodeficiency, distal limb anomalies, and urogenital malformations",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:12327": {
+    "ncbi_summary_sha256": "8d86bcb2a21ff7754a5147ebd370af1fae0dd3f3c43173d493ed3cf54dcf8f61",
+    "gencc_assertions": []
+  },
+  "HGNC:12476": {
+    "ncbi_summary_sha256": "110940e95bd5e95d3a492a5f2b7c4462a130f59edf118af02eee7dc5308ca192",
+    "gencc_assertions": []
+  },
+  "HGNC:12513": {
+    "ncbi_summary_sha256": "94c0c1714c2b7c7fd93ed762c954f13bba0955b9536c7d951eb68c8b5124c387",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100643",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014209",
+        "disease_title": "early-onset progressive neurodegeneration-blindness-ataxia-spasticity syndrome",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-05-14 13:32:24"
+      },
+      {
+        "sgc_id": "SGC-103020",
+        "version_number": "1",
+        "disease_curie": "MONDO:0859363",
+        "disease_title": "spastic paraplegia 79A, autosomal dominant, with ataxia",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-01-20 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-107063",
+        "version_number": "2",
+        "disease_curie": "MONDO:0019064",
+        "disease_title": "hereditary spastic paraplegia",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c59d7ba6-8da7-4302-830b-c73eea1ccc79-2025-05-19T16:00:00.000Z",
+        "submitted_as_date": "2025-05-19T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-107193",
+        "version_number": "2",
+        "disease_curie": "MONDO:0019064",
+        "disease_title": "hereditary spastic paraplegia",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_a297cb2b-e4ea-4fd9-8266-611963988941-2025-05-19T16:00:00.000Z",
+        "submitted_as_date": "2025-05-19T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-114449",
+        "version_number": "1",
+        "disease_curie": "MONDO:0859363",
+        "disease_title": "spastic paraplegia 79A, autosomal dominant, with ataxia",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-03-13 22:07:35"
+      },
+      {
+        "sgc_id": "SGC-114722",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013340",
+        "disease_title": "Parkinson disease 5, autosomal dominant, susceptibility to",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-10-15 12:43:29"
+      },
+      {
+        "sgc_id": "SGC-114723",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014209",
+        "disease_title": "early-onset progressive neurodegeneration-blindness-ataxia-spasticity syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-07-15 17:37:10"
+      },
+      {
+        "sgc_id": "SGC-116292",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014209",
+        "disease_title": "early-onset progressive neurodegeneration-blindness-ataxia-spasticity syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177949",
+        "version_number": "1",
+        "disease_curie": "MONDO:0859363",
+        "disease_title": "spastic paraplegia 79A, autosomal dominant, with ataxia",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-177950",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014209",
+        "disease_title": "early-onset progressive neurodegeneration-blindness-ataxia-spasticity syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:13082": {
+    "ncbi_summary_sha256": "09c343c0ee069b358972ea89230259ca9495f7b643e037043e6cd2396b1756ec",
+    "gencc_assertions": []
+  },
+  "HGNC:1339": {
+    "ncbi_summary_sha256": "0ddc5bb48c77bed6eb519e734831587c35626dd5989964d6098d2b3861eaf6ca",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-103231",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012908",
+        "disease_title": "complement component 6 deficiency",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-01-25 12:08:11"
+      },
+      {
+        "sgc_id": "SGC-112102",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012908",
+        "disease_title": "complement component 6 deficiency",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-01-18 23:46:39"
+      }
+    ]
+  },
+  "HGNC:14118": {
+    "ncbi_summary_sha256": "0b14c19f5a4541bf7ff1bc7da9b862ee00df46956d6cb09ffdd508ba725f8410",
+    "gencc_assertions": []
+  },
+  "HGNC:14310": {
+    "ncbi_summary_sha256": "9700b8b655bb2dda4647e7760d6d255eae37530f0efccff457d320bc379ab284",
+    "gencc_assertions": []
+  },
+  "HGNC:14962": {
+    "ncbi_summary_sha256": "1b9f01cf8ab02fa10736c7fd20ee7564026ef92bd066d87512b8c19a430266ef",
+    "gencc_assertions": []
+  },
+  "HGNC:15475": {
+    "ncbi_summary_sha256": "524db6193dbee0ccadec7b8b8ac1556e88b242703dc4b641f79f54fed4785c61",
+    "gencc_assertions": []
+  },
+  "HGNC:15500": {
+    "ncbi_summary_sha256": "b88d14e0810b90053a29cdee0e6208f4dbb33f26aa81cd879e5be82ec14cfbd7",
+    "gencc_assertions": []
+  },
+  "HGNC:15674": {
+    "ncbi_summary_sha256": "32e6b635a122b7c05adf7016255d0a7874c9b53e939ec5b60a20540613959b44",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-179788",
+        "version_number": "1",
+        "disease_curie": "MONDO:0700092",
+        "disease_title": "neurodevelopmental disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PMGRC",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2026-06-08T07:00:00.000Z"
+      }
+    ]
+  },
+  "HGNC:15762": {
+    "ncbi_summary_sha256": "f477eff36ae37bed7695159fed5e800f26ea8bc12746f3b8ba1c2bb12fce5fdc",
+    "gencc_assertions": []
+  },
+  "HGNC:15923": {
+    "ncbi_summary_sha256": "c0f3b7d98f77c06843903d1074a759f0272dd589134b9059f3e593d3417b68e0",
+    "gencc_assertions": []
+  },
+  "HGNC:15935": {
+    "ncbi_summary_sha256": "06bbb61d649d506c14ab48e84c1500b66c4fbbb15dc8291214b13833fd9111fa",
+    "gencc_assertions": []
+  },
+  "HGNC:16060": {
+    "ncbi_summary_sha256": "942df864ec4e2a96d3f78af6bc5668a12115de3fe1508aca0914c2efa8395a9a",
+    "gencc_assertions": []
+  },
+  "HGNC:1623": {
+    "ncbi_summary_sha256": "f27fdb1663583ea3422b8c24c187fe0c07f292ac4d3ab021bb199d1508fb49e2",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-103246",
+        "version_number": "1",
+        "disease_curie": "MONDO:0700092",
+        "disease_title": "neurodevelopmental disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-12-04 12:08:12"
+      },
+      {
+        "sgc_id": "SGC-124922",
+        "version_number": "1",
+        "disease_curie": "MONDO:0100038",
+        "disease_title": "complex neurodevelopmental disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P03590",
+        "submitted_as_date": "2024-12-04 00:00:00"
+      }
+    ]
+  },
+  "HGNC:16438": {
+    "ncbi_summary_sha256": "e6c630ad3a6caef3f699268336e6712c1b6a898c730287161efacda7f3597104",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-111605",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013204",
+        "disease_title": "corneal dystrophy, Fuchs endothelial, 4",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-09-28 20:43:45"
+      },
+      {
+        "sgc_id": "SGC-114269",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009019",
+        "disease_title": "congenital hereditary endothelial dystrophy of cornea",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-03-06 21:00:51"
+      },
+      {
+        "sgc_id": "SGC-114270",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009015",
+        "disease_title": "corneal dystrophy-perceptive deafness syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-09-18 07:29:29"
+      },
+      {
+        "sgc_id": "SGC-116035",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009015",
+        "disease_title": "corneal dystrophy-perceptive deafness syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-116036",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005321",
+        "disease_title": "Fuchs' endothelial dystrophy",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-116037",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009019",
+        "disease_title": "congenital hereditary endothelial dystrophy of cornea",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-121170",
+        "version_number": "2",
+        "disease_curie": "MONDO:0013204",
+        "disease_title": "corneal dystrophy, Fuchs endothelial, 4",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-121171",
+        "version_number": "2",
+        "disease_curie": "MONDO:0009019",
+        "disease_title": "congenital hereditary endothelial dystrophy of cornea",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-123386",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013204",
+        "disease_title": "corneal dystrophy, Fuchs endothelial, 4",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02299",
+        "submitted_as_date": "2017-08-31 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123437",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009019",
+        "disease_title": "congenital hereditary endothelial dystrophy of cornea",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00061",
+        "submitted_as_date": "2022-08-03 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-180117",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013204",
+        "disease_title": "corneal dystrophy, Fuchs endothelial, 4",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Natera",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2026-02-03T05:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-180118",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009015",
+        "disease_title": "corneal dystrophy-perceptive deafness syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Natera",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-01-25T05:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:16691": {
+    "ncbi_summary_sha256": "e720a575e47e9657cc1be76d138d3b22fe48d1454f4e880c0a7823f757252115",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-110714",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014592",
+        "disease_title": "microcephaly and chorioretinopathy 3",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-04-09 12:05:19"
+      },
+      {
+        "sgc_id": "SGC-119866",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009624",
+        "disease_title": "microcephaly and chorioretinopathy 1",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123370",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014592",
+        "disease_title": "microcephaly and chorioretinopathy 3",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00760",
+        "submitted_as_date": "2015-07-22 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177898",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014592",
+        "disease_title": "microcephaly and chorioretinopathy 3",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:16744": {
+    "ncbi_summary_sha256": "655748b8bfe2d5827fe81271a7ca111cda81778f474a446e3c9ab0376567c6f9",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-102546",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044807",
+        "disease_title": "inherited dystonia",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-08-30 19:04:35"
+      },
+      {
+        "sgc_id": "SGC-108538",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013928",
+        "disease_title": "dystonia 23",
+        "classification_title": "Moderate",
+        "moi_title": "Unknown",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/474",
+        "submitted_as_date": "2021-01-28 13:05:28"
+      }
+    ]
+  },
+  "HGNC:16836": {
+    "ncbi_summary_sha256": "a505a8845d58fada0fee38725a783ce2325ddf80abd684f4cda77e8d7884485b",
+    "gencc_assertions": []
+  },
+  "HGNC:16985": {
+    "ncbi_summary_sha256": "e80b925191cadd0efc82025a88f9a3b050577b0e0a7adbcd969f74adc2fcab9e",
+    "gencc_assertions": []
+  },
+  "HGNC:17282": {
+    "ncbi_summary_sha256": "278f9013af5fd9f4433693d9ea659a0c3078b11b6c8c555e31af00f078459040",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100499",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011355",
+        "disease_title": "cone-rod dystrophy 7",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-08-31 13:31:41"
+      },
+      {
+        "sgc_id": "SGC-108982",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005258",
+        "disease_title": "autism spectrum disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Illumina",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-03-04 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-109228",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011355",
+        "disease_title": "cone-rod dystrophy 7",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Illumina",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-15 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-114009",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011355",
+        "disease_title": "cone-rod dystrophy 7",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-09-16 12:29:45"
+      },
+      {
+        "sgc_id": "SGC-115573",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015993",
+        "disease_title": "cone-rod dystrophy",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123392",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011355",
+        "disease_title": "cone-rod dystrophy 7",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02325",
+        "submitted_as_date": "2018-01-22 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176073",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005260",
+        "disease_title": "autism",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176074",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015993",
+        "disease_title": "cone-rod dystrophy",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:17283": {
+    "ncbi_summary_sha256": "bba8726334d6118f243cca0a2301e0b5d6bac61c5012393a8015b828a1e304cd",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101847",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033543",
+        "disease_title": "cone-rod synaptic disorder syndrome, congenital nonprogressive",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-07-25 12:08:35"
+      },
+      {
+        "sgc_id": "SGC-114010",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033543",
+        "disease_title": "cone-rod synaptic disorder syndrome, congenital nonprogressive",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-16 08:49:24"
+      },
+      {
+        "sgc_id": "SGC-124755",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033543",
+        "disease_title": "cone-rod synaptic disorder syndrome, congenital nonprogressive",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02968",
+        "submitted_as_date": "2020-06-23 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-125112",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012490",
+        "disease_title": "cone-rod synaptic disorder, congenital nonprogressive",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Franklin by Genoox",
+        "submitted_as_public_report_url": "https://franklin.genoox.com/clinical-db/variant/snp/chr8-104955112-C-T?app=conditions",
+        "submitted_as_date": "2020-07-01 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176075",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033543",
+        "disease_title": "cone-rod synaptic disorder syndrome, congenital nonprogressive",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:17299": {
+    "ncbi_summary_sha256": "baaa62c2a9a9b10a7e4878f1181f9f92f6faa4df48aaba051b14edbce4f4f2c9",
+    "gencc_assertions": []
+  },
+  "HGNC:17330": {
+    "ncbi_summary_sha256": "6b97eea680775da06dd435de98e37dc6be0330db53d4403d2f043f551b7e18b6",
+    "gencc_assertions": []
+  },
+  "HGNC:17423": {
+    "ncbi_summary_sha256": "4c73fc32b1fc916d9487d39456595c571dd4effea0859080600f4e232744012e",
+    "gencc_assertions": []
+  },
+  "HGNC:17820": {
+    "ncbi_summary_sha256": "4bd62e43a24e8949bf928d1ed9fb96b1c557f208cb61e59c2cbbfb192ea91ec4",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-103508",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009946",
+        "disease_title": "hemolytic anemia due to pyrimidine 5' nucleotidase deficiency",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-07-10 12:08:29"
+      },
+      {
+        "sgc_id": "SGC-110293",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009946",
+        "disease_title": "hemolytic anemia due to pyrimidine 5' nucleotidase deficiency",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-12-09 02:59:58"
+      },
+      {
+        "sgc_id": "SGC-117748",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009946",
+        "disease_title": "hemolytic anemia due to pyrimidine 5' nucleotidase deficiency",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-121777",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009946",
+        "disease_title": "hemolytic anemia due to pyrimidine 5' nucleotidase deficiency",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00060",
+        "submitted_as_date": "2015-07-22 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177463",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009946",
+        "disease_title": "hemolytic anemia due to pyrimidine 5' nucleotidase deficiency",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:17909": {
+    "ncbi_summary_sha256": "2504eec27cb8b44e16c4c81579493b6abca17936583881a2bd8058b9e71b72f7",
+    "gencc_assertions": []
+  },
+  "HGNC:17933": {
+    "ncbi_summary_sha256": "532f703fd240eeea10a09b49ed25b41b41c47170fdb6911006e08009387fadcf",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101346",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033547",
+        "disease_title": "Li-Ghorbani-Weisz-Hubshman syndrome",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-11-06 13:36:00"
+      },
+      {
+        "sgc_id": "SGC-111307",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033547",
+        "disease_title": "Li-Ghorbani-Weisz-Hubshman syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-19 12:32:23"
+      },
+      {
+        "sgc_id": "SGC-113060",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033547",
+        "disease_title": "Li-Ghorbani-Weisz-Hubshman syndrome",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-19 12:32:23"
+      },
+      {
+        "sgc_id": "SGC-178412",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033547",
+        "disease_title": "Li-Ghorbani-Weisz-Hubshman syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:17976": {
+    "ncbi_summary_sha256": "5a077fbd349f0abf53534d74fa7ea3ca1e666428dccc2a99ec7aab2b555f8218",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-113935",
+        "version_number": "1",
+        "disease_curie": "MONDO:0030515",
+        "disease_title": "spermatogenic failure 63",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-01-19 14:54:46"
+      },
+      {
+        "sgc_id": "SGC-120839",
+        "version_number": "2",
+        "disease_curie": "MONDO:0001913",
+        "disease_title": "oligospermia",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-120840",
+        "version_number": "2",
+        "disease_curie": "MONDO:0004983",
+        "disease_title": "spermatogenic failure",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:18127": {
+    "ncbi_summary_sha256": "16293ab5a2373fb55f26b8aa3f3405e34a8021b7932ca0f2b8cb33a5f49f17b1",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-106391",
+        "version_number": "2",
+        "disease_curie": "MONDO:0009624",
+        "disease_title": "microcephaly and chorioretinopathy 1",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_ccb03ff1-94d3-4387-b312-ac8e38d83d89-2023-06-05T16:00:00.000Z",
+        "submitted_as_date": "2023-06-05T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-114696",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009624",
+        "disease_title": "microcephaly and chorioretinopathy 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-04-11 15:57:23"
+      },
+      {
+        "sgc_id": "SGC-119158",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009624",
+        "disease_title": "microcephaly and chorioretinopathy 1",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-122095",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009624",
+        "disease_title": "microcephaly and chorioretinopathy 1",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00556",
+        "submitted_as_date": "2015-07-22 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177899",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009624",
+        "disease_title": "microcephaly and chorioretinopathy 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:18150": {
+    "ncbi_summary_sha256": "a4e59b2c108c231a0c53a79a2c152ae9ab085f6de7d36941be2affd83bf73256",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101535",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014689",
+        "disease_title": "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-06-05 13:37:03"
+      },
+      {
+        "sgc_id": "SGC-103820",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014689",
+        "disease_title": "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2025-05-16 18:20:01"
+      },
+      {
+        "sgc_id": "SGC-105545",
+        "version_number": "2",
+        "disease_curie": "MONDO:0014689",
+        "disease_title": "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_00998e50-dd3f-4bfa-8500-34d34980d5c8-2025-04-28T16:00:00.000Z",
+        "submitted_as_date": "2025-04-28T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-110259",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014689",
+        "disease_title": "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-11-13 15:30:25"
+      },
+      {
+        "sgc_id": "SGC-120055",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014689",
+        "disease_title": "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-122880",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014689",
+        "disease_title": "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02979",
+        "submitted_as_date": "2023-05-24 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177195",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014689",
+        "disease_title": "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:1850": {
+    "ncbi_summary_sha256": "bf77523b8c301d5fe8174524a5f127142d85c5cc687500c68dbf8bb4c26472f0",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-104187",
+        "version_number": "1",
+        "disease_curie": "MONDO:0100062",
+        "disease_title": "genetic developmental and epileptic encephalopathy",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2025-02-11 18:20:30"
+      },
+      {
+        "sgc_id": "SGC-104188",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005027",
+        "disease_title": "epilepsy",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2025-02-11 18:20:30"
+      },
+      {
+        "sgc_id": "SGC-109082",
+        "version_number": "1",
+        "disease_curie": "MONDO:0020705",
+        "disease_title": "neural tube defects, susceptibility to",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Illumina",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2017-04-25 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-112229",
+        "version_number": "1",
+        "disease_curie": "MONDO:0020705",
+        "disease_title": "neural tube defects, susceptibility to",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-07-02 11:59:18"
+      },
+      {
+        "sgc_id": "SGC-113604",
+        "version_number": "1",
+        "disease_curie": "MONDO:0030270",
+        "disease_title": "lymphatic malformation 9",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-06-02 18:27:57"
+      },
+      {
+        "sgc_id": "SGC-124927",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015193",
+        "disease_title": "hydrops fetalis",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P03683",
+        "submitted_as_date": "2025-03-05 00:00:00"
+      }
+    ]
+  },
+  "HGNC:19090": {
+    "ncbi_summary_sha256": "25872d98c496cdc348619b9adae011cc6b1b051ab285b18dec33e9bc0d92724d",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-125183",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005151",
+        "disease_title": "endocrine system disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Broad Center for Mendelian Genomics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-07-28 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-179427",
+        "version_number": "2",
+        "disease_curie": "MONDO:0019938",
+        "disease_title": "anorectal malformation",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "LiferaOmics",
+        "submitted_as_public_report_url": "https://clinicalgenome.org/docs/gene-disease-validity-standard-operating-procedures-version-11/",
+        "submitted_as_date": "2026-04-05T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:1918": {
+    "ncbi_summary_sha256": "1904956df31960aca1f7b443c173c3bf15ee08ecf8367d4cab6ebee6107837d9",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100907",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032600",
+        "disease_title": "Snijders Blok-Campeau syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-04-30 13:33:47"
+      },
+      {
+        "sgc_id": "SGC-103265",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032600",
+        "disease_title": "Snijders Blok-Campeau syndrome",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-01-08 12:08:13"
+      },
+      {
+        "sgc_id": "SGC-104623",
+        "version_number": "4",
+        "disease_curie": "MONDO:0032600",
+        "disease_title": "Snijders Blok-Campeau syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_0e94c7c1-9c13-4189-8a9f-e9808916526f-2022-03-02T17:00:00.000Z",
+        "submitted_as_date": "2022-03-02T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-109131",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032600",
+        "disease_title": "Snijders Blok-Campeau syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Illumina",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-03-23 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-110733",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032600",
+        "disease_title": "Snijders Blok-Campeau syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-01-12 20:53:22"
+      },
+      {
+        "sgc_id": "SGC-123808",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032600",
+        "disease_title": "Snijders Blok-Campeau syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02440",
+        "submitted_as_date": "2025-01-14 00:00:00"
+      }
+    ]
+  },
+  "HGNC:1936": {
+    "ncbi_summary_sha256": "a4f69018d2d759bcfe6d1f769f99b681333a6e866aed7181b3561d662703fd9c",
+    "gencc_assertions": []
+  },
+  "HGNC:19364": {
+    "ncbi_summary_sha256": "5ae6e981e2e808ef2f9c55d7808d683254390f48639e70ce67c2d0aec9708f83",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-107142",
+        "version_number": "2",
+        "disease_curie": "MONDO:0005021",
+        "disease_title": "dilated cardiomyopathy",
+        "classification_title": "No Known Disease Relationship",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_f5457584-d9b3-4bde-87d5-26a4574f19fb-2025-08-21T16:00:00.000Z",
+        "submitted_as_date": "2025-08-21T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:19365": {
+    "ncbi_summary_sha256": "3c6825f5c3b5817a840eeb95211375d01d754cdc2f8addd2e7cb3a03fda11793",
+    "gencc_assertions": []
+  },
+  "HGNC:19702": {
+    "ncbi_summary_sha256": "2e82368bcdfa579e91b603ee3b9971993747910b5aa15bcdc4f1a4cd923f2cba",
+    "gencc_assertions": []
+  },
+  "HGNC:19721": {
+    "ncbi_summary_sha256": "0ba2ff20291502600eda90dadf825b4c4738a8e1a052d02fa2081ec23801c03c",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-107454",
+        "version_number": "3",
+        "disease_curie": "MONDO:0009629",
+        "disease_title": "Desbuquois dysplasia 1",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_30c64852-60e0-44ce-bf10-cf7af11b1fa9-2024-11-20T05:00:00.000Z",
+        "submitted_as_date": "2024-11-20T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-112149",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009629",
+        "disease_title": "Desbuquois dysplasia 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-09-14 14:18:45"
+      },
+      {
+        "sgc_id": "SGC-118536",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015426",
+        "disease_title": "Desbuquois dysplasia",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-122849",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009629",
+        "disease_title": "Desbuquois dysplasia 1",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02360",
+        "submitted_as_date": "2025-01-28 00:00:00"
+      }
+    ]
+  },
+  "HGNC:19733": {
+    "ncbi_summary_sha256": "c3846f8125e3628e1f494f56d3fcb95f20eb6174c257bdcd7b47b45176178c15",
+    "gencc_assertions": []
+  },
+  "HGNC:19832": {
+    "ncbi_summary_sha256": "4667be72f71d547dab68ee03a3b274c79b04ec5890b341237b4125ae392d2122",
+    "gencc_assertions": []
+  },
+  "HGNC:19839": {
+    "ncbi_summary_sha256": "a5b2572b350297768720a81f223c822375063f2bc4e4123110ef4ae96e85b762",
+    "gencc_assertions": []
+  },
+  "HGNC:19885": {
+    "ncbi_summary_sha256": "e14bf94d307bcfacf2e264c32afd128e4d67907a0be3d51e975a66e147805f4f",
+    "gencc_assertions": []
+  },
+  "HGNC:20277": {
+    "ncbi_summary_sha256": "8e2b655aaa6dc488da96c0454d9ca15e740424973c643aad8597b82c7d9be960",
+    "gencc_assertions": []
+  },
+  "HGNC:20686": {
+    "ncbi_summary_sha256": "d0439c58c3ebfbd7fcaa0c9f07dd241043cff9e417f6f0f2a1a976d9ad50241a",
+    "gencc_assertions": []
+  },
+  "HGNC:20822": {
+    "ncbi_summary_sha256": "3a3d8ae3436331781cebd02a3e81a01a15190a731235cd0a7c573c699718e86a",
+    "gencc_assertions": []
+  },
+  "HGNC:20996": {
+    "ncbi_summary_sha256": "830f202a66c5836ea0d21b09da614e67fc9be58f999e243e1f0fa074edbeca0c",
+    "gencc_assertions": []
+  },
+  "HGNC:21390": {
+    "ncbi_summary_sha256": "e9cddf30602b4fc9d2a97e333d0dc1b376e4951d99304700587288f277b1d8ec",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101850",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014694",
+        "disease_title": "spondylocostal dysostosis 6, autosomal recessive",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-04-14 19:01:51"
+      },
+      {
+        "sgc_id": "SGC-110378",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014694",
+        "disease_title": "spondylocostal dysostosis 6, autosomal recessive",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2019-12-20 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-114015",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014694",
+        "disease_title": "spondylocostal dysostosis 6, autosomal recessive",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-01-28 19:36:15"
+      },
+      {
+        "sgc_id": "SGC-119935",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010180",
+        "disease_title": "autosomal recessive spondylocostal dysostosis",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176086",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014694",
+        "disease_title": "spondylocostal dysostosis 6, autosomal recessive",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:21575": {
+    "ncbi_summary_sha256": "bf3a6675b381746a6691e4d7effe9ab5725ca4ba950e0af9e2c1a5ef007d6214",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100706",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012078",
+        "disease_title": "Joubert syndrome 3",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-05-04 13:32:43"
+      },
+      {
+        "sgc_id": "SGC-102436",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019200",
+        "disease_title": "retinitis pigmentosa",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-05-04 19:04:08"
+      },
+      {
+        "sgc_id": "SGC-105055",
+        "version_number": "2",
+        "disease_curie": "MONDO:0012078",
+        "disease_title": "Joubert syndrome 3",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_d0d8d22f-cea6-4f4f-bc71-e85303dccac1-2021-10-26T14:33:45.589Z",
+        "submitted_as_date": "2021-10-26T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-111788",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012078",
+        "disease_title": "Joubert syndrome 3",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-02-02 10:02:30"
+      },
+      {
+        "sgc_id": "SGC-114889",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012078",
+        "disease_title": "Joubert syndrome 3",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Laboratory for Molecular Medicine",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-07-13 13:37:09"
+      },
+      {
+        "sgc_id": "SGC-115976",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019200",
+        "disease_title": "retinitis pigmentosa",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-115977",
+        "version_number": "1",
+        "disease_curie": "MONDO:0018772",
+        "disease_title": "Joubert syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-115978",
+        "version_number": "1",
+        "disease_curie": "MONDO:0016364",
+        "disease_title": "Joubert syndrome with ocular defect",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-124503",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012078",
+        "disease_title": "Joubert syndrome 3",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01653",
+        "submitted_as_date": "2025-01-27 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176486",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012078",
+        "disease_title": "Joubert syndrome 3",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-189912",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012078",
+        "disease_title": "Joubert syndrome 3",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Natera",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-03-17T05:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:22199": {
+    "ncbi_summary_sha256": "1450dd8b93704440c63e361083adfd870f9e384f07c66bc83155358878b63917",
+    "gencc_assertions": []
+  },
+  "HGNC:23085": {
+    "ncbi_summary_sha256": "6debba2b2903230560ec2ecd57ca97501835ef0c5233e69a3aff580fd6cf2b9f",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-102460",
+        "version_number": "1",
+        "disease_curie": "MONDO:0100038",
+        "disease_title": "complex neurodevelopmental disorder",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-08-30 19:04:15"
+      }
+    ]
+  },
+  "HGNC:2334": {
+    "ncbi_summary_sha256": "a6fa67c3dc3a37f2ee12c8a50c75a677e50a5f8b755bcdf5e9422bdcd21b8076",
+    "gencc_assertions": []
+  },
+  "HGNC:23381": {
+    "ncbi_summary_sha256": "70750a4eb61a465d686d4948af8c4b16ddcc5bdff39b58f5b70b1d207bf2d250",
+    "gencc_assertions": []
+  },
+  "HGNC:2343": {
+    "ncbi_summary_sha256": "c57608bc51afc2553b61f9abffe088438f37cedfc404d646d4c2e9747bed878c",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-112364",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013453",
+        "disease_title": "Leber congenital amaurosis 8",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-01-05 20:27:49"
+      },
+      {
+        "sgc_id": "SGC-112365",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010818",
+        "disease_title": "retinitis pigmentosa 12",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-11-16 09:35:36"
+      },
+      {
+        "sgc_id": "SGC-114926",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013453",
+        "disease_title": "Leber congenital amaurosis 8",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Laboratory for Molecular Medicine",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-06-01 13:37:19"
+      },
+      {
+        "sgc_id": "SGC-116488",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019200",
+        "disease_title": "retinitis pigmentosa",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-116489",
+        "version_number": "1",
+        "disease_curie": "MONDO:0018998",
+        "disease_title": "Leber congenital amaurosis",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-116490",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005514",
+        "disease_title": "nanophthalmia",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-116491",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008246",
+        "disease_title": "pigmented paravenous retinochoroidal atrophy",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-122488",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013453",
+        "disease_title": "Leber congenital amaurosis 8",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01195",
+        "submitted_as_date": "2025-01-21 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123177",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010818",
+        "disease_title": "retinitis pigmentosa 12",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01957",
+        "submitted_as_date": "2017-05-17 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123178",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008246",
+        "disease_title": "pigmented paravenous retinochoroidal atrophy",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01958",
+        "submitted_as_date": "2017-05-17 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123842",
+        "version_number": "1",
+        "disease_curie": "MONDO:0020242",
+        "disease_title": "hereditary macular dystrophy",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02807",
+        "submitted_as_date": "2019-10-23 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-179604",
+        "version_number": "2",
+        "disease_curie": "MONDO:0019118",
+        "disease_title": "inherited retinal dystrophy",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_37fcf532-953e-4d8e-a049-c4de537a477e-2026-03-05T17:00:00.000Z",
+        "submitted_as_date": "2026-03-05T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-179910",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008246",
+        "disease_title": "pigmented paravenous retinochoroidal atrophy",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Natera",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2025-11-10T05:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-179911",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013453",
+        "disease_title": "Leber congenital amaurosis 8",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Natera",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-02-27T05:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-190034",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008246",
+        "disease_title": "pigmented paravenous retinochoroidal atrophy",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_d963441b-23b3-4b5f-9ff4-66fcd7b01069-2026-07-02T16:00:00.000Z",
+        "submitted_as_date": "2026-07-02"
+      }
+    ]
+  },
+  "HGNC:23492": {
+    "ncbi_summary_sha256": "20c6b68d66f1226d4cd4bdafafabcdc78bba744e53faa3dea27c6564e9791060",
+    "gencc_assertions": []
+  },
+  "HGNC:23527": {
+    "ncbi_summary_sha256": "6b53e63649ca77a552bf1f37c9692304d9d4b3bde19c69a2df0937e8751b1265",
+    "gencc_assertions": []
+  },
+  "HGNC:23730": {
+    "ncbi_summary_sha256": "5be9af2d09f67686b7240d3cfc459d639b4856d0a7b2358c0b9f4e16e8e4a7c5",
+    "gencc_assertions": []
+  },
+  "HGNC:23794": {
+    "ncbi_summary_sha256": "f8040828dee8451f6f494cb14216d985f0f94697af6950b8f7717408ac8d47ed",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101633",
+        "version_number": "1",
+        "disease_curie": "MONDO:0054845",
+        "disease_title": "developmental and epileptic encephalopathy, 66",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-04-13 13:37:35"
+      },
+      {
+        "sgc_id": "SGC-107276",
+        "version_number": "4",
+        "disease_curie": "MONDO:0100062",
+        "disease_title": "genetic developmental and epileptic encephalopathy",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_ec03c5b9-b82a-4a4e-a4f5-41dba55ac50f-2024-05-01T16:00:00.000Z",
+        "submitted_as_date": "2024-05-01T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-111465",
+        "version_number": "1",
+        "disease_curie": "MONDO:0054845",
+        "disease_title": "developmental and epileptic encephalopathy, 66",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-07-13 07:22:21"
+      },
+      {
+        "sgc_id": "SGC-124595",
+        "version_number": "1",
+        "disease_curie": "MONDO:0054845",
+        "disease_title": "developmental and epileptic encephalopathy, 66",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02368",
+        "submitted_as_date": "2019-03-13 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177559",
+        "version_number": "1",
+        "disease_curie": "MONDO:0054845",
+        "disease_title": "developmental and epileptic encephalopathy, 66",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:23844": {
+    "ncbi_summary_sha256": "aa8f395e254e8584f7f30ddc994b62fc2da0e561268fa0d6b7cd2ef0a4306dee",
+    "gencc_assertions": []
+  },
+  "HGNC:24084": {
+    "ncbi_summary_sha256": "74c64f66af066e36854366f9b6f283d94c12ab6aabf1c6cf2daf2c0eaed90cc1",
+    "gencc_assertions": []
+  },
+  "HGNC:24087": {
+    "ncbi_summary_sha256": "4a68a36904fc4f1c63a70d184ccc206411203bc7af37209bfea163d9156c45bd",
+    "gencc_assertions": []
+  },
+  "HGNC:24174": {
+    "ncbi_summary_sha256": "7a4c837ef4c40207f60e04796835cf32381279c129ea928563da8d95904bfa90",
+    "gencc_assertions": []
+  },
+  "HGNC:24462": {
+    "ncbi_summary_sha256": "14a23b5bd3c8cc74f55368abb33f52af0db0eb917bdf56ceabae22657ed123ec",
+    "gencc_assertions": []
+  },
+  "HGNC:24489": {
+    "ncbi_summary_sha256": "f5bc91dc739fcb3ca88ef321768e00d3cdd663a4fa1d6a3a78e76561a5ff6a57",
+    "gencc_assertions": []
+  },
+  "HGNC:24535": {
+    "ncbi_summary_sha256": "a5442932aefe370dc3e1e96bcaeec8d5119119f63ca0ca0636256275dfe42005",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-176135",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019056",
+        "disease_title": "neuromuscular disease",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:24628": {
+    "ncbi_summary_sha256": "f53dc4d43d738ddc35135ffd9c07ce758ee4525e915ff4bfa2cc93761f714994",
+    "gencc_assertions": []
+  },
+  "HGNC:24650": {
+    "ncbi_summary_sha256": "33dd0b0fd420e79fcdb52944f290f0e0d71e5bf2bd260059e10c95ac7ddc612d",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101080",
+        "version_number": "1",
+        "disease_curie": "MONDO:0027407",
+        "disease_title": "Kleefstra syndrome 1",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-09-18 12:08:17"
+      },
+      {
+        "sgc_id": "SGC-106351",
+        "version_number": "4",
+        "disease_curie": "MONDO:0012455",
+        "disease_title": "Kleefstra syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_db91a861-6a88-4848-b6d5-4772bdef52ff-2018-06-06T10:00:00.000Z",
+        "submitted_as_date": "2018-06-06T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-109715",
+        "version_number": "1",
+        "disease_curie": "MONDO:0027407",
+        "disease_title": "Kleefstra syndrome 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-07-27 15:12:46"
+      },
+      {
+        "sgc_id": "SGC-124333",
+        "version_number": "1",
+        "disease_curie": "MONDO:0027407",
+        "disease_title": "Kleefstra syndrome 1",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00353",
+        "submitted_as_date": "2019-03-07 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-178552",
+        "version_number": "1",
+        "disease_curie": "MONDO:0027407",
+        "disease_title": "Kleefstra syndrome 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:2467": {
+    "ncbi_summary_sha256": "c83095ab6a137a583a9b9e80930a89bc7e1658d0a30f5bd9138a810c2a42f75d",
+    "gencc_assertions": []
+  },
+  "HGNC:24764": {
+    "ncbi_summary_sha256": "4685de9d17e0c8b1666a8e399946af4f11abeae845741518e064b52015539c58",
+    "gencc_assertions": []
+  },
+  "HGNC:24765": {
+    "ncbi_summary_sha256": "9a1be1ae0d47f72dd12c7303bb5bc2a9a1a8a60c86c4e24ee45ccfbab0c6dcfd",
+    "gencc_assertions": []
+  },
+  "HGNC:24886": {
+    "ncbi_summary_sha256": "40e4dc2bba558883a31e41a4d6fde944cd1de3526304d4d2baa80935936655b7",
+    "gencc_assertions": []
+  },
+  "HGNC:25067": {
+    "ncbi_summary_sha256": "6d09893dc41ff819574433fbf59c146aed74fbc1f010cda3230e1cca0c90cee2",
+    "gencc_assertions": []
+  },
+  "HGNC:25484": {
+    "ncbi_summary_sha256": "16b087f4d842387a4eba9699ad75cc1af9dd37a9e7596a56d3eae86d089a491c",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-175453",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019042",
+        "disease_title": "multiple congenital anomalies/dysmorphic syndrome",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:25509": {
+    "ncbi_summary_sha256": "aa57d8a6053f71d2e0a677c6161ce1b92d74c96836eb419c136c0cbc6db9316e",
+    "gencc_assertions": []
+  },
+  "HGNC:25527": {
+    "ncbi_summary_sha256": "135a44f654a79c8c2a7721eda6ad7da45031339cec510103d817ecfc516993c5",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-107107",
+        "version_number": "3",
+        "disease_curie": "MONDO:0005265",
+        "disease_title": "inflammatory bowel disease",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Unknown",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c576dc9d-3feb-4707-9fe4-b58622f4495d-2025-05-05T16:00:00.000Z",
+        "submitted_as_date": "2025-05-05T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176603",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005265",
+        "disease_title": "inflammatory bowel disease",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:25631": {
+    "ncbi_summary_sha256": "ef08f68d0580ba70a278e23ec2018d9fd5e25cd12e57e6d4ee81737178177361",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100903",
+        "version_number": "1",
+        "disease_curie": "MONDO:0054724",
+        "disease_title": "spermatogenic failure 20",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-01-04 13:33:45"
+      },
+      {
+        "sgc_id": "SGC-120316",
+        "version_number": "1",
+        "disease_curie": "MONDO:0017173",
+        "disease_title": "non-syndromic male infertility due to sperm motility disorder",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      }
+    ]
+  },
+  "HGNC:25741": {
+    "ncbi_summary_sha256": "e66848e11593578e941b248fc4655eee5f4e91ed706f1a378b86b783f24f3136",
+    "gencc_assertions": []
+  },
+  "HGNC:25754": {
+    "ncbi_summary_sha256": "1bc2f110bd02589c0c770f5d49114d7080e3f423d2ec691fd75dc649ab158f95",
+    "gencc_assertions": []
+  },
+  "HGNC:25815": {
+    "ncbi_summary_sha256": "8c3e462274e24a86f7df93edf48431614d1dc8553297015942f838cdae4b5e2d",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100113",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013871",
+        "disease_title": "Seckel syndrome 6",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-04-18 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-110915",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013871",
+        "disease_title": "Seckel syndrome 6",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-04-06 15:37:56"
+      },
+      {
+        "sgc_id": "SGC-122128",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013871",
+        "disease_title": "Seckel syndrome 6",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00608",
+        "submitted_as_date": "2025-01-27 00:00:00"
+      }
+    ]
+  },
+  "HGNC:25907": {
+    "ncbi_summary_sha256": "473a305ba93699752f134ac66d445638874e86889d5eb36bae98ef8e3db8e250",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-102537",
+        "version_number": "1",
+        "disease_curie": "MONDO:0001071",
+        "disease_title": "intellectual disability",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-04-04 19:04:33"
+      },
+      {
+        "sgc_id": "SGC-179742",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044970",
+        "disease_title": "mitochondrial disease",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_dea50dbe-916f-4122-8e63-3f9d1e238c2a-2024-07-29T04:00:00.000Z",
+        "submitted_as_date": "2024-07-29T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:25928": {
+    "ncbi_summary_sha256": "30f98a40be77db17d0cbcb732553bb6b253948b0fb642f2d6068e596062b9aad",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-109490",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033005",
+        "disease_title": "Galloway-Mowat syndrome 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-07-16 15:07:01"
+      },
+      {
+        "sgc_id": "SGC-119832",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009627",
+        "disease_title": "Galloway-Mowat syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-119833",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019374",
+        "disease_title": "CAMOS syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-178113",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033005",
+        "disease_title": "Galloway-Mowat syndrome 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-180158",
+        "version_number": "1",
+        "disease_curie": "MONDO:0033005",
+        "disease_title": "Galloway-Mowat syndrome 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00861",
+        "submitted_as_date": "2015-07-22T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:2622": {
+    "ncbi_summary_sha256": "c1749b7165c8bd5c53d413e44b1e6941a2cc69ee74ade2d6bb63081dee370b56",
+    "gencc_assertions": []
+  },
+  "HGNC:26307": {
+    "ncbi_summary_sha256": "08bc25bc66ed03275017ca83ee96c427103fe4018a1422fa089300fe2c8e7c2a",
+    "gencc_assertions": []
+  },
+  "HGNC:2642": {
+    "ncbi_summary_sha256": "d5c18f1007d03e255bc588f9d5f6a0c536c9bd8617a16ce423ad4bab3be9467c",
+    "gencc_assertions": []
+  },
+  "HGNC:2652": {
+    "ncbi_summary_sha256": "50eab06d5caebbd40c654e30d814064a4a65c488e58bb79fc04d3274b878a717",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-103057",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013439",
+        "disease_title": "congenital bile acid synthesis defect 3",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-06-23 23:10:57"
+      },
+      {
+        "sgc_id": "SGC-106817",
+        "version_number": "2",
+        "disease_curie": "MONDO:1060107",
+        "disease_title": "CYP7B1-related disorder of oxysterol accumulation",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_e000ae1c-93a3-4f6b-bdf0-afd04603d407-2025-02-28T17:00:00.000Z",
+        "submitted_as_date": "2025-02-28T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-108476",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010047",
+        "disease_title": "hereditary spastic paraplegia 5A",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/474",
+        "submitted_as_date": "2021-01-28 13:05:05"
+      },
+      {
+        "sgc_id": "SGC-112409",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013439",
+        "disease_title": "congenital bile acid synthesis defect 3",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-04-09 12:05:19"
+      },
+      {
+        "sgc_id": "SGC-112410",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010047",
+        "disease_title": "hereditary spastic paraplegia 5A",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-04-20 14:19:17"
+      },
+      {
+        "sgc_id": "SGC-116575",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013439",
+        "disease_title": "congenital bile acid synthesis defect 3",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-116576",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010047",
+        "disease_title": "hereditary spastic paraplegia 5A",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      }
+    ]
+  },
+  "HGNC:26556": {
+    "ncbi_summary_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "gencc_assertions": []
+  },
+  "HGNC:26655": {
+    "ncbi_summary_sha256": "c3468b3b39fd5ae1eb35c8a8b3989da80311dece585e44c8230a8dca72c36934",
+    "gencc_assertions": []
+  },
+  "HGNC:2687": {
+    "ncbi_summary_sha256": "6db77e4841ee906a5687e12a2aa406ca3b3dfd3f3c0f37e34be07ef570659652",
+    "gencc_assertions": []
+  },
+  "HGNC:27316": {
+    "ncbi_summary_sha256": "7524f10ed4c9b9fd0eaa0c305759457ec8a670692dd09d0ec6b61728b458a441",
+    "gencc_assertions": []
+  },
+  "HGNC:27902": {
+    "ncbi_summary_sha256": "b88f4ec59b7553a4387bf48db3f0434a8bd75ec1eec350796f1e2c181d01b361",
+    "gencc_assertions": []
+  },
+  "HGNC:28255": {
+    "ncbi_summary_sha256": "eb6bcab53a9f8890dc843e51862ad2fe222be4534b1c2dff32a9e99bf297d5a3",
+    "gencc_assertions": []
+  },
+  "HGNC:28399": {
+    "ncbi_summary_sha256": "fb7402c6b5028e2c464fef3f7c5f1e04037821a1471da4a4fe44d6c99d194435",
+    "gencc_assertions": []
+  },
+  "HGNC:28990": {
+    "ncbi_summary_sha256": "324b068745838e8673657356f3a57d38afed4ca98d327b0b5979bafc08fc9a4a",
+    "gencc_assertions": []
+  },
+  "HGNC:29084": {
+    "ncbi_summary_sha256": "9a3815f57bebee7d3b1078ab80ebb440500e4db785425fa68ad2345521eeaf4b",
+    "gencc_assertions": []
+  },
+  "HGNC:29095": {
+    "ncbi_summary_sha256": "f666bc288fb97cc8857bccbf05578fe462497707bc32e6ec678b2dbba9aa67fe",
+    "gencc_assertions": []
+  },
+  "HGNC:29289": {
+    "ncbi_summary_sha256": "c58e420225e8c99611bac134924a65d615c96d87bcad81077587c1f1c1b02465",
+    "gencc_assertions": []
+  },
+  "HGNC:29330": {
+    "ncbi_summary_sha256": "4796c8517323fdc178c68881efd09acdc00bde16ba1c6172ee43352cfbfb0e4f",
+    "gencc_assertions": []
+  },
+  "HGNC:29348": {
+    "ncbi_summary_sha256": "b077a36cbe686d4f7d8a72b944f9ac64bf1757ba1547e261f94e4ad310c27284",
+    "gencc_assertions": []
+  },
+  "HGNC:29459": {
+    "ncbi_summary_sha256": "165f4ba4e8ae008085e6dc418bbbc879675f009c896d06e5287dd9818c239c20",
+    "gencc_assertions": []
+  },
+  "HGNC:29467": {
+    "ncbi_summary_sha256": "7ac46b9c4078463f93669f0603567ba35523a38d303a271fb1fe5099cd2c53c6",
+    "gencc_assertions": []
+  },
+  "HGNC:2953": {
+    "ncbi_summary_sha256": "a32e892b33b4680cb57cc6b2d5720eae1e9dbc0977e29801cb7b2249b05abf31",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101038",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032664",
+        "disease_title": "ciliary dyskinesia, primary, 40",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-12-13 13:34:27"
+      },
+      {
+        "sgc_id": "SGC-102589",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005090",
+        "disease_title": "schizophrenia",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-08-31 19:04:43"
+      },
+      {
+        "sgc_id": "SGC-107583",
+        "version_number": "4",
+        "disease_curie": "MONDO:0032664",
+        "disease_title": "ciliary dyskinesia, primary, 40",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_7d4c2324-1f4e-48d6-b7e9-cc66f7a9dda3-2026-06-11T10:00:00.000Z",
+        "submitted_as_date": "2026-06-11T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-112452",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032664",
+        "disease_title": "ciliary dyskinesia, primary, 40",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-02-02 10:23:34"
+      },
+      {
+        "sgc_id": "SGC-120489",
+        "version_number": "1",
+        "disease_curie": "MONDO:0016575",
+        "disease_title": "primary ciliary dyskinesia",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-120490",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010029",
+        "disease_title": "situs inversus",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123888",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032664",
+        "disease_title": "ciliary dyskinesia, primary, 40",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02630",
+        "submitted_as_date": "2024-11-08 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176266",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032664",
+        "disease_title": "ciliary dyskinesia, primary, 40",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:29609": {
+    "ncbi_summary_sha256": "09ab067fe932a520df0b9c41e3a764921ae170d28e7c96bba9cf4350bd3dbbc9",
+    "gencc_assertions": []
+  },
+  "HGNC:29676": {
+    "ncbi_summary_sha256": "9b9cd39257b9f398dfa067e329cb1649083155eea8fb8f95743e4065cc963ace",
+    "gencc_assertions": []
+  },
+  "HGNC:30366": {
+    "ncbi_summary_sha256": "67b5ffbdcab36bca30a3be3044d519f664be139013d5ffd3b53d6b29cdaab7f3",
+    "gencc_assertions": []
+  },
+  "HGNC:30414": {
+    "ncbi_summary_sha256": "78a53fd276cc846ebef405de5a7754afcd71c08b4e4ed0a4ad044879086f4b20",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-102202",
+        "version_number": "1",
+        "disease_curie": "MONDO:0100038",
+        "disease_title": "complex neurodevelopmental disorder",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-09-12 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-114341",
+        "version_number": "1",
+        "disease_curie": "MONDO:0859298",
+        "disease_title": "neurodevelopmental disorder with facial dysmorphism, absent language, and pseudo-pelger-huet anomaly",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-09-06 13:19:41"
+      },
+      {
+        "sgc_id": "SGC-121628",
+        "version_number": "2",
+        "disease_curie": "MONDO:0859298",
+        "disease_title": "neurodevelopmental disorder with facial dysmorphism, absent language, and pseudo-pelger-huet anomaly",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-124861",
+        "version_number": "1",
+        "disease_curie": "MONDO:0859298",
+        "disease_title": "neurodevelopmental disorder with facial dysmorphism, absent language, and pseudo-pelger-huet anomaly",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P03375",
+        "submitted_as_date": "2022-11-15 00:00:00"
+      }
+    ]
+  },
+  "HGNC:30483": {
+    "ncbi_summary_sha256": "e790b2d58654f642b195074d48f12a05996ca85d2bbd64fcacca2c19250ae870",
+    "gencc_assertions": []
+  },
+  "HGNC:30600": {
+    "ncbi_summary_sha256": "63184ac78ae28398875fc136243f0415c388813d87c71b194ffcc05b2047c6ab",
+    "gencc_assertions": []
+  },
+  "HGNC:30988": {
+    "ncbi_summary_sha256": "9670b5537c70079e963f3f57de63739800730c15dba3bde7be3dff7e8f86e1ec",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100823",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032833",
+        "disease_title": "lower urinary tract obstruction, congenital",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-02-14 13:33:17"
+      },
+      {
+        "sgc_id": "SGC-112050",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032833",
+        "disease_title": "lower urinary tract obstruction, congenital",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-04-19 12:32:09"
+      },
+      {
+        "sgc_id": "SGC-120526",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019640",
+        "disease_title": "posterior urethral valve",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123753",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032833",
+        "disease_title": "lower urinary tract obstruction, congenital",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02778",
+        "submitted_as_date": "2025-01-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-175065",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032833",
+        "disease_title": "lower urinary tract obstruction, congenital",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:31037": {
+    "ncbi_summary_sha256": "fb3b9d08eb41c60db8751c1eb8c4c7761d34b9497279cdeb1b09f29aeff3ca93",
+    "gencc_assertions": []
+  },
+  "HGNC:31412": {
+    "ncbi_summary_sha256": "03e4935c5768cdde7d0699f112f2adbca13d74d12f2910c8f3b857e294014f2a",
+    "gencc_assertions": []
+  },
+  "HGNC:32934": {
+    "ncbi_summary_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-109543",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005090",
+        "disease_title": "schizophrenia",
+        "classification_title": "No Known Disease Relationship",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2017-09-13 20:04:51"
+      }
+    ]
+  },
+  "HGNC:3503": {
+    "ncbi_summary_sha256": "aee7883f1ba338e0a51742b2bbec03c483791290c295c968ff81afc82c71ee28",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-109551",
+        "version_number": "1",
+        "disease_curie": "MONDO:0007661",
+        "disease_title": "Tourette syndrome",
+        "classification_title": "No Known Disease Relationship",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-01-25 20:04:51"
+      }
+    ]
+  },
+  "HGNC:3522": {
+    "ncbi_summary_sha256": "64b7c9aee09d02bfd02d3dd724b768cabb7558b7534db819336ccaa25fd6397a",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-105797",
+        "version_number": "2",
+        "disease_curie": "MONDO:0019497",
+        "disease_title": "nonsyndromic genetic hearing loss",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_21c75059-bd7b-48ef-a828-28ffebe52ca0-2018-01-05T17:00:00.000Z",
+        "submitted_as_date": "2018-01-05T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-106091",
+        "version_number": "2",
+        "disease_curie": "MONDO:0011541",
+        "disease_title": "dilated cardiomyopathy 1J",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_5e0a0bad-1f7a-402e-af19-a80453653b86-2025-02-05T05:00:00.000Z",
+        "submitted_as_date": "2025-02-05T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-112568",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011031",
+        "disease_title": "autosomal dominant nonsyndromic hearing loss 10",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-06-17 07:59:28"
+      },
+      {
+        "sgc_id": "SGC-116779",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019587",
+        "disease_title": "autosomal dominant nonsyndromic hearing loss",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-116780",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011541",
+        "disease_title": "dilated cardiomyopathy 1J",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-125049",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011031",
+        "disease_title": "autosomal dominant nonsyndromic hearing loss 10",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01237",
+        "submitted_as_date": "2025-04-08 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-178847",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019497",
+        "disease_title": "nonsyndromic genetic hearing loss",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-178848",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011541",
+        "disease_title": "dilated cardiomyopathy 1J",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-16T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-180391",
+        "version_number": "1",
+        "disease_curie": "MONDO:0016333",
+        "disease_title": "familial dilated cardiomyopathy",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P03831",
+        "submitted_as_date": "2025-10-08T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:37208": {
+    "ncbi_summary_sha256": "2e61fc7d7224e742cfc648915e356b750de382af24a42591844a20f9f47bf6d3",
+    "gencc_assertions": []
+  },
+  "HGNC:4039": {
+    "ncbi_summary_sha256": "1aa372ddb73193413a0bf9bbf9517d4d8e75a4f05660f443cc9af57b3a262b5a",
+    "gencc_assertions": []
+  },
+  "HGNC:468": {
+    "ncbi_summary_sha256": "5aa74f2169a0e35fd222ab1a53912fef9b6a0e7bdd756a3b39ecf7a3729e612e",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-109942",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014220",
+        "disease_title": "myopathy due to myoadenylate deaminase deficiency",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2019-08-09 12:03:45"
+      },
+      {
+        "sgc_id": "SGC-116677",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013028",
+        "disease_title": "adenosine monophosphate deaminase deficiency",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176575",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014220",
+        "disease_title": "myopathy due to myoadenylate deaminase deficiency",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:5028": {
+    "ncbi_summary_sha256": "f6a96db77149b373fdd54af4c4eb7ed272455f579488bedb38e33d741389a519",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100274",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014759",
+        "disease_title": "intellectual developmental disorder, autosomal recessive 51",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-08-31 13:30:30"
+      },
+      {
+        "sgc_id": "SGC-111221",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014759",
+        "disease_title": "intellectual developmental disorder, autosomal recessive 51",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-12-15 10:42:10"
+      },
+      {
+        "sgc_id": "SGC-120001",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019502",
+        "disease_title": "autosomal recessive non-syndromic intellectual disability",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-179165",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014759",
+        "disease_title": "intellectual developmental disorder, autosomal recessive 51",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:5113": {
+    "ncbi_summary_sha256": "9a2bff3c05b57b9e377197c65a0172bfac713ee48c2cb95eef5989c9dda8ed9a",
+    "gencc_assertions": []
+  },
+  "HGNC:52": {
+    "ncbi_summary_sha256": "33f3e8bda9334c472899fb67ffedb087bebbefb2c5e99d08c245bca94b2e8109",
+    "gencc_assertions": []
+  },
+  "HGNC:5208": {
+    "ncbi_summary_sha256": "321a3d52939752c7ede4ac6bee1790340d1b22bd8425c2aea726cae6fe472ed4",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-111236",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013842",
+        "disease_title": "cortisone reductase deficiency 2",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-10-15 12:43:28"
+      },
+      {
+        "sgc_id": "SGC-118344",
+        "version_number": "1",
+        "disease_curie": "MONDO:0000193",
+        "disease_title": "cortisone reductase deficiency",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-179189",
+        "version_number": "1",
+        "disease_curie": "MONDO:0013842",
+        "disease_title": "cortisone reductase deficiency 2",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:6062": {
+    "ncbi_summary_sha256": "f00a1d6a8252a7ac4a6223ffc64b5a350386106580bff3281d35618f4d18afde",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101324",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010150",
+        "disease_title": "head and neck squamous cell carcinoma",
+        "classification_title": "No Known Disease Relationship",
+        "moi_title": "Unknown",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-06-22 13:35:52"
+      }
+    ]
+  },
+  "HGNC:6069": {
+    "ncbi_summary_sha256": "34d38568e3e45b11867150ded5d9434fa3c65eac437f543bd4104f3eee09c081",
+    "gencc_assertions": []
+  },
+  "HGNC:6254": {
+    "ncbi_summary_sha256": "8742f768237f42dd2a48bbd31eeb3df575bb395b2c07a0aee5ef7addeb5dd1cf",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-106585",
+        "version_number": "3",
+        "disease_curie": "MONDO:0100022",
+        "disease_title": "neonatal/infantile epilepsy syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c1794f26-8bc9-4e76-bc1e-4dfb6aab53ff-2022-11-15T05:00:00.000Z",
+        "submitted_as_date": "2022-11-15T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-124402",
+        "version_number": "1",
+        "disease_curie": "MONDO:0957812",
+        "disease_title": "developmental and epileptic encephalopathy 112",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00923",
+        "submitted_as_date": "2025-01-17 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-179293",
+        "version_number": "1",
+        "disease_curie": "MONDO:0957812",
+        "disease_title": "developmental and epileptic encephalopathy 112",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:6258": {
+    "ncbi_summary_sha256": "30b84d26e7bdc94b3e400937fcbe879e2103df522ab680363b89ba1650a4f6bf",
+    "gencc_assertions": []
+  },
+  "HGNC:6269": {
+    "ncbi_summary_sha256": "ab9a1bd4a8ca7c2b7f3a134a4f18f8ab2286ca1f21a84ce5e63d42a14e5bfc00",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-107852",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015263",
+        "disease_title": "Brugada syndrome",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/13",
+        "submitted_as_date": "2021-03-02 13:02:02"
+      },
+      {
+        "sgc_id": "SGC-113082",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009406",
+        "disease_title": "hypertrichotic osteochondrodysplasia Cantu type",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-04-20 20:04:43"
+      },
+      {
+        "sgc_id": "SGC-119096",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009406",
+        "disease_title": "hypertrichotic osteochondrodysplasia Cantu type",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-175427",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011001",
+        "disease_title": "Brugada syndrome 1",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-175428",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009406",
+        "disease_title": "hypertrichotic osteochondrodysplasia Cantu type",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-179556",
+        "version_number": "2",
+        "disease_curie": "MONDO:0015263",
+        "disease_title": "Brugada syndrome",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_cec24aa0-b505-487e-b47c-bae3cc623bd8-2025-12-10T17:00:00.000Z",
+        "submitted_as_date": "2025-12-10T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-180219",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009406",
+        "disease_title": "hypertrichotic osteochondrodysplasia Cantu type",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02588",
+        "submitted_as_date": "2019-03-08T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-180373",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015263",
+        "disease_title": "Brugada syndrome",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P03813",
+        "submitted_as_date": "2025-09-25T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:6299": {
+    "ncbi_summary_sha256": "3523723356010cd0e0dbf80fc6035d32aec91b6ef0d7a8ee3c06a0b5e566edb0",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-110764",
+        "version_number": "1",
+        "disease_curie": "MONDO:0030911",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 46",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-10-26 13:19:23"
+      },
+      {
+        "sgc_id": "SGC-120181",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015802",
+        "disease_title": "autosomal dominant non-syndromic intellectual disability",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-124584",
+        "version_number": "1",
+        "disease_curie": "MONDO:0030911",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 46",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P02914",
+        "submitted_as_date": "2025-01-17 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-179310",
+        "version_number": "1",
+        "disease_curie": "MONDO:0030911",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 46",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:6492": {
+    "ncbi_summary_sha256": "09d652395e574574300f4fb9dcd3f53636dab12c50be3da8dd2fe8b29f934acc",
+    "gencc_assertions": []
+  },
+  "HGNC:6692": {
+    "ncbi_summary_sha256": "41970acc8c9b7bbaf08930f8f86ce4c877b64df584dd0d25c3c055ac5372acec",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-103457",
+        "version_number": "1",
+        "disease_curie": "MONDO:0958037",
+        "disease_title": "developmental dysplasia of the hip 3",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2024-02-29 12:08:26"
+      },
+      {
+        "sgc_id": "SGC-109598",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005090",
+        "disease_title": "schizophrenia",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-04-09 12:05:21"
+      },
+      {
+        "sgc_id": "SGC-112382",
+        "version_number": "1",
+        "disease_curie": "MONDO:0018855",
+        "disease_title": "keratosis pilaris atrophicans",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-04-09 12:05:21"
+      },
+      {
+        "sgc_id": "SGC-120004",
+        "version_number": "1",
+        "disease_curie": "MONDO:0000136",
+        "disease_title": "keratosis follicularis spinulosa decalvans",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-120005",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008849",
+        "disease_title": "atrophoderma vermiculata",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176831",
+        "version_number": "1",
+        "disease_curie": "MONDO:0958037",
+        "disease_title": "developmental dysplasia of the hip 3",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176832",
+        "version_number": "1",
+        "disease_curie": "MONDO:0018855",
+        "disease_title": "keratosis pilaris atrophicans",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:6697": {
+    "ncbi_summary_sha256": "3b27a0861933aeea14047d909a082a9d821b61ae350725908d4d604e359f5484",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101438",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011151",
+        "disease_title": "exudative vitreoretinopathy 4",
+        "classification_title": "Definitive",
+        "moi_title": "Semidominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2017-02-20 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-101439",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011877",
+        "disease_title": "autosomal dominant osteopetrosis 1",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2019-11-04 13:36:30"
+      },
+      {
+        "sgc_id": "SGC-101440",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009820",
+        "disease_title": "osteoporosis-pseudoglioma syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2017-02-20 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-104256",
+        "version_number": "4",
+        "disease_curie": "MONDO:0700228",
+        "disease_title": "LRP5-related exudative vitreoretinopathy",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c46e0508-399f-48d0-9dbc-55f10cf8460d-2023-03-02T17:00:00.000Z",
+        "submitted_as_date": "2023-03-02T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-107210",
+        "version_number": "4",
+        "disease_curie": "MONDO:0044327",
+        "disease_title": "polycystic liver disease 4 with or without kidney cysts",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_dd2a14d4-0c98-4b0d-bee8-a0c5f3550009-2023-11-13T17:00:00.000Z",
+        "submitted_as_date": "2023-11-13T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-108231",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044327",
+        "disease_title": "polycystic liver disease 4 with or without kidney cysts",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/653",
+        "submitted_as_date": "2021-01-14 13:03:50"
+      },
+      {
+        "sgc_id": "SGC-108801",
+        "version_number": "1",
+        "disease_curie": "MONDO:0007764",
+        "disease_title": "autosomal dominant osteosclerosis, Worth type",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/943",
+        "submitted_as_date": "2020-09-21 13:06:45"
+      },
+      {
+        "sgc_id": "SGC-113281",
+        "version_number": "1",
+        "disease_curie": "MONDO:0007764",
+        "disease_title": "autosomal dominant osteosclerosis, Worth type",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-05-04 00:56:54"
+      },
+      {
+        "sgc_id": "SGC-113282",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009820",
+        "disease_title": "osteoporosis-pseudoglioma syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-08-27 03:18:45"
+      },
+      {
+        "sgc_id": "SGC-113283",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011151",
+        "disease_title": "exudative vitreoretinopathy 4",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-10-11 12:43:01"
+      },
+      {
+        "sgc_id": "SGC-113284",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044327",
+        "disease_title": "polycystic liver disease 4 with or without kidney cysts",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-04-30 13:27:08"
+      },
+      {
+        "sgc_id": "SGC-115003",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011151",
+        "disease_title": "exudative vitreoretinopathy 4",
+        "classification_title": "Strong",
+        "moi_title": "Unknown",
+        "submitter_title": "Laboratory for Molecular Medicine",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-05-16 13:37:34"
+      },
+      {
+        "sgc_id": "SGC-117406",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011877",
+        "disease_title": "autosomal dominant osteopetrosis 1",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-117407",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009820",
+        "disease_title": "osteoporosis-pseudoglioma syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-117408",
+        "version_number": "1",
+        "disease_curie": "MONDO:0007764",
+        "disease_title": "autosomal dominant osteosclerosis, Worth type",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-117409",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008265",
+        "disease_title": "polycystic liver disease 1",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-117410",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009395",
+        "disease_title": "hyperostosis corticalis generalisata",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-117411",
+        "version_number": "1",
+        "disease_curie": "MONDO:0019516",
+        "disease_title": "exudative vitreoretinopathy",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-117412",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015800",
+        "disease_title": "osteosclerosis-developmental delay-craniosynostosis syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-122516",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011151",
+        "disease_title": "exudative vitreoretinopathy 4",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01234",
+        "submitted_as_date": "2015-07-22 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-122712",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009820",
+        "disease_title": "osteoporosis-pseudoglioma syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01554",
+        "submitted_as_date": "2023-08-04 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123436",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044271",
+        "disease_title": "bone mineral density quantitative trait locus 1",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00044",
+        "submitted_as_date": "2024-09-11 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176837",
+        "version_number": "1",
+        "disease_curie": "MONDO:0011877",
+        "disease_title": "autosomal dominant osteopetrosis 1",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176838",
+        "version_number": "1",
+        "disease_curie": "MONDO:0009820",
+        "disease_title": "osteoporosis-pseudoglioma syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176839",
+        "version_number": "1",
+        "disease_curie": "MONDO:0700228",
+        "disease_title": "LRP5-related exudative vitreoretinopathy",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176840",
+        "version_number": "1",
+        "disease_curie": "MONDO:0700228",
+        "disease_title": "LRP5-related exudative vitreoretinopathy",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176841",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044327",
+        "disease_title": "polycystic liver disease 4 with or without kidney cysts",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-176842",
+        "version_number": "1",
+        "disease_curie": "MONDO:0001071",
+        "disease_title": "intellectual disability",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:6731": {
+    "ncbi_summary_sha256": "c04986023dc5058da3a7346e9ef1902b0854f4b9f3d5a31bf1945975a89b5fd2",
+    "gencc_assertions": []
+  },
+  "HGNC:6812": {
+    "ncbi_summary_sha256": "16aa441c96a8b0d829527c025b26494b6505ae2e4fccfcdd10c4cb42612d64f1",
+    "gencc_assertions": []
+  },
+  "HGNC:6815": {
+    "ncbi_summary_sha256": "22de0bad6cda4dd0114d3f620a686a70cb9a4be2a3865999a8c7e37341ea2c3e",
+    "gencc_assertions": []
+  },
+  "HGNC:6880": {
+    "ncbi_summary_sha256": "18ceca5ef4e81d6f788857dc579b3998cd2ce8cf41322cbfd0af82027ba1b88a",
+    "gencc_assertions": []
+  },
+  "HGNC:689": {
+    "ncbi_summary_sha256": "a07343b933adb17b6beddfc144490dd881b33df659a221c9f0f5404d9511b66d",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-176680",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005396",
+        "disease_title": "thoracic aortic aneurysm",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:6993": {
+    "ncbi_summary_sha256": "9fc16cd8a3682af2ee4b14b2cc1b4ae56ad324b25216a1795dde02bf2a1d65ce",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-176999",
+        "version_number": "1",
+        "disease_curie": "MONDO:0012011",
+        "disease_title": "coronary artery disease, autosomal dominant, 1",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:7090": {
+    "ncbi_summary_sha256": "1c3a6e14507f0fe754371f3ff5ea6b8a45e37f7a2d4fa99054875afd3eaef3ad",
+    "gencc_assertions": []
+  },
+  "HGNC:7539": {
+    "ncbi_summary_sha256": "f5380d48b2d4373f0e05fb545a59955bc06dea824d306423f57f216eda24ea52",
+    "gencc_assertions": []
+  },
+  "HGNC:7608": {
+    "ncbi_summary_sha256": "3621e6858ba536582d68c93f00deac39207f0b85a5c70afd76c5b351f7d24f14",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-106723",
+        "version_number": "1",
+        "disease_curie": "MONDO:0015225",
+        "disease_title": "arthrogryposis syndrome",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGCIEX:assertion_5465",
+        "submitted_as_date": "2016-11-24 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-108582",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032597",
+        "disease_title": "myasthenic syndrome, congenital, 24, presynaptic",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/232",
+        "submitted_as_date": "2021-01-29 13:05:46"
+      },
+      {
+        "sgc_id": "SGC-113492",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032597",
+        "disease_title": "myasthenic syndrome, congenital, 24, presynaptic",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-02-11 12:19:58"
+      },
+      {
+        "sgc_id": "SGC-115022",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032597",
+        "disease_title": "myasthenic syndrome, congenital, 24, presynaptic",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Laboratory for Molecular Medicine",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-06-01 13:37:42"
+      },
+      {
+        "sgc_id": "SGC-177205",
+        "version_number": "1",
+        "disease_curie": "MONDO:0032597",
+        "disease_title": "myasthenic syndrome, congenital, 24, presynaptic",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:7623": {
+    "ncbi_summary_sha256": "46990ebbe4ca0e36d8c2d44918de58c976bb26bb56f36e96fd449e9dbf0ad22c",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100381",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014678",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 39",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-02-23 13:31:05"
+      },
+      {
+        "sgc_id": "SGC-104986",
+        "version_number": "2",
+        "disease_curie": "MONDO:0800439",
+        "disease_title": "syndromic complex neurodevelopmental disorder",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_32897f25-e36a-4ec8-9401-0374a95e06a5-2020-08-18T04:00:00.000Z",
+        "submitted_as_date": "2020-08-18T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-108096",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014678",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 39",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/130",
+        "submitted_as_date": "2020-02-18 13:03:11"
+      },
+      {
+        "sgc_id": "SGC-111364",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014678",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 39",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-01-18 14:01:43"
+      },
+      {
+        "sgc_id": "SGC-124520",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014678",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 39",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01707",
+        "submitted_as_date": "2016-11-22 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177221",
+        "version_number": "1",
+        "disease_curie": "MONDO:0014678",
+        "disease_title": "intellectual developmental disorder, autosomal dominant 39",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:7639": {
+    "ncbi_summary_sha256": "4605fd6129d94e97021038f833280e00b2545337a2d94e1b0fc830be514d0abf",
+    "gencc_assertions": []
+  },
+  "HGNC:7786": {
+    "ncbi_summary_sha256": "b4d46e289913e6a13f61844e844634b889101363c12c0bb49c8866119fc17b57",
+    "gencc_assertions": []
+  },
+  "HGNC:7820": {
+    "ncbi_summary_sha256": "7ad83fb13cf5fcdb4c269e908166585e87cf58ac16e12a5b11190203fb477728",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101581",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010545",
+        "disease_title": "Nance-Horan syndrome",
+        "classification_title": "Moderate",
+        "moi_title": "X-linked",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-08-31 13:37:16"
+      },
+      {
+        "sgc_id": "SGC-105242",
+        "version_number": "2",
+        "disease_curie": "MONDO:0010545",
+        "disease_title": "Nance-Horan syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "X-linked",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_a7f57ca3-efb2-4333-9ae1-732aa429f37a-2017-10-20T10:00:00.000Z",
+        "submitted_as_date": "2017-10-20T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-113554",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010545",
+        "disease_title": "Nance-Horan syndrome",
+        "classification_title": "Strong",
+        "moi_title": "X-linked",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-01-11 11:15:00"
+      },
+      {
+        "sgc_id": "SGC-117689",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010545",
+        "disease_title": "Nance-Horan syndrome",
+        "classification_title": "Supportive",
+        "moi_title": "X-linked",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-117690",
+        "version_number": "1",
+        "disease_curie": "MONDO:0020376",
+        "disease_title": "early-onset nuclear cataract",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123148",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010545",
+        "disease_title": "Nance-Horan syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "X-linked",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00873",
+        "submitted_as_date": "2017-08-29 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177362",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010545",
+        "disease_title": "Nance-Horan syndrome",
+        "classification_title": "Strong",
+        "moi_title": "X-linked",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:7870": {
+    "ncbi_summary_sha256": "80bff78df3879655748e15c1ac4c45e40232a759fa26ff9d87584d94607f6de0",
+    "gencc_assertions": []
+  },
+  "HGNC:7894": {
+    "ncbi_summary_sha256": "70679267bd0aee8f666f5f7fe9b45e524dbea1ce62e503729a11535121b8eddd",
+    "gencc_assertions": []
+  },
+  "HGNC:8524": {
+    "ncbi_summary_sha256": "7891a796322584a0629251e1f7f1e877f68dd4cbbbe1e6668f1d38e88f7697bd",
+    "gencc_assertions": []
+  },
+  "HGNC:8526": {
+    "ncbi_summary_sha256": "59d0d2a13badd4b9dc6e35cd5f26ba76fcce7a1ffe3015b1dc0162e3f88b20f2",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-177541",
+        "version_number": "1",
+        "disease_curie": "MONDO:0000732",
+        "disease_title": "combined oxidative phosphorylation deficiency",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-179769",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044970",
+        "disease_title": "mitochondrial disease",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_0c7cdd95-3c88-497f-8f7a-8447440f5165-2024-08-26T04:00:00.000Z",
+        "submitted_as_date": "2024-08-26T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:8664": {
+    "ncbi_summary_sha256": "f923b59a5a16f465d837ec42a3315987beda20440c4a8224685a69ec3a64b473",
+    "gencc_assertions": []
+  },
+  "HGNC:8747": {
+    "ncbi_summary_sha256": "d7b0bbbde621a385eb6fcc621fc7e947c3032a69b6691868954d2cbd29c42ef9",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-106982",
+        "version_number": "4",
+        "disease_curie": "MONDO:0100614",
+        "disease_title": "syndromic congenital heart disease",
+        "classification_title": "Disputed Evidence",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_ade0db44-62b3-49b4-ab3d-63f410619b8e-2025-04-01T16:00:00.000Z",
+        "submitted_as_date": "2025-04-01T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:8806": {
+    "ncbi_summary_sha256": "8675d13db51ee345e1d58ff51c632c52da5b08729780bb29b335bea173fcefa9",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-101655",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010717",
+        "disease_title": "pyruvate dehydrogenase E1-alpha deficiency",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-08-31 13:37:42"
+      },
+      {
+        "sgc_id": "SGC-105164",
+        "version_number": "2",
+        "disease_curie": "MONDO:0009723",
+        "disease_title": "Leigh syndrome",
+        "classification_title": "Definitive",
+        "moi_title": "X-linked",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_a579324c-3586-4636-9192-c2ea29391a4e-2019-04-08T16:12:03.224Z",
+        "submitted_as_date": "2019-04-08T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-108389",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010717",
+        "disease_title": "pyruvate dehydrogenase E1-alpha deficiency",
+        "classification_title": "Strong",
+        "moi_title": "X-linked",
+        "submitter_title": "Genomics England PanelApp",
+        "submitted_as_public_report_url": "https://panelapp.genomicsengland.co.uk/panels/531",
+        "submitted_as_date": "2020-02-17 13:04:35"
+      },
+      {
+        "sgc_id": "SGC-111486",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010717",
+        "disease_title": "pyruvate dehydrogenase E1-alpha deficiency",
+        "classification_title": "Strong",
+        "moi_title": "X-linked",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2022-12-09 21:24:00"
+      },
+      {
+        "sgc_id": "SGC-117820",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010717",
+        "disease_title": "pyruvate dehydrogenase E1-alpha deficiency",
+        "classification_title": "Supportive",
+        "moi_title": "X-linked",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123490",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010717",
+        "disease_title": "pyruvate dehydrogenase E1-alpha deficiency",
+        "classification_title": "Definitive",
+        "moi_title": "X-linked",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P01518",
+        "submitted_as_date": "2015-07-22 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-177637",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010717",
+        "disease_title": "pyruvate dehydrogenase E1-alpha deficiency",
+        "classification_title": "Strong",
+        "moi_title": "X-linked",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-179686",
+        "version_number": "1",
+        "disease_curie": "MONDO:0044970",
+        "disease_title": "mitochondrial disease",
+        "classification_title": "Definitive",
+        "moi_title": "X-linked",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_39de276c-ad7a-48de-a267-15fc6203f445-2024-07-29T04:00:00.000Z",
+        "submitted_as_date": "2024-07-29T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-180067",
+        "version_number": "1",
+        "disease_curie": "MONDO:0010717",
+        "disease_title": "pyruvate dehydrogenase E1-alpha deficiency",
+        "classification_title": "Definitive",
+        "moi_title": "X-linked",
+        "submitter_title": "Natera",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-02-27T05:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:90": {
+    "ncbi_summary_sha256": "d232fc979ebf9198156a82e952b9d7ba641905f025f7f9a15ee6fcae7ae5bae7",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-100681",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008722",
+        "disease_title": "short chain acyl-CoA dehydrogenase deficiency",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Ambry Genetics",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2018-01-31 13:32:35"
+      },
+      {
+        "sgc_id": "SGC-106527",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008722",
+        "disease_title": "short chain acyl-CoA dehydrogenase deficiency",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "ClinGen",
+        "submitted_as_public_report_url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c6bc94e9-cdf2-4efb-b654-004541efc344-2018-01-23T17:00:00.000Z",
+        "submitted_as_date": "2018-01-23 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-110836",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008722",
+        "disease_title": "short chain acyl-CoA dehydrogenase deficiency",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2023-04-19 15:24:30"
+      },
+      {
+        "sgc_id": "SGC-115321",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008722",
+        "disease_title": "short chain acyl-CoA dehydrogenase deficiency",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-123489",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008722",
+        "disease_title": "short chain acyl-CoA dehydrogenase deficiency",
+        "classification_title": "Definitive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "G2P",
+        "submitted_as_public_report_url": "https://www.ebi.ac.uk/gene2phenotype/lgd/G2P00672",
+        "submitted_as_date": "2025-01-28 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-176365",
+        "version_number": "1",
+        "disease_curie": "MONDO:0008722",
+        "disease_title": "short chain acyl-CoA dehydrogenase deficiency",
+        "classification_title": "Moderate",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:9056": {
+    "ncbi_summary_sha256": "2a476da0167b2b3de1d563bc19bd34e618266a5c3f4a215ae22bf8ed50d45840",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-113446",
+        "version_number": "1",
+        "disease_curie": "MONDO:0030074",
+        "disease_title": "spondylometaphyseal dysplasia with corneal dystrophy",
+        "classification_title": "Limited",
+        "moi_title": "Unknown",
+        "submitter_title": "Labcorp Genetics (formerly Invitae)",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2020-08-17 13:27:47"
+      },
+      {
+        "sgc_id": "SGC-125108",
+        "version_number": "1",
+        "disease_curie": "MONDO:0016763",
+        "disease_title": "spondylometaphyseal dysplasia",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Franklin by Genoox",
+        "submitted_as_public_report_url": "https://franklin.genoox.com/clinical-db/variant/snp/chr11-64031564-G-T?app=conditions",
+        "submitted_as_date": "2020-03-01 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-175551",
+        "version_number": "1",
+        "disease_curie": "MONDO:0030074",
+        "disease_title": "spondylometaphyseal dysplasia with corneal dystrophy",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:9171": {
+    "ncbi_summary_sha256": "1f771aecd4a43e94b165cf2e7977de65ed4e4866a4e970d7bcf3d620e911c1ab",
+    "gencc_assertions": [
+      {
+        "sgc_id": "SGC-120238",
+        "version_number": "1",
+        "disease_curie": "MONDO:0017279",
+        "disease_title": "young-onset Parkinson disease",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-120239",
+        "version_number": "1",
+        "disease_curie": "MONDO:0018321",
+        "disease_title": "atypical juvenile parkinsonism",
+        "classification_title": "Supportive",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "Orphanet",
+        "submitted_as_public_report_url": "",
+        "submitted_as_date": "2021-09-14 00:00:00"
+      },
+      {
+        "sgc_id": "SGC-175636",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005377",
+        "disease_title": "nephrotic syndrome",
+        "classification_title": "Strong",
+        "moi_title": "Autosomal dominant",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-175637",
+        "version_number": "1",
+        "disease_curie": "MONDO:0005377",
+        "disease_title": "nephrotic syndrome",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      },
+      {
+        "sgc_id": "SGC-175638",
+        "version_number": "1",
+        "disease_curie": "MONDO:0000828",
+        "disease_title": "juvenile-onset Parkinson disease",
+        "classification_title": "Limited",
+        "moi_title": "Autosomal recessive",
+        "submitter_title": "PanelApp Australia",
+        "submitted_as_public_report_url": "https://panelapp-aus.org",
+        "submitted_as_date": "2025-01-17T00:00:00.000000Z"
+      }
+    ]
+  },
+  "HGNC:9452": {
+    "ncbi_summary_sha256": "b078f58cb956c30f34052a630cd399781367c97ef9f80af1ac8cfa6387873d3e",
+    "gencc_assertions": []
+  },
+  "HGNC:9521": {
+    "ncbi_summary_sha256": "1036515606b1646ffadc6f9eeee9dc3416ebd3f198103050d0d36677f5c51d71",
+    "gencc_assertions": []
+  },
+  "HGNC:9630": {
+    "ncbi_summary_sha256": "d0742e8eb22eefb43b385d158e3be042d77a774cbec38980491661947186f038",
+    "gencc_assertions": []
+  },
+  "HGNC:27028": {
+    "ncbi_summary_sha256": "e17a2feff312046a038348d1a0dc18a98ed48e9d73a548a9cc6538bc46450780",
+    "gencc_assertions": []
+  },
+  "HGNC:29523": {
+    "ncbi_summary_sha256": "c1fd2df273281b6ed4904fd313aff420d31decff590855429e98d73e5059ab80",
+    "gencc_assertions": []
+  },
+  "HGNC:33731": {
+    "ncbi_summary_sha256": "d6e0ec98b03dcb89ccd47ce318e6b3c0e7198f448b4bfa4e778e2b93f323f091",
+    "gencc_assertions": []
+  }
+}

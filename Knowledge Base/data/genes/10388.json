@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:10388",
+  "symbol": "RPS15",
+  "name": "ribosomal protein S15",
+  "ncbi_gene_id": "6209",
+  "aliases": [
+    "MGC111130",
+    "RIG",
+    "S15",
+    "uS19"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of signal transduction by p53 class mediator",
+    "translation"
+  ],
+  "summary": {
+    "function": {
+      "text": "RPS15 encodes small ribosomal subunit protein uS19. Annotated molecular activities include ubiquitin ligase inhibitor activity and structural constituent of ribosome. It participates in positive regulation of signal transduction by p53 class mediator and translation.",
+      "source_ids": [
+        "ncbi-6209",
+        "uniprot-P62841"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "RPS15",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

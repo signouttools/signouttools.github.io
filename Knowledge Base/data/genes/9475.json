@@ -1,0 +1,73 @@
+{
+  "id": "HGNC:9475",
+  "symbol": "PRSS1",
+  "name": "serine protease 1",
+  "ncbi_gene_id": "5644",
+  "aliases": [
+    "TRY1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "proteolysis",
+    "extracellular matrix disassembly"
+  ],
+  "summary": {
+    "function": {
+      "text": "PRSS1 encodes serine protease 1 [Cleaved into: Alpha-trypsin chain 1; Alpha-trypsin chain 2]. Annotated molecular activities include serine-type endopeptidase activity. It participates in proteolysis and extracellular matrix disassembly.",
+      "source_ids": [
+        "ncbi-5644",
+        "uniprot-P07477"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to hereditary chronic pancreatitis (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0008185",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "PRSS1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

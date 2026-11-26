@@ -1,0 +1,135 @@
+{
+  "id": "HGNC:7230",
+  "symbol": "MRE11",
+  "name": "MRE11 double strand break repair nuclease",
+  "ncbi_gene_id": "4361",
+  "aliases": [
+    "ATLD",
+    "MRE11A"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA repair",
+    "homologous recombination"
+  ],
+  "summary": {
+    "function": {
+      "text": "MRE11 encodes double-strand break repair protein MRE11. Annotated molecular activities include nuclease activity and 3'-5' exonuclease activity. It participates in DNA repair and homologous recombination.",
+      "source_ids": [
+        "ncbi-4361",
+        "uniprot-P49959"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include ataxia-telangiectasia-like disorder 1 (autosomal recessive). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic MRE11 alterations have been reported in ovarian carcinoma. Somatic involvement in a tumor is distinct from the separately assessed, refuted hereditary breast/ovarian cancer-predisposition claims.",
+      "source_ids": [
+        "pmid-24240112"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0024557",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-4a05d08284cf",
+      "mechanism": "Primary-study gene-level somatic/epigenetic context; alteration class explicitly stated in the paragraph.",
+      "source_ids": [
+        "pmid-24240112"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "MRE11",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "MRE11",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "MRE11A",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "MRE11",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "MRE11A",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "prostate cancer: disputed evidence (Ambry Genetics); not presented as an established association. breast cancer: refuted evidence (ClinGen); not presented as an established association. familial ovarian cancer: refuted evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-103475.1",
+      "gencc-SGC-105247.4",
+      "gencc-SGC-104981.4"
+    ]
+  }
+}

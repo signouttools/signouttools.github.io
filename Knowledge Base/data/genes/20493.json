@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:20493",
+  "symbol": "SETD3",
+  "name": "SET domain containing 3, actin N3(tau)-histidine methyltransferase",
+  "ncbi_gene_id": "84193",
+  "aliases": [
+    "C14orf154",
+    "FLJ23027"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of DNA-templated transcription",
+    "actin filament organization"
+  ],
+  "summary": {
+    "function": {
+      "text": "SETD3 encodes actin-histidine N-methyltransferase. Annotated molecular activities include protein-L-histidine N-tele-methyltransferase activity and transcription coactivator activity. It participates in positive regulation of DNA-templated transcription and actin filament organization.",
+      "source_ids": [
+        "ncbi-84193",
+        "uniprot-Q86TU7"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "SETD3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

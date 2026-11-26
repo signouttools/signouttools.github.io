@@ -1,0 +1,75 @@
+{
+  "id": "HGNC:10816",
+  "symbol": "SCG5",
+  "name": "secretogranin V",
+  "ncbi_gene_id": "6447",
+  "aliases": [
+    "7B2",
+    "SGNE1",
+    "SgV"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "intracellular protein transport",
+    "neuropeptide signaling pathway"
+  ],
+  "summary": {
+    "function": {
+      "text": "SCG5 encodes neuroendocrine protein 7B2 [Cleaved into: N-terminal peptide; C-terminal peptide]. Annotated molecular activities include enzyme inhibitor activity and enzyme regulator activity. It participates in intracellular protein transport and neuropeptide signaling pathway.",
+      "source_ids": [
+        "ncbi-6447",
+        "uniprot-P05408"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to hereditary mixed polyposis syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0011023",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "SCG5",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "HGNC:8957",
+  "symbol": "PIGA",
+  "name": "phosphatidylinositol glycan anchor biosynthesis class A",
+  "ncbi_gene_id": "5277",
+  "aliases": [
+    "GPI3",
+    "PIG-A"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "GPI anchor biosynthetic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "PIGA encodes phosphatidylinositol N-acetylglucosaminyltransferase subunit A. Annotated molecular activities include UDP-glycosyltransferase activity and phosphatidylinositol N-acetylglucosaminyltransferase activity. It participates in GPI anchor biosynthetic process.",
+      "source_ids": [
+        "ncbi-5277",
+        "uniprot-P37287"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to complex neurodevelopmental disorder (x-linked); multiple congenital anomalies-hypotonia-seizures syndrome 2 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0100038",
+      "mechanism": "X-linked; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0010466",
+      "mechanism": "X-linked; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "PIGA",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

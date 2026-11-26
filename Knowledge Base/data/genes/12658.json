@@ -1,0 +1,63 @@
+{
+  "id": "HGNC:12658",
+  "symbol": "VAV2",
+  "name": "vav guanine nucleotide exchange factor 2",
+  "ncbi_gene_id": "7410",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "signal transduction",
+    "small GTPase-mediated signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "VAV2 encodes guanine nucleotide exchange factor VAV2. Annotated molecular activities include guanyl-nucleotide exchange factor activity and phosphotyrosine residue binding. It participates in signal transduction and small GTPase-mediated signal transduction.",
+      "source_ids": [
+        "ncbi-7410",
+        "uniprot-P52735"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "VAV2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

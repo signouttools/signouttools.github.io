@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:20746",
+  "symbol": "SESN2",
+  "name": "sestrin 2",
+  "ncbi_gene_id": "83667",
+  "aliases": [
+    "DKFZp761M0212",
+    "HI95",
+    "SES2",
+    "SEST2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "activation of protein kinase activity",
+    "DNA damage response, signal transduction by p53 class mediator"
+  ],
+  "summary": {
+    "function": {
+      "text": "SESN2 encodes sestrin-2. Annotated molecular activities include peroxidase activity and sulfiredoxin activity. It participates in activation of protein kinase activity and DNA damage response, signal transduction by p53 class mediator.",
+      "source_ids": [
+        "ncbi-83667",
+        "uniprot-P58004"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "SESN2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

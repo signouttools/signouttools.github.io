@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:8632",
+  "symbol": "PBX1",
+  "name": "PBX homeobox 1",
+  "ncbi_gene_id": "5087",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of transcription by RNA polymerase II",
+    "brain development"
+  ],
+  "summary": {
+    "function": {
+      "text": "PBX1 encodes pre-B-cell leukemia transcription factor 1. Annotated molecular activities include DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific. It participates in positive regulation of transcription by RNA polymerase II and brain development.",
+      "source_ids": [
+        "ncbi-5087",
+        "uniprot-P40424"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to congenital anomalies of kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmental delay (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include B-lymphoblastic leukemia/lymphoma; Myoepithelial carcinoma of soft tissue/bone. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0060549",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-ball",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-nm-myocarc",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

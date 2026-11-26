@@ -1,0 +1,94 @@
+{
+  "id": "HGNC:4716",
+  "symbol": "H1-2",
+  "name": "H1.2 linker histone, cluster member",
+  "ncbi_gene_id": "3006",
+  "aliases": [
+    "H1.2",
+    "H1F2",
+    "H1c",
+    "H1s-1",
+    "HIST1H1C"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of mRNA splicing, via spliceosome",
+    "chromosome condensation"
+  ],
+  "summary": {
+    "function": {
+      "text": "H1-2 encodes histone H1.2. Annotated molecular activities include histone H3K27me3 reader activity and structural constituent of chromatin. It participates in regulation of mRNA splicing, via spliceosome and chromosome condensation.",
+      "source_ids": [
+        "ncbi-3006",
+        "uniprot-P16403"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468",
+        "panel-impact505",
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "H1-2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "H1-2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "HIST1H1C",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

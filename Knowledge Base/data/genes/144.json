@@ -1,0 +1,89 @@
+{
+  "id": "HGNC:144",
+  "symbol": "ACTG1",
+  "name": "actin gamma 1",
+  "ncbi_gene_id": "71",
+  "aliases": [
+    "ACTG",
+    "DFNA20",
+    "DFNA26"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "angiogenesis",
+    "axonogenesis"
+  ],
+  "summary": {
+    "function": {
+      "text": "ACTG1 encodes actin, cytoplasmic 2 [Cleaved into: Actin, cytoplasmic 2, N-terminally processed]. Annotated molecular activities include ATP hydrolysis activity and structural constituent of cytoskeleton. It participates in angiogenesis and axonogenesis.",
+      "source_ids": [
+        "ncbi-71",
+        "uniprot-P63261"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to Baraitser-winter syndrome 2 (autosomal dominant); nonsyndromic genetic hearing loss (autosomal dominant). Additional curated associations are listed below.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0013812",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0019497",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0011480",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "ACTG1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

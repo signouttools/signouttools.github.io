@@ -1,0 +1,43 @@
+{
+  "id": "braf-v600e-melanoma",
+  "gene_id": "HGNC:1097",
+  "label": "BRAF V600E",
+  "selector": {
+    "kind": "exact_variant",
+    "transcript": "NM_004333.6",
+    "hgvs_c": "c.1799T>A",
+    "hgvs_p": "p.Val600Glu",
+    "aliases": [
+      "V600E",
+      "p.V600E",
+      "Val600Glu"
+    ],
+    "definition": "This exact nucleotide substitution on the stated transcript.",
+    "source_ids": [
+      "clinvar-braf-name"
+    ]
+  },
+  "disease_id": "melanoma",
+  "includes_descendants": false,
+  "interpretation_scope": "biological",
+  "comment": {
+    "text": "BRAF p.Val600Glu (V600E) is an activating kinase-domain substitution associated with MAPK pathway signaling in melanoma. This example describes its biological context; any clinical interpretation requires the patient’s tumor classification and current disease-specific evidence.",
+    "source_ids": [
+      "ncbi-braf",
+      "davies-2002"
+    ]
+  },
+  "applicability_notes": [
+    "Applies to the specified V600E substitution in melanoma.",
+    "Do not extend this comment to non-V600 variants, BRAF fusions, or a different tumor type."
+  ],
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-linked pilot draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial format example; specialist review pending."
+  }
+}

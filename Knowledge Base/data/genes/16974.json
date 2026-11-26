@@ -1,0 +1,82 @@
+{
+  "id": "HGNC:16974",
+  "symbol": "SRCAP",
+  "name": "Snf2 related CREBBP activator protein",
+  "ncbi_gene_id": "10847",
+  "aliases": [
+    "DOMO1",
+    "KIAA0309",
+    "SWR1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cAMP/PKA signal transduction",
+    "regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "SRCAP encodes chromatin remodeling protein SRCAP. Annotated molecular activities include transcription coactivator activity and ATP hydrolysis activity. It participates in cAMP/PKA signal transduction and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-10847",
+        "uniprot-Q6ZRS2"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to Floating-Harbor syndrome (autosomal dominant); developmental delay, hypotonia, musculoskeletal defects, and behavioral abnormalities (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0007621",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0859202",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "SRCAP",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

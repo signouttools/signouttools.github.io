@@ -1,0 +1,63 @@
+{
+  "id": "HGNC:23492",
+  "symbol": "PNLIPRP3",
+  "name": "pancreatic lipase related protein 3",
+  "ncbi_gene_id": "119548",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "PNLIPRP3 is the approved symbol for pancreatic lipase related protein 3. Reviewed functional annotations implicate its product in glycerophospholipid phospholipase A1 activity; lipoprotein lipase activity; cholesterol homeostasis.",
+      "source_ids": [
+        "ncbi-119548",
+        "uniprot-Q17RR3"
+      ]
+    },
+    "germline": {
+      "text": "No conflict-free strong or definitive constitutional disease relationship met the source-selection criteria for this draft; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Cancer Hotspots v1 reports recurrent residue-level observations in Esophageal carcinoma; Gastric adenocarcinoma. This is statistical recurrence evidence; it does not establish that every variant in this gene is a driver or a clinically actionable alteration. Evidence in this collection is restricted to the historical V1 release.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "hotspots-cohort-esca",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-stad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Added to ensure complete representation of genes in the three Cancer Hotspots original release workbooks.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — LLM source-linked hotspot supplement",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

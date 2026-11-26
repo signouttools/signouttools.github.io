@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:19351",
+  "symbol": "BICC1",
+  "name": "BicC family RNA binding protein 1",
+  "ncbi_gene_id": "80114",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "mRNA catabolic process",
+    "determination of left/right symmetry"
+  ],
+  "summary": {
+    "function": {
+      "text": "BICC1 encodes protein bicaudal C homolog 1. It participates in mRNA catabolic process and determination of left/right symmetry.",
+      "source_ids": [
+        "ncbi-80114",
+        "uniprot-Q9H694"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Intrahepatic cholangiocarcinoma; Small-duct intrahepatic cholangiocarcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-intrahepatic-cholangiocarcinoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-u-sd-icca",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-11-26",
+  "disclaimer": "Pathologist review needed — LLM-generated summary/review.",
+  "method": "Complete row extraction from FDA companion diagnostic tables, all Oncology rows in the pharmacogenomic-labeling table, and all rows in the FDA oncology notification table. Gene matching is a candidate-reference index only.",
+  "input_receipts": [
+    {
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "sha256": "48c7a568aa43597062bb0aa8f449df0f4327dcd4ff0d32dd5eadd0e98860ab0d",
+      "accessed_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/science-and-research-drugs/table-pharmacogenomic-biomarkers-drug-labeling",
+      "sha256": "8e1064e7330637f6fd66d689e238191575b0da130b88a2c68c1e9826e3f473fd",
+      "accessed_on": "2026-11-26"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications",
+      "sha256": "a419f5db551e862a3829cb24431fb8a03120fa2d9be223dbb3d54691ddb05b7d",
+      "accessed_on": "2026-11-26"
+    }
+  ],
+  "reference_count": 788,
+  "gene_linked_count": 541,
+  "genes_with_references": 81,
+  "eligibility_asserted": false,
+  "coverage_status": "source_index_complete_label_adjudication_incomplete",
+  "limitations": [
+    "FDA notifications are not a complete list of approvals or label updates.",
+    "The companion-diagnostic list does not replace a therapeutic label and may retain historic diagnostics.",
+    "Pharmacogenomic-labeling biomarkers include resistance, exclusions, metabolism, expression, and study observations; not every entry is a positive treatment-selection biomarker.",
+    "Current marketing/withdrawal status, full indication, combinations, line of therapy, age, germline/somatic restrictions, and exact variant eligibility have not been adjudicated for every row.",
+    "Drug targets without an explicitly named molecular biomarker may not map to a gene. This is not a claim of exhaustive FDA targeted-therapy coverage."
+  ],
+  "exact_source_allele_text_matches": 48,
+  "exact_match_method": "Exact allele text in FDA CDx criteria or approval description; does not resolve functional eligibility, current label, tumor, age, line, combinations, or approval status."
+}

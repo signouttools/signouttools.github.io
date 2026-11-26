@@ -1,0 +1,64 @@
+{
+  "id": "HGNC:17073",
+  "symbol": "ARHGAP26",
+  "name": "Rho GTPase activating protein 26",
+  "ncbi_gene_id": "23092",
+  "aliases": [
+    "GRAF",
+    "KIAA0621",
+    "OPHN1L",
+    "OPHN1L1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "signal transduction",
+    "regulation of small GTPase mediated signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "ARHGAP26 encodes rho GTPase-activating protein 26. Annotated molecular activities include GTPase activator activity and protein-macromolecule adaptor activity. It participates in signal transduction and regulation of small GTPase mediated signal transduction.",
+      "source_ids": [
+        "ncbi-23092",
+        "uniprot-Q9UNA1"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Gastric adenocarcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-gastric-adenocarcinoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

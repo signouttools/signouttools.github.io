@@ -134,6 +134,9 @@ h4 { font-size: 1rem; }
 
 .work-section, .contact { margin-top: clamp(1.8rem, 4vw, 2.75rem); }
 
+.knowledge-base-pilot { margin-bottom: 1rem; }
+.knowledge-base-pilot h3 { font-size: 1rem; }
+
 .workflows {
   display: grid;
   grid-template-columns: 6rem minmax(0, 1fr);

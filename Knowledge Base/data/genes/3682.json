@@ -1,0 +1,112 @@
+{
+  "id": "HGNC:3682",
+  "symbol": "FGF4",
+  "name": "fibroblast growth factor 4",
+  "ncbi_gene_id": "2249",
+  "aliases": [
+    "HBGF-4",
+    "HST",
+    "HST-1",
+    "HSTF1",
+    "K-FGF",
+    "KFGF"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "signal transduction",
+    "neurogenesis"
+  ],
+  "summary": {
+    "function": {
+      "text": "FGF4 encodes fibroblast growth factor 4. Annotated molecular activities include growth factor activity and fibroblast growth factor receptor binding. It participates in signal transduction and neurogenesis.",
+      "source_ids": [
+        "ncbi-2249",
+        "uniprot-P08620"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Amplification of FGF4 has been reported in human tumors. A regional copy-number gain does not by itself identify the contribution of this gene relative to neighboring co-amplified genes.",
+      "source_ids": [
+        "ncbi-2249"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "pan-cancer",
+      "mechanism": "Amplification reported by RefSeq; no specific tumor subtype inferred.",
+      "source_ids": [
+        "ncbi-2249"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "FGF4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "FGF4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "FGF4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "FGF4",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

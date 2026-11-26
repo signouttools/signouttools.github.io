@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:7871",
+  "symbol": "NONO",
+  "name": "non-POU domain containing octamer binding",
+  "ncbi_gene_id": "4841",
+  "aliases": [
+    "NMT55",
+    "NRB54",
+    "P54",
+    "P54NRB",
+    "PPP1R114",
+    "p54(NRB)"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "RNA splicing",
+    "regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "NONO encodes non-POU domain-containing octamer-binding protein). Annotated molecular activities include chromatin binding and lncRNA binding. It participates in RNA splicing and regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4841",
+        "uniprot-Q15233"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to X-linked syndromic intellectual disability (x-linked); intellectual developmental disorder, X-linked, syndromic 34 (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "NONO can participate in TFE3-associated rearrangements in renal cell carcinoma.",
+      "source_ids": [
+        "ncbi-4841"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0020119",
+      "mechanism": "X-linked; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0010501",
+      "mechanism": "X-linked; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-671325987017",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-4841"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

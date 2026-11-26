@@ -1,0 +1,71 @@
+{
+  "id": "HGNC:9009",
+  "symbol": "PKD2",
+  "name": "polycystin 2, transient receptor potential cation channel",
+  "ncbi_gene_id": "5311",
+  "aliases": [
+    "PC2",
+    "PKD4",
+    "Pc-2",
+    "TRPP2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of transcription by RNA polymerase II",
+    "aorta development"
+  ],
+  "summary": {
+    "function": {
+      "text": "PKD2 encodes polycystin-2. Annotated molecular activities include transcription regulator inhibitor activity and potassium channel activity. It participates in positive regulation of transcription by RNA polymerase II and aorta development.",
+      "source_ids": [
+        "ncbi-5311",
+        "uniprot-Q13563"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to autosomal dominant polycystic kidney disease (autosomal dominant); polycystic kidney disease 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-SolidTumors_Hereditary"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0004691",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0013131",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Genomics England PanelApp. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

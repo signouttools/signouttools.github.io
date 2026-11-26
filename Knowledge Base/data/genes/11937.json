@@ -1,0 +1,76 @@
+{
+  "id": "HGNC:11937",
+  "symbol": "CD70",
+  "name": "CD70 molecule",
+  "ncbi_gene_id": "970",
+  "aliases": [
+    "CD27-L",
+    "CD27L",
+    "CD27LG",
+    "TNFSF7"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "B cell proliferation",
+    "CD27 signaling pathway"
+  ],
+  "summary": {
+    "function": {
+      "text": "CD70 encodes CD70 antigen. Annotated molecular activities include receptor ligand activity and tumor necrosis factor receptor binding. It participates in B cell proliferation and CD27 signaling pathway.",
+      "source_ids": [
+        "ncbi-970",
+        "uniprot-P32970"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to severe combined immunodeficiency due to CD70 deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0034054",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "CD70",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

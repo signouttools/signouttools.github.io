@@ -1,0 +1,69 @@
+{
+  "id": "HGNC:6856",
+  "symbol": "MAP3K4",
+  "name": "mitogen-activated protein kinase kinase kinase 4",
+  "ncbi_gene_id": "4216",
+  "aliases": [
+    "KIAA0213",
+    "MAPKKK4",
+    "MEKK4",
+    "MTK1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of JUN kinase activity",
+    "intracellular signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "MAP3K4 encodes mitogen-activated protein kinase kinase kinase 4. Annotated molecular activities include protein serine kinase activity and MAP kinase kinase kinase activity. It participates in positive regulation of JUN kinase activity and intracellular signal transduction.",
+      "source_ids": [
+        "ncbi-4216",
+        "uniprot-Q9Y6R4"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "MAP3K4",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

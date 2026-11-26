@@ -1,0 +1,84 @@
+{
+  "id": "HGNC:9709",
+  "symbol": "PVT1",
+  "name": "Pvt1 oncogene",
+  "ncbi_gene_id": "5820",
+  "aliases": [
+    "FFX",
+    "HNB",
+    "LINC00079",
+    "MIR1204HG",
+    "NCRNA00079",
+    "TP53LC09",
+    "onco-lncRNA-100"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "PVT1 is a noncoding locus near MYC that produces regulatory RNA transcripts. Its proximity to MYC is relevant when interpreting regional copy-number changes and rearrangements.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "PVT1 copy-number gain and increased expression have been reported in breast and ovarian cancers, acute myeloid leukemia, and Hodgkin lymphoma. These observations should be distinguished from an established effect of an arbitrary sequence variant.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-4effb7767b61",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-4a05d08284cf",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-6c2881ff6bdf",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    },
+    {
+      "disease_id": "refseq-tumor-15b81770bd1f",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-5820"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

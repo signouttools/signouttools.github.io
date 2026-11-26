@@ -1,0 +1,96 @@
+{
+  "id": "HGNC:783",
+  "symbol": "ATF1",
+  "name": "activating transcription factor 1",
+  "ncbi_gene_id": "466",
+  "aliases": [
+    "TREB36"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cAMP/PKA signal transduction",
+    "regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "ATF1 encodes cyclic AMP-dependent transcription factor ATF-1. Annotated molecular activities include DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific. It participates in cAMP/PKA signal transduction and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-466",
+        "uniprot-P18846"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Clear cell odontogenic carcinoma; Clear cell sarcoma of soft tissue; Pulmonary hyalinizing clear cell carcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-odontclear",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-nm-ccs",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-salclear",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-u-cns-fet-creb",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-s-gnet",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-pulmonary-hyalinizing-clear-cell-carcinoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

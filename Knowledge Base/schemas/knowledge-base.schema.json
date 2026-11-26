@@ -1,0 +1,808 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://signouttools.github.io/Knowledge%20Base/schemas/knowledge-base.schema.json",
+  "title": "Signout Tools Knowledge Base pilot contract",
+  "description": "Dataset bundle; individual file entities use the definitions below. Cross-record rules are checked by scripts/validate.mjs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest",
+    "genes",
+    "variants",
+    "diseases",
+    "sources",
+    "panels"
+  ],
+  "properties": {
+    "manifest": {
+      "$ref": "#/$defs/manifest"
+    },
+    "genes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/gene"
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/variant"
+      }
+    },
+    "diseases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/disease"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "panels": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/panel"
+      }
+    }
+  },
+  "$defs": {
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "text",
+        "source_ids"
+      ]
+    },
+    "association": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "disease_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mechanism": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "disease_id",
+        "mechanism",
+        "source_ids"
+      ]
+    },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "in_review",
+            "approved",
+            "retired"
+          ]
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "sources_checked_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "change_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "disclaimer": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "author",
+        "reviewer",
+        "reviewed_on",
+        "sources_checked_on",
+        "revision",
+        "change_note"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "approved"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "reviewer": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reviewed_on": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "membership": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "panel_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "panel_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "submitted_symbol": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alteration_classes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "panel_id",
+        "panel_version",
+        "submitted_symbol",
+        "alteration_classes",
+        "source_ids"
+      ]
+    },
+    "gene": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^HGNC:\\d+$"
+        },
+        "symbol": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ncbi_gene_id": {
+          "type": "string",
+          "pattern": "^\\d+$"
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "oncogene",
+              "tumor_suppressor",
+              "metabolic_driver",
+              "other"
+            ]
+          }
+        },
+        "pathways": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "function": {
+              "$ref": "#/$defs/section"
+            },
+            "germline": {
+              "$ref": "#/$defs/section"
+            },
+            "somatic": {
+              "$ref": "#/$defs/section"
+            }
+          },
+          "required": [
+            "function",
+            "germline",
+            "somatic"
+          ]
+        },
+        "germline_status": {
+          "type": "string",
+          "enum": [
+            "established",
+            "not_established_in_reviewed_sources",
+            "uncertain"
+          ]
+        },
+        "germline_associations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/association"
+          }
+        },
+        "somatic_associations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/association"
+          }
+        },
+        "mosaic_associations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/association"
+          }
+        },
+        "panel_memberships": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/membership"
+          }
+        },
+        "selection_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
+        },
+        "review_notes": {
+          "$ref": "#/$defs/section"
+        }
+      },
+      "required": [
+        "id",
+        "symbol",
+        "name",
+        "ncbi_gene_id",
+        "aliases",
+        "roles",
+        "pathways",
+        "summary",
+        "germline_status",
+        "germline_associations",
+        "somatic_associations",
+        "mosaic_associations",
+        "panel_memberships",
+        "selection_reason",
+        "editorial"
+      ]
+    },
+    "selector": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "exact_variant",
+            "codon",
+            "exon_event",
+            "loss_of_function",
+            "amplification",
+            "deletion",
+            "fusion"
+          ]
+        },
+        "transcript": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hgvs_c": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hgvs_p": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "transcript",
+        "hgvs_c",
+        "hgvs_p",
+        "aliases",
+        "definition",
+        "source_ids"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "exact_variant"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "transcript": {
+                "type": "string",
+                "pattern": "^NM_\\d+\\.\\d+$"
+              },
+              "hgvs_c": {
+                "type": "string",
+                "pattern": "^c\\."
+              },
+              "hgvs_p": {
+                "type": "string",
+                "pattern": "^p\\."
+              }
+            }
+          }
+        }
+      ]
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gene_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selector": {
+          "$ref": "#/$defs/selector"
+        },
+        "disease_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "includes_descendants": {
+          "type": "boolean"
+        },
+        "interpretation_scope": {
+          "type": "string",
+          "enum": [
+            "biological"
+          ]
+        },
+        "comment": {
+          "$ref": "#/$defs/section"
+        },
+        "applicability_notes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
+        }
+      },
+      "required": [
+        "id",
+        "gene_id",
+        "label",
+        "selector",
+        "disease_id",
+        "includes_descendants",
+        "interpretation_scope",
+        "comment",
+        "applicability_notes",
+        "editorial"
+      ]
+    },
+    "disease": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "solid",
+            "hematologic",
+            "cns",
+            "pan_cancer",
+            "constitutional",
+            "mosaic"
+          ]
+        },
+        "parent_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "synonyms": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ontology_mappings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "system": {
+                "type": "string",
+                "minLength": 1
+              },
+              "code": {
+                "type": "string",
+                "minLength": 1
+              },
+              "version": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "system",
+              "code",
+              "version"
+            ]
+          }
+        },
+        "mapping_status": {
+          "type": "string",
+          "enum": [
+            "local_unmapped",
+            "reviewed"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "category",
+        "parent_id",
+        "synonyms",
+        "ontology_mappings",
+        "mapping_status"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "gene_reference",
+            "germline_reference",
+            "primary_study",
+            "variant_reference",
+            "panel_reference",
+            "regulatory_reference"
+          ]
+        },
+        "accessed_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reuse_notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pmid": {
+          "type": "string",
+          "pattern": "^\\d+$"
+        },
+        "citation_label": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "url",
+        "kind",
+        "accessed_on",
+        "reuse_notes"
+      ]
+    },
+    "panel": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assay_family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exact_list_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^https://"
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "acquisition_status": {
+          "type": "string",
+          "enum": [
+            "candidate",
+            "acquired",
+            "reviewed"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "assay_family",
+        "provider",
+        "version",
+        "exact_list_url",
+        "source_ids",
+        "acquisition_status"
+      ]
+    },
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "0.2.0"
+        },
+        "data_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "release_status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "approved"
+          ]
+        },
+        "built_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "gene_files": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "variant_files": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "disease_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "panel_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gene_index_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hotspot_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hotspot_allele_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hotspot_report_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hotspot_index_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fda_reference_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fda_review_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "disruption_file": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "data_version",
+        "release_status",
+        "built_on",
+        "gene_files",
+        "variant_files",
+        "disease_file",
+        "source_file",
+        "panel_file"
+      ]
+    }
+  }
+}

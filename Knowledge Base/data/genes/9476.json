@@ -1,0 +1,71 @@
+{
+  "id": "HGNC:9476",
+  "symbol": "HTRA1",
+  "name": "HtrA serine peptidase 1",
+  "ncbi_gene_id": "5654",
+  "aliases": [
+    "ARMD7",
+    "HtrA",
+    "IGFBP5-protease",
+    "PRSS11"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "proteolysis",
+    "programmed cell death"
+  ],
+  "summary": {
+    "function": {
+      "text": "HTRA1 encodes serine protease HTRA1. Annotated molecular activities include serine-type endopeptidase activity and serine-type peptidase activity. It participates in proteolysis and programmed cell death.",
+      "source_ids": [
+        "ncbi-5654",
+        "uniprot-Q92743"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 2 (autosomal recessive); cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-Bone_Soft_Tissue_1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0010829",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0014768",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Genomics England PanelApp. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

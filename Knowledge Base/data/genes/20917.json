@@ -1,0 +1,78 @@
+{
+  "id": "HGNC:20917",
+  "symbol": "ALPK1",
+  "name": "alpha kinase 1",
+  "ncbi_gene_id": "80216",
+  "aliases": [
+    "FLJ22670",
+    "KIAA1527",
+    "Lak"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of canonical NF-kappaB signal transduction",
+    "cilium assembly"
+  ],
+  "summary": {
+    "function": {
+      "text": "ALPK1 encodes alpha-protein kinase 1. Annotated molecular activities include protein serine kinase activity and protein serine/threonine kinase activity. It participates in positive regulation of canonical NF-kappaB signal transduction and cilium assembly.",
+      "source_ids": [
+        "ncbi-80216",
+        "uniprot-Q96QP1"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to retinal dystrophy, optic nerve edema, splenomegaly, anhidrosis, and migraine headache syndrome (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Spiradenocarcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0013999",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-spira",
+      "mechanism": "Educational atlas reports sequence alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PAAD",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+worker-bundle.js
+viewer-bundle.js
+tests/browser-bundle.js
+tests/browser.html
+tests/fixtures/*.bam
+tests/fixtures/*.bai
+tests/fixtures/*.csi
+tests/fixtures/*.fai
+tests/fixtures/*.fa
+tests/fixtures/*.2bit
+tests/lifecycle-bundle.js
+tests/lifecycle.html
+tests/engine-bundle.js

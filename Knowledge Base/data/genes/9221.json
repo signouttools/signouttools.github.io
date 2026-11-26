@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:9221",
+  "symbol": "POU5F1",
+  "name": "POU class 5 homeobox 1",
+  "ncbi_gene_id": "5460",
+  "aliases": [
+    "MGC22487",
+    "OCT-4",
+    "OCT3",
+    "OTF3",
+    "Oct3/4",
+    "Oct4"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of DNA-templated transcription",
+    "negative regulation of miRNA transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "POU5F1 encodes POU domain, class 5, transcription factor 1. Annotated molecular activities include DNA-binding transcription factor activity and DNA-binding transcription factor activity, RNA polymerase II-specific. It participates in regulation of DNA-templated transcription and negative regulation of miRNA transcription.",
+      "source_ids": [
+        "ncbi-5460",
+        "uniprot-Q01860"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Myoepithelial carcinoma of soft tissue/bone. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-myocarc",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

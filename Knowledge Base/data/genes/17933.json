@@ -1,0 +1,90 @@
+{
+  "id": "HGNC:17933",
+  "symbol": "KAT8",
+  "name": "lysine acetyltransferase 8",
+  "ncbi_gene_id": "84148",
+  "aliases": [
+    "FLJ14040",
+    "MOF",
+    "MYST1",
+    "hMOF"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "KAT8 is the approved symbol for lysine acetyltransferase 8. Reviewed functional annotations implicate its product in enzyme binding; histone acetyltransferase activity; dosage compensation by inactivation of X chromosome.",
+      "source_ids": [
+        "ncbi-84148",
+        "uniprot-Q9H7Z6"
+      ]
+    },
+    "germline": {
+      "text": "Retained strong or definitive GenCC associations include Li-Ghorbani-Weisz-Hubshman syndrome (autosomal dominant). Allele and inheritance require review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Cancer Hotspots v1 reports recurrent residue-level observations in Colorectal carcinoma; Prostate adenocarcinoma; Cutaneous melanoma. This is statistical recurrence evidence; it does not establish that every variant in this gene is a driver or a clinically actionable alteration. Evidence in this collection is restricted to the historical V1 release.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "hotspots-gencc-10374135bd6b",
+      "mechanism": "Autosomal dominant; Strong GenCC assertion, Labcorp Genetics (formerly Invitae). Allele-specific review required.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "hotspots-cohort-coadread",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-prad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-skcm",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-stad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Added to ensure complete representation of genes in the three Cancer Hotspots original release workbooks.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — LLM source-linked hotspot supplement",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

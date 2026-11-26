@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:18305",
+  "symbol": "ATP6AP2",
+  "name": "ATPase H+ transporting accessory protein 2",
+  "ncbi_gene_id": "10159",
+  "aliases": [
+    "(P)RR",
+    "APT6M8-9",
+    "ATP6IP2",
+    "ATP6M8-9",
+    "M8-9",
+    "PRR",
+    "RENR"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "angiotensin maturation",
+    "eye pigmentation"
+  ],
+  "summary": {
+    "function": {
+      "text": "ATP6AP2 encodes renin receptor (ATPase H(+)-transporting lysosomal accessory protein 2) (ATPase H(+)-transporting lysosomal-interacting protein 2) [Cleaved into: Renin receptor N-terminal fragment; Renin receptor C-terminal fragment]. Annotated molecular activities include signaling receptor activity. It participates in angiotensin maturation and eye pigmentation.",
+      "source_ids": [
+        "ncbi-10159",
+        "uniprot-O75787"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to ATP6AP2-related disorder (x-linked); congenital disorder of glycosylation, type IIr (x-linked). Additional curated associations are listed below.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-Bone_Soft_Tissue_1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0100146",
+      "mechanism": "X-linked; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0026765",
+      "mechanism": "X-linked; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0010319",
+      "mechanism": "X-linked; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

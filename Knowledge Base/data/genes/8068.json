@@ -1,0 +1,83 @@
+{
+  "id": "HGNC:8068",
+  "symbol": "NUP98",
+  "name": "nucleoporin 98 and 96 precursor",
+  "ncbi_gene_id": "4928",
+  "aliases": [
+    "NUP196",
+    "NUP96",
+    "Nup98-96",
+    "Nup98-Nup96"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of mRNA splicing, via spliceosome",
+    "post-transcriptional tethering of RNA polymerase II gene DNA at nuclear periphery"
+  ],
+  "summary": {
+    "function": {
+      "text": "NUP98 encodes nuclear pore complex protein Nup98-Nup96 [Cleaved into: Nuclear pore complex protein Nup98; Nuclear pore complex protein Nup96]. Annotated molecular activities include transcription coactivator activity and molecular condensate scaffold activity. It participates in positive regulation of mRNA splicing, via spliceosome and post-transcriptional tethering of RNA polymerase II gene DNA at nuclear periphery.",
+      "source_ids": [
+        "ncbi-4928",
+        "uniprot-P52948"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Acute myeloid leukemia. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-aml",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-lung-squamous-cell-carcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "NUP98",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

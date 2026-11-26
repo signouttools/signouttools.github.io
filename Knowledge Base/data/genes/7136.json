@@ -1,0 +1,77 @@
+{
+  "id": "HGNC:7136",
+  "symbol": "MLLT3",
+  "name": "MLLT3 super elongation complex subunit",
+  "ncbi_gene_id": "4300",
+  "aliases": [
+    "AF-9",
+    "AF9",
+    "YEATS3"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of chromatin organization",
+    "positive regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "MLLT3 encodes protein AF-9. Annotated molecular activities include molecular adaptor activity and histone H3K18ac reader activity. It participates in regulation of chromatin organization and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-4300",
+        "uniprot-P42568"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Melanoma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "melanoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "MLLT3",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV",
+        "RNA_fusion"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

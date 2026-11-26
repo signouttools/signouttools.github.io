@@ -1,0 +1,63 @@
+{
+  "id": "HGNC:10448",
+  "symbol": "RRBP1",
+  "name": "ribosome binding protein 1",
+  "ncbi_gene_id": "6238",
+  "aliases": [
+    "ES/130",
+    "hES",
+    "p180"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "translation",
+    "osteoblast differentiation"
+  ],
+  "summary": {
+    "function": {
+      "text": "RRBP1 encodes ribosome-binding protein 1. Annotated molecular activities include signaling receptor activity. It participates in translation and osteoblast differentiation.",
+      "source_ids": [
+        "ncbi-6238",
+        "uniprot-Q9P2E9"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Epithelioid inflammatory myofibroblastic sarcoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-s-eims",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

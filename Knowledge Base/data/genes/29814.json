@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:29814",
+  "symbol": "MUS81",
+  "name": "MUS81 structure-specific endonuclease subunit",
+  "ncbi_gene_id": "80198",
+  "aliases": [
+    "FLJ44872",
+    "SLX3"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA repair",
+    "telomere maintenance"
+  ],
+  "summary": {
+    "function": {
+      "text": "MUS81 encodes structure-specific endonuclease subunit MUS81. Annotated molecular activities include endonuclease activity and 3'-flap endonuclease activity. It participates in DNA repair and telomere maintenance.",
+      "source_ids": [
+        "ncbi-80198",
+        "uniprot-Q96NY9"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "MUS81",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "HGNC:23168",
+  "symbol": "FANCM",
+  "name": "FA complementation group M",
+  "ncbi_gene_id": "57697",
+  "aliases": [
+    "FAAP250",
+    "KIAA1596"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "interstrand cross-link repair",
+    "replication fork processing"
+  ],
+  "summary": {
+    "function": {
+      "text": "FANCM encodes fanconi anemia group M protein. Annotated molecular activities include ATP hydrolysis activity and RNA helicase activity. It participates in interstrand cross-link repair and replication fork processing.",
+      "source_ids": [
+        "ncbi-57697",
+        "uniprot-Q8IYD8"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include FANCM Fanconi-like genomic instability disorder (autosomal recessive); spermatogenic failure 28 (autosomal recessive). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3",
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0100578",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0054732",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "FANCM",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "FANCM",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "breast cancer: limited (ClinGen); not presented as an established association. Fanconi anemia: refuted evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-107119.2",
+      "gencc-SGC-107144.2"
+    ]
+  }
+}

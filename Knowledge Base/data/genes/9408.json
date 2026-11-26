@@ -1,0 +1,70 @@
+{
+  "id": "HGNC:9408",
+  "symbol": "PRKD3",
+  "name": "protein kinase D3",
+  "ncbi_gene_id": "23683",
+  "aliases": [
+    "EPK2",
+    "PKD3",
+    "PRKCN"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "intracellular signal transduction",
+    "protein phosphorylation"
+  ],
+  "summary": {
+    "function": {
+      "text": "PRKD3 encodes serine/threonine-protein kinase D3. Annotated molecular activities include kinase activity and diacylglycerol-dependent serine/threonine kinase activity. It participates in intracellular signal transduction and protein phosphorylation.",
+      "source_ids": [
+        "ncbi-23683",
+        "uniprot-O94806"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Polymorphous adenocarcinoma; Cribriform adenocarcinoma of salivary gland. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-casg",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-salpoly",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

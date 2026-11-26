@@ -1,0 +1,67 @@
+{
+  "id": "HGNC:29619",
+  "symbol": "MPEG1",
+  "name": "macrophage expressed 1",
+  "ncbi_gene_id": "219972",
+  "aliases": [
+    "MPG1",
+    "MPS-1",
+    "P2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "antibacterial innate immune response",
+    "defense response to bacterium"
+  ],
+  "summary": {
+    "function": {
+      "text": "MPEG1 encodes macrophage-expressed gene 1 protein [Cleaved into: Macrophage-expressed gene 1 protein, processed form]. Annotated molecular activities include wide pore channel activity. It participates in antibacterial innate immune response and defense response to bacterium.",
+      "source_ids": [
+        "ncbi-219972",
+        "uniprot-Q2M385"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "MPEG1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

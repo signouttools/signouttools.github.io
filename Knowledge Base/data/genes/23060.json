@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:23060",
+  "symbol": "SESN3",
+  "name": "sestrin 3",
+  "ncbi_gene_id": "143686",
+  "aliases": [
+    "MGC29667",
+    "SEST3"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "TORC2 signaling",
+    "glucose homeostasis"
+  ],
+  "summary": {
+    "function": {
+      "text": "SESN3 encodes sestrin-3. Annotated molecular activities include oxidoreductase activity, acting on peroxide as acceptor and L-leucine binding. It participates in TORC2 signaling and glucose homeostasis.",
+      "source_ids": [
+        "ncbi-143686",
+        "uniprot-P58005"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "SESN3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

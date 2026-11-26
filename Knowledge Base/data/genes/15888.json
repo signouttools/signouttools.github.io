@@ -1,0 +1,104 @@
+{
+  "id": "HGNC:15888",
+  "symbol": "RTEL1",
+  "name": "regulator of telomere elongation helicase 1",
+  "ncbi_gene_id": "51750",
+  "aliases": [
+    "C20orf41",
+    "DKFZP434C013",
+    "KIAA1088",
+    "NHL",
+    "RTEL",
+    "bK3184A7.3"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA repair",
+    "telomere maintenance"
+  ],
+  "summary": {
+    "function": {
+      "text": "RTEL1 encodes regulator of telomere elongation helicase 1. Annotated molecular activities include ATP hydrolysis activity and DNA helicase activity. It participates in DNA repair and telomere maintenance.",
+      "source_ids": [
+        "ncbi-51750",
+        "uniprot-Q9NZ71"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to pulmonary fibrosis and/or bone marrow failure, Telomere-related, 3 (semidominant); dyskeratosis congenita, autosomal recessive 5 (autosomal recessive). Additional curated associations are listed below.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468",
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0014613",
+      "mechanism": "Semidominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0014076",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0014613",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "RTEL1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "RTEL1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

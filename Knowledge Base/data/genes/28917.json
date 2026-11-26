@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:28917",
+  "symbol": "JAZF1",
+  "name": "JAZF zinc finger 1",
+  "ncbi_gene_id": "221895",
+  "aliases": [
+    "DKFZp761K2222",
+    "TIP27",
+    "ZNF802"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "JAZF1 encodes juxtaposed with another zinc finger protein 1. Annotated molecular activities include transcription corepressor activity. It participates in negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-221895",
+        "uniprot-Q86VZ6"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Endometrial stromal sarcoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-ess",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "JAZF1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

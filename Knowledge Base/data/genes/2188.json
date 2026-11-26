@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:2188",
+  "symbol": "COL12A1",
+  "name": "collagen type XII alpha 1 chain",
+  "ncbi_gene_id": "1303",
+  "aliases": [
+    "COL12A1L"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "collagen fibril organization",
+    "endodermal cell differentiation"
+  ],
+  "summary": {
+    "function": {
+      "text": "COL12A1 encodes collagen alpha-1(XII) chain. Annotated molecular activities include extracellular matrix structural constituent conferring tensile strength. It participates in collagen fibril organization and endodermal cell differentiation.",
+      "source_ids": [
+        "ncbi-1303",
+        "uniprot-Q99715"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to Ullrich congenital muscular dystrophy 2 (autosomal recessive); Bethlem myopathy 2 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-Bone_Soft_Tissue_2"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0014654",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from LiferaOmics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0014655",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

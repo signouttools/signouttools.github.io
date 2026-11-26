@@ -1,0 +1,62 @@
+{
+  "id": "HGNC:11424",
+  "symbol": "STRN",
+  "name": "striatin",
+  "ncbi_gene_id": "6801",
+  "aliases": [
+    "PPP2R6A",
+    "STRN1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of signal transduction",
+    "dendrite development"
+  ],
+  "summary": {
+    "function": {
+      "text": "STRN encodes striatin. Annotated molecular activities include protein-macromolecule adaptor activity and calmodulin binding. It participates in regulation of signal transduction and dendrite development.",
+      "source_ids": [
+        "ncbi-6801",
+        "uniprot-O43815"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include ALK-rearranged renal cell carcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-alkrcc",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

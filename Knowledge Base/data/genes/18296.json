@@ -1,0 +1,63 @@
+{
+  "id": "HGNC:18296",
+  "symbol": "PPP4R2",
+  "name": "protein phosphatase 4 regulatory subunit 2",
+  "ncbi_gene_id": "151987",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of double-strand break repair via homologous recombination",
+    "protein modification process"
+  ],
+  "summary": {
+    "function": {
+      "text": "PPP4R2 encodes serine/threonine-protein phosphatase 4 regulatory subunit 2. Annotated molecular activities include protein-macromolecule adaptor activity and protein phosphatase regulator activity. It participates in regulation of double-strand break repair via homologous recombination and protein modification process.",
+      "source_ids": [
+        "ncbi-151987",
+        "uniprot-Q9NY27"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "PPP4R2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "HGNC:11796",
+  "symbol": "THRA",
+  "name": "thyroid hormone receptor alpha",
+  "ncbi_gene_id": "7067",
+  "aliases": [
+    "AR7",
+    "EAR-7.1/EAR-7.2",
+    "ERBA",
+    "ERBA1",
+    "NR1A1",
+    "THRA1",
+    "THRA2",
+    "THRA3",
+    "THRalpha",
+    "THRalpha1",
+    "THRalpha2",
+    "TRalpha",
+    "TRalpha1",
+    "TRalpha2",
+    "c-ERBA-1",
+    "c-erbA"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [],
+  "summary": {
+    "function": {
+      "text": "THRA is the approved symbol for thyroid hormone receptor alpha. Reviewed functional annotations implicate its product in DNA-binding transcription factor activity; DNA-binding transcription factor activity, RNA polymerase II-specific; cell differentiation.",
+      "source_ids": [
+        "ncbi-7067",
+        "uniprot-P10827"
+      ]
+    },
+    "germline": {
+      "text": "Retained strong or definitive GenCC associations include congenital nongoitrous hypothyroidism 6 (autosomal dominant). Allele and inheritance require review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Cancer Hotspots v1 reports recurrent residue-level observations in Glioblastoma; Head and neck squamous cell carcinoma; Low-grade glioma. This is statistical recurrence evidence; it does not establish that every variant in this gene is a driver or a clinically actionable alteration. Evidence in this collection is restricted to the historical V1 release.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "hotspots-gencc-a659534c7878",
+      "mechanism": "Autosomal dominant; Strong GenCC assertion, Labcorp Genetics (formerly Invitae). Allele-specific review required.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "hotspots-cohort-gbm",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-hnsc",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-lgg",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    },
+    {
+      "disease_id": "hotspots-cohort-paad",
+      "mechanism": "Historical hotspot cohort observation; individual-allele significance and tumor-specific oncogenicity require review.",
+      "source_ids": [
+        "hotspots-v1"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Added to ensure complete representation of genes in the three Cancer Hotspots original release workbooks.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — LLM source-linked hotspot supplement",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial Cancer Hotspots dictionary supplement. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

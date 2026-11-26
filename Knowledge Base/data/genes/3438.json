@@ -1,0 +1,83 @@
+{
+  "id": "HGNC:3438",
+  "symbol": "ERCC6",
+  "name": "ERCC excision repair 6, chromatin remodeling factor",
+  "ncbi_gene_id": "2074",
+  "aliases": [
+    "ARMD5",
+    "CKN2",
+    "CSB",
+    "RAD26"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of DNA repair",
+    "positive regulation of gene expression"
+  ],
+  "summary": {
+    "function": {
+      "text": "ERCC6 encodes chimeric ERCC6-PGBD3 protein. Annotated molecular activities include sequence-specific DNA binding. It participates in positive regulation of DNA repair and positive regulation of gene expression.",
+      "source_ids": [
+        "ncbi-2074",
+        "uniprot-P0DP91"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to Cockayne spectrum with or without cerebrooculofacioskeletal syndrome (autosomal recessive); Cockayne syndrome type 2 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0100506",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0019570",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from Myriad Women's Health. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "ERCC6",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

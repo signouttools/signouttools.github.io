@@ -1,0 +1,61 @@
+{
+  "id": "HGNC:27263",
+  "symbol": "KANK4",
+  "name": "KN motif and ankyrin repeat domains 4",
+  "ncbi_gene_id": "163782",
+  "aliases": [
+    "ANKRD38",
+    "KIAA0172"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of actin filament polymerization"
+  ],
+  "summary": {
+    "function": {
+      "text": "KANK4 encodes KN motif and ankyrin repeat domain-containing protein 4. It participates in negative regulation of actin filament polymerization.",
+      "source_ids": [
+        "ncbi-163782",
+        "uniprot-Q5T7N3"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Amphicrine-like carcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-alc",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

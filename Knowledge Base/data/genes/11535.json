@@ -1,0 +1,101 @@
+{
+  "id": "HGNC:11535",
+  "symbol": "TAF1",
+  "name": "TATA-box binding protein associated factor 1",
+  "ncbi_gene_id": "6872",
+  "aliases": [
+    "BA2R",
+    "CCG1",
+    "CCGS",
+    "DYT3",
+    "DYT3/TAF1",
+    "KAT4",
+    "NSCL2",
+    "TAF2A",
+    "TAFII250"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "transcription by RNA polymerase II",
+    "mRNA transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "TAF1 encodes transcription initiation factor TFIID subunit 1250). Annotated molecular activities include kinase activity and protein kinase activity. It participates in transcription by RNA polymerase II and mRNA transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-6872",
+        "uniprot-P21675"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to intellectual developmental disorder, X-linked, syndromic 33 (x-linked); X-linked dystonia-parkinsonism (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-FoundationOne",
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0010500",
+      "mechanism": "X-linked; definitive GenCC assertion from Illumina. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0010747",
+      "mechanism": "X-linked; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "TAF1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "TAF1",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "HGNC:26633",
+  "symbol": "SLFN11",
+  "name": "schlafen family member 11",
+  "ncbi_gene_id": "91607",
+  "aliases": [
+    "FLJ34922"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "chromatin remodeling",
+    "DNA damage response"
+  ],
+  "summary": {
+    "function": {
+      "text": "SLFN11 encodes schlafen family member 11. Annotated molecular activities include ATP hydrolysis activity and tRNA binding. It participates in chromatin remodeling and DNA damage response.",
+      "source_ids": [
+        "ncbi-91607",
+        "uniprot-Q7Z7L1"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "SLFN11",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

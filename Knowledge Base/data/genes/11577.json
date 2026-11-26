@@ -1,0 +1,79 @@
+{
+  "id": "HGNC:11577",
+  "symbol": "TAFAZZIN",
+  "name": "tafazzin, phospholipid-lysophospholipid transacylase",
+  "ncbi_gene_id": "6901",
+  "aliases": [
+    "BTHS",
+    "CMD3A",
+    "EFE",
+    "EFE2",
+    "G4.5",
+    "TAZ",
+    "TAZ1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cristae formation",
+    "cardiolipin acyl-chain remodeling"
+  ],
+  "summary": {
+    "function": {
+      "text": "TAFAZZIN encodes tafazzin. Annotated molecular activities include 1-acylglycerol-3-phosphate O-acyltransferase activity and 1-acylglycerophosphocholine O-acyltransferase activity. It participates in cristae formation and cardiolipin acyl-chain remodeling.",
+      "source_ids": [
+        "ncbi-6901",
+        "uniprot-Q16635"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to Barth syndrome (x-linked).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0010543",
+      "mechanism": "X-linked; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "TAZ",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "HGNC:7218",
+  "symbol": "MPO",
+  "name": "myeloperoxidase",
+  "ncbi_gene_id": "4353",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "defense response",
+    "nucleosome disassembly"
+  ],
+  "summary": {
+    "function": {
+      "text": "MPO encodes myeloperoxidase [Cleaved into: Myeloperoxidase; 89 kDa myeloperoxidase; 84 kDa myeloperoxidase; Myeloperoxidase light chain; Myeloperoxidase heavy chain; 38 kDa myeloperoxidase; 22 kDa myeloperoxidase]. Annotated molecular activities include peroxidase activity and thiocyanate peroxidase activity. It participates in defense response and nucleosome disassembly.",
+      "source_ids": [
+        "ncbi-4353",
+        "uniprot-P05164"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-AML"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Ancillary marker or assay-confounder mention; reserve pending explicit molecular inclusion rationale; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

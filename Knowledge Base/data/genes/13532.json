@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:13532",
+  "symbol": "TLX3",
+  "name": "T cell leukemia homeobox 3",
+  "ncbi_gene_id": "30012",
+  "aliases": [
+    "HOX11L2",
+    "RNX"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of transcription by RNA polymerase II",
+    "animal organ development"
+  ],
+  "summary": {
+    "function": {
+      "text": "TLX3 encodes t-cell leukemia homeobox protein 3. Annotated molecular activities include DNA-binding transcription factor activity, RNA polymerase II-specific and sequence-specific double-stranded DNA binding. It participates in regulation of transcription by RNA polymerase II and animal organ development.",
+      "source_ids": [
+        "ncbi-30012",
+        "uniprot-O43711"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include T-lymphoblastic leukemia/lymphoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-tall",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "TLX3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

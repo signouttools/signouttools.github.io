@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:33738",
+  "symbol": "EZHIP",
+  "name": "EZH inhibitory protein",
+  "ncbi_gene_id": "340602",
+  "aliases": [
+    "CATACOMB",
+    "CXorf67"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "chromatin organization",
+    "epigenetic regulation of gene expression"
+  ],
+  "summary": {
+    "function": {
+      "text": "EZHIP encodes EZH inhibitory protein. Annotated molecular activities include histone methyltransferase inhibitor activity. It participates in chromatin organization and epigenetic regulation of gene expression.",
+      "source_ids": [
+        "ncbi-340602",
+        "uniprot-Q86X51"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "EZHIP overexpression is associated with posterior fossa group A ependymoma and can inhibit PRC2-mediated H3K27 methylation. This expression-associated mechanism does not establish pathogenicity of an arbitrary EZHIP sequence variant.",
+      "source_ids": [
+        "pmid-31086175"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "curation-390ac0cee0a0",
+      "mechanism": "Primary-study gene-level somatic/epigenetic context; alteration class explicitly stated in the paragraph.",
+      "source_ids": [
+        "pmid-31086175"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "EZHIP",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "HGNC:804",
+  "symbol": "ATP1B1",
+  "name": "ATPase Na+/K+ transporting subunit beta 1",
+  "ncbi_gene_id": "481",
+  "aliases": [
+    "ATP1B"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "membrane repolarization",
+    "protein stabilization"
+  ],
+  "summary": {
+    "function": {
+      "text": "ATP1B1 encodes sodium/potassium-transporting ATPase subunit beta-1. Annotated molecular activities include ATPase activator activity and protein heterodimerization activity. It participates in membrane repolarization and protein stabilization.",
+      "source_ids": [
+        "ncbi-481",
+        "uniprot-P05026"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Extrahepatic cholangiocarcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-extrahepatic-cholangiocarcinoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

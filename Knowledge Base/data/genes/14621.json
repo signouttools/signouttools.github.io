@@ -1,0 +1,67 @@
+{
+  "id": "HGNC:14621",
+  "symbol": "NUF2",
+  "name": "NUF2 component of NDC80 kinetochore complex",
+  "ncbi_gene_id": "83540",
+  "aliases": [
+    "CDCA1",
+    "CT106",
+    "NUF2R"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "chromosome segregation",
+    "kinetochore organization"
+  ],
+  "summary": {
+    "function": {
+      "text": "NUF2 encodes kinetochore protein Nuf2. Annotated molecular activities include microtubule binding. It participates in chromosome segregation and kinetochore organization.",
+      "source_ids": [
+        "ncbi-83540",
+        "uniprot-Q9BZD4"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "NUF2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

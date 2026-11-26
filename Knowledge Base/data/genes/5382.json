@@ -1,0 +1,230 @@
+{
+  "id": "HGNC:5382",
+  "symbol": "IDH1",
+  "name": "isocitrate dehydrogenase (NADP(+)) 1",
+  "ncbi_gene_id": "3417",
+  "aliases": [
+    "IDH",
+    "IDPC"
+  ],
+  "roles": [
+    "metabolic_driver"
+  ],
+  "pathways": [
+    "Isocitrate metabolism",
+    "NADPH production"
+  ],
+  "summary": {
+    "function": {
+      "text": "IDH1 encodes a cytosolic and peroxisomal NADP-dependent enzyme that converts isocitrate to alpha-ketoglutarate and generates NADPH.",
+      "source_ids": [
+        "ncbi-idh1"
+      ]
+    },
+    "germline": {
+      "text": "The sources reviewed for this pilot do not establish an inherited IDH1 cancer-predisposition syndrome. Ollier disease and Maffucci syndrome are associated with postzygotic somatic mosaic IDH1 variants and should not be described as germline disorders.",
+      "source_ids": [
+        "medline-idh1"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic IDH1 mutations occur in diffuse gliomas, acute myeloid leukemia, and cholangiocarcinoma. Cancer-associated R132 variants can acquire a neomorphic activity that produces D-2-hydroxyglutarate; their significance must be interpreted within the specific disease context.",
+      "source_ids": [
+        "idh1-cohort-2021",
+        "dang-2009"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "glioma",
+      "mechanism": "Somatic IDH1 mutations; R132 variants may have neomorphic activity.",
+      "source_ids": [
+        "idh1-cohort-2021",
+        "dang-2009"
+      ]
+    },
+    {
+      "disease_id": "aml",
+      "mechanism": "Somatic IDH1 mutations; R132 variants may have neomorphic activity.",
+      "source_ids": [
+        "idh1-cohort-2021",
+        "dang-2009",
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "cholangiocarcinoma",
+      "mechanism": "Somatic IDH1 mutations; R132 variants may have neomorphic activity.",
+      "source_ids": [
+        "idh1-cohort-2021",
+        "dang-2009",
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-GB",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-GBM",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-hepatocellular-carcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-HGGNOS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-LGGNOS",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "melanoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-nm-osteo",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-PAST",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-h-myeloma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-prad",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-melanoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [
+    {
+      "disease_id": "ollier",
+      "mechanism": "Postzygotic somatic mosaic variants in affected tissues.",
+      "source_ids": [
+        "medline-idh1"
+      ]
+    },
+    {
+      "disease_id": "maffucci",
+      "mechanism": "Postzygotic somatic mosaic variants in affected tissues.",
+      "source_ids": [
+        "medline-idh1"
+      ]
+    }
+  ],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "IDH1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    },
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "IDH1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    },
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "IDH1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    },
+    {
+      "panel_id": "FoundationOne",
+      "panel_version": "snapshot-2026-11-26-4eb108dbc2d9",
+      "submitted_symbol": "IDH1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-FoundationOne"
+      ]
+    },
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "IDH1",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-linked pilot draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial format example; specialist review pending.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "idh1-r132h-glioma",
+  "gene_id": "HGNC:5382",
+  "label": "IDH1 R132H",
+  "selector": {
+    "kind": "exact_variant",
+    "transcript": "NM_005896.4",
+    "hgvs_c": "c.395G>A",
+    "hgvs_p": "p.Arg132His",
+    "aliases": [
+      "R132H",
+      "p.R132H",
+      "Arg132His"
+    ],
+    "definition": "This exact nucleotide substitution on the stated transcript.",
+    "source_ids": [
+      "clinvar-idh1-name"
+    ]
+  },
+  "disease_id": "glioma",
+  "includes_descendants": false,
+  "interpretation_scope": "biological",
+  "comment": {
+    "text": "IDH1 p.Arg132His (R132H) confers a neomorphic enzymatic activity that converts alpha-ketoglutarate to D-2-hydroxyglutarate. In a diffuse glioma, this finding supports an IDH-mutant biological context; integrated tumor classification requires the remaining histologic and molecular findings.",
+    "source_ids": [
+      "dang-2009"
+    ]
+  },
+  "applicability_notes": [
+    "Applies to the specified R132H substitution in a diffuse glioma.",
+    "Do not use this comment to assign astrocytoma versus oligodendroglioma, grade, or treatment."
+  ],
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-linked pilot draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial format example; specialist review pending."
+  }
+}

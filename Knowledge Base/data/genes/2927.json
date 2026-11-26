@@ -1,0 +1,65 @@
+{
+  "id": "HGNC:2927",
+  "symbol": "DMC1",
+  "name": "DNA meiotic recombinase 1",
+  "ncbi_gene_id": "11144",
+  "aliases": [
+    "LIM15"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "spermatogenesis",
+    "mitotic recombination"
+  ],
+  "summary": {
+    "function": {
+      "text": "DMC1 encodes meiotic recombination protein DMC1 homolog. Annotated molecular activities include DNA strand exchange activity and ATP-dependent DNA damage sensor activity. It participates in spermatogenesis and mitotic recombination.",
+      "source_ids": [
+        "ncbi-11144",
+        "uniprot-Q14565"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "DMC1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

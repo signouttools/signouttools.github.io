@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:12307",
+  "symbol": "TRIP13",
+  "name": "thyroid hormone receptor interactor 13",
+  "ncbi_gene_id": "9319",
+  "aliases": [
+    "16E1BP"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "transcription by RNA polymerase II",
+    "oogenesis"
+  ],
+  "summary": {
+    "function": {
+      "text": "TRIP13 encodes pachytene checkpoint protein 2 homolog. Annotated molecular activities include transcription coregulator activity and ATP hydrolysis activity. It participates in transcription by RNA polymerase II and oogenesis.",
+      "source_ids": [
+        "ncbi-9319",
+        "uniprot-Q15645"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to oocyte maturation defect 9 (autosomal recessive). Postzygotic mosaic associations are recorded separately.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0033565",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [
+    {
+      "disease_id": "gencc-MONDO-0054736",
+      "mechanism": "Postzygotic/mosaic disease context; constitutional versus mosaic applicability requires allele-specific review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "TRIP13",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

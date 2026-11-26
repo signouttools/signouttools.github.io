@@ -1,0 +1,54 @@
+{
+  "id": "HGNC:24029",
+  "symbol": "INHBE",
+  "name": "inhibin subunit beta E",
+  "ncbi_gene_id": "83729",
+  "aliases": [
+    "MGC4638",
+    "activin"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of adipose tissue development",
+    "cell surface receptor protein serine/threonine kinase signaling pathway"
+  ],
+  "summary": {
+    "function": {
+      "text": "INHBE encodes inhibin beta E chain. Annotated molecular activities include cytokine activity and hormone activity. It participates in negative regulation of adipose tissue development and cell surface receptor protein serine/threonine kinase signaling pathway.",
+      "source_ids": [
+        "ncbi-83729",
+        "uniprot-P58166"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-SolidTumors_Sporadic"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

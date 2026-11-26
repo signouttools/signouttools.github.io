@@ -1,0 +1,83 @@
+{
+  "id": "HGNC:6470",
+  "symbol": "L1CAM",
+  "name": "L1 cell adhesion molecule",
+  "ncbi_gene_id": "3897",
+  "aliases": [
+    "CAML1",
+    "CD171",
+    "HSAS",
+    "HSAS1",
+    "MASA",
+    "MIC5",
+    "NCAM-L1",
+    "S10",
+    "SPG1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "chemotaxis",
+    "axon development"
+  ],
+  "summary": {
+    "function": {
+      "text": "L1CAM encodes neural cell adhesion molecule L1. Annotated molecular activities include axon guidance receptor activity and protein domain specific binding. It participates in chemotaxis and axon development.",
+      "source_ids": [
+        "ncbi-3897",
+        "uniprot-P32004"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to L1 syndrome (x-linked); X-linked hydrocephalus with stenosis of the aqueduct of Sylvius (x-linked). Additional curated associations are listed below.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-AdultTumorsKidney"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0017140",
+      "mechanism": "X-linked; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0010611",
+      "mechanism": "X-linked; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0010569",
+      "mechanism": "X-linked; strong GenCC assertion from Genomics England PanelApp. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Ancillary marker or assay-confounder mention; reserve pending explicit molecular inclusion rationale; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

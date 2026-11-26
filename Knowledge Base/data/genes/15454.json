@@ -1,0 +1,92 @@
+{
+  "id": "HGNC:15454",
+  "symbol": "SHOC2",
+  "name": "SHOC2 leucine rich repeat scaffold protein",
+  "ncbi_gene_id": "8036",
+  "aliases": [
+    "KIAA0862",
+    "SOC-2",
+    "SOC2",
+    "SUR-8",
+    "SUR8"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "intracellular signal transduction",
+    "positive regulation of Ras protein signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "SHOC2 encodes leucine-rich repeat protein SHOC-2. Annotated molecular activities include protein phosphatase regulator activity and protein phosphatase binding. It participates in intracellular signal transduction and positive regulation of Ras protein signal transduction.",
+      "source_ids": [
+        "ncbi-8036",
+        "uniprot-Q9UQ13"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include Noonan syndrome-like disorder with loose anagen hair (autosomal dominant); Noonan syndrome-like disorder with loose anagen hair 1 (autosomal dominant). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0011899",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0054637",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "SHOC2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "Noonan syndrome: disputed evidence (ClinGen); not presented as an established association. cardiofaciocutaneous syndrome: disputed evidence (ClinGen); not presented as an established association. Costello syndrome: disputed evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-105690.4",
+      "gencc-SGC-106377.4",
+      "gencc-SGC-106626.4"
+    ]
+  }
+}

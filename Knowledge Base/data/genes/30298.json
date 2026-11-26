@@ -1,0 +1,65 @@
+{
+  "id": "HGNC:30298",
+  "symbol": "UIMC1",
+  "name": "ubiquitin interaction motif containing 1",
+  "ncbi_gene_id": "51720",
+  "aliases": [
+    "RAP80"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA repair-dependent chromatin remodeling",
+    "regulation of DNA repair"
+  ],
+  "summary": {
+    "function": {
+      "text": "UIMC1 encodes BRCA1-A complex subunit RAP80. Annotated molecular activities include ubiquitin-modified histone reader activity and histone binding. It participates in DNA repair-dependent chromatin remodeling and regulation of DNA repair.",
+      "source_ids": [
+        "ncbi-51720",
+        "uniprot-Q96RL1"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "UIMC1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

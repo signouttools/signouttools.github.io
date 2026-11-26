@@ -1,0 +1,70 @@
+{
+  "id": "HGNC:30646",
+  "symbol": "SND1",
+  "name": "staphylococcal nuclease and tudor domain containing 1",
+  "ncbi_gene_id": "27044",
+  "aliases": [
+    "TDRD11",
+    "TSN",
+    "p100"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "osteoblast differentiation",
+    "mRNA catabolic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "SND1 encodes staphylococcal nuclease domain-containing protein 1. Annotated molecular activities include transcription coregulator activity and endonuclease activity. It participates in osteoblast differentiation and mRNA catabolic process.",
+      "source_ids": [
+        "ncbi-27044",
+        "uniprot-Q7KZF4"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Pancreatic acinar cell carcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-pancreatic-acinar-cell-carcinoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "curation-intogen-CESC",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

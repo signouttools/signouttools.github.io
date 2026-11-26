@@ -1,0 +1,65 @@
+{
+  "id": "HGNC:11748",
+  "symbol": "TFCP2",
+  "name": "transcription factor CP2",
+  "ncbi_gene_id": "7024",
+  "aliases": [
+    "CP2",
+    "LBP-1C",
+    "LSF",
+    "SEF",
+    "TFCP2C"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "mRNA transcription by RNA polymerase II",
+    "regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "TFCP2 encodes alpha-globin transcription factor CP2. Annotated molecular activities include DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific. It participates in mRNA transcription by RNA polymerase II and regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-7024",
+        "uniprot-Q12800"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Rhabdomyosarcoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-rms",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

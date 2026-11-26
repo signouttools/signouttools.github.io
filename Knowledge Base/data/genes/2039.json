@@ -1,0 +1,61 @@
+{
+  "id": "HGNC:2039",
+  "symbol": "CLDN18",
+  "name": "claudin 18",
+  "ncbi_gene_id": "51208",
+  "aliases": [
+    "SFTPJ"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "organ growth",
+    "calcium-independent cell-cell adhesion"
+  ],
+  "summary": {
+    "function": {
+      "text": "CLDN18 encodes claudin-18. Annotated molecular activities include structural molecule activity. It participates in organ growth and calcium-independent cell-cell adhesion.",
+      "source_ids": [
+        "ncbi-51208",
+        "uniprot-P56856"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Gastric adenocarcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-gastric-adenocarcinoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

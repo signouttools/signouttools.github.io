@@ -1,0 +1,67 @@
+{
+  "id": "HGNC:29805",
+  "symbol": "NFKBIZ",
+  "name": "NFKB inhibitor zeta",
+  "ncbi_gene_id": "64332",
+  "aliases": [
+    "FLJ34463",
+    "INAP",
+    "MAIL"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of gene expression",
+    "T cell receptor signaling pathway"
+  ],
+  "summary": {
+    "function": {
+      "text": "NFKBIZ encodes NF-kappa-B inhibitor zeta. Annotated molecular activities include POU domain binding. It participates in regulation of gene expression and T cell receptor signaling pathway.",
+      "source_ids": [
+        "ncbi-64332",
+        "uniprot-Q9BYH8"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "NFKBIZ",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

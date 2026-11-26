@@ -1,0 +1,121 @@
+{
+  "id": "HGNC:6294",
+  "symbol": "KCNQ1",
+  "name": "potassium voltage-gated channel subfamily Q member 1",
+  "ncbi_gene_id": "3784",
+  "aliases": [
+    "JLNS1",
+    "KCNA8",
+    "KCNA9",
+    "KVLQT1",
+    "Kv7.1",
+    "LQT",
+    "LQT1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of voltage-gated potassium channel activity",
+    "negative regulation of delayed rectifier potassium channel activity"
+  ],
+  "summary": {
+    "function": {
+      "text": "KCNQ1 encodes potassium voltage-gated channel subfamily KQT member 1. Annotated molecular activities include voltage-gated potassium channel activity and delayed rectifier potassium channel activity. It participates in negative regulation of voltage-gated potassium channel activity and negative regulation of delayed rectifier potassium channel activity.",
+      "source_ids": [
+        "ncbi-3784",
+        "uniprot-P51787"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include Jervell and Lange-Nielsen syndrome (autosomal recessive); long QT syndrome (autosomal dominant). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0002441",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0002442",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0000453",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0024540",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0100316",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from G2P. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0012313",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "KCNQ1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "hypertrophic cardiomyopathy: disputed evidence (ClinGen); not presented as an established association. familial hypertrophic cardiomyopathy: disputed evidence (G2P); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-105449.4",
+      "gencc-SGC-180440.1"
+    ]
+  }
+}

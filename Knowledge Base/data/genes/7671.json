@@ -1,0 +1,72 @@
+{
+  "id": "HGNC:7671",
+  "symbol": "NCOA4",
+  "name": "nuclear receptor coactivator 4",
+  "ncbi_gene_id": "8031",
+  "aliases": [
+    "ARA70",
+    "DKFZp762E1112",
+    "ELE1",
+    "PTC3",
+    "RFG"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "autophagy",
+    "erythrocyte differentiation"
+  ],
+  "summary": {
+    "function": {
+      "text": "NCOA4 encodes nuclear receptor coactivator 4. Annotated molecular activities include transcription coactivator activity. It participates in autophagy and erythrocyte differentiation.",
+      "source_ids": [
+        "ncbi-8031",
+        "uniprot-Q13772"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Papillary thyroid carcinoma; Intraductal carcinoma of salivary gland. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-salintraduct",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-v-papillary-thyroid-carcinoma",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

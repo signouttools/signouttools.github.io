@@ -1,0 +1,68 @@
+{
+  "id": "HGNC:20263",
+  "symbol": "SETDB2",
+  "name": "SET domain bifurcated histone lysine methyltransferase 2",
+  "ncbi_gene_id": "83852",
+  "aliases": [
+    "C13orf4",
+    "CLLD8",
+    "CLLL8",
+    "KMT1F"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "heterochromatin organization",
+    "negative regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "SETDB2 encodes histone-lysine N-methyltransferase SETDB2. Annotated molecular activities include histone H3 methyltransferase activity and histone H3K9 methyltransferase activity. It participates in heterochromatin organization and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-83852",
+        "uniprot-Q96T68"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "SETDB2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

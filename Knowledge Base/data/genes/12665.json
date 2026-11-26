@@ -1,0 +1,77 @@
+{
+  "id": "HGNC:12665",
+  "symbol": "VCL",
+  "name": "vinculin",
+  "ncbi_gene_id": "7414",
+  "aliases": [
+    "VINC"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cell adhesion",
+    "cell-matrix adhesion"
+  ],
+  "summary": {
+    "function": {
+      "text": "VCL encodes vinculin. Annotated molecular activities include molecular adaptor activity and structural molecule activity. It participates in cell adhesion and cell-matrix adhesion.",
+      "source_ids": [
+        "ncbi-7414",
+        "uniprot-P18206"
+      ]
+    },
+    "germline": {
+      "text": "Retained constitutional disease associations include dilated cardiomyopathy 1W (autosomal dominant). Pathogenicity and inheritance depend on the specific allele and disorder.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include ALK-rearranged renal cell carcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0012667",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-alkrcc",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "hypertrophic cardiomyopathy: disputed evidence (ClinGen); not presented as an established association. hypertrophic cardiomyopathy 15: disputed evidence (PanelApp Australia); not presented as an established association. familial hypertrophic cardiomyopathy: disputed evidence (G2P); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-104283.4",
+      "gencc-SGC-178029.1",
+      "gencc-SGC-180423.1"
+    ]
+  }
+}

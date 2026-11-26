@@ -1,0 +1,65 @@
+{
+  "id": "HGNC:9398",
+  "symbol": "OLIG2",
+  "name": "oligodendrocyte transcription factor 2",
+  "ncbi_gene_id": "10215",
+  "aliases": [
+    "BHLHB1",
+    "OLIGO2",
+    "PRKCBP2",
+    "RACK17",
+    "bHLHe19"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of transcription by RNA polymerase II",
+    "myelination"
+  ],
+  "summary": {
+    "function": {
+      "text": "OLIG2 encodes oligodendrocyte transcription factor 2. Annotated molecular activities include DNA-binding transcription factor activity, RNA polymerase II-specific and protein dimerization activity. It participates in positive regulation of transcription by RNA polymerase II and myelination.",
+      "source_ids": [
+        "ncbi-10215",
+        "uniprot-Q13516"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "OLIG2 can be involved in chromosomal rearrangements associated with T-cell acute lymphoblastic leukemia. Expression as a lineage marker is a distinct observation.",
+      "source_ids": [
+        "ncbi-10215"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "refseq-tumor-8ff1af37fe44",
+      "mechanism": "Gene-specific alteration context described by NCBI/RefSeq; variant applicability requires review.",
+      "source_ids": [
+        "ncbi-10215"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Ancillary marker or assay-confounder mention; reserve pending explicit molecular inclusion rationale; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

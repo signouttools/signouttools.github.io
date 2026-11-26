@@ -1,0 +1,67 @@
+{
+  "id": "HGNC:18752",
+  "symbol": "MAPKAP1",
+  "name": "MAPK associated protein 1",
+  "ncbi_gene_id": "79109",
+  "aliases": [
+    "MGC2745",
+    "MIP1",
+    "SIN1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of Ras protein signal transduction",
+    "TORC2 signaling"
+  ],
+  "summary": {
+    "function": {
+      "text": "MAPKAP1 encodes target of rapamycin complex 2 subunit MAPKAP1. Annotated molecular activities include enzyme-substrate adaptor activity and molecular adaptor activity. It participates in negative regulation of Ras protein signal transduction and TORC2 signaling.",
+      "source_ids": [
+        "ncbi-79109",
+        "uniprot-Q9BPZ7"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "MAPKAP1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

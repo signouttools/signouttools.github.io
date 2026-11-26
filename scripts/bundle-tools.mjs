@@ -1,3 +1,4 @@
+import { buildBamSeek } from '../bam-seek/build.mjs';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -217,3 +218,7 @@ for (const [path, name, needsBundling] of tools) {
   await writeFile(destination, html);
   console.log(`tools/${name}.html`);
 }
+
+// BAM Seek source lives in this repository; its builder embeds worker, IGV and About content.
+await buildBamSeek();
+console.log('tools/bam-seek.html');

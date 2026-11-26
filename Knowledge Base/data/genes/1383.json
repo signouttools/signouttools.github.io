@@ -1,0 +1,54 @@
+{
+  "id": "HGNC:1383",
+  "symbol": "CA9",
+  "name": "carbonic anhydrase 9",
+  "ncbi_gene_id": "768",
+  "aliases": [
+    "CAIX",
+    "MN"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "response to hypoxia",
+    "response to testosterone"
+  ],
+  "summary": {
+    "function": {
+      "text": "CA9 encodes carbonic anhydrase 9. Annotated molecular activities include carbonate dehydratase activity and molecular function activator activity. It participates in response to hypoxia and response to testosterone.",
+      "source_ids": [
+        "ncbi-768",
+        "uniprot-Q16790"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-AdultTumorsKidney"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Ancillary marker or assay-confounder mention; reserve pending explicit molecular inclusion rationale; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

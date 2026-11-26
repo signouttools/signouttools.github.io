@@ -1,0 +1,59 @@
+{
+  "id": "HGNC:7059",
+  "symbol": "MGMT",
+  "name": "O-6-methylguanine-DNA methyltransferase",
+  "ncbi_gene_id": "4255",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA repair",
+    "negative regulation of apoptotic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "MGMT encodes methylated-DNA--protein-cysteine methyltransferase. Annotated molecular activities include DNA-methyltransferase activity and methyltransferase activity. It participates in DNA repair and negative regulation of apoptotic process.",
+      "source_ids": [
+        "ncbi-4255",
+        "uniprot-P16455"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "MGMT promoter methylation is a tumor-associated epigenetic mechanism of gene silencing studied in glioblastoma. A sequence variant, promoter methylation, and protein-expression result are different observations and should not be treated as interchangeable.",
+      "source_ids": [
+        "pmid-15758010"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "curation-intogen-GB",
+      "mechanism": "Gene-level alteration context supported by primary literature; pathologist review needed.",
+      "source_ids": [
+        "pmid-15758010"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

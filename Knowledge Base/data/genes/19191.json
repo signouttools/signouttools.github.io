@@ -1,0 +1,76 @@
+{
+  "id": "HGNC:19191",
+  "symbol": "DOCK8",
+  "name": "dedicator of cytokinesis 8",
+  "ncbi_gene_id": "81704",
+  "aliases": [
+    "FLJ00026",
+    "FLJ00152",
+    "FLJ00346",
+    "ZIR8"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "small GTPase-mediated signal transduction",
+    "regulation of Rho protein signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "DOCK8 encodes dedicator of cytokinesis protein 8. Annotated molecular activities include guanyl-nucleotide exchange factor activity. It participates in small GTPase-mediated signal transduction and regulation of Rho protein signal transduction.",
+      "source_ids": [
+        "ncbi-81704",
+        "uniprot-Q8NF50"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to combined immunodeficiency due to DOCK8 deficiency (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0009478",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "DOCK8",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

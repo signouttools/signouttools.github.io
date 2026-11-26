@@ -1,0 +1,77 @@
+{
+  "id": "HGNC:1537",
+  "symbol": "CBFA2T3",
+  "name": "CBFA2/RUNX1 partner transcriptional co-repressor 3",
+  "ncbi_gene_id": "863",
+  "aliases": [
+    "ETO2",
+    "MTG16",
+    "MTGR2",
+    "RUNX1T3",
+    "ZMYND4"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA-templated transcription",
+    "negative regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "CBFA2T3 encodes transcriptional corepressor CBFA2T3. Annotated molecular activities include transcription corepressor activity. It participates in DNA-templated transcription and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-863",
+        "uniprot-O75081"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Acute myeloid leukemia. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-aml",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "glioma_dfci_2020_dfci_oncopanel3",
+      "panel_version": "snapshot-2026-11-26-d732bfc1a301",
+      "submitted_symbol": "CBFA2T3",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-glioma_dfci_2020_dfci_oncopanel3"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

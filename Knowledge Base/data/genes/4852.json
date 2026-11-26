@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:4852",
+  "symbol": "HDAC1",
+  "name": "histone deacetylase 1",
+  "ncbi_gene_id": "3065",
+  "aliases": [
+    "GON-10",
+    "HD1",
+    "KDAC1",
+    "RPD3L1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "chromatin organization",
+    "host-mediated suppression of viral transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "HDAC1 encodes histone deacetylase 1. Annotated molecular activities include transcription corepressor activity and transcription corepressor binding. It participates in chromatin organization and host-mediated suppression of viral transcription.",
+      "source_ids": [
+        "ncbi-3065",
+        "uniprot-Q13547"
+      ]
+    },
+    "germline": {
+      "text": "No established constitutional disease association is assigned after the condition-specific evidence review; disputed or limited relationships are withheld rather than treated as positive findings.",
+      "source_ids": [
+        "gencc-SGC-105833.2"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "HDAC1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "congenital heart disease: disputed evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-105833.2"
+    ]
+  }
+}

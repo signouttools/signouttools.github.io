@@ -1,0 +1,6 @@
+# Synthetic mapping fixture for the native parser tests; not used by the web app.
+gene	transcript	coding	protein	contig	position	ref	alt
+BRAF	NM_004333.6	c.1799T>A	p.V600E	chr7	140453136	A	T
+JAK2	NM_004972.4	c.1849G>T	p.V617F	chr9	5073770	G	T
+TP53	NM_000546.5	c.743G>A	p.R248Q	chr17	7577538	C	T
+TP53	NM_000546.6	c.743G>A	p.R248Q	chr17	7577538	C	T

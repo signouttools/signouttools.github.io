@@ -1,0 +1,60 @@
+{
+  "id": "HGNC:9343",
+  "symbol": "PRCC",
+  "name": "proline rich mitotic checkpoint control factor",
+  "ncbi_gene_id": "5546",
+  "aliases": [
+    "RCCP1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of cell cycle"
+  ],
+  "summary": {
+    "function": {
+      "text": "PRCC encodes proline-rich protein PRCC. It participates in regulation of cell cycle.",
+      "source_ids": [
+        "ncbi-5546",
+        "uniprot-Q92733"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include TFE3-rearranged renal cell carcinoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-e-tfe3",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

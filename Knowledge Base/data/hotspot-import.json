@@ -1,0 +1,3016 @@
+{
+  "built_on": "2026-11-26",
+  "license": "ODbL-1.0",
+  "disclaimer": "Pathologist review needed — LLM-generated summary/review.",
+  "original_files": [
+    {
+      "release": "v1",
+      "file": "hotspots/original/v1.xls",
+      "url": "https://www.cancerhotspots.org/files/hotspots.xls",
+      "sha256": "5f9f1b3c7dde4d3c5fd43df1af1f4cd2410ea2c23857b37b210f5762ec3837a3",
+      "bytes": 238592
+    },
+    {
+      "release": "v2",
+      "file": "hotspots/original/v2.xls",
+      "url": "https://www.cancerhotspots.org/files/hotspots_v2.xls",
+      "sha256": "7856cb650b7f2d4f82448c2e08c275eb5f828adcfcdd13f33cc6f749288014d9",
+      "bytes": 2777600
+    },
+    {
+      "release": "v3",
+      "file": "hotspots/original/v3.xlsx",
+      "url": "https://www.cancerhotspots.org/files/hotspots_v3.xlsx",
+      "sha256": "2be3166ade131d756cae3affb9ef7cc909d1d928458bd0630e771f60945c76bc",
+      "bytes": 197138
+    }
+  ],
+  "sheets": [
+    {
+      "workbook": "v1",
+      "sheet": "Per Residue",
+      "imported_rows": 470
+    },
+    {
+      "workbook": "v1",
+      "sheet": "Per Allele",
+      "imported_rows": 1168
+    },
+    {
+      "workbook": "v2",
+      "sheet": "SNV-hotspots",
+      "imported_rows": 3004
+    },
+    {
+      "workbook": "v2",
+      "sheet": "INDEL-hotspots",
+      "imported_rows": 495
+    },
+    {
+      "workbook": "v3",
+      "sheet": "Hotspot_Residues",
+      "imported_rows": 164
+    },
+    {
+      "workbook": "v3",
+      "sheet": "SNV_Variants",
+      "imported_rows": 3532
+    },
+    {
+      "workbook": "v3",
+      "sheet": "INDEL_Variants",
+      "imported_rows": 495
+    }
+  ],
+  "symbol_mapping": {
+    "BRAF": {
+      "gene_id": "HGNC:1097",
+      "symbol": "BRAF"
+    },
+    "KRAS": {
+      "gene_id": "HGNC:6407",
+      "symbol": "KRAS"
+    },
+    "PIK3CA": {
+      "gene_id": "HGNC:8975",
+      "symbol": "PIK3CA"
+    },
+    "IDH1": {
+      "gene_id": "HGNC:5382",
+      "symbol": "IDH1"
+    },
+    "NRAS": {
+      "gene_id": "HGNC:7989",
+      "symbol": "NRAS"
+    },
+    "TP53": {
+      "gene_id": "HGNC:11998",
+      "symbol": "TP53"
+    },
+    "HRAS": {
+      "gene_id": "HGNC:5173",
+      "symbol": "HRAS"
+    },
+    "SF3B1": {
+      "gene_id": "HGNC:10768",
+      "symbol": "SF3B1"
+    },
+    "CTNNB1": {
+      "gene_id": "HGNC:2514",
+      "symbol": "CTNNB1"
+    },
+    "FBXW7": {
+      "gene_id": "HGNC:16712",
+      "symbol": "FBXW7"
+    },
+    "U2AF1": {
+      "gene_id": "HGNC:12453",
+      "symbol": "U2AF1"
+    },
+    "PTEN": {
+      "gene_id": "HGNC:9588",
+      "symbol": "PTEN"
+    },
+    "EGFR": {
+      "gene_id": "HGNC:3236",
+      "symbol": "EGFR"
+    },
+    "H3F3A": {
+      "gene_id": "HGNC:4764",
+      "symbol": "H3-3A"
+    },
+    "GNAS": {
+      "gene_id": "HGNC:4392",
+      "symbol": "GNAS"
+    },
+    "RAC1": {
+      "gene_id": "HGNC:9801",
+      "symbol": "RAC1"
+    },
+    "AKT1": {
+      "gene_id": "HGNC:391",
+      "symbol": "AKT1"
+    },
+    "APC": {
+      "gene_id": "HGNC:583",
+      "symbol": "APC"
+    },
+    "CDKN2A": {
+      "gene_id": "HGNC:1787",
+      "symbol": "CDKN2A"
+    },
+    "ERBB2": {
+      "gene_id": "HGNC:3430",
+      "symbol": "ERBB2"
+    },
+    "DNMT3A": {
+      "gene_id": "HGNC:2978",
+      "symbol": "DNMT3A"
+    },
+    "SMAD4": {
+      "gene_id": "HGNC:6770",
+      "symbol": "SMAD4"
+    },
+    "SPOP": {
+      "gene_id": "HGNC:11254",
+      "symbol": "SPOP"
+    },
+    "IDH2": {
+      "gene_id": "HGNC:5383",
+      "symbol": "IDH2"
+    },
+    "MYD88": {
+      "gene_id": "HGNC:7562",
+      "symbol": "MYD88"
+    },
+    "ERBB3": {
+      "gene_id": "HGNC:3431",
+      "symbol": "ERBB3"
+    },
+    "B2M": {
+      "gene_id": "HGNC:914",
+      "symbol": "B2M"
+    },
+    "STK19": {
+      "gene_id": "HGNC:11398",
+      "symbol": "WHR1"
+    },
+    "POLE": {
+      "gene_id": "HGNC:9177",
+      "symbol": "POLE"
+    },
+    "FGFR3": {
+      "gene_id": "HGNC:3690",
+      "symbol": "FGFR3"
+    },
+    "FGFR2": {
+      "gene_id": "HGNC:3689",
+      "symbol": "FGFR2"
+    },
+    "SLC27A5": {
+      "gene_id": "HGNC:10999",
+      "symbol": "SLC27A5"
+    },
+    "EZH2": {
+      "gene_id": "HGNC:3527",
+      "symbol": "EZH2"
+    },
+    "SMTNL2": {
+      "gene_id": "HGNC:24764",
+      "symbol": "SMTNL2"
+    },
+    "NFE2L2": {
+      "gene_id": "HGNC:7782",
+      "symbol": "NFE2L2"
+    },
+    "RIMS2": {
+      "gene_id": "HGNC:17283",
+      "symbol": "RIMS2"
+    },
+    "RQCD1": {
+      "gene_id": "HGNC:10445",
+      "symbol": "CNOT9"
+    },
+    "FLT3": {
+      "gene_id": "HGNC:3765",
+      "symbol": "FLT3"
+    },
+    "RRAS2": {
+      "gene_id": "HGNC:17271",
+      "symbol": "RRAS2"
+    },
+    "PPP2R1A": {
+      "gene_id": "HGNC:9302",
+      "symbol": "PPP2R1A"
+    },
+    "RXRA": {
+      "gene_id": "HGNC:10477",
+      "symbol": "RXRA"
+    },
+    "MTOR": {
+      "gene_id": "HGNC:3942",
+      "symbol": "MTOR"
+    },
+    "HIST1H3B": {
+      "gene_id": "HGNC:4776",
+      "symbol": "H3C2"
+    },
+    "CREBBP": {
+      "gene_id": "HGNC:2348",
+      "symbol": "CREBBP"
+    },
+    "EP300": {
+      "gene_id": "HGNC:3373",
+      "symbol": "EP300"
+    },
+    "RHOA": {
+      "gene_id": "HGNC:667",
+      "symbol": "RHOA"
+    },
+    "MAP2K1": {
+      "gene_id": "HGNC:6840",
+      "symbol": "MAP2K1"
+    },
+    "NOTCH2": {
+      "gene_id": "HGNC:7882",
+      "symbol": "NOTCH2"
+    },
+    "DCAF13": {
+      "gene_id": "HGNC:24535",
+      "symbol": "DCAF13"
+    },
+    "NUP93": {
+      "gene_id": "HGNC:28958",
+      "symbol": "NUP93"
+    },
+    "ATM": {
+      "gene_id": "HGNC:795",
+      "symbol": "ATM"
+    },
+    "KNSTRN": {
+      "gene_id": "HGNC:30767",
+      "symbol": "KNSTRN"
+    },
+    "GPRIN2": {
+      "gene_id": "HGNC:23730",
+      "symbol": "GPRIN2"
+    },
+    "SOS1": {
+      "gene_id": "HGNC:11187",
+      "symbol": "SOS1"
+    },
+    "MAPK1": {
+      "gene_id": "HGNC:6871",
+      "symbol": "MAPK1"
+    },
+    "INPPL1": {
+      "gene_id": "HGNC:6080",
+      "symbol": "INPPL1"
+    },
+    "MYCN": {
+      "gene_id": "HGNC:7559",
+      "symbol": "MYCN"
+    },
+    "POM121": {
+      "gene_id": "HGNC:19702",
+      "symbol": "POM121"
+    },
+    "ARID1A": {
+      "gene_id": "HGNC:11110",
+      "symbol": "ARID1A"
+    },
+    "XPO1": {
+      "gene_id": "HGNC:12825",
+      "symbol": "XPO1"
+    },
+    "MYO18A": {
+      "gene_id": "HGNC:31104",
+      "symbol": "MYO18A"
+    },
+    "GNAQ": {
+      "gene_id": "HGNC:4390",
+      "symbol": "GNAQ"
+    },
+    "BNC2": {
+      "gene_id": "HGNC:30988",
+      "symbol": "BNC2"
+    },
+    "CDK4": {
+      "gene_id": "HGNC:1773",
+      "symbol": "CDK4"
+    },
+    "LRP1": {
+      "gene_id": "HGNC:6692",
+      "symbol": "LRP1"
+    },
+    "DTD2": {
+      "gene_id": "HGNC:20277",
+      "symbol": "DTD2"
+    },
+    "SMAD2": {
+      "gene_id": "HGNC:6768",
+      "symbol": "SMAD2"
+    },
+    "RHEB": {
+      "gene_id": "HGNC:10011",
+      "symbol": "RHEB"
+    },
+    "HOXB2": {
+      "gene_id": "HGNC:5113",
+      "symbol": "HOXB2"
+    },
+    "SNRPD3": {
+      "gene_id": "HGNC:11160",
+      "symbol": "SNRPD3"
+    },
+    "ALK": {
+      "gene_id": "HGNC:427",
+      "symbol": "ALK"
+    },
+    "MED12": {
+      "gene_id": "HGNC:11957",
+      "symbol": "MED12"
+    },
+    "ARL16": {
+      "gene_id": "HGNC:27902",
+      "symbol": "ARL16"
+    },
+    "MAGOH": {
+      "gene_id": "HGNC:6815",
+      "symbol": "MAGOH"
+    },
+    "CCT8": {
+      "gene_id": "HGNC:1623",
+      "symbol": "CCT8"
+    },
+    "CCND1": {
+      "gene_id": "HGNC:1582",
+      "symbol": "CCND1"
+    },
+    "CRNKL1": {
+      "gene_id": "HGNC:15762",
+      "symbol": "CRNKL1"
+    },
+    "NT5C3A": {
+      "gene_id": "HGNC:17820",
+      "symbol": "NT5C3A"
+    },
+    "PIK3R1": {
+      "gene_id": "HGNC:8979",
+      "symbol": "PIK3R1"
+    },
+    "RIMS1": {
+      "gene_id": "HGNC:17282",
+      "symbol": "RIMS1"
+    },
+    "OXA1L": {
+      "gene_id": "HGNC:8526",
+      "symbol": "OXA1L"
+    },
+    "LENG8": {
+      "gene_id": "HGNC:15500",
+      "symbol": "LENG8"
+    },
+    "ING1": {
+      "gene_id": "HGNC:6062",
+      "symbol": "ING1"
+    },
+    "TPTE2": {
+      "gene_id": "HGNC:17299",
+      "symbol": "TPTE2"
+    },
+    "TRUB1": {
+      "gene_id": "HGNC:16060",
+      "symbol": "TRUB1"
+    },
+    "ACADS": {
+      "gene_id": "HGNC:90",
+      "symbol": "ACADS"
+    },
+    "ACSBG2": {
+      "gene_id": "HGNC:24174",
+      "symbol": "ACSBG2"
+    },
+    "SPTA1": {
+      "gene_id": "HGNC:11272",
+      "symbol": "SPTA1"
+    },
+    "PTPN11": {
+      "gene_id": "HGNC:9644",
+      "symbol": "PTPN11"
+    },
+    "ARIH1": {
+      "gene_id": "HGNC:689",
+      "symbol": "ARIH1"
+    },
+    "C5orf49": {
+      "gene_id": "HGNC:27028",
+      "symbol": "CFAP90"
+    },
+    "NPAS1": {
+      "gene_id": "HGNC:7894",
+      "symbol": "NPAS1"
+    },
+    "RAF1": {
+      "gene_id": "HGNC:9829",
+      "symbol": "RAF1"
+    },
+    "KIAA1468": {
+      "gene_id": "HGNC:29289",
+      "symbol": "RELCH"
+    },
+    "BCL2L12": {
+      "gene_id": "HGNC:13787",
+      "symbol": "BCL2L12"
+    },
+    "AHI1": {
+      "gene_id": "HGNC:21575",
+      "symbol": "AHI1"
+    },
+    "KDM6A": {
+      "gene_id": "HGNC:12637",
+      "symbol": "KDM6A"
+    },
+    "FGFR1": {
+      "gene_id": "HGNC:3688",
+      "symbol": "FGFR1"
+    },
+    "KIT": {
+      "gene_id": "HGNC:6342",
+      "symbol": "KIT"
+    },
+    "OBP2B": {
+      "gene_id": "HGNC:23381",
+      "symbol": "OBP2B"
+    },
+    "GNA11": {
+      "gene_id": "HGNC:4379",
+      "symbol": "GNA11"
+    },
+    "MAPK7": {
+      "gene_id": "HGNC:6880",
+      "symbol": "MAPK7"
+    },
+    "PRSS27": {
+      "gene_id": "HGNC:15475",
+      "symbol": "PRSS27"
+    },
+    "PCDHA10": {
+      "gene_id": "HGNC:8664",
+      "symbol": "PCDHA10"
+    },
+    "MAP2K2": {
+      "gene_id": "HGNC:6842",
+      "symbol": "MAP2K2"
+    },
+    "SYT13": {
+      "gene_id": "HGNC:14962",
+      "symbol": "SYT13"
+    },
+    "FAM46D": {
+      "gene_id": "HGNC:28399",
+      "symbol": "TENT5D"
+    },
+    "PTN": {
+      "gene_id": "HGNC:9630",
+      "symbol": "PTN"
+    },
+    "HEXDC": {
+      "gene_id": "HGNC:26307",
+      "symbol": "HEXD"
+    },
+    "ZBTB7A": {
+      "gene_id": "HGNC:18078",
+      "symbol": "ZBTB7A"
+    },
+    "EVPL": {
+      "gene_id": "HGNC:3503",
+      "symbol": "EVPL"
+    },
+    "MEF2A": {
+      "gene_id": "HGNC:6993",
+      "symbol": "MEF2A"
+    },
+    "MYO18B": {
+      "gene_id": "HGNC:18150",
+      "symbol": "MYO18B"
+    },
+    "COBL": {
+      "gene_id": "HGNC:22199",
+      "symbol": "COBL"
+    },
+    "ZHX3": {
+      "gene_id": "HGNC:15935",
+      "symbol": "ZHX3"
+    },
+    "PLCB3": {
+      "gene_id": "HGNC:9056",
+      "symbol": "PLCB3"
+    },
+    "CHIT1": {
+      "gene_id": "HGNC:1936",
+      "symbol": "CHIT1"
+    },
+    "FRMD4B": {
+      "gene_id": "HGNC:24886",
+      "symbol": "FRMD4B"
+    },
+    "PCSK5": {
+      "gene_id": "HGNC:8747",
+      "symbol": "PCSK5"
+    },
+    "C3orf70": {
+      "gene_id": "HGNC:33731",
+      "symbol": "C3orf70"
+    },
+    "CHD3": {
+      "gene_id": "HGNC:1918",
+      "symbol": "CHD3"
+    },
+    "OVGP1": {
+      "gene_id": "HGNC:8524",
+      "symbol": "OVGP1"
+    },
+    "INMT": {
+      "gene_id": "HGNC:6069",
+      "symbol": "INMT"
+    },
+    "LAMC1": {
+      "gene_id": "HGNC:6492",
+      "symbol": "LAMC1"
+    },
+    "LCE1A": {
+      "gene_id": "HGNC:29459",
+      "symbol": "LCE1A"
+    },
+    "PPP6C": {
+      "gene_id": "HGNC:9323",
+      "symbol": "PPP6C"
+    },
+    "CDH1": {
+      "gene_id": "HGNC:1748",
+      "symbol": "CDH1"
+    },
+    "KAT8": {
+      "gene_id": "HGNC:17933",
+      "symbol": "KAT8"
+    },
+    "SEMA4B": {
+      "gene_id": "HGNC:10730",
+      "symbol": "SEMA4B"
+    },
+    "PNLIPRP3": {
+      "gene_id": "HGNC:23492",
+      "symbol": "PNLIPRP3"
+    },
+    "FOXA1": {
+      "gene_id": "HGNC:5021",
+      "symbol": "FOXA1"
+    },
+    "SLC4A11": {
+      "gene_id": "HGNC:16438",
+      "symbol": "SLC4A11"
+    },
+    "KIAA0020": {
+      "gene_id": "HGNC:29676",
+      "symbol": "PUM3"
+    },
+    "DNAJB1": {
+      "gene_id": "HGNC:5270",
+      "symbol": "DNAJB1"
+    },
+    "STAT3": {
+      "gene_id": "HGNC:11364",
+      "symbol": "STAT3"
+    },
+    "EHMT1": {
+      "gene_id": "HGNC:24650",
+      "symbol": "EHMT1"
+    },
+    "WDR73": {
+      "gene_id": "HGNC:25928",
+      "symbol": "WDR73"
+    },
+    "TMEM131": {
+      "gene_id": "HGNC:30366",
+      "symbol": "TMEM131"
+    },
+    "WDR52": {
+      "gene_id": "HGNC:25631",
+      "symbol": "CFAP44"
+    },
+    "DICER1": {
+      "gene_id": "HGNC:17098",
+      "symbol": "DICER1"
+    },
+    "HOOK2": {
+      "gene_id": "HGNC:19885",
+      "symbol": "HOOK2"
+    },
+    "KLF5": {
+      "gene_id": "HGNC:6349",
+      "symbol": "KLF5"
+    },
+    "LST3": {
+      "gene_id": "HGNC:32934",
+      "symbol": "SLCO1B7"
+    },
+    "HSD11B1": {
+      "gene_id": "HGNC:5208",
+      "symbol": "HSD11B1"
+    },
+    "RBM39": {
+      "gene_id": "HGNC:15923",
+      "symbol": "RBM39"
+    },
+    "PCBP1": {
+      "gene_id": "HGNC:8647",
+      "symbol": "PCBP1"
+    },
+    "MYC": {
+      "gene_id": "HGNC:7553",
+      "symbol": "MYC"
+    },
+    "TROAP": {
+      "gene_id": "HGNC:12327",
+      "symbol": "TROAP"
+    },
+    "ACVR1": {
+      "gene_id": "HGNC:171",
+      "symbol": "ACVR1"
+    },
+    "ARID3A": {
+      "gene_id": "HGNC:3031",
+      "symbol": "ARID3A"
+    },
+    "THBD": {
+      "gene_id": "HGNC:11784",
+      "symbol": "THBD"
+    },
+    "SMARCA4": {
+      "gene_id": "HGNC:11100",
+      "symbol": "SMARCA4"
+    },
+    "RARA": {
+      "gene_id": "HGNC:9864",
+      "symbol": "RARA"
+    },
+    "CYP4A11": {
+      "gene_id": "HGNC:2642",
+      "symbol": "CYP4A11"
+    },
+    "MAX": {
+      "gene_id": "HGNC:6913",
+      "symbol": "MAX"
+    },
+    "ARAF": {
+      "gene_id": "HGNC:646",
+      "symbol": "ARAF"
+    },
+    "ABCC10": {
+      "gene_id": "HGNC:52",
+      "symbol": "ABCC10"
+    },
+    "FRMD6": {
+      "gene_id": "HGNC:19839",
+      "symbol": "FRMD6"
+    },
+    "NCR1": {
+      "gene_id": "HGNC:6731",
+      "symbol": "NCR1"
+    },
+    "CELSR1": {
+      "gene_id": "HGNC:1850",
+      "symbol": "CELSR1"
+    },
+    "LRP5": {
+      "gene_id": "HGNC:6697",
+      "symbol": "LRP5"
+    },
+    "MYO9A": {
+      "gene_id": "HGNC:7608",
+      "symbol": "MYO9A"
+    },
+    "CYP2C8": {
+      "gene_id": "HGNC:2622",
+      "symbol": "CYP2C8"
+    },
+    "HIST1H3C": {
+      "gene_id": "HGNC:4768",
+      "symbol": "H3C3"
+    },
+    "LRRC71": {
+      "gene_id": "HGNC:26556",
+      "symbol": "LRRC71"
+    },
+    "CRB1": {
+      "gene_id": "HGNC:2343",
+      "symbol": "CRB1"
+    },
+    "AMPD1": {
+      "gene_id": "HGNC:468",
+      "symbol": "AMPD1"
+    },
+    "EBF2": {
+      "gene_id": "HGNC:19090",
+      "symbol": "EBF2"
+    },
+    "TUBGCP4": {
+      "gene_id": "HGNC:16691",
+      "symbol": "TUBGCP4"
+    },
+    "CIZ1": {
+      "gene_id": "HGNC:16744",
+      "symbol": "CIZ1"
+    },
+    "PASD1": {
+      "gene_id": "HGNC:20686",
+      "symbol": "PASD1"
+    },
+    "IL7R": {
+      "gene_id": "HGNC:6024",
+      "symbol": "IL7R"
+    },
+    "SSBP3": {
+      "gene_id": "HGNC:15674",
+      "symbol": "SSBP3"
+    },
+    "PARP1": {
+      "gene_id": "HGNC:270",
+      "symbol": "PARP1"
+    },
+    "SLCO1B7": {
+      "gene_id": "HGNC:32934",
+      "symbol": "SLCO1B7"
+    },
+    "PCMTD1": {
+      "gene_id": "HGNC:30483",
+      "symbol": "PCMTD1"
+    },
+    "TGFBR2": {
+      "gene_id": "HGNC:11773",
+      "symbol": "TGFBR2"
+    },
+    "VPS37B": {
+      "gene_id": "HGNC:25754",
+      "symbol": "VPS37B"
+    },
+    "C16orf80": {
+      "gene_id": "HGNC:29523",
+      "symbol": "CFAP20"
+    },
+    "TRIM65": {
+      "gene_id": "HGNC:27316",
+      "symbol": "TRIM65"
+    },
+    "VHL": {
+      "gene_id": "HGNC:12687",
+      "symbol": "VHL"
+    },
+    "DDX28": {
+      "gene_id": "HGNC:17330",
+      "symbol": "DDX28"
+    },
+    "S100A8": {
+      "gene_id": "HGNC:10498",
+      "symbol": "S100A8"
+    },
+    "BTBD11": {
+      "gene_id": "HGNC:23844",
+      "symbol": "ABTB3"
+    },
+    "TARBP2": {
+      "gene_id": "HGNC:11569",
+      "symbol": "TARBP2"
+    },
+    "ZNF623": {
+      "gene_id": "HGNC:29084",
+      "symbol": "ZNF623"
+    },
+    "SLC16A13": {
+      "gene_id": "HGNC:31037",
+      "symbol": "SLC16A13"
+    },
+    "UCHL1": {
+      "gene_id": "HGNC:12513",
+      "symbol": "UCHL1"
+    },
+    "TPSD1": {
+      "gene_id": "HGNC:14118",
+      "symbol": "TPSD1"
+    },
+    "INTS12": {
+      "gene_id": "HGNC:25067",
+      "symbol": "INTS12"
+    },
+    "UBXN11": {
+      "gene_id": "HGNC:30600",
+      "symbol": "UBXN11"
+    },
+    "NFIC": {
+      "gene_id": "HGNC:7786",
+      "symbol": "NFIC"
+    },
+    "MICA": {
+      "gene_id": "HGNC:7090",
+      "symbol": "MICA"
+    },
+    "PODXL": {
+      "gene_id": "HGNC:9171",
+      "symbol": "PODXL"
+    },
+    "XPO6": {
+      "gene_id": "HGNC:19733",
+      "symbol": "XPO6"
+    },
+    "CLECL1": {
+      "gene_id": "HGNC:24462",
+      "symbol": "CLECL1"
+    },
+    "MXRA5": {
+      "gene_id": "HGNC:7539",
+      "symbol": "MXRA5"
+    },
+    "TSC22D2": {
+      "gene_id": "HGNC:29095",
+      "symbol": "TSC22D2"
+    },
+    "KIF26B": {
+      "gene_id": "HGNC:25484",
+      "symbol": "KIF26B"
+    },
+    "S100A3": {
+      "gene_id": "HGNC:10493",
+      "symbol": "S100A3"
+    },
+    "TMEM200C": {
+      "gene_id": "HGNC:37208",
+      "symbol": "TMEM200C"
+    },
+    "SWI5": {
+      "gene_id": "HGNC:31412",
+      "symbol": "SWI5"
+    },
+    "TUBGCP6": {
+      "gene_id": "HGNC:18127",
+      "symbol": "TUBGCP6"
+    },
+    "CSPG5": {
+      "gene_id": "HGNC:2467",
+      "symbol": "CSPG5"
+    },
+    "METTL14": {
+      "gene_id": "HGNC:29330",
+      "symbol": "METTL14"
+    },
+    "BRD7": {
+      "gene_id": "HGNC:14310",
+      "symbol": "BRD7"
+    },
+    "ARID2": {
+      "gene_id": "HGNC:18037",
+      "symbol": "ARID2"
+    },
+    "LTN1": {
+      "gene_id": "HGNC:13082",
+      "symbol": "LTN1"
+    },
+    "PANK3": {
+      "gene_id": "HGNC:19365",
+      "symbol": "PANK3"
+    },
+    "RSBN1L": {
+      "gene_id": "HGNC:24765",
+      "symbol": "RSBN1L"
+    },
+    "MYT1L": {
+      "gene_id": "HGNC:7623",
+      "symbol": "MYT1L"
+    },
+    "TMEM147": {
+      "gene_id": "HGNC:30414",
+      "symbol": "TMEM147"
+    },
+    "PSG4": {
+      "gene_id": "HGNC:9521",
+      "symbol": "PSG4"
+    },
+    "PDHA1": {
+      "gene_id": "HGNC:8806",
+      "symbol": "PDHA1"
+    },
+    "LSM14A": {
+      "gene_id": "HGNC:24489",
+      "symbol": "LSM14A"
+    },
+    "THRA": {
+      "gene_id": "HGNC:11796",
+      "symbol": "THRA"
+    },
+    "FANK1": {
+      "gene_id": "HGNC:23527",
+      "symbol": "FANK1"
+    },
+    "ASF1B": {
+      "gene_id": "HGNC:20996",
+      "symbol": "ASF1B"
+    },
+    "UBE2D3": {
+      "gene_id": "HGNC:12476",
+      "symbol": "UBE2D3"
+    },
+    "MET": {
+      "gene_id": "HGNC:7029",
+      "symbol": "MET"
+    },
+    "TBX2": {
+      "gene_id": "HGNC:11597",
+      "symbol": "TBX2"
+    },
+    "ANKZF1": {
+      "gene_id": "HGNC:25527",
+      "symbol": "ANKZF1"
+    },
+    "ELTD1": {
+      "gene_id": "HGNC:20822",
+      "symbol": "ADGRL4"
+    },
+    "RPL10L": {
+      "gene_id": "HGNC:17976",
+      "symbol": "RPL10L"
+    },
+    "PCED1B": {
+      "gene_id": "HGNC:28255",
+      "symbol": "PCED1B"
+    },
+    "NOL4": {
+      "gene_id": "HGNC:7870",
+      "symbol": "NOL4"
+    },
+    "DNAH9": {
+      "gene_id": "HGNC:2953",
+      "symbol": "DNAH9"
+    },
+    "CHST12": {
+      "gene_id": "HGNC:17423",
+      "symbol": "CHST12"
+    },
+    "KCNQ5": {
+      "gene_id": "HGNC:6299",
+      "symbol": "KCNQ5"
+    },
+    "ZNF516": {
+      "gene_id": "HGNC:28990",
+      "symbol": "ZNF516"
+    },
+    "CR1": {
+      "gene_id": "HGNC:2334",
+      "symbol": "CR1"
+    },
+    "RINT1": {
+      "gene_id": "HGNC:21876",
+      "symbol": "RINT1"
+    },
+    "TGFBRAP1": {
+      "gene_id": "HGNC:16836",
+      "symbol": "TGFBRAP1"
+    },
+    "TOP2B": {
+      "gene_id": "HGNC:11990",
+      "symbol": "TOP2B"
+    },
+    "PACS2": {
+      "gene_id": "HGNC:23794",
+      "symbol": "PACS2"
+    },
+    "ZNF649": {
+      "gene_id": "HGNC:25741",
+      "symbol": "ZNF649"
+    },
+    "TACC3": {
+      "gene_id": "HGNC:11524",
+      "symbol": "TACC3"
+    },
+    "ATP6V1B2": {
+      "gene_id": "HGNC:854",
+      "symbol": "ATP6V1B2"
+    },
+    "KCNJ8": {
+      "gene_id": "HGNC:6269",
+      "symbol": "KCNJ8"
+    },
+    "ARHGAP28": {
+      "gene_id": "HGNC:25509",
+      "symbol": "ARHGAP28"
+    },
+    "TCF20": {
+      "gene_id": "HGNC:11631",
+      "symbol": "TCF20"
+    },
+    "CANT1": {
+      "gene_id": "HGNC:19721",
+      "symbol": "CANT1"
+    },
+    "LCE1F": {
+      "gene_id": "HGNC:29467",
+      "symbol": "LCE1F"
+    },
+    "ACP6": {
+      "gene_id": "HGNC:29609",
+      "symbol": "ACP6"
+    },
+    "MAGEC1": {
+      "gene_id": "HGNC:6812",
+      "symbol": "MAGEC1"
+    },
+    "ACVR1B": {
+      "gene_id": "HGNC:172",
+      "symbol": "ACVR1B"
+    },
+    "CEP63": {
+      "gene_id": "HGNC:25815",
+      "symbol": "CEP63"
+    },
+    "PIK3CB": {
+      "gene_id": "HGNC:8976",
+      "symbol": "PIK3CB"
+    },
+    "ARHGAP33": {
+      "gene_id": "HGNC:23085",
+      "symbol": "ARHGAP33"
+    },
+    "KCNH5": {
+      "gene_id": "HGNC:6254",
+      "symbol": "KCNH5"
+    },
+    "DUSP16": {
+      "gene_id": "HGNC:17909",
+      "symbol": "DUSP16"
+    },
+    "FAM58A": {
+      "gene_id": "HGNC:28434",
+      "symbol": "CCNQ"
+    },
+    "C6": {
+      "gene_id": "HGNC:1339",
+      "symbol": "C6"
+    },
+    "MED28": {
+      "gene_id": "HGNC:24628",
+      "symbol": "MED28"
+    },
+    "PROCR": {
+      "gene_id": "HGNC:9452",
+      "symbol": "PROCR"
+    },
+    "MARCH10": {
+      "gene_id": "HGNC:26655",
+      "symbol": "MARCHF10"
+    },
+    "FZD10": {
+      "gene_id": "HGNC:4039",
+      "symbol": "FZD10"
+    },
+    "RTKN2": {
+      "gene_id": "HGNC:19364",
+      "symbol": "RTKN2"
+    },
+    "THSD7B": {
+      "gene_id": "HGNC:29348",
+      "symbol": "THSD7B"
+    },
+    "SHROOM1": {
+      "gene_id": "HGNC:24084",
+      "symbol": "SHROOM1"
+    },
+    "CLEC14A": {
+      "gene_id": "HGNC:19832",
+      "symbol": "CLEC14A"
+    },
+    "EYA4": {
+      "gene_id": "HGNC:3522",
+      "symbol": "EYA4"
+    },
+    "CEP89": {
+      "gene_id": "HGNC:25907",
+      "symbol": "CEP89"
+    },
+    "SHB": {
+      "gene_id": "HGNC:10838",
+      "symbol": "SHB"
+    },
+    "APOBR": {
+      "gene_id": "HGNC:24087",
+      "symbol": "APOBR"
+    },
+    "BRINP1": {
+      "gene_id": "HGNC:2687",
+      "symbol": "BRINP1"
+    },
+    "RIPPLY2": {
+      "gene_id": "HGNC:21390",
+      "symbol": "RIPPLY2"
+    },
+    "TCEB1": {
+      "gene_id": "HGNC:11617",
+      "symbol": "ELOC"
+    },
+    "KCNJ12": {
+      "gene_id": "HGNC:6258",
+      "symbol": "KCNJ12"
+    },
+    "NAP1L3": {
+      "gene_id": "HGNC:7639",
+      "symbol": "NAP1L3"
+    },
+    "CYP7B1": {
+      "gene_id": "HGNC:2652",
+      "symbol": "CYP7B1"
+    },
+    "HNMT": {
+      "gene_id": "HGNC:5028",
+      "symbol": "HNMT"
+    },
+    "NHS": {
+      "gene_id": "HGNC:7820",
+      "symbol": "NHS"
+    },
+    "DHRS4": {
+      "gene_id": "HGNC:16985",
+      "symbol": "DHRS4"
+    },
+    "MAGI2": {
+      "gene_id": "HGNC:18957",
+      "symbol": "MAGI2"
+    },
+    "GTF2I": {
+      "gene_id": "HGNC:4659",
+      "symbol": "GTF2I"
+    },
+    "ESR1": {
+      "gene_id": "HGNC:3467",
+      "symbol": "ESR1"
+    },
+    "BCOR": {
+      "gene_id": "HGNC:20893",
+      "symbol": "BCOR"
+    },
+    "AR": {
+      "gene_id": "HGNC:644",
+      "symbol": "AR"
+    },
+    "CIC": {
+      "gene_id": "HGNC:14214",
+      "symbol": "CIC"
+    },
+    "CD79B": {
+      "gene_id": "HGNC:1699",
+      "symbol": "CD79B"
+    },
+    "ERBB4": {
+      "gene_id": "HGNC:3432",
+      "symbol": "ERBB4"
+    },
+    "ERCC2": {
+      "gene_id": "HGNC:3434",
+      "symbol": "ERCC2"
+    },
+    "FOXL2": {
+      "gene_id": "HGNC:1092",
+      "symbol": "FOXL2"
+    },
+    "EIF1AX": {
+      "gene_id": "HGNC:3250",
+      "symbol": "EIF1AX"
+    },
+    "SDHAF2": {
+      "gene_id": "HGNC:26034",
+      "symbol": "SDHAF2"
+    },
+    "PDGFRA": {
+      "gene_id": "HGNC:8803",
+      "symbol": "PDGFRA"
+    },
+    "GATA3": {
+      "gene_id": "HGNC:4172",
+      "symbol": "GATA3"
+    },
+    "RET": {
+      "gene_id": "HGNC:9967",
+      "symbol": "RET"
+    },
+    "RB1": {
+      "gene_id": "HGNC:9884",
+      "symbol": "RB1"
+    },
+    "SMARCB1": {
+      "gene_id": "HGNC:11103",
+      "symbol": "SMARCB1"
+    },
+    "HIST1H1C": {
+      "gene_id": "HGNC:4716",
+      "symbol": "H1-2"
+    },
+    "STK11": {
+      "gene_id": "HGNC:11389",
+      "symbol": "STK11"
+    },
+    "SOX17": {
+      "gene_id": "HGNC:18122",
+      "symbol": "SOX17"
+    },
+    "NF1": {
+      "gene_id": "HGNC:7765",
+      "symbol": "NF1"
+    },
+    "MYOD1": {
+      "gene_id": "HGNC:7611",
+      "symbol": "MYOD1"
+    },
+    "ERG": {
+      "gene_id": "HGNC:3446",
+      "symbol": "ERG"
+    },
+    "TET1": {
+      "gene_id": "HGNC:29484",
+      "symbol": "TET1"
+    },
+    "FGFR4": {
+      "gene_id": "HGNC:3691",
+      "symbol": "FGFR4"
+    },
+    "DIS3": {
+      "gene_id": "HGNC:20604",
+      "symbol": "DIS3"
+    },
+    "SETD2": {
+      "gene_id": "HGNC:18420",
+      "symbol": "SETD2"
+    },
+    "SDHA": {
+      "gene_id": "HGNC:10680",
+      "symbol": "SDHA"
+    },
+    "TCF7L2": {
+      "gene_id": "HGNC:11641",
+      "symbol": "TCF7L2"
+    },
+    "TP63": {
+      "gene_id": "HGNC:15979",
+      "symbol": "TP63"
+    },
+    "ETV6": {
+      "gene_id": "HGNC:3495",
+      "symbol": "ETV6"
+    },
+    "CTCF": {
+      "gene_id": "HGNC:13723",
+      "symbol": "CTCF"
+    },
+    "STAG2": {
+      "gene_id": "HGNC:11355",
+      "symbol": "STAG2"
+    },
+    "CDK6": {
+      "gene_id": "HGNC:1777",
+      "symbol": "CDK6"
+    },
+    "TGFBR1": {
+      "gene_id": "HGNC:11772",
+      "symbol": "TGFBR1"
+    },
+    "PAX5": {
+      "gene_id": "HGNC:8619",
+      "symbol": "PAX5"
+    },
+    "BCL6": {
+      "gene_id": "HGNC:1001",
+      "symbol": "BCL6"
+    },
+    "FUBP1": {
+      "gene_id": "HGNC:4004",
+      "symbol": "FUBP1"
+    },
+    "EPAS1": {
+      "gene_id": "HGNC:3374",
+      "symbol": "EPAS1"
+    },
+    "CASP8": {
+      "gene_id": "HGNC:1509",
+      "symbol": "CASP8"
+    },
+    "KMT2D": {
+      "gene_id": "HGNC:7133",
+      "symbol": "KMT2D"
+    },
+    "PBRM1": {
+      "gene_id": "HGNC:30064",
+      "symbol": "PBRM1"
+    },
+    "PIK3CD": {
+      "gene_id": "HGNC:8977",
+      "symbol": "PIK3CD"
+    },
+    "CCND3": {
+      "gene_id": "HGNC:1585",
+      "symbol": "CCND3"
+    },
+    "SMO": {
+      "gene_id": "HGNC:11119",
+      "symbol": "SMO"
+    },
+    "PRKCI": {
+      "gene_id": "HGNC:9404",
+      "symbol": "PRKCI"
+    },
+    "PIK3R2": {
+      "gene_id": "HGNC:8980",
+      "symbol": "PIK3R2"
+    },
+    "PTPRT": {
+      "gene_id": "HGNC:9682",
+      "symbol": "PTPRT"
+    },
+    "PREX2": {
+      "gene_id": "HGNC:22950",
+      "symbol": "PREX2"
+    },
+    "RUNX1": {
+      "gene_id": "HGNC:10471",
+      "symbol": "RUNX1"
+    },
+    "ASXL2": {
+      "gene_id": "HGNC:23805",
+      "symbol": "ASXL2"
+    },
+    "PAK7": {
+      "gene_id": "HGNC:15916",
+      "symbol": "PAK5"
+    },
+    "IRF4": {
+      "gene_id": "HGNC:6119",
+      "symbol": "IRF4"
+    },
+    "PIM1": {
+      "gene_id": "HGNC:8986",
+      "symbol": "PIM1"
+    },
+    "SUZ12": {
+      "gene_id": "HGNC:17101",
+      "symbol": "SUZ12"
+    },
+    "KEAP1": {
+      "gene_id": "HGNC:23177",
+      "symbol": "KEAP1"
+    },
+    "NOTCH1": {
+      "gene_id": "HGNC:7881",
+      "symbol": "NOTCH1"
+    },
+    "ATRX": {
+      "gene_id": "HGNC:886",
+      "symbol": "ATRX"
+    },
+    "FOXO1": {
+      "gene_id": "HGNC:3819",
+      "symbol": "FOXO1"
+    },
+    "PTPRD": {
+      "gene_id": "HGNC:9668",
+      "symbol": "PTPRD"
+    },
+    "RNF43": {
+      "gene_id": "HGNC:18505",
+      "symbol": "RNF43"
+    },
+    "BCL2": {
+      "gene_id": "HGNC:990",
+      "symbol": "BCL2"
+    },
+    "GATA2": {
+      "gene_id": "HGNC:4171",
+      "symbol": "GATA2"
+    },
+    "DNMT1": {
+      "gene_id": "HGNC:2976",
+      "symbol": "DNMT1"
+    },
+    "MST1": {
+      "gene_id": "HGNC:7380",
+      "symbol": "MST1"
+    },
+    "MAP3K1": {
+      "gene_id": "HGNC:6848",
+      "symbol": "MAP3K1"
+    },
+    "GSK3B": {
+      "gene_id": "HGNC:4617",
+      "symbol": "GSK3B"
+    },
+    "FAT1": {
+      "gene_id": "HGNC:3595",
+      "symbol": "FAT1"
+    },
+    "SOCS1": {
+      "gene_id": "HGNC:19383",
+      "symbol": "SOCS1"
+    },
+    "HNF1A": {
+      "gene_id": "HGNC:11621",
+      "symbol": "HNF1A"
+    },
+    "CUL3": {
+      "gene_id": "HGNC:2553",
+      "symbol": "CUL3"
+    },
+    "CHEK2": {
+      "gene_id": "HGNC:16627",
+      "symbol": "CHEK2"
+    },
+    "SRSF2": {
+      "gene_id": "HGNC:10783",
+      "symbol": "SRSF2"
+    },
+    "CARD11": {
+      "gene_id": "HGNC:16393",
+      "symbol": "CARD11"
+    },
+    "PDPK1": {
+      "gene_id": "HGNC:8816",
+      "symbol": "PDPK1"
+    },
+    "DNMT3B": {
+      "gene_id": "HGNC:2979",
+      "symbol": "DNMT3B"
+    },
+    "FOXP1": {
+      "gene_id": "HGNC:3823",
+      "symbol": "FOXP1"
+    },
+    "RICTOR": {
+      "gene_id": "HGNC:28611",
+      "symbol": "RICTOR"
+    },
+    "RAD50": {
+      "gene_id": "HGNC:9816",
+      "symbol": "RAD50"
+    },
+    "CYSLTR2": {
+      "gene_id": "HGNC:18274",
+      "symbol": "CYSLTR2"
+    },
+    "BCL10": {
+      "gene_id": "HGNC:989",
+      "symbol": "BCL10"
+    },
+    "JUN": {
+      "gene_id": "HGNC:6204",
+      "symbol": "JUN"
+    },
+    "KLF4": {
+      "gene_id": "HGNC:6348",
+      "symbol": "KLF4"
+    },
+    "AKT3": {
+      "gene_id": "HGNC:393",
+      "symbol": "AKT3"
+    },
+    "SESN2": {
+      "gene_id": "HGNC:20746",
+      "symbol": "SESN2"
+    },
+    "MAP2K4": {
+      "gene_id": "HGNC:6844",
+      "symbol": "MAP2K4"
+    },
+    "NCOA3": {
+      "gene_id": "HGNC:7670",
+      "symbol": "NCOA3"
+    },
+    "AXL": {
+      "gene_id": "HGNC:905",
+      "symbol": "AXL"
+    },
+    "KDR": {
+      "gene_id": "HGNC:6307",
+      "symbol": "KDR"
+    },
+    "MGA": {
+      "gene_id": "HGNC:14010",
+      "symbol": "MGA"
+    },
+    "GLI1": {
+      "gene_id": "HGNC:4317",
+      "symbol": "GLI1"
+    },
+    "JAK1": {
+      "gene_id": "HGNC:6190",
+      "symbol": "JAK1"
+    },
+    "EPHB1": {
+      "gene_id": "HGNC:3392",
+      "symbol": "EPHB1"
+    },
+    "RIT1": {
+      "gene_id": "HGNC:10023",
+      "symbol": "RIT1"
+    },
+    "HLA-B": {
+      "gene_id": "HGNC:4932",
+      "symbol": "HLA-B"
+    },
+    "TNFRSF14": {
+      "gene_id": "HGNC:11912",
+      "symbol": "TNFRSF14"
+    },
+    "HLA-A": {
+      "gene_id": "HGNC:4931",
+      "symbol": "HLA-A"
+    },
+    "PRDM14": {
+      "gene_id": "HGNC:14001",
+      "symbol": "PRDM14"
+    },
+    "IGF1R": {
+      "gene_id": "HGNC:5465",
+      "symbol": "IGF1R"
+    },
+    "GPS2": {
+      "gene_id": "HGNC:4550",
+      "symbol": "GPS2"
+    },
+    "NSD1": {
+      "gene_id": "HGNC:14234",
+      "symbol": "NSD1"
+    },
+    "CRLF2": {
+      "gene_id": "HGNC:14281",
+      "symbol": "CRLF2"
+    },
+    "RBM10": {
+      "gene_id": "HGNC:9896",
+      "symbol": "RBM10"
+    },
+    "TRAF7": {
+      "gene_id": "HGNC:20456",
+      "symbol": "TRAF7"
+    },
+    "ANKRD11": {
+      "gene_id": "HGNC:21316",
+      "symbol": "ANKRD11"
+    },
+    "ERRFI1": {
+      "gene_id": "HGNC:18185",
+      "symbol": "ERRFI1"
+    },
+    "ARID1B": {
+      "gene_id": "HGNC:18040",
+      "symbol": "ARID1B"
+    },
+    "CBFB": {
+      "gene_id": "HGNC:1539",
+      "symbol": "CBFB"
+    },
+    "CDK12": {
+      "gene_id": "HGNC:24224",
+      "symbol": "CDK12"
+    },
+    "CTLA4": {
+      "gene_id": "HGNC:2505",
+      "symbol": "CTLA4"
+    },
+    "LYN": {
+      "gene_id": "HGNC:6735",
+      "symbol": "LYN"
+    },
+    "MSH2": {
+      "gene_id": "HGNC:7325",
+      "symbol": "MSH2"
+    },
+    "SMARCD1": {
+      "gene_id": "HGNC:11106",
+      "symbol": "SMARCD1"
+    },
+    "PPM1D": {
+      "gene_id": "HGNC:9277",
+      "symbol": "PPM1D"
+    },
+    "AXIN1": {
+      "gene_id": "HGNC:903",
+      "symbol": "AXIN1"
+    },
+    "SMAD3": {
+      "gene_id": "HGNC:6769",
+      "symbol": "SMAD3"
+    },
+    "CDKN1B": {
+      "gene_id": "HGNC:1785",
+      "symbol": "CDKN1B"
+    },
+    "RPTOR": {
+      "gene_id": "HGNC:30287",
+      "symbol": "RPTOR"
+    },
+    "BRCA2": {
+      "gene_id": "HGNC:1101",
+      "symbol": "BRCA2"
+    },
+    "TCF3": {
+      "gene_id": "HGNC:11633",
+      "symbol": "TCF3"
+    },
+    "RPS6KA4": {
+      "gene_id": "HGNC:10433",
+      "symbol": "RPS6KA4"
+    },
+    "FH": {
+      "gene_id": "HGNC:3700",
+      "symbol": "FH"
+    },
+    "RECQL4": {
+      "gene_id": "HGNC:9949",
+      "symbol": "RECQL4"
+    },
+    "RAD52": {
+      "gene_id": "HGNC:9824",
+      "symbol": "RAD52"
+    },
+    "HGF": {
+      "gene_id": "HGNC:4893",
+      "symbol": "HGF"
+    },
+    "CDKN1A": {
+      "gene_id": "HGNC:1784",
+      "symbol": "CDKN1A"
+    },
+    "TBX3": {
+      "gene_id": "HGNC:11602",
+      "symbol": "TBX3"
+    },
+    "KMT2A": {
+      "gene_id": "HGNC:7132",
+      "symbol": "KMT2A"
+    },
+    "TSC1": {
+      "gene_id": "HGNC:12362",
+      "symbol": "TSC1"
+    },
+    "PLK2": {
+      "gene_id": "HGNC:19699",
+      "symbol": "PLK2"
+    },
+    "EPHA7": {
+      "gene_id": "HGNC:3390",
+      "symbol": "EPHA7"
+    },
+    "PTPRS": {
+      "gene_id": "HGNC:9681",
+      "symbol": "PTPRS"
+    },
+    "HIST1H3H": {
+      "gene_id": "HGNC:4775",
+      "symbol": "H3C10"
+    },
+    "RAD51C": {
+      "gene_id": "HGNC:9820",
+      "symbol": "RAD51C"
+    },
+    "BCL2L11": {
+      "gene_id": "HGNC:994",
+      "symbol": "BCL2L11"
+    },
+    "SPRED1": {
+      "gene_id": "HGNC:20249",
+      "symbol": "SPRED1"
+    },
+    "KMT2C": {
+      "gene_id": "HGNC:13726",
+      "symbol": "KMT2C"
+    },
+    "MEF2B": {
+      "gene_id": "HGNC:6995",
+      "symbol": "MEF2B"
+    },
+    "PPP4R2": {
+      "gene_id": "HGNC:18296",
+      "symbol": "PPP4R2"
+    },
+    "TET2": {
+      "gene_id": "HGNC:25941",
+      "symbol": "TET2"
+    },
+    "BRD4": {
+      "gene_id": "HGNC:13575",
+      "symbol": "BRD4"
+    },
+    "PGR": {
+      "gene_id": "HGNC:8910",
+      "symbol": "PGR"
+    },
+    "CBL": {
+      "gene_id": "HGNC:1541",
+      "symbol": "CBL"
+    },
+    "EPHA3": {
+      "gene_id": "HGNC:3387",
+      "symbol": "EPHA3"
+    },
+    "MAP3K13": {
+      "gene_id": "HGNC:6852",
+      "symbol": "MAP3K13"
+    },
+    "ERCC3": {
+      "gene_id": "HGNC:3435",
+      "symbol": "ERCC3"
+    },
+    "IRS2": {
+      "gene_id": "HGNC:6126",
+      "symbol": "IRS2"
+    },
+    "IKZF1": {
+      "gene_id": "HGNC:13176",
+      "symbol": "IKZF1"
+    },
+    "PMS2": {
+      "gene_id": "HGNC:9122",
+      "symbol": "PMS2"
+    },
+    "EIF4A2": {
+      "gene_id": "HGNC:3284",
+      "symbol": "EIF4A2"
+    },
+    "WHSC1": {
+      "gene_id": "HGNC:12766",
+      "symbol": "NSD2"
+    },
+    "BAP1": {
+      "gene_id": "HGNC:950",
+      "symbol": "BAP1"
+    },
+    "CEBPA": {
+      "gene_id": "HGNC:1833",
+      "symbol": "CEBPA"
+    },
+    "MDC1": {
+      "gene_id": "HGNC:21163",
+      "symbol": "MDC1"
+    },
+    "SOX9": {
+      "gene_id": "HGNC:11204",
+      "symbol": "SOX9"
+    },
+    "LATS2": {
+      "gene_id": "HGNC:6515",
+      "symbol": "LATS2"
+    },
+    "AKT2": {
+      "gene_id": "HGNC:392",
+      "symbol": "AKT2"
+    },
+    "DAXX": {
+      "gene_id": "HGNC:2681",
+      "symbol": "DAXX"
+    },
+    "PDGFRB": {
+      "gene_id": "HGNC:8804",
+      "symbol": "PDGFRB"
+    }
+  },
+  "hotspot_gene_count": 433,
+  "canonical_hotspot_gene_count": 432,
+  "added_genes": [
+    {
+      "id": "HGNC:10445",
+      "symbol": "CNOT9",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:10493",
+      "symbol": "S100A3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:10498",
+      "symbol": "S100A8",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:10730",
+      "symbol": "SEMA4B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:10838",
+      "symbol": "SHB",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:10999",
+      "symbol": "SLC27A5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:11160",
+      "symbol": "SNRPD3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:11569",
+      "symbol": "TARBP2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:11597",
+      "symbol": "TBX2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:11631",
+      "symbol": "TCF20",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:11784",
+      "symbol": "THBD",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:11796",
+      "symbol": "THRA",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:11990",
+      "symbol": "TOP2B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:12327",
+      "symbol": "TROAP",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:12476",
+      "symbol": "UBE2D3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:12513",
+      "symbol": "UCHL1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:13082",
+      "symbol": "LTN1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:1339",
+      "symbol": "C6",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:14118",
+      "symbol": "TPSD1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:14310",
+      "symbol": "BRD7",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:14962",
+      "symbol": "SYT13",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:15475",
+      "symbol": "PRSS27",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:15500",
+      "symbol": "LENG8",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:15674",
+      "symbol": "SSBP3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:15762",
+      "symbol": "CRNKL1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:15923",
+      "symbol": "RBM39",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:15935",
+      "symbol": "ZHX3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:16060",
+      "symbol": "TRUB1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:1623",
+      "symbol": "CCT8",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:16438",
+      "symbol": "SLC4A11",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:16691",
+      "symbol": "TUBGCP4",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:16744",
+      "symbol": "CIZ1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:16836",
+      "symbol": "TGFBRAP1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:16985",
+      "symbol": "DHRS4",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17282",
+      "symbol": "RIMS1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17283",
+      "symbol": "RIMS2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17299",
+      "symbol": "TPTE2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17330",
+      "symbol": "DDX28",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17423",
+      "symbol": "CHST12",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17820",
+      "symbol": "NT5C3A",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17909",
+      "symbol": "DUSP16",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17933",
+      "symbol": "KAT8",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:17976",
+      "symbol": "RPL10L",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:18127",
+      "symbol": "TUBGCP6",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:18150",
+      "symbol": "MYO18B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:1850",
+      "symbol": "CELSR1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19090",
+      "symbol": "EBF2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:1918",
+      "symbol": "CHD3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:1936",
+      "symbol": "CHIT1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19364",
+      "symbol": "RTKN2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19365",
+      "symbol": "PANK3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19702",
+      "symbol": "POM121",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19721",
+      "symbol": "CANT1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19733",
+      "symbol": "XPO6",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19832",
+      "symbol": "CLEC14A",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19839",
+      "symbol": "FRMD6",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:19885",
+      "symbol": "HOOK2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:20277",
+      "symbol": "DTD2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:20686",
+      "symbol": "PASD1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:20822",
+      "symbol": "ADGRL4",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:20996",
+      "symbol": "ASF1B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:21390",
+      "symbol": "RIPPLY2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:21575",
+      "symbol": "AHI1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:22199",
+      "symbol": "COBL",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:23085",
+      "symbol": "ARHGAP33",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2334",
+      "symbol": "CR1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:23381",
+      "symbol": "OBP2B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2343",
+      "symbol": "CRB1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:23492",
+      "symbol": "PNLIPRP3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:23527",
+      "symbol": "FANK1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:23730",
+      "symbol": "GPRIN2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:23794",
+      "symbol": "PACS2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:23844",
+      "symbol": "ABTB3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24084",
+      "symbol": "SHROOM1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24087",
+      "symbol": "APOBR",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24174",
+      "symbol": "ACSBG2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24462",
+      "symbol": "CLECL1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24489",
+      "symbol": "LSM14A",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24535",
+      "symbol": "DCAF13",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24628",
+      "symbol": "MED28",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24650",
+      "symbol": "EHMT1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2467",
+      "symbol": "CSPG5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24764",
+      "symbol": "SMTNL2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24765",
+      "symbol": "RSBN1L",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:24886",
+      "symbol": "FRMD4B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25067",
+      "symbol": "INTS12",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25484",
+      "symbol": "KIF26B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25509",
+      "symbol": "ARHGAP28",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25527",
+      "symbol": "ANKZF1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25631",
+      "symbol": "CFAP44",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25741",
+      "symbol": "ZNF649",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25754",
+      "symbol": "VPS37B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25815",
+      "symbol": "CEP63",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25907",
+      "symbol": "CEP89",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:25928",
+      "symbol": "WDR73",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2622",
+      "symbol": "CYP2C8",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:26307",
+      "symbol": "HEXD",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2642",
+      "symbol": "CYP4A11",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2652",
+      "symbol": "CYP7B1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:26556",
+      "symbol": "LRRC71",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:26655",
+      "symbol": "MARCHF10",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2687",
+      "symbol": "BRINP1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:27316",
+      "symbol": "TRIM65",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:27902",
+      "symbol": "ARL16",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:28255",
+      "symbol": "PCED1B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:28399",
+      "symbol": "TENT5D",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:28990",
+      "symbol": "ZNF516",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29084",
+      "symbol": "ZNF623",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29095",
+      "symbol": "TSC22D2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29289",
+      "symbol": "RELCH",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29330",
+      "symbol": "METTL14",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29348",
+      "symbol": "THSD7B",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29459",
+      "symbol": "LCE1A",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29467",
+      "symbol": "LCE1F",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:2953",
+      "symbol": "DNAH9",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29609",
+      "symbol": "ACP6",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29676",
+      "symbol": "PUM3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:30366",
+      "symbol": "TMEM131",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:30414",
+      "symbol": "TMEM147",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:30483",
+      "symbol": "PCMTD1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:30600",
+      "symbol": "UBXN11",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:30988",
+      "symbol": "BNC2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:31037",
+      "symbol": "SLC16A13",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:31412",
+      "symbol": "SWI5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:32934",
+      "symbol": "SLCO1B7",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:3503",
+      "symbol": "EVPL",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:3522",
+      "symbol": "EYA4",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:37208",
+      "symbol": "TMEM200C",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:4039",
+      "symbol": "FZD10",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:468",
+      "symbol": "AMPD1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:5028",
+      "symbol": "HNMT",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:5113",
+      "symbol": "HOXB2",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:52",
+      "symbol": "ABCC10",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:5208",
+      "symbol": "HSD11B1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6062",
+      "symbol": "ING1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6069",
+      "symbol": "INMT",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6254",
+      "symbol": "KCNH5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6258",
+      "symbol": "KCNJ12",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6269",
+      "symbol": "KCNJ8",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6299",
+      "symbol": "KCNQ5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6492",
+      "symbol": "LAMC1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6692",
+      "symbol": "LRP1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6697",
+      "symbol": "LRP5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6731",
+      "symbol": "NCR1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6812",
+      "symbol": "MAGEC1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6815",
+      "symbol": "MAGOH",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6880",
+      "symbol": "MAPK7",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:689",
+      "symbol": "ARIH1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:6993",
+      "symbol": "MEF2A",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7090",
+      "symbol": "MICA",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7539",
+      "symbol": "MXRA5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7608",
+      "symbol": "MYO9A",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7623",
+      "symbol": "MYT1L",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7639",
+      "symbol": "NAP1L3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7786",
+      "symbol": "NFIC",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7820",
+      "symbol": "NHS",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7870",
+      "symbol": "NOL4",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:7894",
+      "symbol": "NPAS1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:8524",
+      "symbol": "OVGP1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:8526",
+      "symbol": "OXA1L",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:8664",
+      "symbol": "PCDHA10",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:8747",
+      "symbol": "PCSK5",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:8806",
+      "symbol": "PDHA1",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:90",
+      "symbol": "ACADS",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:9056",
+      "symbol": "PLCB3",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:9171",
+      "symbol": "PODXL",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:9452",
+      "symbol": "PROCR",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:9521",
+      "symbol": "PSG4",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:9630",
+      "symbol": "PTN",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:27028",
+      "symbol": "CFAP90",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:29523",
+      "symbol": "CFAP20",
+      "releases": [
+        "v1"
+      ]
+    },
+    {
+      "id": "HGNC:33731",
+      "symbol": "C3orf70",
+      "releases": [
+        "v1"
+      ]
+    }
+  ],
+  "site_count": 1633,
+  "allele_count": 4468,
+  "unrepresented_genes": [],
+  "limitations": [
+    "All comments are LLM-generated recurrence drafts; specialist allele-specific review is pending.",
+    "V3 includes 164 new residues and cumulative allele sheets; workbook identity and release membership are stored separately.",
+    "V1 and V2 API responses were identical at retrieval; release membership comes from original workbooks.",
+    "No genomic coordinate or exact-variant HGVS is inferred from a codon."
+  ]
+}

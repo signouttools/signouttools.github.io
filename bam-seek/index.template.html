@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BAM Seek · SignoutTools</title>
+    <style>
+      STYLE
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="top">
+          <span class="brand">SIGNOUT TOOLS</span>
+          <div>
+            <button id="about-button">About</button
+            ><button id="theme">Light / dark</button>
+          </div>
+        </div>
+        <h1>BAM Seek</h1>
+        <p class="subtitle">
+          Variant evidence across current and historical samples.
+        </p>
+        <p class="privacy">
+          Local processing · no uploads · no runtime network requests
+        </p>
+      </header>
+      <section>
+        <h2>BAM sources</h2>
+        <p>
+          Select coordinate-sorted BAMs together with their BAI or CSI indexes.
+          Select a radio button to designate the current sample; all others are
+          historical.
+        </p>
+        <label class="file-label"
+          >Add BAMs and indexes
+          <input id="files" type="file" multiple accept=".bam,.bai,.csi"
+        /></label>
+        <div id="pairing"></div>
+        <div id="sources"></div>
+        <button id="clear">Clear sources and results</button>
+      </section>
+      <section>
+        <div class="columns">
+          <label
+            >Current variants<textarea
+              id="current"
+              spellcheck="false"
+              placeholder="BRAF c.1799T>A p.V600E chr7:140453136 A>T"
+            ></textarea></label
+          ><label
+            >Historical variants<textarea
+              id="historical"
+              spellcheck="false"
+              placeholder="chr9:5073770 G>T"
+            ></textarea>
+          </label>
+        </div>
+        <p class="muted">
+          One-based genomic coordinates and REF/ALT required. Accepts genomic
+          HGVS, VCF columns, annotated genomic variants and report rows. Small
+          indels require a shared left anchor. Equivalent shifted indels are not
+          normalized.
+        </p>
+        <label
+          >Alignment assembly
+          <select id="build">
+            <option value="hg19">hg19 / GRCh37</option>
+            <option value="hg38">hg38 / GRCh38</option>
+          </select></label
+        ><label
+          ><input id="assembly-confirm" type="checkbox" />I confirm the selected
+          assembly matches these BAMs.</label
+        >
+        <p id="panel-note">The fixed hg19 disease panel is always included.</p>
+      </section>
+      <details class="settings">
+        <summary>Calculation settings and IGV reference</summary>
+        <div class="columns">
+          <div>
+            <label
+              >Minimum mapQ
+              <input
+                id="mapq"
+                type="number"
+                min="0"
+                max="255"
+                value="20" /></label
+            ><label
+              >Minimum baseQ
+              <input
+                id="baseq"
+                type="number"
+                min="0"
+                max="255"
+                value="20" /></label
+            ><label
+              >Molecule grouping
+              <select id="mode">
+                <option value="name">Read name / paired fragment</option>
+                <option value="auto">Auto MI / RX / UB (≥90% tagged)</option>
+                <option value="tag">Selected BAM tag</option>
+              </select></label
+            ><label
+              >Selected tag
+              <input id="tag" value="MI" maxlength="2" size="3" /></label
+            ><label
+              ><input id="duplicates" type="checkbox" />Include duplicate
+              alignments</label
+            ><label
+              ><input id="secondary" type="checkbox" />Include secondary
+              alignments</label
+            ><label
+              ><input id="supplementary" type="checkbox" />Include supplementary
+              alignments</label
+            >
+          </div>
+          <div>
+            <label
+              >Minimum ALT reads
+              <input id="min-reads" type="number" min="1" value="1" /></label
+            ><label
+              >Minimum ALT molecules
+              <input
+                id="min-molecules"
+                type="number"
+                min="1"
+                value="1" /></label
+            ><label
+              >Minimum VAF %
+              <input
+                id="min-vaf"
+                type="number"
+                min="0"
+                max="100"
+                step="any"
+                value="0" /></label
+            ><label
+              >Minimum phase support
+              <input id="support" type="number" min="1" value="2" /></label
+            ><label
+              >Maximum phase conflict %
+              <input
+                id="conflict"
+                type="number"
+                min="0"
+                max="100"
+                step="any"
+                value="10" /></label
+            ><label
+              ><input id="local-phase" type="checkbox" checked />Dev local
+              phasing (experimental)</label
+            >
+          </div>
+        </div>
+        <label
+          >Local IGV reference (.2bit, or uncompressed FASTA and FAI)<input
+            id="reference"
+            type="file"
+            multiple
+            accept=".2bit,.fa,.fasta,.fna,.fai"
+        /></label>
+        <p class="muted">
+          A reference is needed only for IGV sequence/mismatch display. Choose
+          the same reference assembly as the BAM. IGV windows use first-of-pair
+          strand colors, paired display, base sorting, and no downsampling.
+          Windows are temporary; reopen them from a result after a reload.
+        </p>
+      </details>
+      <div class="run-bar">
+        <button id="run" class="primary">Calculate VAFs</button
+        ><button id="cancel" disabled>Cancel</button>
+        <p id="status" role="status" aria-live="polite">
+          Select indexed BAMs to begin.
+        </p>
+      </div>
+      <section>
+        <h2>Variant evidence</h2>
+        <div id="results" class="scroll"></div>
+      </section>
+      <section>
+        <h2>Disease panel</h2>
+        <p class="muted">
+          Fixed hg19 hotspots; repeated sites are calculated once per BAM. TP53
+          whole-gene review remains pipeline-managed.
+        </p>
+        <div id="disease-results" class="scroll"></div>
+      </section>
+      <section>
+        <h2>Phasing findings</h2>
+        <p class="muted">
+          Direct molecular linkage only. AB = ALT/ALT, Ab = ALT/REF, aB =
+          REF/ALT, ab = REF/REF. Unsequenced insert gaps do not establish
+          linkage.
+        </p>
+        <div id="phase-results"></div>
+        <details>
+          <summary>Dev local phasing (experimental)</summary>
+          <p>
+            Rare markers support cis through repeated positive co-occurrence.
+            Common markers may support trans through opposite haplotypes. Marker
+            absence and target REF alone carry no phase meaning.
+          </p>
+          <div id="local-results"></div>
+        </details>
+      </section>
+      <section>
+        <h2>Comparison narrative</h2>
+        <p class="muted">
+          Draft wording assumes the Current and Historical variant boxes contain
+          reported calls from the same patient. Review the wording against assay
+          thresholds, coverage and the displayed evidence before use. Variants
+          in Both boxes are excluded.
+        </p>
+        <textarea
+          id="narrative"
+          readonly
+          aria-label="Comparison narrative"
+        ></textarea
+        ><button id="copy">Copy narrative</button>
+        <details>
+          <summary>All numeric evidence</summary>
+          <textarea
+            id="evidence-text"
+            readonly
+            aria-label="Numeric evidence"
+          ></textarea
+          ><button id="copy-evidence">Copy numeric evidence</button>
+        </details>
+      </section>
+      <div id="viewer"></div>
+      <footer>
+        For research use only. Files, settings and caches stay in memory and are
+        discarded on reload.
+      </footer>
+    </main>
+    <dialog id="resources-dialog">
+      <h2 id="resource-title"></h2>
+      <p>
+        Each Open link sends only the displayed structured variant identifier to
+        that provider.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Provider</th>
+              <th>Identifier</th>
+              <th>Context</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="resource-list"></tbody>
+        </table>
+      </div>
+      <button data-close>Close</button>
+    </dialog>
+    <dialog id="copy-dialog">
+      <h2>Copy text</h2>
+      <p>
+        Clipboard access is unavailable. Copy the selected text using your
+        keyboard.
+      </p>
+      <textarea id="copy-fallback"></textarea><button data-close>Close</button>
+    </dialog>
+    <dialog id="about-dialog">
+      <h2>About BAM Seek</h2>
+      ABOUT<button data-close>Close</button>
+    </dialog>
+    <!--SCRIPT-->
+  </body>
+</html>

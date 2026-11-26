@@ -1,0 +1,62 @@
+{
+  "id": "HGNC:27030",
+  "symbol": "DNAJC21",
+  "name": "DnaJ heat shock protein family (Hsp40) member C21",
+  "ncbi_gene_id": "134218",
+  "aliases": [
+    "DNAJA5",
+    "GS3",
+    "JJJ1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "protein folding"
+  ],
+  "summary": {
+    "function": {
+      "text": "DNAJC21 encodes dnaJ homolog subfamily C member 21. Annotated molecular activities include zinc ion binding. It participates in protein folding.",
+      "source_ids": [
+        "ncbi-134218",
+        "uniprot-Q5F1R6"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to bone marrow failure syndrome 3 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-HemePredisposition"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0014887",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

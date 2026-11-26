@@ -1,0 +1,61 @@
+{
+  "id": "HGNC:16067",
+  "symbol": "MYOCD",
+  "name": "myocardin",
+  "ncbi_gene_id": "93649",
+  "aliases": [
+    "MYCD"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "transcription initiation-coupled chromatin remodeling",
+    "positive regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "MYOCD encodes myocardin. Annotated molecular activities include transcription coactivator activity and DNA-binding transcription factor binding. It participates in transcription initiation-coupled chromatin remodeling and positive regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-93649",
+        "uniprot-Q8IZQ8"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Leiomyosarcoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-lms",
+      "mechanism": "Educational atlas reports copy-number alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

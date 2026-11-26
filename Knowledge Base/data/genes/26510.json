@@ -1,0 +1,61 @@
+{
+  "id": "HGNC:26510",
+  "symbol": "TMEM68",
+  "name": "transmembrane protein 68",
+  "ncbi_gene_id": "137695",
+  "aliases": [
+    "DIESL",
+    "FLJ32370"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "triglyceride biosynthetic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "TMEM68 encodes DGAT1/2-independent enzyme synthesizing storage lipids. Annotated molecular activities include 2-acylglycerol O-acyltransferase activity and diacylglycerol O-acyltransferase activity. It participates in triglyceride biosynthetic process.",
+      "source_ids": [
+        "ncbi-137695",
+        "uniprot-Q96MH6"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include CNS embryonal tumor with PLAG family gene alteration. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-u-cns-plag",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "HGNC:9948",
+  "symbol": "RECQL",
+  "name": "RecQ like helicase",
+  "ncbi_gene_id": "5965",
+  "aliases": [
+    "RecQ1",
+    "RecQL1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "DNA repair",
+    "double-strand break repair via homologous recombination"
+  ],
+  "summary": {
+    "function": {
+      "text": "RECQL encodes ATP-dependent DNA helicase Q1. Annotated molecular activities include ATP hydrolysis activity and DNA helicase activity. It participates in DNA repair and double-strand break repair via homologous recombination.",
+      "source_ids": [
+        "ncbi-5965",
+        "uniprot-P46063"
+      ]
+    },
+    "germline": {
+      "text": "No established constitutional disease association is assigned after the condition-specific evidence review; disputed or limited relationships are withheld rather than treated as positive findings.",
+      "source_ids": [
+        "gencc-SGC-106679.4"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "RECQL",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "review_notes": {
+    "text": "breast cancer: disputed evidence (ClinGen); not presented as an established association. Separately supported conditions remain listed. Pathologist review needed — LLM-generated summary/review.",
+    "source_ids": [
+      "gencc-SGC-106679.4"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "HGNC:14067",
+  "symbol": "HDAC7",
+  "name": "histone deacetylase 7",
+  "ncbi_gene_id": "51564",
+  "aliases": [
+    "DKFZP586J0917",
+    "HDAC7A"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "negative regulation of non-canonical NF-kappaB signal transduction",
+    "negative regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "HDAC7 encodes histone deacetylase 7. Annotated molecular activities include DNA-binding transcription factor binding and SUMO transferase activity. It participates in negative regulation of non-canonical NF-kappaB signal transduction and negative regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-51564",
+        "uniprot-Q8WUI4"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "heme468",
+      "panel_version": "snapshot-2026-11-26-e35667df86c0",
+      "submitted_symbol": "HDAC7",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-heme468"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

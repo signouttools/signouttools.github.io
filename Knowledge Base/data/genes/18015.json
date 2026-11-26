@@ -1,0 +1,56 @@
+{
+  "id": "HGNC:18015",
+  "symbol": "IL17RB",
+  "name": "interleukin 17 receptor B",
+  "ncbi_gene_id": "55540",
+  "aliases": [
+    "CRL4",
+    "EVI27",
+    "IL17BR",
+    "IL17RH1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "defense response",
+    "interleukin-17-mediated signaling pathway"
+  ],
+  "summary": {
+    "function": {
+      "text": "IL17RB encodes interleukin-17 receptor B. Annotated molecular activities include cytokine receptor activity and interleukin-17 receptor activity. It participates in defense response and interleukin-17-mediated signaling pathway.",
+      "source_ids": [
+        "ncbi-55540",
+        "uniprot-Q9NRM6"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-BreastCancer"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

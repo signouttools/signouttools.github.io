@@ -1,0 +1,332 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hotspot and conditional disruption draft contracts",
+  "description": "Source-preserving supplementary records. Use the named definitions for individual JSON files; cross-record rules are enforced by validate-hotspots.py. FDA references never assert therapy eligibility.",
+  "$defs": {
+    "section": {
+      "type": "object",
+      "required": [
+        "text",
+        "source_ids"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "editorial": {
+      "type": "object",
+      "required": [
+        "status",
+        "disclaimer",
+        "sources_checked_on",
+        "reviewer"
+      ],
+      "properties": {
+        "status": {
+          "const": "draft"
+        },
+        "disclaimer": {
+          "const": "Pathologist review needed \u2014 LLM-generated summary/review."
+        },
+        "sources_checked_on": {
+          "type": "string"
+        },
+        "reviewer": {
+          "type": "null"
+        }
+      },
+      "additionalProperties": false
+    },
+    "observation": {
+      "type": "object",
+      "required": [
+        "release",
+        "workbook",
+        "sheet",
+        "row",
+        "tumor_counts"
+      ],
+      "properties": {
+        "release": {
+          "enum": [
+            "v1",
+            "v2",
+            "v3"
+          ]
+        },
+        "workbook": {
+          "enum": [
+            "v1",
+            "v2",
+            "v3"
+          ]
+        },
+        "sheet": {
+          "type": "string",
+          "minLength": 1
+        },
+        "row": {
+          "type": "integer",
+          "minimum": 2
+        },
+        "fields": {
+          "type": "object"
+        },
+        "tumor_counts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "transcript": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "site": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gene_id": {
+          "type": "string",
+          "pattern": "^HGNC:[0-9]+$"
+        },
+        "comment": {
+          "$ref": "#/$defs/section"
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
+        },
+        "symbol": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_symbols": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "residue": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "single_residue",
+            "indel_region"
+          ]
+        },
+        "observations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/observation"
+          }
+        },
+        "allele_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_transcript": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "transcript_status": {
+          "enum": [
+            "unversioned_source_transcript",
+            "not_supplied"
+          ]
+        },
+        "disease_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "applicability_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fda_reference_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fda_exclusion_reference_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fda_allele_labels": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "id",
+        "gene_id",
+        "comment",
+        "editorial",
+        "symbol",
+        "source_symbols",
+        "residue",
+        "kind",
+        "observations",
+        "allele_ids",
+        "source_transcript",
+        "transcript_status",
+        "disease_ids",
+        "applicability_notes",
+        "fda_reference_ids",
+        "fda_exclusion_reference_ids",
+        "fda_allele_labels"
+      ],
+      "additionalProperties": false
+    },
+    "allele": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gene_id": {
+          "type": "string",
+          "pattern": "^HGNC:[0-9]+$"
+        },
+        "comment": {
+          "$ref": "#/$defs/section"
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
+        },
+        "site_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/observation"
+          }
+        },
+        "fda_reference_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fda_exclusion_reference_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "gene_id",
+        "comment",
+        "editorial",
+        "site_id",
+        "label",
+        "observations",
+        "fda_reference_ids",
+        "fda_exclusion_reference_ids"
+      ],
+      "additionalProperties": false
+    },
+    "disruption": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gene_id": {
+          "type": "string",
+          "pattern": "^HGNC:[0-9]+$"
+        },
+        "comment": {
+          "$ref": "#/$defs/section"
+        },
+        "editorial": {
+          "$ref": "#/$defs/editorial"
+        },
+        "symbol": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selector_kind": {
+          "const": "loss_of_function"
+        },
+        "disease_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "applicability_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "gene_id",
+        "comment",
+        "editorial",
+        "symbol",
+        "label",
+        "selector_kind",
+        "disease_ids",
+        "applicability_notes"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

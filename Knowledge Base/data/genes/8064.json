@@ -1,0 +1,79 @@
+{
+  "id": "HGNC:8064",
+  "symbol": "NUP214",
+  "name": "nucleoporin 214",
+  "ncbi_gene_id": "8021",
+  "aliases": [
+    "CAIN",
+    "CAN",
+    "D9S46E",
+    "N214"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "nucleocytoplasmic transport",
+    "RNA export from nucleus"
+  ],
+  "summary": {
+    "function": {
+      "text": "NUP214 encodes nuclear pore complex protein Nup214. Annotated molecular activities include nuclear export signal receptor activity and structural constituent of nuclear pore. It participates in nucleocytoplasmic transport and RNA export from nucleus.",
+      "source_ids": [
+        "ncbi-8021",
+        "uniprot-P35658"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to encephalopathy, acute, infection-induced, susceptibility to, 9 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Acute myeloid leukemia. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0032742",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from Labcorp Genetics (formerly Invitae). Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-aml",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-e-prcc",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

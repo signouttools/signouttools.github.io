@@ -1,0 +1,256 @@
+{
+  "functions": {
+    "BRCA1": "BRCA1 encodes a tumor-suppressor protein that coordinates the DNA-damage response and homologous-recombination repair, including functions performed with BARD1 and other repair factors.",
+    "BRCA2": "BRCA2 encodes a tumor-suppressor protein that loads and regulates RAD51 at damaged DNA, supporting accurate repair of double-strand breaks by homologous recombination.",
+    "MLH1": "MLH1 encodes a DNA mismatch-repair protein that forms the MutL\u03b1 complex with PMS2, helping correct replication-associated mismatches and insertion/deletion errors.",
+    "MSH2": "MSH2 encodes a DNA mismatch-recognition protein. It forms complexes with MSH6 or MSH3 to recognize mismatched bases and insertion/deletion loops and initiate mismatch repair.",
+    "MSH6": "MSH6 encodes the mismatch-recognition component of the MSH2\u2013MSH6 complex, which detects base mismatches and small insertion/deletion loops during DNA mismatch repair.",
+    "PMS2": "PMS2 encodes the endonuclease component of the MLH1\u2013PMS2 mismatch-repair complex, which helps remove replication-associated DNA errors.",
+    "NPM1": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome biogenesis, nucleic-acid handling, and regulation of cellular stress responses and genome stability.",
+    "FLT3": "FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. Ligand-dependent signaling regulates survival, proliferation, and differentiation of these cells.",
+    "DNMT3A": "DNMT3A encodes a de novo DNA methyltransferase that establishes cytosine methylation patterns and helps regulate chromatin state, gene expression, and cellular differentiation.",
+    "TET2": "TET2 encodes an enzyme that oxidizes methylated cytosine in DNA, contributing to DNA-demethylation pathways and regulation of hematopoietic differentiation.",
+    "ASXL1": "ASXL1 encodes a chromatin-regulatory protein involved in controlling histone modifications and transcriptional programs, including those governing hematopoietic differentiation.",
+    "JAK2": "JAK2 encodes a nonreceptor tyrosine kinase that associates with cytokine receptors and transmits signals through STAT proteins and other downstream pathways in hematopoietic cells.",
+    "NOTCH1": "NOTCH1 encodes a transmembrane receptor whose proteolytic activation releases an intracellular signaling component that regulates transcription, cell fate, and differentiation.",
+    "TERT": "TERT encodes the catalytic reverse-transcriptase component of telomerase. Together with the TERC RNA template, it adds telomeric repeats to chromosome ends.",
+    "KMT2A": "KMT2A encodes a histone methyltransferase that helps establish H3K4 methylation and regulate transcriptional programs important for development and hematopoiesis.",
+    "ALK": "ALK encodes a receptor tyrosine kinase involved in developmental signaling, with downstream effects on cell growth, survival, and differentiation.",
+    "RET": "RET encodes a receptor tyrosine kinase that transduces signals from glial-cell-line-derived neurotrophic factor family ligands through coreceptor-dependent signaling.",
+    "ROS1": "ROS1 encodes a receptor tyrosine kinase whose signaling can regulate cellular proliferation, survival, and differentiation.",
+    "EGFR": "EGFR encodes an epidermal growth factor receptor family tyrosine kinase that activates growth and survival pathways, including RAS\u2013MAPK and PI3K\u2013AKT signaling.",
+    "ERBB2": "ERBB2 encodes the HER2 receptor tyrosine kinase, an ERBB-family signaling protein that promotes growth and survival signaling through receptor dimerization.",
+    "KIT": "KIT encodes the receptor for stem cell factor, a tyrosine kinase that regulates hematopoietic, melanocytic, germ-cell, and interstitial-cell lineages.",
+    "KRAS": "KRAS encodes a small GTPase that switches between GDP- and GTP-bound states to relay receptor-derived signals to pathways controlling proliferation and survival.",
+    "NRAS": "NRAS encodes a small GTPase that relays growth-factor signals to pathways including RAF\u2013MEK\u2013ERK and PI3K signaling through regulated GDP/GTP cycling.",
+    "HRAS": "HRAS encodes a small GTPase that couples growth-factor receptor activity to downstream signaling pathways regulating cell proliferation, differentiation, and survival.",
+    "PIK3CA": "PIK3CA encodes the p110\u03b1 catalytic subunit of class I phosphatidylinositol 3-kinase, which produces lipid signals that activate AKT-dependent growth and survival pathways.",
+    "PTEN": "PTEN encodes a tumor-suppressor phosphatase that counteracts PI3K signaling by dephosphorylating phosphatidylinositol lipid messengers, thereby restraining AKT pathway activation.",
+    "APC": "APC encodes a tumor-suppressor scaffold involved in the \u03b2-catenin destruction complex, helping restrain canonical Wnt signaling and regulate cellular organization.",
+    "RB1": "RB1 encodes the retinoblastoma tumor-suppressor protein, which restrains E2F-dependent transcription and regulates progression from G1 into the DNA-synthesis phase of the cell cycle.",
+    "VHL": "VHL encodes the substrate-recognition component of an ubiquitin-ligase complex that promotes degradation of hypoxia-inducible factors under oxygen-replete conditions.",
+    "NF1": "NF1 encodes neurofibromin, a RAS GTPase-activating protein that promotes conversion of active RAS-GTP to inactive RAS-GDP and restrains RAS signaling.",
+    "NF2": "NF2 encodes merlin, a cytoskeletal and membrane-associated tumor-suppressor protein involved in cell-contact signaling and regulation of growth-control pathways.",
+    "BAP1": "BAP1 encodes a deubiquitinase involved in chromatin regulation and other cellular processes, including regulation of transcription and DNA-damage responses.",
+    "CDKN2A": "CDKN2A produces distinct tumor-suppressor proteins through alternative transcripts: p16INK4A regulates CDK4/6\u2013RB signaling, while p14ARF influences the MDM2\u2013p53 pathway.",
+    "SMARCB1": "SMARCB1 encodes a core component of SWI/SNF chromatin-remodeling complexes that regulate access to DNA and control transcriptional and differentiation programs.",
+    "SMARCA4": "SMARCA4 encodes BRG1, an ATP-dependent catalytic subunit of SWI/SNF chromatin-remodeling complexes that regulate nucleosome organization and gene expression.",
+    "ATRX": "ATRX encodes an ATP-dependent chromatin-regulatory protein that works with DAXX in deposition of histone H3.3 and maintenance of repetitive chromatin, including telomeric regions.",
+    "DAXX": "DAXX encodes a histone chaperone and regulatory protein that participates with ATRX in histone H3.3 deposition and chromatin maintenance.",
+    "EZH2": "EZH2 encodes the catalytic methyltransferase component of polycomb repressive complex 2, which methylates histone H3 lysine 27 to regulate transcriptional repression.",
+    "CREBBP": "CREBBP encodes the CBP transcriptional coactivator and acetyltransferase, which modifies histones and other proteins to regulate gene expression.",
+    "EP300": "EP300 encodes the p300 transcriptional coactivator and acetyltransferase, which regulates transcription through histone acetylation and interactions with transcription factors.",
+    "SF3B1": "SF3B1 encodes a component of the U2 small nuclear ribonucleoprotein complex that participates in branch-point recognition during pre-mRNA splicing.",
+    "SRSF2": "SRSF2 encodes a serine/arginine-rich RNA-binding splicing factor that regulates splice-site selection and processing of pre-mRNA.",
+    "U2AF1": "U2AF1 encodes a component of the U2 auxiliary splicing factor that contributes to recognition of 3\u2032 splice sites during pre-mRNA processing.",
+    "ZRSR2": "ZRSR2 encodes a splicing factor important for recognition and processing of introns, particularly those handled by the minor spliceosome.",
+    "RUNX1": "RUNX1 encodes a DNA-binding transcription factor that forms the core-binding factor complex with CBFB and regulates hematopoietic development and differentiation.",
+    "CEBPA": "CEBPA encodes a basic leucine-zipper transcription factor that regulates differentiation programs, including granulocytic maturation, and can influence cell-cycle control.",
+    "GATA2": "GATA2 encodes a zinc-finger transcription factor important for hematopoietic stem and progenitor-cell maintenance and development of several blood-cell lineages.",
+    "DDX41": "DDX41 encodes a DEAD-box helicase-family protein implicated in RNA processing and cellular nucleic-acid sensing.",
+    "CALR": "CALR encodes calreticulin, an endoplasmic-reticulum chaperone that assists glycoprotein folding and contributes to intracellular calcium homeostasis.",
+    "MPL": "MPL encodes the thrombopoietin receptor, which regulates hematopoietic stem-cell maintenance and megakaryocyte and platelet production through cytokine signaling.",
+    "MYD88": "MYD88 encodes an adaptor for Toll-like and interleukin-1 receptor signaling that links receptor activation to downstream inflammatory signaling, including NF-\u03baB activation.",
+    "BTK": "BTK encodes Bruton tyrosine kinase, a signaling protein important for B-cell development and transmission of B-cell antigen-receptor signals.",
+    "XPO1": "XPO1 encodes exportin 1, a nuclear-export receptor that transports cargo proteins and RNA-associated complexes from the nucleus to the cytoplasm.",
+    "IDH2": "IDH2 encodes a mitochondrial NADP-dependent isocitrate dehydrogenase that interconverts isocitrate and alpha-ketoglutarate while contributing to cellular NADPH metabolism.",
+    "CTNNB1": "CTNNB1 encodes \u03b2-catenin, a protein with roles in cell adhesion and canonical Wnt signaling; regulated stabilization permits transcriptional effects through TCF/LEF factors.",
+    "SMAD4": "SMAD4 encodes a shared signaling mediator that forms complexes with receptor-activated SMAD proteins to regulate transcription downstream of TGF-\u03b2 superfamily receptors.",
+    "ATM": "ATM encodes a protein kinase that coordinates DNA-damage responses, particularly following DNA double-strand breaks, through checkpoint and repair signaling.",
+    "ATR": "ATR encodes a protein kinase that responds to replication stress and single-stranded DNA-associated damage to coordinate cell-cycle checkpoints and genome maintenance.",
+    "POLE": "POLE encodes the catalytic subunit of DNA polymerase epsilon, which participates in DNA replication and contains a proofreading exonuclease domain.",
+    "POLD1": "POLD1 encodes the catalytic subunit of DNA polymerase delta, which participates in DNA replication and repair and provides proofreading exonuclease activity.",
+    "PALB2": "PALB2 encodes a repair scaffold that connects BRCA1- and BRCA2-associated functions and supports RAD51-mediated homologous-recombination repair.",
+    "CHEK2": "CHEK2 encodes the CHK2 checkpoint kinase, which transmits DNA-damage signals to regulators of cell-cycle progression and other stress responses.",
+    "MET": "MET encodes the hepatocyte growth factor receptor tyrosine kinase, which regulates proliferation, survival, migration, and tissue-remodeling responses.",
+    "NTRK1": "NTRK1 encodes the TRKA receptor tyrosine kinase, which mediates nerve growth factor signaling important for neuronal development and survival.",
+    "NTRK2": "NTRK2 encodes the TRKB neurotrophin receptor tyrosine kinase, which regulates neuronal survival, differentiation, and function.",
+    "NTRK3": "NTRK3 encodes the TRKC neurotrophin receptor tyrosine kinase, which transduces neurotrophin signaling involved in neuronal development and maintenance.",
+    "BCL2": "BCL2 encodes an anti-apoptotic mitochondrial protein that restrains activation of the intrinsic cell-death pathway.",
+    "BCL6": "BCL6 encodes a transcriptional repressor important for germinal-center B-cell development and regulation of differentiation and DNA-damage-response programs.",
+    "MYC": "MYC encodes a transcription factor that dimerizes with MAX to regulate gene-expression programs controlling growth, metabolism, proliferation, and differentiation.",
+    "MYCN": "MYCN encodes an MYC-family transcription factor that regulates developmental growth and differentiation programs, particularly in neural and embryonal tissues.",
+    "MDM2": "MDM2 encodes an E3 ubiquitin ligase and negative regulator of p53, helping control p53 stability and activity.",
+    "H3-3A": "H3-3A encodes the histone variant H3.3, which is incorporated into chromatin independently of DNA replication and contributes to regulation of chromatin structure and transcription.",
+    "H3-3B": "H3-3B encodes the histone variant H3.3, which participates in replication-independent nucleosome assembly and regulation of chromatin organization.",
+    "DDIT3": "DDIT3 encodes CHOP, a stress-responsive transcription factor that participates in endoplasmic-reticulum stress signaling and regulation of cellular differentiation and apoptosis.",
+    "MIR17HG": "MIR17HG is the host gene for the miR-17\u201392 microRNA cluster. Its primary transcript gives rise to microRNAs that regulate expression of target genes involved in growth and differentiation.",
+    "SAMD9L": "SAMD9L encodes a SAM-domain-containing protein implicated in regulation of cellular growth and hematopoietic homeostasis. Its allele-specific effects require careful distinction from acquired clonal changes."
+  },
+  "somatic": {
+    "ABL2": [
+      "ABL2 can participate in leukemia-associated rearrangements, including fusion with ETV6. Interpretation requires the actual fusion structure and disease context.",
+      [
+        "Leukemia"
+      ]
+    ],
+    "ACVR1B": [
+      "Sequence mutations in ACVR1B have been reported in pituitary tumors; their presence alone does not establish a uniform functional or clinical effect.",
+      [
+        "Pituitary tumor"
+      ]
+    ],
+    "AFDN": [
+      "AFDN is a fusion partner of KMT2A in acute myeloid leukemia, including rearrangements involving chromosomes 6 and 11.",
+      [
+        "Acute myeloid leukemia"
+      ]
+    ],
+    "AFF1": [
+      "AFF1 is a recurrent fusion partner of KMT2A in acute lymphoblastic leukemia. The fusion context should be distinguished from an isolated AFF1 sequence variant.",
+      [
+        "Acute lymphoblastic leukemia"
+      ]
+    ],
+    "ARHGEF12": [
+      "ARHGEF12 has been described as a fusion partner in acute myeloid leukemia.",
+      [
+        "Acute myeloid leukemia"
+      ]
+    ],
+    "ASXL2": [
+      "Somatic ASXL2 mutations have been reported in several cancer types, including breast, bladder, pancreatic, ovarian, prostate, and hematologic tumors.",
+      [
+        "Breast carcinoma",
+        "Bladder carcinoma",
+        "Pancreatic carcinoma",
+        "Ovarian carcinoma",
+        "Prostate carcinoma",
+        "Hematologic malignancy"
+      ]
+    ],
+    "AXIN2": [
+      "AXIN2 mutations have been reported in colorectal cancer, including mismatch-repair-deficient tumors. Variant-level interpretation is required.",
+      [
+        "Colorectal carcinoma"
+      ]
+    ],
+    "BTG1": [
+      "BTG1 has been involved in chromosomal rearrangements reported in B-cell chronic lymphocytic leukemia.",
+      [
+        "Chronic lymphocytic leukemia"
+      ]
+    ],
+    "CTCF": [
+      "CTCF mutations have been reported in invasive breast cancer, prostate cancer, and Wilms tumor.",
+      [
+        "Breast carcinoma",
+        "Prostate carcinoma",
+        "Wilms tumor"
+      ]
+    ],
+    "ERBB3": [
+      "ERBB3 amplification and/or overexpression has been reported in several cancers, including prostate, bladder, and breast tumors; expression and sequence-mutation findings require separate interpretation.",
+      [
+        "Prostate carcinoma",
+        "Bladder carcinoma",
+        "Breast carcinoma"
+      ]
+    ],
+    "ETV1": [
+      "ETV1 rearrangements can occur in Ewing sarcoma and prostate cancer, with multiple fusion partners described.",
+      [
+        "Ewing sarcoma",
+        "Prostate carcinoma"
+      ]
+    ],
+    "FEV": [
+      "FEV can participate in EWSR1-associated rearrangements in a subset of Ewing tumors.",
+      [
+        "Ewing sarcoma"
+      ]
+    ],
+    "FOXO3": [
+      "FOXO3 rearrangement with KMT2A has been described in secondary acute leukemia.",
+      [
+        "Acute leukemia"
+      ]
+    ],
+    "IKBKE": [
+      "IKBKE amplification and overexpression have been described in breast carcinoma; these findings should not be equated with the effect of every sequence variant.",
+      [
+        "Breast carcinoma"
+      ]
+    ],
+    "KAT6A": [
+      "KAT6A rearrangements are associated with acute myeloid leukemia. The fusion partner and resulting product determine the relevant alteration context.",
+      [
+        "Acute myeloid leukemia"
+      ]
+    ],
+    "KAT6B": [
+      "KAT6B\u2013CREBBP rearrangements have been described in acute myeloid leukemia.",
+      [
+        "Acute myeloid leukemia"
+      ]
+    ],
+    "KLHL6": [
+      "KLHL6 mutations have been reported in chronic lymphocytic leukemia.",
+      [
+        "Chronic lymphocytic leukemia"
+      ]
+    ],
+    "NONO": [
+      "NONO can participate in TFE3-associated rearrangements in renal cell carcinoma.",
+      [
+        "Renal cell carcinoma"
+      ]
+    ],
+    "NUMA1": [
+      "NUMA1\u2013RARA rearrangements have been described in acute promyelocytic leukemia.",
+      [
+        "Acute promyelocytic leukemia"
+      ]
+    ],
+    "OLIG2": [
+      "OLIG2 can be involved in chromosomal rearrangements associated with T-cell acute lymphoblastic leukemia. Expression as a lineage marker is a distinct observation.",
+      [
+        "T-cell acute lymphoblastic leukemia"
+      ]
+    ],
+    "PICALM": [
+      "PICALM\u2013MLLT10 rearrangements have been reported in acute myeloid leukemia, acute lymphoblastic leukemia, and lymphoid malignancies.",
+      [
+        "Acute myeloid leukemia",
+        "Acute lymphoblastic leukemia",
+        "Lymphoma"
+      ]
+    ],
+    "RAD54B": [
+      "Biallelic RAD54B sequence mutations have been reported in primary lymphoma and colorectal cancer, although individual findings require functional and clinical assessment.",
+      [
+        "Lymphoma",
+        "Colorectal carcinoma"
+      ]
+    ],
+    "REL": [
+      "REL mutation or amplification has been associated with B-cell lymphomas, including Hodgkin lymphoma.",
+      [
+        "B-cell lymphoma",
+        "Hodgkin lymphoma"
+      ]
+    ],
+    "RHOH": [
+      "RHOH can be affected by aberrant somatic mutation or rearrangement in leukemias and lymphomas, including rearrangements involving BCL6.",
+      [
+        "Leukemia",
+        "Lymphoma"
+      ]
+    ],
+    "TAL2": [
+      "TAL2 activation through rearrangements involving the T-cell receptor locus has been described in T-cell acute lymphoblastic leukemia.",
+      [
+        "T-cell acute lymphoblastic leukemia"
+      ]
+    ],
+    "PVT1": [
+      "PVT1 copy-number gain and increased expression have been reported in breast and ovarian cancers, acute myeloid leukemia, and Hodgkin lymphoma. These observations should be distinguished from an established effect of an arbitrary sequence variant.",
+      [
+        "Breast carcinoma",
+        "Ovarian carcinoma",
+        "Acute myeloid leukemia",
+        "Hodgkin lymphoma"
+      ]
+    ]
+  }
+}

@@ -1,4 +1,13 @@
 export const about = {
+  'bam-seek': {
+    title: 'BAM Seek',
+    sections: [
+      ['Use', 'Select coordinate-sorted BAM files and their matching BAI or CSI indexes. Designate at most one current sample, choose the alignment assembly, and enter current and historical variants with genomic coordinates and REF/ALT. The fixed hg19 disease panel runs alongside the entered variants.'],
+      ['Evidence and phase', 'Read VAF uses ALT/(ALT+REF). Molecule VAF uses independent read-name fragments or the selected MI/RX/UB grouping. OTHER calls and ambiguous molecules are excluded from the denominators. Direct phasing requires actual observations of both sites. Experimental local phasing uses repeated rare-marker co-occurrence for cis and opposite common-marker haplotypes for trans.'],
+      ['IGV review', 'Select a local 2bit reference or uncompressed FASTA with FAI. Each result opens a temporary igv.js window with paired alignments, first-of-pair strand coloring, base sorting at the variant and sampling disabled. Files are read locally and the bundled viewer requires no network. Wide views may require zooming in. Reloading a temporary window requires reopening it from the results.'],
+      ['Privacy and interpretation', 'Files, settings and caches are held in memory. External resource links open only when selected and contain structured variant identifiers. Review draft narratives against assay thresholds and coverage before use. No desktop command relay is required.'],
+    ],
+  },
   sara: {
     title: 'SARA',
     sections: [

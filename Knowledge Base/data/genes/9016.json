@@ -1,0 +1,71 @@
+{
+  "id": "HGNC:9016",
+  "symbol": "PKHD1",
+  "name": "PKHD1 ciliary IPT domain containing fibrocystin/polyductin",
+  "ncbi_gene_id": "5314",
+  "aliases": [
+    "ARPKD",
+    "FCYT",
+    "FPC",
+    "TIGM1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cell-cell adhesion",
+    "homeostatic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "PKHD1 encodes fibrocystin. Annotated molecular activities include signaling receptor activity. It participates in cell-cell adhesion and homeostatic process.",
+      "source_ids": [
+        "ncbi-5314",
+        "uniprot-P08F94"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to autosomal recessive polycystic kidney disease (autosomal recessive); polycystic kidney disease 4 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-SolidTumors_Hereditary"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0009889",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0033004",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from Laboratory for Molecular Medicine. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

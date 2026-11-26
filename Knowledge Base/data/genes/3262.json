@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:3262",
+  "symbol": "AGO1",
+  "name": "argonaute RISC component 1",
+  "ncbi_gene_id": "26523",
+  "aliases": [
+    "EIF2C1",
+    "hAGO1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulatory ncRNA-mediated post-transcriptional gene silencing",
+    "positive regulation of non-canonical NF-kappaB signal transduction"
+  ],
+  "summary": {
+    "function": {
+      "text": "AGO1 encodes protein argonaute-1. Annotated molecular activities include miRNA binding and double-stranded RNA binding. It participates in regulatory ncRNA-mediated post-transcriptional gene silencing and positive regulation of non-canonical NF-kappaB signal transduction.",
+      "source_ids": [
+        "ncbi-26523",
+        "uniprot-Q9UL18"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to complex neurodevelopmental disorder (autosomal dominant); neurodevelopmental disorder with language delay and behavioral abnormalities, with or without seizures (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0100038",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0859531",
+      "mechanism": "Autosomal dominant; strong GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "AGO1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

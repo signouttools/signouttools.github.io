@@ -1,0 +1,83 @@
+{
+  "id": "HGNC:43",
+  "symbol": "TAP1",
+  "name": "transporter 1, ATP binding cassette subfamily B member",
+  "ncbi_gene_id": "6890",
+  "aliases": [
+    "ABCB2",
+    "D6S114E",
+    "PSF1",
+    "RING4"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "defense response",
+    "peptide transport"
+  ],
+  "summary": {
+    "function": {
+      "text": "TAP1 encodes antigen peptide transporter 1. Annotated molecular activities include ATP hydrolysis activity and protein homodimerization activity. It participates in defense response and peptide transport.",
+      "source_ids": [
+        "ncbi-6890",
+        "uniprot-Q03518"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to MHC class I deficiency (autosomal recessive); MHC class I deficiency 1 (autosomal recessive).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0011476",
+      "mechanism": "Autosomal recessive; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    {
+      "disease_id": "gencc-MONDO-0971006",
+      "mechanism": "Autosomal recessive; strong GenCC assertion from PanelApp Australia. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "TAP1",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

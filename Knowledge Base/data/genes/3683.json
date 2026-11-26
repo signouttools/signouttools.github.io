@@ -1,0 +1,64 @@
+{
+  "id": "HGNC:3683",
+  "symbol": "FGF5",
+  "name": "fibroblast growth factor 5",
+  "ncbi_gene_id": "2250",
+  "aliases": [],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "neurogenesis",
+    "cell-cell signaling"
+  ],
+  "summary": {
+    "function": {
+      "text": "FGF5 encodes fibroblast growth factor 5. Annotated molecular activities include growth factor activity and fibroblast growth factor receptor binding. It participates in neurogenesis and cell-cell signaling.",
+      "source_ids": [
+        "ncbi-2250",
+        "uniprot-P12034"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "This gene is included in cancer-panel definitions, but a disease-specific somatic association has not been assigned from the alteration-context sources reviewed for this draft.",
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "tso500",
+      "panel_version": "snapshot-2026-11-26-bd58a5aa7ca0",
+      "submitted_symbol": "FGF5",
+      "alteration_classes": [
+        "small_variants",
+        "focal_CNV"
+      ],
+      "source_ids": [
+        "panel-tso500"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

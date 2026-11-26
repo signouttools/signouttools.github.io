@@ -1,0 +1,75 @@
+{
+  "id": "HGNC:25635",
+  "symbol": "CMTR2",
+  "name": "cap methyltransferase 2",
+  "ncbi_gene_id": "55783",
+  "aliases": [
+    "AFT",
+    "FLJ11171",
+    "FTSJD1",
+    "MTr2"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "7-methylguanosine mRNA capping"
+  ],
+  "summary": {
+    "function": {
+      "text": "CMTR2 encodes cap-specific mRNA (nucleoside-2'-O-)-methyltransferase 2. Annotated molecular activities include methyltransferase cap1 activity and methyltransferase cap2 activity. It participates in 7-methylguanosine mRNA capping.",
+      "source_ids": [
+        "ncbi-55783",
+        "uniprot-Q8IYT2"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Somatic sequence alterations have cohort-level candidate-driver evidence in Lung Adenocarcinoma. This gene-level statistical evidence requires allele-specific review and does not establish the effect of every variant.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-v-lung-adenocarcinoma",
+      "mechanism": "Cohort-level candidate sequence driver in IntOGen (combined q<0.1; at least 3 mutated samples). Statistical association does not classify an individual allele.",
+      "source_ids": [
+        "intogen-20240920"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "CMTR2",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 2,
+    "change_note": "Stage-one LLM evidence review: disease-specific source adjudication and/or cohort-level somatic evidence. Pathologist review needed — LLM-generated summary/review.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

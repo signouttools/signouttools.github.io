@@ -1,0 +1,74 @@
+{
+  "id": "HGNC:10472",
+  "symbol": "RUNX2",
+  "name": "RUNX family transcription factor 2",
+  "ncbi_gene_id": "860",
+  "aliases": [
+    "AML3",
+    "CBFA1",
+    "CCD",
+    "CCD1",
+    "PEBP2A1",
+    "PEBP2aA1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "SMAD protein signal transduction",
+    "negative regulation of DNA-templated transcription"
+  ],
+  "summary": {
+    "function": {
+      "text": "RUNX2 encodes runt-related transcription factor 2. Annotated molecular activities include DNA-binding transcription activator activity and DNA-binding transcription factor activity. It participates in SMAD protein signal transduction and negative regulation of DNA-templated transcription.",
+      "source_ids": [
+        "ncbi-860",
+        "uniprot-Q13950"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to cleidocranial dysplasia 1 (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Blastic plasmacytoid dendritic cell neoplasm. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0007340",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from Ambry Genetics. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-bpdc",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node scripts/test.mjs",
+    "test:native": "node scripts/native-parity.mjs",
+    "test:browser:build": "node scripts/browser-build.mjs",
+    "fixtures": "node scripts/fixtures.mjs"
+  },
+  "dependencies": {
+    "@gmod/bam": "10.2.0",
+    "esbuild": "0.27.0",
+    "generic-filehandle2": "2.2.0",
+    "igv": "3.8.10",
+    "pako-esm2": "2.0.2"
+  }
+}

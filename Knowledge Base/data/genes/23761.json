@@ -1,0 +1,81 @@
+{
+  "id": "HGNC:23761",
+  "symbol": "KBTBD4",
+  "name": "kelch repeat and BTB domain containing 4",
+  "ncbi_gene_id": "55709",
+  "aliases": [
+    "BKLHD4",
+    "FLJ10450",
+    "HSPC252"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "proteasome-mediated ubiquitin-dependent protein catabolic process"
+  ],
+  "summary": {
+    "function": {
+      "text": "KBTBD4 encodes kelch repeat and BTB domain-containing protein 4. It participates in proteasome-mediated ubiquitin-dependent protein catabolic process.",
+      "source_ids": [
+        "ncbi-55709",
+        "uniprot-Q9NVX7"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include Medulloblastoma; Pineal parenchymal tumor of intermediate differentiation. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-nm-mb",
+      "mechanism": "Educational atlas reports sequence alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    },
+    {
+      "disease_id": "atlas-nm-pptid",
+      "mechanism": "Educational atlas reports sequence alteration context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [
+    {
+      "panel_id": "impact505",
+      "panel_version": "snapshot-2026-11-26-9eeecc446e4f",
+      "submitted_symbol": "KBTBD4",
+      "alteration_classes": [
+        "not_specified_in_source_list"
+      ],
+      "source_ids": [
+        "panel-impact505"
+      ]
+    }
+  ],
+  "selection_reason": "Panel membership with educational coverage; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

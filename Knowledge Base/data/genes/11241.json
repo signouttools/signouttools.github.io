@@ -1,0 +1,73 @@
+{
+  "id": "HGNC:11241",
+  "symbol": "SPI1",
+  "name": "Spi-1 proto-oncogene",
+  "ncbi_gene_id": "6688",
+  "aliases": [
+    "OF",
+    "PU.1",
+    "SFPI1",
+    "SPI-1",
+    "SPI-A"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "regulation of DNA-templated transcription",
+    "transcription initiation-coupled chromatin remodeling"
+  ],
+  "summary": {
+    "function": {
+      "text": "SPI1 encodes transcription factor PU.1. Annotated molecular activities include DNA-binding transcription activator activity and DNA-binding transcription factor activity. It participates in regulation of DNA-templated transcription and transcription initiation-coupled chromatin remodeling.",
+      "source_ids": [
+        "ncbi-6688",
+        "uniprot-P17947"
+      ]
+    },
+    "germline": {
+      "text": "Strong or definitive GenCC assertions link constitutional variants to agammaglobulinemia 10, autosomal dominant (autosomal dominant).",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "Reported somatic alteration contexts include T-lymphoblastic leukemia/lymphoma. The alteration class and exact variant must be assessed in the disease context.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [
+    {
+      "disease_id": "gencc-MONDO-0030529",
+      "mechanism": "Autosomal dominant; definitive GenCC assertion from ClinGen. Allele-specific mechanism requires review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    }
+  ],
+  "somatic_associations": [
+    {
+      "disease_id": "atlas-h-tall",
+      "mechanism": "Educational atlas reports rearrangement context; exact allele and disease applicability require review.",
+      "source_ids": [
+        "atlas-draft"
+      ]
+    }
+  ],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "HGNC:8696",
+  "symbol": "PCDHGA1",
+  "name": "protocadherin gamma subfamily A, 1",
+  "ncbi_gene_id": "56114",
+  "aliases": [
+    "PCDH-GAMMA-A1"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "cell adhesion",
+    "homophilic cell-cell adhesion"
+  ],
+  "summary": {
+    "function": {
+      "text": "PCDHGA1 encodes protocadherin gamma-A1. Annotated molecular activities include calcium ion binding and cell adhesion molecule binding. It participates in cell adhesion and homophilic cell-cell adhesion.",
+      "source_ids": [
+        "ncbi-56114",
+        "uniprot-Q9Y5H4"
+      ]
+    },
+    "germline": {
+      "text": "No constitutional disease assertion was retrieved in the reviewed GenCC snapshot; this does not exclude a germline association.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-Neuropathology"
+      ]
+    }
+  },
+  "germline_status": "not_established_in_reviewed_sources",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}

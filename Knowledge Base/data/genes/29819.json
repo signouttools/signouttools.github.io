@@ -1,0 +1,55 @@
+{
+  "id": "HGNC:29819",
+  "symbol": "MRTFB",
+  "name": "myocardin related transcription factor B",
+  "ncbi_gene_id": "57496",
+  "aliases": [
+    "FLJ31823",
+    "MKL2",
+    "MRTF-B"
+  ],
+  "roles": [
+    "other"
+  ],
+  "pathways": [
+    "positive regulation of miRNA transcription",
+    "positive regulation of transcription by RNA polymerase II"
+  ],
+  "summary": {
+    "function": {
+      "text": "MRTFB encodes myocardin-related transcription factor B. Annotated molecular activities include transcription coactivator activity and cadherin binding. It participates in positive regulation of miRNA transcription and positive regulation of transcription by RNA polymerase II.",
+      "source_ids": [
+        "ncbi-57496",
+        "uniprot-Q9ULH7"
+      ]
+    },
+    "germline": {
+      "text": "The reviewed GenCC assertions do not establish a conflict-free strong or definitive constitutional disease relationship for this draft; limited or conflicting assertions require separate review.",
+      "source_ids": [
+        "gencc-snapshot"
+      ]
+    },
+    "somatic": {
+      "text": "The gene appears in specialty educational coverage, but a disease-specific somatic driver relationship has not been assigned in this draft; expression-marker or assay-context mentions are not mutation evidence.",
+      "source_ids": [
+        "education-amp-Bone_Soft_Tissue_1"
+      ]
+    }
+  },
+  "germline_status": "uncertain",
+  "germline_associations": [],
+  "somatic_associations": [],
+  "mosaic_associations": [],
+  "panel_memberships": [],
+  "selection_reason": "Specialty educational coverage; confirm inclusion before prose; user authorized the complete proposed and reserve roster.",
+  "editorial": {
+    "status": "draft",
+    "author": "Codex — source-grounded annotation draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "sources_checked_on": "2026-11-26",
+    "revision": 1,
+    "change_note": "Initial structured-annotation draft; requires specialist review of wording, allele mechanism, and disease applicability.",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  }
+}
