@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML"
   ],
+  "disease_ids": [
+    "aml"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-4928"
       ],
       "claim_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4928",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
+          "location": "NCBI Gene 4928 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7b152c6b96ee85cb9be23f639e696ae1e0e948a3da0c559593bae69dbcada3e8"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,35 +50,62 @@
         "ncbi-7150"
       ],
       "claim_sha256": "acca7fbbfdac6a21f0426334a9dc89f562016db471e350c04bd1dfd3dc66365d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7150",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7150",
+          "location": "NCBI Gene 7150 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "1248ce38d020373c69996bb40579dde51ba310d0dc7937cf9fac34df66a575ba"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The TOP1 partner contributes carboxy-terminal topoisomerase sequences; it is a rare recurrent NUP98 partner in AML.",
+      "text": "NUP98::TOP1 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
       "source_ids": [
         "nup98"
       ],
-      "claim_sha256": "0f24bff248e6c864c3f2fc286e843e6b9e1428af09eee7f79b177df0d6653e83",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "bcab53b624cdf850c71e32d8da4fbc632e11bc168c5e1f44d91ab53d78762b19",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nup98",
+          "url": "https://haematologica.org/article/view/haematol.2022.281653",
+          "location": "Results: Clinical characteristics; Implications of variation of fusion junction; Differential gene expression; Figures 1,2,4",
+          "scope": "Pair detection, amino-terminal FG-region representation and cohort HOX transcription; no asserted function of every retained partner domain.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. TOP1 encodes DNA topoisomerase I, which relieves DNA torsional stress. The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The TOP1 partner contributes carboxy-terminal topoisomerase sequences; it is a rare recurrent NUP98 partner in AML.",
+    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. TOP1 encodes DNA topoisomerase I, which relieves DNA torsional stress. NUP98::TOP1 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
     "source_ids": [
       "ncbi-4928",
       "ncbi-7150",
       "nup98"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "5503eb1b41b0c81abea68d908b8227222e71bc2b9027e1b0cef3922f6c5459da"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "aa9c864e58b3f1bb2c9f5be2659093a1994e9a1666894483021933f7d007a2ac"
 }

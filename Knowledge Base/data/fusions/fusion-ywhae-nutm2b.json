@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "High-grade endometrial stromal sarcoma"
   ],
+  "disease_ids": [
+    "fusion-context-452953d0d334"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,47 +30,82 @@
         "ncbi-7531"
       ],
       "claim_sha256": "df6a7e9371f1467cfb2ce96a9c8ffb09614a522e2568a927b1d94c87dcf5c46d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7531",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7531",
+          "location": "NCBI Gene 7531 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "3b669762a8b57883f2ac024c07dfaff6d019114576445a2283aafa88026dd2c0"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NUTM2B",
-      "text": "NUTM2B encodes a NUT-family protein whose normal function remains incompletely characterized.",
+      "text": "NUTM2B encodes NUT family member 2B.",
       "source_ids": [
-        "ncbi-729262"
+        "hgnc"
       ],
-      "claim_sha256": "dfe7553473df29b44942a609667edd44db962db581daa79ed54b20102eadd6e3",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "56700d841e8071661e61322934ceaa3ec4f121e875e15ecb48365f00721aa80a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23445",
+          "location": "Approved HGNC snapshot row HGNC:23445 / NUTM2B",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins YWHAE to a NUTM2-family partner, producing an abnormal transcription-associated protein. It defines a major high-grade endometrial stromal sarcoma group, often with a high-grade round-cell component and strong cyclin D1/BCOR expression.",
+      "text": "YWHAE::NUTM2B belongs to the YWHAE::NUTM2 fusion group associated with high-grade endometrial stromal sarcoma. The reviewed tumor cohort showed a high-grade round-cell component with strong diffuse BCOR staining.",
       "source_ids": [
-        "hgess"
+        "audit-sarcoma-hgess"
       ],
-      "claim_sha256": "8eee67f81a741b12c8b91159a184e098326c079e2bd26bf7dba9592119295729",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "aa3c997cea1458865dbf97dc5e505ddf696d5e17c25f989ac49b44b9ab22377e",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-hgess",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916794/",
+          "location": "Results; Table 1; Figures 1–5",
+          "scope": "YWHAE-NUTM2 high-grade round-cell tumors show diffuse BCOR; ZC3H7B-BCOR tumors show spindle/myxoid morphology with variable BCOR staining.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "YWHAE encodes the phosphoprotein-binding adaptor 14-3-3 epsilon. NUTM2B encodes a NUT-family protein whose normal function remains incompletely characterized. The fusion joins YWHAE to a NUTM2-family partner, producing an abnormal transcription-associated protein. It defines a major high-grade endometrial stromal sarcoma group, often with a high-grade round-cell component and strong cyclin D1/BCOR expression.",
+    "text": "YWHAE encodes the phosphoprotein-binding adaptor 14-3-3 epsilon. NUTM2B encodes NUT family member 2B. YWHAE::NUTM2B belongs to the YWHAE::NUTM2 fusion group associated with high-grade endometrial stromal sarcoma. The reviewed tumor cohort showed a high-grade round-cell component with strong diffuse BCOR staining.",
     "source_ids": [
       "ncbi-7531",
-      "ncbi-729262",
-      "hgess"
+      "hgnc",
+      "audit-sarcoma-hgess"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Precise biochemical dependencies are not fully resolved; no claim of a validated NUTM2-directed treatment."
+    "Precise biochemical dependencies are not fully resolved; no claim of a validated NUTM2-directed treatment.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "54adb07f4d9b365fa576aa716f5cbc42de8b07ca275a0b32f07bdaf62ec03e69"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "dca7cbd4a5b9152c8a9c94e77688ebed8a69c4f6cf377823e0e34bf6104384fd"
 }

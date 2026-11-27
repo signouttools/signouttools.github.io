@@ -19,6 +19,10 @@
     "AML",
     "Rare Ewing sarcoma"
   ],
+  "disease_ids": [
+    "aml",
+    "fusion-context-0b6f7b7722b1"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,7 +32,17 @@
         "ncbi-2521"
       ],
       "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,25 +52,55 @@
         "ncbi-2078"
       ],
       "claim_sha256": "1f39dff201608e93a1735c1006918c0cb4f9ed68ca87dc66c89d34a3be019c37",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2078",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2078",
+          "location": "NCBI Gene 2078 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "fdcd254ddd17a0a9d903aebfff988a346549274dca371869a7088c3c58df1585"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(16;21)(p11;q22) fusion combines the FUS transcriptional activation region with ERG DNA-binding sequences, creating an aberrant ETS transcription factor. It defines a rare AML subtype distinct from RUNX1::CBFA2T3 AML.",
+      "text": "The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML.",
       "source_ids": [
         "t16"
       ],
-      "claim_sha256": "58681f063d3f2bc10beb8d523563a655f2ff70665eb7a26637a0674a3b92a8c5",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "b9b9bf34cd056be69e7283ce976fe10d7a1dd63bacdde548283eca768e9c9349",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "t16",
+          "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+          "location": "Results, Gene expression profiling; Figure 2, PDF pages 4-5",
+          "scope": "Fusion-defined AML and distinct expression profile.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "tumor_relevance",
-      "text": "FUS::ERG also occurs rarely in Ewing sarcoma. The adverse AML outcome association below applies to pediatric leukemia, not to all tumors with this pair.",
+      "text": "FUS::ERG also occurs rarely in Ewing sarcoma; the leukemia outcome evidence does not establish sarcoma prognosis.",
       "source_ids": [
         "ewing"
       ],
-      "claim_sha256": "c7cb8bd9ffdb6f11e6594a38ddc1aeaeee63a82f1d123049d25badd39f6cc376",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "1b17217d8824cfbc473678a113e86f58c639fed6652ba04a92adcb9d6ed6347b",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "EWSR1/FUS and ETS-partner fusion table",
+          "scope": "Rare FUS::ERG Ewing association; source is classification summary.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -64,12 +108,22 @@
       "source_ids": [
         "t16"
       ],
+      "evidence_review_status": "primary_fulltext_supported",
       "claim_sha256": "1acd275531921b58bef9c4a357bb8527a08b9d60e01d9e412099feb8487634d6",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "t16",
+          "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+          "location": "Results, outcome analyses; Table 1/Figure 1 and multivariable model, PDF pages 3-4",
+          "scope": "High relapse and poor pediatric outcomes.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. The t(16;21)(p11;q22) fusion combines the FUS transcriptional activation region with ERG DNA-binding sequences, creating an aberrant ETS transcription factor. It defines a rare AML subtype distinct from RUNX1::CBFA2T3 AML. FUS::ERG also occurs rarely in Ewing sarcoma. The adverse AML outcome association below applies to pediatric leukemia, not to all tumors with this pair. Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML. FUS::ERG also occurs rarely in Ewing sarcoma; the leukemia outcome evidence does not establish sarcoma prognosis. Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-2078",
@@ -77,15 +131,22 @@
       "ewing"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "6cddf4147c4244b5b01615ee7d749d35721bbae03a1e0e55ce2462ccd4a9f68f"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "6a262aef0f1b8c01ffbd5e146ec11b76e2a6397083bfd0dcfcf94e023eaa6666"
 }

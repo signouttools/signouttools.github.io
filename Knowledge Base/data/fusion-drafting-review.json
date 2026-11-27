@@ -1,15 +1,25 @@
 {
   "drafted_on": "2026-11-27",
-  "total_entries": 186,
+  "audited_on": "2026-11-27",
+  "total_entries": 185,
+  "previously_drafted_entries": 186,
+  "held_entries": [
+    {
+      "id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "reason": "No audited fusion biology/disease section retained; excluded from runtime and report export."
+    }
+  ],
   "by_event_class": {
-    "chimeric_fusion": 161,
+    "chimeric_fusion": 160,
     "regulatory_fusion": 1,
     "promoter_substitution": 3,
     "regulatory_rearrangement": 21
   },
   "original_pair_roster": 152,
-  "original_pairs_drafted": 151,
+  "original_pairs_drafted": 150,
   "original_pairs_not_drafted": [
+    "ETV6::NTRK2",
     "TPR::NTRK3"
   ],
   "additional_pair_entries": [
@@ -28,13 +38,14 @@
     "SQSTM1::NTRK3",
     "TFG::ALK"
   ],
-  "source_count": 331,
+  "source_count": 289,
+  "source_registry_count": 382,
   "partner_count": 210,
   "clinical_sections": {
-    "partner_function": 373,
-    "fusion_mechanism": 186,
-    "therapeutics": 80,
-    "prognosis": 38,
+    "partner_function": 371,
+    "fusion_mechanism": 185,
+    "therapeutics": 78,
+    "prognosis": 30,
     "tumor_relevance": 1
   },
   "deferred": [
@@ -49,5 +60,14 @@
       "next_step": "Obtain primary evidence before adding a tumor or drug-response claim."
     }
   ],
-  "status": "all_written_entries_are_unreviewed_drafts"
+  "audit_decision_counts": {
+    "narrow": 220,
+    "retain": 74,
+    "remove": 11
+  },
+  "record_audit_counts": {
+    "primary_fulltext_supported": 136,
+    "reference_supported": 49
+  },
+  "status": "audited_drafts_specialist_review_pending"
 }

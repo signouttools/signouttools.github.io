@@ -1,0 +1,3996 @@
+{
+  "audited_on": "2026-11-27",
+  "scope": "Gene/identity-reference audit, not primary full-text fusion verification",
+  "decisions": [
+    {
+      "symbol": "EML4",
+      "original_text_sha256": "4bf3c8fcb9af6e6468041b056a9c990241ad56ff224b899bf9414d98d5e5711d",
+      "original_text": "EML4 encodes a microtubule-associated protein with an amino-terminal oligomerization domain.",
+      "replacement_text": "EML4 encodes a microtubule-associated protein with an amino-terminal oligomerization domain.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-27436"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 27436 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/27436",
+        "document_sha256": "fa737c36a8764be6084fa5781b0997b7f1de5f18a4673eaa30cc12aab49cc1aa",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ALK",
+      "original_text_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "original_text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "replacement_text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+        "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "KIF5B",
+      "original_text_sha256": "b6ca88efd425c2d24ccf600ad278a1d7f6a694ae2c394ce4acbfbf0fc4ed29b7",
+      "original_text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules.",
+      "replacement_text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-3799"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3799 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3799",
+        "document_sha256": "888d4fcea1de12c8a2286b9ecbf9243296fc95d251927392917588e2d5ab94da",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "STRN",
+      "original_text_sha256": "1fec10add2ab961ce00b332fb596aa48fb95601c05961a1da921b18da02bb4d5",
+      "original_text": "STRN encodes striatin, a scaffold in signaling complexes including STRIPAK.",
+      "replacement_text": "STRN encodes striatin, a scaffold in signaling complexes including STRIPAK.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6801"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6801 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6801",
+        "document_sha256": "c2b1ef13c19cd2d55b0fe7b81e64f87d49add8a02fd953f504db32a42c3ced32",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RET",
+      "original_text_sha256": "bff0a244e3a9197f328d10b7c579776e547a11b6ffc49e5b9b553fee8aa3397f",
+      "original_text": "RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors.",
+      "replacement_text": "RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5979"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5979 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5979",
+        "document_sha256": "f6b42810849ebc40626b1a8e42ffd99b3be404a68ce2496dcbaf99c2453cdc8d",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CCDC6",
+      "original_text_sha256": "4d34b84ecbdaae2978e3f0f17766775ff69acfe446acc7d957b97159597e19f3",
+      "original_text": "CCDC6 encodes a coiled-coil protein involved in DNA-damage signaling.",
+      "replacement_text": "CCDC6 encodes a coiled-coil domain-containing protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-8030"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8030 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8030",
+        "document_sha256": "089cb02fdaae83fe82e07384f6536332b0482ea980a1847b44f3092d7e898998",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NCOA4",
+      "original_text_sha256": "1106a2e33c72bdf86018490c10539f4a0908c3569a91410e7715c8f63a333c8d",
+      "original_text": "NCOA4 encodes a ferritin cargo receptor in autophagy and a transcriptional coregulator.",
+      "replacement_text": "NCOA4 encodes an androgen-receptor transcriptional coactivator.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-8031"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8031 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8031",
+        "document_sha256": "2eba5f216ae44fff7f15fe465025637ff1b317c7ff8222b99433e4ca36d241c9",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ETV6",
+      "original_text_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "original_text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "replacement_text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+        "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CD74",
+      "original_text_sha256": "89ed01d5790ba355092bae1fa84068d03e3ab705a06f26ad7f0e7e68a7e9b1ea",
+      "original_text": "CD74 encodes the invariant chain required for major histocompatibility complex class II processing.",
+      "replacement_text": "CD74 encodes the invariant chain required for major histocompatibility complex class II processing.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-972"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 972 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/972",
+        "document_sha256": "0adb65ec0885d57e957f852d498bf71bcc9a1e539ba0b7c6740f24d40c06445a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ROS1",
+      "original_text_sha256": "a70263102b9cb586f798d074f485e5b6a1a52a60adf8111b2bda2ae01fe4c739",
+      "original_text": "ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+      "replacement_text": "ROS1 encodes a transmembrane receptor tyrosine kinase.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-6098"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6098 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6098",
+        "document_sha256": "9f0bd82336a04bf326cb790a1607f50d5c763799bc8ec9faa31cf4c7ac582b0e",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SLC34A2",
+      "original_text_sha256": "b4a6c5a2ec925fa882a532589934bf234b553b03ace7ccc60e3a648a64d6baac",
+      "original_text": "SLC34A2 encodes a sodium-dependent phosphate transporter.",
+      "replacement_text": "SLC34A2 encodes a sodium-dependent phosphate transporter.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-10568"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10568 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10568",
+        "document_sha256": "dd2084dd9b734dc40a44661b43ce26da1c7587eb9bf85b7b80b8d5be85f13710",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SDC4",
+      "original_text_sha256": "4e86ae01bf394df896c0f26bcb6d477b8bfd7fd83bd424bc66100e5bb7badf2e",
+      "original_text": "SDC4 encodes syndecan-4, a membrane heparan-sulfate proteoglycan involved in adhesion and signaling.",
+      "replacement_text": "SDC4 encodes syndecan 4.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:10661 / SDC4",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10661",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "EZR",
+      "original_text_sha256": "7b5d993c69b352ebf8c134109000bc3eecc8085ecadc62164987436567769c51",
+      "original_text": "EZR encodes ezrin, a linker between the plasma membrane and actin cytoskeleton.",
+      "replacement_text": "EZR encodes ezrin.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:12691 / EZR",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:12691",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TPM3",
+      "original_text_sha256": "203382961047c448e896799da70d42de5df9549b14c78c1394ee6c6c88d21eae",
+      "original_text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments.",
+      "replacement_text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7170"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7170 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7170",
+        "document_sha256": "078792e4088ffb71fa2a4379ea34ed47a0d4eb1387227f737860490912cfe902",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "GOPC",
+      "original_text_sha256": "afc91eaf88a89899f45ab86003b6262713e58138cfc03e01048570ae45b5d448",
+      "original_text": "GOPC encodes a Golgi-associated scaffold involved in protein trafficking.",
+      "replacement_text": "GOPC encodes a Golgi-associated protein with a PDZ domain.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-57120"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 57120 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/57120",
+        "document_sha256": "eafa25a526f7c52f9d315f964b77d14224520485c86575bf1c4a83d7106d4cb3",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NTRK1",
+      "original_text_sha256": "7432d32322be8120414af1aa00f5b449a85af58dc702f749378f3cd8e3e2c26e",
+      "original_text": "NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase.",
+      "replacement_text": "NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4914"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4914 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4914",
+        "document_sha256": "a9b4efcfffcb621be14e03fedab36bf0f78e5255a4fb89c1d821cfbf16a2425a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "LMNA",
+      "original_text_sha256": "e031dd99951eca0d32bfd573fbf762aae6e63156ac1aab68e124e353a6943791",
+      "original_text": "LMNA encodes nuclear lamins A and C, structural proteins of the nuclear envelope.",
+      "replacement_text": "LMNA encodes nuclear lamins A and C, structural proteins of the nuclear envelope.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4000"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4000 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4000",
+        "document_sha256": "bb70a4ef379abc32af3d46cb24fc622b4663b1c70d1e62b802f1de864fa6b8cd",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TPR",
+      "original_text_sha256": "717bd05f17066401ec7f5179c47e73da87bab1ba82f7ea72823ed101c56521a4",
+      "original_text": "TPR encodes a coiled-coil nuclear-pore-associated protein.",
+      "replacement_text": "TPR encodes a coiled-coil nuclear-pore-associated protein.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7175"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7175 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7175",
+        "document_sha256": "de30aebfb9f4362276ef10824c171a243dd78395fd27cabca94cb93e06f96c26",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SQSTM1",
+      "original_text_sha256": "122488e5777403f9dd66f12fb2380be2a71066190ab18f049d9d2dd939f74f37",
+      "original_text": "SQSTM1 encodes p62, a signaling scaffold and selective-autophagy cargo receptor.",
+      "replacement_text": "SQSTM1 encodes sequestosome 1/p62.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:11280 / SQSTM1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:11280",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NTRK3",
+      "original_text_sha256": "39074bfd2a709ad144beab93f5b0b2f1d087b19fcabc6102b338ed45e5206ff3",
+      "original_text": "NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase.",
+      "replacement_text": "NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4916"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4916 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4916",
+        "document_sha256": "7fc2c515dbc4dd53b333df89fc2da002ad825714aa01ac4290acd525d1b3c1f0",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NTRK2",
+      "original_text_sha256": "c79c9b9797fe7b36b2283266c51d259f9e2fb442387f7d83e3fd11aa3612afcb",
+      "original_text": "NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4.",
+      "replacement_text": "NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4915 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4915",
+        "document_sha256": "2b3a2bbed41a12b2889042a4f5a806af2e9b5a75712b2702a6f0702b8c35f9e1",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FGFR2",
+      "original_text_sha256": "1cdae57704778e23e2f4c24a0da1305717e3fb5643ca80b10ca71163bfb36719",
+      "original_text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "replacement_text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2263"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2263 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2263",
+        "document_sha256": "a22c8457ca12f4b693edc00e5aedcdcdfd22b1f39c928b40155579c5f01e0e51",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BICC1",
+      "original_text_sha256": "5b3f11312a014d0e45f9e39ce07b922946fd4ab5a3ca37e63eb113bcf923c2a6",
+      "original_text": "BICC1 encodes an RNA-binding protein that regulates messenger RNA translation and stability.",
+      "replacement_text": "BICC1 encodes an RNA-binding protein that regulates protein translation.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-80114"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 80114 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/80114",
+        "document_sha256": "2b333c745489ce1acc10ebe2216f4cef8e6db86dd0d0df09b739297bb3882ffe",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "AHCYL1",
+      "original_text_sha256": "66f0f104434a9d04fb7772752bcd5d80a46b8b4591f1d3653ee808da51be8227",
+      "original_text": "AHCYL1 encodes IRBIT, a regulator of inositol-trisphosphate receptor signaling and membrane transport.",
+      "replacement_text": "AHCYL1 encodes adenosylhomocysteinase-like protein 1.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:344 / AHCYL1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:344",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "INA",
+      "original_text_sha256": "afc79349ecfeb3693fd0a67f465b3efcca14f07328071984b5ab774c45a1e066",
+      "original_text": "INA encodes alpha-internexin, a neuronal intermediate filament protein.",
+      "replacement_text": "INA encodes alpha-internexin.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:6057 / INA",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6057",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FGFR3",
+      "original_text_sha256": "d97637fd595657389c1ab1aef07610471f16d14ca53931ee931195ef0003f1b9",
+      "original_text": "FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "replacement_text": "FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2261"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2261 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2261",
+        "document_sha256": "008c7aca4f3f14aa7aea2ecb788eb9a1f66566ee3261d62f2e697c131ccbdc48",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TACC3",
+      "original_text_sha256": "42410683fbd5d39b2ed9924d5203a25ec5e2bc51ed2fd7ac55b1dd7932629504",
+      "original_text": "TACC3 encodes a coiled-coil protein involved in mitotic-spindle organization.",
+      "replacement_text": "TACC3 encodes a coiled-coil protein involved in mitotic-spindle organization.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-10460"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10460 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10460",
+        "document_sha256": "b93a201864d45e34df76a301e5b4c7639dcd836ade6662147bfad407574bba40",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FGFR1",
+      "original_text_sha256": "0873ffc09ea58b6367f10070d7afa2c8ce61ca270f9f201036a60596a76a9dfd",
+      "original_text": "FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "replacement_text": "FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2260"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2260 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2260",
+        "document_sha256": "7ea841889cae5e4418d7d07782dfcfec4a162f88cbc338606418fec3cefd1bf4",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TACC1",
+      "original_text_sha256": "9a0724fff38fdbcd9a6be9a42926d043f06d93dd07c6fcf118417c8ee5e71d6c",
+      "original_text": "TACC1 encodes a coiled-coil protein associated with microtubule and centrosome functions.",
+      "replacement_text": "TACC1 encodes transforming acidic coiled-coil-containing protein 1.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-6867"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6867 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6867",
+        "document_sha256": "0ca3fc4d6f0db3f16694ec7307b3a0e33a929cf52ab9d352d1d3f3509b8bc1a6",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NRG1",
+      "original_text_sha256": "45d17d43a138a20f6b276e6de6a86cf48060f669a74f5d47f78b4ee23418070e",
+      "original_text": "NRG1 encodes neuregulin 1, a ligand for ERBB3/ERBB4 receptor signaling.",
+      "replacement_text": "NRG1 encodes neuregulin 1, a membrane-associated signaling ligand.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-3084"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3084 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3084",
+        "document_sha256": "b9f92fe9fac05e032c0ed25d0d45c08a7cef276d68b03ee644843a687c6098d5",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SLC3A2",
+      "original_text_sha256": "4f6291c420d67dba6fe94beb39597ad9a3ec2274974f416ac8ce7319ff738bb6",
+      "original_text": "SLC3A2 encodes CD98 heavy chain, a membrane component of amino-acid transport complexes.",
+      "replacement_text": "SLC3A2 encodes CD98 heavy chain, a membrane component of amino-acid transport complexes.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6520"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6520 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6520",
+        "document_sha256": "7e993ed31a48d8bc7691a94b0ff3936853c96cdead60985eb266e0f97d12a336",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ATP1B1",
+      "original_text_sha256": "83d8c45e45362d98504c76a73c93d7469435052dcf79c32f88fef2d1834c73a1",
+      "original_text": "ATP1B1 encodes the beta-1 subunit of the sodium/potassium ATPase.",
+      "replacement_text": "ATP1B1 encodes the beta-1 subunit of the sodium/potassium ATPase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-481"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 481 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/481",
+        "document_sha256": "b4282321f575cac1dcfce79a3e119ca5ca84343bf032519e6be4ff8635716aa2",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TPM4",
+      "original_text_sha256": "90a2a2e469763919f961dce78c732dec34b4d2d0cedcc6a3e18dfb30a2aeca08",
+      "original_text": "TPM4 encodes a tropomyosin isoform that associates with actin filaments.",
+      "replacement_text": "TPM4 encodes tropomyosin 4.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:12013 / TPM4",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:12013",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CLTC",
+      "original_text_sha256": "aeaeee745d48fdd1bfa9c45f67eeb48083a64fac408ca7dd70b41cd73ebb113c",
+      "original_text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport.",
+      "replacement_text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-1213"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 1213 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1213",
+        "document_sha256": "c2ba0d04c0d66d3d81a347b4fc60891a955309d0589e84529e7b9095f757c9f1",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RANBP2",
+      "original_text_sha256": "0ea4a242875fb276414d5a097752d7b5a5a64eb0b9fb1ea7b6c095aab3b5eeac",
+      "original_text": "RANBP2 encodes a nuclear-pore-associated protein with transport and SUMO-ligase functions.",
+      "replacement_text": "RANBP2 encodes a nuclear-pore-associated protein with transport and SUMO-ligase functions.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5903"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5903 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5903",
+        "document_sha256": "a90f3ddda62a1e9cfd1a16b17110ac5297bd8d1e099f0d51315b663f55d49f8f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CARS1",
+      "original_text_sha256": "04183b742f77da3a1d8867c0f7228a192ba200208859f78c8f5a6aa8c2288672",
+      "original_text": "CARS1 encodes the cytoplasmic enzyme that attaches cysteine to its transfer RNA.",
+      "replacement_text": "CARS1 encodes cytoplasmic cysteinyl-tRNA synthetase.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:1493 / CARS1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1493",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NPM1",
+      "original_text_sha256": "feb3fce8a79759b1142e7d87bc87b585675f11e5f9bbfc22f207ef739f59e9e2",
+      "original_text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking.",
+      "replacement_text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4869"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4869 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4869",
+        "document_sha256": "d014b913495cfc6e68c4d5590a36644de53540eb521550c8b5b4f45c37ba1f8e",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BCR",
+      "original_text_sha256": "397bf4a09dbdc34975b0d771c84c1d6f8ec4376ee75b6adf82478dc52a1d7a2d",
+      "original_text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+      "replacement_text": "BCR encodes breakpoint cluster region protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-613"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 613 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/613",
+        "document_sha256": "6fd4dcdeab20eef515391d68af5d07474c616b52903098e67c841caee60c7466",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ABL1",
+      "original_text_sha256": "bc77c310296a3b9e98594441513ff7b93a19ea8405f3756f01c6693bdc96e602",
+      "original_text": "ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses.",
+      "replacement_text": "ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-25"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 25 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/25",
+        "document_sha256": "62b53b4bc646bf3a2e70190d22f80bf3c9ad1bdbb3c87a18388845f82647c2ab",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PML",
+      "original_text_sha256": "10e82b1a2baf9b17e6c0ebce3b8d84a900ad9f40df2afc4522ed80a131420d53",
+      "original_text": "PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways.",
+      "replacement_text": "PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5371"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5371 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5371",
+        "document_sha256": "0c2ad78eb97e61f5335774b65fd5c2bcb855f4bf0386e22810d640fb66a57820",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RARA",
+      "original_text_sha256": "15796aab291e1c486a471d24789fe5cf65e08c7cfbf5b304560c64ccd60852bc",
+      "original_text": "RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor.",
+      "replacement_text": "RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5914"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5914 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5914",
+        "document_sha256": "b30c21e3d0221f45f8c3789afb1d5f017e3c1c8a629616142e4f5766b6be205b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RUNX1",
+      "original_text_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
+      "original_text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+      "replacement_text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-861"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 861 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/861",
+        "document_sha256": "281d1db63e514c1be3b182ab702596a22d8563f242022de1c89338d1f902efcf",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RUNX1T1",
+      "original_text_sha256": "45591e134d0dc9e5c3d9a114ae006db80e5f9f39fd7acc0d84ee274579e6471c",
+      "original_text": "RUNX1T1 encodes ETO, a transcriptional corepressor.",
+      "replacement_text": "RUNX1T1 encodes ETO, a transcriptional corepressor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-862"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 862 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/862",
+        "document_sha256": "12e439e3d0453198a75fec914860bc273a9519e448093ae55189ebfe4ee1ebbd",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CBFB",
+      "original_text_sha256": "76b55225de04366a467bf253220fbd2116236d1ca3caf173d490893adae66710",
+      "original_text": "CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex.",
+      "replacement_text": "CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-865"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 865 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/865",
+        "document_sha256": "b1b1191585c2b5ba76a07e624d84c0b6c7130bf2768f6557c9b0eec23b4ba98e",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MYH11",
+      "original_text_sha256": "fcd26fbabf9c486344c58ef42b38ccb0f93653785e0af4bc60d53d48ea6d141a",
+      "original_text": "MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein.",
+      "replacement_text": "MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4629"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4629 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4629",
+        "document_sha256": "cabdf15f963610fce2ef5ca249cc8480e7583cb71e027635a6788e0b6a0da3a2",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "DEK",
+      "original_text_sha256": "cc556b4ea8d7d10fb6ae088d1347078aa2cfdc949a75dfe8a862871d7f052543",
+      "original_text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology.",
+      "replacement_text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7913"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7913 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7913",
+        "document_sha256": "eac620bd20693fc462eaf19ea1989b94b7de7b91444580cd07e684f801dffbd8",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NUP214",
+      "original_text_sha256": "0b4c23f9c46379217039bc5f187f555d066c7a483f56cea6396daca6fad6ce2d",
+      "original_text": "NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport.",
+      "replacement_text": "NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8021"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8021 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8021",
+        "document_sha256": "0c8163466f7fcef582c64b18cdaec921e2b06ab6a8d561b9980a942a53738262",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RBM15",
+      "original_text_sha256": "6e00218740ac2b2d90612d6006d650423ef5e3aa81a8dd83c054b62c9fab281d",
+      "original_text": "RBM15 encodes an RNA-binding protein that recruits RNA-modification machinery.",
+      "replacement_text": "RBM15 encodes a SPEN-family RNA-binding regulatory protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-64783"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 64783 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/64783",
+        "document_sha256": "62b88113d6038ea6eeb98504715a6f26fbdba0ded9c7f4c2bc36e619908cd5d8",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MRTFA",
+      "original_text_sha256": "ea1ddbe6c5bc89d1ce47ca9d21ff73d77bd15ee39598352e7c6b928da18ea115",
+      "original_text": "MRTFA encodes a transcriptional coactivator of serum-response factor linked to actin dynamics.",
+      "replacement_text": "MRTFA encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-57591"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 57591 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/57591",
+        "document_sha256": "001bc7b73c4f4773c24dda183272483e9ca52a7824fd8ea89db884f723c8000e",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "KMT2A",
+      "original_text_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
+      "original_text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes.",
+      "replacement_text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4297"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+        "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MLLT3",
+      "original_text_sha256": "137bc03cf961043df6459e7071c0b94444aa0964cececfbe96c714b4c5034fb5",
+      "original_text": "MLLT3 encodes AF9, a chromatin reader and transcriptional elongation regulator.",
+      "replacement_text": "MLLT3 encodes AF9, a chromatin reader and transcriptional elongation regulator.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4300"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4300 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4300",
+        "document_sha256": "39214bbdf6dd2e445b109be6258a4700411887c4f30e060b34eb3502aa3df820",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "AFF1",
+      "original_text_sha256": "0b4e2df079c5b48fd3118b71a2e128d971fc4997d155378c46c76fb24fce90f4",
+      "original_text": "AFF1 encodes a transcriptional elongation regulator in the super elongation complex.",
+      "replacement_text": "AFF1 encodes an AF4-family regulator of RNA polymerase II transcription.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4299"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4299 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4299",
+        "document_sha256": "ebd38f38fe183ff554413291de6d2a56a99761883baa8f9fcaba3811e3923709",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MLLT10",
+      "original_text_sha256": "c0eea6521144af9a1a1c353ff341dd752dda55da7fefcdc166f5857eaa28892a",
+      "original_text": "MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L.",
+      "replacement_text": "MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8028"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8028 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8028",
+        "document_sha256": "6f91a51f3226eeb10d9d06d48d11d65b5ff17f7333471b0c35edf28bd022ff3a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ELL",
+      "original_text_sha256": "b2bcb8a482104877107f1d950c2c9227298d29a6f5d47689ab71f582775ac5d5",
+      "original_text": "ELL encodes an RNA polymerase II transcription elongation factor.",
+      "replacement_text": "ELL encodes an RNA polymerase II transcription elongation factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8178"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8178 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8178",
+        "document_sha256": "3dd3b996c108a580af8262dcddfb2ac19636c7994893ae159e96107d7f203c44",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "AFDN",
+      "original_text_sha256": "276c3fde8999333ee82a065cb3ca7d6a1fa2d01e632084c62fc760af56b5f450",
+      "original_text": "AFDN encodes afadin, an actin-binding scaffold at cell-cell junctions.",
+      "replacement_text": "AFDN encodes afadin, a signaling protein involved in cell-junction organization.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4301"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4301 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4301",
+        "document_sha256": "59501e7d3affca58f8e3f9d2cb32e0175b381971715d903e4768101fd19155c8",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MLLT1",
+      "original_text_sha256": "53a80c78af67b0eea76a39f4a8adc1260344727aa6d87a9ecc8b3cfdf25030c0",
+      "original_text": "MLLT1 encodes ENL, a chromatin reader and transcriptional elongation regulator.",
+      "replacement_text": "MLLT1 encodes ENL, a chromatin reader and transcriptional elongation regulator.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4298"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4298 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4298",
+        "document_sha256": "378e1d494487420259677fcab3e1ac2c112f9ee9bedb41c7da9fd3ee38c38d3f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MLLT6",
+      "original_text_sha256": "aad6c16a87a42056cf8f2c196de824103d24fd3e550031e7f2020533b59581a2",
+      "original_text": "MLLT6 encodes AF17, a PHD-finger chromatin-associated protein.",
+      "replacement_text": "MLLT6 encodes MLLT6/AF17, a PHD-finger-containing protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:7138 / MLLT6",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7138",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NUP98",
+      "original_text_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
+      "original_text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation.",
+      "replacement_text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4928"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4928 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
+        "document_sha256": "7b152c6b96ee85cb9be23f639e696ae1e0e948a3da0c559593bae69dbcada3e8",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NSD1",
+      "original_text_sha256": "a572d6cb4348285d9d4611be4899c09f5c23a708e3a43222600606b14dc969d0",
+      "original_text": "NSD1 encodes a histone H3 lysine-36 methyltransferase.",
+      "replacement_text": "NSD1 encodes a SET-domain chromatin regulator.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-64324"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 64324 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/64324",
+        "document_sha256": "86b578a0870d6e31d235f2e2faa9531ed14470591e6cd447422e7f5950123e62",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "KDM5A",
+      "original_text_sha256": "ed9f355ae7525bc753c0450b93dd47c638c90fcafc03349d13725d43403ae947",
+      "original_text": "KDM5A encodes a histone H3 lysine-4 demethylase and chromatin reader.",
+      "replacement_text": "KDM5A encodes a histone H3 lysine-4 demethylase and chromatin reader.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5927"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5927 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5927",
+        "document_sha256": "2a6d18f11fe2559d1297f2d723ce773bf5061cd6c2be51682a6e457a4e609a0d",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "HOXA9",
+      "original_text_sha256": "27ec54b2d2a7e7571196f807858dadaae509c03b15daa2daa0cbf0d9e0179ab1",
+      "original_text": "HOXA9 encodes a homeobox transcription factor involved in hematopoietic progenitor programs.",
+      "replacement_text": "HOXA9 encodes a homeobox DNA-binding transcription factor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-3205"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3205 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3205",
+        "document_sha256": "6d465b0e1f29d8c5f6c66fbffd888185c12993c8351c3a7d8b659ed70be76ad2",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "HOXD13",
+      "original_text_sha256": "ff2a9ae9ced6d6f46917923e4bd59c9a1791cc583e023e4b827b71af06a44bc8",
+      "original_text": "HOXD13 encodes a homeobox transcription factor involved in limb patterning.",
+      "replacement_text": "HOXD13 encodes homeobox D13.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:5136 / HOXD13",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5136",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "DDX10",
+      "original_text_sha256": "1f7ad70a0526c6de66094963d114c4834a06ec85b93b518a03f30f003850bda6",
+      "original_text": "DDX10 encodes a DEAD-box RNA helicase implicated in ribosome biogenesis.",
+      "replacement_text": "DDX10 encodes DEAD-box helicase 10.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:2735 / DDX10",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2735",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TOP1",
+      "original_text_sha256": "acca7fbbfdac6a21f0426334a9dc89f562016db471e350c04bd1dfd3dc66365d",
+      "original_text": "TOP1 encodes DNA topoisomerase I, which relieves DNA torsional stress.",
+      "replacement_text": "TOP1 encodes DNA topoisomerase I, which relieves DNA torsional stress.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7150"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7150 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7150",
+        "document_sha256": "1248ce38d020373c69996bb40579dde51ba310d0dc7937cf9fac34df66a575ba",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CBFA2T3",
+      "original_text_sha256": "313d32ab607d5d39167551e93e53c8b89eacf5e4cdb2819c00f4088f5919422b",
+      "original_text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation.",
+      "replacement_text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-863"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 863 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/863",
+        "document_sha256": "887d155eaf9968e1aa64e5c824e18ffb51f7417403b2c73ab6b53690039852b5",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "GLIS2",
+      "original_text_sha256": "9d695b4b224935eb3cba3ff114a678d483331e8a17252ff19cd9d1ae940d40e8",
+      "original_text": "GLIS2 encodes a zinc-finger transcriptional regulator.",
+      "replacement_text": "GLIS2 encodes a zinc-finger transcriptional regulator.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-84662"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 84662 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/84662",
+        "document_sha256": "c849ea7daa7dfc0464acb1a9fbf18eecb6a9d1e03d6bd1960b5a65ef7923881e",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FUS",
+      "original_text_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "original_text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "replacement_text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+        "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ERG",
+      "original_text_sha256": "1f39dff201608e93a1735c1006918c0cb4f9ed68ca87dc66c89d34a3be019c37",
+      "original_text": "ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development.",
+      "replacement_text": "ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2078"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2078 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2078",
+        "document_sha256": "fdcd254ddd17a0a9d903aebfff988a346549274dca371869a7088c3c58df1585",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PICALM",
+      "original_text_sha256": "2fcb5a94a5798347d5447d19c4f5ab57403c6ecd6be66d719fbd0263fa96f2c9",
+      "original_text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis.",
+      "replacement_text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8301"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8301 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8301",
+        "document_sha256": "a95f55aebe1d9eb788590177b07a84af4e6c36a82d5f7ec9a3ae783963623a93",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SET",
+      "original_text_sha256": "cfa0eb207bd92b5ff95a848ca9bfe7455bd1cab524fd1fdcbf98b2d9e8109a24",
+      "original_text": "SET encodes a chromatin-associated protein and inhibitor of protein phosphatase 2A.",
+      "replacement_text": "SET encodes SET nuclear protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:10760 / SET",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10760",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "KAT6A",
+      "original_text_sha256": "0e3f06cadb3a92debc72367cda111df94503d6e563d714a9e6fe0edd4737b5e7",
+      "original_text": "KAT6A encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance.",
+      "replacement_text": "KAT6A encodes a histone acetyltransferase and transcriptional coactivator.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-7994"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7994 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7994",
+        "document_sha256": "c182dc16a2d95da70203589f3c6c22146b3997ba1616db383c6a11ac47bfa2ca",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CREBBP",
+      "original_text_sha256": "43a6e96a30a4771e89808e611aebdf5266cf684ed1231f1555c3997b48422fa1",
+      "original_text": "CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase.",
+      "replacement_text": "CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-1387"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 1387 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1387",
+        "document_sha256": "bf6a65c8add04db4ba7aafda377c66fb1fac279b6e862fc4a896dd1cfac1f023",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "EP300",
+      "original_text_sha256": "b97f6cdb677d816faf19b946f1816c755fcd346db279a70eabeb9f724abcc38f",
+      "original_text": "EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase.",
+      "replacement_text": "EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2033"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2033 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2033",
+        "document_sha256": "07ff4137aebe0e206b7d67bdadfa3e9803e723322a2aaf740d60e2111a837b17",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ZBTB16",
+      "original_text_sha256": "40d4ff25f385516be5663aa7c691ee70cb11008fa723ddf500c1b2ed0d6446db",
+      "original_text": "ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation.",
+      "replacement_text": "ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7704"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7704 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7704",
+        "document_sha256": "5adb51f3a05895465412085d983627702df2646231f8359f72b3737c9e725674",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "STAT5B",
+      "original_text_sha256": "2e7f82e34e4b85b2f8f9d8091af6fb4b5328eca1dff15c1f1ae7144c064f4f85",
+      "original_text": "STAT5B encodes a cytokine-responsive JAK-STAT transcription factor.",
+      "replacement_text": "STAT5B encodes a cytokine-responsive JAK-STAT transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6777"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6777 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6777",
+        "document_sha256": "b204d55732b830654e9d159b2353442916535d3b993e5942f2b64a3ac6cb8397",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FIP1L1",
+      "original_text_sha256": "ea72ab688f124cc4593a2510bd971abd6753dd8355dd7461a7fbb2cfb9bd824d",
+      "original_text": "FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery.",
+      "replacement_text": "FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-81608"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 81608 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/81608",
+        "document_sha256": "4b551abb2f75c18268f6a64d8c8cc22222e9370ebb845e65727456713704b0e7",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PDGFRA",
+      "original_text_sha256": "d845cb1e4ca9575b34ab10c6d89ffd2d6eb25ec047caf7d40aa5508521c3ac53",
+      "original_text": "PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase.",
+      "replacement_text": "PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5156"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5156 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5156",
+        "document_sha256": "114583543b8deb7d79c603df8346b0cd7012552920b28e473bff843fc90bcb83",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PDGFRB",
+      "original_text_sha256": "9c1706914ba9857704a68addf6ff05209539a5e8fcbbf00104265293770b86b8",
+      "original_text": "PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase.",
+      "replacement_text": "PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5159"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5159 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5159",
+        "document_sha256": "a7547913abe3d7134d969d79662152c31ae4350120c274135c58ac8a6deadf6a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ZMYM2",
+      "original_text_sha256": "271f93c2a7f30cfa44fd040d82d7bcb2ce6cbaaa5b49f8c53174cc155448270d",
+      "original_text": "ZMYM2 encodes a zinc-finger transcriptional coregulator.",
+      "replacement_text": "ZMYM2 encodes a zinc-finger transcriptional coregulator.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7750"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7750 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7750",
+        "document_sha256": "4bf995f75d7dc08362f829aa43e98c0f7922a9080195c2c9b62aafd5b6ddd4b1",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PCM1",
+      "original_text_sha256": "957e20eebf189997573482903ae5f7c69c8f07dc94757a8993af7b286bd93064",
+      "original_text": "PCM1 encodes a centrosomal-satellite scaffold protein.",
+      "replacement_text": "PCM1 encodes a centrosomal-satellite scaffold protein.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5108"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5108 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5108",
+        "document_sha256": "6957755a5bf04a9475074747c87a589bd612a71995aaa42f9922c507e4e8bef5",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "JAK2",
+      "original_text_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
+      "original_text": "JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals.",
+      "replacement_text": "JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-3717"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3717 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3717",
+        "document_sha256": "ae674c741d110a87329c5bbda7966680f900808434b902ffe1f4786d8bbabece",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PAX5",
+      "original_text_sha256": "82f40ae0455ff64d4c262db6b1e7bc098d0f1f53e4dac8fc70661ed9d5055483",
+      "original_text": "PAX5 encodes a paired-box transcription factor required for B-cell identity.",
+      "replacement_text": "PAX5 encodes a paired-box transcription factor required for B-cell identity.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5079"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5079 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5079",
+        "document_sha256": "049153be1296fee3c5dcec18f6fb0662ced3d22f53f99c81d6d99e96f08f0c5a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FLT3",
+      "original_text_sha256": "6eb2e5e1e6dee10502c9cbbfb056eae2365d86035658a8c8324f718828dd2ed4",
+      "original_text": "FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors.",
+      "replacement_text": "FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2322"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2322 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2322",
+        "document_sha256": "d349ff11507025fdc98e412cfb0ccd142c8de75acf2b8859570edee0b1f0f9fd",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RCSD1",
+      "original_text_sha256": "274328d5a05561cfea72ca859ac3398d067f8f43018cb939995ffd78e3d88ef8",
+      "original_text": "RCSD1 encodes CapZIP, a regulator of actin-capping protein interactions.",
+      "replacement_text": "RCSD1 encodes RCSD domain-containing protein 1.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:28310 / RCSD1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:28310",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "EBF1",
+      "original_text_sha256": "6208688077ae25fe2e53be3799a30627cc26d05f83359cb4d43fd9e8dad008ef",
+      "original_text": "EBF1 encodes a transcription factor required for B-cell lineage specification.",
+      "replacement_text": "EBF1 encodes EBF transcription factor 1.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:3126 / EBF1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3126",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SSBP2",
+      "original_text_sha256": "cdd153df49682341512789b662f34e5a72f29c9a01f1430696a3c6f09ff6ad22",
+      "original_text": "SSBP2 encodes a protein that stabilizes transcriptional regulatory complexes in hematopoietic cells.",
+      "replacement_text": "SSBP2 encodes single-stranded DNA-binding protein 2.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:15831 / SSBP2",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:15831",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CSF1R",
+      "original_text_sha256": "ae0e6e41a4c129ec68804f931690c941b120f6d10186ddfd8ad3443bc1e7a1a4",
+      "original_text": "CSF1R encodes the colony-stimulating factor 1 receptor tyrosine kinase.",
+      "replacement_text": "CSF1R encodes the colony-stimulating factor 1 receptor tyrosine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-1436"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 1436 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1436",
+        "document_sha256": "0f707db7a73866facc999d03df8988933502c0e386be1e9f9914afcaaad9f5ba",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TCF3",
+      "original_text_sha256": "12f5c610b87031a903ec1c2f34aabe79cc2a6c81a681f017892d741babaa969d",
+      "original_text": "TCF3 encodes E2A transcription factors required for lymphoid development.",
+      "replacement_text": "TCF3 encodes E2A transcription factors required for lymphoid development.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6929"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6929 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6929",
+        "document_sha256": "55317fcc774fa2ee8c410c53cb6bf54e58a4be2da0cfe91de4e80a289738c3a9",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PBX1",
+      "original_text_sha256": "768a83a61229f0ee61fafbd5fe568735e729c45402022d3437ef824c9f09e201",
+      "original_text": "PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators.",
+      "replacement_text": "PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5087"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5087 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5087",
+        "document_sha256": "e5b138c2beb58dbedb2b87e17d0735f1e09c8bec7a4dd84f84a92ae12697791b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "HLF",
+      "original_text_sha256": "b8afc7400bd1e64d7d2207c1bd2adc725f74b0d5e60426327e7a648aadf9645e",
+      "original_text": "HLF encodes a PAR-bZIP transcription factor involved in circadian and hematopoietic regulation.",
+      "replacement_text": "HLF encodes a PAR-bZIP transcription factor that binds sequence-specific promoter elements.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-3131"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3131 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3131",
+        "document_sha256": "36fa17fc8446209edc13bedeb7ac0217f44259566de03fccf0183aa67b67e254",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MEF2D",
+      "original_text_sha256": "cf20ae7c37712517a8d17e5970ad4c3dba84707ca52f1c3654631537e7855ec6",
+      "original_text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival.",
+      "replacement_text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4209"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4209 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4209",
+        "document_sha256": "2ebb719058a4588059f5afb09080c25fe45e00d9f8d9d7ff702d0d726cf75181",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BCL9",
+      "original_text_sha256": "118de90b7df53de6f93f14025d4f3ee4fcf8766b4d85bfeed7ef3d0da392cfa6",
+      "original_text": "BCL9 encodes a transcriptional cofactor for beta-catenin signaling.",
+      "replacement_text": "BCL9 encodes BCL9 transcriptional coactivator.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:1008 / BCL9",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1008",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "HNRNPUL1",
+      "original_text_sha256": "d7b07e5bab1a636005e4e250883acc99ebc2b684354b7ce58e04128e0deca4af",
+      "original_text": "HNRNPUL1 encodes a nuclear RNA-binding protein involved in RNA processing and DNA-damage responses.",
+      "replacement_text": "HNRNPUL1 encodes heterogeneous nuclear ribonucleoprotein U-like 1.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:17011 / HNRNPUL1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:17011",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ZNF384",
+      "original_text_sha256": "20112a2158228c89becb3ddb4d9ec80d68f341ae840459ddca7c87a3a32b022f",
+      "original_text": "ZNF384 encodes a zinc-finger transcriptional regulator.",
+      "replacement_text": "ZNF384 encodes a zinc-finger transcriptional regulator.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-171017"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 171017 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/171017",
+        "document_sha256": "1ace6fd3c5d36c3e00013ce0863847820e34cb923c9c9b3c40b7f234b41fdeb9",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TAF15",
+      "original_text_sha256": "c17c65d9daff4aa8413af21597466abd75b81a6032318addf1095796e2f17b3e",
+      "original_text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family.",
+      "replacement_text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8148"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8148 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8148",
+        "document_sha256": "fdaddbb29ed1300d7f372aa23a5cc7799afad89f6335655c09033bea98654c9b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BIRC3",
+      "original_text_sha256": "9adb3ead42e2f8d1029ad873576c4d5b23f5eaf79382e66d6197ea68c2464f7e",
+      "original_text": "BIRC3 encodes cIAP2, an E3 ubiquitin ligase that regulates cell-survival signaling.",
+      "replacement_text": "BIRC3 encodes cIAP2, an E3 ubiquitin ligase that regulates cell-survival signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-330"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 330 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/330",
+        "document_sha256": "51730945240e55299b3745c68dc8e40ce6fa4775828e86e7ebcde4ed2fb0939f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MALT1",
+      "original_text_sha256": "b4587ae80afff63f9a73dabc30e3bb1d8030cbcf709b4f43e5aa8019effdfee9",
+      "original_text": "MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling.",
+      "replacement_text": "MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-10892"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10892 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10892",
+        "document_sha256": "b86a0612f146eb6336a88c4d2cd642af11ba01011152a255bb968917cb0a490a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "EWSR1",
+      "original_text_sha256": "cd9e977579b9dc450c4d0572ddc09b89201e08c146dc2392801ca7483bd0aecd",
+      "original_text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription.",
+      "replacement_text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2130"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2130 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2130",
+        "document_sha256": "3c6860439824412256f34210cfd2daffc399baed2970a38c2f1e5c5136188780",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FLI1",
+      "original_text_sha256": "ebbe3b38269bd7d6dd79f1acf776361aaf479473384b4a738348c01e4a313af0",
+      "original_text": "FLI1 encodes an ETS-family transcription factor involved in hematopoiesis and vascular development.",
+      "replacement_text": "FLI1 encodes an ETS-domain transcription factor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-2313"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2313 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2313",
+        "document_sha256": "58b55345f079ccc1f874b655df66bdc6182548614940efb556873dd9e9f4d015",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ETV1",
+      "original_text_sha256": "6005ac6c2b8f3cf8927ce6c2dce8f197f29cff2912e255d1f01bb48e10c4e268",
+      "original_text": "ETV1 encodes an ETS-family transcription factor.",
+      "replacement_text": "ETV1 encodes an ETS-family transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2115"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2115 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2115",
+        "document_sha256": "83e8029fd9140166ef696022c3656a6f08f769efc20c685c09d00b4170ec94c8",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ETV4",
+      "original_text_sha256": "f7169f59d7200459c1da1b37a2db48649ec7bbeb603d099f470e37cbb0f2ab84",
+      "original_text": "ETV4 encodes an ETS-family transcription factor.",
+      "replacement_text": "ETV4 encodes an ETS-family transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2118"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2118 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2118",
+        "document_sha256": "22ff4b23ac0e65e7307953065baa92ed465fa8e9d7a5fb7be9c8a7a258de0a46",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FEV",
+      "original_text_sha256": "1d377da9327ffe60214183d81659c672633ce33fbc89b34f0610423907cae04d",
+      "original_text": "FEV encodes an ETS-family transcription factor involved in serotonergic neuron differentiation.",
+      "replacement_text": "FEV encodes an ETS-family transcription factor expressed in serotonergic neurons.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-54738"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 54738 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/54738",
+        "document_sha256": "56b5c390998abe4028f29b7ec99beb2d6bac934a532c5efbdc57b9ce17d00a71",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SS18",
+      "original_text_sha256": "da50d3b744ead82a417b3acbf350620c999b896c74a57d05e46e6fd4301dd076",
+      "original_text": "SS18 encodes a component of the BAF chromatin-remodeling complex.",
+      "replacement_text": "SS18 encodes a component of the BAF chromatin-remodeling complex.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6760"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6760 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6760",
+        "document_sha256": "2d3e60c61b45c9396b7fa9e29b7d4f981789c5f7eade29cf8ef8528028544a3f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SSX1",
+      "original_text_sha256": "c472181d89b41c06fb479f558361941a94c6f5d8a2c191625d4e484322fb8fd5",
+      "original_text": "SSX1 encodes a cancer-testis antigen with transcriptional regulatory activity.",
+      "replacement_text": "SSX1 encodes a cancer-testis antigen with transcriptional regulatory activity.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6756"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6756 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6756",
+        "document_sha256": "2e4727a1412ed8e9f018fc6a8463444547c10041b1ced052bc776ecbd912c50b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SSX2",
+      "original_text_sha256": "a45d14b182edba569699b514e931c800c505db35c45d30512b87b1b7b9a4b6e9",
+      "original_text": "SSX2 encodes a cancer-testis antigen with transcriptional regulatory activity.",
+      "replacement_text": "SSX2 encodes a cancer-testis antigen with transcriptional regulatory activity.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6757"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6757 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6757",
+        "document_sha256": "75649b1e36d483d2222efba51d79d78187ad781191538dbea6326bc5bd0acd51",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SSX4",
+      "original_text_sha256": "660bb11331681556863c8abe3b12b905ff8334592a46a9aa6e2ba9ee41466ab9",
+      "original_text": "SSX4 encodes a cancer-testis antigen with transcriptional regulatory activity.",
+      "replacement_text": "SSX4 encodes a cancer-testis antigen with transcriptional regulatory activity.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6759"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6759 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6759",
+        "document_sha256": "016b31b174dcef927a81a38b477cef479bc16a245d708bb58c52abdf001d4ccc",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PAX3",
+      "original_text_sha256": "51628cc555c714635bca30cf9dba92d3339f4ca2c7bb85fb0434e6aa8f4c5ce6",
+      "original_text": "PAX3 encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development.",
+      "replacement_text": "PAX3 encodes a paired-box transcription factor involved in development.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-5077"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5077 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5077",
+        "document_sha256": "ad5d31cabbc5aa0bbc6dd4ad656d39f9183acccdf2bdc69eb93fecc8a20d9c9f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FOXO1",
+      "original_text_sha256": "627137f9c8acd00de043978e8a4f9ca4b1e731f963fdd70398b9ec8683f88f29",
+      "original_text": "FOXO1 encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival.",
+      "replacement_text": "FOXO1 encodes a forkhead-family transcription factor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-2308"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2308 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2308",
+        "document_sha256": "a1fbf744c0c5b1ece975006dfe26fae3fd69d08664421c1fe1531d90046f85cf",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PAX7",
+      "original_text_sha256": "443f8878938e97e0385a5e1a6625486c9140ccfdb88c1ba467441c618d83bd3b",
+      "original_text": "PAX7 encodes a paired-box transcription factor involved in skeletal-muscle progenitor development.",
+      "replacement_text": "PAX7 encodes a paired-box transcription factor involved in development.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-5081"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5081 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5081",
+        "document_sha256": "44eba1f188fad1c953a2ec6d430649b9edee16605505a8feab82e06adcfcc2a1",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "WT1",
+      "original_text_sha256": "6aae3fe6ee15619d3157efc0762bd11ee31703dda7ac610c5ba07afcc9325f4c",
+      "original_text": "WT1 encodes a zinc-finger transcriptional regulator involved in kidney and gonadal development.",
+      "replacement_text": "WT1 encodes a zinc-finger transcriptional regulator involved in kidney and gonadal development.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7490"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7490 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7490",
+        "document_sha256": "ca87f8273bb99a0d6fa48131db27e0c97e374946637d90dc700b7693cf613ec1",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "DDIT3",
+      "original_text_sha256": "bd1f854df56162b1911220ec05f3b1065be28ac78b8496ae4ecc75bfc4ee52bd",
+      "original_text": "DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor.",
+      "replacement_text": "DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-1649"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 1649 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1649",
+        "document_sha256": "f4abd516bd73345bdaab528ab59a04dbaa221caa18cbd10667fc6acf69e59233",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "COL1A1",
+      "original_text_sha256": "77540e60512ec6064206259638edff7b65649cd18a39fe96eaa17cb00a4e848f",
+      "original_text": "COL1A1 encodes the alpha-1 chain of type I collagen.",
+      "replacement_text": "COL1A1 encodes the alpha-1 chain of type I collagen.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-1277"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 1277 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1277",
+        "document_sha256": "481f87bbc8ee857b9f4949d7ab47396df63a7f68b50a1a5e5f7966ee2647b6f3",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PDGFB",
+      "original_text_sha256": "575db97636106664e620c7346aaf981f2272d76c3a2cdbb54b70e1ff94e74932",
+      "original_text": "PDGFB encodes the B-chain ligand of platelet-derived growth factor.",
+      "replacement_text": "PDGFB encodes the B-chain ligand of platelet-derived growth factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5155"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5155 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5155",
+        "document_sha256": "545f8741bd9d652a7f8a6dec61abd052e09be8ed0efabad85adacf824d7bb902",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NAB2",
+      "original_text_sha256": "83dcb15af609f8f63439b4a5e2378702520f2494bff6e5fd1f481453117ca4d6",
+      "original_text": "NAB2 encodes a transcriptional corepressor of EGR-family transcription factors.",
+      "replacement_text": "NAB2 encodes a transcriptional corepressor of EGR-family transcription factors.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4665"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4665 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4665",
+        "document_sha256": "9f76f648c3859d6195490427af932463588473ea6f3c5f40136fccb7aa692f97",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "STAT6",
+      "original_text_sha256": "a36d51c26ea4244be34a27317c442e1457b750cb67b01007aede4c87ee060491",
+      "original_text": "STAT6 encodes a transcription factor that transduces interleukin-4/interleukin-13 signals.",
+      "replacement_text": "STAT6 encodes a STAT-family transcription factor involved in interleukin-4 responses.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-6778"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6778 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6778",
+        "document_sha256": "97dd32055ad83c278283981d02ca1d34521394f5f4927ee4c36e3971128e5c5c",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ASPSCR1",
+      "original_text_sha256": "00559079fffa09788ea258a8787b3b70b503797052f0d19436479422b1028272",
+      "original_text": "ASPSCR1 encodes a trafficking protein involved in intracellular GLUT4 transport.",
+      "replacement_text": "ASPSCR1 encodes a trafficking protein involved in intracellular GLUT4 transport.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-79058"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 79058 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/79058",
+        "document_sha256": "fb95f720d1ce3fcd54dbba647af41f93814ecfc673438293d04ebc3a508db303",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TFE3",
+      "original_text_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
+      "original_text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "replacement_text": "TFE3 encodes an E-box-binding transcription factor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-7030"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7030 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7030",
+        "document_sha256": "18d0d35ef562720235d390eb36f6c9013b602767fc4ed7a74b6971b2f65b228e",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ATF1",
+      "original_text_sha256": "57e5ef9e55878404160ee6013f023a88b8ca1c553937f6003847aa24e7ea4d7e",
+      "original_text": "ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling.",
+      "replacement_text": "ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-466"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 466 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/466",
+        "document_sha256": "8049c7075f37a3d0df991cd06b1af78511ff12df1663a9922148df8f96e89a55",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CREB1",
+      "original_text_sha256": "24d9283e7f1ed0d350b8cdb98f7473ff93b44f550d4262682fac9f0aa5c68fc1",
+      "original_text": "CREB1 encodes a cyclic-AMP-responsive transcription factor.",
+      "replacement_text": "CREB1 encodes a cyclic-AMP-responsive transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-1385"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 1385 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1385",
+        "document_sha256": "814ca43e2775245684343cb819e3b547ff7d4e51d0b5876bc2cf28f5b1fe9f06",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CREB3L2",
+      "original_text_sha256": "cb4d2d99038abd4eabeaa9c2b30d91acc30df81746ac64ffb83db6a277a5f78e",
+      "original_text": "CREB3L2 encodes an endoplasmic-reticulum-associated bZIP transcription factor involved in secretory-cell function.",
+      "replacement_text": "CREB3L2 encodes a bZIP transcriptional activator.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-64764"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 64764 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/64764",
+        "document_sha256": "d3a7ff549962f648887b70a9a8de467cf2fb67d6da81049c50ab0f48b9d82d44",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CREB3L1",
+      "original_text_sha256": "77d27f4ba5237354d120eda487cfaa18342d16930db020c171ee75efd114cf44",
+      "original_text": "CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis.",
+      "replacement_text": "CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-90993"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 90993 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/90993",
+        "document_sha256": "769a758c0ec0c5caa7e2a3b6e423b1d95e4ea78cdff90aac9e9428b0e6b1cb70",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CIC",
+      "original_text_sha256": "7cfe6a8b6929d8f4ae16efb9a70d1b8790fdc2147e9f9a576210cf3e7a8e8ade",
+      "original_text": "CIC encodes capicua, a transcriptional repressor regulated by MAPK signaling.",
+      "replacement_text": "CIC encodes capicua, an HMG-box transcriptional repressor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-23152"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23152 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23152",
+        "document_sha256": "b7a55c6473bff056c8466c3b9c22bb678f95ff523893b6a8e57b7b36fd51a336",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "DUX4",
+      "original_text_sha256": "a2c25c6b595a8fd411a1ba4f17172939c5d8bcce079870513c3b983501f72e7c",
+      "original_text": "DUX4 encodes a double-homeobox transcription factor normally active during early embryonic development.",
+      "replacement_text": "DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-100288687"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 100288687 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/100288687",
+        "document_sha256": "3dc860e933a13ebd6c6c10820fb67ff0530b0df895006b5a64adab10d02619e8",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BCOR",
+      "original_text_sha256": "09c8b256cc53e14db50cc88a5a34acd66ea62a8779eec85606931928d8ea16a1",
+      "original_text": "BCOR encodes a transcriptional corepressor associated with noncanonical Polycomb repression.",
+      "replacement_text": "BCOR encodes a BCL6-interacting transcriptional corepressor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-54880"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 54880 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/54880",
+        "document_sha256": "da085aa0dd08fa844b35e7ef62b80b2572dee3df540b2fb55e43173d601bb123",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CCNB3",
+      "original_text_sha256": "3631ca091335971b82c1e17bc680805b88ff4e3f17f0e97fbdcc3502291e00cb",
+      "original_text": "CCNB3 encodes cyclin B3, a regulator of cell-cycle progression.",
+      "replacement_text": "CCNB3 encodes cyclin B3, a regulator of cell-cycle progression.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-85417"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 85417 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/85417",
+        "document_sha256": "0b1d2066c2378824a80afdcd491254b355c54462ff23832d0ecb6b86cef4d53c",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NFATC2",
+      "original_text_sha256": "94452e8c7135b6f174bf822a12edf702bfa54ebfdb37150e60da977bf7ec275d",
+      "original_text": "NFATC2 encodes a calcium/calcineurin-responsive transcription factor.",
+      "replacement_text": "NFATC2 encodes a nuclear-factor-of-activated-T-cells transcription factor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4773"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4773 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4773",
+        "document_sha256": "08c00e511aef3c80f9da5ccd43cb0e7576da06cac51025642f7f9def6afaeed3",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PATZ1",
+      "original_text_sha256": "449251afb7de9bdfc1363462e1cd214f6f1cfff957db139b0ed5d1d83fb1716a",
+      "original_text": "PATZ1 encodes a zinc-finger transcriptional regulator with an AT-hook DNA-binding motif.",
+      "replacement_text": "PATZ1 encodes a zinc-finger transcriptional regulator with an AT-hook DNA-binding motif.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-23598"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23598 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23598",
+        "document_sha256": "681433836e1c9512642b1d5937c91ba18a240b986409d21f1525743d668c647b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "HEY1",
+      "original_text_sha256": "723aca3fa95fc5332be90178da6284d87cd66b78b4471e25089dca5152976b9a",
+      "original_text": "HEY1 encodes a transcriptional repressor downstream of Notch signaling.",
+      "replacement_text": "HEY1 encodes a transcriptional repressor downstream of Notch signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-23462"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23462 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23462",
+        "document_sha256": "32c59db0a71f51a48878891620524af3a6128c1748bc0fa75a7a027190f205bb",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NCOA2",
+      "original_text_sha256": "ffe285d3866ef36d8e8edaab61e7944117b10c44b8a7c09c35790ea5efb9c241",
+      "original_text": "NCOA2 encodes a nuclear-receptor transcriptional coactivator.",
+      "replacement_text": "NCOA2 encodes a nuclear-receptor transcriptional coactivator.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-10499"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10499 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10499",
+        "document_sha256": "ada4ba34be6da07d64e4607e6c566083fcda408536b6b5dc28690cd0814a7a05",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NR4A3",
+      "original_text_sha256": "e764a98ff93ac0ee9a5f0be5167c16646552f5351ba192c659b3554f1c53555d",
+      "original_text": "NR4A3 encodes an orphan nuclear-receptor transcription factor.",
+      "replacement_text": "NR4A3 encodes an orphan nuclear-receptor transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8013"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8013 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8013",
+        "document_sha256": "781aaff1cc6832883dd8f2c7339d8fe9b0e20c73d04ac7f2200256a9df06d810",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "WWTR1",
+      "original_text_sha256": "64901ac9d3431625b1c6f6a76803d3f609c874ee891466d245c587d910e5fe6e",
+      "original_text": "WWTR1 encodes TAZ, a transcriptional coactivator regulated by Hippo signaling.",
+      "replacement_text": "WWTR1 encodes TAZ, a transcriptional coactivator.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-25937"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 25937 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/25937",
+        "document_sha256": "08c60ac258f01e4c7b82c12ed494a671c89ba4120c3a74cb962a035e7b23b6d4",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CAMTA1",
+      "original_text_sha256": "e0b2471ebedefd2b52a225a1a4a7cd7379cffd047e1d47ba3acb285fdd4a2903",
+      "original_text": "CAMTA1 encodes a calmodulin-binding transcriptional regulator.",
+      "replacement_text": "CAMTA1 encodes a calmodulin-binding transcriptional regulator.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-23261"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23261 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23261",
+        "document_sha256": "edab8395f9872bf49cd2dfc3a568d66e341ae513d7eb14f9dd0c8e97dc0fb5a6",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "YAP1",
+      "original_text_sha256": "1a8bd583ad13c35afcf7349c401739f077529104c1fc58ab3a152b7e58f79c01",
+      "original_text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling.",
+      "replacement_text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-10413"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10413 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10413",
+        "document_sha256": "e80aa0a2311bfb61df3c96c7f5b5525a70c20667d9236ead51ca5676615a7fa4",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "JAZF1",
+      "original_text_sha256": "f4a695c9dc6d95c8ded5793f2f02d5dbe3e1330a29a14ea094b1365eba629b8a",
+      "original_text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism.",
+      "replacement_text": "JAZF1 encodes a nuclear zinc-finger transcriptional repressor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-221895"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 221895 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/221895",
+        "document_sha256": "82d391c2f0b45ba1f9e3c82b2e681224acb8808941ce48918bce00b42116586a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SUZ12",
+      "original_text_sha256": "3fa2aa85cc695e456d9522e7cbb0b143c3779eed94b5ea5feb684b450539e71a",
+      "original_text": "SUZ12 encodes a core component of Polycomb repressive complex 2.",
+      "replacement_text": "SUZ12 encodes a zinc-finger Polycomb-associated protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-23512"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23512 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23512",
+        "document_sha256": "e74ededea79c307901390175c22575bdb1d26f9e2f8cc8e18fe43ac81dd04a6b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "YWHAE",
+      "original_text_sha256": "df6a7e9371f1467cfb2ce96a9c8ffb09614a522e2568a927b1d94c87dcf5c46d",
+      "original_text": "YWHAE encodes the phosphoprotein-binding adaptor 14-3-3 epsilon.",
+      "replacement_text": "YWHAE encodes the phosphoprotein-binding adaptor 14-3-3 epsilon.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7531"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7531 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7531",
+        "document_sha256": "3b669762a8b57883f2ac024c07dfaff6d019114576445a2283aafa88026dd2c0",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NUTM2A",
+      "original_text_sha256": "57f42a39928e76fd1b6cfd0c8dc6c2d88861316f6409da6beef7c377977c9a4c",
+      "original_text": "NUTM2A encodes a NUT-family protein whose normal function remains incompletely characterized.",
+      "replacement_text": "NUTM2A encodes NUT family member 2A.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:23438 / NUTM2A",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23438",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NUTM2B",
+      "original_text_sha256": "dfe7553473df29b44942a609667edd44db962db581daa79ed54b20102eadd6e3",
+      "original_text": "NUTM2B encodes a NUT-family protein whose normal function remains incompletely characterized.",
+      "replacement_text": "NUTM2B encodes NUT family member 2B.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:23445 / NUTM2B",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23445",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ZC3H7B",
+      "original_text_sha256": "fd621131c1429b28b092d58a67b376f47132180435b10eddda32c35ad591d53e",
+      "original_text": "ZC3H7B encodes a zinc-finger-containing protein with proposed RNA-associated regulatory functions.",
+      "replacement_text": "ZC3H7B encodes a protein containing zinc-finger and tetratricopeptide-repeat regions.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-23264"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23264 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23264",
+        "document_sha256": "ffc2c9e9fd7b1ba9ff5155b30dc785536e543f7669ef015e7427863da6e3ce86",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MAML3",
+      "original_text_sha256": "c154efc729ba4ea94c75142200c84f863539a5b3868992f82112857b0318a4de",
+      "original_text": "MAML3 encodes a transcriptional coactivator in Notch signaling.",
+      "replacement_text": "MAML3 encodes a transcriptional coactivator in Notch signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-55534"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 55534 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/55534",
+        "document_sha256": "9f24a042f3dbeef53e97f189e04e41031659496f68dc4fd076b053cdf45f0f1e",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "VGLL2",
+      "original_text_sha256": "663e78011c5e9a99602e8ec7b0d98713da79ae7f24b414dc7f1e342f364e2912",
+      "original_text": "VGLL2 encodes a transcriptional cofactor involved in skeletal-muscle differentiation.",
+      "replacement_text": "VGLL2 encodes a transcriptional cofactor involved in skeletal-muscle differentiation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-245806"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 245806 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/245806",
+        "document_sha256": "a2eee1cda283158debb054bb5ffe1687b918872eddf5771b1fe24dea59920846",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CITED2",
+      "original_text_sha256": "d36aa67d8aeffa8c9cfe22e75466c5d14d90dab1472e5978921acf47cd98eafb",
+      "original_text": "CITED2 encodes a transcriptional cofactor that interacts with CBP/p300.",
+      "replacement_text": "CITED2 encodes a transcriptional cofactor that interacts with CBP/p300.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-10370"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10370 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10370",
+        "document_sha256": "9ef86062612de390167a22d5625f3fd6f6ac0d03e509436e8664696dda3fb512",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "KIAA1549",
+      "original_text_sha256": "ebc77e5f4f83cdf749713f40cb9d39105eaf89aa9f13f6b6c7a4ecd98bda244c",
+      "original_text": "KIAA1549 encodes a protein implicated in nervous-system development.",
+      "replacement_text": "KIAA1549 encodes a UPF0606-family protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-57670"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 57670 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/57670",
+        "document_sha256": "f88b3a132c17ff527f0650900e58fa0d161a2e01647c6d30b01288270265db9c",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BRAF",
+      "original_text_sha256": "296284c6ac14cd374c43e01f7bd9287f9c3e5dc95e23fea5d313545f2bd42417",
+      "original_text": "BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "replacement_text": "BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-673"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 673 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/673",
+        "document_sha256": "d3caeddefe5a3e1048b3a11323f59ed4364e5e1f5ca8b6c536bec3e31dd04259",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FAM131B",
+      "original_text_sha256": "f5b1b0f1fca495eee824852aec1e66cb2d7f65f0c1ba3fa1c87aa7a276a8f0ff",
+      "original_text": "FAM131B encodes a protein whose normal biological function remains incompletely characterized.",
+      "replacement_text": "FAM131B encodes family with sequence similarity 131 member B.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:22202 / FAM131B",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:22202",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SRGAP3",
+      "original_text_sha256": "7161be0e97c236838be8892ee80740f0611267e577bf9203705bd7d684cf5dbd",
+      "original_text": "SRGAP3 encodes a Rho GTPase-activating protein involved in neural development and cytoskeletal regulation.",
+      "replacement_text": "SRGAP3 encodes SLIT-ROBO Rho GTPase-activating protein 3.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:19744 / SRGAP3",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:19744",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RAF1",
+      "original_text_sha256": "7e1a823abf592f1456c12323ea827d3707666c0689e9d2135329135dbca400cd",
+      "original_text": "RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "replacement_text": "RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5894"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5894 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5894",
+        "document_sha256": "6febe1c0bbcbfb7779c8091d66132c147d8688e98a8f0c117ff3a5e9ca8fa1cf",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "QKI",
+      "original_text_sha256": "a1122c11c0cf2e48dbc1854b2d1eb3a79d34ea050d97e17298108585d4767aef",
+      "original_text": "QKI encodes an RNA-binding protein that regulates RNA processing and myelination.",
+      "replacement_text": "QKI encodes an RNA-binding protein that regulates RNA processing and myelination.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-9444"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 9444 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/9444",
+        "document_sha256": "34c4bef49e6d6cb863872aa46f6ca26cdf703f696cbd77994a31c9c140f89261",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "ZFTA",
+      "original_text_sha256": "2d37febee566b0bf67abc5376d9ac008ca7702f4691c808f766ffdee0a37dc20",
+      "original_text": "ZFTA encodes a zinc-finger protein with chromatin-binding activity.",
+      "replacement_text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-65998"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 65998 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/65998",
+        "document_sha256": "454ef726b0ee11c05d1fcea82440700a3435f8de9c6b0de6b3ed0713040f36e3",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RELA",
+      "original_text_sha256": "7fef614283ef01804f3b11d50d4fbbad356609498b37a076e2d3cea5cb569c0d",
+      "original_text": "RELA encodes p65, a transcriptional subunit of the NF-kappaB complex.",
+      "replacement_text": "RELA encodes p65, a transcriptional subunit of the NF-kappaB complex.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5970"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5970 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5970",
+        "document_sha256": "74e67ccaf2ad645659fc1128943daeb04b0d6780f6f444b2d53920544fc642c9",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MAMLD1",
+      "original_text_sha256": "3a62dfe82e09df0c0894af5a512a19a0550c3dcfe5422163b7031390829563e4",
+      "original_text": "MAMLD1 encodes a transcriptional regulator involved in developmental gene expression.",
+      "replacement_text": "MAMLD1 encodes a transcriptional regulator involved in developmental gene expression.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-10046"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10046 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10046",
+        "document_sha256": "c5046ad38e3fc162cb77b6910cea949c9960dd1a361b573f00377b2acdc187c0",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MYB",
+      "original_text_sha256": "db17fc1d9ed3d64c21143167822e90e696967603f0ddaf27aebff2e369e7add5",
+      "original_text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation.",
+      "replacement_text": "MYB encodes a DNA-binding transcriptional regulator involved in hematopoiesis.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4602"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4602 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4602",
+        "document_sha256": "513b91d2d0c826db1817c5ac7bb77c00a81a09764f21e465920ab890615f1e39",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MN1",
+      "original_text_sha256": "5a9c861f57edb00a37deae82a129a23827b75bb0e11e5512a5565a35c5726a5a",
+      "original_text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs.",
+      "replacement_text": "MN1 encodes the meningioma 1 protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4330"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4330 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4330",
+        "document_sha256": "da31de996b6452dd7d6975f3483c2f1adcb34be0e72dbf011227d11b40482253",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BEND2",
+      "original_text_sha256": "cba6290734c42685f0a8c4926bf9a1300eac6d2d50d507eaae53c0306af35962",
+      "original_text": "BEND2 encodes a BEN-domain protein implicated in transcriptional regulation.",
+      "replacement_text": "BEND2 encodes a BEN-domain protein implicated in transcriptional regulation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-139105"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 139105 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/139105",
+        "document_sha256": "f1f01c2697cfa4831dbe5dc8ef0d7efc380ca8c94ed63aa53e8708398c20d73d",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CXXC5",
+      "original_text_sha256": "628f9012c2950996ae79425a73536f438aac77e4312a70cf4ef5be764554e5c5",
+      "original_text": "CXXC5 encodes a CXXC-domain transcriptional regulator involved in developmental signaling.",
+      "replacement_text": "CXXC5 encodes a CXXC-domain transcriptional regulator involved in developmental signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-51523"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 51523 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/51523",
+        "document_sha256": "50be42f2daa361f2bf5ae587a090dfcc125142ffcd281cafccbf17c9bdb8ef45",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SLC44A1",
+      "original_text_sha256": "d5d2ccf86118e3cee65437e38d9ddebd6cf905902b7a3d68b1c63f09f9e1d657",
+      "original_text": "SLC44A1 encodes choline transporter-like protein 1.",
+      "replacement_text": "SLC44A1 encodes choline transporter-like protein 1.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-23446"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23446 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23446",
+        "document_sha256": "5b63a9eedc3aae7a8fe85fe4dbb5a0d405222eb4a5a6b457f0f9aebbb447c019",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PRKCA",
+      "original_text_sha256": "8af645ad894fa2231ad6e2abb0f22075b0487b64a2f9147984b955de08c2c352",
+      "original_text": "PRKCA encodes protein kinase C alpha, a calcium- and diacylglycerol-regulated serine/threonine kinase.",
+      "replacement_text": "PRKCA encodes protein kinase C alpha, a calcium- and diacylglycerol-regulated serine/threonine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5578"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5578 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5578",
+        "document_sha256": "560a7ac96ac0561383db686138a085082783ff25273891a4827c961d44b5d0ca",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CRTC1",
+      "original_text_sha256": "43711d08b0bc3b0cd2c8a5dc300fffb0ed6ab631bd273392470f266272283327",
+      "original_text": "CRTC1 encodes a coactivator of CREB-dependent transcription.",
+      "replacement_text": "CRTC1 encodes a coactivator of CREB-dependent transcription.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-23373"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23373 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23373",
+        "document_sha256": "84050b7908a16ce2ed5086255d90c2e062a9ff85107d656a5ea514aae74322df",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MAML2",
+      "original_text_sha256": "9e1d042cd553b86c78427c144b147e01affc777efd1703376c7932386ae3cbf1",
+      "original_text": "MAML2 encodes a transcriptional coactivator in Notch signaling.",
+      "replacement_text": "MAML2 encodes a transcriptional coactivator in Notch signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-84441"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 84441 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/84441",
+        "document_sha256": "9ae7a41f31cfee79ccf8a69e30e1406629670c1691c7a5bf44aec08561708b0a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CRTC3",
+      "original_text_sha256": "8dd7a2bab1eda7145a0db1ed2831c42fbff64706b3372cbe1986cbdeac46df4b",
+      "original_text": "CRTC3 encodes a coactivator of CREB-dependent transcription.",
+      "replacement_text": "CRTC3 encodes a coactivator of CREB-dependent transcription.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-64784"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 64784 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/64784",
+        "document_sha256": "f32e88b1d0a0cc3a2c80c965793e74ff74de5b92e9f1965ca67dc2ec4ede789c",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NFIB",
+      "original_text_sha256": "c2b3b659abdbcb1c074ecc327d3f26f151405aa41c6cf8c06caf033418a7273f",
+      "original_text": "NFIB encodes a nuclear-factor-I transcription factor involved in tissue development.",
+      "replacement_text": "NFIB encodes a nuclear-factor-I transcription factor involved in tissue development.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4781"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4781 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4781",
+        "document_sha256": "d3b2c43b75ecb127999f19797887a34b23d3ad4d799b24c5c4005555a32e45c4",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MYBL1",
+      "original_text_sha256": "3c1de0a1875ffc95ee4087452717cb2e1d87de1a8ad8dd55cf8d01868288c5d1",
+      "original_text": "MYBL1 encodes a MYB-family transcription factor.",
+      "replacement_text": "MYBL1 encodes a MYB-family transcription factor.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4603"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4603 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4603",
+        "document_sha256": "b446970711bd093a825ecd49258219d1662dce033f89ea365c50169dfaeb71d0",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BRD4",
+      "original_text_sha256": "f89dff2d8e1d2b6a2cf2687ead68c2a372068bd4937603ad1dd133da5413b1e1",
+      "original_text": "BRD4 encodes a BET-family chromatin reader that regulates transcriptional elongation.",
+      "replacement_text": "BRD4 encodes a bromodomain-containing chromatin-associated protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-23476"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 23476 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/23476",
+        "document_sha256": "c6b3eb8bd7a1bde396140ac444f9e525ae79b01416e1398f8ec8bbb00b47852d",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NUTM1",
+      "original_text_sha256": "afe6363e6b646f319238d3b26e9e2d3a64d16a36564e8f05e17f5a2dc370b84b",
+      "original_text": "NUTM1 encodes a normally testis-enriched protein that interacts with the acetyltransferase p300.",
+      "replacement_text": "NUTM1 encodes NUT family member 1.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-256646"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 256646 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/256646",
+        "document_sha256": "625140a91ec612bd0edaea025643709930b5dddf00d28d0775be9f4b8a57d0dc",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BRD3",
+      "original_text_sha256": "88bbc8cad6ef949a2ce8f04f27bd2bcd7e41ee1659bb3c9d6e0407ce06aca83a",
+      "original_text": "BRD3 encodes a BET-family acetylated-chromatin reader and transcriptional regulator.",
+      "replacement_text": "BRD3 encodes bromodomain-containing protein 3.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-8019"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8019 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8019",
+        "document_sha256": "3a5d83bc943e3fe5c9d938b7f0e9b3d2a5c431983e379b667aa4ae9c837ac35f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NSD3",
+      "original_text_sha256": "a0a20fc173b2074b3d78c9aac4e05511f2f7fad34b9d8abf1dcafa4dae1c2b73",
+      "original_text": "NSD3 encodes a chromatin regulator with isoforms that interact with transcriptional machinery.",
+      "replacement_text": "NSD3 encodes a chromatin regulator with isoforms that interact with transcriptional machinery.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-54904"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 54904 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/54904",
+        "document_sha256": "e0b5d87333d6f6d9aa60bb9ccd7919b9848137062daca828a9a3b70cbe273e16",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "DNAJB1",
+      "original_text_sha256": "3b038ce69f3ce9441b4461b973dd58b699a22fff16d94e0a4091b5173e0f8b86",
+      "original_text": "DNAJB1 encodes an HSP40-family cochaperone that regulates HSP70 activity.",
+      "replacement_text": "DNAJB1 encodes an HSP40-family cochaperone that regulates HSP70 activity.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-3337"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3337 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3337",
+        "document_sha256": "b7b9847c2b49f1e3d0697158c84254948870e0dac338e3e18e9298a0eb645dfc",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PRKACA",
+      "original_text_sha256": "976c70561bbabb65ca885413988cb2545969cb165c4506c1e793ff52b7dbd15b",
+      "original_text": "PRKACA encodes the alpha catalytic subunit of cyclic-AMP-dependent protein kinase A.",
+      "replacement_text": "PRKACA encodes the alpha catalytic subunit of cyclic-AMP-dependent protein kinase A.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5566"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5566 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5566",
+        "document_sha256": "f6a3463377d2f3a8e4ed8edef32501b4090c7fecf39b2c32c290eedf6d95cf92",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TMPRSS2",
+      "original_text_sha256": "4e4611c9a513c9a9ab3df184407317cb8320f6ae12f9be4c085c1274384bba9d",
+      "original_text": "TMPRSS2 encodes an androgen-regulated transmembrane serine protease.",
+      "replacement_text": "TMPRSS2 encodes an androgen-regulated transmembrane serine protease.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7113"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7113 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7113",
+        "document_sha256": "79d1b9aeb7fc0b4780484c87658182cb2a282b77861669b5de67a30584863044",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CTNNB1",
+      "original_text_sha256": "7d90b023974378f02d6c51969f4dbb9fd9363158da6f0fca3a15e21daf6930a0",
+      "original_text": "CTNNB1 encodes beta-catenin, which participates in cell adhesion and Wnt-dependent transcription.",
+      "replacement_text": "CTNNB1 encodes beta-catenin, which participates in cell adhesion and Wnt-dependent transcription.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-1499"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 1499 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/1499",
+        "document_sha256": "29bba3eb2a3ee52303f1a27b183a9f230c82b2aad53c660c6b7ece9076fda056",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PLAG1",
+      "original_text_sha256": "375fd7367eaee211dadc0fea03caa9c4eb487c8f97a720292697d416e5ec4160",
+      "original_text": "PLAG1 encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2.",
+      "replacement_text": "PLAG1 encodes a developmentally regulated zinc-finger protein.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-5324"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5324 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5324",
+        "document_sha256": "21db113ab04ddec18228b31af55747afb56e5d88797dd9bd3fa1853c767689ac",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "LIFR",
+      "original_text_sha256": "131f740847e8a1ca2e5930a49592c26c4526697c7d96b02fcbb14458c458c939",
+      "original_text": "LIFR encodes a cytokine-receptor subunit that mediates leukemia inhibitory factor signaling.",
+      "replacement_text": "LIFR encodes leukemia inhibitory factor receptor subunit alpha.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:6597 / LIFR",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6597",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TFG",
+      "original_text_sha256": "8bc211b1ed2cd8390022a53f538a60a6ca97d631f5068503d60c9e02a28b3cb0",
+      "original_text": "TFG encodes a coiled-coil protein involved in protein export from the endoplasmic reticulum.",
+      "replacement_text": "TFG encodes TFG protein, a recurrent partner in oncogenic rearrangements.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-10342"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 10342 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/10342",
+        "document_sha256": "78b8536ce84e0ac3dad8ffb0ee05fe84e56a1e61d4446c0bfb0daaf213afdd32",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "FN1",
+      "original_text_sha256": "f586c4584ed417ed07687be8fa666478d698eb4e1022ebf18e3d09e464b12ac2",
+      "original_text": "FN1 encodes fibronectin, an extracellular-matrix adhesion protein.",
+      "replacement_text": "FN1 encodes fibronectin, an extracellular-matrix adhesion protein.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2335"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2335 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2335",
+        "document_sha256": "bc0bf0385e8acc4871d57058ae923f987eb9c9b1b7f309251f0fc136bda5ee5f",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PHF1",
+      "original_text_sha256": "100cfe6eb7cfcaaad996711861721e81a45d3398e478ff153a063bd7bbede6a5",
+      "original_text": "PHF1 encodes a Polycomb-associated histone reader involved in chromatin repression.",
+      "replacement_text": "PHF1 encodes a Polycomb-associated protein involved in transcriptional repression.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-5252"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5252 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5252",
+        "document_sha256": "7e384f382cd4ab86dc2fa1e4789a00d50791dcba1e9b54ad2f7719619aff2e86",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "EPC1",
+      "original_text_sha256": "38c3da468df177e465fc0ba2a5c50ea3124d1630aedad8cc6f91dd59a65ad0ef",
+      "original_text": "EPC1 encodes a chromatin-regulatory component of histone acetyltransferase complexes.",
+      "replacement_text": "EPC1 encodes a chromatin-regulatory component of histone acetyltransferase complexes.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-80314"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 80314 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/80314",
+        "document_sha256": "71e18ac8c5b880793ab062370a9b0559cca9ac06d4e7524db4c0ec87d1249827",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MEAF6",
+      "original_text_sha256": "1d71fb20d1991f136d70a276ba5d006354a6b653537143b44a91a4190632af91",
+      "original_text": "MEAF6 encodes a component of histone acetyltransferase complexes.",
+      "replacement_text": "MEAF6 encodes a component of histone acetyltransferase complexes.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-64769"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 64769 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/64769",
+        "document_sha256": "63247c4b3904eb070f6d7c5dd780cc43fd5a12148547cde8f00feb95c2a40086",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MECOM",
+      "original_text_sha256": "94c1bd1ebb6b012e0b0772fe0c2f0a0f4067ae6ec347cca023aaac10a7d159dc",
+      "original_text": "MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis.",
+      "replacement_text": "MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2122"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2122 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2122",
+        "document_sha256": "9f40b85703c9c1ed5c8dd60ca7d94776918db9d7e5c995009c0212c7cc4a2474",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MLF1",
+      "original_text_sha256": "f8ae64bdb058f47436f2a9758a949e0936585c73865113aec9cbde18410ac39c",
+      "original_text": "MLF1 encodes a regulator of hematopoietic cell differentiation and survival.",
+      "replacement_text": "MLF1 encodes myeloid leukemia factor 1.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:7125 / MLF1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7125",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PTPRZ1",
+      "original_text_sha256": "ab0ab548b8d0e3044b9f95bb7de852410b643e96da06e2b31980d88d998be6df",
+      "original_text": "PTPRZ1 encodes a receptor-type tyrosine phosphatase enriched in the nervous system.",
+      "replacement_text": "PTPRZ1 encodes receptor-type protein tyrosine phosphatase zeta.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:9685 / PTPRZ1",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9685",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MET",
+      "original_text_sha256": "79c99a4f2e4dd152687fabddef26634b6e30083aed25fdeba5e500c81ae79399",
+      "original_text": "MET encodes the hepatocyte-growth-factor receptor tyrosine kinase.",
+      "replacement_text": "MET encodes the hepatocyte-growth-factor receptor tyrosine kinase.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4233"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4233 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4233",
+        "document_sha256": "b99409cd2e98e6eb279f27a430ff0ffcdb9699adc54635f62c37089c592534e9",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BCAN",
+      "original_text_sha256": "60271643a7d35e11de3cfbbffa937e1e90a4530e0565930acc657c37a898257c",
+      "original_text": "BCAN encodes brevican, a neural extracellular-matrix proteoglycan.",
+      "replacement_text": "BCAN encodes brevican.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:23059 / BCAN",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23059",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NACC2",
+      "original_text_sha256": "bb0b5023a54cd09a21220ec665353a212bf8c32cffff88503713c50579343b7d",
+      "original_text": "NACC2 encodes a nuclear BTB-domain transcriptional regulator.",
+      "replacement_text": "NACC2 encodes NACC family member 2.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:23846 / NACC2",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23846",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "IGH",
+      "original_text_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "original_text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "replacement_text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3492 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3492",
+        "document_sha256": "18459ea4cf0f732a438373575e5a24310f7e7f972c07a31164aef676d351806a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MYC",
+      "original_text_sha256": "108bfd788765bf61fd6a582d97115b6eaf80232df2173eec4c53b0f1db7a6d77",
+      "original_text": "MYC encodes a transcription factor that controls cellular growth and metabolism.",
+      "replacement_text": "MYC encodes a MAX-interacting transcription factor that regulates cell-cycle and growth programs.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-4609"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4609 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4609",
+        "document_sha256": "5d34e84a89de31c1f5b738438a9c30a89e0991c709fdbe5c796a05aac88a1b15",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "IGK",
+      "original_text_sha256": "173fea511f16838c8f03578612d1fb76f04716e7fb77a41470c85f18dfeffe8b",
+      "original_text": "IGK is the immunoglobulin kappa light-chain locus, with B-lineage regulatory elements.",
+      "replacement_text": "IGK is the immunoglobulin kappa light-chain locus.",
+      "decision": "narrow",
+      "source_ids": [
+        "hgnc"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "identity_reference",
+        "location": "Approved HGNC snapshot row HGNC:5715 / IGK",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5715",
+        "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "IGL",
+      "original_text_sha256": "96e1b56022b2fb0675624e3ef99801ae0a0f3b7c01ebea250f05e65b3e0571ea",
+      "original_text": "IGL is the immunoglobulin lambda light-chain locus, with B-lineage regulatory elements.",
+      "replacement_text": "IGL is the immunoglobulin lambda light-chain locus involved in antibody light-chain diversity.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-3535"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3535 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3535",
+        "document_sha256": "ee287c58519ced0a0dc1c402c2b544b625a7dda368fe0be452bd5a57354f5748",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BCL2",
+      "original_text_sha256": "b16ac7af46edaffc78563d6facca7393dec36411adbbcf3c21a1f8660c67aa37",
+      "original_text": "BCL2 encodes an antiapoptotic mitochondrial protein.",
+      "replacement_text": "BCL2 encodes an antiapoptotic mitochondrial protein.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-596"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 596 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/596",
+        "document_sha256": "91432c0ff6d6215c6f8db108faf1dabb8075791309158d417194262aeb2f850b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BCL6",
+      "original_text_sha256": "5d12dbfc702f109f2600e9899d16f1cbf2b934a30888ece2f45a8649fb22b7c9",
+      "original_text": "BCL6 encodes a transcriptional repressor required for germinal-center B-cell programs.",
+      "replacement_text": "BCL6 encodes a transcriptional repressor required for germinal-center B-cell programs.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-604"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 604 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/604",
+        "document_sha256": "ff1386dc2f47f961dbe6c1088fba1b17496ba11d8d45d520301255eee628d195",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CCND1",
+      "original_text_sha256": "10a82f5e84c747bb6a8432cbce5baeba6f3a4ba691fae819d566b60020c1077d",
+      "original_text": "CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "replacement_text": "CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-595"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 595 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/595",
+        "document_sha256": "3bee1ade38300e45a5e58530c0923d3283d8812a1c02bbbf82af168d249e2db8",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CCND2",
+      "original_text_sha256": "0bf15243aeb92b64379e30abdec9118f14363ee85030b89a6ccac5f428c8eb38",
+      "original_text": "CCND2 encodes cyclin D2, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "replacement_text": "CCND2 encodes cyclin D2, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-894"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 894 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/894",
+        "document_sha256": "ff87fee80d842850fe536973b9745d905d76dca5b069b8707b09a4884946d5dc",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CCND3",
+      "original_text_sha256": "b2c0eb55fe9eb73bf5c34141d3ef23c31e5b382a960f8d73c87a0bbad1bf3fe7",
+      "original_text": "CCND3 encodes cyclin D3, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "replacement_text": "CCND3 encodes cyclin D3, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-896"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 896 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/896",
+        "document_sha256": "d3c15bc5e4b2f3caa850e19601568c4af07dbb32587cd4535341ec2f5120593a",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "BCL10",
+      "original_text_sha256": "41d46e87dd390291341af4840df61f322874a6fa24e2053ee4cadd6ff7d9cdce",
+      "original_text": "BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway.",
+      "replacement_text": "BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8915"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8915 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8915",
+        "document_sha256": "afd6db03e431fdcf7bdc18f14ee69df84119f9841dcae285d07e9fe733c742ee",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "CRLF2",
+      "original_text_sha256": "6cc8d7783cce36a9bce03852997338973f9a3a0858ce15ea276f46a7c22a4913",
+      "original_text": "CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling.",
+      "replacement_text": "CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-64109"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 64109 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/64109",
+        "document_sha256": "d31f87f7cfcfbfbb498c2ea2c8668b5dc657b65b9bdc4d674e8fb534223b5968",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "P2RY8",
+      "original_text_sha256": "e7ddc0e1ec285c30ab87a00932bbc0e6bd87c401cefe4dcaefed4aaf354ab8b1",
+      "original_text": "P2RY8 encodes a G-protein-coupled receptor involved in lymphocyte localization.",
+      "replacement_text": "P2RY8 encodes a G-protein-coupled receptor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-286530"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 286530 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/286530",
+        "document_sha256": "d3e11b0543b72003f18d40cab3b52c048f89462702d1ed19fabe22175cddc625",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TCR loci",
+      "original_text_sha256": "b68a3e913c425381f2423aeedf2d2d1e656f0375a8e3468ff1441ffd28613cff",
+      "original_text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements.",
+      "replacement_text": "TCR loci are the gene regions encoding T-cell receptor chains.",
+      "decision": "narrow",
+      "source_ids": [
+        "all"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "authoritative_reference",
+        "location": "NCI ALL classification: T-cell receptor locus rearrangements",
+        "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+        "document_sha256": null,
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TAL1",
+      "original_text_sha256": "dee51cc7a8ffeb0e76e045bc0a0812c95c385955eb2bb432c07ed6f7e62ac8c6",
+      "original_text": "TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development.",
+      "replacement_text": "TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6886"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6886 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6886",
+        "document_sha256": "8cc163a09ef8bbad45ec17c77b20c14d3a65637f23d5f330138ea1926e1e87ed",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TLX1",
+      "original_text_sha256": "08b2b7e8f8a58e7b918be11eedb495ce662c2ebcd457b0fb209579ef18eb3836",
+      "original_text": "TLX1 encodes a homeobox transcription factor with developmental functions.",
+      "replacement_text": "TLX1 encodes a homeobox transcription factor with developmental functions.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-3195"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 3195 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3195",
+        "document_sha256": "2d6cb3020c7bc15a2b9a601e55e95faeef0d7a75b7db890fbe7f444163fbc645",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TLX3",
+      "original_text_sha256": "9dc21527a53af51ca8ad0b42f21feffb4a938b577e559b43203bd8841e7b53ad",
+      "original_text": "TLX3 encodes a homeobox transcription factor involved in neuronal differentiation.",
+      "replacement_text": "TLX3 encodes a homeobox DNA-binding transcription factor.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-30012"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 30012 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/30012",
+        "document_sha256": "46f3410c031fdcd5ba4908d308628cb8a4ff482786cfc1f9492b2b54b4f9afe1",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "LMO2",
+      "original_text_sha256": "469e138372dff5968d9c9a193be074147a1d75cc78e99e60fc083fdb7e5ea084",
+      "original_text": "LMO2 encodes a LIM-domain scaffold for hematopoietic transcriptional complexes.",
+      "replacement_text": "LMO2 encodes a LIM-domain scaffold for hematopoietic transcriptional complexes.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4005"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4005 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4005",
+        "document_sha256": "4dd77e5b35b22bfed498dac1289785abdfcc34c5c441aa859fa4d541fff4963c",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "GATA2",
+      "original_text_sha256": "084aa3f0352ac922e4d727902d06e7214112dee48464c7d31fa8c865460db33b",
+      "original_text": "GATA2 encodes a zinc-finger transcription factor required for hematopoietic stem/progenitor-cell function.",
+      "replacement_text": "GATA2 encodes a zinc-finger transcription factor required for hematopoietic stem/progenitor-cell function.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-2624"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 2624 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2624",
+        "document_sha256": "6b7cf809b034c3ff99066ed2b26a34bb0a961e2c333fcddbca95ff537d9c9906",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NSD2",
+      "original_text_sha256": "eeb64f583666c572e90bb33725e506ce0b0a22c3dd640bd227a32dd23a4d693d",
+      "original_text": "NSD2 encodes a histone H3 lysine-36 methyltransferase.",
+      "replacement_text": "NSD2 encodes a SET-domain chromatin regulator.",
+      "decision": "narrow",
+      "source_ids": [
+        "ncbi-7468"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7468 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7468",
+        "document_sha256": "5ed4067368ad59f61c3b23994210b7a34d426e0ac6a748aecf1981d305941bc3",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MAF",
+      "original_text_sha256": "0482b1be4372e41f05aede82a3967b4d86966d3b3fd707934197922e112f479b",
+      "original_text": "MAF encodes a bZIP transcription factor involved in differentiation.",
+      "replacement_text": "MAF encodes a bZIP transcription factor involved in differentiation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4094"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4094 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4094",
+        "document_sha256": "213bc61adc408d07651148244074f3ec8e975e1659e1a7e36ca6a25d72ee8126",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MAFB",
+      "original_text_sha256": "dfb3d8c1ca541dfbc4a1209a9fe8b534b4ea5917cfcbf49555e2c4bfea18cfbb",
+      "original_text": "MAFB encodes a bZIP transcription factor involved in lineage differentiation.",
+      "replacement_text": "MAFB encodes a bZIP transcription factor involved in lineage differentiation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-9935"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 9935 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/9935",
+        "document_sha256": "5352091631e23cf1bd0d18cb73875f9c05314ec3baeef9623bf3048617540f73",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "PRCC",
+      "original_text_sha256": "2c7600cf1e2fbc6beb7829baa2f0f8f2e69c187904df73b98167c6c6275bc65f",
+      "original_text": "PRCC encodes a proline-rich protein associated with pre-messenger RNA splicing.",
+      "replacement_text": "PRCC encodes a proline-rich protein associated with pre-messenger RNA splicing.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-5546"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 5546 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/5546",
+        "document_sha256": "7bcb6087fb8fb83561eab8cb2c0559d010ab6e466d69287e5330fade572cd348",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "SFPQ",
+      "original_text_sha256": "6199e5780579ca4ae4cd58b504fd443d2d0153952121822ced905d95d476f304",
+      "original_text": "SFPQ encodes an RNA-binding protein involved in splicing and transcriptional regulation.",
+      "replacement_text": "SFPQ encodes an RNA-binding protein involved in splicing and transcriptional regulation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-6421"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 6421 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/6421",
+        "document_sha256": "98463c6b17e60e70371f9311a75bd5427da508d572b22b570346a7dc21bf509b",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "NONO",
+      "original_text_sha256": "03f0c7d1c6779f88934ddbf102b0bca6593bdd85fb7bd29d7c35d66f8854988c",
+      "original_text": "NONO encodes an RNA-binding protein involved in RNA processing and nuclear organization.",
+      "replacement_text": "NONO encodes an RNA-binding protein involved in RNA processing and nuclear organization.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-4841"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 4841 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/4841",
+        "document_sha256": "034b8f7a877abfc3db2a52114de3c052ff6345aac6d940404265185789aa6dcc",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "RBM10",
+      "original_text_sha256": "9227a69460d92cc8b1b499826931099c47af6720c3052735eba4c333a9079f85",
+      "original_text": "RBM10 encodes an RNA-binding regulator of alternative splicing.",
+      "replacement_text": "RBM10 encodes an RNA-binding regulator of alternative splicing.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-8241"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 8241 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/8241",
+        "document_sha256": "55a308af64c50657e28b75615ec5315abd7d8e4a9d4f6f9c039b8d4d63441862",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "MALAT1",
+      "original_text_sha256": "f36c976350298bff713528798446a239492689246f6e94732f4ddfe775650d9f",
+      "original_text": "MALAT1 produces a long noncoding RNA involved in nuclear RNA organization and gene regulation.",
+      "replacement_text": "MALAT1 produces a long noncoding RNA involved in nuclear RNA organization and gene regulation.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-378938"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 378938 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/378938",
+        "document_sha256": "ec64f76aed68c9e0d75f8f7b680adcdca1a5a082bee894dd51e634ddc9d57984",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    },
+    {
+      "symbol": "TFEB",
+      "original_text_sha256": "76ec308c8480fc6a1bd6601f94333021d960bce9aa8431a04dc6b6f425cc1df9",
+      "original_text": "TFEB encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy.",
+      "replacement_text": "TFEB encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy.",
+      "decision": "retain",
+      "source_ids": [
+        "ncbi-7942"
+      ],
+      "evidence": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "basis": "gene_reference",
+        "location": "NCBI Gene 7942 RefSeq/Alliance summary, inspected cached esummary record",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/7942",
+        "document_sha256": "c54b904184052cf0b2e61792ada3709ade105d6cedfd03caf988975f5f775b41",
+        "scope": "Normal partner description only; not primary fusion evidence."
+      }
+    }
+  ]
+}

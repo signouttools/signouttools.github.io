@@ -19,16 +19,30 @@
     "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
     "B-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-8e82b6b73906",
+    "fusion-context-214d146d359b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "BCR",
-      "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+      "text": "BCR encodes breakpoint cluster region protein.",
       "source_ids": [
         "ncbi-613"
       ],
-      "claim_sha256": "397bf4a09dbdc34975b0d771c84c1d6f8ec4376ee75b6adf82478dc52a1d7a2d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "2bca2145d123f93d01e449d1b694e12693622aab0e4fde7067ebc4abcbfc4644",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-613",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/613",
+          "location": "NCBI Gene 613 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6fd4dcdeab20eef515391d68af5d07474c616b52903098e67c841caee60c7466"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,45 +52,81 @@
         "ncbi-3717"
       ],
       "claim_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3717",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3717",
+          "location": "NCBI Gene 3717 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ae674c741d110a87329c5bbda7966680f900808434b902ffe1f4786d8bbabece"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. BCR::JAK2 is associated with myeloid/lymphoid neoplasia.",
+      "text": "BCR::JAK2 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region.",
       "source_ids": [
         "phlike"
       ],
-      "claim_sha256": "99ce0f4e7d43cad4950352adc4cb76eb2aa82754027ce7e4197da72050d8c36f",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "77c6d12fb67e5cb37efe72da46b8981ecfa0f100515fd6efeece1440b374f15c",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "phlike",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22897847/",
+          "location": "Results: kinase rearrangement identification; Figure 2/Table 1 and intact kinase-domain analysis",
+          "scope": "Direct sequencing evidence for ordered pair in B-ALL and kinase retention.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+      "text": "JAK inhibition showed activity in experimental JAK2-fusion leukemia systems; this is preclinical evidence for this fusion class.",
       "source_ids": [
-        "jak2"
+        "phlike"
       ],
-      "claim_sha256": "3684b554300de06309af6a0b18b4ab38208848dbbd25e2f6cc4c351213f84cae",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "bb39f0c5a469b427b6ddf555ed68417b1ee78d49094ee3145c511072905c783f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "phlike",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22897847/",
+          "location": "Results: kinase inhibitor assays / sensitivity to kinase inhibition; Figures 5-7 (Roberts 2012) or functional assays (Roberts 2014)",
+          "scope": "Preclinical class/selected-pair sensitivity; no response guarantee or FDA label inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. BCR::JAK2 is associated with myeloid/lymphoid neoplasia. Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+    "text": "BCR encodes breakpoint cluster region protein. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. BCR::JAK2 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region. JAK inhibition showed activity in experimental JAK2-fusion leukemia systems; this is preclinical evidence for this fusion class.",
     "source_ids": [
       "ncbi-613",
       "ncbi-3717",
-      "phlike",
-      "jak2"
+      "phlike"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "9db6dbb11777990647593661f09b3646faa32a2add2304dc7a0ae94e087aefb1"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "0f1e938314f43389be67878db100ff0dc1f693fdb7bccabb67c45ac4fb44e223"
 }

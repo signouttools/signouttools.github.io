@@ -24,3 +24,11 @@ details.variant-card > details { margin-top: 1rem; }
 .about-library { margin: 1rem 0 1.5rem; padding: 1rem; border: 1px solid var(--line, #cad4dd); border-radius: .5rem; }
 .about-library > summary, .association-details > summary, .evidence-review > summary { cursor: pointer; font-weight: 650; }
 .association-details { margin: 1.25rem 0; }
+
+.library-modes{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+.library-modes button{min-height:2.9rem;padding:.6rem 1rem;border:1px solid #a8bbc8;border-radius:.4rem;background:white;color:var(--accent);font:inherit;font-weight:650}
+.library-modes button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:white}
+.fusion-link{margin-top:1rem}
+.entry h2{overflow-wrap:anywhere}
+.tags .quiet{font-size:.875rem}
+.evidence-review li{margin:.5rem 0}

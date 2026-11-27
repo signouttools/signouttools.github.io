@@ -19,6 +19,10 @@
     "Glioma",
     "Extraventricular neurocytoma"
   ],
+  "disease_ids": [
+    "glioma",
+    "fusion-context-540e9e22dbaf"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,54 +32,99 @@
         "ncbi-2260"
       ],
       "claim_sha256": "0873ffc09ea58b6367f10070d7afa2c8ce61ca270f9f201036a60596a76a9dfd",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2260",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2260",
+          "location": "NCBI Gene 2260 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7ea841889cae5e4418d7d07782dfcfec4a162f88cbc338606418fec3cefd1bf4"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "TACC1",
-      "text": "TACC1 encodes a coiled-coil protein associated with microtubule and centrosome functions.",
+      "text": "TACC1 encodes transforming acidic coiled-coil-containing protein 1.",
       "source_ids": [
         "ncbi-6867"
       ],
-      "claim_sha256": "9a0724fff38fdbcd9a6be9a42926d043f06d93dd07c6fcf118417c8ee5e71d6c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "a2ebe8f604933272576ce67126b7251fbe08a60711eb91aca0f2bb8564ac857a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6867",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6867",
+          "location": "NCBI Gene 6867 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0ca3fc4d6f0db3f16694ec7307b3a0e33a929cf52ab9d352d1d3f3509b8bc1a6"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
       "text": "The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models.",
       "source_ids": [
-        "fgfr-tacc"
+        "audit-solid-fgfr-tacc"
       ],
       "claim_sha256": "cc4d65769c31e23695a122932af58cda80ada57981b40515f0af3f8eecc045d1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-fgfr-tacc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3677224/",
+          "location": "Main text, Figure1 domain/cDNA results; transforming activity experiments in Figure2 and aneuploidy in Figure3",
+          "scope": "Fusion architecture, constitutive kinase and experimental transforming activity; FGFR3 inhibitor survival experiment is not a clinical glioma indication.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
       "text": "FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication.",
       "source_ids": [
-        "fgfr-tacc"
+        "audit-solid-fgfr-tacc"
       ],
       "claim_sha256": "4733370670fcacf1a6712672bc087e2cf5ed5daba945c7cf17d62ba0940c3b64",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-fgfr-tacc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3677224/",
+          "location": "Main text, Figure1 domain/cDNA results; transforming activity experiments in Figure2 and aneuploidy in Figure3",
+          "scope": "Fusion architecture, constitutive kinase and experimental transforming activity; FGFR3 inhibitor survival experiment is not a clinical glioma indication.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. TACC1 encodes a coiled-coil protein associated with microtubule and centrosome functions. The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models. FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication.",
+    "text": "FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. TACC1 encodes transforming acidic coiled-coil-containing protein 1. The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models. FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication.",
     "source_ids": [
       "ncbi-2260",
       "ncbi-6867",
-      "fgfr-tacc"
+      "audit-solid-fgfr-tacc"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "8119db0d1a2cfb99bdef653a6c968637f3a4225fa3d32f7bbf82302ba523034f"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "a77dd7ce8fa6b5ee03d782f49e251bfc70a570e286d1be8397b3e5b4eb7a901d"
 }

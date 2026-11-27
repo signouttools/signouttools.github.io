@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML"
   ],
+  "disease_ids": [
+    "aml"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-861"
       ],
       "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-861",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/861",
+          "location": "NCBI Gene 861 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "281d1db63e514c1be3b182ab702596a22d8563f242022de1c89338d1f902efcf"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,16 +50,36 @@
         "ncbi-863"
       ],
       "claim_sha256": "313d32ab607d5d39167551e93e53c8b89eacf5e4cdb2819c00f4088f5919422b",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-863",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/863",
+          "location": "NCBI Gene 863 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "887d155eaf9968e1aa64e5c824e18ffb51f7417403b2c73ab6b53690039852b5"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(16;21)(q24;q22) fusion combines RUNX1 DNA binding with a CBFA2T3 corepressor region, altering myeloid transcription. Its expression profile resembles RUNX1::RUNX1T1 AML.",
+      "text": "The t(16;21)(q24;q22) fusion joins RUNX1 and CBFA2T3. In pediatric AML, its expression profile clustered near RUNX1::RUNX1T1 AML.",
       "source_ids": [
         "t16"
       ],
-      "claim_sha256": "94724c3fc0cfb89e71d212ba755a7d7900279e97377f65ac15f1e1d5775123b5",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "9faf1592aec240c0b09aec9fea849ee1b684333ddaefb92ec97b17fd9a160560",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "t16",
+          "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+          "location": "Results, Gene expression profiling; Figure 2, PDF pages 4-5",
+          "scope": "Observed expression similarity rather than direct corepressor functional assay.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -54,27 +87,44 @@
       "source_ids": [
         "t16"
       ],
+      "evidence_review_status": "primary_fulltext_supported",
       "claim_sha256": "e4180100eb994cad668e61c872aaa41dbde369328d79070f31cb101e4269477f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "t16",
+          "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+          "location": "Results, Table 1/Figure 1 and multivariable model, PDF pages 3-4",
+          "scope": "Better pediatric outcome than FUS::ERG and similar to standard-risk CBF AML.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. The t(16;21)(q24;q22) fusion combines RUNX1 DNA binding with a CBFA2T3 corepressor region, altering myeloid transcription. Its expression profile resembles RUNX1::RUNX1T1 AML. In the pediatric I-BFM cohort, outcomes resembled other core-binding factor leukemias and were substantially better than those of FUS::ERG AML.",
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. The t(16;21)(q24;q22) fusion joins RUNX1 and CBFA2T3. In pediatric AML, its expression profile clustered near RUNX1::RUNX1T1 AML. In the pediatric I-BFM cohort, outcomes resembled other core-binding factor leukemias and were substantially better than those of FUS::ERG AML.",
     "source_ids": [
       "ncbi-861",
       "ncbi-863",
       "t16"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "4584c7be9fdf247c4102b3d902b9bed6138846fb13f934360b5763dd5ffb365c"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "fe22b7e21f2b360f1466d24f28ad7c55f18afb5e417098c9da1b40a3182e5928"
 }

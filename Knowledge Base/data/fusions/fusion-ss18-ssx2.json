@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Synovial sarcoma"
   ],
+  "disease_ids": [
+    "atlas-nm-synovial"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-6760"
       ],
       "claim_sha256": "da50d3b744ead82a417b3acbf350620c999b896c74a57d05e46e6fd4301dd076",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6760",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6760",
+          "location": "NCBI Gene 6760 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2d3e60c61b45c9396b7fa9e29b7d4f981789c5f7eade29cf8ef8528028544a3f"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,52 +50,91 @@
         "ncbi-6757"
       ],
       "claim_sha256": "a45d14b182edba569699b514e931c800c505db35c45d30512b87b1b7b9a4b6e9",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6757",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6757",
+          "location": "NCBI Gene 6757 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "75649b1e36d483d2222efba51d79d78187ad781191538dbea6326bc5bd0acd51"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion replaces the SS18 carboxy terminus with SSX sequences and redirects BAF chromatin-remodeling complexes, activating an oncogenic transcriptional program. It is a defining molecular alteration of synovial sarcoma.",
+      "text": "SS18::SSX2 is a recognized SS18::SSX-family fusion in synovial sarcoma.",
       "source_ids": [
-        "ss18",
-        "ss18-mech",
-        "sarcoma"
+        "audit-sarcoma-nci-sts",
+        "audit-sarcoma-ss18"
       ],
-      "claim_sha256": "0c88df9c7ead2f38f65362eec9d55ed238084ccac52454b052595e099c204949",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "01e49814d75e440087d7279e97659a4bb59aac370c1349068949ff4241a919ca",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-sarcoma-ss18",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3655887/",
+          "location": "Results: SS18-SSX integrates into BAF complexes and alters complex composition; Figures 1–2",
+          "scope": "Direct functional experiments in SS18::SSX1-bearing Aska-SS and Yamato-SS cells; not pair-specific functional validation of SSX4.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
       "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
       "source_ids": [
-        "fda-synovial"
+        "audit-sarcoma-fda-afami"
       ],
       "claim_sha256": "5db13cebdd3eb02ac696d3e318282323e24a9978069c1e18dde07e9567afc425",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-afami",
+          "url": "https://www.fda.gov/media/180568/download",
+          "location": "Highlights; Indications and Usage",
+          "scope": "Adults with unresectable/metastatic synovial sarcoma after chemotherapy, specified HLA-A*02 alleles and MAGE-A4 expression.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "SS18 encodes a component of the BAF chromatin-remodeling complex. SSX2 encodes a cancer-testis antigen with transcriptional regulatory activity. The fusion replaces the SS18 carboxy terminus with SSX sequences and redirects BAF chromatin-remodeling complexes, activating an oncogenic transcriptional program. It is a defining molecular alteration of synovial sarcoma. Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+    "text": "SS18 encodes a component of the BAF chromatin-remodeling complex. SSX2 encodes a cancer-testis antigen with transcriptional regulatory activity. SS18::SSX2 is a recognized SS18::SSX-family fusion in synovial sarcoma. Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
     "source_ids": [
       "ncbi-6760",
       "ncbi-6757",
-      "ss18",
-      "ss18-mech",
-      "sarcoma",
-      "fda-synovial"
+      "audit-sarcoma-nci-sts",
+      "audit-sarcoma-ss18",
+      "audit-sarcoma-fda-afami"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
-    "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy."
+    "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "391c63258a5503c2ca3d15c8bab8a334856906bdf336f63d7e468072328276a3"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "1f6ee2bdc52cbe3f543a190f2d55f8539e273bcec0815aed109884cc3fe020d3"
 }

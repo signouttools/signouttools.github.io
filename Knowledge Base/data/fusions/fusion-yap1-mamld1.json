@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Supratentorial ependymoma, YAP1 fusion-positive"
   ],
+  "disease_ids": [
+    "fusion-context-c640334e5b9e"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-10413"
       ],
       "claim_sha256": "1a8bd583ad13c35afcf7349c401739f077529104c1fc58ab3a152b7e58f79c01",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10413",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10413",
+          "location": "NCBI Gene 10413 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "e80aa0a2311bfb61df3c96c7f5b5525a70c20667d9236ead51ca5676615a7fa4"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,7 +50,17 @@
         "ncbi-10046"
       ],
       "claim_sha256": "3a62dfe82e09df0c0894af5a512a19a0550c3dcfe5422163b7031390829563e4",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10046",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10046",
+          "location": "NCBI Gene 10046 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c5046ad38e3fc162cb77b6910cea949c9960dd1a361b573f00377b2acdc187c0"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
@@ -47,7 +70,17 @@
         "cns"
       ],
       "claim_sha256": "eef82a4e607b8b9e591e6a371d487fe4c46fcab7d65d535f1998ad788fb66c29",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "yap1",
+          "url": "https://www.nature.com/articles/s41467-019-11884-5",
+          "location": "Results, TEADs are required for YAP1-MAMLD1-driven tumorigenesis; Figure6a-e; NFIs are essential for fusion-driven hyperproliferation",
+          "scope": "TEAD-binding mutation prevents tumors; nuclear fusion and NFI requirement documented.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
@@ -59,17 +92,22 @@
       "cns"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "No uniform survival estimate or approved TEAD-directed treatment is asserted."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
   "text_sha256": "b365214b1082835353358b6bacba089779efb493d82782466d458e411a2f9d43"
 }

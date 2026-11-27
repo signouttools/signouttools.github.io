@@ -17,8 +17,11 @@
   "aliases": [],
   "tumor_contexts": [
     "Angiomatoid fibrous histiocytoma",
-    "Gastrointestinal neuroectodermal tumor",
-    "Intracranial mesenchymal tumor with FET::CREB fusion"
+    "Gastrointestinal neuroectodermal tumor"
+  ],
+  "disease_ids": [
+    "fusion-context-2828430f1e7b",
+    "fusion-context-ef3610f69105"
   ],
   "sections": [
     {
@@ -29,7 +32,17 @@
         "ncbi-2130"
       ],
       "claim_sha256": "cd9e977579b9dc450c4d0572ddc09b89201e08c146dc2392801ca7483bd0aecd",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2130",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2130",
+          "location": "NCBI Gene 2130 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "3c6860439824412256f34210cfd2daffc399baed2970a38c2f1e5c5136188780"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -39,39 +52,62 @@
         "ncbi-1385"
       ],
       "claim_sha256": "24d9283e7f1ed0d350b8cdb98f7473ff93b44f550d4262682fac9f0aa5c68fc1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-1385",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1385",
+          "location": "NCBI Gene 1385 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "814ca43e2775245684343cb819e3b547ff7d4e51d0b5876bc2cf28f5b1fe9f06"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. EWSR1::CREB1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+      "text": "EWSR1::CREB1 is a recurrent fusion in angiomatoid fibrous histiocytoma and in gastrointestinal clear cell sarcoma-like/neuroectodermal tumors.",
       "source_ids": [
-        "sarcoma",
-        "cns"
+        "audit-sarcoma-creb"
       ],
-      "claim_sha256": "0f6d77a708976e53ad3c71abf0f2189ad6bb29b9a2e1b72be7abde71f06766f9",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "9bae9bdfbe52ecda5531b076f8ea97266fdec0d9dbaa8dd6beeef99fb04747c4",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-creb",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+          "location": "Results: Fusion types; Tables 1–2",
+          "scope": "137-tumor cohort: EWSR1-ATF1 in clear cell sarcoma, AFH and HCCC; EWSR1-CREB1 in AFH and gastrointestinal tumors; FUS-ATF1 observed in mesothelioma.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. CREB1 encodes a cyclic-AMP-responsive transcription factor. The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. EWSR1::CREB1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. CREB1 encodes a cyclic-AMP-responsive transcription factor. EWSR1::CREB1 is a recurrent fusion in angiomatoid fibrous histiocytoma and in gastrointestinal clear cell sarcoma-like/neuroectodermal tumors.",
     "source_ids": [
       "ncbi-2130",
       "ncbi-1385",
-      "sarcoma",
-      "cns"
+      "audit-sarcoma-creb"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis."
+    "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "714cdc7d1e957635f00bd33f59c601be9a24ff11edb576d042ba54fca7352e47"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "d15ac180accba1b3f3f054737b7648530c76f468b8230317c3080166ab349d56"
 }

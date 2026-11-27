@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "B-lymphoblastic leukemia, often Ph-like"
   ],
+  "disease_ids": [
+    "fusion-context-6a833133669f"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "IGH",
-      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity.",
       "source_ids": [
         "ncbi-3492"
       ],
-      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "1c2d0fcd302999c9b42e205d3a13b261b4a6e8535db90e1e091b21b37ae1da43",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3492",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3492",
+          "location": "NCBI Gene 3492 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "18459ea4cf0f732a438373575e5a24310f7e7f972c07a31164aef676d351806a"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,7 +50,17 @@
         "ncbi-64109"
       ],
       "claim_sha256": "6cc8d7783cce36a9bce03852997338973f9a3a0858ce15ea276f46a7c22a4913",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-64109",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/64109",
+          "location": "NCBI Gene 64109 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d31f87f7cfcfbfbb498c2ea2c8668b5dc657b65b9bdc4d674e8fb534223b5968"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
@@ -45,29 +68,45 @@
       "source_ids": [
         "crlf2"
       ],
+      "evidence_review_status": "primary_fulltext_supported",
       "claim_sha256": "f62bb69ea9e8b201678e7a8c1915ea3593ea06a4610f43acf8b228cbb639a3a0",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "crlf2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191900/",
+          "location": "Results: Identification of kinase alterations in Ph-like ALL; Table 1 and CRLF2 sequencing subsection, lines 529-575",
+          "scope": "Both recurrent CRLF2 rearrangements, overexpression and cooperating JAK lesions.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling. IGH regulatory elements drive CRLF2 overexpression, increasing cytokine-receptor signaling, often with cooperating JAK-pathway lesions. The event occurs in B-ALL and is enriched in Ph-like disease.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling. IGH regulatory elements drive CRLF2 overexpression, increasing cytokine-receptor signaling, often with cooperating JAK-pathway lesions. The event occurs in B-ALL and is enriched in Ph-like disease.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-64109",
       "crlf2"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "CRLF2 expression alone does not prove this rearrangement; no approved JAK-inhibitor indication is inferred."
+    "CRLF2 expression alone does not prove this rearrangement; no approved JAK-inhibitor indication is inferred.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "67e9dd7442539ac03f3e317b2c8b2d62b6ee148f2f8d12fffb05d0e472587824"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "07375517a6996180f71f0c4b67e9bfe25bf0182b5b9fa3abb7c171d2ec17613c"
 }

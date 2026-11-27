@@ -1,0 +1,2707 @@
+{
+  "version": 1,
+  "audited_on": "2026-11-27",
+  "assigned_indices": [
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    150,
+    151,
+    152
+  ],
+  "entries": [
+    {
+      "label": "EWSR1::FLI1",
+      "partners": [
+        "EWSR1",
+        "FLI1"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links the EWSR1 amino-terminal transcriptional activation region to an ETS-family DNA-binding region, creating an oncogenic transcription factor that reprograms cell identity. EWSR1::FLI1 is a recognized Ewing sarcoma fusion.",
+          "source_ids": [
+            "audit-sarcoma-fli1",
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EWSR1::ERG",
+      "partners": [
+        "EWSR1",
+        "ERG"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::ERG is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+          "source_ids": [
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "EWSR1::ETV1",
+      "partners": [
+        "EWSR1",
+        "ETV1"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::ETV1 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+          "source_ids": [
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "EWSR1::ETV4",
+      "partners": [
+        "EWSR1",
+        "ETV4"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::ETV4 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+          "source_ids": [
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "EWSR1::FEV",
+      "partners": [
+        "EWSR1",
+        "FEV"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::FEV is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+          "source_ids": [
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "SS18::SSX1",
+      "partners": [
+        "SS18",
+        "SSX1"
+      ],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "SS18::SSX1 incorporates into BAF chromatin-remodeling complexes and displaces wild-type SS18 and BAF47, altering transcriptional regulation. It is a characteristic fusion of synovial sarcoma.",
+          "source_ids": [
+            "audit-sarcoma-ss18",
+            "audit-sarcoma-nci-sts"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+          "source_ids": [
+            "audit-sarcoma-fda-afami"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
+        "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "SS18::SSX2",
+      "partners": [
+        "SS18",
+        "SSX2"
+      ],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "SS18::SSX2 is a recognized SS18::SSX-family fusion in synovial sarcoma.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts",
+            "audit-sarcoma-ss18"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+          "source_ids": [
+            "audit-sarcoma-fda-afami"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
+        "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "SS18::SSX4",
+      "partners": [
+        "SS18",
+        "SSX4"
+      ],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "SS18::SSX4 is a recognized SS18::SSX-family fusion in synovial sarcoma.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts",
+            "audit-sarcoma-ss18"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+          "source_ids": [
+            "audit-sarcoma-fda-afami"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
+        "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "PAX3::FOXO1",
+      "partners": [
+        "PAX3",
+        "FOXO1"
+      ],
+      "tumor_contexts": [
+        "Fusion-positive alveolar rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "PAX3::FOXO1 is a recurrent fusion in alveolar rhabdomyosarcoma.",
+          "source_ids": [
+            "audit-sarcoma-rms"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In the CWS alveolar rhabdomyosarcoma cohort, PAX3::FOXO1 was associated with inferior outcomes, including an independent adverse association with event-free survival in localized disease.",
+          "source_ids": [
+            "audit-sarcoma-rms"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "PAX7::FOXO1",
+      "partners": [
+        "PAX7",
+        "FOXO1"
+      ],
+      "tumor_contexts": [
+        "Fusion-positive alveolar rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "PAX7::FOXO1 is a recurrent fusion in alveolar rhabdomyosarcoma.",
+          "source_ids": [
+            "audit-sarcoma-rms"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In localized alveolar rhabdomyosarcoma in the CWS cohort, PAX7::FOXO1-positive tumors had better overall survival than PAX3::FOXO1-positive tumors in the univariate analysis.",
+          "source_ids": [
+            "audit-sarcoma-rms"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EWSR1::WT1",
+      "partners": [
+        "EWSR1",
+        "WT1"
+      ],
+      "tumor_contexts": [
+        "Desmoplastic small round cell tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::WT1 is the characteristic fusion associated with desmoplastic small round cell tumor.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary functional citation and regimen-specific survival review remain pending; no numerical prognosis assigned.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "FUS::DDIT3",
+      "partners": [
+        "FUS",
+        "DDIT3"
+      ],
+      "tumor_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "FUS::DDIT3 is associated with myxoid liposarcoma. Experimental FUS::DDIT3 models demonstrate impaired adipocytic differentiation.",
+          "source_ids": [
+            "audit-sarcoma-ddit3",
+            "audit-sarcoma-nci-sts"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+          "source_ids": [
+            "audit-sarcoma-fda-trabectedin"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EWSR1::DDIT3",
+      "partners": [
+        "EWSR1",
+        "DDIT3"
+      ],
+      "tumor_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::DDIT3 is a recognized fusion in myxoid liposarcoma.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+          "source_ids": [
+            "audit-sarcoma-fda-trabectedin"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "COL1A1::PDGFB",
+      "partners": [
+        "COL1A1",
+        "PDGFB"
+      ],
+      "tumor_contexts": [
+        "Dermatofibrosarcoma protuberans"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "COL1A1::PDGFB is a recurrent fusion in dermatofibrosarcoma protuberans, including fibrosarcomatous tumors.",
+          "source_ids": [
+            "audit-sarcoma-dfsp"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Imatinib demonstrated clinical activity in advanced COL1A1::PDGFB-associated dermatofibrosarcoma protuberans, including fibrosarcomatous tumors, in pooled phase II trials.",
+          "source_ids": [
+            "audit-sarcoma-dfsp"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Additional uterine mesenchymal tumor associations require a dedicated citation and are omitted from this draft scope.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "NAB2::STAT6",
+      "partners": [
+        "NAB2",
+        "STAT6"
+      ],
+      "tumor_contexts": [
+        "Solitary fibrous tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "NAB2::STAT6 joins NAB2 EGR-binding sequences to the STAT6 activation region. In experimental assays the fusion activates EGR1-responsive transcription; it is recurrent in solitary fibrous tumor and shows nuclear localization.",
+          "source_ids": [
+            "audit-sarcoma-nab2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Fusion presence does not assign a solitary fibrous tumor recurrence-risk score; no unvalidated prognosis by breakpoint included.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "ASPSCR1::TFE3",
+      "partners": [
+        "ASPSCR1",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "Alveolar soft part sarcoma",
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "ASPSCR1::TFE3 acts as an oncogenic transcriptional regulator in alveolar soft part sarcoma: fusion-degradation experiments alter cell-cycle, mitochondrial and angiogenic expression programs. The fusion also occurs in TFE3-rearranged renal cell carcinoma.",
+          "source_ids": [
+            "audit-sarcoma-asps-function",
+            "audit-sarcoma-asps-renal"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Atezolizumab is US-approved for unresectable or metastatic alveolar soft part sarcoma from age 2 years. This histology-specific indication does not extend to TFE3-rearranged renal carcinoma.",
+          "source_ids": [
+            "audit-sarcoma-fda-asps"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "ASPS therapies and renal-carcinoma therapies require distinct evidence; no renal indication inferred from an ASPS association.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EWSR1::ATF1",
+      "partners": [
+        "EWSR1",
+        "ATF1"
+      ],
+      "tumor_contexts": [
+        "Clear cell sarcoma",
+        "Angiomatoid fibrous histiocytoma",
+        "Salivary hyalinizing clear cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::ATF1 transcripts are recurrent in clear cell sarcoma, angiomatoid fibrous histiocytoma and salivary hyalinizing clear cell carcinoma.",
+          "source_ids": [
+            "audit-sarcoma-creb"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EWSR1::CREB1",
+      "partners": [
+        "EWSR1",
+        "CREB1"
+      ],
+      "tumor_contexts": [
+        "Angiomatoid fibrous histiocytoma",
+        "Gastrointestinal neuroectodermal tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::CREB1 is a recurrent fusion in angiomatoid fibrous histiocytoma and in gastrointestinal clear cell sarcoma-like/neuroectodermal tumors.",
+          "source_ids": [
+            "audit-sarcoma-creb"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "FUS::ATF1",
+      "partners": [
+        "FUS",
+        "ATF1"
+      ],
+      "tumor_contexts": [
+        "Angiomatoid fibrous histiocytoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "FUS::CREB3L2",
+      "partners": [
+        "FUS",
+        "CREB3L2"
+      ],
+      "tumor_contexts": [
+        "Low-grade fibromyxoid sarcoma",
+        "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "FUS::CREB3L2 is a recognized fusion in low-grade fibromyxoid sarcoma.",
+          "source_ids": [
+            "audit-sarcoma-lgfms",
+            "audit-sarcoma-nci-sts"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "FUS::CREB3L1",
+      "partners": [
+        "FUS",
+        "CREB3L1"
+      ],
+      "tumor_contexts": [
+        "Low-grade fibromyxoid sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "EWSR1::CREB3L1",
+      "partners": [
+        "EWSR1",
+        "CREB3L1"
+      ],
+      "tumor_contexts": [
+        "Sclerosing epithelioid fibrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::CREB3L1 is a recognized fusion in sclerosing epithelioid fibrosarcoma.",
+          "source_ids": [
+            "audit-sarcoma-lgfms",
+            "audit-sarcoma-nci-sts"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "CIC::DUX4",
+      "partners": [
+        "CIC",
+        "DUX4"
+      ],
+      "tumor_contexts": [
+        "CIC-rearranged undifferentiated round cell sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts",
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "BCOR::CCNB3",
+      "partners": [
+        "BCOR",
+        "CCNB3"
+      ],
+      "tumor_contexts": [
+        "BCOR::CCNB3 sarcoma of bone or soft tissue"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts",
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+        "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+      ]
+    },
+    {
+      "label": "EWSR1::NFATC2",
+      "partners": [
+        "EWSR1",
+        "NFATC2"
+      ],
+      "tumor_contexts": [
+        "EWSR1::NFATC2-rearranged sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::NFATC2 joins EWSR1 to NFATC2 and is associated with an EWSR1::non-ETS mesenchymal tumor group, molecularly distinct from conventional Ewing sarcoma.",
+          "source_ids": [
+            "audit-sarcoma-nfatc2",
+            "audit-sarcoma-nci-ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "The same pair has also been reported in benign bone lesions; malignant classification cannot rest on this fusion alone.",
+        "No response to standard Ewing chemotherapy or fusion-specific drug benefit is asserted.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EWSR1::PATZ1",
+      "partners": [
+        "EWSR1",
+        "PATZ1"
+      ],
+      "tumor_contexts": [
+        "Spindle/round cell sarcoma with EWSR1::PATZ1"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::PATZ1 has been identified in sarcomas with mixed neural and myogenic marker expression. The directly studied tumors expressed markers including S100/SOX10 and desmin or myogenic transcription factors.",
+          "source_ids": [
+            "audit-sarcoma-patz1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Separate CNS/renal evidence and prognosis require dedicated review; report text is restricted to the sarcoma series.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "HEY1::NCOA2",
+      "partners": [
+        "HEY1",
+        "NCOA2"
+      ],
+      "tumor_contexts": [
+        "Mesenchymal chondrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "HEY1::NCOA2 is a recurrent fusion of mesenchymal chondrosarcoma. Expression of the fusion in embryonic osteochondroprogenitors generated biphasic tumors resembling this disease; functional studies show fusion-associated transcriptional regulation and RUNX2 interaction.",
+          "source_ids": [
+            "audit-sarcoma-hey1",
+            "audit-sarcoma-nci-sts"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EWSR1::NR4A3",
+      "partners": [
+        "EWSR1",
+        "NR4A3"
+      ],
+      "tumor_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::NR4A3 is a recurrent fusion in extraskeletal myxoid chondrosarcoma, confirmed by fusion-transcript and rearrangement assays in primary tumor cohorts.",
+          "source_ids": [
+            "audit-sarcoma-nr4a3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Non-EWSR1 partners have associations with cellular/high-grade morphology; an independent partner-specific survival effect is not asserted.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "TAF15::NR4A3",
+      "partners": [
+        "TAF15",
+        "NR4A3"
+      ],
+      "tumor_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TAF15::NR4A3 is a recurrent fusion in extraskeletal myxoid chondrosarcoma, confirmed by fusion-transcript and rearrangement assays in primary tumor cohorts.",
+          "source_ids": [
+            "audit-sarcoma-nr4a3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Non-EWSR1 partners have associations with cellular/high-grade morphology; an independent partner-specific survival effect is not asserted.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "WWTR1::CAMTA1",
+      "partners": [
+        "WWTR1",
+        "CAMTA1"
+      ],
+      "tumor_contexts": [
+        "Epithelioid hemangioendothelioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "WWTR1::CAMTA1 is a recurrent driver of epithelioid hemangioendothelioma. Functional models show fusion-dependent transcriptional activity and transforming properties.",
+          "source_ids": [
+            "audit-sarcoma-ehe",
+            "audit-sarcoma-nci-sts"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "YAP1::TFE3",
+      "partners": [
+        "YAP1",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "YAP1::TFE3-fused hemangioendothelioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "YAP1::TFE3 is associated with a distinctive epithelioid vascular tumor group with nuclear TFE3 expression. Functional models demonstrate fusion-dependent transcriptional activity and transforming properties.",
+          "source_ids": [
+            "audit-sarcoma-ehe",
+            "audit-sarcoma-yap-discovery"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "JAZF1::SUZ12",
+      "partners": [
+        "JAZF1",
+        "SUZ12"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "JAZF1::SUZ12 is associated with low-grade endometrial stromal sarcoma. Experimental models show altered PRC2 composition, chromatin occupancy and histone regulation, including reduced H3K27 trimethylation at affected target genes.",
+          "source_ids": [
+            "audit-sarcoma-jazf1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No malignancy call based on the fusion alone; endocrine treatment eligibility requires actual receptor/histology evidence.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "YWHAE::NUTM2A",
+      "partners": [
+        "YWHAE",
+        "NUTM2A"
+      ],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "YWHAE::NUTM2A belongs to the YWHAE::NUTM2 fusion group associated with high-grade endometrial stromal sarcoma. The reviewed tumor cohort showed a high-grade round-cell component with strong diffuse BCOR staining.",
+          "source_ids": [
+            "audit-sarcoma-hgess"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Precise biochemical dependencies are not fully resolved; no claim of a validated NUTM2-directed treatment.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "YWHAE::NUTM2B",
+      "partners": [
+        "YWHAE",
+        "NUTM2B"
+      ],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "YWHAE::NUTM2B belongs to the YWHAE::NUTM2 fusion group associated with high-grade endometrial stromal sarcoma. The reviewed tumor cohort showed a high-grade round-cell component with strong diffuse BCOR staining.",
+          "source_ids": [
+            "audit-sarcoma-hgess"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Precise biochemical dependencies are not fully resolved; no claim of a validated NUTM2-directed treatment.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "ZC3H7B::BCOR",
+      "partners": [
+        "ZC3H7B",
+        "BCOR"
+      ],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma",
+        "Ossifying fibromyxoid tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "ZC3H7B::BCOR occurs in a subset of high-grade endometrial stromal sarcomas with spindle cells and myxoid stroma. It has also been molecularly validated in malignant ossifying fibromyxoid tumor.",
+          "source_ids": [
+            "audit-sarcoma-hgess",
+            "audit-sarcoma-ofmt"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Polycomb pathway involvement is plausible; exact fusion-specific biochemical mechanism needs functional review.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "PAX3::MAML3",
+      "partners": [
+        "PAX3",
+        "MAML3"
+      ],
+      "tumor_contexts": [
+        "Biphenotypic sinonasal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "PAX3::MAML3 retains PAX3 DNA-binding domains and MAML3 activation sequences. Reporter assays demonstrate strong activation of PAX3 response elements, and fusion-positive biphenotypic sinonasal sarcomas show neural and myogenic gene-expression features.",
+          "source_ids": [
+            "audit-sarcoma-pax3-maml3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "VGLL2::NCOA2",
+      "partners": [
+        "VGLL2",
+        "NCOA2"
+      ],
+      "tumor_contexts": [
+        "Congenital/infantile spindle cell rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "VGLL2::NCOA2 has been identified by molecular analysis in congenital/infantile spindle cell rhabdomyosarcoma, a group distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma.",
+          "source_ids": [
+            "audit-sarcoma-vgll2"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In the original small infantile fusion-positive cohort, six patients with long-term follow-up were alive and well; two had experienced local recurrences.",
+          "source_ids": [
+            "audit-sarcoma-vgll2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "VGLL2::CITED2",
+      "partners": [
+        "VGLL2",
+        "CITED2"
+      ],
+      "tumor_contexts": [
+        "Congenital/infantile spindle cell rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "VGLL2::CITED2 has been identified by molecular analysis in congenital/infantile spindle cell rhabdomyosarcoma, a group distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma.",
+          "source_ids": [
+            "audit-sarcoma-vgll2"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In the original small infantile fusion-positive cohort, six patients with long-term follow-up were alive and well; two had experienced local recurrences.",
+          "source_ids": [
+            "audit-sarcoma-vgll2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "JAZF1::PHF1",
+      "partners": [
+        "JAZF1",
+        "PHF1"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "JAZF1::PHF1 has been identified in endometrial stromal sarcoma by molecular analysis.",
+          "source_ids": [
+            "audit-sarcoma-phf1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "EPC1::PHF1",
+      "partners": [
+        "EPC1",
+        "PHF1"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma",
+        "Ossifying fibromyxoid tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EPC1::PHF1 has been identified in endometrial stromal sarcoma by molecular analysis. EPC1::PHF1 rearrangements have also been reported in ossifying fibromyxoid tumors.",
+          "source_ids": [
+            "audit-sarcoma-phf1",
+            "audit-sarcoma-ofmt"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    },
+    {
+      "label": "MEAF6::PHF1",
+      "partners": [
+        "MEAF6",
+        "PHF1"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma",
+        "Ossifying fibromyxoid tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "MEAF6::PHF1 joins MEAF6 exon 5 to PHF1 exon 2 in a reported endometrial stromal sarcoma. The same fusion has also been molecularly validated in ossifying fibromyxoid tumors.",
+          "source_ids": [
+            "audit-sarcoma-meaf6",
+            "audit-sarcoma-ofmt"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review.",
+        "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "label": "EWSR1::FLI1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "fb55c73791426ccdb6d66477fb44f0e755674923a83f312d5b3b9fbf31dc7540",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fli1",
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fli1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4492343/",
+          "location": "Results: EWS-FLI1 binding sites; Figure 1",
+          "scope": "ChIP-seq in Ewing cell lines and primary tumors; enhancer and transcriptional reprogramming.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained direct EWSR1-FLI1 functional evidence; rare partner entries restricted to documented fusion-class architecture and disease association.",
+      "review_status": "primary_reviewed"
+    },
+    {
+      "label": "EWSR1::ERG",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "603ad89b72245e705cc9cae2a3d91f50062636950faabaf966d2f2cb11eeaa5a",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed partner-specific cell-identity reprogramming extrapolated from FLI1 studies; retained authoritative classification association.",
+      "replacement_text": "EWSR1::ERG is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "EWSR1::ETV1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "b633fdf3b0b2818db7ec07551e12ec2b61e950e161ab853f7ee108d7843f062e",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed partner-specific cell-identity reprogramming extrapolated from FLI1 studies; retained authoritative classification association.",
+      "replacement_text": "EWSR1::ETV1 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "EWSR1::ETV4",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "3c2b034b87be6d23e6c11c6c9dd2af07641776e9aa07f683c76bb3a0c6cb2ad9",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed partner-specific cell-identity reprogramming extrapolated from FLI1 studies; retained authoritative classification association.",
+      "replacement_text": "EWSR1::ETV4 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "EWSR1::FEV",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0b10f9fd37865011618d7454e51928e3d12e56056a6c748c521603dbdd98de82",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed partner-specific cell-identity reprogramming extrapolated from FLI1 studies; retained authoritative classification association.",
+      "replacement_text": "EWSR1::FEV is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "SS18::SSX1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0c88df9c7ead2f38f65362eec9d55ed238084ccac52454b052595e099c204949",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-ss18",
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-ss18",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3655887/",
+          "location": "Results: SS18-SSX integrates into BAF complexes and alters complex composition; Figures 1–2",
+          "scope": "Direct functional experiments in SS18::SSX1-bearing Aska-SS and Yamato-SS cells; not pair-specific functional validation of SSX4.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Direct BAF composition experiment is SSX1-specific; removed functional extrapolation from rare SSX partners.",
+      "replacement_text": "SS18::SSX1 incorporates into BAF chromatin-remodeling complexes and displaces wild-type SS18 and BAF47, altering transcriptional regulation. It is a characteristic fusion of synovial sarcoma.",
+      "review_status": "primary_reviewed"
+    },
+    {
+      "label": "SS18::SSX1",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "5db13cebdd3eb02ac696d3e318282323e24a9978069c1e18dde07e9567afc425",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fda-afami"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-afami",
+          "url": "https://www.fda.gov/media/180568/download",
+          "location": "Highlights; Indications and Usage",
+          "scope": "Adults with unresectable/metastatic synovial sarcoma after chemotherapy, specified HLA-A*02 alleles and MAGE-A4 expression.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "FDA label supports histology, prior treatment, HLA and MAGE-A4 requirements; regulatory evidence is not a primary study.",
+      "review_status": "official_regulatory"
+    },
+    {
+      "label": "SS18::SSX2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0c88df9c7ead2f38f65362eec9d55ed238084ccac52454b052595e099c204949",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts",
+        "audit-sarcoma-ss18"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-sarcoma-ss18",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3655887/",
+          "location": "Results: SS18-SSX integrates into BAF complexes and alters complex composition; Figures 1–2",
+          "scope": "Direct functional experiments in SS18::SSX1-bearing Aska-SS and Yamato-SS cells; not pair-specific functional validation of SSX4.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct BAF composition experiment is SSX1-specific; removed functional extrapolation from rare SSX partners.",
+      "replacement_text": "SS18::SSX2 is a recognized SS18::SSX-family fusion in synovial sarcoma.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "SS18::SSX2",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "5db13cebdd3eb02ac696d3e318282323e24a9978069c1e18dde07e9567afc425",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fda-afami"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-afami",
+          "url": "https://www.fda.gov/media/180568/download",
+          "location": "Highlights; Indications and Usage",
+          "scope": "Adults with unresectable/metastatic synovial sarcoma after chemotherapy, specified HLA-A*02 alleles and MAGE-A4 expression.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "FDA label supports histology, prior treatment, HLA and MAGE-A4 requirements; regulatory evidence is not a primary study.",
+      "review_status": "official_regulatory"
+    },
+    {
+      "label": "SS18::SSX4",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0c88df9c7ead2f38f65362eec9d55ed238084ccac52454b052595e099c204949",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts",
+        "audit-sarcoma-ss18"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-sarcoma-ss18",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3655887/",
+          "location": "Results: SS18-SSX integrates into BAF complexes and alters complex composition; Figures 1–2",
+          "scope": "Direct functional experiments in SS18::SSX1-bearing Aska-SS and Yamato-SS cells; not pair-specific functional validation of SSX4.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct BAF composition experiment is SSX1-specific; removed functional extrapolation from rare SSX partners.",
+      "replacement_text": "SS18::SSX4 is a recognized SS18::SSX-family fusion in synovial sarcoma.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "SS18::SSX4",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "5db13cebdd3eb02ac696d3e318282323e24a9978069c1e18dde07e9567afc425",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fda-afami"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-afami",
+          "url": "https://www.fda.gov/media/180568/download",
+          "location": "Highlights; Indications and Usage",
+          "scope": "Adults with unresectable/metastatic synovial sarcoma after chemotherapy, specified HLA-A*02 alleles and MAGE-A4 expression.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "FDA label supports histology, prior treatment, HLA and MAGE-A4 requirements; regulatory evidence is not a primary study.",
+      "review_status": "official_regulatory"
+    },
+    {
+      "label": "PAX3::FOXO1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "c484a734ed8b37a85f33af45049f357fa26dd2a0c1387848582dc3eb7f5ed93f",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-rms"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-rms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+          "location": "Results; Tables 2 and 4",
+          "scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Removed unreviewed functional mechanism; retained directly molecularly characterized tumor cohort association.",
+      "replacement_text": "PAX3::FOXO1 is a recurrent fusion in alveolar rhabdomyosarcoma."
+    },
+    {
+      "label": "PAX3::FOXO1",
+      "section_kind": "prognosis",
+      "original_text_sha256": "15807e4762a6e509c0f15cb858d307bd7550115f70f75da5a8755e5f6874e400",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-rms"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-rms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+          "location": "Results; Tables 2 and 4",
+          "scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Restricted prognosis to cohort, disease stage and analysis actually reported in Tables 2 and 4.",
+      "replacement_text": "In the CWS alveolar rhabdomyosarcoma cohort, PAX3::FOXO1 was associated with inferior outcomes, including an independent adverse association with event-free survival in localized disease."
+    },
+    {
+      "label": "PAX7::FOXO1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "c484a734ed8b37a85f33af45049f357fa26dd2a0c1387848582dc3eb7f5ed93f",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-rms"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-rms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+          "location": "Results; Tables 2 and 4",
+          "scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Removed unreviewed functional mechanism; retained directly molecularly characterized tumor cohort association.",
+      "replacement_text": "PAX7::FOXO1 is a recurrent fusion in alveolar rhabdomyosarcoma."
+    },
+    {
+      "label": "PAX7::FOXO1",
+      "section_kind": "prognosis",
+      "original_text_sha256": "8b63db364c1f1cfa1b552719c357bd5a853607dd06080df2fcd1f41ac475cdbc",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-rms"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-rms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+          "location": "Results; Tables 2 and 4",
+          "scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Restricted prognosis to cohort, disease stage and analysis actually reported in Tables 2 and 4.",
+      "replacement_text": "In localized alveolar rhabdomyosarcoma in the CWS cohort, PAX7::FOXO1-positive tumors had better overall survival than PAX3::FOXO1-positive tumors in the univariate analysis."
+    },
+    {
+      "label": "EWSR1::WT1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "86f35949933a004637d57697eacb7da184e0e15d6c830445da7e1ce2f081a5e4",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Primary functional body not obtained; removed transcriptional conversion and presentation generalization, retaining classification-supported association.",
+      "replacement_text": "EWSR1::WT1 is the characteristic fusion associated with desmoplastic small round cell tumor.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "FUS::DDIT3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "8986df3f0eb6142b044997038c4919565f75a4063f0e5be312f4ee2fa478e36c",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-ddit3",
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-ddit3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2434200/",
+          "location": "Results; Figures 1–7",
+          "scope": "FUS-DDIT3 transgenic tumors and cell differentiation experiments; not EWSR1-DDIT3-specific functional evidence.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Functional differentiation evidence is directly for FUS::DDIT3; EWSR1 partner restricted to classification-supported association.",
+      "replacement_text": "FUS::DDIT3 is associated with myxoid liposarcoma. Experimental FUS::DDIT3 models demonstrate impaired adipocytic differentiation.",
+      "review_status": "primary_reviewed"
+    },
+    {
+      "label": "FUS::DDIT3",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "359d59ae9c5f42e056ca01438cffa5b16659103f27428493f6f0ce36c4dad505",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fda-trabectedin"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-trabectedin",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
+          "location": "Section 1: Indications and Usage",
+          "scope": "Adults with unresectable/metastatic liposarcoma or leiomyosarcoma previously treated with anthracycline-containing regimen.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained histology-based FDA indication and prior anthracycline requirement.",
+      "review_status": "official_regulatory"
+    },
+    {
+      "label": "EWSR1::DDIT3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "ad68db312397c9c765cf1960b3350284b2e54035d1ebefd5edafae3a8d6f2728",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Functional differentiation evidence is directly for FUS::DDIT3; EWSR1 partner restricted to classification-supported association.",
+      "replacement_text": "EWSR1::DDIT3 is a recognized fusion in myxoid liposarcoma.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "EWSR1::DDIT3",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "359d59ae9c5f42e056ca01438cffa5b16659103f27428493f6f0ce36c4dad505",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fda-trabectedin"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-trabectedin",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
+          "location": "Section 1: Indications and Usage",
+          "scope": "Adults with unresectable/metastatic liposarcoma or leiomyosarcoma previously treated with anthracycline-containing regimen.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained histology-based FDA indication and prior anthracycline requirement.",
+      "review_status": "official_regulatory"
+    },
+    {
+      "label": "COL1A1::PDGFB",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "7edf649c6e55b467afd04c9ab963f0f77dbf73ab3ec7676160f5062e268cd053",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-dfsp"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-dfsp",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3040044/",
+          "location": "Results; Tables 1–3; Figure 1",
+          "scope": "COL1A1-PDGFB-associated advanced DFSP including fibrosarcomatous tumors; responses to imatinib.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Clinical trial body confirms fusion-associated tumors and histological variants; removed unreviewed experimental promoter/autocrine mechanism.",
+      "replacement_text": "COL1A1::PDGFB is a recurrent fusion in dermatofibrosarcoma protuberans, including fibrosarcomatous tumors."
+    },
+    {
+      "label": "COL1A1::PDGFB",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "351cbf7284c5ef9c4edce3d0cd93e5316591cfb93270ce058f6ededaeec17286",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-dfsp"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-dfsp",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3040044/",
+          "location": "Results; Tables 1–3; Figure 1",
+          "scope": "COL1A1-PDGFB-associated advanced DFSP including fibrosarcomatous tumors; responses to imatinib.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct clinical results support responses; removed separately unverified mechanistic pharmacology clause.",
+      "replacement_text": "Imatinib demonstrated clinical activity in advanced COL1A1::PDGFB-associated dermatofibrosarcoma protuberans, including fibrosarcomatous tumors, in pooled phase II trials."
+    },
+    {
+      "label": "NAB2::STAT6",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "25017c9d8f31459aa4f7ab2f93daaa1afa6b9f7ea36d9847ce92b20779a73a77",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nab2"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nab2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654808/",
+          "location": "Results; Figures 1, 3 and 4; Table 1",
+          "scope": "Fusion detection, domain structure, nuclear localization and EGR1-dependent reporter/proliferation experiments.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Retained domain architecture, reporter activation, tumor detection and nuclear localization directly shown in Figures 1, 3 and 4; avoided implying every STAT6 stain is a fusion-specific assay.",
+      "replacement_text": "NAB2::STAT6 joins NAB2 EGR-binding sequences to the STAT6 activation region. In experimental assays the fusion activates EGR1-responsive transcription; it is recurrent in solitary fibrous tumor and shows nuclear localization."
+    },
+    {
+      "label": "ASPSCR1::TFE3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "368556e1c9703a646832d8111620c8aeca1b45e8e5e29569b9bdd16f9f6cabf0",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-asps-function",
+        "audit-sarcoma-asps-renal"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-asps-function",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11250573/",
+          "location": "Results: ASPSCR1::TFE3 supports cell cycle, mitochondrial and angiogenic expression; Figure 4",
+          "scope": "Fusion degradation, RNA-seq and target regulation in ASPS models; direct transcriptional activity.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-asps-renal",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11200839/",
+          "location": "Results: Transcriptome features of ASPSCR1-TFE3 rRCC; Figure 2",
+          "scope": "RNA-seq-defined ASPSCR1-TFE3 renal carcinoma subgroup; used here only for tumor association, not treatment recommendation.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Indexed primary Results/Figure 4 supports transcriptional function in ASPS; independent RNA-seq cohort directly supports renal carcinoma occurrence.",
+      "replacement_text": "ASPSCR1::TFE3 acts as an oncogenic transcriptional regulator in alveolar soft part sarcoma: fusion-degradation experiments alter cell-cycle, mitochondrial and angiogenic expression programs. The fusion also occurs in TFE3-rearranged renal cell carcinoma.",
+      "review_status": "primary_reviewed"
+    },
+    {
+      "label": "ASPSCR1::TFE3",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "51d52ace987eb614a4a3babeccc7d0f27f9564963ddd64b216a25a3b23073e1e",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fda-asps"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-asps",
+          "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=769320",
+          "location": "Approved indication (12/9/2022)",
+          "scope": "Adults and pediatric patients age 2 and older with unresectable or metastatic ASPS.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Approval record supports ASPS indication from age two; no tumor-agnostic TFE3 indication.",
+      "review_status": "official_regulatory"
+    },
+    {
+      "label": "EWSR1::ATF1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "580a4810c280282c26fc1964a6fd8b146210764823f82c864167ea4a1304b0d7",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-creb"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-creb",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+          "location": "Results: Fusion types; Tables 1–2",
+          "scope": "137-tumor cohort: EWSR1-ATF1 in clear cell sarcoma, AFH and HCCC; EWSR1-CREB1 in AFH and gastrointestinal tumors; FUS-ATF1 observed in mesothelioma.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary molecular cohort supports these histotypes; removed functional transactivation assertion not directly tested in this cohort.",
+      "replacement_text": "EWSR1::ATF1 transcripts are recurrent in clear cell sarcoma, angiomatoid fibrous histiocytoma and salivary hyalinizing clear cell carcinoma."
+    },
+    {
+      "label": "EWSR1::CREB1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0f6d77a708976e53ad3c71abf0f2189ad6bb29b9a2e1b72be7abde71f06766f9",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-creb"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-creb",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+          "location": "Results: Fusion types; Tables 1–2",
+          "scope": "137-tumor cohort: EWSR1-ATF1 in clear cell sarcoma, AFH and HCCC; EWSR1-CREB1 in AFH and gastrointestinal tumors; FUS-ATF1 observed in mesothelioma.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary cohort directly links these histotypes; removed untested transcriptional mechanism.",
+      "replacement_text": "EWSR1::CREB1 is a recurrent fusion in angiomatoid fibrous histiocytoma and in gastrointestinal clear cell sarcoma-like/neuroectodermal tumors."
+    },
+    {
+      "label": "FUS::ATF1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "8dddb2a3402ce1386342096a843dca8343428d9d76b1c740f17403954c650d83",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "The reviewed primary FET-CREB cohort had FUS::ATF1 in mesothelioma, not AFH. Retained AFH association only as explicit classification-supported content; removed functional extrapolation.",
+      "replacement_text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "FUS::CREB3L2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "1caabd6058f5d68b613391360a25f3c3009d503ea56a66effae3a4718336d531",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-lgfms",
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-lgfms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13716661/",
+          "location": "Results; Table 1; Figure 1",
+          "scope": "Direct detection of FUS-CREB3L2 in LGFMS/hybrid tumors and EWSR1-CREB3L1 in SEF; no direct functional assay or FUS-CREB3L1 detection in this series.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Direct cohort molecular results support the stated association; removed unreviewed bZIP functional and frequency assertions.",
+      "replacement_text": "FUS::CREB3L2 is a recognized fusion in low-grade fibromyxoid sarcoma.",
+      "review_status": "primary_reviewed"
+    },
+    {
+      "label": "FUS::CREB3L1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "e1f4b4af5f35d695cbe7a520a22021e99fa6902cbbc8221827e0ca06c9535498",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "FUS::CREB3L1 primary discovery body not obtained; classification association retained without extrapolated functional mechanism. Tumor-context field also narrowed to the verified LGFMS association.",
+      "replacement_text": "FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "EWSR1::CREB3L1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "cbece16b5c4be7d5936ecf37fef6d149e0eb3442031540cbcb73a2aa0546d7e4",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-lgfms",
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-lgfms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13716661/",
+          "location": "Results; Table 1; Figure 1",
+          "scope": "Direct detection of FUS-CREB3L2 in LGFMS/hybrid tumors and EWSR1-CREB3L1 in SEF; no direct functional assay or FUS-CREB3L1 detection in this series.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Direct cohort molecular results support the stated association; removed unreviewed bZIP functional and frequency assertions.",
+      "replacement_text": "EWSR1::CREB3L1 is a recognized fusion in sclerosing epithelioid fibrosarcoma.",
+      "review_status": "primary_reviewed"
+    },
+    {
+      "label": "CIC::DUX4",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0ad8522f7ea839df7b47ac92f5b25f952487163afc5a4f331b349085de780e5b",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts",
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed unreviewed functional target/chromatin assertions; retained classification and structural association.",
+      "replacement_text": "CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "CIC::DUX4",
+      "section_kind": "prognosis",
+      "original_text_sha256": "289c683acf56df2bbc641ad5bb72e1663897a3a12b11a0dd408b4bee9112680d",
+      "decision": "remove",
+      "source_ids": [],
+      "evidence": [
+        {
+          "source_id": "graceful",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36791667/",
+          "location": "Full text not obtained; abstract alone not accepted",
+          "scope": "Removed unsupported claim.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "GRACefUl primary full text was not obtained (publisher 403). Abstract-only survival and treatment claims removed pending primary Results review.",
+      "replacement_text": null,
+      "review_status": "not_obtained"
+    },
+    {
+      "label": "BCOR::CCNB3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "28ce22b340a374d2315ad8fec921caa10f5788252d3f3f1ce0ff1c420f5f4e85",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts",
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed unreviewed functional target/chromatin assertions; retained classification and structural association.",
+      "replacement_text": "BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group.",
+      "review_status": "reference_supported"
+    },
+    {
+      "label": "BCOR::CCNB3",
+      "section_kind": "prognosis",
+      "original_text_sha256": "0afa93e32db611394bab8277163d3e868d913aef159ef54674338388fbf53752",
+      "decision": "remove",
+      "source_ids": [],
+      "evidence": [
+        {
+          "source_id": "graceful",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36791667/",
+          "location": "Full text not obtained; abstract alone not accepted",
+          "scope": "Removed unsupported claim.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "GRACefUl primary full text was not obtained (publisher 403). Abstract-only survival and treatment claims removed pending primary Results review.",
+      "replacement_text": null,
+      "review_status": "not_obtained"
+    },
+    {
+      "label": "EWSR1::NFATC2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "1761dc961df062de3bf5697364f81f0e017fa4e8cd01390da773c54434300d78",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nfatc2",
+        "audit-sarcoma-nci-ewing"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nfatc2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8140100/",
+          "location": "Results: molecular findings and breakpoints; Table 1",
+          "scope": "Fusion-positive mesenchymal tumor series; breakpoint architecture and clinical/pathological observations.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Molecular breakpoint and tumor data support distinct fusion-associated tumors. Removed long-bone generalization because reviewed primary series also contains soft-tissue tumors.",
+      "replacement_text": "EWSR1::NFATC2 joins EWSR1 to NFATC2 and is associated with an EWSR1::non-ETS mesenchymal tumor group, molecularly distinct from conventional Ewing sarcoma."
+    },
+    {
+      "label": "EWSR1::PATZ1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "862d9116c8065e962db5d18d0f3057e8af76e7410d63115765421da6c707e3e8",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-patz1"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-patz1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6590674/",
+          "location": "Results; Table 1; molecular results",
+          "scope": "Two directly studied tumors with neural and myogenic markers; both negative for tested epithelial markers.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Both directly studied cases were negative for epithelial markers; removed generalized epithelial phenotype and untested functional mechanism.",
+      "replacement_text": "EWSR1::PATZ1 has been identified in sarcomas with mixed neural and myogenic marker expression. The directly studied tumors expressed markers including S100/SOX10 and desmin or myogenic transcription factors."
+    },
+    {
+      "label": "HEY1::NCOA2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "d62103d0bf8d4f77ab9d40085300c45f3d3bb5107920f81d7cecedef15791ade",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-hey1",
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-hey1",
+          "url": "https://insight.jci.org/articles/view/160279",
+          "location": "Results: HEY1-NCOA2 introduction; transcriptional regulation; Figures 1–5",
+          "scope": "Fusion expression in embryonic osteochondroprogenitors generated biphasic tumors; DNA-binding and RUNX2 interaction experiments.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Replaced vague mechanism with direct experimental oncogenicity and molecular association.",
+      "replacement_text": "HEY1::NCOA2 is a recurrent fusion of mesenchymal chondrosarcoma. Expression of the fusion in embryonic osteochondroprogenitors generated biphasic tumors resembling this disease; functional studies show fusion-associated transcriptional regulation and RUNX2 interaction."
+    },
+    {
+      "label": "EWSR1::NR4A3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "1ea26bf3f7adbf3219defd617c4a990668bd365cb67b5e1cc7584f8a0c71d736",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nr4a3"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nr4a3",
+          "url": "https://www.modernpathology.org/article/S0893395223000662/pdf",
+          "location": "Results: Molecular Genetics; Figure 1; Table 1",
+          "scope": "58 primary EMCs; EWSR1-NR4A3 and TAF15-NR4A3 confirmed by RNA sequencing/RT-PCR/FISH. Functional transcriptional effects not tested.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary molecular genetics Results and Figure 1 directly support fusion and tumor association; removed functional transcriptional-output claim not tested in reviewed study.",
+      "replacement_text": "EWSR1::NR4A3 is a recurrent fusion in extraskeletal myxoid chondrosarcoma, confirmed by fusion-transcript and rearrangement assays in primary tumor cohorts."
+    },
+    {
+      "label": "TAF15::NR4A3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "1ea26bf3f7adbf3219defd617c4a990668bd365cb67b5e1cc7584f8a0c71d736",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nr4a3"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nr4a3",
+          "url": "https://www.modernpathology.org/article/S0893395223000662/pdf",
+          "location": "Results: Molecular Genetics; Figure 1; Table 1",
+          "scope": "58 primary EMCs; EWSR1-NR4A3 and TAF15-NR4A3 confirmed by RNA sequencing/RT-PCR/FISH. Functional transcriptional effects not tested.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary molecular genetics Results and Figure 1 directly support fusion and tumor association; removed functional transcriptional-output claim not tested in reviewed study.",
+      "replacement_text": "TAF15::NR4A3 is a recurrent fusion in extraskeletal myxoid chondrosarcoma, confirmed by fusion-transcript and rearrangement assays in primary tumor cohorts."
+    },
+    {
+      "label": "WWTR1::CAMTA1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "d319a47920c02acf0e7066ba983bace91b9b213a57f6e4182140801efaa00fa5",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-ehe",
+        "audit-sarcoma-nci-sts"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-ehe",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8143797/",
+          "location": "Results; Figures 1–6",
+          "scope": "Fusion domain architecture and oncogenic transcription/transformation assays.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Direct functional assays support oncogenic transcription; tumor discovery cohort supports vascular morphology and nuclear TFE3 for YAP1 partner.",
+      "replacement_text": "WWTR1::CAMTA1 is a recurrent driver of epithelioid hemangioendothelioma. Functional models show fusion-dependent transcriptional activity and transforming properties."
+    },
+    {
+      "label": "YAP1::TFE3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "64580cdf590f56e0465caff8a23ddd3e175b493af973ee264f4cc7cfd521914c",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-ehe",
+        "audit-sarcoma-yap-discovery"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-ehe",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8143797/",
+          "location": "Results; Figures 1–6",
+          "scope": "Fusion domain architecture and oncogenic transcription/transformation assays.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-yap-discovery",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4089994/",
+          "location": "Results; Figures 1–4",
+          "scope": "Ten vascular tumors with distinctive morphology and TFE3 staining; transcript validation in two cases.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct functional assays support oncogenic transcription; tumor discovery cohort supports vascular morphology and nuclear TFE3 for YAP1 partner.",
+      "replacement_text": "YAP1::TFE3 is associated with a distinctive epithelioid vascular tumor group with nuclear TFE3 expression. Functional models demonstrate fusion-dependent transcriptional activity and transforming properties."
+    },
+    {
+      "label": "JAZF1::SUZ12",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "240984ee4a54862b09251cf55ca69996ba54a1dee9b961186ef8d93bf5d2ab68",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-jazf1"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-jazf1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9637993/",
+          "location": "Results; Figures 1–3",
+          "scope": "Altered PRC2 composition, chromatin occupancy, H3K27 methylation and differentiation in experimental models.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Retained directly demonstrated PRC2 mechanism; removed stromal-nodule/invasion diagnostic clause not established in reviewed functional study. Stromal nodule removed from tumor-context field because that assertion was not audited in a primary pathology cohort.",
+      "replacement_text": "JAZF1::SUZ12 is associated with low-grade endometrial stromal sarcoma. Experimental models show altered PRC2 composition, chromatin occupancy and histone regulation, including reduced H3K27 trimethylation at affected target genes."
+    },
+    {
+      "label": "YWHAE::NUTM2A",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "8eee67f81a741b12c8b91159a184e098326c079e2bd26bf7dba9592119295729",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-hgess"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-hgess",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916794/",
+          "location": "Results; Table 1; Figures 1–5",
+          "scope": "YWHAE-NUTM2 high-grade round-cell tumors show diffuse BCOR; ZC3H7B-BCOR tumors show spindle/myxoid morphology with variable BCOR staining.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "NUTM2 paralogs grouped in reviewed cohort; retained class-level histology and BCOR evidence, removed undefined transcriptional mechanism and separate cyclin D1 claim.",
+      "replacement_text": "YWHAE::NUTM2A belongs to the YWHAE::NUTM2 fusion group associated with high-grade endometrial stromal sarcoma. The reviewed tumor cohort showed a high-grade round-cell component with strong diffuse BCOR staining."
+    },
+    {
+      "label": "YWHAE::NUTM2B",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "8eee67f81a741b12c8b91159a184e098326c079e2bd26bf7dba9592119295729",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-hgess"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-hgess",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916794/",
+          "location": "Results; Table 1; Figures 1–5",
+          "scope": "YWHAE-NUTM2 high-grade round-cell tumors show diffuse BCOR; ZC3H7B-BCOR tumors show spindle/myxoid morphology with variable BCOR staining.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "NUTM2 paralogs grouped in reviewed cohort; retained class-level histology and BCOR evidence, removed undefined transcriptional mechanism and separate cyclin D1 claim.",
+      "replacement_text": "YWHAE::NUTM2B belongs to the YWHAE::NUTM2 fusion group associated with high-grade endometrial stromal sarcoma. The reviewed tumor cohort showed a high-grade round-cell component with strong diffuse BCOR staining."
+    },
+    {
+      "label": "ZC3H7B::BCOR",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "f85e846a93979ee87f4cfa76dae25a3bba0fbd909fca006533afb3ec2d2cf222",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-hgess",
+        "audit-sarcoma-ofmt"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-hgess",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916794/",
+          "location": "Results; Table 1; Figures 1–5",
+          "scope": "YWHAE-NUTM2 high-grade round-cell tumors show diffuse BCOR; ZC3H7B-BCOR tumors show spindle/myxoid morphology with variable BCOR staining.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-ofmt",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053209/",
+          "location": "Results: FusionSeq identifies ZC3H7B-BCOR; MEAF6-PHF1; EPC1 rearrangements; Figures 2–4; Table 1",
+          "scope": "Molecularly validated fusions in ossifying fibromyxoid tumors; establishes associations beyond ESS.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Avoided suggesting fusion uniquely defines uterine stromal tumors; primary bodies document myxoid spindle morphology and an additional tumor class.",
+      "replacement_text": "ZC3H7B::BCOR occurs in a subset of high-grade endometrial stromal sarcomas with spindle cells and myxoid stroma. It has also been molecularly validated in malignant ossifying fibromyxoid tumor."
+    },
+    {
+      "label": "PAX3::MAML3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "36fbbcd456c50f950f050e312c21b7ef008c9161ce0b7d7a19441f71b0dc1f7e",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-pax3-maml3"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-pax3-maml3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4236026/",
+          "location": "Main text functional experiments; Figures 1–2; Online Methods",
+          "scope": "Indexed full primary-body passages and figure legends: DNA-binding/transactivation domains, reporter activity and tumor expression profiling. Original server returned CAPTCHA.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Indexed primary body and Figures 1–2 establish architecture, reporter function and tumor expression signature; avoided causal overstatement that fusion alone proves all differentiation features.",
+      "replacement_text": "PAX3::MAML3 retains PAX3 DNA-binding domains and MAML3 activation sequences. Reporter assays demonstrate strong activation of PAX3 response elements, and fusion-positive biphenotypic sinonasal sarcomas show neural and myogenic gene-expression features."
+    },
+    {
+      "label": "PAX3::MAML3",
+      "section_kind": "prognosis",
+      "original_text_sha256": "881ea169783a977fcc341d2db18be1bdbc6ac6c2a8ddf795189a488b908ab580",
+      "decision": "remove",
+      "source_ids": [],
+      "evidence": [
+        {
+          "source_id": "pax3-maml3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27454570/",
+          "location": "Full text not obtained; abstract alone not accepted",
+          "scope": "Removed unsupported claim.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "Original cited fusion-profile source was abstract-only; direct longitudinal cohort Results not obtained. Removed generalized recurrence/prognosis claim until reviewed.",
+      "replacement_text": null,
+      "review_status": "not_obtained"
+    },
+    {
+      "label": "VGLL2::NCOA2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "5948747a7479fdcf3c7fd63d51fc17c5b164a7df29af9a8336e39d0d45aa2eb6",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-vgll2"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-vgll2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+          "location": "Results; Figures 1–2; clinical follow-up paragraph",
+          "scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Fusion junctions and age-associated molecular groups directly supported; removed vague untested cofactor mechanism.",
+      "replacement_text": "VGLL2::NCOA2 has been identified by molecular analysis in congenital/infantile spindle cell rhabdomyosarcoma, a group distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma."
+    },
+    {
+      "label": "VGLL2::NCOA2",
+      "section_kind": "prognosis",
+      "original_text_sha256": "ae0d844e5ca58cf8d8bf42f77a42b17349e1b5a324f850597e31a3ff02ab0aba",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-vgll2"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-vgll2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+          "location": "Results; Figures 1–2; clinical follow-up paragraph",
+          "scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Bounded favorable survival observation to the six followed fusion-positive infants; does not assert universal pair-specific prognosis.",
+      "replacement_text": "In the original small infantile fusion-positive cohort, six patients with long-term follow-up were alive and well; two had experienced local recurrences."
+    },
+    {
+      "label": "VGLL2::CITED2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "5948747a7479fdcf3c7fd63d51fc17c5b164a7df29af9a8336e39d0d45aa2eb6",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-vgll2"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-vgll2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+          "location": "Results; Figures 1–2; clinical follow-up paragraph",
+          "scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Fusion junctions and age-associated molecular groups directly supported; removed vague untested cofactor mechanism.",
+      "replacement_text": "VGLL2::CITED2 has been identified by molecular analysis in congenital/infantile spindle cell rhabdomyosarcoma, a group distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma."
+    },
+    {
+      "label": "VGLL2::CITED2",
+      "section_kind": "prognosis",
+      "original_text_sha256": "ae0d844e5ca58cf8d8bf42f77a42b17349e1b5a324f850597e31a3ff02ab0aba",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-vgll2"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-vgll2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+          "location": "Results; Figures 1–2; clinical follow-up paragraph",
+          "scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Bounded favorable survival observation to the six followed fusion-positive infants; does not assert universal pair-specific prognosis.",
+      "replacement_text": "In the original small infantile fusion-positive cohort, six patients with long-term follow-up were alive and well; two had experienced local recurrences."
+    },
+    {
+      "label": "JAZF1::PHF1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "1fb85181d17cebe2ceab38045510228a695653a28fce243bde3540df082ccd3a",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-phf1"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-phf1",
+          "url": "https://aacrjournals.org/cancerres/article/66/1/107/525848/Consistent-Rearrangement-of-Chromosomal-Band-6p21",
+          "location": "Results: molecular genetic investigations and Figure 3 (JAZF1-PHF1); own-study Discussion describing case 3 EPC1-PHF1 sequence and open reading frame",
+          "scope": "Indexed primary-body results and figures: JAZF1-PHF1 and EPC1-PHF1 transcripts in endometrial stromal sarcoma; functional Polycomb effect proposed rather than demonstrated. Direct publisher access blocked.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Indexed primary Results and figures support fusion detection. Removed asserted Polycomb rearrangement mechanism because functional consequence was proposed rather than demonstrated.",
+      "replacement_text": "JAZF1::PHF1 has been identified in endometrial stromal sarcoma by molecular analysis."
+    },
+    {
+      "label": "EPC1::PHF1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "7137c6262f99fc03b2c6621d374abcf9cc88fdd27ec79eef7a4722c9b5653b9a",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-phf1",
+        "audit-sarcoma-ofmt"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-phf1",
+          "url": "https://aacrjournals.org/cancerres/article/66/1/107/525848/Consistent-Rearrangement-of-Chromosomal-Band-6p21",
+          "location": "Results: molecular genetic investigations and Figure 3 (JAZF1-PHF1); own-study Discussion describing case 3 EPC1-PHF1 sequence and open reading frame",
+          "scope": "Indexed primary-body results and figures: JAZF1-PHF1 and EPC1-PHF1 transcripts in endometrial stromal sarcoma; functional Polycomb effect proposed rather than demonstrated. Direct publisher access blocked.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-ofmt",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053209/",
+          "location": "Results: FusionSeq identifies ZC3H7B-BCOR; MEAF6-PHF1; EPC1 rearrangements; Figures 2–4; Table 1",
+          "scope": "Molecularly validated fusions in ossifying fibromyxoid tumors; establishes associations beyond ESS.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Indexed primary Results and figures support fusion detection. Removed asserted Polycomb rearrangement mechanism because functional consequence was proposed rather than demonstrated.",
+      "replacement_text": "EPC1::PHF1 has been identified in endometrial stromal sarcoma by molecular analysis. EPC1::PHF1 rearrangements have also been reported in ossifying fibromyxoid tumors."
+    },
+    {
+      "label": "MEAF6::PHF1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "a742bc5ed9d178aabebef7f0f9f6d9c1c66da2247d939740cb3363d48f334513",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-meaf6",
+        "audit-sarcoma-ofmt"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-meaf6",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3382230/",
+          "location": "Results; Figure 1; Methods: case history",
+          "scope": "Sequenced MEAF6 exon 5-PHF1 exon 2 transcript in an ESS; altered HAT targeting is a hypothesis, not demonstrated fusion mechanism.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-ofmt",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053209/",
+          "location": "Results: FusionSeq identifies ZC3H7B-BCOR; MEAF6-PHF1; EPC1 rearrangements; Figures 2–4; Table 1",
+          "scope": "Molecularly validated fusions in ossifying fibromyxoid tumors; establishes associations beyond ESS.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct sequenced junction supported; altered Polycomb/HAT targeting is a hypothesis and was removed.",
+      "replacement_text": "MEAF6::PHF1 joins MEAF6 exon 5 to PHF1 exon 2 in a reported endometrial stromal sarcoma. The same fusion has also been molecularly validated in ossifying fibromyxoid tumors."
+    }
+  ],
+  "added_sources": [
+    {
+      "id": "audit-sarcoma-fli1",
+      "title": "EWSR1-FLI1 enhancer reprogramming",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4492343/",
+      "kind": "primary_study",
+      "citation_label": "EWSR1-FLI1 enhancer reprogramming",
+      "accessed_on": "2026-11-27",
+      "review_scope": "ChIP-seq in Ewing cell lines and primary tumors; enhancer and transcriptional reprogramming.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-ss18",
+      "title": "SS18-SSX alters BAF complex composition",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3655887/",
+      "kind": "primary_study",
+      "citation_label": "SS18-SSX alters BAF complex composition",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Direct functional experiments in SS18::SSX1-bearing Aska-SS and Yamato-SS cells; not pair-specific functional validation of SSX4.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-rms",
+      "title": "CWS PAX3/7::FOXO1 outcome cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+      "kind": "primary_study",
+      "citation_label": "CWS PAX3/7::FOXO1 outcome cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-ddit3",
+      "title": "FUS-DDIT3 blocks adipocytic differentiation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2434200/",
+      "kind": "primary_study",
+      "citation_label": "FUS-DDIT3 blocks adipocytic differentiation",
+      "accessed_on": "2026-11-27",
+      "review_scope": "FUS-DDIT3 transgenic tumors and cell differentiation experiments; not EWSR1-DDIT3-specific functional evidence.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-dfsp",
+      "title": "Imatinib in advanced DFSP pooled phase II trials",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3040044/",
+      "kind": "primary_study",
+      "citation_label": "Imatinib in advanced DFSP pooled phase II trials",
+      "accessed_on": "2026-11-27",
+      "review_scope": "COL1A1-PDGFB-associated advanced DFSP including fibrosarcomatous tumors; responses to imatinib.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-nab2",
+      "title": "NAB2-STAT6 in solitary fibrous tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654808/",
+      "kind": "primary_study",
+      "citation_label": "NAB2-STAT6 in solitary fibrous tumors",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Fusion detection, domain structure, nuclear localization and EGR1-dependent reporter/proliferation experiments.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-creb",
+      "title": "FET-CREB fusion tumor molecular cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+      "kind": "primary_study",
+      "citation_label": "FET-CREB fusion tumor molecular cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "137-tumor cohort: EWSR1-ATF1 in clear cell sarcoma, AFH and HCCC; EWSR1-CREB1 in AFH and gastrointestinal tumors; FUS-ATF1 observed in mesothelioma.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-lgfms",
+      "title": "Molecular findings in LGFMS and SEF cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13716661/",
+      "kind": "primary_study",
+      "citation_label": "Molecular findings in LGFMS and SEF cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Direct detection of FUS-CREB3L2 in LGFMS/hybrid tumors and EWSR1-CREB3L1 in SEF; no direct functional assay or FUS-CREB3L1 detection in this series.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-nfatc2",
+      "title": "EWSR1/FUS-NFATC2 tumor cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8140100/",
+      "kind": "primary_study",
+      "citation_label": "EWSR1/FUS-NFATC2 tumor cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Fusion-positive mesenchymal tumor series; breakpoint architecture and clinical/pathological observations.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-patz1",
+      "title": "EWSR1-PATZ1 sarcomas with polyphenotypic differentiation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6590674/",
+      "kind": "primary_study",
+      "citation_label": "EWSR1-PATZ1 sarcomas with polyphenotypic differentiation",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Two directly studied tumors with neural and myogenic markers; both negative for tested epithelial markers.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-hey1",
+      "title": "HEY1-NCOA2-induced mesenchymal chondrosarcoma model",
+      "url": "https://insight.jci.org/articles/view/160279",
+      "kind": "primary_study",
+      "citation_label": "HEY1-NCOA2-induced mesenchymal chondrosarcoma model",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Fusion expression in embryonic osteochondroprogenitors generated biphasic tumors; DNA-binding and RUNX2 interaction experiments.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-nr4a3",
+      "title": "NR4A3 fusion variants in extraskeletal myxoid chondrosarcoma",
+      "url": "https://www.modernpathology.org/article/S0893395223000662/pdf",
+      "kind": "primary_study",
+      "citation_label": "NR4A3 fusion variants in extraskeletal myxoid chondrosarcoma",
+      "accessed_on": "2026-11-27",
+      "review_scope": "58 primary EMCs; EWSR1-NR4A3 and TAF15-NR4A3 confirmed by RNA sequencing/RT-PCR/FISH. Functional transcriptional effects not tested.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-ehe",
+      "title": "TAZ-CAMTA1 and YAP-TFE3 fusion transcriptional biology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8143797/",
+      "kind": "primary_study",
+      "citation_label": "TAZ-CAMTA1 and YAP-TFE3 fusion transcriptional biology",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Fusion domain architecture and oncogenic transcription/transformation assays.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-yap-discovery",
+      "title": "YAP1-TFE3-associated vascular tumors",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4089994/",
+      "kind": "primary_study",
+      "citation_label": "YAP1-TFE3-associated vascular tumors",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Ten vascular tumors with distinctive morphology and TFE3 staining; transcript validation in two cases.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-jazf1",
+      "title": "JAZF1-SUZ12 disrupts PRC2 regulation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9637993/",
+      "kind": "primary_study",
+      "citation_label": "JAZF1-SUZ12 disrupts PRC2 regulation",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Altered PRC2 composition, chromatin occupancy, H3K27 methylation and differentiation in experimental models.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-hgess",
+      "title": "BCOR expression in molecularly defined high-grade ESS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916794/",
+      "kind": "primary_study",
+      "citation_label": "BCOR expression in molecularly defined high-grade ESS",
+      "accessed_on": "2026-11-27",
+      "review_scope": "YWHAE-NUTM2 high-grade round-cell tumors show diffuse BCOR; ZC3H7B-BCOR tumors show spindle/myxoid morphology with variable BCOR staining.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-pax3-maml3",
+      "title": "PAX3-MAML3 discovery and function",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4236026/",
+      "kind": "primary_study",
+      "citation_label": "PAX3-MAML3 discovery and function",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Indexed full primary-body passages and figure legends: DNA-binding/transactivation domains, reporter activity and tumor expression profiling. Original server returned CAPTCHA.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-vgll2",
+      "title": "Infantile spindle cell rhabdomyosarcoma VGLL2 fusions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+      "kind": "primary_study",
+      "citation_label": "Infantile spindle cell rhabdomyosarcoma VGLL2 fusions",
+      "accessed_on": "2026-11-27",
+      "review_scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-phf1",
+      "title": "JAZF1-PHF1 and EPC1-PHF1 discovery",
+      "url": "https://aacrjournals.org/cancerres/article/66/1/107/525848/Consistent-Rearrangement-of-Chromosomal-Band-6p21",
+      "kind": "primary_study",
+      "citation_label": "JAZF1-PHF1 and EPC1-PHF1 discovery",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Indexed primary molecular Results/Figure 3 for JAZF1-PHF1 and own-study Discussion detailing case 3 EPC1-PHF1 open reading frame; Polycomb consequences explicitly speculative.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-meaf6",
+      "title": "MEAF6-PHF1 in endometrial stromal sarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3382230/",
+      "kind": "primary_study",
+      "citation_label": "MEAF6-PHF1 in endometrial stromal sarcoma",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Sequenced MEAF6 exon 5-PHF1 exon 2 transcript in an ESS; altered HAT targeting is a hypothesis, not demonstrated fusion mechanism.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-ofmt",
+      "title": "ZC3H7B-BCOR, MEAF6-PHF1 and EPC1-PHF1 in OFMT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053209/",
+      "kind": "primary_study",
+      "citation_label": "ZC3H7B-BCOR, MEAF6-PHF1 and EPC1-PHF1 in OFMT",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Molecularly validated fusions in ossifying fibromyxoid tumors; establishes associations beyond ESS.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-nci-sts",
+      "title": "NCI childhood soft tissue sarcoma PDQ",
+      "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+      "kind": "classification_reference",
+      "citation_label": "NCI childhood soft tissue sarcoma PDQ",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+      "access_level": "guideline",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-nci-ewing",
+      "title": "NCI Ewing sarcoma PDQ",
+      "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+      "kind": "classification_reference",
+      "citation_label": "NCI Ewing sarcoma PDQ",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+      "access_level": "guideline",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-fda-afami",
+      "title": "FDA TECELRA prescribing information",
+      "url": "https://www.fda.gov/media/180568/download",
+      "kind": "regulatory_reference",
+      "citation_label": "FDA TECELRA prescribing information",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Adults with unresectable/metastatic synovial sarcoma after chemotherapy, specified HLA-A*02 alleles and MAGE-A4 expression.",
+      "access_level": "official_regulatory",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-fda-trabectedin",
+      "title": "FDA trabectedin prescribing information (2026)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
+      "kind": "regulatory_reference",
+      "citation_label": "FDA trabectedin prescribing information (2026)",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Adults with unresectable/metastatic liposarcoma or leiomyosarcoma previously treated with anthracycline-containing regimen.",
+      "access_level": "official_regulatory",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-fda-asps",
+      "title": "FDA atezolizumab ASPS approval record",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=769320",
+      "kind": "regulatory_reference",
+      "citation_label": "FDA atezolizumab ASPS approval record",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Adults and pediatric patients age 2 and older with unresectable or metastatic ASPS.",
+      "access_level": "official_regulatory",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-asps-function",
+      "title": "ASPSCR1::TFE3 regulates ASPS transcription",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11250573/",
+      "kind": "primary_study",
+      "citation_label": "ASPSCR1::TFE3 regulates ASPS transcription",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Fusion degradation, RNA-seq and target regulation in ASPS models; direct transcriptional activity.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from indexed primary Results and figure passages; direct PMC URL returned CAPTCHA/inaccessible."
+    },
+    {
+      "id": "audit-sarcoma-asps-renal",
+      "title": "ASPSCR1-TFE3 renal carcinoma molecular cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11200839/",
+      "kind": "primary_study",
+      "citation_label": "ASPSCR1-TFE3 renal carcinoma molecular cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "RNA-seq-defined ASPSCR1-TFE3 renal carcinoma subgroup; used here only for tumor association, not treatment recommendation.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from indexed primary Results and figure passages; direct PMC URL returned CAPTCHA/inaccessible."
+    }
+  ],
+  "held_entries": [],
+  "method": "Primary article body, Results, figures and tables reviewed directly or as indexed full-body passages. Abstract-only claims were narrowed to independently supported classification associations or removed. A primary_fulltext evidence item denotes the specified body passage, not a claim that every article section was read.",
+  "counts": {
+    "entries": 41,
+    "decisions": 55,
+    "by_decision": {
+      "retain": 7,
+      "narrow": 45,
+      "remove": 3
+    }
+  }
+}

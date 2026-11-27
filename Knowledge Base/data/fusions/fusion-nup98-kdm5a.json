@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML"
   ],
+  "disease_ids": [
+    "aml"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-4928"
       ],
       "claim_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4928",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
+          "location": "NCBI Gene 4928 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7b152c6b96ee85cb9be23f639e696ae1e0e948a3da0c559593bae69dbcada3e8"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,46 +50,81 @@
         "ncbi-5927"
       ],
       "claim_sha256": "ed9f355ae7525bc753c0450b93dd47c638c90fcafc03349d13725d43403ae947",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5927",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5927",
+          "location": "NCBI Gene 5927 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2a6d18f11fe2559d1297f2d723ce773bf5061cd6c2be51682a6e457a4e609a0d"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The KDM5A partner contributes chromatin-reading regions; the fusion is enriched in young children and acute megakaryoblastic leukemia.",
-      "source_ids": [
-        "nup98",
-        "nup98-mech"
-      ],
-      "claim_sha256": "b20493a9344732ab95524a09efa4c7d1dae274f995fb66317b6350b8362e75e1",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "NUP98-rearranged pediatric AML has been associated with poor treatment outcomes in large cohorts; the strongest partner-specific evidence is for NSD1 and KDM5A.",
+      "text": "NUP98::KDM5A is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
       "source_ids": [
         "nup98"
       ],
-      "claim_sha256": "b7560ec5bb4843e9fce62051fded666245e83248e85ca25702ce47bade15a916",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "2580e705036f06bc1bce6720b9b67ecfc98a5a6b656033514f9345facf027c8b",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nup98",
+          "url": "https://haematologica.org/article/view/haematol.2022.281653",
+          "location": "Results: Clinical characteristics; Implications of variation of fusion junction; Differential gene expression; Figures 1,2,4",
+          "scope": "Pair detection, amino-terminal FG-region representation and cohort HOX transcription; no asserted function of every retained partner domain.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    },
+    {
+      "kind": "prognosis",
+      "text": "In the pediatric COG cohort, NUP98::KDM5A AML was associated with inferior overall and event-free survival compared with the non-NUP98 reference group.",
+      "source_ids": [
+        "nup98"
+      ],
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "095ee67bacfd0dcfbc45bdee1cf50f95d8c336cfba2fdea6a9eee52bb061b9a5",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nup98",
+          "url": "https://haematologica.org/article/view/haematol.2022.281653",
+          "location": "Results: Clinical outcome and prognostic relevance; Figure 6A/B and multivariable analysis, lines 217-223",
+          "scope": "Observed pediatric cohort outcome; KDM5A outcomes varied with chromosome-13/junction subgroup.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. KDM5A encodes a histone H3 lysine-4 demethylase and chromatin reader. The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The KDM5A partner contributes chromatin-reading regions; the fusion is enriched in young children and acute megakaryoblastic leukemia. NUP98-rearranged pediatric AML has been associated with poor treatment outcomes in large cohorts; the strongest partner-specific evidence is for NSD1 and KDM5A.",
+    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. KDM5A encodes a histone H3 lysine-4 demethylase and chromatin reader. NUP98::KDM5A is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups. In the pediatric COG cohort, NUP98::KDM5A AML was associated with inferior overall and event-free survival compared with the non-NUP98 reference group.",
     "source_ids": [
       "ncbi-4928",
       "ncbi-5927",
-      "nup98",
-      "nup98-mech"
+      "nup98"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "f2616c0411e6d9ef62c2b583927d7d5356b86d7884538e54d0c3693cdb1b1a02"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "83b9747476a606d0358f7e710ffdf59ce77ac2979bfb03d6e1930aa143b63da2"
 }

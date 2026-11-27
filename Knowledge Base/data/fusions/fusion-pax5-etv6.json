@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "B-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-214d146d359b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-5079"
       ],
       "claim_sha256": "82f40ae0455ff64d4c262db6b1e7bc098d0f1f53e4dac8fc70661ed9d5055483",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5079",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5079",
+          "location": "NCBI Gene 5079 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "049153be1296fee3c5dcec18f6fb0662ced3d22f53f99c81d6d99e96f08f0c5a"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,63 @@
         "ncbi-2120"
       ],
       "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins PAX5 DNA-binding sequences to ETV6 regulatory regions, impairing normal PAX5-dependent B-cell differentiation. It is a recurrent lesion within PAX5-altered B-ALL.",
+      "text": "PAX5::ETV6 is a recurrent PAX5 fusion in B-ALL and is associated with dic(9;12)(p13;p13).",
       "source_ids": [
         "all"
       ],
-      "claim_sha256": "8a16722aac44214c1fa6e2460ec4cde1ae723fd13564aea72c840499baddae9c",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "cdfcf55895154edc54d5bf1a09c849dc7ffc507524640e685c3784a75a2e0d9a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "PAX5 alterations, lines 419-422",
+          "scope": "Pair-specific cytogenetic and B-ALL association only.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. The fusion joins PAX5 DNA-binding sequences to ETV6 regulatory regions, impairing normal PAX5-dependent B-cell differentiation. It is a recurrent lesion within PAX5-altered B-ALL.",
+    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PAX5::ETV6 is a recurrent PAX5 fusion in B-ALL and is associated with dic(9;12)(p13;p13).",
     "source_ids": [
       "ncbi-5079",
       "ncbi-2120",
       "all"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Pair-specific functional paper and modern subtype-level outcome audit remain pending."
+    "Pair-specific functional paper and modern subtype-level outcome audit remain pending.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "fcbb7089ca31977e5c37c78b83b89c29b373c5c5ebee7d8c8601adc33b3703a5"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "88f8485fdf3d4865908b138d057bd0a43866c962d2a9bff6b417893084fada10"
 }

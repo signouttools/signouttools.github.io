@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Inflammatory myofibroblastic tumor"
   ],
+  "disease_ids": [
+    "fusion-context-9f98d303a12b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-7170"
       ],
       "claim_sha256": "203382961047c448e896799da70d42de5df9549b14c78c1394ee6c6c88d21eae",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7170",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7170",
+          "location": "NCBI Gene 7170 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "078792e4088ffb71fa2a4379ea34ed47a0d4eb1387227f737860490912cfe902"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,17 +50,36 @@
         "ncbi-238"
       ],
       "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-238",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+          "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. TPM3::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+      "text": "TPM3::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor. The rearrangement joins an amino-terminal partner to the carboxy-terminal ALK kinase region.",
       "source_ids": [
-        "sarcoma",
         "imt-kinases"
       ],
-      "claim_sha256": "f6c018691e9717bd4c70b6c792accea64831fb56c966e1d5038daeac4780396a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "da633ebccd10d332435d3cdc4edad5195223f753997708a2bcf8c38739d682f6",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "imt-kinases",
+          "url": "https://aacrjournals.org/cancerdiscovery/article/4/8/889/4598/Inflammatory-Myofibroblastic-Tumors-Harbor",
+          "location": "Results, Targeted NGS identified ALK, ROS1 and PDGFRβ tyrosine kinase fusions; Table 1 and Figure 2",
+          "scope": "TPM3,TPM4,TFG,RANBP2,CLTC,FN1 partners detected in IMT; atypical FN1 ALK intron18 breakpoint.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,28 +88,42 @@
         "fda-criz"
       ],
       "claim_sha256": "36cd9dc91534b03cac1393ef8c25971d8f013ce6c1ca51b0d9229126da8b8c22",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-criz",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+          "location": "Prescribing information Sections1.1 and1.3",
+          "scope": "ALK/ROS1 metastaticNSCLC and age>=1 unresectable,recurrent,refractory ALK-positiveIMT.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. TPM3::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+    "text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments. ALK encodes a receptor tyrosine kinase involved in neural development. TPM3::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor. The rearrangement joins an amino-terminal partner to the carboxy-terminal ALK kinase region. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
     "source_ids": [
       "ncbi-7170",
       "ncbi-238",
-      "sarcoma",
       "imt-kinases",
       "fda-criz"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "815267f2d5c5a3aa38518a70c6f8e969535386ce3dc912a9a500a96ffa4448f0"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "9ca89514447f41aac1306974ab47bbf957f1913f9b682973417c0a86e0291b96"
 }

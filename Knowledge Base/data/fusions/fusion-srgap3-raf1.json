@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Pediatric low-grade glioma"
   ],
+  "disease_ids": [
+    "fusion-context-15fb253dea61"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "SRGAP3",
-      "text": "SRGAP3 encodes a Rho GTPase-activating protein involved in neural development and cytoskeletal regulation.",
+      "text": "SRGAP3 encodes SLIT-ROBO Rho GTPase-activating protein 3.",
       "source_ids": [
-        "ncbi-9901"
+        "hgnc"
       ],
-      "claim_sha256": "7161be0e97c236838be8892ee80740f0611267e577bf9203705bd7d684cf5dbd",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "46f58229c55faf07ea6f2af63bd8e9b1f0723ac18c349a16da1be134fa38d9d2",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:19744",
+          "location": "Approved HGNC snapshot row HGNC:19744 / SRGAP3",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,16 +50,36 @@
         "ncbi-5894"
       ],
       "claim_sha256": "7e1a823abf592f1456c12323ea827d3707666c0689e9d2135329135dbca400cd",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5894",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5894",
+          "location": "NCBI Gene 5894 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6febe1c0bbcbfb7779c8091d66132c147d8688e98a8f0c117ff3a5e9ca8fa1cf"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Both fusions have demonstrated transforming activity and activation of MAPK/PI3K signaling in experimental glioma systems.",
+      "text": "The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Experimental expression produced MAPK activation and tumors from p53-null mouse astrocytes; MAPK and PI3K/mTOR activation were both documented in NIH3T3 fibroblasts.",
       "source_ids": [
         "raf1"
       ],
-      "claim_sha256": "20578177dd8b81ef4aa3a259f51a4a4ca52799118c9371cfdbdb2e83e6ea9d8e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "b5346a39afb018985e4198cd845bb3cd9ccbe0d8e9413dbad774197a29a2e1fa",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "raf1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680138/",
+          "location": "Results, QKI-RAF1 and SRGAP3-RAF1 are oncogenic; Figure 1a-h; discussion of signaling context",
+          "scope": "Both lack inhibitory RAF1 termini and transform p53-null astrocytes and NIH3T3. Astrocytes show MAPK; PI3K/mTOR activation documented in NIH3T3, not uniformly glial cells.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,27 +89,50 @@
         "fda-braf"
       ],
       "claim_sha256": "46317606bbac3d44b22c5235de70ea6ea8abeda08dd356303c09bfbf876b6ccb",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "raf1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680138/",
+          "location": "Results, QKI-RAF1 and SRGAP3-RAF1 are oncogenic; Figure 1a-h; discussion of signaling context",
+          "scope": "Both lack inhibitory RAF1 termini and transform p53-null astrocytes and NIH3T3. Astrocytes show MAPK; PI3K/mTOR activation documented in NIH3T3, not uniformly glial cells.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        },
+        {
+          "source_id": "fda-braf",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-tovorafenib-patients-relapsed-or-refractory-braf-altered-pediatric",
+          "location": "FDA approval notice April23,2024 indication",
+          "scope": "Relapsed/refractory pediatricLGG withBRAFfusion/rearrangement orV600, age>=6months.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "SRGAP3 encodes a Rho GTPase-activating protein involved in neural development and cytoskeletal regulation. RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Both fusions have demonstrated transforming activity and activation of MAPK/PI3K signaling in experimental glioma systems. Drug-response studies support investigation of RAF-dimer and downstream pathway inhibition. The BRAF-fusion tovorafenib indication does not automatically include RAF1 fusions.",
+    "text": "SRGAP3 encodes SLIT-ROBO Rho GTPase-activating protein 3. RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Experimental expression produced MAPK activation and tumors from p53-null mouse astrocytes; MAPK and PI3K/mTOR activation were both documented in NIH3T3 fibroblasts. Drug-response studies support investigation of RAF-dimer and downstream pathway inhibition. The BRAF-fusion tovorafenib indication does not automatically include RAF1 fusions.",
     "source_ids": [
-      "ncbi-9901",
+      "hgnc",
       "ncbi-5894",
       "raf1",
       "fda-braf"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "5b0ef144c8919b6964670f828250921a3d07a8195d24e8b8b34ccd76294b1bea"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "f8b0abb76cf015d5d959cd9b25c7612d570f3a413e42c0aa00dffede8e063917"
 }

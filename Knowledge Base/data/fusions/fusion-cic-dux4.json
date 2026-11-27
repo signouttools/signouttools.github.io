@@ -18,64 +18,103 @@
   "tumor_contexts": [
     "CIC-rearranged undifferentiated round cell sarcoma"
   ],
+  "disease_ids": [
+    "fusion-context-53a43d7df981"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "CIC",
-      "text": "CIC encodes capicua, a transcriptional repressor regulated by MAPK signaling.",
+      "text": "CIC encodes capicua, an HMG-box transcriptional repressor.",
       "source_ids": [
         "ncbi-23152"
       ],
-      "claim_sha256": "7cfe6a8b6929d8f4ae16efb9a70d1b8790fdc2147e9f9a576210cf3e7a8e8ade",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "719c9ce079aa3d268bee7dc4ad29579ffabe20ffd3d90dfd582bd439ab76add3",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-23152",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23152",
+          "location": "NCBI Gene 23152 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b7a55c6473bff056c8466c3b9c22bb678f95ff523893b6a8e57b7b36fd51a336"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "DUX4",
-      "text": "DUX4 encodes a double-homeobox transcription factor normally active during early embryonic development.",
+      "text": "DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus.",
       "source_ids": [
         "ncbi-100288687"
       ],
-      "claim_sha256": "a2c25c6b595a8fd411a1ba4f17172939c5d8bcce079870513c3b983501f72e7c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "217d229ad52e8cd932d0152261a60a2eb4a6f4efb664ed02c61c075d86530c15",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-100288687",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/100288687",
+          "location": "NCBI Gene 100288687 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "3dc860e933a13ebd6c6c10820fb67ff0530b0df895006b5a64adab10d02619e8"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion converts CIC-associated transcriptional repression into an oncogenic ETS-target activation program. It is the most frequent fusion in CIC-rearranged sarcoma, a molecularly distinct disease from Ewing sarcoma.",
+      "text": "CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma.",
       "source_ids": [
-        "ewing"
+        "audit-sarcoma-nci-sts",
+        "audit-sarcoma-nci-ewing"
       ],
-      "claim_sha256": "0ad8522f7ea839df7b47ac92f5b25f952487163afc5a4f331b349085de780e5b",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "CIC-rearranged sarcoma showed substantially worse survival than BCOR::CCNB3 sarcoma in the retrospective GRACefUl cohort.",
-      "source_ids": [
-        "graceful"
-      ],
-      "claim_sha256": "289c683acf56df2bbc641ad5bb72e1663897a3a12b11a0dd408b4bee9112680d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "81ee1f7c33f116bdddc13f64cb622315eea1e94479ac6f5a2d58c65dad6cd794",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "CIC encodes capicua, a transcriptional repressor regulated by MAPK signaling. DUX4 encodes a double-homeobox transcription factor normally active during early embryonic development. The fusion converts CIC-associated transcriptional repression into an oncogenic ETS-target activation program. It is the most frequent fusion in CIC-rearranged sarcoma, a molecularly distinct disease from Ewing sarcoma. CIC-rearranged sarcoma showed substantially worse survival than BCOR::CCNB3 sarcoma in the retrospective GRACefUl cohort.",
+    "text": "CIC encodes capicua, an HMG-box transcriptional repressor. DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus. CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma.",
     "source_ids": [
       "ncbi-23152",
       "ncbi-100288687",
-      "ewing",
-      "graceful"
+      "audit-sarcoma-nci-sts",
+      "audit-sarcoma-nci-ewing"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
+  "curation_notes": [
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "5ca373923718c586306c863c95e506012db1c19e85dba4f9bf6cc4e50c7da644"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "fb7ceb8e19e2795e0d97ca71abdea4df8f54a54c81197155f1e5dc4239002aeb"
 }

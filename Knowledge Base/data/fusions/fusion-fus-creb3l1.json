@@ -16,8 +16,10 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Low-grade fibromyxoid sarcoma",
-    "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+    "Low-grade fibromyxoid sarcoma"
+  ],
+  "disease_ids": [
+    "atlas-nm-lgfms"
   ],
   "sections": [
     {
@@ -28,7 +30,17 @@
         "ncbi-2521"
       ],
       "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,39 +50,63 @@
         "ncbi-90993"
       ],
       "claim_sha256": "77d27f4ba5237354d120eda487cfaa18342d16930db020c171ee75efd114cf44",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-90993",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/90993",
+          "location": "NCBI Gene 90993 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "769a758c0ec0c5caa7e2a3b6e423b1d95e4ea78cdff90aac9e9428b0e6b1cb70"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L1 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+      "text": "FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma.",
       "source_ids": [
-        "lgfms",
-        "creb3l2"
+        "audit-sarcoma-nci-sts"
       ],
-      "claim_sha256": "e1f4b4af5f35d695cbe7a520a22021e99fa6902cbbc8221827e0ca06c9535498",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "8eda57cc3618469ba027483eb1ed079d8a9a40ccdb96f54bb1ffb55239898f27",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L1 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-90993",
-      "lgfms",
-      "creb3l2"
+      "audit-sarcoma-nci-sts"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned."
+    "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "efe3549c3fd322544d56379275b9fdc06ce21320ad8a004a28d9c0cce8c26a35"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "dc74970863b2b9bcc4a276122de5ef8085e7dc5cb7b23c34d34f7f191c845cd6"
 }

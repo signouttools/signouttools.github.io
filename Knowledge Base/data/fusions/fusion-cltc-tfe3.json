@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "TFE3-rearranged renal cell carcinoma"
   ],
+  "disease_ids": [
+    "atlas-e-tfe3"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,47 +30,82 @@
         "ncbi-1213"
       ],
       "claim_sha256": "aeaeee745d48fdd1bfa9c45f67eeb48083a64fac408ca7dd70b41cd73ebb113c",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-1213",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1213",
+          "location": "NCBI Gene 1213 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c2ba0d04c0d66d3d81a347b4fc60891a955309d0589e84529e7b9095f757c9f1"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "TFE3",
-      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "text": "TFE3 encodes an E-box-binding transcription factor.",
       "source_ids": [
         "ncbi-7030"
       ],
-      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "11d865f80a218ea86d61aeb8cd0f28730d25002af79b33311d54c1614c217a55",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7030",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7030",
+          "location": "NCBI Gene 7030 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "18d0d35ef562720235d390eb36f6c9013b602767fc4ed7a74b6971b2f65b228e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. CLTC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+      "text": "CLTC::TFE3 is a reported renal carcinoma fusion. The experimentally studied product joins the amino-terminal CLTC region to the TFE3 carboxy terminus, retaining the TFE3 DNA-binding and dimerization regions.",
       "source_ids": [
-        "cltc-tfe3"
+        "audit-solid-cltc-tfe3"
       ],
-      "claim_sha256": "18271748d9c0bf4cf4268c4ee155ebcc559e8de8e308297d51bf7a1fcbae64bd",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "175ce0bc15abb92e630ae596b28876a477050f013792b38f678dc9af0e5a5a52",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-cltc-tfe3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3362863/",
+          "location": "Figure1A-B, fusion construct structures and cellular localization experiments",
+          "scope": "CLTC1-932/TFE3295-575 fusion construct retaining TFE3 DNA-binding/dimerization; cellular experiments, not original patient-discovery cohort.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. CLTC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+    "text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport. TFE3 encodes an E-box-binding transcription factor. CLTC::TFE3 is a reported renal carcinoma fusion. The experimentally studied product joins the amino-terminal CLTC region to the TFE3 carboxy terminus, retaining the TFE3 DNA-binding and dimerization regions.",
     "source_ids": [
       "ncbi-1213",
       "ncbi-7030",
-      "cltc-tfe3"
+      "audit-solid-cltc-tfe3"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Primary fusion-cloning abstract inspected; full-text audit pending."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "6b3196af3e3f5c2b293530da645eed249d870a6df4e96b9743af1da750d10dec"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "de910f594a4ff5ba1f0a923bd57de9759a601e67893293641d21c76e86df9ab7"
 }

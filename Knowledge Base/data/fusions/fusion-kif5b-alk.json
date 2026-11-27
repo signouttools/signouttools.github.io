@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Lung adenocarcinoma"
   ],
+  "disease_ids": [
+    "atlas-v-lung-adenocarcinoma"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-3799"
       ],
       "claim_sha256": "b6ca88efd425c2d24ccf600ad278a1d7f6a694ae2c394ce4acbfbf0fc4ed29b7",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3799",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3799",
+          "location": "NCBI Gene 3799 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "888d4fcea1de12c8a2286b9ecbf9243296fc95d251927392917588e2d5ab94da"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,16 +50,36 @@
         "ncbi-238"
       ],
       "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-238",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+          "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. A published lung-cancer case responded to crizotinib and later acquired ALK L1196M.",
+      "text": "KIF5B exon20 fused to ALK exon20 was documented in a lung adenocarcinoma. In the reported patient, crizotinib produced a partial response followed by progression and detection of ALK L1196M.",
       "source_ids": [
         "kif5b-alk"
       ],
-      "claim_sha256": "2101ffb51d6d5019aa307627ea2c40b1585a447751dda7e119b9859e40fda8fa",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "017f2938586fbb82524810570882130ca02e30337ab0a5f4bee71b9e9f354f9f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "kif5b-alk",
+          "url": "https://apm.amegroups.org/article/view/65382/html",
+          "location": "Case presentation; Figures 2-5",
+          "scope": "KIF5B exon20/ALK exon20 in lung adenocarcinoma, 11-month crizotinib response, subsequent plasma L1196M; no autonomous activation experiment.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,11 +89,29 @@
         "kif5b-alk"
       ],
       "claim_sha256": "276d8c9f2985d30a4db2428186686494c22cbb1f2bd0f271355e509d5729aa9f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-criz",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+          "location": "Prescribing information Sections1.1 and1.3",
+          "scope": "ALK/ROS1 metastaticNSCLC and age>=1 unresectable,recurrent,refractory ALK-positiveIMT.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        },
+        {
+          "source_id": "kif5b-alk",
+          "url": "https://apm.amegroups.org/article/view/65382/html",
+          "location": "Case presentation; Figures 2-5",
+          "scope": "KIF5B exon20/ALK exon20 in lung adenocarcinoma, 11-month crizotinib response, subsequent plasma L1196M; no autonomous activation experiment.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. A published lung-cancer case responded to crizotinib and later acquired ALK L1196M. ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+    "text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules. ALK encodes a receptor tyrosine kinase involved in neural development. KIF5B exon20 fused to ALK exon20 was documented in a lung adenocarcinoma. In the reported patient, crizotinib produced a partial response followed by progression and detection of ALK L1196M. ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
     "source_ids": [
       "ncbi-3799",
       "ncbi-238",
@@ -68,15 +119,20 @@
       "fda-criz"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "842610fb57832aa1193132ff14768aaee033528b5060abeefbf6cb37655e9d04"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "74461b8505c5c2e3f4ee0a6f55e70662f6e0d9bad36f96790ac7035001cd8295"
 }

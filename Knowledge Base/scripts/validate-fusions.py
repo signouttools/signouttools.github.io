@@ -11,6 +11,8 @@ def check(condition,message):
     if not condition:raise ValueError(message)
 
 index=load('data/fusion-index.json')
+audit=load('curation/fusions/audit-decisions.json')
+approved_claims={(d['label'],d['section_kind'],d.get('replacement_text') or d['original_text']) for d in audit['decisions'] if d['decision']!='remove'}
 sources=load('data/fusion-sources.json')
 source_map={s['id']:s for s in sources}
 check(len(source_map)==len(sources),'Duplicate source IDs')
@@ -18,6 +20,8 @@ for s in sources:
     check(s['url'].startswith('https://'),s['id']+' has invalid URL')
     check(bool(s['review_scope']) and bool(s['access_level']),s['id']+' missing provenance')
 records=[load('data/'+path) for path in index['record_files']]
+browser=load('data/fusion-browser.json')
+check(browser['records']==records,'Runtime browser differs from authoritative records')
 check(len({r['id'] for r in records})==len(records),'Duplicate record IDs')
 check(len({r['label'] for r in records})==len(records),'Duplicate labels')
 check(len(records)==len(index['records']),'Index count mismatch')
@@ -38,10 +42,14 @@ for r,listing in zip(records,index['records']):
         else:check(re.fullmatch(r'HGNC:\d+',p['hgnc_id'] or ''),label+' invalid HGNC ID')
     for s in r['sections']:
         check(s['source_ids'] and set(s['source_ids'])<=source_map.keys(),label+' dangling citation')
-        check(s['fulltext_audit_status']=='pending',label+' unsupported audit status')
+        check(s['fulltext_audit_status'] in ['primary_fulltext_supported','official_regulatory_supported','reference_supported'],label+' unaudited claim in runtime')
         check(s['claim_sha256']==hashlib.sha256(s['text'].encode()).hexdigest(),label+' stale claim hash')
+        check(s.get('audit_evidence') and all(e.get('location') and e.get('url') for e in s['audit_evidence']),label+' missing exact evidence location')
+        check(all(e.get('source_id') in s['source_ids'] for e in s['audit_evidence']),label+' audit evidence is not in the section citation list')
         if s['kind']!='partner_function':
             check(any(source_map[i]['kind'] not in ['gene_reference','identity_reference'] for i in s['source_ids']),label+' fusion claim supported only by gene identity/function')
+            check((label,s['kind'],s['text']) in approved_claims,label+' changed text bypassed source audit')
+            if s['fulltext_audit_status']=='primary_fulltext_supported':check(any(e['access_level']=='primary_fulltext' for e in s['audit_evidence']),label+' primary status without primary-body evidence')
         claims.append((r['id'],s['kind'],s['claim_sha256']))
     text=' '.join(s['text'] for s in r['sections'])
     check(r['report_comment']['text']==text,label+' report projection mismatch')
@@ -57,11 +65,20 @@ check(stats['total_entries']==len(records),'Coverage count mismatch')
 original={r['label'] for r in load('inventory/fusion-roster.json')['fusion_candidates']}
 written={r['label'] for r in records}
 held={r['label'] for r in stats['deferred']}
+held.update(r['label'] for r in stats['held_entries'])
 check(not (held & written),'Deferred pair received a blurb')
 check(original <= written|held,'Unaccounted original pair')
 check(stats['original_pairs_not_drafted']==sorted(original-written),'Coverage gaps do not match roster')
 check(stats['by_event_class']==dict(collections.Counter(r['event_class'] for r in records)),'Event class counts differ')
 manifest=load('data/manifest.json')
-check('fusion-index.json' not in json.dumps(manifest),'Draft corpus unexpectedly connected to runtime manifest')
+check(manifest.get('fusion_index_file')=='fusion-index.json' and manifest.get('fusion_browser_file')=='fusion-browser.json','Fusion corpus not integrated in runtime manifest')
+check(manifest.get('fusion_source_file')=='fusion-sources.json' and manifest.get('fusion_disease_file')=='fusion-diseases.json','Fusion runtime references missing')
+diseases=load('data/diseases.json')+load('data/fusion-diseases.json');disease_map={d['id']:d for d in diseases}
+check(len(disease_map)==len(diseases),'Duplicate runtime disease IDs')
+for r in records:
+    check(r['disease_ids'] and set(r['disease_ids'])<=disease_map.keys(),r['label']+' unknown disease link')
+    check(all(disease_map[i]['category'] not in ['constitutional','mosaic'] for i in r['disease_ids']),r['label']+' inherited disease used as fusion tumor scope')
+for d in diseases:
+    if d['parent_id']:check(d['parent_id'] in disease_map,d['name']+' missing parent')
 print(f'Validated {len(records)} draft entries, {len(sources)} sources and {len(claims)} exact-hash claim-review placements.')
-print('Checked partner IDs/sentences, sources, index/export consistency, roster accounting, pending review status and separate runtime boundary.')
+print('Checked partner IDs, retained-source evidence, exact audit hashes, runtime/index/export consistency, held-candidate exclusion and disease filters.')

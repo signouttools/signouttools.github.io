@@ -19,6 +19,10 @@
     "AML",
     "Other KMT2A-rearranged acute leukemias"
   ],
+  "disease_ids": [
+    "aml",
+    "fusion-context-13ae6d68cda6"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,27 +32,56 @@
         "ncbi-4297"
       ],
       "claim_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4297",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+          "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "MLLT6",
-      "text": "MLLT6 encodes AF17, a PHD-finger chromatin-associated protein.",
+      "text": "MLLT6 encodes MLLT6/AF17, a PHD-finger-containing protein.",
       "source_ids": [
-        "ncbi-4302"
+        "hgnc"
       ],
-      "claim_sha256": "aad6c16a87a42056cf8f2c196de824103d24fd3e550031e7f2020533b59581a2",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "d9879718e640f9e085099f4d00ebfaf71d1b4f786bcc5de07ef04919ee2bab8b",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7138",
+          "location": "Approved HGNC snapshot row HGNC:7138 / MLLT6",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. For this partner, the fusion represents a gain of leukemogenic transcriptional function rather than simple loss of the native partner.",
+      "text": "KMT2A::MLLT6 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
       "source_ids": [
-        "icc-m",
         "kmt2a-recombinome"
       ],
-      "claim_sha256": "afab6feccda3a61d43e558d163b78790bc70c81d3ee90f124a53263df975eaf6",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "6d21bc8732dacf57ff9770aca9d00ae01ff5bb446fa58153ed69d49da95e3a96",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -56,39 +89,65 @@
       "source_ids": [
         "eln-aml"
       ],
+      "evidence_review_status": "reference_supported",
       "claim_sha256": "605414ac825b641ad269e8fe2f7fe6289f6a9b3d45c1d4ad18917b655d2f90a1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+      "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
       "source_ids": [
         "fda-menin"
       ],
-      "claim_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. MLLT6 encodes AF17, a PHD-finger chromatin-associated protein. The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. For this partner, the fusion represents a gain of leukemogenic transcriptional function rather than simple loss of the native partner. In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group. Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. MLLT6 encodes MLLT6/AF17, a PHD-finger-containing protein. KMT2A::MLLT6 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort. In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group. Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
     "source_ids": [
       "ncbi-4297",
-      "ncbi-4302",
-      "icc-m",
+      "hgnc",
       "kmt2a-recombinome",
       "eln-aml",
       "fda-menin"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "1dec7e43b3f612525784e0e594f6ccb945ad53c609aa0cd634167cce4a9a7b16"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "83f621249dba8cb72ce8f9599654449d5b96192cad590e5aebe4fc896d196fc6"
 }

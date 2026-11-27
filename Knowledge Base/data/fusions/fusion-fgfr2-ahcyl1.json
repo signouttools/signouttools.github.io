@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Intrahepatic cholangiocarcinoma"
   ],
+  "disease_ids": [
+    "atlas-v-intrahepatic-cholangiocarcinoma"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,26 +30,56 @@
         "ncbi-2263"
       ],
       "claim_sha256": "1cdae57704778e23e2f4c24a0da1305717e3fb5643ca80b10ca71163bfb36719",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2263",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2263",
+          "location": "NCBI Gene 2263 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a22c8457ca12f4b693edc00e5aedcdcdfd22b1f39c928b40155579c5f01e0e51"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "AHCYL1",
-      "text": "AHCYL1 encodes IRBIT, a regulator of inositol-trisphosphate receptor signaling and membrane transport.",
+      "text": "AHCYL1 encodes adenosylhomocysteinase-like protein 1.",
       "source_ids": [
-        "ncbi-10768"
+        "hgnc"
       ],
-      "claim_sha256": "66f0f104434a9d04fb7772752bcd5d80a46b8b4591f1d3653ee808da51be8227",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "31bf21676cc1dfb59a8a2b58f58b8c511d2e895b454aec738ab1aac690a906b9",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:344",
+          "location": "Approved HGNC snapshot row HGNC:344 / AHCYL1",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::AHCYL1 was detected in intrahepatic cholangiocarcinoma.",
+      "text": "FGFR2::AHCYL1 was detected in intrahepatic cholangiocarcinoma with retention of the FGFR2 kinase domain. The primary study confirmed fusion junctions by RNA sequencing and FGFR2 rearrangement by FISH.",
       "source_ids": [
         "fgfr2"
       ],
-      "claim_sha256": "7b058d9b4187f06970d6734af26262963182d709c744789dbeac96d38556d7eb",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "0e55886cd3ae23893df30f198c0bf3bae440ed993a4a76679f773ec522ae1659",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fgfr2",
+          "url": "https://doi.org/10.1016/j.ccell.2021.12.006",
+          "location": "Results, FGFR2 fusion landscape; Figure 4B-C and Figure S4A",
+          "scope": "BICC1/AHCYL1/ETV6/INA fusions retain FGFR2 kinase; RNA junction confirmation and FISH; no partner-specific oligomerization assay.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -55,27 +88,42 @@
         "fda-fgfr2"
       ],
       "claim_sha256": "91585ec9dcbca921a5be9ea023086eed24b8b2233a27f9c0e10fa1ac08005157",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-fgfr2",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/futibatinib",
+          "location": "NCI approved-use summary, Use in cancer",
+          "scope": "Previously treated adults with unresectable/metastatic intrahepatic cholangiocarcinoma and FGFR2 fusion/rearrangement.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. AHCYL1 encodes IRBIT, a regulator of inositol-trisphosphate receptor signaling and membrane transport. The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::AHCYL1 was detected in intrahepatic cholangiocarcinoma. Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+    "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. AHCYL1 encodes adenosylhomocysteinase-like protein 1. FGFR2::AHCYL1 was detected in intrahepatic cholangiocarcinoma with retention of the FGFR2 kinase domain. The primary study confirmed fusion junctions by RNA sequencing and FGFR2 rearrangement by FISH. Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
     "source_ids": [
       "ncbi-2263",
-      "ncbi-10768",
+      "hgnc",
       "fgfr2",
       "fda-fgfr2"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "5320d200053d87e83f99939980f2fbf06703bed24c26b48fc5294433f66e3948"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "15344dc374e09d27ac0f59175f949caa69b2f6f5aaa7ae61b0f911f0e73067cc"
 }

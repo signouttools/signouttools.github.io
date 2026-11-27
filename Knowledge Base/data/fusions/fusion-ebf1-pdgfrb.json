@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Ph-like B-ALL"
   ],
+  "disease_ids": [
+    "fusion-context-ea801e61035d"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "EBF1",
-      "text": "EBF1 encodes a transcription factor required for B-cell lineage specification.",
+      "text": "EBF1 encodes EBF transcription factor 1.",
       "source_ids": [
-        "ncbi-1879"
+        "hgnc"
       ],
-      "claim_sha256": "6208688077ae25fe2e53be3799a30627cc26d05f83359cb4d43fd9e8dad008ef",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "95a72f14731d69b51b81d26299fca895532ada5b4afdd79cf23e5eba59f00b43",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3126",
+          "location": "Approved HGNC snapshot row HGNC:3126 / EBF1",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,50 +50,82 @@
         "ncbi-5159"
       ],
       "claim_sha256": "9c1706914ba9857704a68addf6ff05209539a5e8fcbbf00104265293770b86b8",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5159",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5159",
+          "location": "NCBI Gene 5159 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a7547913abe3d7134d969d79662152c31ae4350120c274135c58ac8a6deadf6a"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. EBF1::PDGFRB is an ABL-class kinase lesion in Ph-like B-ALL.",
+      "text": "EBF1::PDGFRB is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region.",
       "source_ids": [
-        "phlike",
-        "phlike2"
+        "phlike"
       ],
-      "claim_sha256": "9d1783ff6dc30ba76c49e62c06ba5e891f310eaf3897086f1a23fed1f2d1a882",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "49e15431b8e264866bf4d73b294e9406dd996a1ad0716d84e707c4b588d0c1ab",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "phlike",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22897847/",
+          "location": "Results: kinase rearrangement identification; Figure 2/Table 1 and intact kinase-domain analysis",
+          "scope": "Direct sequencing evidence for ordered pair in B-ALL and kinase retention.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+      "text": "ABL-class kinase inhibitors showed activity in experimental kinase-fusion ALL systems; these findings support investigation rather than a pair-specific approval.",
       "source_ids": [
-        "phlike",
-        "phlike-functional"
+        "phlike"
       ],
-      "claim_sha256": "676525c4c006483cc3900ebcd0fcbea77e76cbaae835417eb129e53e882cf137",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "0fb6b310b257ed358298d7378716ef9958441ed98e015948b14785017e4ae38f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "phlike",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22897847/",
+          "location": "Results: kinase inhibitor assays / sensitivity to kinase inhibition; Figures 5-7 (Roberts 2012) or functional assays (Roberts 2014)",
+          "scope": "Preclinical class/selected-pair sensitivity; no response guarantee or FDA label inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "EBF1 encodes a transcription factor required for B-cell lineage specification. PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. EBF1::PDGFRB is an ABL-class kinase lesion in Ph-like B-ALL. ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+    "text": "EBF1 encodes EBF transcription factor 1. PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. EBF1::PDGFRB is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region. ABL-class kinase inhibitors showed activity in experimental kinase-fusion ALL systems; these findings support investigation rather than a pair-specific approval.",
     "source_ids": [
-      "ncbi-1879",
+      "hgnc",
       "ncbi-5159",
-      "phlike",
-      "phlike2",
-      "phlike-functional"
+      "phlike"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+    "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "89ddba301b1c08f99066176139d91ac1c45bde5ffe147ab99a1982ac6b5037a2"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "490140c6ea861a397f437462f4ca19497eb4c79ba1587cc2b1d0e09606a5dd28"
 }

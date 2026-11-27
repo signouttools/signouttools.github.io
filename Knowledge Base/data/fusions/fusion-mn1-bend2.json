@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Astroblastoma, MN1-altered"
   ],
+  "disease_ids": [
+    "atlas-nm-astroblast"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "MN1",
-      "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs.",
+      "text": "MN1 encodes the meningioma 1 protein.",
       "source_ids": [
         "ncbi-4330"
       ],
-      "claim_sha256": "5a9c861f57edb00a37deae82a129a23827b75bb0e11e5512a5565a35c5726a5a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "d43c10303d708623f9b6ec3622cfec3b1d19984736072677c19a310212ea75b0",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4330",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4330",
+          "location": "NCBI Gene 4330 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "da31de996b6452dd7d6975f3483c2f1adcb34be0e72dbf011227d11b40482253"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,39 +50,62 @@
         "ncbi-139105"
       ],
       "claim_sha256": "cba6290734c42685f0a8c4926bf9a1300eac6d2d50d507eaae53c0306af35962",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-139105",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/139105",
+          "location": "NCBI Gene 139105 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "f1f01c2697cfa4831dbe5dc8ef0d7efc380ca8c94ed63aa53e8708398c20d73d"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion creates an abnormal MN1/BEND2 transcriptional regulator and drives tumor formation in experimental models. It is a recurrent driver in the CNS tumor group classified as astroblastoma, MN1-altered.",
+      "text": "MN1::BEND2 is an in-frame transcription-factor fusion associated with astroblastoma. Experimental fusion-driven models show brain tumor formation and altered transcriptional programs.",
       "source_ids": [
-        "mn1",
-        "cns"
+        "mn1"
       ],
-      "claim_sha256": "1611bf6f3c80b0a4d89a7cbc835207501ee384b45903e4375854b2d48fdc7cc5",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "ed6c502505ccf006151033886d9f2bbb283bd5aed7377b6e1a77e2bbb82378e0",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "mn1",
+          "url": "https://www.nature.com/articles/s41586-025-08981-5",
+          "location": "Figures1-5 and Extended Data Figure3, fusion domain, transcription and conditional-mouse experiments",
+          "scope": "MN1-BEND2 model tumor initiation and transcriptional programs; MN1-CXXC5 statement separately narrowed.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs. BEND2 encodes a BEN-domain protein implicated in transcriptional regulation. The fusion creates an abnormal MN1/BEND2 transcriptional regulator and drives tumor formation in experimental models. It is a recurrent driver in the CNS tumor group classified as astroblastoma, MN1-altered.",
+    "text": "MN1 encodes the meningioma 1 protein. BEND2 encodes a BEN-domain protein implicated in transcriptional regulation. MN1::BEND2 is an in-frame transcription-factor fusion associated with astroblastoma. Experimental fusion-driven models show brain tumor formation and altered transcriptional programs.",
     "source_ids": [
       "ncbi-4330",
       "ncbi-139105",
-      "mn1",
-      "cns"
+      "mn1"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Recent fusion-defined groups have different outcomes; no blanket favorable or adverse prognosis assigned."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "37dae507f4f2df5fe20258b6769d051a9fc05feaa038b166ee062d92b30c4991"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "93b0e4760f8688eab74c0433dfb6dfb4fcd9cb893efffb8e1b3266d5dad92151"
 }

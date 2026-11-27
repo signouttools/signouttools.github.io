@@ -20,16 +20,29 @@
   "tumor_contexts": [
     "Supratentorial ependymoma, ZFTA fusion-positive"
   ],
+  "disease_ids": [
+    "fusion-context-6f5328aac10b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "ZFTA",
-      "text": "ZFTA encodes a zinc-finger protein with chromatin-binding activity.",
+      "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator.",
       "source_ids": [
         "ncbi-65998"
       ],
-      "claim_sha256": "2d37febee566b0bf67abc5376d9ac008ca7702f4691c808f766ffdee0a37dc20",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "ada20b5f8beab08a7c88d4c88f91f2a7d973348d837041cda272a1e7cba88144",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-65998",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/65998",
+          "location": "NCBI Gene 65998 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "454ef726b0ee11c05d1fcea82440700a3435f8de9c6b0de6b3ed0713040f36e3"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -39,37 +52,60 @@
         "ncbi-5970"
       ],
       "claim_sha256": "7fef614283ef01804f3b11d50d4fbbad356609498b37a076e2d3cea5cb569c0d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5970",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5970",
+          "location": "NCBI Gene 5970 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "74e67ccaf2ad645659fc1128943daeb04b0d6780f6f444b2d53920544fc642c9"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion combines ZFTA chromatin targeting with RELA transcriptional activation, recruiting chromatin regulators and activating oncogenic transcription, including NF-kappaB-associated programs. It is the predominant fusion in ZFTA-fusion-positive supratentorial ependymoma.",
+      "text": "The fusion combines ZFTA chromatin targeting with RELA transcriptional activation. Experimental deletion studies show that the ZFTA zinc-finger and RELA activation regions are required for tumorigenesis, whereas the RELA domain that recruits NF-kappaB complexes is dispensable. It occurs in supratentorial ependymoma.",
       "source_ids": [
-        "zfta",
-        "cns"
+        "zfta"
       ],
-      "claim_sha256": "1bc9710b6c09d3b5a37426ab01b0c5202481e348525fad9ac258b3b87fc5cc36",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "9eab0295f55615abe707bf831bcb0a22e7869d48ee066ba8978fee7bbc5929c2",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "zfta",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8918067/",
+          "location": "Results, Figures 6-7; ZFTA-RELA ZF and TAD, but not RHD, are required for tumorigenesis",
+          "scope": "ZFTA chromatin targeting and RELA activation required; NF-kappaB recruitment is not itself indispensable.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "ZFTA encodes a zinc-finger protein with chromatin-binding activity. RELA encodes p65, a transcriptional subunit of the NF-kappaB complex. The fusion combines ZFTA chromatin targeting with RELA transcriptional activation, recruiting chromatin regulators and activating oncogenic transcription, including NF-kappaB-associated programs. It is the predominant fusion in ZFTA-fusion-positive supratentorial ependymoma.",
+    "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator. RELA encodes p65, a transcriptional subunit of the NF-kappaB complex. The fusion combines ZFTA chromatin targeting with RELA transcriptional activation. Experimental deletion studies show that the ZFTA zinc-finger and RELA activation regions are required for tumorigenesis, whereas the RELA domain that recruits NF-kappaB complexes is dispensable. It occurs in supratentorial ependymoma.",
     "source_ids": [
       "ncbi-65998",
       "ncbi-5970",
-      "zfta",
-      "cns"
+      "zfta"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "a02a5ed278e7aa0b3b11eb7d7fbb22bccf2776156a387eb636c9b7fe4fe6dc62"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "4f272c43cf5716a71e96ed169b175a903546897acdbcb5027b25925661713b40"
 }

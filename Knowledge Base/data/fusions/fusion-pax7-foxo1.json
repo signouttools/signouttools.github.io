@@ -18,64 +18,111 @@
   "tumor_contexts": [
     "Fusion-positive alveolar rhabdomyosarcoma"
   ],
+  "disease_ids": [
+    "fusion-context-7f9709ed17ca"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "PAX7",
-      "text": "PAX7 encodes a paired-box transcription factor involved in skeletal-muscle progenitor development.",
+      "text": "PAX7 encodes a paired-box transcription factor involved in development.",
       "source_ids": [
         "ncbi-5081"
       ],
-      "claim_sha256": "443f8878938e97e0385a5e1a6625486c9140ccfdb88c1ba467441c618d83bd3b",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "60d1fbf15eb2ff870225b83ecbb15f72c2dd76b5e2de447f3d5716a0fb30cf7e",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5081",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5081",
+          "location": "NCBI Gene 5081 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "44eba1f188fad1c953a2ec6d430649b9edee16605505a8feab82e06adcfcc2a1"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "FOXO1",
-      "text": "FOXO1 encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival.",
+      "text": "FOXO1 encodes a forkhead-family transcription factor.",
       "source_ids": [
         "ncbi-2308"
       ],
-      "claim_sha256": "627137f9c8acd00de043978e8a4f9ca4b1e731f963fdd70398b9ec8683f88f29",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "6f562d6995d6c428c0b10ff1ba4b566450c6f38d917a3ffa7c8c623e1fc50f7a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2308",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2308",
+          "location": "NCBI Gene 2308 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a1fbf744c0c5b1ece975006dfe26fae3fd69d08664421c1fe1531d90046f85cf"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma.",
+      "text": "PAX7::FOXO1 is a recurrent fusion in alveolar rhabdomyosarcoma.",
       "source_ids": [
-        "sarcoma"
+        "audit-sarcoma-rms"
       ],
-      "claim_sha256": "c484a734ed8b37a85f33af45049f357fa26dd2a0c1387848582dc3eb7f5ed93f",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "9097732c2e389809c5d9d36761bb7dafd9e05ae276646544063c7d40c980abea",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-rms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+          "location": "Results; Tables 2 and 4",
+          "scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
-      "text": "PAX7::FOXO1-positive disease has shown better outcomes than PAX3::FOXO1-positive disease in some cohorts; the adverse associations of the two partners are not identical.",
+      "text": "In localized alveolar rhabdomyosarcoma in the CWS cohort, PAX7::FOXO1-positive tumors had better overall survival than PAX3::FOXO1-positive tumors in the univariate analysis.",
       "source_ids": [
-        "rms-prognosis"
+        "audit-sarcoma-rms"
       ],
-      "claim_sha256": "8b63db364c1f1cfa1b552719c357bd5a853607dd06080df2fcd1f41ac475cdbc",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "57ca2f8aff04ac1016f3651103c6eabe9f084598c72436aaeb87dd1a764ea71a",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-rms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+          "location": "Results; Tables 2 and 4",
+          "scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "PAX7 encodes a paired-box transcription factor involved in skeletal-muscle progenitor development. FOXO1 encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival. The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma. PAX7::FOXO1-positive disease has shown better outcomes than PAX3::FOXO1-positive disease in some cohorts; the adverse associations of the two partners are not identical.",
+    "text": "PAX7 encodes a paired-box transcription factor involved in development. FOXO1 encodes a forkhead-family transcription factor. PAX7::FOXO1 is a recurrent fusion in alveolar rhabdomyosarcoma. In localized alveolar rhabdomyosarcoma in the CWS cohort, PAX7::FOXO1-positive tumors had better overall survival than PAX3::FOXO1-positive tumors in the univariate analysis.",
     "source_ids": [
       "ncbi-5081",
       "ncbi-2308",
-      "sarcoma",
-      "rms-prognosis"
+      "audit-sarcoma-rms"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
+  "curation_notes": [
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "495161d6fa39380980255111ed0c93533fb73b891f06c8ce03f8897c370433c7"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "6a7e2bcdf9f26e55afc760612bace200ea16ff5547a42ec0ea2a98d4c4b5aa38"
 }

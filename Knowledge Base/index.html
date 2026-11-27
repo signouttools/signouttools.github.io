@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src data:; base-uri 'none'; form-action 'none'; object-src 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A draft molecular pathology knowledge base with 1,305 source-linked gene entries, all three Cancer Hotspots releases, and conditional disruption drafts.">
+  <meta name="description" content="A draft molecular pathology knowledge base with source-linked genes, hotspot and disruption comments, and audited fusion and rearrangement drafts.">
   <meta name="theme-color" content="#14273a">
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="style.css">
@@ -13,13 +13,13 @@
   <title>Knowledge Base · Signout Tools</title>
 </head>
 <body>
-  <a class="skip" href="#entry">Skip to gene entry</a>
+  <a class="skip" href="#entry">Skip to selected entry</a>
   <header class="masthead">
     <div class="shell">
       <nav aria-label="Site"><a href="../index.html">Signout Tools</a><a href="#about-library">About this library</a></nav>
       <div class="heading-row"><div><p class="eyebrow">Molecular pathology reference</p><h1>Knowledge Base</h1></div><span class="pilot-label">Draft library · v0.4</span></div>
       <p class="intro">Gene biology, inherited disease, and somatic cancer associations.<br> A concise starting point for molecular report drafting.</p>
-      <div class="metrics" aria-label="Draft coverage"><span><strong id="gene-total">1,305</strong> draft genes</span><span><strong id="variant-total">1,747</strong> site / disruption comments</span><span><strong>4,468</strong> allele drafts</span></div>
+      <div class="metrics" aria-label="Draft coverage"><span><strong id="gene-total">1,305</strong> draft genes</span><span><strong id="variant-total">1,747</strong> site / disruption comments</span><span><strong>4,468</strong> allele drafts</span><span><strong id="fusion-total">—</strong> fusion drafts</span></div>
     </div>
   </header>
   <main class="shell">
@@ -29,9 +29,13 @@
       <p>This library provides draft report comments about gene function, inherited disease, somatic alterations, and cancer associations. All comments require molecular pathologist review.</p>
       <p>The original 1,133-gene roster combines versioned gene lists from MSK-IMPACT 505, MSK-IMPACT Heme, DFCI OncoPanel 3, FoundationOne, and TruSight Oncology 500, supplemented by AMP educational guides and the Tumor Driver Atlas. Another 172 genes were added to represent every gene in the three Cancer Hotspots releases. Panel membership explains selection; it does not establish clinical significance.</p>
       <p>Biological comments draw on NCBI/RefSeq, UniProt, germline disease assertions, and linked literature. Cohort recurrence is distinguished from variant-specific pathogenicity. FDA references provide regulatory context and require current-label review.</p>
-      <p><a href="inventory/review.html">Original roster and panel provenance</a> · <a href="README.md">Database plan and editorial guidelines</a> · <a href="HOTSPOT-REVIEW.md">Hotspot import and FDA review</a> · <a href="CITATION-AUDIT.md">Report citation audit</a> · <a href="FULLTEXT-REVIEW.md">Full-text review progress</a></p>
+      <p><a href="inventory/review.html">Original roster and panel provenance</a> · <a href="README.md">Database plan and editorial guidelines</a> · <a href="HOTSPOT-REVIEW.md">Hotspot import and FDA review</a> · <a href="CITATION-AUDIT.md">Report citation audit</a> · <a href="FULLTEXT-REVIEW.md">Full-text review progress</a> · <a href="FUSION-REVIEW.md">Fusion evidence audit</a></p>
     </details>
-    <section class="search-panel" aria-label="Search and filter genes">
+    <div class="library-modes" role="group" aria-label="Choose reference library">
+      <button id="mode-genes" type="button" aria-pressed="true" disabled>Genes &amp; variants</button>
+      <button id="mode-fusions" type="button" aria-pressed="false" disabled>Fusions &amp; rearrangements</button>
+    </div>
+    <section class="search-panel" aria-label="Search and filter reference entries">
       <div class="search-field"><label for="search">Search the knowledge base</label><input id="search" type="search" disabled placeholder="Gene, alias, pathway, disease, or hotspot…" aria-describedby="search-help" autocomplete="off"><p id="search-help">Try “p53”, “MAPK”, “AML”, or “R132H”. All search words must match.</p></div>
       <div class="filter-field"><label for="category">Tumor category</label><select id="category" disabled><option value="">All categories</option><option value="solid">Solid tumors</option><option value="hematologic">Hematologic neoplasms</option><option value="cns">CNS tumors</option><option value="pan_cancer">Multiple cancer types</option></select></div>
       <div class="filter-field"><label for="tumor">Tumor type</label><select id="tumor" disabled><option value="">All tumor types</option></select></div>
@@ -48,7 +52,7 @@
     </div>
     <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
     <section class="next-stage" aria-labelledby="next-title"><div><p class="eyebrow">Review status</p><h2 id="next-title">Review the drafts and resolve evidence gaps.</h2><p>The original roster and 172 additional hotspot genes are drafted. Hotspot and allele comments summarize source recurrence; FDA references require current-label review. Review allele mechanisms, incomplete associations, and conflicting assertions before approving report language.</p></div><a href="README.md">Read the database plan</a></section>
-    <footer><p>Signout Tools · Knowledge Base · Draft library</p><p>Pathologist review needed — LLM-generated summary/review. Sources checked November 26, 2026.</p><a href="data/manifest.json">Release manifest</a><a href="schemas/knowledge-base.schema.json">JSON schema</a><a href="hotspots/ATTRIBUTION.md">Contains Cancer Hotspots data · ODbL 1.0</a></footer>
+    <footer><p>Signout Tools · Knowledge Base · Draft library</p><p>Pathologist review needed — LLM-generated summary/review. Gene/hotspot sources checked November 26, 2026; fusion evidence audited November 27, 2026.</p><a href="data/manifest.json">Release manifest</a><a href="schemas/knowledge-base.schema.json">JSON schema</a><a href="hotspots/ATTRIBUTION.md">Contains Cancer Hotspots data · ODbL 1.0</a></footer>
     <noscript><p class="notice">Enable JavaScript to browse the JSON-backed pilot. The plan and JSON files remain available through the links above.</p></noscript>
   </main>
 </body>

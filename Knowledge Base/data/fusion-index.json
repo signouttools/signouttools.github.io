@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "built_on": "2026-11-27",
-  "status": "draft_not_in_live_manifest",
+  "status": "audited_drafts_integrated",
   "records": [
     {
       "id": "fusion-eml4-alk",
@@ -23,13 +23,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -52,13 +60,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -81,13 +97,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -110,13 +134,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -137,16 +169,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Papillary thyroid carcinoma",
         "Lung adenocarcinoma"
+      ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -167,16 +206,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Papillary thyroid carcinoma",
         "Lung adenocarcinoma"
+      ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -199,13 +245,21 @@
       "tumor_contexts": [
         "Salivary secretory carcinoma"
       ],
+      "disease_ids": [
+        "fusion-context-d38c219d8297"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -228,13 +282,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -257,13 +319,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -286,13 +356,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -315,13 +393,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -344,13 +430,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -375,13 +469,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -402,17 +504,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "NTRK-rearranged spindle cell neoplasm",
-        "Colorectal carcinoma",
-        "Papillary thyroid carcinoma"
+        "Colorectal adenocarcinoma"
+      ],
+      "disease_ids": [
+        "colorectal"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -433,16 +541,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "NTRK-rearranged spindle cell neoplasm",
-        "Colorectal carcinoma"
+        "Colorectal adenocarcinoma"
+      ],
+      "disease_ids": [
+        "colorectal"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -463,16 +578,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Colorectal carcinoma",
-        "Thyroid carcinoma"
+        "Colorectal adenocarcinoma"
+      ],
+      "disease_ids": [
+        "colorectal"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -493,16 +615,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Lung adenocarcinoma",
         "Thyroid carcinoma"
+      ],
+      "disease_ids": [
+        "thyroid"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -523,16 +652,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Thyroid carcinoma",
-        "NTRK-rearranged spindle cell neoplasm"
+        "Thyroid carcinoma"
+      ],
+      "disease_ids": [
+        "thyroid"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -555,13 +691,21 @@
       "tumor_contexts": [
         "Thyroid carcinoma"
       ],
+      "disease_ids": [
+        "thyroid"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -582,47 +726,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Infantile fibrosarcoma",
-        "Cellular congenital mesoblastic nephroma",
-        "Secretory carcinoma of breast",
-        "Salivary secretory carcinoma"
+        "Secretory carcinoma of breast"
+      ],
+      "disease_ids": [
+        "atlas-v-secretory-carcinoma-of-breast"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
-      }
-    },
-    {
-      "id": "fusion-etv6-ntrk2",
-      "label": "ETV6::NTRK2",
-      "event_class": "chimeric_fusion",
-      "partners": [
-        {
-          "symbol": "ETV6",
-          "hgnc_id": "HGNC:3495",
-          "ncbi_gene_id": "2120"
-        },
-        {
-          "symbol": "NTRK2",
-          "hgnc_id": "HGNC:8032",
-          "ncbi_gene_id": "4915"
-        }
-      ],
-      "aliases": [],
-      "tumor_contexts": [
-        "Pulmonary atypical carcinoid"
-      ],
-      "editorial": {
-        "status": "draft",
-        "revision": 1,
-        "drafted_on": "2026-11-27",
-        "reviewer": null,
-        "pathologist_review": "pending",
-        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -645,13 +765,21 @@
       "tumor_contexts": [
         "Intrahepatic cholangiocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-intrahepatic-cholangiocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -674,13 +802,21 @@
       "tumor_contexts": [
         "Intrahepatic cholangiocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-intrahepatic-cholangiocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -703,13 +839,21 @@
       "tumor_contexts": [
         "Intrahepatic cholangiocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-intrahepatic-cholangiocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -732,13 +876,21 @@
       "tumor_contexts": [
         "Intrahepatic cholangiocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-intrahepatic-cholangiocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -762,13 +914,22 @@
         "Glioblastoma",
         "Urothelial carcinoma"
       ],
+      "disease_ids": [
+        "curation-intogen-GB",
+        "atlas-e-uro"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -792,13 +953,22 @@
         "Glioma",
         "Extraventricular neurocytoma"
       ],
+      "disease_ids": [
+        "glioma",
+        "fusion-context-540e9e22dbaf"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -819,15 +989,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Lung adenocarcinoma, often invasive mucinous"
+        "Lung adenocarcinoma"
+      ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -850,13 +1028,21 @@
       "tumor_contexts": [
         "Lung adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -877,16 +1063,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Pancreatic adenocarcinoma",
         "Lung adenocarcinoma"
+      ],
+      "disease_ids": [
+        "atlas-v-lung-adenocarcinoma"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -909,13 +1102,21 @@
       "tumor_contexts": [
         "Inflammatory myofibroblastic tumor"
       ],
+      "disease_ids": [
+        "fusion-context-9f98d303a12b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -938,13 +1139,21 @@
       "tumor_contexts": [
         "Inflammatory myofibroblastic tumor"
       ],
+      "disease_ids": [
+        "fusion-context-9f98d303a12b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -965,16 +1174,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Inflammatory myofibroblastic tumor",
-        "ALK-positive large B-cell lymphoma"
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "disease_ids": [
+        "fusion-context-9f98d303a12b"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -998,13 +1214,22 @@
         "Inflammatory myofibroblastic tumor",
         "Epithelioid inflammatory myofibroblastic sarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-9f98d303a12b",
+        "atlas-s-eims"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1029,13 +1254,21 @@
       "tumor_contexts": [
         "Inflammatory myofibroblastic tumor"
       ],
+      "disease_ids": [
+        "fusion-context-9f98d303a12b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1058,13 +1291,21 @@
       "tumor_contexts": [
         "ALK-positive anaplastic large cell lymphoma"
       ],
+      "disease_ids": [
+        "fusion-context-73c82e08355b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1089,13 +1330,23 @@
         "B-lymphoblastic leukemia",
         "Rare de novo AML"
       ],
+      "disease_ids": [
+        "atlas-h-cml",
+        "fusion-context-214d146d359b",
+        "fusion-context-4f619e09b4ef"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1118,13 +1369,21 @@
       "tumor_contexts": [
         "Acute promyelocytic leukemia"
       ],
+      "disease_ids": [
+        "refseq-tumor-e4b6d9013f36"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1147,13 +1406,21 @@
       "tumor_contexts": [
         "Core-binding factor AML"
       ],
+      "disease_ids": [
+        "fusion-context-52db3366a828"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1176,13 +1443,21 @@
       "tumor_contexts": [
         "Core-binding factor AML"
       ],
+      "disease_ids": [
+        "fusion-context-52db3366a828"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1205,13 +1480,21 @@
       "tumor_contexts": [
         "AML with DEK::NUP214"
       ],
+      "disease_ids": [
+        "fusion-context-cda6797b5406"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1237,13 +1520,21 @@
       "tumor_contexts": [
         "Infant acute megakaryoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-f480d899fb9e"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1267,13 +1558,22 @@
         "AML",
         "Other KMT2A-rearranged acute leukemias"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-13ae6d68cda6"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1298,13 +1598,23 @@
         "AML",
         "Mixed-phenotype acute leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-be18c9ebda2f",
+        "aml",
+        "fusion-context-48690305ed40"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1328,13 +1638,22 @@
         "AML",
         "Other KMT2A-rearranged acute leukemias"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-13ae6d68cda6"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1358,13 +1677,22 @@
         "AML",
         "Other KMT2A-rearranged acute leukemias"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-13ae6d68cda6"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1391,13 +1719,22 @@
         "AML",
         "Other KMT2A-rearranged acute leukemias"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-13ae6d68cda6"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1421,13 +1758,22 @@
         "AML",
         "Other KMT2A-rearranged acute leukemias"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-13ae6d68cda6"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1451,13 +1797,22 @@
         "AML",
         "Other KMT2A-rearranged acute leukemias"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-13ae6d68cda6"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1480,13 +1835,21 @@
       "tumor_contexts": [
         "AML"
       ],
+      "disease_ids": [
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1509,13 +1872,21 @@
       "tumor_contexts": [
         "AML"
       ],
+      "disease_ids": [
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1538,13 +1909,21 @@
       "tumor_contexts": [
         "AML"
       ],
+      "disease_ids": [
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1568,13 +1947,22 @@
         "AML",
         "Myelodysplastic neoplasia"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-b4935b7d50c4"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1597,13 +1985,21 @@
       "tumor_contexts": [
         "AML"
       ],
+      "disease_ids": [
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1626,13 +2022,21 @@
       "tumor_contexts": [
         "AML"
       ],
+      "disease_ids": [
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1655,13 +2059,21 @@
       "tumor_contexts": [
         "Pediatric AML, often megakaryoblastic"
       ],
+      "disease_ids": [
+        "fusion-context-3136f564768f"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1685,13 +2097,22 @@
         "AML",
         "Rare Ewing sarcoma"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-0b6f7b7722b1"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1714,13 +2135,21 @@
       "tumor_contexts": [
         "AML"
       ],
+      "disease_ids": [
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1746,13 +2175,22 @@
         "T-lymphoblastic leukemia",
         "AML"
       ],
+      "disease_ids": [
+        "fusion-context-f1367cb5be80",
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1776,13 +2214,22 @@
         "T-lymphoblastic leukemia",
         "AML"
       ],
+      "disease_ids": [
+        "fusion-context-f1367cb5be80",
+        "aml"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1805,13 +2252,21 @@
       "tumor_contexts": [
         "AML, often monocytic or myelomonocytic"
       ],
+      "disease_ids": [
+        "fusion-context-17fe6d67c4f5"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1834,13 +2289,21 @@
       "tumor_contexts": [
         "AML, often monocytic or myelomonocytic"
       ],
+      "disease_ids": [
+        "fusion-context-17fe6d67c4f5"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1863,13 +2326,21 @@
       "tumor_contexts": [
         "AML with variant RARA fusion"
       ],
+      "disease_ids": [
+        "fusion-context-1ec3e1b0e856"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1892,13 +2363,21 @@
       "tumor_contexts": [
         "AML with variant RARA fusion"
       ],
+      "disease_ids": [
+        "fusion-context-1ec3e1b0e856"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1921,13 +2400,21 @@
       "tumor_contexts": [
         "AML with variant RARA fusion"
       ],
+      "disease_ids": [
+        "fusion-context-1ec3e1b0e856"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1950,13 +2437,21 @@
       "tumor_contexts": [
         "Myeloid/lymphoid neoplasm with PDGFRA rearrangement"
       ],
+      "disease_ids": [
+        "fusion-context-147f56eeaa22"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1979,13 +2474,21 @@
       "tumor_contexts": [
         "Myeloid/lymphoid neoplasm with PDGFRB rearrangement"
       ],
+      "disease_ids": [
+        "fusion-context-94b46d536e8e"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2008,13 +2511,21 @@
       "tumor_contexts": [
         "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
       ],
+      "disease_ids": [
+        "fusion-context-092ab72d2578"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2037,13 +2548,21 @@
       "tumor_contexts": [
         "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
       ],
+      "disease_ids": [
+        "fusion-context-092ab72d2578"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2066,13 +2585,21 @@
       "tumor_contexts": [
         "Myeloid/lymphoid neoplasm with JAK2 rearrangement"
       ],
+      "disease_ids": [
+        "fusion-context-8e82b6b73906"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2096,13 +2623,22 @@
         "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
         "B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-8e82b6b73906",
+        "fusion-context-214d146d359b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2126,13 +2662,22 @@
         "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
         "B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-8e82b6b73906",
+        "fusion-context-214d146d359b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2155,13 +2700,21 @@
       "tumor_contexts": [
         "Ph-like B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-db1c59b8f11b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2184,13 +2737,21 @@
       "tumor_contexts": [
         "Myeloid/lymphoid neoplasm with FLT3 rearrangement"
       ],
+      "disease_ids": [
+        "fusion-context-20f51418af62"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2214,13 +2775,22 @@
         "Ph-like B-ALL",
         "Myeloid/lymphoid neoplasm with ETV6::ABL1"
       ],
+      "disease_ids": [
+        "fusion-context-ea801e61035d",
+        "fusion-context-d7d89c4d9c29"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2243,13 +2813,21 @@
       "tumor_contexts": [
         "Ph-like B-ALL"
       ],
+      "disease_ids": [
+        "fusion-context-ea801e61035d"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2273,13 +2851,22 @@
         "T-ALL",
         "Ph-like B-ALL"
       ],
+      "disease_ids": [
+        "fusion-context-4dca18fb00ef",
+        "fusion-context-ea801e61035d"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2302,13 +2889,21 @@
       "tumor_contexts": [
         "Ph-like B-ALL"
       ],
+      "disease_ids": [
+        "fusion-context-ea801e61035d"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2331,13 +2926,21 @@
       "tumor_contexts": [
         "Ph-like B-ALL"
       ],
+      "disease_ids": [
+        "fusion-context-ea801e61035d"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2360,13 +2963,21 @@
       "tumor_contexts": [
         "Childhood B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-1a37f52f1073"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2389,13 +3000,21 @@
       "tumor_contexts": [
         "B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2418,13 +3037,21 @@
       "tumor_contexts": [
         "B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2447,13 +3074,21 @@
       "tumor_contexts": [
         "B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2476,13 +3111,21 @@
       "tumor_contexts": [
         "B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2506,13 +3149,22 @@
         "B-lymphoblastic leukemia",
         "B/myeloid mixed-phenotype acute leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b",
+        "fusion-context-6ba1270eb70b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2536,13 +3188,22 @@
         "B-lymphoblastic leukemia",
         "B/myeloid mixed-phenotype acute leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b",
+        "fusion-context-6ba1270eb70b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2566,13 +3227,22 @@
         "B-lymphoblastic leukemia",
         "B/myeloid mixed-phenotype acute leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b",
+        "fusion-context-6ba1270eb70b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2595,13 +3265,21 @@
       "tumor_contexts": [
         "B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-214d146d359b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2626,13 +3304,21 @@
       "tumor_contexts": [
         "Extranodal marginal zone lymphoma of MALT"
       ],
+      "disease_ids": [
+        "fusion-context-84b7d11a7f2c"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2655,13 +3341,21 @@
       "tumor_contexts": [
         "Ewing sarcoma"
       ],
+      "disease_ids": [
+        "refseq-tumor-0d6750b99854"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2684,13 +3378,21 @@
       "tumor_contexts": [
         "Ewing sarcoma"
       ],
+      "disease_ids": [
+        "refseq-tumor-0d6750b99854"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2713,13 +3415,21 @@
       "tumor_contexts": [
         "Ewing sarcoma"
       ],
+      "disease_ids": [
+        "refseq-tumor-0d6750b99854"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2742,13 +3452,21 @@
       "tumor_contexts": [
         "Ewing sarcoma"
       ],
+      "disease_ids": [
+        "refseq-tumor-0d6750b99854"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2771,13 +3489,21 @@
       "tumor_contexts": [
         "Ewing sarcoma"
       ],
+      "disease_ids": [
+        "refseq-tumor-0d6750b99854"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2800,13 +3526,21 @@
       "tumor_contexts": [
         "Synovial sarcoma"
       ],
+      "disease_ids": [
+        "atlas-nm-synovial"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2829,13 +3563,21 @@
       "tumor_contexts": [
         "Synovial sarcoma"
       ],
+      "disease_ids": [
+        "atlas-nm-synovial"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2858,13 +3600,21 @@
       "tumor_contexts": [
         "Synovial sarcoma"
       ],
+      "disease_ids": [
+        "atlas-nm-synovial"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2887,13 +3637,21 @@
       "tumor_contexts": [
         "Fusion-positive alveolar rhabdomyosarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-7f9709ed17ca"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2916,13 +3674,21 @@
       "tumor_contexts": [
         "Fusion-positive alveolar rhabdomyosarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-7f9709ed17ca"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2945,13 +3711,21 @@
       "tumor_contexts": [
         "Desmoplastic small round cell tumor"
       ],
+      "disease_ids": [
+        "atlas-nm-dsrct"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2974,13 +3748,21 @@
       "tumor_contexts": [
         "Myxoid liposarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-9d7d2840bc85"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3003,13 +3785,21 @@
       "tumor_contexts": [
         "Myxoid liposarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-9d7d2840bc85"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3032,13 +3822,21 @@
       "tumor_contexts": [
         "Dermatofibrosarcoma protuberans"
       ],
+      "disease_ids": [
+        "fusion-context-a49e6064ad0f"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3061,13 +3859,21 @@
       "tumor_contexts": [
         "Solitary fibrous tumor"
       ],
+      "disease_ids": [
+        "fusion-context-6ea415c4fb10"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3091,13 +3897,22 @@
         "Alveolar soft part sarcoma",
         "TFE3-rearranged renal cell carcinoma"
       ],
+      "disease_ids": [
+        "atlas-nm-asps",
+        "atlas-e-tfe3"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3120,16 +3935,25 @@
       "tumor_contexts": [
         "Clear cell sarcoma",
         "Angiomatoid fibrous histiocytoma",
-        "Hyalinizing clear cell carcinoma of salivary gland",
-        "Intracranial mesenchymal tumor with FET::CREB fusion"
+        "Salivary hyalinizing clear cell carcinoma"
+      ],
+      "disease_ids": [
+        "fusion-context-d0b4927701df",
+        "fusion-context-2828430f1e7b",
+        "fusion-context-f0ad9dd8281d"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3151,16 +3975,24 @@
       "aliases": [],
       "tumor_contexts": [
         "Angiomatoid fibrous histiocytoma",
-        "Gastrointestinal neuroectodermal tumor",
-        "Intracranial mesenchymal tumor with FET::CREB fusion"
+        "Gastrointestinal neuroectodermal tumor"
+      ],
+      "disease_ids": [
+        "fusion-context-2828430f1e7b",
+        "fusion-context-ef3610f69105"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3183,13 +4015,21 @@
       "tumor_contexts": [
         "Angiomatoid fibrous histiocytoma"
       ],
+      "disease_ids": [
+        "fusion-context-2828430f1e7b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3213,13 +4053,22 @@
         "Low-grade fibromyxoid sarcoma",
         "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
       ],
+      "disease_ids": [
+        "atlas-nm-lgfms",
+        "fusion-context-86931edbcbf8"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3240,16 +4089,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Low-grade fibromyxoid sarcoma",
-        "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+        "Low-grade fibromyxoid sarcoma"
+      ],
+      "disease_ids": [
+        "atlas-nm-lgfms"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3272,13 +4128,21 @@
       "tumor_contexts": [
         "Sclerosing epithelioid fibrosarcoma"
       ],
+      "disease_ids": [
+        "atlas-nm-sef"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3301,13 +4165,21 @@
       "tumor_contexts": [
         "CIC-rearranged undifferentiated round cell sarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-53a43d7df981"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3330,13 +4202,21 @@
       "tumor_contexts": [
         "BCOR::CCNB3 sarcoma of bone or soft tissue"
       ],
+      "disease_ids": [
+        "fusion-context-edd4a0cc8331"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3359,13 +4239,21 @@
       "tumor_contexts": [
         "EWSR1::NFATC2-rearranged sarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-57bda33b21a2"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3388,13 +4276,21 @@
       "tumor_contexts": [
         "Spindle/round cell sarcoma with EWSR1::PATZ1"
       ],
+      "disease_ids": [
+        "fusion-context-f836a5c1cbab"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3417,13 +4313,21 @@
       "tumor_contexts": [
         "Mesenchymal chondrosarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-ac924ec4f7f5"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3446,13 +4350,21 @@
       "tumor_contexts": [
         "Extraskeletal myxoid chondrosarcoma"
       ],
+      "disease_ids": [
+        "atlas-nm-emc"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3475,13 +4387,21 @@
       "tumor_contexts": [
         "Extraskeletal myxoid chondrosarcoma"
       ],
+      "disease_ids": [
+        "atlas-nm-emc"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3504,13 +4424,21 @@
       "tumor_contexts": [
         "Epithelioid hemangioendothelioma"
       ],
+      "disease_ids": [
+        "atlas-nm-ehe"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3533,13 +4461,21 @@
       "tumor_contexts": [
         "YAP1::TFE3-fused hemangioendothelioma"
       ],
+      "disease_ids": [
+        "fusion-context-420e6174560e"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3560,16 +4496,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Low-grade endometrial stromal sarcoma",
-        "Endometrial stromal nodule"
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "disease_ids": [
+        "fusion-context-8e136239d50c"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3592,13 +4535,21 @@
       "tumor_contexts": [
         "High-grade endometrial stromal sarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-452953d0d334"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3621,13 +4572,21 @@
       "tumor_contexts": [
         "High-grade endometrial stromal sarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-452953d0d334"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3648,15 +4607,25 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "High-grade endometrial stromal sarcoma"
+        "High-grade endometrial stromal sarcoma",
+        "Ossifying fibromyxoid tumor"
+      ],
+      "disease_ids": [
+        "fusion-context-452953d0d334",
+        "fusion-context-b8b17dd73888"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3679,13 +4648,21 @@
       "tumor_contexts": [
         "Biphenotypic sinonasal sarcoma"
       ],
+      "disease_ids": [
+        "atlas-e-bsns"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3708,13 +4685,21 @@
       "tumor_contexts": [
         "Congenital/infantile spindle cell rhabdomyosarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-6ba36108d003"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3737,13 +4722,21 @@
       "tumor_contexts": [
         "Congenital/infantile spindle cell rhabdomyosarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-6ba36108d003"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3764,17 +4757,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Pilocytic astrocytoma",
-        "Other pediatric low-grade gliomas",
-        "Diffuse leptomeningeal glioneuronal tumor"
+        "Pilocytic astrocytoma"
+      ],
+      "disease_ids": [
+        "curation-intogen-PAST"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3798,13 +4797,22 @@
         "Pilocytic astrocytoma",
         "Other pediatric low-grade gliomas"
       ],
+      "disease_ids": [
+        "curation-intogen-PAST",
+        "fusion-context-f2283e68417d"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3827,13 +4835,21 @@
       "tumor_contexts": [
         "Pediatric low-grade glioma"
       ],
+      "disease_ids": [
+        "fusion-context-15fb253dea61"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3856,13 +4872,21 @@
       "tumor_contexts": [
         "Pediatric low-grade glioma"
       ],
+      "disease_ids": [
+        "fusion-context-15fb253dea61"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3887,13 +4911,21 @@
       "tumor_contexts": [
         "Supratentorial ependymoma, ZFTA fusion-positive"
       ],
+      "disease_ids": [
+        "fusion-context-6f5328aac10b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3916,13 +4948,21 @@
       "tumor_contexts": [
         "Supratentorial ependymoma, YAP1 fusion-positive"
       ],
+      "disease_ids": [
+        "fusion-context-c640334e5b9e"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3945,13 +4985,21 @@
       "tumor_contexts": [
         "Angiocentric glioma"
       ],
+      "disease_ids": [
+        "fusion-context-ff09d54e54e4"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3974,13 +5022,21 @@
       "tumor_contexts": [
         "Astroblastoma, MN1-altered"
       ],
+      "disease_ids": [
+        "atlas-nm-astroblast"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4003,13 +5059,21 @@
       "tumor_contexts": [
         "Astroblastoma, MN1-altered"
       ],
+      "disease_ids": [
+        "atlas-nm-astroblast"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4032,13 +5096,21 @@
       "tumor_contexts": [
         "Papillary glioneuronal tumor"
       ],
+      "disease_ids": [
+        "fusion-context-2d53bc71d8c5"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4062,13 +5134,22 @@
         "Mucoepidermoid carcinoma of salivary gland",
         "Mucoepidermoid carcinoma at other sites"
       ],
+      "disease_ids": [
+        "atlas-e-salmec",
+        "fusion-context-dc52e2a73c26"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4092,13 +5173,22 @@
         "Mucoepidermoid carcinoma of salivary gland",
         "Mucoepidermoid carcinoma at other sites"
       ],
+      "disease_ids": [
+        "atlas-e-salmec",
+        "fusion-context-dc52e2a73c26"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4121,13 +5211,21 @@
       "tumor_contexts": [
         "Adenoid cystic carcinoma"
       ],
+      "disease_ids": [
+        "curation-intogen-ACYC"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4150,13 +5248,21 @@
       "tumor_contexts": [
         "Adenoid cystic carcinoma"
       ],
+      "disease_ids": [
+        "curation-intogen-ACYC"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4179,13 +5285,21 @@
       "tumor_contexts": [
         "NUT carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-nut"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4208,13 +5322,21 @@
       "tumor_contexts": [
         "NUT carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-nut"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4239,13 +5361,21 @@
       "tumor_contexts": [
         "NUT carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-nut"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4268,13 +5398,21 @@
       "tumor_contexts": [
         "Fibrolamellar carcinoma"
       ],
+      "disease_ids": [
+        "atlas-v-fibrolamellar-carcinoma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4297,13 +5435,21 @@
       "tumor_contexts": [
         "Prostate adenocarcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-prad"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4324,16 +5470,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Pleomorphic adenoma",
-        "Carcinoma ex pleomorphic adenoma"
+        "Pleomorphic adenoma"
+      ],
+      "disease_ids": [
+        "fusion-context-aa5924a9b86d"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4354,16 +5507,23 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Pleomorphic adenoma",
-        "Carcinoma ex pleomorphic adenoma"
+        "Pleomorphic adenoma"
+      ],
+      "disease_ids": [
+        "fusion-context-aa5924a9b86d"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4386,13 +5546,21 @@
       "tumor_contexts": [
         "Inflammatory myofibroblastic tumor"
       ],
+      "disease_ids": [
+        "fusion-context-9f98d303a12b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4415,13 +5583,21 @@
       "tumor_contexts": [
         "Inflammatory myofibroblastic tumor"
       ],
+      "disease_ids": [
+        "fusion-context-9f98d303a12b"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4444,13 +5620,21 @@
       "tumor_contexts": [
         "Low-grade endometrial stromal sarcoma"
       ],
+      "disease_ids": [
+        "fusion-context-8e136239d50c"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4471,15 +5655,25 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Low-grade endometrial stromal sarcoma"
+        "Low-grade endometrial stromal sarcoma",
+        "Ossifying fibromyxoid tumor"
+      ],
+      "disease_ids": [
+        "fusion-context-8e136239d50c",
+        "fusion-context-b8b17dd73888"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4500,15 +5694,25 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Low-grade endometrial stromal sarcoma"
+        "Low-grade endometrial stromal sarcoma",
+        "Ossifying fibromyxoid tumor"
+      ],
+      "disease_ids": [
+        "fusion-context-8e136239d50c",
+        "fusion-context-b8b17dd73888"
       ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4536,13 +5740,23 @@
         "Myelodysplastic neoplasia",
         "CML blast phase"
       ],
+      "disease_ids": [
+        "aml",
+        "fusion-context-b4935b7d50c4",
+        "fusion-context-ce5a97fa70d0"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4565,13 +5779,21 @@
       "tumor_contexts": [
         "AML with NPM1::MLF1"
       ],
+      "disease_ids": [
+        "fusion-context-24a324c3689e"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4594,13 +5816,21 @@
       "tumor_contexts": [
         "High-grade glioma"
       ],
+      "disease_ids": [
+        "fusion-context-b47a7ba074d4"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4623,13 +5853,21 @@
       "tumor_contexts": [
         "Glioma"
       ],
+      "disease_ids": [
+        "glioma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4653,13 +5891,22 @@
         "Pilocytic astrocytoma",
         "Other NTRK-rearranged gliomas"
       ],
+      "disease_ids": [
+        "curation-intogen-PAST",
+        "fusion-context-b9a624b1c3b1"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4683,13 +5930,22 @@
         "Pilocytic astrocytoma",
         "Other NTRK-rearranged gliomas"
       ],
+      "disease_ids": [
+        "curation-intogen-PAST",
+        "fusion-context-b9a624b1c3b1"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4713,13 +5969,22 @@
         "Burkitt lymphoma",
         "Other MYC-rearranged B-cell neoplasms"
       ],
+      "disease_ids": [
+        "atlas-h-burkitt",
+        "fusion-context-91b2910f0cc0"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4743,13 +6008,22 @@
         "Burkitt lymphoma",
         "Other MYC-rearranged B-cell neoplasms"
       ],
+      "disease_ids": [
+        "atlas-h-burkitt",
+        "fusion-context-91b2910f0cc0"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4773,13 +6047,22 @@
         "Burkitt lymphoma",
         "Other MYC-rearranged B-cell neoplasms"
       ],
+      "disease_ids": [
+        "atlas-h-burkitt",
+        "fusion-context-91b2910f0cc0"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4803,13 +6086,22 @@
         "Follicular lymphoma",
         "Selected large B-cell lymphomas"
       ],
+      "disease_ids": [
+        "atlas-h-fl",
+        "fusion-context-78e3d4ac9b8d"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4832,13 +6124,21 @@
       "tumor_contexts": [
         "B-cell lymphoma, including diffuse large B-cell lymphoma"
       ],
+      "disease_ids": [
+        "fusion-context-41d99c21fe37"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4862,13 +6162,22 @@
         "Mantle cell lymphoma",
         "Plasma cell myeloma"
       ],
+      "disease_ids": [
+        "atlas-h-mcl",
+        "atlas-h-myeloma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4891,13 +6200,21 @@
       "tumor_contexts": [
         "Cyclin D1-negative mantle cell lymphoma"
       ],
+      "disease_ids": [
+        "fusion-context-67cb7adac403"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4920,13 +6237,21 @@
       "tumor_contexts": [
         "Cyclin D1-negative mantle cell lymphoma"
       ],
+      "disease_ids": [
+        "fusion-context-67cb7adac403"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4949,13 +6274,21 @@
       "tumor_contexts": [
         "Extranodal marginal zone lymphoma of MALT"
       ],
+      "disease_ids": [
+        "fusion-context-84b7d11a7f2c"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4978,13 +6311,21 @@
       "tumor_contexts": [
         "Extranodal marginal zone lymphoma of MALT"
       ],
+      "disease_ids": [
+        "fusion-context-84b7d11a7f2c"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5007,13 +6348,21 @@
       "tumor_contexts": [
         "B-lymphoblastic leukemia, often Ph-like"
       ],
+      "disease_ids": [
+        "fusion-context-6a833133669f"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5036,13 +6385,21 @@
       "tumor_contexts": [
         "B-lymphoblastic leukemia, including Down-syndrome-associated ALL"
       ],
+      "disease_ids": [
+        "fusion-context-66ad5bbcb6ac"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5065,13 +6422,21 @@
       "tumor_contexts": [
         "DUX4-rearranged B-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-46a5d616729d"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5094,13 +6459,21 @@
       "tumor_contexts": [
         "T-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-f1367cb5be80"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5123,13 +6496,21 @@
       "tumor_contexts": [
         "T-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-f1367cb5be80"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5152,13 +6533,21 @@
       "tumor_contexts": [
         "T-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-f1367cb5be80"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5181,13 +6570,21 @@
       "tumor_contexts": [
         "T-lymphoblastic leukemia"
       ],
+      "disease_ids": [
+        "fusion-context-f1367cb5be80"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5210,13 +6607,21 @@
       "tumor_contexts": [
         "AML with inv(3) or t(3;3)"
       ],
+      "disease_ids": [
+        "fusion-context-8e581de2a50a"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5244,13 +6649,21 @@
       "tumor_contexts": [
         "Plasma cell myeloma with t(4;14)"
       ],
+      "disease_ids": [
+        "fusion-context-a29278e47173"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5273,13 +6686,21 @@
       "tumor_contexts": [
         "Plasma cell myeloma"
       ],
+      "disease_ids": [
+        "atlas-h-myeloma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5302,13 +6723,21 @@
       "tumor_contexts": [
         "Plasma cell myeloma"
       ],
+      "disease_ids": [
+        "atlas-h-myeloma"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5331,13 +6760,21 @@
       "tumor_contexts": [
         "TFE3-rearranged renal cell carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-tfe3"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5360,13 +6797,21 @@
       "tumor_contexts": [
         "TFE3-rearranged renal cell carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-tfe3"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5389,13 +6834,21 @@
       "tumor_contexts": [
         "TFE3-rearranged renal cell carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-tfe3"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5418,13 +6871,21 @@
       "tumor_contexts": [
         "TFE3-rearranged renal cell carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-tfe3"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5447,13 +6908,21 @@
       "tumor_contexts": [
         "TFE3-rearranged renal cell carcinoma"
       ],
+      "disease_ids": [
+        "atlas-e-tfe3"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5476,13 +6945,21 @@
       "tumor_contexts": [
         "TFEB-rearranged renal cell carcinoma"
       ],
+      "disease_ids": [
+        "fusion-context-f137898da523"
+      ],
       "editorial": {
         "status": "draft",
-        "revision": 1,
+        "revision": 2,
         "drafted_on": "2026-11-27",
         "reviewer": null,
         "pathologist_review": "pending",
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     }
   ],
@@ -5507,7 +6984,6 @@
     "fusions/fusion-eml4-ntrk3.json",
     "fusions/fusion-sqstm1-ntrk3.json",
     "fusions/fusion-etv6-ntrk3.json",
-    "fusions/fusion-etv6-ntrk2.json",
     "fusions/fusion-fgfr2-bicc1.json",
     "fusions/fusion-fgfr2-ahcyl1.json",
     "fusions/fusion-fgfr2-etv6.json",
@@ -5674,5 +7150,13 @@
     "fusions/fusion-cltc-tfe3.json",
     "fusions/fusion-malat1-tfeb.json"
   ],
-  "source_file": "fusion-sources.json"
+  "source_file": "fusion-sources.json",
+  "disease_file": "fusion-diseases.json",
+  "held_entries": [
+    {
+      "id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "reason": "No audited fusion biology/disease section retained; excluded from runtime and report export."
+    }
+  ]
 }

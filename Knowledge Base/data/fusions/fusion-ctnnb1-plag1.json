@@ -16,8 +16,10 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Pleomorphic adenoma",
-    "Carcinoma ex pleomorphic adenoma"
+    "Pleomorphic adenoma"
+  ],
+  "disease_ids": [
+    "fusion-context-aa5924a9b86d"
   ],
   "sections": [
     {
@@ -28,47 +30,80 @@
         "ncbi-1499"
       ],
       "claim_sha256": "7d90b023974378f02d6c51969f4dbb9fd9363158da6f0fca3a15e21daf6930a0",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-1499",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1499",
+          "location": "NCBI Gene 1499 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "29bba3eb2a3ee52303f1a27b183a9f230c82b2aad53c660c6b7ece9076fda056"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "PLAG1",
-      "text": "PLAG1 encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2.",
+      "text": "PLAG1 encodes a developmentally regulated zinc-finger protein.",
       "source_ids": [
         "ncbi-5324"
       ],
-      "claim_sha256": "375fd7367eaee211dadc0fea03caa9c4eb487c8f97a720292697d416e5ec4160",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e0a60abe908c99deadd9c44e47c789617614bba271ca2f45991fc8be6caafd49",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5324",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5324",
+          "location": "NCBI Gene 5324 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "21db113ab04ddec18228b31af55747afb56e5d88797dd9bd3fa1853c767689ac"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+      "text": "CTNNB1::PLAG1 has been detected in pleomorphic adenoma by RNA fusion analysis. Reported junctions involve partner-derived noncoding sequences and PLAG1.",
       "source_ids": [
-        "plag1",
         "salivary"
       ],
-      "claim_sha256": "52fc968e6fcde48c5b12bdaec9133d39db75e80a50fe36bda292188eb8ddc72c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "7ccc1f985cab68a1956b79372de79da15f6e65b8bf19f2b21e6dd3204d9b3971",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "salivary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8753559/",
+          "location": "Results, Table 3; Figures 1,3,4; Mucoepidermoid carcinoma and pleomorphic adenoma results",
+          "scope": "CRTC1/3::MAML2, MYB/MYBL1::NFIB and CTNNB1/LIFR::PLAG1 observed; pair-specific normal-function mechanisms not tested.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "CTNNB1 encodes beta-catenin, which participates in cell adhesion and Wnt-dependent transcription. PLAG1 encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2. The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+    "text": "CTNNB1 encodes beta-catenin, which participates in cell adhesion and Wnt-dependent transcription. PLAG1 encodes a developmentally regulated zinc-finger protein. CTNNB1::PLAG1 has been detected in pleomorphic adenoma by RNA fusion analysis. Reported junctions involve partner-derived noncoding sequences and PLAG1.",
     "source_ids": [
       "ncbi-1499",
       "ncbi-5324",
-      "plag1",
       "salivary"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "a21e64724bcfe037a3c0dc6ff282e1a282dc1513d6edfcec2842e72cd5069438"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "a0f9bc4344d0a5b27df1fdea986139538dfbb66d9b8b4ea3a6531ca913060578"
 }

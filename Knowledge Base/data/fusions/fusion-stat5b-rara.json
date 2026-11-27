@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML with variant RARA fusion"
   ],
+  "disease_ids": [
+    "fusion-context-1ec3e1b0e856"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-6777"
       ],
       "claim_sha256": "2e7f82e34e4b85b2f8f9d8091af6fb4b5328eca1dff15c1f1ae7144c064f4f85",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6777",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6777",
+          "location": "NCBI Gene 6777 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b204d55732b830654e9d159b2353442916535d3b993e5942f2b64a3ac6cb8397"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,46 +50,62 @@
         "ncbi-5914"
       ],
       "claim_sha256": "15796aab291e1c486a471d24789fe5cf65e08c7cfbf5b304560c64ccd60852bc",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5914",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5914",
+          "location": "NCBI Gene 5914 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b30c21e3d0221f45f8c3789afb1d5f017e3c1c8a629616142e4f5766b6be205b"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+      "text": "STAT5B::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
       "source_ids": [
-        "rara"
+        "aml"
       ],
-      "claim_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "therapeutics",
-      "text": "ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
-      "source_ids": [
-        "rara",
-        "stat5-rara"
-      ],
-      "claim_sha256": "27644a85ce5d40e315178225cb4d12100cd18e173a38729d72c92828197db661",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "f5de497836282a77271dde1e3cd098001de1bace3814733f61744b3d5ed8fdf0",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "Molecular variants of APL other than PML::RARA",
+          "scope": "Exact RARA partners listed as variant APL; detailed corepressor effects removed.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "STAT5B encodes a cytokine-responsive JAK-STAT transcription factor. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA. ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
+    "text": "STAT5B encodes a cytokine-responsive JAK-STAT transcription factor. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. STAT5B::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
     "source_ids": [
       "ncbi-6777",
       "ncbi-5914",
-      "rara",
-      "stat5-rara"
+      "aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "506d8a3ee2d81c89d8c057f37cc1d0eeba2b1523f78dd7af009b53315f0f2032"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "4916298221076af68cf3bafea1ce02772ea9d56dcb4b62ab1aae34897f98af1d"
 }

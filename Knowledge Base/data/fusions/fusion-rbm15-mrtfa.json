@@ -21,54 +21,94 @@
   "tumor_contexts": [
     "Infant acute megakaryoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-f480d899fb9e"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "RBM15",
-      "text": "RBM15 encodes an RNA-binding protein that recruits RNA-modification machinery.",
+      "text": "RBM15 encodes a SPEN-family RNA-binding regulatory protein.",
       "source_ids": [
         "ncbi-64783"
       ],
-      "claim_sha256": "6e00218740ac2b2d90612d6006d650423ef5e3aa81a8dd83c054b62c9fab281d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "38f7d5f494faf77d062d998e17f3efe888cdbc25f84264af223d2add49018951",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-64783",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/64783",
+          "location": "NCBI Gene 64783 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "62b88113d6038ea6eeb98504715a6f26fbdba0ded9c7f4c2bc36e619908cd5d8"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "MRTFA",
-      "text": "MRTFA encodes a transcriptional coactivator of serum-response factor linked to actin dynamics.",
+      "text": "MRTFA encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression.",
       "source_ids": [
         "ncbi-57591"
       ],
-      "claim_sha256": "ea1ddbe6c5bc89d1ce47ca9d21ff73d77bd15ee39598352e7c6b928da18ea115",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "c84e1af5f1d95e35695722f3af029e22880d44b02495c9f6e654c4e0da70a601",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-57591",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/57591",
+          "location": "NCBI Gene 57591 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "001bc7b73c4f4773c24dda183272483e9ca52a7824fd8ea89db884f723c8000e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(1;22) fusion joins an RNA-associated regulator to a serum-response-factor coactivator and dysregulates hematopoietic transcription. It is characteristic of a subset of infant non-Down-syndrome acute megakaryoblastic leukemia.",
+      "text": "The t(1;22) rearrangement joins RBM15 and MRTFA and occurs in a subset of infant acute megakaryoblastic leukemias.",
       "source_ids": [
         "aml"
       ],
-      "claim_sha256": "1ff1246f86e02962cd71e7e712237c42fd518a7d21d2dd477f0d3ee5ddbb3eec",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "d31c28476a6501aac06a48a0649badabdeb6eb533aaa5b39e10cf6bf88ade040",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "WHO classification tables and gene-specific cytogenetic sections",
+          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "RBM15 encodes an RNA-binding protein that recruits RNA-modification machinery. MRTFA encodes a transcriptional coactivator of serum-response factor linked to actin dynamics. The t(1;22) fusion joins an RNA-associated regulator to a serum-response-factor coactivator and dysregulates hematopoietic transcription. It is characteristic of a subset of infant non-Down-syndrome acute megakaryoblastic leukemia.",
+    "text": "RBM15 encodes a SPEN-family RNA-binding regulatory protein. MRTFA encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression. The t(1;22) rearrangement joins RBM15 and MRTFA and occurs in a subset of infant acute megakaryoblastic leukemias.",
     "source_ids": [
       "ncbi-64783",
       "ncbi-57591",
       "aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "857d95edbfa202287ae7dc37cbe4dc1a11895c85baa7c880ea4642d47537e82f"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "8fee67d131d4954045d24f9bc394bcff5ae0e48ec5c5e56c49b98d42ee12d7c5"
 }

@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Solitary fibrous tumor"
   ],
+  "disease_ids": [
+    "fusion-context-6ea415c4fb10"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,47 +30,82 @@
         "ncbi-4665"
       ],
       "claim_sha256": "83dcb15af609f8f63439b4a5e2378702520f2494bff6e5fd1f481453117ca4d6",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4665",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4665",
+          "location": "NCBI Gene 4665 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f76f648c3859d6195490427af932463588473ea6f3c5f40136fccb7aa692f97"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "STAT6",
-      "text": "STAT6 encodes a transcription factor that transduces interleukin-4/interleukin-13 signals.",
+      "text": "STAT6 encodes a STAT-family transcription factor involved in interleukin-4 responses.",
       "source_ids": [
         "ncbi-6778"
       ],
-      "claim_sha256": "a36d51c26ea4244be34a27317c442e1457b750cb67b01007aede4c87ee060491",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "ec533c1468f947980378ae1c6b4dd89c1b2cd0324a017bf7699da08a4f5be658",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6778",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6778",
+          "location": "NCBI Gene 6778 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "97dd32055ad83c278283981d02ca1d34521394f5f4927ee4c36e3971128e5c5c"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The intrachromosomal fusion combines NAB2 EGR-binding sequences with STAT6 activation sequences, converting a transcriptional repressor complex into an activator. It is the defining molecular alteration of solitary fibrous tumor and underlies characteristic nuclear STAT6 staining.",
+      "text": "NAB2::STAT6 joins NAB2 EGR-binding sequences to the STAT6 activation region. In experimental assays the fusion activates EGR1-responsive transcription; it is recurrent in solitary fibrous tumor and shows nuclear localization.",
       "source_ids": [
-        "nab2"
+        "audit-sarcoma-nab2"
       ],
-      "claim_sha256": "25017c9d8f31459aa4f7ab2f93daaa1afa6b9f7ea36d9847ce92b20779a73a77",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "4a1b21895ee288c6fa3ad95303ea5ffa712b357170d4655f114d5ba100912eea",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-nab2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654808/",
+          "location": "Results; Figures 1, 3 and 4; Table 1",
+          "scope": "Fusion detection, domain structure, nuclear localization and EGR1-dependent reporter/proliferation experiments.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NAB2 encodes a transcriptional corepressor of EGR-family transcription factors. STAT6 encodes a transcription factor that transduces interleukin-4/interleukin-13 signals. The intrachromosomal fusion combines NAB2 EGR-binding sequences with STAT6 activation sequences, converting a transcriptional repressor complex into an activator. It is the defining molecular alteration of solitary fibrous tumor and underlies characteristic nuclear STAT6 staining.",
+    "text": "NAB2 encodes a transcriptional corepressor of EGR-family transcription factors. STAT6 encodes a STAT-family transcription factor involved in interleukin-4 responses. NAB2::STAT6 joins NAB2 EGR-binding sequences to the STAT6 activation region. In experimental assays the fusion activates EGR1-responsive transcription; it is recurrent in solitary fibrous tumor and shows nuclear localization.",
     "source_ids": [
       "ncbi-4665",
       "ncbi-6778",
-      "nab2"
+      "audit-sarcoma-nab2"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Fusion presence does not assign a solitary fibrous tumor recurrence-risk score; no unvalidated prognosis by breakpoint included."
+    "Fusion presence does not assign a solitary fibrous tumor recurrence-risk score; no unvalidated prognosis by breakpoint included.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "8e09d5eee2ae93667e61fc7a84abf067274563f120c4759897feeebf0d395a92"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "6134410ba2b29076ead77e38db4e90c0469b6b8f88aa5faf4dc092d2d26fa075"
 }

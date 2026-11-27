@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Biphenotypic sinonasal sarcoma"
   ],
+  "disease_ids": [
+    "atlas-e-bsns"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "PAX3",
-      "text": "PAX3 encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development.",
+      "text": "PAX3 encodes a paired-box transcription factor involved in development.",
       "source_ids": [
         "ncbi-5077"
       ],
-      "claim_sha256": "51628cc555c714635bca30cf9dba92d3339f4ca2c7bb85fb0434e6aa8f4c5ce6",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "3e7a01d467c813cfecf8b52bb137ec4d2f34d9d33059f01f73e8ef0b41532498",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5077",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5077",
+          "location": "NCBI Gene 5077 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ad5d31cabbc5aa0bbc6dd4ad656d39f9183acccdf2bdc69eb93fecc8a20d9c9f"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,44 +50,61 @@
         "ncbi-55534"
       ],
       "claim_sha256": "c154efc729ba4ea94c75142200c84f863539a5b3868992f82112857b0318a4de",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-55534",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/55534",
+          "location": "NCBI Gene 55534 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f24a042f3dbeef53e97f189e04e41031659496f68dc4fd076b053cdf45f0f1e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion combines PAX3 DNA binding with MAML3 transcriptional coactivation and drives a mixed neural/myogenic expression program. It is the predominant fusion in biphenotypic sinonasal sarcoma.",
+      "text": "PAX3::MAML3 retains PAX3 DNA-binding domains and MAML3 activation sequences. Reporter assays demonstrate strong activation of PAX3 response elements, and fusion-positive biphenotypic sinonasal sarcomas show neural and myogenic gene-expression features.",
       "source_ids": [
-        "pax3-maml3"
+        "audit-sarcoma-pax3-maml3"
       ],
-      "claim_sha256": "36fbbcd456c50f950f050e312c21b7ef008c9161ce0b7d7a19441f71b0dc1f7e",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "This is usually a low-grade but locally aggressive sinonasal sarcoma with a tendency to local recurrence.",
-      "source_ids": [
-        "pax3-maml3"
-      ],
-      "claim_sha256": "881ea169783a977fcc341d2db18be1bdbc6ac6c2a8ddf795189a488b908ab580",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "4e68e9ab9c76c1599225cd34de669ab8220f11dd2e8e34b49eb3ac8feae8e263",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-pax3-maml3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4236026/",
+          "location": "Main text functional experiments; Figures 1–2; Online Methods",
+          "scope": "Indexed full primary-body passages and figure legends: DNA-binding/transactivation domains, reporter activity and tumor expression profiling. Original server returned CAPTCHA.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "PAX3 encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development. MAML3 encodes a transcriptional coactivator in Notch signaling. The fusion combines PAX3 DNA binding with MAML3 transcriptional coactivation and drives a mixed neural/myogenic expression program. It is the predominant fusion in biphenotypic sinonasal sarcoma. This is usually a low-grade but locally aggressive sinonasal sarcoma with a tendency to local recurrence.",
+    "text": "PAX3 encodes a paired-box transcription factor involved in development. MAML3 encodes a transcriptional coactivator in Notch signaling. PAX3::MAML3 retains PAX3 DNA-binding domains and MAML3 activation sequences. Reporter assays demonstrate strong activation of PAX3 response elements, and fusion-positive biphenotypic sinonasal sarcomas show neural and myogenic gene-expression features.",
     "source_ids": [
       "ncbi-5077",
       "ncbi-55534",
-      "pax3-maml3"
+      "audit-sarcoma-pax3-maml3"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
+  "curation_notes": [
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "597f3b31267e6b4aa78965513cdc35c6a7c7a23d2161e7a7c2607245ff175939"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "9ac7e892015d75f065ebb63a6e4276bce43484d6d8544d774c9283e17b82e61b"
 }

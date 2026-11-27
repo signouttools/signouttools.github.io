@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Epithelioid hemangioendothelioma"
   ],
+  "disease_ids": [
+    "atlas-nm-ehe"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "WWTR1",
-      "text": "WWTR1 encodes TAZ, a transcriptional coactivator regulated by Hippo signaling.",
+      "text": "WWTR1 encodes TAZ, a transcriptional coactivator.",
       "source_ids": [
         "ncbi-25937"
       ],
-      "claim_sha256": "64901ac9d3431625b1c6f6a76803d3f609c874ee891466d245c587d910e5fe6e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e27cfd7cf72842b85ca8c28215c340de6e1df447852ef42f8fa9c5f7a52a3426",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-25937",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/25937",
+          "location": "NCBI Gene 25937 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "08c60ac258f01e4c7b82c12ed494a671c89ba4120c3a74cb962a035e7b23b6d4"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,71 @@
         "ncbi-23261"
       ],
       "claim_sha256": "e0b2471ebedefd2b52a225a1a4a7cd7379cffd047e1d47ba3acb285fdd4a2903",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-23261",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23261",
+          "location": "NCBI Gene 23261 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "edab8395f9872bf49cd2dfc3a568d66e341ae513d7eb14f9dd0c8e97dc0fb5a6"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. WWTR1::CAMTA1 is the canonical molecular driver of epithelioid hemangioendothelioma.",
+      "text": "WWTR1::CAMTA1 is a recurrent driver of epithelioid hemangioendothelioma. Functional models show fusion-dependent transcriptional activity and transforming properties.",
       "source_ids": [
-        "ehe"
+        "audit-sarcoma-ehe",
+        "audit-sarcoma-nci-sts"
       ],
-      "claim_sha256": "d319a47920c02acf0e7066ba983bace91b9b213a57f6e4182140801efaa00fa5",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "14ecd7b07d16d55b88d047975fbcaa651ec68f584d90cae4a591deda8d0eba24",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-ehe",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8143797/",
+          "location": "Results; Figures 1–6",
+          "scope": "Fusion domain architecture and oncogenic transcription/transformation assays.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "WWTR1 encodes TAZ, a transcriptional coactivator regulated by Hippo signaling. CAMTA1 encodes a calmodulin-binding transcriptional regulator. The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. WWTR1::CAMTA1 is the canonical molecular driver of epithelioid hemangioendothelioma.",
+    "text": "WWTR1 encodes TAZ, a transcriptional coactivator. CAMTA1 encodes a calmodulin-binding transcriptional regulator. WWTR1::CAMTA1 is a recurrent driver of epithelioid hemangioendothelioma. Functional models show fusion-dependent transcriptional activity and transforming properties.",
     "source_ids": [
       "ncbi-25937",
       "ncbi-23261",
-      "ehe"
+      "audit-sarcoma-ehe",
+      "audit-sarcoma-nci-sts"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned."
+    "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "2052fa1781356f589d443e191fa369779d7cbd4c1e77a10519f02edae5147cab"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "6bf210ad2db4531f2ebd59324a588a28182471e2ebd499cf96f71305aa278a86"
 }

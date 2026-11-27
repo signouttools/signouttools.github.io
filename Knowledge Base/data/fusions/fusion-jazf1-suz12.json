@@ -16,59 +16,96 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Low-grade endometrial stromal sarcoma",
-    "Endometrial stromal nodule"
+    "Low-grade endometrial stromal sarcoma"
+  ],
+  "disease_ids": [
+    "fusion-context-8e136239d50c"
   ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "JAZF1",
-      "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism.",
+      "text": "JAZF1 encodes a nuclear zinc-finger transcriptional repressor.",
       "source_ids": [
         "ncbi-221895"
       ],
-      "claim_sha256": "f4a695c9dc6d95c8ded5793f2f02d5dbe3e1330a29a14ea094b1365eba629b8a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "c9db592209620bbd096e42cd9e9acc0d5ca37831f6d1123583dcef96c0d6e088",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-221895",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/221895",
+          "location": "NCBI Gene 221895 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "82d391c2f0b45ba1f9e3c82b2e681224acb8808941ce48918bce00b42116586a"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "SUZ12",
-      "text": "SUZ12 encodes a core component of Polycomb repressive complex 2.",
+      "text": "SUZ12 encodes a zinc-finger Polycomb-associated protein.",
       "source_ids": [
         "ncbi-23512"
       ],
-      "claim_sha256": "3fa2aa85cc695e456d9522e7cbb0b143c3779eed94b5ea5feb684b450539e71a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "a22ca5b6c4ef5a2006c54c828eb9a0689e28f74a14e8efa784d6d3fdd8c838cf",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-23512",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23512",
+          "location": "NCBI Gene 23512 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "e74ededea79c307901390175c22575bdb1d26f9e2f8cc8e18fe43ac81dd04a6b"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion alters SUZ12-associated Polycomb complex assembly, chromatin occupancy and repression. It is recurrent in low-grade endometrial stromal tumors, including both stromal nodules and sarcomas; invasion distinguishes these categories.",
+      "text": "JAZF1::SUZ12 is associated with low-grade endometrial stromal sarcoma. Experimental models show altered PRC2 composition, chromatin occupancy and histone regulation, including reduced H3K27 trimethylation at affected target genes.",
       "source_ids": [
-        "jazf1"
+        "audit-sarcoma-jazf1"
       ],
-      "claim_sha256": "240984ee4a54862b09251cf55ca69996ba54a1dee9b961186ef8d93bf5d2ab68",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "5593e3e3cd75e1fcc186177bc8589161b00b84fcbed6e5e28f83e81c97a741ae",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-jazf1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9637993/",
+          "location": "Results; Figures 1–3",
+          "scope": "Altered PRC2 composition, chromatin occupancy, H3K27 methylation and differentiation in experimental models.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism. SUZ12 encodes a core component of Polycomb repressive complex 2. The fusion alters SUZ12-associated Polycomb complex assembly, chromatin occupancy and repression. It is recurrent in low-grade endometrial stromal tumors, including both stromal nodules and sarcomas; invasion distinguishes these categories.",
+    "text": "JAZF1 encodes a nuclear zinc-finger transcriptional repressor. SUZ12 encodes a zinc-finger Polycomb-associated protein. JAZF1::SUZ12 is associated with low-grade endometrial stromal sarcoma. Experimental models show altered PRC2 composition, chromatin occupancy and histone regulation, including reduced H3K27 trimethylation at affected target genes.",
     "source_ids": [
       "ncbi-221895",
       "ncbi-23512",
-      "jazf1"
+      "audit-sarcoma-jazf1"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "No malignancy call based on the fusion alone; endocrine treatment eligibility requires actual receptor/histology evidence."
+    "No malignancy call based on the fusion alone; endocrine treatment eligibility requires actual receptor/histology evidence.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "b7a11f32e3c3e0107a13d6a780d1c4f02bdfa7d2d10558b50d1abca0c83ac1cc"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "874eee076326cce9f00c87a39d95c61101e69c4f1b571ef3771968d4220d4f49"
 }

@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Congenital/infantile spindle cell rhabdomyosarcoma"
   ],
+  "disease_ids": [
+    "fusion-context-6ba36108d003"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-245806"
       ],
       "claim_sha256": "663e78011c5e9a99602e8ec7b0d98713da79ae7f24b414dc7f1e342f364e2912",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-245806",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/245806",
+          "location": "NCBI Gene 245806 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a2eee1cda283158debb054bb5ffe1687b918872eddf5771b1fe24dea59920846"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,44 +50,79 @@
         "ncbi-10499"
       ],
       "claim_sha256": "ffe285d3866ef36d8e8edaab61e7944117b10c44b8a7c09c35790ea5efb9c241",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10499",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10499",
+          "location": "NCBI Gene 10499 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ada4ba34be6da07d64e4607e6c566083fcda408536b6b5dc28690cd0814a7a05"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins muscle-associated VGLL2 transcriptional cofactor sequences to another transcriptional-regulatory protein. It identifies a congenital/infantile spindle cell rhabdomyosarcoma subgroup distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma.",
+      "text": "VGLL2::NCOA2 has been identified by molecular analysis in congenital/infantile spindle cell rhabdomyosarcoma, a group distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma.",
       "source_ids": [
-        "vgll2"
+        "audit-sarcoma-vgll2"
       ],
-      "claim_sha256": "5948747a7479fdcf3c7fd63d51fc17c5b164a7df29af9a8336e39d0d45aa2eb6",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "7c83ca7d72344c0b7e0bb347e81383b670075393ad14e4ed614e47aa536ed6a0",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-vgll2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+          "location": "Results; Figures 1–2; clinical follow-up paragraph",
+          "scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
-      "text": "The original infantile fusion-positive cohort generally showed favorable survival, although local recurrences occurred. This observation should not be transferred to MYOD1-mutant disease.",
+      "text": "In the original small infantile fusion-positive cohort, six patients with long-term follow-up were alive and well; two had experienced local recurrences.",
       "source_ids": [
-        "vgll2"
+        "audit-sarcoma-vgll2"
       ],
-      "claim_sha256": "ae0d844e5ca58cf8d8bf42f77a42b17349e1b5a324f850597e31a3ff02ab0aba",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "6fcba1a211304d1fcd269028337db833cb52e73678a9a964899e70f48482c109",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-vgll2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+          "location": "Results; Figures 1–2; clinical follow-up paragraph",
+          "scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "VGLL2 encodes a transcriptional cofactor involved in skeletal-muscle differentiation. NCOA2 encodes a nuclear-receptor transcriptional coactivator. The fusion joins muscle-associated VGLL2 transcriptional cofactor sequences to another transcriptional-regulatory protein. It identifies a congenital/infantile spindle cell rhabdomyosarcoma subgroup distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma. The original infantile fusion-positive cohort generally showed favorable survival, although local recurrences occurred. This observation should not be transferred to MYOD1-mutant disease.",
+    "text": "VGLL2 encodes a transcriptional cofactor involved in skeletal-muscle differentiation. NCOA2 encodes a nuclear-receptor transcriptional coactivator. VGLL2::NCOA2 has been identified by molecular analysis in congenital/infantile spindle cell rhabdomyosarcoma, a group distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma. In the original small infantile fusion-positive cohort, six patients with long-term follow-up were alive and well; two had experienced local recurrences.",
     "source_ids": [
       "ncbi-245806",
       "ncbi-10499",
-      "vgll2"
+      "audit-sarcoma-vgll2"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
+  "curation_notes": [
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "88d9914a17c7f82f73b7f8b2d0a63118b6e67c4dd8a98ce45c699c1cfe46c470"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "65ec2674d1eaf76b00a2ec3f272f67c37f615d2a043bdbed9e69ac5538e38860"
 }

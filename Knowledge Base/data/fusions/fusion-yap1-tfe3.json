@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "YAP1::TFE3-fused hemangioendothelioma"
   ],
+  "disease_ids": [
+    "fusion-context-420e6174560e"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,47 +30,91 @@
         "ncbi-10413"
       ],
       "claim_sha256": "1a8bd583ad13c35afcf7349c401739f077529104c1fc58ab3a152b7e58f79c01",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10413",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10413",
+          "location": "NCBI Gene 10413 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "e80aa0a2311bfb61df3c96c7f5b5525a70c20667d9236ead51ca5676615a7fa4"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "TFE3",
-      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "text": "TFE3 encodes an E-box-binding transcription factor.",
       "source_ids": [
         "ncbi-7030"
       ],
-      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "11d865f80a218ea86d61aeb8cd0f28730d25002af79b33311d54c1614c217a55",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7030",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7030",
+          "location": "NCBI Gene 7030 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "18d0d35ef562720235d390eb36f6c9013b602767fc4ed7a74b6971b2f65b228e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. YAP1::TFE3 defines a related vascular neoplasm with distinctive morphology and strong nuclear TFE3 expression.",
+      "text": "YAP1::TFE3 is associated with a distinctive epithelioid vascular tumor group with nuclear TFE3 expression. Functional models demonstrate fusion-dependent transcriptional activity and transforming properties.",
       "source_ids": [
-        "ehe"
+        "audit-sarcoma-ehe",
+        "audit-sarcoma-yap-discovery"
       ],
-      "claim_sha256": "64580cdf590f56e0465caff8a23ddd3e175b493af973ee264f4cc7cfd521914c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "56935349960f54460452ddb990e7666a17d5d017563660cb03e5ae1c2f7320f5",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-ehe",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8143797/",
+          "location": "Results; Figures 1–6",
+          "scope": "Fusion domain architecture and oncogenic transcription/transformation assays.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-yap-discovery",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4089994/",
+          "location": "Results; Figures 1–4",
+          "scope": "Ten vascular tumors with distinctive morphology and TFE3 staining; transcript validation in two cases.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. YAP1::TFE3 defines a related vascular neoplasm with distinctive morphology and strong nuclear TFE3 expression.",
+    "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. TFE3 encodes an E-box-binding transcription factor. YAP1::TFE3 is associated with a distinctive epithelioid vascular tumor group with nuclear TFE3 expression. Functional models demonstrate fusion-dependent transcriptional activity and transforming properties.",
     "source_ids": [
       "ncbi-10413",
       "ncbi-7030",
-      "ehe"
+      "audit-sarcoma-ehe",
+      "audit-sarcoma-yap-discovery"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned."
+    "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "c589a41d804a373091d9082ad31aff279686422d2b1ba661f6eeb24821a42dfa"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "1fb34f307a62df262ad6aa46b26285d2595932b916941b9224119765a74bad2c"
 }

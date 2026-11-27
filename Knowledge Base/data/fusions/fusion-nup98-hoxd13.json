@@ -19,6 +19,10 @@
     "AML",
     "Myelodysplastic neoplasia"
   ],
+  "disease_ids": [
+    "aml",
+    "fusion-context-b4935b7d50c4"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,45 +32,82 @@
         "ncbi-4928"
       ],
       "claim_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4928",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
+          "location": "NCBI Gene 4928 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7b152c6b96ee85cb9be23f639e696ae1e0e948a3da0c559593bae69dbcada3e8"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "HOXD13",
-      "text": "HOXD13 encodes a homeobox transcription factor involved in limb patterning.",
+      "text": "HOXD13 encodes homeobox D13.",
       "source_ids": [
-        "ncbi-3239"
+        "hgnc"
       ],
-      "claim_sha256": "ff2a9ae9ced6d6f46917923e4bd59c9a1791cc583e023e4b827b71af06a44bc8",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "dafe110a1a2f789f0b8a831b700ecf404267f5906dd37ee0487525e6e69d2531",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5136",
+          "location": "Approved HGNC snapshot row HGNC:5136 / HOXD13",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXD13 homeodomain supplies DNA binding to the NUP98 activation region.",
+      "text": "NUP98::HOXD13 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
       "source_ids": [
         "nup98"
       ],
-      "claim_sha256": "da72a33c973eebe50dc751ac40fac491e099452e96d0670a267ec8fb6b646aa9",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "faac307137c5eb1ee5c3967258d239bdc5fe0da77a4e2212f9fa6681e5aa0bd9",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nup98",
+          "url": "https://haematologica.org/article/view/haematol.2022.281653",
+          "location": "Results: Clinical characteristics; Implications of variation of fusion junction; Differential gene expression; Figures 1,2,4",
+          "scope": "Pair detection, amino-terminal FG-region representation and cohort HOX transcription; no asserted function of every retained partner domain.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. HOXD13 encodes a homeobox transcription factor involved in limb patterning. The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXD13 homeodomain supplies DNA binding to the NUP98 activation region.",
+    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. HOXD13 encodes homeobox D13. NUP98::HOXD13 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
     "source_ids": [
       "ncbi-4928",
-      "ncbi-3239",
+      "hgnc",
       "nup98"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "d4f66ddbc4ab88e24b12a7fc4c440fa3ea087944c795f72eaab85645b884691a"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "2b98d10e2d05338a8fae93d501f80feba44d6141425a90d605dc3aae3d30bf0e"
 }

@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "B-cell lymphoma, including diffuse large B-cell lymphoma"
   ],
+  "disease_ids": [
+    "fusion-context-41d99c21fe37"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "IGH",
-      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity.",
       "source_ids": [
         "ncbi-3492"
       ],
-      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "1c2d0fcd302999c9b42e205d3a13b261b4a6e8535db90e1e091b21b37ae1da43",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3492",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3492",
+          "location": "NCBI Gene 3492 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "18459ea4cf0f732a438373575e5a24310f7e7f972c07a31164aef676d351806a"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,63 @@
         "ncbi-604"
       ],
       "claim_sha256": "5d12dbfc702f109f2600e9899d16f1cbf2b934a30888ece2f45a8649fb22b7c9",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-604",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/604",
+          "location": "NCBI Gene 604 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ff1386dc2f47f961dbe6c1088fba1b17496ba11d8d45d520301255eee628d195"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement substitutes immunoglobulin regulatory elements for normal BCL6 control, sustaining BCL6-dependent transcriptional repression. BCL6 rearrangements occur in several B-cell lymphomas and are not specific to one histologic type.",
+      "text": "IGH/BCL6 juxtaposition has been directly demonstrated in a subset of nodular lymphocyte-predominant Hodgkin lymphoma specimens by combined immunophenotyping and fluorescence in situ hybridization.",
       "source_ids": [
-        "icc-l"
+        "igh-bcl6-primary"
       ],
-      "claim_sha256": "0be1527eebfdccd7d216c413cecb5467b21dc49626251522e1326cccb512de12",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "0397fb17d52255ab1de458c5a87fd0f572c53bab771e7ae1acd479be6bc8a164",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "igh-bcl6-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1867541/",
+          "location": "Results; Table 1 footnote; Figure 1B; triple-color FISH/FICTION paragraph",
+          "scope": "Five patient cases demonstrated IGH/BCL6 juxtaposition in tumor cells; indexed fulltext Results passage inspected. Removed broader non-partner-specific prognosis.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. BCL6 encodes a transcriptional repressor required for germinal-center B-cell programs. The rearrangement substitutes immunoglobulin regulatory elements for normal BCL6 control, sustaining BCL6-dependent transcriptional repression. BCL6 rearrangements occur in several B-cell lymphomas and are not specific to one histologic type.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. BCL6 encodes a transcriptional repressor required for germinal-center B-cell programs. IGH/BCL6 juxtaposition has been directly demonstrated in a subset of nodular lymphocyte-predominant Hodgkin lymphoma specimens by combined immunophenotyping and fluorescence in situ hybridization.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-604",
-      "icc-l"
+      "igh-bcl6-primary"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+    "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "de36dfd01efed52d144c8d9010c9567b06e0da2007d1327a7965005be5d893c5"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "a1e0a5742cc11430b0130a1febcae2bfecfb5ff70ac7dd14228e42db332d034b"
 }

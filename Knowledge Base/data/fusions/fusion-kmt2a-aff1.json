@@ -20,6 +20,11 @@
     "AML",
     "Mixed-phenotype acute leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-be18c9ebda2f",
+    "aml",
+    "fusion-context-48690305ed40"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -29,57 +34,102 @@
         "ncbi-4297"
       ],
       "claim_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4297",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+          "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "AFF1",
-      "text": "AFF1 encodes a transcriptional elongation regulator in the super elongation complex.",
+      "text": "AFF1 encodes an AF4-family regulator of RNA polymerase II transcription.",
       "source_ids": [
         "ncbi-4299"
       ],
-      "claim_sha256": "0b4e2df079c5b48fd3118b71a2e128d971fc4997d155378c46c76fb24fce90f4",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "77430827778624644528a4ccf7f27b6ff8a733e85b7915d69b738b673c9bcda6",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4299",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4299",
+          "location": "NCBI Gene 4299 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ebd38f38fe183ff554413291de6d2a56a99761883baa8f9fcaba3811e3923709"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery.",
+      "text": "KMT2A::AFF1 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
       "source_ids": [
-        "icc-m",
         "kmt2a-recombinome"
       ],
-      "claim_sha256": "fc539431822fa517d0cb8b616bd3cf728ffdcccb9377f5c76237d3a6a8ddbf82",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "75b978b100b886e49e631e058e61d59d12236f571decec5e3d57ea0032a8e879",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+      "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
       "source_ids": [
         "fda-menin"
       ],
-      "claim_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. AFF1 encodes a transcriptional elongation regulator in the super elongation complex. The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery. Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. AFF1 encodes an AF4-family regulator of RNA polymerase II transcription. KMT2A::AFF1 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort. Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
     "source_ids": [
       "ncbi-4297",
       "ncbi-4299",
-      "icc-m",
       "kmt2a-recombinome",
       "fda-menin"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "14c83596701ee4354950b5f7710c6c9038aae803b2932467287414b6f5a6fd95"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "93c01ba6c681a725ea4691f5ecf6b2ba384a6a215e6ea4271b354da5b335031b"
 }

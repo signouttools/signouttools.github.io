@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML with variant RARA fusion"
   ],
+  "disease_ids": [
+    "fusion-context-1ec3e1b0e856"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-4869"
       ],
       "claim_sha256": "feb3fce8a79759b1142e7d87bc87b585675f11e5f9bbfc22f207ef739f59e9e2",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4869",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4869",
+          "location": "NCBI Gene 4869 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d014b913495cfc6e68c4d5590a36644de53540eb521550c8b5b4f45c37ba1f8e"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,44 +50,81 @@
         "ncbi-5914"
       ],
       "claim_sha256": "15796aab291e1c486a471d24789fe5cf65e08c7cfbf5b304560c64ccd60852bc",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5914",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5914",
+          "location": "NCBI Gene 5914 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b30c21e3d0221f45f8c3789afb1d5f017e3c1c8a629616142e4f5766b6be205b"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+      "text": "NPM1::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
       "source_ids": [
-        "rara"
+        "aml"
       ],
-      "claim_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "1101bc93e6320232c8cff6c8c0c5d096375794fce1a5996bc50a33538bfa2ade",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "Molecular variants of APL other than PML::RARA",
+          "scope": "Exact RARA partners listed as variant APL; detailed corepressor effects removed.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "ATRA responsiveness has been reported with NPM1::RARA, but evidence comes from rare variant-APL cases and does not establish the standard PML::RARA ATRA/arsenic regimen for this fusion.",
+      "text": "Rare NPM1::RARA-positive APL variants may retain sensitivity to tretinoin.",
       "source_ids": [
-        "rara"
+        "aml"
       ],
-      "claim_sha256": "656ed7d2642e688154395fa75cc604095419f4bdf5b27bf4b5e3f0ffeab23d65",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "060e7b169c6d7ca1bd0b5b5b6274edef96fb27f612fee268dcabc625d1bffcb6",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "Molecular variants of APL: NPM1::RARA/NUMA1::RARA subsection",
+          "scope": "Qualified guideline sensitivity; no blanket equivalence with PML::RARA.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA. ATRA responsiveness has been reported with NPM1::RARA, but evidence comes from rare variant-APL cases and does not establish the standard PML::RARA ATRA/arsenic regimen for this fusion.",
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. NPM1::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype. Rare NPM1::RARA-positive APL variants may retain sensitivity to tretinoin.",
     "source_ids": [
       "ncbi-4869",
       "ncbi-5914",
-      "rara"
+      "aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "189a54bf971f78f8eda219d134691d71ee57573a9c6d2800dcf3ba3245be6d91"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "e08f0cf3c75fb2c96381a4420105d66b7b0487d6691c6d48491b51a38da6f430"
 }

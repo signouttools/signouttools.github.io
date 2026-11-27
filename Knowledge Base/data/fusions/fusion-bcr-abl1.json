@@ -20,68 +20,116 @@
     "B-lymphoblastic leukemia",
     "Rare de novo AML"
   ],
+  "disease_ids": [
+    "atlas-h-cml",
+    "fusion-context-214d146d359b",
+    "fusion-context-4f619e09b4ef"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "BCR",
-      "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+      "text": "BCR encodes breakpoint cluster region protein.",
       "source_ids": [
         "ncbi-613"
       ],
-      "claim_sha256": "397bf4a09dbdc34975b0d771c84c1d6f8ec4376ee75b6adf82478dc52a1d7a2d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "2bca2145d123f93d01e449d1b694e12693622aab0e4fde7067ebc4abcbfc4644",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-613",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/613",
+          "location": "NCBI Gene 613 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6fd4dcdeab20eef515391d68af5d07474c616b52903098e67c841caee60c7466"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "ABL1",
-      "text": "ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses.",
+      "text": "ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses.",
       "source_ids": [
         "ncbi-25"
       ],
-      "claim_sha256": "bc77c310296a3b9e98594441513ff7b93a19ea8405f3756f01c6693bdc96e602",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "643f90464978e4ead3d7d45612128643efc9158836d6c8724c9b3ca3c6e6233b",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-25",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/25",
+          "location": "NCBI Gene 25 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "62b53b4bc646bf3a2e70190d22f80bf3c9ad1bdbb3c87a18388845f82647c2ab"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The Philadelphia-chromosome rearrangement joins the BCR oligomerization region to the ABL1 kinase, generating constitutive tyrosine-kinase signaling. It defines CML and a major B-ALL subtype; p210 and p190 are common transcript products.",
+      "text": "The t(9;22) rearrangement produces a tyrosine-kinase fusion that drives CML and a subset of B-ALL. The p210 isoform predominates in CML, while p190 is more common in B-ALL.",
       "source_ids": [
-        "icc-m",
         "all"
       ],
-      "claim_sha256": "0440371bb049a18dcebf3dc36cc9a20cca84302472560ac9e02247ce4af9235d",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "a0592f041be13195243de11a10ac8f06eb7929011216d01a69e5de11523bbf3c",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "Cytogenetics/genomics: BCR::ABL1 fusion, lines 352-354",
+          "scope": "Disease association, kinase activity and common isoforms.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "ABL1-directed tyrosine-kinase inhibitors are established treatment components in CML and Philadelphia-positive ALL. Fusion transcript quantification also provides a molecular response marker.",
+      "text": "ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL.",
       "source_ids": [
-        "all",
-        "icc-m"
+        "all"
       ],
-      "claim_sha256": "43042f5752f8565196ed5f833b6a9ba4f0144ee405425f68e7b8d6fc3af642e6",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "f41ba4b74d9c20e16679e969f5d79ed8935ed59504ea26e0d49ac95e5741373e",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "Treatment of newly diagnosed Ph-positive ALL",
+          "scope": "ALL treatment recommendation; removed broad resistance-sequencing assertions.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains. ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses. The Philadelphia-chromosome rearrangement joins the BCR oligomerization region to the ABL1 kinase, generating constitutive tyrosine-kinase signaling. It defines CML and a major B-ALL subtype; p210 and p190 are common transcript products. ABL1-directed tyrosine-kinase inhibitors are established treatment components in CML and Philadelphia-positive ALL. Fusion transcript quantification also provides a molecular response marker.",
+    "text": "BCR encodes breakpoint cluster region protein. ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses. The t(9;22) rearrangement produces a tyrosine-kinase fusion that drives CML and a subset of B-ALL. The p210 isoform predominates in CML, while p190 is more common in B-ALL. ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL.",
     "source_ids": [
       "ncbi-613",
       "ncbi-25",
-      "icc-m",
       "all"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Add a dated disease-specific drug label before enumerating individual agents or lines of therapy."
+    "Add a dated disease-specific drug label before enumerating individual agents or lines of therapy.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "dd90c1ff8e3eba69b435fb83ebf81f82c4bda37176abb415151b5f737a015164"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "e98b7e7d2b2e3f4ee94a93543844c52f3452e6fd2919495ad7912c7c1453a450"
 }

@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "TFEB-rearranged renal cell carcinoma"
   ],
+  "disease_ids": [
+    "fusion-context-f137898da523"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-378938"
       ],
       "claim_sha256": "f36c976350298bff713528798446a239492689246f6e94732f4ddfe775650d9f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-378938",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/378938",
+          "location": "NCBI Gene 378938 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ec64f76aed68c9e0d75f8f7b680adcdca1a5a082bee894dd51e634ddc9d57984"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,35 +50,60 @@
         "ncbi-7942"
       ],
       "claim_sha256": "76ec308c8480fc6a1bd6601f94333021d960bce9aa8431a04dc6b6f425cc1df9",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7942",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7942",
+          "location": "NCBI Gene 7942 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c54b904184052cf0b2e61792ada3709ade105d6cedfd03caf988975f5f775b41"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement places TFEB under MALAT1 promoter control, increasing TFEB expression and lysosomal/metabolic transcription. The MALAT1 partner is noncoding; the defining mechanism is promoter substitution, not a new MALAT1-derived kinase or peptide domain.",
+      "text": "MALAT1::TFEB has been detected by RNA sequencing in translocation renal cell carcinoma. It involves the noncoding MALAT1 partner and TFEB, rather than a partner-derived receptor-kinase product.",
       "source_ids": [
-        "renal"
+        "audit-solid-renal-tfeb"
       ],
-      "claim_sha256": "305007da6301eeae27924c36471a72a6c311bbc493715010391aaef8edb50ab6",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "517019d975b1986a9c453ac8259fb20d90f8e73446872fca236b54fe67bd71fb",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-renal-tfeb",
+          "url": "https://www.jci.org/articles/view/170559/files/pdf",
+          "location": "Results, Genomic Characterization of Human tRCC Cohort; Figure1A and Supplemental TablesS2-S3",
+          "scope": "RNA-sequenced MALAT1-TFEB in three patients; no claim that lysosomal/metabolic mechanism directly tested in every pair.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "MALAT1 produces a long noncoding RNA involved in nuclear RNA organization and gene regulation. TFEB encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy. The rearrangement places TFEB under MALAT1 promoter control, increasing TFEB expression and lysosomal/metabolic transcription. The MALAT1 partner is noncoding; the defining mechanism is promoter substitution, not a new MALAT1-derived kinase or peptide domain.",
+    "text": "MALAT1 produces a long noncoding RNA involved in nuclear RNA organization and gene regulation. TFEB encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy. MALAT1::TFEB has been detected by RNA sequencing in translocation renal cell carcinoma. It involves the noncoding MALAT1 partner and TFEB, rather than a partner-derived receptor-kinase product.",
     "source_ids": [
       "ncbi-378938",
       "ncbi-7942",
-      "renal"
+      "audit-solid-renal-tfeb"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "3905f1835d8ac84424de05c6afd5ec0941cf93162376de0742ac1ac2a37c422e"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "aae598a452b84031b3136682ca7938df453b4fc373bca10a3b72aa1675afcd0f"
 }

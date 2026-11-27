@@ -22,6 +22,10 @@
     "AML",
     "Other KMT2A-rearranged acute leukemias"
   ],
+  "disease_ids": [
+    "aml",
+    "fusion-context-13ae6d68cda6"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -31,69 +35,102 @@
         "ncbi-4297"
       ],
       "claim_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4297",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+          "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "AFDN",
-      "text": "AFDN encodes afadin, an actin-binding scaffold at cell-cell junctions.",
+      "text": "AFDN encodes afadin, a signaling protein involved in cell-junction organization.",
       "source_ids": [
         "ncbi-4301"
       ],
-      "claim_sha256": "276c3fde8999333ee82a065cb3ca7d6a1fa2d01e632084c62fc760af56b5f450",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "fdc7b1a7e18a4534f0772d5f8b2fc0f949706817859c01d9c0f26db841a028bd",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4301",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4301",
+          "location": "NCBI Gene 4301 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "59501e7d3affca58f8e3f9d2cb32e0175b381971715d903e4768101fd19155c8"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. For this partner, the fusion represents a gain of leukemogenic transcriptional function rather than simple loss of the native partner.",
+      "text": "KMT2A::AFDN is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
       "source_ids": [
-        "icc-m",
-        "kmt2a-adult",
         "kmt2a-recombinome"
       ],
-      "claim_sha256": "afab6feccda3a61d43e558d163b78790bc70c81d3ee90f124a53263df975eaf6",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "KMT2A::AFDN has been associated with particularly poor event-free survival in pediatric AML cohorts.",
-      "source_ids": [
-        "kmt2a-outcomes"
-      ],
-      "claim_sha256": "89b277a26286eb761a97271bb3c58febf97cda15d85d2ac71ab3b8af8ba6f990",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "8040022cdc43dfb4336c7096893266f3bec2fb9dc39399cd295e40bd844d3522",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+      "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
       "source_ids": [
         "fda-menin"
       ],
-      "claim_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. AFDN encodes afadin, an actin-binding scaffold at cell-cell junctions. The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. For this partner, the fusion represents a gain of leukemogenic transcriptional function rather than simple loss of the native partner. KMT2A::AFDN has been associated with particularly poor event-free survival in pediatric AML cohorts. Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. AFDN encodes afadin, a signaling protein involved in cell-junction organization. KMT2A::AFDN is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort. Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
     "source_ids": [
       "ncbi-4297",
       "ncbi-4301",
-      "icc-m",
-      "kmt2a-adult",
       "kmt2a-recombinome",
-      "kmt2a-outcomes",
       "fda-menin"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "6adfa757fbc3fce923a25548764c7b8257cb2712855daa33c8d9932e326e67d9"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "2f89382ef18b3a4aa9f484af024f299c89073987c6e20c291c72b62a5205a04e"
 }

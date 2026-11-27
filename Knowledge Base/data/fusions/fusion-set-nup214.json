@@ -19,16 +19,30 @@
     "T-lymphoblastic leukemia",
     "AML"
   ],
+  "disease_ids": [
+    "fusion-context-f1367cb5be80",
+    "aml"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "SET",
-      "text": "SET encodes a chromatin-associated protein and inhibitor of protein phosphatase 2A.",
+      "text": "SET encodes SET nuclear protein.",
       "source_ids": [
-        "ncbi-6418"
+        "hgnc"
       ],
-      "claim_sha256": "cfa0eb207bd92b5ff95a848ca9bfe7455bd1cab524fd1fdcbf98b2d9e8109a24",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e1ec27e3da15b9c608a46ee9d7500c70056d6e57044db988922a61007732021a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10760",
+          "location": "Approved HGNC snapshot row HGNC:10760 / SET",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,39 +52,63 @@
         "ncbi-8021"
       ],
       "claim_sha256": "0b4c23f9c46379217039bc5f187f555d066c7a483f56cea6396daca6fad6ce2d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8021",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8021",
+          "location": "NCBI Gene 8021 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0c8163466f7fcef582c64b18cdaec921e2b06ab6a8d561b9980a942a53738262"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion produces a SET-containing NUP214 protein that perturbs nuclear-export-associated transcription and is linked to HOXA activation. It is found in immature T-lineage leukemia and some AML cases.",
+      "text": "SET::NUP214 occurs in the HOXA-expression subgroup of T-ALL and is associated with HOXA9 overexpression.",
       "source_ids": [
-        "set-nup214",
-        "icc-m"
+        "nci-genomics"
       ],
-      "claim_sha256": "97769cf6a0e9ce74d9b019ab9c5ad4c1a269ea797791a28a87e5fe9b31c5a58a",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "cde20225cce81cdc32e94ced076c055211284302e574e9e28aa21e9fcfdfe092",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nci-genomics",
+          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
+          "location": "T-ALL molecular subtypes, paragraph 269",
+          "scope": "Documented T-ALL/HOXA association; removed broader mechanistic claims.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "SET encodes a chromatin-associated protein and inhibitor of protein phosphatase 2A. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. The fusion produces a SET-containing NUP214 protein that perturbs nuclear-export-associated transcription and is linked to HOXA activation. It is found in immature T-lineage leukemia and some AML cases.",
+    "text": "SET encodes SET nuclear protein. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. SET::NUP214 occurs in the HOXA-expression subgroup of T-ALL and is associated with HOXA9 overexpression.",
     "source_ids": [
-      "ncbi-6418",
+      "hgnc",
       "ncbi-8021",
-      "set-nup214",
-      "icc-m"
+      "nci-genomics"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Original primary functional abstract inspected; full-text claim audit pending."
+    "Original primary functional abstract inspected; full-text claim audit pending.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "99a62b02fe004d90ca24ceae4a63caa8442b02713adf3ee271ca4e9267db2b38"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "65aa9a88921e8a39b5703605ccd315853f49148e1678e3fb8f0eb4fe66b155b1"
 }

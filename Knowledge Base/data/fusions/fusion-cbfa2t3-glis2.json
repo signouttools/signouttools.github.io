@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Pediatric AML, often megakaryoblastic"
   ],
+  "disease_ids": [
+    "fusion-context-3136f564768f"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-863"
       ],
       "claim_sha256": "313d32ab607d5d39167551e93e53c8b89eacf5e4cdb2819c00f4088f5919422b",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-863",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/863",
+          "location": "NCBI Gene 863 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "887d155eaf9968e1aa64e5c824e18ffb51f7417403b2c73ab6b53690039852b5"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,44 +50,62 @@
         "ncbi-84662"
       ],
       "claim_sha256": "9d695b4b224935eb3cba3ff114a678d483331e8a17252ff19cd9d1ae940d40e8",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-84662",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/84662",
+          "location": "NCBI Gene 84662 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c849ea7daa7dfc0464acb1a9fbf18eecb6a9d1e03d6bd1960b5a65ef7923881e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The cryptic inv(16)(p13q24) fusion alters transcription through a CBFA2T3-containing GLIS2 protein and drives an aggressive pediatric AML program. It is associated with megakaryoblastic disease and the RAM immunophenotype, including strong CD56 and weak or absent CD45/CD38.",
+      "text": "The cryptic inv(16)(p13q24) rearrangement joins CBFA2T3 and GLIS2 and is associated with pediatric AML, frequently with megakaryoblastic differentiation.",
       "source_ids": [
         "aml"
       ],
-      "claim_sha256": "b2d0d7596f52fb28b03294d28e79d49096b5b0ffbb60ff05c97d67a602d0f012",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "Pediatric CBFA2T3::GLIS2 AML has high relapse risk and poor survival in reported cohorts.",
-      "source_ids": [
-        "aml"
-      ],
-      "claim_sha256": "f5442d3286910cc2a7cc8b6855944567457d73a5202e5de4054cdab66121dccc",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "62c15a6e2ff8e33f8d73de78b7fe028b0985478a0720dac2f0b4d0c1f8e80ee4",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "WHO classification tables and gene-specific cytogenetic sections",
+          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. GLIS2 encodes a zinc-finger transcriptional regulator. The cryptic inv(16)(p13q24) fusion alters transcription through a CBFA2T3-containing GLIS2 protein and drives an aggressive pediatric AML program. It is associated with megakaryoblastic disease and the RAM immunophenotype, including strong CD56 and weak or absent CD45/CD38. Pediatric CBFA2T3::GLIS2 AML has high relapse risk and poor survival in reported cohorts.",
+    "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. GLIS2 encodes a zinc-finger transcriptional regulator. The cryptic inv(16)(p13q24) rearrangement joins CBFA2T3 and GLIS2 and is associated with pediatric AML, frequently with megakaryoblastic differentiation.",
     "source_ids": [
       "ncbi-863",
       "ncbi-84662",
       "aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "32409a825f61087dbef27ae2652d1b2db4c04492aa64af2ab3ef34e4d6891776"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "f46715e915d04367b03096bab0496a978ae77b2b16da6c0a4d9f7e7aaeedfcc2"
 }

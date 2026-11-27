@@ -21,6 +21,10 @@
     "T-lymphoblastic leukemia",
     "AML"
   ],
+  "disease_ids": [
+    "fusion-context-f1367cb5be80",
+    "aml"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -30,7 +34,17 @@
         "ncbi-8301"
       ],
       "claim_sha256": "2fcb5a94a5798347d5447d19c4f5ab57403c6ecd6be66d719fbd0263fa96f2c9",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8301",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8301",
+          "location": "NCBI Gene 8301 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a95f55aebe1d9eb788590177b07a84af4e6c36a82d5f7ec9a3ae783963623a93"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -40,35 +54,62 @@
         "ncbi-8028"
       ],
       "claim_sha256": "c0eea6521144af9a1a1c353ff341dd752dda55da7fefcdc166f5857eaa28892a",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8028",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8028",
+          "location": "NCBI Gene 8028 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6f91a51f3226eeb10d9d06d48d11d65b5ff17f7333471b0c35edf28bd022ff3a"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The CALM::AF10 fusion uses PICALM-associated trafficking/export interactions and MLLT10-mediated DOT1L recruitment to activate HOXA-associated transcription. It is recurrent in T-ALL and occurs less often in AML.",
+      "text": "PICALM::MLLT10 occurs in AML, T-lymphoblastic leukemia/lymphoma and rare acute leukemias of ambiguous lineage, as demonstrated in a pediatric and young-adult genomic cohort.",
       "source_ids": [
-        "af10"
+        "picalm-cohort-primary"
       ],
-      "claim_sha256": "28a116f5e5ef71f1cc893bb7715690204e0d6ae8f6bbf6b8d6fb1484abd7486c",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "4ff406a0f7c09f4260533ef4c92e374124c0b283c370a3efcd96357571784062",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "picalm-cohort-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11896021/",
+          "location": "Results: Clinical, cytomorphologic and immunophenotypic characteristics; Table 1; Figure 1",
+          "scope": "Direct 20-patient cohort diagnoses and ordered fusion; indexed Results/Table passage inspected. Detailed DOT1L/CRM1 mechanism removed.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis. MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. The CALM::AF10 fusion uses PICALM-associated trafficking/export interactions and MLLT10-mediated DOT1L recruitment to activate HOXA-associated transcription. It is recurrent in T-ALL and occurs less often in AML.",
+    "text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis. MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. PICALM::MLLT10 occurs in AML, T-lymphoblastic leukemia/lymphoma and rare acute leukemias of ambiguous lineage, as demonstrated in a pediatric and young-adult genomic cohort.",
     "source_ids": [
       "ncbi-8301",
       "ncbi-8028",
-      "af10"
+      "picalm-cohort-primary"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "9aa70b48a01783f6d5a540a88710894c64971bc02cb6c25c8f8ce194dde353c5"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "7ad22281ca86381fb56a0fbe170b57499b57ed719aff29321fa5bd801df3b195"
 }

@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Ph-like B-ALL"
   ],
+  "disease_ids": [
+    "fusion-context-ea801e61035d"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "SSBP2",
-      "text": "SSBP2 encodes a protein that stabilizes transcriptional regulatory complexes in hematopoietic cells.",
+      "text": "SSBP2 encodes single-stranded DNA-binding protein 2.",
       "source_ids": [
-        "ncbi-23635"
+        "hgnc"
       ],
-      "claim_sha256": "cdd153df49682341512789b662f34e5a72f29c9a01f1430696a3c6f09ff6ad22",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "b4903092a0f7dfc01962d0590b0af60097b7d4b08bc71404868831deba8345dc",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:15831",
+          "location": "Approved HGNC snapshot row HGNC:15831 / SSBP2",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,51 +50,82 @@
         "ncbi-1436"
       ],
       "claim_sha256": "ae0e6e41a4c129ec68804f931690c941b120f6d10186ddfd8ad3443bc1e7a1a4",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-1436",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1436",
+          "location": "NCBI Gene 1436 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0f707db7a73866facc999d03df8988933502c0e386be1e9f9914afcaaad9f5ba"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. SSBP2::CSF1R is an ABL-class kinase lesion in Ph-like B-ALL.",
+      "text": "SSBP2::CSF1R is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region.",
       "source_ids": [
-        "phlike",
-        "phlike2",
-        "phlike-functional"
+        "crlf2"
       ],
-      "claim_sha256": "a2c1e9c87e7f930ce2bd22565e2adc463df006840ea5502c4baf904a6e253c51",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "0f816003bb317c4852dcd187e7155b4698fcb318dac26fe46d010539563be8a4",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "crlf2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191900/",
+          "location": "Results: kinase rearrangement identification; Figure 2/Table 1 and intact kinase-domain analysis",
+          "scope": "Direct sequencing evidence for ordered pair in B-ALL and kinase retention.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+      "text": "ABL-class kinase inhibitors showed activity in experimental kinase-fusion ALL systems; these findings support investigation rather than a pair-specific approval.",
       "source_ids": [
-        "phlike",
-        "phlike-functional"
+        "crlf2"
       ],
-      "claim_sha256": "676525c4c006483cc3900ebcd0fcbea77e76cbaae835417eb129e53e882cf137",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "0fb6b310b257ed358298d7378716ef9958441ed98e015948b14785017e4ae38f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "crlf2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191900/",
+          "location": "Results: kinase inhibitor assays / sensitivity to kinase inhibition; Figures 5-7 (Roberts 2012) or functional assays (Roberts 2014)",
+          "scope": "Preclinical class/selected-pair sensitivity; no response guarantee or FDA label inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "SSBP2 encodes a protein that stabilizes transcriptional regulatory complexes in hematopoietic cells. CSF1R encodes the colony-stimulating factor 1 receptor tyrosine kinase. The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. SSBP2::CSF1R is an ABL-class kinase lesion in Ph-like B-ALL. ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+    "text": "SSBP2 encodes single-stranded DNA-binding protein 2. CSF1R encodes the colony-stimulating factor 1 receptor tyrosine kinase. SSBP2::CSF1R is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region. ABL-class kinase inhibitors showed activity in experimental kinase-fusion ALL systems; these findings support investigation rather than a pair-specific approval.",
     "source_ids": [
-      "ncbi-23635",
+      "hgnc",
       "ncbi-1436",
-      "phlike",
-      "phlike2",
-      "phlike-functional"
+      "crlf2"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+    "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "71f50c3e0bcafcdbc6eb106c1dc0279f33d1cf2a2c18116442b37e6e0346ab20"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "c421f5d9b204c704514e6fb46a2c31581d734b373ddc8d4e355b567fdc958b6b"
 }

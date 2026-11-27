@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML with NPM1::MLF1"
   ],
+  "disease_ids": [
+    "fusion-context-24a324c3689e"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,49 +30,83 @@
         "ncbi-4869"
       ],
       "claim_sha256": "feb3fce8a79759b1142e7d87bc87b585675f11e5f9bbfc22f207ef739f59e9e2",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4869",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4869",
+          "location": "NCBI Gene 4869 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d014b913495cfc6e68c4d5590a36644de53540eb521550c8b5b4f45c37ba1f8e"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "MLF1",
-      "text": "MLF1 encodes a regulator of hematopoietic cell differentiation and survival.",
+      "text": "MLF1 encodes myeloid leukemia factor 1.",
       "source_ids": [
-        "ncbi-4291"
+        "hgnc"
       ],
-      "claim_sha256": "f8ae64bdb058f47436f2a9758a949e0936585c73865113aec9cbde18410ac39c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "bad6789fb9d970d7f5521621e9cd00f9289d54ceef195738c583b0e90cb7bc03",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7125",
+          "location": "Approved HGNC snapshot row HGNC:7125 / MLF1",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(3;5) fusion joins amino-terminal NPM1 sequences to MLF1 and alters intracellular regulation in hematopoietic cells. It is a rare recurrent AML fusion, distinct from the common NPM1 exon 12 mutation.",
+      "text": "NPM1::MLF1 is a rare recurrent t(3;5)-associated AML fusion, distinct from the usual NPM1 exon 12 mutation.",
       "source_ids": [
-        "aml",
-        "icc-m"
+        "aml"
       ],
-      "claim_sha256": "4266a15f5f31a211a04c0e4f553b5f361ad7a5e3390de3c7bf351b19eac11db8",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "4f0afeb4983238c6c3080b031b391231a28e5481125fe77387d499039d9d9dbd",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "WHO classification tables and gene-specific cytogenetic sections",
+          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. MLF1 encodes a regulator of hematopoietic cell differentiation and survival. The t(3;5) fusion joins amino-terminal NPM1 sequences to MLF1 and alters intracellular regulation in hematopoietic cells. It is a rare recurrent AML fusion, distinct from the common NPM1 exon 12 mutation.",
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. MLF1 encodes myeloid leukemia factor 1. NPM1::MLF1 is a rare recurrent t(3;5)-associated AML fusion, distinct from the usual NPM1 exon 12 mutation.",
     "source_ids": [
       "ncbi-4869",
-      "ncbi-4291",
-      "aml",
-      "icc-m"
+      "hgnc",
+      "aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Do not transfer the favorable-risk classification of NPM1-mutated AML to NPM1::MLF1."
+    "Do not transfer the favorable-risk classification of NPM1-mutated AML to NPM1::MLF1.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "f9f41fce0dd4e81f49fa2d65a6488a41c4b855c8e636272f2a7d45e291e96b33"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "bd38cb60ccead5373934487e64b2f22d48f8c73cfeaa29ddc3c7fa74b35af215"
 }

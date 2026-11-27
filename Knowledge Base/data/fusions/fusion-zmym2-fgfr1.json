@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
   ],
+  "disease_ids": [
+    "fusion-context-092ab72d2578"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-7750"
       ],
       "claim_sha256": "271f93c2a7f30cfa44fd040d82d7bcb2ce6cbaaa5b49f8c53174cc155448270d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7750",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7750",
+          "location": "NCBI Gene 7750 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "4bf995f75d7dc08362f829aa43e98c0f7922a9080195c2c9b62aafd5b6ddd4b1"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,48 +50,82 @@
         "ncbi-2260"
       ],
       "claim_sha256": "0873ffc09ea58b6367f10070d7afa2c8ce61ca270f9f201036a60596a76a9dfd",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2260",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2260",
+          "location": "NCBI Gene 2260 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7ea841889cae5e4418d7d07782dfcfec4a162f88cbc338606418fec3cefd1bf4"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the FGFR1 kinase and replaces receptor control with a partner-derived self-association region, producing constitutive signaling. FGFR1-rearranged neoplasms can involve myeloid disease and lymphoblastic lymphoma/leukemia, with progression to blast phase.",
+      "text": "ZMYM2::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
       "source_ids": [
-        "icc-m",
-        "fgfr1-heme"
+        "icc-eo"
       ],
-      "claim_sha256": "a32b71782be888793a1837fbd6c2b9b998fc2a3fe50ebf15a5cb8173ebae501f",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "a3a465b6cbe71315eb99c69354cc2032c8c76b9da2131fe46a517c43e6e586a6",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "icc-eo",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+          "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+          "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Pemigatinib is US-approved for adults with relapsed or refractory myeloid/lymphoid neoplasms harboring an FGFR1 rearrangement. ZMYM2 and BCR were frequent partners in FIGHT-203.",
+      "text": "Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
       "source_ids": [
-        "fda-fgfr1",
-        "fgfr1-heme"
+        "fda-fgfr1"
       ],
-      "claim_sha256": "0c65123df6496d0d115bb34e711f20b427a55753a82ad66b49b21c28c43be187",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "968414f92b014f1f95aacdf48a1d0fa3f8c261f623e142f40c443c798d553c11",
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-fgfr1",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf",
+          "location": "Prescribing information section 1.2, PDF page 2",
+          "scope": "Correct adult relapsed/refractory FGFR1-rearranged MLN indication.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "ZMYM2 encodes a zinc-finger transcriptional coregulator. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. The fusion retains the FGFR1 kinase and replaces receptor control with a partner-derived self-association region, producing constitutive signaling. FGFR1-rearranged neoplasms can involve myeloid disease and lymphoblastic lymphoma/leukemia, with progression to blast phase. Pemigatinib is US-approved for adults with relapsed or refractory myeloid/lymphoid neoplasms harboring an FGFR1 rearrangement. ZMYM2 and BCR were frequent partners in FIGHT-203.",
+    "text": "ZMYM2 encodes a zinc-finger transcriptional coregulator. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ZMYM2::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
     "source_ids": [
       "ncbi-7750",
       "ncbi-2260",
-      "icc-m",
-      "fgfr1-heme",
+      "icc-eo",
       "fda-fgfr1"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "eefa4d934eec8d33e07da6ef17aa2cf53cab19cff995f40e09a66b1706bd3c33"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "243eaf943458f6694d889af1ab75fa693c29028ada44cca8dcb063761ccbb99c"
 }

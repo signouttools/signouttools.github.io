@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "B-lymphoblastic leukemia, including Down-syndrome-associated ALL"
   ],
+  "disease_ids": [
+    "fusion-context-66ad5bbcb6ac"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "P2RY8",
-      "text": "P2RY8 encodes a G-protein-coupled receptor involved in lymphocyte localization.",
+      "text": "P2RY8 encodes a G-protein-coupled receptor.",
       "source_ids": [
         "ncbi-286530"
       ],
-      "claim_sha256": "e7ddc0e1ec285c30ab87a00932bbc0e6bd87c401cefe4dcaefed4aaf354ab8b1",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "4b1fc0b646238e3fea428acec2ac09ad102b36b5d4561ad7f32d36edca82eb5c",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-286530",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/286530",
+          "location": "NCBI Gene 286530 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d3e11b0543b72003f18d40cab3b52c048f89462702d1ed19fabe22175cddc625"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,7 +50,17 @@
         "ncbi-64109"
       ],
       "claim_sha256": "6cc8d7783cce36a9bce03852997338973f9a3a0858ce15ea276f46a7c22a4913",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-64109",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/64109",
+          "location": "NCBI Gene 64109 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d31f87f7cfcfbfbb498c2ea2c8668b5dc657b65b9bdc4d674e8fb534223b5968"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
@@ -46,12 +69,22 @@
         "crlf2",
         "all"
       ],
+      "evidence_review_status": "primary_fulltext_supported",
       "claim_sha256": "f2ca6660e6f11fccc51c0d237414299ca9def68c34f2c0c5734c16437a9d6f76",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "crlf2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191900/",
+          "location": "Results: Identification of kinase alterations in Ph-like ALL; Table 1 and CRLF2 sequencing subsection, lines 529-575",
+          "scope": "Both recurrent CRLF2 rearrangements, overexpression and cooperating JAK lesions.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "P2RY8 encodes a G-protein-coupled receptor involved in lymphocyte localization. CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling. A pseudoautosomal-region deletion joins the P2RY8 promoter to CRLF2 coding sequences, increasing CRLF2 expression. It is a promoter-substitution event that can cooperate with JAK-pathway alterations in B-ALL.",
+    "text": "P2RY8 encodes a G-protein-coupled receptor. CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling. A pseudoautosomal-region deletion joins the P2RY8 promoter to CRLF2 coding sequences, increasing CRLF2 expression. It is a promoter-substitution event that can cooperate with JAK-pathway alterations in B-ALL.",
     "source_ids": [
       "ncbi-286530",
       "ncbi-64109",
@@ -59,17 +92,23 @@
       "all"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+    "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "5f9ec94a1295ea88e97d0d1c9ef523a6e482dba3edb0f811d947c5a54da9cfb2"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "37a7539c4c1efd0927e575ed80e8b8b8a470c8021a3c5b7d6cc98599d8cdcb2d"
 }

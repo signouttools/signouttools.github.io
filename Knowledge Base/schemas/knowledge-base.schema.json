@@ -825,6 +825,26 @@
         "report_comment_override_file": {
           "type": "string",
           "minLength": 1
+        },
+        "fusion_index_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fusion_browser_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fusion_source_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fusion_disease_file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fusion_audit_file": {
+          "type": "string",
+          "minLength": 1
         }
       },
       "required": [

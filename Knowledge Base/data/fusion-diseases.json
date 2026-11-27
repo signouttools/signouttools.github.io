@@ -1,0 +1,641 @@
+[
+  {
+    "id": "fusion-context-73c82e08355b",
+    "name": "ALK-positive anaplastic large cell lymphoma",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-cda6797b5406",
+    "name": "AML with DEK::NUP214",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-24a324c3689e",
+    "name": "AML with NPM1::MLF1",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-8e581de2a50a",
+    "name": "AML with inv(3) or t(3;3)",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-1ec3e1b0e856",
+    "name": "AML with variant RARA fusion",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-17fe6d67c4f5",
+    "name": "AML, often monocytic or myelomonocytic",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-ff09d54e54e4",
+    "name": "Angiocentric glioma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-2828430f1e7b",
+    "name": "Angiomatoid fibrous histiocytoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-41d99c21fe37",
+    "name": "B-cell lymphoma, including diffuse large B-cell lymphoma",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-214d146d359b",
+    "name": "B-lymphoblastic leukemia",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-66ad5bbcb6ac",
+    "name": "B-lymphoblastic leukemia, including Down-syndrome-associated ALL",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-6a833133669f",
+    "name": "B-lymphoblastic leukemia, often Ph-like",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-be18c9ebda2f",
+    "name": "B-lymphoblastic leukemia, particularly infant disease",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-6ba1270eb70b",
+    "name": "B/myeloid mixed-phenotype acute leukemia",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-edd4a0cc8331",
+    "name": "BCOR::CCNB3 sarcoma of bone or soft tissue",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-53a43d7df981",
+    "name": "CIC-rearranged undifferentiated round cell sarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-ce5a97fa70d0",
+    "name": "CML blast phase",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-1a37f52f1073",
+    "name": "Childhood B-lymphoblastic leukemia",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-d0b4927701df",
+    "name": "Clear cell sarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-6ba36108d003",
+    "name": "Congenital/infantile spindle cell rhabdomyosarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-52db3366a828",
+    "name": "Core-binding factor AML",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-67cb7adac403",
+    "name": "Cyclin D1-negative mantle cell lymphoma",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-46a5d616729d",
+    "name": "DUX4-rearranged B-lymphoblastic leukemia",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-a49e6064ad0f",
+    "name": "Dermatofibrosarcoma protuberans",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-57bda33b21a2",
+    "name": "EWSR1::NFATC2-rearranged sarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-84b7d11a7f2c",
+    "name": "Extranodal marginal zone lymphoma of MALT",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-540e9e22dbaf",
+    "name": "Extraventricular neurocytoma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-7f9709ed17ca",
+    "name": "Fusion-positive alveolar rhabdomyosarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-ef3610f69105",
+    "name": "Gastrointestinal neuroectodermal tumor",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-452953d0d334",
+    "name": "High-grade endometrial stromal sarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-b47a7ba074d4",
+    "name": "High-grade glioma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-86931edbcbf8",
+    "name": "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-f480d899fb9e",
+    "name": "Infant acute megakaryoblastic leukemia",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-9f98d303a12b",
+    "name": "Inflammatory myofibroblastic tumor",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-8e136239d50c",
+    "name": "Low-grade endometrial stromal sarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-ac924ec4f7f5",
+    "name": "Mesenchymal chondrosarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-48690305ed40",
+    "name": "Mixed-phenotype acute leukemia",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-dc52e2a73c26",
+    "name": "Mucoepidermoid carcinoma at other sites",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-b4935b7d50c4",
+    "name": "Myelodysplastic neoplasia",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-d7d89c4d9c29",
+    "name": "Myeloid/lymphoid neoplasm with ETV6::ABL1",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-092ab72d2578",
+    "name": "Myeloid/lymphoid neoplasm with FGFR1 rearrangement",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-20f51418af62",
+    "name": "Myeloid/lymphoid neoplasm with FLT3 rearrangement",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-8e82b6b73906",
+    "name": "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-147f56eeaa22",
+    "name": "Myeloid/lymphoid neoplasm with PDGFRA rearrangement",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-94b46d536e8e",
+    "name": "Myeloid/lymphoid neoplasm with PDGFRB rearrangement",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-9d7d2840bc85",
+    "name": "Myxoid liposarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-13ae6d68cda6",
+    "name": "Other KMT2A-rearranged acute leukemias",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-91b2910f0cc0",
+    "name": "Other MYC-rearranged B-cell neoplasms",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-b9a624b1c3b1",
+    "name": "Other NTRK-rearranged gliomas",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-f2283e68417d",
+    "name": "Other pediatric low-grade gliomas",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-2d53bc71d8c5",
+    "name": "Papillary glioneuronal tumor",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-3136f564768f",
+    "name": "Pediatric AML, often megakaryoblastic",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-15fb253dea61",
+    "name": "Pediatric low-grade glioma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-ea801e61035d",
+    "name": "Ph-like B-ALL",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-db1c59b8f11b",
+    "name": "Ph-like B-lymphoblastic leukemia",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-a29278e47173",
+    "name": "Plasma cell myeloma with t(4;14)",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-aa5924a9b86d",
+    "name": "Pleomorphic adenoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-0b6f7b7722b1",
+    "name": "Rare Ewing sarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-4f619e09b4ef",
+    "name": "Rare de novo AML",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-d38c219d8297",
+    "name": "Salivary secretory carcinoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-78e3d4ac9b8d",
+    "name": "Selected large B-cell lymphomas",
+    "category": "hematologic",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-6ea415c4fb10",
+    "name": "Solitary fibrous tumor",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-f836a5c1cbab",
+    "name": "Spindle/round cell sarcoma with EWSR1::PATZ1",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-c640334e5b9e",
+    "name": "Supratentorial ependymoma, YAP1 fusion-positive",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-6f5328aac10b",
+    "name": "Supratentorial ependymoma, ZFTA fusion-positive",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-4dca18fb00ef",
+    "name": "T-ALL",
+    "category": "hematologic",
+    "parent_id": "atlas-h-tall",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-f1367cb5be80",
+    "name": "T-lymphoblastic leukemia",
+    "category": "hematologic",
+    "parent_id": "atlas-h-tall",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-f137898da523",
+    "name": "TFEB-rearranged renal cell carcinoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-420e6174560e",
+    "name": "YAP1::TFE3-fused hemangioendothelioma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-b8b17dd73888",
+    "name": "Ossifying fibromyxoid tumor",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-f0ad9dd8281d",
+    "name": "Salivary hyalinizing clear cell carcinoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  }
+]

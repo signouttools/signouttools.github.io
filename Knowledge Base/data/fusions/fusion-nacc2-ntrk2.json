@@ -19,35 +19,69 @@
     "Pilocytic astrocytoma",
     "Other NTRK-rearranged gliomas"
   ],
+  "disease_ids": [
+    "curation-intogen-PAST",
+    "fusion-context-b9a624b1c3b1"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "NACC2",
-      "text": "NACC2 encodes a nuclear BTB-domain transcriptional regulator.",
+      "text": "NACC2 encodes NACC family member 2.",
       "source_ids": [
-        "ncbi-138151"
+        "hgnc"
       ],
-      "claim_sha256": "bb0b5023a54cd09a21220ec665353a212bf8c32cffff88503713c50579343b7d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "58d654063065db6d2625882a0824c097b1ae9b48f011f785edef9e528ac01963",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23846",
+          "location": "Approved HGNC snapshot row HGNC:23846 / NACC2",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NTRK2",
-      "text": "NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4.",
+      "text": "NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase.",
       "source_ids": [
         "ncbi-4915"
       ],
-      "claim_sha256": "c79c9b9797fe7b36b2283266c51d259f9e2fb442387f7d83e3fd11aa3612afcb",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e7db4418936cfae6649b79765db681135e5792068ec5f22ec5b180c06ee77284",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4915",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4915",
+          "location": "NCBI Gene 4915 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2b3a2bbed41a12b2889042a4f5a806af2e9b5a75712b2702a6f0702b8c35f9e1"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. NACC2::NTRK2 has been reported in pilocytic astrocytoma.",
+      "text": "NACC2::NTRK2 was verified by PCR in pilocytic astrocytoma. The product retains the NTRK2 kinase region; partner-mediated dimerization was proposed from retained partner domains rather than directly measured in that discovery study.",
       "source_ids": [
-        "ntrk-fda-review"
+        "audit-solid-ntrk2-pa"
       ],
-      "claim_sha256": "e5ac80f82c10bd60bc25fe5c38358c1bc62c309895d8d37fc90222e705963876",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "2c7ab07c36904c67d3e743ef6fed56234eaf5439ce7999b7e1ef71d963bfb07f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-ntrk2-pa",
+          "url": "https://pure.mpg.de/rest/items/item_1982973_2/component/file_2019248/content",
+          "location": "Results, NTRK2 structural rearrangements; Figure2 and Supplementary Figure3d",
+          "scope": "QKI-NTRK2 and NACC2-NTRK2 PCR-verified in three pilocytic astrocytomas, retain kinase; dimerization activation predicted rather than assayed.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,29 +90,44 @@
         "fda-laro"
       ],
       "claim_sha256": "fc5c55d0e75b3c3a7c3a67384b8a3112a3cd8c82b0ca92b0eab23eaed6b00fa8",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-laro",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9525f887-a055-4e33-8e92-898d42828cd1",
+          "location": "DailyMed full prescribing information Section1",
+          "scope": "NTRK fusion without known acquired resistance; metastatic or surgery severe morbidity; prior progression/no satisfactory alternative.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NACC2 encodes a nuclear BTB-domain transcriptional regulator. NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4. The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. NACC2::NTRK2 has been reported in pilocytic astrocytoma. An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
+    "text": "NACC2 encodes NACC family member 2. NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. NACC2::NTRK2 was verified by PCR in pilocytic astrocytoma. The product retains the NTRK2 kinase region; partner-mediated dimerization was proposed from retained partner domains rather than directly measured in that discovery study. An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
     "source_ids": [
-      "ncbi-138151",
+      "hgnc",
       "ncbi-4915",
-      "ntrk-fda-review",
+      "audit-solid-ntrk2-pa",
       "fda-laro"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Original Jones 2013 full-text verification remains pending; FDA review provides an explicitly identified literature lead."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "64bdd980f98d0c9e96691d1b8598ee75aaa2cfd28fa0e6aeeb944ebf1e395652"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "f3228e8e77f66e4bb5e3b64633f708d153e6f6a53c7685a0e60b86228cf91813"
 }

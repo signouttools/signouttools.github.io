@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "ALK-positive anaplastic large cell lymphoma"
   ],
+  "disease_ids": [
+    "fusion-context-73c82e08355b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-4869"
       ],
       "claim_sha256": "feb3fce8a79759b1142e7d87bc87b585675f11e5f9bbfc22f207ef739f59e9e2",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4869",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4869",
+          "location": "NCBI Gene 4869 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d014b913495cfc6e68c4d5590a36644de53540eb521550c8b5b4f45c37ba1f8e"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,45 +50,82 @@
         "ncbi-238"
       ],
       "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-238",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+          "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion uses NPM1-mediated oligomerization to activate the ALK kinase and downstream survival pathways. It is the principal fusion in ALK-positive anaplastic large cell lymphoma.",
+      "text": "The t(2;5)-associated NPM1::ALK fusion is a recurrent driver in ALK-positive anaplastic large cell lymphoma.",
       "source_ids": [
-        "icc-l"
+        "nci-genomics"
       ],
-      "claim_sha256": "2580af0416f48f7dbfc714504d737caccff69911b4763b3aff894b42ac3179f2",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "d244465d687df0669c733f88d458db64b05943f2f586acdc7109b2a3919b0b61",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nci-genomics",
+          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
+          "location": "Non-Hodgkin lymphoma: Anaplastic large cell lymphoma; Table 4",
+          "scope": "Specific NPM::ALK disease association; oligomerization/signaling pathway details not certified.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Crizotinib has a US indication for relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma in children aged at least 1 year and young adults. Its efficacy and safety for that indication were not established in older adults in the cited label.",
+      "text": "Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma.",
       "source_ids": [
         "fda-criz"
       ],
-      "claim_sha256": "6ba39d01a2405de5cbef8f65085dd516793dd87e24ded19b77ee4ccb6aec16fd",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "99176c9d9b1aa5a44ff3099ba38a35fa1309c5aa2e9a773e8a93fbb14e9c3803",
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-criz",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+          "location": "Prescribing information section 1.2",
+          "scope": "Actual ALK-positive ALCL indication; not a fusion-specific label.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion uses NPM1-mediated oligomerization to activate the ALK kinase and downstream survival pathways. It is the principal fusion in ALK-positive anaplastic large cell lymphoma. Crizotinib has a US indication for relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma in children aged at least 1 year and young adults. Its efficacy and safety for that indication were not established in older adults in the cited label.",
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ALK encodes a receptor tyrosine kinase involved in neural development. The t(2;5)-associated NPM1::ALK fusion is a recurrent driver in ALK-positive anaplastic large cell lymphoma. Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma.",
     "source_ids": [
       "ncbi-4869",
       "ncbi-238",
-      "icc-l",
+      "nci-genomics",
       "fda-criz"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "600d0d448e913c660d03700e82bb5c3ea0b28f0a21c6c6887442720c2d79f7e5"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "6dda66e7192f28126cf2136b5314634c668858a284bf239d1289450cc4b85050"
 }

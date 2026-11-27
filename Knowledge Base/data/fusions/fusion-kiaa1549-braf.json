@@ -16,20 +16,31 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Pilocytic astrocytoma",
-    "Other pediatric low-grade gliomas",
-    "Diffuse leptomeningeal glioneuronal tumor"
+    "Pilocytic astrocytoma"
+  ],
+  "disease_ids": [
+    "curation-intogen-PAST"
   ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "KIAA1549",
-      "text": "KIAA1549 encodes a protein implicated in nervous-system development.",
+      "text": "KIAA1549 encodes a UPF0606-family protein.",
       "source_ids": [
         "ncbi-57670"
       ],
-      "claim_sha256": "ebc77e5f4f83cdf749713f40cb9d39105eaf89aa9f13f6b6c7a4ecd98bda244c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "f584b5b0a97cc15d21cd8e6ee461f709ca5f1f0737d99ad16fabe8b4bec37138",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-57670",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/57670",
+          "location": "NCBI Gene 57670 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "f88b3a132c17ff527f0650900e58fa0d161a2e01647c6d30b01288270265db9c"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -39,49 +50,80 @@
         "ncbi-673"
       ],
       "claim_sha256": "296284c6ac14cd374c43e01f7bd9287f9c3e5dc95e23fea5d313545f2bd42417",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-673",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/673",
+          "location": "NCBI Gene 673 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d3caeddefe5a3e1048b3a11323f59ed4364e5e1f5ca8b6c536bec3e31dd04259"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. KIAA1549::BRAF commonly results from a tandem duplication at 7q34 and is recurrent in pilocytic astrocytoma; it also occurs in diffuse leptomeningeal glioneuronal tumor.",
+      "text": "A tandem duplication at7q34 creates KIAA1549::BRAF, retaining the BRAF kinase region while removing its amino-terminal inhibitory region. Primary experiments demonstrated constitutive kinase activity and anchorage-independent fibroblast growth. It is recurrent in pilocytic astrocytoma.",
       "source_ids": [
-        "raf-mech",
-        "cns"
+        "audit-solid-kiaa-braf"
       ],
-      "claim_sha256": "cb8a96629d652a64eb4b23c988763874c824bccdc9e2148b8d08893a1885f250",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "b216f2e469177f8d70839b509d2c98deb53032978926d42e3fd82a2db5e948f4",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-kiaa-braf",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2577184/",
+          "location": "Figure2A-D, tandem duplication/junction validation; Figure3A-B kinase assays and NIH3T3 growth",
+          "scope": "Tandem duplication and retained kinase, constitutive kinase activity and anchorage-independent fibroblast growth.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+      "text": "Tovorafenib is US-approved for patients aged6months or older with relapsed or refractory pediatric low-grade glioma harboring a BRAF fusion or rearrangement.",
       "source_ids": [
-        "fda-braf",
-        "braf-resistance"
+        "fda-braf"
       ],
-      "claim_sha256": "601e597c19542036f46ba05f50502e85a9da0ba08cb48e18634b49e5450a3c76",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "dec8ced503b710da4fdf11a9349dd70314863cf7f040e34c807297e7bc0826d3",
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-braf",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-tovorafenib-patients-relapsed-or-refractory-braf-altered-pediatric",
+          "location": "FDA approval notice April23,2024 indication",
+          "scope": "Relapsed/refractory pediatricLGG withBRAFfusion/rearrangement orV600, age>=6months.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "KIAA1549 encodes a protein implicated in nervous-system development. BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. KIAA1549::BRAF commonly results from a tandem duplication at 7q34 and is recurrent in pilocytic astrocytoma; it also occurs in diffuse leptomeningeal glioneuronal tumor. Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+    "text": "KIAA1549 encodes a UPF0606-family protein. BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. A tandem duplication at7q34 creates KIAA1549::BRAF, retaining the BRAF kinase region while removing its amino-terminal inhibitory region. Primary experiments demonstrated constitutive kinase activity and anchorage-independent fibroblast growth. It is recurrent in pilocytic astrocytoma. Tovorafenib is US-approved for patients aged6months or older with relapsed or refractory pediatric low-grade glioma harboring a BRAF fusion or rearrangement.",
     "source_ids": [
       "ncbi-57670",
       "ncbi-673",
-      "raf-mech",
-      "cns",
-      "fda-braf",
-      "braf-resistance"
+      "audit-solid-kiaa-braf",
+      "fda-braf"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "1408488ca00150c0a9944d65ddd89f193fe57da5029079a4888877a19d33d3b1"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "8c250a6ec615879d2a0f36969991aeb22fa1c9fe5ab5f7d64009482c32acc7e9"
 }

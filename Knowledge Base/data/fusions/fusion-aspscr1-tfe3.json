@@ -19,6 +19,10 @@
     "Alveolar soft part sarcoma",
     "TFE3-rearranged renal cell carcinoma"
   ],
+  "disease_ids": [
+    "atlas-nm-asps",
+    "atlas-e-tfe3"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,59 +32,110 @@
         "ncbi-79058"
       ],
       "claim_sha256": "00559079fffa09788ea258a8787b3b70b503797052f0d19436479422b1028272",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-79058",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/79058",
+          "location": "NCBI Gene 79058 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "fb95f720d1ce3fcd54dbba647af41f93814ecfc673438293d04ebc3a508db303"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "TFE3",
-      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "text": "TFE3 encodes an E-box-binding transcription factor.",
       "source_ids": [
         "ncbi-7030"
       ],
-      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "11d865f80a218ea86d61aeb8cd0f28730d25002af79b33311d54c1614c217a55",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7030",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7030",
+          "location": "NCBI Gene 7030 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "18d0d35ef562720235d390eb36f6c9013b602767fc4ed7a74b6971b2f65b228e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins ASPSCR1 sequences to the TFE3 transcription-factor region, generating an abnormal transcriptional activator. It is characteristic of alveolar soft part sarcoma and also occurs in TFE3-rearranged renal cell carcinoma.",
+      "text": "ASPSCR1::TFE3 acts as an oncogenic transcriptional regulator in alveolar soft part sarcoma: fusion-degradation experiments alter cell-cycle, mitochondrial and angiogenic expression programs. The fusion also occurs in TFE3-rearranged renal cell carcinoma.",
       "source_ids": [
-        "sarcoma",
-        "renal"
+        "audit-sarcoma-asps-function",
+        "audit-sarcoma-asps-renal"
       ],
-      "claim_sha256": "368556e1c9703a646832d8111620c8aeca1b45e8e5e29569b9bdd16f9f6cabf0",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e3b0d673ef1931049e7099fe1fb8c47945a8f675c7571ab2d1acbc89c5e6882d",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-asps-function",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11250573/",
+          "location": "Results: ASPSCR1::TFE3 supports cell cycle, mitochondrial and angiogenic expression; Figure 4",
+          "scope": "Fusion degradation, RNA-seq and target regulation in ASPS models; direct transcriptional activity.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-asps-renal",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11200839/",
+          "location": "Results: Transcriptome features of ASPSCR1-TFE3 rRCC; Figure 2",
+          "scope": "RNA-seq-defined ASPSCR1-TFE3 renal carcinoma subgroup; used here only for tumor association, not treatment recommendation.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
       "text": "Atezolizumab is US-approved for unresectable or metastatic alveolar soft part sarcoma from age 2 years. This histology-specific indication does not extend to TFE3-rearranged renal carcinoma.",
       "source_ids": [
-        "fda-asps"
+        "audit-sarcoma-fda-asps"
       ],
       "claim_sha256": "51d52ace987eb614a4a3babeccc7d0f27f9564963ddd64b216a25a3b23073e1e",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-asps",
+          "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=769320",
+          "location": "Approved indication (12/9/2022)",
+          "scope": "Adults and pediatric patients age 2 and older with unresectable or metastatic ASPS.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "ASPSCR1 encodes a trafficking protein involved in intracellular GLUT4 transport. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion joins ASPSCR1 sequences to the TFE3 transcription-factor region, generating an abnormal transcriptional activator. It is characteristic of alveolar soft part sarcoma and also occurs in TFE3-rearranged renal cell carcinoma. Atezolizumab is US-approved for unresectable or metastatic alveolar soft part sarcoma from age 2 years. This histology-specific indication does not extend to TFE3-rearranged renal carcinoma.",
+    "text": "ASPSCR1 encodes a trafficking protein involved in intracellular GLUT4 transport. TFE3 encodes an E-box-binding transcription factor. ASPSCR1::TFE3 acts as an oncogenic transcriptional regulator in alveolar soft part sarcoma: fusion-degradation experiments alter cell-cycle, mitochondrial and angiogenic expression programs. The fusion also occurs in TFE3-rearranged renal cell carcinoma. Atezolizumab is US-approved for unresectable or metastatic alveolar soft part sarcoma from age 2 years. This histology-specific indication does not extend to TFE3-rearranged renal carcinoma.",
     "source_ids": [
       "ncbi-79058",
       "ncbi-7030",
-      "sarcoma",
-      "renal",
-      "fda-asps"
+      "audit-sarcoma-asps-function",
+      "audit-sarcoma-asps-renal",
+      "audit-sarcoma-fda-asps"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "ASPS therapies and renal-carcinoma therapies require distinct evidence; no renal indication inferred from an ASPS association."
+    "ASPS therapies and renal-carcinoma therapies require distinct evidence; no renal indication inferred from an ASPS association.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "f0d7170cbb44f56817e82e6b0bd60dd77aa332e8c699e1bd64aa611d3d5ad7c5"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "aa91758c984c675ab1d9e2fbba23cffd516b4a79c976fbd973aa4bd74025c172"
 }

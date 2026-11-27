@@ -19,6 +19,10 @@
     "B-lymphoblastic leukemia",
     "B/myeloid mixed-phenotype acute leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-214d146d359b",
+    "fusion-context-6ba1270eb70b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,7 +32,17 @@
         "ncbi-8148"
       ],
       "claim_sha256": "c17c65d9daff4aa8413af21597466abd75b81a6032318addf1095796e2f17b3e",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8148",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8148",
+          "location": "NCBI Gene 8148 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "fdaddbb29ed1300d7f372aa23a5cc7799afad89f6335655c09033bea98654c9b"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,39 +52,63 @@
         "ncbi-171017"
       ],
       "claim_sha256": "20112a2158228c89becb3ddb4d9ec80d68f341ae840459ddca7c87a3a32b022f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-171017",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/171017",
+          "location": "NCBI Gene 171017 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "1ace6fd3c5d36c3e00013ce0863847820e34cb923c9c9b3c40b7f234b41fdeb9"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins a transcriptional-regulatory partner to ZNF384 and alters hematopoietic lineage programs. ZNF384-rearranged leukemia often shows weak CD10 with aberrant CD13/CD33 expression and can have B-lineage/myeloid phenotypic overlap.",
+      "text": "TAF15::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
       "source_ids": [
-        "znf384",
         "all"
       ],
-      "claim_sha256": "10b210df5e6b3f84caf32ac6fa3047bfbe9c67b971e9a6d41ce1fa70b407f997",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "4d80b378bea9e3f73b5be68d1dbdd1283a75aba84570b8224ba0ed76115aaac3",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "ZNF384-rearranged ALL, lines 399-402",
+          "scope": "Exact partners and subtype phenotype; no universal lineage-conversion mechanism inferred.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. ZNF384 encodes a zinc-finger transcriptional regulator. The fusion joins a transcriptional-regulatory partner to ZNF384 and alters hematopoietic lineage programs. ZNF384-rearranged leukemia often shows weak CD10 with aberrant CD13/CD33 expression and can have B-lineage/myeloid phenotypic overlap.",
+    "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. ZNF384 encodes a zinc-finger transcriptional regulator. TAF15::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
     "source_ids": [
       "ncbi-8148",
       "ncbi-171017",
-      "znf384",
       "all"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols."
+    "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "d9148733d97295f338f209f5e0e03eb3341d3d740d13168fad086e101b075ea4"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "6240fcbff271bf6b46f21bb9732e27d1e6c8e753f058e4817e7455aa77414ee1"
 }

@@ -16,8 +16,10 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Colorectal carcinoma",
-    "Thyroid carcinoma"
+    "Colorectal adenocarcinoma"
+  ],
+  "disease_ids": [
+    "colorectal"
   ],
   "sections": [
     {
@@ -28,26 +30,56 @@
         "ncbi-7175"
       ],
       "claim_sha256": "717bd05f17066401ec7f5179c47e73da87bab1ba82f7ea72823ed101c56521a4",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7175",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7175",
+          "location": "NCBI Gene 7175 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "de30aebfb9f4362276ef10824c171a243dd78395fd27cabca94cb93e06f96c26"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NTRK1",
-      "text": "NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase.",
+      "text": "NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase.",
       "source_ids": [
         "ncbi-4914"
       ],
-      "claim_sha256": "7432d32322be8120414af1aa00f5b449a85af58dc702f749378f3cd8e3e2c26e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e7ff15e5254b0412c7b50d555054eb90b363daa18795ba6d633e81977c7a7952",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4914",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4914",
+          "location": "NCBI Gene 4914 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a9b4efcfffcb621be14e03fedab36bf0f78e5255a4fb89c1d821cfbf16a2425a"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. TPR::NTRK1 is a reported oncogenic TRK fusion in colorectal carcinoma, with additional thyroid or mesenchymal associations.",
+      "text": "TPR::NTRK1 chimeric transcripts have been detected in colorectal adenocarcinomas by targeted RNA sequencing. The reported junctions join an amino-terminal partner to the carboxy-terminal TRKA region.",
       "source_ids": [
         "ntrk-colon"
       ],
-      "claim_sha256": "474a3e602d6d156268ae287e7c6be2e0b8f1da8c21846eda384a393a9b783150",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "bf430c886d95196b1f7425f2aee0d9d57bf8b5b255ccfb76ba3f345519f3c853",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ntrk-colon",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8170835/",
+          "location": "Results, Trk immunohistochemistry and NTRK fusion gene transcripts; Table 1; Figure 1; Table 2",
+          "scope": "TPM3::NTRK1, LMNA::NTRK1, TPR::NTRK1 and EML4::NTRK3 transcripts in colon carcinomas; no functional kinase assays.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,11 +88,21 @@
         "fda-laro"
       ],
       "claim_sha256": "970ce55d339c0480dd23db38d9fce1c47aeea11ba48231546a463b664f63827f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-laro",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9525f887-a055-4e33-8e92-898d42828cd1",
+          "location": "DailyMed full prescribing information Section1",
+          "scope": "NTRK fusion without known acquired resistance; metastatic or surgery severe morbidity; prior progression/no satisfactory alternative.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TPR encodes a coiled-coil nuclear-pore-associated protein. NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase. The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. TPR::NTRK1 is a reported oncogenic TRK fusion in colorectal carcinoma, with additional thyroid or mesenchymal associations. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+    "text": "TPR encodes a coiled-coil nuclear-pore-associated protein. NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase. TPR::NTRK1 chimeric transcripts have been detected in colorectal adenocarcinomas by targeted RNA sequencing. The reported junctions join an amino-terminal partner to the carboxy-terminal TRKA region. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
     "source_ids": [
       "ncbi-7175",
       "ncbi-4914",
@@ -68,17 +110,22 @@
       "fda-laro"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "56106bde2c46f1f90fff0025e86895f22d890ac0a3cab4880730fe7c659771d8"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "b8211fdde89f377f46d9fe1f04ef1599279fe0cabcbf76da2d154c5a0063a000"
 }

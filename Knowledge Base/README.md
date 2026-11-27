@@ -2,6 +2,8 @@
 
 Hotspot library v0.4 · 2026-11-26 · Pathologist review needed — LLM-generated summary/review.
 
+Fusion expansion · 2026-11-27: **185 corrected fusion/rearrangement drafts** are integrated through the **Fusions & rearrangements** view and links from gene entries. All 305 original fusion-specific sections have source-review dispositions; 136 entries retain primary-body evidence and 49 retain narrower authoritative-reference support. One previously drafted entry is held. See [FUSION-REVIEW.md](FUSION-REVIEW.md) for access limits, corrections and reproducible checks, and [FUSION-DRAFTS.md](FUSION-DRAFTS.md) for the current prose. All entries remain specialist-unapproved drafts.
+
 ## Purpose and current boundary
 
 Build a searchable molecular pathology reference that helps a sign-out professional draft a report. Stage one is a dictionary of approximately 500–1,000 cancer-panel genes, each with one concise paragraph covering normal function, germline disease associations, and somatic cancer associations. Stage two adds alteration-specific comments in explicitly defined disease contexts.

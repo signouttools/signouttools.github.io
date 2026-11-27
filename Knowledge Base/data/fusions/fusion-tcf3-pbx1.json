@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "B-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-214d146d359b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-6929"
       ],
       "claim_sha256": "12f5c610b87031a903ec1c2f34aabe79cc2a6c81a681f017892d741babaa969d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6929",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6929",
+          "location": "NCBI Gene 6929 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "55317fcc774fa2ee8c410c53cb6bf54e58a4be2da0cfe91de4e80a289738c3a9"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,45 +50,81 @@
         "ncbi-5087"
       ],
       "claim_sha256": "768a83a61229f0ee61fafbd5fe568735e729c45402022d3437ef824c9f09e201",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5087",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5087",
+          "location": "NCBI Gene 5087 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "e5b138c2beb58dbedb2b87e17d0735f1e09c8bec7a4dd84f84a92ae12697791b"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(1;19) fusion joins the TCF3 activation region to the PBX1 homeodomain, creating an abnormal transcription factor. It defines a recurrent B-ALL subtype, often with a pre-B phenotype.",
+      "text": "TCF3::PBX1 defines a recurrent pediatric B-ALL subtype.",
       "source_ids": [
         "all"
       ],
-      "claim_sha256": "ca979f7aa6c416ad5dbbfbf804a9b443ed508da9b6350940812db5ed0193d627",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "e59f50d698355ebaf2e41515654d91906d385ce29462eab2a447132bbf0f5e88",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "Cytogenetics/genomics: TCF3::PBX1 subsection",
+          "scope": "Explicit ordered-pair subtype; detailed transcriptional repression mechanism removed.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "prognosis",
-      "text": "Outcomes have improved with intensive modern ALL therapy; historical adverse-risk estimates should not be applied to current regimens. Adult ELN 2024 describes favorable outcomes with intensive therapy.",
+      "text": "The historically adverse outcome of TCF3::PBX1-positive childhood B-ALL was largely overcome by intensive multiagent treatment; a higher CNS relapse rate was observed in the cited St. Jude cohort.",
       "source_ids": [
-        "eln-all"
+        "all"
       ],
-      "claim_sha256": "43afb096d7317e0a9c2145c40300b4308690c13d61dc4fc82be9d22faeb69eaf",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "76c37845d84ea9b7b390efe2660fbce8151fba091901499e1abdacc202cc5ae1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "TCF3::PBX1 subsection, lines 385-386",
+          "scope": "Dated treatment-specific outcome and CNS relapse observation.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators. The t(1;19) fusion joins the TCF3 activation region to the PBX1 homeodomain, creating an abnormal transcription factor. It defines a recurrent B-ALL subtype, often with a pre-B phenotype. Outcomes have improved with intensive modern ALL therapy; historical adverse-risk estimates should not be applied to current regimens. Adult ELN 2024 describes favorable outcomes with intensive therapy.",
+    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators. TCF3::PBX1 defines a recurrent pediatric B-ALL subtype. The historically adverse outcome of TCF3::PBX1-positive childhood B-ALL was largely overcome by intensive multiagent treatment; a higher CNS relapse rate was observed in the cited St. Jude cohort.",
     "source_ids": [
       "ncbi-6929",
       "ncbi-5087",
-      "all",
-      "eln-all"
+      "all"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "650643fc963ddd1dbd391b814d38693f7b2ed14266f539a84daed8ac6851badd"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "349419e340ff4f8b98d5670d38cf5a69d0a224eb7785dd0278bca438eab8cda2"
 }

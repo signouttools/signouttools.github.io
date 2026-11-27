@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML"
   ],
+  "disease_ids": [
+    "aml"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,45 +30,82 @@
         "ncbi-4928"
       ],
       "claim_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4928",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
+          "location": "NCBI Gene 4928 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7b152c6b96ee85cb9be23f639e696ae1e0e948a3da0c559593bae69dbcada3e8"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "HOXA9",
-      "text": "HOXA9 encodes a homeobox transcription factor involved in hematopoietic progenitor programs.",
+      "text": "HOXA9 encodes a homeobox DNA-binding transcription factor.",
       "source_ids": [
         "ncbi-3205"
       ],
-      "claim_sha256": "27ec54b2d2a7e7571196f807858dadaae509c03b15daa2daa0cbf0d9e0179ab1",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "9f48a18c2a63139f085c345f19a44df70521c3a359d68430399574404936962e",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3205",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3205",
+          "location": "NCBI Gene 3205 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6d465b0e1f29d8c5f6c66fbffd888185c12993c8351c3a7d8b659ed70be76ad2"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXA9 homeodomain supplies DNA binding to the NUP98 activation region.",
+      "text": "NUP98::HOXA9 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
       "source_ids": [
         "nup98"
       ],
-      "claim_sha256": "a7d1870897e356b277b31e6a36daa2cdc262ee03eab9fe55b01605302f0c7cf6",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "e790f545e928f965fafef7120937bbb8c458b605fc671404e2093c0e25382af5",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nup98",
+          "url": "https://haematologica.org/article/view/haematol.2022.281653",
+          "location": "Results: Clinical characteristics; Implications of variation of fusion junction; Differential gene expression; Figures 1,2,4",
+          "scope": "Pair detection, amino-terminal FG-region representation and cohort HOX transcription; no asserted function of every retained partner domain.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. HOXA9 encodes a homeobox transcription factor involved in hematopoietic progenitor programs. The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXA9 homeodomain supplies DNA binding to the NUP98 activation region.",
+    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. HOXA9 encodes a homeobox DNA-binding transcription factor. NUP98::HOXA9 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
     "source_ids": [
       "ncbi-4928",
       "ncbi-3205",
       "nup98"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "e94c9d996d1e8ec592c406a905ab6fc2affa453db59053285e708ca7a562ec0f"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "028a8a45c9dda9660bb9bd88258cca51547153841ae2073fbe4e4f3d3bae4e95"
 }

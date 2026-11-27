@@ -19,6 +19,10 @@
     "Low-grade fibromyxoid sarcoma",
     "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
   ],
+  "disease_ids": [
+    "atlas-nm-lgfms",
+    "fusion-context-86931edbcbf8"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,49 +32,91 @@
         "ncbi-2521"
       ],
       "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "CREB3L2",
-      "text": "CREB3L2 encodes an endoplasmic-reticulum-associated bZIP transcription factor involved in secretory-cell function.",
+      "text": "CREB3L2 encodes a bZIP transcriptional activator.",
       "source_ids": [
         "ncbi-64764"
       ],
-      "claim_sha256": "cb4d2d99038abd4eabeaa9c2b30d91acc30df81746ac64ffb83db6a277a5f78e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e11acdba1c773d686ae4916785a241cc5008b0e348b9564e03e1abfffc703052",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-64764",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/64764",
+          "location": "NCBI Gene 64764 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d3a7ff549962f648887b70a9a8de467cf2fb67d6da81049c50ab0f48b9d82d44"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L2 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+      "text": "FUS::CREB3L2 is a recognized fusion in low-grade fibromyxoid sarcoma.",
       "source_ids": [
-        "lgfms",
-        "creb3l2"
+        "audit-sarcoma-lgfms",
+        "audit-sarcoma-nci-sts"
       ],
-      "claim_sha256": "1caabd6058f5d68b613391360a25f3c3009d503ea56a66effae3a4718336d531",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "b55c9bf266a6625fdffbcaf62770211560f5d51d3c12530f34835df8c4182cd7",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-lgfms",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13716661/",
+          "location": "Results; Table 1; Figure 1",
+          "scope": "Direct detection of FUS-CREB3L2 in LGFMS/hybrid tumors and EWSR1-CREB3L1 in SEF; no direct functional assay or FUS-CREB3L1 detection in this series.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. CREB3L2 encodes an endoplasmic-reticulum-associated bZIP transcription factor involved in secretory-cell function. The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L2 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. CREB3L2 encodes a bZIP transcriptional activator. FUS::CREB3L2 is a recognized fusion in low-grade fibromyxoid sarcoma.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-64764",
-      "lgfms",
-      "creb3l2"
+      "audit-sarcoma-lgfms",
+      "audit-sarcoma-nci-sts"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned."
+    "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "854c9a774a297877bc7889a4ec4eb1cd8a9b7594e5109c6b0db0ff9c3754d194"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "f197988e96929739f03a7e066636c44f17b085dd23825bb61dc67acae83f3316"
 }

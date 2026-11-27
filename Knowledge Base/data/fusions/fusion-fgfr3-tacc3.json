@@ -19,6 +19,10 @@
     "Glioblastoma",
     "Urothelial carcinoma"
   ],
+  "disease_ids": [
+    "curation-intogen-GB",
+    "atlas-e-uro"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,7 +32,17 @@
         "ncbi-2261"
       ],
       "claim_sha256": "d97637fd595657389c1ab1aef07610471f16d14ca53931ee931195ef0003f1b9",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2261",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2261",
+          "location": "NCBI Gene 2261 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "008c7aca4f3f14aa7aea2ecb788eb9a1f66566ee3261d62f2e697c131ccbdc48"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,25 +52,55 @@
         "ncbi-10460"
       ],
       "claim_sha256": "42410683fbd5d39b2ed9924d5203a25ec5e2bc51ed2fd7ac55b1dd7932629504",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10460",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10460",
+          "location": "NCBI Gene 10460 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b93a201864d45e34df76a301e5b4c7639dcd836ade6662147bfad407574bba40"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
       "text": "The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models.",
       "source_ids": [
-        "fgfr-tacc"
+        "audit-solid-fgfr-tacc"
       ],
       "claim_sha256": "cc4d65769c31e23695a122932af58cda80ada57981b40515f0af3f8eecc045d1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-fgfr-tacc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3677224/",
+          "location": "Main text, Figure1 domain/cDNA results; transforming activity experiments in Figure2 and aneuploidy in Figure3",
+          "scope": "Fusion architecture, constitutive kinase and experimental transforming activity; FGFR3 inhibitor survival experiment is not a clinical glioma indication.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
       "text": "FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication.",
       "source_ids": [
-        "fgfr-tacc"
+        "audit-solid-fgfr-tacc"
       ],
       "claim_sha256": "4733370670fcacf1a6712672bc087e2cf5ed5daba945c7cf17d62ba0940c3b64",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-fgfr-tacc",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3677224/",
+          "location": "Main text, Figure1 domain/cDNA results; transforming activity experiments in Figure2 and aneuploidy in Figure3",
+          "scope": "Fusion architecture, constitutive kinase and experimental transforming activity; FGFR3 inhibitor survival experiment is not a clinical glioma indication.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -66,7 +110,25 @@
         "fgfr3-cdx"
       ],
       "claim_sha256": "00b53cdf548e7781419cf0e668e63401d8d9d4e91d33772c8f7df9bb018ef983",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-erdafitinib",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-erdafitinib-locally-advanced-or-metastatic-urothelial-carcinoma",
+          "location": "FDA approval notice January19,2024 indication and limitation",
+          "scope": "Adult advanced urothelial carcinoma with susceptibleFGFR3 alterations after systemic therapy; PD-(L)1 sequencing limitation.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        },
+        {
+          "source_id": "fgfr3-cdx",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/212018s007s008s009lbl.pdf",
+          "location": "Prescribing information Sections1,2.1,14",
+          "scope": "SusceptibleFGFR3 alteration; companion-test requirement; urothelial trial fusions.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
@@ -74,22 +136,27 @@
     "source_ids": [
       "ncbi-2261",
       "ncbi-10460",
-      "fgfr-tacc",
+      "audit-solid-fgfr-tacc",
       "fda-erdafitinib",
       "fgfr3-cdx"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Distinguish glioma preclinical evidence from the urothelial carcinoma indication."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
   "text_sha256": "80cf1306e16132156ad9f6d782d69f01b2217020f133e6cd00ecacb78b998bce"
 }

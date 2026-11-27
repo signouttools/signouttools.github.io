@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Myeloid/lymphoid neoplasm with PDGFRA rearrangement"
   ],
+  "disease_ids": [
+    "fusion-context-147f56eeaa22"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-81608"
       ],
       "claim_sha256": "ea72ab688f124cc4593a2510bd971abd6753dd8355dd7461a7fbb2cfb9bd824d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-81608",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/81608",
+          "location": "NCBI Gene 81608 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "4b551abb2f75c18268f6a64d8c8cc22222e9370ebb845e65727456713704b0e7"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,44 +50,81 @@
         "ncbi-5156"
       ],
       "claim_sha256": "d845cb1e4ca9575b34ab10c6d89ffd2d6eb25ec047caf7d40aa5508521c3ac53",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5156",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5156",
+          "location": "NCBI Gene 5156 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "114583543b8deb7d79c603df8346b0cd7012552920b28e473bff843fc90bcb83"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "A cryptic 4q12 deletion joins FIP1L1 to PDGFRA and disrupts PDGFRA juxtamembrane autoinhibition, creating a constitutively active kinase. It commonly presents as a myeloid neoplasm with eosinophilia.",
+      "text": "FIP1L1::PDGFRA is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
       "source_ids": [
-        "pdgfra"
+        "icc-eo"
       ],
-      "claim_sha256": "e979b2dec6544a68b2d88d4dee2c8964f85a0d0d3cbb6f637d481aad7689e409",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "216e4b4d581c4f6ee63e358909b804ce3908ca3e2504d616924ec4db781beebe",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "icc-eo",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+          "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+          "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "FIP1L1::PDGFRA is highly imatinib-sensitive, with durable hematologic and molecular responses reported in clinical studies.",
+      "text": "Imatinib can induce durable hematologic, cytogenetic and molecular remissions in FIP1L1::PDGFRA-associated myeloid/lymphoid neoplasms.",
       "source_ids": [
-        "pdgfra"
+        "icc-eo"
       ],
-      "claim_sha256": "e0e514d28158f1746eb16ea4c2427ec62834c30cec5194fcc5dc4c1d3b0f7d89",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "ccaaa689ee10a03d9a079375bbaace259621343c0219ffdff83ef50df8e19ea3",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "icc-eo",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+          "location": "Table 1, PDGFRA/PDGFRB rows; Treatment, PDF pages 3-5",
+          "scope": "Guideline synthesis of fusion-class clinical response, not independently reviewed trial.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery. PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase. A cryptic 4q12 deletion joins FIP1L1 to PDGFRA and disrupts PDGFRA juxtamembrane autoinhibition, creating a constitutively active kinase. It commonly presents as a myeloid neoplasm with eosinophilia. FIP1L1::PDGFRA is highly imatinib-sensitive, with durable hematologic and molecular responses reported in clinical studies.",
+    "text": "FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery. PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase. FIP1L1::PDGFRA is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. Imatinib can induce durable hematologic, cytogenetic and molecular remissions in FIP1L1::PDGFRA-associated myeloid/lymphoid neoplasms.",
     "source_ids": [
       "ncbi-81608",
       "ncbi-5156",
-      "pdgfra"
+      "icc-eo"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "bd7738ec9e5e6d25ce94f083a52d5eddf01a91f73594c2a47c643e9bd0a26b77"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "607e455fb92b0fe24504e97020bad36414a3a70e71f9ab3bc30cb6194cc823cd"
 }

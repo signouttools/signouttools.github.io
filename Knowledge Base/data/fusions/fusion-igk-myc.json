@@ -19,56 +19,96 @@
     "Burkitt lymphoma",
     "Other MYC-rearranged B-cell neoplasms"
   ],
+  "disease_ids": [
+    "atlas-h-burkitt",
+    "fusion-context-91b2910f0cc0"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "IGK",
-      "text": "IGK is the immunoglobulin kappa light-chain locus, with B-lineage regulatory elements.",
+      "text": "IGK is the immunoglobulin kappa light-chain locus.",
       "source_ids": [
-        "ncbi-50802"
+        "hgnc"
       ],
-      "claim_sha256": "173fea511f16838c8f03578612d1fb76f04716e7fb77a41470c85f18dfeffe8b",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "f73d66758e33603feac704efb09ef91e22f871adb38078e708ae0c7584857f87",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5715",
+          "location": "Approved HGNC snapshot row HGNC:5715 / IGK",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "MYC",
-      "text": "MYC encodes a transcription factor that controls cellular growth and metabolism.",
+      "text": "MYC encodes a MAX-interacting transcription factor that regulates cell-cycle and growth programs.",
       "source_ids": [
         "ncbi-4609"
       ],
-      "claim_sha256": "108bfd788765bf61fd6a582d97115b6eaf80232df2173eec4c53b0f1db7a6d77",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "6d743078f4b83eb1c9c9fa57045301bba5bfd77b07be3089635b917a9f9362f1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4609",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4609",
+          "location": "NCBI Gene 4609 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "5d34e84a89de31c1f5b738438a9c30a89e0991c709fdbe5c796a05aac88a1b15"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement places MYC under immunoglobulin regulatory control, increasing MYC expression and proliferative transcription. It is characteristic of Burkitt lymphoma but also occurs in other B-cell neoplasms.",
+      "text": "IGK rearrangement juxtaposes MYC to immunoglobulin regulatory sequences in Burkitt lymphoma. Whole-genome analysis documented this partner in patient tumors.",
       "source_ids": [
-        "icc-l"
+        "burkitt-genomic-primary"
       ],
-      "claim_sha256": "302271108b0968741e8b2a961efdf92442bc55cd66d65f52160750f207c928fe",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "63566d885639afc9f777ad4b5d297a46f1033925526304dc2b57e9d87bf424bb",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "burkitt-genomic-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10023728/",
+          "location": "Results: Structural variations in adult and pediatric Burkitt lymphoma; Figure 1A-D; supplemental Table 3",
+          "scope": "All three IG partners directly detected in WGS cohort; indexed Results passage inspected.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "IGK is the immunoglobulin kappa light-chain locus, with B-lineage regulatory elements. MYC encodes a transcription factor that controls cellular growth and metabolism. The rearrangement places MYC under immunoglobulin regulatory control, increasing MYC expression and proliferative transcription. It is characteristic of Burkitt lymphoma but also occurs in other B-cell neoplasms.",
+    "text": "IGK is the immunoglobulin kappa light-chain locus. MYC encodes a MAX-interacting transcription factor that regulates cell-cycle and growth programs. IGK rearrangement juxtaposes MYC to immunoglobulin regulatory sequences in Burkitt lymphoma. Whole-genome analysis documented this partner in patient tumors.",
     "source_ids": [
-      "ncbi-50802",
+      "hgnc",
       "ncbi-4609",
-      "icc-l"
+      "burkitt-genomic-primary"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "No universal adverse prognosis assigned to isolated MYC rearrangement; Burkitt and double-hit lymphomas are separate diagnostic settings."
+    "No universal adverse prognosis assigned to isolated MYC rearrangement; Burkitt and double-hit lymphomas are separate diagnostic settings.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "0963b84e87919a7b008ab6ccb1acb2b869939bd3c724524ac2f08748dfe9a48a"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "8ecc9dcff901db918641be7b318521d77d0cc4dbf5165ed76b242e8ada1f64b6"
 }

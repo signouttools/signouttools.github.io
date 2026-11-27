@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML"
   ],
+  "disease_ids": [
+    "aml"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,56 +30,101 @@
         "ncbi-4928"
       ],
       "claim_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4928",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
+          "location": "NCBI Gene 4928 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7b152c6b96ee85cb9be23f639e696ae1e0e948a3da0c559593bae69dbcada3e8"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NSD1",
-      "text": "NSD1 encodes a histone H3 lysine-36 methyltransferase.",
+      "text": "NSD1 encodes a SET-domain chromatin regulator.",
       "source_ids": [
         "ncbi-64324"
       ],
-      "claim_sha256": "a572d6cb4348285d9d4611be4899c09f5c23a708e3a43222600606b14dc969d0",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "baf42cfec552a8c4e481ece9e600143fc63f3577ee8661839c8a26eab6ec2364",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-64324",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/64324",
+          "location": "NCBI Gene 64324 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "86b578a0870d6e31d235f2e2faa9531ed14470591e6cd447422e7f5950123e62"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The NSD1 partner contributes chromatin-regulatory activity, and FLT3-ITD is a frequent cooperating alteration.",
-      "source_ids": [
-        "nup98",
-        "nup98-mech"
-      ],
-      "claim_sha256": "9ec32c981db70df98a422d1d133cba79f3d8c2f60b79deb698542da391317985",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "NUP98-rearranged pediatric AML has been associated with poor treatment outcomes in large cohorts; the strongest partner-specific evidence is for NSD1 and KDM5A.",
+      "text": "NUP98::NSD1 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups.",
       "source_ids": [
         "nup98"
       ],
-      "claim_sha256": "b7560ec5bb4843e9fce62051fded666245e83248e85ca25702ce47bade15a916",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "26c6dce143e1e35be53805b69db50c8b9760b04b036c40d45db176820ef779e9",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nup98",
+          "url": "https://haematologica.org/article/view/haematol.2022.281653",
+          "location": "Results: Clinical characteristics; Implications of variation of fusion junction; Differential gene expression; Figures 1,2,4",
+          "scope": "Pair detection, amino-terminal FG-region representation and cohort HOX transcription; no asserted function of every retained partner domain.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    },
+    {
+      "kind": "prognosis",
+      "text": "In the pediatric COG cohort, NUP98::NSD1 AML was associated with inferior overall and event-free survival compared with the non-NUP98 reference group.",
+      "source_ids": [
+        "nup98"
+      ],
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "6ce6e4bbda225375213e74b1254173263e1b54ec910576049583ed515d0f2160",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nup98",
+          "url": "https://haematologica.org/article/view/haematol.2022.281653",
+          "location": "Results: Clinical outcome and prognostic relevance; Figure 6A/B and multivariable analysis, lines 217-223",
+          "scope": "Observed pediatric cohort outcome; KDM5A outcomes varied with chromosome-13/junction subgroup.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. NSD1 encodes a histone H3 lysine-36 methyltransferase. The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The NSD1 partner contributes chromatin-regulatory activity, and FLT3-ITD is a frequent cooperating alteration. NUP98-rearranged pediatric AML has been associated with poor treatment outcomes in large cohorts; the strongest partner-specific evidence is for NSD1 and KDM5A.",
+    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. NSD1 encodes a SET-domain chromatin regulator. NUP98::NSD1 is a recurrent AML fusion retaining the amino-terminal NUP98 region. The cohort showed dysregulated HOX expression across NUP98 fusion groups. In the pediatric COG cohort, NUP98::NSD1 AML was associated with inferior overall and event-free survival compared with the non-NUP98 reference group.",
     "source_ids": [
       "ncbi-4928",
       "ncbi-64324",
-      "nup98",
-      "nup98-mech"
+      "nup98"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "4f22ae3375111a7b735232908352a78bf0bc6a46685d6e9d5f3392c8ddea88b5"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "19209e7062a219519ca3cd1265ad8634e5d3e7dd5355cfd2e7dcb06043bfb883"
 }

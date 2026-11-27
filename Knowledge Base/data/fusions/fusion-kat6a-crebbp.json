@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "AML, often monocytic or myelomonocytic"
   ],
+  "disease_ids": [
+    "fusion-context-17fe6d67c4f5"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "KAT6A",
-      "text": "KAT6A encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance.",
+      "text": "KAT6A encodes a histone acetyltransferase and transcriptional coactivator.",
       "source_ids": [
         "ncbi-7994"
       ],
-      "claim_sha256": "0e3f06cadb3a92debc72367cda111df94503d6e563d714a9e6fe0edd4737b5e7",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "3840c9195b36e2ff64ee9b16909107eda96acea60c08819775573ea5cdb482e2",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7994",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7994",
+          "location": "NCBI Gene 7994 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c182dc16a2d95da70203589f3c6c22146b3997ba1616db383c6a11ac47bfa2ca"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,48 +50,82 @@
         "ncbi-1387"
       ],
       "claim_sha256": "43a6e96a30a4771e89808e611aebdf5266cf684ed1231f1555c3997b48422fa1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-1387",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1387",
+          "location": "NCBI Gene 1387 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf6a65c8add04db4ba7aafda377c66fb1fac279b6e862fc4a896dd1cfac1f023"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation.",
+      "text": "The fusion joins KAT6A to an acetyltransferase-associated coactivator. Domain-preserving fusion constructs induced AML in mice and altered chromatin-associated transcription in experimental models.",
       "source_ids": [
-        "kat6a",
-        "aml"
+        "kat6a"
       ],
-      "claim_sha256": "cfd53b8d2f1af4c0db91e596153a651a9c3c525a54fa382bd647bfa92e42623d",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "7eb856f842c6850185e29ba0bbd7f3cef1f06a1f9ed555e97617351984614361",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "kat6a",
+          "url": "https://link.springer.com/article/10.1186/s13059-025-03743-y",
+          "location": "Results: Development of K/C and K/P murine leukemia models; Figures 1,3,6",
+          "scope": "Fusion-construct oncogenicity and chromatin-associated transcription; not validation of all clinical phenotypic claims.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
-      "text": "Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk. Congenital cases can have a distinct course, including reported spontaneous remissions.",
+      "text": "Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk.",
       "source_ids": [
-        "eln-aml",
-        "aml"
+        "eln-aml"
       ],
-      "claim_sha256": "f99df3d9ae2af3ae3ac1ce72db032c433f527ea2f97bf3e81bbcb9f2eb0c8919",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "6861a2a7b3ecb5e300fafefe5ca087a7e8de6aa6771856ff4c940e3a32cc9232",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "KAT6A encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance. CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase. The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation. Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk. Congenital cases can have a distinct course, including reported spontaneous remissions.",
+    "text": "KAT6A encodes a histone acetyltransferase and transcriptional coactivator. CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase. The fusion joins KAT6A to an acetyltransferase-associated coactivator. Domain-preserving fusion constructs induced AML in mice and altered chromatin-associated transcription in experimental models. Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk.",
     "source_ids": [
       "ncbi-7994",
       "ncbi-1387",
       "kat6a",
-      "aml",
       "eln-aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "373d3cc3328e28f1fa593460f769c00c8ca33aafea295cccce0791fc9acf6369"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "10b642d295e0c0a315aab4ec65306559767264519046d0221420244c0a66d388"
 }

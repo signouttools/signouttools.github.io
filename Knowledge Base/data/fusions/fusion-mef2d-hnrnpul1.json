@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "B-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-214d146d359b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,17 +30,37 @@
         "ncbi-4209"
       ],
       "claim_sha256": "cf20ae7c37712517a8d17e5970ad4c3dba84707ca52f1c3654631537e7855ec6",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4209",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4209",
+          "location": "NCBI Gene 4209 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2ebb719058a4588059f5afb09080c25fe45e00d9f8d9d7ff702d0d726cf75181"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "HNRNPUL1",
-      "text": "HNRNPUL1 encodes a nuclear RNA-binding protein involved in RNA processing and DNA-damage responses.",
+      "text": "HNRNPUL1 encodes heterogeneous nuclear ribonucleoprotein U-like 1.",
       "source_ids": [
-        "ncbi-11100"
+        "hgnc"
       ],
-      "claim_sha256": "d7b07e5bab1a636005e4e250883acc99ebc2b684354b7ce58e04128e0deca4af",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "54ca30b65b5e219515a2d59f11fc35e73ba8b295535bdfb004741e7beacc0baf",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:17011",
+          "location": "Approved HGNC snapshot row HGNC:17011 / HNRNPUL1",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
@@ -45,37 +68,63 @@
       "source_ids": [
         "mef2d"
       ],
+      "evidence_review_status": "primary_fulltext_supported",
       "claim_sha256": "9a090c458d0182499deaabef53b2d9427a0e85510a398f0758b6b1db8a2ee762",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "mef2d",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/1529031/1/Fielding_Genomic%20analyses%20identify%20recurrent%20MEF2D%20fusions.pdf",
+          "location": "Results: RNAseq; clinical/pathological features; deregulation of MEF2D targets; Figures 1,2,4, PDF pages 2-6",
+          "scope": "Ordered pairs, MADS-box retention, weak CD10/HDAC9 and increased transcriptional activity.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
-      "text": "MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+      "text": "MEF2D-rearranged B-ALL had inferior unadjusted event-free survival in the COG AALL0232 cohort; the association was not independently significant after adjustment for age, MRD and leukocyte count.",
       "source_ids": [
-        "all"
+        "mef2d"
       ],
-      "claim_sha256": "f745c22e35612cd3c7449e3853ab3c68a28c8ac0a0a1f4c66204d6d949da80b7",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "5faeba345fd05389f8607a6d6b325bf947edf03f02966c59fbaf516d2f4bdd81",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "mef2d",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/1529031/1/Fielding_Genomic%20analyses%20identify%20recurrent%20MEF2D%20fusions.pdf",
+          "location": "Results: Clinical and pathological features; Figure 3 and multivariable analysis, PDF page 6",
+          "scope": "Cohort association with explicit lack of independent significance.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival. HNRNPUL1 encodes a nuclear RNA-binding protein involved in RNA processing and DNA-damage responses. The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription. MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+    "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival. HNRNPUL1 encodes heterogeneous nuclear ribonucleoprotein U-like 1. The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription. MEF2D-rearranged B-ALL had inferior unadjusted event-free survival in the COG AALL0232 cohort; the association was not independently significant after adjustment for age, MRD and leukocyte count.",
     "source_ids": [
       "ncbi-4209",
-      "ncbi-11100",
-      "mef2d",
-      "all"
+      "hgnc",
+      "mef2d"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "7d4c7eabcd76477db4847f208dd0fd24d71145b377d434b51cd248113cc416f7"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "83d2aaa08fa1613022f857c8906fbc8519429cb0d276596da68d7ba6b4d32f32"
 }

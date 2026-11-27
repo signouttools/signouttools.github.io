@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Myxoid liposarcoma"
   ],
+  "disease_ids": [
+    "fusion-context-9d7d2840bc85"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-2521"
       ],
       "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,47 +50,89 @@
         "ncbi-1649"
       ],
       "claim_sha256": "bd1f854df56162b1911220ec05f3b1065be28ac78b8496ae4ecc75bfc4ee52bd",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-1649",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1649",
+          "location": "NCBI Gene 1649 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "f4abd516bd73345bdaab528ab59a04dbaa221caa18cbd10667fc6acf69e59233"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins a FET-family activation region to DDIT3, creating an abnormal transcription factor that disrupts adipocytic differentiation. FUS::DDIT3 supports the diagnosis of myxoid liposarcoma; FUS is the usual partner and EWSR1 is less common.",
+      "text": "FUS::DDIT3 is associated with myxoid liposarcoma. Experimental FUS::DDIT3 models demonstrate impaired adipocytic differentiation.",
       "source_ids": [
-        "ddit3",
-        "sarcoma"
+        "audit-sarcoma-ddit3",
+        "audit-sarcoma-nci-sts"
       ],
-      "claim_sha256": "8986df3f0eb6142b044997038c4919565f75a4063f0e5be312f4ee2fa478e36c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "34b5a60ba14b4fad44696026901d334ee285ece6cd01202da92e9481f3cbff36",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-ddit3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2434200/",
+          "location": "Results; Figures 1–7",
+          "scope": "FUS-DDIT3 transgenic tumors and cell differentiation experiments; not EWSR1-DDIT3-specific functional evidence.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
       "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
       "source_ids": [
-        "fda-trabectedin"
+        "audit-sarcoma-fda-trabectedin"
       ],
       "claim_sha256": "359d59ae9c5f42e056ca01438cffa5b16659103f27428493f6f0ce36c4dad505",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-trabectedin",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
+          "location": "Section 1: Indications and Usage",
+          "scope": "Adults with unresectable/metastatic liposarcoma or leiomyosarcoma previously treated with anthracycline-containing regimen.",
+          "access_level": "official_regulatory"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor. The fusion joins a FET-family activation region to DDIT3, creating an abnormal transcription factor that disrupts adipocytic differentiation. FUS::DDIT3 supports the diagnosis of myxoid liposarcoma; FUS is the usual partner and EWSR1 is less common. Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor. FUS::DDIT3 is associated with myxoid liposarcoma. Experimental FUS::DDIT3 models demonstrate impaired adipocytic differentiation. Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-1649",
-      "ddit3",
-      "sarcoma",
-      "fda-trabectedin"
+      "audit-sarcoma-ddit3",
+      "audit-sarcoma-nci-sts",
+      "audit-sarcoma-fda-trabectedin"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
+  "curation_notes": [
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "aa655257dba8d6e020ec60d8bdbd60dd3196769e7edb3cb0dfb905ef17573ae3"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "e8206f10e4c13c9db943117752fdce7b5ca9dfc2ce9a6ceb8d2e2609d7042f19"
 }

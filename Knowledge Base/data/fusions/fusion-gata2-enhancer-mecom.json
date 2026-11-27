@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML with inv(3) or t(3;3)"
   ],
+  "disease_ids": [
+    "fusion-context-8e581de2a50a"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-2624"
       ],
       "claim_sha256": "084aa3f0352ac922e4d727902d06e7214112dee48464c7d31fa8c865460db33b",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2624",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2624",
+          "location": "NCBI Gene 2624 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6b7cf809b034c3ff99066ed2b26a34bb0a961e2c333fcddbca95ff537d9c9906"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,7 +50,17 @@
         "ncbi-2122"
       ],
       "claim_sha256": "94c1bd1ebb6b012e0b0772fe0c2f0a0f4067ae6ec347cca023aaac10a7d159dc",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2122",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2122",
+          "location": "NCBI Gene 2122 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f40b85703c9c1ed5c8dd60ca7d94776918db9d7e5c995009c0212c7cc4a2474"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
@@ -45,8 +68,18 @@
       "source_ids": [
         "gata2-mec"
       ],
+      "evidence_review_status": "primary_fulltext_supported",
       "claim_sha256": "f6d6607cf501af52bc592bd49809ad4b04aee07efce88230702b2e4d65e281b1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "gata2-mec",
+          "url": "https://rnajc.ucsf.edu/sites/rnajc.ucsf.edu/files/1-s2.0-S0092867414002189-main.pdf",
+          "location": "Results: enhancer excision; GATA2 functional haploinsufficiency; Figures 3-6",
+          "scope": "EVI1 enhancer dependency and impaired GATA2 expression.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -54,8 +87,18 @@
       "source_ids": [
         "eln-aml"
       ],
+      "evidence_review_status": "reference_supported",
       "claim_sha256": "c10e8b4dbc586ed69ee546fc36400db4c8db9c44ed834f20cc9a768ad79b34b8",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
@@ -67,17 +110,23 @@
       "eln-aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+    "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
   "text_sha256": "427a98b764576b7e4acc4b4d104a1dbb222e43e100debc215316c2c08a41dc7f"
 }

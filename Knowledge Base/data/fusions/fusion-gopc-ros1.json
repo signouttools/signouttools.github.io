@@ -20,35 +20,68 @@
   "tumor_contexts": [
     "Lung adenocarcinoma"
   ],
+  "disease_ids": [
+    "atlas-v-lung-adenocarcinoma"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "GOPC",
-      "text": "GOPC encodes a Golgi-associated scaffold involved in protein trafficking.",
+      "text": "GOPC encodes a Golgi-associated protein with a PDZ domain.",
       "source_ids": [
         "ncbi-57120"
       ],
-      "claim_sha256": "afc91eaf88a89899f45ab86003b6262713e58138cfc03e01048570ae45b5d448",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "7c0c74f781bc20da80ad30f66d98e342ec56c0548e4eca113687c0a0f2ad9c43",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-57120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/57120",
+          "location": "NCBI Gene 57120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "eafa25a526f7c52f9d315f964b77d14224520485c86575bf1c4a83d7106d4cb3"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "ROS1",
-      "text": "ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+      "text": "ROS1 encodes a transmembrane receptor tyrosine kinase.",
       "source_ids": [
         "ncbi-6098"
       ],
-      "claim_sha256": "a70263102b9cb586f798d074f485e5b6a1a52a60adf8111b2bda2ae01fe4c739",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "cf8fa6e349ef6f35e1660591a63860296eea74105a1b77ab7916950dcb065566",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6098",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6098",
+          "location": "NCBI Gene 6098 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f0bd82336a04bf326cb790a1607f50d5c763799bc8ec9faa31cf4c7ac582b0e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+      "text": "GOPC::ROS1 is a reported ROS1 rearrangement in lung cancer. The sequenced fusion structures retain the carboxy-terminal ROS1 kinase region.",
       "source_ids": [
         "ros1"
       ],
-      "claim_sha256": "cd50ba81d149f7e53ba34065950241a06b1f7108f49638a2a88734995c8c016d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "a3aa16a0ab358c17f9dc90c259548ac83daf5a2118068be7cf2978152a9b206e",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ros1",
+          "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2022.1035033/full",
+          "location": "Results, ROS1 fusion partners and ROS1 fusion breakpoints; Figure 2A and Table 2",
+          "scope": "Direct patient observations of CD74, EZR, SDC4, GOPC, SLC34A2 and TPM3 rearrangements and kinase-containing exon structures.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -58,11 +91,29 @@
         "fda-ros1"
       ],
       "claim_sha256": "aa82141b2dc901896b1f1556d519644e7a2da640af6e25a20a6b2774ec245008",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-repotrectinib",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218213s001lbl.pdf",
+          "location": "Prescribing information Section1.1",
+          "scope": "Adults with locally advanced/metastatic ROS1-positiveNSCLC.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        },
+        {
+          "source_id": "fda-ros1",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-taletrectinib-ros1-positive-non-small-cell-lung-cancer",
+          "location": "FDA approval notice, June11,2025 indication",
+          "scope": "Adults with locally advanced/metastatic ROS1-positiveNSCLC.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "GOPC encodes a Golgi-associated scaffold involved in protein trafficking. ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling. The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma. ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+    "text": "GOPC encodes a Golgi-associated protein with a PDZ domain. ROS1 encodes a transmembrane receptor tyrosine kinase. GOPC::ROS1 is a reported ROS1 rearrangement in lung cancer. The sequenced fusion structures retain the carboxy-terminal ROS1 kinase region. ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
     "source_ids": [
       "ncbi-57120",
       "ncbi-6098",
@@ -71,15 +122,20 @@
       "fda-ros1"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "e7fb12f4e5f6ebb74da092920ceceac5c2987b46ba6b63b1bcc2a726bb2db254"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "31b89a83703f97cb5ea5f7d87dedd7e435ace9367613c260b04f3052c02d616c"
 }

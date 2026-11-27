@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Core-binding factor AML"
   ],
+  "disease_ids": [
+    "fusion-context-52db3366a828"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-861"
       ],
       "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-861",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/861",
+          "location": "NCBI Gene 861 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "281d1db63e514c1be3b182ab702596a22d8563f242022de1c89338d1f902efcf"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,17 +50,36 @@
         "ncbi-862"
       ],
       "claim_sha256": "45591e134d0dc9e5c3d9a114ae006db80e5f9f39fd7acc0d84ee274579e6471c",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-862",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/862",
+          "location": "NCBI Gene 862 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "12e439e3d0453198a75fec914860bc273a9519e448093ae55189ebfe4ee1ebbd"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(8;21) fusion combines RUNX1 DNA binding with RUNX1T1 transcriptional repression, altering hematopoietic differentiation. It defines a core-binding factor AML subtype.",
+      "text": "The t(8;21) rearrangement joins RUNX1 and RUNX1T1 and defines a core-binding factor AML subtype.",
       "source_ids": [
-        "icc-m",
         "aml"
       ],
-      "claim_sha256": "f4061b258cba672536bbee1aecf8ed37bc1cbe4677579b54d1d3488f0953770d",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "2426ed750bd1c83bc2dbc140ea7953fe0d95299f13417d8f355a6ac17f6df9a4",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "WHO classification tables and gene-specific cytogenetic sections",
+          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -55,29 +87,45 @@
       "source_ids": [
         "eln-aml"
       ],
+      "evidence_review_status": "reference_supported",
       "claim_sha256": "f6b0c4be318310efb698e7ef4f8f7ae9322a912cb3d257534bdb724c73b0f0d1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. RUNX1T1 encodes ETO, a transcriptional corepressor. The t(8;21) fusion combines RUNX1 DNA binding with RUNX1T1 transcriptional repression, altering hematopoietic differentiation. It defines a core-binding factor AML subtype. Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. RUNX1T1 encodes ETO, a transcriptional corepressor. The t(8;21) rearrangement joins RUNX1 and RUNX1T1 and defines a core-binding factor AML subtype. Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
     "source_ids": [
       "ncbi-861",
       "ncbi-862",
-      "icc-m",
       "aml",
       "eln-aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "ee11f0613767e5e7cef9e3842a5c741d704823b4422c3a35a6a075d6a835523e"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "925955e981670af4818f63a1a8d672d6bdc8f02df6f4e205c4754c5b38dce91e"
 }

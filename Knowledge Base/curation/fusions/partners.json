@@ -7,7 +7,16 @@
     "source_ids": [
       "ncbi-27436"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 27436 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/27436",
+      "document_sha256": "fa737c36a8764be6084fa5781b0997b7f1de5f18a4673eaa30cc12aab49cc1aa",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ALK": {
     "symbol": "ALK",
@@ -17,7 +26,16 @@
     "source_ids": [
       "ncbi-238"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+      "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "KIF5B": {
     "symbol": "KIF5B",
@@ -27,7 +45,16 @@
     "source_ids": [
       "ncbi-3799"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3799 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3799",
+      "document_sha256": "888d4fcea1de12c8a2286b9ecbf9243296fc95d251927392917588e2d5ab94da",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "STRN": {
     "symbol": "STRN",
@@ -37,7 +64,16 @@
     "source_ids": [
       "ncbi-6801"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6801 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6801",
+      "document_sha256": "c2b1ef13c19cd2d55b0fe7b81e64f87d49add8a02fd953f504db32a42c3ced32",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RET": {
     "symbol": "RET",
@@ -47,27 +83,54 @@
     "source_ids": [
       "ncbi-5979"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5979 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5979",
+      "document_sha256": "f6b42810849ebc40626b1a8e42ffd99b3be404a68ce2496dcbaf99c2453cdc8d",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CCDC6": {
     "symbol": "CCDC6",
     "hgnc_id": "HGNC:18782",
     "ncbi_gene_id": "8030",
-    "description": "encodes a coiled-coil protein involved in DNA-damage signaling.",
+    "description": "encodes a coiled-coil domain-containing protein.",
     "source_ids": [
       "ncbi-8030"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8030 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8030",
+      "document_sha256": "089cb02fdaae83fe82e07384f6536332b0482ea980a1847b44f3092d7e898998",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NCOA4": {
     "symbol": "NCOA4",
     "hgnc_id": "HGNC:7671",
     "ncbi_gene_id": "8031",
-    "description": "encodes a ferritin cargo receptor in autophagy and a transcriptional coregulator.",
+    "description": "encodes an androgen-receptor transcriptional coactivator.",
     "source_ids": [
       "ncbi-8031"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8031 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8031",
+      "document_sha256": "2eba5f216ae44fff7f15fe465025637ff1b317c7ff8222b99433e4ca36d241c9",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ETV6": {
     "symbol": "ETV6",
@@ -77,7 +140,16 @@
     "source_ids": [
       "ncbi-2120"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+      "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CD74": {
     "symbol": "CD74",
@@ -87,17 +159,35 @@
     "source_ids": [
       "ncbi-972"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 972 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/972",
+      "document_sha256": "0adb65ec0885d57e957f852d498bf71bcc9a1e539ba0b7c6740f24d40c06445a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ROS1": {
     "symbol": "ROS1",
     "hgnc_id": "HGNC:10261",
     "ncbi_gene_id": "6098",
-    "description": "encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+    "description": "encodes a transmembrane receptor tyrosine kinase.",
     "source_ids": [
       "ncbi-6098"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6098 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6098",
+      "document_sha256": "9f0bd82336a04bf326cb790a1607f50d5c763799bc8ec9faa31cf4c7ac582b0e",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SLC34A2": {
     "symbol": "SLC34A2",
@@ -107,27 +197,54 @@
     "source_ids": [
       "ncbi-10568"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10568 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10568",
+      "document_sha256": "dd2084dd9b734dc40a44661b43ce26da1c7587eb9bf85b7b80b8d5be85f13710",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SDC4": {
     "symbol": "SDC4",
     "hgnc_id": "HGNC:10661",
     "ncbi_gene_id": "6385",
-    "description": "encodes syndecan-4, a membrane heparan-sulfate proteoglycan involved in adhesion and signaling.",
+    "description": "encodes syndecan 4.",
     "source_ids": [
-      "ncbi-6385"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:10661 / SDC4",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10661",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "EZR": {
     "symbol": "EZR",
     "hgnc_id": "HGNC:12691",
     "ncbi_gene_id": "7430",
-    "description": "encodes ezrin, a linker between the plasma membrane and actin cytoskeleton.",
+    "description": "encodes ezrin.",
     "source_ids": [
-      "ncbi-7430"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:12691 / EZR",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:12691",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TPM3": {
     "symbol": "TPM3",
@@ -137,27 +254,54 @@
     "source_ids": [
       "ncbi-7170"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7170 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7170",
+      "document_sha256": "078792e4088ffb71fa2a4379ea34ed47a0d4eb1387227f737860490912cfe902",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "GOPC": {
     "symbol": "GOPC",
     "hgnc_id": "HGNC:17643",
     "ncbi_gene_id": "57120",
-    "description": "encodes a Golgi-associated scaffold involved in protein trafficking.",
+    "description": "encodes a Golgi-associated protein with a PDZ domain.",
     "source_ids": [
       "ncbi-57120"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 57120 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/57120",
+      "document_sha256": "eafa25a526f7c52f9d315f964b77d14224520485c86575bf1c4a83d7106d4cb3",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NTRK1": {
     "symbol": "NTRK1",
     "hgnc_id": "HGNC:8031",
     "ncbi_gene_id": "4914",
-    "description": "encodes TRKA, the nerve-growth-factor receptor tyrosine kinase.",
+    "description": "encodes TRKA, a neurotrophin receptor tyrosine kinase.",
     "source_ids": [
       "ncbi-4914"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4914 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4914",
+      "document_sha256": "a9b4efcfffcb621be14e03fedab36bf0f78e5255a4fb89c1d821cfbf16a2425a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "LMNA": {
     "symbol": "LMNA",
@@ -167,7 +311,16 @@
     "source_ids": [
       "ncbi-4000"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4000 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4000",
+      "document_sha256": "bb70a4ef379abc32af3d46cb24fc622b4663b1c70d1e62b802f1de864fa6b8cd",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TPR": {
     "symbol": "TPR",
@@ -177,37 +330,73 @@
     "source_ids": [
       "ncbi-7175"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7175 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7175",
+      "document_sha256": "de30aebfb9f4362276ef10824c171a243dd78395fd27cabca94cb93e06f96c26",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SQSTM1": {
     "symbol": "SQSTM1",
     "hgnc_id": "HGNC:11280",
     "ncbi_gene_id": "8878",
-    "description": "encodes p62, a signaling scaffold and selective-autophagy cargo receptor.",
+    "description": "encodes sequestosome 1/p62.",
     "source_ids": [
-      "ncbi-8878"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:11280 / SQSTM1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:11280",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NTRK3": {
     "symbol": "NTRK3",
     "hgnc_id": "HGNC:8033",
     "ncbi_gene_id": "4916",
-    "description": "encodes TRKC, the neurotrophin-3 receptor tyrosine kinase.",
+    "description": "encodes TRKC, a neurotrophin receptor tyrosine kinase.",
     "source_ids": [
       "ncbi-4916"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4916 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4916",
+      "document_sha256": "7fc2c515dbc4dd53b333df89fc2da002ad825714aa01ac4290acd525d1b3c1f0",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NTRK2": {
     "symbol": "NTRK2",
     "hgnc_id": "HGNC:8032",
     "ncbi_gene_id": "4915",
-    "description": "encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4.",
+    "description": "encodes TRKB, a neurotrophin receptor tyrosine kinase.",
     "source_ids": [
       "ncbi-4915"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4915 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4915",
+      "document_sha256": "2b3a2bbed41a12b2889042a4f5a806af2e9b5a75712b2702a6f0702b8c35f9e1",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FGFR2": {
     "symbol": "FGFR2",
@@ -217,37 +406,73 @@
     "source_ids": [
       "ncbi-2263"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2263 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2263",
+      "document_sha256": "a22c8457ca12f4b693edc00e5aedcdcdfd22b1f39c928b40155579c5f01e0e51",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BICC1": {
     "symbol": "BICC1",
     "hgnc_id": "HGNC:19351",
     "ncbi_gene_id": "80114",
-    "description": "encodes an RNA-binding protein that regulates messenger RNA translation and stability.",
+    "description": "encodes an RNA-binding protein that regulates protein translation.",
     "source_ids": [
       "ncbi-80114"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 80114 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/80114",
+      "document_sha256": "2b333c745489ce1acc10ebe2216f4cef8e6db86dd0d0df09b739297bb3882ffe",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "AHCYL1": {
     "symbol": "AHCYL1",
     "hgnc_id": "HGNC:344",
     "ncbi_gene_id": "10768",
-    "description": "encodes IRBIT, a regulator of inositol-trisphosphate receptor signaling and membrane transport.",
+    "description": "encodes adenosylhomocysteinase-like protein 1.",
     "source_ids": [
-      "ncbi-10768"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:344 / AHCYL1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:344",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "INA": {
     "symbol": "INA",
     "hgnc_id": "HGNC:6057",
     "ncbi_gene_id": "9118",
-    "description": "encodes alpha-internexin, a neuronal intermediate filament protein.",
+    "description": "encodes alpha-internexin.",
     "source_ids": [
-      "ncbi-9118"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:6057 / INA",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6057",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FGFR3": {
     "symbol": "FGFR3",
@@ -257,7 +482,16 @@
     "source_ids": [
       "ncbi-2261"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2261 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2261",
+      "document_sha256": "008c7aca4f3f14aa7aea2ecb788eb9a1f66566ee3261d62f2e697c131ccbdc48",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TACC3": {
     "symbol": "TACC3",
@@ -267,7 +501,16 @@
     "source_ids": [
       "ncbi-10460"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10460 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10460",
+      "document_sha256": "b93a201864d45e34df76a301e5b4c7639dcd836ade6662147bfad407574bba40",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FGFR1": {
     "symbol": "FGFR1",
@@ -277,27 +520,54 @@
     "source_ids": [
       "ncbi-2260"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2260 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2260",
+      "document_sha256": "7ea841889cae5e4418d7d07782dfcfec4a162f88cbc338606418fec3cefd1bf4",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TACC1": {
     "symbol": "TACC1",
     "hgnc_id": "HGNC:11522",
     "ncbi_gene_id": "6867",
-    "description": "encodes a coiled-coil protein associated with microtubule and centrosome functions.",
+    "description": "encodes transforming acidic coiled-coil-containing protein 1.",
     "source_ids": [
       "ncbi-6867"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6867 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6867",
+      "document_sha256": "0ca3fc4d6f0db3f16694ec7307b3a0e33a929cf52ab9d352d1d3f3509b8bc1a6",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NRG1": {
     "symbol": "NRG1",
     "hgnc_id": "HGNC:7997",
     "ncbi_gene_id": "3084",
-    "description": "encodes neuregulin 1, a ligand for ERBB3/ERBB4 receptor signaling.",
+    "description": "encodes neuregulin 1, a membrane-associated signaling ligand.",
     "source_ids": [
       "ncbi-3084"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3084 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3084",
+      "document_sha256": "b9f92fe9fac05e032c0ed25d0d45c08a7cef276d68b03ee644843a687c6098d5",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SLC3A2": {
     "symbol": "SLC3A2",
@@ -307,7 +577,16 @@
     "source_ids": [
       "ncbi-6520"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6520 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6520",
+      "document_sha256": "7e993ed31a48d8bc7691a94b0ff3936853c96cdead60985eb266e0f97d12a336",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ATP1B1": {
     "symbol": "ATP1B1",
@@ -317,17 +596,35 @@
     "source_ids": [
       "ncbi-481"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 481 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/481",
+      "document_sha256": "b4282321f575cac1dcfce79a3e119ca5ca84343bf032519e6be4ff8635716aa2",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TPM4": {
     "symbol": "TPM4",
     "hgnc_id": "HGNC:12013",
     "ncbi_gene_id": "7171",
-    "description": "encodes a tropomyosin isoform that associates with actin filaments.",
+    "description": "encodes tropomyosin 4.",
     "source_ids": [
-      "ncbi-7171"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:12013 / TPM4",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:12013",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CLTC": {
     "symbol": "CLTC",
@@ -337,7 +634,16 @@
     "source_ids": [
       "ncbi-1213"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 1213 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/1213",
+      "document_sha256": "c2ba0d04c0d66d3d81a347b4fc60891a955309d0589e84529e7b9095f757c9f1",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RANBP2": {
     "symbol": "RANBP2",
@@ -347,17 +653,35 @@
     "source_ids": [
       "ncbi-5903"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5903 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5903",
+      "document_sha256": "a90f3ddda62a1e9cfd1a16b17110ac5297bd8d1e099f0d51315b663f55d49f8f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CARS1": {
     "symbol": "CARS1",
     "hgnc_id": "HGNC:1493",
     "ncbi_gene_id": "833",
-    "description": "encodes the cytoplasmic enzyme that attaches cysteine to its transfer RNA.",
+    "description": "encodes cytoplasmic cysteinyl-tRNA synthetase.",
     "source_ids": [
-      "ncbi-833"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:1493 / CARS1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1493",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NPM1": {
     "symbol": "NPM1",
@@ -367,27 +691,54 @@
     "source_ids": [
       "ncbi-4869"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4869 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4869",
+      "document_sha256": "d014b913495cfc6e68c4d5590a36644de53540eb521550c8b5b4f45c37ba1f8e",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BCR": {
     "symbol": "BCR",
     "hgnc_id": "HGNC:1014",
     "ncbi_gene_id": "613",
-    "description": "encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+    "description": "encodes breakpoint cluster region protein.",
     "source_ids": [
       "ncbi-613"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 613 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/613",
+      "document_sha256": "6fd4dcdeab20eef515391d68af5d07474c616b52903098e67c841caee60c7466",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ABL1": {
     "symbol": "ABL1",
     "hgnc_id": "HGNC:76",
     "ncbi_gene_id": "25",
-    "description": "encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses.",
+    "description": "encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses.",
     "source_ids": [
       "ncbi-25"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 25 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/25",
+      "document_sha256": "62b53b4bc646bf3a2e70190d22f80bf3c9ad1bdbb3c87a18388845f82647c2ab",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PML": {
     "symbol": "PML",
@@ -397,7 +748,16 @@
     "source_ids": [
       "ncbi-5371"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5371 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5371",
+      "document_sha256": "0c2ad78eb97e61f5335774b65fd5c2bcb855f4bf0386e22810d640fb66a57820",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RARA": {
     "symbol": "RARA",
@@ -407,7 +767,16 @@
     "source_ids": [
       "ncbi-5914"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5914 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5914",
+      "document_sha256": "b30c21e3d0221f45f8c3789afb1d5f017e3c1c8a629616142e4f5766b6be205b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RUNX1": {
     "symbol": "RUNX1",
@@ -417,7 +786,16 @@
     "source_ids": [
       "ncbi-861"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 861 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/861",
+      "document_sha256": "281d1db63e514c1be3b182ab702596a22d8563f242022de1c89338d1f902efcf",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RUNX1T1": {
     "symbol": "RUNX1T1",
@@ -427,7 +805,16 @@
     "source_ids": [
       "ncbi-862"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 862 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/862",
+      "document_sha256": "12e439e3d0453198a75fec914860bc273a9519e448093ae55189ebfe4ee1ebbd",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CBFB": {
     "symbol": "CBFB",
@@ -437,7 +824,16 @@
     "source_ids": [
       "ncbi-865"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 865 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/865",
+      "document_sha256": "b1b1191585c2b5ba76a07e624d84c0b6c7130bf2768f6557c9b0eec23b4ba98e",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MYH11": {
     "symbol": "MYH11",
@@ -447,7 +843,16 @@
     "source_ids": [
       "ncbi-4629"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4629 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4629",
+      "document_sha256": "cabdf15f963610fce2ef5ca249cc8480e7583cb71e027635a6788e0b6a0da3a2",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "DEK": {
     "symbol": "DEK",
@@ -457,7 +862,16 @@
     "source_ids": [
       "ncbi-7913"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7913 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7913",
+      "document_sha256": "eac620bd20693fc462eaf19ea1989b94b7de7b91444580cd07e684f801dffbd8",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NUP214": {
     "symbol": "NUP214",
@@ -467,27 +881,54 @@
     "source_ids": [
       "ncbi-8021"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8021 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8021",
+      "document_sha256": "0c8163466f7fcef582c64b18cdaec921e2b06ab6a8d561b9980a942a53738262",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RBM15": {
     "symbol": "RBM15",
     "hgnc_id": "HGNC:14959",
     "ncbi_gene_id": "64783",
-    "description": "encodes an RNA-binding protein that recruits RNA-modification machinery.",
+    "description": "encodes a SPEN-family RNA-binding regulatory protein.",
     "source_ids": [
       "ncbi-64783"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 64783 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/64783",
+      "document_sha256": "62b88113d6038ea6eeb98504715a6f26fbdba0ded9c7f4c2bc36e619908cd5d8",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MRTFA": {
     "symbol": "MRTFA",
     "hgnc_id": "HGNC:14334",
     "ncbi_gene_id": "57591",
-    "description": "encodes a transcriptional coactivator of serum-response factor linked to actin dynamics.",
+    "description": "encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression.",
     "source_ids": [
       "ncbi-57591"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 57591 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/57591",
+      "document_sha256": "001bc7b73c4f4773c24dda183272483e9ca52a7824fd8ea89db884f723c8000e",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "KMT2A": {
     "symbol": "KMT2A",
@@ -497,7 +938,16 @@
     "source_ids": [
       "ncbi-4297"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+      "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MLLT3": {
     "symbol": "MLLT3",
@@ -507,17 +957,35 @@
     "source_ids": [
       "ncbi-4300"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4300 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4300",
+      "document_sha256": "39214bbdf6dd2e445b109be6258a4700411887c4f30e060b34eb3502aa3df820",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "AFF1": {
     "symbol": "AFF1",
     "hgnc_id": "HGNC:7135",
     "ncbi_gene_id": "4299",
-    "description": "encodes a transcriptional elongation regulator in the super elongation complex.",
+    "description": "encodes an AF4-family regulator of RNA polymerase II transcription.",
     "source_ids": [
       "ncbi-4299"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4299 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4299",
+      "document_sha256": "ebd38f38fe183ff554413291de6d2a56a99761883baa8f9fcaba3811e3923709",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MLLT10": {
     "symbol": "MLLT10",
@@ -527,7 +995,16 @@
     "source_ids": [
       "ncbi-8028"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8028 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8028",
+      "document_sha256": "6f91a51f3226eeb10d9d06d48d11d65b5ff17f7333471b0c35edf28bd022ff3a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ELL": {
     "symbol": "ELL",
@@ -537,17 +1014,35 @@
     "source_ids": [
       "ncbi-8178"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8178 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8178",
+      "document_sha256": "3dd3b996c108a580af8262dcddfb2ac19636c7994893ae159e96107d7f203c44",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "AFDN": {
     "symbol": "AFDN",
     "hgnc_id": "HGNC:7137",
     "ncbi_gene_id": "4301",
-    "description": "encodes afadin, an actin-binding scaffold at cell-cell junctions.",
+    "description": "encodes afadin, a signaling protein involved in cell-junction organization.",
     "source_ids": [
       "ncbi-4301"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4301 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4301",
+      "document_sha256": "59501e7d3affca58f8e3f9d2cb32e0175b381971715d903e4768101fd19155c8",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MLLT1": {
     "symbol": "MLLT1",
@@ -557,17 +1052,35 @@
     "source_ids": [
       "ncbi-4298"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4298 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4298",
+      "document_sha256": "378e1d494487420259677fcab3e1ac2c112f9ee9bedb41c7da9fd3ee38c38d3f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MLLT6": {
     "symbol": "MLLT6",
     "hgnc_id": "HGNC:7138",
     "ncbi_gene_id": "4302",
-    "description": "encodes AF17, a PHD-finger chromatin-associated protein.",
+    "description": "encodes MLLT6/AF17, a PHD-finger-containing protein.",
     "source_ids": [
-      "ncbi-4302"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:7138 / MLLT6",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7138",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NUP98": {
     "symbol": "NUP98",
@@ -577,17 +1090,35 @@
     "source_ids": [
       "ncbi-4928"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4928 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
+      "document_sha256": "7b152c6b96ee85cb9be23f639e696ae1e0e948a3da0c559593bae69dbcada3e8",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NSD1": {
     "symbol": "NSD1",
     "hgnc_id": "HGNC:14234",
     "ncbi_gene_id": "64324",
-    "description": "encodes a histone H3 lysine-36 methyltransferase.",
+    "description": "encodes a SET-domain chromatin regulator.",
     "source_ids": [
       "ncbi-64324"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 64324 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/64324",
+      "document_sha256": "86b578a0870d6e31d235f2e2faa9531ed14470591e6cd447422e7f5950123e62",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "KDM5A": {
     "symbol": "KDM5A",
@@ -597,37 +1128,73 @@
     "source_ids": [
       "ncbi-5927"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5927 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5927",
+      "document_sha256": "2a6d18f11fe2559d1297f2d723ce773bf5061cd6c2be51682a6e457a4e609a0d",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "HOXA9": {
     "symbol": "HOXA9",
     "hgnc_id": "HGNC:5109",
     "ncbi_gene_id": "3205",
-    "description": "encodes a homeobox transcription factor involved in hematopoietic progenitor programs.",
+    "description": "encodes a homeobox DNA-binding transcription factor.",
     "source_ids": [
       "ncbi-3205"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3205 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3205",
+      "document_sha256": "6d465b0e1f29d8c5f6c66fbffd888185c12993c8351c3a7d8b659ed70be76ad2",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "HOXD13": {
     "symbol": "HOXD13",
     "hgnc_id": "HGNC:5136",
     "ncbi_gene_id": "3239",
-    "description": "encodes a homeobox transcription factor involved in limb patterning.",
+    "description": "encodes homeobox D13.",
     "source_ids": [
-      "ncbi-3239"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:5136 / HOXD13",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5136",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "DDX10": {
     "symbol": "DDX10",
     "hgnc_id": "HGNC:2735",
     "ncbi_gene_id": "1662",
-    "description": "encodes a DEAD-box RNA helicase implicated in ribosome biogenesis.",
+    "description": "encodes DEAD-box helicase 10.",
     "source_ids": [
-      "ncbi-1662"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:2735 / DDX10",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2735",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TOP1": {
     "symbol": "TOP1",
@@ -637,7 +1204,16 @@
     "source_ids": [
       "ncbi-7150"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7150 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7150",
+      "document_sha256": "1248ce38d020373c69996bb40579dde51ba310d0dc7937cf9fac34df66a575ba",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CBFA2T3": {
     "symbol": "CBFA2T3",
@@ -647,7 +1223,16 @@
     "source_ids": [
       "ncbi-863"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 863 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/863",
+      "document_sha256": "887d155eaf9968e1aa64e5c824e18ffb51f7417403b2c73ab6b53690039852b5",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "GLIS2": {
     "symbol": "GLIS2",
@@ -657,7 +1242,16 @@
     "source_ids": [
       "ncbi-84662"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 84662 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/84662",
+      "document_sha256": "c849ea7daa7dfc0464acb1a9fbf18eecb6a9d1e03d6bd1960b5a65ef7923881e",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FUS": {
     "symbol": "FUS",
@@ -667,7 +1261,16 @@
     "source_ids": [
       "ncbi-2521"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+      "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ERG": {
     "symbol": "ERG",
@@ -677,7 +1280,16 @@
     "source_ids": [
       "ncbi-2078"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2078 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2078",
+      "document_sha256": "fdcd254ddd17a0a9d903aebfff988a346549274dca371869a7088c3c58df1585",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PICALM": {
     "symbol": "PICALM",
@@ -687,27 +1299,54 @@
     "source_ids": [
       "ncbi-8301"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8301 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8301",
+      "document_sha256": "a95f55aebe1d9eb788590177b07a84af4e6c36a82d5f7ec9a3ae783963623a93",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SET": {
     "symbol": "SET",
     "hgnc_id": "HGNC:10760",
     "ncbi_gene_id": "6418",
-    "description": "encodes a chromatin-associated protein and inhibitor of protein phosphatase 2A.",
+    "description": "encodes SET nuclear protein.",
     "source_ids": [
-      "ncbi-6418"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:10760 / SET",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10760",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "KAT6A": {
     "symbol": "KAT6A",
     "hgnc_id": "HGNC:13013",
     "ncbi_gene_id": "7994",
-    "description": "encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance.",
+    "description": "encodes a histone acetyltransferase and transcriptional coactivator.",
     "source_ids": [
       "ncbi-7994"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7994 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7994",
+      "document_sha256": "c182dc16a2d95da70203589f3c6c22146b3997ba1616db383c6a11ac47bfa2ca",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CREBBP": {
     "symbol": "CREBBP",
@@ -717,7 +1356,16 @@
     "source_ids": [
       "ncbi-1387"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 1387 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/1387",
+      "document_sha256": "bf6a65c8add04db4ba7aafda377c66fb1fac279b6e862fc4a896dd1cfac1f023",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "EP300": {
     "symbol": "EP300",
@@ -727,7 +1375,16 @@
     "source_ids": [
       "ncbi-2033"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2033 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2033",
+      "document_sha256": "07ff4137aebe0e206b7d67bdadfa3e9803e723322a2aaf740d60e2111a837b17",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ZBTB16": {
     "symbol": "ZBTB16",
@@ -737,7 +1394,16 @@
     "source_ids": [
       "ncbi-7704"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7704 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7704",
+      "document_sha256": "5adb51f3a05895465412085d983627702df2646231f8359f72b3737c9e725674",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "STAT5B": {
     "symbol": "STAT5B",
@@ -747,7 +1413,16 @@
     "source_ids": [
       "ncbi-6777"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6777 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6777",
+      "document_sha256": "b204d55732b830654e9d159b2353442916535d3b993e5942f2b64a3ac6cb8397",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FIP1L1": {
     "symbol": "FIP1L1",
@@ -757,7 +1432,16 @@
     "source_ids": [
       "ncbi-81608"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 81608 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/81608",
+      "document_sha256": "4b551abb2f75c18268f6a64d8c8cc22222e9370ebb845e65727456713704b0e7",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PDGFRA": {
     "symbol": "PDGFRA",
@@ -767,7 +1451,16 @@
     "source_ids": [
       "ncbi-5156"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5156 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5156",
+      "document_sha256": "114583543b8deb7d79c603df8346b0cd7012552920b28e473bff843fc90bcb83",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PDGFRB": {
     "symbol": "PDGFRB",
@@ -777,7 +1470,16 @@
     "source_ids": [
       "ncbi-5159"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5159 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5159",
+      "document_sha256": "a7547913abe3d7134d969d79662152c31ae4350120c274135c58ac8a6deadf6a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ZMYM2": {
     "symbol": "ZMYM2",
@@ -787,7 +1489,16 @@
     "source_ids": [
       "ncbi-7750"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7750 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7750",
+      "document_sha256": "4bf995f75d7dc08362f829aa43e98c0f7922a9080195c2c9b62aafd5b6ddd4b1",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PCM1": {
     "symbol": "PCM1",
@@ -797,7 +1508,16 @@
     "source_ids": [
       "ncbi-5108"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5108 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5108",
+      "document_sha256": "6957755a5bf04a9475074747c87a589bd612a71995aaa42f9922c507e4e8bef5",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "JAK2": {
     "symbol": "JAK2",
@@ -807,7 +1527,16 @@
     "source_ids": [
       "ncbi-3717"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3717 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3717",
+      "document_sha256": "ae674c741d110a87329c5bbda7966680f900808434b902ffe1f4786d8bbabece",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PAX5": {
     "symbol": "PAX5",
@@ -817,7 +1546,16 @@
     "source_ids": [
       "ncbi-5079"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5079 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5079",
+      "document_sha256": "049153be1296fee3c5dcec18f6fb0662ced3d22f53f99c81d6d99e96f08f0c5a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FLT3": {
     "symbol": "FLT3",
@@ -827,37 +1565,73 @@
     "source_ids": [
       "ncbi-2322"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2322 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2322",
+      "document_sha256": "d349ff11507025fdc98e412cfb0ccd142c8de75acf2b8859570edee0b1f0f9fd",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RCSD1": {
     "symbol": "RCSD1",
     "hgnc_id": "HGNC:28310",
     "ncbi_gene_id": "92241",
-    "description": "encodes CapZIP, a regulator of actin-capping protein interactions.",
+    "description": "encodes RCSD domain-containing protein 1.",
     "source_ids": [
-      "ncbi-92241"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:28310 / RCSD1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:28310",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "EBF1": {
     "symbol": "EBF1",
     "hgnc_id": "HGNC:3126",
     "ncbi_gene_id": "1879",
-    "description": "encodes a transcription factor required for B-cell lineage specification.",
+    "description": "encodes EBF transcription factor 1.",
     "source_ids": [
-      "ncbi-1879"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:3126 / EBF1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3126",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SSBP2": {
     "symbol": "SSBP2",
     "hgnc_id": "HGNC:15831",
     "ncbi_gene_id": "23635",
-    "description": "encodes a protein that stabilizes transcriptional regulatory complexes in hematopoietic cells.",
+    "description": "encodes single-stranded DNA-binding protein 2.",
     "source_ids": [
-      "ncbi-23635"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:15831 / SSBP2",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:15831",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CSF1R": {
     "symbol": "CSF1R",
@@ -867,7 +1641,16 @@
     "source_ids": [
       "ncbi-1436"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 1436 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/1436",
+      "document_sha256": "0f707db7a73866facc999d03df8988933502c0e386be1e9f9914afcaaad9f5ba",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TCF3": {
     "symbol": "TCF3",
@@ -877,7 +1660,16 @@
     "source_ids": [
       "ncbi-6929"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6929 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6929",
+      "document_sha256": "55317fcc774fa2ee8c410c53cb6bf54e58a4be2da0cfe91de4e80a289738c3a9",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PBX1": {
     "symbol": "PBX1",
@@ -887,17 +1679,35 @@
     "source_ids": [
       "ncbi-5087"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5087 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5087",
+      "document_sha256": "e5b138c2beb58dbedb2b87e17d0735f1e09c8bec7a4dd84f84a92ae12697791b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "HLF": {
     "symbol": "HLF",
     "hgnc_id": "HGNC:4977",
     "ncbi_gene_id": "3131",
-    "description": "encodes a PAR-bZIP transcription factor involved in circadian and hematopoietic regulation.",
+    "description": "encodes a PAR-bZIP transcription factor that binds sequence-specific promoter elements.",
     "source_ids": [
       "ncbi-3131"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3131 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3131",
+      "document_sha256": "36fa17fc8446209edc13bedeb7ac0217f44259566de03fccf0183aa67b67e254",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MEF2D": {
     "symbol": "MEF2D",
@@ -907,27 +1717,54 @@
     "source_ids": [
       "ncbi-4209"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4209 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4209",
+      "document_sha256": "2ebb719058a4588059f5afb09080c25fe45e00d9f8d9d7ff702d0d726cf75181",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BCL9": {
     "symbol": "BCL9",
     "hgnc_id": "HGNC:1008",
     "ncbi_gene_id": "607",
-    "description": "encodes a transcriptional cofactor for beta-catenin signaling.",
+    "description": "encodes BCL9 transcriptional coactivator.",
     "source_ids": [
-      "ncbi-607"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:1008 / BCL9",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1008",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "HNRNPUL1": {
     "symbol": "HNRNPUL1",
     "hgnc_id": "HGNC:17011",
     "ncbi_gene_id": "11100",
-    "description": "encodes a nuclear RNA-binding protein involved in RNA processing and DNA-damage responses.",
+    "description": "encodes heterogeneous nuclear ribonucleoprotein U-like 1.",
     "source_ids": [
-      "ncbi-11100"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:17011 / HNRNPUL1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:17011",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ZNF384": {
     "symbol": "ZNF384",
@@ -937,7 +1774,16 @@
     "source_ids": [
       "ncbi-171017"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 171017 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/171017",
+      "document_sha256": "1ace6fd3c5d36c3e00013ce0863847820e34cb923c9c9b3c40b7f234b41fdeb9",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TAF15": {
     "symbol": "TAF15",
@@ -947,7 +1793,16 @@
     "source_ids": [
       "ncbi-8148"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8148 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8148",
+      "document_sha256": "fdaddbb29ed1300d7f372aa23a5cc7799afad89f6335655c09033bea98654c9b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BIRC3": {
     "symbol": "BIRC3",
@@ -957,7 +1812,16 @@
     "source_ids": [
       "ncbi-330"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 330 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/330",
+      "document_sha256": "51730945240e55299b3745c68dc8e40ce6fa4775828e86e7ebcde4ed2fb0939f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MALT1": {
     "symbol": "MALT1",
@@ -967,7 +1831,16 @@
     "source_ids": [
       "ncbi-10892"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10892 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10892",
+      "document_sha256": "b86a0612f146eb6336a88c4d2cd642af11ba01011152a255bb968917cb0a490a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "EWSR1": {
     "symbol": "EWSR1",
@@ -977,17 +1850,35 @@
     "source_ids": [
       "ncbi-2130"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2130 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2130",
+      "document_sha256": "3c6860439824412256f34210cfd2daffc399baed2970a38c2f1e5c5136188780",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FLI1": {
     "symbol": "FLI1",
     "hgnc_id": "HGNC:3749",
     "ncbi_gene_id": "2313",
-    "description": "encodes an ETS-family transcription factor involved in hematopoiesis and vascular development.",
+    "description": "encodes an ETS-domain transcription factor.",
     "source_ids": [
       "ncbi-2313"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2313 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2313",
+      "document_sha256": "58b55345f079ccc1f874b655df66bdc6182548614940efb556873dd9e9f4d015",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ETV1": {
     "symbol": "ETV1",
@@ -997,7 +1888,16 @@
     "source_ids": [
       "ncbi-2115"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2115 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2115",
+      "document_sha256": "83e8029fd9140166ef696022c3656a6f08f769efc20c685c09d00b4170ec94c8",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ETV4": {
     "symbol": "ETV4",
@@ -1007,17 +1907,35 @@
     "source_ids": [
       "ncbi-2118"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2118 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2118",
+      "document_sha256": "22ff4b23ac0e65e7307953065baa92ed465fa8e9d7a5fb7be9c8a7a258de0a46",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FEV": {
     "symbol": "FEV",
     "hgnc_id": "HGNC:18562",
     "ncbi_gene_id": "54738",
-    "description": "encodes an ETS-family transcription factor involved in serotonergic neuron differentiation.",
+    "description": "encodes an ETS-family transcription factor expressed in serotonergic neurons.",
     "source_ids": [
       "ncbi-54738"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 54738 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/54738",
+      "document_sha256": "56b5c390998abe4028f29b7ec99beb2d6bac934a532c5efbdc57b9ce17d00a71",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SS18": {
     "symbol": "SS18",
@@ -1027,7 +1945,16 @@
     "source_ids": [
       "ncbi-6760"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6760 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6760",
+      "document_sha256": "2d3e60c61b45c9396b7fa9e29b7d4f981789c5f7eade29cf8ef8528028544a3f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SSX1": {
     "symbol": "SSX1",
@@ -1037,7 +1964,16 @@
     "source_ids": [
       "ncbi-6756"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6756 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6756",
+      "document_sha256": "2e4727a1412ed8e9f018fc6a8463444547c10041b1ced052bc776ecbd912c50b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SSX2": {
     "symbol": "SSX2",
@@ -1047,7 +1983,16 @@
     "source_ids": [
       "ncbi-6757"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6757 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6757",
+      "document_sha256": "75649b1e36d483d2222efba51d79d78187ad781191538dbea6326bc5bd0acd51",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SSX4": {
     "symbol": "SSX4",
@@ -1057,37 +2002,73 @@
     "source_ids": [
       "ncbi-6759"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6759 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6759",
+      "document_sha256": "016b31b174dcef927a81a38b477cef479bc16a245d708bb58c52abdf001d4ccc",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PAX3": {
     "symbol": "PAX3",
     "hgnc_id": "HGNC:8617",
     "ncbi_gene_id": "5077",
-    "description": "encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development.",
+    "description": "encodes a paired-box transcription factor involved in development.",
     "source_ids": [
       "ncbi-5077"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5077 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5077",
+      "document_sha256": "ad5d31cabbc5aa0bbc6dd4ad656d39f9183acccdf2bdc69eb93fecc8a20d9c9f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FOXO1": {
     "symbol": "FOXO1",
     "hgnc_id": "HGNC:3819",
     "ncbi_gene_id": "2308",
-    "description": "encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival.",
+    "description": "encodes a forkhead-family transcription factor.",
     "source_ids": [
       "ncbi-2308"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2308 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2308",
+      "document_sha256": "a1fbf744c0c5b1ece975006dfe26fae3fd69d08664421c1fe1531d90046f85cf",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PAX7": {
     "symbol": "PAX7",
     "hgnc_id": "HGNC:8621",
     "ncbi_gene_id": "5081",
-    "description": "encodes a paired-box transcription factor involved in skeletal-muscle progenitor development.",
+    "description": "encodes a paired-box transcription factor involved in development.",
     "source_ids": [
       "ncbi-5081"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5081 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5081",
+      "document_sha256": "44eba1f188fad1c953a2ec6d430649b9edee16605505a8feab82e06adcfcc2a1",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "WT1": {
     "symbol": "WT1",
@@ -1097,7 +2078,16 @@
     "source_ids": [
       "ncbi-7490"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7490 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7490",
+      "document_sha256": "ca87f8273bb99a0d6fa48131db27e0c97e374946637d90dc700b7693cf613ec1",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "DDIT3": {
     "symbol": "DDIT3",
@@ -1107,7 +2097,16 @@
     "source_ids": [
       "ncbi-1649"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 1649 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/1649",
+      "document_sha256": "f4abd516bd73345bdaab528ab59a04dbaa221caa18cbd10667fc6acf69e59233",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "COL1A1": {
     "symbol": "COL1A1",
@@ -1117,7 +2116,16 @@
     "source_ids": [
       "ncbi-1277"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 1277 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/1277",
+      "document_sha256": "481f87bbc8ee857b9f4949d7ab47396df63a7f68b50a1a5e5f7966ee2647b6f3",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PDGFB": {
     "symbol": "PDGFB",
@@ -1127,7 +2135,16 @@
     "source_ids": [
       "ncbi-5155"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5155 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5155",
+      "document_sha256": "545f8741bd9d652a7f8a6dec61abd052e09be8ed0efabad85adacf824d7bb902",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NAB2": {
     "symbol": "NAB2",
@@ -1137,17 +2154,35 @@
     "source_ids": [
       "ncbi-4665"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4665 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4665",
+      "document_sha256": "9f76f648c3859d6195490427af932463588473ea6f3c5f40136fccb7aa692f97",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "STAT6": {
     "symbol": "STAT6",
     "hgnc_id": "HGNC:11368",
     "ncbi_gene_id": "6778",
-    "description": "encodes a transcription factor that transduces interleukin-4/interleukin-13 signals.",
+    "description": "encodes a STAT-family transcription factor involved in interleukin-4 responses.",
     "source_ids": [
       "ncbi-6778"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6778 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6778",
+      "document_sha256": "97dd32055ad83c278283981d02ca1d34521394f5f4927ee4c36e3971128e5c5c",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ASPSCR1": {
     "symbol": "ASPSCR1",
@@ -1157,17 +2192,35 @@
     "source_ids": [
       "ncbi-79058"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 79058 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/79058",
+      "document_sha256": "fb95f720d1ce3fcd54dbba647af41f93814ecfc673438293d04ebc3a508db303",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TFE3": {
     "symbol": "TFE3",
     "hgnc_id": "HGNC:11752",
     "ncbi_gene_id": "7030",
-    "description": "encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+    "description": "encodes an E-box-binding transcription factor.",
     "source_ids": [
       "ncbi-7030"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7030 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7030",
+      "document_sha256": "18d0d35ef562720235d390eb36f6c9013b602767fc4ed7a74b6971b2f65b228e",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ATF1": {
     "symbol": "ATF1",
@@ -1177,7 +2230,16 @@
     "source_ids": [
       "ncbi-466"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 466 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/466",
+      "document_sha256": "8049c7075f37a3d0df991cd06b1af78511ff12df1663a9922148df8f96e89a55",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CREB1": {
     "symbol": "CREB1",
@@ -1187,17 +2249,35 @@
     "source_ids": [
       "ncbi-1385"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 1385 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/1385",
+      "document_sha256": "814ca43e2775245684343cb819e3b547ff7d4e51d0b5876bc2cf28f5b1fe9f06",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CREB3L2": {
     "symbol": "CREB3L2",
     "hgnc_id": "HGNC:23720",
     "ncbi_gene_id": "64764",
-    "description": "encodes an endoplasmic-reticulum-associated bZIP transcription factor involved in secretory-cell function.",
+    "description": "encodes a bZIP transcriptional activator.",
     "source_ids": [
       "ncbi-64764"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 64764 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/64764",
+      "document_sha256": "d3a7ff549962f648887b70a9a8de467cf2fb67d6da81049c50ab0f48b9d82d44",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CREB3L1": {
     "symbol": "CREB3L1",
@@ -1207,37 +2287,73 @@
     "source_ids": [
       "ncbi-90993"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 90993 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/90993",
+      "document_sha256": "769a758c0ec0c5caa7e2a3b6e423b1d95e4ea78cdff90aac9e9428b0e6b1cb70",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CIC": {
     "symbol": "CIC",
     "hgnc_id": "HGNC:14214",
     "ncbi_gene_id": "23152",
-    "description": "encodes capicua, a transcriptional repressor regulated by MAPK signaling.",
+    "description": "encodes capicua, an HMG-box transcriptional repressor.",
     "source_ids": [
       "ncbi-23152"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23152 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23152",
+      "document_sha256": "b7a55c6473bff056c8466c3b9c22bb678f95ff523893b6a8e57b7b36fd51a336",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "DUX4": {
     "symbol": "DUX4",
     "hgnc_id": "HGNC:50800",
     "ncbi_gene_id": "100288687",
-    "description": "encodes a double-homeobox transcription factor normally active during early embryonic development.",
+    "description": "encodes a double-homeobox transcription factor from a repetitive subtelomeric locus.",
     "source_ids": [
       "ncbi-100288687"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 100288687 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/100288687",
+      "document_sha256": "3dc860e933a13ebd6c6c10820fb67ff0530b0df895006b5a64adab10d02619e8",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BCOR": {
     "symbol": "BCOR",
     "hgnc_id": "HGNC:20893",
     "ncbi_gene_id": "54880",
-    "description": "encodes a transcriptional corepressor associated with noncanonical Polycomb repression.",
+    "description": "encodes a BCL6-interacting transcriptional corepressor.",
     "source_ids": [
       "ncbi-54880"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 54880 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/54880",
+      "document_sha256": "da085aa0dd08fa844b35e7ef62b80b2572dee3df540b2fb55e43173d601bb123",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CCNB3": {
     "symbol": "CCNB3",
@@ -1247,17 +2363,35 @@
     "source_ids": [
       "ncbi-85417"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 85417 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/85417",
+      "document_sha256": "0b1d2066c2378824a80afdcd491254b355c54462ff23832d0ecb6b86cef4d53c",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NFATC2": {
     "symbol": "NFATC2",
     "hgnc_id": "HGNC:7776",
     "ncbi_gene_id": "4773",
-    "description": "encodes a calcium/calcineurin-responsive transcription factor.",
+    "description": "encodes a nuclear-factor-of-activated-T-cells transcription factor.",
     "source_ids": [
       "ncbi-4773"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4773 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4773",
+      "document_sha256": "08c00e511aef3c80f9da5ccd43cb0e7576da06cac51025642f7f9def6afaeed3",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PATZ1": {
     "symbol": "PATZ1",
@@ -1267,7 +2401,16 @@
     "source_ids": [
       "ncbi-23598"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23598 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23598",
+      "document_sha256": "681433836e1c9512642b1d5937c91ba18a240b986409d21f1525743d668c647b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "HEY1": {
     "symbol": "HEY1",
@@ -1277,7 +2420,16 @@
     "source_ids": [
       "ncbi-23462"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23462 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23462",
+      "document_sha256": "32c59db0a71f51a48878891620524af3a6128c1748bc0fa75a7a027190f205bb",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NCOA2": {
     "symbol": "NCOA2",
@@ -1287,7 +2439,16 @@
     "source_ids": [
       "ncbi-10499"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10499 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10499",
+      "document_sha256": "ada4ba34be6da07d64e4607e6c566083fcda408536b6b5dc28690cd0814a7a05",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NR4A3": {
     "symbol": "NR4A3",
@@ -1297,17 +2458,35 @@
     "source_ids": [
       "ncbi-8013"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8013 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8013",
+      "document_sha256": "781aaff1cc6832883dd8f2c7339d8fe9b0e20c73d04ac7f2200256a9df06d810",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "WWTR1": {
     "symbol": "WWTR1",
     "hgnc_id": "HGNC:24042",
     "ncbi_gene_id": "25937",
-    "description": "encodes TAZ, a transcriptional coactivator regulated by Hippo signaling.",
+    "description": "encodes TAZ, a transcriptional coactivator.",
     "source_ids": [
       "ncbi-25937"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 25937 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/25937",
+      "document_sha256": "08c60ac258f01e4c7b82c12ed494a671c89ba4120c3a74cb962a035e7b23b6d4",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CAMTA1": {
     "symbol": "CAMTA1",
@@ -1317,7 +2496,16 @@
     "source_ids": [
       "ncbi-23261"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23261 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23261",
+      "document_sha256": "edab8395f9872bf49cd2dfc3a568d66e341ae513d7eb14f9dd0c8e97dc0fb5a6",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "YAP1": {
     "symbol": "YAP1",
@@ -1327,27 +2515,54 @@
     "source_ids": [
       "ncbi-10413"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10413 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10413",
+      "document_sha256": "e80aa0a2311bfb61df3c96c7f5b5525a70c20667d9236ead51ca5676615a7fa4",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "JAZF1": {
     "symbol": "JAZF1",
     "hgnc_id": "HGNC:28917",
     "ncbi_gene_id": "221895",
-    "description": "encodes a transcriptional regulator with roles in chromatin regulation and metabolism.",
+    "description": "encodes a nuclear zinc-finger transcriptional repressor.",
     "source_ids": [
       "ncbi-221895"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 221895 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/221895",
+      "document_sha256": "82d391c2f0b45ba1f9e3c82b2e681224acb8808941ce48918bce00b42116586a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SUZ12": {
     "symbol": "SUZ12",
     "hgnc_id": "HGNC:17101",
     "ncbi_gene_id": "23512",
-    "description": "encodes a core component of Polycomb repressive complex 2.",
+    "description": "encodes a zinc-finger Polycomb-associated protein.",
     "source_ids": [
       "ncbi-23512"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23512 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23512",
+      "document_sha256": "e74ededea79c307901390175c22575bdb1d26f9e2f8cc8e18fe43ac81dd04a6b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "YWHAE": {
     "symbol": "YWHAE",
@@ -1357,37 +2572,73 @@
     "source_ids": [
       "ncbi-7531"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7531 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7531",
+      "document_sha256": "3b669762a8b57883f2ac024c07dfaff6d019114576445a2283aafa88026dd2c0",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NUTM2A": {
     "symbol": "NUTM2A",
     "hgnc_id": "HGNC:23438",
     "ncbi_gene_id": "728118",
-    "description": "encodes a NUT-family protein whose normal function remains incompletely characterized.",
+    "description": "encodes NUT family member 2A.",
     "source_ids": [
-      "ncbi-728118"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:23438 / NUTM2A",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23438",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NUTM2B": {
     "symbol": "NUTM2B",
     "hgnc_id": "HGNC:23445",
     "ncbi_gene_id": "729262",
-    "description": "encodes a NUT-family protein whose normal function remains incompletely characterized.",
+    "description": "encodes NUT family member 2B.",
     "source_ids": [
-      "ncbi-729262"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:23445 / NUTM2B",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23445",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ZC3H7B": {
     "symbol": "ZC3H7B",
     "hgnc_id": "HGNC:30869",
     "ncbi_gene_id": "23264",
-    "description": "encodes a zinc-finger-containing protein with proposed RNA-associated regulatory functions.",
+    "description": "encodes a protein containing zinc-finger and tetratricopeptide-repeat regions.",
     "source_ids": [
       "ncbi-23264"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23264 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23264",
+      "document_sha256": "ffc2c9e9fd7b1ba9ff5155b30dc785536e543f7669ef015e7427863da6e3ce86",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MAML3": {
     "symbol": "MAML3",
@@ -1397,7 +2648,16 @@
     "source_ids": [
       "ncbi-55534"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 55534 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/55534",
+      "document_sha256": "9f24a042f3dbeef53e97f189e04e41031659496f68dc4fd076b053cdf45f0f1e",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "VGLL2": {
     "symbol": "VGLL2",
@@ -1407,7 +2667,16 @@
     "source_ids": [
       "ncbi-245806"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 245806 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/245806",
+      "document_sha256": "a2eee1cda283158debb054bb5ffe1687b918872eddf5771b1fe24dea59920846",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CITED2": {
     "symbol": "CITED2",
@@ -1417,17 +2686,35 @@
     "source_ids": [
       "ncbi-10370"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10370 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10370",
+      "document_sha256": "9ef86062612de390167a22d5625f3fd6f6ac0d03e509436e8664696dda3fb512",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "KIAA1549": {
     "symbol": "KIAA1549",
     "hgnc_id": "HGNC:22219",
     "ncbi_gene_id": "57670",
-    "description": "encodes a protein implicated in nervous-system development.",
+    "description": "encodes a UPF0606-family protein.",
     "source_ids": [
       "ncbi-57670"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 57670 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/57670",
+      "document_sha256": "f88b3a132c17ff527f0650900e58fa0d161a2e01647c6d30b01288270265db9c",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BRAF": {
     "symbol": "BRAF",
@@ -1437,27 +2724,54 @@
     "source_ids": [
       "ncbi-673"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 673 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/673",
+      "document_sha256": "d3caeddefe5a3e1048b3a11323f59ed4364e5e1f5ca8b6c536bec3e31dd04259",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FAM131B": {
     "symbol": "FAM131B",
     "hgnc_id": "HGNC:22202",
     "ncbi_gene_id": "9715",
-    "description": "encodes a protein whose normal biological function remains incompletely characterized.",
+    "description": "encodes family with sequence similarity 131 member B.",
     "source_ids": [
-      "ncbi-9715"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:22202 / FAM131B",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:22202",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SRGAP3": {
     "symbol": "SRGAP3",
     "hgnc_id": "HGNC:19744",
     "ncbi_gene_id": "9901",
-    "description": "encodes a Rho GTPase-activating protein involved in neural development and cytoskeletal regulation.",
+    "description": "encodes SLIT-ROBO Rho GTPase-activating protein 3.",
     "source_ids": [
-      "ncbi-9901"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:19744 / SRGAP3",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:19744",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RAF1": {
     "symbol": "RAF1",
@@ -1467,7 +2781,16 @@
     "source_ids": [
       "ncbi-5894"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5894 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5894",
+      "document_sha256": "6febe1c0bbcbfb7779c8091d66132c147d8688e98a8f0c117ff3a5e9ca8fa1cf",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "QKI": {
     "symbol": "QKI",
@@ -1477,17 +2800,35 @@
     "source_ids": [
       "ncbi-9444"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 9444 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/9444",
+      "document_sha256": "34c4bef49e6d6cb863872aa46f6ca26cdf703f696cbd77994a31c9c140f89261",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "ZFTA": {
     "symbol": "ZFTA",
     "hgnc_id": "HGNC:28449",
     "ncbi_gene_id": "65998",
-    "description": "encodes a zinc-finger protein with chromatin-binding activity.",
+    "description": "encodes a nuclear zinc-finger transcriptional regulator.",
     "source_ids": [
       "ncbi-65998"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 65998 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/65998",
+      "document_sha256": "454ef726b0ee11c05d1fcea82440700a3435f8de9c6b0de6b3ed0713040f36e3",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RELA": {
     "symbol": "RELA",
@@ -1497,7 +2838,16 @@
     "source_ids": [
       "ncbi-5970"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5970 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5970",
+      "document_sha256": "74e67ccaf2ad645659fc1128943daeb04b0d6780f6f444b2d53920544fc642c9",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MAMLD1": {
     "symbol": "MAMLD1",
@@ -1507,27 +2857,54 @@
     "source_ids": [
       "ncbi-10046"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10046 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10046",
+      "document_sha256": "c5046ad38e3fc162cb77b6910cea949c9960dd1a361b573f00377b2acdc187c0",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MYB": {
     "symbol": "MYB",
     "hgnc_id": "HGNC:7545",
     "ncbi_gene_id": "4602",
-    "description": "encodes a transcription factor involved in progenitor-cell proliferation and differentiation.",
+    "description": "encodes a DNA-binding transcriptional regulator involved in hematopoiesis.",
     "source_ids": [
       "ncbi-4602"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4602 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4602",
+      "document_sha256": "513b91d2d0c826db1817c5ac7bb77c00a81a09764f21e465920ab890615f1e39",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MN1": {
     "symbol": "MN1",
     "hgnc_id": "HGNC:7180",
     "ncbi_gene_id": "4330",
-    "description": "encodes a transcriptional regulator involved in developmental and hematopoietic programs.",
+    "description": "encodes the meningioma 1 protein.",
     "source_ids": [
       "ncbi-4330"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4330 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4330",
+      "document_sha256": "da31de996b6452dd7d6975f3483c2f1adcb34be0e72dbf011227d11b40482253",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BEND2": {
     "symbol": "BEND2",
@@ -1537,7 +2914,16 @@
     "source_ids": [
       "ncbi-139105"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 139105 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/139105",
+      "document_sha256": "f1f01c2697cfa4831dbe5dc8ef0d7efc380ca8c94ed63aa53e8708398c20d73d",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CXXC5": {
     "symbol": "CXXC5",
@@ -1547,7 +2933,16 @@
     "source_ids": [
       "ncbi-51523"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 51523 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/51523",
+      "document_sha256": "50be42f2daa361f2bf5ae587a090dfcc125142ffcd281cafccbf17c9bdb8ef45",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SLC44A1": {
     "symbol": "SLC44A1",
@@ -1557,7 +2952,16 @@
     "source_ids": [
       "ncbi-23446"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23446 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23446",
+      "document_sha256": "5b63a9eedc3aae7a8fe85fe4dbb5a0d405222eb4a5a6b457f0f9aebbb447c019",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PRKCA": {
     "symbol": "PRKCA",
@@ -1567,7 +2971,16 @@
     "source_ids": [
       "ncbi-5578"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5578 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5578",
+      "document_sha256": "560a7ac96ac0561383db686138a085082783ff25273891a4827c961d44b5d0ca",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CRTC1": {
     "symbol": "CRTC1",
@@ -1577,7 +2990,16 @@
     "source_ids": [
       "ncbi-23373"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23373 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23373",
+      "document_sha256": "84050b7908a16ce2ed5086255d90c2e062a9ff85107d656a5ea514aae74322df",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MAML2": {
     "symbol": "MAML2",
@@ -1587,7 +3009,16 @@
     "source_ids": [
       "ncbi-84441"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 84441 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/84441",
+      "document_sha256": "9ae7a41f31cfee79ccf8a69e30e1406629670c1691c7a5bf44aec08561708b0a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CRTC3": {
     "symbol": "CRTC3",
@@ -1597,7 +3028,16 @@
     "source_ids": [
       "ncbi-64784"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 64784 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/64784",
+      "document_sha256": "f32e88b1d0a0cc3a2c80c965793e74ff74de5b92e9f1965ca67dc2ec4ede789c",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NFIB": {
     "symbol": "NFIB",
@@ -1607,7 +3047,16 @@
     "source_ids": [
       "ncbi-4781"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4781 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4781",
+      "document_sha256": "d3b2c43b75ecb127999f19797887a34b23d3ad4d799b24c5c4005555a32e45c4",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MYBL1": {
     "symbol": "MYBL1",
@@ -1617,37 +3066,73 @@
     "source_ids": [
       "ncbi-4603"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4603 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4603",
+      "document_sha256": "b446970711bd093a825ecd49258219d1662dce033f89ea365c50169dfaeb71d0",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BRD4": {
     "symbol": "BRD4",
     "hgnc_id": "HGNC:13575",
     "ncbi_gene_id": "23476",
-    "description": "encodes a BET-family chromatin reader that regulates transcriptional elongation.",
+    "description": "encodes a bromodomain-containing chromatin-associated protein.",
     "source_ids": [
       "ncbi-23476"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 23476 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/23476",
+      "document_sha256": "c6b3eb8bd7a1bde396140ac444f9e525ae79b01416e1398f8ec8bbb00b47852d",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NUTM1": {
     "symbol": "NUTM1",
     "hgnc_id": "HGNC:29919",
     "ncbi_gene_id": "256646",
-    "description": "encodes a normally testis-enriched protein that interacts with the acetyltransferase p300.",
+    "description": "encodes NUT family member 1.",
     "source_ids": [
       "ncbi-256646"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 256646 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/256646",
+      "document_sha256": "625140a91ec612bd0edaea025643709930b5dddf00d28d0775be9f4b8a57d0dc",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BRD3": {
     "symbol": "BRD3",
     "hgnc_id": "HGNC:1104",
     "ncbi_gene_id": "8019",
-    "description": "encodes a BET-family acetylated-chromatin reader and transcriptional regulator.",
+    "description": "encodes bromodomain-containing protein 3.",
     "source_ids": [
       "ncbi-8019"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8019 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8019",
+      "document_sha256": "3a5d83bc943e3fe5c9d938b7f0e9b3d2a5c431983e379b667aa4ae9c837ac35f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NSD3": {
     "symbol": "NSD3",
@@ -1657,7 +3142,16 @@
     "source_ids": [
       "ncbi-54904"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 54904 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/54904",
+      "document_sha256": "e0b5d87333d6f6d9aa60bb9ccd7919b9848137062daca828a9a3b70cbe273e16",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "DNAJB1": {
     "symbol": "DNAJB1",
@@ -1667,7 +3161,16 @@
     "source_ids": [
       "ncbi-3337"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3337 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3337",
+      "document_sha256": "b7b9847c2b49f1e3d0697158c84254948870e0dac338e3e18e9298a0eb645dfc",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PRKACA": {
     "symbol": "PRKACA",
@@ -1677,7 +3180,16 @@
     "source_ids": [
       "ncbi-5566"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5566 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5566",
+      "document_sha256": "f6a3463377d2f3a8e4ed8edef32501b4090c7fecf39b2c32c290eedf6d95cf92",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TMPRSS2": {
     "symbol": "TMPRSS2",
@@ -1687,7 +3199,16 @@
     "source_ids": [
       "ncbi-7113"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7113 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7113",
+      "document_sha256": "79d1b9aeb7fc0b4780484c87658182cb2a282b77861669b5de67a30584863044",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CTNNB1": {
     "symbol": "CTNNB1",
@@ -1697,37 +3218,73 @@
     "source_ids": [
       "ncbi-1499"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 1499 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/1499",
+      "document_sha256": "29bba3eb2a3ee52303f1a27b183a9f230c82b2aad53c660c6b7ece9076fda056",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PLAG1": {
     "symbol": "PLAG1",
     "hgnc_id": "HGNC:9045",
     "ncbi_gene_id": "5324",
-    "description": "encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2.",
+    "description": "encodes a developmentally regulated zinc-finger protein.",
     "source_ids": [
       "ncbi-5324"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5324 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5324",
+      "document_sha256": "21db113ab04ddec18228b31af55747afb56e5d88797dd9bd3fa1853c767689ac",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "LIFR": {
     "symbol": "LIFR",
     "hgnc_id": "HGNC:6597",
     "ncbi_gene_id": "3977",
-    "description": "encodes a cytokine-receptor subunit that mediates leukemia inhibitory factor signaling.",
+    "description": "encodes leukemia inhibitory factor receptor subunit alpha.",
     "source_ids": [
-      "ncbi-3977"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:6597 / LIFR",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6597",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TFG": {
     "symbol": "TFG",
     "hgnc_id": "HGNC:11758",
     "ncbi_gene_id": "10342",
-    "description": "encodes a coiled-coil protein involved in protein export from the endoplasmic reticulum.",
+    "description": "encodes TFG protein, a recurrent partner in oncogenic rearrangements.",
     "source_ids": [
       "ncbi-10342"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 10342 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/10342",
+      "document_sha256": "78b8536ce84e0ac3dad8ffb0ee05fe84e56a1e61d4446c0bfb0daaf213afdd32",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "FN1": {
     "symbol": "FN1",
@@ -1737,17 +3294,35 @@
     "source_ids": [
       "ncbi-2335"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2335 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2335",
+      "document_sha256": "bc0bf0385e8acc4871d57058ae923f987eb9c9b1b7f309251f0fc136bda5ee5f",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PHF1": {
     "symbol": "PHF1",
     "hgnc_id": "HGNC:8919",
     "ncbi_gene_id": "5252",
-    "description": "encodes a Polycomb-associated histone reader involved in chromatin repression.",
+    "description": "encodes a Polycomb-associated protein involved in transcriptional repression.",
     "source_ids": [
       "ncbi-5252"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5252 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5252",
+      "document_sha256": "7e384f382cd4ab86dc2fa1e4789a00d50791dcba1e9b54ad2f7719619aff2e86",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "EPC1": {
     "symbol": "EPC1",
@@ -1757,7 +3332,16 @@
     "source_ids": [
       "ncbi-80314"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 80314 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/80314",
+      "document_sha256": "71e18ac8c5b880793ab062370a9b0559cca9ac06d4e7524db4c0ec87d1249827",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MEAF6": {
     "symbol": "MEAF6",
@@ -1767,7 +3351,16 @@
     "source_ids": [
       "ncbi-64769"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 64769 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/64769",
+      "document_sha256": "63247c4b3904eb070f6d7c5dd780cc43fd5a12148547cde8f00feb95c2a40086",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MECOM": {
     "symbol": "MECOM",
@@ -1777,27 +3370,54 @@
     "source_ids": [
       "ncbi-2122"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2122 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2122",
+      "document_sha256": "9f40b85703c9c1ed5c8dd60ca7d94776918db9d7e5c995009c0212c7cc4a2474",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MLF1": {
     "symbol": "MLF1",
     "hgnc_id": "HGNC:7125",
     "ncbi_gene_id": "4291",
-    "description": "encodes a regulator of hematopoietic cell differentiation and survival.",
+    "description": "encodes myeloid leukemia factor 1.",
     "source_ids": [
-      "ncbi-4291"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:7125 / MLF1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7125",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PTPRZ1": {
     "symbol": "PTPRZ1",
     "hgnc_id": "HGNC:9685",
     "ncbi_gene_id": "5803",
-    "description": "encodes a receptor-type tyrosine phosphatase enriched in the nervous system.",
+    "description": "encodes receptor-type protein tyrosine phosphatase zeta.",
     "source_ids": [
-      "ncbi-5803"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:9685 / PTPRZ1",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9685",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MET": {
     "symbol": "MET",
@@ -1807,67 +3427,130 @@
     "source_ids": [
       "ncbi-4233"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4233 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4233",
+      "document_sha256": "b99409cd2e98e6eb279f27a430ff0ffcdb9699adc54635f62c37089c592534e9",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BCAN": {
     "symbol": "BCAN",
     "hgnc_id": "HGNC:23059",
     "ncbi_gene_id": "63827",
-    "description": "encodes brevican, a neural extracellular-matrix proteoglycan.",
+    "description": "encodes brevican.",
     "source_ids": [
-      "ncbi-63827"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:23059 / BCAN",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23059",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NACC2": {
     "symbol": "NACC2",
     "hgnc_id": "HGNC:23846",
     "ncbi_gene_id": "138151",
-    "description": "encodes a nuclear BTB-domain transcriptional regulator.",
+    "description": "encodes NACC family member 2.",
     "source_ids": [
-      "ncbi-138151"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:23846 / NACC2",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23846",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "IGH": {
     "symbol": "IGH",
     "hgnc_id": "HGNC:5477",
     "ncbi_gene_id": "3492",
-    "description": "is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+    "description": "is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity.",
     "source_ids": [
       "ncbi-3492"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3492 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3492",
+      "document_sha256": "18459ea4cf0f732a438373575e5a24310f7e7f972c07a31164aef676d351806a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MYC": {
     "symbol": "MYC",
     "hgnc_id": "HGNC:7553",
     "ncbi_gene_id": "4609",
-    "description": "encodes a transcription factor that controls cellular growth and metabolism.",
+    "description": "encodes a MAX-interacting transcription factor that regulates cell-cycle and growth programs.",
     "source_ids": [
       "ncbi-4609"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4609 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4609",
+      "document_sha256": "5d34e84a89de31c1f5b738438a9c30a89e0991c709fdbe5c796a05aac88a1b15",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "IGK": {
     "symbol": "IGK",
     "hgnc_id": "HGNC:5715",
     "ncbi_gene_id": "50802",
-    "description": "is the immunoglobulin kappa light-chain locus, with B-lineage regulatory elements.",
+    "description": "is the immunoglobulin kappa light-chain locus.",
     "source_ids": [
-      "ncbi-50802"
+      "hgnc"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "identity_reference",
+      "location": "Approved HGNC snapshot row HGNC:5715 / IGK",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5715",
+      "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "IGL": {
     "symbol": "IGL",
     "hgnc_id": "HGNC:5853",
     "ncbi_gene_id": "3535",
-    "description": "is the immunoglobulin lambda light-chain locus, with B-lineage regulatory elements.",
+    "description": "is the immunoglobulin lambda light-chain locus involved in antibody light-chain diversity.",
     "source_ids": [
       "ncbi-3535"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3535 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3535",
+      "document_sha256": "ee287c58519ced0a0dc1c402c2b544b625a7dda368fe0be452bd5a57354f5748",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BCL2": {
     "symbol": "BCL2",
@@ -1877,7 +3560,16 @@
     "source_ids": [
       "ncbi-596"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 596 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/596",
+      "document_sha256": "91432c0ff6d6215c6f8db108faf1dabb8075791309158d417194262aeb2f850b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BCL6": {
     "symbol": "BCL6",
@@ -1887,7 +3579,16 @@
     "source_ids": [
       "ncbi-604"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 604 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/604",
+      "document_sha256": "ff1386dc2f47f961dbe6c1088fba1b17496ba11d8d45d520301255eee628d195",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CCND1": {
     "symbol": "CCND1",
@@ -1897,7 +3598,16 @@
     "source_ids": [
       "ncbi-595"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 595 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/595",
+      "document_sha256": "3bee1ade38300e45a5e58530c0923d3283d8812a1c02bbbf82af168d249e2db8",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CCND2": {
     "symbol": "CCND2",
@@ -1907,7 +3617,16 @@
     "source_ids": [
       "ncbi-894"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 894 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/894",
+      "document_sha256": "ff87fee80d842850fe536973b9745d905d76dca5b069b8707b09a4884946d5dc",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CCND3": {
     "symbol": "CCND3",
@@ -1917,7 +3636,16 @@
     "source_ids": [
       "ncbi-896"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 896 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/896",
+      "document_sha256": "d3c15bc5e4b2f3caa850e19601568c4af07dbb32587cd4535341ec2f5120593a",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "BCL10": {
     "symbol": "BCL10",
@@ -1927,7 +3655,16 @@
     "source_ids": [
       "ncbi-8915"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8915 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8915",
+      "document_sha256": "afd6db03e431fdcf7bdc18f14ee69df84119f9841dcae285d07e9fe733c742ee",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "CRLF2": {
     "symbol": "CRLF2",
@@ -1937,27 +3674,54 @@
     "source_ids": [
       "ncbi-64109"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 64109 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/64109",
+      "document_sha256": "d31f87f7cfcfbfbb498c2ea2c8668b5dc657b65b9bdc4d674e8fb534223b5968",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "P2RY8": {
     "symbol": "P2RY8",
     "hgnc_id": "HGNC:15524",
     "ncbi_gene_id": "286530",
-    "description": "encodes a G-protein-coupled receptor involved in lymphocyte localization.",
+    "description": "encodes a G-protein-coupled receptor.",
     "source_ids": [
       "ncbi-286530"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 286530 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/286530",
+      "document_sha256": "d3e11b0543b72003f18d40cab3b52c048f89462702d1ed19fabe22175cddc625",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TCR loci": {
     "symbol": "TCR loci",
     "hgnc_id": null,
     "ncbi_gene_id": null,
-    "description": "encode T-cell receptor chains and contain lineage-active regulatory elements.",
+    "description": "are the gene regions encoding T-cell receptor chains.",
     "source_ids": [
       "all"
     ],
-    "identity_source_id": null
+    "identity_source_id": null,
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "authoritative_reference",
+      "location": "NCI ALL classification: T-cell receptor locus rearrangements",
+      "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+      "document_sha256": null,
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TAL1": {
     "symbol": "TAL1",
@@ -1967,7 +3731,16 @@
     "source_ids": [
       "ncbi-6886"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6886 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6886",
+      "document_sha256": "8cc163a09ef8bbad45ec17c77b20c14d3a65637f23d5f330138ea1926e1e87ed",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TLX1": {
     "symbol": "TLX1",
@@ -1977,17 +3750,35 @@
     "source_ids": [
       "ncbi-3195"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 3195 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3195",
+      "document_sha256": "2d6cb3020c7bc15a2b9a601e55e95faeef0d7a75b7db890fbe7f444163fbc645",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TLX3": {
     "symbol": "TLX3",
     "hgnc_id": "HGNC:13532",
     "ncbi_gene_id": "30012",
-    "description": "encodes a homeobox transcription factor involved in neuronal differentiation.",
+    "description": "encodes a homeobox DNA-binding transcription factor.",
     "source_ids": [
       "ncbi-30012"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 30012 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/30012",
+      "document_sha256": "46f3410c031fdcd5ba4908d308628cb8a4ff482786cfc1f9492b2b54b4f9afe1",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "LMO2": {
     "symbol": "LMO2",
@@ -1997,7 +3788,16 @@
     "source_ids": [
       "ncbi-4005"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4005 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4005",
+      "document_sha256": "4dd77e5b35b22bfed498dac1289785abdfcc34c5c441aa859fa4d541fff4963c",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "GATA2": {
     "symbol": "GATA2",
@@ -2007,17 +3807,35 @@
     "source_ids": [
       "ncbi-2624"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 2624 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2624",
+      "document_sha256": "6b7cf809b034c3ff99066ed2b26a34bb0a961e2c333fcddbca95ff537d9c9906",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NSD2": {
     "symbol": "NSD2",
     "hgnc_id": "HGNC:12766",
     "ncbi_gene_id": "7468",
-    "description": "encodes a histone H3 lysine-36 methyltransferase.",
+    "description": "encodes a SET-domain chromatin regulator.",
     "source_ids": [
       "ncbi-7468"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7468 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7468",
+      "document_sha256": "5ed4067368ad59f61c3b23994210b7a34d426e0ac6a748aecf1981d305941bc3",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MAF": {
     "symbol": "MAF",
@@ -2027,7 +3845,16 @@
     "source_ids": [
       "ncbi-4094"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4094 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4094",
+      "document_sha256": "213bc61adc408d07651148244074f3ec8e975e1659e1a7e36ca6a25d72ee8126",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MAFB": {
     "symbol": "MAFB",
@@ -2037,7 +3864,16 @@
     "source_ids": [
       "ncbi-9935"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 9935 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/9935",
+      "document_sha256": "5352091631e23cf1bd0d18cb73875f9c05314ec3baeef9623bf3048617540f73",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "PRCC": {
     "symbol": "PRCC",
@@ -2047,7 +3883,16 @@
     "source_ids": [
       "ncbi-5546"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 5546 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5546",
+      "document_sha256": "7bcb6087fb8fb83561eab8cb2c0559d010ab6e466d69287e5330fade572cd348",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "SFPQ": {
     "symbol": "SFPQ",
@@ -2057,7 +3902,16 @@
     "source_ids": [
       "ncbi-6421"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 6421 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/6421",
+      "document_sha256": "98463c6b17e60e70371f9311a75bd5427da508d572b22b570346a7dc21bf509b",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "NONO": {
     "symbol": "NONO",
@@ -2067,7 +3921,16 @@
     "source_ids": [
       "ncbi-4841"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 4841 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/4841",
+      "document_sha256": "034b8f7a877abfc3db2a52114de3c052ff6345aac6d940404265185789aa6dcc",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "RBM10": {
     "symbol": "RBM10",
@@ -2077,7 +3940,16 @@
     "source_ids": [
       "ncbi-8241"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 8241 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/8241",
+      "document_sha256": "55a308af64c50657e28b75615ec5315abd7d8e4a9d4f6f9c039b8d4d63441862",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "MALAT1": {
     "symbol": "MALAT1",
@@ -2087,7 +3959,16 @@
     "source_ids": [
       "ncbi-378938"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 378938 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/378938",
+      "document_sha256": "ec64f76aed68c9e0d75f8f7b680adcdca1a5a082bee894dd51e634ddc9d57984",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   },
   "TFEB": {
     "symbol": "TFEB",
@@ -2097,6 +3978,15 @@
     "source_ids": [
       "ncbi-7942"
     ],
-    "identity_source_id": "hgnc"
+    "identity_source_id": "hgnc",
+    "reference_audit": {
+      "status": "reference_supported",
+      "audited_on": "2026-11-27",
+      "basis": "gene_reference",
+      "location": "NCBI Gene 7942 RefSeq/Alliance summary, inspected cached esummary record",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/7942",
+      "document_sha256": "c54b904184052cf0b2e61792ada3709ade105d6cedfd03caf988975f5f775b41",
+      "scope": "Normal partner description only; not primary fusion evidence."
+    }
   }
 }

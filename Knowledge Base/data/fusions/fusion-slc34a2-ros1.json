@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Lung adenocarcinoma"
   ],
+  "disease_ids": [
+    "atlas-v-lung-adenocarcinoma"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,26 +30,56 @@
         "ncbi-10568"
       ],
       "claim_sha256": "b4a6c5a2ec925fa882a532589934bf234b553b03ace7ccc60e3a648a64d6baac",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10568",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10568",
+          "location": "NCBI Gene 10568 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "dd2084dd9b734dc40a44661b43ce26da1c7587eb9bf85b7b80b8d5be85f13710"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "ROS1",
-      "text": "ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+      "text": "ROS1 encodes a transmembrane receptor tyrosine kinase.",
       "source_ids": [
         "ncbi-6098"
       ],
-      "claim_sha256": "a70263102b9cb586f798d074f485e5b6a1a52a60adf8111b2bda2ae01fe4c739",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "cf8fa6e349ef6f35e1660591a63860296eea74105a1b77ab7916950dcb065566",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6098",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6098",
+          "location": "NCBI Gene 6098 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f0bd82336a04bf326cb790a1607f50d5c763799bc8ec9faa31cf4c7ac582b0e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+      "text": "SLC34A2::ROS1 is a reported ROS1 rearrangement in lung cancer. The sequenced fusion structures retain the carboxy-terminal ROS1 kinase region.",
       "source_ids": [
         "ros1"
       ],
-      "claim_sha256": "cd50ba81d149f7e53ba34065950241a06b1f7108f49638a2a88734995c8c016d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "2138f821399f1b8eb5adb6302424100008eac87884011668bc012e0c28c6fdc2",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ros1",
+          "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2022.1035033/full",
+          "location": "Results, ROS1 fusion partners and ROS1 fusion breakpoints; Figure 2A and Table 2",
+          "scope": "Direct patient observations of CD74, EZR, SDC4, GOPC, SLC34A2 and TPM3 rearrangements and kinase-containing exon structures.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,11 +89,29 @@
         "fda-ros1"
       ],
       "claim_sha256": "aa82141b2dc901896b1f1556d519644e7a2da640af6e25a20a6b2774ec245008",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-repotrectinib",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218213s001lbl.pdf",
+          "location": "Prescribing information Section1.1",
+          "scope": "Adults with locally advanced/metastatic ROS1-positiveNSCLC.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        },
+        {
+          "source_id": "fda-ros1",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-taletrectinib-ros1-positive-non-small-cell-lung-cancer",
+          "location": "FDA approval notice, June11,2025 indication",
+          "scope": "Adults with locally advanced/metastatic ROS1-positiveNSCLC.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "SLC34A2 encodes a sodium-dependent phosphate transporter. ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling. The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma. ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+    "text": "SLC34A2 encodes a sodium-dependent phosphate transporter. ROS1 encodes a transmembrane receptor tyrosine kinase. SLC34A2::ROS1 is a reported ROS1 rearrangement in lung cancer. The sequenced fusion structures retain the carboxy-terminal ROS1 kinase region. ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
     "source_ids": [
       "ncbi-10568",
       "ncbi-6098",
@@ -69,15 +120,20 @@
       "fda-ros1"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "36e84c59a6f4f044a026a31994e58c67b6d66353f138b45a65fbd8f91afc9970"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "c48ec88a46b8dc021d50cd2e31bf4c5aa28083259dbfa2a20dc5d5a1b581f035"
 }

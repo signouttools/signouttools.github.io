@@ -16,19 +16,31 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Papillary thyroid carcinoma",
     "Lung adenocarcinoma"
+  ],
+  "disease_ids": [
+    "atlas-v-lung-adenocarcinoma"
   ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "NCOA4",
-      "text": "NCOA4 encodes a ferritin cargo receptor in autophagy and a transcriptional coregulator.",
+      "text": "NCOA4 encodes an androgen-receptor transcriptional coactivator.",
       "source_ids": [
         "ncbi-8031"
       ],
-      "claim_sha256": "1106a2e33c72bdf86018490c10539f4a0908c3569a91410e7715c8f63a333c8d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "7f8147d04570d510c90bd6c9ce1df030ea5b744acd605ae788ab93b96efb6208",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8031",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8031",
+          "location": "NCBI Gene 8031 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2eba5f216ae44fff7f15fe465025637ff1b317c7ff8222b99433e4ca36d241c9"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,16 +50,36 @@
         "ncbi-5979"
       ],
       "claim_sha256": "bff0a244e3a9197f328d10b7c579776e547a11b6ffc49e5b9b553fee8aa3397f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5979",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5979",
+          "location": "NCBI Gene 5979 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "f6b42810849ebc40626b1a8e42ffd99b3be404a68ce2496dcbaf99c2453cdc8d"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. NCOA4::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma.",
+      "text": "NCOA4::RET is a recurrent RET rearrangement documented in lung cancer cohorts. Reported breakpoints retain the RET kinase-containing carboxy-terminal region.",
       "source_ids": [
         "rtk-cohort"
       ],
-      "claim_sha256": "52bdc538d949570439c3a38f744ae36b3f40aecf509b85a66f75102958609dd6",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "5fc6481344889de05b5ffebb446fbe3942feb308c8777f7a2f2da8e345bc7446",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "rtk-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9652465/",
+          "location": "Results, Genomic structures of common RTK fusion genes; Figure 2b and Supplementary Figure 6",
+          "scope": "Direct recurrent KIF5B/CCDC6/NCOA4 partner and RET breakpoint observations; not a functional comparison.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,11 +88,21 @@
         "fda-ret"
       ],
       "claim_sha256": "136441b923585d82f2dae60e4baf9681ee8c03b190a864286611ef2c09f843cc",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-ret",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218160s007lbl.pdf",
+          "location": "Prescribing information Sections1.1,1.3,1.4",
+          "scope": "Separate adultNSCLC and age>=2 thyroid/other solid-tumor indications.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NCOA4 encodes a ferritin cargo receptor in autophagy and a transcriptional coregulator. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. NCOA4::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma. Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+    "text": "NCOA4 encodes an androgen-receptor transcriptional coactivator. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. NCOA4::RET is a recurrent RET rearrangement documented in lung cancer cohorts. Reported breakpoints retain the RET kinase-containing carboxy-terminal region. Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
     "source_ids": [
       "ncbi-8031",
       "ncbi-5979",
@@ -68,17 +110,22 @@
       "fda-ret"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "RET label evidence is biomarker-class evidence; full-text pair-specific audit remains pending."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "088d45adb6cc8d388279252c69888b1db858927c5f8724d9ff19d91a60b2ed05"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "baee7427d7cac88071947cc87caf37f38dd63fd9a683306d0bf09d9d1cd8785f"
 }

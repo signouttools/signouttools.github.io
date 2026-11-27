@@ -18,56 +18,94 @@
   "tumor_contexts": [
     "Low-grade endometrial stromal sarcoma"
   ],
+  "disease_ids": [
+    "fusion-context-8e136239d50c"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "JAZF1",
-      "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism.",
+      "text": "JAZF1 encodes a nuclear zinc-finger transcriptional repressor.",
       "source_ids": [
         "ncbi-221895"
       ],
-      "claim_sha256": "f4a695c9dc6d95c8ded5793f2f02d5dbe3e1330a29a14ea094b1365eba629b8a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "c9db592209620bbd096e42cd9e9acc0d5ca37831f6d1123583dcef96c0d6e088",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-221895",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/221895",
+          "location": "NCBI Gene 221895 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "82d391c2f0b45ba1f9e3c82b2e681224acb8808941ce48918bce00b42116586a"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "PHF1",
-      "text": "PHF1 encodes a Polycomb-associated histone reader involved in chromatin repression.",
+      "text": "PHF1 encodes a Polycomb-associated protein involved in transcriptional repression.",
       "source_ids": [
         "ncbi-5252"
       ],
-      "claim_sha256": "100cfe6eb7cfcaaad996711861721e81a45d3398e478ff153a063bd7bbede6a5",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "51deb03a65fa4f60326fd76d4e0b92d79310f6e1f9636d7f338d2462517cdfbe",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5252",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5252",
+          "location": "NCBI Gene 5252 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7e384f382cd4ab86dc2fa1e4789a00d50791dcba1e9b54ad2f7719619aff2e86"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. JAZF1::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+      "text": "JAZF1::PHF1 has been identified in endometrial stromal sarcoma by molecular analysis.",
       "source_ids": [
-        "phf1"
+        "audit-sarcoma-phf1"
       ],
-      "claim_sha256": "1fb85181d17cebe2ceab38045510228a695653a28fce243bde3540df082ccd3a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "c5adb03c79797975ac4733948793849e3fb607fd57a5ce58bbc49d0a17c03c3b",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-phf1",
+          "url": "https://aacrjournals.org/cancerres/article/66/1/107/525848/Consistent-Rearrangement-of-Chromosomal-Band-6p21",
+          "location": "Results: molecular genetic investigations and Figure 3 (JAZF1-PHF1); own-study Discussion describing case 3 EPC1-PHF1 sequence and open reading frame",
+          "scope": "Indexed primary-body results and figures: JAZF1-PHF1 and EPC1-PHF1 transcripts in endometrial stromal sarcoma; functional Polycomb effect proposed rather than demonstrated. Direct publisher access blocked.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism. PHF1 encodes a Polycomb-associated histone reader involved in chromatin repression. The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. JAZF1::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+    "text": "JAZF1 encodes a nuclear zinc-finger transcriptional repressor. PHF1 encodes a Polycomb-associated protein involved in transcriptional repression. JAZF1::PHF1 has been identified in endometrial stromal sarcoma by molecular analysis.",
     "source_ids": [
       "ncbi-221895",
       "ncbi-5252",
-      "phf1"
+      "audit-sarcoma-phf1"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review."
+    "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "0180f1abf4742d57b1f92b6182e9dcc555617e5b3c562a9894c123d222c75862"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "c5fb4ef0d055a7c80aac8b900c2cfb9621c241336a74541f0bac49b3ba077cab"
 }

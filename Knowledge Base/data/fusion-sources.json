@@ -33,17 +33,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "sarcoma",
-    "title": "NCI childhood soft tissue sarcoma PDQ",
-    "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
-    "kind": "classification_reference",
-    "citation_label": "NCI childhood soft tissue sarcoma PDQ",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Fusion-associated histologies; not a source for every mechanistic claim.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ewing",
     "title": "NCI Ewing and round cell sarcoma PDQ",
     "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
@@ -62,17 +51,6 @@
     "citation_label": "WHO CNS5 summary",
     "accessed_on": "2026-11-27",
     "review_scope": "CNS tumor types and defining molecular alterations.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "icc-m",
-    "title": "ICC myeloid and acute leukemia classification",
-    "url": "https://doi.org/10.1182/blood.2022015850",
-    "kind": "classification_reference",
-    "citation_label": "ICC myeloid and acute leukemia classification",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Disease associations for recurrent leukemia and tyrosine-kinase fusions.",
     "access_level": "web_summary",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
@@ -99,17 +77,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "eln-all",
-    "title": "ELN 2024 ALL recommendations",
-    "url": "https://ashpublications.org/blood/article/143/19/1891/514792/Diagnosis-prognostic-factors-and-assessment-of-ALL",
-    "kind": "guideline_reference",
-    "citation_label": "ELN 2024 ALL recommendations",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Adult ALL subtype-specific prognostic observations.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "nup98",
     "title": "NUP98 pediatric AML cohort",
     "url": "https://pubmed.ncbi.nlm.nih.gov/36815378/",
@@ -118,17 +85,6 @@
     "accessed_on": "2026-11-27",
     "review_scope": "NUP98 partner distribution, HOX expression and poor outcomes.",
     "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "nup98-mech",
-    "title": "NUP98 fusion functional models",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7115844/",
-    "kind": "primary_study",
-    "citation_label": "NUP98 fusion functional models",
-    "accessed_on": "2026-11-27",
-    "review_scope": "NUP98::NSD1, NUP98::KDM5A and NUP98::DDX10 experimental models.",
-    "access_level": "selected_fulltext_excerpt",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
@@ -143,28 +99,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "phlike2",
-    "title": "COG targetable kinase fusions in B-ALL",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5482101/",
-    "kind": "primary_study",
-    "citation_label": "COG targetable kinase fusions in B-ALL",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Additional ABL-class/CSF1R/JAK2 pairs.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "phlike-functional",
-    "title": "Functional targeting of Ph-like ALL kinases",
-    "url": "https://ashpublications.org/bloodadvances/article/1/20/1657/16288/Oncogenic-role-and-therapeutic-targeting-of-ABL",
-    "kind": "primary_study",
-    "citation_label": "Functional targeting of Ph-like ALL kinases",
-    "accessed_on": "2026-11-27",
-    "review_scope": "ABL1, ABL2, CSF1R and JAK2 fusion functional models; preclinical targeting.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "mef2d",
     "title": "Recurrent MEF2D fusions in ALL",
     "url": "https://pubmed.ncbi.nlm.nih.gov/27824051/",
@@ -172,28 +106,6 @@
     "citation_label": "Recurrent MEF2D fusions in ALL",
     "accessed_on": "2026-11-27",
     "review_scope": "MEF2D::BCL9 and MEF2D::HNRNPUL1 detection and expression phenotype.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "znf384",
-    "title": "ZNF384-rearranged B-ALL cohort",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/33988307/",
-    "kind": "primary_study",
-    "citation_label": "ZNF384-rearranged B-ALL cohort",
-    "accessed_on": "2026-11-27",
-    "review_scope": "EP300, TAF15 and TCF3 partners; myeloid antigen expression and dim CD10.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "hlf",
-    "title": "TCF3::HLF leukemia genomics and drug profiling",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/26214592/",
-    "kind": "primary_study",
-    "citation_label": "TCF3::HLF leukemia genomics and drug profiling",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Aggressive ALL and preclinical BCL2 inhibitor sensitivity.",
     "access_level": "abstract_or_search_excerpt",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
@@ -209,28 +121,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "kmt2a-outcomes",
-    "title": "Pediatric KMT2A fusion outcomes",
-    "url": "https://www.mdpi.com/2072-6694/13/19/4817",
-    "kind": "primary_study",
-    "citation_label": "Pediatric KMT2A fusion outcomes",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Partner-specific pediatric AML outcomes, particularly AFDN and MLLT10.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "kmt2a-adult",
-    "title": "Adult KMT2A AML cohort",
-    "url": "https://www.nature.com/articles/s41408-025-01293-x",
-    "kind": "primary_study",
-    "citation_label": "Adult KMT2A AML cohort",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Adult AML detection of MLLT3, AFDN, ELL, MLLT10 and MLLT1.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "kat6a",
     "title": "KAT6A chimera functional study",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12366150/",
@@ -239,28 +129,6 @@
     "accessed_on": "2026-11-27",
     "review_scope": "KAT6A::CREBBP epigenetic complex recruitment and KAT6A fusion biology.",
     "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "rara",
-    "title": "Uncommon RARA fusion AML outcomes",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/",
-    "kind": "primary_study",
-    "citation_label": "Uncommon RARA fusion AML outcomes",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Variant RARA fusion sensitivity and resistance; retain partner distinctions.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "stat5-rara",
-    "title": "STAT5B::RARA ATRA/arsenic resistance",
-    "url": "https://www.nature.com/articles/leu2012371",
-    "kind": "primary_study",
-    "citation_label": "STAT5B::RARA ATRA/arsenic resistance",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Variant-specific clinical resistance.",
-    "access_level": "web_summary",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
@@ -275,39 +143,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "af10",
-    "title": "PICALM::MLLT10 and HOXA activation",
-    "url": "https://www.nature.com/articles/s41375-020-0998-3",
-    "kind": "primary_study",
-    "citation_label": "PICALM::MLLT10 and HOXA activation",
-    "accessed_on": "2026-11-27",
-    "review_scope": "MLLT10 recruits DOT1L; nuclear-export/HOXA mechanisms.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "pdgfra",
-    "title": "FIP1L1::PDGFRA discovery and imatinib",
-    "url": "https://doi.org/10.1056/NEJMoa025217",
-    "kind": "primary_study",
-    "citation_label": "FIP1L1::PDGFRA discovery and imatinib",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Constitutive PDGFRA kinase and clinical imatinib activity.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "pdgfrb",
-    "title": "PDGFRB fusion long-term imatinib outcomes",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4047496/",
-    "kind": "primary_study",
-    "citation_label": "PDGFRB fusion long-term imatinib outcomes",
-    "accessed_on": "2026-11-27",
-    "review_scope": "ETV6::PDGFRB and other PDGFRB fusions; durable remissions.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "flt3",
     "title": "ETV6::FLT3 infant MLN and gilteritinib",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33792628/",
@@ -316,39 +151,6 @@
     "accessed_on": "2026-11-27",
     "review_scope": "Case-level response; off-label rather than a fusion-specific indication.",
     "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "jak2",
-    "title": "TKI response in PCM1::JAK2, BCR::JAK2 and ETV6::ABL1",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/32279331/",
-    "kind": "primary_study",
-    "citation_label": "TKI response in PCM1::JAK2, BCR::JAK2 and ETV6::ABL1",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Clinical series, not randomized evidence or a fusion-specific FDA label.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "fgfr1-heme",
-    "title": "FIGHT-203 pemigatinib study",
-    "url": "https://ashpublications.org/blood/article/138/Supplement%201/385/478181/A-Phase-2-Study-of-Pemigatinib-FIGHT-203",
-    "kind": "primary_study",
-    "citation_label": "FIGHT-203 pemigatinib study",
-    "accessed_on": "2026-11-27",
-    "review_scope": "ZMYM2 and BCR partners in FGFR1-rearranged MLN.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "fgfr-tacc",
-    "title": "FGFR::TACC transforming fusions",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3677224/",
-    "kind": "primary_study",
-    "citation_label": "FGFR::TACC transforming fusions",
-    "accessed_on": "2026-11-27",
-    "review_scope": "FGFR3::TACC3 and FGFR1::TACC1 kinase retention, transformation and mouse inhibition.",
-    "access_level": "selected_fulltext_excerpt",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
@@ -374,28 +176,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "nrg1",
-    "title": "NRG1 fusion solid tumor cohort",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7470623/",
-    "kind": "primary_study",
-    "citation_label": "NRG1 fusion solid tumor cohort",
-    "accessed_on": "2026-11-27",
-    "review_scope": "CD74, SLC3A2 and ATP1B1 fusion detection; retention of ligand domain.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "nrg1-trial",
-    "title": "Zenocutuzumab NRG1-positive cancer trial",
-    "url": "https://doi.org/10.1056/NEJMoa2405008",
-    "kind": "primary_study",
-    "citation_label": "Zenocutuzumab NRG1-positive cancer trial",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Clinical activity across NRG1 partners.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "kif5b-alk",
     "title": "KIF5B::ALK lung cancer response",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33832282/",
@@ -415,28 +195,6 @@
     "accessed_on": "2026-11-27",
     "review_scope": "Single case crizotinib response.",
     "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ranbp2-alk",
-    "title": "Epithelioid inflammatory myofibroblastic sarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/21164297/",
-    "kind": "primary_study",
-    "citation_label": "Epithelioid inflammatory myofibroblastic sarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "RANBP2::ALK association, nuclear membrane staining and aggressive course.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "imt-trial",
-    "title": "Crizotinib in ALK-rearranged IMT",
-    "url": "https://doi.org/10.1056/NEJMoa1007056",
-    "kind": "primary_study",
-    "citation_label": "Crizotinib in ALK-rearranged IMT",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Clinical ALK inhibition in IMT.",
-    "access_level": "web_summary",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
@@ -462,94 +220,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "etv6-ntrk2",
-    "title": "ETV6::NTRK2 pulmonary atypical carcinoid",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/38584068/",
-    "kind": "primary_study",
-    "citation_label": "ETV6::NTRK2 pulmonary atypical carcinoid",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Case-level entrectinib response; do not present as a common lung subtype.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "etv6-ntrk3-mech",
-    "title": "ETV6::NTRK3 transforming kinase",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/10702799/",
-    "kind": "primary_study",
-    "citation_label": "ETV6::NTRK3 transforming kinase",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Intact ETV6 dimerization and NTRK3 kinase domains required for transformation.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "etv6-ntrk3-breast",
-    "title": "ETV6::NTRK3 in secretory breast carcinoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/12450792/",
-    "kind": "primary_study",
-    "citation_label": "ETV6::NTRK3 in secretory breast carcinoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Secretory breast carcinoma association and transforming protein.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "etv6-ntrk3-fs",
-    "title": "ETV6::NTRK3 in congenital fibrosarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/9462753/",
-    "kind": "primary_study",
-    "citation_label": "ETV6::NTRK3 in congenital fibrosarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Discovery in infantile fibrosarcoma.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "etv6-ret",
-    "title": "RET rearrangement in salivary secretory carcinoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/33301751/",
-    "kind": "primary_study",
-    "citation_label": "RET rearrangement in salivary secretory carcinoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "ETV6/RET fusion as an alternative to NTRK3 in salivary secretory carcinoma.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "lgg",
-    "title": "Pediatric low-grade glioma whole-genome study",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3727232/",
-    "kind": "primary_study",
-    "citation_label": "Pediatric low-grade glioma whole-genome study",
-    "accessed_on": "2026-11-27",
-    "review_scope": "BRAF/RAF1 and MYB alterations.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "raf-mech",
-    "title": "RAF fusion activation in pilocytic astrocytoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/19373855/",
-    "kind": "primary_study",
-    "citation_label": "RAF fusion activation in pilocytic astrocytoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "KIAA1549::BRAF and SRGAP3::RAF1 loss of inhibitory domains and kinase activation.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "fam131b",
-    "title": "FAM131B::BRAF functional study",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/21424530/",
-    "kind": "primary_study",
-    "citation_label": "FAM131B::BRAF functional study",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Deletion-derived fusion; constitutive MEK phosphorylation and transformation.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "raf1",
     "title": "RAF1 fusion oncogenicity and drug response",
     "url": "https://www.nature.com/articles/onc2017276",
@@ -558,17 +228,6 @@
     "accessed_on": "2026-11-27",
     "review_scope": "QKI::RAF1 and SRGAP3::RAF1 oligomerization and preclinical drug response.",
     "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "myb-qki",
-    "title": "MYB/MYBL1-altered low-grade glioma cohort",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/38466086/",
-    "kind": "primary_study",
-    "citation_label": "MYB/MYBL1-altered low-grade glioma cohort",
-    "accessed_on": "2026-11-27",
-    "review_scope": "MYB::QKI and integrated tumor association.",
-    "access_level": "abstract_or_search_excerpt",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
@@ -627,237 +286,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "plag1",
-    "title": "LIFR/CTNNB1 promoter substitution and PLAG1",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/9525740/",
-    "kind": "primary_study",
-    "citation_label": "LIFR/CTNNB1 promoter substitution and PLAG1",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Promoter swapping in pleomorphic adenoma; not proof of malignant behavior.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ss18",
-    "title": "SS18::SSX retargets BAF complexes",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/29861296/",
-    "kind": "primary_study",
-    "citation_label": "SS18::SSX retargets BAF complexes",
-    "accessed_on": "2026-11-27",
-    "review_scope": "BAF chromatin retargeting and oncogenic expression programs.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ss18-mech",
-    "title": "SS18::SSX changes BAF complex composition",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/23540691/",
-    "kind": "primary_study",
-    "citation_label": "SS18::SSX changes BAF complex composition",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Competitive incorporation of fusion and BAF47 displacement.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "rms-prognosis",
-    "title": "PAX3/7::FOXO1 rhabdomyosarcoma outcomes",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39781573/",
-    "kind": "primary_study",
-    "citation_label": "PAX3/7::FOXO1 rhabdomyosarcoma outcomes",
-    "accessed_on": "2026-11-27",
-    "review_scope": "PAX3-specific adverse associations and FOXO1 fusion-based stratification.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ddit3",
-    "title": "FUS/EWSR1::DDIT3 in myxoid liposarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/17647282/",
-    "kind": "primary_study",
-    "citation_label": "FUS/EWSR1::DDIT3 in myxoid liposarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Pair detection and fusion type; not a universal prognosis by transcript.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "lgfms",
-    "title": "FUS::CREB3L1/2 in low-grade fibromyxoid sarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/15640831/",
-    "kind": "primary_study",
-    "citation_label": "FUS::CREB3L1/2 in low-grade fibromyxoid sarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Pair detection in low-grade fibromyxoid sarcoma.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "creb3l2",
-    "title": "FUS::CREB3L2 functional characterization",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/17117415/",
-    "kind": "primary_study",
-    "citation_label": "FUS::CREB3L2 functional characterization",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Chimeric transcription factor biology.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "sef",
-    "title": "EWSR1::CREB3L1 in sclerosing epithelioid fibrosarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/24441665/",
-    "kind": "primary_study",
-    "citation_label": "EWSR1::CREB3L1 in sclerosing epithelioid fibrosarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Recurrent fusion and distinction from fibromyxoid sarcoma.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "graceful",
-    "title": "GRACefUl round cell sarcoma outcomes",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/36791667/",
-    "kind": "primary_study",
-    "citation_label": "GRACefUl round cell sarcoma outcomes",
-    "accessed_on": "2026-11-27",
-    "review_scope": "CIC-rearranged versus BCOR::CCNB3 outcomes in retrospective cohort.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "patz1",
-    "title": "EWSR1::PATZ1 polyphenotypic sarcoma series",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6590674/",
-    "kind": "primary_study",
-    "citation_label": "EWSR1::PATZ1 polyphenotypic sarcoma series",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Distinct spindle/round-cell sarcoma.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "hey1",
-    "title": "HEY1::NCOA2 in mesenchymal chondrosarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/22034177/",
-    "kind": "primary_study",
-    "citation_label": "HEY1::NCOA2 in mesenchymal chondrosarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Discovery and recurrent in-frame fusion.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "hey1-functional",
-    "title": "HEY1::NCOA2 tumorigenesis study",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/35342947/",
-    "kind": "primary_study",
-    "citation_label": "HEY1::NCOA2 tumorigenesis study",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Functional transcriptional consequences.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "nr4a3",
-    "title": "EWSR1/TAF15::NR4A3 extraskeletal myxoid chondrosarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/36948401/",
-    "kind": "primary_study",
-    "citation_label": "EWSR1/TAF15::NR4A3 extraskeletal myxoid chondrosarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Fusion distribution; variant morphology.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ehe",
-    "title": "WWTR1::CAMTA1 and YAP1::TFE3 vascular tumor cohort",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/24986479/",
-    "kind": "primary_study",
-    "citation_label": "WWTR1::CAMTA1 and YAP1::TFE3 vascular tumor cohort",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Molecular definition of vascular tumor subsets.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ehe-prognosis",
-    "title": "EHE molecular-subset prognostic study",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7228463/",
-    "kind": "primary_study",
-    "citation_label": "EHE molecular-subset prognostic study",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Outcome heterogeneity; not automatic malignancy grade from fusion.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "hgess",
-    "title": "YWHAE/NUTM2 and ZC3H7B/BCOR stromal sarcoma study",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/28621321/",
-    "kind": "primary_study",
-    "citation_label": "YWHAE/NUTM2 and ZC3H7B/BCOR stromal sarcoma study",
-    "accessed_on": "2026-11-27",
-    "review_scope": "High-grade stromal histologies and BCOR expression.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "jazf1",
-    "title": "JAZF1::SUZ12 and PRC2 disruption",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27845897/",
-    "kind": "primary_study",
-    "citation_label": "JAZF1::SUZ12 and PRC2 disruption",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Chromatin repression effects in stromal tumorigenesis.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "pax3-maml3",
-    "title": "Biphenotypic sinonasal sarcoma fusion cohort",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27454570/",
-    "kind": "primary_study",
-    "citation_label": "Biphenotypic sinonasal sarcoma fusion cohort",
-    "accessed_on": "2026-11-27",
-    "review_scope": "PAX3::MAML3 and alternative PAX3 fusions.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "vgll2",
-    "title": "Infantile rhabdomyosarcoma VGLL2 fusions",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/26501226/",
-    "kind": "primary_study",
-    "citation_label": "Infantile rhabdomyosarcoma VGLL2 fusions",
-    "accessed_on": "2026-11-27",
-    "review_scope": "VGLL2::CITED2 and VGLL2::NCOA2; clinical course in infantile cases.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "nab2",
-    "title": "NAB2::STAT6 in solitary fibrous tumor",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/23313952/",
-    "kind": "primary_study",
-    "citation_label": "NAB2::STAT6 in solitary fibrous tumor",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Recurrent fusion and transcriptional activation.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "dfsp",
-    "title": "Imatinib in fusion-associated DFSP",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/24173542/",
-    "kind": "primary_study",
-    "citation_label": "Imatinib in fusion-associated DFSP",
-    "accessed_on": "2026-11-27",
-    "review_scope": "PDGFB overexpression and PDGFRB signaling; phase II clinical activity.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "nut-prognosis",
     "title": "NUT carcinoma site-and-fusion outcome study",
     "url": "https://pubmed.ncbi.nlm.nih.gov/32328562/",
@@ -865,17 +293,6 @@
     "citation_label": "NUT carcinoma site-and-fusion outcome study",
     "accessed_on": "2026-11-27",
     "review_scope": "Site-stratified BRD4 versus BRD3/NSD3 outcomes; no uniform prognosis from pair alone.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "tmprss2",
-    "title": "TMPRSS2::ETS fusions in prostate carcinoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/16254181/",
-    "kind": "primary_study",
-    "citation_label": "TMPRSS2::ETS fusions in prostate carcinoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Androgen-regulated ERG/ETV1 overexpression.",
     "access_level": "abstract_or_search_excerpt",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
@@ -1001,17 +418,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "braf-resistance",
-    "title": "FDA tovorafenib multidisciplinary review",
-    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217700Orig1s000,%20218033Orig1s000MultidisciplineR.pdf",
-    "kind": "regulatory_reference",
-    "citation_label": "FDA tovorafenib multidisciplinary review",
-    "accessed_on": "2026-11-27",
-    "review_scope": "BRAF V600-selective agents do not reproduce activity against BRAF fusion dimers; paradoxical activation.",
-    "access_level": "official_label_or_approval_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "eml4-alk",
     "title": "EML4::ALK transforming fusion discovery",
     "url": "https://pubmed.ncbi.nlm.nih.gov/17625570/",
@@ -1030,17 +436,6 @@
     "citation_label": "CRTC1/3::MAML2 mucoepidermoid carcinoma outcomes",
     "accessed_on": "2026-11-27",
     "review_scope": "Retrospective cohort; favorable association not a guarantee or basis for treatment de-escalation.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "myb-nfib",
-    "title": "MYB/MYBL1::NFIB adenoid cystic carcinoma cohort",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34413003/",
-    "kind": "primary_study",
-    "citation_label": "MYB/MYBL1::NFIB adenoid cystic carcinoma cohort",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Pair-specific RNA detection and expression.",
     "access_level": "abstract_or_search_excerpt",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
@@ -1188,28 +583,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-6385",
-    "title": "SDC4 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/6385",
-    "kind": "gene_reference",
-    "citation_label": "SDC4 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-7430",
-    "title": "EZR — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/7430",
-    "kind": "gene_reference",
-    "citation_label": "EZR — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-7170",
     "title": "TPM3 — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/7170",
@@ -1265,17 +638,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-8878",
-    "title": "SQSTM1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/8878",
-    "kind": "gene_reference",
-    "citation_label": "SQSTM1 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-4916",
     "title": "NTRK3 — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/4916",
@@ -1314,28 +676,6 @@
     "url": "https://www.ncbi.nlm.nih.gov/gene/80114",
     "kind": "gene_reference",
     "citation_label": "BICC1 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-10768",
-    "title": "AHCYL1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/10768",
-    "kind": "gene_reference",
-    "citation_label": "AHCYL1 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-9118",
-    "title": "INA — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/9118",
-    "kind": "gene_reference",
-    "citation_label": "INA — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -1419,17 +759,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-7171",
-    "title": "TPM4 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/7171",
-    "kind": "gene_reference",
-    "citation_label": "TPM4 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-1213",
     "title": "CLTC — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/1213",
@@ -1446,17 +775,6 @@
     "url": "https://www.ncbi.nlm.nih.gov/gene/5903",
     "kind": "gene_reference",
     "citation_label": "RANBP2 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-833",
-    "title": "CARS1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/833",
-    "kind": "gene_reference",
-    "citation_label": "CARS1 — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -1683,17 +1001,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-4302",
-    "title": "MLLT6 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/4302",
-    "kind": "gene_reference",
-    "citation_label": "MLLT6 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-4928",
     "title": "NUP98 — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/4928",
@@ -1732,28 +1039,6 @@
     "url": "https://www.ncbi.nlm.nih.gov/gene/3205",
     "kind": "gene_reference",
     "citation_label": "HOXA9 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-3239",
-    "title": "HOXD13 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/3239",
-    "kind": "gene_reference",
-    "citation_label": "HOXD13 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-1662",
-    "title": "DDX10 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/1662",
-    "kind": "gene_reference",
-    "citation_label": "DDX10 — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -1820,17 +1105,6 @@
     "url": "https://www.ncbi.nlm.nih.gov/gene/8301",
     "kind": "gene_reference",
     "citation_label": "PICALM — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-6418",
-    "title": "SET — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/6418",
-    "kind": "gene_reference",
-    "citation_label": "SET — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -1980,39 +1254,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-92241",
-    "title": "RCSD1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/92241",
-    "kind": "gene_reference",
-    "citation_label": "RCSD1 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-1879",
-    "title": "EBF1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/1879",
-    "kind": "gene_reference",
-    "citation_label": "EBF1 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-23635",
-    "title": "SSBP2 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/23635",
-    "kind": "gene_reference",
-    "citation_label": "SSBP2 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-1436",
     "title": "CSF1R — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/1436",
@@ -2062,28 +1303,6 @@
     "url": "https://www.ncbi.nlm.nih.gov/gene/4209",
     "kind": "gene_reference",
     "citation_label": "MEF2D — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-607",
-    "title": "BCL9 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/607",
-    "kind": "gene_reference",
-    "citation_label": "BCL9 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-11100",
-    "title": "HNRNPUL1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/11100",
-    "kind": "gene_reference",
-    "citation_label": "HNRNPUL1 — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -2563,28 +1782,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-728118",
-    "title": "NUTM2A — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/728118",
-    "kind": "gene_reference",
-    "citation_label": "NUTM2A — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-729262",
-    "title": "NUTM2B — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/729262",
-    "kind": "gene_reference",
-    "citation_label": "NUTM2B — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-23264",
     "title": "ZC3H7B — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/23264",
@@ -2662,50 +1859,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "brd-nut",
-    "title": "BRD4::NUTM1/p300 structural mechanism",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9870903/",
-    "kind": "primary_study",
-    "citation_label": "BRD4::NUTM1/p300 structural mechanism",
-    "accessed_on": "2026-11-27",
-    "review_scope": "p300 recruitment and hyperacetylated megadomains.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "fda-asps",
-    "title": "FDA atezolizumab ASPS indication",
-    "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=769320",
-    "kind": "regulatory_reference",
-    "citation_label": "FDA atezolizumab ASPS indication",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Unresectable/metastatic ASPS age>=2; not a TFE3-fusion tumor-agnostic indication.",
-    "access_level": "official_label_or_approval_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "fda-synovial",
-    "title": "FDA afamitresgene autoleucel approval",
-    "url": "https://www.fda.gov/media/180568/download",
-    "kind": "regulatory_reference",
-    "citation_label": "FDA afamitresgene autoleucel approval",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Adults, previously treated advanced synovial sarcoma, specified HLA alleles and MAGE-A4 expression.",
-    "access_level": "official_label_or_approval_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "fda-trabectedin",
-    "title": "FDA trabectedin label (2026)",
-    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
-    "kind": "regulatory_reference",
-    "citation_label": "FDA trabectedin label (2026)",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Adults, unresectable/metastatic liposarcoma or leiomyosarcoma after anthracycline-containing therapy.",
-    "access_level": "official_label_or_approval_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-57670",
     "title": "KIAA1549 — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/57670",
@@ -2722,28 +1875,6 @@
     "url": "https://www.ncbi.nlm.nih.gov/gene/673",
     "kind": "gene_reference",
     "citation_label": "BRAF — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-9715",
-    "title": "FAM131B — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/9715",
-    "kind": "gene_reference",
-    "citation_label": "FAM131B — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-9901",
-    "title": "SRGAP3 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/9901",
-    "kind": "gene_reference",
-    "citation_label": "SRGAP3 — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -3025,17 +2156,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-3977",
-    "title": "LIFR — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/3977",
-    "kind": "gene_reference",
-    "citation_label": "LIFR — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ret-discovery",
     "title": "KIF5B::RET activating lung cancer fusion",
     "url": "https://pubmed.ncbi.nlm.nih.gov/22327624/",
@@ -3069,39 +2189,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "meaf6-phf1",
-    "title": "MEAF6::PHF1 in stromal sarcoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/24530230/",
-    "kind": "primary_study",
-    "citation_label": "MEAF6::PHF1 in stromal sarcoma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Recurrent PHF1 fusions and partner identities.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "phf1",
-    "title": "JAZF1/EPC1::PHF1 discovery",
-    "url": "https://doi.org/10.1158/0008-5472.CAN-05-2485",
-    "kind": "primary_study",
-    "citation_label": "JAZF1/EPC1::PHF1 discovery",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Recurrent PHF1 rearrangement and in-frame fusion products.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ptprz1-met",
-    "title": "PTPRZ1::MET activation in glioma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/25935522/",
-    "kind": "primary_study",
-    "citation_label": "PTPRZ1::MET activation in glioma",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Increased MET expression and phosphorylation, with experimental oncogenic effects.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "bcan",
     "title": "BCAN::NTRK1 engineered glioma models",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5508201/",
@@ -3110,17 +2197,6 @@
     "accessed_on": "2026-11-27",
     "review_scope": "Glioma-driving activity in chromosomal-engineering models.",
     "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ntrk-fda-review",
-    "title": "FDA larotrectinib multidisciplinary review",
-    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/210861Orig1s000_211710Orig1s000MultidisciplineR.pdf",
-    "kind": "regulatory_reference",
-    "citation_label": "FDA larotrectinib multidisciplinary review",
-    "accessed_on": "2026-11-27",
-    "review_scope": "QKI::NTRK2 and NACC2::NTRK2 listed with original Jones 2013 cohort.",
-    "access_level": "official_label_or_approval_excerpt",
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
@@ -3190,55 +2266,11 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "ncbi-4291",
-    "title": "MLF1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/4291",
-    "kind": "gene_reference",
-    "citation_label": "MLF1 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-5803",
-    "title": "PTPRZ1 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/5803",
-    "kind": "gene_reference",
-    "citation_label": "PTPRZ1 — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-4233",
     "title": "MET — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/4233",
     "kind": "gene_reference",
     "citation_label": "MET — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-63827",
-    "title": "BCAN — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/63827",
-    "kind": "gene_reference",
-    "citation_label": "BCAN — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-138151",
-    "title": "NACC2 — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/138151",
-    "kind": "gene_reference",
-    "citation_label": "NACC2 — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -3267,28 +2299,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "myeloma",
-    "title": "Myeloma proteogenomic landscape",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11358022/",
-    "kind": "primary_study",
-    "citation_label": "Myeloma proteogenomic landscape",
-    "accessed_on": "2026-11-27",
-    "review_scope": "IGH enhancer juxtaposition with NSD2/FGFR3 and protein expression.",
-    "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "myeloma-guidance",
-    "title": "CGC myeloma cytogenetic risk guidance",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12177088/",
-    "kind": "guideline_reference",
-    "citation_label": "CGC myeloma cytogenetic risk guidance",
-    "accessed_on": "2026-11-27",
-    "review_scope": "t(4;14), t(14;16), t(14;20) risk assessment and co-lesion requirements.",
-    "access_level": "web_summary",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
     "id": "ncbi-3492",
     "title": "IGH — NCBI Gene",
     "url": "https://www.ncbi.nlm.nih.gov/gene/3492",
@@ -3305,17 +2315,6 @@
     "url": "https://www.ncbi.nlm.nih.gov/gene/4609",
     "kind": "gene_reference",
     "citation_label": "MYC — NCBI Gene",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Normal partner function only; not fusion oncogenicity.",
-    "access_level": "reference_link_and_existing_gene_curation",
-    "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
-  },
-  {
-    "id": "ncbi-50802",
-    "title": "IGK — NCBI Gene",
-    "url": "https://www.ncbi.nlm.nih.gov/gene/50802",
-    "kind": "gene_reference",
-    "citation_label": "IGK — NCBI Gene",
     "accessed_on": "2026-11-27",
     "review_scope": "Normal partner function only; not fusion oncogenicity.",
     "access_level": "reference_link_and_existing_gene_curation",
@@ -3575,17 +2574,6 @@
     "reuse_notes": "Original synthesis with source link; no copied abstract or licensed summary. Specialist claim adjudication pending."
   },
   {
-    "id": "set-nup214",
-    "title": "SET::NUP214 HOXA activation in T-ALL",
-    "url": "https://doi.org/10.1182/blood-2007-09-111872",
-    "kind": "primary_study",
-    "citation_label": "SET::NUP214 functional study",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Direct SET::NUP214 binding at HOXA loci and siRNA-dependent growth/differentiation.",
-    "access_level": "abstract_or_search_excerpt",
-    "reuse_notes": "Original synthesis; citation audit pending."
-  },
-  {
     "id": "cars-alk",
     "title": "CARS::ALK in primary and metastatic IMT",
     "url": "https://www.nature.com/articles/3780715",
@@ -3594,17 +2582,6 @@
     "accessed_on": "2026-11-27",
     "review_scope": "Sequenced CARS1/ALK in-frame fusion with retained kinase and protein expression.",
     "access_level": "selected_fulltext_excerpt",
-    "reuse_notes": "Original synthesis; citation audit pending."
-  },
-  {
-    "id": "cltc-tfe3",
-    "title": "CLTC::TFE3 pediatric renal carcinoma",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/12917640/",
-    "kind": "primary_study",
-    "citation_label": "CLTC::TFE3 renal carcinoma discovery",
-    "accessed_on": "2026-11-27",
-    "review_scope": "Direct CLTC::TFE3 fusion cloning from renal carcinoma.",
-    "access_level": "abstract_or_search_excerpt",
     "reuse_notes": "Original synthesis; citation audit pending."
   },
   {
@@ -3639,5 +2616,566 @@
     "review_scope": "FGFR3::TACC3 inclusion in urothelial efficacy population; not a glioma approval.",
     "access_level": "official_label_or_approval_excerpt",
     "reuse_notes": "Original synthesis; date-specific US indication."
+  },
+  {
+    "id": "icc-eo",
+    "title": "International Consensus Classification of eosinophilic disorders and systemic mastocytosis",
+    "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+    "kind": "classification",
+    "citation_label": "International Consensus Classification of eosinophilic disorders and systemic mastocytosis",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body/results review documented in audit-heme.json.",
+    "access_level": "authoritative_reference",
+    "reuse_notes": "Original synthesis, linked primary source; no copied article text."
+  },
+  {
+    "id": "nci-genomics",
+    "title": "Childhood Cancer Genomics (PDQ), health professional version",
+    "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
+    "kind": "guideline",
+    "citation_label": "Childhood Cancer Genomics (PDQ), health professional version",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body/results review documented in audit-heme.json.",
+    "access_level": "authoritative_reference",
+    "reuse_notes": "Original synthesis, linked primary source; no copied article text."
+  },
+  {
+    "id": "malt-pathology",
+    "title": "MALT lymphoma: a practical guide for pathologists",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2001121/",
+    "kind": "review",
+    "citation_label": "MALT lymphoma: a practical guide for pathologists",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body/results review documented in audit-heme.json.",
+    "access_level": "authoritative_reference",
+    "reuse_notes": "Original synthesis, linked primary source; no copied article text."
+  },
+  {
+    "id": "malt-eradication-primary",
+    "title": "t(11;18) is a marker for all stage gastric MALT lymphomas that will not respond to H. pylori eradication",
+    "url": "https://www.rifathamoudi.co.uk/publications/Gastroenterology_2002_May_122_5_1286_94.pdf",
+    "kind": "primary_study",
+    "citation_label": "t(11;18) is a marker for all stage gastric MALT lymphomas that will not respond to H. pylori eradication",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body/results review documented in audit-heme.json.",
+    "access_level": "primary_body_or_results",
+    "reuse_notes": "Original synthesis, linked primary source; no copied article text."
+  },
+  {
+    "id": "burkitt-genomic-primary",
+    "title": "Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10023728/",
+    "kind": "primary_study",
+    "citation_label": "Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body/results review documented in audit-heme.json.",
+    "access_level": "primary_body_or_results",
+    "reuse_notes": "Original synthesis, linked primary source; no copied article text."
+  },
+  {
+    "id": "myeloma-fish-guidance",
+    "title": "Guidelines for testing and reporting cytogenetic results for risk stratification of multiple myeloma",
+    "url": "https://www.nature.com/articles/s41408-025-01286-w",
+    "kind": "guideline",
+    "citation_label": "Guidelines for testing and reporting cytogenetic results for risk stratification of multiple myeloma",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body/results review documented in audit-heme.json.",
+    "access_level": "authoritative_reference",
+    "reuse_notes": "Original synthesis, linked primary source; no copied article text."
+  },
+  {
+    "id": "audit-sarcoma-fli1",
+    "title": "EWSR1-FLI1 enhancer reprogramming",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4492343/",
+    "kind": "primary_study",
+    "citation_label": "EWSR1-FLI1 enhancer reprogramming",
+    "accessed_on": "2026-11-27",
+    "review_scope": "ChIP-seq in Ewing cell lines and primary tumors; enhancer and transcriptional reprogramming.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-ss18",
+    "title": "SS18-SSX alters BAF complex composition",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3655887/",
+    "kind": "primary_study",
+    "citation_label": "SS18-SSX alters BAF complex composition",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Direct functional experiments in SS18::SSX1-bearing Aska-SS and Yamato-SS cells; not pair-specific functional validation of SSX4.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-rms",
+    "title": "CWS PAX3/7::FOXO1 outcome cohort",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11712121/",
+    "kind": "primary_study",
+    "citation_label": "CWS PAX3/7::FOXO1 outcome cohort",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Alveolar rhabdomyosarcoma cohort; partner-specific outcome analyses stratified by localized/metastatic disease.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-ddit3",
+    "title": "FUS-DDIT3 blocks adipocytic differentiation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2434200/",
+    "kind": "primary_study",
+    "citation_label": "FUS-DDIT3 blocks adipocytic differentiation",
+    "accessed_on": "2026-11-27",
+    "review_scope": "FUS-DDIT3 transgenic tumors and cell differentiation experiments; not EWSR1-DDIT3-specific functional evidence.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-dfsp",
+    "title": "Imatinib in advanced DFSP pooled phase II trials",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3040044/",
+    "kind": "primary_study",
+    "citation_label": "Imatinib in advanced DFSP pooled phase II trials",
+    "accessed_on": "2026-11-27",
+    "review_scope": "COL1A1-PDGFB-associated advanced DFSP including fibrosarcomatous tumors; responses to imatinib.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-nab2",
+    "title": "NAB2-STAT6 in solitary fibrous tumors",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3654808/",
+    "kind": "primary_study",
+    "citation_label": "NAB2-STAT6 in solitary fibrous tumors",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Fusion detection, domain structure, nuclear localization and EGR1-dependent reporter/proliferation experiments.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-creb",
+    "title": "FET-CREB fusion tumor molecular cohort",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+    "kind": "primary_study",
+    "citation_label": "FET-CREB fusion tumor molecular cohort",
+    "accessed_on": "2026-11-27",
+    "review_scope": "137-tumor cohort: EWSR1-ATF1 in clear cell sarcoma, AFH and HCCC; EWSR1-CREB1 in AFH and gastrointestinal tumors; FUS-ATF1 observed in mesothelioma.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-lgfms",
+    "title": "Molecular findings in LGFMS and SEF cohort",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13716661/",
+    "kind": "primary_study",
+    "citation_label": "Molecular findings in LGFMS and SEF cohort",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Direct detection of FUS-CREB3L2 in LGFMS/hybrid tumors and EWSR1-CREB3L1 in SEF; no direct functional assay or FUS-CREB3L1 detection in this series.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-nfatc2",
+    "title": "EWSR1/FUS-NFATC2 tumor cohort",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8140100/",
+    "kind": "primary_study",
+    "citation_label": "EWSR1/FUS-NFATC2 tumor cohort",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Fusion-positive mesenchymal tumor series; breakpoint architecture and clinical/pathological observations.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-patz1",
+    "title": "EWSR1-PATZ1 sarcomas with polyphenotypic differentiation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6590674/",
+    "kind": "primary_study",
+    "citation_label": "EWSR1-PATZ1 sarcomas with polyphenotypic differentiation",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Two directly studied tumors with neural and myogenic markers; both negative for tested epithelial markers.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-hey1",
+    "title": "HEY1-NCOA2-induced mesenchymal chondrosarcoma model",
+    "url": "https://insight.jci.org/articles/view/160279",
+    "kind": "primary_study",
+    "citation_label": "HEY1-NCOA2-induced mesenchymal chondrosarcoma model",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Fusion expression in embryonic osteochondroprogenitors generated biphasic tumors; DNA-binding and RUNX2 interaction experiments.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-nr4a3",
+    "title": "NR4A3 fusion variants in extraskeletal myxoid chondrosarcoma",
+    "url": "https://www.modernpathology.org/article/S0893395223000662/pdf",
+    "kind": "primary_study",
+    "citation_label": "NR4A3 fusion variants in extraskeletal myxoid chondrosarcoma",
+    "accessed_on": "2026-11-27",
+    "review_scope": "58 primary EMCs; EWSR1-NR4A3 and TAF15-NR4A3 confirmed by RNA sequencing/RT-PCR/FISH. Functional transcriptional effects not tested.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-ehe",
+    "title": "TAZ-CAMTA1 and YAP-TFE3 fusion transcriptional biology",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8143797/",
+    "kind": "primary_study",
+    "citation_label": "TAZ-CAMTA1 and YAP-TFE3 fusion transcriptional biology",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Fusion domain architecture and oncogenic transcription/transformation assays.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-yap-discovery",
+    "title": "YAP1-TFE3-associated vascular tumors",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4089994/",
+    "kind": "primary_study",
+    "citation_label": "YAP1-TFE3-associated vascular tumors",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Ten vascular tumors with distinctive morphology and TFE3 staining; transcript validation in two cases.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-jazf1",
+    "title": "JAZF1-SUZ12 disrupts PRC2 regulation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9637993/",
+    "kind": "primary_study",
+    "citation_label": "JAZF1-SUZ12 disrupts PRC2 regulation",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Altered PRC2 composition, chromatin occupancy, H3K27 methylation and differentiation in experimental models.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-hgess",
+    "title": "BCOR expression in molecularly defined high-grade ESS",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916794/",
+    "kind": "primary_study",
+    "citation_label": "BCOR expression in molecularly defined high-grade ESS",
+    "accessed_on": "2026-11-27",
+    "review_scope": "YWHAE-NUTM2 high-grade round-cell tumors show diffuse BCOR; ZC3H7B-BCOR tumors show spindle/myxoid morphology with variable BCOR staining.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-pax3-maml3",
+    "title": "PAX3-MAML3 discovery and function",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4236026/",
+    "kind": "primary_study",
+    "citation_label": "PAX3-MAML3 discovery and function",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Indexed full primary-body passages and figure legends: DNA-binding/transactivation domains, reporter activity and tumor expression profiling. Original server returned CAPTCHA.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-vgll2",
+    "title": "Infantile spindle cell rhabdomyosarcoma VGLL2 fusions",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712098/",
+    "kind": "primary_study",
+    "citation_label": "Infantile spindle cell rhabdomyosarcoma VGLL2 fusions",
+    "accessed_on": "2026-11-27",
+    "review_scope": "VGLL2-CITED2 and VGLL2-NCOA2 molecular detection; small infantile fusion-positive cohort with long-term survivors and local recurrences.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-phf1",
+    "title": "JAZF1-PHF1 and EPC1-PHF1 discovery",
+    "url": "https://aacrjournals.org/cancerres/article/66/1/107/525848/Consistent-Rearrangement-of-Chromosomal-Band-6p21",
+    "kind": "primary_study",
+    "citation_label": "JAZF1-PHF1 and EPC1-PHF1 discovery",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Indexed primary molecular Results/Figure 3 for JAZF1-PHF1 and own-study Discussion detailing case 3 EPC1-PHF1 open reading frame; Polycomb consequences explicitly speculative.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-meaf6",
+    "title": "MEAF6-PHF1 in endometrial stromal sarcoma",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3382230/",
+    "kind": "primary_study",
+    "citation_label": "MEAF6-PHF1 in endometrial stromal sarcoma",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Sequenced MEAF6 exon 5-PHF1 exon 2 transcript in an ESS; altered HAT targeting is a hypothesis, not demonstrated fusion mechanism.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-ofmt",
+    "title": "ZC3H7B-BCOR, MEAF6-PHF1 and EPC1-PHF1 in OFMT",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4053209/",
+    "kind": "primary_study",
+    "citation_label": "ZC3H7B-BCOR, MEAF6-PHF1 and EPC1-PHF1 in OFMT",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Molecularly validated fusions in ossifying fibromyxoid tumors; establishes associations beyond ESS.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-nci-sts",
+    "title": "NCI childhood soft tissue sarcoma PDQ",
+    "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+    "kind": "classification_reference",
+    "citation_label": "NCI childhood soft tissue sarcoma PDQ",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+    "access_level": "guideline",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-nci-ewing",
+    "title": "NCI Ewing sarcoma PDQ",
+    "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+    "kind": "classification_reference",
+    "citation_label": "NCI Ewing sarcoma PDQ",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+    "access_level": "guideline",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-fda-afami",
+    "title": "FDA TECELRA prescribing information",
+    "url": "https://www.fda.gov/media/180568/download",
+    "kind": "regulatory_reference",
+    "citation_label": "FDA TECELRA prescribing information",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Adults with unresectable/metastatic synovial sarcoma after chemotherapy, specified HLA-A*02 alleles and MAGE-A4 expression.",
+    "access_level": "official_regulatory",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-fda-trabectedin",
+    "title": "FDA trabectedin prescribing information (2026)",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
+    "kind": "regulatory_reference",
+    "citation_label": "FDA trabectedin prescribing information (2026)",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Adults with unresectable/metastatic liposarcoma or leiomyosarcoma previously treated with anthracycline-containing regimen.",
+    "access_level": "official_regulatory",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-fda-asps",
+    "title": "FDA atezolizumab ASPS approval record",
+    "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=769320",
+    "kind": "regulatory_reference",
+    "citation_label": "FDA atezolizumab ASPS approval record",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Adults and pediatric patients age 2 and older with unresectable or metastatic ASPS.",
+    "access_level": "official_regulatory",
+    "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+  },
+  {
+    "id": "audit-sarcoma-asps-function",
+    "title": "ASPSCR1::TFE3 regulates ASPS transcription",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11250573/",
+    "kind": "primary_study",
+    "citation_label": "ASPSCR1::TFE3 regulates ASPS transcription",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Fusion degradation, RNA-seq and target regulation in ASPS models; direct transcriptional activity.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis from indexed primary Results and figure passages; direct PMC URL returned CAPTCHA/inaccessible."
+  },
+  {
+    "id": "audit-sarcoma-asps-renal",
+    "title": "ASPSCR1-TFE3 renal carcinoma molecular cohort",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11200839/",
+    "kind": "primary_study",
+    "citation_label": "ASPSCR1-TFE3 renal carcinoma molecular cohort",
+    "accessed_on": "2026-11-27",
+    "review_scope": "RNA-seq-defined ASPSCR1-TFE3 renal carcinoma subgroup; used here only for tumor association, not treatment recommendation.",
+    "access_level": "primary_fulltext",
+    "reuse_notes": "Original synthesis from indexed primary Results and figure passages; direct PMC URL returned CAPTCHA/inaccessible."
+  },
+  {
+    "id": "audit-solid-etv6-ret",
+    "title": "ETV6::RET secretory carcinoma case report",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11904770/",
+    "kind": "primary_study",
+    "citation_label": "ETV6::RET secretory carcinoma case report",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Direct ETV6::RET detection in salivary secretory carcinoma. Original33301751 only confirmed RET rearrangement and was insufficient for exact partner claim.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-nrg1-registry",
+    "title": "eNRGy1 primary NRG1 lung cancer registry",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8407651/",
+    "kind": "primary_study",
+    "citation_label": "eNRGy1 primary NRG1 lung cancer registry",
+    "accessed_on": "2026-11-27",
+    "review_scope": "CD74,SLC3A2 and ATP1B1 upstream partners; all studied fusions retained ERBB3-binding EGF domain.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-etv6-ntrk3-breast",
+    "title": "ETV6::NTRK3 breast epithelial transformation",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1535610802001800",
+    "kind": "primary_study",
+    "citation_label": "ETV6::NTRK3 breast epithelial transformation",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Transformation of mammary epithelial lines and secretory breast carcinoma association; no certification of every breakpoint/tumor.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-fgfr-tacc",
+    "title": "FGFR::TACC primary fusion experiments",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3677224/",
+    "kind": "primary_study",
+    "citation_label": "FGFR::TACC primary fusion experiments",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Fusion architecture, constitutive kinase and experimental transforming activity; FGFR3 inhibitor survival experiment is not a clinical glioma indication.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-brd4-megadomains",
+    "title": "BRD4-NUT chromatin megadomains primary study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4526735/",
+    "kind": "primary_study",
+    "citation_label": "BRD4-NUT chromatin megadomains primary study",
+    "accessed_on": "2026-11-27",
+    "review_scope": "BRD4-NUT, p300 and H3K27ac colocalize in megadomains with ectopic transcription.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-ptprz1-met-discovery",
+    "title": "RNA sequencing of272 gliomas: PTPRZ1-MET discovery",
+    "url": "https://genome.cshlp.org/content/early/2014/10/08/gr.165126.113.full.pdf",
+    "kind": "primary_study",
+    "citation_label": "RNA sequencing of272 gliomas: PTPRZ1-MET discovery",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Fusion validation; increased MET expression, phosphorylation in engineered cells and increased migration/invasion; historical secondary-GBM survival association.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-ntrk2-pa",
+    "title": "Recurrent somatic alterations of FGFR1 and NTRK2 in pilocytic astrocytoma",
+    "url": "https://pure.mpg.de/rest/items/item_1982973_2/component/file_2019248/content",
+    "kind": "primary_study",
+    "citation_label": "Recurrent somatic alterations of FGFR1 and NTRK2 in pilocytic astrocytoma",
+    "accessed_on": "2026-11-27",
+    "review_scope": "QKI-NTRK2 and NACC2-NTRK2 PCR-verified in three pilocytic astrocytomas, retain kinase; dimerization activation predicted rather than assayed.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-renal-63",
+    "title": "Integrated exome and RNA sequencing of TFE3-translocation RCC",
+    "url": "https://www.nature.com/articles/s41467-021-25618-z",
+    "kind": "primary_study",
+    "citation_label": "Integrated exome and RNA sequencing of TFE3-translocation RCC",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Direct SFPQ,NONO,PRCC,RBM10 patient fusion observations, RNA-recognition motif retention.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-renal-tfeb",
+    "title": "Primary translocation renal carcinoma genomic cohort",
+    "url": "https://www.jci.org/articles/view/170559/files/pdf",
+    "kind": "primary_study",
+    "citation_label": "Primary translocation renal carcinoma genomic cohort",
+    "accessed_on": "2026-11-27",
+    "review_scope": "RNA-sequenced MALAT1-TFEB in three patients; no claim that lysosomal/metabolic mechanism directly tested in every pair.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-cltc-tfe3",
+    "title": "Clathrin heavy chain gene fusions: cellular functional experiments",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3362863/",
+    "kind": "primary_study",
+    "citation_label": "Clathrin heavy chain gene fusions: cellular functional experiments",
+    "accessed_on": "2026-11-27",
+    "review_scope": "CLTC1-932/TFE3295-575 fusion construct retaining TFE3 DNA-binding/dimerization; cellular experiments, not original patient-discovery cohort.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-kiaa-braf",
+    "title": "Tandem duplication produces oncogenic KIAA1549-BRAF",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2577184/",
+    "kind": "primary_study",
+    "citation_label": "Tandem duplication produces oncogenic KIAA1549-BRAF",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Tandem duplication and retained kinase, constitutive kinase activity and anchorage-independent fibroblast growth.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-fam-braf",
+    "title": "Chromosome7q34 deletions with KIAA1549-BRAF and FAM131B-BRAF",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4282976/",
+    "kind": "primary_study",
+    "citation_label": "Chromosome7q34 deletions with KIAA1549-BRAF and FAM131B-BRAF",
+    "accessed_on": "2026-11-27",
+    "review_scope": "FAM131B-BRAF transcript and 7q34 deletion in pediatric low-grade glioma; pair-specific activity not assayed in this report.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-tmprss2-cohort",
+    "title": "TMPRSS2-ERG fusion in population-based prostate cancer cohort",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2519091/",
+    "kind": "primary_study",
+    "citation_label": "TMPRSS2-ERG fusion in population-based prostate cancer cohort",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Primary prostate carcinoma fusion observations; not independent test of androgen regulatory mechanism.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "audit-solid-mn1-cxxc5",
+    "title": "Astroblastoma molecular clinical stratification",
+    "url": "https://academic.oup.com/neuro-oncology/article/28/4/1005/8402143",
+    "kind": "primary_study",
+    "citation_label": "Astroblastoma molecular clinical stratification",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Five MN1-CXXC5 tumors clustered in NET-CXXC5 methylation group; MN1exon1/CXXC5exon2 breakpoints.",
+    "access_level": "primary_fulltext_body_excerpt",
+    "reuse_notes": "Original synthesis; evidence location retained in fusion audit."
+  },
+  {
+    "id": "picalm-cohort-primary",
+    "title": "Genomic and Global Gene Expression Profiling in Pediatric and Young Adult Acute Leukemia with PICALM::MLLT10 Fusion",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11896021/",
+    "kind": "primary_study",
+    "citation_label": "Genomic and Global Gene Expression Profiling in Pediatric and Young Adult Acute Leukemia with PICALM::MLLT10 Fusion",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body Results or explicitly identified reference passage, documented in audit-heme.json.",
+    "access_level": "primary_body_or_results",
+    "reuse_notes": "Original synthesis; no copied fulltext."
+  },
+  {
+    "id": "igh-bcl6-primary",
+    "title": "Molecular Cytogenetic Analyses of Immunoglobulin Loci in Nodular Lymphocyte Predominant Hodgkin Lymphoma Reveal a Recurrent IGH-BCL6 Juxtaposition",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1867541/",
+    "kind": "primary_study",
+    "citation_label": "Molecular Cytogenetic Analyses of Immunoglobulin Loci in Nodular Lymphocyte Predominant Hodgkin Lymphoma Reveal a Recurrent IGH-BCL6 Juxtaposition",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body Results or explicitly identified reference passage, documented in audit-heme.json.",
+    "access_level": "primary_body_or_results",
+    "reuse_notes": "Original synthesis; no copied fulltext."
+  },
+  {
+    "id": "ccnd-regulatory-reference",
+    "title": "CCND2 and CCND3 hijack immunoglobulin light-chain enhancers in cyclin D1-negative mantle cell lymphoma",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6396173/",
+    "kind": "review",
+    "citation_label": "CCND2 and CCND3 hijack immunoglobulin light-chain enhancers in cyclin D1-negative mantle cell lymphoma",
+    "accessed_on": "2026-11-27",
+    "review_scope": "Claim-scoped body Results or explicitly identified reference passage, documented in audit-heme.json.",
+    "access_level": "authoritative_reference",
+    "reuse_notes": "Original synthesis; no copied fulltext."
   }
 ]

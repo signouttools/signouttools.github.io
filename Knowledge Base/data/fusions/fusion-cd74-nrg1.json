@@ -16,7 +16,10 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Lung adenocarcinoma, often invasive mucinous"
+    "Lung adenocarcinoma"
+  ],
+  "disease_ids": [
+    "atlas-v-lung-adenocarcinoma"
   ],
   "sections": [
     {
@@ -27,26 +30,56 @@
         "ncbi-972"
       ],
       "claim_sha256": "89ed01d5790ba355092bae1fa84068d03e3ab705a06f26ad7f0e7e68a7e9b1ea",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-972",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/972",
+          "location": "NCBI Gene 972 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0adb65ec0885d57e957f852d498bf71bcc9a1e539ba0b7c6740f24d40c06445a"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NRG1",
-      "text": "NRG1 encodes neuregulin 1, a ligand for ERBB3/ERBB4 receptor signaling.",
+      "text": "NRG1 encodes neuregulin 1, a membrane-associated signaling ligand.",
       "source_ids": [
         "ncbi-3084"
       ],
-      "claim_sha256": "45d17d43a138a20f6b276e6de6a86cf48060f669a74f5d47f78b4ee23418070e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "48d662d1a42bddf99dcb80168e798276922bee209025d256e72ffbc3f08977f2",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3084",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3084",
+          "location": "NCBI Gene 3084 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b9f92fe9fac05e032c0ed25d0d45c08a7cef276d68b03ee644843a687c6098d5"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion preserves the NRG1 EGF-like ligand domain and promotes ERBB3 signaling through ERBB2/ERBB3 receptor complexes. This is a ligand-driven oncogenic mechanism rather than a kinase fusion. CD74::NRG1 has been detected in carcinomas.",
+      "text": "CD74::NRG1 occurs in lung adenocarcinoma. The fusion retains the NRG1 EGF-like ligand domain that binds ERBB3; this is a ligand-associated alteration rather than a receptor-kinase fusion.",
       "source_ids": [
-        "nrg1"
+        "audit-solid-nrg1-registry"
       ],
-      "claim_sha256": "d4a7832ed5a04dfc34e79c190aabb0e20609387e263cf3fcbee95d52ccf8875b",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e53876bdecd2822d527070a94b34be78af9a17a246abc18dd7dcb57a94da10d3",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-nrg1-registry",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8407651/",
+          "location": "Results, Molecular features; Figure 2B-D",
+          "scope": "CD74,SLC3A2 and ATP1B1 upstream partners; all studied fusions retained ERBB3-binding EGF domain.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -55,27 +88,42 @@
         "fda-nrg1"
       ],
       "claim_sha256": "c9614308dc89ff0acb7e32aed79aa5aaf5b5b6ce3b37940d6827c79dde9d675e",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-nrg1",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761352s010lbl.pdf",
+          "location": "Prescribing information Sections1.1-1.3, revised05/2026",
+          "scope": "Adult advanced unresectable/metastatic NSCLC,pancreatic adenocarcinoma,cholangiocarcinoma after prior systemic therapy.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "CD74 encodes the invariant chain required for major histocompatibility complex class II processing. NRG1 encodes neuregulin 1, a ligand for ERBB3/ERBB4 receptor signaling. The fusion preserves the NRG1 EGF-like ligand domain and promotes ERBB3 signaling through ERBB2/ERBB3 receptor complexes. This is a ligand-driven oncogenic mechanism rather than a kinase fusion. CD74::NRG1 has been detected in carcinomas. Zenocutuzumab, a HER2/HER3 bispecific antibody, has US indications for adults with NRG1-fusion-positive advanced unresectable or metastatic NSCLC, pancreatic adenocarcinoma or cholangiocarcinoma after progression on prior systemic therapy.",
+    "text": "CD74 encodes the invariant chain required for major histocompatibility complex class II processing. NRG1 encodes neuregulin 1, a membrane-associated signaling ligand. CD74::NRG1 occurs in lung adenocarcinoma. The fusion retains the NRG1 EGF-like ligand domain that binds ERBB3; this is a ligand-associated alteration rather than a receptor-kinase fusion. Zenocutuzumab, a HER2/HER3 bispecific antibody, has US indications for adults with NRG1-fusion-positive advanced unresectable or metastatic NSCLC, pancreatic adenocarcinoma or cholangiocarcinoma after progression on prior systemic therapy.",
     "source_ids": [
       "ncbi-972",
       "ncbi-3084",
-      "nrg1",
+      "audit-solid-nrg1-registry",
       "fda-nrg1"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "e0ab931abf581db74665285ebb5ac1afdda360a6e13f4e5ff4d409864e06c268"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "e4a7b4402d67cd3dfb2d22168eac6548dae66eec2a719aba800eba2f7b68ec90"
 }

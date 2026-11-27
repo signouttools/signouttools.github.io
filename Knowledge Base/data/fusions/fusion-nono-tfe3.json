@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "TFE3-rearranged renal cell carcinoma"
   ],
+  "disease_ids": [
+    "atlas-e-tfe3"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,48 +30,93 @@
         "ncbi-4841"
       ],
       "claim_sha256": "03f0c7d1c6779f88934ddbf102b0bca6593bdd85fb7bd29d7c35d66f8854988c",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4841",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4841",
+          "location": "NCBI Gene 4841 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "034b8f7a877abfc3db2a52114de3c052ff6345aac6d940404265185789aa6dcc"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "TFE3",
-      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "text": "TFE3 encodes an E-box-binding transcription factor.",
       "source_ids": [
         "ncbi-7030"
       ],
-      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "11d865f80a218ea86d61aeb8cd0f28730d25002af79b33311d54c1614c217a55",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7030",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7030",
+          "location": "NCBI Gene 7030 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "18d0d35ef562720235d390eb36f6c9013b602767fc4ed7a74b6971b2f65b228e"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. NONO::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+      "text": "NONO::TFE3 has been detected by RNA sequencing in TFE3-rearranged renal cell carcinoma. Reported TFE3 fusions retain the carboxy-terminal DNA-binding and dimerization region.",
       "source_ids": [
+        "audit-solid-renal-63",
         "renal"
       ],
-      "claim_sha256": "4c736d1765a3dcb8da6947c48237976de05ce53d7aaf8c3961068043729112cd",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "aaaa75270e26b8434d359520cb43a400b19a8446854dc38c6fd8624956517ae7",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-renal-63",
+          "url": "https://www.nature.com/articles/s41467-021-25618-z",
+          "location": "Results, Identification of TFE3-fusion partners and structures; Figure1A",
+          "scope": "Direct SFPQ,NONO,PRCC,RBM10 patient fusion observations, RNA-recognition motif retention.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        },
+        {
+          "source_id": "renal",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9127595/",
+          "location": "Results, MiT/TFE fusion landscape; Figure 3D and Table S2",
+          "scope": "Observed fusions retain HLH-LZ DNA-binding/dimerization region; does not establish exact mechanism or all historical pairs individually.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NONO encodes an RNA-binding protein involved in RNA processing and nuclear organization. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. NONO::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+    "text": "NONO encodes an RNA-binding protein involved in RNA processing and nuclear organization. TFE3 encodes an E-box-binding transcription factor. NONO::TFE3 has been detected by RNA sequencing in TFE3-rearranged renal cell carcinoma. Reported TFE3 fusions retain the carboxy-terminal DNA-binding and dimerization region.",
     "source_ids": [
       "ncbi-4841",
       "ncbi-7030",
+      "audit-solid-renal-63",
       "renal"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "No prognosis or treatment response assigned solely from the partner.",
     "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "734034ba1d1358af53284fc1538f19f22b517bcda3576657ad21a03f829dc2b7"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "54950abfc85ddc0c13933bb4879bec01c061d7318862124802b2bc99d1ed6ded"
 }

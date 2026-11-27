@@ -18,35 +18,68 @@
   "tumor_contexts": [
     "Thyroid carcinoma"
   ],
+  "disease_ids": [
+    "thyroid"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "SQSTM1",
-      "text": "SQSTM1 encodes p62, a signaling scaffold and selective-autophagy cargo receptor.",
+      "text": "SQSTM1 encodes sequestosome 1/p62.",
       "source_ids": [
-        "ncbi-8878"
+        "hgnc"
       ],
-      "claim_sha256": "122488e5777403f9dd66f12fb2380be2a71066190ab18f049d9d2dd939f74f37",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "fad1f6b1c222f4a9baf6fccfedc898b10e85bfa35c8ed565a946d40cf4fa1160",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:11280",
+          "location": "Approved HGNC snapshot row HGNC:11280 / SQSTM1",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NTRK3",
-      "text": "NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase.",
+      "text": "NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase.",
       "source_ids": [
         "ncbi-4916"
       ],
-      "claim_sha256": "39074bfd2a709ad144beab93f5b0b2f1d087b19fcabc6102b338ed45e5206ff3",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "68a5e4e1fb84e065d6925ecacfd4787dee312a1242504b1e9f4d9051aae4ca01",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4916",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4916",
+          "location": "NCBI Gene 4916 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7fc2c515dbc4dd53b333df89fc2da002ad825714aa01ac4290acd525d1b3c1f0"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. SQSTM1::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma.",
+      "text": "SQSTM1::NTRK3 has been detected in thyroid carcinomas. The primary cohort documents the upstream partner and NTRK fusion junctions; these alterations retain a carboxy-terminal TRK-containing product.",
       "source_ids": [
         "ntrk-thyroid"
       ],
-      "claim_sha256": "187867f6aa729bc53c3f47b1f8afdc05df1eeac6ac5acbd71e5cc894537295c2",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "5d6455347c9ede158286651d78aa02cfe1aeebb7f651cd351d0b934754f8ad4f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ntrk-thyroid",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867807/",
+          "location": "Results, NTRK fusions in pediatric and adult thyroid carcinomas; Figure 1; junction descriptions",
+          "scope": "SQSTM1/NTRK1 and EML4/SQSTM1/NTRK3 partner observations and junctions; no independent functional activation assay for every pair.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -55,29 +88,44 @@
         "fda-laro"
       ],
       "claim_sha256": "970ce55d339c0480dd23db38d9fce1c47aeea11ba48231546a463b664f63827f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-laro",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9525f887-a055-4e33-8e92-898d42828cd1",
+          "location": "DailyMed full prescribing information Section1",
+          "scope": "NTRK fusion without known acquired resistance; metastatic or surgery severe morbidity; prior progression/no satisfactory alternative.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "SQSTM1 encodes p62, a signaling scaffold and selective-autophagy cargo receptor. NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase. The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. SQSTM1::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+    "text": "SQSTM1 encodes sequestosome 1/p62. NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase. SQSTM1::NTRK3 has been detected in thyroid carcinomas. The primary cohort documents the upstream partner and NTRK fusion junctions; these alterations retain a carboxy-terminal TRK-containing product. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
     "source_ids": [
-      "ncbi-8878",
+      "hgnc",
       "ncbi-4916",
       "ntrk-thyroid",
       "fda-laro"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "b653f356e8cb8c60f5a75fc6abd31ddf32906344cb3bea0b463aeba3bafb62f6"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "ce2c03a0c4dab0cc497503b244e63e2b8b669d6259271cb0facd4c170cd1115e"
 }

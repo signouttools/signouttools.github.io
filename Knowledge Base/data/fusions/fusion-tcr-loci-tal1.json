@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "T-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-f1367cb5be80"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "TCR loci",
-      "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements.",
+      "text": "TCR loci are the gene regions encoding T-cell receptor chains.",
       "source_ids": [
         "all"
       ],
-      "claim_sha256": "b68a3e913c425381f2423aeedf2d2d1e656f0375a8e3468ff1441ffd28613cff",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "58a791854a120ffdb4e02573ffdf8208ded36fcd6aebd3aa7ff8d888afad15ad",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "NCI ALL classification: T-cell receptor locus rearrangements",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "authoritative_reference",
+          "document_sha256": null
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,36 +50,63 @@
         "ncbi-6886"
       ],
       "claim_sha256": "dee51cc7a8ffeb0e76e045bc0a0812c95c385955eb2bb432c07ed6f7e62ac8c6",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6886",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6886",
+          "location": "NCBI Gene 6886 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8cc163a09ef8bbad45ec17c77b20c14d3a65637f23d5f330138ea1926e1e87ed"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "T-cell-receptor regulatory rearrangements can activate TAL1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate TAL1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
       "source_ids": [
-        "all"
+        "nci-genomics"
       ],
-      "claim_sha256": "7115bc703a69a44c0b77c686d232bca13ed0f49825abff0860082bec564cc532",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "1c60063ff90d1daeb7973161877020dff7901246161b32a0af042daba1d333dd",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nci-genomics",
+          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
+          "location": "T-ALL: Chromosomal translocations, lines 277-280",
+          "scope": "Explicit listed transcription factor and TCR-locus regulatory rearrangements.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements. TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development. T-cell-receptor regulatory rearrangements can activate TAL1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+    "text": "TCR loci are the gene regions encoding T-cell receptor chains. TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development. Rearrangements involving T-cell-receptor regulatory loci can deregulate TAL1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
     "source_ids": [
       "all",
-      "ncbi-6886"
+      "ncbi-6886",
+      "nci-genomics"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+    "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "7712442f76b5fd69b0d126fadf0c0bc836a4c1de5f3d9e1f8c024346e7be31ed"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "e12c0253a8a7822c6b0ebd3d67ffc20b07a7dbe2d813c80bb095e91df341df94"
 }

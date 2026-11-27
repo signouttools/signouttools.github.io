@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Ph-like B-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-db1c59b8f11b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-5079"
       ],
       "claim_sha256": "82f40ae0455ff64d4c262db6b1e7bc098d0f1f53e4dac8fc70661ed9d5055483",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5079",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5079",
+          "location": "NCBI Gene 5079 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "049153be1296fee3c5dcec18f6fb0662ced3d22f53f99c81d6d99e96f08f0c5a"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,45 +50,82 @@
         "ncbi-3717"
       ],
       "claim_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3717",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3717",
+          "location": "NCBI Gene 3717 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ae674c741d110a87329c5bbda7966680f900808434b902ffe1f4786d8bbabece"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PAX5::JAK2 is a kinase-activating lesion in Ph-like B-ALL.",
+      "text": "PAX5::JAK2 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region.",
       "source_ids": [
         "phlike"
       ],
-      "claim_sha256": "c2f805fd5d0a6a036a896a4e053fa87db5f47394a4fbf97c8c8c7f5cd30dfc9e",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "0f169caff3716c6b904170dd2db9e3bd253f8b763013ee7ba20ed55302dcaa0a",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "phlike",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22897847/",
+          "location": "Results: kinase rearrangement identification; Figure 2/Table 1 and intact kinase-domain analysis",
+          "scope": "Direct sequencing evidence for ordered pair in B-ALL and kinase retention.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "JAK inhibition has experimental activity in JAK2-fusion-positive ALL models; this evidence is investigational for PAX5::JAK2 leukemia.",
+      "text": "JAK inhibition showed activity in experimental JAK2-fusion leukemia systems; this is preclinical evidence for this fusion class.",
       "source_ids": [
-        "phlike-functional"
+        "crlf2"
       ],
-      "claim_sha256": "cbbd0a8f211324edc437e70de6b9e156e05f0a138d585ea3c80d9b5202371c46",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "bb39f0c5a469b427b6ddf555ed68417b1ee78d49094ee3145c511072905c783f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "crlf2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191900/",
+          "location": "Results: kinase inhibitor assays / sensitivity to kinase inhibition; Figures 5-7 (Roberts 2012) or functional assays (Roberts 2014)",
+          "scope": "Preclinical class/selected-pair sensitivity; no response guarantee or FDA label inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PAX5::JAK2 is a kinase-activating lesion in Ph-like B-ALL. JAK inhibition has experimental activity in JAK2-fusion-positive ALL models; this evidence is investigational for PAX5::JAK2 leukemia.",
+    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. PAX5::JAK2 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region. JAK inhibition showed activity in experimental JAK2-fusion leukemia systems; this is preclinical evidence for this fusion class.",
     "source_ids": [
       "ncbi-5079",
       "ncbi-3717",
       "phlike",
-      "phlike-functional"
+      "crlf2"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "820a867a968b73713f983689d5f815e4aa0da1f8add3e3d10ffdd115d955c12b"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "7ddae5acf5f1e5ff9ca35bfc7edf147fc4732b76279aed4916017a7f8042795a"
 }

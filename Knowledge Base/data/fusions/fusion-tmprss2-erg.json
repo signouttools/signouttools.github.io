@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Prostate adenocarcinoma"
   ],
+  "disease_ids": [
+    "atlas-e-prad"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-7113"
       ],
       "claim_sha256": "4e4611c9a513c9a9ab3df184407317cb8320f6ae12f9be4c085c1274384bba9d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7113",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7113",
+          "location": "NCBI Gene 7113 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "79d1b9aeb7fc0b4780484c87658182cb2a282b77861669b5de67a30584863044"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,62 @@
         "ncbi-2078"
       ],
       "claim_sha256": "1f39dff201608e93a1735c1006918c0cb4f9ed68ca87dc66c89d34a3be019c37",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2078",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2078",
+          "location": "NCBI Gene 2078 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "fdcd254ddd17a0a9d903aebfff988a346549274dca371869a7088c3c58df1585"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement places ERG under androgen-responsive TMPRSS2 regulatory control, leading to abnormal ERG expression. It is a common molecular subtype of prostate adenocarcinoma and is primarily a regulatory fusion rather than a novel protease-kinase product.",
+      "text": "TMPRSS2::ERG is a recurrent prostate carcinoma rearrangement. Primary tumor FISH studies document fusion through either chromosomal deletion or translocation.",
       "source_ids": [
-        "tmprss2"
+        "audit-solid-tmprss2-cohort"
       ],
-      "claim_sha256": "19a16a6abee9bd58135adf123945044c596b92ed958bda4bc265782303d77e50",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "c85091ed67426fe44997591d8ebc05508f84b854003d9f9791fbc7cfa53e3fe1",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-tmprss2-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2519091/",
+          "location": "Methods and Results; Figures1-2, FISH fusion by translocation/deletion",
+          "scope": "Primary prostate carcinoma fusion observations; not independent test of androgen regulatory mechanism.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TMPRSS2 encodes an androgen-regulated transmembrane serine protease. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. The rearrangement places ERG under androgen-responsive TMPRSS2 regulatory control, leading to abnormal ERG expression. It is a common molecular subtype of prostate adenocarcinoma and is primarily a regulatory fusion rather than a novel protease-kinase product.",
+    "text": "TMPRSS2 encodes an androgen-regulated transmembrane serine protease. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. TMPRSS2::ERG is a recurrent prostate carcinoma rearrangement. Primary tumor FISH studies document fusion through either chromosomal deletion or translocation.",
     "source_ids": [
       "ncbi-7113",
       "ncbi-2078",
-      "tmprss2"
+      "audit-solid-tmprss2-cohort"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "No independent prognostic or drug-response claim assigned from fusion status alone."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "e56c029de23fb8e5622de2139ba880e67426039c3d5bd0c34af34b2de0fec25f"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "5a302b8377b50da7fbb457e4880da2b458dd348962ee0a2bc7093972b28e0703"
 }

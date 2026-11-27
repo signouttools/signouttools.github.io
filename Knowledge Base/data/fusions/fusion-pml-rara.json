@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Acute promyelocytic leukemia"
   ],
+  "disease_ids": [
+    "refseq-tumor-e4b6d9013f36"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-5371"
       ],
       "claim_sha256": "10e82b1a2baf9b17e6c0ebce3b8d84a900ad9f40df2afc4522ed80a131420d53",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5371",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5371",
+          "location": "NCBI Gene 5371 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0c2ad78eb97e61f5335774b65fd5c2bcb855f4bf0386e22810d640fb66a57820"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,46 +50,81 @@
         "ncbi-5914"
       ],
       "claim_sha256": "15796aab291e1c486a471d24789fe5cf65e08c7cfbf5b304560c64ccd60852bc",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5914",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5914",
+          "location": "NCBI Gene 5914 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b30c21e3d0221f45f8c3789afb1d5f017e3c1c8a629616142e4f5766b6be205b"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(15;17) fusion alters retinoic-acid-dependent transcription, recruits repressive chromatin machinery and disrupts PML nuclear bodies, producing a block in promyelocyte differentiation. It is the defining driver of conventional acute promyelocytic leukemia.",
+      "text": "PML::RARA is the defining fusion of conventional acute promyelocytic leukemia and commonly arises from t(15;17).",
       "source_ids": [
-        "icc-m",
         "aml"
       ],
-      "claim_sha256": "a76da4f9783353b83ded5927b1d6c6b7857e415a22c705dc30ab41c22b37fe3d",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "387f001f02858bf01e867a8f0c93abd9d8525f9e7acbfbd0d0a8844156b59a62",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "WHO classification tables and gene-specific cytogenetic sections",
+          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "All-trans retinoic acid and arsenic trioxide directly address the PML::RARA disease mechanism and are central to acute promyelocytic leukemia therapy.",
+      "text": "All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia.",
       "source_ids": [
         "aml"
       ],
-      "claim_sha256": "97b34bbf379d589a064a54992be549cb003de9bb1c721e8f30215e89b8902be2",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "dc05187966f35a3b13407c37a1322b7e6a0a2aab45d544a649da8b04280bbc48",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "APL-specific treatment cross-reference",
+          "scope": "Guideline treatment statement; not primary trial adjudication.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. The t(15;17) fusion alters retinoic-acid-dependent transcription, recruits repressive chromatin machinery and disrupts PML nuclear bodies, producing a block in promyelocyte differentiation. It is the defining driver of conventional acute promyelocytic leukemia. All-trans retinoic acid and arsenic trioxide directly address the PML::RARA disease mechanism and are central to acute promyelocytic leukemia therapy.",
+    "text": "PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. PML::RARA is the defining fusion of conventional acute promyelocytic leukemia and commonly arises from t(15;17). All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia.",
     "source_ids": [
       "ncbi-5371",
       "ncbi-5914",
-      "icc-m",
       "aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "556654de6424baa062d3daaae85fbbfda49b85f2535ac1183ad1009833eb5be7"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "b9863e9eebf369dd8eabd8f3878d280adb7f4b2e3804f3cd026e3707a005eb4d"
 }

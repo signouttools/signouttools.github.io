@@ -18,35 +18,68 @@
   "tumor_contexts": [
     "NUT carcinoma"
   ],
+  "disease_ids": [
+    "atlas-e-nut"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "BRD3",
-      "text": "BRD3 encodes a BET-family acetylated-chromatin reader and transcriptional regulator.",
+      "text": "BRD3 encodes bromodomain-containing protein 3.",
       "source_ids": [
         "ncbi-8019"
       ],
-      "claim_sha256": "88bbc8cad6ef949a2ce8f04f27bd2bcd7e41ee1659bb3c9d6e0407ce06aca83a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "6ca257e471de02b068f5fe55bce89e116ec5b31e01e43f54b8d0801c5942b378",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8019",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8019",
+          "location": "NCBI Gene 8019 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "3a5d83bc943e3fe5c9d938b7f0e9b3d2a5c431983e379b667aa4ae9c837ac35f"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NUTM1",
-      "text": "NUTM1 encodes a normally testis-enriched protein that interacts with the acetyltransferase p300.",
+      "text": "NUTM1 encodes NUT family member 1.",
       "source_ids": [
         "ncbi-256646"
       ],
-      "claim_sha256": "afe6363e6b646f319238d3b26e9e2d3a64d16a36564e8f05e17f5a2dc370b84b",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "edc158c79253e143c8da7811b9b6caa650572ce21a07a01ece4bce1479f61c46",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-256646",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/256646",
+          "location": "NCBI Gene 256646 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "625140a91ec612bd0edaea025643709930b5dddf00d28d0775be9f4b8a57d0dc"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. BRD3::NUTM1 is an established alternative driver of NUT carcinoma.",
+      "text": "BRD3::NUTM1 is an alternative NUT carcinoma fusion, retaining BRD3 chromatin-associated regions and the NUTM1 carboxy-terminal region. Patients with this fusion were included in the molecularly annotated NUT carcinoma cohort.",
       "source_ids": [
-        "nut-mech"
+        "nut-prognosis"
       ],
-      "claim_sha256": "d6600bb39fd7d5d402448f287f726dc4056211bdae25d180ed09513db3868ec6",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "617989eb372905973aa84b54bb3cc666982aeb2cb9ae64bd21a78649a0cb5a65",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nut-prognosis",
+          "url": "https://academic.oup.com/jncics/article/4/2/pkz094/5613895",
+          "location": "Results, risk classification; Figure 2A-B and Table 3",
+          "scope": "Site-and-genotype groups in124 patients; BRD3 and NSD3 grouped, not separate independent effects.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -55,29 +88,43 @@
         "nut-prognosis"
       ],
       "claim_sha256": "5ea7f84aa10c6fc879da815b731750529489b06fb46e8eaa686a2908791b1239",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nut-prognosis",
+          "url": "https://academic.oup.com/jncics/article/4/2/pkz094/5613895",
+          "location": "Results, risk classification; Figure 2A-B and Table 3",
+          "scope": "Site-and-genotype groups in124 patients; BRD3 and NSD3 grouped, not separate independent effects.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "BRD3 encodes a BET-family acetylated-chromatin reader and transcriptional regulator. NUTM1 encodes a normally testis-enriched protein that interacts with the acetyltransferase p300. The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. BRD3::NUTM1 is an established alternative driver of NUT carcinoma. In a retrospective NUT carcinoma cohort, nonthoracic BRD3/NSD3-fused tumors had better survival than nonthoracic BRD4-fused tumors; thoracic site remained an adverse feature.",
+    "text": "BRD3 encodes bromodomain-containing protein 3. NUTM1 encodes NUT family member 1. BRD3::NUTM1 is an alternative NUT carcinoma fusion, retaining BRD3 chromatin-associated regions and the NUTM1 carboxy-terminal region. Patients with this fusion were included in the molecularly annotated NUT carcinoma cohort. In a retrospective NUT carcinoma cohort, nonthoracic BRD3/NSD3-fused tumors had better survival than nonthoracic BRD4-fused tumors; thoracic site remained an adverse feature.",
     "source_ids": [
       "ncbi-8019",
       "ncbi-256646",
-      "nut-mech",
       "nut-prognosis"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "BET/p300-directed treatments remain investigational in this draft; no FDA-approved fusion-specific drug is claimed."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "18d5f12fff09c48059f7510c983c1c823053ad40523e59d819e77b18fb3ffad1"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "8df8972f993465802a4e55bc4aefd3f5527ad8e994a4103e25890f1417dcb8da"
 }

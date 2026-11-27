@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Angiocentric glioma"
   ],
+  "disease_ids": [
+    "fusion-context-ff09d54e54e4"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "MYB",
-      "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation.",
+      "text": "MYB encodes a DNA-binding transcriptional regulator involved in hematopoiesis.",
       "source_ids": [
         "ncbi-4602"
       ],
-      "claim_sha256": "db17fc1d9ed3d64c21143167822e90e696967603f0ddaf27aebff2e369e7add5",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "2047b106e1da6ab844e540def9863646b26cf744c77500b17c05cc0e0d6e9aef",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4602",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4602",
+          "location": "NCBI Gene 4602 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "513b91d2d0c826db1817c5ac7bb77c00a81a09764f21e465920ab890615f1e39"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,60 @@
         "ncbi-9444"
       ],
       "claim_sha256": "a1122c11c0cf2e48dbc1854b2d1eb3a79d34ea050d97e17298108585d4767aef",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-9444",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/9444",
+          "location": "NCBI Gene 9444 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "34c4bef49e6d6cb863872aa46f6ca26cdf703f696cbd77994a31c9c140f89261"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement promotes oncogenic MYB activity through MYB truncation, relocation of regulatory elements that increase fusion expression, and partial loss of QKI. It is characteristic of angiocentric glioma, typically a low-grade epilepsy-associated CNS tumor.",
+      "text": "The rearrangement promotes MYB activity through truncation of MYB, relocation of regulatory elements that increase fusion expression, and partial QKI loss. These mechanisms were investigated in primary angiocentric glioma specimens and experimental systems.",
       "source_ids": [
-        "myb-qki-mech",
-        "cns"
+        "myb-qki-mech"
       ],
-      "claim_sha256": "ce7efb608f5faa9524aaf3ad15997c0e8fa7690bf6d9364d4dba995b4722d1f9",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "be24eb3d6c35feef2bd331123dca1471c561ab8968ccc1d31f4332874369d497",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "myb-qki-mech",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4767685/",
+          "location": "Results, Figures 4-5; MYB-QKI rearrangements drive aberrant expression of truncated MYB and enhancer translocation",
+          "scope": "Truncation, enhancer relocation and QKI-loss mechanisms experimentally studied.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation. QKI encodes an RNA-binding protein that regulates RNA processing and myelination. The rearrangement promotes oncogenic MYB activity through MYB truncation, relocation of regulatory elements that increase fusion expression, and partial loss of QKI. It is characteristic of angiocentric glioma, typically a low-grade epilepsy-associated CNS tumor.",
+    "text": "MYB encodes a DNA-binding transcriptional regulator involved in hematopoiesis. QKI encodes an RNA-binding protein that regulates RNA processing and myelination. The rearrangement promotes MYB activity through truncation of MYB, relocation of regulatory elements that increase fusion expression, and partial QKI loss. These mechanisms were investigated in primary angiocentric glioma specimens and experimental systems.",
     "source_ids": [
       "ncbi-4602",
       "ncbi-9444",
-      "myb-qki-mech",
-      "cns"
+      "myb-qki-mech"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "ee2c72a5755c852d70ba151bc9381938a9908ff41e49bff29c40970d2b61d24c"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "6c2a1a52058acdd54f15c5e95472fe173c348c176f57a4e36b0dc3f613348400"
 }

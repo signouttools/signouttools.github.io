@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Myeloid/lymphoid neoplasm with FLT3 rearrangement"
   ],
+  "disease_ids": [
+    "fusion-context-20f51418af62"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-2120"
       ],
       "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,17 +50,36 @@
         "ncbi-2322"
       ],
       "claim_sha256": "6eb2e5e1e6dee10502c9cbbfb056eae2365d86035658a8c8324f718828dd2ed4",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2322",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2322",
+          "location": "NCBI Gene 2322 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d349ff11507025fdc98e412cfb0ccd142c8de75acf2b8859570edee0b1f0f9fd"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion couples ETV6-associated oligomerization to the FLT3 kinase region, creating an activating kinase. Reported disease can resemble a myeloproliferative neoplasm with eosinophilia or present with lymphoid involvement.",
+      "text": "The reported in-frame ETV6::FLT3 fusion joined ETV6 exons 1-6 to FLT3 exons 14-24 in an infant myeloid/lymphoid neoplasm with eosinophilia.",
       "source_ids": [
-        "flt3",
-        "icc-m"
+        "flt3"
       ],
-      "claim_sha256": "a9f765c702974c5f61632fe579d71f77c1721a5e5837319325600b4727cdc656",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "7477b0b3adb57f0a6746abc9347c16001d43eec2ef9b171529d3024f853c4f9a",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "flt3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8045514/",
+          "location": "Case report; Figure 1D",
+          "scope": "Sequenced expressed in-frame product and infant disease phenotype.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -55,28 +87,44 @@
       "source_ids": [
         "flt3"
       ],
+      "evidence_review_status": "primary_fulltext_supported",
       "claim_sha256": "44310bc0ce11e2830a2f8787db1382803631260f0170d974af7b2625501cefda",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "flt3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8045514/",
+          "location": "Case report treatment course; Figure 2A/B, lines 192-195",
+          "scope": "Single-agent gilteritinib eliminated residual disease before HSCT; case-level evidence.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. The fusion couples ETV6-associated oligomerization to the FLT3 kinase region, creating an activating kinase. Reported disease can resemble a myeloproliferative neoplasm with eosinophilia or present with lymphoid involvement. Gilteritinib induced immunophenotypic and cytogenetic remission in a published infant with ETV6::FLT3; this is case-level off-label evidence, distinct from the FLT3-mutation AML indication.",
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. The reported in-frame ETV6::FLT3 fusion joined ETV6 exons 1-6 to FLT3 exons 14-24 in an infant myeloid/lymphoid neoplasm with eosinophilia. Gilteritinib induced immunophenotypic and cytogenetic remission in a published infant with ETV6::FLT3; this is case-level off-label evidence, distinct from the FLT3-mutation AML indication.",
     "source_ids": [
       "ncbi-2120",
       "ncbi-2322",
-      "flt3",
-      "icc-m"
+      "flt3"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "bb7f440bd6422cb6cb9a5ac7e5745a2cdd4b1b1b1aad4a06675e6b1cc0d2db5d"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "b50c5486a15140b57370b49857c35829233419abb1a97c6999271f0a00f0a439"
 }

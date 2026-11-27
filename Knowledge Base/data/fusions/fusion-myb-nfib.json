@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Adenoid cystic carcinoma"
   ],
+  "disease_ids": [
+    "curation-intogen-ACYC"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "MYB",
-      "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation.",
+      "text": "MYB encodes a DNA-binding transcriptional regulator involved in hematopoiesis.",
       "source_ids": [
         "ncbi-4602"
       ],
-      "claim_sha256": "db17fc1d9ed3d64c21143167822e90e696967603f0ddaf27aebff2e369e7add5",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "2047b106e1da6ab844e540def9863646b26cf744c77500b17c05cc0e0d6e9aef",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4602",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4602",
+          "location": "NCBI Gene 4602 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "513b91d2d0c826db1817c5ac7bb77c00a81a09764f21e465920ab890615f1e39"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,39 +50,62 @@
         "ncbi-4781"
       ],
       "claim_sha256": "c2b3b659abdbcb1c074ecc327d3f26f151405aa41c6cf8c06caf033418a7273f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4781",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4781",
+          "location": "NCBI Gene 4781 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d3b2c43b75ecb127999f19797887a34b23d3ad4d799b24c5c4005555a32e45c4"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYB::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+      "text": "MYB::NFIB is a recurrent fusion detected by RNA sequencing in adenoid cystic carcinoma. The rearrangement alters the MYB-family transcription-factor coding/regulatory structure.",
       "source_ids": [
-        "myb-nfib",
         "salivary"
       ],
-      "claim_sha256": "7da60626445dbc43a87712adf3587ca02fb8283e167b3f34dbb287dc2251e36c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "f7e741c00ca06e7c971805b3459ea8445bc6de3e90f1ce288926c0cc71092bee",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "salivary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8753559/",
+          "location": "Results, Table 3; Figures 1,3,4; Mucoepidermoid carcinoma and pleomorphic adenoma results",
+          "scope": "CRTC1/3::MAML2, MYB/MYBL1::NFIB and CTNNB1/LIFR::PLAG1 observed; pair-specific normal-function mechanisms not tested.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation. NFIB encodes a nuclear-factor-I transcription factor involved in tissue development. The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYB::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+    "text": "MYB encodes a DNA-binding transcriptional regulator involved in hematopoiesis. NFIB encodes a nuclear-factor-I transcription factor involved in tissue development. MYB::NFIB is a recurrent fusion detected by RNA sequencing in adenoid cystic carcinoma. The rearrangement alters the MYB-family transcription-factor coding/regulatory structure.",
     "source_ids": [
       "ncbi-4602",
       "ncbi-4781",
-      "myb-nfib",
       "salivary"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Breakpoint-specific loss of negative regulatory regions versus enhancer effects must be resolved before a more specific mechanism claim."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "4139ed5a2ac0dce5d24ddb2096493f232515f1c35388ec52a05b10c0ca6b2d84"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "65cdcd70193037637dfd808b8dd8788a9c92fbf3cdb2b706afe609ea3d2f3983"
 }

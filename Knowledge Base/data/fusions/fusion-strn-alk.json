@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Lung adenocarcinoma"
   ],
+  "disease_ids": [
+    "atlas-v-lung-adenocarcinoma"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-6801"
       ],
       "claim_sha256": "1fec10add2ab961ce00b332fb596aa48fb95601c05961a1da921b18da02bb4d5",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6801",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6801",
+          "location": "NCBI Gene 6801 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c2b1ef13c19cd2d55b0fe7b81e64f87d49add8a02fd953f504db32a42c3ced32"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,16 +50,36 @@
         "ncbi-238"
       ],
       "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-238",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+          "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. Clinical responses to ALK inhibition have been reported in lung adenocarcinoma.",
+      "text": "STRN exon3 fused to ALK exon20 has been confirmed in lung adenocarcinoma. The product retains the STRN coiled-coil and ALK kinase regions; the reported patient responded to crizotinib.",
       "source_ids": [
         "strn-alk"
       ],
-      "claim_sha256": "2825a9f4981fa3b805673ea5bc811bced5bd82552e559244d88e3bd8ef5b8681",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "c5decce6cb5afbb2ed5b138bb37f1d74651f9c0bbe342f56d4d1e97fbad19ca1",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "strn-alk",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6134903/",
+          "location": "Figures 2-4, sequence chromatograms/domain schematic and response imaging",
+          "scope": "STRN exon3/ALK exon20 retaining coiled-coil and kinase; clinical response; not experimental proof of autonomous activation.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,11 +89,29 @@
         "strn-alk"
       ],
       "claim_sha256": "276d8c9f2985d30a4db2428186686494c22cbb1f2bd0f271355e509d5729aa9f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-criz",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+          "location": "Prescribing information Sections1.1 and1.3",
+          "scope": "ALK/ROS1 metastaticNSCLC and age>=1 unresectable,recurrent,refractory ALK-positiveIMT.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        },
+        {
+          "source_id": "strn-alk",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6134903/",
+          "location": "Figures 2-4, sequence chromatograms/domain schematic and response imaging",
+          "scope": "STRN exon3/ALK exon20 retaining coiled-coil and kinase; clinical response; not experimental proof of autonomous activation.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "STRN encodes striatin, a scaffold in signaling complexes including STRIPAK. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. Clinical responses to ALK inhibition have been reported in lung adenocarcinoma. ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+    "text": "STRN encodes striatin, a scaffold in signaling complexes including STRIPAK. ALK encodes a receptor tyrosine kinase involved in neural development. STRN exon3 fused to ALK exon20 has been confirmed in lung adenocarcinoma. The product retains the STRN coiled-coil and ALK kinase regions; the reported patient responded to crizotinib. ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
     "source_ids": [
       "ncbi-6801",
       "ncbi-238",
@@ -68,15 +119,20 @@
       "fda-criz"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "aff65db6bcacd2b7354ed830641ee4d184c28d58cdd5b8e79fb72fdf89fd4d29"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "9fced544488c932f2e709b3e768b91893f6399d0cf964b31714e03e40dc88ab0"
 }

@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "BCOR::CCNB3 sarcoma of bone or soft tissue"
   ],
+  "disease_ids": [
+    "fusion-context-edd4a0cc8331"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "BCOR",
-      "text": "BCOR encodes a transcriptional corepressor associated with noncanonical Polycomb repression.",
+      "text": "BCOR encodes a BCL6-interacting transcriptional corepressor.",
       "source_ids": [
         "ncbi-54880"
       ],
-      "claim_sha256": "09c8b256cc53e14db50cc88a5a34acd66ea62a8779eec85606931928d8ea16a1",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "58f9e6337523f6660522073dae1ad3e7ca781cf8151993d456ef02b7c8e016fa",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-54880",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/54880",
+          "location": "NCBI Gene 54880 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "da085aa0dd08fa844b35e7ef62b80b2572dee3df540b2fb55e43173d601bb123"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,45 +50,71 @@
         "ncbi-85417"
       ],
       "claim_sha256": "3631ca091335971b82c1e17bc680805b88ff4e3f17f0e97fbdcc3502291e00cb",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-85417",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/85417",
+          "location": "NCBI Gene 85417 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0b1d2066c2378824a80afdcd491254b355c54462ff23832d0ecb6b86cef4d53c"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "An X-chromosome inversion joins BCOR to CCNB3 and creates an abnormal transcriptional/chromatin-regulatory product. It defines a distinct round-cell sarcoma that often affects adolescent males.",
+      "text": "BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group.",
       "source_ids": [
-        "ewing"
+        "audit-sarcoma-nci-sts",
+        "audit-sarcoma-nci-ewing"
       ],
-      "claim_sha256": "28ce22b340a374d2315ad8fec921caa10f5788252d3f3f1ce0ff1c420f5f4e85",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "BCOR::CCNB3 sarcoma had better survival than CIC-rearranged sarcoma in the retrospective GRACefUl cohort; many patients received Ewing-type chemotherapy.",
-      "source_ids": [
-        "graceful"
-      ],
-      "claim_sha256": "0afa93e32db611394bab8277163d3e868d913aef159ef54674338388fbf53752",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "673e34c139db34d82c806c5c27d284e07356a9c585c23fd460d89f2ca77e0ef4",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-sarcoma-nci-ewing",
+          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
+          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "BCOR encodes a transcriptional corepressor associated with noncanonical Polycomb repression. CCNB3 encodes cyclin B3, a regulator of cell-cycle progression. An X-chromosome inversion joins BCOR to CCNB3 and creates an abnormal transcriptional/chromatin-regulatory product. It defines a distinct round-cell sarcoma that often affects adolescent males. BCOR::CCNB3 sarcoma had better survival than CIC-rearranged sarcoma in the retrospective GRACefUl cohort; many patients received Ewing-type chemotherapy.",
+    "text": "BCOR encodes a BCL6-interacting transcriptional corepressor. CCNB3 encodes cyclin B3, a regulator of cell-cycle progression. BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group.",
     "source_ids": [
       "ncbi-54880",
       "ncbi-85417",
-      "ewing",
-      "graceful"
+      "audit-sarcoma-nci-sts",
+      "audit-sarcoma-nci-ewing"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
+  "curation_notes": [
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "1ff34939f23632feda4df7400423e86d02502815590d5a1c79fed05c1eb2bbb0"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "0d1308c65874cd6acc40c0a9cbae04f643187724712ad1dbe7c4861b01d20a59"
 }

@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "High-grade glioma"
   ],
+  "disease_ids": [
+    "fusion-context-b47a7ba074d4"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "PTPRZ1",
-      "text": "PTPRZ1 encodes a receptor-type tyrosine phosphatase enriched in the nervous system.",
+      "text": "PTPRZ1 encodes receptor-type protein tyrosine phosphatase zeta.",
       "source_ids": [
-        "ncbi-5803"
+        "hgnc"
       ],
-      "claim_sha256": "ab0ab548b8d0e3044b9f95bb7de852410b643e96da06e2b31980d88d998be6df",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "dab963878b79798b3ac03df3f74477b3612f0c8dbb4ce33c9ada144e3991a03a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9685",
+          "location": "Approved HGNC snapshot row HGNC:9685 / PTPRZ1",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,46 +50,81 @@
         "ncbi-4233"
       ],
       "claim_sha256": "79c99a4f2e4dd152687fabddef26634b6e30083aed25fdeba5e500c81ae79399",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4233",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4233",
+          "location": "NCBI Gene 4233 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b99409cd2e98e6eb279f27a430ff0ffcdb9699adc54635f62c37089c592534e9"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion increases MET expression and enhances MET phosphorylation, promoting oncogenic signaling. It is recurrent in a subset of high-grade gliomas and has shown transforming effects in experimental systems.",
+      "text": "The fusion retains the MET intracellular region and occurs in high-grade gliomas. Primary tumor and cell-line analyses showed increased MET expression; engineered fusion expression enhanced MET phosphorylation and glioma-cell migration/invasion.",
       "source_ids": [
-        "ptprz1-met"
+        "audit-solid-ptprz1-met-discovery"
       ],
-      "claim_sha256": "fb09aee2bbde9891d2a54634dd1e0e6a37353594476aae46be1ef42148c42164",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "3be3bd6ef13b73f0c2d041492e1bb2b1fa8586bc132a02fa95d56b2a46f9e48a",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-ptprz1-met-discovery",
+          "url": "https://genome.cshlp.org/content/early/2014/10/08/gr.165126.113.full.pdf",
+          "location": "Results; Figure2A-B, Figure3B-D, Figure4A-D",
+          "scope": "Fusion validation; increased MET expression, phosphorylation in engineered cells and increased migration/invasion; historical secondary-GBM survival association.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "prognosis",
-      "text": "An adverse survival association was reported in the original glioma cohorts. Those historical cohorts require reinterpretation under current IDH-based integrated diagnoses.",
+      "text": "In the historical secondary-glioblastoma discovery cohort, fusion-positive tumors had shorter overall survival than fusion-negative tumors. This was a cohort association rather than a validated prognosis estimate for every current integrated glioma diagnosis.",
       "source_ids": [
-        "ptprz1-met"
+        "audit-solid-ptprz1-met-discovery"
       ],
-      "claim_sha256": "33889064863f76ff79c789a42d56294df554e5510f17ddaf66e09aa70e0a560e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "ed973dc2b39dc8c31992f6659159395895a4a99baf20c04de93920cafd775898",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-ptprz1-met-discovery",
+          "url": "https://genome.cshlp.org/content/early/2014/10/08/gr.165126.113.full.pdf",
+          "location": "Results; Figure2A-B, Figure3B-D, Figure4A-D",
+          "scope": "Fusion validation; increased MET expression, phosphorylation in engineered cells and increased migration/invasion; historical secondary-GBM survival association.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "PTPRZ1 encodes a receptor-type tyrosine phosphatase enriched in the nervous system. MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. The fusion increases MET expression and enhances MET phosphorylation, promoting oncogenic signaling. It is recurrent in a subset of high-grade gliomas and has shown transforming effects in experimental systems. An adverse survival association was reported in the original glioma cohorts. Those historical cohorts require reinterpretation under current IDH-based integrated diagnoses.",
+    "text": "PTPRZ1 encodes receptor-type protein tyrosine phosphatase zeta. MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. The fusion retains the MET intracellular region and occurs in high-grade gliomas. Primary tumor and cell-line analyses showed increased MET expression; engineered fusion expression enhanced MET phosphorylation and glioma-cell migration/invasion. In the historical secondary-glioblastoma discovery cohort, fusion-positive tumors had shorter overall survival than fusion-negative tumors. This was a cohort association rather than a validated prognosis estimate for every current integrated glioma diagnosis.",
     "source_ids": [
-      "ncbi-5803",
+      "hgnc",
       "ncbi-4233",
-      "ptprz1-met"
+      "audit-solid-ptprz1-met-discovery"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "No US MET-fusion glioma indication is inferred from MET exon 14-skipping NSCLC approvals."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "b99c40d9020c81bb61d12d89eb7e20d3a50609393e65390b62ce866e2687c2b8"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "785a656be1b240e2cb8a0a2ae6f780255b6697a255fa5f84676e7489f05a03e0"
 }

@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Myeloid/lymphoid neoplasm with PDGFRB rearrangement"
   ],
+  "disease_ids": [
+    "fusion-context-94b46d536e8e"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-2120"
       ],
       "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,46 +50,81 @@
         "ncbi-5159"
       ],
       "claim_sha256": "9c1706914ba9857704a68addf6ff05209539a5e8fcbbf00104265293770b86b8",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5159",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5159",
+          "location": "NCBI Gene 5159 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a7547913abe3d7134d969d79662152c31ae4350120c274135c58ac8a6deadf6a"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion couples ETV6 oligomerization to the PDGFRB kinase, driving ligand-independent signaling. It occurs in myeloid/lymphoid neoplasms that often show eosinophilia or a chronic myelomonocytic presentation.",
+      "text": "ETV6::PDGFRB is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
       "source_ids": [
-        "icc-m",
-        "pdgfrb"
+        "icc-eo"
       ],
-      "claim_sha256": "4c795ff8d8e5fa331616665f078ee415e6a0d5a433f8b85b48640d3c2b141d42",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "9e5432909938111c947c7f662aa8359a2454bbc4b626992317174c84aa28ffcb",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "icc-eo",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+          "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+          "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "Imatinib has produced durable long-term remissions in PDGFRB-fusion-positive myeloid neoplasms, including ETV6::PDGFRB disease.",
+      "text": "Imatinib can induce durable hematologic, cytogenetic and molecular remissions in ETV6::PDGFRB-associated myeloid/lymphoid neoplasms.",
       "source_ids": [
-        "pdgfrb"
+        "icc-eo"
       ],
-      "claim_sha256": "23e562c416d4903ea774b9d3ef5e99ea251e528ddaafc0b760cdf3b681ed9f6b",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "d2f579291798bc43ca46c44357fcee1b186401e9ee58f211a2ced0aea9aa1076",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "icc-eo",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+          "location": "Table 1, PDGFRA/PDGFRB rows; Treatment, PDF pages 3-5",
+          "scope": "Guideline synthesis of fusion-class clinical response, not independently reviewed trial.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. The fusion couples ETV6 oligomerization to the PDGFRB kinase, driving ligand-independent signaling. It occurs in myeloid/lymphoid neoplasms that often show eosinophilia or a chronic myelomonocytic presentation. Imatinib has produced durable long-term remissions in PDGFRB-fusion-positive myeloid neoplasms, including ETV6::PDGFRB disease.",
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. ETV6::PDGFRB is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. Imatinib can induce durable hematologic, cytogenetic and molecular remissions in ETV6::PDGFRB-associated myeloid/lymphoid neoplasms.",
     "source_ids": [
       "ncbi-2120",
       "ncbi-5159",
-      "icc-m",
-      "pdgfrb"
+      "icc-eo"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "e80117b403f3684f128fdc9979fabd47f42f0d696f7c72bfd01dec6e93b4890b"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "418c3d0010926449800541a70fe7ff71c441c9664710bdae665869f8061c21c5"
 }

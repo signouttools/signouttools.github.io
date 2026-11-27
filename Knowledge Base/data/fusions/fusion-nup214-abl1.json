@@ -19,6 +19,10 @@
     "T-ALL",
     "Ph-like B-ALL"
   ],
+  "disease_ids": [
+    "fusion-context-4dca18fb00ef",
+    "fusion-context-ea801e61035d"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,60 +32,102 @@
         "ncbi-8021"
       ],
       "claim_sha256": "0b4c23f9c46379217039bc5f187f555d066c7a483f56cea6396daca6fad6ce2d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8021",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8021",
+          "location": "NCBI Gene 8021 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0c8163466f7fcef582c64b18cdaec921e2b06ab6a8d561b9980a942a53738262"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "ABL1",
-      "text": "ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses.",
+      "text": "ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses.",
       "source_ids": [
         "ncbi-25"
       ],
-      "claim_sha256": "bc77c310296a3b9e98594441513ff7b93a19ea8405f3756f01c6693bdc96e602",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "643f90464978e4ead3d7d45612128643efc9158836d6c8724c9b3ca3c6e6233b",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-25",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/25",
+          "location": "NCBI Gene 25 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "62b53b4bc646bf3a2e70190d22f80bf3c9ad1bdbb3c87a18388845f82647c2ab"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. NUP214::ABL1 can be amplified on episomes in T-ALL; nuclear-pore localization contributes to its activity. It also occurs in Ph-like B-ALL.",
+      "text": "NUP214::ABL1 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region.",
       "source_ids": [
-        "phlike",
-        "phlike2"
+        "phlike"
       ],
-      "claim_sha256": "5c6ebf8b80410adf61545b9e1a6a79321fa780d3ad1b34fff16ad46686888bc3",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "2bf0dc1d14ca418dd84059b476c624f424a7003eb1eacd8be4db20c0257baa72",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "phlike",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22897847/",
+          "location": "Results: kinase rearrangement identification; Figure 2/Table 1 and intact kinase-domain analysis",
+          "scope": "Direct sequencing evidence for ordered pair in B-ALL and kinase retention.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+      "text": "ABL-class kinase inhibitors showed activity in experimental kinase-fusion ALL systems; these findings support investigation rather than a pair-specific approval.",
       "source_ids": [
-        "phlike",
-        "phlike-functional"
+        "phlike"
       ],
-      "claim_sha256": "676525c4c006483cc3900ebcd0fcbea77e76cbaae835417eb129e53e882cf137",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "0fb6b310b257ed358298d7378716ef9958441ed98e015948b14785017e4ae38f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "phlike",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22897847/",
+          "location": "Results: kinase inhibitor assays / sensitivity to kinase inhibition; Figures 5-7 (Roberts 2012) or functional assays (Roberts 2014)",
+          "scope": "Preclinical class/selected-pair sensitivity; no response guarantee or FDA label inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses. The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. NUP214::ABL1 can be amplified on episomes in T-ALL; nuclear-pore localization contributes to its activity. It also occurs in Ph-like B-ALL. ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+    "text": "NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses. NUP214::ABL1 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region. ABL-class kinase inhibitors showed activity in experimental kinase-fusion ALL systems; these findings support investigation rather than a pair-specific approval.",
     "source_ids": [
       "ncbi-8021",
       "ncbi-25",
-      "phlike",
-      "phlike2",
-      "phlike-functional"
+      "phlike"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+    "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "a4f1d2cd8f09666e40c3e6e762c6238046f9cf89190149958814f0baa4452658"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "2e0b32850e11ae1605f30f43c9a7753439058e9e1783aab0c6607b6e77807022"
 }

@@ -19,6 +19,10 @@
     "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
     "B-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-8e82b6b73906",
+    "fusion-context-214d146d359b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,7 +32,17 @@
         "ncbi-2120"
       ],
       "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,35 +52,62 @@
         "ncbi-3717"
       ],
       "claim_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3717",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3717",
+          "location": "NCBI Gene 3717 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ae674c741d110a87329c5bbda7966680f900808434b902ffe1f4786d8bbabece"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. ETV6::JAK2 is associated with myeloid/lymphoid neoplasia.",
+      "text": "ETV6::JAK2 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region.",
       "source_ids": [
-        "icc-m"
+        "crlf2"
       ],
-      "claim_sha256": "a668680613215959d30ca533bad92f6a8e987cb5b49d5e7ffea42d2b9a0b971c",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "07f0d0cb826dfa06a142709545090649d179010e4b836f5a9a74f98630d0972a",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "crlf2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191900/",
+          "location": "Results: kinase rearrangement identification; Figure 2/Table 1 and intact kinase-domain analysis",
+          "scope": "Direct sequencing evidence for ordered pair in B-ALL and kinase retention.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. ETV6::JAK2 is associated with myeloid/lymphoid neoplasia.",
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ETV6::JAK2 is a kinase fusion documented in Ph-like B-ALL. The reported fusion preserves the tyrosine-kinase region.",
     "source_ids": [
       "ncbi-2120",
       "ncbi-3717",
-      "icc-m"
+      "crlf2"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "7912716f551ad5555f4bd4f95eaf0857ee529282272db00078a16c6e823e0adb"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "4a0b75a21d890ed82176daee26600592e81a8208ce4b89415257aeb762d2c514"
 }

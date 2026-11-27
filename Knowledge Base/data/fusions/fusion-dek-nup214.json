@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "AML with DEK::NUP214"
   ],
+  "disease_ids": [
+    "fusion-context-cda6797b5406"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-7913"
       ],
       "claim_sha256": "cc556b4ea8d7d10fb6ae088d1347078aa2cfdc949a75dfe8a862871d7f052543",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7913",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7913",
+          "location": "NCBI Gene 7913 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "eac620bd20693fc462eaf19ea1989b94b7de7b91444580cd07e684f801dffbd8"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,17 +50,36 @@
         "ncbi-8021"
       ],
       "claim_sha256": "0b4c23f9c46379217039bc5f187f555d066c7a483f56cea6396daca6fad6ce2d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8021",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8021",
+          "location": "NCBI Gene 8021 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0c8163466f7fcef582c64b18cdaec921e2b06ab6a8d561b9980a942a53738262"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(6;9) fusion links DEK to the carboxy-terminal region of NUP214, producing an abnormal nuclear protein that alters transcriptional and proliferative programs. It defines a recurrent AML subtype and often co-occurs with FLT3-ITD.",
+      "text": "The t(6;9) rearrangement joins DEK and NUP214 and defines a recurrent AML subtype.",
       "source_ids": [
-        "icc-m",
         "aml"
       ],
-      "claim_sha256": "977e5c0ffc5637d362ad67022c7f29d95f143b4b2e0f112ed69430532206bc24",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "67aa77a00617d6377231f1c500f64e8d1375b3edee6da03356b32776b071cf00",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "WHO classification tables and gene-specific cytogenetic sections",
+          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -55,29 +87,45 @@
       "source_ids": [
         "eln-aml"
       ],
+      "evidence_review_status": "reference_supported",
       "claim_sha256": "b319983f03b90543112364918582d41c3e6e404f8f291b3c998677871814fc02",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. The t(6;9) fusion links DEK to the carboxy-terminal region of NUP214, producing an abnormal nuclear protein that alters transcriptional and proliferative programs. It defines a recurrent AML subtype and often co-occurs with FLT3-ITD. DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+    "text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. The t(6;9) rearrangement joins DEK and NUP214 and defines a recurrent AML subtype. DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
     "source_ids": [
       "ncbi-7913",
       "ncbi-8021",
-      "icc-m",
       "aml",
       "eln-aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "42c336865c73861599129f637ac793e76413456e7506975863422c7ee0a8d693"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "7e49572ab248f641c5ce2b69be3f03a6f20be956ecd73fed54dfc74cc08d72a8"
 }

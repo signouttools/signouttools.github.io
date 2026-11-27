@@ -16,8 +16,10 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Thyroid carcinoma",
-    "NTRK-rearranged spindle cell neoplasm"
+    "Thyroid carcinoma"
+  ],
+  "disease_ids": [
+    "thyroid"
   ],
   "sections": [
     {
@@ -28,26 +30,56 @@
         "ncbi-27436"
       ],
       "claim_sha256": "4bf3c8fcb9af6e6468041b056a9c990241ad56ff224b899bf9414d98d5e5711d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-27436",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/27436",
+          "location": "NCBI Gene 27436 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "fa737c36a8764be6084fa5781b0997b7f1de5f18a4673eaa30cc12aab49cc1aa"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NTRK3",
-      "text": "NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase.",
+      "text": "NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase.",
       "source_ids": [
         "ncbi-4916"
       ],
-      "claim_sha256": "39074bfd2a709ad144beab93f5b0b2f1d087b19fcabc6102b338ed45e5206ff3",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "68a5e4e1fb84e065d6925ecacfd4787dee312a1242504b1e9f4d9051aae4ca01",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4916",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4916",
+          "location": "NCBI Gene 4916 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7fc2c515dbc4dd53b333df89fc2da002ad825714aa01ac4290acd525d1b3c1f0"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. EML4::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma.",
+      "text": "EML4::NTRK3 has been detected in thyroid carcinomas. The primary cohort documents the upstream partner and NTRK fusion junctions; these alterations retain a carboxy-terminal TRK-containing product.",
       "source_ids": [
         "ntrk-thyroid"
       ],
-      "claim_sha256": "c37eecf8ac1d1e2127caff62c7c683022b99d154f9241c6ca334e3f570612ddc",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "a035060e20fd271132ee038885e5b99863a115f4965e92bad7660cd7d1c24c63",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ntrk-thyroid",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11867807/",
+          "location": "Results, NTRK fusions in pediatric and adult thyroid carcinomas; Figure 1; junction descriptions",
+          "scope": "SQSTM1/NTRK1 and EML4/SQSTM1/NTRK3 partner observations and junctions; no independent functional activation assay for every pair.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,11 +88,21 @@
         "fda-laro"
       ],
       "claim_sha256": "970ce55d339c0480dd23db38d9fce1c47aeea11ba48231546a463b664f63827f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-laro",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9525f887-a055-4e33-8e92-898d42828cd1",
+          "location": "DailyMed full prescribing information Section1",
+          "scope": "NTRK fusion without known acquired resistance; metastatic or surgery severe morbidity; prior progression/no satisfactory alternative.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "EML4 encodes a microtubule-associated protein with an amino-terminal oligomerization domain. NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase. The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. EML4::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+    "text": "EML4 encodes a microtubule-associated protein with an amino-terminal oligomerization domain. NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase. EML4::NTRK3 has been detected in thyroid carcinomas. The primary cohort documents the upstream partner and NTRK fusion junctions; these alterations retain a carboxy-terminal TRK-containing product. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
     "source_ids": [
       "ncbi-27436",
       "ncbi-4916",
@@ -68,17 +110,22 @@
       "fda-laro"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "eb3769f77d0dcf469a8c5eac46132db158352bf1add11447f651636b8399a40d"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "ee527ec434524d5095683e82e76b4d0d125f2aa9ac91296427c9d49b63267c55"
 }

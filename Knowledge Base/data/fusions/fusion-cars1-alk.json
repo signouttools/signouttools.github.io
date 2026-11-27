@@ -20,16 +20,29 @@
   "tumor_contexts": [
     "Inflammatory myofibroblastic tumor"
   ],
+  "disease_ids": [
+    "fusion-context-9f98d303a12b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "CARS1",
-      "text": "CARS1 encodes the cytoplasmic enzyme that attaches cysteine to its transfer RNA.",
+      "text": "CARS1 encodes cytoplasmic cysteinyl-tRNA synthetase.",
       "source_ids": [
-        "ncbi-833"
+        "hgnc"
       ],
-      "claim_sha256": "04183b742f77da3a1d8867c0f7228a192ba200208859f78c8f5a6aa8c2288672",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "8b96cc1ef5280cadfe0cfe0200bac02d83a92fdfad46214ff5b64ffcdef0e518",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1493",
+          "location": "Approved HGNC snapshot row HGNC:1493 / CARS1",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -39,16 +52,36 @@
         "ncbi-238"
       ],
       "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-238",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+          "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CARS1::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+      "text": "CARS1::ALK was identified in primary and metastatic lesions of an inflammatory myofibroblastic tumor by fusion transcript analysis. The reported junction retains the carboxy-terminal ALK catalytic region.",
       "source_ids": [
         "cars-alk"
       ],
-      "claim_sha256": "89a9eee23cccda7a8bffd063dd5010f7296d15f22e29d74057f06ae794b58787",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "a95b5c6880c92af3fdc4764d3e5bc45eb91bb4371a6efec626f17b6c57f91aa0",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "cars-alk",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0023683722034778",
+          "location": "Results, genomic fusion confirmation; CARSexon17/ALKexon15 amplification and sequencing",
+          "scope": "Direct fusion transcript/genomic detection in IMT; catalytic domain retained.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -57,27 +90,42 @@
         "fda-criz"
       ],
       "claim_sha256": "36cd9dc91534b03cac1393ef8c25971d8f013ce6c1ca51b0d9229126da8b8c22",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-criz",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+          "location": "Prescribing information Sections1.1 and1.3",
+          "scope": "ALK/ROS1 metastaticNSCLC and age>=1 unresectable,recurrent,refractory ALK-positiveIMT.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "CARS1 encodes the cytoplasmic enzyme that attaches cysteine to its transfer RNA. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CARS1::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+    "text": "CARS1 encodes cytoplasmic cysteinyl-tRNA synthetase. ALK encodes a receptor tyrosine kinase involved in neural development. CARS1::ALK was identified in primary and metastatic lesions of an inflammatory myofibroblastic tumor by fusion transcript analysis. The reported junction retains the carboxy-terminal ALK catalytic region. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
     "source_ids": [
-      "ncbi-833",
+      "hgnc",
       "ncbi-238",
       "cars-alk",
       "fda-criz"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "439c1ca9b7c3c8abf74ce932aa0edb1a8dc935f2874f171a0f7c830340dab974"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "5d5ee6a8fe15e461d671eec910856fa4beeac32f37dc897f50741c2e4b79e82e"
 }

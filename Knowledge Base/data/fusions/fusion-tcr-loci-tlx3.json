@@ -18,55 +18,95 @@
   "tumor_contexts": [
     "T-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-f1367cb5be80"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "TCR loci",
-      "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements.",
+      "text": "TCR loci are the gene regions encoding T-cell receptor chains.",
       "source_ids": [
         "all"
       ],
-      "claim_sha256": "b68a3e913c425381f2423aeedf2d2d1e656f0375a8e3468ff1441ffd28613cff",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "58a791854a120ffdb4e02573ffdf8208ded36fcd6aebd3aa7ff8d888afad15ad",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "NCI ALL classification: T-cell receptor locus rearrangements",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "authoritative_reference",
+          "document_sha256": null
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "TLX3",
-      "text": "TLX3 encodes a homeobox transcription factor involved in neuronal differentiation.",
+      "text": "TLX3 encodes a homeobox DNA-binding transcription factor.",
       "source_ids": [
         "ncbi-30012"
       ],
-      "claim_sha256": "9dc21527a53af51ca8ad0b42f21feffb4a938b577e559b43203bd8841e7b53ad",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "a91697e3d1ef9aec11f26e19eda24050706deea388ee0640fa0204e257ea93b5",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-30012",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/30012",
+          "location": "NCBI Gene 30012 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "46f3410c031fdcd5ba4908d308628cb8a4ff482786cfc1f9492b2b54b4f9afe1"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "T-cell-receptor regulatory rearrangements can activate TLX3 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX3 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
       "source_ids": [
-        "all"
+        "nci-genomics"
       ],
-      "claim_sha256": "6369c09d64b1f284ea1b04a7aaa7c7f2db29be1b1d43cf3547be9e75011b5fb2",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "fe1fcfa0b1e293f7c8aa0e1467f529574d83782f33660209977d200401d73ea4",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nci-genomics",
+          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
+          "location": "T-ALL: Chromosomal translocations, lines 277-280",
+          "scope": "Explicit listed transcription factor and TCR-locus regulatory rearrangements.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements. TLX3 encodes a homeobox transcription factor involved in neuronal differentiation. T-cell-receptor regulatory rearrangements can activate TLX3 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+    "text": "TCR loci are the gene regions encoding T-cell receptor chains. TLX3 encodes a homeobox DNA-binding transcription factor. Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX3 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
     "source_ids": [
       "all",
-      "ncbi-30012"
+      "ncbi-30012",
+      "nci-genomics"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
   "curation_notes": [
-    "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+    "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "5ae3e2e168bc929616388df802cef98f4b64a18c2dcb7d2d7d604a384b93e133"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "4b9b681e774c684cd01ecb3904edf83527fcce24a2397de0904f375dfd42ee4b"
 }

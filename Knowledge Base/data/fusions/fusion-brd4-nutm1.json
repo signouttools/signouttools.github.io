@@ -18,36 +18,68 @@
   "tumor_contexts": [
     "NUT carcinoma"
   ],
+  "disease_ids": [
+    "atlas-e-nut"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "BRD4",
-      "text": "BRD4 encodes a BET-family chromatin reader that regulates transcriptional elongation.",
+      "text": "BRD4 encodes a bromodomain-containing chromatin-associated protein.",
       "source_ids": [
         "ncbi-23476"
       ],
-      "claim_sha256": "f89dff2d8e1d2b6a2cf2687ead68c2a372068bd4937603ad1dd133da5413b1e1",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "c54c0234a9ad8cc3388fa9cb2481f3817ac7d1c62706fe78999aeb5097ce75cf",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-23476",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23476",
+          "location": "NCBI Gene 23476 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c6b3eb8bd7a1bde396140ac444f9e525ae79b01416e1398f8ec8bbb00b47852d"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NUTM1",
-      "text": "NUTM1 encodes a normally testis-enriched protein that interacts with the acetyltransferase p300.",
+      "text": "NUTM1 encodes NUT family member 1.",
       "source_ids": [
         "ncbi-256646"
       ],
-      "claim_sha256": "afe6363e6b646f319238d3b26e9e2d3a64d16a36564e8f05e17f5a2dc370b84b",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "edc158c79253e143c8da7811b9b6caa650572ce21a07a01ece4bce1479f61c46",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-256646",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/256646",
+          "location": "NCBI Gene 256646 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "625140a91ec612bd0edaea025643709930b5dddf00d28d0775be9f4b8a57d0dc"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. BRD4::NUTM1 forms large hyperacetylated chromatin domains.",
+      "text": "BRD4::NUTM1 binds large hyperacetylated chromatin megadomains. Primary chromatin experiments showed colocalization with p300 and increased transcription within these domains in NUT carcinoma cells and engineered cells.",
       "source_ids": [
-        "nut-mech",
-        "brd-nut"
+        "audit-solid-brd4-megadomains"
       ],
-      "claim_sha256": "205c074f86d4e7d2f6dea1c55f55412878834d1ffe6218175ca1171d8fb3a349",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "163e6b92623cc56a5a9af2ee30571cb6985d6f752478d3bf39975c60a95a183c",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-brd4-megadomains",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4526735/",
+          "location": "Results, BRD4-NUT nuclear foci correspond to chromatin-bound megadomains; Figure1C-F and Figure2A",
+          "scope": "BRD4-NUT, p300 and H3K27ac colocalize in megadomains with ectopic transcription.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -56,30 +88,44 @@
         "nut-prognosis"
       ],
       "claim_sha256": "efbcc22ca9fa69ac5ce4a6b338ada5907509c3132bbc750b75a10b7c7cbf355a",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "nut-prognosis",
+          "url": "https://academic.oup.com/jncics/article/4/2/pkz094/5613895",
+          "location": "Results, risk classification; Figure 2A-B and Table 3",
+          "scope": "Site-and-genotype groups in124 patients; BRD3 and NSD3 grouped, not separate independent effects.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "BRD4 encodes a BET-family chromatin reader that regulates transcriptional elongation. NUTM1 encodes a normally testis-enriched protein that interacts with the acetyltransferase p300. The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. BRD4::NUTM1 forms large hyperacetylated chromatin domains. NUT carcinoma is clinically aggressive. In a retrospective 124-patient cohort, nonthoracic BRD4-fused tumors had worse survival than nonthoracic BRD3/NSD3-fused tumors, while thoracic disease had the poorest outcomes.",
+    "text": "BRD4 encodes a bromodomain-containing chromatin-associated protein. NUTM1 encodes NUT family member 1. BRD4::NUTM1 binds large hyperacetylated chromatin megadomains. Primary chromatin experiments showed colocalization with p300 and increased transcription within these domains in NUT carcinoma cells and engineered cells. NUT carcinoma is clinically aggressive. In a retrospective 124-patient cohort, nonthoracic BRD4-fused tumors had worse survival than nonthoracic BRD3/NSD3-fused tumors, while thoracic disease had the poorest outcomes.",
     "source_ids": [
       "ncbi-23476",
       "ncbi-256646",
-      "nut-mech",
-      "brd-nut",
+      "audit-solid-brd4-megadomains",
       "nut-prognosis"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "BET/p300-directed treatments remain investigational in this draft; no FDA-approved fusion-specific drug is claimed."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "06f94cbd20eb4b4e876ce907ab9279fd786067ae598054ffc12d5e4b29622049"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "5ca186075f8146479113c31dcd4c6439a74d83525d2eca83750b265d87a00efb"
 }

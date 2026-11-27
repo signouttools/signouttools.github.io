@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "B-lymphoblastic leukemia"
   ],
+  "disease_ids": [
+    "fusion-context-214d146d359b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,68 +30,120 @@
         "ncbi-6929"
       ],
       "claim_sha256": "12f5c610b87031a903ec1c2f34aabe79cc2a6c81a681f017892d741babaa969d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6929",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6929",
+          "location": "NCBI Gene 6929 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "55317fcc774fa2ee8c410c53cb6bf54e58a4be2da0cfe91de4e80a289738c3a9"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "HLF",
-      "text": "HLF encodes a PAR-bZIP transcription factor involved in circadian and hematopoietic regulation.",
+      "text": "HLF encodes a PAR-bZIP transcription factor that binds sequence-specific promoter elements.",
       "source_ids": [
         "ncbi-3131"
       ],
-      "claim_sha256": "b8afc7400bd1e64d7d2207c1bd2adc725f74b0d5e60426327e7a648aadf9645e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "1d7d74f1cacf76477e19e5ff9889ebb5e4c84122a86d175c127b1bfdf54abe9c",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-3131",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/3131",
+          "location": "NCBI Gene 3131 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "36fa17fc8446209edc13bedeb7ac0217f44259566de03fccf0183aa67b67e254"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(17;19) fusion joins TCF3 transcriptional activation to the HLF DNA-binding region and produces a distinct antiapoptotic leukemia program. The leukemia can present with hypercalcemia and has marked chemotherapy resistance.",
+      "text": "TCF3::HLF defines a rare B-ALL subtype with pronounced resistance to conventional chemotherapy.",
       "source_ids": [
-        "hlf",
-        "all"
+        "hlf-clinical"
       ],
-      "claim_sha256": "dbf4fc3ea81916685854b06abbf9af70b84cdcbb18c755d32772d98da9ca5df2",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "7e220a97a530b14456fd4fc3ac3edf7afd07dae03166cf910409dae3ffdf187a",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hlf-clinical",
+          "url": "https://haematologica.org/article/view/11930",
+          "location": "Cohort description and Results/treatment response; Tables 1-2 and body paragraphs 113-125",
+          "scope": "Direct clinical chemotherapy-resistance observation, not mechanistic BCL2 proof.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "prognosis",
-      "text": "TCF3::HLF is an adverse prognostic subtype with historically very poor survival.",
+      "text": "Historical outcomes were poor, but durable molecular remissions were documented after CD19-directed immunotherapy and transplantation in a small retrospective cohort.",
       "source_ids": [
-        "eln-all"
+        "hlf-clinical"
       ],
-      "claim_sha256": "a93e01bb1af879ae301e99c472538aef308fdd749201f5422eb4431bd51b207f",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "293b61a9e16098ffc9803d7b02bdec986e5e7ff941e08767bab9b5fdb2795ddf",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hlf-clinical",
+          "url": "https://haematologica.org/article/view/11930",
+          "location": "Results; Tables 1-2, Figure 1 and body paragraphs 119-125",
+          "scope": "Study-specific survival/remission rather than universal incurability.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     },
     {
       "kind": "therapeutics",
-      "text": "BCL2 inhibition has demonstrated preclinical sensitivity; blinatumomab-based treatment followed by transplantation has produced durable survivors in small clinical cohorts. These are investigational or disease-directed approaches rather than an HLF-specific FDA indication.",
+      "text": "Blinatumomab followed by transplantation produced sustained molecular remissions in several patients in a small TCF3::HLF-positive B-ALL series. This is clinical series evidence, not an HLF-specific drug indication.",
       "source_ids": [
-        "hlf",
         "hlf-clinical"
       ],
-      "claim_sha256": "b0021cf4e106c86273a8c1b1211dd5a4b58f661c1c34bfc94d77836c0d50dc5d",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "dc361c0d6f8996308bb6694f724df48d93fa5e22b2a4e7c1b3afbcc43adb53ed",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hlf-clinical",
+          "url": "https://haematologica.org/article/view/11930",
+          "location": "Results; Tables 1-2; paragraphs 113-125",
+          "scope": "Actual blinatumomab/HSCT outcomes; not randomized evidence.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. HLF encodes a PAR-bZIP transcription factor involved in circadian and hematopoietic regulation. The t(17;19) fusion joins TCF3 transcriptional activation to the HLF DNA-binding region and produces a distinct antiapoptotic leukemia program. The leukemia can present with hypercalcemia and has marked chemotherapy resistance. TCF3::HLF is an adverse prognostic subtype with historically very poor survival. BCL2 inhibition has demonstrated preclinical sensitivity; blinatumomab-based treatment followed by transplantation has produced durable survivors in small clinical cohorts. These are investigational or disease-directed approaches rather than an HLF-specific FDA indication.",
+    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. HLF encodes a PAR-bZIP transcription factor that binds sequence-specific promoter elements. TCF3::HLF defines a rare B-ALL subtype with pronounced resistance to conventional chemotherapy. Historical outcomes were poor, but durable molecular remissions were documented after CD19-directed immunotherapy and transplantation in a small retrospective cohort. Blinatumomab followed by transplantation produced sustained molecular remissions in several patients in a small TCF3::HLF-positive B-ALL series. This is clinical series evidence, not an HLF-specific drug indication.",
     "source_ids": [
       "ncbi-6929",
       "ncbi-3131",
-      "hlf",
-      "all",
-      "eln-all",
       "hlf-clinical"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "18b64be75605e20a581453f2d62f0fdba970fa67ef6d54afc555cb140d376f11"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "c0fa221858efb65b4bbf34ee447b4593bceee820e74a14ab03af5fa146eda291"
 }

@@ -16,19 +16,31 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Papillary thyroid carcinoma",
     "Lung adenocarcinoma"
+  ],
+  "disease_ids": [
+    "atlas-v-lung-adenocarcinoma"
   ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "CCDC6",
-      "text": "CCDC6 encodes a coiled-coil protein involved in DNA-damage signaling.",
+      "text": "CCDC6 encodes a coiled-coil domain-containing protein.",
       "source_ids": [
         "ncbi-8030"
       ],
-      "claim_sha256": "4d34b84ecbdaae2978e3f0f17766775ff69acfe446acc7d957b97159597e19f3",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e561d07ef6fdf4fb9110e3508e3f0e85e2513b1d3b482fbdcd639e7715b9172f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8030",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8030",
+          "location": "NCBI Gene 8030 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "089cb02fdaae83fe82e07384f6536332b0482ea980a1847b44f3092d7e898998"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,16 +50,36 @@
         "ncbi-5979"
       ],
       "claim_sha256": "bff0a244e3a9197f328d10b7c579776e547a11b6ffc49e5b9b553fee8aa3397f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5979",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5979",
+          "location": "NCBI Gene 5979 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "f6b42810849ebc40626b1a8e42ffd99b3be404a68ce2496dcbaf99c2453cdc8d"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. CCDC6::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma.",
+      "text": "CCDC6::RET is a recurrent RET rearrangement documented in lung cancer cohorts. Reported breakpoints retain the RET kinase-containing carboxy-terminal region.",
       "source_ids": [
         "rtk-cohort"
       ],
-      "claim_sha256": "913139e4ffdf94163ee5fd724d0712b21cc11e1ee8044bc35582b802cca7661b",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "29fa7f2e7c700e9f323dc6566b8461fcc5dc70887c8114b24b1fef39858e8abd",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "rtk-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9652465/",
+          "location": "Results, Genomic structures of common RTK fusion genes; Figure 2b and Supplementary Figure 6",
+          "scope": "Direct recurrent KIF5B/CCDC6/NCOA4 partner and RET breakpoint observations; not a functional comparison.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -56,11 +88,21 @@
         "fda-ret"
       ],
       "claim_sha256": "136441b923585d82f2dae60e4baf9681ee8c03b190a864286611ef2c09f843cc",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-ret",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218160s007lbl.pdf",
+          "location": "Prescribing information Sections1.1,1.3,1.4",
+          "scope": "Separate adultNSCLC and age>=2 thyroid/other solid-tumor indications.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "CCDC6 encodes a coiled-coil protein involved in DNA-damage signaling. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. CCDC6::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma. Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+    "text": "CCDC6 encodes a coiled-coil domain-containing protein. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. CCDC6::RET is a recurrent RET rearrangement documented in lung cancer cohorts. Reported breakpoints retain the RET kinase-containing carboxy-terminal region. Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
     "source_ids": [
       "ncbi-8030",
       "ncbi-5979",
@@ -68,17 +110,22 @@
       "fda-ret"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "RET label evidence is biomarker-class evidence; full-text pair-specific audit remains pending."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "d9282c8ff008a828dc7e799c1365280cfb06ff515f2134ec9fcfcd0899fffec6"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "78a382cdcb1ab88615954d850a4d96a6c4b1179d7eeebe9098a2941d14eb48ae"
 }

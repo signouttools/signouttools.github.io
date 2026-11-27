@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Angiomatoid fibrous histiocytoma"
   ],
+  "disease_ids": [
+    "fusion-context-2828430f1e7b"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-2521"
       ],
       "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,63 @@
         "ncbi-466"
       ],
       "claim_sha256": "57e5ef9e55878404160ee6013f023a88b8ca1c553937f6003847aa24e7ea4d7e",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-466",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/466",
+          "location": "NCBI Gene 466 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8049c7075f37a3d0df991cd06b1af78511ff12df1663a9922148df8f96e89a55"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. FUS::ATF1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+      "text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma.",
       "source_ids": [
-        "sarcoma"
+        "audit-sarcoma-nci-sts"
       ],
-      "claim_sha256": "8dddb2a3402ce1386342096a843dca8343428d9d76b1c740f17403954c650d83",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "72b1799132aa8f500f3b871d1863067f889405c60eb01a5369fee9a3972a3872",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling. The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. FUS::ATF1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling. FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-466",
-      "sarcoma"
+      "audit-sarcoma-nci-sts"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis."
+    "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
+    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "4a0efa46e82964b88a508203156e7ae03271225f2806024cb3b51075de83aea6"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "5c675b24b83b9fd65e1bb4b09946a2da068f4cd5681b42a4891438f42b53d170"
 }

@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Extraskeletal myxoid chondrosarcoma"
   ],
+  "disease_ids": [
+    "atlas-nm-emc"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-8148"
       ],
       "claim_sha256": "c17c65d9daff4aa8413af21597466abd75b81a6032318addf1095796e2f17b3e",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8148",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8148",
+          "location": "NCBI Gene 8148 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "fdaddbb29ed1300d7f372aa23a5cc7799afad89f6335655c09033bea98654c9b"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,62 @@
         "ncbi-8013"
       ],
       "claim_sha256": "e764a98ff93ac0ee9a5f0be5167c16646552f5351ba192c659b3554f1c53555d",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8013",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8013",
+          "location": "NCBI Gene 8013 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "781aaff1cc6832883dd8f2c7339d8fe9b0e20c73d04ac7f2200256a9df06d810"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion combines a FET-family activation region with the NR4A3 nuclear-receptor transcription factor and dysregulates its transcriptional output. It is a recurrent driver in extraskeletal myxoid chondrosarcoma.",
+      "text": "TAF15::NR4A3 is a recurrent fusion in extraskeletal myxoid chondrosarcoma, confirmed by fusion-transcript and rearrangement assays in primary tumor cohorts.",
       "source_ids": [
-        "nr4a3"
+        "audit-sarcoma-nr4a3"
       ],
-      "claim_sha256": "1ea26bf3f7adbf3219defd617c4a990668bd365cb67b5e1cc7584f8a0c71d736",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "811c6e58a003a1224663507f075e953a2e7d6724052421925406c81e2518739b",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-sarcoma-nr4a3",
+          "url": "https://www.modernpathology.org/article/S0893395223000662/pdf",
+          "location": "Results: Molecular Genetics; Figure 1; Table 1",
+          "scope": "58 primary EMCs; EWSR1-NR4A3 and TAF15-NR4A3 confirmed by RNA sequencing/RT-PCR/FISH. Functional transcriptional effects not tested.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. NR4A3 encodes an orphan nuclear-receptor transcription factor. The fusion combines a FET-family activation region with the NR4A3 nuclear-receptor transcription factor and dysregulates its transcriptional output. It is a recurrent driver in extraskeletal myxoid chondrosarcoma.",
+    "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. NR4A3 encodes an orphan nuclear-receptor transcription factor. TAF15::NR4A3 is a recurrent fusion in extraskeletal myxoid chondrosarcoma, confirmed by fusion-transcript and rearrangement assays in primary tumor cohorts.",
     "source_ids": [
       "ncbi-8148",
       "ncbi-8013",
-      "nr4a3"
+      "audit-sarcoma-nr4a3"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Non-EWSR1 partners have associations with cellular/high-grade morphology; an independent partner-specific survival effect is not asserted."
+    "Non-EWSR1 partners have associations with cellular/high-grade morphology; an independent partner-specific survival effect is not asserted.",
+    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "9455d13059619a0e0ca51cc641b40714ae7630470b58b369c050a5b72033605f"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "66ac28130a5fd226d6ffc13ad7c3422773a61bbe9b6b65fccaefebeafbd695c0"
 }

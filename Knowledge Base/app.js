@@ -77,7 +77,7 @@ function matchingGenes() {
   return state.genes.filter(gene => (!state.letter || gene.symbol.startsWith(state.letter)) &&
     tokens.every(token => state.searchMap.get(gene.id).includes(token)) &&
     (!filteringTumors || gene.somatic_associations.some(a => matchesDisease(a.disease_id)) ||
-      state.hotspotMap.get(gene.id)?.disease_ids.some(matchesDisease)))
+      state.hotspotMap.get(gene.id)?.disease_ids.some(matchesDisease) || fusionsForGene(gene).some(fusionInContext)))
     .sort((a, b) => {
       const q = normalize($('search').value.trim());
       return Number(normalize(b.symbol) === q) - Number(normalize(a.symbol) === q) || a.symbol.localeCompare(b.symbol);
@@ -97,7 +97,10 @@ function populateTumors() {
   const previous = $('tumor').value;
   $('tumor').replaceChildren(el('option', {value: ''}, 'All tumor types'));
   const somaticIDs = new Set(state.mode === 'fusions' ? state.fusions.flatMap(f => f.disease_ids) : state.genes.flatMap(g => g.somatic_associations.map(a => a.disease_id)));
-  if (state.mode === 'genes') state.hotspots.forEach(h => h.disease_ids.forEach(id => somaticIDs.add(id)));
+  if (state.mode === 'genes') {
+    state.hotspots.forEach(h => h.disease_ids.forEach(id => somaticIDs.add(id)));
+    state.fusions.forEach(f => f.disease_ids.forEach(id => somaticIDs.add(id)));
+  }
   // Include the ancestors of linked somatic diseases so broad categories remain selectable.
   for (const id of [...somaticIDs]) {
     let parent = disease(id)?.parent_id;
@@ -112,7 +115,7 @@ function populateTumors() {
 function renderAlphabet() {
   $('alphabet').replaceChildren();
   for (const letter of ['', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']) {
-    const button = el('button', {type: 'button', id: `letter-${letter || 'all'}`, 'aria-pressed': String(letter === state.letter), 'aria-label': letter ? `Genes starting with ${letter}` : 'All first letters'}, letter || 'All');
+    const button = el('button', {type: 'button', id: `letter-${letter || 'all'}`, 'aria-pressed': String(letter === state.letter), 'aria-label': letter ? `${state.mode === 'fusions' ? 'Fusions' : 'Genes'} starting with ${letter}` : 'All first letters'}, letter || 'All');
     button.disabled = !!letter && !(state.mode === 'fusions' ? state.fusions.some(f => f.label.startsWith(letter)) : state.genes.some(g => g.symbol.startsWith(letter)));
     button.addEventListener('click', () => { state.letter = letter; render(); });
     $('alphabet').append(button);
@@ -196,7 +199,7 @@ function renderFusionBrowser() {
   audit.append(el('p', {}, fusion.audit?.summary || 'Source review recorded; specialist approval remains pending.'));
   const decisions = el('ul');
   for (const s of sections) {
-    const label = s.kind.replaceAll('_', ' '), status = (s.fulltext_audit_status || 'pending').replaceAll('_', ' ');
+    const label = s.kind.replaceAll('_', ' '), status = ({primary_fulltext_supported: 'primary results checked', official_regulatory_supported: 'official regulatory evidence checked', reference_supported: 'gene, identity or authoritative reference checked'})[s.fulltext_audit_status] || 'review pending';
     const item = el('li', {}, `${label}: ${status}.`);
     for (const evidence of s.audit_evidence || []) {
       item.append(document.createTextNode(' '), el('a', {href: evidence.url, target: '_blank', rel: 'noopener noreferrer'}, evidence.location || 'Evidence location'));

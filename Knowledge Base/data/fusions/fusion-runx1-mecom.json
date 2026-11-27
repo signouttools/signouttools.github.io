@@ -23,6 +23,11 @@
     "Myelodysplastic neoplasia",
     "CML blast phase"
   ],
+  "disease_ids": [
+    "aml",
+    "fusion-context-b4935b7d50c4",
+    "fusion-context-ce5a97fa70d0"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -32,7 +37,17 @@
         "ncbi-861"
       ],
       "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-861",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/861",
+          "location": "NCBI Gene 861 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "281d1db63e514c1be3b182ab702596a22d8563f242022de1c89338d1f902efcf"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -42,17 +57,36 @@
         "ncbi-2122"
       ],
       "claim_sha256": "94c1bd1ebb6b012e0b0772fe0c2f0a0f4067ae6ec347cca023aaac10a7d159dc",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2122",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2122",
+          "location": "NCBI Gene 2122 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f40b85703c9c1ed5c8dd60ca7d94776918db9d7e5c995009c0212c7cc4a2474"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(3;21) fusion combines RUNX1 DNA-binding sequences with MECOM/EVI1 transcriptional-regulatory sequences, disrupting hematopoietic differentiation. It occurs in myeloid neoplasia, including therapy-related disease and CML blast phase.",
+      "text": "RUNX1::MECOM is a recurrent t(3;21)-associated rearrangement in myeloid neoplasia, including secondary AML and CML blast phase.",
       "source_ids": [
-        "icc-m",
         "aml"
       ],
-      "claim_sha256": "19ce64648088a89df9fbc5121bde40a6220d480a600ff6bd0a3df48205ed63e1",
-      "fulltext_audit_status": "pending"
+      "evidence_review_status": "reference_supported",
+      "claim_sha256": "f827fafb1bfd0043f14d88b0508228d0559204c3c471301fa5ef54f3fd9f153e",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "WHO classification tables and gene-specific cytogenetic sections",
+          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+          "access_level": "guideline"
+        }
+      ]
     },
     {
       "kind": "prognosis",
@@ -60,29 +94,45 @@
       "source_ids": [
         "eln-aml"
       ],
+      "evidence_review_status": "reference_supported",
       "claim_sha256": "b859f87e98372a2de3c5b6dcccdba82f3fcf36449fc83d83a58fc7e70b0129e1",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. The t(3;21) fusion combines RUNX1 DNA-binding sequences with MECOM/EVI1 transcriptional-regulatory sequences, disrupting hematopoietic differentiation. It occurs in myeloid neoplasia, including therapy-related disease and CML blast phase. MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. RUNX1::MECOM is a recurrent t(3;21)-associated rearrangement in myeloid neoplasia, including secondary AML and CML blast phase. MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
     "source_ids": [
       "ncbi-861",
       "ncbi-2122",
-      "icc-m",
       "aml",
       "eln-aml"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
-  "curation_notes": [],
+  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "curation_notes": [
+    "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+  ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "4b98389afc4b6e85860d58e68f147f98beb98fade2f505e6da96f4344fae80c0"
+  "audit": {
+    "status": "reference_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "f348de084ff0e069d52569a370716b0261c890bbc870c039527dd9759da7d865"
 }

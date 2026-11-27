@@ -18,35 +18,68 @@
   "tumor_contexts": [
     "Glioma"
   ],
+  "disease_ids": [
+    "glioma"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "BCAN",
-      "text": "BCAN encodes brevican, a neural extracellular-matrix proteoglycan.",
+      "text": "BCAN encodes brevican.",
       "source_ids": [
-        "ncbi-63827"
+        "hgnc"
       ],
-      "claim_sha256": "60271643a7d35e11de3cfbbffa937e1e90a4530e0565930acc657c37a898257c",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "61bd2da61c3e67d965e11e241737afbd2e19e748595f9b3a304be3ff26ec52d1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23059",
+          "location": "Approved HGNC snapshot row HGNC:23059 / BCAN",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
     },
     {
       "kind": "partner_function",
       "partner": "NTRK1",
-      "text": "NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase.",
+      "text": "NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase.",
       "source_ids": [
         "ncbi-4914"
       ],
-      "claim_sha256": "7432d32322be8120414af1aa00f5b449a85af58dc702f749378f3cd8e3e2c26e",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "e7ff15e5254b0412c7b50d555054eb90b363daa18795ba6d633e81977c7a7952",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4914",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4914",
+          "location": "NCBI Gene 4914 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a9b4efcfffcb621be14e03fedab36bf0f78e5255a4fb89c1d821cfbf16a2425a"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins BCAN sequences to the retained NTRK1 kinase, producing an oncogenic TRKA signaling protein. Chromosomal-engineering experiments demonstrated glioma-driving activity.",
+      "text": "The fusion joins BCAN to the retained NTRK1 kinase region. Chromosomal-engineering experiments produced high-grade gliomas in a p53-deficient background, supporting a cooperating oncogenic role.",
       "source_ids": [
         "bcan"
       ],
-      "claim_sha256": "26889a2203fd44fa6eeb8b8d9a534afb114034988ccb450d96408d94e4ebdb2d",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "93af011c27abd037a1deddd90bd80147e78f78a659a6f2a9c7802d116638f1bf",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "bcan",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5508201/",
+          "location": "Results, Figures 2-5; Bcan-Ntrk1 gliomas respond to an Ntrk1 inhibitor",
+          "scope": "Glioma formation required p53-null background in primary-cell models; original text omitted cooperation.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -55,27 +88,42 @@
         "fda-laro"
       ],
       "claim_sha256": "57951b19bfe0748828855190066a34ba2aaf88056ee44921c5b6a8843961cbb2",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-laro",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9525f887-a055-4e33-8e92-898d42828cd1",
+          "location": "DailyMed full prescribing information Section1",
+          "scope": "NTRK fusion without known acquired resistance; metastatic or surgery severe morbidity; prior progression/no satisfactory alternative.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "BCAN encodes brevican, a neural extracellular-matrix proteoglycan. NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase. The fusion joins BCAN sequences to the retained NTRK1 kinase, producing an oncogenic TRKA signaling protein. Chromosomal-engineering experiments demonstrated glioma-driving activity. Oncogenic NTRK-fusion-positive advanced solid tumors can qualify for TRK inhibition; larotrectinib criteria include absence of known acquired TRK resistance mutations and prior progression or no satisfactory alternatives.",
+    "text": "BCAN encodes brevican. NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase. The fusion joins BCAN to the retained NTRK1 kinase region. Chromosomal-engineering experiments produced high-grade gliomas in a p53-deficient background, supporting a cooperating oncogenic role. Oncogenic NTRK-fusion-positive advanced solid tumors can qualify for TRK inhibition; larotrectinib criteria include absence of known acquired TRK resistance mutations and prior progression or no satisfactory alternatives.",
     "source_ids": [
-      "ncbi-63827",
+      "hgnc",
       "ncbi-4914",
       "bcan",
       "fda-laro"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "7033c0842edcb0da074fb8e642efd79fa126a9a3efd36f5cb6ce2fe7d431b705"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "b57efc5fd678281d4a3f0f3761fa46e6c7f3016e757aed6d7d17532fe2e6bcb1"
 }

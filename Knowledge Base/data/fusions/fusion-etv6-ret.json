@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Salivary secretory carcinoma"
   ],
+  "disease_ids": [
+    "fusion-context-d38c219d8297"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-2120"
       ],
       "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,16 +50,36 @@
         "ncbi-5979"
       ],
       "claim_sha256": "bff0a244e3a9197f328d10b7c579776e547a11b6ffc49e5b9b553fee8aa3397f",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5979",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5979",
+          "location": "NCBI Gene 5979 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "f6b42810849ebc40626b1a8e42ffd99b3be404a68ce2496dcbaf99c2453cdc8d"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion couples the ETV6 oligomerization region to the RET kinase domain. It is an alternative driver in salivary secretory carcinoma, a tumor more commonly associated with ETV6::NTRK3.",
+      "text": "ETV6::RET has been confirmed by molecular analysis in salivary secretory carcinoma. It is an alternative to the more common ETV6::NTRK3-associated form.",
       "source_ids": [
-        "etv6-ret"
+        "audit-solid-etv6-ret"
       ],
-      "claim_sha256": "89a39e818ba5d48a0f81e3b196ad353fab07d3baee5a0258abae2a850eb9bedc",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "94514511b084cd797eea38741704051f2a7b291be4ab1b082c70db22e316c9eb",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-etv6-ret",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11904770/",
+          "location": "Case report, molecular analysis/RT-PCR; Figures 2-3",
+          "scope": "Direct ETV6::RET detection in salivary secretory carcinoma. Original33301751 only confirmed RET rearrangement and was insufficient for exact partner claim.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -55,27 +88,42 @@
         "fda-ret"
       ],
       "claim_sha256": "538a6fa5e6ddc561b5eeabe5addca912c26538e145186bc02dfa10906c1bfd48",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-ret",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218160s007lbl.pdf",
+          "location": "Prescribing information Sections1.1,1.3,1.4",
+          "scope": "Separate adultNSCLC and age>=2 thyroid/other solid-tumor indications.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. The fusion couples the ETV6 oligomerization region to the RET kinase domain. It is an alternative driver in salivary secretory carcinoma, a tumor more commonly associated with ETV6::NTRK3. For RET-fusion-positive locally advanced or metastatic solid tumors, selpercatinib is US-approved from age 2 years after prior systemic treatment or when no satisfactory alternative exists; this is a RET biomarker-class indication.",
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. ETV6::RET has been confirmed by molecular analysis in salivary secretory carcinoma. It is an alternative to the more common ETV6::NTRK3-associated form. For RET-fusion-positive locally advanced or metastatic solid tumors, selpercatinib is US-approved from age 2 years after prior systemic treatment or when no satisfactory alternative exists; this is a RET biomarker-class indication.",
     "source_ids": [
       "ncbi-2120",
       "ncbi-5979",
-      "etv6-ret",
+      "audit-solid-etv6-ret",
       "fda-ret"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "5e6d298fb9af577cc67ff686a8680723405ca8d01be35cf49a4affbcebba6885"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "477b7f8e5bb04eb1e00e8f8ab40f3023f5ad9a65703dc39b21b4d5b394060eb5"
 }

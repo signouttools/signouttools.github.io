@@ -18,6 +18,9 @@
   "tumor_contexts": [
     "Papillary glioneuronal tumor"
   ],
+  "disease_ids": [
+    "fusion-context-2d53bc71d8c5"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -27,7 +30,17 @@
         "ncbi-23446"
       ],
       "claim_sha256": "d5d2ccf86118e3cee65437e38d9ddebd6cf905902b7a3d68b1c63f09f9e1d657",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-23446",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23446",
+          "location": "NCBI Gene 23446 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "5b63a9eedc3aae7a8fe85fe4dbb5a0d405222eb4a5a6b457f0f9aebbb447c019"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,39 +50,62 @@
         "ncbi-5578"
       ],
       "claim_sha256": "8af645ad894fa2231ad6e2abb0f22075b0487b64a2f9147984b955de08c2c352",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5578",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5578",
+          "location": "NCBI Gene 5578 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "560a7ac96ac0561383db686138a085082783ff25273891a4827c961d44b5d0ca"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion joins SLC44A1 to a retained PRKCA kinase region, altering normal PKC regulation. It is a recurrent defining molecular alteration of papillary glioneuronal tumor.",
+      "text": "The recurrent fusion joins SLC44A1 exon15 to PRKCA exon9 and retains the PRKCA kinase-containing carboxy terminus. It is characteristic of papillary glioneuronal tumor.",
       "source_ids": [
-        "prkca",
-        "cns"
+        "prkca"
       ],
-      "claim_sha256": "13a0a19876fc7475f010b8309cc666f7dc0342a7324b60770d9e4c3e58fbfd22",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "b885f00e48412af72cf1a9dd8b23d534a02b58c52bb23225d21801a3b66fca30",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "prkca",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8029478/",
+          "location": "Results, RT-PCR sequencing; Figures 3B and 4A",
+          "scope": "SLC44A1 exon15/PRKCA exon9 junctions; no direct kinase-regulation experiment.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "SLC44A1 encodes choline transporter-like protein 1. PRKCA encodes protein kinase C alpha, a calcium- and diacylglycerol-regulated serine/threonine kinase. The fusion joins SLC44A1 to a retained PRKCA kinase region, altering normal PKC regulation. It is a recurrent defining molecular alteration of papillary glioneuronal tumor.",
+    "text": "SLC44A1 encodes choline transporter-like protein 1. PRKCA encodes protein kinase C alpha, a calcium- and diacylglycerol-regulated serine/threonine kinase. The recurrent fusion joins SLC44A1 exon15 to PRKCA exon9 and retains the PRKCA kinase-containing carboxy terminus. It is characteristic of papillary glioneuronal tumor.",
     "source_ids": [
       "ncbi-23446",
       "ncbi-5578",
-      "prkca",
-      "cns"
+      "prkca"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "The initial discovery establishes the recurrent product; direct inhibitor sensitivity and kinase activation require dedicated functional evidence."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "0e4d14401047a209cc90c20d249fad03e494630abab3d2ce2c74e46527844134"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "b6065802526288ab86076f65127615653cb9b6b8134ee381eeb9fd696a7e21a1"
 }

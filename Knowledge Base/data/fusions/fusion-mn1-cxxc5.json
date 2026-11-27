@@ -18,16 +18,29 @@
   "tumor_contexts": [
     "Astroblastoma, MN1-altered"
   ],
+  "disease_ids": [
+    "atlas-nm-astroblast"
+  ],
   "sections": [
     {
       "kind": "partner_function",
       "partner": "MN1",
-      "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs.",
+      "text": "MN1 encodes the meningioma 1 protein.",
       "source_ids": [
         "ncbi-4330"
       ],
-      "claim_sha256": "5a9c861f57edb00a37deae82a129a23827b75bb0e11e5512a5565a35c5726a5a",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "d43c10303d708623f9b6ec3622cfec3b1d19984736072677c19a310212ea75b0",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4330",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4330",
+          "location": "NCBI Gene 4330 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "da31de996b6452dd7d6975f3483c2f1adcb34be0e72dbf011227d11b40482253"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -37,37 +50,62 @@
         "ncbi-51523"
       ],
       "claim_sha256": "628f9012c2950996ae79425a73536f438aac77e4312a70cf4ef5be764554e5c5",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-51523",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/51523",
+          "location": "NCBI Gene 51523 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "50be42f2daa361f2bf5ae587a090dfcc125142ffcd281cafccbf17c9bdb8ef45"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion creates an abnormal MN1-containing transcriptional regulator. Experimental tumor models show oncogenic activity and convergence with MN1::BEND2-driven astroblastoma programs.",
+      "text": "MN1::CXXC5 has been detected in CNS tumors with MN1exon1/CXXC5exon2 junctions. In a recent cohort, these tumors formed a distinct DNA-methylation group designated NET-CXXC5.",
       "source_ids": [
-        "mn1"
+        "audit-solid-mn1-cxxc5"
       ],
-      "claim_sha256": "10c9da112eecf32575670c49206e053c8bcf5c869d954e6e772aef2abf5949c2",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "67d31d946cb1a5efeb825af3661510125d7169b9d30c64daa9055c4be13ee144",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-solid-mn1-cxxc5",
+          "url": "https://academic.oup.com/neuro-oncology/article/28/4/1005/8402143",
+          "location": "Results, molecular groups; Figure1E and Supplementary FigureS3B-C",
+          "scope": "Five MN1-CXXC5 tumors clustered in NET-CXXC5 methylation group; MN1exon1/CXXC5exon2 breakpoints.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs. CXXC5 encodes a CXXC-domain transcriptional regulator involved in developmental signaling. The fusion creates an abnormal MN1-containing transcriptional regulator. Experimental tumor models show oncogenic activity and convergence with MN1::BEND2-driven astroblastoma programs.",
+    "text": "MN1 encodes the meningioma 1 protein. CXXC5 encodes a CXXC-domain transcriptional regulator involved in developmental signaling. MN1::CXXC5 has been detected in CNS tumors with MN1exon1/CXXC5exon2 junctions. In a recent cohort, these tumors formed a distinct DNA-methylation group designated NET-CXXC5.",
     "source_ids": [
       "ncbi-4330",
       "ncbi-51523",
-      "mn1"
+      "audit-solid-mn1-cxxc5"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Rare partner; subtype-specific outcome evidence remains under review."
   ],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "e419dfe45d456f79412a86347b3a7a39bd28e3cad78ea457d3b676cf8427fafa"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "ce7a6dbf1259fbc5e69a0270489519b8affae8f6000020503f03ca2352e5bfd0"
 }

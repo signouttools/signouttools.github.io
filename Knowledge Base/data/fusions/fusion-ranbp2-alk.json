@@ -19,6 +19,10 @@
     "Inflammatory myofibroblastic tumor",
     "Epithelioid inflammatory myofibroblastic sarcoma"
   ],
+  "disease_ids": [
+    "fusion-context-9f98d303a12b",
+    "atlas-s-eims"
+  ],
   "sections": [
     {
       "kind": "partner_function",
@@ -28,7 +32,17 @@
         "ncbi-5903"
       ],
       "claim_sha256": "0ea4a242875fb276414d5a097752d7b5a5a64eb0b9fb1ea7b6c095aab3b5eeac",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5903",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5903",
+          "location": "NCBI Gene 5903 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a90f3ddda62a1e9cfd1a16b17110ac5297bd8d1e099f0d51315b663f55d49f8f"
+        }
+      ]
     },
     {
       "kind": "partner_function",
@@ -38,27 +52,36 @@
         "ncbi-238"
       ],
       "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-238",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/238",
+          "location": "NCBI Gene 238 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "8557f6d8f0b31614e2fe0862f32ace4c2f1f75a90a0392aff40b46c4e39b721f"
+        }
+      ]
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. RANBP2::ALK is associated with epithelioid inflammatory myofibroblastic sarcoma and often nuclear-membrane ALK staining.",
+      "text": "RANBP2::ALK has been detected in inflammatory myofibroblastic tumors by targeted sequencing. The fusion retains the ALK kinase-containing carboxy-terminal region.",
       "source_ids": [
-        "sarcoma",
-        "ranbp2-alk",
         "imt-kinases"
       ],
-      "claim_sha256": "8f48e95561a33e6ae5523663e9acadf4804436a00ab36f150319bdff097ba747",
-      "fulltext_audit_status": "pending"
-    },
-    {
-      "kind": "prognosis",
-      "text": "The RANBP2::ALK-associated epithelioid sarcoma phenotype has a more aggressive course than conventional inflammatory myofibroblastic tumor.",
-      "source_ids": [
-        "ranbp2-alk"
-      ],
-      "claim_sha256": "d7136951b192a9987b84098559240ca6cbb8bc11d8e050f6b9a3fd149e0a736b",
-      "fulltext_audit_status": "pending"
+      "claim_sha256": "b58d1b179dc7fa59a6596e79ce699d47919f8aea3e3e0a9a076ade58b6c3eec9",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "imt-kinases",
+          "url": "https://aacrjournals.org/cancerdiscovery/article/4/8/889/4598/Inflammatory-Myofibroblastic-Tumors-Harbor",
+          "location": "Results, Targeted NGS identified ALK, ROS1 and PDGFRβ tyrosine kinase fusions; Table 1 and Figure 2",
+          "scope": "TPM3,TPM4,TFG,RANBP2,CLTC,FN1 partners detected in IMT; atypical FN1 ALK intron18 breakpoint.",
+          "access_level": "primary_fulltext",
+          "retrieval_note": "Primary body/figure/table passage inspected through indexed full-text retrieval; not abstract-only."
+        }
+      ]
     },
     {
       "kind": "therapeutics",
@@ -67,29 +90,42 @@
         "fda-criz"
       ],
       "claim_sha256": "36cd9dc91534b03cac1393ef8c25971d8f013ce6c1ca51b0d9229126da8b8c22",
-      "fulltext_audit_status": "pending"
+      "fulltext_audit_status": "official_regulatory_supported",
+      "audit_evidence": [
+        {
+          "source_id": "fda-criz",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+          "location": "Prescribing information Sections1.1 and1.3",
+          "scope": "ALK/ROS1 metastaticNSCLC and age>=1 unresectable,recurrent,refractory ALK-positiveIMT.",
+          "access_level": "official_regulatory",
+          "retrieval_note": "Official indication or classification text inspected; not labeled primary research."
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "RANBP2 encodes a nuclear-pore-associated protein with transport and SUMO-ligase functions. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. RANBP2::ALK is associated with epithelioid inflammatory myofibroblastic sarcoma and often nuclear-membrane ALK staining. The RANBP2::ALK-associated epithelioid sarcoma phenotype has a more aggressive course than conventional inflammatory myofibroblastic tumor. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+    "text": "RANBP2 encodes a nuclear-pore-associated protein with transport and SUMO-ligase functions. ALK encodes a receptor tyrosine kinase involved in neural development. RANBP2::ALK has been detected in inflammatory myofibroblastic tumors by targeted sequencing. The fusion retains the ALK kinase-containing carboxy-terminal region. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
     "source_ids": [
       "ncbi-5903",
       "ncbi-238",
-      "sarcoma",
-      "ranbp2-alk",
       "imt-kinases",
       "fda-criz"
     ]
   },
-  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [],
   "editorial": {
     "status": "draft",
-    "revision": 1,
+    "revision": 2,
     "drafted_on": "2026-11-27",
     "reviewer": null,
     "pathologist_review": "pending",
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
-  "text_sha256": "1fe547eec375e9bfdf5f86cd2a8ac9e02184c1bef1f12a8c1a4c73f0122b0bba"
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "f80c20d309099ded3464d1b183c09487f376bb773ba3526bd583036a4e27951f"
 }
