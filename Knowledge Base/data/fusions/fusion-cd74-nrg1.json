@@ -1,0 +1,81 @@
+{
+  "id": "fusion-cd74-nrg1",
+  "label": "CD74::NRG1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CD74",
+      "hgnc_id": "HGNC:1697",
+      "ncbi_gene_id": "972"
+    },
+    {
+      "symbol": "NRG1",
+      "hgnc_id": "HGNC:7997",
+      "ncbi_gene_id": "3084"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Lung adenocarcinoma, often invasive mucinous"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CD74",
+      "text": "CD74 encodes the invariant chain required for major histocompatibility complex class II processing.",
+      "source_ids": [
+        "ncbi-972"
+      ],
+      "claim_sha256": "89ed01d5790ba355092bae1fa84068d03e3ab705a06f26ad7f0e7e68a7e9b1ea",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NRG1",
+      "text": "NRG1 encodes neuregulin 1, a ligand for ERBB3/ERBB4 receptor signaling.",
+      "source_ids": [
+        "ncbi-3084"
+      ],
+      "claim_sha256": "45d17d43a138a20f6b276e6de6a86cf48060f669a74f5d47f78b4ee23418070e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves the NRG1 EGF-like ligand domain and promotes ERBB3 signaling through ERBB2/ERBB3 receptor complexes. This is a ligand-driven oncogenic mechanism rather than a kinase fusion. CD74::NRG1 has been detected in carcinomas.",
+      "source_ids": [
+        "nrg1"
+      ],
+      "claim_sha256": "d4a7832ed5a04dfc34e79c190aabb0e20609387e263cf3fcbee95d52ccf8875b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Zenocutuzumab, a HER2/HER3 bispecific antibody, has US indications for adults with NRG1-fusion-positive advanced unresectable or metastatic NSCLC, pancreatic adenocarcinoma or cholangiocarcinoma after progression on prior systemic therapy.",
+      "source_ids": [
+        "fda-nrg1"
+      ],
+      "claim_sha256": "c9614308dc89ff0acb7e32aed79aa5aaf5b5b6ce3b37940d6827c79dde9d675e",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CD74 encodes the invariant chain required for major histocompatibility complex class II processing. NRG1 encodes neuregulin 1, a ligand for ERBB3/ERBB4 receptor signaling. The fusion preserves the NRG1 EGF-like ligand domain and promotes ERBB3 signaling through ERBB2/ERBB3 receptor complexes. This is a ligand-driven oncogenic mechanism rather than a kinase fusion. CD74::NRG1 has been detected in carcinomas. Zenocutuzumab, a HER2/HER3 bispecific antibody, has US indications for adults with NRG1-fusion-positive advanced unresectable or metastatic NSCLC, pancreatic adenocarcinoma or cholangiocarcinoma after progression on prior systemic therapy.",
+    "source_ids": [
+      "ncbi-972",
+      "ncbi-3084",
+      "nrg1",
+      "fda-nrg1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "e0ab931abf581db74665285ebb5ac1afdda360a6e13f4e5ff4d409864e06c268"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "fusion-igh-ccnd2",
+  "label": "IGH / CCND2",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "CCND2",
+      "hgnc_id": "HGNC:1583",
+      "ncbi_gene_id": "894"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Cyclin D1-negative mantle cell lymphoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CCND2",
+      "text": "CCND2 encodes cyclin D2, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "source_ids": [
+        "ncbi-894"
+      ],
+      "claim_sha256": "0bf15243aeb92b64379e30abdec9118f14363ee85030b89a6ccac5f428c8eb38",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "Immunoglobulin enhancer juxtaposition increases CCND2 expression and can substitute for cyclin D1 activation in a subset of cyclin D1-negative mantle cell lymphomas. These events require an appropriate mantle-cell morphologic and phenotypic classification.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "123720d4801301bc79dd99d10d665132fa0d597c3e1509c8f73196cda2d4db4b",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. CCND2 encodes cyclin D2, a regulator of CDK4/6-dependent cell-cycle progression. Immunoglobulin enhancer juxtaposition increases CCND2 expression and can substitute for cyclin D1 activation in a subset of cyclin D1-negative mantle cell lymphomas. These events require an appropriate mantle-cell morphologic and phenotypic classification.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-894",
+      "icc-l"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "198405a1cab2f92d92bf4eabaa5b8d5a2b8892793bd1b186926211a7ebab3c25"
+}

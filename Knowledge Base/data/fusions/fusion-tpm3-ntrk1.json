@@ -1,0 +1,85 @@
+{
+  "id": "fusion-tpm3-ntrk1",
+  "label": "TPM3::NTRK1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "TPM3",
+      "hgnc_id": "HGNC:12012",
+      "ncbi_gene_id": "7170"
+    },
+    {
+      "symbol": "NTRK1",
+      "hgnc_id": "HGNC:8031",
+      "ncbi_gene_id": "4914"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "NTRK-rearranged spindle cell neoplasm",
+    "Colorectal carcinoma",
+    "Papillary thyroid carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TPM3",
+      "text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments.",
+      "source_ids": [
+        "ncbi-7170"
+      ],
+      "claim_sha256": "203382961047c448e896799da70d42de5df9549b14c78c1394ee6c6c88d21eae",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK1",
+      "text": "NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4914"
+      ],
+      "claim_sha256": "7432d32322be8120414af1aa00f5b449a85af58dc702f749378f3cd8e3e2c26e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. TPM3::NTRK1 is a reported oncogenic TRK fusion in colorectal carcinoma, with additional thyroid or mesenchymal associations.",
+      "source_ids": [
+        "ntrk-colon"
+      ],
+      "claim_sha256": "697b592a357cb478fc8d9c92416c7c5441bfe3d7a544b2ac14992d3bc608f0a3",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+      "source_ids": [
+        "fda-laro"
+      ],
+      "claim_sha256": "970ce55d339c0480dd23db38d9fce1c47aeea11ba48231546a463b664f63827f",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments. NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase. The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. TPM3::NTRK1 is a reported oncogenic TRK fusion in colorectal carcinoma, with additional thyroid or mesenchymal associations. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+    "source_ids": [
+      "ncbi-7170",
+      "ncbi-4914",
+      "ntrk-colon",
+      "fda-laro"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "ff715a639501c5eda849496b8190b0e1d01b1adaa14b75adc0a5d84db11cfa28"
+}

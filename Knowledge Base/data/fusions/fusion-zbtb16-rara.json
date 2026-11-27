@@ -1,0 +1,80 @@
+{
+  "id": "fusion-zbtb16-rara",
+  "label": "ZBTB16::RARA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ZBTB16",
+      "hgnc_id": "HGNC:12930",
+      "ncbi_gene_id": "7704"
+    },
+    {
+      "symbol": "RARA",
+      "hgnc_id": "HGNC:9864",
+      "ncbi_gene_id": "5914"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML with variant RARA fusion"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ZBTB16",
+      "text": "ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation.",
+      "source_ids": [
+        "ncbi-7704"
+      ],
+      "claim_sha256": "40d4ff25f385516be5663aa7c691ee70cb11008fa723ddf500c1b2ed0d6446db",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RARA",
+      "text": "RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor.",
+      "source_ids": [
+        "ncbi-5914"
+      ],
+      "claim_sha256": "15796aab291e1c486a471d24789fe5cf65e08c7cfbf5b304560c64ccd60852bc",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+      "source_ids": [
+        "rara"
+      ],
+      "claim_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
+      "source_ids": [
+        "rara"
+      ],
+      "claim_sha256": "27644a85ce5d40e315178225cb4d12100cd18e173a38729d72c92828197db661",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA. ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
+    "source_ids": [
+      "ncbi-7704",
+      "ncbi-5914",
+      "rara"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "aa7327a42914d6905c96a40f289eb3f8a417e12d025404b2a27951058af67014"
+}

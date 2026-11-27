@@ -1,0 +1,4660 @@
+{
+  "inventory_version": "0.1.0",
+  "compiled_on": "2026-11-27",
+  "status": "planning_only_no_blurbs_authorized",
+  "scope": "Non-exhaustive proposed categorical pair inventory; disease labels and source leads are provisional. No patient-level observations or validated clinical assertions.",
+  "counting_rule": "One ordered pair per candidate; contexts and transcript/exon variants are not separate fusions. Regulatory events counted separately.",
+  "source_policy": "Discovery leads identify where to begin review; they do not certify that a source directly supports every listed pair, context, mechanism, or oncogenicity claim.",
+  "summary": {
+    "ordered_pair_candidates": 152,
+    "by_wave": {
+      "1": 71,
+      "2": 70,
+      "3": 11
+    },
+    "regulatory_event_candidates": 21,
+    "partners_missing_from_current_dictionary": [
+      "AHCYL1",
+      "BCL9",
+      "CARS1",
+      "DDX10",
+      "EBF1",
+      "EZR",
+      "FAM131B",
+      "HNRNPUL1",
+      "HOXD13",
+      "INA",
+      "LIFR",
+      "MLLT6",
+      "RCSD1",
+      "SDC4",
+      "SET",
+      "SQSTM1",
+      "SRGAP3",
+      "SSBP2",
+      "TPM4"
+    ]
+  },
+  "sources": [
+    {
+      "id": "hgnc",
+      "title": "HGNC nomenclature guidelines",
+      "url": "https://www.genenames.org/about/guidelines/",
+      "accessed_on": "2026-11-27",
+      "role": "nomenclature",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "vicc",
+      "title": "Gene Fusion Specification (pre-release; pin version before implementation)",
+      "url": "https://fusions.cancervariants.org/en/latest/",
+      "accessed_on": "2026-11-27",
+      "role": "nomenclature",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "pan",
+      "title": "Gao et al. Driver Fusions and Their Implications in the Development and Treatment of Human Cancers (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29617662/",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "aml",
+      "title": "NCI Childhood AML PDQ; discovery and primary-reference leads",
+      "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "all",
+      "title": "NCI Childhood ALL PDQ; discovery and primary-reference leads",
+      "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "icc-myeloid",
+      "title": "International Consensus Classification: myeloid neoplasms and acute leukemias (2022)",
+      "url": "https://doi.org/10.1182/blood.2022015850",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "icc-lymphoid",
+      "title": "International Consensus Classification: mature lymphoid neoplasms (2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9479027/",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "sarcoma",
+      "title": "NCI Childhood Soft Tissue Sarcoma PDQ; discovery and primary-reference leads",
+      "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "cns",
+      "title": "WHO CNS5 classification summary (2021)",
+      "url": "https://doi.org/10.1093/neuonc/noab106",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "lgg",
+      "title": "Whole-genome sequencing identifies genetic alterations in pediatric low-grade gliomas (2013)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3727232/",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "myb",
+      "title": "Comprehensive analysis of MYB/MYBL1-altered pediatric-type diffuse low-grade glioma (2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38466086/",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "salivary",
+      "title": "Targeted RNA sequencing in routine detection of fusion genes in salivary gland tumors (2021)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8753559/",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "renal",
+      "title": "Integrative clinical and molecular characterization of translocation renal cell carcinoma (2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9127595/",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "nrg1",
+      "title": "Detection of NRG1 gene fusions in solid tumors (2019)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7470623/",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    },
+    {
+      "id": "fgfr2",
+      "title": "Proteogenomic characterization of intrahepatic cholangiocarcinoma (2022)",
+      "url": "https://doi.org/10.1016/j.ccell.2021.12.006",
+      "accessed_on": "2026-11-27",
+      "role": "discovery_lead",
+      "reuse": "Link and original inventory only; check record-specific license before ingestion."
+    }
+  ],
+  "fusion_candidates": [
+    {
+      "id": "fusion-candidate-eml4--alk",
+      "label": "EML4::ALK",
+      "partners": [
+        {
+          "symbol": "EML4",
+          "hgnc_id": "HGNC:1316",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kif5b--alk",
+      "label": "KIF5B::ALK",
+      "partners": [
+        {
+          "symbol": "KIF5B",
+          "hgnc_id": "HGNC:6324",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kif5b--ret",
+      "label": "KIF5B::RET",
+      "partners": [
+        {
+          "symbol": "KIF5B",
+          "hgnc_id": "HGNC:6324",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RET",
+          "hgnc_id": "HGNC:9967",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ccdc6--ret",
+      "label": "CCDC6::RET",
+      "partners": [
+        {
+          "symbol": "CCDC6",
+          "hgnc_id": "HGNC:18782",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RET",
+          "hgnc_id": "HGNC:9967",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ncoa4--ret",
+      "label": "NCOA4::RET",
+      "partners": [
+        {
+          "symbol": "NCOA4",
+          "hgnc_id": "HGNC:7671",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RET",
+          "hgnc_id": "HGNC:9967",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cd74--ros1",
+      "label": "CD74::ROS1",
+      "partners": [
+        {
+          "symbol": "CD74",
+          "hgnc_id": "HGNC:1697",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-slc34a2--ros1",
+      "label": "SLC34A2::ROS1",
+      "partners": [
+        {
+          "symbol": "SLC34A2",
+          "hgnc_id": "HGNC:11020",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-sdc4--ros1",
+      "label": "SDC4::ROS1",
+      "partners": [
+        {
+          "symbol": "SDC4",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ezr--ros1",
+      "label": "EZR::ROS1",
+      "partners": [
+        {
+          "symbol": "EZR",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-etv6--ntrk3",
+      "label": "ETV6::NTRK3",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NTRK3",
+          "hgnc_id": "HGNC:8033",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; each pair/context requires review"
+      ],
+      "discovery_source_ids": [
+        "pan",
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tpm3--ntrk1",
+      "label": "TPM3::NTRK1",
+      "partners": [
+        {
+          "symbol": "TPM3",
+          "hgnc_id": "HGNC:12012",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; each pair/context requires review"
+      ],
+      "discovery_source_ids": [
+        "pan",
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-lmna--ntrk1",
+      "label": "LMNA::NTRK1",
+      "partners": [
+        {
+          "symbol": "LMNA",
+          "hgnc_id": "HGNC:6636",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; each pair/context requires review"
+      ],
+      "discovery_source_ids": [
+        "pan",
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tpr--ntrk1",
+      "label": "TPR::NTRK1",
+      "partners": [
+        {
+          "symbol": "TPR",
+          "hgnc_id": "HGNC:12017",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; each pair/context requires review"
+      ],
+      "discovery_source_ids": [
+        "pan",
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fgfr2--bicc1",
+      "label": "FGFR2::BICC1",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "BICC1",
+          "hgnc_id": "HGNC:19351",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "fgfr2"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fgfr2--ahcyl1",
+      "label": "FGFR2::AHCYL1",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "AHCYL1",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "fgfr2"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fgfr3--tacc3",
+      "label": "FGFR3::TACC3",
+      "partners": [
+        {
+          "symbol": "FGFR3",
+          "hgnc_id": "HGNC:3690",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TACC3",
+          "hgnc_id": "HGNC:11524",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Glioma or urothelial carcinoma; separate contexts"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cd74--nrg1",
+      "label": "CD74::NRG1",
+      "partners": [
+        {
+          "symbol": "CD74",
+          "hgnc_id": "HGNC:1697",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NRG1",
+          "hgnc_id": "HGNC:7997",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NRG1-associated carcinoma"
+      ],
+      "discovery_source_ids": [
+        "nrg1"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-slc3a2--nrg1",
+      "label": "SLC3A2::NRG1",
+      "partners": [
+        {
+          "symbol": "SLC3A2",
+          "hgnc_id": "HGNC:11026",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NRG1",
+          "hgnc_id": "HGNC:7997",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NRG1-associated carcinoma"
+      ],
+      "discovery_source_ids": [
+        "nrg1"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-atp1b1--nrg1",
+      "label": "ATP1B1::NRG1",
+      "partners": [
+        {
+          "symbol": "ATP1B1",
+          "hgnc_id": "HGNC:804",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NRG1",
+          "hgnc_id": "HGNC:7997",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NRG1-associated carcinoma"
+      ],
+      "discovery_source_ids": [
+        "nrg1"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tpm3--alk",
+      "label": "TPM3::ALK",
+      "partners": [
+        {
+          "symbol": "TPM3",
+          "hgnc_id": "HGNC:12012",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tpm4--alk",
+      "label": "TPM4::ALK",
+      "partners": [
+        {
+          "symbol": "TPM4",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cltc--alk",
+      "label": "CLTC::ALK",
+      "partners": [
+        {
+          "symbol": "CLTC",
+          "hgnc_id": "HGNC:2092",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Inflammatory myofibroblastic tumor",
+        "ALK-positive large B-cell lymphoma"
+      ],
+      "discovery_source_ids": [
+        "icc-lymphoid",
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ranbp2--alk",
+      "label": "RANBP2::ALK",
+      "partners": [
+        {
+          "symbol": "RANBP2",
+          "hgnc_id": "HGNC:9848",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-bcr--abl1",
+      "label": "BCR::ABL1",
+      "partners": [
+        {
+          "symbol": "BCR",
+          "hgnc_id": "HGNC:1014",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "CML; B-ALL; AML; separate contexts"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-pml--rara",
+      "label": "PML::RARA",
+      "partners": [
+        {
+          "symbol": "PML",
+          "hgnc_id": "HGNC:9113",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-runx1--runx1t1",
+      "label": "RUNX1::RUNX1T1",
+      "partners": [
+        {
+          "symbol": "RUNX1",
+          "hgnc_id": "HGNC:10471",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RUNX1T1",
+          "hgnc_id": "HGNC:1535",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cbfb--myh11",
+      "label": "CBFB::MYH11",
+      "partners": [
+        {
+          "symbol": "CBFB",
+          "hgnc_id": "HGNC:1539",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MYH11",
+          "hgnc_id": "HGNC:7569",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-dek--nup214",
+      "label": "DEK::NUP214",
+      "partners": [
+        {
+          "symbol": "DEK",
+          "hgnc_id": "HGNC:2768",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NUP214",
+          "hgnc_id": "HGNC:8064",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-rbm15--mrtfa",
+      "label": "RBM15::MRTFA",
+      "partners": [
+        {
+          "symbol": "RBM15",
+          "hgnc_id": "HGNC:14959",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MRTFA",
+          "hgnc_id": "HGNC:14334",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": [
+        "RBM15::MKL1"
+      ]
+    },
+    {
+      "id": "fusion-candidate-kmt2a--mllt3",
+      "label": "KMT2A::MLLT3",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MLLT3",
+          "hgnc_id": "HGNC:7136",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kmt2a--aff1",
+      "label": "KMT2A::AFF1",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "AFF1",
+          "hgnc_id": "HGNC:7135",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kmt2a--mllt10",
+      "label": "KMT2A::MLLT10",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MLLT10",
+          "hgnc_id": "HGNC:16063",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kmt2a--ell",
+      "label": "KMT2A::ELL",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ELL",
+          "hgnc_id": "HGNC:23114",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kmt2a--afdn",
+      "label": "KMT2A::AFDN",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "AFDN",
+          "hgnc_id": "HGNC:7137",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": [
+        "MLL::AF6",
+        "KMT2A::MLLT4"
+      ]
+    },
+    {
+      "id": "fusion-candidate-nup98--nsd1",
+      "label": "NUP98::NSD1",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NSD1",
+          "hgnc_id": "HGNC:14234",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nup98--kdm5a",
+      "label": "NUP98::KDM5A",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "KDM5A",
+          "hgnc_id": "HGNC:9886",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cbfa2t3--glis2",
+      "label": "CBFA2T3::GLIS2",
+      "partners": [
+        {
+          "symbol": "CBFA2T3",
+          "hgnc_id": "HGNC:1537",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "GLIS2",
+          "hgnc_id": "HGNC:29450",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fip1l1--pdgfra",
+      "label": "FIP1L1::PDGFRA",
+      "partners": [
+        {
+          "symbol": "FIP1L1",
+          "hgnc_id": "HGNC:19124",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PDGFRA",
+          "hgnc_id": "HGNC:8803",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-etv6--pdgfrb",
+      "label": "ETV6::PDGFRB",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PDGFRB",
+          "hgnc_id": "HGNC:8804",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-zmym2--fgfr1",
+      "label": "ZMYM2::FGFR1",
+      "partners": [
+        {
+          "symbol": "ZMYM2",
+          "hgnc_id": "HGNC:12989",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "FGFR1",
+          "hgnc_id": "HGNC:3688",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-pcm1--jak2",
+      "label": "PCM1::JAK2",
+      "partners": [
+        {
+          "symbol": "PCM1",
+          "hgnc_id": "HGNC:8727",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-etv6--flt3",
+      "label": "ETV6::FLT3",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "FLT3",
+          "hgnc_id": "HGNC:3765",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-etv6--runx1",
+      "label": "ETV6::RUNX1",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RUNX1",
+          "hgnc_id": "HGNC:10471",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tcf3--pbx1",
+      "label": "TCF3::PBX1",
+      "partners": [
+        {
+          "symbol": "TCF3",
+          "hgnc_id": "HGNC:11633",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PBX1",
+          "hgnc_id": "HGNC:8632",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tcf3--hlf",
+      "label": "TCF3::HLF",
+      "partners": [
+        {
+          "symbol": "TCF3",
+          "hgnc_id": "HGNC:11633",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "HLF",
+          "hgnc_id": "HGNC:4977",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-npm1--alk",
+      "label": "NPM1::ALK",
+      "partners": [
+        {
+          "symbol": "NPM1",
+          "hgnc_id": "HGNC:7910",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "Anaplastic large cell lymphoma"
+      ],
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--fli1",
+      "label": "EWSR1::FLI1",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "FLI1",
+          "hgnc_id": "HGNC:3749",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Ewing sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--erg",
+      "label": "EWSR1::ERG",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ERG",
+          "hgnc_id": "HGNC:3446",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Ewing sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ss18--ssx1",
+      "label": "SS18::SSX1",
+      "partners": [
+        {
+          "symbol": "SS18",
+          "hgnc_id": "HGNC:11340",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "SSX1",
+          "hgnc_id": "HGNC:11335",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Synovial sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ss18--ssx2",
+      "label": "SS18::SSX2",
+      "partners": [
+        {
+          "symbol": "SS18",
+          "hgnc_id": "HGNC:11340",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "SSX2",
+          "hgnc_id": "HGNC:11336",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Synovial sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-pax3--foxo1",
+      "label": "PAX3::FOXO1",
+      "partners": [
+        {
+          "symbol": "PAX3",
+          "hgnc_id": "HGNC:8617",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "FOXO1",
+          "hgnc_id": "HGNC:3819",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Alveolar rhabdomyosarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-pax7--foxo1",
+      "label": "PAX7::FOXO1",
+      "partners": [
+        {
+          "symbol": "PAX7",
+          "hgnc_id": "HGNC:8621",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "FOXO1",
+          "hgnc_id": "HGNC:3819",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Alveolar rhabdomyosarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--wt1",
+      "label": "EWSR1::WT1",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "WT1",
+          "hgnc_id": "HGNC:12796",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Desmoplastic small round cell tumor"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fus--ddit3",
+      "label": "FUS::DDIT3",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "DDIT3",
+          "hgnc_id": "HGNC:2726",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--ddit3",
+      "label": "EWSR1::DDIT3",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "DDIT3",
+          "hgnc_id": "HGNC:2726",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-col1a1--pdgfb",
+      "label": "COL1A1::PDGFB",
+      "partners": [
+        {
+          "symbol": "COL1A1",
+          "hgnc_id": "HGNC:2197",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PDGFB",
+          "hgnc_id": "HGNC:8800",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Dermatofibrosarcoma protuberans"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nab2--stat6",
+      "label": "NAB2::STAT6",
+      "partners": [
+        {
+          "symbol": "NAB2",
+          "hgnc_id": "HGNC:7627",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "STAT6",
+          "hgnc_id": "HGNC:11368",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Solitary fibrous tumor"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-aspscr1--tfe3",
+      "label": "ASPSCR1::TFE3",
+      "partners": [
+        {
+          "symbol": "ASPSCR1",
+          "hgnc_id": "HGNC:13825",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Alveolar soft part sarcoma; renal context separately"
+      ],
+      "discovery_source_ids": [
+        "sarcoma",
+        "renal"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--atf1",
+      "label": "EWSR1::ATF1",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ATF1",
+          "hgnc_id": "HGNC:783",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Clear cell sarcoma; other histologies separately"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kiaa1549--braf",
+      "label": "KIAA1549::BRAF",
+      "partners": [
+        {
+          "symbol": "KIAA1549",
+          "hgnc_id": "HGNC:22219",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "BRAF",
+          "hgnc_id": "HGNC:1097",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "CNS",
+      "candidate_contexts": [
+        "Pilocytic astrocytoma",
+        "Diffuse leptomeningeal glioneuronal tumor"
+      ],
+      "discovery_source_ids": [
+        "cns",
+        "lgg"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-zfta--rela",
+      "label": "ZFTA::RELA",
+      "partners": [
+        {
+          "symbol": "ZFTA",
+          "hgnc_id": "HGNC:28449",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RELA",
+          "hgnc_id": "HGNC:9955",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "CNS",
+      "candidate_contexts": [
+        "Supratentorial ependymoma"
+      ],
+      "discovery_source_ids": [
+        "cns"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": [
+        "C11orf95::RELA"
+      ]
+    },
+    {
+      "id": "fusion-candidate-yap1--mamld1",
+      "label": "YAP1::MAMLD1",
+      "partners": [
+        {
+          "symbol": "YAP1",
+          "hgnc_id": "HGNC:16262",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MAMLD1",
+          "hgnc_id": "HGNC:2568",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "CNS",
+      "candidate_contexts": [
+        "Supratentorial ependymoma"
+      ],
+      "discovery_source_ids": [
+        "cns"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-myb--qki",
+      "label": "MYB::QKI",
+      "partners": [
+        {
+          "symbol": "MYB",
+          "hgnc_id": "HGNC:7545",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "QKI",
+          "hgnc_id": "HGNC:21100",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "CNS",
+      "candidate_contexts": [
+        "Angiocentric glioma"
+      ],
+      "discovery_source_ids": [
+        "myb"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-crtc1--maml2",
+      "label": "CRTC1::MAML2",
+      "partners": [
+        {
+          "symbol": "CRTC1",
+          "hgnc_id": "HGNC:16062",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MAML2",
+          "hgnc_id": "HGNC:16259",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "Mucoepidermoid carcinoma"
+      ],
+      "discovery_source_ids": [
+        "salivary"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-crtc3--maml2",
+      "label": "CRTC3::MAML2",
+      "partners": [
+        {
+          "symbol": "CRTC3",
+          "hgnc_id": "HGNC:26148",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MAML2",
+          "hgnc_id": "HGNC:16259",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "Mucoepidermoid carcinoma"
+      ],
+      "discovery_source_ids": [
+        "salivary"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-myb--nfib",
+      "label": "MYB::NFIB",
+      "partners": [
+        {
+          "symbol": "MYB",
+          "hgnc_id": "HGNC:7545",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NFIB",
+          "hgnc_id": "HGNC:7785",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "Adenoid cystic carcinoma"
+      ],
+      "discovery_source_ids": [
+        "salivary"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-mybl1--nfib",
+      "label": "MYBL1::NFIB",
+      "partners": [
+        {
+          "symbol": "MYBL1",
+          "hgnc_id": "HGNC:7547",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NFIB",
+          "hgnc_id": "HGNC:7785",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "Adenoid cystic carcinoma"
+      ],
+      "discovery_source_ids": [
+        "salivary"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-brd4--nutm1",
+      "label": "BRD4::NUTM1",
+      "partners": [
+        {
+          "symbol": "BRD4",
+          "hgnc_id": "HGNC:13575",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NUTM1",
+          "hgnc_id": "HGNC:29919",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "NUT carcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-brd3--nutm1",
+      "label": "BRD3::NUTM1",
+      "partners": [
+        {
+          "symbol": "BRD3",
+          "hgnc_id": "HGNC:1104",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NUTM1",
+          "hgnc_id": "HGNC:29919",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "NUT carcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-dnajb1--prkaca",
+      "label": "DNAJB1::PRKACA",
+      "partners": [
+        {
+          "symbol": "DNAJB1",
+          "hgnc_id": "HGNC:5270",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PRKACA",
+          "hgnc_id": "HGNC:9380",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "Fibrolamellar carcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tmprss2--erg",
+      "label": "TMPRSS2::ERG",
+      "partners": [
+        {
+          "symbol": "TMPRSS2",
+          "hgnc_id": "HGNC:11876",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ERG",
+          "hgnc_id": "HGNC:3446",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 1,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "Prostate carcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tpm3--ros1",
+      "label": "TPM3::ROS1",
+      "partners": [
+        {
+          "symbol": "TPM3",
+          "hgnc_id": "HGNC:12012",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-gopc--ros1",
+      "label": "GOPC::ROS1",
+      "partners": [
+        {
+          "symbol": "GOPC",
+          "hgnc_id": "HGNC:17643",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": [
+        "FIG::ROS1"
+      ]
+    },
+    {
+      "id": "fusion-candidate-strn--alk",
+      "label": "STRN::ALK",
+      "partners": [
+        {
+          "symbol": "STRN",
+          "hgnc_id": "HGNC:11424",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tpr--ntrk3",
+      "label": "TPR::NTRK3",
+      "partners": [
+        {
+          "symbol": "TPR",
+          "hgnc_id": "HGNC:12017",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NTRK3",
+          "hgnc_id": "HGNC:8033",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; verify exact histology"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-eml4--ntrk3",
+      "label": "EML4::NTRK3",
+      "partners": [
+        {
+          "symbol": "EML4",
+          "hgnc_id": "HGNC:1316",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NTRK3",
+          "hgnc_id": "HGNC:8033",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; verify exact histology"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-etv6--ntrk2",
+      "label": "ETV6::NTRK2",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NTRK2",
+          "hgnc_id": "HGNC:8032",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; verify exact histology"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-sqstm1--ntrk1",
+      "label": "SQSTM1::NTRK1",
+      "partners": [
+        {
+          "symbol": "SQSTM1",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "NTRK-associated solid tumors; verify exact histology"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fgfr2--etv6",
+      "label": "FGFR2::ETV6",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "fgfr2"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fgfr2--ina",
+      "label": "FGFR2::INA",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "INA",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "discovery_source_ids": [
+        "fgfr2"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fgfr1--tacc1",
+      "label": "FGFR1::TACC1",
+      "partners": [
+        {
+          "symbol": "FGFR1",
+          "hgnc_id": "HGNC:3688",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TACC1",
+          "hgnc_id": "HGNC:11522",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Glioma"
+      ],
+      "discovery_source_ids": [
+        "lgg"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fam131b--braf",
+      "label": "FAM131B::BRAF",
+      "partners": [
+        {
+          "symbol": "FAM131B",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "BRAF",
+          "hgnc_id": "HGNC:1097",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Glioma"
+      ],
+      "discovery_source_ids": [
+        "lgg"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-srgap3--raf1",
+      "label": "SRGAP3::RAF1",
+      "partners": [
+        {
+          "symbol": "SRGAP3",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "RAF1",
+          "hgnc_id": "HGNC:9829",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Glioma"
+      ],
+      "discovery_source_ids": [
+        "lgg"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-qki--raf1",
+      "label": "QKI::RAF1",
+      "partners": [
+        {
+          "symbol": "QKI",
+          "hgnc_id": "HGNC:21100",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RAF1",
+          "hgnc_id": "HGNC:9829",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Solid tumor kinase and ligand",
+      "candidate_contexts": [
+        "Glioma"
+      ],
+      "discovery_source_ids": [
+        "lgg"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kmt2a--mllt1",
+      "label": "KMT2A::MLLT1",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MLLT1",
+          "hgnc_id": "HGNC:7134",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kmt2a--mllt6",
+      "label": "KMT2A::MLLT6",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MLLT6",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nup98--hoxa9",
+      "label": "NUP98::HOXA9",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "HOXA9",
+          "hgnc_id": "HGNC:5109",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nup98--hoxd13",
+      "label": "NUP98::HOXD13",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "HOXD13",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nup98--ddx10",
+      "label": "NUP98::DDX10",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "DDX10",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nup98--top1",
+      "label": "NUP98::TOP1",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TOP1",
+          "hgnc_id": "HGNC:11986",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-set--nup214",
+      "label": "SET::NUP214",
+      "partners": [
+        {
+          "symbol": "SET",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "NUP214",
+          "hgnc_id": "HGNC:8064",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fus--erg",
+      "label": "FUS::ERG",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ERG",
+          "hgnc_id": "HGNC:3446",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML",
+        "Ewing sarcoma"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid",
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-runx1--cbfa2t3",
+      "label": "RUNX1::CBFA2T3",
+      "partners": [
+        {
+          "symbol": "RUNX1",
+          "hgnc_id": "HGNC:10471",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CBFA2T3",
+          "hgnc_id": "HGNC:1537",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-picalm--mllt10",
+      "label": "PICALM::MLLT10",
+      "partners": [
+        {
+          "symbol": "PICALM",
+          "hgnc_id": "HGNC:15514",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MLLT10",
+          "hgnc_id": "HGNC:16063",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kat6a--crebbp",
+      "label": "KAT6A::CREBBP",
+      "partners": [
+        {
+          "symbol": "KAT6A",
+          "hgnc_id": "HGNC:13013",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CREBBP",
+          "hgnc_id": "HGNC:2348",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-kat6a--ep300",
+      "label": "KAT6A::EP300",
+      "partners": [
+        {
+          "symbol": "KAT6A",
+          "hgnc_id": "HGNC:13013",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "EP300",
+          "hgnc_id": "HGNC:3373",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "AML"
+      ],
+      "discovery_source_ids": [
+        "aml",
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-zbtb16--rara",
+      "label": "ZBTB16::RARA",
+      "partners": [
+        {
+          "symbol": "ZBTB16",
+          "hgnc_id": "HGNC:12930",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "APL-like AML; partner-specific review"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-npm1--rara",
+      "label": "NPM1::RARA",
+      "partners": [
+        {
+          "symbol": "NPM1",
+          "hgnc_id": "HGNC:7910",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "APL-like AML; partner-specific review"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-stat5b--rara",
+      "label": "STAT5B::RARA",
+      "partners": [
+        {
+          "symbol": "STAT5B",
+          "hgnc_id": "HGNC:11367",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "APL-like AML; partner-specific review"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-bcr--fgfr1",
+      "label": "BCR::FGFR1",
+      "partners": [
+        {
+          "symbol": "BCR",
+          "hgnc_id": "HGNC:1014",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "FGFR1",
+          "hgnc_id": "HGNC:3688",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-etv6--jak2",
+      "label": "ETV6::JAK2",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-bcr--jak2",
+      "label": "BCR::JAK2",
+      "partners": [
+        {
+          "symbol": "BCR",
+          "hgnc_id": "HGNC:1014",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-etv6--abl1",
+      "label": "ETV6::ABL1",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Myeloid and acute leukemia",
+      "candidate_contexts": [
+        "Myeloid/lymphoid neoplasm with kinase fusion"
+      ],
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ebf1--pdgfrb",
+      "label": "EBF1::PDGFRB",
+      "partners": [
+        {
+          "symbol": "EBF1",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "PDGFRB",
+          "hgnc_id": "HGNC:8804",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-rcsd1--abl1",
+      "label": "RCSD1::ABL1",
+      "partners": [
+        {
+          "symbol": "RCSD1",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nup214--abl1",
+      "label": "NUP214::ABL1",
+      "partners": [
+        {
+          "symbol": "NUP214",
+          "hgnc_id": "HGNC:8064",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ssbp2--csf1r",
+      "label": "SSBP2::CSF1R",
+      "partners": [
+        {
+          "symbol": "SSBP2",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "CSF1R",
+          "hgnc_id": "HGNC:2433",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-pax5--jak2",
+      "label": "PAX5::JAK2",
+      "partners": [
+        {
+          "symbol": "PAX5",
+          "hgnc_id": "HGNC:8619",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-mef2d--bcl9",
+      "label": "MEF2D::BCL9",
+      "partners": [
+        {
+          "symbol": "MEF2D",
+          "hgnc_id": "HGNC:6997",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "BCL9",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-mef2d--hnrnpul1",
+      "label": "MEF2D::HNRNPUL1",
+      "partners": [
+        {
+          "symbol": "MEF2D",
+          "hgnc_id": "HGNC:6997",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "HNRNPUL1",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ep300--znf384",
+      "label": "EP300::ZNF384",
+      "partners": [
+        {
+          "symbol": "EP300",
+          "hgnc_id": "HGNC:3373",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ZNF384",
+          "hgnc_id": "HGNC:11955",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-tcf3--znf384",
+      "label": "TCF3::ZNF384",
+      "partners": [
+        {
+          "symbol": "TCF3",
+          "hgnc_id": "HGNC:11633",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ZNF384",
+          "hgnc_id": "HGNC:11955",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-taf15--znf384",
+      "label": "TAF15::ZNF384",
+      "partners": [
+        {
+          "symbol": "TAF15",
+          "hgnc_id": "HGNC:11547",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ZNF384",
+          "hgnc_id": "HGNC:11955",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-pax5--etv6",
+      "label": "PAX5::ETV6",
+      "partners": [
+        {
+          "symbol": "PAX5",
+          "hgnc_id": "HGNC:8619",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "B-ALL and Ph-like ALL; separate pair/context review"
+      ],
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-birc3--malt1",
+      "label": "BIRC3::MALT1",
+      "partners": [
+        {
+          "symbol": "BIRC3",
+          "hgnc_id": "HGNC:591",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MALT1",
+          "hgnc_id": "HGNC:6819",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Lymphoid",
+      "candidate_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": [
+        "API2::MALT1"
+      ]
+    },
+    {
+      "id": "fusion-candidate-fus--creb3l2",
+      "label": "FUS::CREB3L2",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CREB3L2",
+          "hgnc_id": "HGNC:23720",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Low-grade fibromyxoid/sclerosing epithelioid fibrosarcoma spectrum"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fus--creb3l1",
+      "label": "FUS::CREB3L1",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CREB3L1",
+          "hgnc_id": "HGNC:18856",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Low-grade fibromyxoid/sclerosing epithelioid fibrosarcoma spectrum"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--creb3l1",
+      "label": "EWSR1::CREB3L1",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CREB3L1",
+          "hgnc_id": "HGNC:18856",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Low-grade fibromyxoid/sclerosing epithelioid fibrosarcoma spectrum"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cic--dux4",
+      "label": "CIC::DUX4",
+      "partners": [
+        {
+          "symbol": "CIC",
+          "hgnc_id": "HGNC:14214",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "DUX4",
+          "hgnc_id": "HGNC:50800",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Round cell sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-bcor--ccnb3",
+      "label": "BCOR::CCNB3",
+      "partners": [
+        {
+          "symbol": "BCOR",
+          "hgnc_id": "HGNC:20893",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CCNB3",
+          "hgnc_id": "HGNC:18709",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Round cell sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--nfatc2",
+      "label": "EWSR1::NFATC2",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NFATC2",
+          "hgnc_id": "HGNC:7776",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Round cell sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--patz1",
+      "label": "EWSR1::PATZ1",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PATZ1",
+          "hgnc_id": "HGNC:13071",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Round cell sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-hey1--ncoa2",
+      "label": "HEY1::NCOA2",
+      "partners": [
+        {
+          "symbol": "HEY1",
+          "hgnc_id": "HGNC:4880",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NCOA2",
+          "hgnc_id": "HGNC:7669",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Mesenchymal chondrosarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--nr4a3",
+      "label": "EWSR1::NR4A3",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NR4A3",
+          "hgnc_id": "HGNC:7982",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-taf15--nr4a3",
+      "label": "TAF15::NR4A3",
+      "partners": [
+        {
+          "symbol": "TAF15",
+          "hgnc_id": "HGNC:11547",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NR4A3",
+          "hgnc_id": "HGNC:7982",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-wwtr1--camta1",
+      "label": "WWTR1::CAMTA1",
+      "partners": [
+        {
+          "symbol": "WWTR1",
+          "hgnc_id": "HGNC:24042",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CAMTA1",
+          "hgnc_id": "HGNC:18806",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Epithelioid hemangioendothelioma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-yap1--tfe3",
+      "label": "YAP1::TFE3",
+      "partners": [
+        {
+          "symbol": "YAP1",
+          "hgnc_id": "HGNC:16262",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Epithelioid hemangioendothelioma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-jazf1--suz12",
+      "label": "JAZF1::SUZ12",
+      "partners": [
+        {
+          "symbol": "JAZF1",
+          "hgnc_id": "HGNC:28917",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "SUZ12",
+          "hgnc_id": "HGNC:17101",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Endometrial stromal sarcoma; separate subtypes"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ywhae--nutm2a",
+      "label": "YWHAE::NUTM2A",
+      "partners": [
+        {
+          "symbol": "YWHAE",
+          "hgnc_id": "HGNC:12851",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NUTM2A",
+          "hgnc_id": "HGNC:23438",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Endometrial stromal sarcoma; separate subtypes"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ywhae--nutm2b",
+      "label": "YWHAE::NUTM2B",
+      "partners": [
+        {
+          "symbol": "YWHAE",
+          "hgnc_id": "HGNC:12851",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NUTM2B",
+          "hgnc_id": "HGNC:23445",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Endometrial stromal sarcoma; separate subtypes"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-zc3h7b--bcor",
+      "label": "ZC3H7B::BCOR",
+      "partners": [
+        {
+          "symbol": "ZC3H7B",
+          "hgnc_id": "HGNC:30869",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "BCOR",
+          "hgnc_id": "HGNC:20893",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Endometrial stromal sarcoma; separate subtypes"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--creb1",
+      "label": "EWSR1::CREB1",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CREB1",
+          "hgnc_id": "HGNC:2345",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Angiomatoid fibrous histiocytoma; other histologies separately"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-fus--atf1",
+      "label": "FUS::ATF1",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ATF1",
+          "hgnc_id": "HGNC:783",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Sarcoma and mesenchymal",
+      "candidate_contexts": [
+        "Angiomatoid fibrous histiocytoma; other histologies separately"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-mn1--bend2",
+      "label": "MN1::BEND2",
+      "partners": [
+        {
+          "symbol": "MN1",
+          "hgnc_id": "HGNC:7180",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "BEND2",
+          "hgnc_id": "HGNC:28509",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "CNS",
+      "candidate_contexts": [
+        "Astroblastoma, MN1-altered"
+      ],
+      "discovery_source_ids": [
+        "cns"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-slc44a1--prkca",
+      "label": "SLC44A1::PRKCA",
+      "partners": [
+        {
+          "symbol": "SLC44A1",
+          "hgnc_id": "HGNC:18798",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PRKCA",
+          "hgnc_id": "HGNC:9393",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "CNS",
+      "candidate_contexts": [
+        "Papillary glioneuronal tumor"
+      ],
+      "discovery_source_ids": [
+        "cns"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-prcc--tfe3",
+      "label": "PRCC::TFE3",
+      "partners": [
+        {
+          "symbol": "PRCC",
+          "hgnc_id": "HGNC:9343",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "discovery_source_ids": [
+        "renal"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-sfpq--tfe3",
+      "label": "SFPQ::TFE3",
+      "partners": [
+        {
+          "symbol": "SFPQ",
+          "hgnc_id": "HGNC:10774",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "discovery_source_ids": [
+        "renal"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-nono--tfe3",
+      "label": "NONO::TFE3",
+      "partners": [
+        {
+          "symbol": "NONO",
+          "hgnc_id": "HGNC:7871",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "discovery_source_ids": [
+        "renal"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-rbm10--tfe3",
+      "label": "RBM10::TFE3",
+      "partners": [
+        {
+          "symbol": "RBM10",
+          "hgnc_id": "HGNC:9896",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "discovery_source_ids": [
+        "renal"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-malat1--tfeb",
+      "label": "MALAT1::TFEB",
+      "partners": [
+        {
+          "symbol": "MALAT1",
+          "hgnc_id": "HGNC:29665",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFEB",
+          "hgnc_id": "HGNC:11753",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "TFEB-rearranged renal cell carcinoma"
+      ],
+      "discovery_source_ids": [
+        "renal"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-pax3--maml3",
+      "label": "PAX3::MAML3",
+      "partners": [
+        {
+          "symbol": "PAX3",
+          "hgnc_id": "HGNC:8617",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "MAML3",
+          "hgnc_id": "HGNC:16272",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 2,
+      "group": "Epithelial and organ-specific",
+      "candidate_contexts": [
+        "Biphenotypic sinonasal sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cars1--alk",
+      "label": "CARS1::ALK",
+      "partners": [
+        {
+          "symbol": "CARS1",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": [
+        "CARS::ALK"
+      ]
+    },
+    {
+      "id": "fusion-candidate-nsd3--nutm1",
+      "label": "NSD3::NUTM1",
+      "partners": [
+        {
+          "symbol": "NSD3",
+          "hgnc_id": "HGNC:12767",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NUTM1",
+          "hgnc_id": "HGNC:29919",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "NUT carcinoma"
+      ],
+      "discovery_source_ids": [
+        "pan"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": [
+        "WHSC1L1::NUTM1"
+      ]
+    },
+    {
+      "id": "fusion-candidate-ctnnb1--plag1",
+      "label": "CTNNB1::PLAG1",
+      "partners": [
+        {
+          "symbol": "CTNNB1",
+          "hgnc_id": "HGNC:2514",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "PLAG1",
+          "hgnc_id": "HGNC:9045",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Salivary neoplasia; benign and malignant contexts separately"
+      ],
+      "discovery_source_ids": [
+        "salivary"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-lifr--plag1",
+      "label": "LIFR::PLAG1",
+      "partners": [
+        {
+          "symbol": "LIFR",
+          "hgnc_id": null,
+          "present_in_gene_dictionary": false
+        },
+        {
+          "symbol": "PLAG1",
+          "hgnc_id": "HGNC:9045",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Salivary neoplasia; benign and malignant contexts separately"
+      ],
+      "discovery_source_ids": [
+        "salivary"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--etv1",
+      "label": "EWSR1::ETV1",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ETV1",
+          "hgnc_id": "HGNC:3490",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Ewing sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--etv4",
+      "label": "EWSR1::ETV4",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "ETV4",
+          "hgnc_id": "HGNC:3493",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Ewing sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ewsr1--fev",
+      "label": "EWSR1::FEV",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "FEV",
+          "hgnc_id": "HGNC:18562",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Ewing sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-ss18--ssx4",
+      "label": "SS18::SSX4",
+      "partners": [
+        {
+          "symbol": "SS18",
+          "hgnc_id": "HGNC:11340",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "SSX4",
+          "hgnc_id": "HGNC:11338",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Synovial sarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-vgll2--ncoa2",
+      "label": "VGLL2::NCOA2",
+      "partners": [
+        {
+          "symbol": "VGLL2",
+          "hgnc_id": "HGNC:20232",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "NCOA2",
+          "hgnc_id": "HGNC:7669",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Infantile spindle cell rhabdomyosarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-vgll2--cited2",
+      "label": "VGLL2::CITED2",
+      "partners": [
+        {
+          "symbol": "VGLL2",
+          "hgnc_id": "HGNC:20232",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "CITED2",
+          "hgnc_id": "HGNC:1987",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Infantile spindle cell rhabdomyosarcoma"
+      ],
+      "discovery_source_ids": [
+        "sarcoma"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    },
+    {
+      "id": "fusion-candidate-cltc--tfe3",
+      "label": "CLTC::TFE3",
+      "partners": [
+        {
+          "symbol": "CLTC",
+          "hgnc_id": "HGNC:2092",
+          "present_in_gene_dictionary": true
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "present_in_gene_dictionary": true
+        }
+      ],
+      "wave": 3,
+      "group": "Rare partner expansion",
+      "candidate_contexts": [
+        "Renal cell carcinoma"
+      ],
+      "discovery_source_ids": [
+        "renal"
+      ],
+      "evidence_status": "candidate_requires_pair_and_context_fulltext_review",
+      "identity_status": "matched_to_local_dictionary_not_external_HGNC_revalidated",
+      "product_class": "requires_mechanism_review",
+      "aliases": []
+    }
+  ],
+  "regulatory_candidates": [
+    {
+      "label": "IGH / MYC",
+      "candidate_context": "Burkitt lymphoma; other B-cell contexts separately",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGK / MYC",
+      "candidate_context": "MYC-rearranged B-cell neoplasia",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGL / MYC",
+      "candidate_context": "MYC-rearranged B-cell neoplasia",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / BCL2",
+      "candidate_context": "Follicular and other B-cell lymphomas",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / BCL6",
+      "candidate_context": "B-cell lymphomas",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / CCND1",
+      "candidate_context": "Mantle cell lymphoma; plasma cell neoplasia separately",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / CCND2",
+      "candidate_context": "Cyclin D1-negative mantle cell lymphoma",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / CCND3",
+      "candidate_context": "Cyclin D1-negative mantle cell lymphoma",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / MALT1",
+      "candidate_context": "MALT lymphoma",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / BCL10",
+      "candidate_context": "MALT lymphoma",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / CRLF2",
+      "candidate_context": "B-ALL",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "P2RY8::CRLF2",
+      "candidate_context": "B-ALL; promoter substitution",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / DUX4",
+      "candidate_context": "B-ALL; repetitive locus and insertion review",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "TCR loci / TAL1",
+      "candidate_context": "T-ALL",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "TCR loci / TLX1",
+      "candidate_context": "T-ALL",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "TCR loci / TLX3",
+      "candidate_context": "T-ALL",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "TCR loci / LMO2",
+      "candidate_context": "T-ALL",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "all"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "GATA2 enhancer / MECOM",
+      "candidate_context": "Myeloid neoplasia; inv(3)/t(3;3)",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-myeloid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / FGFR3 and NSD2",
+      "candidate_context": "Plasma cell neoplasia; t(4;14) structure review",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / MAF",
+      "candidate_context": "Plasma cell neoplasia",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    },
+    {
+      "label": "IGH / MAFB",
+      "candidate_context": "Plasma cell neoplasia",
+      "class": "regulatory_rearrangement_candidate",
+      "discovery_source_ids": [
+        "icc-lymphoid"
+      ],
+      "evidence_status": "requires_structure_and_context_review"
+    }
+  ]
+}

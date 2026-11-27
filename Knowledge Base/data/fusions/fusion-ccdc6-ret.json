@@ -1,0 +1,84 @@
+{
+  "id": "fusion-ccdc6-ret",
+  "label": "CCDC6::RET",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CCDC6",
+      "hgnc_id": "HGNC:18782",
+      "ncbi_gene_id": "8030"
+    },
+    {
+      "symbol": "RET",
+      "hgnc_id": "HGNC:9967",
+      "ncbi_gene_id": "5979"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Papillary thyroid carcinoma",
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CCDC6",
+      "text": "CCDC6 encodes a coiled-coil protein involved in DNA-damage signaling.",
+      "source_ids": [
+        "ncbi-8030"
+      ],
+      "claim_sha256": "4d34b84ecbdaae2978e3f0f17766775ff69acfe446acc7d957b97159597e19f3",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RET",
+      "text": "RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors.",
+      "source_ids": [
+        "ncbi-5979"
+      ],
+      "claim_sha256": "bff0a244e3a9197f328d10b7c579776e547a11b6ffc49e5b9b553fee8aa3397f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. CCDC6::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma.",
+      "source_ids": [
+        "rtk-cohort"
+      ],
+      "claim_sha256": "913139e4ffdf94163ee5fd724d0712b21cc11e1ee8044bc35582b802cca7661b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+      "source_ids": [
+        "fda-ret"
+      ],
+      "claim_sha256": "136441b923585d82f2dae60e4baf9681ee8c03b190a864286611ef2c09f843cc",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CCDC6 encodes a coiled-coil protein involved in DNA-damage signaling. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. CCDC6::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma. Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+    "source_ids": [
+      "ncbi-8030",
+      "ncbi-5979",
+      "rtk-cohort",
+      "fda-ret"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "RET label evidence is biomarker-class evidence; full-text pair-specific audit remains pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "d9282c8ff008a828dc7e799c1365280cfb06ff515f2134ec9fcfcd0899fffec6"
+}

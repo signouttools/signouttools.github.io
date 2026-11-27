@@ -1,0 +1,81 @@
+{
+  "id": "fusion-bcan-ntrk1",
+  "label": "BCAN::NTRK1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "BCAN",
+      "hgnc_id": "HGNC:23059",
+      "ncbi_gene_id": "63827"
+    },
+    {
+      "symbol": "NTRK1",
+      "hgnc_id": "HGNC:8031",
+      "ncbi_gene_id": "4914"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Glioma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "BCAN",
+      "text": "BCAN encodes brevican, a neural extracellular-matrix proteoglycan.",
+      "source_ids": [
+        "ncbi-63827"
+      ],
+      "claim_sha256": "60271643a7d35e11de3cfbbffa937e1e90a4530e0565930acc657c37a898257c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK1",
+      "text": "NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4914"
+      ],
+      "claim_sha256": "7432d32322be8120414af1aa00f5b449a85af58dc702f749378f3cd8e3e2c26e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins BCAN sequences to the retained NTRK1 kinase, producing an oncogenic TRKA signaling protein. Chromosomal-engineering experiments demonstrated glioma-driving activity.",
+      "source_ids": [
+        "bcan"
+      ],
+      "claim_sha256": "26889a2203fd44fa6eeb8b8d9a534afb114034988ccb450d96408d94e4ebdb2d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Oncogenic NTRK-fusion-positive advanced solid tumors can qualify for TRK inhibition; larotrectinib criteria include absence of known acquired TRK resistance mutations and prior progression or no satisfactory alternatives.",
+      "source_ids": [
+        "fda-laro"
+      ],
+      "claim_sha256": "57951b19bfe0748828855190066a34ba2aaf88056ee44921c5b6a8843961cbb2",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "BCAN encodes brevican, a neural extracellular-matrix proteoglycan. NTRK1 encodes TRKA, the nerve-growth-factor receptor tyrosine kinase. The fusion joins BCAN sequences to the retained NTRK1 kinase, producing an oncogenic TRKA signaling protein. Chromosomal-engineering experiments demonstrated glioma-driving activity. Oncogenic NTRK-fusion-positive advanced solid tumors can qualify for TRK inhibition; larotrectinib criteria include absence of known acquired TRK resistance mutations and prior progression or no satisfactory alternatives.",
+    "source_ids": [
+      "ncbi-63827",
+      "ncbi-4914",
+      "bcan",
+      "fda-laro"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "7033c0842edcb0da074fb8e642efd79fa126a9a3efd36f5cb6ce2fe7d431b705"
+}

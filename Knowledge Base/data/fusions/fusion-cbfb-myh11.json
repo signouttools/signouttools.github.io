@@ -1,0 +1,83 @@
+{
+  "id": "fusion-cbfb-myh11",
+  "label": "CBFB::MYH11",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CBFB",
+      "hgnc_id": "HGNC:1539",
+      "ncbi_gene_id": "865"
+    },
+    {
+      "symbol": "MYH11",
+      "hgnc_id": "HGNC:7569",
+      "ncbi_gene_id": "4629"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Core-binding factor AML"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CBFB",
+      "text": "CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex.",
+      "source_ids": [
+        "ncbi-865"
+      ],
+      "claim_sha256": "76b55225de04366a467bf253220fbd2116236d1ca3caf173d490893adae66710",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MYH11",
+      "text": "MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein.",
+      "source_ids": [
+        "ncbi-4629"
+      ],
+      "claim_sha256": "fcd26fbabf9c486344c58ef42b38ccb0f93653785e0af4bc60d53d48ea6d141a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The inv(16)/t(16;16) fusion alters CBFB interaction with RUNX1 and core-binding factor transcription, impairing myeloid differentiation. It is associated with AML showing myelomonocytic differentiation and abnormal eosinophils.",
+      "source_ids": [
+        "icc-m",
+        "aml"
+      ],
+      "claim_sha256": "f435b08b1b5d30764b917838260e9b9ba60b006d715b7939d30dde363218106c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "claim_sha256": "89863d1e7a3352195fe1689f3b2a5fc2ca6d540268b47d54aee2b5fec404fc43",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex. MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein. The inv(16)/t(16;16) fusion alters CBFB interaction with RUNX1 and core-binding factor transcription, impairing myeloid differentiation. It is associated with AML showing myelomonocytic differentiation and abnormal eosinophils. Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group.",
+    "source_ids": [
+      "ncbi-865",
+      "ncbi-4629",
+      "icc-m",
+      "aml",
+      "eln-aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "7ee863da2f6d96a9e7e41677937e7021823bbfd859bc9e6d6bf94d2b8d66377d"
+}

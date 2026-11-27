@@ -1,0 +1,73 @@
+{
+  "id": "fusion-igh-bcl6",
+  "label": "IGH / BCL6",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "BCL6",
+      "hgnc_id": "HGNC:1001",
+      "ncbi_gene_id": "604"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-cell lymphoma, including diffuse large B-cell lymphoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BCL6",
+      "text": "BCL6 encodes a transcriptional repressor required for germinal-center B-cell programs.",
+      "source_ids": [
+        "ncbi-604"
+      ],
+      "claim_sha256": "5d12dbfc702f109f2600e9899d16f1cbf2b934a30888ece2f45a8649fb22b7c9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement substitutes immunoglobulin regulatory elements for normal BCL6 control, sustaining BCL6-dependent transcriptional repression. BCL6 rearrangements occur in several B-cell lymphomas and are not specific to one histologic type.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "0be1527eebfdccd7d216c413cecb5467b21dc49626251522e1326cccb512de12",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. BCL6 encodes a transcriptional repressor required for germinal-center B-cell programs. The rearrangement substitutes immunoglobulin regulatory elements for normal BCL6 control, sustaining BCL6-dependent transcriptional repression. BCL6 rearrangements occur in several B-cell lymphomas and are not specific to one histologic type.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-604",
+      "icc-l"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "de36dfd01efed52d144c8d9010c9567b06e0da2007d1327a7965005be5d893c5"
+}

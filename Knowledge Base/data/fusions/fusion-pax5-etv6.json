@@ -1,0 +1,73 @@
+{
+  "id": "fusion-pax5-etv6",
+  "label": "PAX5::ETV6",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PAX5",
+      "hgnc_id": "HGNC:8619",
+      "ncbi_gene_id": "5079"
+    },
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX5",
+      "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity.",
+      "source_ids": [
+        "ncbi-5079"
+      ],
+      "claim_sha256": "82f40ae0455ff64d4c262db6b1e7bc098d0f1f53e4dac8fc70661ed9d5055483",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins PAX5 DNA-binding sequences to ETV6 regulatory regions, impairing normal PAX5-dependent B-cell differentiation. It is a recurrent lesion within PAX5-altered B-ALL.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "8a16722aac44214c1fa6e2460ec4cde1ae723fd13564aea72c840499baddae9c",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. The fusion joins PAX5 DNA-binding sequences to ETV6 regulatory regions, impairing normal PAX5-dependent B-cell differentiation. It is a recurrent lesion within PAX5-altered B-ALL.",
+    "source_ids": [
+      "ncbi-5079",
+      "ncbi-2120",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Pair-specific functional paper and modern subtype-level outcome audit remain pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "fcbb7089ca31977e5c37c78b83b89c29b373c5c5ebee7d8c8601adc33b3703a5"
+}

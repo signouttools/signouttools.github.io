@@ -1,0 +1,74 @@
+{
+  "id": "fusion-picalm-mllt10",
+  "label": "PICALM::MLLT10",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PICALM",
+      "hgnc_id": "HGNC:15514",
+      "ncbi_gene_id": "8301"
+    },
+    {
+      "symbol": "MLLT10",
+      "hgnc_id": "HGNC:16063",
+      "ncbi_gene_id": "8028"
+    }
+  ],
+  "aliases": [
+    "CALM::AF10"
+  ],
+  "tumor_contexts": [
+    "T-lymphoblastic leukemia",
+    "AML"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PICALM",
+      "text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis.",
+      "source_ids": [
+        "ncbi-8301"
+      ],
+      "claim_sha256": "2fcb5a94a5798347d5447d19c4f5ab57403c6ecd6be66d719fbd0263fa96f2c9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MLLT10",
+      "text": "MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L.",
+      "source_ids": [
+        "ncbi-8028"
+      ],
+      "claim_sha256": "c0eea6521144af9a1a1c353ff341dd752dda55da7fefcdc166f5857eaa28892a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The CALM::AF10 fusion uses PICALM-associated trafficking/export interactions and MLLT10-mediated DOT1L recruitment to activate HOXA-associated transcription. It is recurrent in T-ALL and occurs less often in AML.",
+      "source_ids": [
+        "af10"
+      ],
+      "claim_sha256": "28a116f5e5ef71f1cc893bb7715690204e0d6ae8f6bbf6b8d6fb1484abd7486c",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis. MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. The CALM::AF10 fusion uses PICALM-associated trafficking/export interactions and MLLT10-mediated DOT1L recruitment to activate HOXA-associated transcription. It is recurrent in T-ALL and occurs less often in AML.",
+    "source_ids": [
+      "ncbi-8301",
+      "ncbi-8028",
+      "af10"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "9aa70b48a01783f6d5a540a88710894c64971bc02cb6c25c8f8ce194dde353c5"
+}

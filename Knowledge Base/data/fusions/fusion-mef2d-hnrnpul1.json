@@ -1,0 +1,81 @@
+{
+  "id": "fusion-mef2d-hnrnpul1",
+  "label": "MEF2D::HNRNPUL1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MEF2D",
+      "hgnc_id": "HGNC:6997",
+      "ncbi_gene_id": "4209"
+    },
+    {
+      "symbol": "HNRNPUL1",
+      "hgnc_id": "HGNC:17011",
+      "ncbi_gene_id": "11100"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MEF2D",
+      "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival.",
+      "source_ids": [
+        "ncbi-4209"
+      ],
+      "claim_sha256": "cf20ae7c37712517a8d17e5970ad4c3dba84707ca52f1c3654631537e7855ec6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "HNRNPUL1",
+      "text": "HNRNPUL1 encodes a nuclear RNA-binding protein involved in RNA processing and DNA-damage responses.",
+      "source_ids": [
+        "ncbi-11100"
+      ],
+      "claim_sha256": "d7b07e5bab1a636005e4e250883acc99ebc2b684354b7ce58e04128e0deca4af",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription.",
+      "source_ids": [
+        "mef2d"
+      ],
+      "claim_sha256": "9a090c458d0182499deaabef53b2d9427a0e85510a398f0758b6b1db8a2ee762",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "f745c22e35612cd3c7449e3853ab3c68a28c8ac0a0a1f4c66204d6d949da80b7",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival. HNRNPUL1 encodes a nuclear RNA-binding protein involved in RNA processing and DNA-damage responses. The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription. MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+    "source_ids": [
+      "ncbi-4209",
+      "ncbi-11100",
+      "mef2d",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "7d4c7eabcd76477db4847f208dd0fd24d71145b377d434b51cd248113cc416f7"
+}

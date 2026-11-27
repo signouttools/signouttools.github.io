@@ -1,0 +1,91 @@
+{
+  "id": "fusion-fus-erg",
+  "label": "FUS::ERG",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FUS",
+      "hgnc_id": "HGNC:4010",
+      "ncbi_gene_id": "2521"
+    },
+    {
+      "symbol": "ERG",
+      "hgnc_id": "HGNC:3446",
+      "ncbi_gene_id": "2078"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML",
+    "Rare Ewing sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FUS",
+      "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ERG",
+      "text": "ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development.",
+      "source_ids": [
+        "ncbi-2078"
+      ],
+      "claim_sha256": "1f39dff201608e93a1735c1006918c0cb4f9ed68ca87dc66c89d34a3be019c37",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(16;21)(p11;q22) fusion combines the FUS transcriptional activation region with ERG DNA-binding sequences, creating an aberrant ETS transcription factor. It defines a rare AML subtype distinct from RUNX1::CBFA2T3 AML.",
+      "source_ids": [
+        "t16"
+      ],
+      "claim_sha256": "58681f063d3f2bc10beb8d523563a655f2ff70665eb7a26637a0674a3b92a8c5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "FUS::ERG also occurs rarely in Ewing sarcoma. The adverse AML outcome association below applies to pediatric leukemia, not to all tumors with this pair.",
+      "source_ids": [
+        "ewing"
+      ],
+      "claim_sha256": "c7cb8bd9ffdb6f11e6594a38ddc1aeaeee63a82f1d123049d25badd39f6cc376",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
+      "source_ids": [
+        "t16"
+      ],
+      "claim_sha256": "1acd275531921b58bef9c4a357bb8527a08b9d60e01d9e412099feb8487634d6",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. The t(16;21)(p11;q22) fusion combines the FUS transcriptional activation region with ERG DNA-binding sequences, creating an aberrant ETS transcription factor. It defines a rare AML subtype distinct from RUNX1::CBFA2T3 AML. FUS::ERG also occurs rarely in Ewing sarcoma. The adverse AML outcome association below applies to pediatric leukemia, not to all tumors with this pair. Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
+    "source_ids": [
+      "ncbi-2521",
+      "ncbi-2078",
+      "t16",
+      "ewing"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "6cddf4147c4244b5b01615ee7d749d35721bbae03a1e0e55ce2462ccd4a9f68f"
+}

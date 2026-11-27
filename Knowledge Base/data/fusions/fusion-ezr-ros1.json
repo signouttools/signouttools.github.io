@@ -1,0 +1,83 @@
+{
+  "id": "fusion-ezr-ros1",
+  "label": "EZR::ROS1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "EZR",
+      "hgnc_id": "HGNC:12691",
+      "ncbi_gene_id": "7430"
+    },
+    {
+      "symbol": "ROS1",
+      "hgnc_id": "HGNC:10261",
+      "ncbi_gene_id": "6098"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EZR",
+      "text": "EZR encodes ezrin, a linker between the plasma membrane and actin cytoskeleton.",
+      "source_ids": [
+        "ncbi-7430"
+      ],
+      "claim_sha256": "7b5d993c69b352ebf8c134109000bc3eecc8085ecadc62164987436567769c51",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ROS1",
+      "text": "ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+      "source_ids": [
+        "ncbi-6098"
+      ],
+      "claim_sha256": "a70263102b9cb586f798d074f485e5b6a1a52a60adf8111b2bda2ae01fe4c739",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+      "source_ids": [
+        "ros1"
+      ],
+      "claim_sha256": "cd50ba81d149f7e53ba34065950241a06b1f7108f49638a2a88734995c8c016d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+      "source_ids": [
+        "fda-repotrectinib",
+        "fda-ros1"
+      ],
+      "claim_sha256": "aa82141b2dc901896b1f1556d519644e7a2da640af6e25a20a6b2774ec245008",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "EZR encodes ezrin, a linker between the plasma membrane and actin cytoskeleton. ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling. The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma. ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+    "source_ids": [
+      "ncbi-7430",
+      "ncbi-6098",
+      "ros1",
+      "fda-repotrectinib",
+      "fda-ros1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "58cb677f0c2cd2b2434a6c8dfba613052a8f90e6af78092f5362044260ee4e00"
+}

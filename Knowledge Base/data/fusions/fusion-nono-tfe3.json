@@ -1,0 +1,74 @@
+{
+  "id": "fusion-nono-tfe3",
+  "label": "NONO::TFE3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NONO",
+      "hgnc_id": "HGNC:7871",
+      "ncbi_gene_id": "4841"
+    },
+    {
+      "symbol": "TFE3",
+      "hgnc_id": "HGNC:11752",
+      "ncbi_gene_id": "7030"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "TFE3-rearranged renal cell carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NONO",
+      "text": "NONO encodes an RNA-binding protein involved in RNA processing and nuclear organization.",
+      "source_ids": [
+        "ncbi-4841"
+      ],
+      "claim_sha256": "03f0c7d1c6779f88934ddbf102b0bca6593bdd85fb7bd29d7c35d66f8854988c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TFE3",
+      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "source_ids": [
+        "ncbi-7030"
+      ],
+      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. NONO::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+      "source_ids": [
+        "renal"
+      ],
+      "claim_sha256": "4c736d1765a3dcb8da6947c48237976de05ce53d7aaf8c3961068043729112cd",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NONO encodes an RNA-binding protein involved in RNA processing and nuclear organization. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. NONO::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+    "source_ids": [
+      "ncbi-4841",
+      "ncbi-7030",
+      "renal"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No prognosis or treatment response assigned solely from the partner.",
+    "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "734034ba1d1358af53284fc1538f19f22b517bcda3576657ad21a03f829dc2b7"
+}

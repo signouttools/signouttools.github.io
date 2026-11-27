@@ -1,0 +1,84 @@
+{
+  "id": "fusion-qki-ntrk2",
+  "label": "QKI::NTRK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "QKI",
+      "hgnc_id": "HGNC:21100",
+      "ncbi_gene_id": "9444"
+    },
+    {
+      "symbol": "NTRK2",
+      "hgnc_id": "HGNC:8032",
+      "ncbi_gene_id": "4915"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pilocytic astrocytoma",
+    "Other NTRK-rearranged gliomas"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "QKI",
+      "text": "QKI encodes an RNA-binding protein that regulates RNA processing and myelination.",
+      "source_ids": [
+        "ncbi-9444"
+      ],
+      "claim_sha256": "a1122c11c0cf2e48dbc1854b2d1eb3a79d34ea050d97e17298108585d4767aef",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK2",
+      "text": "NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4.",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "claim_sha256": "c79c9b9797fe7b36b2283266c51d259f9e2fb442387f7d83e3fd11aa3612afcb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. QKI::NTRK2 has been reported in pilocytic astrocytoma.",
+      "source_ids": [
+        "ntrk-fda-review"
+      ],
+      "claim_sha256": "4621deb32bd57d0dbceee721448bf17f5d0993983761ed8cc80fcfbbf35859e8",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
+      "source_ids": [
+        "fda-laro"
+      ],
+      "claim_sha256": "fc5c55d0e75b3c3a7c3a67384b8a3112a3cd8c82b0ca92b0eab23eaed6b00fa8",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "QKI encodes an RNA-binding protein that regulates RNA processing and myelination. NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4. The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. QKI::NTRK2 has been reported in pilocytic astrocytoma. An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
+    "source_ids": [
+      "ncbi-9444",
+      "ncbi-4915",
+      "ntrk-fda-review",
+      "fda-laro"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Original Jones 2013 full-text verification remains pending; FDA review provides an explicitly identified literature lead."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "143b20330175faa20c937f700a7290fcc5b2cba838d4b50864230e7bd5bb642a"
+}

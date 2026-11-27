@@ -1,0 +1,76 @@
+{
+  "id": "fusion-tcf3-znf384",
+  "label": "TCF3::ZNF384",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "TCF3",
+      "hgnc_id": "HGNC:11633",
+      "ncbi_gene_id": "6929"
+    },
+    {
+      "symbol": "ZNF384",
+      "hgnc_id": "HGNC:11955",
+      "ncbi_gene_id": "171017"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia",
+    "B/myeloid mixed-phenotype acute leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TCF3",
+      "text": "TCF3 encodes E2A transcription factors required for lymphoid development.",
+      "source_ids": [
+        "ncbi-6929"
+      ],
+      "claim_sha256": "12f5c610b87031a903ec1c2f34aabe79cc2a6c81a681f017892d741babaa969d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ZNF384",
+      "text": "ZNF384 encodes a zinc-finger transcriptional regulator.",
+      "source_ids": [
+        "ncbi-171017"
+      ],
+      "claim_sha256": "20112a2158228c89becb3ddb4d9ec80d68f341ae840459ddca7c87a3a32b022f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins a transcriptional-regulatory partner to ZNF384 and alters hematopoietic lineage programs. ZNF384-rearranged leukemia often shows weak CD10 with aberrant CD13/CD33 expression and can have B-lineage/myeloid phenotypic overlap.",
+      "source_ids": [
+        "znf384",
+        "all"
+      ],
+      "claim_sha256": "10b210df5e6b3f84caf32ac6fa3047bfbe9c67b971e9a6d41ce1fa70b407f997",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. ZNF384 encodes a zinc-finger transcriptional regulator. The fusion joins a transcriptional-regulatory partner to ZNF384 and alters hematopoietic lineage programs. ZNF384-rearranged leukemia often shows weak CD10 with aberrant CD13/CD33 expression and can have B-lineage/myeloid phenotypic overlap.",
+    "source_ids": [
+      "ncbi-6929",
+      "ncbi-171017",
+      "znf384",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b18f274ba6de27fa68f10ddd60668aeffb12229267f0addf449e8c194d43229b"
+}

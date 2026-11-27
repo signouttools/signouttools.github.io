@@ -1,0 +1,95 @@
+{
+  "id": "fusion-ranbp2-alk",
+  "label": "RANBP2::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "RANBP2",
+      "hgnc_id": "HGNC:9848",
+      "ncbi_gene_id": "5903"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Inflammatory myofibroblastic tumor",
+    "Epithelioid inflammatory myofibroblastic sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RANBP2",
+      "text": "RANBP2 encodes a nuclear-pore-associated protein with transport and SUMO-ligase functions.",
+      "source_ids": [
+        "ncbi-5903"
+      ],
+      "claim_sha256": "0ea4a242875fb276414d5a097752d7b5a5a64eb0b9fb1ea7b6c095aab3b5eeac",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. RANBP2::ALK is associated with epithelioid inflammatory myofibroblastic sarcoma and often nuclear-membrane ALK staining.",
+      "source_ids": [
+        "sarcoma",
+        "ranbp2-alk",
+        "imt-kinases"
+      ],
+      "claim_sha256": "8f48e95561a33e6ae5523663e9acadf4804436a00ab36f150319bdff097ba747",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "The RANBP2::ALK-associated epithelioid sarcoma phenotype has a more aggressive course than conventional inflammatory myofibroblastic tumor.",
+      "source_ids": [
+        "ranbp2-alk"
+      ],
+      "claim_sha256": "d7136951b192a9987b84098559240ca6cbb8bc11d8e050f6b9a3fd149e0a736b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-criz"
+      ],
+      "claim_sha256": "36cd9dc91534b03cac1393ef8c25971d8f013ce6c1ca51b0d9229126da8b8c22",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "RANBP2 encodes a nuclear-pore-associated protein with transport and SUMO-ligase functions. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. RANBP2::ALK is associated with epithelioid inflammatory myofibroblastic sarcoma and often nuclear-membrane ALK staining. The RANBP2::ALK-associated epithelioid sarcoma phenotype has a more aggressive course than conventional inflammatory myofibroblastic tumor. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+    "source_ids": [
+      "ncbi-5903",
+      "ncbi-238",
+      "sarcoma",
+      "ranbp2-alk",
+      "imt-kinases",
+      "fda-criz"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "1fe547eec375e9bfdf5f86cd2a8ac9e02184c1bef1f12a8c1a4c73f0122b0bba"
+}

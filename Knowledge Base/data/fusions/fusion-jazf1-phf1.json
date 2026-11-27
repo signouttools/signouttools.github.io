@@ -1,0 +1,73 @@
+{
+  "id": "fusion-jazf1-phf1",
+  "label": "JAZF1::PHF1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "JAZF1",
+      "hgnc_id": "HGNC:28917",
+      "ncbi_gene_id": "221895"
+    },
+    {
+      "symbol": "PHF1",
+      "hgnc_id": "HGNC:8919",
+      "ncbi_gene_id": "5252"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Low-grade endometrial stromal sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "JAZF1",
+      "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism.",
+      "source_ids": [
+        "ncbi-221895"
+      ],
+      "claim_sha256": "f4a695c9dc6d95c8ded5793f2f02d5dbe3e1330a29a14ea094b1365eba629b8a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PHF1",
+      "text": "PHF1 encodes a Polycomb-associated histone reader involved in chromatin repression.",
+      "source_ids": [
+        "ncbi-5252"
+      ],
+      "claim_sha256": "100cfe6eb7cfcaaad996711861721e81a45d3398e478ff153a063bd7bbede6a5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. JAZF1::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+      "source_ids": [
+        "phf1"
+      ],
+      "claim_sha256": "1fb85181d17cebe2ceab38045510228a695653a28fce243bde3540df082ccd3a",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism. PHF1 encodes a Polycomb-associated histone reader involved in chromatin repression. The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. JAZF1::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+    "source_ids": [
+      "ncbi-221895",
+      "ncbi-5252",
+      "phf1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "0180f1abf4742d57b1f92b6182e9dcc555617e5b3c562a9894c123d222c75862"
+}

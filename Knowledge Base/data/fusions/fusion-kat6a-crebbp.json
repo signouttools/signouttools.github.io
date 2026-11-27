@@ -1,0 +1,84 @@
+{
+  "id": "fusion-kat6a-crebbp",
+  "label": "KAT6A::CREBBP",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "KAT6A",
+      "hgnc_id": "HGNC:13013",
+      "ncbi_gene_id": "7994"
+    },
+    {
+      "symbol": "CREBBP",
+      "hgnc_id": "HGNC:2348",
+      "ncbi_gene_id": "1387"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML, often monocytic or myelomonocytic"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KAT6A",
+      "text": "KAT6A encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance.",
+      "source_ids": [
+        "ncbi-7994"
+      ],
+      "claim_sha256": "0e3f06cadb3a92debc72367cda111df94503d6e563d714a9e6fe0edd4737b5e7",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CREBBP",
+      "text": "CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase.",
+      "source_ids": [
+        "ncbi-1387"
+      ],
+      "claim_sha256": "43a6e96a30a4771e89808e611aebdf5266cf684ed1231f1555c3997b48422fa1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation.",
+      "source_ids": [
+        "kat6a",
+        "aml"
+      ],
+      "claim_sha256": "cfd53b8d2f1af4c0db91e596153a651a9c3c525a54fa382bd647bfa92e42623d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk. Congenital cases can have a distinct course, including reported spontaneous remissions.",
+      "source_ids": [
+        "eln-aml",
+        "aml"
+      ],
+      "claim_sha256": "f99df3d9ae2af3ae3ac1ce72db032c433f527ea2f97bf3e81bbcb9f2eb0c8919",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "KAT6A encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance. CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase. The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation. Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk. Congenital cases can have a distinct course, including reported spontaneous remissions.",
+    "source_ids": [
+      "ncbi-7994",
+      "ncbi-1387",
+      "kat6a",
+      "aml",
+      "eln-aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "373d3cc3328e28f1fa593460f769c00c8ca33aafea295cccce0791fc9acf6369"
+}

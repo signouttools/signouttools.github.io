@@ -1,0 +1,80 @@
+{
+  "id": "fusion-vgll2-cited2",
+  "label": "VGLL2::CITED2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "VGLL2",
+      "hgnc_id": "HGNC:20232",
+      "ncbi_gene_id": "245806"
+    },
+    {
+      "symbol": "CITED2",
+      "hgnc_id": "HGNC:1987",
+      "ncbi_gene_id": "10370"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Congenital/infantile spindle cell rhabdomyosarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "VGLL2",
+      "text": "VGLL2 encodes a transcriptional cofactor involved in skeletal-muscle differentiation.",
+      "source_ids": [
+        "ncbi-245806"
+      ],
+      "claim_sha256": "663e78011c5e9a99602e8ec7b0d98713da79ae7f24b414dc7f1e342f364e2912",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CITED2",
+      "text": "CITED2 encodes a transcriptional cofactor that interacts with CBP/p300.",
+      "source_ids": [
+        "ncbi-10370"
+      ],
+      "claim_sha256": "d36aa67d8aeffa8c9cfe22e75466c5d14d90dab1472e5978921acf47cd98eafb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins muscle-associated VGLL2 transcriptional cofactor sequences to another transcriptional-regulatory protein. It identifies a congenital/infantile spindle cell rhabdomyosarcoma subgroup distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma.",
+      "source_ids": [
+        "vgll2"
+      ],
+      "claim_sha256": "5948747a7479fdcf3c7fd63d51fc17c5b164a7df29af9a8336e39d0d45aa2eb6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "The original infantile fusion-positive cohort generally showed favorable survival, although local recurrences occurred. This observation should not be transferred to MYOD1-mutant disease.",
+      "source_ids": [
+        "vgll2"
+      ],
+      "claim_sha256": "ae0d844e5ca58cf8d8bf42f77a42b17349e1b5a324f850597e31a3ff02ab0aba",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "VGLL2 encodes a transcriptional cofactor involved in skeletal-muscle differentiation. CITED2 encodes a transcriptional cofactor that interacts with CBP/p300. The fusion joins muscle-associated VGLL2 transcriptional cofactor sequences to another transcriptional-regulatory protein. It identifies a congenital/infantile spindle cell rhabdomyosarcoma subgroup distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma. The original infantile fusion-positive cohort generally showed favorable survival, although local recurrences occurred. This observation should not be transferred to MYOD1-mutant disease.",
+    "source_ids": [
+      "ncbi-245806",
+      "ncbi-10370",
+      "vgll2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "663e8dab2a50cac5cdfde06adb9885499034871a6d4d9939195796c6b93cf8a9"
+}

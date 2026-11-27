@@ -1,0 +1,73 @@
+{
+  "id": "fusion-meaf6-phf1",
+  "label": "MEAF6::PHF1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MEAF6",
+      "hgnc_id": "HGNC:25674",
+      "ncbi_gene_id": "64769"
+    },
+    {
+      "symbol": "PHF1",
+      "hgnc_id": "HGNC:8919",
+      "ncbi_gene_id": "5252"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Low-grade endometrial stromal sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MEAF6",
+      "text": "MEAF6 encodes a component of histone acetyltransferase complexes.",
+      "source_ids": [
+        "ncbi-64769"
+      ],
+      "claim_sha256": "1d71fb20d1991f136d70a276ba5d006354a6b653537143b44a91a4190632af91",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PHF1",
+      "text": "PHF1 encodes a Polycomb-associated histone reader involved in chromatin repression.",
+      "source_ids": [
+        "ncbi-5252"
+      ],
+      "claim_sha256": "100cfe6eb7cfcaaad996711861721e81a45d3398e478ff153a063bd7bbede6a5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. MEAF6::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+      "source_ids": [
+        "meaf6-phf1"
+      ],
+      "claim_sha256": "a742bc5ed9d178aabebef7f0f9f6d9c1c66da2247d939740cb3363d48f334513",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MEAF6 encodes a component of histone acetyltransferase complexes. PHF1 encodes a Polycomb-associated histone reader involved in chromatin repression. The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. MEAF6::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+    "source_ids": [
+      "ncbi-64769",
+      "ncbi-5252",
+      "meaf6-phf1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "36acada11a4df96ad3187aa854be260388b52812fa7bc1abc4622e93c3a8991c"
+}

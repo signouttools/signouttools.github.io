@@ -1,0 +1,73 @@
+{
+  "id": "fusion-kat6a-ep300",
+  "label": "KAT6A::EP300",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "KAT6A",
+      "hgnc_id": "HGNC:13013",
+      "ncbi_gene_id": "7994"
+    },
+    {
+      "symbol": "EP300",
+      "hgnc_id": "HGNC:3373",
+      "ncbi_gene_id": "2033"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML, often monocytic or myelomonocytic"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KAT6A",
+      "text": "KAT6A encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance.",
+      "source_ids": [
+        "ncbi-7994"
+      ],
+      "claim_sha256": "0e3f06cadb3a92debc72367cda111df94503d6e563d714a9e6fe0edd4737b5e7",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "EP300",
+      "text": "EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase.",
+      "source_ids": [
+        "ncbi-2033"
+      ],
+      "claim_sha256": "b97f6cdb677d816faf19b946f1816c755fcd346db279a70eabeb9f724abcc38f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation.",
+      "source_ids": [
+        "kat6a",
+        "aml"
+      ],
+      "claim_sha256": "cfd53b8d2f1af4c0db91e596153a651a9c3c525a54fa382bd647bfa92e42623d",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "KAT6A encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance. EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase. The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation.",
+    "source_ids": [
+      "ncbi-7994",
+      "ncbi-2033",
+      "kat6a",
+      "aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "814aff0da1acc6e18815888f8ab907ab62574c9d0ff4764ef82c546eb1612bf3"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "fusion-etv6-ret",
+  "label": "ETV6::RET",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "RET",
+      "hgnc_id": "HGNC:9967",
+      "ncbi_gene_id": "5979"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Salivary secretory carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RET",
+      "text": "RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors.",
+      "source_ids": [
+        "ncbi-5979"
+      ],
+      "claim_sha256": "bff0a244e3a9197f328d10b7c579776e547a11b6ffc49e5b9b553fee8aa3397f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion couples the ETV6 oligomerization region to the RET kinase domain. It is an alternative driver in salivary secretory carcinoma, a tumor more commonly associated with ETV6::NTRK3.",
+      "source_ids": [
+        "etv6-ret"
+      ],
+      "claim_sha256": "89a39e818ba5d48a0f81e3b196ad353fab07d3baee5a0258abae2a850eb9bedc",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "For RET-fusion-positive locally advanced or metastatic solid tumors, selpercatinib is US-approved from age 2 years after prior systemic treatment or when no satisfactory alternative exists; this is a RET biomarker-class indication.",
+      "source_ids": [
+        "fda-ret"
+      ],
+      "claim_sha256": "538a6fa5e6ddc561b5eeabe5addca912c26538e145186bc02dfa10906c1bfd48",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. The fusion couples the ETV6 oligomerization region to the RET kinase domain. It is an alternative driver in salivary secretory carcinoma, a tumor more commonly associated with ETV6::NTRK3. For RET-fusion-positive locally advanced or metastatic solid tumors, selpercatinib is US-approved from age 2 years after prior systemic treatment or when no satisfactory alternative exists; this is a RET biomarker-class indication.",
+    "source_ids": [
+      "ncbi-2120",
+      "ncbi-5979",
+      "etv6-ret",
+      "fda-ret"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "5e6d298fb9af577cc67ff686a8680723405ca8d01be35cf49a4affbcebba6885"
+}

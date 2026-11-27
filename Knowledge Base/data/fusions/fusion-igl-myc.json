@@ -1,0 +1,74 @@
+{
+  "id": "fusion-igl-myc",
+  "label": "IGL / MYC",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGL",
+      "hgnc_id": "HGNC:5853",
+      "ncbi_gene_id": "3535"
+    },
+    {
+      "symbol": "MYC",
+      "hgnc_id": "HGNC:7553",
+      "ncbi_gene_id": "4609"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Burkitt lymphoma",
+    "Other MYC-rearranged B-cell neoplasms"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGL",
+      "text": "IGL is the immunoglobulin lambda light-chain locus, with B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3535"
+      ],
+      "claim_sha256": "96e1b56022b2fb0675624e3ef99801ae0a0f3b7c01ebea250f05e65b3e0571ea",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MYC",
+      "text": "MYC encodes a transcription factor that controls cellular growth and metabolism.",
+      "source_ids": [
+        "ncbi-4609"
+      ],
+      "claim_sha256": "108bfd788765bf61fd6a582d97115b6eaf80232df2173eec4c53b0f1db7a6d77",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement places MYC under immunoglobulin regulatory control, increasing MYC expression and proliferative transcription. It is characteristic of Burkitt lymphoma but also occurs in other B-cell neoplasms.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "302271108b0968741e8b2a961efdf92442bc55cd66d65f52160750f207c928fe",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGL is the immunoglobulin lambda light-chain locus, with B-lineage regulatory elements. MYC encodes a transcription factor that controls cellular growth and metabolism. The rearrangement places MYC under immunoglobulin regulatory control, increasing MYC expression and proliferative transcription. It is characteristic of Burkitt lymphoma but also occurs in other B-cell neoplasms.",
+    "source_ids": [
+      "ncbi-3535",
+      "ncbi-4609",
+      "icc-l"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No universal adverse prognosis assigned to isolated MYC rearrangement; Burkitt and double-hit lymphomas are separate diagnostic settings."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b4fa976ed1a1301ee6865b91f989ae67e4af1762d1a2ed57656eecaae149b989"
+}

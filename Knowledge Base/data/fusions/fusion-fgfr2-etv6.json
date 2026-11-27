@@ -1,0 +1,81 @@
+{
+  "id": "fusion-fgfr2-etv6",
+  "label": "FGFR2::ETV6",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FGFR2",
+      "hgnc_id": "HGNC:3689",
+      "ncbi_gene_id": "2263"
+    },
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Intrahepatic cholangiocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FGFR2",
+      "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2263"
+      ],
+      "claim_sha256": "1cdae57704778e23e2f4c24a0da1305717e3fb5643ca80b10ca71163bfb36719",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::ETV6 was detected in intrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "fgfr2"
+      ],
+      "claim_sha256": "697f7245beff8714504f540e2e36efe3f74bdc6c778a01c60b7087d9eeb325fe",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+      "source_ids": [
+        "fda-fgfr2"
+      ],
+      "claim_sha256": "91585ec9dcbca921a5be9ea023086eed24b8b2233a27f9c0e10fa1ac08005157",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::ETV6 was detected in intrahepatic cholangiocarcinoma. Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+    "source_ids": [
+      "ncbi-2263",
+      "ncbi-2120",
+      "fgfr2",
+      "fda-fgfr2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "cc11d8fb5e3aca520ce2ad501abda9bd86825b1cf8f2c1204484f1e44e86d07f"
+}

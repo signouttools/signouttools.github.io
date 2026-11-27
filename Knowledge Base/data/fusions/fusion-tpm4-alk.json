@@ -1,0 +1,83 @@
+{
+  "id": "fusion-tpm4-alk",
+  "label": "TPM4::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "TPM4",
+      "hgnc_id": "HGNC:12013",
+      "ncbi_gene_id": "7171"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Inflammatory myofibroblastic tumor"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TPM4",
+      "text": "TPM4 encodes a tropomyosin isoform that associates with actin filaments.",
+      "source_ids": [
+        "ncbi-7171"
+      ],
+      "claim_sha256": "90a2a2e469763919f961dce78c732dec34b4d2d0cedcc6a3e18dfb30a2aeca08",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. TPM4::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+      "source_ids": [
+        "sarcoma",
+        "imt-kinases"
+      ],
+      "claim_sha256": "8336aad799b8cf473b7b90ab0f30041e4fb5beadf2ddb07bf57255d5bac12b16",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-criz"
+      ],
+      "claim_sha256": "36cd9dc91534b03cac1393ef8c25971d8f013ce6c1ca51b0d9229126da8b8c22",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TPM4 encodes a tropomyosin isoform that associates with actin filaments. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. TPM4::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+    "source_ids": [
+      "ncbi-7171",
+      "ncbi-238",
+      "sarcoma",
+      "imt-kinases",
+      "fda-criz"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "fa77df4a906c406f40741942f13cb44c306c5329d2ccb3d436d9b2f212738e3b"
+}

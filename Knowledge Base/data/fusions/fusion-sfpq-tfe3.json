@@ -1,0 +1,74 @@
+{
+  "id": "fusion-sfpq-tfe3",
+  "label": "SFPQ::TFE3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "SFPQ",
+      "hgnc_id": "HGNC:10774",
+      "ncbi_gene_id": "6421"
+    },
+    {
+      "symbol": "TFE3",
+      "hgnc_id": "HGNC:11752",
+      "ncbi_gene_id": "7030"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "TFE3-rearranged renal cell carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "SFPQ",
+      "text": "SFPQ encodes an RNA-binding protein involved in splicing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-6421"
+      ],
+      "claim_sha256": "6199e5780579ca4ae4cd58b504fd443d2d0153952121822ced905d95d476f304",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TFE3",
+      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "source_ids": [
+        "ncbi-7030"
+      ],
+      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. SFPQ::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+      "source_ids": [
+        "renal"
+      ],
+      "claim_sha256": "683ece3801de0fb8d835896283ab08f40532970d0b312d2d68237199735f9b29",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "SFPQ encodes an RNA-binding protein involved in splicing and transcriptional regulation. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. SFPQ::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+    "source_ids": [
+      "ncbi-6421",
+      "ncbi-7030",
+      "renal"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No prognosis or treatment response assigned solely from the partner.",
+    "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "00fb20ce1e41c1d55534902a8a33bd3c49869ee65c6d118b1d8ced437f2e3f29"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "fusion-kif5b-alk",
+  "label": "KIF5B::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "KIF5B",
+      "hgnc_id": "HGNC:6324",
+      "ncbi_gene_id": "3799"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KIF5B",
+      "text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules.",
+      "source_ids": [
+        "ncbi-3799"
+      ],
+      "claim_sha256": "b6ca88efd425c2d24ccf600ad278a1d7f6a694ae2c394ce4acbfbf0fc4ed29b7",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. A published lung-cancer case responded to crizotinib and later acquired ALK L1196M.",
+      "source_ids": [
+        "kif5b-alk"
+      ],
+      "claim_sha256": "2101ffb51d6d5019aa307627ea2c40b1585a447751dda7e119b9859e40fda8fa",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+      "source_ids": [
+        "fda-criz",
+        "kif5b-alk"
+      ],
+      "claim_sha256": "276d8c9f2985d30a4db2428186686494c22cbb1f2bd0f271355e509d5729aa9f",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. A published lung-cancer case responded to crizotinib and later acquired ALK L1196M. ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+    "source_ids": [
+      "ncbi-3799",
+      "ncbi-238",
+      "kif5b-alk",
+      "fda-criz"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "842610fb57832aa1193132ff14768aaee033528b5060abeefbf6cb37655e9d04"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "fusion-bcr-abl1",
+  "label": "BCR::ABL1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "BCR",
+      "hgnc_id": "HGNC:1014",
+      "ncbi_gene_id": "613"
+    },
+    {
+      "symbol": "ABL1",
+      "hgnc_id": "HGNC:76",
+      "ncbi_gene_id": "25"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Chronic myeloid leukemia",
+    "B-lymphoblastic leukemia",
+    "Rare de novo AML"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "BCR",
+      "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+      "source_ids": [
+        "ncbi-613"
+      ],
+      "claim_sha256": "397bf4a09dbdc34975b0d771c84c1d6f8ec4376ee75b6adf82478dc52a1d7a2d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ABL1",
+      "text": "ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses.",
+      "source_ids": [
+        "ncbi-25"
+      ],
+      "claim_sha256": "bc77c310296a3b9e98594441513ff7b93a19ea8405f3756f01c6693bdc96e602",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The Philadelphia-chromosome rearrangement joins the BCR oligomerization region to the ABL1 kinase, generating constitutive tyrosine-kinase signaling. It defines CML and a major B-ALL subtype; p210 and p190 are common transcript products.",
+      "source_ids": [
+        "icc-m",
+        "all"
+      ],
+      "claim_sha256": "0440371bb049a18dcebf3dc36cc9a20cca84302472560ac9e02247ce4af9235d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ABL1-directed tyrosine-kinase inhibitors are established treatment components in CML and Philadelphia-positive ALL. Fusion transcript quantification also provides a molecular response marker.",
+      "source_ids": [
+        "all",
+        "icc-m"
+      ],
+      "claim_sha256": "43042f5752f8565196ed5f833b6a9ba4f0144ee405425f68e7b8d6fc3af642e6",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains. ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses. The Philadelphia-chromosome rearrangement joins the BCR oligomerization region to the ABL1 kinase, generating constitutive tyrosine-kinase signaling. It defines CML and a major B-ALL subtype; p210 and p190 are common transcript products. ABL1-directed tyrosine-kinase inhibitors are established treatment components in CML and Philadelphia-positive ALL. Fusion transcript quantification also provides a molecular response marker.",
+    "source_ids": [
+      "ncbi-613",
+      "ncbi-25",
+      "icc-m",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Add a dated disease-specific drug label before enumerating individual agents or lines of therapy."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "dd90c1ff8e3eba69b435fb83ebf81f82c4bda37176abb415151b5f737a015164"
+}

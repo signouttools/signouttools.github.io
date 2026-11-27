@@ -1,0 +1,73 @@
+{
+  "id": "fusion-taf15-nr4a3",
+  "label": "TAF15::NR4A3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "TAF15",
+      "hgnc_id": "HGNC:11547",
+      "ncbi_gene_id": "8148"
+    },
+    {
+      "symbol": "NR4A3",
+      "hgnc_id": "HGNC:7982",
+      "ncbi_gene_id": "8013"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Extraskeletal myxoid chondrosarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TAF15",
+      "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family.",
+      "source_ids": [
+        "ncbi-8148"
+      ],
+      "claim_sha256": "c17c65d9daff4aa8413af21597466abd75b81a6032318addf1095796e2f17b3e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NR4A3",
+      "text": "NR4A3 encodes an orphan nuclear-receptor transcription factor.",
+      "source_ids": [
+        "ncbi-8013"
+      ],
+      "claim_sha256": "e764a98ff93ac0ee9a5f0be5167c16646552f5351ba192c659b3554f1c53555d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion combines a FET-family activation region with the NR4A3 nuclear-receptor transcription factor and dysregulates its transcriptional output. It is a recurrent driver in extraskeletal myxoid chondrosarcoma.",
+      "source_ids": [
+        "nr4a3"
+      ],
+      "claim_sha256": "1ea26bf3f7adbf3219defd617c4a990668bd365cb67b5e1cc7584f8a0c71d736",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. NR4A3 encodes an orphan nuclear-receptor transcription factor. The fusion combines a FET-family activation region with the NR4A3 nuclear-receptor transcription factor and dysregulates its transcriptional output. It is a recurrent driver in extraskeletal myxoid chondrosarcoma.",
+    "source_ids": [
+      "ncbi-8148",
+      "ncbi-8013",
+      "nr4a3"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Non-EWSR1 partners have associations with cellular/high-grade morphology; an independent partner-specific survival effect is not asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "9455d13059619a0e0ca51cc641b40714ae7630470b58b369c050a5b72033605f"
+}

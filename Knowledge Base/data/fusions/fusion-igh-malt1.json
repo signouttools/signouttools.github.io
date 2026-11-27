@@ -1,0 +1,73 @@
+{
+  "id": "fusion-igh-malt1",
+  "label": "IGH / MALT1",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "MALT1",
+      "hgnc_id": "HGNC:6819",
+      "ncbi_gene_id": "10892"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Extranodal marginal zone lymphoma of MALT"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MALT1",
+      "text": "MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling.",
+      "source_ids": [
+        "ncbi-10892"
+      ],
+      "claim_sha256": "b4587ae80afff63f9a73dabc30e3bb1d8030cbcf709b4f43e5aa8019effdfee9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(14;18) involving MALT1 increases MALT1 expression through IGH regulatory control and activates NF-kappaB-associated survival signaling. It is distinct from the t(14;18) involving BCL2.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "b2b7b03bc06a9e17c86a00c1c2c2efbd514192d2a1d003d31eeb2b8065fa4fc1",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling. The t(14;18) involving MALT1 increases MALT1 expression through IGH regulatory control and activates NF-kappaB-associated survival signaling. It is distinct from the t(14;18) involving BCL2.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-10892",
+      "icc-l"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "1426bd90a4b5314b050d766645485211da20540711ff3808c315c18e5afb6200"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "fusion-col1a1-pdgfb",
+  "label": "COL1A1::PDGFB",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "COL1A1",
+      "hgnc_id": "HGNC:2197",
+      "ncbi_gene_id": "1277"
+    },
+    {
+      "symbol": "PDGFB",
+      "hgnc_id": "HGNC:8800",
+      "ncbi_gene_id": "5155"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Dermatofibrosarcoma protuberans"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "COL1A1",
+      "text": "COL1A1 encodes the alpha-1 chain of type I collagen.",
+      "source_ids": [
+        "ncbi-1277"
+      ],
+      "claim_sha256": "77540e60512ec6064206259638edff7b65649cd18a39fe96eaa17cb00a4e848f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PDGFB",
+      "text": "PDGFB encodes the B-chain ligand of platelet-derived growth factor.",
+      "source_ids": [
+        "ncbi-5155"
+      ],
+      "claim_sha256": "575db97636106664e620c7346aaf981f2272d76c3a2cdbb54b70e1ff94e74932",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion places PDGFB under COL1A1 regulatory control, leading to excess PDGF-B ligand and autocrine PDGFRB activation. It is characteristic of dermatofibrosarcoma protuberans, including fibrosarcomatous examples.",
+      "source_ids": [
+        "dfsp",
+        "sarcoma"
+      ],
+      "claim_sha256": "7edf649c6e55b467afd04c9ab963f0f77dbf73ab3ec7676160f5062e268cd053",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Imatinib has demonstrated clinical activity in advanced or unresectable fusion-associated dermatofibrosarcoma protuberans by inhibiting PDGFRB signaling. The drug targets the activated receptor, not the PDGFB ligand.",
+      "source_ids": [
+        "dfsp"
+      ],
+      "claim_sha256": "351cbf7284c5ef9c4edce3d0cd93e5316591cfb93270ce058f6ededaeec17286",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "COL1A1 encodes the alpha-1 chain of type I collagen. PDGFB encodes the B-chain ligand of platelet-derived growth factor. The fusion places PDGFB under COL1A1 regulatory control, leading to excess PDGF-B ligand and autocrine PDGFRB activation. It is characteristic of dermatofibrosarcoma protuberans, including fibrosarcomatous examples. Imatinib has demonstrated clinical activity in advanced or unresectable fusion-associated dermatofibrosarcoma protuberans by inhibiting PDGFRB signaling. The drug targets the activated receptor, not the PDGFB ligand.",
+    "source_ids": [
+      "ncbi-1277",
+      "ncbi-5155",
+      "dfsp",
+      "sarcoma"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Additional uterine mesenchymal tumor associations require a dedicated citation and are omitted from this draft scope."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "5715e1c53d91d53e3fc572287ae0d7facd770861b866e9f9dfe60b9adfa41cae"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "fusion-srgap3-raf1",
+  "label": "SRGAP3::RAF1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "SRGAP3",
+      "hgnc_id": "HGNC:19744",
+      "ncbi_gene_id": "9901"
+    },
+    {
+      "symbol": "RAF1",
+      "hgnc_id": "HGNC:9829",
+      "ncbi_gene_id": "5894"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric low-grade glioma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "SRGAP3",
+      "text": "SRGAP3 encodes a Rho GTPase-activating protein involved in neural development and cytoskeletal regulation.",
+      "source_ids": [
+        "ncbi-9901"
+      ],
+      "claim_sha256": "7161be0e97c236838be8892ee80740f0611267e577bf9203705bd7d684cf5dbd",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RAF1",
+      "text": "RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "source_ids": [
+        "ncbi-5894"
+      ],
+      "claim_sha256": "7e1a823abf592f1456c12323ea827d3707666c0689e9d2135329135dbca400cd",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Both fusions have demonstrated transforming activity and activation of MAPK/PI3K signaling in experimental glioma systems.",
+      "source_ids": [
+        "raf1"
+      ],
+      "claim_sha256": "20578177dd8b81ef4aa3a259f51a4a4ca52799118c9371cfdbdb2e83e6ea9d8e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Drug-response studies support investigation of RAF-dimer and downstream pathway inhibition. The BRAF-fusion tovorafenib indication does not automatically include RAF1 fusions.",
+      "source_ids": [
+        "raf1",
+        "fda-braf"
+      ],
+      "claim_sha256": "46317606bbac3d44b22c5235de70ea6ea8abeda08dd356303c09bfbf876b6ccb",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "SRGAP3 encodes a Rho GTPase-activating protein involved in neural development and cytoskeletal regulation. RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Both fusions have demonstrated transforming activity and activation of MAPK/PI3K signaling in experimental glioma systems. Drug-response studies support investigation of RAF-dimer and downstream pathway inhibition. The BRAF-fusion tovorafenib indication does not automatically include RAF1 fusions.",
+    "source_ids": [
+      "ncbi-9901",
+      "ncbi-5894",
+      "raf1",
+      "fda-braf"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "5b0ef144c8919b6964670f828250921a3d07a8195d24e8b8b34ccd76294b1bea"
+}

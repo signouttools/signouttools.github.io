@@ -1,0 +1,73 @@
+{
+  "id": "fusion-igh-crlf2",
+  "label": "IGH / CRLF2",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "CRLF2",
+      "hgnc_id": "HGNC:14281",
+      "ncbi_gene_id": "64109"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia, often Ph-like"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CRLF2",
+      "text": "CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling.",
+      "source_ids": [
+        "ncbi-64109"
+      ],
+      "claim_sha256": "6cc8d7783cce36a9bce03852997338973f9a3a0858ce15ea276f46a7c22a4913",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "IGH regulatory elements drive CRLF2 overexpression, increasing cytokine-receptor signaling, often with cooperating JAK-pathway lesions. The event occurs in B-ALL and is enriched in Ph-like disease.",
+      "source_ids": [
+        "crlf2"
+      ],
+      "claim_sha256": "f62bb69ea9e8b201678e7a8c1915ea3593ea06a4610f43acf8b228cbb639a3a0",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling. IGH regulatory elements drive CRLF2 overexpression, increasing cytokine-receptor signaling, often with cooperating JAK-pathway lesions. The event occurs in B-ALL and is enriched in Ph-like disease.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-64109",
+      "crlf2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "CRLF2 expression alone does not prove this rearrangement; no approved JAK-inhibitor indication is inferred."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "67e9dd7442539ac03f3e317b2c8b2d62b6ee148f2f8d12fffb05d0e472587824"
+}

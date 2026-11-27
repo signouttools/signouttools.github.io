@@ -1,0 +1,82 @@
+{
+  "id": "fusion-ptprz1-met",
+  "label": "PTPRZ1::MET",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PTPRZ1",
+      "hgnc_id": "HGNC:9685",
+      "ncbi_gene_id": "5803"
+    },
+    {
+      "symbol": "MET",
+      "hgnc_id": "HGNC:7029",
+      "ncbi_gene_id": "4233"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "High-grade glioma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PTPRZ1",
+      "text": "PTPRZ1 encodes a receptor-type tyrosine phosphatase enriched in the nervous system.",
+      "source_ids": [
+        "ncbi-5803"
+      ],
+      "claim_sha256": "ab0ab548b8d0e3044b9f95bb7de852410b643e96da06e2b31980d88d998be6df",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MET",
+      "text": "MET encodes the hepatocyte-growth-factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4233"
+      ],
+      "claim_sha256": "79c99a4f2e4dd152687fabddef26634b6e30083aed25fdeba5e500c81ae79399",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion increases MET expression and enhances MET phosphorylation, promoting oncogenic signaling. It is recurrent in a subset of high-grade gliomas and has shown transforming effects in experimental systems.",
+      "source_ids": [
+        "ptprz1-met"
+      ],
+      "claim_sha256": "fb09aee2bbde9891d2a54634dd1e0e6a37353594476aae46be1ef42148c42164",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "An adverse survival association was reported in the original glioma cohorts. Those historical cohorts require reinterpretation under current IDH-based integrated diagnoses.",
+      "source_ids": [
+        "ptprz1-met"
+      ],
+      "claim_sha256": "33889064863f76ff79c789a42d56294df554e5510f17ddaf66e09aa70e0a560e",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PTPRZ1 encodes a receptor-type tyrosine phosphatase enriched in the nervous system. MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. The fusion increases MET expression and enhances MET phosphorylation, promoting oncogenic signaling. It is recurrent in a subset of high-grade gliomas and has shown transforming effects in experimental systems. An adverse survival association was reported in the original glioma cohorts. Those historical cohorts require reinterpretation under current IDH-based integrated diagnoses.",
+    "source_ids": [
+      "ncbi-5803",
+      "ncbi-4233",
+      "ptprz1-met"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No US MET-fusion glioma indication is inferred from MET exon 14-skipping NSCLC approvals."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b99c40d9020c81bb61d12d89eb7e20d3a50609393e65390b62ce866e2687c2b8"
+}

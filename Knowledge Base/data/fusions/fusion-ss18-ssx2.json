@@ -1,0 +1,88 @@
+{
+  "id": "fusion-ss18-ssx2",
+  "label": "SS18::SSX2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "SS18",
+      "hgnc_id": "HGNC:11340",
+      "ncbi_gene_id": "6760"
+    },
+    {
+      "symbol": "SSX2",
+      "hgnc_id": "HGNC:11336",
+      "ncbi_gene_id": "6757"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Synovial sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "SS18",
+      "text": "SS18 encodes a component of the BAF chromatin-remodeling complex.",
+      "source_ids": [
+        "ncbi-6760"
+      ],
+      "claim_sha256": "da50d3b744ead82a417b3acbf350620c999b896c74a57d05e46e6fd4301dd076",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "SSX2",
+      "text": "SSX2 encodes a cancer-testis antigen with transcriptional regulatory activity.",
+      "source_ids": [
+        "ncbi-6757"
+      ],
+      "claim_sha256": "a45d14b182edba569699b514e931c800c505db35c45d30512b87b1b7b9a4b6e9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion replaces the SS18 carboxy terminus with SSX sequences and redirects BAF chromatin-remodeling complexes, activating an oncogenic transcriptional program. It is a defining molecular alteration of synovial sarcoma.",
+      "source_ids": [
+        "ss18",
+        "ss18-mech",
+        "sarcoma"
+      ],
+      "claim_sha256": "0c88df9c7ead2f38f65362eec9d55ed238084ccac52454b052595e099c204949",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+      "source_ids": [
+        "fda-synovial"
+      ],
+      "claim_sha256": "5db13cebdd3eb02ac696d3e318282323e24a9978069c1e18dde07e9567afc425",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "SS18 encodes a component of the BAF chromatin-remodeling complex. SSX2 encodes a cancer-testis antigen with transcriptional regulatory activity. The fusion replaces the SS18 carboxy terminus with SSX sequences and redirects BAF chromatin-remodeling complexes, activating an oncogenic transcriptional program. It is a defining molecular alteration of synovial sarcoma. Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+    "source_ids": [
+      "ncbi-6760",
+      "ncbi-6757",
+      "ss18",
+      "ss18-mech",
+      "sarcoma",
+      "fda-synovial"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
+    "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "391c63258a5503c2ca3d15c8bab8a334856906bdf336f63d7e468072328276a3"
+}

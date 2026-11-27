@@ -1,0 +1,74 @@
+{
+  "id": "fusion-rbm15-mrtfa",
+  "label": "RBM15::MRTFA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "RBM15",
+      "hgnc_id": "HGNC:14959",
+      "ncbi_gene_id": "64783"
+    },
+    {
+      "symbol": "MRTFA",
+      "hgnc_id": "HGNC:14334",
+      "ncbi_gene_id": "57591"
+    }
+  ],
+  "aliases": [
+    "RBM15::MKL1",
+    "OTT::MAL"
+  ],
+  "tumor_contexts": [
+    "Infant acute megakaryoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RBM15",
+      "text": "RBM15 encodes an RNA-binding protein that recruits RNA-modification machinery.",
+      "source_ids": [
+        "ncbi-64783"
+      ],
+      "claim_sha256": "6e00218740ac2b2d90612d6006d650423ef5e3aa81a8dd83c054b62c9fab281d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MRTFA",
+      "text": "MRTFA encodes a transcriptional coactivator of serum-response factor linked to actin dynamics.",
+      "source_ids": [
+        "ncbi-57591"
+      ],
+      "claim_sha256": "ea1ddbe6c5bc89d1ce47ca9d21ff73d77bd15ee39598352e7c6b928da18ea115",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(1;22) fusion joins an RNA-associated regulator to a serum-response-factor coactivator and dysregulates hematopoietic transcription. It is characteristic of a subset of infant non-Down-syndrome acute megakaryoblastic leukemia.",
+      "source_ids": [
+        "aml"
+      ],
+      "claim_sha256": "1ff1246f86e02962cd71e7e712237c42fd518a7d21d2dd477f0d3ee5ddbb3eec",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "RBM15 encodes an RNA-binding protein that recruits RNA-modification machinery. MRTFA encodes a transcriptional coactivator of serum-response factor linked to actin dynamics. The t(1;22) fusion joins an RNA-associated regulator to a serum-response-factor coactivator and dysregulates hematopoietic transcription. It is characteristic of a subset of infant non-Down-syndrome acute megakaryoblastic leukemia.",
+    "source_ids": [
+      "ncbi-64783",
+      "ncbi-57591",
+      "aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "857d95edbfa202287ae7dc37cbe4dc1a11895c85baa7c880ea4642d47537e82f"
+}

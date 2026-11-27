@@ -1,0 +1,75 @@
+{
+  "id": "fusion-npm1-mlf1",
+  "label": "NPM1::MLF1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NPM1",
+      "hgnc_id": "HGNC:7910",
+      "ncbi_gene_id": "4869"
+    },
+    {
+      "symbol": "MLF1",
+      "hgnc_id": "HGNC:7125",
+      "ncbi_gene_id": "4291"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML with NPM1::MLF1"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NPM1",
+      "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking.",
+      "source_ids": [
+        "ncbi-4869"
+      ],
+      "claim_sha256": "feb3fce8a79759b1142e7d87bc87b585675f11e5f9bbfc22f207ef739f59e9e2",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MLF1",
+      "text": "MLF1 encodes a regulator of hematopoietic cell differentiation and survival.",
+      "source_ids": [
+        "ncbi-4291"
+      ],
+      "claim_sha256": "f8ae64bdb058f47436f2a9758a949e0936585c73865113aec9cbde18410ac39c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(3;5) fusion joins amino-terminal NPM1 sequences to MLF1 and alters intracellular regulation in hematopoietic cells. It is a rare recurrent AML fusion, distinct from the common NPM1 exon 12 mutation.",
+      "source_ids": [
+        "aml",
+        "icc-m"
+      ],
+      "claim_sha256": "4266a15f5f31a211a04c0e4f553b5f361ad7a5e3390de3c7bf351b19eac11db8",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. MLF1 encodes a regulator of hematopoietic cell differentiation and survival. The t(3;5) fusion joins amino-terminal NPM1 sequences to MLF1 and alters intracellular regulation in hematopoietic cells. It is a rare recurrent AML fusion, distinct from the common NPM1 exon 12 mutation.",
+    "source_ids": [
+      "ncbi-4869",
+      "ncbi-4291",
+      "aml",
+      "icc-m"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Do not transfer the favorable-risk classification of NPM1-mutated AML to NPM1::MLF1."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "f9f41fce0dd4e81f49fa2d65a6488a41c4b855c8e636272f2a7d45e291e96b33"
+}

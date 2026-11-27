@@ -1,0 +1,73 @@
+{
+  "id": "fusion-nab2-stat6",
+  "label": "NAB2::STAT6",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NAB2",
+      "hgnc_id": "HGNC:7627",
+      "ncbi_gene_id": "4665"
+    },
+    {
+      "symbol": "STAT6",
+      "hgnc_id": "HGNC:11368",
+      "ncbi_gene_id": "6778"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Solitary fibrous tumor"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NAB2",
+      "text": "NAB2 encodes a transcriptional corepressor of EGR-family transcription factors.",
+      "source_ids": [
+        "ncbi-4665"
+      ],
+      "claim_sha256": "83dcb15af609f8f63439b4a5e2378702520f2494bff6e5fd1f481453117ca4d6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "STAT6",
+      "text": "STAT6 encodes a transcription factor that transduces interleukin-4/interleukin-13 signals.",
+      "source_ids": [
+        "ncbi-6778"
+      ],
+      "claim_sha256": "a36d51c26ea4244be34a27317c442e1457b750cb67b01007aede4c87ee060491",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The intrachromosomal fusion combines NAB2 EGR-binding sequences with STAT6 activation sequences, converting a transcriptional repressor complex into an activator. It is the defining molecular alteration of solitary fibrous tumor and underlies characteristic nuclear STAT6 staining.",
+      "source_ids": [
+        "nab2"
+      ],
+      "claim_sha256": "25017c9d8f31459aa4f7ab2f93daaa1afa6b9f7ea36d9847ce92b20779a73a77",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NAB2 encodes a transcriptional corepressor of EGR-family transcription factors. STAT6 encodes a transcription factor that transduces interleukin-4/interleukin-13 signals. The intrachromosomal fusion combines NAB2 EGR-binding sequences with STAT6 activation sequences, converting a transcriptional repressor complex into an activator. It is the defining molecular alteration of solitary fibrous tumor and underlies characteristic nuclear STAT6 staining.",
+    "source_ids": [
+      "ncbi-4665",
+      "ncbi-6778",
+      "nab2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Fusion presence does not assign a solitary fibrous tumor recurrence-risk score; no unvalidated prognosis by breakpoint included."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "8e09d5eee2ae93667e61fc7a84abf067274563f120c4759897feeebf0d395a92"
+}

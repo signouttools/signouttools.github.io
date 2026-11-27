@@ -1,0 +1,98 @@
+{
+  "id": "fusion-kmt2a-mllt10",
+  "label": "KMT2A::MLLT10",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "KMT2A",
+      "hgnc_id": "HGNC:7132",
+      "ncbi_gene_id": "4297"
+    },
+    {
+      "symbol": "MLLT10",
+      "hgnc_id": "HGNC:16063",
+      "ncbi_gene_id": "8028"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML",
+    "Other KMT2A-rearranged acute leukemias"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KMT2A",
+      "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes.",
+      "source_ids": [
+        "ncbi-4297"
+      ],
+      "claim_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MLLT10",
+      "text": "MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L.",
+      "source_ids": [
+        "ncbi-8028"
+      ],
+      "claim_sha256": "c0eea6521144af9a1a1c353ff341dd752dda55da7fefcdc166f5857eaa28892a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery.",
+      "source_ids": [
+        "icc-m",
+        "kmt2a-adult",
+        "kmt2a-recombinome"
+      ],
+      "claim_sha256": "fc539431822fa517d0cb8b616bd3cf728ffdcccb9377f5c76237d3a6a8ddbf82",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "KMT2A::MLLT10 has adverse outcome associations in pediatric AML cohorts; adult ELN 2022 places non-MLLT3 KMT2A rearrangements in the adverse group.",
+      "source_ids": [
+        "kmt2a-outcomes",
+        "eln-aml"
+      ],
+      "claim_sha256": "97c57840481639de64af7a80d09a0d0db2883c53c7ba8fd87656f27d4fbdbdd4",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+      "source_ids": [
+        "fda-menin"
+      ],
+      "claim_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery. KMT2A::MLLT10 has adverse outcome associations in pediatric AML cohorts; adult ELN 2022 places non-MLLT3 KMT2A rearrangements in the adverse group. Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+    "source_ids": [
+      "ncbi-4297",
+      "ncbi-8028",
+      "icc-m",
+      "kmt2a-adult",
+      "kmt2a-recombinome",
+      "kmt2a-outcomes",
+      "eln-aml",
+      "fda-menin"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "972dc6766737e6d0c58ea950fca95f1f2c85fede16ca9d680b6c1695445e8879"
+}

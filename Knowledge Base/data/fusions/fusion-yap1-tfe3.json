@@ -1,0 +1,73 @@
+{
+  "id": "fusion-yap1-tfe3",
+  "label": "YAP1::TFE3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "YAP1",
+      "hgnc_id": "HGNC:16262",
+      "ncbi_gene_id": "10413"
+    },
+    {
+      "symbol": "TFE3",
+      "hgnc_id": "HGNC:11752",
+      "ncbi_gene_id": "7030"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "YAP1::TFE3-fused hemangioendothelioma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "YAP1",
+      "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling.",
+      "source_ids": [
+        "ncbi-10413"
+      ],
+      "claim_sha256": "1a8bd583ad13c35afcf7349c401739f077529104c1fc58ab3a152b7e58f79c01",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TFE3",
+      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "source_ids": [
+        "ncbi-7030"
+      ],
+      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. YAP1::TFE3 defines a related vascular neoplasm with distinctive morphology and strong nuclear TFE3 expression.",
+      "source_ids": [
+        "ehe"
+      ],
+      "claim_sha256": "64580cdf590f56e0465caff8a23ddd3e175b493af973ee264f4cc7cfd521914c",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. YAP1::TFE3 defines a related vascular neoplasm with distinctive morphology and strong nuclear TFE3 expression.",
+    "source_ids": [
+      "ncbi-10413",
+      "ncbi-7030",
+      "ehe"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "c589a41d804a373091d9082ad31aff279686422d2b1ba661f6eeb24821a42dfa"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "fusion-kiaa1549-braf",
+  "label": "KIAA1549::BRAF",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "KIAA1549",
+      "hgnc_id": "HGNC:22219",
+      "ncbi_gene_id": "57670"
+    },
+    {
+      "symbol": "BRAF",
+      "hgnc_id": "HGNC:1097",
+      "ncbi_gene_id": "673"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pilocytic astrocytoma",
+    "Other pediatric low-grade gliomas",
+    "Diffuse leptomeningeal glioneuronal tumor"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KIAA1549",
+      "text": "KIAA1549 encodes a protein implicated in nervous-system development.",
+      "source_ids": [
+        "ncbi-57670"
+      ],
+      "claim_sha256": "ebc77e5f4f83cdf749713f40cb9d39105eaf89aa9f13f6b6c7a4ecd98bda244c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BRAF",
+      "text": "BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "source_ids": [
+        "ncbi-673"
+      ],
+      "claim_sha256": "296284c6ac14cd374c43e01f7bd9287f9c3e5dc95e23fea5d313545f2bd42417",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. KIAA1549::BRAF commonly results from a tandem duplication at 7q34 and is recurrent in pilocytic astrocytoma; it also occurs in diffuse leptomeningeal glioneuronal tumor.",
+      "source_ids": [
+        "raf-mech",
+        "cns"
+      ],
+      "claim_sha256": "cb8a96629d652a64eb4b23c988763874c824bccdc9e2148b8d08893a1885f250",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+      "source_ids": [
+        "fda-braf",
+        "braf-resistance"
+      ],
+      "claim_sha256": "601e597c19542036f46ba05f50502e85a9da0ba08cb48e18634b49e5450a3c76",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "KIAA1549 encodes a protein implicated in nervous-system development. BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. KIAA1549::BRAF commonly results from a tandem duplication at 7q34 and is recurrent in pilocytic astrocytoma; it also occurs in diffuse leptomeningeal glioneuronal tumor. Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+    "source_ids": [
+      "ncbi-57670",
+      "ncbi-673",
+      "raf-mech",
+      "cns",
+      "fda-braf",
+      "braf-resistance"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "1408488ca00150c0a9944d65ddd89f193fe57da5029079a4888877a19d33d3b1"
+}

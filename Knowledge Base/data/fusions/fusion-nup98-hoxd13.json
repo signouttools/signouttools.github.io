@@ -1,0 +1,72 @@
+{
+  "id": "fusion-nup98-hoxd13",
+  "label": "NUP98::HOXD13",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NUP98",
+      "hgnc_id": "HGNC:8068",
+      "ncbi_gene_id": "4928"
+    },
+    {
+      "symbol": "HOXD13",
+      "hgnc_id": "HGNC:5136",
+      "ncbi_gene_id": "3239"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML",
+    "Myelodysplastic neoplasia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NUP98",
+      "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-4928"
+      ],
+      "claim_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "HOXD13",
+      "text": "HOXD13 encodes a homeobox transcription factor involved in limb patterning.",
+      "source_ids": [
+        "ncbi-3239"
+      ],
+      "claim_sha256": "ff2a9ae9ced6d6f46917923e4bd59c9a1791cc583e023e4b827b71af06a44bc8",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXD13 homeodomain supplies DNA binding to the NUP98 activation region.",
+      "source_ids": [
+        "nup98"
+      ],
+      "claim_sha256": "da72a33c973eebe50dc751ac40fac491e099452e96d0670a267ec8fb6b646aa9",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. HOXD13 encodes a homeobox transcription factor involved in limb patterning. The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXD13 homeodomain supplies DNA binding to the NUP98 activation region.",
+    "source_ids": [
+      "ncbi-4928",
+      "ncbi-3239",
+      "nup98"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "d4f66ddbc4ab88e24b12a7fc4c440fa3ea087944c795f72eaab85645b884691a"
+}

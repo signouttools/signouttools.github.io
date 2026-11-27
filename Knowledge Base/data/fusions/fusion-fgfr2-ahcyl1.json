@@ -1,0 +1,81 @@
+{
+  "id": "fusion-fgfr2-ahcyl1",
+  "label": "FGFR2::AHCYL1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FGFR2",
+      "hgnc_id": "HGNC:3689",
+      "ncbi_gene_id": "2263"
+    },
+    {
+      "symbol": "AHCYL1",
+      "hgnc_id": "HGNC:344",
+      "ncbi_gene_id": "10768"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Intrahepatic cholangiocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FGFR2",
+      "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2263"
+      ],
+      "claim_sha256": "1cdae57704778e23e2f4c24a0da1305717e3fb5643ca80b10ca71163bfb36719",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "AHCYL1",
+      "text": "AHCYL1 encodes IRBIT, a regulator of inositol-trisphosphate receptor signaling and membrane transport.",
+      "source_ids": [
+        "ncbi-10768"
+      ],
+      "claim_sha256": "66f0f104434a9d04fb7772752bcd5d80a46b8b4591f1d3653ee808da51be8227",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::AHCYL1 was detected in intrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "fgfr2"
+      ],
+      "claim_sha256": "7b058d9b4187f06970d6734af26262963182d709c744789dbeac96d38556d7eb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+      "source_ids": [
+        "fda-fgfr2"
+      ],
+      "claim_sha256": "91585ec9dcbca921a5be9ea023086eed24b8b2233a27f9c0e10fa1ac08005157",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. AHCYL1 encodes IRBIT, a regulator of inositol-trisphosphate receptor signaling and membrane transport. The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::AHCYL1 was detected in intrahepatic cholangiocarcinoma. Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+    "source_ids": [
+      "ncbi-2263",
+      "ncbi-10768",
+      "fgfr2",
+      "fda-fgfr2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "5320d200053d87e83f99939980f2fbf06703bed24c26b48fc5294433f66e3948"
+}

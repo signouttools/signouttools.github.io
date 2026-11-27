@@ -1,0 +1,73 @@
+{
+  "id": "fusion-dnajb1-prkaca",
+  "label": "DNAJB1::PRKACA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "DNAJB1",
+      "hgnc_id": "HGNC:5270",
+      "ncbi_gene_id": "3337"
+    },
+    {
+      "symbol": "PRKACA",
+      "hgnc_id": "HGNC:9380",
+      "ncbi_gene_id": "5566"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Fibrolamellar carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "DNAJB1",
+      "text": "DNAJB1 encodes an HSP40-family cochaperone that regulates HSP70 activity.",
+      "source_ids": [
+        "ncbi-3337"
+      ],
+      "claim_sha256": "3b038ce69f3ce9441b4461b973dd58b699a22fff16d94e0a4091b5173e0f8b86",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PRKACA",
+      "text": "PRKACA encodes the alpha catalytic subunit of cyclic-AMP-dependent protein kinase A.",
+      "source_ids": [
+        "ncbi-5566"
+      ],
+      "claim_sha256": "976c70561bbabb65ca885413988cb2545969cb165c4506c1e793ff52b7dbd15b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "A chromosome 19 deletion joins the DNAJB1 J-domain region to the PRKACA catalytic subunit, altering PKA signaling and protein interactions. The fusion is characteristic of fibrolamellar carcinoma and is sufficient to induce fibrolamellar-like liver tumors in engineered mice.",
+      "source_ids": [
+        "prkaca"
+      ],
+      "claim_sha256": "6a87af8917e0392f672b3c31f8ea97d00f55010a0cd4f923a31793c395efe510",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "DNAJB1 encodes an HSP40-family cochaperone that regulates HSP70 activity. PRKACA encodes the alpha catalytic subunit of cyclic-AMP-dependent protein kinase A. A chromosome 19 deletion joins the DNAJB1 J-domain region to the PRKACA catalytic subunit, altering PKA signaling and protein interactions. The fusion is characteristic of fibrolamellar carcinoma and is sufficient to induce fibrolamellar-like liver tumors in engineered mice.",
+    "source_ids": [
+      "ncbi-3337",
+      "ncbi-5566",
+      "prkaca"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Also reported in selected pancreatobiliary tumors; a liver origin cannot be assigned from this pair alone."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b124fe57b3c18b885daa5bd47430bbc69bdffb316c73df8d312ff5e4eb67b7a8"
+}

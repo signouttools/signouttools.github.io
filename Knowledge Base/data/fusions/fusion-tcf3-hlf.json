@@ -1,0 +1,94 @@
+{
+  "id": "fusion-tcf3-hlf",
+  "label": "TCF3::HLF",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "TCF3",
+      "hgnc_id": "HGNC:11633",
+      "ncbi_gene_id": "6929"
+    },
+    {
+      "symbol": "HLF",
+      "hgnc_id": "HGNC:4977",
+      "ncbi_gene_id": "3131"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TCF3",
+      "text": "TCF3 encodes E2A transcription factors required for lymphoid development.",
+      "source_ids": [
+        "ncbi-6929"
+      ],
+      "claim_sha256": "12f5c610b87031a903ec1c2f34aabe79cc2a6c81a681f017892d741babaa969d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "HLF",
+      "text": "HLF encodes a PAR-bZIP transcription factor involved in circadian and hematopoietic regulation.",
+      "source_ids": [
+        "ncbi-3131"
+      ],
+      "claim_sha256": "b8afc7400bd1e64d7d2207c1bd2adc725f74b0d5e60426327e7a648aadf9645e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(17;19) fusion joins TCF3 transcriptional activation to the HLF DNA-binding region and produces a distinct antiapoptotic leukemia program. The leukemia can present with hypercalcemia and has marked chemotherapy resistance.",
+      "source_ids": [
+        "hlf",
+        "all"
+      ],
+      "claim_sha256": "dbf4fc3ea81916685854b06abbf9af70b84cdcbb18c755d32772d98da9ca5df2",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "TCF3::HLF is an adverse prognostic subtype with historically very poor survival.",
+      "source_ids": [
+        "eln-all"
+      ],
+      "claim_sha256": "a93e01bb1af879ae301e99c472538aef308fdd749201f5422eb4431bd51b207f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "BCL2 inhibition has demonstrated preclinical sensitivity; blinatumomab-based treatment followed by transplantation has produced durable survivors in small clinical cohorts. These are investigational or disease-directed approaches rather than an HLF-specific FDA indication.",
+      "source_ids": [
+        "hlf",
+        "hlf-clinical"
+      ],
+      "claim_sha256": "b0021cf4e106c86273a8c1b1211dd5a4b58f661c1c34bfc94d77836c0d50dc5d",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. HLF encodes a PAR-bZIP transcription factor involved in circadian and hematopoietic regulation. The t(17;19) fusion joins TCF3 transcriptional activation to the HLF DNA-binding region and produces a distinct antiapoptotic leukemia program. The leukemia can present with hypercalcemia and has marked chemotherapy resistance. TCF3::HLF is an adverse prognostic subtype with historically very poor survival. BCL2 inhibition has demonstrated preclinical sensitivity; blinatumomab-based treatment followed by transplantation has produced durable survivors in small clinical cohorts. These are investigational or disease-directed approaches rather than an HLF-specific FDA indication.",
+    "source_ids": [
+      "ncbi-6929",
+      "ncbi-3131",
+      "hlf",
+      "all",
+      "eln-all",
+      "hlf-clinical"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "18b64be75605e20a581453f2d62f0fdba970fa67ef6d54afc555cb140d376f11"
+}

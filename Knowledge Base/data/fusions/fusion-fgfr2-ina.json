@@ -1,0 +1,81 @@
+{
+  "id": "fusion-fgfr2-ina",
+  "label": "FGFR2::INA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FGFR2",
+      "hgnc_id": "HGNC:3689",
+      "ncbi_gene_id": "2263"
+    },
+    {
+      "symbol": "INA",
+      "hgnc_id": "HGNC:6057",
+      "ncbi_gene_id": "9118"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Intrahepatic cholangiocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FGFR2",
+      "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2263"
+      ],
+      "claim_sha256": "1cdae57704778e23e2f4c24a0da1305717e3fb5643ca80b10ca71163bfb36719",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "INA",
+      "text": "INA encodes alpha-internexin, a neuronal intermediate filament protein.",
+      "source_ids": [
+        "ncbi-9118"
+      ],
+      "claim_sha256": "afc79349ecfeb3693fd0a67f465b3efcca14f07328071984b5ab774c45a1e066",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::INA was detected in intrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "fgfr2"
+      ],
+      "claim_sha256": "2d86f29420d45e18672c0fcb4674a3ff9cbc49cfd476dcac2f9aa20a77f5f5ec",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+      "source_ids": [
+        "fda-fgfr2"
+      ],
+      "claim_sha256": "91585ec9dcbca921a5be9ea023086eed24b8b2233a27f9c0e10fa1ac08005157",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. INA encodes alpha-internexin, a neuronal intermediate filament protein. The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::INA was detected in intrahepatic cholangiocarcinoma. Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+    "source_ids": [
+      "ncbi-2263",
+      "ncbi-9118",
+      "fgfr2",
+      "fda-fgfr2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "68650608e636c40f41d9007191458776146987ff845df6ad51e5777dc9cd7c7f"
+}

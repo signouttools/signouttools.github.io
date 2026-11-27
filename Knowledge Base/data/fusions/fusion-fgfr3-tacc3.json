@@ -1,0 +1,95 @@
+{
+  "id": "fusion-fgfr3-tacc3",
+  "label": "FGFR3::TACC3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FGFR3",
+      "hgnc_id": "HGNC:3690",
+      "ncbi_gene_id": "2261"
+    },
+    {
+      "symbol": "TACC3",
+      "hgnc_id": "HGNC:11524",
+      "ncbi_gene_id": "10460"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Glioblastoma",
+    "Urothelial carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FGFR3",
+      "text": "FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2261"
+      ],
+      "claim_sha256": "d97637fd595657389c1ab1aef07610471f16d14ca53931ee931195ef0003f1b9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TACC3",
+      "text": "TACC3 encodes a coiled-coil protein involved in mitotic-spindle organization.",
+      "source_ids": [
+        "ncbi-10460"
+      ],
+      "claim_sha256": "42410683fbd5d39b2ed9924d5203a25ec5e2bc51ed2fd7ac55b1dd7932629504",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models.",
+      "source_ids": [
+        "fgfr-tacc"
+      ],
+      "claim_sha256": "cc4d65769c31e23695a122932af58cda80ada57981b40515f0af3f8eecc045d1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication.",
+      "source_ids": [
+        "fgfr-tacc"
+      ],
+      "claim_sha256": "4733370670fcacf1a6712672bc087e2cf5ed5daba945c7cf17d62ba0940c3b64",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "In adults with locally advanced or metastatic urothelial carcinoma, a susceptible FGFR3 alteration such as FGFR3::TACC3 can support erdafitinib treatment after at least one prior systemic therapy. The US label does not recommend erdafitinib before PD-1/PD-L1 therapy in eligible patients. This indication does not cover glioma.",
+      "source_ids": [
+        "fda-erdafitinib",
+        "fgfr3-cdx"
+      ],
+      "claim_sha256": "00b53cdf548e7781419cf0e668e63401d8d9d4e91d33772c8f7df9bb018ef983",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase. TACC3 encodes a coiled-coil protein involved in mitotic-spindle organization. The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models. FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication. In adults with locally advanced or metastatic urothelial carcinoma, a susceptible FGFR3 alteration such as FGFR3::TACC3 can support erdafitinib treatment after at least one prior systemic therapy. The US label does not recommend erdafitinib before PD-1/PD-L1 therapy in eligible patients. This indication does not cover glioma.",
+    "source_ids": [
+      "ncbi-2261",
+      "ncbi-10460",
+      "fgfr-tacc",
+      "fda-erdafitinib",
+      "fgfr3-cdx"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Distinguish glioma preclinical evidence from the urothelial carcinoma indication."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "80cf1306e16132156ad9f6d782d69f01b2217020f133e6cd00ecacb78b998bce"
+}

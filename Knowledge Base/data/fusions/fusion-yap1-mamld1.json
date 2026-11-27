@@ -1,0 +1,75 @@
+{
+  "id": "fusion-yap1-mamld1",
+  "label": "YAP1::MAMLD1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "YAP1",
+      "hgnc_id": "HGNC:16262",
+      "ncbi_gene_id": "10413"
+    },
+    {
+      "symbol": "MAMLD1",
+      "hgnc_id": "HGNC:2568",
+      "ncbi_gene_id": "10046"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Supratentorial ependymoma, YAP1 fusion-positive"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "YAP1",
+      "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling.",
+      "source_ids": [
+        "ncbi-10413"
+      ],
+      "claim_sha256": "1a8bd583ad13c35afcf7349c401739f077529104c1fc58ab3a152b7e58f79c01",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAMLD1",
+      "text": "MAMLD1 encodes a transcriptional regulator involved in developmental gene expression.",
+      "source_ids": [
+        "ncbi-10046"
+      ],
+      "claim_sha256": "3a62dfe82e09df0c0894af5a512a19a0550c3dcfe5422163b7031390829563e4",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves YAP1 transcriptional coactivation in a persistently nuclear product that recruits TEAD and nuclear-factor-I factors. It drives the YAP1-fusion-positive ependymoma group, most often encountered in young children.",
+      "source_ids": [
+        "yap1",
+        "cns"
+      ],
+      "claim_sha256": "eef82a4e607b8b9e591e6a371d487fe4c46fcab7d65d535f1998ad788fb66c29",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. MAMLD1 encodes a transcriptional regulator involved in developmental gene expression. The fusion preserves YAP1 transcriptional coactivation in a persistently nuclear product that recruits TEAD and nuclear-factor-I factors. It drives the YAP1-fusion-positive ependymoma group, most often encountered in young children.",
+    "source_ids": [
+      "ncbi-10413",
+      "ncbi-10046",
+      "yap1",
+      "cns"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No uniform survival estimate or approved TEAD-directed treatment is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b365214b1082835353358b6bacba089779efb493d82782466d458e411a2f9d43"
+}

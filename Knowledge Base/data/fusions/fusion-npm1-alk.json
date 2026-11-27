@@ -1,0 +1,81 @@
+{
+  "id": "fusion-npm1-alk",
+  "label": "NPM1::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NPM1",
+      "hgnc_id": "HGNC:7910",
+      "ncbi_gene_id": "4869"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "ALK-positive anaplastic large cell lymphoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NPM1",
+      "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking.",
+      "source_ids": [
+        "ncbi-4869"
+      ],
+      "claim_sha256": "feb3fce8a79759b1142e7d87bc87b585675f11e5f9bbfc22f207ef739f59e9e2",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion uses NPM1-mediated oligomerization to activate the ALK kinase and downstream survival pathways. It is the principal fusion in ALK-positive anaplastic large cell lymphoma.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "2580af0416f48f7dbfc714504d737caccff69911b4763b3aff894b42ac3179f2",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Crizotinib has a US indication for relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma in children aged at least 1 year and young adults. Its efficacy and safety for that indication were not established in older adults in the cited label.",
+      "source_ids": [
+        "fda-criz"
+      ],
+      "claim_sha256": "6ba39d01a2405de5cbef8f65085dd516793dd87e24ded19b77ee4ccb6aec16fd",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion uses NPM1-mediated oligomerization to activate the ALK kinase and downstream survival pathways. It is the principal fusion in ALK-positive anaplastic large cell lymphoma. Crizotinib has a US indication for relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma in children aged at least 1 year and young adults. Its efficacy and safety for that indication were not established in older adults in the cited label.",
+    "source_ids": [
+      "ncbi-4869",
+      "ncbi-238",
+      "icc-l",
+      "fda-criz"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "600d0d448e913c660d03700e82bb5c3ea0b28f0a21c6c6887442720c2d79f7e5"
+}

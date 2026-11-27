@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-11-26",
+  "updated_on": "2026-11-27",
   "candidate_papers": 1311,
   "access": {
     "public_fulltext_downloaded": 284,
@@ -8,19 +8,19 @@
     "public_fulltext_fetch_failed": 89
   },
   "review_status": {
-    "candidate_claims_adjudicated": 32,
-    "partial_claim_review": 18,
-    "pending_fulltext_review": 1261
+    "candidate_claims_adjudicated": 112,
+    "partial_claim_review": 25,
+    "pending_fulltext_review": 1174
   },
-  "manual_claim_decisions": 251,
+  "manual_claim_decisions": 351,
   "decision_counts": {
-    "not_supporting_report_claim": 176,
-    "supports_specific_claim": 68,
-    "needs_supplementary_or_additional_review": 7
+    "not_supporting_report_claim": 212,
+    "supports_specific_claim": 118,
+    "needs_supplementary_or_additional_review": 21
   },
-  "papers_with_claim_review": 50,
-  "restored_report_placements": 84,
-  "verified_primary_fulltext_pmids": 38,
+  "papers_with_claim_review": 137,
+  "restored_report_placements": 136,
+  "verified_primary_fulltext_pmids": 85,
   "status": "in_progress",
   "limitations": [
     "Full-text access is not verification.",

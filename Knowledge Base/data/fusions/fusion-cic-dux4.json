@@ -1,0 +1,81 @@
+{
+  "id": "fusion-cic-dux4",
+  "label": "CIC::DUX4",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CIC",
+      "hgnc_id": "HGNC:14214",
+      "ncbi_gene_id": "23152"
+    },
+    {
+      "symbol": "DUX4",
+      "hgnc_id": "HGNC:50800",
+      "ncbi_gene_id": "100288687"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "CIC-rearranged undifferentiated round cell sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CIC",
+      "text": "CIC encodes capicua, a transcriptional repressor regulated by MAPK signaling.",
+      "source_ids": [
+        "ncbi-23152"
+      ],
+      "claim_sha256": "7cfe6a8b6929d8f4ae16efb9a70d1b8790fdc2147e9f9a576210cf3e7a8e8ade",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "DUX4",
+      "text": "DUX4 encodes a double-homeobox transcription factor normally active during early embryonic development.",
+      "source_ids": [
+        "ncbi-100288687"
+      ],
+      "claim_sha256": "a2c25c6b595a8fd411a1ba4f17172939c5d8bcce079870513c3b983501f72e7c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion converts CIC-associated transcriptional repression into an oncogenic ETS-target activation program. It is the most frequent fusion in CIC-rearranged sarcoma, a molecularly distinct disease from Ewing sarcoma.",
+      "source_ids": [
+        "ewing"
+      ],
+      "claim_sha256": "0ad8522f7ea839df7b47ac92f5b25f952487163afc5a4f331b349085de780e5b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "CIC-rearranged sarcoma showed substantially worse survival than BCOR::CCNB3 sarcoma in the retrospective GRACefUl cohort.",
+      "source_ids": [
+        "graceful"
+      ],
+      "claim_sha256": "289c683acf56df2bbc641ad5bb72e1663897a3a12b11a0dd408b4bee9112680d",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CIC encodes capicua, a transcriptional repressor regulated by MAPK signaling. DUX4 encodes a double-homeobox transcription factor normally active during early embryonic development. The fusion converts CIC-associated transcriptional repression into an oncogenic ETS-target activation program. It is the most frequent fusion in CIC-rearranged sarcoma, a molecularly distinct disease from Ewing sarcoma. CIC-rearranged sarcoma showed substantially worse survival than BCOR::CCNB3 sarcoma in the retrospective GRACefUl cohort.",
+    "source_ids": [
+      "ncbi-23152",
+      "ncbi-100288687",
+      "ewing",
+      "graceful"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "5ca373923718c586306c863c95e506012db1c19e85dba4f9bf6cc4e50c7da644"
+}

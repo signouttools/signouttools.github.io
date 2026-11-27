@@ -1,0 +1,81 @@
+{
+  "id": "fusion-pax3-foxo1",
+  "label": "PAX3::FOXO1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PAX3",
+      "hgnc_id": "HGNC:8617",
+      "ncbi_gene_id": "5077"
+    },
+    {
+      "symbol": "FOXO1",
+      "hgnc_id": "HGNC:3819",
+      "ncbi_gene_id": "2308"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Fusion-positive alveolar rhabdomyosarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX3",
+      "text": "PAX3 encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development.",
+      "source_ids": [
+        "ncbi-5077"
+      ],
+      "claim_sha256": "51628cc555c714635bca30cf9dba92d3339f4ca2c7bb85fb0434e6aa8f4c5ce6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FOXO1",
+      "text": "FOXO1 encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival.",
+      "source_ids": [
+        "ncbi-2308"
+      ],
+      "claim_sha256": "627137f9c8acd00de043978e8a4f9ca4b1e731f963fdd70398b9ec8683f88f29",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma.",
+      "source_ids": [
+        "sarcoma"
+      ],
+      "claim_sha256": "c484a734ed8b37a85f33af45049f357fa26dd2a0c1387848582dc3eb7f5ed93f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "PAX3::FOXO1 is associated with adverse outcomes in rhabdomyosarcoma and contributes to FOXO1-fusion-based risk stratification.",
+      "source_ids": [
+        "rms-prognosis"
+      ],
+      "claim_sha256": "15807e4762a6e509c0f15cb858d307bd7550115f70f75da5a8755e5f6874e400",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PAX3 encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development. FOXO1 encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival. The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma. PAX3::FOXO1 is associated with adverse outcomes in rhabdomyosarcoma and contributes to FOXO1-fusion-based risk stratification.",
+    "source_ids": [
+      "ncbi-5077",
+      "ncbi-2308",
+      "sarcoma",
+      "rms-prognosis"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "0d635f90bdd9fab0c1fc499dc4dfde422660e42e2a09ce7359b49ca90613568d"
+}

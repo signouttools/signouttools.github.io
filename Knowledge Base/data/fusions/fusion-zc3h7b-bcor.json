@@ -1,0 +1,73 @@
+{
+  "id": "fusion-zc3h7b-bcor",
+  "label": "ZC3H7B::BCOR",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ZC3H7B",
+      "hgnc_id": "HGNC:30869",
+      "ncbi_gene_id": "23264"
+    },
+    {
+      "symbol": "BCOR",
+      "hgnc_id": "HGNC:20893",
+      "ncbi_gene_id": "54880"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "High-grade endometrial stromal sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ZC3H7B",
+      "text": "ZC3H7B encodes a zinc-finger-containing protein with proposed RNA-associated regulatory functions.",
+      "source_ids": [
+        "ncbi-23264"
+      ],
+      "claim_sha256": "fd621131c1429b28b092d58a67b376f47132180435b10eddda32c35ad591d53e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BCOR",
+      "text": "BCOR encodes a transcriptional corepressor associated with noncanonical Polycomb repression.",
+      "source_ids": [
+        "ncbi-54880"
+      ],
+      "claim_sha256": "09c8b256cc53e14db50cc88a5a34acd66ea62a8779eec85606931928d8ea16a1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins ZC3H7B to the transcriptional corepressor BCOR and defines a BCOR-rearranged stromal sarcoma group. These tumors often show high-grade spindle cells in myxoid stroma and can mimic myxoid leiomyosarcoma.",
+      "source_ids": [
+        "hgess"
+      ],
+      "claim_sha256": "f85e846a93979ee87f4cfa76dae25a3bba0fbd909fca006533afb3ec2d2cf222",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ZC3H7B encodes a zinc-finger-containing protein with proposed RNA-associated regulatory functions. BCOR encodes a transcriptional corepressor associated with noncanonical Polycomb repression. The fusion joins ZC3H7B to the transcriptional corepressor BCOR and defines a BCOR-rearranged stromal sarcoma group. These tumors often show high-grade spindle cells in myxoid stroma and can mimic myxoid leiomyosarcoma.",
+    "source_ids": [
+      "ncbi-23264",
+      "ncbi-54880",
+      "hgess"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Polycomb pathway involvement is plausible; exact fusion-specific biochemical mechanism needs functional review."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b3d158f499645abd656c95d2a1dcf03ccca3425bb64dff1394cf2a672865a6b9"
+}

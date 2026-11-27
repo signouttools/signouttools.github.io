@@ -1,0 +1,83 @@
+{
+  "id": "fusion-tpm3-ros1",
+  "label": "TPM3::ROS1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "TPM3",
+      "hgnc_id": "HGNC:12012",
+      "ncbi_gene_id": "7170"
+    },
+    {
+      "symbol": "ROS1",
+      "hgnc_id": "HGNC:10261",
+      "ncbi_gene_id": "6098"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TPM3",
+      "text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments.",
+      "source_ids": [
+        "ncbi-7170"
+      ],
+      "claim_sha256": "203382961047c448e896799da70d42de5df9549b14c78c1394ee6c6c88d21eae",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ROS1",
+      "text": "ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+      "source_ids": [
+        "ncbi-6098"
+      ],
+      "claim_sha256": "a70263102b9cb586f798d074f485e5b6a1a52a60adf8111b2bda2ae01fe4c739",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+      "source_ids": [
+        "ros1"
+      ],
+      "claim_sha256": "cd50ba81d149f7e53ba34065950241a06b1f7108f49638a2a88734995c8c016d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+      "source_ids": [
+        "fda-repotrectinib",
+        "fda-ros1"
+      ],
+      "claim_sha256": "aa82141b2dc901896b1f1556d519644e7a2da640af6e25a20a6b2774ec245008",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TPM3 encodes a tropomyosin isoform that associates with actin filaments. ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling. The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma. ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+    "source_ids": [
+      "ncbi-7170",
+      "ncbi-6098",
+      "ros1",
+      "fda-repotrectinib",
+      "fda-ros1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "797295b5e435c70eddc18bb91c6f11a8b6b3cf960dc87dd98c7f43dca967ea5b"
+}

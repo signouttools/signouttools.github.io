@@ -1,0 +1,85 @@
+{
+  "id": "fusion-gopc-ros1",
+  "label": "GOPC::ROS1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "GOPC",
+      "hgnc_id": "HGNC:17643",
+      "ncbi_gene_id": "57120"
+    },
+    {
+      "symbol": "ROS1",
+      "hgnc_id": "HGNC:10261",
+      "ncbi_gene_id": "6098"
+    }
+  ],
+  "aliases": [
+    "FIG::ROS1"
+  ],
+  "tumor_contexts": [
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "GOPC",
+      "text": "GOPC encodes a Golgi-associated scaffold involved in protein trafficking.",
+      "source_ids": [
+        "ncbi-57120"
+      ],
+      "claim_sha256": "afc91eaf88a89899f45ab86003b6262713e58138cfc03e01048570ae45b5d448",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ROS1",
+      "text": "ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+      "source_ids": [
+        "ncbi-6098"
+      ],
+      "claim_sha256": "a70263102b9cb586f798d074f485e5b6a1a52a60adf8111b2bda2ae01fe4c739",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+      "source_ids": [
+        "ros1"
+      ],
+      "claim_sha256": "cd50ba81d149f7e53ba34065950241a06b1f7108f49638a2a88734995c8c016d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+      "source_ids": [
+        "fda-repotrectinib",
+        "fda-ros1"
+      ],
+      "claim_sha256": "aa82141b2dc901896b1f1556d519644e7a2da640af6e25a20a6b2774ec245008",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "GOPC encodes a Golgi-associated scaffold involved in protein trafficking. ROS1 encodes a receptor tyrosine kinase involved in growth and survival signaling. The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma. ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+    "source_ids": [
+      "ncbi-57120",
+      "ncbi-6098",
+      "ros1",
+      "fda-repotrectinib",
+      "fda-ros1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "e7fb12f4e5f6ebb74da092920ceceac5c2987b46ba6b63b1bcc2a726bb2db254"
+}

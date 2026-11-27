@@ -1,0 +1,80 @@
+{
+  "id": "fusion-fip1l1-pdgfra",
+  "label": "FIP1L1::PDGFRA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FIP1L1",
+      "hgnc_id": "HGNC:19124",
+      "ncbi_gene_id": "81608"
+    },
+    {
+      "symbol": "PDGFRA",
+      "hgnc_id": "HGNC:8803",
+      "ncbi_gene_id": "5156"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Myeloid/lymphoid neoplasm with PDGFRA rearrangement"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FIP1L1",
+      "text": "FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery.",
+      "source_ids": [
+        "ncbi-81608"
+      ],
+      "claim_sha256": "ea72ab688f124cc4593a2510bd971abd6753dd8355dd7461a7fbb2cfb9bd824d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PDGFRA",
+      "text": "PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-5156"
+      ],
+      "claim_sha256": "d845cb1e4ca9575b34ab10c6d89ffd2d6eb25ec047caf7d40aa5508521c3ac53",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "A cryptic 4q12 deletion joins FIP1L1 to PDGFRA and disrupts PDGFRA juxtamembrane autoinhibition, creating a constitutively active kinase. It commonly presents as a myeloid neoplasm with eosinophilia.",
+      "source_ids": [
+        "pdgfra"
+      ],
+      "claim_sha256": "e979b2dec6544a68b2d88d4dee2c8964f85a0d0d3cbb6f637d481aad7689e409",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "FIP1L1::PDGFRA is highly imatinib-sensitive, with durable hematologic and molecular responses reported in clinical studies.",
+      "source_ids": [
+        "pdgfra"
+      ],
+      "claim_sha256": "e0e514d28158f1746eb16ea4c2427ec62834c30cec5194fcc5dc4c1d3b0f7d89",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery. PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase. A cryptic 4q12 deletion joins FIP1L1 to PDGFRA and disrupts PDGFRA juxtamembrane autoinhibition, creating a constitutively active kinase. It commonly presents as a myeloid neoplasm with eosinophilia. FIP1L1::PDGFRA is highly imatinib-sensitive, with durable hematologic and molecular responses reported in clinical studies.",
+    "source_ids": [
+      "ncbi-81608",
+      "ncbi-5156",
+      "pdgfra"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "bd7738ec9e5e6d25ce94f083a52d5eddf01a91f73594c2a47c643e9bd0a26b77"
+}

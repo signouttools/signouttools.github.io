@@ -1,0 +1,73 @@
+{
+  "id": "fusion-tmprss2-erg",
+  "label": "TMPRSS2::ERG",
+  "event_class": "regulatory_fusion",
+  "partners": [
+    {
+      "symbol": "TMPRSS2",
+      "hgnc_id": "HGNC:11876",
+      "ncbi_gene_id": "7113"
+    },
+    {
+      "symbol": "ERG",
+      "hgnc_id": "HGNC:3446",
+      "ncbi_gene_id": "2078"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Prostate adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TMPRSS2",
+      "text": "TMPRSS2 encodes an androgen-regulated transmembrane serine protease.",
+      "source_ids": [
+        "ncbi-7113"
+      ],
+      "claim_sha256": "4e4611c9a513c9a9ab3df184407317cb8320f6ae12f9be4c085c1274384bba9d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ERG",
+      "text": "ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development.",
+      "source_ids": [
+        "ncbi-2078"
+      ],
+      "claim_sha256": "1f39dff201608e93a1735c1006918c0cb4f9ed68ca87dc66c89d34a3be019c37",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement places ERG under androgen-responsive TMPRSS2 regulatory control, leading to abnormal ERG expression. It is a common molecular subtype of prostate adenocarcinoma and is primarily a regulatory fusion rather than a novel protease-kinase product.",
+      "source_ids": [
+        "tmprss2"
+      ],
+      "claim_sha256": "19a16a6abee9bd58135adf123945044c596b92ed958bda4bc265782303d77e50",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TMPRSS2 encodes an androgen-regulated transmembrane serine protease. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. The rearrangement places ERG under androgen-responsive TMPRSS2 regulatory control, leading to abnormal ERG expression. It is a common molecular subtype of prostate adenocarcinoma and is primarily a regulatory fusion rather than a novel protease-kinase product.",
+    "source_ids": [
+      "ncbi-7113",
+      "ncbi-2078",
+      "tmprss2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No independent prognostic or drug-response claim assigned from fusion status alone."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "e56c029de23fb8e5622de2139ba880e67426039c3d5bd0c34af34b2de0fec25f"
+}

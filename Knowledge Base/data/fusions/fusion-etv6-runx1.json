@@ -1,0 +1,80 @@
+{
+  "id": "fusion-etv6-runx1",
+  "label": "ETV6::RUNX1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "RUNX1",
+      "hgnc_id": "HGNC:10471",
+      "ncbi_gene_id": "861"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Childhood B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RUNX1",
+      "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+      "source_ids": [
+        "ncbi-861"
+      ],
+      "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The cryptic t(12;21) fusion combines ETV6 repressive activity with RUNX1 DNA-binding regions and perturbs B-cell differentiation. It is a common initiating lesion in childhood B-ALL and can arise prenatally.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "cf61f10d068aca0168a360d80d70ba4637e363de3cc8e43329ad7eacaffca3d7",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "ETV6::RUNX1-positive childhood B-ALL generally has favorable outcomes with contemporary chemotherapy, although late relapse occurs.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "42dd8a74dd92f3a88893e15deca7268ddf84561da879f6f056aa291fa4f2c414",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. The cryptic t(12;21) fusion combines ETV6 repressive activity with RUNX1 DNA-binding regions and perturbs B-cell differentiation. It is a common initiating lesion in childhood B-ALL and can arise prenatally. ETV6::RUNX1-positive childhood B-ALL generally has favorable outcomes with contemporary chemotherapy, although late relapse occurs.",
+    "source_ids": [
+      "ncbi-2120",
+      "ncbi-861",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "0f69d7a05a7c2e3f341ef049d87fbb336106ed0e298285a68a68fffd252b1bf8"
+}

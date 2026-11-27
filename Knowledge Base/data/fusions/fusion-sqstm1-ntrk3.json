@@ -1,0 +1,83 @@
+{
+  "id": "fusion-sqstm1-ntrk3",
+  "label": "SQSTM1::NTRK3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "SQSTM1",
+      "hgnc_id": "HGNC:11280",
+      "ncbi_gene_id": "8878"
+    },
+    {
+      "symbol": "NTRK3",
+      "hgnc_id": "HGNC:8033",
+      "ncbi_gene_id": "4916"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Thyroid carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "SQSTM1",
+      "text": "SQSTM1 encodes p62, a signaling scaffold and selective-autophagy cargo receptor.",
+      "source_ids": [
+        "ncbi-8878"
+      ],
+      "claim_sha256": "122488e5777403f9dd66f12fb2380be2a71066190ab18f049d9d2dd939f74f37",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK3",
+      "text": "NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4916"
+      ],
+      "claim_sha256": "39074bfd2a709ad144beab93f5b0b2f1d087b19fcabc6102b338ed45e5206ff3",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. SQSTM1::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma.",
+      "source_ids": [
+        "ntrk-thyroid"
+      ],
+      "claim_sha256": "187867f6aa729bc53c3f47b1f8afdc05df1eeac6ac5acbd71e5cc894537295c2",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+      "source_ids": [
+        "fda-laro"
+      ],
+      "claim_sha256": "970ce55d339c0480dd23db38d9fce1c47aeea11ba48231546a463b664f63827f",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "SQSTM1 encodes p62, a signaling scaffold and selective-autophagy cargo receptor. NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase. The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. SQSTM1::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma. An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+    "source_ids": [
+      "ncbi-8878",
+      "ncbi-4916",
+      "ntrk-thyroid",
+      "fda-laro"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b653f356e8cb8c60f5a75fc6abd31ddf32906344cb3bea0b463aeba3bafb62f6"
+}

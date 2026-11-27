@@ -1,0 +1,74 @@
+{
+  "id": "fusion-ctnnb1-plag1",
+  "label": "CTNNB1::PLAG1",
+  "event_class": "promoter_substitution",
+  "partners": [
+    {
+      "symbol": "CTNNB1",
+      "hgnc_id": "HGNC:2514",
+      "ncbi_gene_id": "1499"
+    },
+    {
+      "symbol": "PLAG1",
+      "hgnc_id": "HGNC:9045",
+      "ncbi_gene_id": "5324"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pleomorphic adenoma",
+    "Carcinoma ex pleomorphic adenoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CTNNB1",
+      "text": "CTNNB1 encodes beta-catenin, which participates in cell adhesion and Wnt-dependent transcription.",
+      "source_ids": [
+        "ncbi-1499"
+      ],
+      "claim_sha256": "7d90b023974378f02d6c51969f4dbb9fd9363158da6f0fca3a15e21daf6930a0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PLAG1",
+      "text": "PLAG1 encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2.",
+      "source_ids": [
+        "ncbi-5324"
+      ],
+      "claim_sha256": "375fd7367eaee211dadc0fea03caa9c4eb487c8f97a720292697d416e5ec4160",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+      "source_ids": [
+        "plag1",
+        "salivary"
+      ],
+      "claim_sha256": "52fc968e6fcde48c5b12bdaec9133d39db75e80a50fe36bda292188eb8ddc72c",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CTNNB1 encodes beta-catenin, which participates in cell adhesion and Wnt-dependent transcription. PLAG1 encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2. The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+    "source_ids": [
+      "ncbi-1499",
+      "ncbi-5324",
+      "plag1",
+      "salivary"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "a21e64724bcfe037a3c0dc6ff282e1a282dc1513d6edfcec2842e72cd5069438"
+}

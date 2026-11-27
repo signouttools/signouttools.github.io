@@ -1,0 +1,53 @@
+{
+  "drafted_on": "2026-11-27",
+  "total_entries": 186,
+  "by_event_class": {
+    "chimeric_fusion": 161,
+    "regulatory_fusion": 1,
+    "promoter_substitution": 3,
+    "regulatory_rearrangement": 21
+  },
+  "original_pair_roster": 152,
+  "original_pairs_drafted": 151,
+  "original_pairs_not_drafted": [
+    "TPR::NTRK3"
+  ],
+  "additional_pair_entries": [
+    "BCAN::NTRK1",
+    "EPC1::PHF1",
+    "ETV6::RET",
+    "FN1::ALK",
+    "JAZF1::PHF1",
+    "MEAF6::PHF1",
+    "MN1::CXXC5",
+    "NACC2::NTRK2",
+    "NPM1::MLF1",
+    "PTPRZ1::MET",
+    "QKI::NTRK2",
+    "RUNX1::MECOM",
+    "SQSTM1::NTRK3",
+    "TFG::ALK"
+  ],
+  "source_count": 331,
+  "partner_count": 210,
+  "clinical_sections": {
+    "partner_function": 373,
+    "fusion_mechanism": 186,
+    "therapeutics": 80,
+    "prognosis": 38,
+    "tumor_relevance": 1
+  },
+  "deferred": [
+    {
+      "label": "TPR::NTRK3",
+      "reason": "No pair-specific primary evidence confirmed in this review. Retrieved TPR evidence supports NTRK1; avoid a paralog substitution.",
+      "next_step": "Find an original patient/functional report with ordered partners and retained kinase before drafting."
+    },
+    {
+      "label": "ETV6::MET",
+      "reason": "Found on assay lists, but a direct clinical/functional source was not confirmed in this pass.",
+      "next_step": "Obtain primary evidence before adding a tumor or drug-response claim."
+    }
+  ],
+  "status": "all_written_entries_are_unreviewed_drafts"
+}

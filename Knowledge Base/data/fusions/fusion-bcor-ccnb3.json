@@ -1,0 +1,81 @@
+{
+  "id": "fusion-bcor-ccnb3",
+  "label": "BCOR::CCNB3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "BCOR",
+      "hgnc_id": "HGNC:20893",
+      "ncbi_gene_id": "54880"
+    },
+    {
+      "symbol": "CCNB3",
+      "hgnc_id": "HGNC:18709",
+      "ncbi_gene_id": "85417"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "BCOR::CCNB3 sarcoma of bone or soft tissue"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "BCOR",
+      "text": "BCOR encodes a transcriptional corepressor associated with noncanonical Polycomb repression.",
+      "source_ids": [
+        "ncbi-54880"
+      ],
+      "claim_sha256": "09c8b256cc53e14db50cc88a5a34acd66ea62a8779eec85606931928d8ea16a1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CCNB3",
+      "text": "CCNB3 encodes cyclin B3, a regulator of cell-cycle progression.",
+      "source_ids": [
+        "ncbi-85417"
+      ],
+      "claim_sha256": "3631ca091335971b82c1e17bc680805b88ff4e3f17f0e97fbdcc3502291e00cb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "An X-chromosome inversion joins BCOR to CCNB3 and creates an abnormal transcriptional/chromatin-regulatory product. It defines a distinct round-cell sarcoma that often affects adolescent males.",
+      "source_ids": [
+        "ewing"
+      ],
+      "claim_sha256": "28ce22b340a374d2315ad8fec921caa10f5788252d3f3f1ce0ff1c420f5f4e85",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "BCOR::CCNB3 sarcoma had better survival than CIC-rearranged sarcoma in the retrospective GRACefUl cohort; many patients received Ewing-type chemotherapy.",
+      "source_ids": [
+        "graceful"
+      ],
+      "claim_sha256": "0afa93e32db611394bab8277163d3e868d913aef159ef54674338388fbf53752",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "BCOR encodes a transcriptional corepressor associated with noncanonical Polycomb repression. CCNB3 encodes cyclin B3, a regulator of cell-cycle progression. An X-chromosome inversion joins BCOR to CCNB3 and creates an abnormal transcriptional/chromatin-regulatory product. It defines a distinct round-cell sarcoma that often affects adolescent males. BCOR::CCNB3 sarcoma had better survival than CIC-rearranged sarcoma in the retrospective GRACefUl cohort; many patients received Ewing-type chemotherapy.",
+    "source_ids": [
+      "ncbi-54880",
+      "ncbi-85417",
+      "ewing",
+      "graceful"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "1ff34939f23632feda4df7400423e86d02502815590d5a1c79fed05c1eb2bbb0"
+}

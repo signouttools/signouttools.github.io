@@ -1,0 +1,83 @@
+{
+  "id": "fusion-dek-nup214",
+  "label": "DEK::NUP214",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "DEK",
+      "hgnc_id": "HGNC:2768",
+      "ncbi_gene_id": "7913"
+    },
+    {
+      "symbol": "NUP214",
+      "hgnc_id": "HGNC:8064",
+      "ncbi_gene_id": "8021"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML with DEK::NUP214"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "DEK",
+      "text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology.",
+      "source_ids": [
+        "ncbi-7913"
+      ],
+      "claim_sha256": "cc556b4ea8d7d10fb6ae088d1347078aa2cfdc949a75dfe8a862871d7f052543",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NUP214",
+      "text": "NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport.",
+      "source_ids": [
+        "ncbi-8021"
+      ],
+      "claim_sha256": "0b4c23f9c46379217039bc5f187f555d066c7a483f56cea6396daca6fad6ce2d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(6;9) fusion links DEK to the carboxy-terminal region of NUP214, producing an abnormal nuclear protein that alters transcriptional and proliferative programs. It defines a recurrent AML subtype and often co-occurs with FLT3-ITD.",
+      "source_ids": [
+        "icc-m",
+        "aml"
+      ],
+      "claim_sha256": "977e5c0ffc5637d362ad67022c7f29d95f143b4b2e0f112ed69430532206bc24",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "claim_sha256": "b319983f03b90543112364918582d41c3e6e404f8f291b3c998677871814fc02",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. The t(6;9) fusion links DEK to the carboxy-terminal region of NUP214, producing an abnormal nuclear protein that alters transcriptional and proliferative programs. It defines a recurrent AML subtype and often co-occurs with FLT3-ITD. DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+    "source_ids": [
+      "ncbi-7913",
+      "ncbi-8021",
+      "icc-m",
+      "aml",
+      "eln-aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "42c336865c73861599129f637ac793e76413456e7506975863422c7ee0a8d693"
+}

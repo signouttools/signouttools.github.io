@@ -1,0 +1,71 @@
+{
+  "id": "fusion-malat1-tfeb",
+  "label": "MALAT1::TFEB",
+  "event_class": "promoter_substitution",
+  "partners": [
+    {
+      "symbol": "MALAT1",
+      "hgnc_id": "HGNC:29665",
+      "ncbi_gene_id": "378938"
+    },
+    {
+      "symbol": "TFEB",
+      "hgnc_id": "HGNC:11753",
+      "ncbi_gene_id": "7942"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "TFEB-rearranged renal cell carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MALAT1",
+      "text": "MALAT1 produces a long noncoding RNA involved in nuclear RNA organization and gene regulation.",
+      "source_ids": [
+        "ncbi-378938"
+      ],
+      "claim_sha256": "f36c976350298bff713528798446a239492689246f6e94732f4ddfe775650d9f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TFEB",
+      "text": "TFEB encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy.",
+      "source_ids": [
+        "ncbi-7942"
+      ],
+      "claim_sha256": "76ec308c8480fc6a1bd6601f94333021d960bce9aa8431a04dc6b6f425cc1df9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement places TFEB under MALAT1 promoter control, increasing TFEB expression and lysosomal/metabolic transcription. The MALAT1 partner is noncoding; the defining mechanism is promoter substitution, not a new MALAT1-derived kinase or peptide domain.",
+      "source_ids": [
+        "renal"
+      ],
+      "claim_sha256": "305007da6301eeae27924c36471a72a6c311bbc493715010391aaef8edb50ab6",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MALAT1 produces a long noncoding RNA involved in nuclear RNA organization and gene regulation. TFEB encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy. The rearrangement places TFEB under MALAT1 promoter control, increasing TFEB expression and lysosomal/metabolic transcription. The MALAT1 partner is noncoding; the defining mechanism is promoter substitution, not a new MALAT1-derived kinase or peptide domain.",
+    "source_ids": [
+      "ncbi-378938",
+      "ncbi-7942",
+      "renal"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "3905f1835d8ac84424de05c6afd5ec0941cf93162376de0742ac1ac2a37c422e"
+}

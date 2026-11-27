@@ -1,0 +1,75 @@
+{
+  "id": "fusion-p2ry8-crlf2",
+  "label": "P2RY8::CRLF2",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "P2RY8",
+      "hgnc_id": "HGNC:15524",
+      "ncbi_gene_id": "286530"
+    },
+    {
+      "symbol": "CRLF2",
+      "hgnc_id": "HGNC:14281",
+      "ncbi_gene_id": "64109"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia, including Down-syndrome-associated ALL"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "P2RY8",
+      "text": "P2RY8 encodes a G-protein-coupled receptor involved in lymphocyte localization.",
+      "source_ids": [
+        "ncbi-286530"
+      ],
+      "claim_sha256": "e7ddc0e1ec285c30ab87a00932bbc0e6bd87c401cefe4dcaefed4aaf354ab8b1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CRLF2",
+      "text": "CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling.",
+      "source_ids": [
+        "ncbi-64109"
+      ],
+      "claim_sha256": "6cc8d7783cce36a9bce03852997338973f9a3a0858ce15ea276f46a7c22a4913",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "A pseudoautosomal-region deletion joins the P2RY8 promoter to CRLF2 coding sequences, increasing CRLF2 expression. It is a promoter-substitution event that can cooperate with JAK-pathway alterations in B-ALL.",
+      "source_ids": [
+        "crlf2",
+        "all"
+      ],
+      "claim_sha256": "f2ca6660e6f11fccc51c0d237414299ca9def68c34f2c0c5734c16437a9d6f76",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "P2RY8 encodes a G-protein-coupled receptor involved in lymphocyte localization. CRLF2 encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling. A pseudoautosomal-region deletion joins the P2RY8 promoter to CRLF2 coding sequences, increasing CRLF2 expression. It is a promoter-substitution event that can cooperate with JAK-pathway alterations in B-ALL.",
+    "source_ids": [
+      "ncbi-286530",
+      "ncbi-64109",
+      "crlf2",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "5f9ec94a1295ea88e97d0d1c9ef523a6e482dba3edb0f811d947c5a54da9cfb2"
+}

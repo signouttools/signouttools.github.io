@@ -1,0 +1,83 @@
+{
+  "id": "fusion-kif5b-ret",
+  "label": "KIF5B::RET",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "KIF5B",
+      "hgnc_id": "HGNC:6324",
+      "ncbi_gene_id": "3799"
+    },
+    {
+      "symbol": "RET",
+      "hgnc_id": "HGNC:9967",
+      "ncbi_gene_id": "5979"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KIF5B",
+      "text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules.",
+      "source_ids": [
+        "ncbi-3799"
+      ],
+      "claim_sha256": "b6ca88efd425c2d24ccf600ad278a1d7f6a694ae2c394ce4acbfbf0fc4ed29b7",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RET",
+      "text": "RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors.",
+      "source_ids": [
+        "ncbi-5979"
+      ],
+      "claim_sha256": "bff0a244e3a9197f328d10b7c579776e547a11b6ffc49e5b9b553fee8aa3397f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. KIF5B::RET is a recurrent lung adenocarcinoma driver.",
+      "source_ids": [
+        "ret-discovery"
+      ],
+      "claim_sha256": "ce1821d6d9254d05d1bb2584ffcf086696acf2693cdb82866147d58a542edbda",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+      "source_ids": [
+        "fda-ret"
+      ],
+      "claim_sha256": "136441b923585d82f2dae60e4baf9681ee8c03b190a864286611ef2c09f843cc",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "KIF5B encodes a kinesin motor protein that transports cargo along microtubules. RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. KIF5B::RET is a recurrent lung adenocarcinoma driver. Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+    "source_ids": [
+      "ncbi-3799",
+      "ncbi-5979",
+      "ret-discovery",
+      "fda-ret"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "RET label evidence is biomarker-class evidence; full-text pair-specific audit remains pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "84b177924c5ee98465c8a5156539d5676a04e97d6df256b85be90d6cc9c0bd97"
+}

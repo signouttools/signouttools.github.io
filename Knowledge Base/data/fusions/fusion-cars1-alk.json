@@ -1,0 +1,83 @@
+{
+  "id": "fusion-cars1-alk",
+  "label": "CARS1::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CARS1",
+      "hgnc_id": "HGNC:1493",
+      "ncbi_gene_id": "833"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [
+    "CARS::ALK"
+  ],
+  "tumor_contexts": [
+    "Inflammatory myofibroblastic tumor"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CARS1",
+      "text": "CARS1 encodes the cytoplasmic enzyme that attaches cysteine to its transfer RNA.",
+      "source_ids": [
+        "ncbi-833"
+      ],
+      "claim_sha256": "04183b742f77da3a1d8867c0f7228a192ba200208859f78c8f5a6aa8c2288672",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CARS1::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+      "source_ids": [
+        "cars-alk"
+      ],
+      "claim_sha256": "89a9eee23cccda7a8bffd063dd5010f7296d15f22e29d74057f06ae794b58787",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-criz"
+      ],
+      "claim_sha256": "36cd9dc91534b03cac1393ef8c25971d8f013ce6c1ca51b0d9229126da8b8c22",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CARS1 encodes the cytoplasmic enzyme that attaches cysteine to its transfer RNA. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CARS1::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+    "source_ids": [
+      "ncbi-833",
+      "ncbi-238",
+      "cars-alk",
+      "fda-criz"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "439c1ca9b7c3c8abf74ce932aa0edb1a8dc935f2874f171a0f7c830340dab974"
+}

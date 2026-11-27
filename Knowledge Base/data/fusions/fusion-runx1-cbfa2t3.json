@@ -1,0 +1,80 @@
+{
+  "id": "fusion-runx1-cbfa2t3",
+  "label": "RUNX1::CBFA2T3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "RUNX1",
+      "hgnc_id": "HGNC:10471",
+      "ncbi_gene_id": "861"
+    },
+    {
+      "symbol": "CBFA2T3",
+      "hgnc_id": "HGNC:1537",
+      "ncbi_gene_id": "863"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RUNX1",
+      "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+      "source_ids": [
+        "ncbi-861"
+      ],
+      "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CBFA2T3",
+      "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation.",
+      "source_ids": [
+        "ncbi-863"
+      ],
+      "claim_sha256": "313d32ab607d5d39167551e93e53c8b89eacf5e4cdb2819c00f4088f5919422b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(16;21)(q24;q22) fusion combines RUNX1 DNA binding with a CBFA2T3 corepressor region, altering myeloid transcription. Its expression profile resembles RUNX1::RUNX1T1 AML.",
+      "source_ids": [
+        "t16"
+      ],
+      "claim_sha256": "94724c3fc0cfb89e71d212ba755a7d7900279e97377f65ac15f1e1d5775123b5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "In the pediatric I-BFM cohort, outcomes resembled other core-binding factor leukemias and were substantially better than those of FUS::ERG AML.",
+      "source_ids": [
+        "t16"
+      ],
+      "claim_sha256": "e4180100eb994cad668e61c872aaa41dbde369328d79070f31cb101e4269477f",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. The t(16;21)(q24;q22) fusion combines RUNX1 DNA binding with a CBFA2T3 corepressor region, altering myeloid transcription. Its expression profile resembles RUNX1::RUNX1T1 AML. In the pediatric I-BFM cohort, outcomes resembled other core-binding factor leukemias and were substantially better than those of FUS::ERG AML.",
+    "source_ids": [
+      "ncbi-861",
+      "ncbi-863",
+      "t16"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "4584c7be9fdf247c4102b3d902b9bed6138846fb13f934360b5763dd5ffb365c"
+}

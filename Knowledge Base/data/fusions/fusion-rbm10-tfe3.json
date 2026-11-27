@@ -1,0 +1,74 @@
+{
+  "id": "fusion-rbm10-tfe3",
+  "label": "RBM10::TFE3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "RBM10",
+      "hgnc_id": "HGNC:9896",
+      "ncbi_gene_id": "8241"
+    },
+    {
+      "symbol": "TFE3",
+      "hgnc_id": "HGNC:11752",
+      "ncbi_gene_id": "7030"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "TFE3-rearranged renal cell carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RBM10",
+      "text": "RBM10 encodes an RNA-binding regulator of alternative splicing.",
+      "source_ids": [
+        "ncbi-8241"
+      ],
+      "claim_sha256": "9227a69460d92cc8b1b499826931099c47af6720c3052735eba4c333a9079f85",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TFE3",
+      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "source_ids": [
+        "ncbi-7030"
+      ],
+      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. RBM10::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+      "source_ids": [
+        "renal"
+      ],
+      "claim_sha256": "6f24cd5e363261e3d4b92d6dc603650c84c3ba7a21c17ade62308cbb79f80358",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "RBM10 encodes an RNA-binding regulator of alternative splicing. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. RBM10::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+    "source_ids": [
+      "ncbi-8241",
+      "ncbi-7030",
+      "renal"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No prognosis or treatment response assigned solely from the partner.",
+    "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "e217137b314bbcb4571f13b8a848bd5616e7816b05f8d3859741af3b0a21140d"
+}

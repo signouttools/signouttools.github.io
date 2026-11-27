@@ -1,0 +1,72 @@
+{
+  "id": "fusion-tcr-loci-tal1",
+  "label": "TCR loci / TAL1",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "TCR loci",
+      "hgnc_id": null,
+      "ncbi_gene_id": null
+    },
+    {
+      "symbol": "TAL1",
+      "hgnc_id": "HGNC:11556",
+      "ncbi_gene_id": "6886"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "T-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TCR loci",
+      "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "b68a3e913c425381f2423aeedf2d2d1e656f0375a8e3468ff1441ffd28613cff",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TAL1",
+      "text": "TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development.",
+      "source_ids": [
+        "ncbi-6886"
+      ],
+      "claim_sha256": "dee51cc7a8ffeb0e76e045bc0a0812c95c385955eb2bb432c07ed6f7e62ac8c6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "T-cell-receptor regulatory rearrangements can activate TAL1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "7115bc703a69a44c0b77c686d232bca13ed0f49825abff0860082bec564cc532",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements. TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development. T-cell-receptor regulatory rearrangements can activate TAL1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+    "source_ids": [
+      "all",
+      "ncbi-6886"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "7712442f76b5fd69b0d126fadf0c0bc836a4c1de5f3d9e1f8c024346e7be31ed"
+}

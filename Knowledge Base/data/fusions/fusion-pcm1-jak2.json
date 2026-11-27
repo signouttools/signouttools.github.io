@@ -1,0 +1,81 @@
+{
+  "id": "fusion-pcm1-jak2",
+  "label": "PCM1::JAK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PCM1",
+      "hgnc_id": "HGNC:8727",
+      "ncbi_gene_id": "5108"
+    },
+    {
+      "symbol": "JAK2",
+      "hgnc_id": "HGNC:6192",
+      "ncbi_gene_id": "3717"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Myeloid/lymphoid neoplasm with JAK2 rearrangement"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PCM1",
+      "text": "PCM1 encodes a centrosomal-satellite scaffold protein.",
+      "source_ids": [
+        "ncbi-5108"
+      ],
+      "claim_sha256": "957e20eebf189997573482903ae5f7c69c8f07dc94757a8993af7b286bd93064",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "JAK2",
+      "text": "JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals.",
+      "source_ids": [
+        "ncbi-3717"
+      ],
+      "claim_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PCM1::JAK2 is associated with myeloid/lymphoid neoplasia.",
+      "source_ids": [
+        "icc-m"
+      ],
+      "claim_sha256": "911aa44c8eb463bc143463a16d986f6dc3798a28966b20831f45cb3af1ef5b42",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+      "source_ids": [
+        "jak2"
+      ],
+      "claim_sha256": "3684b554300de06309af6a0b18b4ab38208848dbbd25e2f6cc4c351213f84cae",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PCM1 encodes a centrosomal-satellite scaffold protein. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PCM1::JAK2 is associated with myeloid/lymphoid neoplasia. Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+    "source_ids": [
+      "ncbi-5108",
+      "ncbi-3717",
+      "icc-m",
+      "jak2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "4610abf4f3ec9e11faa88c61b7b415ecd4a0c0b34f74198c4b935f5b258be1fa"
+}

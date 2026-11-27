@@ -1,0 +1,75 @@
+{
+  "id": "fusion-slc44a1-prkca",
+  "label": "SLC44A1::PRKCA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "SLC44A1",
+      "hgnc_id": "HGNC:18798",
+      "ncbi_gene_id": "23446"
+    },
+    {
+      "symbol": "PRKCA",
+      "hgnc_id": "HGNC:9393",
+      "ncbi_gene_id": "5578"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Papillary glioneuronal tumor"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "SLC44A1",
+      "text": "SLC44A1 encodes choline transporter-like protein 1.",
+      "source_ids": [
+        "ncbi-23446"
+      ],
+      "claim_sha256": "d5d2ccf86118e3cee65437e38d9ddebd6cf905902b7a3d68b1c63f09f9e1d657",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PRKCA",
+      "text": "PRKCA encodes protein kinase C alpha, a calcium- and diacylglycerol-regulated serine/threonine kinase.",
+      "source_ids": [
+        "ncbi-5578"
+      ],
+      "claim_sha256": "8af645ad894fa2231ad6e2abb0f22075b0487b64a2f9147984b955de08c2c352",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins SLC44A1 to a retained PRKCA kinase region, altering normal PKC regulation. It is a recurrent defining molecular alteration of papillary glioneuronal tumor.",
+      "source_ids": [
+        "prkca",
+        "cns"
+      ],
+      "claim_sha256": "13a0a19876fc7475f010b8309cc666f7dc0342a7324b60770d9e4c3e58fbfd22",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "SLC44A1 encodes choline transporter-like protein 1. PRKCA encodes protein kinase C alpha, a calcium- and diacylglycerol-regulated serine/threonine kinase. The fusion joins SLC44A1 to a retained PRKCA kinase region, altering normal PKC regulation. It is a recurrent defining molecular alteration of papillary glioneuronal tumor.",
+    "source_ids": [
+      "ncbi-23446",
+      "ncbi-5578",
+      "prkca",
+      "cns"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "The initial discovery establishes the recurrent product; direct inhibitor sensitivity and kinase activation require dedicated functional evidence."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "0e4d14401047a209cc90c20d249fad03e494630abab3d2ce2c74e46527844134"
+}

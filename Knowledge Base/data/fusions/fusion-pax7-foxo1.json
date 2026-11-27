@@ -1,0 +1,81 @@
+{
+  "id": "fusion-pax7-foxo1",
+  "label": "PAX7::FOXO1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PAX7",
+      "hgnc_id": "HGNC:8621",
+      "ncbi_gene_id": "5081"
+    },
+    {
+      "symbol": "FOXO1",
+      "hgnc_id": "HGNC:3819",
+      "ncbi_gene_id": "2308"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Fusion-positive alveolar rhabdomyosarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX7",
+      "text": "PAX7 encodes a paired-box transcription factor involved in skeletal-muscle progenitor development.",
+      "source_ids": [
+        "ncbi-5081"
+      ],
+      "claim_sha256": "443f8878938e97e0385a5e1a6625486c9140ccfdb88c1ba467441c618d83bd3b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FOXO1",
+      "text": "FOXO1 encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival.",
+      "source_ids": [
+        "ncbi-2308"
+      ],
+      "claim_sha256": "627137f9c8acd00de043978e8a4f9ca4b1e731f963fdd70398b9ec8683f88f29",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma.",
+      "source_ids": [
+        "sarcoma"
+      ],
+      "claim_sha256": "c484a734ed8b37a85f33af45049f357fa26dd2a0c1387848582dc3eb7f5ed93f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "PAX7::FOXO1-positive disease has shown better outcomes than PAX3::FOXO1-positive disease in some cohorts; the adverse associations of the two partners are not identical.",
+      "source_ids": [
+        "rms-prognosis"
+      ],
+      "claim_sha256": "8b63db364c1f1cfa1b552719c357bd5a853607dd06080df2fcd1f41ac475cdbc",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PAX7 encodes a paired-box transcription factor involved in skeletal-muscle progenitor development. FOXO1 encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival. The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma. PAX7::FOXO1-positive disease has shown better outcomes than PAX3::FOXO1-positive disease in some cohorts; the adverse associations of the two partners are not identical.",
+    "source_ids": [
+      "ncbi-5081",
+      "ncbi-2308",
+      "sarcoma",
+      "rms-prognosis"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "495161d6fa39380980255111ed0c93533fb73b891f06c8ce03f8897c370433c7"
+}

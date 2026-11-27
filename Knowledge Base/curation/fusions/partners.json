@@ -1,0 +1,2102 @@
+{
+  "EML4": {
+    "symbol": "EML4",
+    "hgnc_id": "HGNC:1316",
+    "ncbi_gene_id": "27436",
+    "description": "encodes a microtubule-associated protein with an amino-terminal oligomerization domain.",
+    "source_ids": [
+      "ncbi-27436"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ALK": {
+    "symbol": "ALK",
+    "hgnc_id": "HGNC:427",
+    "ncbi_gene_id": "238",
+    "description": "encodes a receptor tyrosine kinase involved in neural development.",
+    "source_ids": [
+      "ncbi-238"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "KIF5B": {
+    "symbol": "KIF5B",
+    "hgnc_id": "HGNC:6324",
+    "ncbi_gene_id": "3799",
+    "description": "encodes a kinesin motor protein that transports cargo along microtubules.",
+    "source_ids": [
+      "ncbi-3799"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "STRN": {
+    "symbol": "STRN",
+    "hgnc_id": "HGNC:11424",
+    "ncbi_gene_id": "6801",
+    "description": "encodes striatin, a scaffold in signaling complexes including STRIPAK.",
+    "source_ids": [
+      "ncbi-6801"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RET": {
+    "symbol": "RET",
+    "hgnc_id": "HGNC:9967",
+    "ncbi_gene_id": "5979",
+    "description": "encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors.",
+    "source_ids": [
+      "ncbi-5979"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CCDC6": {
+    "symbol": "CCDC6",
+    "hgnc_id": "HGNC:18782",
+    "ncbi_gene_id": "8030",
+    "description": "encodes a coiled-coil protein involved in DNA-damage signaling.",
+    "source_ids": [
+      "ncbi-8030"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NCOA4": {
+    "symbol": "NCOA4",
+    "hgnc_id": "HGNC:7671",
+    "ncbi_gene_id": "8031",
+    "description": "encodes a ferritin cargo receptor in autophagy and a transcriptional coregulator.",
+    "source_ids": [
+      "ncbi-8031"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ETV6": {
+    "symbol": "ETV6",
+    "hgnc_id": "HGNC:3495",
+    "ncbi_gene_id": "2120",
+    "description": "encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+    "source_ids": [
+      "ncbi-2120"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CD74": {
+    "symbol": "CD74",
+    "hgnc_id": "HGNC:1697",
+    "ncbi_gene_id": "972",
+    "description": "encodes the invariant chain required for major histocompatibility complex class II processing.",
+    "source_ids": [
+      "ncbi-972"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ROS1": {
+    "symbol": "ROS1",
+    "hgnc_id": "HGNC:10261",
+    "ncbi_gene_id": "6098",
+    "description": "encodes a receptor tyrosine kinase involved in growth and survival signaling.",
+    "source_ids": [
+      "ncbi-6098"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SLC34A2": {
+    "symbol": "SLC34A2",
+    "hgnc_id": "HGNC:11020",
+    "ncbi_gene_id": "10568",
+    "description": "encodes a sodium-dependent phosphate transporter.",
+    "source_ids": [
+      "ncbi-10568"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SDC4": {
+    "symbol": "SDC4",
+    "hgnc_id": "HGNC:10661",
+    "ncbi_gene_id": "6385",
+    "description": "encodes syndecan-4, a membrane heparan-sulfate proteoglycan involved in adhesion and signaling.",
+    "source_ids": [
+      "ncbi-6385"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "EZR": {
+    "symbol": "EZR",
+    "hgnc_id": "HGNC:12691",
+    "ncbi_gene_id": "7430",
+    "description": "encodes ezrin, a linker between the plasma membrane and actin cytoskeleton.",
+    "source_ids": [
+      "ncbi-7430"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TPM3": {
+    "symbol": "TPM3",
+    "hgnc_id": "HGNC:12012",
+    "ncbi_gene_id": "7170",
+    "description": "encodes a tropomyosin isoform that associates with actin filaments.",
+    "source_ids": [
+      "ncbi-7170"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "GOPC": {
+    "symbol": "GOPC",
+    "hgnc_id": "HGNC:17643",
+    "ncbi_gene_id": "57120",
+    "description": "encodes a Golgi-associated scaffold involved in protein trafficking.",
+    "source_ids": [
+      "ncbi-57120"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NTRK1": {
+    "symbol": "NTRK1",
+    "hgnc_id": "HGNC:8031",
+    "ncbi_gene_id": "4914",
+    "description": "encodes TRKA, the nerve-growth-factor receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-4914"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "LMNA": {
+    "symbol": "LMNA",
+    "hgnc_id": "HGNC:6636",
+    "ncbi_gene_id": "4000",
+    "description": "encodes nuclear lamins A and C, structural proteins of the nuclear envelope.",
+    "source_ids": [
+      "ncbi-4000"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TPR": {
+    "symbol": "TPR",
+    "hgnc_id": "HGNC:12017",
+    "ncbi_gene_id": "7175",
+    "description": "encodes a coiled-coil nuclear-pore-associated protein.",
+    "source_ids": [
+      "ncbi-7175"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SQSTM1": {
+    "symbol": "SQSTM1",
+    "hgnc_id": "HGNC:11280",
+    "ncbi_gene_id": "8878",
+    "description": "encodes p62, a signaling scaffold and selective-autophagy cargo receptor.",
+    "source_ids": [
+      "ncbi-8878"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NTRK3": {
+    "symbol": "NTRK3",
+    "hgnc_id": "HGNC:8033",
+    "ncbi_gene_id": "4916",
+    "description": "encodes TRKC, the neurotrophin-3 receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-4916"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NTRK2": {
+    "symbol": "NTRK2",
+    "hgnc_id": "HGNC:8032",
+    "ncbi_gene_id": "4915",
+    "description": "encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4.",
+    "source_ids": [
+      "ncbi-4915"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FGFR2": {
+    "symbol": "FGFR2",
+    "hgnc_id": "HGNC:3689",
+    "ncbi_gene_id": "2263",
+    "description": "encodes a fibroblast growth factor receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-2263"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BICC1": {
+    "symbol": "BICC1",
+    "hgnc_id": "HGNC:19351",
+    "ncbi_gene_id": "80114",
+    "description": "encodes an RNA-binding protein that regulates messenger RNA translation and stability.",
+    "source_ids": [
+      "ncbi-80114"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "AHCYL1": {
+    "symbol": "AHCYL1",
+    "hgnc_id": "HGNC:344",
+    "ncbi_gene_id": "10768",
+    "description": "encodes IRBIT, a regulator of inositol-trisphosphate receptor signaling and membrane transport.",
+    "source_ids": [
+      "ncbi-10768"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "INA": {
+    "symbol": "INA",
+    "hgnc_id": "HGNC:6057",
+    "ncbi_gene_id": "9118",
+    "description": "encodes alpha-internexin, a neuronal intermediate filament protein.",
+    "source_ids": [
+      "ncbi-9118"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FGFR3": {
+    "symbol": "FGFR3",
+    "hgnc_id": "HGNC:3690",
+    "ncbi_gene_id": "2261",
+    "description": "encodes a fibroblast growth factor receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-2261"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TACC3": {
+    "symbol": "TACC3",
+    "hgnc_id": "HGNC:11524",
+    "ncbi_gene_id": "10460",
+    "description": "encodes a coiled-coil protein involved in mitotic-spindle organization.",
+    "source_ids": [
+      "ncbi-10460"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FGFR1": {
+    "symbol": "FGFR1",
+    "hgnc_id": "HGNC:3688",
+    "ncbi_gene_id": "2260",
+    "description": "encodes a fibroblast growth factor receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-2260"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TACC1": {
+    "symbol": "TACC1",
+    "hgnc_id": "HGNC:11522",
+    "ncbi_gene_id": "6867",
+    "description": "encodes a coiled-coil protein associated with microtubule and centrosome functions.",
+    "source_ids": [
+      "ncbi-6867"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NRG1": {
+    "symbol": "NRG1",
+    "hgnc_id": "HGNC:7997",
+    "ncbi_gene_id": "3084",
+    "description": "encodes neuregulin 1, a ligand for ERBB3/ERBB4 receptor signaling.",
+    "source_ids": [
+      "ncbi-3084"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SLC3A2": {
+    "symbol": "SLC3A2",
+    "hgnc_id": "HGNC:11026",
+    "ncbi_gene_id": "6520",
+    "description": "encodes CD98 heavy chain, a membrane component of amino-acid transport complexes.",
+    "source_ids": [
+      "ncbi-6520"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ATP1B1": {
+    "symbol": "ATP1B1",
+    "hgnc_id": "HGNC:804",
+    "ncbi_gene_id": "481",
+    "description": "encodes the beta-1 subunit of the sodium/potassium ATPase.",
+    "source_ids": [
+      "ncbi-481"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TPM4": {
+    "symbol": "TPM4",
+    "hgnc_id": "HGNC:12013",
+    "ncbi_gene_id": "7171",
+    "description": "encodes a tropomyosin isoform that associates with actin filaments.",
+    "source_ids": [
+      "ncbi-7171"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CLTC": {
+    "symbol": "CLTC",
+    "hgnc_id": "HGNC:2092",
+    "ncbi_gene_id": "1213",
+    "description": "encodes clathrin heavy chain, which forms coated vesicles for intracellular transport.",
+    "source_ids": [
+      "ncbi-1213"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RANBP2": {
+    "symbol": "RANBP2",
+    "hgnc_id": "HGNC:9848",
+    "ncbi_gene_id": "5903",
+    "description": "encodes a nuclear-pore-associated protein with transport and SUMO-ligase functions.",
+    "source_ids": [
+      "ncbi-5903"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CARS1": {
+    "symbol": "CARS1",
+    "hgnc_id": "HGNC:1493",
+    "ncbi_gene_id": "833",
+    "description": "encodes the cytoplasmic enzyme that attaches cysteine to its transfer RNA.",
+    "source_ids": [
+      "ncbi-833"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NPM1": {
+    "symbol": "NPM1",
+    "hgnc_id": "HGNC:7910",
+    "ncbi_gene_id": "4869",
+    "description": "encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking.",
+    "source_ids": [
+      "ncbi-4869"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BCR": {
+    "symbol": "BCR",
+    "hgnc_id": "HGNC:1014",
+    "ncbi_gene_id": "613",
+    "description": "encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+    "source_ids": [
+      "ncbi-613"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ABL1": {
+    "symbol": "ABL1",
+    "hgnc_id": "HGNC:76",
+    "ncbi_gene_id": "25",
+    "description": "encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses.",
+    "source_ids": [
+      "ncbi-25"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PML": {
+    "symbol": "PML",
+    "hgnc_id": "HGNC:9113",
+    "ncbi_gene_id": "5371",
+    "description": "encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways.",
+    "source_ids": [
+      "ncbi-5371"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RARA": {
+    "symbol": "RARA",
+    "hgnc_id": "HGNC:9864",
+    "ncbi_gene_id": "5914",
+    "description": "encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor.",
+    "source_ids": [
+      "ncbi-5914"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RUNX1": {
+    "symbol": "RUNX1",
+    "hgnc_id": "HGNC:10471",
+    "ncbi_gene_id": "861",
+    "description": "encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+    "source_ids": [
+      "ncbi-861"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RUNX1T1": {
+    "symbol": "RUNX1T1",
+    "hgnc_id": "HGNC:1535",
+    "ncbi_gene_id": "862",
+    "description": "encodes ETO, a transcriptional corepressor.",
+    "source_ids": [
+      "ncbi-862"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CBFB": {
+    "symbol": "CBFB",
+    "hgnc_id": "HGNC:1539",
+    "ncbi_gene_id": "865",
+    "description": "encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex.",
+    "source_ids": [
+      "ncbi-865"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MYH11": {
+    "symbol": "MYH11",
+    "hgnc_id": "HGNC:7569",
+    "ncbi_gene_id": "4629",
+    "description": "encodes smooth-muscle myosin heavy chain, a contractile motor protein.",
+    "source_ids": [
+      "ncbi-4629"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "DEK": {
+    "symbol": "DEK",
+    "hgnc_id": "HGNC:2768",
+    "ncbi_gene_id": "7913",
+    "description": "encodes a chromatin-associated regulator of transcription and DNA topology.",
+    "source_ids": [
+      "ncbi-7913"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NUP214": {
+    "symbol": "NUP214",
+    "hgnc_id": "HGNC:8064",
+    "ncbi_gene_id": "8021",
+    "description": "encodes a nuclear pore component involved in nucleocytoplasmic transport.",
+    "source_ids": [
+      "ncbi-8021"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RBM15": {
+    "symbol": "RBM15",
+    "hgnc_id": "HGNC:14959",
+    "ncbi_gene_id": "64783",
+    "description": "encodes an RNA-binding protein that recruits RNA-modification machinery.",
+    "source_ids": [
+      "ncbi-64783"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MRTFA": {
+    "symbol": "MRTFA",
+    "hgnc_id": "HGNC:14334",
+    "ncbi_gene_id": "57591",
+    "description": "encodes a transcriptional coactivator of serum-response factor linked to actin dynamics.",
+    "source_ids": [
+      "ncbi-57591"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "KMT2A": {
+    "symbol": "KMT2A",
+    "hgnc_id": "HGNC:7132",
+    "ncbi_gene_id": "4297",
+    "description": "encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes.",
+    "source_ids": [
+      "ncbi-4297"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MLLT3": {
+    "symbol": "MLLT3",
+    "hgnc_id": "HGNC:7136",
+    "ncbi_gene_id": "4300",
+    "description": "encodes AF9, a chromatin reader and transcriptional elongation regulator.",
+    "source_ids": [
+      "ncbi-4300"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "AFF1": {
+    "symbol": "AFF1",
+    "hgnc_id": "HGNC:7135",
+    "ncbi_gene_id": "4299",
+    "description": "encodes a transcriptional elongation regulator in the super elongation complex.",
+    "source_ids": [
+      "ncbi-4299"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MLLT10": {
+    "symbol": "MLLT10",
+    "hgnc_id": "HGNC:16063",
+    "ncbi_gene_id": "8028",
+    "description": "encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L.",
+    "source_ids": [
+      "ncbi-8028"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ELL": {
+    "symbol": "ELL",
+    "hgnc_id": "HGNC:23114",
+    "ncbi_gene_id": "8178",
+    "description": "encodes an RNA polymerase II transcription elongation factor.",
+    "source_ids": [
+      "ncbi-8178"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "AFDN": {
+    "symbol": "AFDN",
+    "hgnc_id": "HGNC:7137",
+    "ncbi_gene_id": "4301",
+    "description": "encodes afadin, an actin-binding scaffold at cell-cell junctions.",
+    "source_ids": [
+      "ncbi-4301"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MLLT1": {
+    "symbol": "MLLT1",
+    "hgnc_id": "HGNC:7134",
+    "ncbi_gene_id": "4298",
+    "description": "encodes ENL, a chromatin reader and transcriptional elongation regulator.",
+    "source_ids": [
+      "ncbi-4298"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MLLT6": {
+    "symbol": "MLLT6",
+    "hgnc_id": "HGNC:7138",
+    "ncbi_gene_id": "4302",
+    "description": "encodes AF17, a PHD-finger chromatin-associated protein.",
+    "source_ids": [
+      "ncbi-4302"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NUP98": {
+    "symbol": "NUP98",
+    "hgnc_id": "HGNC:8068",
+    "ncbi_gene_id": "4928",
+    "description": "encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation.",
+    "source_ids": [
+      "ncbi-4928"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NSD1": {
+    "symbol": "NSD1",
+    "hgnc_id": "HGNC:14234",
+    "ncbi_gene_id": "64324",
+    "description": "encodes a histone H3 lysine-36 methyltransferase.",
+    "source_ids": [
+      "ncbi-64324"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "KDM5A": {
+    "symbol": "KDM5A",
+    "hgnc_id": "HGNC:9886",
+    "ncbi_gene_id": "5927",
+    "description": "encodes a histone H3 lysine-4 demethylase and chromatin reader.",
+    "source_ids": [
+      "ncbi-5927"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "HOXA9": {
+    "symbol": "HOXA9",
+    "hgnc_id": "HGNC:5109",
+    "ncbi_gene_id": "3205",
+    "description": "encodes a homeobox transcription factor involved in hematopoietic progenitor programs.",
+    "source_ids": [
+      "ncbi-3205"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "HOXD13": {
+    "symbol": "HOXD13",
+    "hgnc_id": "HGNC:5136",
+    "ncbi_gene_id": "3239",
+    "description": "encodes a homeobox transcription factor involved in limb patterning.",
+    "source_ids": [
+      "ncbi-3239"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "DDX10": {
+    "symbol": "DDX10",
+    "hgnc_id": "HGNC:2735",
+    "ncbi_gene_id": "1662",
+    "description": "encodes a DEAD-box RNA helicase implicated in ribosome biogenesis.",
+    "source_ids": [
+      "ncbi-1662"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TOP1": {
+    "symbol": "TOP1",
+    "hgnc_id": "HGNC:11986",
+    "ncbi_gene_id": "7150",
+    "description": "encodes DNA topoisomerase I, which relieves DNA torsional stress.",
+    "source_ids": [
+      "ncbi-7150"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CBFA2T3": {
+    "symbol": "CBFA2T3",
+    "hgnc_id": "HGNC:1537",
+    "ncbi_gene_id": "863",
+    "description": "encodes a transcriptional corepressor involved in hematopoietic differentiation.",
+    "source_ids": [
+      "ncbi-863"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "GLIS2": {
+    "symbol": "GLIS2",
+    "hgnc_id": "HGNC:29450",
+    "ncbi_gene_id": "84662",
+    "description": "encodes a zinc-finger transcriptional regulator.",
+    "source_ids": [
+      "ncbi-84662"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FUS": {
+    "symbol": "FUS",
+    "hgnc_id": "HGNC:4010",
+    "ncbi_gene_id": "2521",
+    "description": "encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+    "source_ids": [
+      "ncbi-2521"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ERG": {
+    "symbol": "ERG",
+    "hgnc_id": "HGNC:3446",
+    "ncbi_gene_id": "2078",
+    "description": "encodes an ETS-family transcription factor involved in vascular and hematopoietic development.",
+    "source_ids": [
+      "ncbi-2078"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PICALM": {
+    "symbol": "PICALM",
+    "hgnc_id": "HGNC:15514",
+    "ncbi_gene_id": "8301",
+    "description": "encodes a clathrin-associated adaptor involved in endocytosis.",
+    "source_ids": [
+      "ncbi-8301"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SET": {
+    "symbol": "SET",
+    "hgnc_id": "HGNC:10760",
+    "ncbi_gene_id": "6418",
+    "description": "encodes a chromatin-associated protein and inhibitor of protein phosphatase 2A.",
+    "source_ids": [
+      "ncbi-6418"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "KAT6A": {
+    "symbol": "KAT6A",
+    "hgnc_id": "HGNC:13013",
+    "ncbi_gene_id": "7994",
+    "description": "encodes a histone acetyltransferase involved in hematopoietic stem-cell maintenance.",
+    "source_ids": [
+      "ncbi-7994"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CREBBP": {
+    "symbol": "CREBBP",
+    "hgnc_id": "HGNC:2348",
+    "ncbi_gene_id": "1387",
+    "description": "encodes CBP, a transcriptional coactivator and histone acetyltransferase.",
+    "source_ids": [
+      "ncbi-1387"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "EP300": {
+    "symbol": "EP300",
+    "hgnc_id": "HGNC:3373",
+    "ncbi_gene_id": "2033",
+    "description": "encodes p300, a transcriptional coactivator and histone acetyltransferase.",
+    "source_ids": [
+      "ncbi-2033"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ZBTB16": {
+    "symbol": "ZBTB16",
+    "hgnc_id": "HGNC:12930",
+    "ncbi_gene_id": "7704",
+    "description": "encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation.",
+    "source_ids": [
+      "ncbi-7704"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "STAT5B": {
+    "symbol": "STAT5B",
+    "hgnc_id": "HGNC:11367",
+    "ncbi_gene_id": "6777",
+    "description": "encodes a cytokine-responsive JAK-STAT transcription factor.",
+    "source_ids": [
+      "ncbi-6777"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FIP1L1": {
+    "symbol": "FIP1L1",
+    "hgnc_id": "HGNC:19124",
+    "ncbi_gene_id": "81608",
+    "description": "encodes a component of the messenger RNA cleavage and polyadenylation machinery.",
+    "source_ids": [
+      "ncbi-81608"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PDGFRA": {
+    "symbol": "PDGFRA",
+    "hgnc_id": "HGNC:8803",
+    "ncbi_gene_id": "5156",
+    "description": "encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-5156"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PDGFRB": {
+    "symbol": "PDGFRB",
+    "hgnc_id": "HGNC:8804",
+    "ncbi_gene_id": "5159",
+    "description": "encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-5159"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ZMYM2": {
+    "symbol": "ZMYM2",
+    "hgnc_id": "HGNC:12989",
+    "ncbi_gene_id": "7750",
+    "description": "encodes a zinc-finger transcriptional coregulator.",
+    "source_ids": [
+      "ncbi-7750"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PCM1": {
+    "symbol": "PCM1",
+    "hgnc_id": "HGNC:8727",
+    "ncbi_gene_id": "5108",
+    "description": "encodes a centrosomal-satellite scaffold protein.",
+    "source_ids": [
+      "ncbi-5108"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "JAK2": {
+    "symbol": "JAK2",
+    "hgnc_id": "HGNC:6192",
+    "ncbi_gene_id": "3717",
+    "description": "encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals.",
+    "source_ids": [
+      "ncbi-3717"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PAX5": {
+    "symbol": "PAX5",
+    "hgnc_id": "HGNC:8619",
+    "ncbi_gene_id": "5079",
+    "description": "encodes a paired-box transcription factor required for B-cell identity.",
+    "source_ids": [
+      "ncbi-5079"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FLT3": {
+    "symbol": "FLT3",
+    "hgnc_id": "HGNC:3765",
+    "ncbi_gene_id": "2322",
+    "description": "encodes a receptor tyrosine kinase expressed in hematopoietic progenitors.",
+    "source_ids": [
+      "ncbi-2322"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RCSD1": {
+    "symbol": "RCSD1",
+    "hgnc_id": "HGNC:28310",
+    "ncbi_gene_id": "92241",
+    "description": "encodes CapZIP, a regulator of actin-capping protein interactions.",
+    "source_ids": [
+      "ncbi-92241"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "EBF1": {
+    "symbol": "EBF1",
+    "hgnc_id": "HGNC:3126",
+    "ncbi_gene_id": "1879",
+    "description": "encodes a transcription factor required for B-cell lineage specification.",
+    "source_ids": [
+      "ncbi-1879"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SSBP2": {
+    "symbol": "SSBP2",
+    "hgnc_id": "HGNC:15831",
+    "ncbi_gene_id": "23635",
+    "description": "encodes a protein that stabilizes transcriptional regulatory complexes in hematopoietic cells.",
+    "source_ids": [
+      "ncbi-23635"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CSF1R": {
+    "symbol": "CSF1R",
+    "hgnc_id": "HGNC:2433",
+    "ncbi_gene_id": "1436",
+    "description": "encodes the colony-stimulating factor 1 receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-1436"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TCF3": {
+    "symbol": "TCF3",
+    "hgnc_id": "HGNC:11633",
+    "ncbi_gene_id": "6929",
+    "description": "encodes E2A transcription factors required for lymphoid development.",
+    "source_ids": [
+      "ncbi-6929"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PBX1": {
+    "symbol": "PBX1",
+    "hgnc_id": "HGNC:8632",
+    "ncbi_gene_id": "5087",
+    "description": "encodes a homeobox transcription factor that cooperates with other developmental regulators.",
+    "source_ids": [
+      "ncbi-5087"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "HLF": {
+    "symbol": "HLF",
+    "hgnc_id": "HGNC:4977",
+    "ncbi_gene_id": "3131",
+    "description": "encodes a PAR-bZIP transcription factor involved in circadian and hematopoietic regulation.",
+    "source_ids": [
+      "ncbi-3131"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MEF2D": {
+    "symbol": "MEF2D",
+    "hgnc_id": "HGNC:6997",
+    "ncbi_gene_id": "4209",
+    "description": "encodes a MADS-box transcription factor involved in differentiation and cell survival.",
+    "source_ids": [
+      "ncbi-4209"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BCL9": {
+    "symbol": "BCL9",
+    "hgnc_id": "HGNC:1008",
+    "ncbi_gene_id": "607",
+    "description": "encodes a transcriptional cofactor for beta-catenin signaling.",
+    "source_ids": [
+      "ncbi-607"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "HNRNPUL1": {
+    "symbol": "HNRNPUL1",
+    "hgnc_id": "HGNC:17011",
+    "ncbi_gene_id": "11100",
+    "description": "encodes a nuclear RNA-binding protein involved in RNA processing and DNA-damage responses.",
+    "source_ids": [
+      "ncbi-11100"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ZNF384": {
+    "symbol": "ZNF384",
+    "hgnc_id": "HGNC:11955",
+    "ncbi_gene_id": "171017",
+    "description": "encodes a zinc-finger transcriptional regulator.",
+    "source_ids": [
+      "ncbi-171017"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TAF15": {
+    "symbol": "TAF15",
+    "hgnc_id": "HGNC:11547",
+    "ncbi_gene_id": "8148",
+    "description": "encodes an RNA-binding transcriptional regulator in the FET protein family.",
+    "source_ids": [
+      "ncbi-8148"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BIRC3": {
+    "symbol": "BIRC3",
+    "hgnc_id": "HGNC:591",
+    "ncbi_gene_id": "330",
+    "description": "encodes cIAP2, an E3 ubiquitin ligase that regulates cell-survival signaling.",
+    "source_ids": [
+      "ncbi-330"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MALT1": {
+    "symbol": "MALT1",
+    "hgnc_id": "HGNC:6819",
+    "ncbi_gene_id": "10892",
+    "description": "encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling.",
+    "source_ids": [
+      "ncbi-10892"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "EWSR1": {
+    "symbol": "EWSR1",
+    "hgnc_id": "HGNC:3508",
+    "ncbi_gene_id": "2130",
+    "description": "encodes an RNA-binding protein whose amino-terminal region can activate transcription.",
+    "source_ids": [
+      "ncbi-2130"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FLI1": {
+    "symbol": "FLI1",
+    "hgnc_id": "HGNC:3749",
+    "ncbi_gene_id": "2313",
+    "description": "encodes an ETS-family transcription factor involved in hematopoiesis and vascular development.",
+    "source_ids": [
+      "ncbi-2313"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ETV1": {
+    "symbol": "ETV1",
+    "hgnc_id": "HGNC:3490",
+    "ncbi_gene_id": "2115",
+    "description": "encodes an ETS-family transcription factor.",
+    "source_ids": [
+      "ncbi-2115"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ETV4": {
+    "symbol": "ETV4",
+    "hgnc_id": "HGNC:3493",
+    "ncbi_gene_id": "2118",
+    "description": "encodes an ETS-family transcription factor.",
+    "source_ids": [
+      "ncbi-2118"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FEV": {
+    "symbol": "FEV",
+    "hgnc_id": "HGNC:18562",
+    "ncbi_gene_id": "54738",
+    "description": "encodes an ETS-family transcription factor involved in serotonergic neuron differentiation.",
+    "source_ids": [
+      "ncbi-54738"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SS18": {
+    "symbol": "SS18",
+    "hgnc_id": "HGNC:11340",
+    "ncbi_gene_id": "6760",
+    "description": "encodes a component of the BAF chromatin-remodeling complex.",
+    "source_ids": [
+      "ncbi-6760"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SSX1": {
+    "symbol": "SSX1",
+    "hgnc_id": "HGNC:11335",
+    "ncbi_gene_id": "6756",
+    "description": "encodes a cancer-testis antigen with transcriptional regulatory activity.",
+    "source_ids": [
+      "ncbi-6756"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SSX2": {
+    "symbol": "SSX2",
+    "hgnc_id": "HGNC:11336",
+    "ncbi_gene_id": "6757",
+    "description": "encodes a cancer-testis antigen with transcriptional regulatory activity.",
+    "source_ids": [
+      "ncbi-6757"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SSX4": {
+    "symbol": "SSX4",
+    "hgnc_id": "HGNC:11338",
+    "ncbi_gene_id": "6759",
+    "description": "encodes a cancer-testis antigen with transcriptional regulatory activity.",
+    "source_ids": [
+      "ncbi-6759"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PAX3": {
+    "symbol": "PAX3",
+    "hgnc_id": "HGNC:8617",
+    "ncbi_gene_id": "5077",
+    "description": "encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development.",
+    "source_ids": [
+      "ncbi-5077"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FOXO1": {
+    "symbol": "FOXO1",
+    "hgnc_id": "HGNC:3819",
+    "ncbi_gene_id": "2308",
+    "description": "encodes a forkhead transcription factor involved in metabolism, differentiation and cell survival.",
+    "source_ids": [
+      "ncbi-2308"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PAX7": {
+    "symbol": "PAX7",
+    "hgnc_id": "HGNC:8621",
+    "ncbi_gene_id": "5081",
+    "description": "encodes a paired-box transcription factor involved in skeletal-muscle progenitor development.",
+    "source_ids": [
+      "ncbi-5081"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "WT1": {
+    "symbol": "WT1",
+    "hgnc_id": "HGNC:12796",
+    "ncbi_gene_id": "7490",
+    "description": "encodes a zinc-finger transcriptional regulator involved in kidney and gonadal development.",
+    "source_ids": [
+      "ncbi-7490"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "DDIT3": {
+    "symbol": "DDIT3",
+    "hgnc_id": "HGNC:2726",
+    "ncbi_gene_id": "1649",
+    "description": "encodes CHOP, a stress-responsive bZIP transcription factor.",
+    "source_ids": [
+      "ncbi-1649"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "COL1A1": {
+    "symbol": "COL1A1",
+    "hgnc_id": "HGNC:2197",
+    "ncbi_gene_id": "1277",
+    "description": "encodes the alpha-1 chain of type I collagen.",
+    "source_ids": [
+      "ncbi-1277"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PDGFB": {
+    "symbol": "PDGFB",
+    "hgnc_id": "HGNC:8800",
+    "ncbi_gene_id": "5155",
+    "description": "encodes the B-chain ligand of platelet-derived growth factor.",
+    "source_ids": [
+      "ncbi-5155"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NAB2": {
+    "symbol": "NAB2",
+    "hgnc_id": "HGNC:7627",
+    "ncbi_gene_id": "4665",
+    "description": "encodes a transcriptional corepressor of EGR-family transcription factors.",
+    "source_ids": [
+      "ncbi-4665"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "STAT6": {
+    "symbol": "STAT6",
+    "hgnc_id": "HGNC:11368",
+    "ncbi_gene_id": "6778",
+    "description": "encodes a transcription factor that transduces interleukin-4/interleukin-13 signals.",
+    "source_ids": [
+      "ncbi-6778"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ASPSCR1": {
+    "symbol": "ASPSCR1",
+    "hgnc_id": "HGNC:13825",
+    "ncbi_gene_id": "79058",
+    "description": "encodes a trafficking protein involved in intracellular GLUT4 transport.",
+    "source_ids": [
+      "ncbi-79058"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TFE3": {
+    "symbol": "TFE3",
+    "hgnc_id": "HGNC:11752",
+    "ncbi_gene_id": "7030",
+    "description": "encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+    "source_ids": [
+      "ncbi-7030"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ATF1": {
+    "symbol": "ATF1",
+    "hgnc_id": "HGNC:783",
+    "ncbi_gene_id": "466",
+    "description": "encodes a CREB-family transcription factor responsive to cyclic-AMP signaling.",
+    "source_ids": [
+      "ncbi-466"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CREB1": {
+    "symbol": "CREB1",
+    "hgnc_id": "HGNC:2345",
+    "ncbi_gene_id": "1385",
+    "description": "encodes a cyclic-AMP-responsive transcription factor.",
+    "source_ids": [
+      "ncbi-1385"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CREB3L2": {
+    "symbol": "CREB3L2",
+    "hgnc_id": "HGNC:23720",
+    "ncbi_gene_id": "64764",
+    "description": "encodes an endoplasmic-reticulum-associated bZIP transcription factor involved in secretory-cell function.",
+    "source_ids": [
+      "ncbi-64764"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CREB3L1": {
+    "symbol": "CREB3L1",
+    "hgnc_id": "HGNC:18856",
+    "ncbi_gene_id": "90993",
+    "description": "encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis.",
+    "source_ids": [
+      "ncbi-90993"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CIC": {
+    "symbol": "CIC",
+    "hgnc_id": "HGNC:14214",
+    "ncbi_gene_id": "23152",
+    "description": "encodes capicua, a transcriptional repressor regulated by MAPK signaling.",
+    "source_ids": [
+      "ncbi-23152"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "DUX4": {
+    "symbol": "DUX4",
+    "hgnc_id": "HGNC:50800",
+    "ncbi_gene_id": "100288687",
+    "description": "encodes a double-homeobox transcription factor normally active during early embryonic development.",
+    "source_ids": [
+      "ncbi-100288687"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BCOR": {
+    "symbol": "BCOR",
+    "hgnc_id": "HGNC:20893",
+    "ncbi_gene_id": "54880",
+    "description": "encodes a transcriptional corepressor associated with noncanonical Polycomb repression.",
+    "source_ids": [
+      "ncbi-54880"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CCNB3": {
+    "symbol": "CCNB3",
+    "hgnc_id": "HGNC:18709",
+    "ncbi_gene_id": "85417",
+    "description": "encodes cyclin B3, a regulator of cell-cycle progression.",
+    "source_ids": [
+      "ncbi-85417"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NFATC2": {
+    "symbol": "NFATC2",
+    "hgnc_id": "HGNC:7776",
+    "ncbi_gene_id": "4773",
+    "description": "encodes a calcium/calcineurin-responsive transcription factor.",
+    "source_ids": [
+      "ncbi-4773"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PATZ1": {
+    "symbol": "PATZ1",
+    "hgnc_id": "HGNC:13071",
+    "ncbi_gene_id": "23598",
+    "description": "encodes a zinc-finger transcriptional regulator with an AT-hook DNA-binding motif.",
+    "source_ids": [
+      "ncbi-23598"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "HEY1": {
+    "symbol": "HEY1",
+    "hgnc_id": "HGNC:4880",
+    "ncbi_gene_id": "23462",
+    "description": "encodes a transcriptional repressor downstream of Notch signaling.",
+    "source_ids": [
+      "ncbi-23462"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NCOA2": {
+    "symbol": "NCOA2",
+    "hgnc_id": "HGNC:7669",
+    "ncbi_gene_id": "10499",
+    "description": "encodes a nuclear-receptor transcriptional coactivator.",
+    "source_ids": [
+      "ncbi-10499"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NR4A3": {
+    "symbol": "NR4A3",
+    "hgnc_id": "HGNC:7982",
+    "ncbi_gene_id": "8013",
+    "description": "encodes an orphan nuclear-receptor transcription factor.",
+    "source_ids": [
+      "ncbi-8013"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "WWTR1": {
+    "symbol": "WWTR1",
+    "hgnc_id": "HGNC:24042",
+    "ncbi_gene_id": "25937",
+    "description": "encodes TAZ, a transcriptional coactivator regulated by Hippo signaling.",
+    "source_ids": [
+      "ncbi-25937"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CAMTA1": {
+    "symbol": "CAMTA1",
+    "hgnc_id": "HGNC:18806",
+    "ncbi_gene_id": "23261",
+    "description": "encodes a calmodulin-binding transcriptional regulator.",
+    "source_ids": [
+      "ncbi-23261"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "YAP1": {
+    "symbol": "YAP1",
+    "hgnc_id": "HGNC:16262",
+    "ncbi_gene_id": "10413",
+    "description": "encodes a transcriptional coactivator regulated by Hippo signaling.",
+    "source_ids": [
+      "ncbi-10413"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "JAZF1": {
+    "symbol": "JAZF1",
+    "hgnc_id": "HGNC:28917",
+    "ncbi_gene_id": "221895",
+    "description": "encodes a transcriptional regulator with roles in chromatin regulation and metabolism.",
+    "source_ids": [
+      "ncbi-221895"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SUZ12": {
+    "symbol": "SUZ12",
+    "hgnc_id": "HGNC:17101",
+    "ncbi_gene_id": "23512",
+    "description": "encodes a core component of Polycomb repressive complex 2.",
+    "source_ids": [
+      "ncbi-23512"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "YWHAE": {
+    "symbol": "YWHAE",
+    "hgnc_id": "HGNC:12851",
+    "ncbi_gene_id": "7531",
+    "description": "encodes the phosphoprotein-binding adaptor 14-3-3 epsilon.",
+    "source_ids": [
+      "ncbi-7531"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NUTM2A": {
+    "symbol": "NUTM2A",
+    "hgnc_id": "HGNC:23438",
+    "ncbi_gene_id": "728118",
+    "description": "encodes a NUT-family protein whose normal function remains incompletely characterized.",
+    "source_ids": [
+      "ncbi-728118"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NUTM2B": {
+    "symbol": "NUTM2B",
+    "hgnc_id": "HGNC:23445",
+    "ncbi_gene_id": "729262",
+    "description": "encodes a NUT-family protein whose normal function remains incompletely characterized.",
+    "source_ids": [
+      "ncbi-729262"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ZC3H7B": {
+    "symbol": "ZC3H7B",
+    "hgnc_id": "HGNC:30869",
+    "ncbi_gene_id": "23264",
+    "description": "encodes a zinc-finger-containing protein with proposed RNA-associated regulatory functions.",
+    "source_ids": [
+      "ncbi-23264"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MAML3": {
+    "symbol": "MAML3",
+    "hgnc_id": "HGNC:16272",
+    "ncbi_gene_id": "55534",
+    "description": "encodes a transcriptional coactivator in Notch signaling.",
+    "source_ids": [
+      "ncbi-55534"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "VGLL2": {
+    "symbol": "VGLL2",
+    "hgnc_id": "HGNC:20232",
+    "ncbi_gene_id": "245806",
+    "description": "encodes a transcriptional cofactor involved in skeletal-muscle differentiation.",
+    "source_ids": [
+      "ncbi-245806"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CITED2": {
+    "symbol": "CITED2",
+    "hgnc_id": "HGNC:1987",
+    "ncbi_gene_id": "10370",
+    "description": "encodes a transcriptional cofactor that interacts with CBP/p300.",
+    "source_ids": [
+      "ncbi-10370"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "KIAA1549": {
+    "symbol": "KIAA1549",
+    "hgnc_id": "HGNC:22219",
+    "ncbi_gene_id": "57670",
+    "description": "encodes a protein implicated in nervous-system development.",
+    "source_ids": [
+      "ncbi-57670"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BRAF": {
+    "symbol": "BRAF",
+    "hgnc_id": "HGNC:1097",
+    "ncbi_gene_id": "673",
+    "description": "encodes a RAF-family serine/threonine kinase in the MAPK pathway.",
+    "source_ids": [
+      "ncbi-673"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FAM131B": {
+    "symbol": "FAM131B",
+    "hgnc_id": "HGNC:22202",
+    "ncbi_gene_id": "9715",
+    "description": "encodes a protein whose normal biological function remains incompletely characterized.",
+    "source_ids": [
+      "ncbi-9715"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SRGAP3": {
+    "symbol": "SRGAP3",
+    "hgnc_id": "HGNC:19744",
+    "ncbi_gene_id": "9901",
+    "description": "encodes a Rho GTPase-activating protein involved in neural development and cytoskeletal regulation.",
+    "source_ids": [
+      "ncbi-9901"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RAF1": {
+    "symbol": "RAF1",
+    "hgnc_id": "HGNC:9829",
+    "ncbi_gene_id": "5894",
+    "description": "encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway.",
+    "source_ids": [
+      "ncbi-5894"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "QKI": {
+    "symbol": "QKI",
+    "hgnc_id": "HGNC:21100",
+    "ncbi_gene_id": "9444",
+    "description": "encodes an RNA-binding protein that regulates RNA processing and myelination.",
+    "source_ids": [
+      "ncbi-9444"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "ZFTA": {
+    "symbol": "ZFTA",
+    "hgnc_id": "HGNC:28449",
+    "ncbi_gene_id": "65998",
+    "description": "encodes a zinc-finger protein with chromatin-binding activity.",
+    "source_ids": [
+      "ncbi-65998"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RELA": {
+    "symbol": "RELA",
+    "hgnc_id": "HGNC:9955",
+    "ncbi_gene_id": "5970",
+    "description": "encodes p65, a transcriptional subunit of the NF-kappaB complex.",
+    "source_ids": [
+      "ncbi-5970"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MAMLD1": {
+    "symbol": "MAMLD1",
+    "hgnc_id": "HGNC:2568",
+    "ncbi_gene_id": "10046",
+    "description": "encodes a transcriptional regulator involved in developmental gene expression.",
+    "source_ids": [
+      "ncbi-10046"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MYB": {
+    "symbol": "MYB",
+    "hgnc_id": "HGNC:7545",
+    "ncbi_gene_id": "4602",
+    "description": "encodes a transcription factor involved in progenitor-cell proliferation and differentiation.",
+    "source_ids": [
+      "ncbi-4602"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MN1": {
+    "symbol": "MN1",
+    "hgnc_id": "HGNC:7180",
+    "ncbi_gene_id": "4330",
+    "description": "encodes a transcriptional regulator involved in developmental and hematopoietic programs.",
+    "source_ids": [
+      "ncbi-4330"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BEND2": {
+    "symbol": "BEND2",
+    "hgnc_id": "HGNC:28509",
+    "ncbi_gene_id": "139105",
+    "description": "encodes a BEN-domain protein implicated in transcriptional regulation.",
+    "source_ids": [
+      "ncbi-139105"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CXXC5": {
+    "symbol": "CXXC5",
+    "hgnc_id": "HGNC:26943",
+    "ncbi_gene_id": "51523",
+    "description": "encodes a CXXC-domain transcriptional regulator involved in developmental signaling.",
+    "source_ids": [
+      "ncbi-51523"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SLC44A1": {
+    "symbol": "SLC44A1",
+    "hgnc_id": "HGNC:18798",
+    "ncbi_gene_id": "23446",
+    "description": "encodes choline transporter-like protein 1.",
+    "source_ids": [
+      "ncbi-23446"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PRKCA": {
+    "symbol": "PRKCA",
+    "hgnc_id": "HGNC:9393",
+    "ncbi_gene_id": "5578",
+    "description": "encodes protein kinase C alpha, a calcium- and diacylglycerol-regulated serine/threonine kinase.",
+    "source_ids": [
+      "ncbi-5578"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CRTC1": {
+    "symbol": "CRTC1",
+    "hgnc_id": "HGNC:16062",
+    "ncbi_gene_id": "23373",
+    "description": "encodes a coactivator of CREB-dependent transcription.",
+    "source_ids": [
+      "ncbi-23373"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MAML2": {
+    "symbol": "MAML2",
+    "hgnc_id": "HGNC:16259",
+    "ncbi_gene_id": "84441",
+    "description": "encodes a transcriptional coactivator in Notch signaling.",
+    "source_ids": [
+      "ncbi-84441"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CRTC3": {
+    "symbol": "CRTC3",
+    "hgnc_id": "HGNC:26148",
+    "ncbi_gene_id": "64784",
+    "description": "encodes a coactivator of CREB-dependent transcription.",
+    "source_ids": [
+      "ncbi-64784"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NFIB": {
+    "symbol": "NFIB",
+    "hgnc_id": "HGNC:7785",
+    "ncbi_gene_id": "4781",
+    "description": "encodes a nuclear-factor-I transcription factor involved in tissue development.",
+    "source_ids": [
+      "ncbi-4781"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MYBL1": {
+    "symbol": "MYBL1",
+    "hgnc_id": "HGNC:7547",
+    "ncbi_gene_id": "4603",
+    "description": "encodes a MYB-family transcription factor.",
+    "source_ids": [
+      "ncbi-4603"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BRD4": {
+    "symbol": "BRD4",
+    "hgnc_id": "HGNC:13575",
+    "ncbi_gene_id": "23476",
+    "description": "encodes a BET-family chromatin reader that regulates transcriptional elongation.",
+    "source_ids": [
+      "ncbi-23476"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NUTM1": {
+    "symbol": "NUTM1",
+    "hgnc_id": "HGNC:29919",
+    "ncbi_gene_id": "256646",
+    "description": "encodes a normally testis-enriched protein that interacts with the acetyltransferase p300.",
+    "source_ids": [
+      "ncbi-256646"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BRD3": {
+    "symbol": "BRD3",
+    "hgnc_id": "HGNC:1104",
+    "ncbi_gene_id": "8019",
+    "description": "encodes a BET-family acetylated-chromatin reader and transcriptional regulator.",
+    "source_ids": [
+      "ncbi-8019"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NSD3": {
+    "symbol": "NSD3",
+    "hgnc_id": "HGNC:12767",
+    "ncbi_gene_id": "54904",
+    "description": "encodes a chromatin regulator with isoforms that interact with transcriptional machinery.",
+    "source_ids": [
+      "ncbi-54904"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "DNAJB1": {
+    "symbol": "DNAJB1",
+    "hgnc_id": "HGNC:5270",
+    "ncbi_gene_id": "3337",
+    "description": "encodes an HSP40-family cochaperone that regulates HSP70 activity.",
+    "source_ids": [
+      "ncbi-3337"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PRKACA": {
+    "symbol": "PRKACA",
+    "hgnc_id": "HGNC:9380",
+    "ncbi_gene_id": "5566",
+    "description": "encodes the alpha catalytic subunit of cyclic-AMP-dependent protein kinase A.",
+    "source_ids": [
+      "ncbi-5566"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TMPRSS2": {
+    "symbol": "TMPRSS2",
+    "hgnc_id": "HGNC:11876",
+    "ncbi_gene_id": "7113",
+    "description": "encodes an androgen-regulated transmembrane serine protease.",
+    "source_ids": [
+      "ncbi-7113"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CTNNB1": {
+    "symbol": "CTNNB1",
+    "hgnc_id": "HGNC:2514",
+    "ncbi_gene_id": "1499",
+    "description": "encodes beta-catenin, which participates in cell adhesion and Wnt-dependent transcription.",
+    "source_ids": [
+      "ncbi-1499"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PLAG1": {
+    "symbol": "PLAG1",
+    "hgnc_id": "HGNC:9045",
+    "ncbi_gene_id": "5324",
+    "description": "encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2.",
+    "source_ids": [
+      "ncbi-5324"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "LIFR": {
+    "symbol": "LIFR",
+    "hgnc_id": "HGNC:6597",
+    "ncbi_gene_id": "3977",
+    "description": "encodes a cytokine-receptor subunit that mediates leukemia inhibitory factor signaling.",
+    "source_ids": [
+      "ncbi-3977"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TFG": {
+    "symbol": "TFG",
+    "hgnc_id": "HGNC:11758",
+    "ncbi_gene_id": "10342",
+    "description": "encodes a coiled-coil protein involved in protein export from the endoplasmic reticulum.",
+    "source_ids": [
+      "ncbi-10342"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "FN1": {
+    "symbol": "FN1",
+    "hgnc_id": "HGNC:3778",
+    "ncbi_gene_id": "2335",
+    "description": "encodes fibronectin, an extracellular-matrix adhesion protein.",
+    "source_ids": [
+      "ncbi-2335"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PHF1": {
+    "symbol": "PHF1",
+    "hgnc_id": "HGNC:8919",
+    "ncbi_gene_id": "5252",
+    "description": "encodes a Polycomb-associated histone reader involved in chromatin repression.",
+    "source_ids": [
+      "ncbi-5252"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "EPC1": {
+    "symbol": "EPC1",
+    "hgnc_id": "HGNC:19876",
+    "ncbi_gene_id": "80314",
+    "description": "encodes a chromatin-regulatory component of histone acetyltransferase complexes.",
+    "source_ids": [
+      "ncbi-80314"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MEAF6": {
+    "symbol": "MEAF6",
+    "hgnc_id": "HGNC:25674",
+    "ncbi_gene_id": "64769",
+    "description": "encodes a component of histone acetyltransferase complexes.",
+    "source_ids": [
+      "ncbi-64769"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MECOM": {
+    "symbol": "MECOM",
+    "hgnc_id": "HGNC:3498",
+    "ncbi_gene_id": "2122",
+    "description": "encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis.",
+    "source_ids": [
+      "ncbi-2122"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MLF1": {
+    "symbol": "MLF1",
+    "hgnc_id": "HGNC:7125",
+    "ncbi_gene_id": "4291",
+    "description": "encodes a regulator of hematopoietic cell differentiation and survival.",
+    "source_ids": [
+      "ncbi-4291"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PTPRZ1": {
+    "symbol": "PTPRZ1",
+    "hgnc_id": "HGNC:9685",
+    "ncbi_gene_id": "5803",
+    "description": "encodes a receptor-type tyrosine phosphatase enriched in the nervous system.",
+    "source_ids": [
+      "ncbi-5803"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MET": {
+    "symbol": "MET",
+    "hgnc_id": "HGNC:7029",
+    "ncbi_gene_id": "4233",
+    "description": "encodes the hepatocyte-growth-factor receptor tyrosine kinase.",
+    "source_ids": [
+      "ncbi-4233"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BCAN": {
+    "symbol": "BCAN",
+    "hgnc_id": "HGNC:23059",
+    "ncbi_gene_id": "63827",
+    "description": "encodes brevican, a neural extracellular-matrix proteoglycan.",
+    "source_ids": [
+      "ncbi-63827"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NACC2": {
+    "symbol": "NACC2",
+    "hgnc_id": "HGNC:23846",
+    "ncbi_gene_id": "138151",
+    "description": "encodes a nuclear BTB-domain transcriptional regulator.",
+    "source_ids": [
+      "ncbi-138151"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "IGH": {
+    "symbol": "IGH",
+    "hgnc_id": "HGNC:5477",
+    "ncbi_gene_id": "3492",
+    "description": "is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+    "source_ids": [
+      "ncbi-3492"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MYC": {
+    "symbol": "MYC",
+    "hgnc_id": "HGNC:7553",
+    "ncbi_gene_id": "4609",
+    "description": "encodes a transcription factor that controls cellular growth and metabolism.",
+    "source_ids": [
+      "ncbi-4609"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "IGK": {
+    "symbol": "IGK",
+    "hgnc_id": "HGNC:5715",
+    "ncbi_gene_id": "50802",
+    "description": "is the immunoglobulin kappa light-chain locus, with B-lineage regulatory elements.",
+    "source_ids": [
+      "ncbi-50802"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "IGL": {
+    "symbol": "IGL",
+    "hgnc_id": "HGNC:5853",
+    "ncbi_gene_id": "3535",
+    "description": "is the immunoglobulin lambda light-chain locus, with B-lineage regulatory elements.",
+    "source_ids": [
+      "ncbi-3535"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BCL2": {
+    "symbol": "BCL2",
+    "hgnc_id": "HGNC:990",
+    "ncbi_gene_id": "596",
+    "description": "encodes an antiapoptotic mitochondrial protein.",
+    "source_ids": [
+      "ncbi-596"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BCL6": {
+    "symbol": "BCL6",
+    "hgnc_id": "HGNC:1001",
+    "ncbi_gene_id": "604",
+    "description": "encodes a transcriptional repressor required for germinal-center B-cell programs.",
+    "source_ids": [
+      "ncbi-604"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CCND1": {
+    "symbol": "CCND1",
+    "hgnc_id": "HGNC:1582",
+    "ncbi_gene_id": "595",
+    "description": "encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression.",
+    "source_ids": [
+      "ncbi-595"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CCND2": {
+    "symbol": "CCND2",
+    "hgnc_id": "HGNC:1583",
+    "ncbi_gene_id": "894",
+    "description": "encodes cyclin D2, a regulator of CDK4/6-dependent cell-cycle progression.",
+    "source_ids": [
+      "ncbi-894"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CCND3": {
+    "symbol": "CCND3",
+    "hgnc_id": "HGNC:1585",
+    "ncbi_gene_id": "896",
+    "description": "encodes cyclin D3, a regulator of CDK4/6-dependent cell-cycle progression.",
+    "source_ids": [
+      "ncbi-896"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "BCL10": {
+    "symbol": "BCL10",
+    "hgnc_id": "HGNC:989",
+    "ncbi_gene_id": "8915",
+    "description": "encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway.",
+    "source_ids": [
+      "ncbi-8915"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "CRLF2": {
+    "symbol": "CRLF2",
+    "hgnc_id": "HGNC:14281",
+    "ncbi_gene_id": "64109",
+    "description": "encodes a receptor subunit that pairs with IL7R to mediate thymic stromal lymphopoietin signaling.",
+    "source_ids": [
+      "ncbi-64109"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "P2RY8": {
+    "symbol": "P2RY8",
+    "hgnc_id": "HGNC:15524",
+    "ncbi_gene_id": "286530",
+    "description": "encodes a G-protein-coupled receptor involved in lymphocyte localization.",
+    "source_ids": [
+      "ncbi-286530"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TCR loci": {
+    "symbol": "TCR loci",
+    "hgnc_id": null,
+    "ncbi_gene_id": null,
+    "description": "encode T-cell receptor chains and contain lineage-active regulatory elements.",
+    "source_ids": [
+      "all"
+    ],
+    "identity_source_id": null
+  },
+  "TAL1": {
+    "symbol": "TAL1",
+    "hgnc_id": "HGNC:11556",
+    "ncbi_gene_id": "6886",
+    "description": "encodes a basic helix-loop-helix transcription factor involved in hematopoietic development.",
+    "source_ids": [
+      "ncbi-6886"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TLX1": {
+    "symbol": "TLX1",
+    "hgnc_id": "HGNC:5056",
+    "ncbi_gene_id": "3195",
+    "description": "encodes a homeobox transcription factor with developmental functions.",
+    "source_ids": [
+      "ncbi-3195"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TLX3": {
+    "symbol": "TLX3",
+    "hgnc_id": "HGNC:13532",
+    "ncbi_gene_id": "30012",
+    "description": "encodes a homeobox transcription factor involved in neuronal differentiation.",
+    "source_ids": [
+      "ncbi-30012"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "LMO2": {
+    "symbol": "LMO2",
+    "hgnc_id": "HGNC:6642",
+    "ncbi_gene_id": "4005",
+    "description": "encodes a LIM-domain scaffold for hematopoietic transcriptional complexes.",
+    "source_ids": [
+      "ncbi-4005"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "GATA2": {
+    "symbol": "GATA2",
+    "hgnc_id": "HGNC:4171",
+    "ncbi_gene_id": "2624",
+    "description": "encodes a zinc-finger transcription factor required for hematopoietic stem/progenitor-cell function.",
+    "source_ids": [
+      "ncbi-2624"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NSD2": {
+    "symbol": "NSD2",
+    "hgnc_id": "HGNC:12766",
+    "ncbi_gene_id": "7468",
+    "description": "encodes a histone H3 lysine-36 methyltransferase.",
+    "source_ids": [
+      "ncbi-7468"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MAF": {
+    "symbol": "MAF",
+    "hgnc_id": "HGNC:6776",
+    "ncbi_gene_id": "4094",
+    "description": "encodes a bZIP transcription factor involved in differentiation.",
+    "source_ids": [
+      "ncbi-4094"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MAFB": {
+    "symbol": "MAFB",
+    "hgnc_id": "HGNC:6408",
+    "ncbi_gene_id": "9935",
+    "description": "encodes a bZIP transcription factor involved in lineage differentiation.",
+    "source_ids": [
+      "ncbi-9935"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "PRCC": {
+    "symbol": "PRCC",
+    "hgnc_id": "HGNC:9343",
+    "ncbi_gene_id": "5546",
+    "description": "encodes a proline-rich protein associated with pre-messenger RNA splicing.",
+    "source_ids": [
+      "ncbi-5546"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "SFPQ": {
+    "symbol": "SFPQ",
+    "hgnc_id": "HGNC:10774",
+    "ncbi_gene_id": "6421",
+    "description": "encodes an RNA-binding protein involved in splicing and transcriptional regulation.",
+    "source_ids": [
+      "ncbi-6421"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "NONO": {
+    "symbol": "NONO",
+    "hgnc_id": "HGNC:7871",
+    "ncbi_gene_id": "4841",
+    "description": "encodes an RNA-binding protein involved in RNA processing and nuclear organization.",
+    "source_ids": [
+      "ncbi-4841"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "RBM10": {
+    "symbol": "RBM10",
+    "hgnc_id": "HGNC:9896",
+    "ncbi_gene_id": "8241",
+    "description": "encodes an RNA-binding regulator of alternative splicing.",
+    "source_ids": [
+      "ncbi-8241"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "MALAT1": {
+    "symbol": "MALAT1",
+    "hgnc_id": "HGNC:29665",
+    "ncbi_gene_id": "378938",
+    "description": "produces a long noncoding RNA involved in nuclear RNA organization and gene regulation.",
+    "source_ids": [
+      "ncbi-378938"
+    ],
+    "identity_source_id": "hgnc"
+  },
+  "TFEB": {
+    "symbol": "TFEB",
+    "hgnc_id": "HGNC:11753",
+    "ncbi_gene_id": "7942",
+    "description": "encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy.",
+    "source_ids": [
+      "ncbi-7942"
+    ],
+    "identity_source_id": "hgnc"
+  }
+}

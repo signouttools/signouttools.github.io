@@ -2,9 +2,9 @@
 
 Pathologist review needed — LLM-generated summary/review.
 
-Audit date: 2026-11-26.
+Audit date: 2026-11-27.
 
-All **1,305 genes** and **8,846 report sections/comments** are included. The current audit has **1,659 withdrawn/unconfirmed placements** and **7,468 retained placements across 66 distinct PMIDs**. Repeated citations across different comments are counted separately. The continuing [full-text review](FULLTEXT-REVIEW.md) has restored confirmed placements and records the remaining work.
+All **1,305 genes** and **8,846 report sections/comments** are included. The current audit has **1,607 withdrawn/unconfirmed placements** and **7,520 retained placements across 113 distinct PMIDs**. Repeated citations across different comments are counted separately. The continuing [full-text review](FULLTEXT-REVIEW.md) has restored confirmed placements and records the remaining work.
 
 ## What the audit means
 
@@ -14,7 +14,7 @@ Retained references use either a reviewed primary abstract/full-text finding or 
 
 ## Specific corrections
 
-- BRCA1/BRCA2: removed breast-cohort PMID 23000897 because the inspected abstract does not establish the stated BRCA-specific somatic association. No full-text/supplementary confirmation was available for that placement.
+- BRCA1/BRCA2: removed breast-cohort PMID 23000897 because the inspected abstract does not establish the stated BRCA-specific somatic association. The full text gives pooled BRCA1/BRCA2 somatic counts; gene-specific supplementary confirmation remains pending.
 - BRCA2: removed pancreatic-cancer PMID 25719666 from the paragraph describing breast, ovarian, and prostate cancers; the cited pancreatic finding was outside that statement.
 - BRIP1, MRE11, and RAD51C: retained PMID 24240112 after checking the full-text somatic-mutation results and Figure 1C in PMC3944197, which distinguish these events from germline findings.
 - SRSF2 and ZRSR2: narrowed the cited occurrence statements to myelodysplastic neoplasms. PMID 22389253 alone did not establish the broader MDS/MPN or functional-splicing wording.

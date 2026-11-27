@@ -1,0 +1,71 @@
+{
+  "id": "fusion-nup98-hoxa9",
+  "label": "NUP98::HOXA9",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NUP98",
+      "hgnc_id": "HGNC:8068",
+      "ncbi_gene_id": "4928"
+    },
+    {
+      "symbol": "HOXA9",
+      "hgnc_id": "HGNC:5109",
+      "ncbi_gene_id": "3205"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NUP98",
+      "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-4928"
+      ],
+      "claim_sha256": "9728ec188dd9c089e3e0c37b8d7aa4d6b650be1649c22c4ba1c87d7ca6b1398d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "HOXA9",
+      "text": "HOXA9 encodes a homeobox transcription factor involved in hematopoietic progenitor programs.",
+      "source_ids": [
+        "ncbi-3205"
+      ],
+      "claim_sha256": "27ec54b2d2a7e7571196f807858dadaae509c03b15daa2daa0cbf0d9e0179ab1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXA9 homeodomain supplies DNA binding to the NUP98 activation region.",
+      "source_ids": [
+        "nup98"
+      ],
+      "claim_sha256": "a7d1870897e356b277b31e6a36daa2cdc262ee03eab9fe55b01605302f0c7cf6",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. HOXA9 encodes a homeobox transcription factor involved in hematopoietic progenitor programs. The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXA9 homeodomain supplies DNA binding to the NUP98 activation region.",
+    "source_ids": [
+      "ncbi-4928",
+      "ncbi-3205",
+      "nup98"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "e94c9d996d1e8ec592c406a905ab6fc2affa453db59053285e708ca7a562ec0f"
+}

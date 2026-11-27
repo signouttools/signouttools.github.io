@@ -1,0 +1,84 @@
+{
+  "id": "fusion-fam131b-braf",
+  "label": "FAM131B::BRAF",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FAM131B",
+      "hgnc_id": "HGNC:22202",
+      "ncbi_gene_id": "9715"
+    },
+    {
+      "symbol": "BRAF",
+      "hgnc_id": "HGNC:1097",
+      "ncbi_gene_id": "673"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pilocytic astrocytoma",
+    "Other pediatric low-grade gliomas"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FAM131B",
+      "text": "FAM131B encodes a protein whose normal biological function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-9715"
+      ],
+      "claim_sha256": "f5b1b0f1fca495eee824852aec1e66cb2d7f65f0c1ba3fa1c87aa7a276a8f0ff",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BRAF",
+      "text": "BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "source_ids": [
+        "ncbi-673"
+      ],
+      "claim_sha256": "296284c6ac14cd374c43e01f7bd9287f9c3e5dc95e23fea5d313545f2bd42417",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. FAM131B::BRAF arises through an interstitial 7q34 deletion and is a rarer pilocytic astrocytoma driver.",
+      "source_ids": [
+        "fam131b"
+      ],
+      "claim_sha256": "0b0125c63f02f7597ab5cc5b2d8cf408fe727179c622e9786b6327188eb663bb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+      "source_ids": [
+        "fda-braf",
+        "braf-resistance"
+      ],
+      "claim_sha256": "601e597c19542036f46ba05f50502e85a9da0ba08cb48e18634b49e5450a3c76",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FAM131B encodes a protein whose normal biological function remains incompletely characterized. BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. FAM131B::BRAF arises through an interstitial 7q34 deletion and is a rarer pilocytic astrocytoma driver. Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+    "source_ids": [
+      "ncbi-9715",
+      "ncbi-673",
+      "fam131b",
+      "fda-braf",
+      "braf-resistance"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "fb511ab72158be19ed9973c6465309849b8186480c7c95d50015e72bc6013ef3"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "fusion-igh-bcl2",
+  "label": "IGH / BCL2",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "BCL2",
+      "hgnc_id": "HGNC:990",
+      "ncbi_gene_id": "596"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Follicular lymphoma",
+    "Selected large B-cell lymphomas"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BCL2",
+      "text": "BCL2 encodes an antiapoptotic mitochondrial protein.",
+      "source_ids": [
+        "ncbi-596"
+      ],
+      "claim_sha256": "b16ac7af46edaffc78563d6facca7393dec36411adbbcf3c21a1f8660c67aa37",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(14;18) rearrangement places BCL2 under immunoglobulin regulatory control, increasing antiapoptotic BCL2 expression. It is characteristic of conventional follicular lymphoma and occurs in other germinal-center-derived B-cell lymphomas.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "0b19c337b9fecca6c6cb36251dd0982949b4c25887f26fa9c668b55f81050239",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "Concurrent MYC and BCL2 rearrangements in large B-cell lymphoma define an aggressive molecular group; this is distinct from isolated IGH/BCL2 rearrangement in follicular lymphoma.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "90c2de8f23925eabe691769858719d79b8b5010df85852512120620183b8585e",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. BCL2 encodes an antiapoptotic mitochondrial protein. The t(14;18) rearrangement places BCL2 under immunoglobulin regulatory control, increasing antiapoptotic BCL2 expression. It is characteristic of conventional follicular lymphoma and occurs in other germinal-center-derived B-cell lymphomas. Concurrent MYC and BCL2 rearrangements in large B-cell lymphoma define an aggressive molecular group; this is distinct from isolated IGH/BCL2 rearrangement in follicular lymphoma.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-596",
+      "icc-l"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "8f60da7008a819286bcb7d22f3948ce56d81db74fee5f774d23d076ee73bf7f9"
+}

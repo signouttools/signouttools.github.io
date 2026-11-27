@@ -1,0 +1,74 @@
+{
+  "id": "fusion-prcc-tfe3",
+  "label": "PRCC::TFE3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PRCC",
+      "hgnc_id": "HGNC:9343",
+      "ncbi_gene_id": "5546"
+    },
+    {
+      "symbol": "TFE3",
+      "hgnc_id": "HGNC:11752",
+      "ncbi_gene_id": "7030"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "TFE3-rearranged renal cell carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PRCC",
+      "text": "PRCC encodes a proline-rich protein associated with pre-messenger RNA splicing.",
+      "source_ids": [
+        "ncbi-5546"
+      ],
+      "claim_sha256": "2c7600cf1e2fbc6beb7829baa2f0f8f2e69c187904df73b98167c6c6275bc65f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TFE3",
+      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "source_ids": [
+        "ncbi-7030"
+      ],
+      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. PRCC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+      "source_ids": [
+        "renal"
+      ],
+      "claim_sha256": "d01c37a8cb7e4d5abf45c1d9f9f351e946bb6d1e3371ebab071d17f3b5a95a40",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PRCC encodes a proline-rich protein associated with pre-messenger RNA splicing. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. PRCC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+    "source_ids": [
+      "ncbi-5546",
+      "ncbi-7030",
+      "renal"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No prognosis or treatment response assigned solely from the partner.",
+    "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "ead3ddb1f1c49145f7629f3661fa4870abc8ee3db81a2fe34274e7ffde7cd624"
+}

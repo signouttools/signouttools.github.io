@@ -1,0 +1,84 @@
+{
+  "id": "fusion-crtc1-maml2",
+  "label": "CRTC1::MAML2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CRTC1",
+      "hgnc_id": "HGNC:16062",
+      "ncbi_gene_id": "23373"
+    },
+    {
+      "symbol": "MAML2",
+      "hgnc_id": "HGNC:16259",
+      "ncbi_gene_id": "84441"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Mucoepidermoid carcinoma of salivary gland",
+    "Mucoepidermoid carcinoma at other sites"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CRTC1",
+      "text": "CRTC1 encodes a coactivator of CREB-dependent transcription.",
+      "source_ids": [
+        "ncbi-23373"
+      ],
+      "claim_sha256": "43711d08b0bc3b0cd2c8a5dc300fffb0ed6ab631bd273392470f266272283327",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAML2",
+      "text": "MAML2 encodes a transcriptional coactivator in Notch signaling.",
+      "source_ids": [
+        "ncbi-84441"
+      ],
+      "claim_sha256": "9e1d042cd553b86c78427c144b147e01affc777efd1703376c7932386ae3cbf1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion links a CRTC CREB-binding region to the MAML2 activation domain, causing constitutive recruitment of CBP/p300 and abnormal CREB-dependent transcription. It is a recurrent driver of mucoepidermoid carcinoma.",
+      "source_ids": [
+        "maml2-mech",
+        "salivary"
+      ],
+      "claim_sha256": "ed393bb6bdc737e77ffb992c81da787661ea64a36854fd06a223aca9b38e4f1b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "CRTC1/3::MAML2-positive mucoepidermoid carcinomas formed a favorable-outcome subgroup in a retrospective salivary cohort; the fusion does not by itself assign histologic grade.",
+      "source_ids": [
+        "maml2-outcome"
+      ],
+      "claim_sha256": "24e22b5edca5d66470ce096284eaf9b1666328510302399e38fe7cddd5096d9e",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CRTC1 encodes a coactivator of CREB-dependent transcription. MAML2 encodes a transcriptional coactivator in Notch signaling. The fusion links a CRTC CREB-binding region to the MAML2 activation domain, causing constitutive recruitment of CBP/p300 and abnormal CREB-dependent transcription. It is a recurrent driver of mucoepidermoid carcinoma. CRTC1/3::MAML2-positive mucoepidermoid carcinomas formed a favorable-outcome subgroup in a retrospective salivary cohort; the fusion does not by itself assign histologic grade.",
+    "source_ids": [
+      "ncbi-23373",
+      "ncbi-84441",
+      "maml2-mech",
+      "salivary",
+      "maml2-outcome"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b772d906d1c3615a272e3a932e4d67df50cc6fee2860d82d2e2c75802b066d54"
+}

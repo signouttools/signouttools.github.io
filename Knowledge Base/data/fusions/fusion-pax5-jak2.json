@@ -1,0 +1,81 @@
+{
+  "id": "fusion-pax5-jak2",
+  "label": "PAX5::JAK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PAX5",
+      "hgnc_id": "HGNC:8619",
+      "ncbi_gene_id": "5079"
+    },
+    {
+      "symbol": "JAK2",
+      "hgnc_id": "HGNC:6192",
+      "ncbi_gene_id": "3717"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Ph-like B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX5",
+      "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity.",
+      "source_ids": [
+        "ncbi-5079"
+      ],
+      "claim_sha256": "82f40ae0455ff64d4c262db6b1e7bc098d0f1f53e4dac8fc70661ed9d5055483",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "JAK2",
+      "text": "JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals.",
+      "source_ids": [
+        "ncbi-3717"
+      ],
+      "claim_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PAX5::JAK2 is a kinase-activating lesion in Ph-like B-ALL.",
+      "source_ids": [
+        "phlike"
+      ],
+      "claim_sha256": "c2f805fd5d0a6a036a896a4e053fa87db5f47394a4fbf97c8c8c7f5cd30dfc9e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "JAK inhibition has experimental activity in JAK2-fusion-positive ALL models; this evidence is investigational for PAX5::JAK2 leukemia.",
+      "source_ids": [
+        "phlike-functional"
+      ],
+      "claim_sha256": "cbbd0a8f211324edc437e70de6b9e156e05f0a138d585ea3c80d9b5202371c46",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PAX5::JAK2 is a kinase-activating lesion in Ph-like B-ALL. JAK inhibition has experimental activity in JAK2-fusion-positive ALL models; this evidence is investigational for PAX5::JAK2 leukemia.",
+    "source_ids": [
+      "ncbi-5079",
+      "ncbi-3717",
+      "phlike",
+      "phlike-functional"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "820a867a968b73713f983689d5f815e4aa0da1f8add3e3d10ffdd115d955c12b"
+}

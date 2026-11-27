@@ -1,0 +1,84 @@
+{
+  "id": "fusion-nacc2-ntrk2",
+  "label": "NACC2::NTRK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NACC2",
+      "hgnc_id": "HGNC:23846",
+      "ncbi_gene_id": "138151"
+    },
+    {
+      "symbol": "NTRK2",
+      "hgnc_id": "HGNC:8032",
+      "ncbi_gene_id": "4915"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pilocytic astrocytoma",
+    "Other NTRK-rearranged gliomas"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NACC2",
+      "text": "NACC2 encodes a nuclear BTB-domain transcriptional regulator.",
+      "source_ids": [
+        "ncbi-138151"
+      ],
+      "claim_sha256": "bb0b5023a54cd09a21220ec665353a212bf8c32cffff88503713c50579343b7d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK2",
+      "text": "NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4.",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "claim_sha256": "c79c9b9797fe7b36b2283266c51d259f9e2fb442387f7d83e3fd11aa3612afcb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. NACC2::NTRK2 has been reported in pilocytic astrocytoma.",
+      "source_ids": [
+        "ntrk-fda-review"
+      ],
+      "claim_sha256": "e5ac80f82c10bd60bc25fe5c38358c1bc62c309895d8d37fc90222e705963876",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
+      "source_ids": [
+        "fda-laro"
+      ],
+      "claim_sha256": "fc5c55d0e75b3c3a7c3a67384b8a3112a3cd8c82b0ca92b0eab23eaed6b00fa8",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NACC2 encodes a nuclear BTB-domain transcriptional regulator. NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4. The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. NACC2::NTRK2 has been reported in pilocytic astrocytoma. An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
+    "source_ids": [
+      "ncbi-138151",
+      "ncbi-4915",
+      "ntrk-fda-review",
+      "fda-laro"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Original Jones 2013 full-text verification remains pending; FDA review provides an explicitly identified literature lead."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "64bdd980f98d0c9e96691d1b8598ee75aaa2cfd28fa0e6aeeb944ebf1e395652"
+}

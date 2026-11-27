@@ -1,0 +1,80 @@
+{
+  "id": "fusion-cbfa2t3-glis2",
+  "label": "CBFA2T3::GLIS2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CBFA2T3",
+      "hgnc_id": "HGNC:1537",
+      "ncbi_gene_id": "863"
+    },
+    {
+      "symbol": "GLIS2",
+      "hgnc_id": "HGNC:29450",
+      "ncbi_gene_id": "84662"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric AML, often megakaryoblastic"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CBFA2T3",
+      "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation.",
+      "source_ids": [
+        "ncbi-863"
+      ],
+      "claim_sha256": "313d32ab607d5d39167551e93e53c8b89eacf5e4cdb2819c00f4088f5919422b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "GLIS2",
+      "text": "GLIS2 encodes a zinc-finger transcriptional regulator.",
+      "source_ids": [
+        "ncbi-84662"
+      ],
+      "claim_sha256": "9d695b4b224935eb3cba3ff114a678d483331e8a17252ff19cd9d1ae940d40e8",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The cryptic inv(16)(p13q24) fusion alters transcription through a CBFA2T3-containing GLIS2 protein and drives an aggressive pediatric AML program. It is associated with megakaryoblastic disease and the RAM immunophenotype, including strong CD56 and weak or absent CD45/CD38.",
+      "source_ids": [
+        "aml"
+      ],
+      "claim_sha256": "b2d0d7596f52fb28b03294d28e79d49096b5b0ffbb60ff05c97d67a602d0f012",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "Pediatric CBFA2T3::GLIS2 AML has high relapse risk and poor survival in reported cohorts.",
+      "source_ids": [
+        "aml"
+      ],
+      "claim_sha256": "f5442d3286910cc2a7cc8b6855944567457d73a5202e5de4054cdab66121dccc",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. GLIS2 encodes a zinc-finger transcriptional regulator. The cryptic inv(16)(p13q24) fusion alters transcription through a CBFA2T3-containing GLIS2 protein and drives an aggressive pediatric AML program. It is associated with megakaryoblastic disease and the RAM immunophenotype, including strong CD56 and weak or absent CD45/CD38. Pediatric CBFA2T3::GLIS2 AML has high relapse risk and poor survival in reported cohorts.",
+    "source_ids": [
+      "ncbi-863",
+      "ncbi-84662",
+      "aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "32409a825f61087dbef27ae2652d1b2db4c04492aa64af2ab3ef34e4d6891776"
+}

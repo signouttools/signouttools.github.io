@@ -1,0 +1,83 @@
+{
+  "id": "fusion-runx1-runx1t1",
+  "label": "RUNX1::RUNX1T1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "RUNX1",
+      "hgnc_id": "HGNC:10471",
+      "ncbi_gene_id": "861"
+    },
+    {
+      "symbol": "RUNX1T1",
+      "hgnc_id": "HGNC:1535",
+      "ncbi_gene_id": "862"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Core-binding factor AML"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RUNX1",
+      "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+      "source_ids": [
+        "ncbi-861"
+      ],
+      "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RUNX1T1",
+      "text": "RUNX1T1 encodes ETO, a transcriptional corepressor.",
+      "source_ids": [
+        "ncbi-862"
+      ],
+      "claim_sha256": "45591e134d0dc9e5c3d9a114ae006db80e5f9f39fd7acc0d84ee274579e6471c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(8;21) fusion combines RUNX1 DNA binding with RUNX1T1 transcriptional repression, altering hematopoietic differentiation. It defines a core-binding factor AML subtype.",
+      "source_ids": [
+        "icc-m",
+        "aml"
+      ],
+      "claim_sha256": "f4061b258cba672536bbee1aecf8ed37bc1cbe4677579b54d1d3488f0953770d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "claim_sha256": "f6b0c4be318310efb698e7ef4f8f7ae9322a912cb3d257534bdb724c73b0f0d1",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. RUNX1T1 encodes ETO, a transcriptional corepressor. The t(8;21) fusion combines RUNX1 DNA binding with RUNX1T1 transcriptional repression, altering hematopoietic differentiation. It defines a core-binding factor AML subtype. Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
+    "source_ids": [
+      "ncbi-861",
+      "ncbi-862",
+      "icc-m",
+      "aml",
+      "eln-aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "ee11f0613767e5e7cef9e3842a5c741d704823b4422c3a35a6a075d6a835523e"
+}

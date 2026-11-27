@@ -1,0 +1,85 @@
+{
+  "id": "fusion-nsd3-nutm1",
+  "label": "NSD3::NUTM1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NSD3",
+      "hgnc_id": "HGNC:12767",
+      "ncbi_gene_id": "54904"
+    },
+    {
+      "symbol": "NUTM1",
+      "hgnc_id": "HGNC:29919",
+      "ncbi_gene_id": "256646"
+    }
+  ],
+  "aliases": [
+    "WHSC1L1::NUTM1"
+  ],
+  "tumor_contexts": [
+    "NUT carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NSD3",
+      "text": "NSD3 encodes a chromatin regulator with isoforms that interact with transcriptional machinery.",
+      "source_ids": [
+        "ncbi-54904"
+      ],
+      "claim_sha256": "a0a20fc173b2074b3d78c9aac4e05511f2f7fad34b9d8abf1dcafa4dae1c2b73",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NUTM1",
+      "text": "NUTM1 encodes a normally testis-enriched protein that interacts with the acetyltransferase p300.",
+      "source_ids": [
+        "ncbi-256646"
+      ],
+      "claim_sha256": "afe6363e6b646f319238d3b26e9e2d3a64d16a36564e8f05e17f5a2dc370b84b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. NSD3::NUTM1 is an established alternative driver of NUT carcinoma.",
+      "source_ids": [
+        "nut-mech"
+      ],
+      "claim_sha256": "dee31fe7246d929f3f9e969041bfb1207fdcaf60b412cd9536371f97c2dce194",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "In a retrospective NUT carcinoma cohort, nonthoracic BRD3/NSD3-fused tumors had better survival than nonthoracic BRD4-fused tumors; thoracic site remained an adverse feature.",
+      "source_ids": [
+        "nut-prognosis"
+      ],
+      "claim_sha256": "5ea7f84aa10c6fc879da815b731750529489b06fb46e8eaa686a2908791b1239",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NSD3 encodes a chromatin regulator with isoforms that interact with transcriptional machinery. NUTM1 encodes a normally testis-enriched protein that interacts with the acetyltransferase p300. The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. NSD3::NUTM1 is an established alternative driver of NUT carcinoma. In a retrospective NUT carcinoma cohort, nonthoracic BRD3/NSD3-fused tumors had better survival than nonthoracic BRD4-fused tumors; thoracic site remained an adverse feature.",
+    "source_ids": [
+      "ncbi-54904",
+      "ncbi-256646",
+      "nut-mech",
+      "nut-prognosis"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "BET/p300-directed treatments remain investigational in this draft; no FDA-approved fusion-specific drug is claimed."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "5fb01a86b4130e1bdb26a243f42dba9008a53b7f9260a0c091eff51276759670"
+}

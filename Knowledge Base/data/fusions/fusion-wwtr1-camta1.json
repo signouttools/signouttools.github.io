@@ -1,0 +1,73 @@
+{
+  "id": "fusion-wwtr1-camta1",
+  "label": "WWTR1::CAMTA1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "WWTR1",
+      "hgnc_id": "HGNC:24042",
+      "ncbi_gene_id": "25937"
+    },
+    {
+      "symbol": "CAMTA1",
+      "hgnc_id": "HGNC:18806",
+      "ncbi_gene_id": "23261"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Epithelioid hemangioendothelioma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "WWTR1",
+      "text": "WWTR1 encodes TAZ, a transcriptional coactivator regulated by Hippo signaling.",
+      "source_ids": [
+        "ncbi-25937"
+      ],
+      "claim_sha256": "64901ac9d3431625b1c6f6a76803d3f609c874ee891466d245c587d910e5fe6e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CAMTA1",
+      "text": "CAMTA1 encodes a calmodulin-binding transcriptional regulator.",
+      "source_ids": [
+        "ncbi-23261"
+      ],
+      "claim_sha256": "e0b2471ebedefd2b52a225a1a4a7cd7379cffd047e1d47ba3acb285fdd4a2903",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. WWTR1::CAMTA1 is the canonical molecular driver of epithelioid hemangioendothelioma.",
+      "source_ids": [
+        "ehe"
+      ],
+      "claim_sha256": "d319a47920c02acf0e7066ba983bace91b9b213a57f6e4182140801efaa00fa5",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "WWTR1 encodes TAZ, a transcriptional coactivator regulated by Hippo signaling. CAMTA1 encodes a calmodulin-binding transcriptional regulator. The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. WWTR1::CAMTA1 is the canonical molecular driver of epithelioid hemangioendothelioma.",
+    "source_ids": [
+      "ncbi-25937",
+      "ncbi-23261",
+      "ehe"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "2052fa1781356f589d443e191fa369779d7cbd4c1e77a10519f02edae5147cab"
+}

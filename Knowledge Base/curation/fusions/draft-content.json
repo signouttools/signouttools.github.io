@@ -1,0 +1,5146 @@
+{
+  "version": "0.1.0",
+  "drafted_on": "2026-11-27",
+  "status": "draft_not_specialist_reviewed",
+  "entries": [
+    {
+      "label": "EML4::ALK",
+      "partners": [
+        "EML4",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "An intrachromosomal inversion joins the EML4 oligomerization region to the ALK kinase domain, producing ligand-independent kinase signaling and an established lung-cancer driver.",
+          "source_ids": [
+            "eml4-alk"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ALK-positive metastatic NSCLC is eligible for ALK-directed kinase inhibition; alectinib also has a US adjuvant indication after resection of ALK-positive NSCLC, with the pivotal trial enrolling stage IB tumors at least 4 cm through stage IIIA disease.",
+          "source_ids": [
+            "fda-criz",
+            "fda-alk"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KIF5B::ALK",
+      "partners": [
+        "KIF5B",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. A published lung-cancer case responded to crizotinib and later acquired ALK L1196M.",
+          "source_ids": [
+            "kif5b-alk"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+          "source_ids": [
+            "fda-criz",
+            "kif5b-alk"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "STRN::ALK",
+      "partners": [
+        "STRN",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. Clinical responses to ALK inhibition have been reported in lung adenocarcinoma.",
+          "source_ids": [
+            "strn-alk"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+          "source_ids": [
+            "fda-criz",
+            "strn-alk"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KIF5B::RET",
+      "partners": [
+        "KIF5B",
+        "RET"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. KIF5B::RET is a recurrent lung adenocarcinoma driver.",
+          "source_ids": [
+            "ret-discovery"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+          "source_ids": [
+            "fda-ret"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "RET label evidence is biomarker-class evidence; full-text pair-specific audit remains pending."
+      ]
+    },
+    {
+      "label": "CCDC6::RET",
+      "partners": [
+        "CCDC6",
+        "RET"
+      ],
+      "tumor_contexts": [
+        "Papillary thyroid carcinoma",
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. CCDC6::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma.",
+          "source_ids": [
+            "rtk-cohort"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+          "source_ids": [
+            "fda-ret"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "RET label evidence is biomarker-class evidence; full-text pair-specific audit remains pending."
+      ]
+    },
+    {
+      "label": "NCOA4::RET",
+      "partners": [
+        "NCOA4",
+        "RET"
+      ],
+      "tumor_contexts": [
+        "Papillary thyroid carcinoma",
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins an amino-terminal oligomerization region to the RET tyrosine-kinase domain, enabling ligand-independent signaling. NCOA4::RET is a recurrent activating fusion in papillary thyroid carcinoma and also occurs in lung adenocarcinoma.",
+          "source_ids": [
+            "rtk-cohort"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Selpercatinib is US-approved for adults with locally advanced or metastatic RET-fusion-positive NSCLC. From age 2 years, separate indications cover advanced RET-fusion-positive thyroid cancer requiring systemic therapy and radioactive-iodine-refractory disease when appropriate, and other advanced RET-fusion-positive solid tumors after prior treatment or without satisfactory alternatives.",
+          "source_ids": [
+            "fda-ret"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "RET label evidence is biomarker-class evidence; full-text pair-specific audit remains pending."
+      ]
+    },
+    {
+      "label": "ETV6::RET",
+      "partners": [
+        "ETV6",
+        "RET"
+      ],
+      "tumor_contexts": [
+        "Salivary secretory carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion couples the ETV6 oligomerization region to the RET kinase domain. It is an alternative driver in salivary secretory carcinoma, a tumor more commonly associated with ETV6::NTRK3.",
+          "source_ids": [
+            "etv6-ret"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "For RET-fusion-positive locally advanced or metastatic solid tumors, selpercatinib is US-approved from age 2 years after prior systemic treatment or when no satisfactory alternative exists; this is a RET biomarker-class indication.",
+          "source_ids": [
+            "fda-ret"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "CD74::ROS1",
+      "partners": [
+        "CD74",
+        "ROS1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+          "source_ids": [
+            "ros1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+          "source_ids": [
+            "fda-repotrectinib",
+            "fda-ros1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "SLC34A2::ROS1",
+      "partners": [
+        "SLC34A2",
+        "ROS1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+          "source_ids": [
+            "ros1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+          "source_ids": [
+            "fda-repotrectinib",
+            "fda-ros1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "SDC4::ROS1",
+      "partners": [
+        "SDC4",
+        "ROS1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+          "source_ids": [
+            "ros1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+          "source_ids": [
+            "fda-repotrectinib",
+            "fda-ros1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "EZR::ROS1",
+      "partners": [
+        "EZR",
+        "ROS1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+          "source_ids": [
+            "ros1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+          "source_ids": [
+            "fda-repotrectinib",
+            "fda-ros1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "TPM3::ROS1",
+      "partners": [
+        "TPM3",
+        "ROS1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+          "source_ids": [
+            "ros1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+          "source_ids": [
+            "fda-repotrectinib",
+            "fda-ros1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "GOPC::ROS1",
+      "partners": [
+        "GOPC",
+        "ROS1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ROS1 kinase domain and replaces its amino-terminal regulatory region, generating an activating kinase driver documented in lung adenocarcinoma.",
+          "source_ids": [
+            "ros1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ROS1-positive locally advanced or metastatic NSCLC is a US-approved indication for repotrectinib and taletrectinib in adults. These indications cover ROS1-positive NSCLC rather than a particular partner.",
+          "source_ids": [
+            "fda-repotrectinib",
+            "fda-ros1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "TPM3::NTRK1",
+      "partners": [
+        "TPM3",
+        "NTRK1"
+      ],
+      "tumor_contexts": [
+        "NTRK-rearranged spindle cell neoplasm",
+        "Colorectal carcinoma",
+        "Papillary thyroid carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. TPM3::NTRK1 is a reported oncogenic TRK fusion in colorectal carcinoma, with additional thyroid or mesenchymal associations.",
+          "source_ids": [
+            "ntrk-colon"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+      ]
+    },
+    {
+      "label": "LMNA::NTRK1",
+      "partners": [
+        "LMNA",
+        "NTRK1"
+      ],
+      "tumor_contexts": [
+        "NTRK-rearranged spindle cell neoplasm",
+        "Colorectal carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. LMNA::NTRK1 is a reported oncogenic TRK fusion in colorectal carcinoma, with additional thyroid or mesenchymal associations.",
+          "source_ids": [
+            "ntrk-colon"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+      ]
+    },
+    {
+      "label": "TPR::NTRK1",
+      "partners": [
+        "TPR",
+        "NTRK1"
+      ],
+      "tumor_contexts": [
+        "Colorectal carcinoma",
+        "Thyroid carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. TPR::NTRK1 is a reported oncogenic TRK fusion in colorectal carcinoma, with additional thyroid or mesenchymal associations.",
+          "source_ids": [
+            "ntrk-colon"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+      ]
+    },
+    {
+      "label": "SQSTM1::NTRK1",
+      "partners": [
+        "SQSTM1",
+        "NTRK1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma",
+        "Thyroid carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. SQSTM1::NTRK1 is a reported oncogenic TRK fusion in thyroid carcinoma.",
+          "source_ids": [
+            "ntrk-thyroid"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+      ]
+    },
+    {
+      "label": "EML4::NTRK3",
+      "partners": [
+        "EML4",
+        "NTRK3"
+      ],
+      "tumor_contexts": [
+        "Thyroid carcinoma",
+        "NTRK-rearranged spindle cell neoplasm"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. EML4::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma.",
+          "source_ids": [
+            "ntrk-thyroid"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+      ]
+    },
+    {
+      "label": "SQSTM1::NTRK3",
+      "partners": [
+        "SQSTM1",
+        "NTRK3"
+      ],
+      "tumor_contexts": [
+        "Thyroid carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the carboxy-terminal TRK kinase domain and replaces normal receptor regulation with partner-dependent activation. SQSTM1::NTRK3 is a reported oncogenic TRK fusion in thyroid carcinoma.",
+          "source_ids": [
+            "ntrk-thyroid"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An oncogenic NTRK fusion without a known acquired TRK resistance mutation is a larotrectinib biomarker in adults and children with advanced solid tumors after progression or without satisfactory alternatives; the indication also requires metastatic disease or surgery associated with severe morbidity.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact junction, kinase retention and expression require assay-level confirmation; no prognosis is assigned from the partner alone."
+      ]
+    },
+    {
+      "label": "ETV6::NTRK3",
+      "partners": [
+        "ETV6",
+        "NTRK3"
+      ],
+      "tumor_contexts": [
+        "Infantile fibrosarcoma",
+        "Cellular congenital mesoblastic nephroma",
+        "Secretory carcinoma of breast",
+        "Salivary secretory carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins the ETV6 oligomerization domain to the NTRK3 kinase domain, generating a transforming kinase. It is characteristic of infantile fibrosarcoma and secretory carcinomas and also occurs in cellular congenital mesoblastic nephroma.",
+          "source_ids": [
+            "etv6-ntrk3-mech",
+            "etv6-ntrk3-breast",
+            "etv6-ntrk3-fs",
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Larotrectinib targets oncogenic NTRK-fusion-positive advanced solid tumors in adults and children without known acquired TRK resistance mutations, after progression or without satisfactory alternatives, when disease is metastatic or surgery would cause severe morbidity.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Do not apply the solid-tumor label automatically to rare ETV6::NTRK3-positive leukemias."
+      ]
+    },
+    {
+      "label": "ETV6::NTRK2",
+      "partners": [
+        "ETV6",
+        "NTRK2"
+      ],
+      "tumor_contexts": [
+        "Pulmonary atypical carcinoid"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The reported fusion retains the NTRK2 kinase region in an ETV6-containing product. ETV6::NTRK2 has been documented in metastatic pulmonary atypical carcinoid with a clinical response to entrectinib; evidence for this specific pairing includes individual cases.",
+          "source_ids": [
+            "etv6-ntrk2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An expressed oncogenic NTRK fusion can meet the NTRK solid-tumor biomarker definition for TRK inhibition; larotrectinib eligibility includes advanced disease, absence of known acquired resistance mutations, and prior progression or no satisfactory alternative.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Rare pairing: retain case-level evidence designation."
+      ]
+    },
+    {
+      "label": "FGFR2::BICC1",
+      "partners": [
+        "FGFR2",
+        "BICC1"
+      ],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::BICC1 was detected in intrahepatic cholangiocarcinoma.",
+          "source_ids": [
+            "fgfr2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+          "source_ids": [
+            "fda-fgfr2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FGFR2::AHCYL1",
+      "partners": [
+        "FGFR2",
+        "AHCYL1"
+      ],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::AHCYL1 was detected in intrahepatic cholangiocarcinoma.",
+          "source_ids": [
+            "fgfr2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+          "source_ids": [
+            "fda-fgfr2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FGFR2::ETV6",
+      "partners": [
+        "FGFR2",
+        "ETV6"
+      ],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::ETV6 was detected in intrahepatic cholangiocarcinoma.",
+          "source_ids": [
+            "fgfr2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+          "source_ids": [
+            "fda-fgfr2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FGFR2::INA",
+      "partners": [
+        "FGFR2",
+        "INA"
+      ],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::INA was detected in intrahepatic cholangiocarcinoma.",
+          "source_ids": [
+            "fgfr2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+          "source_ids": [
+            "fda-fgfr2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FGFR3::TACC3",
+      "partners": [
+        "FGFR3",
+        "TACC3"
+      ],
+      "tumor_contexts": [
+        "Glioblastoma",
+        "Urothelial carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models.",
+          "source_ids": [
+            "fgfr-tacc"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication.",
+          "source_ids": [
+            "fgfr-tacc"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "In adults with locally advanced or metastatic urothelial carcinoma, a susceptible FGFR3 alteration such as FGFR3::TACC3 can support erdafitinib treatment after at least one prior systemic therapy. The US label does not recommend erdafitinib before PD-1/PD-L1 therapy in eligible patients. This indication does not cover glioma.",
+          "source_ids": [
+            "fda-erdafitinib",
+            "fgfr3-cdx"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Distinguish glioma preclinical evidence from the urothelial carcinoma indication."
+      ]
+    },
+    {
+      "label": "FGFR1::TACC1",
+      "partners": [
+        "FGFR1",
+        "TACC1"
+      ],
+      "tumor_contexts": [
+        "Glioma",
+        "Extraventricular neurocytoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the FGFR kinase domain and the TACC coiled-coil region, promoting constitutive kinase activity and abnormal mitotic-spindle function. Transforming activity has been demonstrated in glioma models.",
+          "source_ids": [
+            "fgfr-tacc"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "FGFR inhibition has shown activity in experimental fusion-positive glioma models; this preclinical evidence does not establish an approved glioma indication.",
+          "source_ids": [
+            "fgfr-tacc"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "CD74::NRG1",
+      "partners": [
+        "CD74",
+        "NRG1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma, often invasive mucinous"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the NRG1 EGF-like ligand domain and promotes ERBB3 signaling through ERBB2/ERBB3 receptor complexes. This is a ligand-driven oncogenic mechanism rather than a kinase fusion. CD74::NRG1 has been detected in carcinomas.",
+          "source_ids": [
+            "nrg1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Zenocutuzumab, a HER2/HER3 bispecific antibody, has US indications for adults with NRG1-fusion-positive advanced unresectable or metastatic NSCLC, pancreatic adenocarcinoma or cholangiocarcinoma after progression on prior systemic therapy.",
+          "source_ids": [
+            "fda-nrg1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "SLC3A2::NRG1",
+      "partners": [
+        "SLC3A2",
+        "NRG1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the NRG1 EGF-like ligand domain and promotes ERBB3 signaling through ERBB2/ERBB3 receptor complexes. This is a ligand-driven oncogenic mechanism rather than a kinase fusion. SLC3A2::NRG1 has been detected in carcinomas.",
+          "source_ids": [
+            "nrg1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Zenocutuzumab, a HER2/HER3 bispecific antibody, has US indications for adults with NRG1-fusion-positive advanced unresectable or metastatic NSCLC, pancreatic adenocarcinoma or cholangiocarcinoma after progression on prior systemic therapy.",
+          "source_ids": [
+            "fda-nrg1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ATP1B1::NRG1",
+      "partners": [
+        "ATP1B1",
+        "NRG1"
+      ],
+      "tumor_contexts": [
+        "Pancreatic adenocarcinoma",
+        "Lung adenocarcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves the NRG1 EGF-like ligand domain and promotes ERBB3 signaling through ERBB2/ERBB3 receptor complexes. This is a ligand-driven oncogenic mechanism rather than a kinase fusion. ATP1B1::NRG1 has been detected in carcinomas.",
+          "source_ids": [
+            "nrg1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Zenocutuzumab, a HER2/HER3 bispecific antibody, has US indications for adults with NRG1-fusion-positive advanced unresectable or metastatic NSCLC, pancreatic adenocarcinoma or cholangiocarcinoma after progression on prior systemic therapy.",
+          "source_ids": [
+            "fda-nrg1"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "TPM3::ALK",
+      "partners": [
+        "TPM3",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. TPM3::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+          "source_ids": [
+            "sarcoma",
+            "imt-kinases"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "TPM4::ALK",
+      "partners": [
+        "TPM4",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. TPM4::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+          "source_ids": [
+            "sarcoma",
+            "imt-kinases"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "CLTC::ALK",
+      "partners": [
+        "CLTC",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor",
+        "ALK-positive large B-cell lymphoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CLTC::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+          "source_ids": [
+            "sarcoma",
+            "icc-l",
+            "imt-kinases"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "RANBP2::ALK",
+      "partners": [
+        "RANBP2",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor",
+        "Epithelioid inflammatory myofibroblastic sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. RANBP2::ALK is associated with epithelioid inflammatory myofibroblastic sarcoma and often nuclear-membrane ALK staining.",
+          "source_ids": [
+            "sarcoma",
+            "ranbp2-alk",
+            "imt-kinases"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "The RANBP2::ALK-associated epithelioid sarcoma phenotype has a more aggressive course than conventional inflammatory myofibroblastic tumor.",
+          "source_ids": [
+            "ranbp2-alk"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "CARS1::ALK",
+      "partners": [
+        "CARS1",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CARS1::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+          "source_ids": [
+            "cars-alk"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": [],
+      "aliases": [
+        "CARS::ALK"
+      ]
+    },
+    {
+      "label": "NPM1::ALK",
+      "partners": [
+        "NPM1",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "ALK-positive anaplastic large cell lymphoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion uses NPM1-mediated oligomerization to activate the ALK kinase and downstream survival pathways. It is the principal fusion in ALK-positive anaplastic large cell lymphoma.",
+          "source_ids": [
+            "icc-l"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib has a US indication for relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma in children aged at least 1 year and young adults. Its efficacy and safety for that indication were not established in older adults in the cited label.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "BCR::ABL1",
+      "partners": [
+        "BCR",
+        "ABL1"
+      ],
+      "tumor_contexts": [
+        "Chronic myeloid leukemia",
+        "B-lymphoblastic leukemia",
+        "Rare de novo AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The Philadelphia-chromosome rearrangement joins the BCR oligomerization region to the ABL1 kinase, generating constitutive tyrosine-kinase signaling. It defines CML and a major B-ALL subtype; p210 and p190 are common transcript products.",
+          "source_ids": [
+            "icc-m",
+            "all"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ABL1-directed tyrosine-kinase inhibitors are established treatment components in CML and Philadelphia-positive ALL. Fusion transcript quantification also provides a molecular response marker.",
+          "source_ids": [
+            "all",
+            "icc-m"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Add a dated disease-specific drug label before enumerating individual agents or lines of therapy."
+      ]
+    },
+    {
+      "label": "PML::RARA",
+      "partners": [
+        "PML",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "Acute promyelocytic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(15;17) fusion alters retinoic-acid-dependent transcription, recruits repressive chromatin machinery and disrupts PML nuclear bodies, producing a block in promyelocyte differentiation. It is the defining driver of conventional acute promyelocytic leukemia.",
+          "source_ids": [
+            "icc-m",
+            "aml"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "All-trans retinoic acid and arsenic trioxide directly address the PML::RARA disease mechanism and are central to acute promyelocytic leukemia therapy.",
+          "source_ids": [
+            "aml"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "RUNX1::RUNX1T1",
+      "partners": [
+        "RUNX1",
+        "RUNX1T1"
+      ],
+      "tumor_contexts": [
+        "Core-binding factor AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(8;21) fusion combines RUNX1 DNA binding with RUNX1T1 transcriptional repression, altering hematopoietic differentiation. It defines a core-binding factor AML subtype.",
+          "source_ids": [
+            "icc-m",
+            "aml"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "CBFB::MYH11",
+      "partners": [
+        "CBFB",
+        "MYH11"
+      ],
+      "tumor_contexts": [
+        "Core-binding factor AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The inv(16)/t(16;16) fusion alters CBFB interaction with RUNX1 and core-binding factor transcription, impairing myeloid differentiation. It is associated with AML showing myelomonocytic differentiation and abnormal eosinophils.",
+          "source_ids": [
+            "icc-m",
+            "aml"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "DEK::NUP214",
+      "partners": [
+        "DEK",
+        "NUP214"
+      ],
+      "tumor_contexts": [
+        "AML with DEK::NUP214"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(6;9) fusion links DEK to the carboxy-terminal region of NUP214, producing an abnormal nuclear protein that alters transcriptional and proliferative programs. It defines a recurrent AML subtype and often co-occurs with FLT3-ITD.",
+          "source_ids": [
+            "icc-m",
+            "aml"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "RBM15::MRTFA",
+      "partners": [
+        "RBM15",
+        "MRTFA"
+      ],
+      "tumor_contexts": [
+        "Infant acute megakaryoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(1;22) fusion joins an RNA-associated regulator to a serum-response-factor coactivator and dysregulates hematopoietic transcription. It is characteristic of a subset of infant non-Down-syndrome acute megakaryoblastic leukemia.",
+          "source_ids": [
+            "aml"
+          ]
+        }
+      ],
+      "curation_notes": [],
+      "aliases": [
+        "RBM15::MKL1",
+        "OTT::MAL"
+      ]
+    },
+    {
+      "label": "KMT2A::MLLT3",
+      "partners": [
+        "KMT2A",
+        "MLLT3"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery.",
+          "source_ids": [
+            "icc-m",
+            "kmt2a-adult",
+            "kmt2a-recombinome"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML, KMT2A::MLLT3 is assigned intermediate ELN 2022 genetic risk, unlike most other KMT2A rearrangements.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+          "source_ids": [
+            "fda-menin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KMT2A::AFF1",
+      "partners": [
+        "KMT2A",
+        "AFF1"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia, particularly infant disease",
+        "AML",
+        "Mixed-phenotype acute leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery.",
+          "source_ids": [
+            "icc-m",
+            "kmt2a-recombinome"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+          "source_ids": [
+            "fda-menin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KMT2A::MLLT10",
+      "partners": [
+        "KMT2A",
+        "MLLT10"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery.",
+          "source_ids": [
+            "icc-m",
+            "kmt2a-adult",
+            "kmt2a-recombinome"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "KMT2A::MLLT10 has adverse outcome associations in pediatric AML cohorts; adult ELN 2022 places non-MLLT3 KMT2A rearrangements in the adverse group.",
+          "source_ids": [
+            "kmt2a-outcomes",
+            "eln-aml"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+          "source_ids": [
+            "fda-menin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KMT2A::ELL",
+      "partners": [
+        "KMT2A",
+        "ELL"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery.",
+          "source_ids": [
+            "icc-m",
+            "kmt2a-adult",
+            "kmt2a-recombinome"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+          "source_ids": [
+            "fda-menin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KMT2A::AFDN",
+      "partners": [
+        "KMT2A",
+        "AFDN"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. For this partner, the fusion represents a gain of leukemogenic transcriptional function rather than simple loss of the native partner.",
+          "source_ids": [
+            "icc-m",
+            "kmt2a-adult",
+            "kmt2a-recombinome"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "KMT2A::AFDN has been associated with particularly poor event-free survival in pediatric AML cohorts.",
+          "source_ids": [
+            "kmt2a-outcomes"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+          "source_ids": [
+            "fda-menin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KMT2A::MLLT1",
+      "partners": [
+        "KMT2A",
+        "MLLT1"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. The partner connects KMT2A to abnormal transcriptional elongation or associated chromatin machinery.",
+          "source_ids": [
+            "icc-m",
+            "kmt2a-adult",
+            "kmt2a-recombinome"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+          "source_ids": [
+            "fda-menin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KMT2A::MLLT6",
+      "partners": [
+        "KMT2A",
+        "MLLT6"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal KMT2A chromatin-targeting and menin-interaction region while replacing its normal carboxy terminus. The altered complex sustains HOXA/MEIS1-associated self-renewal programs and drives acute leukemia. For this partner, the fusion represents a gain of leukemogenic transcriptional function rather than simple loss of the native partner.",
+          "source_ids": [
+            "icc-m",
+            "kmt2a-recombinome"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib is US-approved for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year. This indication targets the menin-dependent KMT2A fusion class.",
+          "source_ids": [
+            "fda-menin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "NUP98::NSD1",
+      "partners": [
+        "NUP98",
+        "NSD1"
+      ],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The NSD1 partner contributes chromatin-regulatory activity, and FLT3-ITD is a frequent cooperating alteration.",
+          "source_ids": [
+            "nup98",
+            "nup98-mech"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "NUP98-rearranged pediatric AML has been associated with poor treatment outcomes in large cohorts; the strongest partner-specific evidence is for NSD1 and KDM5A.",
+          "source_ids": [
+            "nup98"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "NUP98::KDM5A",
+      "partners": [
+        "NUP98",
+        "KDM5A"
+      ],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The KDM5A partner contributes chromatin-reading regions; the fusion is enriched in young children and acute megakaryoblastic leukemia.",
+          "source_ids": [
+            "nup98",
+            "nup98-mech"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "NUP98-rearranged pediatric AML has been associated with poor treatment outcomes in large cohorts; the strongest partner-specific evidence is for NSD1 and KDM5A.",
+          "source_ids": [
+            "nup98"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "NUP98::HOXA9",
+      "partners": [
+        "NUP98",
+        "HOXA9"
+      ],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXA9 homeodomain supplies DNA binding to the NUP98 activation region.",
+          "source_ids": [
+            "nup98"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "NUP98::HOXD13",
+      "partners": [
+        "NUP98",
+        "HOXD13"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Myelodysplastic neoplasia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The HOXD13 homeodomain supplies DNA binding to the NUP98 activation region.",
+          "source_ids": [
+            "nup98"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "NUP98::DDX10",
+      "partners": [
+        "NUP98",
+        "DDX10"
+      ],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The DDX10 partner contributes sequences from an RNA helicase; experimental models support leukemogenic transcriptional activity.",
+          "source_ids": [
+            "nup98",
+            "nup98-mech"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "NUP98::TOP1",
+      "partners": [
+        "NUP98",
+        "TOP1"
+      ],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the amino-terminal FG-repeat region of NUP98 and creates an abnormal transcriptional regulator associated with sustained HOX-gene expression. The TOP1 partner contributes carboxy-terminal topoisomerase sequences; it is a rare recurrent NUP98 partner in AML.",
+          "source_ids": [
+            "nup98"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "CBFA2T3::GLIS2",
+      "partners": [
+        "CBFA2T3",
+        "GLIS2"
+      ],
+      "tumor_contexts": [
+        "Pediatric AML, often megakaryoblastic"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The cryptic inv(16)(p13q24) fusion alters transcription through a CBFA2T3-containing GLIS2 protein and drives an aggressive pediatric AML program. It is associated with megakaryoblastic disease and the RAM immunophenotype, including strong CD56 and weak or absent CD45/CD38.",
+          "source_ids": [
+            "aml"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "Pediatric CBFA2T3::GLIS2 AML has high relapse risk and poor survival in reported cohorts.",
+          "source_ids": [
+            "aml"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FUS::ERG",
+      "partners": [
+        "FUS",
+        "ERG"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Rare Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(16;21)(p11;q22) fusion combines the FUS transcriptional activation region with ERG DNA-binding sequences, creating an aberrant ETS transcription factor. It defines a rare AML subtype distinct from RUNX1::CBFA2T3 AML.",
+          "source_ids": [
+            "t16"
+          ]
+        },
+        {
+          "kind": "tumor_relevance",
+          "text": "FUS::ERG also occurs rarely in Ewing sarcoma. The adverse AML outcome association below applies to pediatric leukemia, not to all tumors with this pair.",
+          "source_ids": [
+            "ewing"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
+          "source_ids": [
+            "t16"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "RUNX1::CBFA2T3",
+      "partners": [
+        "RUNX1",
+        "CBFA2T3"
+      ],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(16;21)(q24;q22) fusion combines RUNX1 DNA binding with a CBFA2T3 corepressor region, altering myeloid transcription. Its expression profile resembles RUNX1::RUNX1T1 AML.",
+          "source_ids": [
+            "t16"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In the pediatric I-BFM cohort, outcomes resembled other core-binding factor leukemias and were substantially better than those of FUS::ERG AML.",
+          "source_ids": [
+            "t16"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "PICALM::MLLT10",
+      "partners": [
+        "PICALM",
+        "MLLT10"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia",
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The CALM::AF10 fusion uses PICALM-associated trafficking/export interactions and MLLT10-mediated DOT1L recruitment to activate HOXA-associated transcription. It is recurrent in T-ALL and occurs less often in AML.",
+          "source_ids": [
+            "af10"
+          ]
+        }
+      ],
+      "curation_notes": [],
+      "aliases": [
+        "CALM::AF10"
+      ]
+    },
+    {
+      "label": "SET::NUP214",
+      "partners": [
+        "SET",
+        "NUP214"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia",
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion produces a SET-containing NUP214 protein that perturbs nuclear-export-associated transcription and is linked to HOXA activation. It is found in immature T-lineage leukemia and some AML cases.",
+          "source_ids": [
+            "set-nup214",
+            "icc-m"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Original primary functional abstract inspected; full-text claim audit pending."
+      ]
+    },
+    {
+      "label": "KAT6A::CREBBP",
+      "partners": [
+        "KAT6A",
+        "CREBBP"
+      ],
+      "tumor_contexts": [
+        "AML, often monocytic or myelomonocytic"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation.",
+          "source_ids": [
+            "kat6a",
+            "aml"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk. Congenital cases can have a distinct course, including reported spontaneous remissions.",
+          "source_ids": [
+            "eln-aml",
+            "aml"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KAT6A::EP300",
+      "partners": [
+        "KAT6A",
+        "EP300"
+      ],
+      "tumor_contexts": [
+        "AML, often monocytic or myelomonocytic"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins two acetyltransferase-associated transcriptional regulators, redirecting chromatin acetylation and leukemogenic gene expression. KAT6A fusions are associated with monocytic differentiation, erythrophagocytosis and sometimes disseminated intravascular coagulation.",
+          "source_ids": [
+            "kat6a",
+            "aml"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ZBTB16::RARA",
+      "partners": [
+        "ZBTB16",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+          "source_ids": [
+            "rara"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
+          "source_ids": [
+            "rara"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "NPM1::RARA",
+      "partners": [
+        "NPM1",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+          "source_ids": [
+            "rara"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ATRA responsiveness has been reported with NPM1::RARA, but evidence comes from rare variant-APL cases and does not establish the standard PML::RARA ATRA/arsenic regimen for this fusion.",
+          "source_ids": [
+            "rara"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "STAT5B::RARA",
+      "partners": [
+        "STAT5B",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+          "source_ids": [
+            "rara"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
+          "source_ids": [
+            "rara",
+            "stat5-rara"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FIP1L1::PDGFRA",
+      "partners": [
+        "FIP1L1",
+        "PDGFRA"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with PDGFRA rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "A cryptic 4q12 deletion joins FIP1L1 to PDGFRA and disrupts PDGFRA juxtamembrane autoinhibition, creating a constitutively active kinase. It commonly presents as a myeloid neoplasm with eosinophilia.",
+          "source_ids": [
+            "pdgfra"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "FIP1L1::PDGFRA is highly imatinib-sensitive, with durable hematologic and molecular responses reported in clinical studies.",
+          "source_ids": [
+            "pdgfra"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ETV6::PDGFRB",
+      "partners": [
+        "ETV6",
+        "PDGFRB"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with PDGFRB rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion couples ETV6 oligomerization to the PDGFRB kinase, driving ligand-independent signaling. It occurs in myeloid/lymphoid neoplasms that often show eosinophilia or a chronic myelomonocytic presentation.",
+          "source_ids": [
+            "icc-m",
+            "pdgfrb"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Imatinib has produced durable long-term remissions in PDGFRB-fusion-positive myeloid neoplasms, including ETV6::PDGFRB disease.",
+          "source_ids": [
+            "pdgfrb"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ZMYM2::FGFR1",
+      "partners": [
+        "ZMYM2",
+        "FGFR1"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the FGFR1 kinase and replaces receptor control with a partner-derived self-association region, producing constitutive signaling. FGFR1-rearranged neoplasms can involve myeloid disease and lymphoblastic lymphoma/leukemia, with progression to blast phase.",
+          "source_ids": [
+            "icc-m",
+            "fgfr1-heme"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Pemigatinib is US-approved for adults with relapsed or refractory myeloid/lymphoid neoplasms harboring an FGFR1 rearrangement. ZMYM2 and BCR were frequent partners in FIGHT-203.",
+          "source_ids": [
+            "fda-fgfr1",
+            "fgfr1-heme"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "BCR::FGFR1",
+      "partners": [
+        "BCR",
+        "FGFR1"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the FGFR1 kinase and replaces receptor control with a partner-derived self-association region, producing constitutive signaling. FGFR1-rearranged neoplasms can involve myeloid disease and lymphoblastic lymphoma/leukemia, with progression to blast phase.",
+          "source_ids": [
+            "icc-m",
+            "fgfr1-heme"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Pemigatinib is US-approved for adults with relapsed or refractory myeloid/lymphoid neoplasms harboring an FGFR1 rearrangement. ZMYM2 and BCR were frequent partners in FIGHT-203.",
+          "source_ids": [
+            "fda-fgfr1",
+            "fgfr1-heme"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "PCM1::JAK2",
+      "partners": [
+        "PCM1",
+        "JAK2"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with JAK2 rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PCM1::JAK2 is associated with myeloid/lymphoid neoplasia.",
+          "source_ids": [
+            "icc-m"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+          "source_ids": [
+            "jak2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ETV6::JAK2",
+      "partners": [
+        "ETV6",
+        "JAK2"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. ETV6::JAK2 is associated with myeloid/lymphoid neoplasia.",
+          "source_ids": [
+            "icc-m"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "BCR::JAK2",
+      "partners": [
+        "BCR",
+        "JAK2"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. BCR::JAK2 is associated with myeloid/lymphoid neoplasia.",
+          "source_ids": [
+            "phlike"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+          "source_ids": [
+            "jak2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "PAX5::JAK2",
+      "partners": [
+        "PAX5",
+        "JAK2"
+      ],
+      "tumor_contexts": [
+        "Ph-like B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. PAX5::JAK2 is a kinase-activating lesion in Ph-like B-ALL.",
+          "source_ids": [
+            "phlike"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "JAK inhibition has experimental activity in JAK2-fusion-positive ALL models; this evidence is investigational for PAX5::JAK2 leukemia.",
+          "source_ids": [
+            "phlike-functional"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ETV6::FLT3",
+      "partners": [
+        "ETV6",
+        "FLT3"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FLT3 rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion couples ETV6-associated oligomerization to the FLT3 kinase region, creating an activating kinase. Reported disease can resemble a myeloproliferative neoplasm with eosinophilia or present with lymphoid involvement.",
+          "source_ids": [
+            "flt3",
+            "icc-m"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Gilteritinib induced immunophenotypic and cytogenetic remission in a published infant with ETV6::FLT3; this is case-level off-label evidence, distinct from the FLT3-mutation AML indication.",
+          "source_ids": [
+            "flt3"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ETV6::ABL1",
+      "partners": [
+        "ETV6",
+        "ABL1"
+      ],
+      "tumor_contexts": [
+        "Ph-like B-ALL",
+        "Myeloid/lymphoid neoplasm with ETV6::ABL1"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. ETV6::ABL1 is an ABL-class kinase lesion in Ph-like B-ALL.",
+          "source_ids": [
+            "phlike",
+            "phlike2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+          "source_ids": [
+            "phlike",
+            "phlike-functional"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+      ]
+    },
+    {
+      "label": "RCSD1::ABL1",
+      "partners": [
+        "RCSD1",
+        "ABL1"
+      ],
+      "tumor_contexts": [
+        "Ph-like B-ALL"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. RCSD1::ABL1 is an ABL-class kinase lesion in Ph-like B-ALL.",
+          "source_ids": [
+            "phlike",
+            "phlike2",
+            "phlike-functional"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+          "source_ids": [
+            "phlike",
+            "phlike-functional"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+      ]
+    },
+    {
+      "label": "NUP214::ABL1",
+      "partners": [
+        "NUP214",
+        "ABL1"
+      ],
+      "tumor_contexts": [
+        "T-ALL",
+        "Ph-like B-ALL"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. NUP214::ABL1 can be amplified on episomes in T-ALL; nuclear-pore localization contributes to its activity. It also occurs in Ph-like B-ALL.",
+          "source_ids": [
+            "phlike",
+            "phlike2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+          "source_ids": [
+            "phlike",
+            "phlike-functional"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+      ]
+    },
+    {
+      "label": "EBF1::PDGFRB",
+      "partners": [
+        "EBF1",
+        "PDGFRB"
+      ],
+      "tumor_contexts": [
+        "Ph-like B-ALL"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. EBF1::PDGFRB is an ABL-class kinase lesion in Ph-like B-ALL.",
+          "source_ids": [
+            "phlike",
+            "phlike2"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+          "source_ids": [
+            "phlike",
+            "phlike-functional"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+      ]
+    },
+    {
+      "label": "SSBP2::CSF1R",
+      "partners": [
+        "SSBP2",
+        "CSF1R"
+      ],
+      "tumor_contexts": [
+        "Ph-like B-ALL"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. SSBP2::CSF1R is an ABL-class kinase lesion in Ph-like B-ALL.",
+          "source_ids": [
+            "phlike",
+            "phlike2",
+            "phlike-functional"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+          "source_ids": [
+            "phlike",
+            "phlike-functional"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+      ]
+    },
+    {
+      "label": "ETV6::RUNX1",
+      "partners": [
+        "ETV6",
+        "RUNX1"
+      ],
+      "tumor_contexts": [
+        "Childhood B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The cryptic t(12;21) fusion combines ETV6 repressive activity with RUNX1 DNA-binding regions and perturbs B-cell differentiation. It is a common initiating lesion in childhood B-ALL and can arise prenatally.",
+          "source_ids": [
+            "all"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "ETV6::RUNX1-positive childhood B-ALL generally has favorable outcomes with contemporary chemotherapy, although late relapse occurs.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "TCF3::PBX1",
+      "partners": [
+        "TCF3",
+        "PBX1"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(1;19) fusion joins the TCF3 activation region to the PBX1 homeodomain, creating an abnormal transcription factor. It defines a recurrent B-ALL subtype, often with a pre-B phenotype.",
+          "source_ids": [
+            "all"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "Outcomes have improved with intensive modern ALL therapy; historical adverse-risk estimates should not be applied to current regimens. Adult ELN 2024 describes favorable outcomes with intensive therapy.",
+          "source_ids": [
+            "eln-all"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "TCF3::HLF",
+      "partners": [
+        "TCF3",
+        "HLF"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(17;19) fusion joins TCF3 transcriptional activation to the HLF DNA-binding region and produces a distinct antiapoptotic leukemia program. The leukemia can present with hypercalcemia and has marked chemotherapy resistance.",
+          "source_ids": [
+            "hlf",
+            "all"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "TCF3::HLF is an adverse prognostic subtype with historically very poor survival.",
+          "source_ids": [
+            "eln-all"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "BCL2 inhibition has demonstrated preclinical sensitivity; blinatumomab-based treatment followed by transplantation has produced durable survivors in small clinical cohorts. These are investigational or disease-directed approaches rather than an HLF-specific FDA indication.",
+          "source_ids": [
+            "hlf",
+            "hlf-clinical"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "MEF2D::BCL9",
+      "partners": [
+        "MEF2D",
+        "BCL9"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription.",
+          "source_ids": [
+            "mef2d"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "MEF2D::HNRNPUL1",
+      "partners": [
+        "MEF2D",
+        "HNRNPUL1"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription.",
+          "source_ids": [
+            "mef2d"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "EP300::ZNF384",
+      "partners": [
+        "EP300",
+        "ZNF384"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a transcriptional-regulatory partner to ZNF384 and alters hematopoietic lineage programs. ZNF384-rearranged leukemia often shows weak CD10 with aberrant CD13/CD33 expression and can have B-lineage/myeloid phenotypic overlap.",
+          "source_ids": [
+            "znf384",
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols."
+      ]
+    },
+    {
+      "label": "TCF3::ZNF384",
+      "partners": [
+        "TCF3",
+        "ZNF384"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a transcriptional-regulatory partner to ZNF384 and alters hematopoietic lineage programs. ZNF384-rearranged leukemia often shows weak CD10 with aberrant CD13/CD33 expression and can have B-lineage/myeloid phenotypic overlap.",
+          "source_ids": [
+            "znf384",
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols."
+      ]
+    },
+    {
+      "label": "TAF15::ZNF384",
+      "partners": [
+        "TAF15",
+        "ZNF384"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a transcriptional-regulatory partner to ZNF384 and alters hematopoietic lineage programs. ZNF384-rearranged leukemia often shows weak CD10 with aberrant CD13/CD33 expression and can have B-lineage/myeloid phenotypic overlap.",
+          "source_ids": [
+            "znf384",
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols."
+      ]
+    },
+    {
+      "label": "PAX5::ETV6",
+      "partners": [
+        "PAX5",
+        "ETV6"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins PAX5 DNA-binding sequences to ETV6 regulatory regions, impairing normal PAX5-dependent B-cell differentiation. It is a recurrent lesion within PAX5-altered B-ALL.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Pair-specific functional paper and modern subtype-level outcome audit remain pending."
+      ]
+    },
+    {
+      "label": "BIRC3::MALT1",
+      "partners": [
+        "BIRC3",
+        "MALT1"
+      ],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(11;18) fusion joins BIRC3 BIR domains to MALT1 signaling/paracaspase regions and activates NF-kappaB signaling. It occurs in extranodal marginal zone lymphoma, especially gastric and pulmonary MALT lymphoma.",
+          "source_ids": [
+            "icc-l"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "In gastric MALT lymphoma, t(11;18)/BIRC3::MALT1 is associated with reduced likelihood of lymphoma regression after Helicobacter pylori eradication.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [],
+      "aliases": [
+        "API2::MALT1"
+      ]
+    },
+    {
+      "label": "EWSR1::FLI1",
+      "partners": [
+        "EWSR1",
+        "FLI1"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links the EWSR1 amino-terminal transcriptional activation region to an ETS-family DNA-binding region, creating an oncogenic transcription factor that reprograms cell identity. EWSR1::FLI1 is a recognized Ewing sarcoma fusion.",
+          "source_ids": [
+            "ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Rare ETS partners are supported as disease-associated fusions; dedicated functional studies are strongest for EWSR1::FLI1."
+      ]
+    },
+    {
+      "label": "EWSR1::ERG",
+      "partners": [
+        "EWSR1",
+        "ERG"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links the EWSR1 amino-terminal transcriptional activation region to an ETS-family DNA-binding region, creating an oncogenic transcription factor that reprograms cell identity. EWSR1::ERG is a recognized Ewing sarcoma fusion.",
+          "source_ids": [
+            "ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Rare ETS partners are supported as disease-associated fusions; dedicated functional studies are strongest for EWSR1::FLI1."
+      ]
+    },
+    {
+      "label": "EWSR1::ETV1",
+      "partners": [
+        "EWSR1",
+        "ETV1"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links the EWSR1 amino-terminal transcriptional activation region to an ETS-family DNA-binding region, creating an oncogenic transcription factor that reprograms cell identity. EWSR1::ETV1 is a recognized Ewing sarcoma fusion.",
+          "source_ids": [
+            "ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Rare ETS partners are supported as disease-associated fusions; dedicated functional studies are strongest for EWSR1::FLI1."
+      ]
+    },
+    {
+      "label": "EWSR1::ETV4",
+      "partners": [
+        "EWSR1",
+        "ETV4"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links the EWSR1 amino-terminal transcriptional activation region to an ETS-family DNA-binding region, creating an oncogenic transcription factor that reprograms cell identity. EWSR1::ETV4 is a recognized Ewing sarcoma fusion.",
+          "source_ids": [
+            "ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Rare ETS partners are supported as disease-associated fusions; dedicated functional studies are strongest for EWSR1::FLI1."
+      ]
+    },
+    {
+      "label": "EWSR1::FEV",
+      "partners": [
+        "EWSR1",
+        "FEV"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links the EWSR1 amino-terminal transcriptional activation region to an ETS-family DNA-binding region, creating an oncogenic transcription factor that reprograms cell identity. EWSR1::FEV is a recognized Ewing sarcoma fusion.",
+          "source_ids": [
+            "ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Rare ETS partners are supported as disease-associated fusions; dedicated functional studies are strongest for EWSR1::FLI1."
+      ]
+    },
+    {
+      "label": "SS18::SSX1",
+      "partners": [
+        "SS18",
+        "SSX1"
+      ],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion replaces the SS18 carboxy terminus with SSX sequences and redirects BAF chromatin-remodeling complexes, activating an oncogenic transcriptional program. It is a defining molecular alteration of synovial sarcoma.",
+          "source_ids": [
+            "ss18",
+            "ss18-mech",
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+          "source_ids": [
+            "fda-synovial"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
+        "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy."
+      ]
+    },
+    {
+      "label": "SS18::SSX2",
+      "partners": [
+        "SS18",
+        "SSX2"
+      ],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion replaces the SS18 carboxy terminus with SSX sequences and redirects BAF chromatin-remodeling complexes, activating an oncogenic transcriptional program. It is a defining molecular alteration of synovial sarcoma.",
+          "source_ids": [
+            "ss18",
+            "ss18-mech",
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+          "source_ids": [
+            "fda-synovial"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
+        "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy."
+      ]
+    },
+    {
+      "label": "SS18::SSX4",
+      "partners": [
+        "SS18",
+        "SSX4"
+      ],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion replaces the SS18 carboxy terminus with SSX sequences and redirects BAF chromatin-remodeling complexes, activating an oncogenic transcriptional program. It is a defining molecular alteration of synovial sarcoma.",
+          "source_ids": [
+            "ss18",
+            "ss18-mech",
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Afamitresgene autoleucel is US-approved for adults with unresectable or metastatic synovial sarcoma after chemotherapy who have one of the specified HLA-A*02 alleles and whose tumors express MAGE-A4. SS18::SSX detection alone does not establish cellular-therapy eligibility.",
+          "source_ids": [
+            "fda-synovial"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "SSX4 is rare; the mechanistic studies establish the SS18::SSX class, not equivalent outcome data for all partners.",
+        "Fusion status alone does not establish eligibility for antigen/HLA-restricted cellular therapy."
+      ]
+    },
+    {
+      "label": "PAX3::FOXO1",
+      "partners": [
+        "PAX3",
+        "FOXO1"
+      ],
+      "tumor_contexts": [
+        "Fusion-positive alveolar rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma.",
+          "source_ids": [
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "PAX3::FOXO1 is associated with adverse outcomes in rhabdomyosarcoma and contributes to FOXO1-fusion-based risk stratification.",
+          "source_ids": [
+            "rms-prognosis"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "PAX7::FOXO1",
+      "partners": [
+        "PAX7",
+        "FOXO1"
+      ],
+      "tumor_contexts": [
+        "Fusion-positive alveolar rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines paired-box DNA binding with the FOXO1 transactivation region, generating a potent abnormal transcription factor that drives fusion-positive rhabdomyosarcoma.",
+          "source_ids": [
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "PAX7::FOXO1-positive disease has shown better outcomes than PAX3::FOXO1-positive disease in some cohorts; the adverse associations of the two partners are not identical.",
+          "source_ids": [
+            "rms-prognosis"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "EWSR1::WT1",
+      "partners": [
+        "EWSR1",
+        "WT1"
+      ],
+      "tumor_contexts": [
+        "Desmoplastic small round cell tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins the EWSR1 activation region to WT1 zinc-finger DNA-binding sequences, converting WT1-associated transcription into an oncogenic program. It is characteristic of desmoplastic small round cell tumor, typically presenting with disseminated intra-abdominal disease.",
+          "source_ids": [
+            "sarcoma"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary functional citation and regimen-specific survival review remain pending; no numerical prognosis assigned."
+      ]
+    },
+    {
+      "label": "FUS::DDIT3",
+      "partners": [
+        "FUS",
+        "DDIT3"
+      ],
+      "tumor_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a FET-family activation region to DDIT3, creating an abnormal transcription factor that disrupts adipocytic differentiation. FUS::DDIT3 supports the diagnosis of myxoid liposarcoma; FUS is the usual partner and EWSR1 is less common.",
+          "source_ids": [
+            "ddit3",
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+          "source_ids": [
+            "fda-trabectedin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "EWSR1::DDIT3",
+      "partners": [
+        "EWSR1",
+        "DDIT3"
+      ],
+      "tumor_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a FET-family activation region to DDIT3, creating an abnormal transcription factor that disrupts adipocytic differentiation. EWSR1::DDIT3 supports the diagnosis of myxoid liposarcoma; FUS is the usual partner and EWSR1 is less common.",
+          "source_ids": [
+            "ddit3",
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+          "source_ids": [
+            "fda-trabectedin"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "COL1A1::PDGFB",
+      "partners": [
+        "COL1A1",
+        "PDGFB"
+      ],
+      "tumor_contexts": [
+        "Dermatofibrosarcoma protuberans"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion places PDGFB under COL1A1 regulatory control, leading to excess PDGF-B ligand and autocrine PDGFRB activation. It is characteristic of dermatofibrosarcoma protuberans, including fibrosarcomatous examples.",
+          "source_ids": [
+            "dfsp",
+            "sarcoma"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Imatinib has demonstrated clinical activity in advanced or unresectable fusion-associated dermatofibrosarcoma protuberans by inhibiting PDGFRB signaling. The drug targets the activated receptor, not the PDGFB ligand.",
+          "source_ids": [
+            "dfsp"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Additional uterine mesenchymal tumor associations require a dedicated citation and are omitted from this draft scope."
+      ]
+    },
+    {
+      "label": "NAB2::STAT6",
+      "partners": [
+        "NAB2",
+        "STAT6"
+      ],
+      "tumor_contexts": [
+        "Solitary fibrous tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The intrachromosomal fusion combines NAB2 EGR-binding sequences with STAT6 activation sequences, converting a transcriptional repressor complex into an activator. It is the defining molecular alteration of solitary fibrous tumor and underlies characteristic nuclear STAT6 staining.",
+          "source_ids": [
+            "nab2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Fusion presence does not assign a solitary fibrous tumor recurrence-risk score; no unvalidated prognosis by breakpoint included."
+      ]
+    },
+    {
+      "label": "ASPSCR1::TFE3",
+      "partners": [
+        "ASPSCR1",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "Alveolar soft part sarcoma",
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins ASPSCR1 sequences to the TFE3 transcription-factor region, generating an abnormal transcriptional activator. It is characteristic of alveolar soft part sarcoma and also occurs in TFE3-rearranged renal cell carcinoma.",
+          "source_ids": [
+            "sarcoma",
+            "renal"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Atezolizumab is US-approved for unresectable or metastatic alveolar soft part sarcoma from age 2 years. This histology-specific indication does not extend to TFE3-rearranged renal carcinoma.",
+          "source_ids": [
+            "fda-asps"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "ASPS therapies and renal-carcinoma therapies require distinct evidence; no renal indication inferred from an ASPS association."
+      ]
+    },
+    {
+      "label": "EWSR1::ATF1",
+      "partners": [
+        "EWSR1",
+        "ATF1"
+      ],
+      "tumor_contexts": [
+        "Clear cell sarcoma",
+        "Angiomatoid fibrous histiocytoma",
+        "Hyalinizing clear cell carcinoma of salivary gland",
+        "Intracranial mesenchymal tumor with FET::CREB fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. EWSR1::ATF1 occurs in clear cell sarcoma and several distinct epithelial or mesenchymal tumors, including angiomatoid fibrous histiocytoma and salivary hyalinizing clear cell carcinoma.",
+          "source_ids": [
+            "sarcoma",
+            "cns"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis."
+      ]
+    },
+    {
+      "label": "EWSR1::CREB1",
+      "partners": [
+        "EWSR1",
+        "CREB1"
+      ],
+      "tumor_contexts": [
+        "Angiomatoid fibrous histiocytoma",
+        "Gastrointestinal neuroectodermal tumor",
+        "Intracranial mesenchymal tumor with FET::CREB fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. EWSR1::CREB1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+          "source_ids": [
+            "sarcoma",
+            "cns"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis."
+      ]
+    },
+    {
+      "label": "FUS::ATF1",
+      "partners": [
+        "FUS",
+        "ATF1"
+      ],
+      "tumor_contexts": [
+        "Angiomatoid fibrous histiocytoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. FUS::ATF1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+          "source_ids": [
+            "sarcoma"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis."
+      ]
+    },
+    {
+      "label": "FUS::CREB3L2",
+      "partners": [
+        "FUS",
+        "CREB3L2"
+      ],
+      "tumor_contexts": [
+        "Low-grade fibromyxoid sarcoma",
+        "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L2 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+          "source_ids": [
+            "lgfms",
+            "creb3l2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned."
+      ]
+    },
+    {
+      "label": "FUS::CREB3L1",
+      "partners": [
+        "FUS",
+        "CREB3L1"
+      ],
+      "tumor_contexts": [
+        "Low-grade fibromyxoid sarcoma",
+        "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L1 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+          "source_ids": [
+            "lgfms",
+            "creb3l2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned."
+      ]
+    },
+    {
+      "label": "EWSR1::CREB3L1",
+      "partners": [
+        "EWSR1",
+        "CREB3L1"
+      ],
+      "tumor_contexts": [
+        "Sclerosing epithelioid fibrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. EWSR1::CREB3L1 is characteristic of pure sclerosing epithelioid fibrosarcoma.",
+          "source_ids": [
+            "sef"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned."
+      ]
+    },
+    {
+      "label": "CIC::DUX4",
+      "partners": [
+        "CIC",
+        "DUX4"
+      ],
+      "tumor_contexts": [
+        "CIC-rearranged undifferentiated round cell sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion converts CIC-associated transcriptional repression into an oncogenic ETS-target activation program. It is the most frequent fusion in CIC-rearranged sarcoma, a molecularly distinct disease from Ewing sarcoma.",
+          "source_ids": [
+            "ewing"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "CIC-rearranged sarcoma showed substantially worse survival than BCOR::CCNB3 sarcoma in the retrospective GRACefUl cohort.",
+          "source_ids": [
+            "graceful"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "BCOR::CCNB3",
+      "partners": [
+        "BCOR",
+        "CCNB3"
+      ],
+      "tumor_contexts": [
+        "BCOR::CCNB3 sarcoma of bone or soft tissue"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "An X-chromosome inversion joins BCOR to CCNB3 and creates an abnormal transcriptional/chromatin-regulatory product. It defines a distinct round-cell sarcoma that often affects adolescent males.",
+          "source_ids": [
+            "ewing"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "BCOR::CCNB3 sarcoma had better survival than CIC-rearranged sarcoma in the retrospective GRACefUl cohort; many patients received Ewing-type chemotherapy.",
+          "source_ids": [
+            "graceful"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "EWSR1::NFATC2",
+      "partners": [
+        "EWSR1",
+        "NFATC2"
+      ],
+      "tumor_contexts": [
+        "EWSR1::NFATC2-rearranged sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins the EWSR1 activation region to NFATC2 DNA-binding sequences. It identifies a molecularly distinct EWSR1::non-ETS sarcoma, often arising in long bones, rather than conventional Ewing sarcoma.",
+          "source_ids": [
+            "ewing"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "The same pair has also been reported in benign bone lesions; malignant classification cannot rest on this fusion alone.",
+        "No response to standard Ewing chemotherapy or fusion-specific drug benefit is asserted."
+      ]
+    },
+    {
+      "label": "EWSR1::PATZ1",
+      "partners": [
+        "EWSR1",
+        "PATZ1"
+      ],
+      "tumor_contexts": [
+        "Spindle/round cell sarcoma with EWSR1::PATZ1"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines EWSR1 activation sequences with PATZ1 DNA-binding/regulatory regions. Reported sarcomas often show mixed neural, myogenic or epithelial marker expression and are distinct from conventional Ewing sarcoma.",
+          "source_ids": [
+            "patz1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Separate CNS/renal evidence and prognosis require dedicated review; report text is restricted to the sarcoma series."
+      ]
+    },
+    {
+      "label": "HEY1::NCOA2",
+      "partners": [
+        "HEY1",
+        "NCOA2"
+      ],
+      "tumor_contexts": [
+        "Mesenchymal chondrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins HEY1 DNA-binding/repressor-associated sequences to NCOA2 transcriptional activation regions, creating a disease-associated transcriptional regulator. It is a recurrent defining alteration in mesenchymal chondrosarcoma.",
+          "source_ids": [
+            "hey1",
+            "hey1-functional"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "EWSR1::NR4A3",
+      "partners": [
+        "EWSR1",
+        "NR4A3"
+      ],
+      "tumor_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines a FET-family activation region with the NR4A3 nuclear-receptor transcription factor and dysregulates its transcriptional output. It is a recurrent driver in extraskeletal myxoid chondrosarcoma.",
+          "source_ids": [
+            "nr4a3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Non-EWSR1 partners have associations with cellular/high-grade morphology; an independent partner-specific survival effect is not asserted."
+      ]
+    },
+    {
+      "label": "TAF15::NR4A3",
+      "partners": [
+        "TAF15",
+        "NR4A3"
+      ],
+      "tumor_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines a FET-family activation region with the NR4A3 nuclear-receptor transcription factor and dysregulates its transcriptional output. It is a recurrent driver in extraskeletal myxoid chondrosarcoma.",
+          "source_ids": [
+            "nr4a3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Non-EWSR1 partners have associations with cellular/high-grade morphology; an independent partner-specific survival effect is not asserted."
+      ]
+    },
+    {
+      "label": "WWTR1::CAMTA1",
+      "partners": [
+        "WWTR1",
+        "CAMTA1"
+      ],
+      "tumor_contexts": [
+        "Epithelioid hemangioendothelioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. WWTR1::CAMTA1 is the canonical molecular driver of epithelioid hemangioendothelioma.",
+          "source_ids": [
+            "ehe"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned."
+      ]
+    },
+    {
+      "label": "YAP1::TFE3",
+      "partners": [
+        "YAP1",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "YAP1::TFE3-fused hemangioendothelioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a Hippo-pathway transcriptional coactivator to a transcription-factor partner and creates abnormal nuclear transcriptional activity. YAP1::TFE3 defines a related vascular neoplasm with distinctive morphology and strong nuclear TFE3 expression.",
+          "source_ids": [
+            "ehe"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Current classification distinguishes YAP1::TFE3-fused vascular tumors from conventional WWTR1::CAMTA1 EHE; no uniform prognosis assigned."
+      ]
+    },
+    {
+      "label": "JAZF1::SUZ12",
+      "partners": [
+        "JAZF1",
+        "SUZ12"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma",
+        "Endometrial stromal nodule"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion alters SUZ12-associated Polycomb complex assembly, chromatin occupancy and repression. It is recurrent in low-grade endometrial stromal tumors, including both stromal nodules and sarcomas; invasion distinguishes these categories.",
+          "source_ids": [
+            "jazf1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No malignancy call based on the fusion alone; endocrine treatment eligibility requires actual receptor/histology evidence."
+      ]
+    },
+    {
+      "label": "YWHAE::NUTM2A",
+      "partners": [
+        "YWHAE",
+        "NUTM2A"
+      ],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins YWHAE to a NUTM2-family partner, producing an abnormal transcription-associated protein. It defines a major high-grade endometrial stromal sarcoma group, often with a high-grade round-cell component and strong cyclin D1/BCOR expression.",
+          "source_ids": [
+            "hgess"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Precise biochemical dependencies are not fully resolved; no claim of a validated NUTM2-directed treatment."
+      ]
+    },
+    {
+      "label": "YWHAE::NUTM2B",
+      "partners": [
+        "YWHAE",
+        "NUTM2B"
+      ],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins YWHAE to a NUTM2-family partner, producing an abnormal transcription-associated protein. It defines a major high-grade endometrial stromal sarcoma group, often with a high-grade round-cell component and strong cyclin D1/BCOR expression.",
+          "source_ids": [
+            "hgess"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Precise biochemical dependencies are not fully resolved; no claim of a validated NUTM2-directed treatment."
+      ]
+    },
+    {
+      "label": "ZC3H7B::BCOR",
+      "partners": [
+        "ZC3H7B",
+        "BCOR"
+      ],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins ZC3H7B to the transcriptional corepressor BCOR and defines a BCOR-rearranged stromal sarcoma group. These tumors often show high-grade spindle cells in myxoid stroma and can mimic myxoid leiomyosarcoma.",
+          "source_ids": [
+            "hgess"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Polycomb pathway involvement is plausible; exact fusion-specific biochemical mechanism needs functional review."
+      ]
+    },
+    {
+      "label": "PAX3::MAML3",
+      "partners": [
+        "PAX3",
+        "MAML3"
+      ],
+      "tumor_contexts": [
+        "Biphenotypic sinonasal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines PAX3 DNA binding with MAML3 transcriptional coactivation and drives a mixed neural/myogenic expression program. It is the predominant fusion in biphenotypic sinonasal sarcoma.",
+          "source_ids": [
+            "pax3-maml3"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "This is usually a low-grade but locally aggressive sinonasal sarcoma with a tendency to local recurrence.",
+          "source_ids": [
+            "pax3-maml3"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "VGLL2::NCOA2",
+      "partners": [
+        "VGLL2",
+        "NCOA2"
+      ],
+      "tumor_contexts": [
+        "Congenital/infantile spindle cell rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins muscle-associated VGLL2 transcriptional cofactor sequences to another transcriptional-regulatory protein. It identifies a congenital/infantile spindle cell rhabdomyosarcoma subgroup distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma.",
+          "source_ids": [
+            "vgll2"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "The original infantile fusion-positive cohort generally showed favorable survival, although local recurrences occurred. This observation should not be transferred to MYOD1-mutant disease.",
+          "source_ids": [
+            "vgll2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "VGLL2::CITED2",
+      "partners": [
+        "VGLL2",
+        "CITED2"
+      ],
+      "tumor_contexts": [
+        "Congenital/infantile spindle cell rhabdomyosarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins muscle-associated VGLL2 transcriptional cofactor sequences to another transcriptional-regulatory protein. It identifies a congenital/infantile spindle cell rhabdomyosarcoma subgroup distinct from MYOD1-mutant spindle/sclerosing rhabdomyosarcoma.",
+          "source_ids": [
+            "vgll2"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "The original infantile fusion-positive cohort generally showed favorable survival, although local recurrences occurred. This observation should not be transferred to MYOD1-mutant disease.",
+          "source_ids": [
+            "vgll2"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "KIAA1549::BRAF",
+      "partners": [
+        "KIAA1549",
+        "BRAF"
+      ],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other pediatric low-grade gliomas",
+        "Diffuse leptomeningeal glioneuronal tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. KIAA1549::BRAF commonly results from a tandem duplication at 7q34 and is recurrent in pilocytic astrocytoma; it also occurs in diffuse leptomeningeal glioneuronal tumor.",
+          "source_ids": [
+            "raf-mech",
+            "cns"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+          "source_ids": [
+            "fda-braf",
+            "braf-resistance"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FAM131B::BRAF",
+      "partners": [
+        "FAM131B",
+        "BRAF"
+      ],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other pediatric low-grade gliomas"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement removes BRAF amino-terminal autoinhibitory regions while retaining its kinase, producing constitutive MAPK signaling. FAM131B::BRAF arises through an interstitial 7q34 deletion and is a rarer pilocytic astrocytoma driver.",
+          "source_ids": [
+            "fam131b"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Tovorafenib is US-approved for relapsed or refractory pediatric low-grade glioma with a BRAF fusion or rearrangement from age 6 months. BRAF V600-selective inhibitor activity cannot be assumed for these dimeric fusions, which can show paradoxical MAPK activation.",
+          "source_ids": [
+            "fda-braf",
+            "braf-resistance"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "SRGAP3::RAF1",
+      "partners": [
+        "SRGAP3",
+        "RAF1"
+      ],
+      "tumor_contexts": [
+        "Pediatric low-grade glioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Both fusions have demonstrated transforming activity and activation of MAPK/PI3K signaling in experimental glioma systems.",
+          "source_ids": [
+            "raf1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Drug-response studies support investigation of RAF-dimer and downstream pathway inhibition. The BRAF-fusion tovorafenib indication does not automatically include RAF1 fusions.",
+          "source_ids": [
+            "raf1",
+            "fda-braf"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "QKI::RAF1",
+      "partners": [
+        "QKI",
+        "RAF1"
+      ],
+      "tumor_contexts": [
+        "Pediatric low-grade glioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion removes RAF1 amino-terminal inhibition while retaining its kinase domain and partner self-association regions. Both fusions have demonstrated transforming activity and activation of MAPK/PI3K signaling in experimental glioma systems.",
+          "source_ids": [
+            "raf1"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Drug-response studies support investigation of RAF-dimer and downstream pathway inhibition. The BRAF-fusion tovorafenib indication does not automatically include RAF1 fusions.",
+          "source_ids": [
+            "raf1",
+            "fda-braf"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "ZFTA::RELA",
+      "partners": [
+        "ZFTA",
+        "RELA"
+      ],
+      "tumor_contexts": [
+        "Supratentorial ependymoma, ZFTA fusion-positive"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion combines ZFTA chromatin targeting with RELA transcriptional activation, recruiting chromatin regulators and activating oncogenic transcription, including NF-kappaB-associated programs. It is the predominant fusion in ZFTA-fusion-positive supratentorial ependymoma.",
+          "source_ids": [
+            "zfta",
+            "cns"
+          ]
+        }
+      ],
+      "curation_notes": [],
+      "aliases": [
+        "C11orf95::RELA"
+      ]
+    },
+    {
+      "label": "YAP1::MAMLD1",
+      "partners": [
+        "YAP1",
+        "MAMLD1"
+      ],
+      "tumor_contexts": [
+        "Supratentorial ependymoma, YAP1 fusion-positive"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion preserves YAP1 transcriptional coactivation in a persistently nuclear product that recruits TEAD and nuclear-factor-I factors. It drives the YAP1-fusion-positive ependymoma group, most often encountered in young children.",
+          "source_ids": [
+            "yap1",
+            "cns"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No uniform survival estimate or approved TEAD-directed treatment is asserted."
+      ]
+    },
+    {
+      "label": "MYB::QKI",
+      "partners": [
+        "MYB",
+        "QKI"
+      ],
+      "tumor_contexts": [
+        "Angiocentric glioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement promotes oncogenic MYB activity through MYB truncation, relocation of regulatory elements that increase fusion expression, and partial loss of QKI. It is characteristic of angiocentric glioma, typically a low-grade epilepsy-associated CNS tumor.",
+          "source_ids": [
+            "myb-qki-mech",
+            "cns"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "MN1::BEND2",
+      "partners": [
+        "MN1",
+        "BEND2"
+      ],
+      "tumor_contexts": [
+        "Astroblastoma, MN1-altered"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion creates an abnormal MN1/BEND2 transcriptional regulator and drives tumor formation in experimental models. It is a recurrent driver in the CNS tumor group classified as astroblastoma, MN1-altered.",
+          "source_ids": [
+            "mn1",
+            "cns"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Recent fusion-defined groups have different outcomes; no blanket favorable or adverse prognosis assigned."
+      ]
+    },
+    {
+      "label": "MN1::CXXC5",
+      "partners": [
+        "MN1",
+        "CXXC5"
+      ],
+      "tumor_contexts": [
+        "Astroblastoma, MN1-altered"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion creates an abnormal MN1-containing transcriptional regulator. Experimental tumor models show oncogenic activity and convergence with MN1::BEND2-driven astroblastoma programs.",
+          "source_ids": [
+            "mn1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Rare partner; subtype-specific outcome evidence remains under review."
+      ]
+    },
+    {
+      "label": "SLC44A1::PRKCA",
+      "partners": [
+        "SLC44A1",
+        "PRKCA"
+      ],
+      "tumor_contexts": [
+        "Papillary glioneuronal tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins SLC44A1 to a retained PRKCA kinase region, altering normal PKC regulation. It is a recurrent defining molecular alteration of papillary glioneuronal tumor.",
+          "source_ids": [
+            "prkca",
+            "cns"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "The initial discovery establishes the recurrent product; direct inhibitor sensitivity and kinase activation require dedicated functional evidence."
+      ]
+    },
+    {
+      "label": "CRTC1::MAML2",
+      "partners": [
+        "CRTC1",
+        "MAML2"
+      ],
+      "tumor_contexts": [
+        "Mucoepidermoid carcinoma of salivary gland",
+        "Mucoepidermoid carcinoma at other sites"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links a CRTC CREB-binding region to the MAML2 activation domain, causing constitutive recruitment of CBP/p300 and abnormal CREB-dependent transcription. It is a recurrent driver of mucoepidermoid carcinoma.",
+          "source_ids": [
+            "maml2-mech",
+            "salivary"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "CRTC1/3::MAML2-positive mucoepidermoid carcinomas formed a favorable-outcome subgroup in a retrospective salivary cohort; the fusion does not by itself assign histologic grade.",
+          "source_ids": [
+            "maml2-outcome"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "CRTC3::MAML2",
+      "partners": [
+        "CRTC3",
+        "MAML2"
+      ],
+      "tumor_contexts": [
+        "Mucoepidermoid carcinoma of salivary gland",
+        "Mucoepidermoid carcinoma at other sites"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion links a CRTC CREB-binding region to the MAML2 activation domain, causing constitutive recruitment of CBP/p300 and abnormal CREB-dependent transcription. It is a recurrent driver of mucoepidermoid carcinoma.",
+          "source_ids": [
+            "maml2-mech",
+            "salivary"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "CRTC1/3::MAML2-positive mucoepidermoid carcinomas formed a favorable-outcome subgroup in a retrospective salivary cohort; the fusion does not by itself assign histologic grade.",
+          "source_ids": [
+            "maml2-outcome"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "MYB::NFIB",
+      "partners": [
+        "MYB",
+        "NFIB"
+      ],
+      "tumor_contexts": [
+        "Adenoid cystic carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYB::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+          "source_ids": [
+            "myb-nfib",
+            "salivary"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Breakpoint-specific loss of negative regulatory regions versus enhancer effects must be resolved before a more specific mechanism claim."
+      ]
+    },
+    {
+      "label": "MYBL1::NFIB",
+      "partners": [
+        "MYBL1",
+        "NFIB"
+      ],
+      "tumor_contexts": [
+        "Adenoid cystic carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYBL1::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+          "source_ids": [
+            "myb-nfib",
+            "salivary"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Breakpoint-specific loss of negative regulatory regions versus enhancer effects must be resolved before a more specific mechanism claim."
+      ]
+    },
+    {
+      "label": "BRD4::NUTM1",
+      "partners": [
+        "BRD4",
+        "NUTM1"
+      ],
+      "tumor_contexts": [
+        "NUT carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. BRD4::NUTM1 forms large hyperacetylated chromatin domains.",
+          "source_ids": [
+            "nut-mech",
+            "brd-nut"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "NUT carcinoma is clinically aggressive. In a retrospective 124-patient cohort, nonthoracic BRD4-fused tumors had worse survival than nonthoracic BRD3/NSD3-fused tumors, while thoracic disease had the poorest outcomes.",
+          "source_ids": [
+            "nut-prognosis"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "BET/p300-directed treatments remain investigational in this draft; no FDA-approved fusion-specific drug is claimed."
+      ]
+    },
+    {
+      "label": "BRD3::NUTM1",
+      "partners": [
+        "BRD3",
+        "NUTM1"
+      ],
+      "tumor_contexts": [
+        "NUT carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. BRD3::NUTM1 is an established alternative driver of NUT carcinoma.",
+          "source_ids": [
+            "nut-mech"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In a retrospective NUT carcinoma cohort, nonthoracic BRD3/NSD3-fused tumors had better survival than nonthoracic BRD4-fused tumors; thoracic site remained an adverse feature.",
+          "source_ids": [
+            "nut-prognosis"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "BET/p300-directed treatments remain investigational in this draft; no FDA-approved fusion-specific drug is claimed."
+      ]
+    },
+    {
+      "label": "NSD3::NUTM1",
+      "partners": [
+        "NSD3",
+        "NUTM1"
+      ],
+      "tumor_contexts": [
+        "NUT carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion recruits NUTM1 into a BRD-associated chromatin complex and promotes p300-dependent acetylation, maintaining proliferation and blocking differentiation. NSD3::NUTM1 is an established alternative driver of NUT carcinoma.",
+          "source_ids": [
+            "nut-mech"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In a retrospective NUT carcinoma cohort, nonthoracic BRD3/NSD3-fused tumors had better survival than nonthoracic BRD4-fused tumors; thoracic site remained an adverse feature.",
+          "source_ids": [
+            "nut-prognosis"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "BET/p300-directed treatments remain investigational in this draft; no FDA-approved fusion-specific drug is claimed."
+      ]
+    },
+    {
+      "label": "DNAJB1::PRKACA",
+      "partners": [
+        "DNAJB1",
+        "PRKACA"
+      ],
+      "tumor_contexts": [
+        "Fibrolamellar carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "A chromosome 19 deletion joins the DNAJB1 J-domain region to the PRKACA catalytic subunit, altering PKA signaling and protein interactions. The fusion is characteristic of fibrolamellar carcinoma and is sufficient to induce fibrolamellar-like liver tumors in engineered mice.",
+          "source_ids": [
+            "prkaca"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Also reported in selected pancreatobiliary tumors; a liver origin cannot be assigned from this pair alone."
+      ]
+    },
+    {
+      "label": "TMPRSS2::ERG",
+      "partners": [
+        "TMPRSS2",
+        "ERG"
+      ],
+      "tumor_contexts": [
+        "Prostate adenocarcinoma"
+      ],
+      "event_class": "regulatory_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement places ERG under androgen-responsive TMPRSS2 regulatory control, leading to abnormal ERG expression. It is a common molecular subtype of prostate adenocarcinoma and is primarily a regulatory fusion rather than a novel protease-kinase product.",
+          "source_ids": [
+            "tmprss2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No independent prognostic or drug-response claim assigned from fusion status alone."
+      ]
+    },
+    {
+      "label": "CTNNB1::PLAG1",
+      "partners": [
+        "CTNNB1",
+        "PLAG1"
+      ],
+      "tumor_contexts": [
+        "Pleomorphic adenoma",
+        "Carcinoma ex pleomorphic adenoma"
+      ],
+      "event_class": "promoter_substitution",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+          "source_ids": [
+            "plag1",
+            "salivary"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "LIFR::PLAG1",
+      "partners": [
+        "LIFR",
+        "PLAG1"
+      ],
+      "tumor_contexts": [
+        "Pleomorphic adenoma",
+        "Carcinoma ex pleomorphic adenoma"
+      ],
+      "event_class": "promoter_substitution",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+          "source_ids": [
+            "plag1",
+            "salivary"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "TFG::ALK",
+      "partners": [
+        "TFG",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins an amino-terminal partner to the retained ALK kinase, producing abnormal ALK signaling. TFG::ALK is documented in inflammatory myofibroblastic tumor.",
+          "source_ids": [
+            "imt-kinases"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in patients aged at least 1 year.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "FN1::ALK",
+      "partners": [
+        "FN1",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins an amino-terminal partner to the retained ALK kinase, producing abnormal ALK signaling. FN1::ALK is documented in inflammatory myofibroblastic tumor.",
+          "source_ids": [
+            "imt-kinases"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in patients aged at least 1 year.",
+          "source_ids": [
+            "fda-criz"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "JAZF1::PHF1",
+      "partners": [
+        "JAZF1",
+        "PHF1"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. JAZF1::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+          "source_ids": [
+            "phf1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review."
+      ]
+    },
+    {
+      "label": "EPC1::PHF1",
+      "partners": [
+        "EPC1",
+        "PHF1"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. EPC1::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+          "source_ids": [
+            "phf1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review."
+      ]
+    },
+    {
+      "label": "MEAF6::PHF1",
+      "partners": [
+        "MEAF6",
+        "PHF1"
+      ],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins a transcriptional/chromatin-regulatory partner to PHF1 and alters Polycomb-associated regulatory architecture. MEAF6::PHF1 is a recurrent alteration in low-grade endometrial stromal sarcoma.",
+          "source_ids": [
+            "meaf6-phf1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Detection and disease association are established in the cited series; the exact fusion-dependent chromatin mechanism and treatment implications require functional review."
+      ]
+    },
+    {
+      "label": "RUNX1::MECOM",
+      "partners": [
+        "RUNX1",
+        "MECOM"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Myelodysplastic neoplasia",
+        "CML blast phase"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(3;21) fusion combines RUNX1 DNA-binding sequences with MECOM/EVI1 transcriptional-regulatory sequences, disrupting hematopoietic differentiation. It occurs in myeloid neoplasia, including therapy-related disease and CML blast phase.",
+          "source_ids": [
+            "icc-m",
+            "aml"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        }
+      ],
+      "curation_notes": [],
+      "aliases": [
+        "RUNX1::MDS1::EVI1",
+        "AML1::EVI1"
+      ]
+    },
+    {
+      "label": "NPM1::MLF1",
+      "partners": [
+        "NPM1",
+        "MLF1"
+      ],
+      "tumor_contexts": [
+        "AML with NPM1::MLF1"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(3;5) fusion joins amino-terminal NPM1 sequences to MLF1 and alters intracellular regulation in hematopoietic cells. It is a rare recurrent AML fusion, distinct from the common NPM1 exon 12 mutation.",
+          "source_ids": [
+            "aml",
+            "icc-m"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Do not transfer the favorable-risk classification of NPM1-mutated AML to NPM1::MLF1."
+      ]
+    },
+    {
+      "label": "PTPRZ1::MET",
+      "partners": [
+        "PTPRZ1",
+        "MET"
+      ],
+      "tumor_contexts": [
+        "High-grade glioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion increases MET expression and enhances MET phosphorylation, promoting oncogenic signaling. It is recurrent in a subset of high-grade gliomas and has shown transforming effects in experimental systems.",
+          "source_ids": [
+            "ptprz1-met"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "An adverse survival association was reported in the original glioma cohorts. Those historical cohorts require reinterpretation under current IDH-based integrated diagnoses.",
+          "source_ids": [
+            "ptprz1-met"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No US MET-fusion glioma indication is inferred from MET exon 14-skipping NSCLC approvals."
+      ]
+    },
+    {
+      "label": "BCAN::NTRK1",
+      "partners": [
+        "BCAN",
+        "NTRK1"
+      ],
+      "tumor_contexts": [
+        "Glioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins BCAN sequences to the retained NTRK1 kinase, producing an oncogenic TRKA signaling protein. Chromosomal-engineering experiments demonstrated glioma-driving activity.",
+          "source_ids": [
+            "bcan"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Oncogenic NTRK-fusion-positive advanced solid tumors can qualify for TRK inhibition; larotrectinib criteria include absence of known acquired TRK resistance mutations and prior progression or no satisfactory alternatives.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": []
+    },
+    {
+      "label": "QKI::NTRK2",
+      "partners": [
+        "QKI",
+        "NTRK2"
+      ],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other NTRK-rearranged gliomas"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. QKI::NTRK2 has been reported in pilocytic astrocytoma.",
+          "source_ids": [
+            "ntrk-fda-review"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Original Jones 2013 full-text verification remains pending; FDA review provides an explicitly identified literature lead."
+      ]
+    },
+    {
+      "label": "NACC2::NTRK2",
+      "partners": [
+        "NACC2",
+        "NTRK2"
+      ],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other NTRK-rearranged gliomas"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the NTRK2/TRKB kinase region and replaces normal receptor regulation with an amino-terminal partner. NACC2::NTRK2 has been reported in pilocytic astrocytoma.",
+          "source_ids": [
+            "ntrk-fda-review"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "An expressed oncogenic NTRK fusion is a TRK-inhibitor biomarker in qualifying advanced solid tumors; larotrectinib criteria include prior progression or no satisfactory alternatives and absence of known acquired TRK resistance mutations.",
+          "source_ids": [
+            "fda-laro"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Original Jones 2013 full-text verification remains pending; FDA review provides an explicitly identified literature lead."
+      ]
+    },
+    {
+      "label": "IGH / MYC",
+      "partners": [
+        "IGH",
+        "MYC"
+      ],
+      "tumor_contexts": [
+        "Burkitt lymphoma",
+        "Other MYC-rearranged B-cell neoplasms"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement places MYC under immunoglobulin regulatory control, increasing MYC expression and proliferative transcription. It is characteristic of Burkitt lymphoma but also occurs in other B-cell neoplasms.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No universal adverse prognosis assigned to isolated MYC rearrangement; Burkitt and double-hit lymphomas are separate diagnostic settings."
+      ]
+    },
+    {
+      "label": "IGK / MYC",
+      "partners": [
+        "IGK",
+        "MYC"
+      ],
+      "tumor_contexts": [
+        "Burkitt lymphoma",
+        "Other MYC-rearranged B-cell neoplasms"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement places MYC under immunoglobulin regulatory control, increasing MYC expression and proliferative transcription. It is characteristic of Burkitt lymphoma but also occurs in other B-cell neoplasms.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No universal adverse prognosis assigned to isolated MYC rearrangement; Burkitt and double-hit lymphomas are separate diagnostic settings."
+      ]
+    },
+    {
+      "label": "IGL / MYC",
+      "partners": [
+        "IGL",
+        "MYC"
+      ],
+      "tumor_contexts": [
+        "Burkitt lymphoma",
+        "Other MYC-rearranged B-cell neoplasms"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement places MYC under immunoglobulin regulatory control, increasing MYC expression and proliferative transcription. It is characteristic of Burkitt lymphoma but also occurs in other B-cell neoplasms.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No universal adverse prognosis assigned to isolated MYC rearrangement; Burkitt and double-hit lymphomas are separate diagnostic settings."
+      ]
+    },
+    {
+      "label": "IGH / BCL2",
+      "partners": [
+        "IGH",
+        "BCL2"
+      ],
+      "tumor_contexts": [
+        "Follicular lymphoma",
+        "Selected large B-cell lymphomas"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(14;18) rearrangement places BCL2 under immunoglobulin regulatory control, increasing antiapoptotic BCL2 expression. It is characteristic of conventional follicular lymphoma and occurs in other germinal-center-derived B-cell lymphomas.",
+          "source_ids": [
+            "icc-l"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "Concurrent MYC and BCL2 rearrangements in large B-cell lymphoma define an aggressive molecular group; this is distinct from isolated IGH/BCL2 rearrangement in follicular lymphoma.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / BCL6",
+      "partners": [
+        "IGH",
+        "BCL6"
+      ],
+      "tumor_contexts": [
+        "B-cell lymphoma, including diffuse large B-cell lymphoma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement substitutes immunoglobulin regulatory elements for normal BCL6 control, sustaining BCL6-dependent transcriptional repression. BCL6 rearrangements occur in several B-cell lymphomas and are not specific to one histologic type.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / CCND1",
+      "partners": [
+        "IGH",
+        "CCND1"
+      ],
+      "tumor_contexts": [
+        "Mantle cell lymphoma",
+        "Plasma cell myeloma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(11;14) rearrangement increases cyclin D1 expression through IGH regulatory control and promotes cell-cycle progression. It is characteristic of mantle cell lymphoma and also defines a major plasma cell myeloma subgroup.",
+          "source_ids": [
+            "icc-l",
+            "myeloma-guidance"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No universal prognosis or venetoclax recommendation is made across mantle-cell and plasma-cell disease."
+      ]
+    },
+    {
+      "label": "IGH / CCND2",
+      "partners": [
+        "IGH",
+        "CCND2"
+      ],
+      "tumor_contexts": [
+        "Cyclin D1-negative mantle cell lymphoma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "Immunoglobulin enhancer juxtaposition increases CCND2 expression and can substitute for cyclin D1 activation in a subset of cyclin D1-negative mantle cell lymphomas. These events require an appropriate mantle-cell morphologic and phenotypic classification.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / CCND3",
+      "partners": [
+        "IGH",
+        "CCND3"
+      ],
+      "tumor_contexts": [
+        "Cyclin D1-negative mantle cell lymphoma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "Immunoglobulin enhancer juxtaposition increases CCND3 expression and can substitute for cyclin D1 activation in a subset of cyclin D1-negative mantle cell lymphomas. These events require an appropriate mantle-cell morphologic and phenotypic classification.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / MALT1",
+      "partners": [
+        "IGH",
+        "MALT1"
+      ],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(14;18) involving MALT1 increases MALT1 expression through IGH regulatory control and activates NF-kappaB-associated survival signaling. It is distinct from the t(14;18) involving BCL2.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / BCL10",
+      "partners": [
+        "IGH",
+        "BCL10"
+      ],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(1;14) increases BCL10 expression and promotes signaling through the BCL10-MALT1/NF-kappaB pathway. It is a recurrent regulatory rearrangement in MALT lymphoma.",
+          "source_ids": [
+            "icc-l"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / CRLF2",
+      "partners": [
+        "IGH",
+        "CRLF2"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia, often Ph-like"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "IGH regulatory elements drive CRLF2 overexpression, increasing cytokine-receptor signaling, often with cooperating JAK-pathway lesions. The event occurs in B-ALL and is enriched in Ph-like disease.",
+          "source_ids": [
+            "crlf2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "CRLF2 expression alone does not prove this rearrangement; no approved JAK-inhibitor indication is inferred."
+      ]
+    },
+    {
+      "label": "P2RY8::CRLF2",
+      "partners": [
+        "P2RY8",
+        "CRLF2"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia, including Down-syndrome-associated ALL"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "A pseudoautosomal-region deletion joins the P2RY8 promoter to CRLF2 coding sequences, increasing CRLF2 expression. It is a promoter-substitution event that can cooperate with JAK-pathway alterations in B-ALL.",
+          "source_ids": [
+            "crlf2",
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / DUX4",
+      "partners": [
+        "IGH",
+        "DUX4"
+      ],
+      "tumor_contexts": [
+        "DUX4-rearranged B-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "Insertion or rearrangement of the repetitive DUX4 locus into IGH regulatory architecture causes abnormal DUX4 expression and a distinctive B-ALL transcriptional program, frequently with secondary ERG alterations.",
+          "source_ids": [
+            "all"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "DUX4-rearranged childhood B-ALL generally has favorable outcomes in reported cohorts, despite frequent IKZF1 alterations; this is a subtype-level observation rather than a conclusion from ERG deletion alone.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "The repetitive DUX4 locus requires assay-specific mapping review; no single universal IGH/DUX4 junction is asserted."
+      ]
+    },
+    {
+      "label": "TCR loci / TAL1",
+      "partners": [
+        "TCR loci",
+        "TAL1"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "T-cell-receptor regulatory rearrangements can activate TAL1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+      ]
+    },
+    {
+      "label": "TCR loci / TLX1",
+      "partners": [
+        "TCR loci",
+        "TLX1"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "T-cell-receptor regulatory rearrangements can activate TLX1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+      ]
+    },
+    {
+      "label": "TCR loci / TLX3",
+      "partners": [
+        "TCR loci",
+        "TLX3"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "T-cell-receptor regulatory rearrangements can activate TLX3 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+      ]
+    },
+    {
+      "label": "TCR loci / LMO2",
+      "partners": [
+        "TCR loci",
+        "LMO2"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "T-cell-receptor regulatory rearrangements can activate LMO2 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+          "source_ids": [
+            "all"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+      ]
+    },
+    {
+      "label": "GATA2 enhancer / MECOM",
+      "partners": [
+        "GATA2",
+        "MECOM"
+      ],
+      "tumor_contexts": [
+        "AML with inv(3) or t(3;3)"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement relocates a GATA2 hematopoietic enhancer to MECOM/EVI1, driving EVI1 overexpression while reducing normal GATA2 expression. Its oncogenic mechanism combines enhancer hijacking with GATA2 insufficiency and does not require a GATA2::MECOM coding fusion.",
+          "source_ids": [
+            "gata2-mec"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "AML with inv(3)/t(3;3) is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+          "source_ids": [
+            "eln-aml"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted."
+      ]
+    },
+    {
+      "label": "IGH / FGFR3 and NSD2",
+      "partners": [
+        "IGH",
+        "FGFR3",
+        "NSD2"
+      ],
+      "tumor_contexts": [
+        "Plasma cell myeloma with t(4;14)"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(4;14) rearrangement places IGH regulatory elements near NSD2 and FGFR3, increasing NSD2-associated chromatin activity and, in many cases, FGFR3 signaling. Some tumors lose FGFR3 expression while retaining NSD2 deregulation.",
+          "source_ids": [
+            "myeloma"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Not one chimeric kinase fusion; risk assessment must use the applicable current myeloma system and co-lesions."
+      ]
+    },
+    {
+      "label": "IGH / MAF",
+      "partners": [
+        "IGH",
+        "MAF"
+      ],
+      "tumor_contexts": [
+        "Plasma cell myeloma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "t(14;16) places MAF under IGH regulatory control, increasing a lineage-altering transcriptional program. It is a recurrent primary IGH translocation in plasma cell myeloma.",
+          "source_ids": [
+            "icc-l",
+            "myeloma-guidance"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Historical adverse-risk associations differ from newer co-lesion-based risk definitions; no unqualified contemporary risk assignment included."
+      ]
+    },
+    {
+      "label": "IGH / MAFB",
+      "partners": [
+        "IGH",
+        "MAFB"
+      ],
+      "tumor_contexts": [
+        "Plasma cell myeloma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "t(14;20) places MAFB under IGH regulatory control, increasing a lineage-altering transcriptional program. It is a recurrent primary IGH translocation in plasma cell myeloma.",
+          "source_ids": [
+            "icc-l",
+            "myeloma-guidance"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Historical adverse-risk associations differ from newer co-lesion-based risk definitions; no unqualified contemporary risk assignment included."
+      ]
+    },
+    {
+      "label": "PRCC::TFE3",
+      "partners": [
+        "PRCC",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. PRCC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+          "source_ids": [
+            "renal"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No prognosis or treatment response assigned solely from the partner.",
+        "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+      ]
+    },
+    {
+      "label": "SFPQ::TFE3",
+      "partners": [
+        "SFPQ",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. SFPQ::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+          "source_ids": [
+            "renal"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No prognosis or treatment response assigned solely from the partner.",
+        "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+      ]
+    },
+    {
+      "label": "NONO::TFE3",
+      "partners": [
+        "NONO",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. NONO::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+          "source_ids": [
+            "renal"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No prognosis or treatment response assigned solely from the partner.",
+        "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+      ]
+    },
+    {
+      "label": "RBM10::TFE3",
+      "partners": [
+        "RBM10",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. RBM10::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+          "source_ids": [
+            "renal"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No prognosis or treatment response assigned solely from the partner.",
+        "Exact retained regions are transcript-dependent; pair-specific primary full-text audit remains pending."
+      ]
+    },
+    {
+      "label": "CLTC::TFE3",
+      "partners": [
+        "CLTC",
+        "TFE3"
+      ],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. CLTC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+          "source_ids": [
+            "cltc-tfe3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary fusion-cloning abstract inspected; full-text audit pending."
+      ]
+    },
+    {
+      "label": "MALAT1::TFEB",
+      "partners": [
+        "MALAT1",
+        "TFEB"
+      ],
+      "tumor_contexts": [
+        "TFEB-rearranged renal cell carcinoma"
+      ],
+      "event_class": "promoter_substitution",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The rearrangement places TFEB under MALAT1 promoter control, increasing TFEB expression and lysosomal/metabolic transcription. The MALAT1 partner is noncoding; the defining mechanism is promoter substitution, not a new MALAT1-derived kinase or peptide domain.",
+          "source_ids": [
+            "renal"
+          ]
+        }
+      ],
+      "curation_notes": []
+    }
+  ],
+  "deferred": [
+    {
+      "label": "TPR::NTRK3",
+      "reason": "No pair-specific primary evidence confirmed in this review. Retrieved TPR evidence supports NTRK1; avoid a paralog substitution.",
+      "next_step": "Find an original patient/functional report with ordered partners and retained kinase before drafting."
+    },
+    {
+      "label": "ETV6::MET",
+      "reason": "Found on assay lists, but a direct clinical/functional source was not confirmed in this pass.",
+      "next_step": "Obtain primary evidence before adding a tumor or drug-response claim."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "fusion-etv6-ntrk3",
+  "label": "ETV6::NTRK3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "NTRK3",
+      "hgnc_id": "HGNC:8033",
+      "ncbi_gene_id": "4916"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Infantile fibrosarcoma",
+    "Cellular congenital mesoblastic nephroma",
+    "Secretory carcinoma of breast",
+    "Salivary secretory carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK3",
+      "text": "NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4916"
+      ],
+      "claim_sha256": "39074bfd2a709ad144beab93f5b0b2f1d087b19fcabc6102b338ed45e5206ff3",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins the ETV6 oligomerization domain to the NTRK3 kinase domain, generating a transforming kinase. It is characteristic of infantile fibrosarcoma and secretory carcinomas and also occurs in cellular congenital mesoblastic nephroma.",
+      "source_ids": [
+        "etv6-ntrk3-mech",
+        "etv6-ntrk3-breast",
+        "etv6-ntrk3-fs",
+        "sarcoma"
+      ],
+      "claim_sha256": "dbc517ffaafdfbba47d59a2c928477faa23084967563ec4f6d7b6c626cb91b7f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Larotrectinib targets oncogenic NTRK-fusion-positive advanced solid tumors in adults and children without known acquired TRK resistance mutations, after progression or without satisfactory alternatives, when disease is metastatic or surgery would cause severe morbidity.",
+      "source_ids": [
+        "fda-laro"
+      ],
+      "claim_sha256": "5b5c7a6d9c12bed3bd2106fb23dfdc587d173e3ff37e90218dd6a93b8d730712",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. NTRK3 encodes TRKC, the neurotrophin-3 receptor tyrosine kinase. The fusion joins the ETV6 oligomerization domain to the NTRK3 kinase domain, generating a transforming kinase. It is characteristic of infantile fibrosarcoma and secretory carcinomas and also occurs in cellular congenital mesoblastic nephroma. Larotrectinib targets oncogenic NTRK-fusion-positive advanced solid tumors in adults and children without known acquired TRK resistance mutations, after progression or without satisfactory alternatives, when disease is metastatic or surgery would cause severe morbidity.",
+    "source_ids": [
+      "ncbi-2120",
+      "ncbi-4916",
+      "etv6-ntrk3-mech",
+      "etv6-ntrk3-breast",
+      "etv6-ntrk3-fs",
+      "sarcoma",
+      "fda-laro"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Do not apply the solid-tumor label automatically to rare ETV6::NTRK3-positive leukemias."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "602bc0533f170e001364c1d6d47de2d3c8103b5d94da9c47cb4441e314b07e60"
+}

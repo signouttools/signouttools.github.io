@@ -1,0 +1,81 @@
+{
+  "id": "fusion-mef2d-bcl9",
+  "label": "MEF2D::BCL9",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MEF2D",
+      "hgnc_id": "HGNC:6997",
+      "ncbi_gene_id": "4209"
+    },
+    {
+      "symbol": "BCL9",
+      "hgnc_id": "HGNC:1008",
+      "ncbi_gene_id": "607"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MEF2D",
+      "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival.",
+      "source_ids": [
+        "ncbi-4209"
+      ],
+      "claim_sha256": "cf20ae7c37712517a8d17e5970ad4c3dba84707ca52f1c3654631537e7855ec6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BCL9",
+      "text": "BCL9 encodes a transcriptional cofactor for beta-catenin signaling.",
+      "source_ids": [
+        "ncbi-607"
+      ],
+      "claim_sha256": "118de90b7df53de6f93f14025d4f3ee4fcf8766b4d85bfeed7ef3d0da392cfa6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription.",
+      "source_ids": [
+        "mef2d"
+      ],
+      "claim_sha256": "9a090c458d0182499deaabef53b2d9427a0e85510a398f0758b6b1db8a2ee762",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "f745c22e35612cd3c7449e3853ab3c68a28c8ac0a0a1f4c66204d6d949da80b7",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival. BCL9 encodes a transcriptional cofactor for beta-catenin signaling. The fusion preserves MEF2D DNA-binding and dimerization regions and changes transcriptional regulation, defining a MEF2D-rearranged B-ALL program. These leukemias often have weak CD10 expression and increased HDAC9-associated transcription. MEF2D-rearranged B-ALL has shown relatively poor outcomes in several pediatric and young-adult cohorts.",
+    "source_ids": [
+      "ncbi-4209",
+      "ncbi-607",
+      "mef2d",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "0d6a1a82a3b0ac6f4820bb05cbc1f3204bae15675ab3eff682102d53775d776e"
+}

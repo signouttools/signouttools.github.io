@@ -1,0 +1,81 @@
+{
+  "id": "fusion-tcf3-pbx1",
+  "label": "TCF3::PBX1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "TCF3",
+      "hgnc_id": "HGNC:11633",
+      "ncbi_gene_id": "6929"
+    },
+    {
+      "symbol": "PBX1",
+      "hgnc_id": "HGNC:8632",
+      "ncbi_gene_id": "5087"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TCF3",
+      "text": "TCF3 encodes E2A transcription factors required for lymphoid development.",
+      "source_ids": [
+        "ncbi-6929"
+      ],
+      "claim_sha256": "12f5c610b87031a903ec1c2f34aabe79cc2a6c81a681f017892d741babaa969d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PBX1",
+      "text": "PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators.",
+      "source_ids": [
+        "ncbi-5087"
+      ],
+      "claim_sha256": "768a83a61229f0ee61fafbd5fe568735e729c45402022d3437ef824c9f09e201",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(1;19) fusion joins the TCF3 activation region to the PBX1 homeodomain, creating an abnormal transcription factor. It defines a recurrent B-ALL subtype, often with a pre-B phenotype.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "ca979f7aa6c416ad5dbbfbf804a9b443ed508da9b6350940812db5ed0193d627",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "Outcomes have improved with intensive modern ALL therapy; historical adverse-risk estimates should not be applied to current regimens. Adult ELN 2024 describes favorable outcomes with intensive therapy.",
+      "source_ids": [
+        "eln-all"
+      ],
+      "claim_sha256": "43afb096d7317e0a9c2145c40300b4308690c13d61dc4fc82be9d22faeb69eaf",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators. The t(1;19) fusion joins the TCF3 activation region to the PBX1 homeodomain, creating an abnormal transcription factor. It defines a recurrent B-ALL subtype, often with a pre-B phenotype. Outcomes have improved with intensive modern ALL therapy; historical adverse-risk estimates should not be applied to current regimens. Adult ELN 2024 describes favorable outcomes with intensive therapy.",
+    "source_ids": [
+      "ncbi-6929",
+      "ncbi-5087",
+      "all",
+      "eln-all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "650643fc963ddd1dbd391b814d38693f7b2ed14266f539a84daed8ac6851badd"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "fusion-etv6-pdgfrb",
+  "label": "ETV6::PDGFRB",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "PDGFRB",
+      "hgnc_id": "HGNC:8804",
+      "ncbi_gene_id": "5159"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Myeloid/lymphoid neoplasm with PDGFRB rearrangement"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PDGFRB",
+      "text": "PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-5159"
+      ],
+      "claim_sha256": "9c1706914ba9857704a68addf6ff05209539a5e8fcbbf00104265293770b86b8",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion couples ETV6 oligomerization to the PDGFRB kinase, driving ligand-independent signaling. It occurs in myeloid/lymphoid neoplasms that often show eosinophilia or a chronic myelomonocytic presentation.",
+      "source_ids": [
+        "icc-m",
+        "pdgfrb"
+      ],
+      "claim_sha256": "4c795ff8d8e5fa331616665f078ee415e6a0d5a433f8b85b48640d3c2b141d42",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Imatinib has produced durable long-term remissions in PDGFRB-fusion-positive myeloid neoplasms, including ETV6::PDGFRB disease.",
+      "source_ids": [
+        "pdgfrb"
+      ],
+      "claim_sha256": "23e562c416d4903ea774b9d3ef5e99ea251e528ddaafc0b760cdf3b681ed9f6b",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. The fusion couples ETV6 oligomerization to the PDGFRB kinase, driving ligand-independent signaling. It occurs in myeloid/lymphoid neoplasms that often show eosinophilia or a chronic myelomonocytic presentation. Imatinib has produced durable long-term remissions in PDGFRB-fusion-positive myeloid neoplasms, including ETV6::PDGFRB disease.",
+    "source_ids": [
+      "ncbi-2120",
+      "ncbi-5159",
+      "icc-m",
+      "pdgfrb"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "e80117b403f3684f128fdc9979fabd47f42f0d696f7c72bfd01dec6e93b4890b"
+}

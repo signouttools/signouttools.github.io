@@ -1,0 +1,76 @@
+{
+  "id": "fusion-fus-creb3l1",
+  "label": "FUS::CREB3L1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FUS",
+      "hgnc_id": "HGNC:4010",
+      "ncbi_gene_id": "2521"
+    },
+    {
+      "symbol": "CREB3L1",
+      "hgnc_id": "HGNC:18856",
+      "ncbi_gene_id": "90993"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Low-grade fibromyxoid sarcoma",
+    "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FUS",
+      "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CREB3L1",
+      "text": "CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis.",
+      "source_ids": [
+        "ncbi-90993"
+      ],
+      "claim_sha256": "77d27f4ba5237354d120eda487cfaa18342d16930db020c171ee75efd114cf44",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L1 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+      "source_ids": [
+        "lgfms",
+        "creb3l2"
+      ],
+      "claim_sha256": "e1f4b4af5f35d695cbe7a520a22021e99fa6902cbbc8221827e0ca06c9535498",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. FUS::CREB3L1 occurs in low-grade fibromyxoid sarcoma; CREB3L2 is the more common partner.",
+    "source_ids": [
+      "ncbi-2521",
+      "ncbi-90993",
+      "lgfms",
+      "creb3l2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "efe3549c3fd322544d56379275b9fdc06ce21320ad8a004a28d9c0cce8c26a35"
+}

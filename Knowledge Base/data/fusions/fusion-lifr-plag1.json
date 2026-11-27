@@ -1,0 +1,74 @@
+{
+  "id": "fusion-lifr-plag1",
+  "label": "LIFR::PLAG1",
+  "event_class": "promoter_substitution",
+  "partners": [
+    {
+      "symbol": "LIFR",
+      "hgnc_id": "HGNC:6597",
+      "ncbi_gene_id": "3977"
+    },
+    {
+      "symbol": "PLAG1",
+      "hgnc_id": "HGNC:9045",
+      "ncbi_gene_id": "5324"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pleomorphic adenoma",
+    "Carcinoma ex pleomorphic adenoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "LIFR",
+      "text": "LIFR encodes a cytokine-receptor subunit that mediates leukemia inhibitory factor signaling.",
+      "source_ids": [
+        "ncbi-3977"
+      ],
+      "claim_sha256": "131f740847e8a1ca2e5930a49592c26c4526697c7d96b02fcbb14458c458c939",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PLAG1",
+      "text": "PLAG1 encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2.",
+      "source_ids": [
+        "ncbi-5324"
+      ],
+      "claim_sha256": "375fd7367eaee211dadc0fea03caa9c4eb487c8f97a720292697d416e5ec4160",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+      "source_ids": [
+        "plag1",
+        "salivary"
+      ],
+      "claim_sha256": "52fc968e6fcde48c5b12bdaec9133d39db75e80a50fe36bda292188eb8ddc72c",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "LIFR encodes a cytokine-receptor subunit that mediates leukemia inhibitory factor signaling. PLAG1 encodes a zinc-finger transcription factor that regulates growth-related genes, including IGF2. The rearrangement substitutes an active partner promoter for PLAG1 regulatory control, increasing PLAG1 expression. It is an oncogenic transcriptional activation mechanism found in pleomorphic adenoma and its malignant derivatives; it does not by itself distinguish benign adenoma from carcinoma.",
+    "source_ids": [
+      "ncbi-3977",
+      "ncbi-5324",
+      "plag1",
+      "salivary"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "234d3d065d9f7380ffca9647abf0fab14d22f6c6fe99372797af7ec7f3fe7638"
+}

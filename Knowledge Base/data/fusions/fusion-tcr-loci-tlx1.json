@@ -1,0 +1,72 @@
+{
+  "id": "fusion-tcr-loci-tlx1",
+  "label": "TCR loci / TLX1",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "TCR loci",
+      "hgnc_id": null,
+      "ncbi_gene_id": null
+    },
+    {
+      "symbol": "TLX1",
+      "hgnc_id": "HGNC:5056",
+      "ncbi_gene_id": "3195"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "T-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TCR loci",
+      "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "b68a3e913c425381f2423aeedf2d2d1e656f0375a8e3468ff1441ffd28613cff",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TLX1",
+      "text": "TLX1 encodes a homeobox transcription factor with developmental functions.",
+      "source_ids": [
+        "ncbi-3195"
+      ],
+      "claim_sha256": "08b2b7e8f8a58e7b918be11eedb495ce662c2ebcd457b0fb209579ef18eb3836",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "T-cell-receptor regulatory rearrangements can activate TLX1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "ffc71962d1ec428ef2859287da9a7d03289af179f9d18c2348d236ed5c32a98b",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "TCR loci encode T-cell receptor chains and contain lineage-active regulatory elements. TLX1 encodes a homeobox transcription factor with developmental functions. T-cell-receptor regulatory rearrangements can activate TLX1 expression in developing T cells, disrupting normal lineage-specific transcription. This is an enhancer-driven oncogenic mechanism in T-ALL rather than an asserted chimeric TCR protein.",
+    "source_ids": [
+      "all",
+      "ncbi-3195"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "76bbd1b1fb7e702e34f9243d756eac7ffea1423950fae057fdf376b808b86162"
+}

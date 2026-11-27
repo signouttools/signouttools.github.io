@@ -1,0 +1,73 @@
+{
+  "id": "fusion-fus-atf1",
+  "label": "FUS::ATF1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FUS",
+      "hgnc_id": "HGNC:4010",
+      "ncbi_gene_id": "2521"
+    },
+    {
+      "symbol": "ATF1",
+      "hgnc_id": "HGNC:783",
+      "ncbi_gene_id": "466"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Angiomatoid fibrous histiocytoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FUS",
+      "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ATF1",
+      "text": "ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling.",
+      "source_ids": [
+        "ncbi-466"
+      ],
+      "claim_sha256": "57e5ef9e55878404160ee6013f023a88b8ca1c553937f6003847aa24e7ea4d7e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. FUS::ATF1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+      "source_ids": [
+        "sarcoma"
+      ],
+      "claim_sha256": "8dddb2a3402ce1386342096a843dca8343428d9d76b1c740f17403954c650d83",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling. The fusion combines a FET-family activation region with a CREB-family DNA-binding region, producing abnormal transcriptional activation. FUS::ATF1 is a recognized fusion in angiomatoid fibrous histiocytoma.",
+    "source_ids": [
+      "ncbi-2521",
+      "ncbi-466",
+      "sarcoma"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "4a0efa46e82964b88a508203156e7ae03271225f2806024cb3b51075de83aea6"
+}

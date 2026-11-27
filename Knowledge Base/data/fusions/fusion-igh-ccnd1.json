@@ -1,0 +1,76 @@
+{
+  "id": "fusion-igh-ccnd1",
+  "label": "IGH / CCND1",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "CCND1",
+      "hgnc_id": "HGNC:1582",
+      "ncbi_gene_id": "595"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Mantle cell lymphoma",
+    "Plasma cell myeloma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CCND1",
+      "text": "CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression.",
+      "source_ids": [
+        "ncbi-595"
+      ],
+      "claim_sha256": "10a82f5e84c747bb6a8432cbce5baeba6f3a4ba691fae819d566b60020c1077d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(11;14) rearrangement increases cyclin D1 expression through IGH regulatory control and promotes cell-cycle progression. It is characteristic of mantle cell lymphoma and also defines a major plasma cell myeloma subgroup.",
+      "source_ids": [
+        "icc-l",
+        "myeloma-guidance"
+      ],
+      "claim_sha256": "998947bab341766767bb56bfd489ea3bf191bb1f026226ae8ddca68704a7fc90",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression. The t(11;14) rearrangement increases cyclin D1 expression through IGH regulatory control and promotes cell-cycle progression. It is characteristic of mantle cell lymphoma and also defines a major plasma cell myeloma subgroup.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-595",
+      "icc-l",
+      "myeloma-guidance"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No universal prognosis or venetoclax recommendation is made across mantle-cell and plasma-cell disease."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "f1719c348de9ffa99b5ddfeefc9bb7da93e083501a67b9fc68fe6172dd132d44"
+}

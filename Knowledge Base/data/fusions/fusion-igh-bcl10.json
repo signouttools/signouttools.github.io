@@ -1,0 +1,73 @@
+{
+  "id": "fusion-igh-bcl10",
+  "label": "IGH / BCL10",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "BCL10",
+      "hgnc_id": "HGNC:989",
+      "ncbi_gene_id": "8915"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Extranodal marginal zone lymphoma of MALT"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BCL10",
+      "text": "BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway.",
+      "source_ids": [
+        "ncbi-8915"
+      ],
+      "claim_sha256": "41d46e87dd390291341af4840df61f322874a6fa24e2053ee4cadd6ff7d9cdce",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(1;14) increases BCL10 expression and promotes signaling through the BCL10-MALT1/NF-kappaB pathway. It is a recurrent regulatory rearrangement in MALT lymphoma.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "3a3663e6f6fd99e27ab7cf015945292b8736066103eed64f5ee364726989ff18",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway. The t(1;14) increases BCL10 expression and promotes signaling through the BCL10-MALT1/NF-kappaB pathway. It is a recurrent regulatory rearrangement in MALT lymphoma.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-8915",
+      "icc-l"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "f1b9e0c8e339dff4e1b7335a849e7c63c9d07ef7f09515a7be0686ae354f67ba"
+}

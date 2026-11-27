@@ -1,0 +1,84 @@
+{
+  "id": "fusion-bcr-fgfr1",
+  "label": "BCR::FGFR1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "BCR",
+      "hgnc_id": "HGNC:1014",
+      "ncbi_gene_id": "613"
+    },
+    {
+      "symbol": "FGFR1",
+      "hgnc_id": "HGNC:3688",
+      "ncbi_gene_id": "2260"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "BCR",
+      "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+      "source_ids": [
+        "ncbi-613"
+      ],
+      "claim_sha256": "397bf4a09dbdc34975b0d771c84c1d6f8ec4376ee75b6adf82478dc52a1d7a2d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FGFR1",
+      "text": "FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2260"
+      ],
+      "claim_sha256": "0873ffc09ea58b6367f10070d7afa2c8ce61ca270f9f201036a60596a76a9dfd",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the FGFR1 kinase and replaces receptor control with a partner-derived self-association region, producing constitutive signaling. FGFR1-rearranged neoplasms can involve myeloid disease and lymphoblastic lymphoma/leukemia, with progression to blast phase.",
+      "source_ids": [
+        "icc-m",
+        "fgfr1-heme"
+      ],
+      "claim_sha256": "a32b71782be888793a1837fbd6c2b9b998fc2a3fe50ebf15a5cb8173ebae501f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Pemigatinib is US-approved for adults with relapsed or refractory myeloid/lymphoid neoplasms harboring an FGFR1 rearrangement. ZMYM2 and BCR were frequent partners in FIGHT-203.",
+      "source_ids": [
+        "fda-fgfr1",
+        "fgfr1-heme"
+      ],
+      "claim_sha256": "0c65123df6496d0d115bb34e711f20b427a55753a82ad66b49b21c28c43be187",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. The fusion retains the FGFR1 kinase and replaces receptor control with a partner-derived self-association region, producing constitutive signaling. FGFR1-rearranged neoplasms can involve myeloid disease and lymphoblastic lymphoma/leukemia, with progression to blast phase. Pemigatinib is US-approved for adults with relapsed or refractory myeloid/lymphoid neoplasms harboring an FGFR1 rearrangement. ZMYM2 and BCR were frequent partners in FIGHT-203.",
+    "source_ids": [
+      "ncbi-613",
+      "ncbi-2260",
+      "icc-m",
+      "fgfr1-heme",
+      "fda-fgfr1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "cc382ccc93e27597b1bd6b2f63117284937d3689d5375efc46f85dc1bd8415d9"
+}

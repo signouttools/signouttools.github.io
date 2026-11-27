@@ -1,0 +1,73 @@
+{
+  "id": "fusion-ewsr1-patz1",
+  "label": "EWSR1::PATZ1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "EWSR1",
+      "hgnc_id": "HGNC:3508",
+      "ncbi_gene_id": "2130"
+    },
+    {
+      "symbol": "PATZ1",
+      "hgnc_id": "HGNC:13071",
+      "ncbi_gene_id": "23598"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Spindle/round cell sarcoma with EWSR1::PATZ1"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EWSR1",
+      "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription.",
+      "source_ids": [
+        "ncbi-2130"
+      ],
+      "claim_sha256": "cd9e977579b9dc450c4d0572ddc09b89201e08c146dc2392801ca7483bd0aecd",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "PATZ1",
+      "text": "PATZ1 encodes a zinc-finger transcriptional regulator with an AT-hook DNA-binding motif.",
+      "source_ids": [
+        "ncbi-23598"
+      ],
+      "claim_sha256": "449251afb7de9bdfc1363462e1cd214f6f1cfff957db139b0ed5d1d83fb1716a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion combines EWSR1 activation sequences with PATZ1 DNA-binding/regulatory regions. Reported sarcomas often show mixed neural, myogenic or epithelial marker expression and are distinct from conventional Ewing sarcoma.",
+      "source_ids": [
+        "patz1"
+      ],
+      "claim_sha256": "862d9116c8065e962db5d18d0f3057e8af76e7410d63115765421da6c707e3e8",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. PATZ1 encodes a zinc-finger transcriptional regulator with an AT-hook DNA-binding motif. The fusion combines EWSR1 activation sequences with PATZ1 DNA-binding/regulatory regions. Reported sarcomas often show mixed neural, myogenic or epithelial marker expression and are distinct from conventional Ewing sarcoma.",
+    "source_ids": [
+      "ncbi-2130",
+      "ncbi-23598",
+      "patz1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Separate CNS/renal evidence and prognosis require dedicated review; report text is restricted to the sarcoma series."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "dd866c8ca0e491f4f994030ce7f9426f57483c3fb02bd564595b7b3955e937ec"
+}

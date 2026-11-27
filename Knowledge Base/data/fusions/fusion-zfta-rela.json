@@ -1,0 +1,75 @@
+{
+  "id": "fusion-zfta-rela",
+  "label": "ZFTA::RELA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ZFTA",
+      "hgnc_id": "HGNC:28449",
+      "ncbi_gene_id": "65998"
+    },
+    {
+      "symbol": "RELA",
+      "hgnc_id": "HGNC:9955",
+      "ncbi_gene_id": "5970"
+    }
+  ],
+  "aliases": [
+    "C11orf95::RELA"
+  ],
+  "tumor_contexts": [
+    "Supratentorial ependymoma, ZFTA fusion-positive"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ZFTA",
+      "text": "ZFTA encodes a zinc-finger protein with chromatin-binding activity.",
+      "source_ids": [
+        "ncbi-65998"
+      ],
+      "claim_sha256": "2d37febee566b0bf67abc5376d9ac008ca7702f4691c808f766ffdee0a37dc20",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RELA",
+      "text": "RELA encodes p65, a transcriptional subunit of the NF-kappaB complex.",
+      "source_ids": [
+        "ncbi-5970"
+      ],
+      "claim_sha256": "7fef614283ef01804f3b11d50d4fbbad356609498b37a076e2d3cea5cb569c0d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion combines ZFTA chromatin targeting with RELA transcriptional activation, recruiting chromatin regulators and activating oncogenic transcription, including NF-kappaB-associated programs. It is the predominant fusion in ZFTA-fusion-positive supratentorial ependymoma.",
+      "source_ids": [
+        "zfta",
+        "cns"
+      ],
+      "claim_sha256": "1bc9710b6c09d3b5a37426ab01b0c5202481e348525fad9ac258b3b87fc5cc36",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ZFTA encodes a zinc-finger protein with chromatin-binding activity. RELA encodes p65, a transcriptional subunit of the NF-kappaB complex. The fusion combines ZFTA chromatin targeting with RELA transcriptional activation, recruiting chromatin regulators and activating oncogenic transcription, including NF-kappaB-associated programs. It is the predominant fusion in ZFTA-fusion-positive supratentorial ependymoma.",
+    "source_ids": [
+      "ncbi-65998",
+      "ncbi-5970",
+      "zfta",
+      "cns"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "a02a5ed278e7aa0b3b11eb7d7fbb22bccf2776156a387eb636c9b7fe4fe6dc62"
+}

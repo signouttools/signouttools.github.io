@@ -1,0 +1,82 @@
+{
+  "id": "fusion-igh-dux4",
+  "label": "IGH / DUX4",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "DUX4",
+      "hgnc_id": "HGNC:50800",
+      "ncbi_gene_id": "100288687"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "DUX4-rearranged B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "DUX4",
+      "text": "DUX4 encodes a double-homeobox transcription factor normally active during early embryonic development.",
+      "source_ids": [
+        "ncbi-100288687"
+      ],
+      "claim_sha256": "a2c25c6b595a8fd411a1ba4f17172939c5d8bcce079870513c3b983501f72e7c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "Insertion or rearrangement of the repetitive DUX4 locus into IGH regulatory architecture causes abnormal DUX4 expression and a distinctive B-ALL transcriptional program, frequently with secondary ERG alterations.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "b7f5b53e5233c7d1fb22dbd3067e28f22d4b1baff8b997c0d50c85e150ceaa31",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "DUX4-rearranged childhood B-ALL generally has favorable outcomes in reported cohorts, despite frequent IKZF1 alterations; this is a subtype-level observation rather than a conclusion from ERG deletion alone.",
+      "source_ids": [
+        "all"
+      ],
+      "claim_sha256": "e362122b34044f9268fe6eec44fad99e04fdcff0d812e3b10993922bd8bf1cce",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. DUX4 encodes a double-homeobox transcription factor normally active during early embryonic development. Insertion or rearrangement of the repetitive DUX4 locus into IGH regulatory architecture causes abnormal DUX4 expression and a distinctive B-ALL transcriptional program, frequently with secondary ERG alterations. DUX4-rearranged childhood B-ALL generally has favorable outcomes in reported cohorts, despite frequent IKZF1 alterations; this is a subtype-level observation rather than a conclusion from ERG deletion alone.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-100288687",
+      "all"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "The repetitive DUX4 locus requires assay-specific mapping review; no single universal IGH/DUX4 junction is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "7b9bebe56635a1e180167c85ce2041b5a00f202fb98e77856356a1055d6a7ef8"
+}

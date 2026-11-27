@@ -1,0 +1,81 @@
+{
+  "id": "fusion-fgfr2-bicc1",
+  "label": "FGFR2::BICC1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FGFR2",
+      "hgnc_id": "HGNC:3689",
+      "ncbi_gene_id": "2263"
+    },
+    {
+      "symbol": "BICC1",
+      "hgnc_id": "HGNC:19351",
+      "ncbi_gene_id": "80114"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Intrahepatic cholangiocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FGFR2",
+      "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2263"
+      ],
+      "claim_sha256": "1cdae57704778e23e2f4c24a0da1305717e3fb5643ca80b10ca71163bfb36719",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BICC1",
+      "text": "BICC1 encodes an RNA-binding protein that regulates messenger RNA translation and stability.",
+      "source_ids": [
+        "ncbi-80114"
+      ],
+      "claim_sha256": "5b3f11312a014d0e45f9e39ce07b922946fd4ab5a3ca37e63eb113bcf923c2a6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::BICC1 was detected in intrahepatic cholangiocarcinoma.",
+      "source_ids": [
+        "fgfr2"
+      ],
+      "claim_sha256": "98c4a0b643e1f57545c2415b91abcc03d686a09c6d57d1386f03c68396bb5978",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+      "source_ids": [
+        "fda-fgfr2"
+      ],
+      "claim_sha256": "91585ec9dcbca921a5be9ea023086eed24b8b2233a27f9c0e10fa1ac08005157",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. BICC1 encodes an RNA-binding protein that regulates messenger RNA translation and stability. The fusion preserves the FGFR2 kinase region while altering its carboxy-terminal regulatory architecture; partner-mediated self-association can sustain FGFR signaling. FGFR2::BICC1 was detected in intrahepatic cholangiocarcinoma. Futibatinib is US-approved for adults with previously treated, unresectable locally advanced or metastatic intrahepatic cholangiocarcinoma harboring an FGFR2 fusion or rearrangement.",
+    "source_ids": [
+      "ncbi-2263",
+      "ncbi-80114",
+      "fgfr2",
+      "fda-fgfr2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "be2a05718d6d906e906c1b6b51442b94ecaca7c225ecea9863c3fb62fc1f2138"
+}

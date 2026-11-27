@@ -1,0 +1,73 @@
+{
+  "id": "fusion-cltc-tfe3",
+  "label": "CLTC::TFE3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CLTC",
+      "hgnc_id": "HGNC:2092",
+      "ncbi_gene_id": "1213"
+    },
+    {
+      "symbol": "TFE3",
+      "hgnc_id": "HGNC:11752",
+      "ncbi_gene_id": "7030"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "TFE3-rearranged renal cell carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CLTC",
+      "text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport.",
+      "source_ids": [
+        "ncbi-1213"
+      ],
+      "claim_sha256": "aeaeee745d48fdd1bfa9c45f67eeb48083a64fac408ca7dd70b41cd73ebb113c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "TFE3",
+      "text": "TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs.",
+      "source_ids": [
+        "ncbi-7030"
+      ],
+      "claim_sha256": "28d64e6f6046ffd5aba68c2d5bc26caf5a60390853bd7ac51a190901786e3b82",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. CLTC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+      "source_ids": [
+        "cltc-tfe3"
+      ],
+      "claim_sha256": "18271748d9c0bf4cf4268c4ee155ebcc559e8de8e308297d51bf7a1fcbae64bd",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport. TFE3 encodes a MiT/TFE-family transcription factor that regulates lysosomal and metabolic programs. The fusion retains the TFE3 DNA-binding and dimerization regions while altering its amino-terminal regulatory architecture, producing abnormal MiT/TFE transcriptional activity. CLTC::TFE3 is a recognized TFE3-rearranged renal cell carcinoma fusion.",
+    "source_ids": [
+      "ncbi-1213",
+      "ncbi-7030",
+      "cltc-tfe3"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Primary fusion-cloning abstract inspected; full-text audit pending."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "6b3196af3e3f5c2b293530da645eed249d870a6df4e96b9743af1da750d10dec"
+}

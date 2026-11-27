@@ -1,0 +1,72 @@
+{
+  "id": "fusion-etv6-jak2",
+  "label": "ETV6::JAK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "JAK2",
+      "hgnc_id": "HGNC:6192",
+      "ncbi_gene_id": "3717"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
+    "B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "JAK2",
+      "text": "JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals.",
+      "source_ids": [
+        "ncbi-3717"
+      ],
+      "claim_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. ETV6::JAK2 is associated with myeloid/lymphoid neoplasia.",
+      "source_ids": [
+        "icc-m"
+      ],
+      "claim_sha256": "a668680613215959d30ca533bad92f6a8e987cb5b49d5e7ffea42d2b9a0b971c",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. ETV6::JAK2 is associated with myeloid/lymphoid neoplasia.",
+    "source_ids": [
+      "ncbi-2120",
+      "ncbi-3717",
+      "icc-m"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "7912716f551ad5555f4bd4f95eaf0857ee529282272db00078a16c6e823e0adb"
+}

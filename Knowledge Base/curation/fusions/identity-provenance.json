@@ -1,0 +1,8 @@
+{
+  "source_id": "hgnc",
+  "snapshot_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651",
+  "origin": "Existing frozen HGNC inventory input, reused on 2026-11-27",
+  "status": "identity_checked_against_existing_snapshot_not_a_live_HGNC_refresh",
+  "source_roster": "inventory/roster.json",
+  "policy": "Do not infer fusion oncogenicity from approved gene identity."
+}

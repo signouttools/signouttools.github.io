@@ -1,0 +1,73 @@
+{
+  "id": "fusion-myb-qki",
+  "label": "MYB::QKI",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MYB",
+      "hgnc_id": "HGNC:7545",
+      "ncbi_gene_id": "4602"
+    },
+    {
+      "symbol": "QKI",
+      "hgnc_id": "HGNC:21100",
+      "ncbi_gene_id": "9444"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Angiocentric glioma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MYB",
+      "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation.",
+      "source_ids": [
+        "ncbi-4602"
+      ],
+      "claim_sha256": "db17fc1d9ed3d64c21143167822e90e696967603f0ddaf27aebff2e369e7add5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "QKI",
+      "text": "QKI encodes an RNA-binding protein that regulates RNA processing and myelination.",
+      "source_ids": [
+        "ncbi-9444"
+      ],
+      "claim_sha256": "a1122c11c0cf2e48dbc1854b2d1eb3a79d34ea050d97e17298108585d4767aef",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement promotes oncogenic MYB activity through MYB truncation, relocation of regulatory elements that increase fusion expression, and partial loss of QKI. It is characteristic of angiocentric glioma, typically a low-grade epilepsy-associated CNS tumor.",
+      "source_ids": [
+        "myb-qki-mech",
+        "cns"
+      ],
+      "claim_sha256": "ce7efb608f5faa9524aaf3ad15997c0e8fa7690bf6d9364d4dba995b4722d1f9",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation. QKI encodes an RNA-binding protein that regulates RNA processing and myelination. The rearrangement promotes oncogenic MYB activity through MYB truncation, relocation of regulatory elements that increase fusion expression, and partial loss of QKI. It is characteristic of angiocentric glioma, typically a low-grade epilepsy-associated CNS tumor.",
+    "source_ids": [
+      "ncbi-4602",
+      "ncbi-9444",
+      "myb-qki-mech",
+      "cns"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "ee2c72a5755c852d70ba151bc9381938a9908ff41e49bff29c40970d2b61d24c"
+}

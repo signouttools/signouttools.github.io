@@ -1,0 +1,74 @@
+{
+  "id": "fusion-jazf1-suz12",
+  "label": "JAZF1::SUZ12",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "JAZF1",
+      "hgnc_id": "HGNC:28917",
+      "ncbi_gene_id": "221895"
+    },
+    {
+      "symbol": "SUZ12",
+      "hgnc_id": "HGNC:17101",
+      "ncbi_gene_id": "23512"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Low-grade endometrial stromal sarcoma",
+    "Endometrial stromal nodule"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "JAZF1",
+      "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism.",
+      "source_ids": [
+        "ncbi-221895"
+      ],
+      "claim_sha256": "f4a695c9dc6d95c8ded5793f2f02d5dbe3e1330a29a14ea094b1365eba629b8a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "SUZ12",
+      "text": "SUZ12 encodes a core component of Polycomb repressive complex 2.",
+      "source_ids": [
+        "ncbi-23512"
+      ],
+      "claim_sha256": "3fa2aa85cc695e456d9522e7cbb0b143c3779eed94b5ea5feb684b450539e71a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion alters SUZ12-associated Polycomb complex assembly, chromatin occupancy and repression. It is recurrent in low-grade endometrial stromal tumors, including both stromal nodules and sarcomas; invasion distinguishes these categories.",
+      "source_ids": [
+        "jazf1"
+      ],
+      "claim_sha256": "240984ee4a54862b09251cf55ca69996ba54a1dee9b961186ef8d93bf5d2ab68",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "JAZF1 encodes a transcriptional regulator with roles in chromatin regulation and metabolism. SUZ12 encodes a core component of Polycomb repressive complex 2. The fusion alters SUZ12-associated Polycomb complex assembly, chromatin occupancy and repression. It is recurrent in low-grade endometrial stromal tumors, including both stromal nodules and sarcomas; invasion distinguishes these categories.",
+    "source_ids": [
+      "ncbi-221895",
+      "ncbi-23512",
+      "jazf1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "No malignancy call based on the fusion alone; endocrine treatment eligibility requires actual receptor/histology evidence."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "b7a11f32e3c3e0107a13d6a780d1c4f02bdfa7d2d10558b50d1abca0c83ac1cc"
+}

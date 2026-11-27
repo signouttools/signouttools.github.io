@@ -1,0 +1,75 @@
+{
+  "id": "fusion-igh-mafb",
+  "label": "IGH / MAFB",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "MAFB",
+      "hgnc_id": "HGNC:6408",
+      "ncbi_gene_id": "9935"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Plasma cell myeloma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAFB",
+      "text": "MAFB encodes a bZIP transcription factor involved in lineage differentiation.",
+      "source_ids": [
+        "ncbi-9935"
+      ],
+      "claim_sha256": "dfb3d8c1ca541dfbc4a1209a9fe8b534b4ea5917cfcbf49555e2c4bfea18cfbb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "t(14;20) places MAFB under IGH regulatory control, increasing a lineage-altering transcriptional program. It is a recurrent primary IGH translocation in plasma cell myeloma.",
+      "source_ids": [
+        "icc-l",
+        "myeloma-guidance"
+      ],
+      "claim_sha256": "f0df4b28c7c08a20b6e2016ecd3cd2da5a4c7453ab5f02581e9d3f45bb291eb4",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. MAFB encodes a bZIP transcription factor involved in lineage differentiation. t(14;20) places MAFB under IGH regulatory control, increasing a lineage-altering transcriptional program. It is a recurrent primary IGH translocation in plasma cell myeloma.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-9935",
+      "icc-l",
+      "myeloma-guidance"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Historical adverse-risk associations differ from newer co-lesion-based risk definitions; no unqualified contemporary risk assignment included."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "30f405898316674eb42333ac6bd6b412c4b58ce5d821b7ff7ccb50bb459012ae"
+}

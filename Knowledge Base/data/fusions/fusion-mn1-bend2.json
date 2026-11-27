@@ -1,0 +1,75 @@
+{
+  "id": "fusion-mn1-bend2",
+  "label": "MN1::BEND2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MN1",
+      "hgnc_id": "HGNC:7180",
+      "ncbi_gene_id": "4330"
+    },
+    {
+      "symbol": "BEND2",
+      "hgnc_id": "HGNC:28509",
+      "ncbi_gene_id": "139105"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Astroblastoma, MN1-altered"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MN1",
+      "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs.",
+      "source_ids": [
+        "ncbi-4330"
+      ],
+      "claim_sha256": "5a9c861f57edb00a37deae82a129a23827b75bb0e11e5512a5565a35c5726a5a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BEND2",
+      "text": "BEND2 encodes a BEN-domain protein implicated in transcriptional regulation.",
+      "source_ids": [
+        "ncbi-139105"
+      ],
+      "claim_sha256": "cba6290734c42685f0a8c4926bf9a1300eac6d2d50d507eaae53c0306af35962",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion creates an abnormal MN1/BEND2 transcriptional regulator and drives tumor formation in experimental models. It is a recurrent driver in the CNS tumor group classified as astroblastoma, MN1-altered.",
+      "source_ids": [
+        "mn1",
+        "cns"
+      ],
+      "claim_sha256": "1611bf6f3c80b0a4d89a7cbc835207501ee384b45903e4375854b2d48fdc7cc5",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs. BEND2 encodes a BEN-domain protein implicated in transcriptional regulation. The fusion creates an abnormal MN1/BEND2 transcriptional regulator and drives tumor formation in experimental models. It is a recurrent driver in the CNS tumor group classified as astroblastoma, MN1-altered.",
+    "source_ids": [
+      "ncbi-4330",
+      "ncbi-139105",
+      "mn1",
+      "cns"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Recent fusion-defined groups have different outcomes; no blanket favorable or adverse prognosis assigned."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "37dae507f4f2df5fe20258b6769d051a9fc05feaa038b166ee062d92b30c4991"
+}

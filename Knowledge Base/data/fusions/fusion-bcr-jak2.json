@@ -1,0 +1,82 @@
+{
+  "id": "fusion-bcr-jak2",
+  "label": "BCR::JAK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "BCR",
+      "hgnc_id": "HGNC:1014",
+      "ncbi_gene_id": "613"
+    },
+    {
+      "symbol": "JAK2",
+      "hgnc_id": "HGNC:6192",
+      "ncbi_gene_id": "3717"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
+    "B-lymphoblastic leukemia"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "BCR",
+      "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains.",
+      "source_ids": [
+        "ncbi-613"
+      ],
+      "claim_sha256": "397bf4a09dbdc34975b0d771c84c1d6f8ec4376ee75b6adf82478dc52a1d7a2d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "JAK2",
+      "text": "JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals.",
+      "source_ids": [
+        "ncbi-3717"
+      ],
+      "claim_sha256": "606b26d28a979ebac24e0bae62ba14428af14270d1e7556e6b876441ca219017",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. BCR::JAK2 is associated with myeloid/lymphoid neoplasia.",
+      "source_ids": [
+        "phlike"
+      ],
+      "claim_sha256": "99ce0f4e7d43cad4950352adc4cb76eb2aa82754027ce7e4197da72050d8c36f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+      "source_ids": [
+        "jak2"
+      ],
+      "claim_sha256": "3684b554300de06309af6a0b18b4ab38208848dbbd25e2f6cc4c351213f84cae",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "BCR encodes a signaling protein with oligomerization and Rho-family GTPase-regulatory domains. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. The fusion retains the JAK2 tyrosine-kinase region and removes normal amino-terminal control, producing constitutive JAK-STAT signaling. BCR::JAK2 is associated with myeloid/lymphoid neoplasia. Ruxolitinib responses have been described in small series of PCM1::JAK2- and BCR::JAK2-positive myeloid neoplasms; this is off-label fusion-directed evidence.",
+    "source_ids": [
+      "ncbi-613",
+      "ncbi-3717",
+      "phlike",
+      "jak2"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "9db6dbb11777990647593661f09b3646faa32a2add2304dc7a0ae94e087aefb1"
+}

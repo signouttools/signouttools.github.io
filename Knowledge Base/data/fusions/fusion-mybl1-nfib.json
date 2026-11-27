@@ -1,0 +1,75 @@
+{
+  "id": "fusion-mybl1-nfib",
+  "label": "MYBL1::NFIB",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MYBL1",
+      "hgnc_id": "HGNC:7547",
+      "ncbi_gene_id": "4603"
+    },
+    {
+      "symbol": "NFIB",
+      "hgnc_id": "HGNC:7785",
+      "ncbi_gene_id": "4781"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Adenoid cystic carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MYBL1",
+      "text": "MYBL1 encodes a MYB-family transcription factor.",
+      "source_ids": [
+        "ncbi-4603"
+      ],
+      "claim_sha256": "3c1de0a1875ffc95ee4087452717cb2e1d87de1a8ad8dd55cf8d01868288c5d1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NFIB",
+      "text": "NFIB encodes a nuclear-factor-I transcription factor involved in tissue development.",
+      "source_ids": [
+        "ncbi-4781"
+      ],
+      "claim_sha256": "c2b3b659abdbcb1c074ecc327d3f26f151405aa41c6cf8c06caf033418a7273f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYBL1::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+      "source_ids": [
+        "myb-nfib",
+        "salivary"
+      ],
+      "claim_sha256": "19bd0a6dfe8eb7cd402dd730f0a7453d6512c637e79659b61de0b198c514a85e",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MYBL1 encodes a MYB-family transcription factor. NFIB encodes a nuclear-factor-I transcription factor involved in tissue development. The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYBL1::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+    "source_ids": [
+      "ncbi-4603",
+      "ncbi-4781",
+      "myb-nfib",
+      "salivary"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Breakpoint-specific loss of negative regulatory regions versus enhancer effects must be resolved before a more specific mechanism claim."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "dbfbc9759910aeb78b766e2b3b714625bbe07973a93cc3ffd3ed9c7c59fa7039"
+}

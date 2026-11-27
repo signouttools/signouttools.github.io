@@ -1,0 +1,82 @@
+{
+  "id": "fusion-strn-alk",
+  "label": "STRN::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "STRN",
+      "hgnc_id": "HGNC:11424",
+      "ncbi_gene_id": "6801"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "STRN",
+      "text": "STRN encodes striatin, a scaffold in signaling complexes including STRIPAK.",
+      "source_ids": [
+        "ncbi-6801"
+      ],
+      "claim_sha256": "1fec10add2ab961ce00b332fb596aa48fb95601c05961a1da921b18da02bb4d5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. Clinical responses to ALK inhibition have been reported in lung adenocarcinoma.",
+      "source_ids": [
+        "strn-alk"
+      ],
+      "claim_sha256": "2825a9f4981fa3b805673ea5bc811bced5bd82552e559244d88e3bd8ef5b8681",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+      "source_ids": [
+        "fda-criz",
+        "strn-alk"
+      ],
+      "claim_sha256": "276d8c9f2985d30a4db2428186686494c22cbb1f2bd0f271355e509d5729aa9f",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "STRN encodes striatin, a scaffold in signaling complexes including STRIPAK. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase domain under an amino-terminal partner that promotes abnormal kinase activation. It is a rare driver in lung adenocarcinoma. Clinical responses to ALK inhibition have been reported in lung adenocarcinoma. ALK-directed treatment is supported by the ALK-positive NSCLC indication; the cited evidence for this particular partner is a case report.",
+    "source_ids": [
+      "ncbi-6801",
+      "ncbi-238",
+      "strn-alk",
+      "fda-criz"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "aff65db6bcacd2b7354ed830641ee4d184c28d58cdd5b8e79fb72fdf89fd4d29"
+}

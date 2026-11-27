@@ -1,0 +1,80 @@
+{
+  "id": "fusion-npm1-rara",
+  "label": "NPM1::RARA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "NPM1",
+      "hgnc_id": "HGNC:7910",
+      "ncbi_gene_id": "4869"
+    },
+    {
+      "symbol": "RARA",
+      "hgnc_id": "HGNC:9864",
+      "ncbi_gene_id": "5914"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML with variant RARA fusion"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NPM1",
+      "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking.",
+      "source_ids": [
+        "ncbi-4869"
+      ],
+      "claim_sha256": "feb3fce8a79759b1142e7d87bc87b585675f11e5f9bbfc22f207ef739f59e9e2",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RARA",
+      "text": "RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor.",
+      "source_ids": [
+        "ncbi-5914"
+      ],
+      "claim_sha256": "15796aab291e1c486a471d24789fe5cf65e08c7cfbf5b304560c64ccd60852bc",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+      "source_ids": [
+        "rara"
+      ],
+      "claim_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ATRA responsiveness has been reported with NPM1::RARA, but evidence comes from rare variant-APL cases and does not establish the standard PML::RARA ATRA/arsenic regimen for this fusion.",
+      "source_ids": [
+        "rara"
+      ],
+      "claim_sha256": "656ed7d2642e688154395fa75cc604095419f4bdf5b27bf4b5e3f0ffeab23d65",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA. ATRA responsiveness has been reported with NPM1::RARA, but evidence comes from rare variant-APL cases and does not establish the standard PML::RARA ATRA/arsenic regimen for this fusion.",
+    "source_ids": [
+      "ncbi-4869",
+      "ncbi-5914",
+      "rara"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "189a54bf971f78f8eda219d134691d71ee57573a9c6d2800dcf3ba3245be6d91"
+}

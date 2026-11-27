@@ -1,0 +1,83 @@
+{
+  "id": "fusion-etv6-ntrk2",
+  "label": "ETV6::NTRK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "NTRK2",
+      "hgnc_id": "HGNC:8032",
+      "ncbi_gene_id": "4915"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pulmonary atypical carcinoid"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK2",
+      "text": "NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4.",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "claim_sha256": "c79c9b9797fe7b36b2283266c51d259f9e2fb442387f7d83e3fd11aa3612afcb",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The reported fusion retains the NTRK2 kinase region in an ETV6-containing product. ETV6::NTRK2 has been documented in metastatic pulmonary atypical carcinoid with a clinical response to entrectinib; evidence for this specific pairing includes individual cases.",
+      "source_ids": [
+        "etv6-ntrk2"
+      ],
+      "claim_sha256": "e2b28b9c12e5d4b4e23088e08f6966c94aeacc7271db6591da198284fe363c91",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "An expressed oncogenic NTRK fusion can meet the NTRK solid-tumor biomarker definition for TRK inhibition; larotrectinib eligibility includes advanced disease, absence of known acquired resistance mutations, and prior progression or no satisfactory alternative.",
+      "source_ids": [
+        "fda-laro"
+      ],
+      "claim_sha256": "90ee772b66536aef8ad8478affd0c71f5eb8dc52cb9f18922e1219190be82c58",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. NTRK2 encodes TRKB, a receptor tyrosine kinase for brain-derived neurotrophic factor and neurotrophin-4. The reported fusion retains the NTRK2 kinase region in an ETV6-containing product. ETV6::NTRK2 has been documented in metastatic pulmonary atypical carcinoid with a clinical response to entrectinib; evidence for this specific pairing includes individual cases. An expressed oncogenic NTRK fusion can meet the NTRK solid-tumor biomarker definition for TRK inhibition; larotrectinib eligibility includes advanced disease, absence of known acquired resistance mutations, and prior progression or no satisfactory alternative.",
+    "source_ids": [
+      "ncbi-2120",
+      "ncbi-4915",
+      "etv6-ntrk2",
+      "fda-laro"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Rare pairing: retain case-level evidence designation."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "cee60f078bd92224c3e39c95a802732c32abbfdd546c05a5e0570d74cec2164c"
+}

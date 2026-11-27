@@ -1,0 +1,5678 @@
+{
+  "schema_version": "0.1.0",
+  "built_on": "2026-11-27",
+  "status": "draft_not_in_live_manifest",
+  "records": [
+    {
+      "id": "fusion-eml4-alk",
+      "label": "EML4::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EML4",
+          "hgnc_id": "HGNC:1316",
+          "ncbi_gene_id": "27436"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kif5b-alk",
+      "label": "KIF5B::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KIF5B",
+          "hgnc_id": "HGNC:6324",
+          "ncbi_gene_id": "3799"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-strn-alk",
+      "label": "STRN::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "STRN",
+          "hgnc_id": "HGNC:11424",
+          "ncbi_gene_id": "6801"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kif5b-ret",
+      "label": "KIF5B::RET",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KIF5B",
+          "hgnc_id": "HGNC:6324",
+          "ncbi_gene_id": "3799"
+        },
+        {
+          "symbol": "RET",
+          "hgnc_id": "HGNC:9967",
+          "ncbi_gene_id": "5979"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ccdc6-ret",
+      "label": "CCDC6::RET",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CCDC6",
+          "hgnc_id": "HGNC:18782",
+          "ncbi_gene_id": "8030"
+        },
+        {
+          "symbol": "RET",
+          "hgnc_id": "HGNC:9967",
+          "ncbi_gene_id": "5979"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Papillary thyroid carcinoma",
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ncoa4-ret",
+      "label": "NCOA4::RET",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NCOA4",
+          "hgnc_id": "HGNC:7671",
+          "ncbi_gene_id": "8031"
+        },
+        {
+          "symbol": "RET",
+          "hgnc_id": "HGNC:9967",
+          "ncbi_gene_id": "5979"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Papillary thyroid carcinoma",
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-ret",
+      "label": "ETV6::RET",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "RET",
+          "hgnc_id": "HGNC:9967",
+          "ncbi_gene_id": "5979"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Salivary secretory carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cd74-ros1",
+      "label": "CD74::ROS1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CD74",
+          "hgnc_id": "HGNC:1697",
+          "ncbi_gene_id": "972"
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "ncbi_gene_id": "6098"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-slc34a2-ros1",
+      "label": "SLC34A2::ROS1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SLC34A2",
+          "hgnc_id": "HGNC:11020",
+          "ncbi_gene_id": "10568"
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "ncbi_gene_id": "6098"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-sdc4-ros1",
+      "label": "SDC4::ROS1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SDC4",
+          "hgnc_id": "HGNC:10661",
+          "ncbi_gene_id": "6385"
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "ncbi_gene_id": "6098"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ezr-ros1",
+      "label": "EZR::ROS1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EZR",
+          "hgnc_id": "HGNC:12691",
+          "ncbi_gene_id": "7430"
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "ncbi_gene_id": "6098"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tpm3-ros1",
+      "label": "TPM3::ROS1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TPM3",
+          "hgnc_id": "HGNC:12012",
+          "ncbi_gene_id": "7170"
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "ncbi_gene_id": "6098"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-gopc-ros1",
+      "label": "GOPC::ROS1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "GOPC",
+          "hgnc_id": "HGNC:17643",
+          "ncbi_gene_id": "57120"
+        },
+        {
+          "symbol": "ROS1",
+          "hgnc_id": "HGNC:10261",
+          "ncbi_gene_id": "6098"
+        }
+      ],
+      "aliases": [
+        "FIG::ROS1"
+      ],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tpm3-ntrk1",
+      "label": "TPM3::NTRK1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TPM3",
+          "hgnc_id": "HGNC:12012",
+          "ncbi_gene_id": "7170"
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "ncbi_gene_id": "4914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "NTRK-rearranged spindle cell neoplasm",
+        "Colorectal carcinoma",
+        "Papillary thyroid carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-lmna-ntrk1",
+      "label": "LMNA::NTRK1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "LMNA",
+          "hgnc_id": "HGNC:6636",
+          "ncbi_gene_id": "4000"
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "ncbi_gene_id": "4914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "NTRK-rearranged spindle cell neoplasm",
+        "Colorectal carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tpr-ntrk1",
+      "label": "TPR::NTRK1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TPR",
+          "hgnc_id": "HGNC:12017",
+          "ncbi_gene_id": "7175"
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "ncbi_gene_id": "4914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Colorectal carcinoma",
+        "Thyroid carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-sqstm1-ntrk1",
+      "label": "SQSTM1::NTRK1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SQSTM1",
+          "hgnc_id": "HGNC:11280",
+          "ncbi_gene_id": "8878"
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "ncbi_gene_id": "4914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma",
+        "Thyroid carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-eml4-ntrk3",
+      "label": "EML4::NTRK3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EML4",
+          "hgnc_id": "HGNC:1316",
+          "ncbi_gene_id": "27436"
+        },
+        {
+          "symbol": "NTRK3",
+          "hgnc_id": "HGNC:8033",
+          "ncbi_gene_id": "4916"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Thyroid carcinoma",
+        "NTRK-rearranged spindle cell neoplasm"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-sqstm1-ntrk3",
+      "label": "SQSTM1::NTRK3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SQSTM1",
+          "hgnc_id": "HGNC:11280",
+          "ncbi_gene_id": "8878"
+        },
+        {
+          "symbol": "NTRK3",
+          "hgnc_id": "HGNC:8033",
+          "ncbi_gene_id": "4916"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Thyroid carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-ntrk3",
+      "label": "ETV6::NTRK3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "NTRK3",
+          "hgnc_id": "HGNC:8033",
+          "ncbi_gene_id": "4916"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Infantile fibrosarcoma",
+        "Cellular congenital mesoblastic nephroma",
+        "Secretory carcinoma of breast",
+        "Salivary secretory carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "NTRK2",
+          "hgnc_id": "HGNC:8032",
+          "ncbi_gene_id": "4915"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pulmonary atypical carcinoid"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fgfr2-bicc1",
+      "label": "FGFR2::BICC1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "ncbi_gene_id": "2263"
+        },
+        {
+          "symbol": "BICC1",
+          "hgnc_id": "HGNC:19351",
+          "ncbi_gene_id": "80114"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fgfr2-ahcyl1",
+      "label": "FGFR2::AHCYL1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "ncbi_gene_id": "2263"
+        },
+        {
+          "symbol": "AHCYL1",
+          "hgnc_id": "HGNC:344",
+          "ncbi_gene_id": "10768"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fgfr2-etv6",
+      "label": "FGFR2::ETV6",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "ncbi_gene_id": "2263"
+        },
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fgfr2-ina",
+      "label": "FGFR2::INA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FGFR2",
+          "hgnc_id": "HGNC:3689",
+          "ncbi_gene_id": "2263"
+        },
+        {
+          "symbol": "INA",
+          "hgnc_id": "HGNC:6057",
+          "ncbi_gene_id": "9118"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Intrahepatic cholangiocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fgfr3-tacc3",
+      "label": "FGFR3::TACC3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FGFR3",
+          "hgnc_id": "HGNC:3690",
+          "ncbi_gene_id": "2261"
+        },
+        {
+          "symbol": "TACC3",
+          "hgnc_id": "HGNC:11524",
+          "ncbi_gene_id": "10460"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Glioblastoma",
+        "Urothelial carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fgfr1-tacc1",
+      "label": "FGFR1::TACC1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FGFR1",
+          "hgnc_id": "HGNC:3688",
+          "ncbi_gene_id": "2260"
+        },
+        {
+          "symbol": "TACC1",
+          "hgnc_id": "HGNC:11522",
+          "ncbi_gene_id": "6867"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Glioma",
+        "Extraventricular neurocytoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cd74-nrg1",
+      "label": "CD74::NRG1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CD74",
+          "hgnc_id": "HGNC:1697",
+          "ncbi_gene_id": "972"
+        },
+        {
+          "symbol": "NRG1",
+          "hgnc_id": "HGNC:7997",
+          "ncbi_gene_id": "3084"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma, often invasive mucinous"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-slc3a2-nrg1",
+      "label": "SLC3A2::NRG1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SLC3A2",
+          "hgnc_id": "HGNC:11026",
+          "ncbi_gene_id": "6520"
+        },
+        {
+          "symbol": "NRG1",
+          "hgnc_id": "HGNC:7997",
+          "ncbi_gene_id": "3084"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-atp1b1-nrg1",
+      "label": "ATP1B1::NRG1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ATP1B1",
+          "hgnc_id": "HGNC:804",
+          "ncbi_gene_id": "481"
+        },
+        {
+          "symbol": "NRG1",
+          "hgnc_id": "HGNC:7997",
+          "ncbi_gene_id": "3084"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pancreatic adenocarcinoma",
+        "Lung adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tpm3-alk",
+      "label": "TPM3::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TPM3",
+          "hgnc_id": "HGNC:12012",
+          "ncbi_gene_id": "7170"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tpm4-alk",
+      "label": "TPM4::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TPM4",
+          "hgnc_id": "HGNC:12013",
+          "ncbi_gene_id": "7171"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cltc-alk",
+      "label": "CLTC::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CLTC",
+          "hgnc_id": "HGNC:2092",
+          "ncbi_gene_id": "1213"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor",
+        "ALK-positive large B-cell lymphoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ranbp2-alk",
+      "label": "RANBP2::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "RANBP2",
+          "hgnc_id": "HGNC:9848",
+          "ncbi_gene_id": "5903"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor",
+        "Epithelioid inflammatory myofibroblastic sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cars1-alk",
+      "label": "CARS1::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CARS1",
+          "hgnc_id": "HGNC:1493",
+          "ncbi_gene_id": "833"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [
+        "CARS::ALK"
+      ],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-npm1-alk",
+      "label": "NPM1::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NPM1",
+          "hgnc_id": "HGNC:7910",
+          "ncbi_gene_id": "4869"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "ALK-positive anaplastic large cell lymphoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-bcr-abl1",
+      "label": "BCR::ABL1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BCR",
+          "hgnc_id": "HGNC:1014",
+          "ncbi_gene_id": "613"
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "ncbi_gene_id": "25"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Chronic myeloid leukemia",
+        "B-lymphoblastic leukemia",
+        "Rare de novo AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-pml-rara",
+      "label": "PML::RARA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PML",
+          "hgnc_id": "HGNC:9113",
+          "ncbi_gene_id": "5371"
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "ncbi_gene_id": "5914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Acute promyelocytic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-runx1-runx1t1",
+      "label": "RUNX1::RUNX1T1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "RUNX1",
+          "hgnc_id": "HGNC:10471",
+          "ncbi_gene_id": "861"
+        },
+        {
+          "symbol": "RUNX1T1",
+          "hgnc_id": "HGNC:1535",
+          "ncbi_gene_id": "862"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Core-binding factor AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cbfb-myh11",
+      "label": "CBFB::MYH11",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CBFB",
+          "hgnc_id": "HGNC:1539",
+          "ncbi_gene_id": "865"
+        },
+        {
+          "symbol": "MYH11",
+          "hgnc_id": "HGNC:7569",
+          "ncbi_gene_id": "4629"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Core-binding factor AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-dek-nup214",
+      "label": "DEK::NUP214",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "DEK",
+          "hgnc_id": "HGNC:2768",
+          "ncbi_gene_id": "7913"
+        },
+        {
+          "symbol": "NUP214",
+          "hgnc_id": "HGNC:8064",
+          "ncbi_gene_id": "8021"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML with DEK::NUP214"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-rbm15-mrtfa",
+      "label": "RBM15::MRTFA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "RBM15",
+          "hgnc_id": "HGNC:14959",
+          "ncbi_gene_id": "64783"
+        },
+        {
+          "symbol": "MRTFA",
+          "hgnc_id": "HGNC:14334",
+          "ncbi_gene_id": "57591"
+        }
+      ],
+      "aliases": [
+        "RBM15::MKL1",
+        "OTT::MAL"
+      ],
+      "tumor_contexts": [
+        "Infant acute megakaryoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kmt2a-mllt3",
+      "label": "KMT2A::MLLT3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "ncbi_gene_id": "4297"
+        },
+        {
+          "symbol": "MLLT3",
+          "hgnc_id": "HGNC:7136",
+          "ncbi_gene_id": "4300"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kmt2a-aff1",
+      "label": "KMT2A::AFF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "ncbi_gene_id": "4297"
+        },
+        {
+          "symbol": "AFF1",
+          "hgnc_id": "HGNC:7135",
+          "ncbi_gene_id": "4299"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia, particularly infant disease",
+        "AML",
+        "Mixed-phenotype acute leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kmt2a-mllt10",
+      "label": "KMT2A::MLLT10",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "ncbi_gene_id": "4297"
+        },
+        {
+          "symbol": "MLLT10",
+          "hgnc_id": "HGNC:16063",
+          "ncbi_gene_id": "8028"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kmt2a-ell",
+      "label": "KMT2A::ELL",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "ncbi_gene_id": "4297"
+        },
+        {
+          "symbol": "ELL",
+          "hgnc_id": "HGNC:23114",
+          "ncbi_gene_id": "8178"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kmt2a-afdn",
+      "label": "KMT2A::AFDN",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "ncbi_gene_id": "4297"
+        },
+        {
+          "symbol": "AFDN",
+          "hgnc_id": "HGNC:7137",
+          "ncbi_gene_id": "4301"
+        }
+      ],
+      "aliases": [
+        "MLL::AF6",
+        "KMT2A::MLLT4"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kmt2a-mllt1",
+      "label": "KMT2A::MLLT1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "ncbi_gene_id": "4297"
+        },
+        {
+          "symbol": "MLLT1",
+          "hgnc_id": "HGNC:7134",
+          "ncbi_gene_id": "4298"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kmt2a-mllt6",
+      "label": "KMT2A::MLLT6",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KMT2A",
+          "hgnc_id": "HGNC:7132",
+          "ncbi_gene_id": "4297"
+        },
+        {
+          "symbol": "MLLT6",
+          "hgnc_id": "HGNC:7138",
+          "ncbi_gene_id": "4302"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nup98-nsd1",
+      "label": "NUP98::NSD1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "ncbi_gene_id": "4928"
+        },
+        {
+          "symbol": "NSD1",
+          "hgnc_id": "HGNC:14234",
+          "ncbi_gene_id": "64324"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nup98-kdm5a",
+      "label": "NUP98::KDM5A",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "ncbi_gene_id": "4928"
+        },
+        {
+          "symbol": "KDM5A",
+          "hgnc_id": "HGNC:9886",
+          "ncbi_gene_id": "5927"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nup98-hoxa9",
+      "label": "NUP98::HOXA9",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "ncbi_gene_id": "4928"
+        },
+        {
+          "symbol": "HOXA9",
+          "hgnc_id": "HGNC:5109",
+          "ncbi_gene_id": "3205"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nup98-hoxd13",
+      "label": "NUP98::HOXD13",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "ncbi_gene_id": "4928"
+        },
+        {
+          "symbol": "HOXD13",
+          "hgnc_id": "HGNC:5136",
+          "ncbi_gene_id": "3239"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML",
+        "Myelodysplastic neoplasia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nup98-ddx10",
+      "label": "NUP98::DDX10",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "ncbi_gene_id": "4928"
+        },
+        {
+          "symbol": "DDX10",
+          "hgnc_id": "HGNC:2735",
+          "ncbi_gene_id": "1662"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nup98-top1",
+      "label": "NUP98::TOP1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NUP98",
+          "hgnc_id": "HGNC:8068",
+          "ncbi_gene_id": "4928"
+        },
+        {
+          "symbol": "TOP1",
+          "hgnc_id": "HGNC:11986",
+          "ncbi_gene_id": "7150"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cbfa2t3-glis2",
+      "label": "CBFA2T3::GLIS2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CBFA2T3",
+          "hgnc_id": "HGNC:1537",
+          "ncbi_gene_id": "863"
+        },
+        {
+          "symbol": "GLIS2",
+          "hgnc_id": "HGNC:29450",
+          "ncbi_gene_id": "84662"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pediatric AML, often megakaryoblastic"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fus-erg",
+      "label": "FUS::ERG",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "ncbi_gene_id": "2521"
+        },
+        {
+          "symbol": "ERG",
+          "hgnc_id": "HGNC:3446",
+          "ncbi_gene_id": "2078"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML",
+        "Rare Ewing sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-runx1-cbfa2t3",
+      "label": "RUNX1::CBFA2T3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "RUNX1",
+          "hgnc_id": "HGNC:10471",
+          "ncbi_gene_id": "861"
+        },
+        {
+          "symbol": "CBFA2T3",
+          "hgnc_id": "HGNC:1537",
+          "ncbi_gene_id": "863"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-picalm-mllt10",
+      "label": "PICALM::MLLT10",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PICALM",
+          "hgnc_id": "HGNC:15514",
+          "ncbi_gene_id": "8301"
+        },
+        {
+          "symbol": "MLLT10",
+          "hgnc_id": "HGNC:16063",
+          "ncbi_gene_id": "8028"
+        }
+      ],
+      "aliases": [
+        "CALM::AF10"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia",
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-set-nup214",
+      "label": "SET::NUP214",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SET",
+          "hgnc_id": "HGNC:10760",
+          "ncbi_gene_id": "6418"
+        },
+        {
+          "symbol": "NUP214",
+          "hgnc_id": "HGNC:8064",
+          "ncbi_gene_id": "8021"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia",
+        "AML"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kat6a-crebbp",
+      "label": "KAT6A::CREBBP",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KAT6A",
+          "hgnc_id": "HGNC:13013",
+          "ncbi_gene_id": "7994"
+        },
+        {
+          "symbol": "CREBBP",
+          "hgnc_id": "HGNC:2348",
+          "ncbi_gene_id": "1387"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML, often monocytic or myelomonocytic"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kat6a-ep300",
+      "label": "KAT6A::EP300",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KAT6A",
+          "hgnc_id": "HGNC:13013",
+          "ncbi_gene_id": "7994"
+        },
+        {
+          "symbol": "EP300",
+          "hgnc_id": "HGNC:3373",
+          "ncbi_gene_id": "2033"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML, often monocytic or myelomonocytic"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-zbtb16-rara",
+      "label": "ZBTB16::RARA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ZBTB16",
+          "hgnc_id": "HGNC:12930",
+          "ncbi_gene_id": "7704"
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "ncbi_gene_id": "5914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-npm1-rara",
+      "label": "NPM1::RARA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NPM1",
+          "hgnc_id": "HGNC:7910",
+          "ncbi_gene_id": "4869"
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "ncbi_gene_id": "5914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-stat5b-rara",
+      "label": "STAT5B::RARA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "STAT5B",
+          "hgnc_id": "HGNC:11367",
+          "ncbi_gene_id": "6777"
+        },
+        {
+          "symbol": "RARA",
+          "hgnc_id": "HGNC:9864",
+          "ncbi_gene_id": "5914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fip1l1-pdgfra",
+      "label": "FIP1L1::PDGFRA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FIP1L1",
+          "hgnc_id": "HGNC:19124",
+          "ncbi_gene_id": "81608"
+        },
+        {
+          "symbol": "PDGFRA",
+          "hgnc_id": "HGNC:8803",
+          "ncbi_gene_id": "5156"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with PDGFRA rearrangement"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-pdgfrb",
+      "label": "ETV6::PDGFRB",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "PDGFRB",
+          "hgnc_id": "HGNC:8804",
+          "ncbi_gene_id": "5159"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with PDGFRB rearrangement"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-zmym2-fgfr1",
+      "label": "ZMYM2::FGFR1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ZMYM2",
+          "hgnc_id": "HGNC:12989",
+          "ncbi_gene_id": "7750"
+        },
+        {
+          "symbol": "FGFR1",
+          "hgnc_id": "HGNC:3688",
+          "ncbi_gene_id": "2260"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-bcr-fgfr1",
+      "label": "BCR::FGFR1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BCR",
+          "hgnc_id": "HGNC:1014",
+          "ncbi_gene_id": "613"
+        },
+        {
+          "symbol": "FGFR1",
+          "hgnc_id": "HGNC:3688",
+          "ncbi_gene_id": "2260"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-pcm1-jak2",
+      "label": "PCM1::JAK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PCM1",
+          "hgnc_id": "HGNC:8727",
+          "ncbi_gene_id": "5108"
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "ncbi_gene_id": "3717"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with JAK2 rearrangement"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-jak2",
+      "label": "ETV6::JAK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "ncbi_gene_id": "3717"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
+        "B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-bcr-jak2",
+      "label": "BCR::JAK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BCR",
+          "hgnc_id": "HGNC:1014",
+          "ncbi_gene_id": "613"
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "ncbi_gene_id": "3717"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with JAK2 rearrangement",
+        "B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-pax5-jak2",
+      "label": "PAX5::JAK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PAX5",
+          "hgnc_id": "HGNC:8619",
+          "ncbi_gene_id": "5079"
+        },
+        {
+          "symbol": "JAK2",
+          "hgnc_id": "HGNC:6192",
+          "ncbi_gene_id": "3717"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ph-like B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-flt3",
+      "label": "ETV6::FLT3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "FLT3",
+          "hgnc_id": "HGNC:3765",
+          "ncbi_gene_id": "2322"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FLT3 rearrangement"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-abl1",
+      "label": "ETV6::ABL1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "ncbi_gene_id": "25"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ph-like B-ALL",
+        "Myeloid/lymphoid neoplasm with ETV6::ABL1"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-rcsd1-abl1",
+      "label": "RCSD1::ABL1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "RCSD1",
+          "hgnc_id": "HGNC:28310",
+          "ncbi_gene_id": "92241"
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "ncbi_gene_id": "25"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ph-like B-ALL"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nup214-abl1",
+      "label": "NUP214::ABL1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NUP214",
+          "hgnc_id": "HGNC:8064",
+          "ncbi_gene_id": "8021"
+        },
+        {
+          "symbol": "ABL1",
+          "hgnc_id": "HGNC:76",
+          "ncbi_gene_id": "25"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "T-ALL",
+        "Ph-like B-ALL"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ebf1-pdgfrb",
+      "label": "EBF1::PDGFRB",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EBF1",
+          "hgnc_id": "HGNC:3126",
+          "ncbi_gene_id": "1879"
+        },
+        {
+          "symbol": "PDGFRB",
+          "hgnc_id": "HGNC:8804",
+          "ncbi_gene_id": "5159"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ph-like B-ALL"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ssbp2-csf1r",
+      "label": "SSBP2::CSF1R",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SSBP2",
+          "hgnc_id": "HGNC:15831",
+          "ncbi_gene_id": "23635"
+        },
+        {
+          "symbol": "CSF1R",
+          "hgnc_id": "HGNC:2433",
+          "ncbi_gene_id": "1436"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ph-like B-ALL"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-etv6-runx1",
+      "label": "ETV6::RUNX1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "RUNX1",
+          "hgnc_id": "HGNC:10471",
+          "ncbi_gene_id": "861"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Childhood B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tcf3-pbx1",
+      "label": "TCF3::PBX1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TCF3",
+          "hgnc_id": "HGNC:11633",
+          "ncbi_gene_id": "6929"
+        },
+        {
+          "symbol": "PBX1",
+          "hgnc_id": "HGNC:8632",
+          "ncbi_gene_id": "5087"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tcf3-hlf",
+      "label": "TCF3::HLF",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TCF3",
+          "hgnc_id": "HGNC:11633",
+          "ncbi_gene_id": "6929"
+        },
+        {
+          "symbol": "HLF",
+          "hgnc_id": "HGNC:4977",
+          "ncbi_gene_id": "3131"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-mef2d-bcl9",
+      "label": "MEF2D::BCL9",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MEF2D",
+          "hgnc_id": "HGNC:6997",
+          "ncbi_gene_id": "4209"
+        },
+        {
+          "symbol": "BCL9",
+          "hgnc_id": "HGNC:1008",
+          "ncbi_gene_id": "607"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-mef2d-hnrnpul1",
+      "label": "MEF2D::HNRNPUL1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MEF2D",
+          "hgnc_id": "HGNC:6997",
+          "ncbi_gene_id": "4209"
+        },
+        {
+          "symbol": "HNRNPUL1",
+          "hgnc_id": "HGNC:17011",
+          "ncbi_gene_id": "11100"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ep300-znf384",
+      "label": "EP300::ZNF384",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EP300",
+          "hgnc_id": "HGNC:3373",
+          "ncbi_gene_id": "2033"
+        },
+        {
+          "symbol": "ZNF384",
+          "hgnc_id": "HGNC:11955",
+          "ncbi_gene_id": "171017"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tcf3-znf384",
+      "label": "TCF3::ZNF384",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TCF3",
+          "hgnc_id": "HGNC:11633",
+          "ncbi_gene_id": "6929"
+        },
+        {
+          "symbol": "ZNF384",
+          "hgnc_id": "HGNC:11955",
+          "ncbi_gene_id": "171017"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-taf15-znf384",
+      "label": "TAF15::ZNF384",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TAF15",
+          "hgnc_id": "HGNC:11547",
+          "ncbi_gene_id": "8148"
+        },
+        {
+          "symbol": "ZNF384",
+          "hgnc_id": "HGNC:11955",
+          "ncbi_gene_id": "171017"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-pax5-etv6",
+      "label": "PAX5::ETV6",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PAX5",
+          "hgnc_id": "HGNC:8619",
+          "ncbi_gene_id": "5079"
+        },
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-birc3-malt1",
+      "label": "BIRC3::MALT1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BIRC3",
+          "hgnc_id": "HGNC:591",
+          "ncbi_gene_id": "330"
+        },
+        {
+          "symbol": "MALT1",
+          "hgnc_id": "HGNC:6819",
+          "ncbi_gene_id": "10892"
+        }
+      ],
+      "aliases": [
+        "API2::MALT1"
+      ],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-fli1",
+      "label": "EWSR1::FLI1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "FLI1",
+          "hgnc_id": "HGNC:3749",
+          "ncbi_gene_id": "2313"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-erg",
+      "label": "EWSR1::ERG",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "ERG",
+          "hgnc_id": "HGNC:3446",
+          "ncbi_gene_id": "2078"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-etv1",
+      "label": "EWSR1::ETV1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "ETV1",
+          "hgnc_id": "HGNC:3490",
+          "ncbi_gene_id": "2115"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-etv4",
+      "label": "EWSR1::ETV4",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "ETV4",
+          "hgnc_id": "HGNC:3493",
+          "ncbi_gene_id": "2118"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-fev",
+      "label": "EWSR1::FEV",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "FEV",
+          "hgnc_id": "HGNC:18562",
+          "ncbi_gene_id": "54738"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ss18-ssx1",
+      "label": "SS18::SSX1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SS18",
+          "hgnc_id": "HGNC:11340",
+          "ncbi_gene_id": "6760"
+        },
+        {
+          "symbol": "SSX1",
+          "hgnc_id": "HGNC:11335",
+          "ncbi_gene_id": "6756"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ss18-ssx2",
+      "label": "SS18::SSX2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SS18",
+          "hgnc_id": "HGNC:11340",
+          "ncbi_gene_id": "6760"
+        },
+        {
+          "symbol": "SSX2",
+          "hgnc_id": "HGNC:11336",
+          "ncbi_gene_id": "6757"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ss18-ssx4",
+      "label": "SS18::SSX4",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SS18",
+          "hgnc_id": "HGNC:11340",
+          "ncbi_gene_id": "6760"
+        },
+        {
+          "symbol": "SSX4",
+          "hgnc_id": "HGNC:11338",
+          "ncbi_gene_id": "6759"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Synovial sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-pax3-foxo1",
+      "label": "PAX3::FOXO1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PAX3",
+          "hgnc_id": "HGNC:8617",
+          "ncbi_gene_id": "5077"
+        },
+        {
+          "symbol": "FOXO1",
+          "hgnc_id": "HGNC:3819",
+          "ncbi_gene_id": "2308"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Fusion-positive alveolar rhabdomyosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-pax7-foxo1",
+      "label": "PAX7::FOXO1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PAX7",
+          "hgnc_id": "HGNC:8621",
+          "ncbi_gene_id": "5081"
+        },
+        {
+          "symbol": "FOXO1",
+          "hgnc_id": "HGNC:3819",
+          "ncbi_gene_id": "2308"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Fusion-positive alveolar rhabdomyosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-wt1",
+      "label": "EWSR1::WT1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "WT1",
+          "hgnc_id": "HGNC:12796",
+          "ncbi_gene_id": "7490"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Desmoplastic small round cell tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fus-ddit3",
+      "label": "FUS::DDIT3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "ncbi_gene_id": "2521"
+        },
+        {
+          "symbol": "DDIT3",
+          "hgnc_id": "HGNC:2726",
+          "ncbi_gene_id": "1649"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-ddit3",
+      "label": "EWSR1::DDIT3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "DDIT3",
+          "hgnc_id": "HGNC:2726",
+          "ncbi_gene_id": "1649"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-col1a1-pdgfb",
+      "label": "COL1A1::PDGFB",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "COL1A1",
+          "hgnc_id": "HGNC:2197",
+          "ncbi_gene_id": "1277"
+        },
+        {
+          "symbol": "PDGFB",
+          "hgnc_id": "HGNC:8800",
+          "ncbi_gene_id": "5155"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Dermatofibrosarcoma protuberans"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nab2-stat6",
+      "label": "NAB2::STAT6",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NAB2",
+          "hgnc_id": "HGNC:7627",
+          "ncbi_gene_id": "4665"
+        },
+        {
+          "symbol": "STAT6",
+          "hgnc_id": "HGNC:11368",
+          "ncbi_gene_id": "6778"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Solitary fibrous tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-aspscr1-tfe3",
+      "label": "ASPSCR1::TFE3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ASPSCR1",
+          "hgnc_id": "HGNC:13825",
+          "ncbi_gene_id": "79058"
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "ncbi_gene_id": "7030"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Alveolar soft part sarcoma",
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-atf1",
+      "label": "EWSR1::ATF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "ATF1",
+          "hgnc_id": "HGNC:783",
+          "ncbi_gene_id": "466"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Clear cell sarcoma",
+        "Angiomatoid fibrous histiocytoma",
+        "Hyalinizing clear cell carcinoma of salivary gland",
+        "Intracranial mesenchymal tumor with FET::CREB fusion"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-creb1",
+      "label": "EWSR1::CREB1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "CREB1",
+          "hgnc_id": "HGNC:2345",
+          "ncbi_gene_id": "1385"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Angiomatoid fibrous histiocytoma",
+        "Gastrointestinal neuroectodermal tumor",
+        "Intracranial mesenchymal tumor with FET::CREB fusion"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fus-atf1",
+      "label": "FUS::ATF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "ncbi_gene_id": "2521"
+        },
+        {
+          "symbol": "ATF1",
+          "hgnc_id": "HGNC:783",
+          "ncbi_gene_id": "466"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Angiomatoid fibrous histiocytoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fus-creb3l2",
+      "label": "FUS::CREB3L2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "ncbi_gene_id": "2521"
+        },
+        {
+          "symbol": "CREB3L2",
+          "hgnc_id": "HGNC:23720",
+          "ncbi_gene_id": "64764"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Low-grade fibromyxoid sarcoma",
+        "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fus-creb3l1",
+      "label": "FUS::CREB3L1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FUS",
+          "hgnc_id": "HGNC:4010",
+          "ncbi_gene_id": "2521"
+        },
+        {
+          "symbol": "CREB3L1",
+          "hgnc_id": "HGNC:18856",
+          "ncbi_gene_id": "90993"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Low-grade fibromyxoid sarcoma",
+        "Hybrid fibromyxoid/sclerosing epithelioid fibrosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-creb3l1",
+      "label": "EWSR1::CREB3L1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "CREB3L1",
+          "hgnc_id": "HGNC:18856",
+          "ncbi_gene_id": "90993"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Sclerosing epithelioid fibrosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cic-dux4",
+      "label": "CIC::DUX4",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CIC",
+          "hgnc_id": "HGNC:14214",
+          "ncbi_gene_id": "23152"
+        },
+        {
+          "symbol": "DUX4",
+          "hgnc_id": "HGNC:50800",
+          "ncbi_gene_id": "100288687"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "CIC-rearranged undifferentiated round cell sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-bcor-ccnb3",
+      "label": "BCOR::CCNB3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BCOR",
+          "hgnc_id": "HGNC:20893",
+          "ncbi_gene_id": "54880"
+        },
+        {
+          "symbol": "CCNB3",
+          "hgnc_id": "HGNC:18709",
+          "ncbi_gene_id": "85417"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "BCOR::CCNB3 sarcoma of bone or soft tissue"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-nfatc2",
+      "label": "EWSR1::NFATC2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "NFATC2",
+          "hgnc_id": "HGNC:7776",
+          "ncbi_gene_id": "4773"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "EWSR1::NFATC2-rearranged sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-patz1",
+      "label": "EWSR1::PATZ1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "PATZ1",
+          "hgnc_id": "HGNC:13071",
+          "ncbi_gene_id": "23598"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Spindle/round cell sarcoma with EWSR1::PATZ1"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-hey1-ncoa2",
+      "label": "HEY1::NCOA2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "HEY1",
+          "hgnc_id": "HGNC:4880",
+          "ncbi_gene_id": "23462"
+        },
+        {
+          "symbol": "NCOA2",
+          "hgnc_id": "HGNC:7669",
+          "ncbi_gene_id": "10499"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Mesenchymal chondrosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ewsr1-nr4a3",
+      "label": "EWSR1::NR4A3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EWSR1",
+          "hgnc_id": "HGNC:3508",
+          "ncbi_gene_id": "2130"
+        },
+        {
+          "symbol": "NR4A3",
+          "hgnc_id": "HGNC:7982",
+          "ncbi_gene_id": "8013"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-taf15-nr4a3",
+      "label": "TAF15::NR4A3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TAF15",
+          "hgnc_id": "HGNC:11547",
+          "ncbi_gene_id": "8148"
+        },
+        {
+          "symbol": "NR4A3",
+          "hgnc_id": "HGNC:7982",
+          "ncbi_gene_id": "8013"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Extraskeletal myxoid chondrosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-wwtr1-camta1",
+      "label": "WWTR1::CAMTA1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "WWTR1",
+          "hgnc_id": "HGNC:24042",
+          "ncbi_gene_id": "25937"
+        },
+        {
+          "symbol": "CAMTA1",
+          "hgnc_id": "HGNC:18806",
+          "ncbi_gene_id": "23261"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Epithelioid hemangioendothelioma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-yap1-tfe3",
+      "label": "YAP1::TFE3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "YAP1",
+          "hgnc_id": "HGNC:16262",
+          "ncbi_gene_id": "10413"
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "ncbi_gene_id": "7030"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "YAP1::TFE3-fused hemangioendothelioma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-jazf1-suz12",
+      "label": "JAZF1::SUZ12",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "JAZF1",
+          "hgnc_id": "HGNC:28917",
+          "ncbi_gene_id": "221895"
+        },
+        {
+          "symbol": "SUZ12",
+          "hgnc_id": "HGNC:17101",
+          "ncbi_gene_id": "23512"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma",
+        "Endometrial stromal nodule"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ywhae-nutm2a",
+      "label": "YWHAE::NUTM2A",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "YWHAE",
+          "hgnc_id": "HGNC:12851",
+          "ncbi_gene_id": "7531"
+        },
+        {
+          "symbol": "NUTM2A",
+          "hgnc_id": "HGNC:23438",
+          "ncbi_gene_id": "728118"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ywhae-nutm2b",
+      "label": "YWHAE::NUTM2B",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "YWHAE",
+          "hgnc_id": "HGNC:12851",
+          "ncbi_gene_id": "7531"
+        },
+        {
+          "symbol": "NUTM2B",
+          "hgnc_id": "HGNC:23445",
+          "ncbi_gene_id": "729262"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-zc3h7b-bcor",
+      "label": "ZC3H7B::BCOR",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ZC3H7B",
+          "hgnc_id": "HGNC:30869",
+          "ncbi_gene_id": "23264"
+        },
+        {
+          "symbol": "BCOR",
+          "hgnc_id": "HGNC:20893",
+          "ncbi_gene_id": "54880"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "High-grade endometrial stromal sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-pax3-maml3",
+      "label": "PAX3::MAML3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PAX3",
+          "hgnc_id": "HGNC:8617",
+          "ncbi_gene_id": "5077"
+        },
+        {
+          "symbol": "MAML3",
+          "hgnc_id": "HGNC:16272",
+          "ncbi_gene_id": "55534"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Biphenotypic sinonasal sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-vgll2-ncoa2",
+      "label": "VGLL2::NCOA2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "VGLL2",
+          "hgnc_id": "HGNC:20232",
+          "ncbi_gene_id": "245806"
+        },
+        {
+          "symbol": "NCOA2",
+          "hgnc_id": "HGNC:7669",
+          "ncbi_gene_id": "10499"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Congenital/infantile spindle cell rhabdomyosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-vgll2-cited2",
+      "label": "VGLL2::CITED2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "VGLL2",
+          "hgnc_id": "HGNC:20232",
+          "ncbi_gene_id": "245806"
+        },
+        {
+          "symbol": "CITED2",
+          "hgnc_id": "HGNC:1987",
+          "ncbi_gene_id": "10370"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Congenital/infantile spindle cell rhabdomyosarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-kiaa1549-braf",
+      "label": "KIAA1549::BRAF",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "KIAA1549",
+          "hgnc_id": "HGNC:22219",
+          "ncbi_gene_id": "57670"
+        },
+        {
+          "symbol": "BRAF",
+          "hgnc_id": "HGNC:1097",
+          "ncbi_gene_id": "673"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other pediatric low-grade gliomas",
+        "Diffuse leptomeningeal glioneuronal tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fam131b-braf",
+      "label": "FAM131B::BRAF",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FAM131B",
+          "hgnc_id": "HGNC:22202",
+          "ncbi_gene_id": "9715"
+        },
+        {
+          "symbol": "BRAF",
+          "hgnc_id": "HGNC:1097",
+          "ncbi_gene_id": "673"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other pediatric low-grade gliomas"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-srgap3-raf1",
+      "label": "SRGAP3::RAF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SRGAP3",
+          "hgnc_id": "HGNC:19744",
+          "ncbi_gene_id": "9901"
+        },
+        {
+          "symbol": "RAF1",
+          "hgnc_id": "HGNC:9829",
+          "ncbi_gene_id": "5894"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pediatric low-grade glioma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-qki-raf1",
+      "label": "QKI::RAF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "QKI",
+          "hgnc_id": "HGNC:21100",
+          "ncbi_gene_id": "9444"
+        },
+        {
+          "symbol": "RAF1",
+          "hgnc_id": "HGNC:9829",
+          "ncbi_gene_id": "5894"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pediatric low-grade glioma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-zfta-rela",
+      "label": "ZFTA::RELA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ZFTA",
+          "hgnc_id": "HGNC:28449",
+          "ncbi_gene_id": "65998"
+        },
+        {
+          "symbol": "RELA",
+          "hgnc_id": "HGNC:9955",
+          "ncbi_gene_id": "5970"
+        }
+      ],
+      "aliases": [
+        "C11orf95::RELA"
+      ],
+      "tumor_contexts": [
+        "Supratentorial ependymoma, ZFTA fusion-positive"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-yap1-mamld1",
+      "label": "YAP1::MAMLD1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "YAP1",
+          "hgnc_id": "HGNC:16262",
+          "ncbi_gene_id": "10413"
+        },
+        {
+          "symbol": "MAMLD1",
+          "hgnc_id": "HGNC:2568",
+          "ncbi_gene_id": "10046"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Supratentorial ependymoma, YAP1 fusion-positive"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-myb-qki",
+      "label": "MYB::QKI",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MYB",
+          "hgnc_id": "HGNC:7545",
+          "ncbi_gene_id": "4602"
+        },
+        {
+          "symbol": "QKI",
+          "hgnc_id": "HGNC:21100",
+          "ncbi_gene_id": "9444"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Angiocentric glioma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-mn1-bend2",
+      "label": "MN1::BEND2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MN1",
+          "hgnc_id": "HGNC:7180",
+          "ncbi_gene_id": "4330"
+        },
+        {
+          "symbol": "BEND2",
+          "hgnc_id": "HGNC:28509",
+          "ncbi_gene_id": "139105"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Astroblastoma, MN1-altered"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-mn1-cxxc5",
+      "label": "MN1::CXXC5",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MN1",
+          "hgnc_id": "HGNC:7180",
+          "ncbi_gene_id": "4330"
+        },
+        {
+          "symbol": "CXXC5",
+          "hgnc_id": "HGNC:26943",
+          "ncbi_gene_id": "51523"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Astroblastoma, MN1-altered"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-slc44a1-prkca",
+      "label": "SLC44A1::PRKCA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SLC44A1",
+          "hgnc_id": "HGNC:18798",
+          "ncbi_gene_id": "23446"
+        },
+        {
+          "symbol": "PRKCA",
+          "hgnc_id": "HGNC:9393",
+          "ncbi_gene_id": "5578"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Papillary glioneuronal tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-crtc1-maml2",
+      "label": "CRTC1::MAML2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CRTC1",
+          "hgnc_id": "HGNC:16062",
+          "ncbi_gene_id": "23373"
+        },
+        {
+          "symbol": "MAML2",
+          "hgnc_id": "HGNC:16259",
+          "ncbi_gene_id": "84441"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Mucoepidermoid carcinoma of salivary gland",
+        "Mucoepidermoid carcinoma at other sites"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-crtc3-maml2",
+      "label": "CRTC3::MAML2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CRTC3",
+          "hgnc_id": "HGNC:26148",
+          "ncbi_gene_id": "64784"
+        },
+        {
+          "symbol": "MAML2",
+          "hgnc_id": "HGNC:16259",
+          "ncbi_gene_id": "84441"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Mucoepidermoid carcinoma of salivary gland",
+        "Mucoepidermoid carcinoma at other sites"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-myb-nfib",
+      "label": "MYB::NFIB",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MYB",
+          "hgnc_id": "HGNC:7545",
+          "ncbi_gene_id": "4602"
+        },
+        {
+          "symbol": "NFIB",
+          "hgnc_id": "HGNC:7785",
+          "ncbi_gene_id": "4781"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Adenoid cystic carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-mybl1-nfib",
+      "label": "MYBL1::NFIB",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MYBL1",
+          "hgnc_id": "HGNC:7547",
+          "ncbi_gene_id": "4603"
+        },
+        {
+          "symbol": "NFIB",
+          "hgnc_id": "HGNC:7785",
+          "ncbi_gene_id": "4781"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Adenoid cystic carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-brd4-nutm1",
+      "label": "BRD4::NUTM1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BRD4",
+          "hgnc_id": "HGNC:13575",
+          "ncbi_gene_id": "23476"
+        },
+        {
+          "symbol": "NUTM1",
+          "hgnc_id": "HGNC:29919",
+          "ncbi_gene_id": "256646"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "NUT carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-brd3-nutm1",
+      "label": "BRD3::NUTM1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BRD3",
+          "hgnc_id": "HGNC:1104",
+          "ncbi_gene_id": "8019"
+        },
+        {
+          "symbol": "NUTM1",
+          "hgnc_id": "HGNC:29919",
+          "ncbi_gene_id": "256646"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "NUT carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nsd3-nutm1",
+      "label": "NSD3::NUTM1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NSD3",
+          "hgnc_id": "HGNC:12767",
+          "ncbi_gene_id": "54904"
+        },
+        {
+          "symbol": "NUTM1",
+          "hgnc_id": "HGNC:29919",
+          "ncbi_gene_id": "256646"
+        }
+      ],
+      "aliases": [
+        "WHSC1L1::NUTM1"
+      ],
+      "tumor_contexts": [
+        "NUT carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-dnajb1-prkaca",
+      "label": "DNAJB1::PRKACA",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "DNAJB1",
+          "hgnc_id": "HGNC:5270",
+          "ncbi_gene_id": "3337"
+        },
+        {
+          "symbol": "PRKACA",
+          "hgnc_id": "HGNC:9380",
+          "ncbi_gene_id": "5566"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Fibrolamellar carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tmprss2-erg",
+      "label": "TMPRSS2::ERG",
+      "event_class": "regulatory_fusion",
+      "partners": [
+        {
+          "symbol": "TMPRSS2",
+          "hgnc_id": "HGNC:11876",
+          "ncbi_gene_id": "7113"
+        },
+        {
+          "symbol": "ERG",
+          "hgnc_id": "HGNC:3446",
+          "ncbi_gene_id": "2078"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Prostate adenocarcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ctnnb1-plag1",
+      "label": "CTNNB1::PLAG1",
+      "event_class": "promoter_substitution",
+      "partners": [
+        {
+          "symbol": "CTNNB1",
+          "hgnc_id": "HGNC:2514",
+          "ncbi_gene_id": "1499"
+        },
+        {
+          "symbol": "PLAG1",
+          "hgnc_id": "HGNC:9045",
+          "ncbi_gene_id": "5324"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pleomorphic adenoma",
+        "Carcinoma ex pleomorphic adenoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-lifr-plag1",
+      "label": "LIFR::PLAG1",
+      "event_class": "promoter_substitution",
+      "partners": [
+        {
+          "symbol": "LIFR",
+          "hgnc_id": "HGNC:6597",
+          "ncbi_gene_id": "3977"
+        },
+        {
+          "symbol": "PLAG1",
+          "hgnc_id": "HGNC:9045",
+          "ncbi_gene_id": "5324"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pleomorphic adenoma",
+        "Carcinoma ex pleomorphic adenoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tfg-alk",
+      "label": "TFG::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "TFG",
+          "hgnc_id": "HGNC:11758",
+          "ncbi_gene_id": "10342"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-fn1-alk",
+      "label": "FN1::ALK",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "FN1",
+          "hgnc_id": "HGNC:3778",
+          "ncbi_gene_id": "2335"
+        },
+        {
+          "symbol": "ALK",
+          "hgnc_id": "HGNC:427",
+          "ncbi_gene_id": "238"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Inflammatory myofibroblastic tumor"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-jazf1-phf1",
+      "label": "JAZF1::PHF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "JAZF1",
+          "hgnc_id": "HGNC:28917",
+          "ncbi_gene_id": "221895"
+        },
+        {
+          "symbol": "PHF1",
+          "hgnc_id": "HGNC:8919",
+          "ncbi_gene_id": "5252"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-epc1-phf1",
+      "label": "EPC1::PHF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "EPC1",
+          "hgnc_id": "HGNC:19876",
+          "ncbi_gene_id": "80314"
+        },
+        {
+          "symbol": "PHF1",
+          "hgnc_id": "HGNC:8919",
+          "ncbi_gene_id": "5252"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-meaf6-phf1",
+      "label": "MEAF6::PHF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "MEAF6",
+          "hgnc_id": "HGNC:25674",
+          "ncbi_gene_id": "64769"
+        },
+        {
+          "symbol": "PHF1",
+          "hgnc_id": "HGNC:8919",
+          "ncbi_gene_id": "5252"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Low-grade endometrial stromal sarcoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-runx1-mecom",
+      "label": "RUNX1::MECOM",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "RUNX1",
+          "hgnc_id": "HGNC:10471",
+          "ncbi_gene_id": "861"
+        },
+        {
+          "symbol": "MECOM",
+          "hgnc_id": "HGNC:3498",
+          "ncbi_gene_id": "2122"
+        }
+      ],
+      "aliases": [
+        "RUNX1::MDS1::EVI1",
+        "AML1::EVI1"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Myelodysplastic neoplasia",
+        "CML blast phase"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-npm1-mlf1",
+      "label": "NPM1::MLF1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NPM1",
+          "hgnc_id": "HGNC:7910",
+          "ncbi_gene_id": "4869"
+        },
+        {
+          "symbol": "MLF1",
+          "hgnc_id": "HGNC:7125",
+          "ncbi_gene_id": "4291"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML with NPM1::MLF1"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-ptprz1-met",
+      "label": "PTPRZ1::MET",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PTPRZ1",
+          "hgnc_id": "HGNC:9685",
+          "ncbi_gene_id": "5803"
+        },
+        {
+          "symbol": "MET",
+          "hgnc_id": "HGNC:7029",
+          "ncbi_gene_id": "4233"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "High-grade glioma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-bcan-ntrk1",
+      "label": "BCAN::NTRK1",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "BCAN",
+          "hgnc_id": "HGNC:23059",
+          "ncbi_gene_id": "63827"
+        },
+        {
+          "symbol": "NTRK1",
+          "hgnc_id": "HGNC:8031",
+          "ncbi_gene_id": "4914"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Glioma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-qki-ntrk2",
+      "label": "QKI::NTRK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "QKI",
+          "hgnc_id": "HGNC:21100",
+          "ncbi_gene_id": "9444"
+        },
+        {
+          "symbol": "NTRK2",
+          "hgnc_id": "HGNC:8032",
+          "ncbi_gene_id": "4915"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other NTRK-rearranged gliomas"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nacc2-ntrk2",
+      "label": "NACC2::NTRK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NACC2",
+          "hgnc_id": "HGNC:23846",
+          "ncbi_gene_id": "138151"
+        },
+        {
+          "symbol": "NTRK2",
+          "hgnc_id": "HGNC:8032",
+          "ncbi_gene_id": "4915"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Pilocytic astrocytoma",
+        "Other NTRK-rearranged gliomas"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-myc",
+      "label": "IGH / MYC",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "MYC",
+          "hgnc_id": "HGNC:7553",
+          "ncbi_gene_id": "4609"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Burkitt lymphoma",
+        "Other MYC-rearranged B-cell neoplasms"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igk-myc",
+      "label": "IGK / MYC",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGK",
+          "hgnc_id": "HGNC:5715",
+          "ncbi_gene_id": "50802"
+        },
+        {
+          "symbol": "MYC",
+          "hgnc_id": "HGNC:7553",
+          "ncbi_gene_id": "4609"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Burkitt lymphoma",
+        "Other MYC-rearranged B-cell neoplasms"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igl-myc",
+      "label": "IGL / MYC",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGL",
+          "hgnc_id": "HGNC:5853",
+          "ncbi_gene_id": "3535"
+        },
+        {
+          "symbol": "MYC",
+          "hgnc_id": "HGNC:7553",
+          "ncbi_gene_id": "4609"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Burkitt lymphoma",
+        "Other MYC-rearranged B-cell neoplasms"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-bcl2",
+      "label": "IGH / BCL2",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "BCL2",
+          "hgnc_id": "HGNC:990",
+          "ncbi_gene_id": "596"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Follicular lymphoma",
+        "Selected large B-cell lymphomas"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-bcl6",
+      "label": "IGH / BCL6",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "BCL6",
+          "hgnc_id": "HGNC:1001",
+          "ncbi_gene_id": "604"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-cell lymphoma, including diffuse large B-cell lymphoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-ccnd1",
+      "label": "IGH / CCND1",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "CCND1",
+          "hgnc_id": "HGNC:1582",
+          "ncbi_gene_id": "595"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Mantle cell lymphoma",
+        "Plasma cell myeloma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-ccnd2",
+      "label": "IGH / CCND2",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "CCND2",
+          "hgnc_id": "HGNC:1583",
+          "ncbi_gene_id": "894"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Cyclin D1-negative mantle cell lymphoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-ccnd3",
+      "label": "IGH / CCND3",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "CCND3",
+          "hgnc_id": "HGNC:1585",
+          "ncbi_gene_id": "896"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Cyclin D1-negative mantle cell lymphoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-malt1",
+      "label": "IGH / MALT1",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "MALT1",
+          "hgnc_id": "HGNC:6819",
+          "ncbi_gene_id": "10892"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-bcl10",
+      "label": "IGH / BCL10",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "BCL10",
+          "hgnc_id": "HGNC:989",
+          "ncbi_gene_id": "8915"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-crlf2",
+      "label": "IGH / CRLF2",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "CRLF2",
+          "hgnc_id": "HGNC:14281",
+          "ncbi_gene_id": "64109"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia, often Ph-like"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-p2ry8-crlf2",
+      "label": "P2RY8::CRLF2",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "P2RY8",
+          "hgnc_id": "HGNC:15524",
+          "ncbi_gene_id": "286530"
+        },
+        {
+          "symbol": "CRLF2",
+          "hgnc_id": "HGNC:14281",
+          "ncbi_gene_id": "64109"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia, including Down-syndrome-associated ALL"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-dux4",
+      "label": "IGH / DUX4",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "DUX4",
+          "hgnc_id": "HGNC:50800",
+          "ncbi_gene_id": "100288687"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "DUX4-rearranged B-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tcr-loci-tal1",
+      "label": "TCR loci / TAL1",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "TCR loci",
+          "hgnc_id": null,
+          "ncbi_gene_id": null
+        },
+        {
+          "symbol": "TAL1",
+          "hgnc_id": "HGNC:11556",
+          "ncbi_gene_id": "6886"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tcr-loci-tlx1",
+      "label": "TCR loci / TLX1",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "TCR loci",
+          "hgnc_id": null,
+          "ncbi_gene_id": null
+        },
+        {
+          "symbol": "TLX1",
+          "hgnc_id": "HGNC:5056",
+          "ncbi_gene_id": "3195"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tcr-loci-tlx3",
+      "label": "TCR loci / TLX3",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "TCR loci",
+          "hgnc_id": null,
+          "ncbi_gene_id": null
+        },
+        {
+          "symbol": "TLX3",
+          "hgnc_id": "HGNC:13532",
+          "ncbi_gene_id": "30012"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-tcr-loci-lmo2",
+      "label": "TCR loci / LMO2",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "TCR loci",
+          "hgnc_id": null,
+          "ncbi_gene_id": null
+        },
+        {
+          "symbol": "LMO2",
+          "hgnc_id": "HGNC:6642",
+          "ncbi_gene_id": "4005"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-gata2-enhancer-mecom",
+      "label": "GATA2 enhancer / MECOM",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "GATA2",
+          "hgnc_id": "HGNC:4171",
+          "ncbi_gene_id": "2624"
+        },
+        {
+          "symbol": "MECOM",
+          "hgnc_id": "HGNC:3498",
+          "ncbi_gene_id": "2122"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML with inv(3) or t(3;3)"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-fgfr3-and-nsd2",
+      "label": "IGH / FGFR3 and NSD2",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "FGFR3",
+          "hgnc_id": "HGNC:3690",
+          "ncbi_gene_id": "2261"
+        },
+        {
+          "symbol": "NSD2",
+          "hgnc_id": "HGNC:12766",
+          "ncbi_gene_id": "7468"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Plasma cell myeloma with t(4;14)"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-maf",
+      "label": "IGH / MAF",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "MAF",
+          "hgnc_id": "HGNC:6776",
+          "ncbi_gene_id": "4094"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Plasma cell myeloma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-igh-mafb",
+      "label": "IGH / MAFB",
+      "event_class": "regulatory_rearrangement",
+      "partners": [
+        {
+          "symbol": "IGH",
+          "hgnc_id": "HGNC:5477",
+          "ncbi_gene_id": "3492"
+        },
+        {
+          "symbol": "MAFB",
+          "hgnc_id": "HGNC:6408",
+          "ncbi_gene_id": "9935"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "Plasma cell myeloma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-prcc-tfe3",
+      "label": "PRCC::TFE3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "PRCC",
+          "hgnc_id": "HGNC:9343",
+          "ncbi_gene_id": "5546"
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "ncbi_gene_id": "7030"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-sfpq-tfe3",
+      "label": "SFPQ::TFE3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "SFPQ",
+          "hgnc_id": "HGNC:10774",
+          "ncbi_gene_id": "6421"
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "ncbi_gene_id": "7030"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-nono-tfe3",
+      "label": "NONO::TFE3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "NONO",
+          "hgnc_id": "HGNC:7871",
+          "ncbi_gene_id": "4841"
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "ncbi_gene_id": "7030"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-rbm10-tfe3",
+      "label": "RBM10::TFE3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "RBM10",
+          "hgnc_id": "HGNC:9896",
+          "ncbi_gene_id": "8241"
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "ncbi_gene_id": "7030"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-cltc-tfe3",
+      "label": "CLTC::TFE3",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "CLTC",
+          "hgnc_id": "HGNC:2092",
+          "ncbi_gene_id": "1213"
+        },
+        {
+          "symbol": "TFE3",
+          "hgnc_id": "HGNC:11752",
+          "ncbi_gene_id": "7030"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "TFE3-rearranged renal cell carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    },
+    {
+      "id": "fusion-malat1-tfeb",
+      "label": "MALAT1::TFEB",
+      "event_class": "promoter_substitution",
+      "partners": [
+        {
+          "symbol": "MALAT1",
+          "hgnc_id": "HGNC:29665",
+          "ncbi_gene_id": "378938"
+        },
+        {
+          "symbol": "TFEB",
+          "hgnc_id": "HGNC:11753",
+          "ncbi_gene_id": "7942"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "TFEB-rearranged renal cell carcinoma"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 1,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      }
+    }
+  ],
+  "record_files": [
+    "fusions/fusion-eml4-alk.json",
+    "fusions/fusion-kif5b-alk.json",
+    "fusions/fusion-strn-alk.json",
+    "fusions/fusion-kif5b-ret.json",
+    "fusions/fusion-ccdc6-ret.json",
+    "fusions/fusion-ncoa4-ret.json",
+    "fusions/fusion-etv6-ret.json",
+    "fusions/fusion-cd74-ros1.json",
+    "fusions/fusion-slc34a2-ros1.json",
+    "fusions/fusion-sdc4-ros1.json",
+    "fusions/fusion-ezr-ros1.json",
+    "fusions/fusion-tpm3-ros1.json",
+    "fusions/fusion-gopc-ros1.json",
+    "fusions/fusion-tpm3-ntrk1.json",
+    "fusions/fusion-lmna-ntrk1.json",
+    "fusions/fusion-tpr-ntrk1.json",
+    "fusions/fusion-sqstm1-ntrk1.json",
+    "fusions/fusion-eml4-ntrk3.json",
+    "fusions/fusion-sqstm1-ntrk3.json",
+    "fusions/fusion-etv6-ntrk3.json",
+    "fusions/fusion-etv6-ntrk2.json",
+    "fusions/fusion-fgfr2-bicc1.json",
+    "fusions/fusion-fgfr2-ahcyl1.json",
+    "fusions/fusion-fgfr2-etv6.json",
+    "fusions/fusion-fgfr2-ina.json",
+    "fusions/fusion-fgfr3-tacc3.json",
+    "fusions/fusion-fgfr1-tacc1.json",
+    "fusions/fusion-cd74-nrg1.json",
+    "fusions/fusion-slc3a2-nrg1.json",
+    "fusions/fusion-atp1b1-nrg1.json",
+    "fusions/fusion-tpm3-alk.json",
+    "fusions/fusion-tpm4-alk.json",
+    "fusions/fusion-cltc-alk.json",
+    "fusions/fusion-ranbp2-alk.json",
+    "fusions/fusion-cars1-alk.json",
+    "fusions/fusion-npm1-alk.json",
+    "fusions/fusion-bcr-abl1.json",
+    "fusions/fusion-pml-rara.json",
+    "fusions/fusion-runx1-runx1t1.json",
+    "fusions/fusion-cbfb-myh11.json",
+    "fusions/fusion-dek-nup214.json",
+    "fusions/fusion-rbm15-mrtfa.json",
+    "fusions/fusion-kmt2a-mllt3.json",
+    "fusions/fusion-kmt2a-aff1.json",
+    "fusions/fusion-kmt2a-mllt10.json",
+    "fusions/fusion-kmt2a-ell.json",
+    "fusions/fusion-kmt2a-afdn.json",
+    "fusions/fusion-kmt2a-mllt1.json",
+    "fusions/fusion-kmt2a-mllt6.json",
+    "fusions/fusion-nup98-nsd1.json",
+    "fusions/fusion-nup98-kdm5a.json",
+    "fusions/fusion-nup98-hoxa9.json",
+    "fusions/fusion-nup98-hoxd13.json",
+    "fusions/fusion-nup98-ddx10.json",
+    "fusions/fusion-nup98-top1.json",
+    "fusions/fusion-cbfa2t3-glis2.json",
+    "fusions/fusion-fus-erg.json",
+    "fusions/fusion-runx1-cbfa2t3.json",
+    "fusions/fusion-picalm-mllt10.json",
+    "fusions/fusion-set-nup214.json",
+    "fusions/fusion-kat6a-crebbp.json",
+    "fusions/fusion-kat6a-ep300.json",
+    "fusions/fusion-zbtb16-rara.json",
+    "fusions/fusion-npm1-rara.json",
+    "fusions/fusion-stat5b-rara.json",
+    "fusions/fusion-fip1l1-pdgfra.json",
+    "fusions/fusion-etv6-pdgfrb.json",
+    "fusions/fusion-zmym2-fgfr1.json",
+    "fusions/fusion-bcr-fgfr1.json",
+    "fusions/fusion-pcm1-jak2.json",
+    "fusions/fusion-etv6-jak2.json",
+    "fusions/fusion-bcr-jak2.json",
+    "fusions/fusion-pax5-jak2.json",
+    "fusions/fusion-etv6-flt3.json",
+    "fusions/fusion-etv6-abl1.json",
+    "fusions/fusion-rcsd1-abl1.json",
+    "fusions/fusion-nup214-abl1.json",
+    "fusions/fusion-ebf1-pdgfrb.json",
+    "fusions/fusion-ssbp2-csf1r.json",
+    "fusions/fusion-etv6-runx1.json",
+    "fusions/fusion-tcf3-pbx1.json",
+    "fusions/fusion-tcf3-hlf.json",
+    "fusions/fusion-mef2d-bcl9.json",
+    "fusions/fusion-mef2d-hnrnpul1.json",
+    "fusions/fusion-ep300-znf384.json",
+    "fusions/fusion-tcf3-znf384.json",
+    "fusions/fusion-taf15-znf384.json",
+    "fusions/fusion-pax5-etv6.json",
+    "fusions/fusion-birc3-malt1.json",
+    "fusions/fusion-ewsr1-fli1.json",
+    "fusions/fusion-ewsr1-erg.json",
+    "fusions/fusion-ewsr1-etv1.json",
+    "fusions/fusion-ewsr1-etv4.json",
+    "fusions/fusion-ewsr1-fev.json",
+    "fusions/fusion-ss18-ssx1.json",
+    "fusions/fusion-ss18-ssx2.json",
+    "fusions/fusion-ss18-ssx4.json",
+    "fusions/fusion-pax3-foxo1.json",
+    "fusions/fusion-pax7-foxo1.json",
+    "fusions/fusion-ewsr1-wt1.json",
+    "fusions/fusion-fus-ddit3.json",
+    "fusions/fusion-ewsr1-ddit3.json",
+    "fusions/fusion-col1a1-pdgfb.json",
+    "fusions/fusion-nab2-stat6.json",
+    "fusions/fusion-aspscr1-tfe3.json",
+    "fusions/fusion-ewsr1-atf1.json",
+    "fusions/fusion-ewsr1-creb1.json",
+    "fusions/fusion-fus-atf1.json",
+    "fusions/fusion-fus-creb3l2.json",
+    "fusions/fusion-fus-creb3l1.json",
+    "fusions/fusion-ewsr1-creb3l1.json",
+    "fusions/fusion-cic-dux4.json",
+    "fusions/fusion-bcor-ccnb3.json",
+    "fusions/fusion-ewsr1-nfatc2.json",
+    "fusions/fusion-ewsr1-patz1.json",
+    "fusions/fusion-hey1-ncoa2.json",
+    "fusions/fusion-ewsr1-nr4a3.json",
+    "fusions/fusion-taf15-nr4a3.json",
+    "fusions/fusion-wwtr1-camta1.json",
+    "fusions/fusion-yap1-tfe3.json",
+    "fusions/fusion-jazf1-suz12.json",
+    "fusions/fusion-ywhae-nutm2a.json",
+    "fusions/fusion-ywhae-nutm2b.json",
+    "fusions/fusion-zc3h7b-bcor.json",
+    "fusions/fusion-pax3-maml3.json",
+    "fusions/fusion-vgll2-ncoa2.json",
+    "fusions/fusion-vgll2-cited2.json",
+    "fusions/fusion-kiaa1549-braf.json",
+    "fusions/fusion-fam131b-braf.json",
+    "fusions/fusion-srgap3-raf1.json",
+    "fusions/fusion-qki-raf1.json",
+    "fusions/fusion-zfta-rela.json",
+    "fusions/fusion-yap1-mamld1.json",
+    "fusions/fusion-myb-qki.json",
+    "fusions/fusion-mn1-bend2.json",
+    "fusions/fusion-mn1-cxxc5.json",
+    "fusions/fusion-slc44a1-prkca.json",
+    "fusions/fusion-crtc1-maml2.json",
+    "fusions/fusion-crtc3-maml2.json",
+    "fusions/fusion-myb-nfib.json",
+    "fusions/fusion-mybl1-nfib.json",
+    "fusions/fusion-brd4-nutm1.json",
+    "fusions/fusion-brd3-nutm1.json",
+    "fusions/fusion-nsd3-nutm1.json",
+    "fusions/fusion-dnajb1-prkaca.json",
+    "fusions/fusion-tmprss2-erg.json",
+    "fusions/fusion-ctnnb1-plag1.json",
+    "fusions/fusion-lifr-plag1.json",
+    "fusions/fusion-tfg-alk.json",
+    "fusions/fusion-fn1-alk.json",
+    "fusions/fusion-jazf1-phf1.json",
+    "fusions/fusion-epc1-phf1.json",
+    "fusions/fusion-meaf6-phf1.json",
+    "fusions/fusion-runx1-mecom.json",
+    "fusions/fusion-npm1-mlf1.json",
+    "fusions/fusion-ptprz1-met.json",
+    "fusions/fusion-bcan-ntrk1.json",
+    "fusions/fusion-qki-ntrk2.json",
+    "fusions/fusion-nacc2-ntrk2.json",
+    "fusions/fusion-igh-myc.json",
+    "fusions/fusion-igk-myc.json",
+    "fusions/fusion-igl-myc.json",
+    "fusions/fusion-igh-bcl2.json",
+    "fusions/fusion-igh-bcl6.json",
+    "fusions/fusion-igh-ccnd1.json",
+    "fusions/fusion-igh-ccnd2.json",
+    "fusions/fusion-igh-ccnd3.json",
+    "fusions/fusion-igh-malt1.json",
+    "fusions/fusion-igh-bcl10.json",
+    "fusions/fusion-igh-crlf2.json",
+    "fusions/fusion-p2ry8-crlf2.json",
+    "fusions/fusion-igh-dux4.json",
+    "fusions/fusion-tcr-loci-tal1.json",
+    "fusions/fusion-tcr-loci-tlx1.json",
+    "fusions/fusion-tcr-loci-tlx3.json",
+    "fusions/fusion-tcr-loci-lmo2.json",
+    "fusions/fusion-gata2-enhancer-mecom.json",
+    "fusions/fusion-igh-fgfr3-and-nsd2.json",
+    "fusions/fusion-igh-maf.json",
+    "fusions/fusion-igh-mafb.json",
+    "fusions/fusion-prcc-tfe3.json",
+    "fusions/fusion-sfpq-tfe3.json",
+    "fusions/fusion-nono-tfe3.json",
+    "fusions/fusion-rbm10-tfe3.json",
+    "fusions/fusion-cltc-tfe3.json",
+    "fusions/fusion-malat1-tfeb.json"
+  ],
+  "source_file": "fusion-sources.json"
+}

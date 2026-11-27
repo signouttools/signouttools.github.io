@@ -1,0 +1,83 @@
+{
+  "id": "fusion-gata2-enhancer-mecom",
+  "label": "GATA2 enhancer / MECOM",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "GATA2",
+      "hgnc_id": "HGNC:4171",
+      "ncbi_gene_id": "2624"
+    },
+    {
+      "symbol": "MECOM",
+      "hgnc_id": "HGNC:3498",
+      "ncbi_gene_id": "2122"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML with inv(3) or t(3;3)"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "GATA2",
+      "text": "GATA2 encodes a zinc-finger transcription factor required for hematopoietic stem/progenitor-cell function.",
+      "source_ids": [
+        "ncbi-2624"
+      ],
+      "claim_sha256": "084aa3f0352ac922e4d727902d06e7214112dee48464c7d31fa8c865460db33b",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MECOM",
+      "text": "MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis.",
+      "source_ids": [
+        "ncbi-2122"
+      ],
+      "claim_sha256": "94c1bd1ebb6b012e0b0772fe0c2f0a0f4067ae6ec347cca023aaac10a7d159dc",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement relocates a GATA2 hematopoietic enhancer to MECOM/EVI1, driving EVI1 overexpression while reducing normal GATA2 expression. Its oncogenic mechanism combines enhancer hijacking with GATA2 insufficiency and does not require a GATA2::MECOM coding fusion.",
+      "source_ids": [
+        "gata2-mec"
+      ],
+      "claim_sha256": "f6d6607cf501af52bc592bd49809ad4b04aee07efce88230702b2e4d65e281b1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "AML with inv(3)/t(3;3) is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "claim_sha256": "c10e8b4dbc586ed69ee546fc36400db4c8db9c44ed834f20cc9a768ad79b34b8",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "GATA2 encodes a zinc-finger transcription factor required for hematopoietic stem/progenitor-cell function. MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. The rearrangement relocates a GATA2 hematopoietic enhancer to MECOM/EVI1, driving EVI1 overexpression while reducing normal GATA2 expression. Its oncogenic mechanism combines enhancer hijacking with GATA2 insufficiency and does not require a GATA2::MECOM coding fusion. AML with inv(3)/t(3;3) is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+    "source_ids": [
+      "ncbi-2624",
+      "ncbi-2122",
+      "gata2-mec",
+      "eln-aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Locus label describes a regulatory event; no chimeric coding product is asserted."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "427a98b764576b7e4acc4b4d104a1dbb222e43e100debc215316c2c08a41dc7f"
+}

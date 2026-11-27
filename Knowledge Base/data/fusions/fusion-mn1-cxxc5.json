@@ -1,0 +1,73 @@
+{
+  "id": "fusion-mn1-cxxc5",
+  "label": "MN1::CXXC5",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MN1",
+      "hgnc_id": "HGNC:7180",
+      "ncbi_gene_id": "4330"
+    },
+    {
+      "symbol": "CXXC5",
+      "hgnc_id": "HGNC:26943",
+      "ncbi_gene_id": "51523"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Astroblastoma, MN1-altered"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MN1",
+      "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs.",
+      "source_ids": [
+        "ncbi-4330"
+      ],
+      "claim_sha256": "5a9c861f57edb00a37deae82a129a23827b75bb0e11e5512a5565a35c5726a5a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CXXC5",
+      "text": "CXXC5 encodes a CXXC-domain transcriptional regulator involved in developmental signaling.",
+      "source_ids": [
+        "ncbi-51523"
+      ],
+      "claim_sha256": "628f9012c2950996ae79425a73536f438aac77e4312a70cf4ef5be764554e5c5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion creates an abnormal MN1-containing transcriptional regulator. Experimental tumor models show oncogenic activity and convergence with MN1::BEND2-driven astroblastoma programs.",
+      "source_ids": [
+        "mn1"
+      ],
+      "claim_sha256": "10c9da112eecf32575670c49206e053c8bcf5c869d954e6e772aef2abf5949c2",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MN1 encodes a transcriptional regulator involved in developmental and hematopoietic programs. CXXC5 encodes a CXXC-domain transcriptional regulator involved in developmental signaling. The fusion creates an abnormal MN1-containing transcriptional regulator. Experimental tumor models show oncogenic activity and convergence with MN1::BEND2-driven astroblastoma programs.",
+    "source_ids": [
+      "ncbi-4330",
+      "ncbi-51523",
+      "mn1"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Rare partner; subtype-specific outcome evidence remains under review."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "e419dfe45d456f79412a86347b3a7a39bd28e3cad78ea457d3b676cf8427fafa"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "fusion-igh-fgfr3-and-nsd2",
+  "label": "IGH / FGFR3 and NSD2",
+  "event_class": "regulatory_rearrangement",
+  "partners": [
+    {
+      "symbol": "IGH",
+      "hgnc_id": "HGNC:5477",
+      "ncbi_gene_id": "3492"
+    },
+    {
+      "symbol": "FGFR3",
+      "hgnc_id": "HGNC:3690",
+      "ncbi_gene_id": "2261"
+    },
+    {
+      "symbol": "NSD2",
+      "hgnc_id": "HGNC:12766",
+      "ncbi_gene_id": "7468"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Plasma cell myeloma with t(4;14)"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "IGH",
+      "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements.",
+      "source_ids": [
+        "ncbi-3492"
+      ],
+      "claim_sha256": "b2f43869b8905387591474726a31695a4f4a4b5e240c6857f60e23e315918da0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FGFR3",
+      "text": "FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2261"
+      ],
+      "claim_sha256": "d97637fd595657389c1ab1aef07610471f16d14ca53931ee931195ef0003f1b9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NSD2",
+      "text": "NSD2 encodes a histone H3 lysine-36 methyltransferase.",
+      "source_ids": [
+        "ncbi-7468"
+      ],
+      "claim_sha256": "eeb64f583666c572e90bb33725e506ce0b0a22c3dd640bd227a32dd23a4d693d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(4;14) rearrangement places IGH regulatory elements near NSD2 and FGFR3, increasing NSD2-associated chromatin activity and, in many cases, FGFR3 signaling. Some tumors lose FGFR3 expression while retaining NSD2 deregulation.",
+      "source_ids": [
+        "myeloma"
+      ],
+      "claim_sha256": "373b91597e78bdfbc4662d68fec28155464d222c131a774dac270aaec6b5a17f",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "IGH is the immunoglobulin heavy-chain locus, with potent B-lineage regulatory elements. FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase. NSD2 encodes a histone H3 lysine-36 methyltransferase. The t(4;14) rearrangement places IGH regulatory elements near NSD2 and FGFR3, increasing NSD2-associated chromatin activity and, in many cases, FGFR3 signaling. Some tumors lose FGFR3 expression while retaining NSD2 deregulation.",
+    "source_ids": [
+      "ncbi-3492",
+      "ncbi-2261",
+      "ncbi-7468",
+      "myeloma"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Not one chimeric kinase fusion; risk assessment must use the applicable current myeloma system and co-lesions."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "0fd9c0666029a4904b10cf1030c95b20989d7c25bcc7f1b13396960a9a927780"
+}

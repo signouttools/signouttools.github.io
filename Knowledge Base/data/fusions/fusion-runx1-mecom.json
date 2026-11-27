@@ -1,0 +1,88 @@
+{
+  "id": "fusion-runx1-mecom",
+  "label": "RUNX1::MECOM",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "RUNX1",
+      "hgnc_id": "HGNC:10471",
+      "ncbi_gene_id": "861"
+    },
+    {
+      "symbol": "MECOM",
+      "hgnc_id": "HGNC:3498",
+      "ncbi_gene_id": "2122"
+    }
+  ],
+  "aliases": [
+    "RUNX1::MDS1::EVI1",
+    "AML1::EVI1"
+  ],
+  "tumor_contexts": [
+    "AML",
+    "Myelodysplastic neoplasia",
+    "CML blast phase"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RUNX1",
+      "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+      "source_ids": [
+        "ncbi-861"
+      ],
+      "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MECOM",
+      "text": "MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis.",
+      "source_ids": [
+        "ncbi-2122"
+      ],
+      "claim_sha256": "94c1bd1ebb6b012e0b0772fe0c2f0a0f4067ae6ec347cca023aaac10a7d159dc",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(3;21) fusion combines RUNX1 DNA-binding sequences with MECOM/EVI1 transcriptional-regulatory sequences, disrupting hematopoietic differentiation. It occurs in myeloid neoplasia, including therapy-related disease and CML blast phase.",
+      "source_ids": [
+        "icc-m",
+        "aml"
+      ],
+      "claim_sha256": "19ce64648088a89df9fbc5121bde40a6220d480a600ff6bd0a3df48205ed63e1",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "claim_sha256": "b859f87e98372a2de3c5b6dcccdba82f3fcf36449fc83d83a58fc7e70b0129e1",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. The t(3;21) fusion combines RUNX1 DNA-binding sequences with MECOM/EVI1 transcriptional-regulatory sequences, disrupting hematopoietic differentiation. It occurs in myeloid neoplasia, including therapy-related disease and CML blast phase. MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
+    "source_ids": [
+      "ncbi-861",
+      "ncbi-2122",
+      "icc-m",
+      "aml",
+      "eln-aml"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "4b98389afc4b6e85860d58e68f147f98beb98fade2f505e6da96f4344fae80c0"
+}

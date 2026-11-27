@@ -1,0 +1,82 @@
+{
+  "id": "fusion-birc3-malt1",
+  "label": "BIRC3::MALT1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "BIRC3",
+      "hgnc_id": "HGNC:591",
+      "ncbi_gene_id": "330"
+    },
+    {
+      "symbol": "MALT1",
+      "hgnc_id": "HGNC:6819",
+      "ncbi_gene_id": "10892"
+    }
+  ],
+  "aliases": [
+    "API2::MALT1"
+  ],
+  "tumor_contexts": [
+    "Extranodal marginal zone lymphoma of MALT"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "BIRC3",
+      "text": "BIRC3 encodes cIAP2, an E3 ubiquitin ligase that regulates cell-survival signaling.",
+      "source_ids": [
+        "ncbi-330"
+      ],
+      "claim_sha256": "9adb3ead42e2f8d1029ad873576c4d5b23f5eaf79382e66d6197ea68c2464f7e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MALT1",
+      "text": "MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling.",
+      "source_ids": [
+        "ncbi-10892"
+      ],
+      "claim_sha256": "b4587ae80afff63f9a73dabc30e3bb1d8030cbcf709b4f43e5aa8019effdfee9",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The t(11;18) fusion joins BIRC3 BIR domains to MALT1 signaling/paracaspase regions and activates NF-kappaB signaling. It occurs in extranodal marginal zone lymphoma, especially gastric and pulmonary MALT lymphoma.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "ef65bf8b18b74aee72869b492c67fc5167fdf7d6672bbff92c15cde0275939a0",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "In gastric MALT lymphoma, t(11;18)/BIRC3::MALT1 is associated with reduced likelihood of lymphoma regression after Helicobacter pylori eradication.",
+      "source_ids": [
+        "icc-l"
+      ],
+      "claim_sha256": "47badb99029911ea24d08541446fad3e3c44122834439a43f7b3b99f88d6d8cb",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "BIRC3 encodes cIAP2, an E3 ubiquitin ligase that regulates cell-survival signaling. MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling. The t(11;18) fusion joins BIRC3 BIR domains to MALT1 signaling/paracaspase regions and activates NF-kappaB signaling. It occurs in extranodal marginal zone lymphoma, especially gastric and pulmonary MALT lymphoma. In gastric MALT lymphoma, t(11;18)/BIRC3::MALT1 is associated with reduced likelihood of lymphoma regression after Helicobacter pylori eradication.",
+    "source_ids": [
+      "ncbi-330",
+      "ncbi-10892",
+      "icc-l"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "54bf8e3881fe0e52dab051fbcce38213bd3898a709ee08bbb2e1c98602139c47"
+}

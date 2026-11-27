@@ -1,0 +1,73 @@
+{
+  "id": "fusion-ewsr1-creb3l1",
+  "label": "EWSR1::CREB3L1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "EWSR1",
+      "hgnc_id": "HGNC:3508",
+      "ncbi_gene_id": "2130"
+    },
+    {
+      "symbol": "CREB3L1",
+      "hgnc_id": "HGNC:18856",
+      "ncbi_gene_id": "90993"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Sclerosing epithelioid fibrosarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EWSR1",
+      "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription.",
+      "source_ids": [
+        "ncbi-2130"
+      ],
+      "claim_sha256": "cd9e977579b9dc450c4d0572ddc09b89201e08c146dc2392801ca7483bd0aecd",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CREB3L1",
+      "text": "CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis.",
+      "source_ids": [
+        "ncbi-90993"
+      ],
+      "claim_sha256": "77d27f4ba5237354d120eda487cfaa18342d16930db020c171ee75efd114cf44",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. EWSR1::CREB3L1 is characteristic of pure sclerosing epithelioid fibrosarcoma.",
+      "source_ids": [
+        "sef"
+      ],
+      "claim_sha256": "cbece16b5c4be7d5936ecf37fef6d149e0eb3442031540cbcb73a2aa0546d7e4",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. The fusion joins the amino-terminal FET-family activation region to CREB3L DNA-binding sequences and creates an aberrant bZIP transcription factor. EWSR1::CREB3L1 is characteristic of pure sclerosing epithelioid fibrosarcoma.",
+    "source_ids": [
+      "ncbi-2130",
+      "ncbi-90993",
+      "sef"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "37c3f98c49a9a739a7fdea4f9d58b10687bc9e61cbe06a1464e3a74c417d3be9"
+}

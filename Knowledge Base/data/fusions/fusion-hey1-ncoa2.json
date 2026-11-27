@@ -1,0 +1,73 @@
+{
+  "id": "fusion-hey1-ncoa2",
+  "label": "HEY1::NCOA2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "HEY1",
+      "hgnc_id": "HGNC:4880",
+      "ncbi_gene_id": "23462"
+    },
+    {
+      "symbol": "NCOA2",
+      "hgnc_id": "HGNC:7669",
+      "ncbi_gene_id": "10499"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Mesenchymal chondrosarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "HEY1",
+      "text": "HEY1 encodes a transcriptional repressor downstream of Notch signaling.",
+      "source_ids": [
+        "ncbi-23462"
+      ],
+      "claim_sha256": "723aca3fa95fc5332be90178da6284d87cd66b78b4471e25089dca5152976b9a",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NCOA2",
+      "text": "NCOA2 encodes a nuclear-receptor transcriptional coactivator.",
+      "source_ids": [
+        "ncbi-10499"
+      ],
+      "claim_sha256": "ffe285d3866ef36d8e8edaab61e7944117b10c44b8a7c09c35790ea5efb9c241",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins HEY1 DNA-binding/repressor-associated sequences to NCOA2 transcriptional activation regions, creating a disease-associated transcriptional regulator. It is a recurrent defining alteration in mesenchymal chondrosarcoma.",
+      "source_ids": [
+        "hey1",
+        "hey1-functional"
+      ],
+      "claim_sha256": "d62103d0bf8d4f77ab9d40085300c45f3d3bb5107920f81d7cecedef15791ade",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "HEY1 encodes a transcriptional repressor downstream of Notch signaling. NCOA2 encodes a nuclear-receptor transcriptional coactivator. The fusion joins HEY1 DNA-binding/repressor-associated sequences to NCOA2 transcriptional activation regions, creating a disease-associated transcriptional regulator. It is a recurrent defining alteration in mesenchymal chondrosarcoma.",
+    "source_ids": [
+      "ncbi-23462",
+      "ncbi-10499",
+      "hey1",
+      "hey1-functional"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "0a56da955097844c044c0d06ac76f26e26917e7c34371f1f53ee3157b4d25d20"
+}

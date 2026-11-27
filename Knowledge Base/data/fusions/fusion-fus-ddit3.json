@@ -1,0 +1,83 @@
+{
+  "id": "fusion-fus-ddit3",
+  "label": "FUS::DDIT3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "FUS",
+      "hgnc_id": "HGNC:4010",
+      "ncbi_gene_id": "2521"
+    },
+    {
+      "symbol": "DDIT3",
+      "hgnc_id": "HGNC:2726",
+      "ncbi_gene_id": "1649"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Myxoid liposarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FUS",
+      "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "DDIT3",
+      "text": "DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor.",
+      "source_ids": [
+        "ncbi-1649"
+      ],
+      "claim_sha256": "bd1f854df56162b1911220ec05f3b1065be28ac78b8496ae4ecc75bfc4ee52bd",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins a FET-family activation region to DDIT3, creating an abnormal transcription factor that disrupts adipocytic differentiation. FUS::DDIT3 supports the diagnosis of myxoid liposarcoma; FUS is the usual partner and EWSR1 is less common.",
+      "source_ids": [
+        "ddit3",
+        "sarcoma"
+      ],
+      "claim_sha256": "8986df3f0eb6142b044997038c4919565f75a4063f0e5be312f4ee2fa478e36c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+      "source_ids": [
+        "fda-trabectedin"
+      ],
+      "claim_sha256": "359d59ae9c5f42e056ca01438cffa5b16659103f27428493f6f0ce36c4dad505",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor. The fusion joins a FET-family activation region to DDIT3, creating an abnormal transcription factor that disrupts adipocytic differentiation. FUS::DDIT3 supports the diagnosis of myxoid liposarcoma; FUS is the usual partner and EWSR1 is less common. Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+    "source_ids": [
+      "ncbi-2521",
+      "ncbi-1649",
+      "ddit3",
+      "sarcoma",
+      "fda-trabectedin"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "aa655257dba8d6e020ec60d8bdbd60dd3196769e7edb3cb0dfb905ef17573ae3"
+}

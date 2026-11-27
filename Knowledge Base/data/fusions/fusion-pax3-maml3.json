@@ -1,0 +1,80 @@
+{
+  "id": "fusion-pax3-maml3",
+  "label": "PAX3::MAML3",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "PAX3",
+      "hgnc_id": "HGNC:8617",
+      "ncbi_gene_id": "5077"
+    },
+    {
+      "symbol": "MAML3",
+      "hgnc_id": "HGNC:16272",
+      "ncbi_gene_id": "55534"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Biphenotypic sinonasal sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX3",
+      "text": "PAX3 encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development.",
+      "source_ids": [
+        "ncbi-5077"
+      ],
+      "claim_sha256": "51628cc555c714635bca30cf9dba92d3339f4ca2c7bb85fb0434e6aa8f4c5ce6",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAML3",
+      "text": "MAML3 encodes a transcriptional coactivator in Notch signaling.",
+      "source_ids": [
+        "ncbi-55534"
+      ],
+      "claim_sha256": "c154efc729ba4ea94c75142200c84f863539a5b3868992f82112857b0318a4de",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion combines PAX3 DNA binding with MAML3 transcriptional coactivation and drives a mixed neural/myogenic expression program. It is the predominant fusion in biphenotypic sinonasal sarcoma.",
+      "source_ids": [
+        "pax3-maml3"
+      ],
+      "claim_sha256": "36fbbcd456c50f950f050e312c21b7ef008c9161ce0b7d7a19441f71b0dc1f7e",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "prognosis",
+      "text": "This is usually a low-grade but locally aggressive sinonasal sarcoma with a tendency to local recurrence.",
+      "source_ids": [
+        "pax3-maml3"
+      ],
+      "claim_sha256": "881ea169783a977fcc341d2db18be1bdbc6ac6c2a8ddf795189a488b908ab580",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "PAX3 encodes a paired-box transcription factor involved in neural-crest and skeletal-muscle development. MAML3 encodes a transcriptional coactivator in Notch signaling. The fusion combines PAX3 DNA binding with MAML3 transcriptional coactivation and drives a mixed neural/myogenic expression program. It is the predominant fusion in biphenotypic sinonasal sarcoma. This is usually a low-grade but locally aggressive sinonasal sarcoma with a tendency to local recurrence.",
+    "source_ids": [
+      "ncbi-5077",
+      "ncbi-55534",
+      "pax3-maml3"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "597f3b31267e6b4aa78965513cdc35c6a7c7a23d2161e7a7c2607245ff175939"
+}

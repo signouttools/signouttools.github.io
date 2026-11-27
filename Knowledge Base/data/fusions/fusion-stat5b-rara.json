@@ -1,0 +1,82 @@
+{
+  "id": "fusion-stat5b-rara",
+  "label": "STAT5B::RARA",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "STAT5B",
+      "hgnc_id": "HGNC:11367",
+      "ncbi_gene_id": "6777"
+    },
+    {
+      "symbol": "RARA",
+      "hgnc_id": "HGNC:9864",
+      "ncbi_gene_id": "5914"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML with variant RARA fusion"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "STAT5B",
+      "text": "STAT5B encodes a cytokine-responsive JAK-STAT transcription factor.",
+      "source_ids": [
+        "ncbi-6777"
+      ],
+      "claim_sha256": "2e7f82e34e4b85b2f8f9d8091af6fb4b5328eca1dff15c1f1ae7144c064f4f85",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RARA",
+      "text": "RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor.",
+      "source_ids": [
+        "ncbi-5914"
+      ],
+      "claim_sha256": "15796aab291e1c486a471d24789fe5cf65e08c7cfbf5b304560c64ccd60852bc",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA.",
+      "source_ids": [
+        "rara"
+      ],
+      "claim_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
+      "source_ids": [
+        "rara",
+        "stat5-rara"
+      ],
+      "claim_sha256": "27644a85ce5d40e315178225cb4d12100cd18e173a38729d72c92828197db661",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "STAT5B encodes a cytokine-responsive JAK-STAT transcription factor. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. The fusion retains RARA DNA- and ligand-binding regions within an abnormal transcriptional regulator that blocks myeloid differentiation. It produces an APL-like leukemia with a molecular mechanism distinct from PML::RARA. ZBTB16::RARA and STAT5B::RARA leukemias have shown resistance to ATRA and arsenic-based differentiation treatment; the high sensitivity of conventional PML::RARA APL must not be transferred to these fusions.",
+    "source_ids": [
+      "ncbi-6777",
+      "ncbi-5914",
+      "rara",
+      "stat5-rara"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "506d8a3ee2d81c89d8c057f37cc1d0eeba2b1523f78dd7af009b53315f0f2032"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "fusion-cltc-alk",
+  "label": "CLTC::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "CLTC",
+      "hgnc_id": "HGNC:2092",
+      "ncbi_gene_id": "1213"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Inflammatory myofibroblastic tumor",
+    "ALK-positive large B-cell lymphoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CLTC",
+      "text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport.",
+      "source_ids": [
+        "ncbi-1213"
+      ],
+      "claim_sha256": "aeaeee745d48fdd1bfa9c45f67eeb48083a64fac408ca7dd70b41cd73ebb113c",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CLTC::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor.",
+      "source_ids": [
+        "sarcoma",
+        "icc-l",
+        "imt-kinases"
+      ],
+      "claim_sha256": "ca1f7daac42e6d7583df9e89a74f821fefcacd0db2fd8e7c1518ff56c28f3c51",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-criz"
+      ],
+      "claim_sha256": "36cd9dc91534b03cac1393ef8c25971d8f013ce6c1ca51b0d9229126da8b8c22",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular transport. ALK encodes a receptor tyrosine kinase involved in neural development. The fusion retains the ALK kinase region and replaces normal receptor regulation with an amino-terminal partner, producing constitutive signaling. CLTC::ALK is a documented ALK fusion in inflammatory myofibroblastic tumor. Crizotinib is US-approved for ALK-positive unresectable, recurrent or refractory inflammatory myofibroblastic tumor in adults and children aged at least 1 year.",
+    "source_ids": [
+      "ncbi-1213",
+      "ncbi-238",
+      "sarcoma",
+      "icc-l",
+      "imt-kinases",
+      "fda-criz"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "132843696031b3ec9a58be44c9c429abed2797aada81aedd660a7605a64e15ee"
+}

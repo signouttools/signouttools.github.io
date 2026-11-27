@@ -1,0 +1,75 @@
+{
+  "id": "fusion-myb-nfib",
+  "label": "MYB::NFIB",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "MYB",
+      "hgnc_id": "HGNC:7545",
+      "ncbi_gene_id": "4602"
+    },
+    {
+      "symbol": "NFIB",
+      "hgnc_id": "HGNC:7785",
+      "ncbi_gene_id": "4781"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Adenoid cystic carcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MYB",
+      "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation.",
+      "source_ids": [
+        "ncbi-4602"
+      ],
+      "claim_sha256": "db17fc1d9ed3d64c21143167822e90e696967603f0ddaf27aebff2e369e7add5",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NFIB",
+      "text": "NFIB encodes a nuclear-factor-I transcription factor involved in tissue development.",
+      "source_ids": [
+        "ncbi-4781"
+      ],
+      "claim_sha256": "c2b3b659abdbcb1c074ecc327d3f26f151405aa41c6cf8c06caf033418a7273f",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYB::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+      "source_ids": [
+        "myb-nfib",
+        "salivary"
+      ],
+      "claim_sha256": "7da60626445dbc43a87712adf3587ca02fb8283e167b3f34dbb287dc2251e36c",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "MYB encodes a transcription factor involved in progenitor-cell proliferation and differentiation. NFIB encodes a nuclear-factor-I transcription factor involved in tissue development. The rearrangement alters MYB-family regulatory architecture and drives abnormal MYB-family transcription. MYB::NFIB is a recurrent fusion in adenoid cystic carcinoma; MYB- and MYBL1-driven tumors form related molecular groups.",
+    "source_ids": [
+      "ncbi-4602",
+      "ncbi-4781",
+      "myb-nfib",
+      "salivary"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Breakpoint-specific loss of negative regulatory regions versus enhancer effects must be resolved before a more specific mechanism claim."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "4139ed5a2ac0dce5d24ddb2096493f232515f1c35388ec52a05b10c0ca6b2d84"
+}

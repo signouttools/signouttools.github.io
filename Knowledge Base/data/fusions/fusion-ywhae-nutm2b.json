@@ -1,0 +1,73 @@
+{
+  "id": "fusion-ywhae-nutm2b",
+  "label": "YWHAE::NUTM2B",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "YWHAE",
+      "hgnc_id": "HGNC:12851",
+      "ncbi_gene_id": "7531"
+    },
+    {
+      "symbol": "NUTM2B",
+      "hgnc_id": "HGNC:23445",
+      "ncbi_gene_id": "729262"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "High-grade endometrial stromal sarcoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "YWHAE",
+      "text": "YWHAE encodes the phosphoprotein-binding adaptor 14-3-3 epsilon.",
+      "source_ids": [
+        "ncbi-7531"
+      ],
+      "claim_sha256": "df6a7e9371f1467cfb2ce96a9c8ffb09614a522e2568a927b1d94c87dcf5c46d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NUTM2B",
+      "text": "NUTM2B encodes a NUT-family protein whose normal function remains incompletely characterized.",
+      "source_ids": [
+        "ncbi-729262"
+      ],
+      "claim_sha256": "dfe7553473df29b44942a609667edd44db962db581daa79ed54b20102eadd6e3",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion joins YWHAE to a NUTM2-family partner, producing an abnormal transcription-associated protein. It defines a major high-grade endometrial stromal sarcoma group, often with a high-grade round-cell component and strong cyclin D1/BCOR expression.",
+      "source_ids": [
+        "hgess"
+      ],
+      "claim_sha256": "8eee67f81a741b12c8b91159a184e098326c079e2bd26bf7dba9592119295729",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "YWHAE encodes the phosphoprotein-binding adaptor 14-3-3 epsilon. NUTM2B encodes a NUT-family protein whose normal function remains incompletely characterized. The fusion joins YWHAE to a NUTM2-family partner, producing an abnormal transcription-associated protein. It defines a major high-grade endometrial stromal sarcoma group, often with a high-grade round-cell component and strong cyclin D1/BCOR expression.",
+    "source_ids": [
+      "ncbi-7531",
+      "ncbi-729262",
+      "hgess"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Precise biochemical dependencies are not fully resolved; no claim of a validated NUTM2-directed treatment."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "54adb07f4d9b365fa576aa716f5cbc42de8b07ca275a0b32f07bdaf62ec03e69"
+}

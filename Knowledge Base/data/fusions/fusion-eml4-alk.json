@@ -1,0 +1,83 @@
+{
+  "id": "fusion-eml4-alk",
+  "label": "EML4::ALK",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "EML4",
+      "hgnc_id": "HGNC:1316",
+      "ncbi_gene_id": "27436"
+    },
+    {
+      "symbol": "ALK",
+      "hgnc_id": "HGNC:427",
+      "ncbi_gene_id": "238"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Lung adenocarcinoma"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EML4",
+      "text": "EML4 encodes a microtubule-associated protein with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-27436"
+      ],
+      "claim_sha256": "4bf3c8fcb9af6e6468041b056a9c990241ad56ff224b899bf9414d98d5e5711d",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ALK",
+      "text": "ALK encodes a receptor tyrosine kinase involved in neural development.",
+      "source_ids": [
+        "ncbi-238"
+      ],
+      "claim_sha256": "41cbdd37edb29d790184e64bac15220dd6728be854c79fece291380c529bd941",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "An intrachromosomal inversion joins the EML4 oligomerization region to the ALK kinase domain, producing ligand-independent kinase signaling and an established lung-cancer driver.",
+      "source_ids": [
+        "eml4-alk"
+      ],
+      "claim_sha256": "ae3d680e47178684ada824f2182a12a03184b23e813dfde77f43a6beaff2bbe7",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ALK-positive metastatic NSCLC is eligible for ALK-directed kinase inhibition; alectinib also has a US adjuvant indication after resection of ALK-positive NSCLC, with the pivotal trial enrolling stage IB tumors at least 4 cm through stage IIIA disease.",
+      "source_ids": [
+        "fda-criz",
+        "fda-alk"
+      ],
+      "claim_sha256": "62cc7c08c322e0ddf398d39079224994cd66ec93101c4a5afc0c4eaa3a18f23d",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "EML4 encodes a microtubule-associated protein with an amino-terminal oligomerization domain. ALK encodes a receptor tyrosine kinase involved in neural development. An intrachromosomal inversion joins the EML4 oligomerization region to the ALK kinase domain, producing ligand-independent kinase signaling and an established lung-cancer driver. ALK-positive metastatic NSCLC is eligible for ALK-directed kinase inhibition; alectinib also has a US adjuvant indication after resection of ALK-positive NSCLC, with the pivotal trial enrolling stage IB tumors at least 4 cm through stage IIIA disease.",
+    "source_ids": [
+      "ncbi-27436",
+      "ncbi-238",
+      "eml4-alk",
+      "fda-criz",
+      "fda-alk"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "7d8076bd48489a150a4330ea3fdf4bb2c098f1eebd713394472d981f9c2f99f4"
+}

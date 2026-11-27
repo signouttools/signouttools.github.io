@@ -1,0 +1,87 @@
+{
+  "id": "fusion-rcsd1-abl1",
+  "label": "RCSD1::ABL1",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "RCSD1",
+      "hgnc_id": "HGNC:28310",
+      "ncbi_gene_id": "92241"
+    },
+    {
+      "symbol": "ABL1",
+      "hgnc_id": "HGNC:76",
+      "ncbi_gene_id": "25"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Ph-like B-ALL"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RCSD1",
+      "text": "RCSD1 encodes CapZIP, a regulator of actin-capping protein interactions.",
+      "source_ids": [
+        "ncbi-92241"
+      ],
+      "claim_sha256": "274328d5a05561cfea72ca859ac3398d067f8f43018cb939995ffd78e3d88ef8",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ABL1",
+      "text": "ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses.",
+      "source_ids": [
+        "ncbi-25"
+      ],
+      "claim_sha256": "bc77c310296a3b9e98594441513ff7b93a19ea8405f3756f01c6693bdc96e602",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. RCSD1::ABL1 is an ABL-class kinase lesion in Ph-like B-ALL.",
+      "source_ids": [
+        "phlike",
+        "phlike2",
+        "phlike-functional"
+      ],
+      "claim_sha256": "69f1cc2993ff969423d2f39c71e70b4cd7df95c3b1a5e4eca6040de2a8a56334",
+      "fulltext_audit_status": "pending"
+    },
+    {
+      "kind": "therapeutics",
+      "text": "ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+      "source_ids": [
+        "phlike",
+        "phlike-functional"
+      ],
+      "claim_sha256": "676525c4c006483cc3900ebcd0fcbea77e76cbaae835417eb129e53e882cf137",
+      "fulltext_audit_status": "pending"
+    }
+  ],
+  "report_comment": {
+    "text": "RCSD1 encodes CapZIP, a regulator of actin-capping protein interactions. ABL1 encodes a nonreceptor tyrosine kinase that regulates cell growth, adhesion and DNA-damage responses. The fusion retains the carboxy-terminal kinase domain and creates constitutive growth signaling. RCSD1::ABL1 is an ABL-class kinase lesion in Ph-like B-ALL. ABL-class kinase inhibition has a biological and preclinical rationale in this fusion class; treatment of Ph-like ALL with these agents is distinct from the BCR::ABL1-positive ALL drug indications.",
+    "source_ids": [
+      "ncbi-92241",
+      "ncbi-25",
+      "phlike",
+      "phlike2",
+      "phlike-functional"
+    ]
+  },
+  "evidence_scope": "Draft synthesis from cited sources; primary abstract/search-excerpt and selected full-text review. Not a completed claim-level full-text audit.",
+  "curation_notes": [
+    "Do not transfer an ABL1/BCR::ABL1 label to PDGFRB or CSF1R fusions."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 1,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "text_sha256": "ddbd1014c4c10364739e8ea36dff0c660b27315727723c264a93a32ff026bb58"
+}
