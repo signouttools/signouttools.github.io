@@ -420,14 +420,17 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with Noonan syndrome (autosomal dominant); Noonan syndrome 6 (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-19966803",
+        "primary-pmid-21263000"
       ]
     },
     "somatic": {
       "text": "Somatic alterations involving NRAS have been reported in mucosal melanoma, cutaneous melanoma, and conjunctival melanoma.",
       "source_ids": [
         "atlas-draft",
-        "intogen-20240920"
+        "intogen-20240920",
+        "primary-pmid-22817889"
       ]
     }
   },

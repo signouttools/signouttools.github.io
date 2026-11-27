@@ -150,3 +150,17 @@ The dependency-free validator covers the executable subset of this schema used b
 ## Applying the evidence review
 
 After regenerating base drafts, run `python3 scripts/curate-evidence.py <draft-input-cache>` to reapply the source decisions, named citations and disclaimers. That historical script records the stage-one review boundary; stage-two drafting was subsequently authorized. It expects the original roster, so do not run it directly against the expanded dictionary. Rebuild the original base, apply the historical review, then apply the hotspot supplement and derived-index pipeline documented in [HOTSPOT-REVIEW.md](HOTSPOT-REVIEW.md). Evidence-review receipts and remaining gaps are in `data/evidence-curation.json`.
+
+## Primary literature supplementation
+
+Report comments retain database provenance and add primary-study PMID references where a retained gene–disease/inheritance assertion or original tumor-cohort record provides a matching publication. Common examples also have targeted literature links. Reviews, guidelines, editorials, and retracted articles are excluded. Automatically linked articles have metadata/abstract screening; detailed full-text and supplementary-data claim review remains open. `data/primary-citation-review.json` records each claim link, its assertion/cohort provenance, input receipts, and limitations. These citation links are reapplied when report prose is regenerated.
+
+To extend the pass, retrieve PubMed XML for candidate references and run `scripts/supplement-primary-citations.py <pubmed-xml-cache> <gencc-csv>`, followed by the browser-index build, draft export, and validation commands. Do not cite a compendium's methods paper as proof of every contained gene–disease assertion.
+
+## Claim-specific citation audit (supersedes automatic supplementation)
+
+The automatic supplementation pass is superseded by the [report citation audit](CITATION-AUDIT.md). Unconfirmed PMID placements have been removed from report comments, while historical candidates remain archived. Retained PMIDs require an explicit reviewed support scope and exact statement binding, or original study-release observation evidence. `prepare-report-comments.py` reapplies the citation gate automatically. Run `python3 "Knowledge Base/scripts/validate-citation-audit.py"` after regeneration. The legacy automatic PMID importer is disabled; gene-name/abstract matching is insufficient to reinsert a citation.
+
+## Continuing full-text reviews
+
+[FULLTEXT-REVIEW.md](FULLTEXT-REVIEW.md) separates retrieved papers, explicit claim decisions, and unresolved work. The queue is in `data/fulltext-review-queue.json`; manual statement-specific decisions, with document hashes and Results/table locations, are in `curation/fulltext-review-decisions.json`. Retrieval never counts as verification. Reviewed support is restored only to the exact matching report statement; function, germline, mosaic and somatic claims are distinct. `validate-fulltext-review.py` checks these distinctions and the restored placements. The full-text review remains in progress.

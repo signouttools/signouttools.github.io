@@ -1110,7 +1110,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Baraitser-Winter cerebrofrontofacial syndrome (autosomal dominant); Baraitser-Winter syndrome 1 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-22366783"
         ]
       },
       "somatic": {
@@ -1221,7 +1222,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Baraitser-winter syndrome 2 (autosomal dominant); nonsyndromic genetic hearing loss (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-22366783"
         ]
       }
     },
@@ -3166,7 +3168,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 2 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-22729224"
         ]
       },
       "somatic": {
@@ -5161,7 +5164,9 @@
         "text": "Somatic alterations involving AR have been reported in prostate adenocarcinoma, prostate, and cholangiocarcinoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29610475",
+          "primary-pmid-31061129"
         ]
       }
     },
@@ -11688,7 +11693,9 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with BAP1-related tumor predisposition syndrome (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-21874000",
+          "primary-pmid-21874003"
         ]
       },
       "somatic": {
@@ -12083,7 +12090,8 @@
         "text": "Somatic alterations involving BCL10 have been reported in marginal zone lymphoma, malignant lymphoma, and diffuse large b-Cell lymphoma, NOS.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29713087"
         ]
       }
     },
@@ -13264,7 +13272,8 @@
       "somatic": {
         "text": "Somatic alterations involving BCOR have been reported in retinoblastoma, acute myeloid leukemia, and endometrial stromal sarcoma.",
         "source_ids": [
-          "atlas-draft"
+          "atlas-draft",
+          "primary-pmid-30333627"
         ]
       }
     },
@@ -14763,13 +14772,15 @@
       "germline": {
         "text": "Germline disease associations include Cardiofaciocutaneous syndrome (autosomal dominant).",
         "source_ids": [
-          "genereviews-cfc"
+          "genereviews-cfc",
+          "primary-pmid-16474404"
         ]
       },
       "somatic": {
         "text": "Somatic activating BRAF mutations occur in melanoma, colorectal and thyroid carcinomas, lung carcinoma, and hairy cell leukemia, among other neoplasms.",
         "source_ids": [
-          "ncbi-braf"
+          "ncbi-braf",
+          "primary-pmid-22817889"
         ]
       }
     },
@@ -14966,14 +14977,18 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with BRCA1-related cancer predisposition (autosomal dominant); Fanconi anemia, complementation group S (autosomal recessive).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-25472942"
         ]
       },
       "somatic": {
         "text": "Somatic alterations involving BRCA1 have been reported in high-grade serous carcinoma, tubo-ovarian / peritoneal, invasive breast carcinoma, and pancreatic ductal adenocarcinoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "pmid-24240112",
+          "primary-pmid-21720365",
+          "primary-pmid-25719666"
         ]
       }
     },
@@ -15237,7 +15252,9 @@
         "text": "Somatic alterations involving BRCA2 have been reported in invasive breast carcinoma, high-grade serous carcinoma, tubo-ovarian / peritoneal, and prostate adenocarcinoma.",
         "source_ids": [
           "intogen-20240920",
-          "atlas-draft"
+          "atlas-draft",
+          "primary-pmid-29610475",
+          "pmid-24240112"
         ]
       }
     },
@@ -19909,7 +19926,8 @@
       "somatic": {
         "text": "Somatic alterations involving CD58 have been reported in diffuse large b-Cell lymphoma, NOS.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29713087"
         ]
       }
     },
@@ -21419,7 +21437,8 @@
         "text": "Somatic alterations involving CDK12 have been reported in prostate adenocarcinoma, melanoma, and prostate.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29610475"
         ]
       }
     },
@@ -33278,7 +33297,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with DDX41-related hematologic malignancy predisposition syndrome (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "pmid-25920683"
         ]
       },
       "somatic": {
@@ -34127,7 +34147,8 @@
       "somatic": {
         "text": "Somatic alterations involving DIS3 have been reported in plasma cell myeloma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-24434212"
         ]
       }
     },
@@ -35275,7 +35296,8 @@
         "text": "Somatic alterations involving DNMT3A have been reported in acute myeloid leukemia, myelodysplastic syndromes, and peripheral t-cell lymphoma, NOS.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-30333627"
         ]
       }
     },
@@ -35469,7 +35491,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with combined immunodeficiency due to DOCK8 deficiency (autosomal recessive).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-19776401"
         ]
       }
     },
@@ -37242,7 +37265,8 @@
         "text": "Somatic alterations involving EGFR have been reported in lung adenocarcinoma, glioblastoma, IDH-wildtype, and glioblastoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-30150660"
         ]
       }
     },
@@ -41454,7 +41478,9 @@
       "somatic": {
         "text": "Somatic alterations involving ERCC2 have been reported in bladder urothelial carcinoma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-25096233",
+          "primary-pmid-24121792"
         ]
       }
     },
@@ -46275,7 +46301,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Fanconi anemia complementation group L (autosomal recessive).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-19405097"
         ]
       }
     },
@@ -46645,7 +46672,8 @@
       "somatic": {
         "text": "Somatic alterations involving FAS have been reported in malignant lymphoma, cervical squamous cell carcinoma, and diffuse large b-Cell lymphoma, NOS.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29713087"
         ]
       }
     },
@@ -50820,7 +50848,8 @@
       "somatic": {
         "text": "Somatic alterations involving FLT3 have been reported in myeloid sarcoma, acute myeloid leukemia, and acute leukemia of ambiguous lineage.",
         "source_ids": [
-          "atlas-draft"
+          "atlas-draft",
+          "primary-pmid-30333627"
         ]
       }
     },
@@ -51531,7 +51560,10 @@
         "text": "Somatic alterations involving FOXA1 have been reported in prostate adenocarcinoma, neuroendocrine tumor of breast, and invasive lobular carcinoma of breast.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-22610119",
+          "primary-pmid-29610475",
+          "primary-pmid-23622249"
         ]
       }
     },
@@ -63405,7 +63437,8 @@
         "text": "Somatic alterations involving HRAS have been reported in head and neck squamous cell carcinoma, bladder urothelial carcinoma, and salivary duct carcinoma.",
         "source_ids": [
           "intogen-20240920",
-          "atlas-draft"
+          "atlas-draft",
+          "primary-pmid-24121792"
         ]
       }
     },
@@ -64447,7 +64480,8 @@
         "text": "Somatic IDH1 mutations occur in diffuse gliomas, acute myeloid leukemia, and cholangiocarcinoma. Cancer-associated R132 variants can acquire a neomorphic activity that produces D-2-hydroxyglutarate.",
         "source_ids": [
           "idh1-cohort-2021",
-          "dang-2009"
+          "dang-2009",
+          "primary-pmid-30333627"
         ]
       }
     },
@@ -64690,7 +64724,8 @@
       "somatic": {
         "text": "Somatic alterations involving IDH2 have been reported in acute myeloid leukemia, sinonasal undifferentiated carcinoma, and chondrosarcoma.",
         "source_ids": [
-          "atlas-draft"
+          "atlas-draft",
+          "primary-pmid-30333627"
         ]
       }
     },
@@ -67922,7 +67957,8 @@
         "text": "Somatic alterations involving IRF4 have been reported in large b-cell lymphoma with IRF4 rearrangement, malignant lymphoma, and plasma cell myeloma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-24434212"
         ]
       }
     },
@@ -75157,14 +75193,18 @@
       "germline": {
         "text": "Germline disease associations include Noonan syndrome (autosomal dominant); cardiofaciocutaneous syndrome (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-16474405",
+          "primary-pmid-16474404"
         ]
       },
       "somatic": {
         "text": "Somatic alterations involving KRAS have been reported in pancreatic ductal adenocarcinoma, colorectal adenocarcinoma, and lung adenocarcinoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "hotspots-v1",
+          "hotspots-v2"
         ]
       }
     },
@@ -77970,7 +78010,8 @@
       "somatic": {
         "text": "Somatic alterations involving LYN have been reported in diffuse large b-Cell lymphoma, NOS.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29713087"
         ]
       }
     },
@@ -81467,7 +81508,8 @@
         "text": "Somatic alterations involving MAX have been reported in pheochromocytoma, plasma cell myeloma, and endometrial carcinoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29654271"
         ]
       }
     },
@@ -81692,7 +81734,7 @@
         ]
       },
       "somatic": {
-        "text": "Focal MCL1 amplification has been observed across multiple cancer types, including lung and breast cancers. Functional studies support an anti-apoptotic survival role in amplified tumor models; an arbitrary sequence variant is a different finding.",
+        "text": "Focal MCL1 amplification has been observed across multiple cancer types. Functional studies demonstrate that amplified tumor cells can depend on MCL1 expression for survival.",
         "source_ids": [
           "pmid-20164920"
         ]
@@ -83485,7 +83527,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with multiple endocrine neoplasia type 1 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-28969599"
         ]
       },
       "somatic": {
@@ -96034,14 +96077,17 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Noonan syndrome (autosomal dominant); Noonan syndrome 6 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-19966803",
+          "primary-pmid-21263000"
         ]
       },
       "somatic": {
         "text": "Somatic alterations involving NRAS have been reported in mucosal melanoma, cutaneous melanoma, and conjunctival melanoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-22817889"
         ]
       }
     },
@@ -99852,7 +99898,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Fanconi anemia complementation group N (autosomal recessive); PALB2-related cancer predisposition (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-17200668"
         ]
       },
       "somatic": {
@@ -105342,7 +105389,8 @@
       "mosaic": {
         "text": "Postzygotic mosaic variants are associated with megalencephaly-capillary malformation-polymicrogyria syndrome.",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-22729224"
         ]
       },
       "somatic": {
@@ -106120,7 +106168,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 1 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-22729224"
         ]
       }
     },
@@ -108541,7 +108590,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with POLD1-related polyposis and colorectal cancer syndrome (autosomal dominant); mandibular hypoplasia-deafness-progeroid syndrome (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-23263490"
         ]
       },
       "somatic": {
@@ -108694,7 +108744,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with POLE-related polyposis and colorectal cancer syndrome (autosomal dominant); colorectal cancer, susceptibility to, 12 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-23263490"
         ]
       },
       "somatic": {
@@ -110068,7 +110119,8 @@
       "somatic": {
         "text": "Somatic alterations involving PPP6C have been reported in melanoma, cutaneous melanoma, and basal cell carcinoma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-22817889"
         ]
       }
     },
@@ -110312,7 +110364,9 @@
       "somatic": {
         "text": "Somatic alterations involving PRDM1 have been reported in prostate, plasma cell myeloma, and non-Hodgkin lymphoma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-24434212",
+          "primary-pmid-29654271"
         ]
       }
     },
@@ -111797,7 +111851,8 @@
         "text": "Somatic alterations involving PRKD2 have been reported in polymorphous adenocarcinoma, cribriform adenocarcinoma of salivary gland, and plasma cell myeloma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29654271"
         ]
       }
     },
@@ -113392,7 +113447,9 @@
         "text": "Somatic alterations involving PTEN have been reported in endometrioid carcinoma of endometrium, prostate adenocarcinoma, and prostate.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-22610119",
+          "primary-pmid-29610475"
         ]
       }
     },
@@ -115235,7 +115292,8 @@
       "somatic": {
         "text": "Somatic alterations involving RAC1 have been reported in melanoma, cutaneous melanoma, and head and neck squamous cell carcinoma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-22817889"
         ]
       }
     },
@@ -116181,7 +116239,9 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with RAD51D-related cancer predisposition (autosomal dominant); breast-ovarian cancer, familial, susceptibility to, 4 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-21822267",
+          "primary-pmid-22415235"
         ]
       }
     },
@@ -117627,14 +117687,17 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with retinoblastoma (autosomal dominant); hereditary retinoblastoma (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-25928201"
         ]
       },
       "somatic": {
         "text": "Somatic alterations involving RB1 have been reported in retinoblastoma, small cell lung carcinoma, and small cell lung cancer.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-26168399",
+          "primary-pmid-22941188"
         ]
       }
     },
@@ -117726,7 +117789,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Jawad syndrome (autosomal recessive).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-21998596"
         ]
       }
     },
@@ -123123,7 +123187,8 @@
       "somatic": {
         "text": "Somatic alterations involving RUNX1 have been reported in myeloid sarcoma, systemic mastocytosis, and acute myeloid leukemia.",
         "source_ids": [
-          "atlas-draft"
+          "atlas-draft",
+          "primary-pmid-30333627"
         ]
       }
     },
@@ -124069,7 +124134,8 @@
       "somatic": {
         "text": "Somatic alterations involving SAMHD1 have been reported in plasma cell myeloma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29654271"
         ]
       }
     },
@@ -124857,7 +124923,9 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); mitochondrial disease (autosomal recessive).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-19389109",
+          "primary-pmid-22972948"
         ]
       },
       "somatic": {
@@ -126107,7 +126175,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Schinzel-Giedion midface retraction syndrome (autosomal dominant); complex neurodevelopmental disorder (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-25356899"
         ]
       },
       "somatic": {
@@ -131502,7 +131571,8 @@
         "text": "Somatic alterations involving SMARCA4 have been reported in small cell carcinoma of ovary, hypercalcemic type, thoracic SMARCA4-deficient undifferentiated tumor, and lung adenocarcinoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-22980975"
         ]
       }
     },
@@ -134370,7 +134440,8 @@
       "somatic": {
         "text": "Somatic alterations involving SP140 have been reported in plasma cell myeloma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-29654271"
         ]
       }
     },
@@ -134582,7 +134653,8 @@
       "somatic": {
         "text": "Somatic alterations involving SPEN have been reported in malignant lymphoma, salivary carcinoma, and lung adenocarcinoma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-26631609"
         ]
       }
     },
@@ -134850,7 +134922,8 @@
         "text": "SPOP encodes speckle-type POZ protein. It participates in protein polyubiquitination and regulation of proteolysis.",
         "source_ids": [
           "ncbi-8405",
-          "uniprot-O43791"
+          "uniprot-O43791",
+          "primary-pmid-19818708"
         ]
       },
       "germline": {
@@ -134863,7 +134936,8 @@
         "text": "Somatic alterations involving SPOP have been reported in prostate adenocarcinoma, prostate, and non-Hodgkin lymphoma.",
         "source_ids": [
           "atlas-draft",
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-22610119"
         ]
       }
     },
@@ -134954,7 +135028,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Legius syndrome (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-21089071"
         ]
       }
     },
@@ -135844,7 +135919,7 @@
         ]
       },
       "somatic": {
-        "text": "Somatic SRSF2 mutations occur in myelodysplastic and myelodysplastic/myeloproliferative neoplasms.",
+        "text": "Somatic SRSF2 mutations occur in myelodysplastic neoplasms.",
         "source_ids": [
           "pmid-22389253"
         ]
@@ -136996,7 +137071,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with STAT3-related early-onset multisystem autoimmune disease (autosomal dominant); hyper-IgE recurrent infection syndrome 1, autosomal dominant (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-18602572"
         ]
       },
       "somatic": {
@@ -141170,7 +141246,8 @@
       "somatic": {
         "text": "Somatic alterations involving TENT5C have been reported in plasma cell myeloma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-24434212"
         ]
       }
     },
@@ -141376,7 +141453,7 @@
         ]
       },
       "germline": {
-        "text": "Pathogenic constitutional TERC variants cause autosomal dominant telomere biology disorders, including dyskeratosis congenita. Marrow failure and myeloid malignancy risk occur within this inherited disease context.",
+        "text": "Pathogenic constitutional TERC variants cause autosomal dominant dyskeratosis congenita, a telomere biology disorder associated with bone-marrow failure.",
         "source_ids": [
           "pmid-11574891",
           "gencc-SGC-107615.2"
@@ -145952,7 +146029,9 @@
       "germline": {
         "text": "Germline pathogenic variants cause autosomal dominant Li-Fraumeni syndrome, which predisposes to a broad spectrum of cancers, notably early-onset breast cancer, sarcomas, central nervous system tumors, and adrenocortical carcinoma.",
         "source_ids": [
-          "genereviews-lfs"
+          "genereviews-lfs",
+          "primary-pmid-8118819",
+          "primary-pmid-1978757"
         ]
       },
       "somatic": {
@@ -146933,7 +147012,8 @@
       "somatic": {
         "text": "Somatic alterations involving TRAF3 have been reported in plasma cell myeloma.",
         "source_ids": [
-          "intogen-20240920"
+          "intogen-20240920",
+          "primary-pmid-24434212"
         ]
       }
     },
@@ -156394,7 +156474,7 @@
         ]
       },
       "somatic": {
-        "text": "Somatic ZRSR2 mutations occur in myelodysplastic neoplasms and can disrupt splicing regulation.",
+        "text": "Somatic ZRSR2 mutations occur in myelodysplastic neoplasms.",
         "source_ids": [
           "pmid-22389253"
         ]

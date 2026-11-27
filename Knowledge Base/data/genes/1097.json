@@ -316,13 +316,15 @@
     "germline": {
       "text": "Germline disease associations include Cardiofaciocutaneous syndrome (autosomal dominant).",
       "source_ids": [
-        "genereviews-cfc"
+        "genereviews-cfc",
+        "primary-pmid-16474404"
       ]
     },
     "somatic": {
       "text": "Somatic activating BRAF mutations occur in melanoma, colorectal and thyroid carcinomas, lung carcinoma, and hairy cell leukemia, among other neoplasms.",
       "source_ids": [
-        "ncbi-braf"
+        "ncbi-braf",
+        "primary-pmid-22817889"
       ]
     }
   },

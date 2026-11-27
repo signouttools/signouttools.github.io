@@ -189,14 +189,18 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with BRCA1-related cancer predisposition (autosomal dominant); Fanconi anemia, complementation group S (autosomal recessive).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-25472942"
       ]
     },
     "somatic": {
       "text": "Somatic alterations involving BRCA1 have been reported in high-grade serous carcinoma, tubo-ovarian / peritoneal, invasive breast carcinoma, and pancreatic ductal adenocarcinoma.",
       "source_ids": [
         "atlas-draft",
-        "intogen-20240920"
+        "intogen-20240920",
+        "pmid-24240112",
+        "primary-pmid-21720365",
+        "primary-pmid-25719666"
       ]
     }
   },

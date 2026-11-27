@@ -76,13 +76,13 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-ACTB encodes actin, cytoplasmic 1 [Cleaved into: Actin, cytoplasmic 1, N-terminally processed]. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 60](https://www.ncbi.nlm.nih.gov/gene/60), [UniProt P60709](https://www.uniprot.org/uniprotkb/P60709/entry)). Pathogenic germline variants are associated with Baraitser-Winter cerebrofrontofacial syndrome (autosomal dominant); Baraitser-Winter syndrome 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving ACTB have been reported in GLI1-altered mesenchymal tumor, malignant/metastasizing. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+ACTB encodes actin, cytoplasmic 1 [Cleaved into: Actin, cytoplasmic 1, N-terminally processed]. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 60](https://www.ncbi.nlm.nih.gov/gene/60), [UniProt P60709](https://www.uniprot.org/uniprotkb/P60709/entry)). Pathogenic germline variants are associated with Baraitser-Winter cerebrofrontofacial syndrome (autosomal dominant); Baraitser-Winter syndrome 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 22366783](https://pubmed.ncbi.nlm.nih.gov/22366783/)). Somatic alterations involving ACTB have been reported in GLI1-altered mesenchymal tumor, malignant/metastasizing. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
 
 ## ACTG1
 
 Pathologist review needed — LLM-generated summary/review.
 
-ACTG1 encodes actin, cytoplasmic 2 [Cleaved into: Actin, cytoplasmic 2, N-terminally processed]. It participates in angiogenesis and axonogenesis. ([NCBI Gene 71](https://www.ncbi.nlm.nih.gov/gene/71), [UniProt P63261](https://www.uniprot.org/uniprotkb/P63261/entry)). Pathogenic germline variants are associated with Baraitser-winter syndrome 2 (autosomal dominant); nonsyndromic genetic hearing loss (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)).
+ACTG1 encodes actin, cytoplasmic 2 [Cleaved into: Actin, cytoplasmic 2, N-terminally processed]. It participates in angiogenesis and axonogenesis. ([NCBI Gene 71](https://www.ncbi.nlm.nih.gov/gene/71), [UniProt P63261](https://www.uniprot.org/uniprotkb/P63261/entry)). Pathogenic germline variants are associated with Baraitser-winter syndrome 2 (autosomal dominant); nonsyndromic genetic hearing loss (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 22366783](https://pubmed.ncbi.nlm.nih.gov/22366783/)).
 
 Curation note (outside report text): somatic_association_requires_curation.
 
@@ -210,7 +210,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-AKT3 encodes RAC-gamma serine/threonine-protein kinase. It participates in signal transduction and intracellular signal transduction. ([NCBI Gene 10000](https://www.ncbi.nlm.nih.gov/gene/10000), [UniProt Q9Y243](https://www.uniprot.org/uniprotkb/Q9Y243/entry)). Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 2 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving AKT3 have been reported in prostate and cutaneous melanoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+AKT3 encodes RAC-gamma serine/threonine-protein kinase. It participates in signal transduction and intracellular signal transduction. ([NCBI Gene 10000](https://www.ncbi.nlm.nih.gov/gene/10000), [UniProt Q9Y243](https://www.uniprot.org/uniprotkb/Q9Y243/entry)). Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 2 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 22729224](https://pubmed.ncbi.nlm.nih.gov/22729224/)). Somatic alterations involving AKT3 have been reported in prostate and cutaneous melanoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
 
 ## ALB
 
@@ -310,7 +310,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-AR encodes androgen receptor. It participates in signal transduction and positive regulation of DNA-templated transcription. ([NCBI Gene 367](https://www.ncbi.nlm.nih.gov/gene/367), [UniProt P10275](https://www.uniprot.org/uniprotkb/P10275/entry)). Pathogenic germline variants are associated with Kennedy disease (x-linked); androgen insensitivity syndrome (x-linked). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving AR have been reported in prostate adenocarcinoma, prostate, and cholangiocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+AR encodes androgen receptor. It participates in signal transduction and positive regulation of DNA-templated transcription. ([NCBI Gene 367](https://www.ncbi.nlm.nih.gov/gene/367), [UniProt P10275](https://www.uniprot.org/uniprotkb/P10275/entry)). Pathogenic germline variants are associated with Kennedy disease (x-linked); androgen insensitivity syndrome (x-linked). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving AR have been reported in prostate adenocarcinoma, prostate, and cholangiocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29610475](https://pubmed.ncbi.nlm.nih.gov/29610475/), [PMID 31061129](https://pubmed.ncbi.nlm.nih.gov/31061129/)).
 
 ## ARAF
 
@@ -678,7 +678,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-BAP1 encodes a deubiquitinase involved in chromatin regulation and other cellular processes, including regulation of transcription and DNA-damage responses. ([NCBI Gene 8314](https://www.ncbi.nlm.nih.gov/gene/8314)). Pathogenic germline variants are associated with BAP1-related tumor predisposition syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BAP1 have been reported in mesothelioma, uveal melanoma, and meningioma, CNS WHO grade 3. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+BAP1 encodes a deubiquitinase involved in chromatin regulation and other cellular processes, including regulation of transcription and DNA-damage responses. ([NCBI Gene 8314](https://www.ncbi.nlm.nih.gov/gene/8314)). Pathogenic germline variants are associated with BAP1-related tumor predisposition syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 21874000](https://pubmed.ncbi.nlm.nih.gov/21874000/), [PMID 21874003](https://pubmed.ncbi.nlm.nih.gov/21874003/)). Somatic alterations involving BAP1 have been reported in mesothelioma, uveal melanoma, and meningioma, CNS WHO grade 3. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
 
 ## BARD1
 
@@ -700,7 +700,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-BCL10 encodes b-cell lymphoma/leukemia 10. It participates in positive regulation of DNA-templated transcription and regulation of canonical NF-kappaB signal transduction. ([NCBI Gene 8915](https://www.ncbi.nlm.nih.gov/gene/8915), [UniProt O95999](https://www.uniprot.org/uniprotkb/O95999/entry)). Pathogenic germline variants are associated with immunodeficiency 37 (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BCL10 have been reported in marginal zone lymphoma, malignant lymphoma, and diffuse large b-Cell lymphoma, NOS. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+BCL10 encodes b-cell lymphoma/leukemia 10. It participates in positive regulation of DNA-templated transcription and regulation of canonical NF-kappaB signal transduction. ([NCBI Gene 8915](https://www.ncbi.nlm.nih.gov/gene/8915), [UniProt O95999](https://www.uniprot.org/uniprotkb/O95999/entry)). Pathogenic germline variants are associated with immunodeficiency 37 (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BCL10 have been reported in marginal zone lymphoma, malignant lymphoma, and diffuse large b-Cell lymphoma, NOS. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29713087](https://pubmed.ncbi.nlm.nih.gov/29713087/)).
 
 ## BCL11B
 
@@ -760,7 +760,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-BCOR encodes BCL-6 corepressor. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II. ([NCBI Gene 54880](https://www.ncbi.nlm.nih.gov/gene/54880), [UniProt Q6W2J9](https://www.uniprot.org/uniprotkb/Q6W2J9/entry)). Pathogenic germline variants are associated with microphthalmia, syndromic 2 (x-linked). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BCOR have been reported in retinoblastoma, acute myeloid leukemia, and endometrial stromal sarcoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+BCOR encodes BCL-6 corepressor. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II. ([NCBI Gene 54880](https://www.ncbi.nlm.nih.gov/gene/54880), [UniProt Q6W2J9](https://www.uniprot.org/uniprotkb/Q6W2J9/entry)). Pathogenic germline variants are associated with microphthalmia, syndromic 2 (x-linked). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BCOR have been reported in retinoblastoma, acute myeloid leukemia, and endometrial stromal sarcoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [PMID 30333627](https://pubmed.ncbi.nlm.nih.gov/30333627/)).
 
 ## BCORL1
 
@@ -842,19 +842,19 @@ BNC2 encodes basonuclin zinc finger protein 2. Its functions include regulation 
 
 Pathologist review needed — LLM-generated summary/review.
 
-BRAF encodes a RAF-family serine/threonine kinase that relays signals through the MAPK/ERK pathway to regulate cell growth and differentiation. ([NCBI Gene 673](https://www.ncbi.nlm.nih.gov/gene/673)). Germline disease associations include Cardiofaciocutaneous syndrome (autosomal dominant). ([GeneReviews: Cardiofaciocutaneous Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1186/)). Somatic activating BRAF mutations occur in melanoma, colorectal and thyroid carcinomas, lung carcinoma, and hairy cell leukemia, among other neoplasms. ([NCBI Gene 673](https://www.ncbi.nlm.nih.gov/gene/673)).
+BRAF encodes a RAF-family serine/threonine kinase that relays signals through the MAPK/ERK pathway to regulate cell growth and differentiation. ([NCBI Gene 673](https://www.ncbi.nlm.nih.gov/gene/673)). Germline disease associations include Cardiofaciocutaneous syndrome (autosomal dominant). ([GeneReviews: Cardiofaciocutaneous Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1186/), [PMID 16474404](https://pubmed.ncbi.nlm.nih.gov/16474404/)). Somatic activating BRAF mutations occur in melanoma, colorectal and thyroid carcinomas, lung carcinoma, and hairy cell leukemia, among other neoplasms. ([NCBI Gene 673](https://www.ncbi.nlm.nih.gov/gene/673), [PMID 22817889](https://pubmed.ncbi.nlm.nih.gov/22817889/)).
 
 ## BRCA1
 
 Pathologist review needed — LLM-generated summary/review.
 
-BRCA1 encodes a tumor-suppressor protein that coordinates the DNA-damage response and homologous-recombination repair, including functions performed with BARD1 and other repair factors. ([NCBI Gene 672](https://www.ncbi.nlm.nih.gov/gene/672)). Pathogenic germline variants are associated with BRCA1-related cancer predisposition (autosomal dominant); Fanconi anemia, complementation group S (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BRCA1 have been reported in high-grade serous carcinoma, tubo-ovarian / peritoneal, invasive breast carcinoma, and pancreatic ductal adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+BRCA1 encodes a tumor-suppressor protein that coordinates the DNA-damage response and homologous-recombination repair, including functions performed with BARD1 and other repair factors. ([NCBI Gene 672](https://www.ncbi.nlm.nih.gov/gene/672)). Pathogenic germline variants are associated with BRCA1-related cancer predisposition (autosomal dominant); Fanconi anemia, complementation group S (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download), [PMID 25472942](https://pubmed.ncbi.nlm.nih.gov/25472942/)). Somatic alterations involving BRCA1 have been reported in high-grade serous carcinoma, tubo-ovarian / peritoneal, invasive breast carcinoma, and pancreatic ductal adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 24240112](https://pubmed.ncbi.nlm.nih.gov/24240112/), [PMID 21720365](https://pubmed.ncbi.nlm.nih.gov/21720365/), [PMID 25719666](https://pubmed.ncbi.nlm.nih.gov/25719666/)).
 
 ## BRCA2
 
 Pathologist review needed — LLM-generated summary/review.
 
-BRCA2 encodes a tumor-suppressor protein that loads and regulates RAD51 at damaged DNA, supporting accurate repair of double-strand breaks by homologous recombination. ([NCBI Gene 675](https://www.ncbi.nlm.nih.gov/gene/675)). Pathogenic germline variants are associated with BRCA2-related cancer predisposition (autosomal dominant); Fanconi anemia complementation group D1 (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BRCA2 have been reported in invasive breast carcinoma, high-grade serous carcinoma, tubo-ovarian / peritoneal, and prostate adenocarcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+BRCA2 encodes a tumor-suppressor protein that loads and regulates RAD51 at damaged DNA, supporting accurate repair of double-strand breaks by homologous recombination. ([NCBI Gene 675](https://www.ncbi.nlm.nih.gov/gene/675)). Pathogenic germline variants are associated with BRCA2-related cancer predisposition (autosomal dominant); Fanconi anemia complementation group D1 (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving BRCA2 have been reported in invasive breast carcinoma, high-grade serous carcinoma, tubo-ovarian / peritoneal, and prostate adenocarcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [PMID 29610475](https://pubmed.ncbi.nlm.nih.gov/29610475/), [PMID 24240112](https://pubmed.ncbi.nlm.nih.gov/24240112/)).
 
 ## BRCC3
 
@@ -1150,7 +1150,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-CD58 encodes lymphocyte function-associated antigen 3. It participates in signal transduction and cell-cell adhesion. ([NCBI Gene 965](https://www.ncbi.nlm.nih.gov/gene/965), [UniProt P19256](https://www.uniprot.org/uniprotkb/P19256/entry)). Somatic alterations involving CD58 have been reported in diffuse large b-Cell lymphoma, NOS. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+CD58 encodes lymphocyte function-associated antigen 3. It participates in signal transduction and cell-cell adhesion. ([NCBI Gene 965](https://www.ncbi.nlm.nih.gov/gene/965), [UniProt P19256](https://www.uniprot.org/uniprotkb/P19256/entry)). Somatic alterations involving CD58 have been reported in diffuse large b-Cell lymphoma, NOS. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29713087](https://pubmed.ncbi.nlm.nih.gov/29713087/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -1238,7 +1238,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-CDK12 encodes cyclin-dependent kinase 12. It participates in regulation of MAP kinase activity and RNA splicing. ([NCBI Gene 51755](https://www.ncbi.nlm.nih.gov/gene/51755), [UniProt Q9NYV4](https://www.uniprot.org/uniprotkb/Q9NYV4/entry)). Somatic alterations involving CDK12 have been reported in prostate adenocarcinoma, melanoma, and prostate. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+CDK12 encodes cyclin-dependent kinase 12. It participates in regulation of MAP kinase activity and RNA splicing. ([NCBI Gene 51755](https://www.ncbi.nlm.nih.gov/gene/51755), [UniProt Q9NYV4](https://www.uniprot.org/uniprotkb/Q9NYV4/entry)). Somatic alterations involving CDK12 have been reported in prostate adenocarcinoma, melanoma, and prostate. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29610475](https://pubmed.ncbi.nlm.nih.gov/29610475/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -1942,7 +1942,7 @@ DDX3X encodes ATP-dependent RNA helicase DDX3X. It participates in intracellular
 
 Pathologist review needed — LLM-generated summary/review.
 
-DDX41 encodes a DEAD-box helicase-family protein implicated in RNA processing and cellular nucleic-acid sensing. ([NCBI Gene 51428](https://www.ncbi.nlm.nih.gov/gene/51428)). Pathogenic germline variants are associated with DDX41-related hematologic malignancy predisposition syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Acquired DDX41 mutations occur in myeloid neoplasms, including myelodysplastic neoplasms and acute myeloid leukemia, and may coexist with an inherited predisposing allele. ([PMID 25920683](https://pubmed.ncbi.nlm.nih.gov/25920683/)).
+DDX41 encodes a DEAD-box helicase-family protein implicated in RNA processing and cellular nucleic-acid sensing. ([NCBI Gene 51428](https://www.ncbi.nlm.nih.gov/gene/51428)). Pathogenic germline variants are associated with DDX41-related hematologic malignancy predisposition syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 25920683](https://pubmed.ncbi.nlm.nih.gov/25920683/)). Acquired DDX41 mutations occur in myeloid neoplasms, including myelodysplastic neoplasms and acute myeloid leukemia, and may coexist with an inherited predisposing allele. ([PMID 25920683](https://pubmed.ncbi.nlm.nih.gov/25920683/)).
 
 ## DEK
 
@@ -1994,7 +1994,7 @@ DICER1 encodes endoribonuclease Dicer. It participates in negative regulation of
 
 Pathologist review needed — LLM-generated summary/review.
 
-DIS3 encodes exosome complex exonuclease RRP44. It participates in RNA processing and rRNA processing. ([NCBI Gene 22894](https://www.ncbi.nlm.nih.gov/gene/22894), [UniProt Q9Y2L1](https://www.uniprot.org/uniprotkb/Q9Y2L1/entry)). Somatic alterations involving DIS3 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+DIS3 encodes exosome complex exonuclease RRP44. It participates in RNA processing and rRNA processing. ([NCBI Gene 22894](https://www.ncbi.nlm.nih.gov/gene/22894), [UniProt Q9Y2L1](https://www.uniprot.org/uniprotkb/Q9Y2L1/entry)). Somatic alterations involving DIS3 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 24434212](https://pubmed.ncbi.nlm.nih.gov/24434212/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -2078,7 +2078,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-DNMT3A encodes a de novo DNA methyltransferase that establishes cytosine methylation patterns and helps regulate chromatin state, gene expression, and cellular differentiation. ([NCBI Gene 1788](https://www.ncbi.nlm.nih.gov/gene/1788)). Pathogenic germline variants are associated with Tatton-Brown-Rahman overgrowth syndrome (autosomal dominant); Heyn-Sproul-Jackson syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving DNMT3A have been reported in acute myeloid leukemia, myelodysplastic syndromes, and peripheral t-cell lymphoma, NOS. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+DNMT3A encodes a de novo DNA methyltransferase that establishes cytosine methylation patterns and helps regulate chromatin state, gene expression, and cellular differentiation. ([NCBI Gene 1788](https://www.ncbi.nlm.nih.gov/gene/1788)). Pathogenic germline variants are associated with Tatton-Brown-Rahman overgrowth syndrome (autosomal dominant); Heyn-Sproul-Jackson syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving DNMT3A have been reported in acute myeloid leukemia, myelodysplastic syndromes, and peripheral t-cell lymphoma, NOS. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 30333627](https://pubmed.ncbi.nlm.nih.gov/30333627/)).
 
 ## DNMT3B
 
@@ -2092,7 +2092,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-DOCK8 encodes dedicator of cytokinesis protein 8. It participates in small GTPase-mediated signal transduction and regulation of Rho protein signal transduction. ([NCBI Gene 81704](https://www.ncbi.nlm.nih.gov/gene/81704), [UniProt Q8NF50](https://www.uniprot.org/uniprotkb/Q8NF50/entry)). Pathogenic germline variants are associated with combined immunodeficiency due to DOCK8 deficiency (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)).
+DOCK8 encodes dedicator of cytokinesis protein 8. It participates in small GTPase-mediated signal transduction and regulation of Rho protein signal transduction. ([NCBI Gene 81704](https://www.ncbi.nlm.nih.gov/gene/81704), [UniProt Q8NF50](https://www.uniprot.org/uniprotkb/Q8NF50/entry)). Pathogenic germline variants are associated with combined immunodeficiency due to DOCK8 deficiency (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download), [PMID 19776401](https://pubmed.ncbi.nlm.nih.gov/19776401/)).
 
 Curation note (outside report text): somatic_association_requires_curation.
 
@@ -2218,7 +2218,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-EGFR encodes an epidermal growth factor receptor family tyrosine kinase that activates growth and survival pathways, including RAS–MAPK and PI3K–AKT signaling. ([NCBI Gene 1956](https://www.ncbi.nlm.nih.gov/gene/1956)). Pathogenic germline variants are associated with non-small cell lung carcinoma (autosomal dominant); lung cancer (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving EGFR have been reported in lung adenocarcinoma, glioblastoma, IDH-wildtype, and glioblastoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+EGFR encodes an epidermal growth factor receptor family tyrosine kinase that activates growth and survival pathways, including RAS–MAPK and PI3K–AKT signaling. ([NCBI Gene 1956](https://www.ncbi.nlm.nih.gov/gene/1956)). Pathogenic germline variants are associated with non-small cell lung carcinoma (autosomal dominant); lung cancer (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving EGFR have been reported in lung adenocarcinoma, glioblastoma, IDH-wildtype, and glioblastoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 30150660](https://pubmed.ncbi.nlm.nih.gov/30150660/)).
 
 ## EGLN1
 
@@ -2470,7 +2470,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-ERCC2 encodes general transcription and DNA repair factor IIH helicase subunit XPD. It participates in transcription-coupled nucleotide-excision repair and transcription by RNA polymerase II. ([NCBI Gene 2068](https://www.ncbi.nlm.nih.gov/gene/2068), [UniProt P18074](https://www.uniprot.org/uniprotkb/P18074/entry)). Pathogenic germline variants are associated with xeroderma pigmentosum group D (autosomal recessive); trichothiodystrophy 1, photosensitive (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving ERCC2 have been reported in bladder urothelial carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+ERCC2 encodes general transcription and DNA repair factor IIH helicase subunit XPD. It participates in transcription-coupled nucleotide-excision repair and transcription by RNA polymerase II. ([NCBI Gene 2068](https://www.ncbi.nlm.nih.gov/gene/2068), [UniProt P18074](https://www.uniprot.org/uniprotkb/P18074/entry)). Pathogenic germline variants are associated with xeroderma pigmentosum group D (autosomal recessive); trichothiodystrophy 1, photosensitive (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving ERCC2 have been reported in bladder urothelial carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 25096233](https://pubmed.ncbi.nlm.nih.gov/25096233/), [PMID 24121792](https://pubmed.ncbi.nlm.nih.gov/24121792/)).
 
 ## ERCC3
 
@@ -2784,7 +2784,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-FANCL encodes E3 ubiquitin-protein ligase FANCL. It participates in DNA repair and protein monoubiquitination. ([NCBI Gene 55120](https://www.ncbi.nlm.nih.gov/gene/55120), [UniProt Q9NW38](https://www.uniprot.org/uniprotkb/Q9NW38/entry)). Pathogenic germline variants are associated with Fanconi anemia complementation group L (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)).
+FANCL encodes E3 ubiquitin-protein ligase FANCL. It participates in DNA repair and protein monoubiquitination. ([NCBI Gene 55120](https://www.ncbi.nlm.nih.gov/gene/55120), [UniProt Q9NW38](https://www.uniprot.org/uniprotkb/Q9NW38/entry)). Pathogenic germline variants are associated with Fanconi anemia complementation group L (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download), [PMID 19405097](https://pubmed.ncbi.nlm.nih.gov/19405097/)).
 
 Curation note (outside report text): somatic_association_requires_curation.
 
@@ -2808,7 +2808,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-FAS encodes tumor necrosis factor receptor superfamily member 6. It participates in signal transduction and apoptotic process. ([NCBI Gene 355](https://www.ncbi.nlm.nih.gov/gene/355), [UniProt P25445](https://www.uniprot.org/uniprotkb/P25445/entry)). Pathogenic germline variants are associated with FAS-related autoimmune lymphoproliferative immune disorder (semidominant); autoimmune lymphoproliferative syndrome type 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving FAS have been reported in malignant lymphoma, cervical squamous cell carcinoma, and diffuse large b-Cell lymphoma, NOS. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+FAS encodes tumor necrosis factor receptor superfamily member 6. It participates in signal transduction and apoptotic process. ([NCBI Gene 355](https://www.ncbi.nlm.nih.gov/gene/355), [UniProt P25445](https://www.uniprot.org/uniprotkb/P25445/entry)). Pathogenic germline variants are associated with FAS-related autoimmune lymphoproliferative immune disorder (semidominant); autoimmune lymphoproliferative syndrome type 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving FAS have been reported in malignant lymphoma, cervical squamous cell carcinoma, and diffuse large b-Cell lymphoma, NOS. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29713087](https://pubmed.ncbi.nlm.nih.gov/29713087/)).
 
 ## FAT1
 
@@ -3018,7 +3018,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. Ligand-dependent signaling regulates survival, proliferation, and differentiation of these cells. ([NCBI Gene 2322](https://www.ncbi.nlm.nih.gov/gene/2322)). Somatic alterations involving FLT3 have been reported in myeloid sarcoma, acute myeloid leukemia, and acute leukemia of ambiguous lineage. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. Ligand-dependent signaling regulates survival, proliferation, and differentiation of these cells. ([NCBI Gene 2322](https://www.ncbi.nlm.nih.gov/gene/2322)). Somatic alterations involving FLT3 have been reported in myeloid sarcoma, acute myeloid leukemia, and acute leukemia of ambiguous lineage. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [PMID 30333627](https://pubmed.ncbi.nlm.nih.gov/30333627/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -3070,7 +3070,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-FOXA1 encodes hepatocyte nuclear factor 3-alpha. It participates in positive regulation of miRNA transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 3169](https://www.ncbi.nlm.nih.gov/gene/3169), [UniProt P55317](https://www.uniprot.org/uniprotkb/P55317/entry)). Somatic alterations involving FOXA1 have been reported in prostate adenocarcinoma, neuroendocrine tumor of breast, and invasive lobular carcinoma of breast. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+FOXA1 encodes hepatocyte nuclear factor 3-alpha. It participates in positive regulation of miRNA transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 3169](https://www.ncbi.nlm.nih.gov/gene/3169), [UniProt P55317](https://www.uniprot.org/uniprotkb/P55317/entry)). Somatic alterations involving FOXA1 have been reported in prostate adenocarcinoma, neuroendocrine tumor of breast, and invasive lobular carcinoma of breast. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 22610119](https://pubmed.ncbi.nlm.nih.gov/22610119/), [PMID 29610475](https://pubmed.ncbi.nlm.nih.gov/29610475/), [PMID 23622249](https://pubmed.ncbi.nlm.nih.gov/23622249/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -3932,7 +3932,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-HRAS encodes a small GTPase that couples growth-factor receptor activity to downstream signaling pathways regulating cell proliferation, differentiation, and survival. ([NCBI Gene 3265](https://www.ncbi.nlm.nih.gov/gene/3265)). Germline disease associations include Costello syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving HRAS have been reported in head and neck squamous cell carcinoma, bladder urothelial carcinoma, and salivary duct carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+HRAS encodes a small GTPase that couples growth-factor receptor activity to downstream signaling pathways regulating cell proliferation, differentiation, and survival. ([NCBI Gene 3265](https://www.ncbi.nlm.nih.gov/gene/3265)). Germline disease associations include Costello syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving HRAS have been reported in head and neck squamous cell carcinoma, bladder urothelial carcinoma, and salivary duct carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [PMID 24121792](https://pubmed.ncbi.nlm.nih.gov/24121792/)).
 
 ## HSD11B1
 
@@ -4000,7 +4000,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-IDH1 encodes a cytosolic and peroxisomal NADP-dependent enzyme that converts isocitrate to alpha-ketoglutarate and generates NADPH. ([NCBI Gene 3417](https://www.ncbi.nlm.nih.gov/gene/3417/)). Postzygotic mosaic variants are associated with Ollier disease and Maffucci syndrome. ([IDH1 gene — MedlinePlus Genetics](https://medlineplus.gov/genetics/gene/idh1/)). Somatic IDH1 mutations occur in diffuse gliomas, acute myeloid leukemia, and cholangiocarcinoma. Cancer-associated R132 variants can acquire a neomorphic activity that produces D-2-hydroxyglutarate. ([Association of TP53 Alteration with Tissue Specificity and Patient Outcome of IDH1-Mutant Glioma](https://pmc.ncbi.nlm.nih.gov/articles/PMC8394030/), [PMID 19935646](https://pubmed.ncbi.nlm.nih.gov/19935646/)).
+IDH1 encodes a cytosolic and peroxisomal NADP-dependent enzyme that converts isocitrate to alpha-ketoglutarate and generates NADPH. ([NCBI Gene 3417](https://www.ncbi.nlm.nih.gov/gene/3417/)). Postzygotic mosaic variants are associated with Ollier disease and Maffucci syndrome. ([IDH1 gene — MedlinePlus Genetics](https://medlineplus.gov/genetics/gene/idh1/)). Somatic IDH1 mutations occur in diffuse gliomas, acute myeloid leukemia, and cholangiocarcinoma. Cancer-associated R132 variants can acquire a neomorphic activity that produces D-2-hydroxyglutarate. ([Association of TP53 Alteration with Tissue Specificity and Patient Outcome of IDH1-Mutant Glioma](https://pmc.ncbi.nlm.nih.gov/articles/PMC8394030/), [PMID 19935646](https://pubmed.ncbi.nlm.nih.gov/19935646/), [PMID 30333627](https://pubmed.ncbi.nlm.nih.gov/30333627/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -4008,7 +4008,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-IDH2 encodes a mitochondrial NADP-dependent isocitrate dehydrogenase that interconverts isocitrate and alpha-ketoglutarate while contributing to cellular NADPH metabolism. ([NCBI Gene 3418](https://www.ncbi.nlm.nih.gov/gene/3418)). Pathogenic germline variants are associated with mitochondrial disease (autosomal dominant); d-2-hydroxyglutaric aciduria 2 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving IDH2 have been reported in acute myeloid leukemia, sinonasal undifferentiated carcinoma, and chondrosarcoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+IDH2 encodes a mitochondrial NADP-dependent isocitrate dehydrogenase that interconverts isocitrate and alpha-ketoglutarate while contributing to cellular NADPH metabolism. ([NCBI Gene 3418](https://www.ncbi.nlm.nih.gov/gene/3418)). Pathogenic germline variants are associated with mitochondrial disease (autosomal dominant); d-2-hydroxyglutaric aciduria 2 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving IDH2 have been reported in acute myeloid leukemia, sinonasal undifferentiated carcinoma, and chondrosarcoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [PMID 30333627](https://pubmed.ncbi.nlm.nih.gov/30333627/)).
 
 ## IFNGR1
 
@@ -4242,7 +4242,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-IRF4 encodes interferon regulatory factor 4. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 3662](https://www.ncbi.nlm.nih.gov/gene/3662), [UniProt Q15306](https://www.uniprot.org/uniprotkb/Q15306/entry)). Pathogenic germline variants are associated with combined immunodeficiency (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving IRF4 have been reported in large b-cell lymphoma with IRF4 rearrangement, malignant lymphoma, and plasma cell myeloma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+IRF4 encodes interferon regulatory factor 4. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 3662](https://www.ncbi.nlm.nih.gov/gene/3662), [UniProt Q15306](https://www.uniprot.org/uniprotkb/Q15306/entry)). Pathogenic germline variants are associated with combined immunodeficiency (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving IRF4 have been reported in large b-cell lymphoma with IRF4 rearrangement, malignant lymphoma, and plasma cell myeloma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 24434212](https://pubmed.ncbi.nlm.nih.gov/24434212/)).
 
 ## IRF8
 
@@ -4584,7 +4584,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-KRAS encodes a small GTPase that switches between GDP- and GTP-bound states to relay receptor-derived signals to pathways controlling proliferation and survival. ([NCBI Gene 3845](https://www.ncbi.nlm.nih.gov/gene/3845)). Germline disease associations include Noonan syndrome (autosomal dominant); cardiofaciocutaneous syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving KRAS have been reported in pancreatic ductal adenocarcinoma, colorectal adenocarcinoma, and lung adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+KRAS encodes a small GTPase that switches between GDP- and GTP-bound states to relay receptor-derived signals to pathways controlling proliferation and survival. ([NCBI Gene 3845](https://www.ncbi.nlm.nih.gov/gene/3845)). Germline disease associations include Noonan syndrome (autosomal dominant); cardiofaciocutaneous syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 16474405](https://pubmed.ncbi.nlm.nih.gov/16474405/), [PMID 16474404](https://pubmed.ncbi.nlm.nih.gov/16474404/)). Somatic alterations involving KRAS have been reported in pancreatic ductal adenocarcinoma, colorectal adenocarcinoma, and lung adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 26619011](https://pubmed.ncbi.nlm.nih.gov/26619011/), [PMID 29247016](https://pubmed.ncbi.nlm.nih.gov/29247016/)).
 
 ## KSR2
 
@@ -4786,7 +4786,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-LYN encodes tyrosine-protein kinase Lyn. It participates in negative regulation of MAP kinase activity and signal transduction. ([NCBI Gene 4067](https://www.ncbi.nlm.nih.gov/gene/4067), [UniProt P07948](https://www.uniprot.org/uniprotkb/P07948/entry)). Pathogenic germline variants are associated with autoinflammatory disease, systemic, with vasculitis (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving LYN have been reported in diffuse large b-Cell lymphoma, NOS. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+LYN encodes tyrosine-protein kinase Lyn. It participates in negative regulation of MAP kinase activity and signal transduction. ([NCBI Gene 4067](https://www.ncbi.nlm.nih.gov/gene/4067), [UniProt P07948](https://www.uniprot.org/uniprotkb/P07948/entry)). Pathogenic germline variants are associated with autoinflammatory disease, systemic, with vasculitis (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving LYN have been reported in diffuse large b-Cell lymphoma, NOS. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29713087](https://pubmed.ncbi.nlm.nih.gov/29713087/)).
 
 ## LYST
 
@@ -5010,7 +5010,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-MAX encodes protein max. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. ([NCBI Gene 4149](https://www.ncbi.nlm.nih.gov/gene/4149), [UniProt P61244](https://www.uniprot.org/uniprotkb/P61244/entry)). Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); pheochromocytoma (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving MAX have been reported in pheochromocytoma, plasma cell myeloma, and endometrial carcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+MAX encodes protein max. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. ([NCBI Gene 4149](https://www.ncbi.nlm.nih.gov/gene/4149), [UniProt P61244](https://www.uniprot.org/uniprotkb/P61244/entry)). Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); pheochromocytoma (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving MAX have been reported in pheochromocytoma, plasma cell myeloma, and endometrial carcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29654271](https://pubmed.ncbi.nlm.nih.gov/29654271/)).
 
 ## MBD4
 
@@ -5024,7 +5024,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-MCL1 encodes induced myeloid leukemia cell differentiation protein Mcl-1. It participates in cellular homeostasis and mitochondrial fusion. ([NCBI Gene 4170](https://www.ncbi.nlm.nih.gov/gene/4170), [UniProt Q07820](https://www.uniprot.org/uniprotkb/Q07820/entry)). Focal MCL1 amplification has been observed across multiple cancer types, including lung and breast cancers. Functional studies support an anti-apoptotic survival role in amplified tumor models; an arbitrary sequence variant is a different finding. ([PMID 20164920](https://pubmed.ncbi.nlm.nih.gov/20164920/)).
+MCL1 encodes induced myeloid leukemia cell differentiation protein Mcl-1. It participates in cellular homeostasis and mitochondrial fusion. ([NCBI Gene 4170](https://www.ncbi.nlm.nih.gov/gene/4170), [UniProt Q07820](https://www.uniprot.org/uniprotkb/Q07820/entry)). Focal MCL1 amplification has been observed across multiple cancer types. Functional studies demonstrate that amplified tumor cells can depend on MCL1 expression for survival. ([PMID 20164920](https://pubmed.ncbi.nlm.nih.gov/20164920/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -5130,7 +5130,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-MEN1 encodes menin. It participates in DNA repair and transcription initiation-coupled chromatin remodeling. ([NCBI Gene 4221](https://www.ncbi.nlm.nih.gov/gene/4221), [UniProt O00255](https://www.uniprot.org/uniprotkb/O00255/entry)). Pathogenic germline variants are associated with multiple endocrine neoplasia type 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving MEN1 have been reported in adrenocortical carcinoma, pulmonary carcinoid tumor, and thymic neuroendocrine tumor. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+MEN1 encodes menin. It participates in DNA repair and transcription initiation-coupled chromatin remodeling. ([NCBI Gene 4221](https://www.ncbi.nlm.nih.gov/gene/4221), [UniProt O00255](https://www.uniprot.org/uniprotkb/O00255/entry)). Pathogenic germline variants are associated with multiple endocrine neoplasia type 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 28969599](https://pubmed.ncbi.nlm.nih.gov/28969599/)). Somatic alterations involving MEN1 have been reported in adrenocortical carcinoma, pulmonary carcinoid tumor, and thymic neuroendocrine tumor. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
 
 ## MET
 
@@ -5894,7 +5894,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-NRAS encodes a small GTPase that relays growth-factor signals to pathways including RAF–MEK–ERK and PI3K signaling through regulated GDP/GTP cycling. ([NCBI Gene 4893](https://www.ncbi.nlm.nih.gov/gene/4893)). Pathogenic germline variants are associated with Noonan syndrome (autosomal dominant); Noonan syndrome 6 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving NRAS have been reported in mucosal melanoma, cutaneous melanoma, and conjunctival melanoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+NRAS encodes a small GTPase that relays growth-factor signals to pathways including RAF–MEK–ERK and PI3K signaling through regulated GDP/GTP cycling. ([NCBI Gene 4893](https://www.ncbi.nlm.nih.gov/gene/4893)). Pathogenic germline variants are associated with Noonan syndrome (autosomal dominant); Noonan syndrome 6 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 19966803](https://pubmed.ncbi.nlm.nih.gov/19966803/), [PMID 21263000](https://pubmed.ncbi.nlm.nih.gov/21263000/)). Somatic alterations involving NRAS have been reported in mucosal melanoma, cutaneous melanoma, and conjunctival melanoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 22817889](https://pubmed.ncbi.nlm.nih.gov/22817889/)).
 
 ## NRG1
 
@@ -6142,7 +6142,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-PALB2 encodes a repair scaffold that connects BRCA1- and BRCA2-associated functions and supports RAD51-mediated homologous-recombination repair. ([NCBI Gene 79728](https://www.ncbi.nlm.nih.gov/gene/79728)). Pathogenic germline variants are associated with Fanconi anemia complementation group N (autosomal recessive); PALB2-related cancer predisposition (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving PALB2 have been reported in pancreatic ductal adenocarcinoma and ovarian epithelial tumor. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+PALB2 encodes a repair scaffold that connects BRCA1- and BRCA2-associated functions and supports RAD51-mediated homologous-recombination repair. ([NCBI Gene 79728](https://www.ncbi.nlm.nih.gov/gene/79728)). Pathogenic germline variants are associated with Fanconi anemia complementation group N (autosomal recessive); PALB2-related cancer predisposition (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 17200668](https://pubmed.ncbi.nlm.nih.gov/17200668/)). Somatic alterations involving PALB2 have been reported in pancreatic ductal adenocarcinoma and ovarian epithelial tumor. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
 
 ## PAN3
 
@@ -6472,7 +6472,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-PIK3CA encodes the p110α catalytic subunit of class I phosphatidylinositol 3-kinase, which produces lipid signals that activate AKT-dependent growth and survival pathways. ([NCBI Gene 5290](https://www.ncbi.nlm.nih.gov/gene/5290)). Germline disease associations include overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Postzygotic mosaic variants are associated with megalencephaly-capillary malformation-polymicrogyria syndrome. ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving PIK3CA have been reported in invasive breast carcinoma of no special type, endometrioid carcinoma of endometrium, and colorectal adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+PIK3CA encodes the p110α catalytic subunit of class I phosphatidylinositol 3-kinase, which produces lipid signals that activate AKT-dependent growth and survival pathways. ([NCBI Gene 5290](https://www.ncbi.nlm.nih.gov/gene/5290)). Germline disease associations include overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Postzygotic mosaic variants are associated with megalencephaly-capillary malformation-polymicrogyria syndrome. ([GenCC snapshot](https://thegencc.org/download), [PMID 22729224](https://pubmed.ncbi.nlm.nih.gov/22729224/)). Somatic alterations involving PIK3CA have been reported in invasive breast carcinoma of no special type, endometrioid carcinoma of endometrium, and colorectal adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
 
 ## PIK3CB
 
@@ -6508,7 +6508,7 @@ PIK3R1 encodes phosphatidylinositol 3-kinase regulatory subunit alpha. It partic
 
 Pathologist review needed — LLM-generated summary/review.
 
-PIK3R2 encodes phosphatidylinositol 3-kinase regulatory subunit beta. It participates in phosphatidylinositol 3-kinase/protein kinase B signal transduction and positive regulation of transcription by RNA polymerase II. ([NCBI Gene 5296](https://www.ncbi.nlm.nih.gov/gene/5296), [UniProt O00459](https://www.uniprot.org/uniprotkb/O00459/entry)). Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)).
+PIK3R2 encodes phosphatidylinositol 3-kinase regulatory subunit beta. It participates in phosphatidylinositol 3-kinase/protein kinase B signal transduction and positive regulation of transcription by RNA polymerase II. ([NCBI Gene 5296](https://www.ncbi.nlm.nih.gov/gene/5296), [UniProt O00459](https://www.uniprot.org/uniprotkb/O00459/entry)). Pathogenic germline variants are associated with overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes (autosomal dominant); megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 22729224](https://pubmed.ncbi.nlm.nih.gov/22729224/)).
 
 Curation note (outside report text): somatic_association_requires_curation.
 
@@ -6686,13 +6686,13 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-POLD1 encodes the catalytic subunit of DNA polymerase delta, which participates in DNA replication and repair and provides proofreading exonuclease activity. ([NCBI Gene 5424](https://www.ncbi.nlm.nih.gov/gene/5424)). Pathogenic germline variants are associated with POLD1-related polyposis and colorectal cancer syndrome (autosomal dominant); mandibular hypoplasia-deafness-progeroid syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving POLD1 have been reported in esophageal adenocarcinoma and invasive breast carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+POLD1 encodes the catalytic subunit of DNA polymerase delta, which participates in DNA replication and repair and provides proofreading exonuclease activity. ([NCBI Gene 5424](https://www.ncbi.nlm.nih.gov/gene/5424)). Pathogenic germline variants are associated with POLD1-related polyposis and colorectal cancer syndrome (autosomal dominant); mandibular hypoplasia-deafness-progeroid syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 23263490](https://pubmed.ncbi.nlm.nih.gov/23263490/)). Somatic alterations involving POLD1 have been reported in esophageal adenocarcinoma and invasive breast carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
 
 ## POLE
 
 Pathologist review needed — LLM-generated summary/review.
 
-POLE encodes the catalytic subunit of DNA polymerase epsilon, which participates in DNA replication and contains a proofreading exonuclease domain. ([NCBI Gene 5426](https://www.ncbi.nlm.nih.gov/gene/5426)). Pathogenic germline variants are associated with POLE-related polyposis and colorectal cancer syndrome (autosomal dominant); colorectal cancer, susceptibility to, 12 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving POLE have been reported in colorectal adenocarcinoma and endometrioid carcinoma of endometrium. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+POLE encodes the catalytic subunit of DNA polymerase epsilon, which participates in DNA replication and contains a proofreading exonuclease domain. ([NCBI Gene 5426](https://www.ncbi.nlm.nih.gov/gene/5426)). Pathogenic germline variants are associated with POLE-related polyposis and colorectal cancer syndrome (autosomal dominant); colorectal cancer, susceptibility to, 12 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 23263490](https://pubmed.ncbi.nlm.nih.gov/23263490/)). Somatic alterations involving POLE have been reported in colorectal adenocarcinoma and endometrioid carcinoma of endometrium. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
 
 ## POLH
 
@@ -6778,7 +6778,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-PPP6C encodes serine/threonine-protein phosphatase 6 catalytic subunit [Cleaved into: Serine/threonine-protein phosphatase 6 catalytic subunit, N-terminally processed]. It participates in protein dephosphorylation and COPII vesicle coat assembly. ([NCBI Gene 5537](https://www.ncbi.nlm.nih.gov/gene/5537), [UniProt O00743](https://www.uniprot.org/uniprotkb/O00743/entry)). Somatic alterations involving PPP6C have been reported in melanoma, cutaneous melanoma, and basal cell carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+PPP6C encodes serine/threonine-protein phosphatase 6 catalytic subunit [Cleaved into: Serine/threonine-protein phosphatase 6 catalytic subunit, N-terminally processed]. It participates in protein dephosphorylation and COPII vesicle coat assembly. ([NCBI Gene 5537](https://www.ncbi.nlm.nih.gov/gene/5537), [UniProt O00743](https://www.uniprot.org/uniprotkb/O00743/entry)). Somatic alterations involving PPP6C have been reported in melanoma, cutaneous melanoma, and basal cell carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 22817889](https://pubmed.ncbi.nlm.nih.gov/22817889/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -6794,7 +6794,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-PRDM1 encodes PR domain zinc finger protein 1. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II. ([NCBI Gene 639](https://www.ncbi.nlm.nih.gov/gene/639), [UniProt O75626](https://www.uniprot.org/uniprotkb/O75626/entry)). Somatic alterations involving PRDM1 have been reported in prostate, plasma cell myeloma, and non-Hodgkin lymphoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+PRDM1 encodes PR domain zinc finger protein 1. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II. ([NCBI Gene 639](https://www.ncbi.nlm.nih.gov/gene/639), [UniProt O75626](https://www.uniprot.org/uniprotkb/O75626/entry)). Somatic alterations involving PRDM1 have been reported in prostate, plasma cell myeloma, and non-Hodgkin lymphoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 24434212](https://pubmed.ncbi.nlm.nih.gov/24434212/), [PMID 29654271](https://pubmed.ncbi.nlm.nih.gov/29654271/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -6896,7 +6896,7 @@ PRKD1 encodes serine/threonine-protein kinase D1. It participates in signal tran
 
 Pathologist review needed — LLM-generated summary/review.
 
-PRKD2 encodes serine/threonine-protein kinase D2. It participates in intracellular signal transduction and positive regulation of transcription by RNA polymerase II. ([NCBI Gene 25865](https://www.ncbi.nlm.nih.gov/gene/25865), [UniProt Q9BZL6](https://www.uniprot.org/uniprotkb/Q9BZL6/entry)). Somatic alterations involving PRKD2 have been reported in polymorphous adenocarcinoma, cribriform adenocarcinoma of salivary gland, and plasma cell myeloma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+PRKD2 encodes serine/threonine-protein kinase D2. It participates in intracellular signal transduction and positive regulation of transcription by RNA polymerase II. ([NCBI Gene 25865](https://www.ncbi.nlm.nih.gov/gene/25865), [UniProt Q9BZL6](https://www.uniprot.org/uniprotkb/Q9BZL6/entry)). Somatic alterations involving PRKD2 have been reported in polymorphous adenocarcinoma, cribriform adenocarcinoma of salivary gland, and plasma cell myeloma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29654271](https://pubmed.ncbi.nlm.nih.gov/29654271/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -6974,7 +6974,7 @@ PTCH1 encodes protein patched homolog 1. It participates in signal transduction 
 
 Pathologist review needed — LLM-generated summary/review.
 
-PTEN encodes a tumor-suppressor phosphatase that counteracts PI3K signaling by dephosphorylating phosphatidylinositol lipid messengers, thereby restraining AKT pathway activation. ([NCBI Gene 5728](https://www.ncbi.nlm.nih.gov/gene/5728)). Pathogenic germline variants are associated with PTEN hamartoma tumor syndrome (autosomal dominant); Cowden syndrome 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving PTEN have been reported in endometrioid carcinoma of endometrium, prostate adenocarcinoma, and prostate. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+PTEN encodes a tumor-suppressor phosphatase that counteracts PI3K signaling by dephosphorylating phosphatidylinositol lipid messengers, thereby restraining AKT pathway activation. ([NCBI Gene 5728](https://www.ncbi.nlm.nih.gov/gene/5728)). Pathogenic germline variants are associated with PTEN hamartoma tumor syndrome (autosomal dominant); Cowden syndrome 1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving PTEN have been reported in endometrioid carcinoma of endometrium, prostate adenocarcinoma, and prostate. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 22610119](https://pubmed.ncbi.nlm.nih.gov/22610119/), [PMID 29610475](https://pubmed.ncbi.nlm.nih.gov/29610475/)).
 
 ## PTK2B
 
@@ -7096,7 +7096,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-RAC1 encodes ras-related C3 botulinum toxin substrate 1. It participates in intracellular signal transduction and Rac protein signal transduction. ([NCBI Gene 5879](https://www.ncbi.nlm.nih.gov/gene/5879), [UniProt P63000](https://www.uniprot.org/uniprotkb/P63000/entry)). Pathogenic germline variants are associated with syndromic intellectual disability (autosomal dominant); intellectual developmental disorder, autosomal dominant 48 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving RAC1 have been reported in melanoma, cutaneous melanoma, and head and neck squamous cell carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+RAC1 encodes ras-related C3 botulinum toxin substrate 1. It participates in intracellular signal transduction and Rac protein signal transduction. ([NCBI Gene 5879](https://www.ncbi.nlm.nih.gov/gene/5879), [UniProt P63000](https://www.uniprot.org/uniprotkb/P63000/entry)). Pathogenic germline variants are associated with syndromic intellectual disability (autosomal dominant); intellectual developmental disorder, autosomal dominant 48 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving RAC1 have been reported in melanoma, cutaneous melanoma, and head and neck squamous cell carcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 22817889](https://pubmed.ncbi.nlm.nih.gov/22817889/)).
 
 ## RAC2
 
@@ -7144,7 +7144,7 @@ RAD51C encodes DNA repair protein RAD51 homolog 3. It participates in DNA repair
 
 Pathologist review needed — LLM-generated summary/review.
 
-RAD51D encodes DNA repair protein RAD51 homolog 4. It participates in DNA repair and telomere maintenance. ([NCBI Gene 5892](https://www.ncbi.nlm.nih.gov/gene/5892), [UniProt O75771](https://www.uniprot.org/uniprotkb/O75771/entry)). Pathogenic germline variants are associated with RAD51D-related cancer predisposition (autosomal dominant); breast-ovarian cancer, familial, susceptibility to, 4 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)).
+RAD51D encodes DNA repair protein RAD51 homolog 4. It participates in DNA repair and telomere maintenance. ([NCBI Gene 5892](https://www.ncbi.nlm.nih.gov/gene/5892), [UniProt O75771](https://www.uniprot.org/uniprotkb/O75771/entry)). Pathogenic germline variants are associated with RAD51D-related cancer predisposition (autosomal dominant); breast-ovarian cancer, familial, susceptibility to, 4 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 21822267](https://pubmed.ncbi.nlm.nih.gov/21822267/), [PMID 22415235](https://pubmed.ncbi.nlm.nih.gov/22415235/)).
 
 Curation note (outside report text): somatic_association_requires_curation.
 
@@ -7202,13 +7202,13 @@ RASA1 encodes ras GTPase-activating protein 1. It participates in signal transdu
 
 Pathologist review needed — LLM-generated summary/review.
 
-RB1 encodes the retinoblastoma tumor-suppressor protein, which restrains E2F-dependent transcription and regulates progression from G1 into the DNA-synthesis phase of the cell cycle. ([NCBI Gene 5925](https://www.ncbi.nlm.nih.gov/gene/5925)). Pathogenic germline variants are associated with retinoblastoma (autosomal dominant); hereditary retinoblastoma (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving RB1 have been reported in retinoblastoma, small cell lung carcinoma, and small cell lung cancer. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+RB1 encodes the retinoblastoma tumor-suppressor protein, which restrains E2F-dependent transcription and regulates progression from G1 into the DNA-synthesis phase of the cell cycle. ([NCBI Gene 5925](https://www.ncbi.nlm.nih.gov/gene/5925)). Pathogenic germline variants are associated with retinoblastoma (autosomal dominant); hereditary retinoblastoma (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 25928201](https://pubmed.ncbi.nlm.nih.gov/25928201/)). Somatic alterations involving RB1 have been reported in retinoblastoma, small cell lung carcinoma, and small cell lung cancer. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 26168399](https://pubmed.ncbi.nlm.nih.gov/26168399/), [PMID 22941188](https://pubmed.ncbi.nlm.nih.gov/22941188/)).
 
 ## RBBP8
 
 Pathologist review needed — LLM-generated summary/review.
 
-RBBP8 encodes DNA endonuclease RBBP8. It participates in homologous recombination and double-strand break repair via homologous recombination. ([NCBI Gene 5932](https://www.ncbi.nlm.nih.gov/gene/5932), [UniProt Q99708](https://www.uniprot.org/uniprotkb/Q99708/entry)). Pathogenic germline variants are associated with Jawad syndrome (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)).
+RBBP8 encodes DNA endonuclease RBBP8. It participates in homologous recombination and double-strand break repair via homologous recombination. ([NCBI Gene 5932](https://www.ncbi.nlm.nih.gov/gene/5932), [UniProt Q99708](https://www.uniprot.org/uniprotkb/Q99708/entry)). Pathogenic germline variants are associated with Jawad syndrome (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download), [PMID 21998596](https://pubmed.ncbi.nlm.nih.gov/21998596/)).
 
 Curation note (outside report text): somatic_association_requires_curation.
 
@@ -7576,7 +7576,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-RUNX1 encodes a DNA-binding transcription factor that forms the core-binding factor complex with CBFB and regulates hematopoietic development and differentiation. ([NCBI Gene 861](https://www.ncbi.nlm.nih.gov/gene/861)). Pathogenic germline variants are associated with hereditary thrombocytopenia and hematologic cancer predisposition syndrome (autosomal dominant); hereditary thrombocytopenia and hematological cancer predisposition syndrome associated with RUNX1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving RUNX1 have been reported in myeloid sarcoma, systemic mastocytosis, and acute myeloid leukemia. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+RUNX1 encodes a DNA-binding transcription factor that forms the core-binding factor complex with CBFB and regulates hematopoietic development and differentiation. ([NCBI Gene 861](https://www.ncbi.nlm.nih.gov/gene/861)). Pathogenic germline variants are associated with hereditary thrombocytopenia and hematologic cancer predisposition syndrome (autosomal dominant); hereditary thrombocytopenia and hematological cancer predisposition syndrome associated with RUNX1 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving RUNX1 have been reported in myeloid sarcoma, systemic mastocytosis, and acute myeloid leukemia. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [PMID 30333627](https://pubmed.ncbi.nlm.nih.gov/30333627/)).
 
 ## RUNX1T1
 
@@ -7644,7 +7644,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-SAMHD1 encodes deoxynucleoside triphosphate triphosphohydrolase SAMHD1. It participates in double-strand break repair via homologous recombination and immune response. ([NCBI Gene 25939](https://www.ncbi.nlm.nih.gov/gene/25939), [UniProt Q9Y3Z3](https://www.uniprot.org/uniprotkb/Q9Y3Z3/entry)). Germline disease associations include SAMHD1-related type 1 interferonopathy (autosomal recessive); Aicardi-Goutieres syndrome 5 (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SAMHD1 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+SAMHD1 encodes deoxynucleoside triphosphate triphosphohydrolase SAMHD1. It participates in double-strand break repair via homologous recombination and immune response. ([NCBI Gene 25939](https://www.ncbi.nlm.nih.gov/gene/25939), [UniProt Q9Y3Z3](https://www.uniprot.org/uniprotkb/Q9Y3Z3/entry)). Germline disease associations include SAMHD1-related type 1 interferonopathy (autosomal recessive); Aicardi-Goutieres syndrome 5 (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SAMHD1 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29654271](https://pubmed.ncbi.nlm.nih.gov/29654271/)).
 
 ## SBDS
 
@@ -7686,7 +7686,7 @@ SDHAF2 encodes succinate dehydrogenase assembly factor 2, mitochondrial. It part
 
 Pathologist review needed — LLM-generated summary/review.
 
-SDHB encodes succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial. It participates in aerobic respiration and succinate metabolic process. ([NCBI Gene 6390](https://www.ncbi.nlm.nih.gov/gene/6390), [UniProt P21912](https://www.uniprot.org/uniprotkb/P21912/entry)). Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); mitochondrial disease (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SDHB have been reported in paraganglioma, SDH-deficient renal cell carcinoma, and succinate dehydrogenase (SDH)-deficient gastrointestinal stromal tumor. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+SDHB encodes succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial. It participates in aerobic respiration and succinate metabolic process. ([NCBI Gene 6390](https://www.ncbi.nlm.nih.gov/gene/6390), [UniProt P21912](https://www.uniprot.org/uniprotkb/P21912/entry)). Pathogenic germline variants are associated with hereditary pheochromocytoma-paraganglioma (autosomal dominant); mitochondrial disease (autosomal recessive). ([GenCC snapshot](https://thegencc.org/download), [PMID 19389109](https://pubmed.ncbi.nlm.nih.gov/19389109/), [PMID 22972948](https://pubmed.ncbi.nlm.nih.gov/22972948/)). Somatic alterations involving SDHB have been reported in paraganglioma, SDH-deficient renal cell carcinoma, and succinate dehydrogenase (SDH)-deficient gastrointestinal stromal tumor. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
 
 ## SDHC
 
@@ -7776,7 +7776,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-SETBP1 encodes SET-binding protein. It participates in regulation of DNA-templated transcription. ([NCBI Gene 26040](https://www.ncbi.nlm.nih.gov/gene/26040), [UniProt Q9Y6X0](https://www.uniprot.org/uniprotkb/Q9Y6X0/entry)). Pathogenic germline variants are associated with Schinzel-Giedion midface retraction syndrome (autosomal dominant); complex neurodevelopmental disorder (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SETBP1 have been reported in MDS/MPN with neutrophilia, chronic neutrophilic leukemia, and adrenocortical carcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+SETBP1 encodes SET-binding protein. It participates in regulation of DNA-templated transcription. ([NCBI Gene 26040](https://www.ncbi.nlm.nih.gov/gene/26040), [UniProt Q9Y6X0](https://www.uniprot.org/uniprotkb/Q9Y6X0/entry)). Pathogenic germline variants are associated with Schinzel-Giedion midface retraction syndrome (autosomal dominant); complex neurodevelopmental disorder (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 25356899](https://pubmed.ncbi.nlm.nih.gov/25356899/)). Somatic alterations involving SETBP1 have been reported in MDS/MPN with neutrophilia, chronic neutrophilic leukemia, and adrenocortical carcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
 
 ## SETD1A
 
@@ -8112,7 +8112,7 @@ SMARCA2 encodes SWI/SNF-related matrix-associated actin-dependent regulator of c
 
 Pathologist review needed — LLM-generated summary/review.
 
-SMARCA4 encodes BRG1, an ATP-dependent catalytic subunit of SWI/SNF chromatin-remodeling complexes that regulate nucleosome organization and gene expression. ([NCBI Gene 6597](https://www.ncbi.nlm.nih.gov/gene/6597)). Pathogenic germline variants are associated with Coffin-Siris syndrome (autosomal dominant); rhabdoid tumor predisposition syndrome 2 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SMARCA4 have been reported in small cell carcinoma of ovary, hypercalcemic type, thoracic SMARCA4-deficient undifferentiated tumor, and lung adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+SMARCA4 encodes BRG1, an ATP-dependent catalytic subunit of SWI/SNF chromatin-remodeling complexes that regulate nucleosome organization and gene expression. ([NCBI Gene 6597](https://www.ncbi.nlm.nih.gov/gene/6597)). Pathogenic germline variants are associated with Coffin-Siris syndrome (autosomal dominant); rhabdoid tumor predisposition syndrome 2 (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SMARCA4 have been reported in small cell carcinoma of ovary, hypercalcemic type, thoracic SMARCA4-deficient undifferentiated tumor, and lung adenocarcinoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 22980975](https://pubmed.ncbi.nlm.nih.gov/22980975/)).
 
 ## SMARCB1
 
@@ -8286,7 +8286,7 @@ SOX9 encodes transcription factor SOX-9. It participates in signal transduction 
 
 Pathologist review needed — LLM-generated summary/review.
 
-SP140 encodes nuclear body protein SP140. It participates in regulation of transcription by RNA polymerase II and defense response. ([NCBI Gene 11262](https://www.ncbi.nlm.nih.gov/gene/11262), [UniProt Q13342](https://www.uniprot.org/uniprotkb/Q13342/entry)). Somatic alterations involving SP140 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+SP140 encodes nuclear body protein SP140. It participates in regulation of transcription by RNA polymerase II and defense response. ([NCBI Gene 11262](https://www.ncbi.nlm.nih.gov/gene/11262), [UniProt Q13342](https://www.uniprot.org/uniprotkb/Q13342/entry)). Somatic alterations involving SP140 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 29654271](https://pubmed.ncbi.nlm.nih.gov/29654271/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -8294,7 +8294,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-SPEN encodes msx2-interacting protein. It participates in negative regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 23013](https://www.ncbi.nlm.nih.gov/gene/23013), [UniProt Q96T58](https://www.uniprot.org/uniprotkb/Q96T58/entry)). Pathogenic germline variants are associated with Radio-Tartaglia syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SPEN have been reported in malignant lymphoma, salivary carcinoma, and lung adenocarcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+SPEN encodes msx2-interacting protein. It participates in negative regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. ([NCBI Gene 23013](https://www.ncbi.nlm.nih.gov/gene/23013), [UniProt Q96T58](https://www.uniprot.org/uniprotkb/Q96T58/entry)). Pathogenic germline variants are associated with Radio-Tartaglia syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SPEN have been reported in malignant lymphoma, salivary carcinoma, and lung adenocarcinoma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 26631609](https://pubmed.ncbi.nlm.nih.gov/26631609/)).
 
 ## SPI1
 
@@ -8306,13 +8306,13 @@ SPI1 encodes transcription factor PU.1. It participates in regulation of DNA-tem
 
 Pathologist review needed — LLM-generated summary/review.
 
-SPOP encodes speckle-type POZ protein. It participates in protein polyubiquitination and regulation of proteolysis. ([NCBI Gene 8405](https://www.ncbi.nlm.nih.gov/gene/8405), [UniProt O43791](https://www.uniprot.org/uniprotkb/O43791/entry)). Pathogenic germline variants are associated with neurodevelopmental disorder with relative macrocephaly and with or without cardiac or endocrine anomalies (autosomal dominant); neurodevelopmental disorder with microcephaly and dysmorphic facies (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SPOP have been reported in prostate adenocarcinoma, prostate, and non-Hodgkin lymphoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+SPOP encodes speckle-type POZ protein. It participates in protein polyubiquitination and regulation of proteolysis. ([NCBI Gene 8405](https://www.ncbi.nlm.nih.gov/gene/8405), [UniProt O43791](https://www.uniprot.org/uniprotkb/O43791/entry), [PMID 19818708](https://pubmed.ncbi.nlm.nih.gov/19818708/)). Pathogenic germline variants are associated with neurodevelopmental disorder with relative macrocephaly and with or without cardiac or endocrine anomalies (autosomal dominant); neurodevelopmental disorder with microcephaly and dysmorphic facies (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving SPOP have been reported in prostate adenocarcinoma, prostate, and non-Hodgkin lymphoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/), [IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 22610119](https://pubmed.ncbi.nlm.nih.gov/22610119/)).
 
 ## SPRED1
 
 Pathologist review needed — LLM-generated summary/review.
 
-SPRED1 encodes sprouty-related, EVH1 domain-containing protein 1. It participates in negative regulation of intracellular signal transduction and positive regulation of DNA damage response, signal transduction by p53 class mediator. ([NCBI Gene 161742](https://www.ncbi.nlm.nih.gov/gene/161742), [UniProt Q7Z699](https://www.uniprot.org/uniprotkb/Q7Z699/entry)). Pathogenic germline variants are associated with Legius syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)).
+SPRED1 encodes sprouty-related, EVH1 domain-containing protein 1. It participates in negative regulation of intracellular signal transduction and positive regulation of DNA damage response, signal transduction by p53 class mediator. ([NCBI Gene 161742](https://www.ncbi.nlm.nih.gov/gene/161742), [UniProt Q7Z699](https://www.uniprot.org/uniprotkb/Q7Z699/entry)). Pathogenic germline variants are associated with Legius syndrome (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 21089071](https://pubmed.ncbi.nlm.nih.gov/21089071/)).
 
 Curation note (outside report text): somatic_association_requires_curation.
 
@@ -8384,7 +8384,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-SRSF2 encodes a serine/arginine-rich RNA-binding splicing factor that regulates splice-site selection and processing of pre-mRNA. ([NCBI Gene 6427](https://www.ncbi.nlm.nih.gov/gene/6427)). Somatic SRSF2 mutations occur in myelodysplastic and myelodysplastic/myeloproliferative neoplasms. ([PMID 22389253](https://pubmed.ncbi.nlm.nih.gov/22389253/)).
+SRSF2 encodes a serine/arginine-rich RNA-binding splicing factor that regulates splice-site selection and processing of pre-mRNA. ([NCBI Gene 6427](https://www.ncbi.nlm.nih.gov/gene/6427)). Somatic SRSF2 mutations occur in myelodysplastic neoplasms. ([PMID 22389253](https://pubmed.ncbi.nlm.nih.gov/22389253/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -8462,7 +8462,7 @@ STAG2 encodes cohesin subunit SA-2. It participates in mitotic spindle assembly 
 
 Pathologist review needed — LLM-generated summary/review.
 
-STAT3 encodes signal transducer and activator of transcription 3. It participates in signal transduction and regulation of DNA-templated transcription. ([NCBI Gene 6774](https://www.ncbi.nlm.nih.gov/gene/6774), [UniProt P40763](https://www.uniprot.org/uniprotkb/P40763/entry)). Pathogenic germline variants are associated with STAT3-related early-onset multisystem autoimmune disease (autosomal dominant); hyper-IgE recurrent infection syndrome 1, autosomal dominant (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download)). Somatic alterations involving STAT3 have been reported in mycosis fungoides, extranodal NK/T-cell lymphoma, and hepatosplenic t-cell lymphoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
+STAT3 encodes signal transducer and activator of transcription 3. It participates in signal transduction and regulation of DNA-templated transcription. ([NCBI Gene 6774](https://www.ncbi.nlm.nih.gov/gene/6774), [UniProt P40763](https://www.uniprot.org/uniprotkb/P40763/entry)). Pathogenic germline variants are associated with STAT3-related early-onset multisystem autoimmune disease (autosomal dominant); hyper-IgE recurrent infection syndrome 1, autosomal dominant (autosomal dominant). ([GenCC snapshot](https://thegencc.org/download), [PMID 18602572](https://pubmed.ncbi.nlm.nih.gov/18602572/)). Somatic alterations involving STAT3 have been reported in mycosis fungoides, extranodal NK/T-cell lymphoma, and hepatosplenic t-cell lymphoma. ([Tumor Driver Atlas](https://mikexiong2.github.io/molecular-tumor-drivers/)).
 
 ## STAT4
 
@@ -8730,7 +8730,7 @@ Curation note (outside report text): somatic_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-TENT5C encodes terminal nucleotidyltransferase 5C polymerase FAM46C). It participates in mRNA stabilization and negative regulation of cell differentiation. ([NCBI Gene 54855](https://www.ncbi.nlm.nih.gov/gene/54855), [UniProt Q5VWP2](https://www.uniprot.org/uniprotkb/Q5VWP2/entry)). Somatic alterations involving TENT5C have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+TENT5C encodes terminal nucleotidyltransferase 5C polymerase FAM46C). It participates in mRNA stabilization and negative regulation of cell differentiation. ([NCBI Gene 54855](https://www.ncbi.nlm.nih.gov/gene/54855), [UniProt Q5VWP2](https://www.uniprot.org/uniprotkb/Q5VWP2/entry)). Somatic alterations involving TENT5C have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 24434212](https://pubmed.ncbi.nlm.nih.gov/24434212/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -8746,7 +8746,7 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-TERC encodes the RNA component of telomerase, providing the template used by the TERT catalytic subunit to add telomeric repeats to chromosome ends. ([NCBI Gene 7012](https://www.ncbi.nlm.nih.gov/gene/7012)). Pathogenic constitutional TERC variants cause autosomal dominant telomere biology disorders, including dyskeratosis congenita. Marrow failure and myeloid malignancy risk occur within this inherited disease context. ([PMID 11574891](https://pubmed.ncbi.nlm.nih.gov/11574891/), [ClinGen SGC-107615.2](https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_cfdf86d0-9441-40bf-a1da-ab2c85f775cd-2024-11-25T17:00:00.000Z)). Somatic copy-number gain involving the TERC region has been associated with progression of cervical neoplasia to invasive carcinoma. Regional gain is distinct from the constitutional loss-of-function mechanisms underlying telomere biology disorders. ([PMID 17054308](https://pubmed.ncbi.nlm.nih.gov/17054308/)).
+TERC encodes the RNA component of telomerase, providing the template used by the TERT catalytic subunit to add telomeric repeats to chromosome ends. ([NCBI Gene 7012](https://www.ncbi.nlm.nih.gov/gene/7012)). Pathogenic constitutional TERC variants cause autosomal dominant dyskeratosis congenita, a telomere biology disorder associated with bone-marrow failure. ([PMID 11574891](https://pubmed.ncbi.nlm.nih.gov/11574891/), [ClinGen SGC-107615.2](https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_cfdf86d0-9441-40bf-a1da-ab2c85f775cd-2024-11-25T17:00:00.000Z)). Somatic copy-number gain involving the TERC region has been associated with progression of cervical neoplasia to invasive carcinoma. Regional gain is distinct from the constitutional loss-of-function mechanisms underlying telomere biology disorders. ([PMID 17054308](https://pubmed.ncbi.nlm.nih.gov/17054308/)).
 
 ## TERT
 
@@ -8984,7 +8984,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-TP53 encodes the p53 transcription factor, a tumor suppressor that coordinates cellular stress responses through cell-cycle arrest, DNA repair, senescence, and apoptosis. ([NCBI Gene 7157](https://www.ncbi.nlm.nih.gov/gene/7157)). Germline pathogenic variants cause autosomal dominant Li-Fraumeni syndrome, which predisposes to a broad spectrum of cancers, notably early-onset breast cancer, sarcomas, central nervous system tumors, and adrenocortical carcinoma. ([GeneReviews: Li-Fraumeni Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1311/)). Somatic TP53 mutations occur across many cancer types. ([NCBI Gene 7157](https://www.ncbi.nlm.nih.gov/gene/7157), [GeneReviews: Li-Fraumeni Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1311/)).
+TP53 encodes the p53 transcription factor, a tumor suppressor that coordinates cellular stress responses through cell-cycle arrest, DNA repair, senescence, and apoptosis. ([NCBI Gene 7157](https://www.ncbi.nlm.nih.gov/gene/7157)). Germline pathogenic variants cause autosomal dominant Li-Fraumeni syndrome, which predisposes to a broad spectrum of cancers, notably early-onset breast cancer, sarcomas, central nervous system tumors, and adrenocortical carcinoma. ([GeneReviews: Li-Fraumeni Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1311/), [PMID 8118819](https://pubmed.ncbi.nlm.nih.gov/8118819/), [PMID 1978757](https://pubmed.ncbi.nlm.nih.gov/1978757/)). Somatic TP53 mutations occur across many cancer types. ([NCBI Gene 7157](https://www.ncbi.nlm.nih.gov/gene/7157), [GeneReviews: Li-Fraumeni Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1311/)).
 
 ## TP53BP1
 
@@ -9050,7 +9050,7 @@ Curation note (outside report text): germline_association_requires_curation, som
 
 Pathologist review needed — LLM-generated summary/review.
 
-TRAF3 encodes TNF receptor-associated factor 3. It participates in signal transduction and regulation of canonical NF-kappaB signal transduction. ([NCBI Gene 7187](https://www.ncbi.nlm.nih.gov/gene/7187), [UniProt Q13114](https://www.uniprot.org/uniprotkb/Q13114/entry)). Somatic alterations involving TRAF3 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip)).
+TRAF3 encodes TNF receptor-associated factor 3. It participates in signal transduction and regulation of canonical NF-kappaB signal transduction. ([NCBI Gene 7187](https://www.ncbi.nlm.nih.gov/gene/7187), [UniProt Q13114](https://www.uniprot.org/uniprotkb/Q13114/entry)). Somatic alterations involving TRAF3 have been reported in plasma cell myeloma. ([IntOGen 20240920](https://www.intogen.org/download?file=IntOGen-Drivers-20240920.zip), [PMID 24434212](https://pubmed.ncbi.nlm.nih.gov/24434212/)).
 
 Curation note (outside report text): germline_association_requires_curation.
 
@@ -9750,6 +9750,6 @@ Curation note (outside report text): germline_association_requires_curation.
 
 Pathologist review needed — LLM-generated summary/review.
 
-ZRSR2 encodes a splicing factor important for recognition and processing of introns, particularly those handled by the minor spliceosome. ([NCBI Gene 8233](https://www.ncbi.nlm.nih.gov/gene/8233)). Somatic ZRSR2 mutations occur in myelodysplastic neoplasms and can disrupt splicing regulation. ([PMID 22389253](https://pubmed.ncbi.nlm.nih.gov/22389253/)).
+ZRSR2 encodes a splicing factor important for recognition and processing of introns, particularly those handled by the minor spliceosome. ([NCBI Gene 8233](https://www.ncbi.nlm.nih.gov/gene/8233)). Somatic ZRSR2 mutations occur in myelodysplastic neoplasms. ([PMID 22389253](https://pubmed.ncbi.nlm.nih.gov/22389253/)).
 
 Curation note (outside report text): germline_association_requires_curation.

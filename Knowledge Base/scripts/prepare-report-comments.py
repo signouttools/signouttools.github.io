@@ -2,7 +2,7 @@
 All projections remain unreviewed drafts. Dataset/selection provenance stays in
 canonical evidence fields and About/review documentation, outside report prose.
 """
-import json,re,collections
+import json,re,collections,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 def load(p):return json.loads(p.read_text())
@@ -130,6 +130,7 @@ def function_text(g):
  return text.replace('encodes fanconi','encodes Fanconi')
 
 generated_somatic=('Reported somatic alteration contexts include','Somatic alterations are described across multiple tumor groups','Somatic sequence alterations have cohort-level candidate-driver evidence','Cancer Hotspots ')
+literature=load(root/'data/primary-citation-review.json').get('added_links',[]) if (root/'data/primary-citation-review.json').exists() else []
 no_germline=0;no_somatic=0
 for g in genes:
  parts={'function':section(function_text(g),g['summary']['function']['source_ids'])};gaps=[]
@@ -160,6 +161,11 @@ for g in genes:
    text=text.replace(' This tumor association is distinct from the gene-specific germline risk assessment and does not establish a clinical implication for every variant.','')
    parts['somatic']=section(text,som['source_ids'])
  else:gaps.append('somatic_association_requires_curation');no_somatic+=1
+ # Reapply audited citation links after regenerating the prose projection.
+ for link in literature:
+  if link['gene_id']==g['id'] and link['part'] in parts:
+   sid=next((i for i,src in sources.items() if str(src.get('pmid'))==link['pmid']),None)
+   if sid and sid not in parts[link['part']]['source_ids']:parts[link['part']]['source_ids'].append(sid)
  g['report_summary']=parts;g['report_gaps']=gaps
  save(root/'data/genes'/(g['id'].split(':')[1]+'.json'),g)
 save(root/'data/gene-index.json',genes)
@@ -206,7 +212,7 @@ for d in disruptions:
  old=d['comment']['text'];original_som=g['summary']['somatic']['text'];suffix=old.split(original_som,1)[-1] if original_som in old else ''
  suffix=suffix.split(' Tumor-only testing does not establish germline origin.')[0].strip()
  if suffix:text+=' '+suffix
- d['report_comment']=section(text,d['comment']['source_ids'])
+ d['report_comment']=section(text,d['comment']['source_ids']+([sid for sid in som['source_ids'] if sources[sid].get('pmid')] if som else []))
 save(root/'data/hotspots.json',sites);save(root/'data/hotspot-alleles.json',alleles);save(root/'data/disruption-comments.json',disruptions)
 # Keep historical pilot evidence files intact while supplying report-language projections.
 pilots={
@@ -220,3 +226,8 @@ save(root/'data/report-comment-overrides.json',overlays)
 m=load(root/'data/manifest.json');m['report_comment_override_file']='report-comment-overrides.json';save(root/'data/manifest.json',m)
 save(root/'data/report-style-review.json',dict(genes=len(genes),hotspot_sites=len(sites),alleles=len(alleles),disruption_comments=len(disruptions),germline_gaps=no_germline,somatic_gaps=no_somatic,method='Report-language projections preserve evidence records, exclude panel-selection citations, and omit unresolved disease assertions from copyable paragraphs. Gaps remain visible outside report prose.',status='draft'))
 print(f'Prepared report language for {len(genes)} genes, {len(sites)} sites, {len(alleles)} alleles, and {len(disruptions)} disruption comments. Germline gaps: {no_germline}; somatic gaps: {no_somatic}.')
+
+# Enforce the claim-specific citation gate after every regenerated projection.
+if (root/'data/citation-audit.json').exists():
+ import subprocess
+ subprocess.run([sys.executable,str(root/'scripts/audit-report-citations.py')],check=True)

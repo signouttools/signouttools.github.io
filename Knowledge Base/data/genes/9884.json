@@ -498,14 +498,17 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with retinoblastoma (autosomal dominant); hereditary retinoblastoma (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-25928201"
       ]
     },
     "somatic": {
       "text": "Somatic alterations involving RB1 have been reported in retinoblastoma, small cell lung carcinoma, and small cell lung cancer.",
       "source_ids": [
         "atlas-draft",
-        "intogen-20240920"
+        "intogen-20240920",
+        "primary-pmid-26168399",
+        "primary-pmid-22941188"
       ]
     }
   },
