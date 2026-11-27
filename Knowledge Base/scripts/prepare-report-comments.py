@@ -8,13 +8,67 @@ root=Path(__file__).resolve().parents[1]
 def load(p):return json.loads(p.read_text())
 def save(p,d):p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
 genes=load(root/'data/gene-index.json');by={g['id']:g for g in genes};sources={s['id']:s for s in load(root/'data/sources.json')};diseases={d['id']:d for d in load(root/'data/diseases.json')};sites=load(root/'data/hotspots.json');alleles=load(root/'data/hotspot-alleles.json');disruptions=load(root/'data/disruption-comments.json')
+def clean_report_text(text):
+ # Editorial safeguards remain outside copyable prose. Keep disease-specific
+ # mechanisms and exceptions; remove generic interpretation instructions.
+ remove=[
+  'Recurrence alone does not establish the oncogenicity of an individual variant.',
+  'The functional and clinical significance depend on the specific alteration and tumor type.',
+  'Its functional and clinical significance require allele- and tumor-specific assessment.',
+  'Clinical implications depend on the tumor type and treatment setting.',
+  'Clinical interpretation depends on the tumor type and accompanying histologic and molecular findings.',
+  'The effect depends on the affected transcript, variant position, and allelic context.',
+  'The biological effect varies by alteration, and a tumor-detected TP53 variant alone does not establish a germline diagnosis.',
+  'Interpretation requires the actual fusion structure and disease context.',
+  'Variant-level interpretation is required.',
+  'Interpretation depends on the specific alteration and tumor context; a generic BRAF finding does not establish a V600E mechanism.',
+  'Interpretation requires assessment of the specific allele and tumor context.',
+  'Tumor-only testing cannot establish the constitutional origin of a finding.',
+  'Tumor-only detection cannot distinguish an acquired event from an inherited predisposition allele.',
+  'Disease classification requires the accompanying clinical, morphologic, and molecular findings.',
+  'Their significance depends on the specific allele, accompanying abnormalities, and the integrated myeloid disease context.',
+  'An isolated mutation does not independently establish an integrated myeloid diagnosis.',
+  'Its allele-specific effects require careful distinction from acquired clonal changes.',
+  'These observations should be distinguished from an established effect of an arbitrary sequence variant.',
+  'This expression-associated mechanism does not establish pathogenicity of an arbitrary EZHIP sequence variant.',
+  'Somatic involvement in a tumor is distinct from the separately assessed, refuted hereditary breast/ovarian cancer-predisposition claims.',
+  'A regional copy-number gain does not by itself identify the contribution of this gene relative to neighboring co-amplified genes.',
+  'Protein-expression loss or an MSI phenotype does not by itself establish a somatic sequence mutation.',
+  'Copy-number gain should be distinguished from sequence mutation.',
+  'The fusion context should be distinguished from an isolated AFF1 sequence variant.',
+  'Rearrangement-associated deregulation should be distinguished from an isolated CCND2 sequence variant.',
+  'A sequence variant, promoter methylation, and protein-expression result are different observations and should not be treated as interchangeable.',
+  'These alterations support a neoplastic process in this lesion and should not, by themselves, be interpreted as evidence of malignancy.',
+  'The R882 mechanism and non-R882 loss of function must be distinguished.',
+  'RUNX1 loss-of-function, dominant-negative alleles, and RUNX1 rearrangements require distinct interpretation.'
+ ]
+ for phrase in remove:text=text.replace(phrase,'')
+ replacements={
+  '; their presence alone does not establish a uniform functional or clinical effect.':'.',
+  '; these findings should not be equated with the effect of every sequence variant.':'.',
+  '; not every truncation reproduces the pathogenic linker/RING-domain mechanism.':'.',
+  '; a generic truncation does not establish the full tumor genotype.':'.',
+  'Sequence homology makes it relevant to assay specificity and variant-mapping review; it should not be assumed to encode the functional SBDS protein.':'Sequence homology with SBDS can complicate variant mapping.',
+  '; their significance must be interpreted within the specific disease context.':'.',
+  '; expression and sequence-mutation findings require separate interpretation.':'.',
+  ', although individual findings require functional and clinical assessment.':'.',
+  '; a tumor-only result does not establish constitutional origin.':'.',
+  '; allelic state and clonal hematopoiesis may affect interpretation.':'.',
+  '; this generic loss-of-function comment must not be applied to those alleles.':'.',
+  '; a single variant does not establish biallelic inactivation.':'.',
+  ' and should be interpreted with the histologic and molecular findings.':'.',
+  '; its clinical implications depend on the tumor type and treatment setting.':'.'
+ }
+ for old,new in replacements.items():text=text.replace(old,new)
+ return re.sub(r'\s+',' ',text).strip()
+
 def section(text,ids):
  seen=set();unique=[]
  for i in ids:
   if sources[i]['kind']=='panel_reference':continue
   key=sources[i].get('pmid') or sources[i]['url'].rstrip('/')
   if key not in seen:seen.add(key);unique.append(i)
- return dict(text=text.strip(),source_ids=unique)
+ return dict(text=clean_report_text(text),source_ids=unique)
 def sentence_list(names):return names[0] if len(names)==1 else ', '.join(names[:-1])+', and '+names[-1] if len(names)>2 else ' and '.join(names)
 def name(did):
  n=diseases[did]['name'].replace(' (hotspot cohort)','')

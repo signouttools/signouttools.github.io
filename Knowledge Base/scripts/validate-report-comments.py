@@ -8,6 +8,7 @@ forbidden=re.compile(r'\b(?:draft|GenCC|reviewed|retrieved|panel|cohort|snapshot
 def check(section):
  assert section['text'].strip() and section['source_ids']
  assert not forbidden.search(section['text']),section['text']
+ assert not re.search(r'clinical implications depend|biological effect varies|effect depends on the affected transcript|functional and clinical significance (?:depend|require)|tumor-detected .+ alone does not establish a germline diagnosis|recurrence alone does not establish',section['text'],re.I),section['text']
  assert all(i in sources and sources[i]['kind']!='panel_reference' for i in section['source_ids'])
 for g in genes:
  assert g['report_summary']['function'] and g['editorial']['status']=='draft'

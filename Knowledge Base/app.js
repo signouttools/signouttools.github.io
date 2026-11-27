@@ -224,9 +224,9 @@ function renderGenePanel(panel, gene) {
   renderFDA(panel, gene);
 }
 function fdaSummary(refs, subject) {
-  const exclusion = refs.some(r => r.evidence_types.includes('negative_or_exclusion_biomarker_possible'));
-  return `FDA references include ${subject}. Therapy relevance depends on the specific biomarker and tumor context; confirm the current label.${exclusion ? ' Some references describe exclusion or resistance criteria.' : ''}`;
+  return `FDA references include ${subject}.`;
 }
+
 function renderFDAEvidence(panel, refs) {
   const details = el('details', {class: 'fda-evidence'});
   details.append(el('summary', {}, 'View supporting FDA evidence'));
