@@ -64,20 +64,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "ZMYM2::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
+      "text": "ZMYM2::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
       "source_ids": [
-        "icc-eo"
+        "mln-registry-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "a3a465b6cbe71315eb99c69354cc2032c8c76b9da2131fe46a517c43e6e586a6",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "d6d29e05f8076f944a19b6bbb9e05894093cd6aec8812547bdc5afc199f17038",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "icc-eo",
-          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
-          "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
-          "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
-          "access_level": "guideline"
+          "source_id": "mln-registry-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/",
+          "location": "Results: patients with FGFR1 fusion genes; Table 1",
+          "scope": "Among six partner-characterized cases, ZMYM2 occurred in three and BCR in two; direct pair-to-disease observation.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "source_ids": [
         "fda-fgfr1"
       ],
-      "evidence_review_status": "reference_supported",
+      "evidence_review_status": "official_regulatory_supported",
       "claim_sha256": "968414f92b014f1f95aacdf48a1d0fa3f8c261f623e142f40c443c798d553c11",
       "fulltext_audit_status": "official_regulatory_supported",
       "audit_evidence": [
@@ -102,11 +102,11 @@
     }
   ],
   "report_comment": {
-    "text": "ZMYM2 encodes a zinc-finger transcriptional coregulator. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ZMYM2::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
+    "text": "ZMYM2 encodes a zinc-finger transcriptional coregulator. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ZMYM2::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort. Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
     "source_ids": [
       "ncbi-7750",
       "ncbi-2260",
-      "icc-eo",
+      "mln-registry-primary",
       "fda-fgfr1"
     ]
   },
@@ -123,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "243eaf943458f6694d889af1ab75fa693c29028ada44cca8dcb063761ccbb99c"
+  "text_sha256": "8f25656ab336ae733d532342fc079897a23a6e43770410bdcb0ca94c9511532d"
 }

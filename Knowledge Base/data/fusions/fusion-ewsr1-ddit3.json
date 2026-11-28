@@ -63,24 +63,6 @@
       ]
     },
     {
-      "kind": "fusion_mechanism",
-      "text": "EWSR1::DDIT3 is a recognized fusion in myxoid liposarcoma.",
-      "source_ids": [
-        "audit-sarcoma-nci-sts"
-      ],
-      "claim_sha256": "35ce67d5546bae5e0a3b364f45473d3d359cd794b24781546fdc256b6445f767",
-      "fulltext_audit_status": "reference_supported",
-      "audit_evidence": [
-        {
-          "source_id": "audit-sarcoma-nci-sts",
-          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
-          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
-          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
-          "access_level": "guideline"
-        }
-      ]
-    },
-    {
       "kind": "therapeutics",
       "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
       "source_ids": [
@@ -97,21 +79,38 @@
           "access_level": "official_regulatory"
         }
       ]
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "EWSR1::DDIT3 is a myxoid liposarcoma fusion confirmed by RNA sequencing. A directly documented tumor had diffuse DDIT3 expression despite a negative DDIT3 break-apart FISH result.",
+      "source_ids": [
+        "audit-followup-sarcoma-ddit3"
+      ],
+      "claim_sha256": "fba5caa5334ba28e48664b9d24879e991f723687bf0b74e663f123872feed130",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-ddit3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796975/",
+          "location": "Results; Figure 2",
+          "scope": "Fusion-targeted RNA sequencing detected EWSR1-DDIT3 in a myxoid liposarcoma with negative DDIT3 break-apart FISH and diffuse DDIT3 expression. No direct EWSR1-DDIT3 differentiation-block experiment.",
+          "access_level": "primary_fulltext"
+        }
+      ]
     }
   ],
   "report_comment": {
-    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor. EWSR1::DDIT3 is a recognized fusion in myxoid liposarcoma. Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor. Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion. EWSR1::DDIT3 is a myxoid liposarcoma fusion confirmed by RNA sequencing. A directly documented tumor had diffuse DDIT3 expression despite a negative DDIT3 break-apart FISH result.",
     "source_ids": [
       "ncbi-2130",
       "ncbi-1649",
-      "audit-sarcoma-nci-sts",
-      "audit-sarcoma-fda-trabectedin"
+      "audit-sarcoma-fda-trabectedin",
+      "audit-followup-sarcoma-ddit3"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
   ],
   "editorial": {
     "status": "draft",
@@ -122,9 +121,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "65e0fae0df5d9dd4f70b969f0ff6fd47f63181ff64d29526e4abd7986593f12a"
+  "text_sha256": "84fa08d9c69ed3adfb359995144d087d000f8f2da75bc733dbaa4a6056cfd8e1"
 }

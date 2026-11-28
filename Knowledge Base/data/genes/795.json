@@ -309,7 +309,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ATM encodes a protein kinase that coordinates DNA-damage responses, particularly following DNA double-strand breaks, through checkpoint and repair signaling.",
+      "text": "ATM encodes a checkpoint kinase that coordinates responses to DNA damage and helps maintain genome stability. It regulates several downstream proteins by phosphorylation, including p53, BRCA1, CHEK2, RAD17, RAD9, and NBS1. This places ATM upstream of multiple effectors of cell-cycle control and DNA repair, allowing a damage signal to influence several protective responses rather than a single repair reaction.",
       "source_ids": [
         "ncbi-472"
       ]

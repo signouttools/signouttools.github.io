@@ -64,49 +64,49 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "ETV6::PDGFRB is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
+      "text": "ETV6::PDGFRB was identified in 18 patients in a 26-patient cohort of PDGFRB-rearranged myeloid neoplasms, predominantly chronic myeloproliferative or myelomonocytic disease with eosinophilia.",
       "source_ids": [
-        "icc-eo"
+        "pdgfrb"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "9e5432909938111c947c7f662aa8359a2454bbc4b626992317174c84aa28ffcb",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "b5b4cae27e897baca149f1b0de8ff0111790366b7a6684ded585b15958c047a6",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "icc-eo",
-          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
-          "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
-          "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
-          "access_level": "guideline"
+          "source_id": "pdgfrb",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4047496/",
+          "location": "Results, first paragraph and Table 1",
+          "scope": "Exact fusion partner frequencies and cohort morphologic diagnoses; no independent functional mechanism inferred.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
     {
       "kind": "therapeutics",
-      "text": "Imatinib can induce durable hematologic, cytogenetic and molecular remissions in ETV6::PDGFRB-associated myeloid/lymphoid neoplasms.",
+      "text": "A PDGFRB-rearranged myeloid-neoplasm cohort, including 18 ETV6::PDGFRB cases, showed frequent and durable responses to imatinib; outcomes were reported for the pooled fusion cohort.",
       "source_ids": [
-        "icc-eo"
+        "pdgfrb"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "d2f579291798bc43ca46c44357fcee1b186401e9ee58f211a2ced0aea9aa1076",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "1b9b4320c64196bb0f1518c66f9ee4d8511c6ee317f9804c27e63bdb431bb142",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "icc-eo",
-          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
-          "location": "Table 1, PDGFRA/PDGFRB rows; Treatment, PDF pages 3-5",
-          "scope": "Guideline synthesis of fusion-class clinical response, not independently reviewed trial.",
-          "access_level": "guideline"
+          "source_id": "pdgfrb",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4047496/",
+          "location": "Results: Table 1; response paragraphs and dose-reduction follow-up",
+          "scope": "Observed pooled imatinib responses; avoids converting class outcomes into partner-specific rates.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. ETV6::PDGFRB is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. Imatinib can induce durable hematologic, cytogenetic and molecular remissions in ETV6::PDGFRB-associated myeloid/lymphoid neoplasms.",
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. ETV6::PDGFRB was identified in 18 patients in a 26-patient cohort of PDGFRB-rearranged myeloid neoplasms, predominantly chronic myeloproliferative or myelomonocytic disease with eosinophilia. A PDGFRB-rearranged myeloid-neoplasm cohort, including 18 ETV6::PDGFRB cases, showed frequent and durable responses to imatinib; outcomes were reported for the pooled fusion cohort.",
     "source_ids": [
       "ncbi-2120",
       "ncbi-5159",
-      "icc-eo"
+      "pdgfrb"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -122,9 +122,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "418c3d0010926449800541a70fe7ff71c441c9664710bdae665869f8061c21c5"
+  "text_sha256": "7181c6b85afa11d9ffcb07bec7a1d6646989c32b8a5ac54d51f24f03f80de264"
 }

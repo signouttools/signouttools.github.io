@@ -66,33 +66,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(14;18)/IGH-BCL2 rearrangement is characteristic of follicular lymphoma and is distinct from the t(14;18)/IGH-MALT1 rearrangement of MALT lymphoma.",
+      "text": "IGH/BCL2 translocations occur in follicular lymphoma. Whole-genome sequencing directly identified the rearrangement in patient tumors.",
       "source_ids": [
-        "malt-pathology"
+        "followup-fl-genome"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "db74c4cddceb86ec4a6f34b65fbd7f4122bf14fc25ce0c77ae619a5361187240",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "c4b254e27327f88c01f05c9cfd9c79464dd78537e4e9af6c00f2cfdc1b962f54",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "malt-pathology",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2001121/",
-          "location": "Genetic abnormalities, lines 180-192",
-          "scope": "Exact IGH-BCL2 follicular lymphoma association and MALT distinction.",
-          "access_level": "guideline"
+          "source_id": "followup-fl-genome",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666379125003519",
+          "location": "Results, BCL2 and BCL6 translocations in FLs; Figure4D and FiguresS1D-G",
+          "scope": "Direct BCL2-IGH structural variant observations in follicular lymphoma; no global outcome or functional enhancer assay inferred.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. BCL2 encodes an antiapoptotic mitochondrial protein. The t(14;18)/IGH-BCL2 rearrangement is characteristic of follicular lymphoma and is distinct from the t(14;18)/IGH-MALT1 rearrangement of MALT lymphoma.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. BCL2 encodes an antiapoptotic mitochondrial protein. IGH/BCL2 translocations occur in follicular lymphoma. Whole-genome sequencing directly identified the rearrangement in patient tumors.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-596",
-      "malt-pathology"
+      "followup-fl-genome"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Locus label describes a regulatory event; no chimeric coding product is asserted.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -106,9 +105,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "372ffddf14708057a396f4a36dd15a959c89f3d7056139a94ddbba053b82026b"
+  "text_sha256": "c5924313c2cbe5cf5aa863ad355262322b1cd8d5fddcc7391acc203463886b14"
 }

@@ -89,34 +89,33 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(4;14) IGH rearrangement in myeloma is associated with increased expression of FGFR3 and/or NSD2.",
+      "text": "In plasma cell myeloma, rearrangements involving IGH and the FGFR3/NSD2 region were detected by FISH and mapped by optical genome mapping. The primary cohort documented 12 such events with different breakpoints.",
       "source_ids": [
-        "myeloma-fish-guidance"
+        "followup-mm-ogm"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "c8aa2a4fbd093467a688a349930039b4c92a63253b07bebd83b7ec5dd2352308",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "1ec4c3e0daadb9d50a9bb7d0a70686dc67b11f25bd8ef2334d8241c9e183fe92",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "myeloma-fish-guidance",
-          "url": "https://www.nature.com/articles/s41408-025-01286-w",
-          "location": "Primary IGH rearrangements, t(4;14), t(14;16), t(14;20) paragraphs",
-          "scope": "Exact rearrangement, deregulated gene and myeloma association; no unsupported universal prognosis or inhibitor prediction.",
-          "access_level": "guideline"
+          "source_id": "followup-mm-ogm",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+          "location": "Primary results paragraphs describing IGH rearrangements; Figure1c,e; publisher lines301,312",
+          "scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase. NSD2 encodes a SET-domain chromatin regulator. The t(4;14) IGH rearrangement in myeloma is associated with increased expression of FGFR3 and/or NSD2.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase. NSD2 encodes a SET-domain chromatin regulator. In plasma cell myeloma, rearrangements involving IGH and the FGFR3/NSD2 region were detected by FISH and mapped by optical genome mapping. The primary cohort documented 12 such events with different breakpoints.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-2261",
       "ncbi-7468",
-      "myeloma-fish-guidance"
+      "followup-mm-ogm"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Not one chimeric kinase fusion; risk assessment must use the applicable current myeloma system and co-lesions.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -130,9 +129,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "622aecbe0a6277e4f552d489622f8e36f9786d24de02a847cbd4e3f86060f09e"
+  "text_sha256": "93a82c2ada1feb84b560e2805e1c1e4416a81830e76d8c162632bbe713f6118f"
 }

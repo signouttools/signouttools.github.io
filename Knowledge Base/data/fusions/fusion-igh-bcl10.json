@@ -64,33 +64,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "IGH regulatory rearrangements can increase BCL10 expression in a subset of MALT lymphomas.",
+      "text": "In t(1;14)-positive MALT lymphomas, the BCL10 locus is relocated to the derivative chromosome 14. Primary Northern-blot analysis demonstrated BCL10 overexpression in three such tumors.",
       "source_ids": [
-        "malt-pathology"
+        "followup-bcl10-discovery"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "e23d987837db876737a42d92c5d2d3f15cb5559e188e0364cddf4354d752ce86",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "c1fe7ad0fb305288de78dcf4675cfc6251e05b5add9d5b5e3a2a23d2fe73676e",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "malt-pathology",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2001121/",
-          "location": "Genetic abnormalities; t(14;18)/IGH-MALT1 and t(1;14)/IGH-BCL10 subsections, lines 180-194",
-          "scope": "Ordered regulatory events and disease association; review support explicitly, not primary.",
-          "access_level": "guideline"
+          "source_id": "followup-bcl10-discovery",
+          "url": "https://genome.fli-leibniz.de/publications/download/free/Zhang_NatGenet_1999.pdf",
+          "location": "Main Results paragraphs adjacent to Figure2b, BCL10 genomic structure; Figure2b Northern-blot experiments",
+          "scope": "BCL10 gene moved to der14 and overexpressed in three t(1;14)-positive MALT lymphomas; direct genomic/expression observations.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway. IGH regulatory rearrangements can increase BCL10 expression in a subset of MALT lymphomas.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway. In t(1;14)-positive MALT lymphomas, the BCL10 locus is relocated to the derivative chromosome 14. Primary Northern-blot analysis demonstrated BCL10 overexpression in three such tumors.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-8915",
-      "malt-pathology"
+      "followup-bcl10-discovery"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Locus label describes a regulatory event; no chimeric coding product is asserted.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "7d8ede4b5bc3672c7a9f37d6054fbfe02cdbe7dc3a0c41bbb25d5df929c18587"
+  "text_sha256": "fc0ad4d22da7409555ddf2f3f30b8462b39ac6f1fdfdccdf56d3c50959cea185"
 }

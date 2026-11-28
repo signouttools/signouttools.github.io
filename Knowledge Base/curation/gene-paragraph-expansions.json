@@ -25,7 +25,29 @@
     "RB1": "RB1 encodes a tumor suppressor that negatively regulates cell-cycle progression and also helps maintain chromatin structure. In its active, hypophosphorylated state, the protein binds the E2F1 transcription factor. This interaction connects the protein's phosphorylation state with transcriptional control of the cell cycle. Its additional role in stabilizing heterochromatin links regulation of cell division with organization of the genome.",
     "TET2": "TET2 encodes a methylcytosine dioxygenase that converts methylcytosine in DNA to 5-hydroxymethylcytosine. This enzymatic activity changes the chemical state of methylated DNA and is part of the regulation of epigenetic information. TET2 also participates in myelopoiesis, connecting its role in DNA modification with normal production and development of myeloid blood cells. Alternative transcripts encode different protein isoforms.",
     "TP53": "TP53 encodes p53, a tumor-suppressor transcription factor with DNA-binding, transcriptional-activation, and oligomerization domains. In response to cellular stress, p53 changes expression of target genes that control cell-cycle arrest, DNA repair, senescence, apoptosis, and metabolism. Alternative promoters, RNA splicing, and translation initiation produce multiple protein isoforms. These properties allow the gene to connect detection of cellular stress with several distinct growth-control and cell-fate responses.",
-    "VHL": "VHL encodes a component of a ubiquitination complex that targets hypoxia-inducible factor for degradation. Hypoxia-inducible factor is a transcription factor central to regulation of gene expression in response to oxygen, so VHL links protein turnover with oxygen-responsive signaling. The VHL protein also participates in processes involving cilia, cytokine signaling, cellular senescence, and formation of the extracellular matrix."
+    "VHL": "VHL encodes a component of a ubiquitination complex that targets hypoxia-inducible factor for degradation. Hypoxia-inducible factor is a transcription factor central to regulation of gene expression in response to oxygen, so VHL links protein turnover with oxygen-responsive signaling. The VHL protein also participates in processes involving cilia, cytokine signaling, cellular senescence, and formation of the extracellular matrix.",
+    "ATM": "ATM encodes a checkpoint kinase that coordinates responses to DNA damage and helps maintain genome stability. It regulates several downstream proteins by phosphorylation, including p53, BRCA1, CHEK2, RAD17, RAD9, and NBS1. This places ATM upstream of multiple effectors of cell-cycle control and DNA repair, allowing a damage signal to influence several protective responses rather than a single repair reaction.",
+    "ATR": "ATR encodes a serine/threonine kinase that senses DNA stress and activates cell-cycle checkpoints. It phosphorylates proteins that inhibit further DNA replication or entry into mitosis while also supporting repair, recombination, and apoptosis. ATR additionally contributes to stability of fragile genomic sites and centrosome duplication. These functions connect detection of DNA stress with control of both genome duplication and cell division.",
+    "CHEK2": "CHEK2 encodes a nuclear serine/threonine kinase that helps halt cell-cycle progression after DNA damage or replication blocks. Activated CHEK2 inhibits the CDC25C phosphatase, helping prevent entry into mitosis, and can stabilize p53 to support arrest in G1. It also interacts with and phosphorylates BRCA1. These interactions connect checkpoint signaling with both temporary interruption of cell division and the DNA-damage response.",
+    "PALB2": "PALB2 encodes a tumor-suppression-associated protein that binds BRCA2 and localizes with it in nuclear foci. PALB2 helps BRCA2 remain stably localized and accumulate within the nucleus. Its role therefore concerns the organization and localization of a repair-associated protein, rather than simply the abundance of BRCA2 transcripts. This protein partnership provides a functional connection between PALB2 and the BRCA2-associated genome-maintenance pathway.",
+    "RAD51C": "RAD51C encodes a member of the RAD51 family involved in homologous recombination and DNA repair. It interacts with other RAD51 paralogs and has a reported role in resolving Holliday junctions, the branched DNA intermediates formed during recombination. These interactions place RAD51C within a coordinated repair pathway, in which several related proteins contribute distinct activities rather than each acting as a standalone repair enzyme.",
+    "RAD51D": "RAD51D encodes a RAD51-family protein that participates in homologous recombination and DNA repair. It forms a complex with other RAD51 paralogs, including XRCC2. This complex supports pairing between single-stranded and double-stranded DNA, an activity relevant to early recombinational repair. The protein's role therefore depends on cooperation with other repair factors in a multiprotein assembly rather than on an isolated DNA-binding event.",
+    "MLH1": "MLH1 encodes a component of DNA mismatch repair that partners with PMS2 to form MutL-alpha. Following mismatch recognition, this complex helps initiate removal of the incorrect DNA segment; PMS2 supplies the endonuclease activity that introduces a nearby single-strand break. MLH1 also participates in DNA-damage signaling and can pair with MLH3 in MutL-gamma, a separate complex with a role in meiosis.",
+    "MSH6": "MSH6 encodes a MutS-family mismatch-repair protein that forms a mismatch-recognition complex with MSH2. The complex binds and releases mismatched DNA through a nucleotide-dependent molecular switch involving exchange of ADP and ATP. MSH6 contains a conserved nucleotide-binding motif that supports this activity. Its role is therefore in recognition and regulated handling of a DNA mismatch, upstream of the steps that remove and replace the incorrect sequence.",
+    "PMS2": "PMS2 encodes the endonuclease component of MutL-alpha, a DNA mismatch-repair complex formed with MLH1. After MutS complexes recognize mismatches or insertion/deletion loops, MutL-alpha helps initiate removal of the incorrect DNA. PMS2 supplies the DNA-cutting activity, with a conserved carboxy-terminal motif contributing to its active site. This role distinguishes downstream incision of DNA from the initial recognition of the mismatch.",
+    "CDH1": "CDH1 encodes E-cadherin, a calcium-dependent protein that mediates adhesion between neighboring cells. The mature protein spans the cell membrane and contains extracellular cadherin repeats and a conserved cytoplasmic tail. Its extracellular region supports cell attachment, while the intracellular region connects adhesion with cellular responses. Loss of E-cadherin function can contribute to tumor progression through changes in proliferation, invasion, and metastatic behavior.",
+    "CDKN2A": "CDKN2A produces structurally distinct tumor-suppressor proteins through alternative first exons and reading frames. The p16INK4A product inhibits cyclin-dependent kinase activity, whereas p14ARF stabilizes p53 by interacting with MDM2, a ubiquitin ligase that promotes p53 degradation. Both products contribute to G1 cell-cycle control through different mechanisms. This transcript structure is biologically important because a change in the locus can affect the two protein products differently.",
+    "ALK": "ALK encodes a receptor tyrosine kinase with an extracellular region, a single membrane-spanning segment, and an intracellular kinase domain. It has a normal role in nervous-system development and effects on particular neuronal populations. In tumors, ALK can be rearranged, mutated, or amplified. Rearrangements create fusion genes with several different partners, providing a mechanism of oncogenic activation distinct from an isolated kinase-domain sequence substitution.",
+    "DICER1": "DICER1 encodes a ribonuclease involved in RNA-interference pathways and production of small RNAs that repress gene expression. Its protein contains an amino-terminal RNA-helicase motif and carboxy-terminal RNA-related domains. By helping generate the active small-RNA component of these pathways, DICER1 links RNA processing with regulation of gene output. Its biological role concerns maturation of regulatory RNAs rather than direct transcription of their target genes.",
+    "ERBB2": "ERBB2 encodes HER2, a receptor tyrosine kinase in the epidermal growth factor receptor family. Rather than binding a growth-factor ligand independently, HER2 forms heterodimers with ligand-bound family members and strengthens downstream signaling. These receptor partnerships can enhance MAPK and PI3K pathway activity. Amplification or increased expression can therefore change signaling through receptor abundance as well as through the receptor's intrinsic kinase function.",
+    "SMAD4": "SMAD4 encodes a signal-transduction protein that forms complexes with activated Smad proteins in TGF-beta-related signaling. These complexes accumulate in the nucleus, where they bind DNA and regulate target-gene transcription. SMAD4 also participates in bone morphogenetic protein signaling. Its tumor-suppressor role includes inhibition of epithelial proliferation, linking signals received at the cell surface with changes in nuclear gene expression.",
+    "SMARCA4": "SMARCA4 encodes an ATP-dependent component of the SWI/SNF chromatin-remodeling complex. The complex changes chromatin organization so that transcriptional machinery can access genes otherwise repressed by chromatin. SMARCA4 also interacts with BRCA1 and can regulate CD44 expression. Its normal role therefore connects energy-dependent remodeling of DNA packaging with regulation of transcription and interactions with other growth-control proteins.",
+    "SMARCB1": "SMARCB1 encodes a nuclear tumor-suppressor protein within a chromatin-remodeling complex. The complex relaxes repressive chromatin organization, making target regions more accessible to the transcriptional machinery. SMARCB1 therefore contributes to regulation of gene expression through a multiprotein assembly that changes DNA packaging. Its role as a complex component is distinct from a sequence-specific transcription factor that independently binds and activates a single target gene.",
+    "STK11": "STK11 encodes a serine/threonine kinase that functions as a tumor suppressor and regulates both cell polarity and energy metabolism. These roles link the spatial organization of a cell with its metabolic state. Its kinase function provides a mechanism for coordinating these processes through protein phosphorylation. Loss of STK11 function can consequently affect cellular organization and metabolic regulation within the same biological system.",
+    "KIT": "KIT encodes a receptor tyrosine kinase activated by stem cell factor. Its structure includes extracellular immunoglobulin-like domains, a membrane-spanning region, and an intracellular kinase domain. Activation triggers phosphorylation of downstream proteins controlling proliferation, differentiation, migration, and apoptosis. KIT has normal roles in blood-cell formation, stem-cell maintenance, germ-cell development, pigmentation, and mast-cell biology, explaining its involvement in several distinct tissue contexts.",
+    "MEN1": "MEN1 encodes menin, a tumor-suppressor scaffold protein involved in histone modification and epigenetic regulation of gene expression. Menin helps organize protein interactions that alter chromatin structure and thereby influence transcription. Its scaffold role connects chromatin-associated regulatory proteins rather than specifying a single enzymatic reaction. Changes in these protein assemblies can affect multiple pathways through altered regulation of gene activity.",
+    "MET": "MET encodes the receptor tyrosine kinase for hepatocyte growth factor. The precursor protein is processed into alpha and beta subunits linked by disulfide bonds. Ligand binding promotes receptor dimerization and activation, supporting survival, embryonic development, migration, and invasion. MET signaling therefore connects an extracellular growth factor with several cellular responses; increased receptor abundance and sequence alterations represent different ways in which this signaling system can be disrupted.",
+    "RET": "RET encodes a transmembrane receptor tyrosine kinase activated by GDNF and related ligands. Ligand binding promotes receptor dimerization and downstream signals controlling differentiation, growth, migration, and survival. The receptor is important in development of the nervous system and neural-crest-derived tissues. RET can undergo oncogenic activation through either activating point mutations or chromosomal rearrangements, mechanisms distinct from its normal developmentally regulated signaling."
   },
   "source_evidence": {
     "PIK3CA": {
@@ -195,6 +217,160 @@
       "cache_file": "ncbi-8.json",
       "summary_sha256": "12d69e9b42ec3b273c1dbcb719f73b3320e0e6c39279fcd2cdd388aad29078d4",
       "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "PALB2": {
+      "ncbi_gene_id": "79728",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/79728",
+      "cache_file": "ncbi-7.json",
+      "summary_sha256": "0e74d8fbc3b06df8af9b163c0f20f4110cb8b8c1bd4b27dd74bcd2ec8ac46277",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "PMS2": {
+      "ncbi_gene_id": "5395",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/5395",
+      "cache_file": "ncbi-7.json",
+      "summary_sha256": "e922583ac65b7bb45e613bcc19845b40c315bb3bba858a1c86caa3458e1f9046",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "MLH1": {
+      "ncbi_gene_id": "4292",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4292",
+      "cache_file": "ncbi-6.json",
+      "summary_sha256": "8931a418f9059574a66193497acfe44b82b8bd5a9cdb9d6e498ccfa9c49b1ce0",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "MSH6": {
+      "ncbi_gene_id": "2956",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/2956",
+      "cache_file": "ncbi-6.json",
+      "summary_sha256": "f6f60496ecec504ef3f6765807272a97be5853dd30f7ba90736508435b0b3211",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "CDH1": {
+      "ncbi_gene_id": "999",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/999",
+      "cache_file": "ncbi-1.json",
+      "summary_sha256": "8934c580a331e894a547737af42fb86857fb1d643b4fea685d6f17ca8742c1db",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "CDKN2A": {
+      "ncbi_gene_id": "1029",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/1029",
+      "cache_file": "ncbi-1.json",
+      "summary_sha256": "3a70baf1a41a30a72eb1c1117e2dbbf26ac561d7cec1f15321cd1eee74d9df95",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "CHEK2": {
+      "ncbi_gene_id": "11200",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/11200",
+      "cache_file": "ncbi-1.json",
+      "summary_sha256": "507853b85c1b4f1f624a1885946a5f3707e3cc9f20aea6d6ee109e915b5c3688",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "ALK": {
+      "ncbi_gene_id": "238",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/238",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "3b3fb292f6cea350abbcebf2475f1b5c486118530c088e3d8fe604f47d632db9",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "ATM": {
+      "ncbi_gene_id": "472",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/472",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "847c8daa76f746a8412d2134d4f6dfba693fa21b53be7d2f5c46e892d4fa4cd2",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "ATR": {
+      "ncbi_gene_id": "545",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/545",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "2584438d08c591c944109a2653e4ffa10d5364e3ba37990260d7a96cf117a5aa",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "DICER1": {
+      "ncbi_gene_id": "23405",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/23405",
+      "cache_file": "ncbi-2.json",
+      "summary_sha256": "601fb0fe21884bb72bb6df271558a83f9c6b04f77e7c49470d664208fcd5ffcf",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "ERBB2": {
+      "ncbi_gene_id": "2064",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/2064",
+      "cache_file": "ncbi-2.json",
+      "summary_sha256": "7db951be51fef1765f379de17e6ada8f005ea4ab1acbe99e934e256cf1b8271a",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "SMAD4": {
+      "ncbi_gene_id": "4089",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4089",
+      "cache_file": "ncbi-9.json",
+      "summary_sha256": "95b1d6be99f6ca3d3bbed89bf1db0276d8ac36656d1ff9307e0721c54aa5621c",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "SMARCA4": {
+      "ncbi_gene_id": "6597",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/6597",
+      "cache_file": "ncbi-9.json",
+      "summary_sha256": "39a93dd6ad0da11fa9be3fbccf7a32733559752a1c678c4dd5a2613b1100e687",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "SMARCB1": {
+      "ncbi_gene_id": "6598",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/6598",
+      "cache_file": "ncbi-9.json",
+      "summary_sha256": "907a80c421de82888f6740b65ab9f6cb8fe2e32a58a85a7c8f6e4ea21e927e90",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "STK11": {
+      "ncbi_gene_id": "6794",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/6794",
+      "cache_file": "ncbi-9.json",
+      "summary_sha256": "5507682124ec284590a16310ffbe9b13740ed4ffb470adb80fa04c56a07c40f3",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "KIT": {
+      "ncbi_gene_id": "3815",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/3815",
+      "cache_file": "ncbi-5.json",
+      "summary_sha256": "f94a91d0ca6f7f64b39f6a43d159789757ff38ead2c750a8f0dbcf501248b880",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "MEN1": {
+      "ncbi_gene_id": "4221",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4221",
+      "cache_file": "ncbi-5.json",
+      "summary_sha256": "f0deba4b99742c0d1584b0b7e0ccfecb03e2cb9f818a387d4c8165185b2cf997",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "MET": {
+      "ncbi_gene_id": "4233",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4233",
+      "cache_file": "ncbi-5.json",
+      "summary_sha256": "e66a728efc668d42e3c293c5a7af85ef34100f407e2a091bfde4e64475c90eba",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "RAD51C": {
+      "ncbi_gene_id": "5889",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/5889",
+      "cache_file": "ncbi-8.json",
+      "summary_sha256": "d8dfe2e02e72ed428b03488c0f59a77bba1d0b1dc39c38d1344ebfdb1b48dcee",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "RAD51D": {
+      "ncbi_gene_id": "5892",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/5892",
+      "cache_file": "ncbi-8.json",
+      "summary_sha256": "26268b782312f721bd4883b26e26977806681fdcb08fa5d73a06334b313b7c82",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
+    },
+    "RET": {
+      "ncbi_gene_id": "5979",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/5979",
+      "cache_file": "ncbi-8.json",
+      "summary_sha256": "63b3dfff15801edf643aea7b36b6451d0f69c78c353b16075b6b5cbdf566b900",
+      "review_scope": "Additional source review of normal-function mechanisms; inherited and somatic disease assertions preserved."
     }
   }
 }

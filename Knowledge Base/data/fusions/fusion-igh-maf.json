@@ -64,33 +64,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(14;16) IGH rearrangement in myeloma increases MAF expression.",
+      "text": "IGH/MAF translocations were detected in plasma cell myeloma by optical genome mapping, with 4 cases documented in the primary cohort.",
       "source_ids": [
-        "myeloma-fish-guidance"
+        "followup-mm-ogm"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "da12ec57acd24e29fe956166606d04a5b902baa5ef969d4aa6d05b8f503da683",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "12f6b0c6e77803e86676c615ee944dc8d54979fb2409b1a85b4747f32353a701",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "myeloma-fish-guidance",
-          "url": "https://www.nature.com/articles/s41408-025-01286-w",
-          "location": "Primary IGH rearrangements, t(4;14), t(14;16), t(14;20) paragraphs",
-          "scope": "Exact rearrangement, deregulated gene and myeloma association; no unsupported universal prognosis or inhibitor prediction.",
-          "access_level": "guideline"
+          "source_id": "followup-mm-ogm",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+          "location": "Primary results paragraphs describing IGH rearrangements; Figure1c,e; publisher lines301,312",
+          "scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. MAF encodes a bZIP transcription factor involved in differentiation. The t(14;16) IGH rearrangement in myeloma increases MAF expression.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. MAF encodes a bZIP transcription factor involved in differentiation. IGH/MAF translocations were detected in plasma cell myeloma by optical genome mapping, with 4 cases documented in the primary cohort.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-4094",
-      "myeloma-fish-guidance"
+      "followup-mm-ogm"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Historical adverse-risk associations differ from newer co-lesion-based risk definitions; no unqualified contemporary risk assignment included.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "7328dd259602926fc4241f86c34b48e2332229922b51b943027d5febf7c8bdb7"
+  "text_sha256": "4af83599b69721d7b54a50f08af7728fb4464bd29ab6728bd4d3f893416f92ef"
 }

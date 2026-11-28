@@ -1,25 +1,18 @@
 {
   "drafted_on": "2026-11-27",
   "audited_on": "2026-11-27",
-  "total_entries": 185,
+  "total_entries": 186,
   "previously_drafted_entries": 186,
-  "held_entries": [
-    {
-      "id": "fusion-etv6-ntrk2",
-      "label": "ETV6::NTRK2",
-      "reason": "No audited fusion biology/disease section retained; excluded from runtime and report export."
-    }
-  ],
+  "held_entries": [],
   "by_event_class": {
-    "chimeric_fusion": 160,
+    "chimeric_fusion": 161,
     "regulatory_fusion": 1,
     "promoter_substitution": 3,
     "regulatory_rearrangement": 21
   },
   "original_pair_roster": 152,
-  "original_pairs_drafted": 150,
+  "original_pairs_drafted": 151,
   "original_pairs_not_drafted": [
-    "ETV6::NTRK2",
     "TPR::NTRK3"
   ],
   "additional_pair_entries": [
@@ -38,14 +31,14 @@
     "SQSTM1::NTRK3",
     "TFG::ALK"
   ],
-  "source_count": 289,
-  "source_registry_count": 382,
+  "source_count": 323,
+  "source_registry_count": 419,
   "partner_count": 210,
   "clinical_sections": {
-    "partner_function": 371,
-    "fusion_mechanism": 185,
-    "therapeutics": 78,
-    "prognosis": 30,
+    "partner_function": 373,
+    "fusion_mechanism": 186,
+    "therapeutics": 79,
+    "prognosis": 32,
     "tumor_relevance": 1
   },
   "deferred": [
@@ -61,13 +54,96 @@
     }
   ],
   "audit_decision_counts": {
-    "narrow": 220,
     "retain": 74,
-    "remove": 11
+    "narrow": 224,
+    "remove": 7
   },
   "record_audit_counts": {
-    "primary_fulltext_supported": 136,
-    "reference_supported": 49
+    "primary_fulltext_supported": 186
   },
-  "status": "audited_drafts_specialist_review_pending"
+  "status": "audited_drafts_specialist_review_pending",
+  "followup_review": {
+    "target_count": 50,
+    "integrated_count": 50,
+    "primary_supported_count": 50,
+    "reference_supported_labels": [],
+    "held_labels": [],
+    "passes": [
+      {
+        "file": "audit-followup-heme.json",
+        "labels": [
+          "BCR::ABL1",
+          "BCR::FGFR1",
+          "CBFA2T3::GLIS2",
+          "CBFB::MYH11",
+          "DEK::NUP214",
+          "EP300::ZNF384",
+          "ETV6::PDGFRB",
+          "ETV6::RUNX1",
+          "FIP1L1::PDGFRA",
+          "FUS::ERG",
+          "KAT6A::CREBBP",
+          "KMT2A::ELL",
+          "KMT2A::MLLT1",
+          "KMT2A::MLLT10",
+          "KMT2A::MLLT3",
+          "KMT2A::MLLT6",
+          "NPM1::ALK",
+          "NPM1::MLF1",
+          "NPM1::RARA",
+          "PAX5::ETV6",
+          "PCM1::JAK2",
+          "PML::RARA",
+          "RBM15::MRTFA",
+          "RUNX1::MECOM",
+          "RUNX1::RUNX1T1",
+          "SET::NUP214",
+          "STAT5B::RARA",
+          "TAF15::ZNF384",
+          "TCF3::PBX1",
+          "TCF3::ZNF384",
+          "ZBTB16::RARA",
+          "ZMYM2::FGFR1"
+        ],
+        "decision_count": 63
+      },
+      {
+        "file": "audit-followup-regulatory.json",
+        "labels": [
+          "ETV6::NTRK2",
+          "IGH / BCL10",
+          "IGH / BCL2",
+          "IGH / CCND1",
+          "IGH / CCND2",
+          "IGH / CCND3",
+          "IGH / DUX4",
+          "IGH / FGFR3 and NSD2",
+          "IGH / MAF",
+          "IGH / MAFB",
+          "IGH / MALT1",
+          "TCR loci / LMO2",
+          "TCR loci / TAL1",
+          "TCR loci / TLX1",
+          "TCR loci / TLX3"
+        ],
+        "decision_count": 18
+      },
+      {
+        "file": "audit-followup-sarcoma.json",
+        "labels": [
+          "BCOR::CCNB3",
+          "CIC::DUX4",
+          "EWSR1::DDIT3",
+          "EWSR1::ERG",
+          "EWSR1::ETV1",
+          "EWSR1::ETV4",
+          "EWSR1::FEV",
+          "EWSR1::WT1",
+          "FUS::ATF1",
+          "FUS::CREB3L1"
+        ],
+        "decision_count": 13
+      }
+    ]
+  }
 }

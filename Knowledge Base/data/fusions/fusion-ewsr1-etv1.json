@@ -64,35 +64,43 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "EWSR1::ETV1 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+      "text": "EWSR1::ETV1 is a rare Ewing sarcoma fusion documented in clinical translocation-testing data and in a molecularly characterized Ewing sarcoma cohort.",
       "source_ids": [
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-etv1",
+        "audit-followup-sarcoma-roundcell"
       ],
-      "claim_sha256": "fcc01fb823853dbdaccdc409336486e5fd5db99242fc4a88de6a1af3edbcd2a6",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "1d3169b743995e740528e758b98ccf55829d6eaace7dd2a819b3b96cf5abd1ab",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-ewing",
-          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
-          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
-          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
-          "access_level": "guideline"
+          "source_id": "audit-followup-sarcoma-etv1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9048754/",
+          "location": "Results: Specific Translocation Results; Table 5 (EWSR1-ETV1 row); Methods: data collection",
+          "scope": "Reported local translocation test results from 305 enrolled patients; Table 5 specifically records EWSR1-ETV1. This is primary clinical data, not centralized sequence-level functional validation.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-followup-sarcoma-roundcell",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/",
+          "location": "Results 3.1–3.2; Figures 3–4; Methods 2.1–2.3",
+          "scope": "Direct cohort includes 26 EWSR1-ERG tumors and rare EWSR1-ETV1/4 tumors. Figure 4 shows EWSR1-ERG examples; Figures 3–4 show EWSR1-ETV4 infant case. No pair-specific functional transactivation experiment.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ETV1 encodes an ETS-family transcription factor. EWSR1::ETV1 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ETV1 encodes an ETS-family transcription factor. EWSR1::ETV1 is a rare Ewing sarcoma fusion documented in clinical translocation-testing data and in a molecularly characterized Ewing sarcoma cohort.",
     "source_ids": [
       "ncbi-2130",
       "ncbi-2115",
-      "audit-sarcoma-nci-ewing"
+      "audit-followup-sarcoma-etv1",
+      "audit-followup-sarcoma-roundcell"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
   ],
   "editorial": {
     "status": "draft",
@@ -103,9 +111,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "16ab204acb1deb3d79f34983bbc6ec30dd230ecd1e913313a0377463ab2db41e"
+  "text_sha256": "96e8a22f64543100f4ad46eb6ef931850b12db42b366353e0abb937bbdfa0b85"
 }

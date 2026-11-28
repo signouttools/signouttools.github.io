@@ -1,0 +1,3692 @@
+{
+  "audited_on": "2026-11-27",
+  "scope": "Follow-up primary-body review of hematologic entries retaining reference-level sections",
+  "entries": [
+    {
+      "label": "NPM1::ALK",
+      "partners": [
+        "NPM1",
+        "ALK"
+      ],
+      "tumor_contexts": [
+        "ALK-positive anaplastic large cell lymphoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "In a conditional NPM1::ALK mouse model, fusion expression induced lymphoma with activation of MYC- and NOTCH1-associated programs. Dnmt1 deletion prevented lymphoma development despite persistent proximal ALK signaling.",
+          "source_ids": [
+            "npm-alk-dnmt1-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "d244465d687df0669c733f88d458db64b05943f2f586acdc7109b2a3919b0b61",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "nci-genomics",
+                "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
+                "location": "Non-Hodgkin lymphoma: Anaplastic large cell lymphoma; Table 4",
+                "scope": "Specific NPM::ALK disease association; oligomerization/signaling pathway details not certified.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma.",
+          "source_ids": [
+            "fda-criz"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "99176c9d9b1aa5a44ff3099ba38a35fa1309c5aa2e9a773e8a93fbb14e9c3803",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-criz",
+                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+                "location": "Prescribing information section 1.2",
+                "scope": "Actual ALK-positive ALCL indication; not a fusion-specific label.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "BCR::ABL1",
+      "partners": [
+        "BCR",
+        "ABL1"
+      ],
+      "tumor_contexts": [
+        "Chronic myeloid leukemia",
+        "B-lymphoblastic leukemia",
+        "Rare de novo AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "Expression of p210 BCR::ABL1 in transplanted murine bone marrow induced a CML-like myeloproliferative syndrome, demonstrating its leukemogenic activity in vivo. Other hematologic tumor phenotypes also occurred in the model.",
+          "source_ids": [
+            "bcr-abl-murine-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "a0592f041be13195243de11a10ac8f06eb7929011216d01a69e5de11523bbf3c",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "Cytogenetics/genomics: BCR::ABL1 fusion, lines 352-354",
+                "scope": "Disease association, kinase activity and common isoforms.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL.",
+          "source_ids": [
+            "all"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "f41ba4b74d9c20e16679e969f5d79ed8935ed59504ea26e0d49ac95e5741373e",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "Treatment of newly diagnosed Ph-positive ALL",
+                "scope": "ALL treatment recommendation; removed broad resistance-sequencing assertions.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Add a dated disease-specific drug label before enumerating individual agents or lines of therapy.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "PML::RARA",
+      "partners": [
+        "PML",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "Acute promyelocytic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "PML::RARA blocked IL-3-stimulated myeloid differentiation in experimental marrow systems; ATRA restored differentiation. Coexpression with IL-3 produced rapidly fatal AML-like disease in transplanted mice.",
+          "source_ids": [
+            "pml-rara-differentiation-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "387f001f02858bf01e867a8f0c93abd9d8525f9e7acbfbd0d0a8844156b59a62",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia.",
+          "source_ids": [
+            "aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "dc05187966f35a3b13407c37a1322b7e6a0a2aab45d544a649da8b04280bbc48",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "APL-specific treatment cross-reference",
+                "scope": "Guideline treatment statement; not primary trial adjudication.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "RUNX1::RUNX1T1",
+      "partners": [
+        "RUNX1",
+        "RUNX1T1"
+      ],
+      "tumor_contexts": [
+        "Core-binding factor AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "RUNX1::RUNX1T1 (AML1-ETO) promotes serial replating of murine hematopoietic progenitors. DNA-binding disruption or deletion of its NHR2 oligomerization region abolished this transforming activity in the tested model.",
+          "source_ids": [
+            "runx1-eto-functional"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "2426ed750bd1c83bc2dbc140ea7953fe0d95299f13417d8f355a6ac17f6df9a4",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "f6b0c4be318310efb698e7ef4f8f7ae9322a912cb3d257534bdb724c73b0f0d1",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "CBFB::MYH11",
+      "partners": [
+        "CBFB",
+        "MYH11"
+      ],
+      "tumor_contexts": [
+        "Core-binding factor AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "CBFB::MYH11 formed cytoplasmic aggregates that recruited RUNX1 in hematopoietic-cell models. Immunofluorescence of primary fusion-positive AML samples also supported predominantly cytoplasmic localization.",
+          "source_ids": [
+            "cbfb-myh11-proteogenomic-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "a204f0a78adf1a9394e6ada3b804f77ab37041c048b3d7bcd3b3402f564885ee",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "89863d1e7a3352195fe1689f3b2a5fc2ca6d540268b47d54aee2b5fec404fc43",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "DEK::NUP214",
+      "partners": [
+        "DEK",
+        "NUP214"
+      ],
+      "tumor_contexts": [
+        "AML with DEK::NUP214"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "DEK::NUP214 bound regulatory regions of FOXC1 and HOXA/HOXB genes in cellular models. XPO1 inhibition reduced fusion-associated binding and expression of these leukemia-associated transcriptional targets, including in primary t(6;9) AML samples.",
+          "source_ids": [
+            "dek-nup214-functional-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "67aa77a00617d6377231f1c500f64e8d1375b3edee6da03356b32776b071cf00",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "b319983f03b90543112364918582d41c3e6e404f8f291b3c998677871814fc02",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "RBM15::MRTFA",
+      "partners": [
+        "RBM15",
+        "MRTFA"
+      ],
+      "tumor_contexts": [
+        "Infant acute megakaryoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "RBM15::MRTFA, also called RBM15::MKL1, was detected in a subset of pediatric non-Down-syndrome acute megakaryoblastic leukemias. Fusion-positive children were younger at diagnosis than the other molecular groups.",
+          "source_ids": [
+            "amkl-intergroup-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "d31c28476a6501aac06a48a0649badabdeb6eb533aaa5b39e10cf6bf88ade040",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "aliases": [
+        "RBM15::MKL1",
+        "OTT::MAL"
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "KMT2A::MLLT3",
+      "partners": [
+        "KMT2A",
+        "MLLT3"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "KMT2A::MLLT3 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+          "source_ids": [
+            "kmt2a-recombinome"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "0828a261cf333e6f7203d47e84d4b4a8217045ce8881bc32f5027561acb98949",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "kmt2a-recombinome",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+                "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+                "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML, KMT2A::MLLT3 is assigned intermediate ELN 2022 genetic risk, unlike most other KMT2A rearrangements.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "cee358e55048bca695458ec8959ad0adf459643c0b14a6607d88c0a42ab05b0c",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-menin"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-menin",
+                "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+                "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+                "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "KMT2A::MLLT10",
+      "partners": [
+        "KMT2A",
+        "MLLT10"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "KMT2A::MLLT10 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+          "source_ids": [
+            "kmt2a-recombinome"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "bd205f330e6f9de1333ac16cf36ef140cff4762456646593bee7ea8a78782b9f",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "kmt2a-recombinome",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+                "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+                "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML treated with intensive regimens, KMT2A rearrangements other than t(9;11)/KMT2A::MLLT3 fall in the adverse ELN 2022 genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "a6aad45421a3aa57611c934ad724e110344438cb924ae765cf2e963224da81bf",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Removed the pediatric partner-specific prognostic assertion because its primary outcome passage was not obtained; retained explicit adult guidance."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-menin"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-menin",
+                "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+                "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+                "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "KMT2A::ELL",
+      "partners": [
+        "KMT2A",
+        "ELL"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "KMT2A::ELL is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+          "source_ids": [
+            "kmt2a-recombinome"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "742d1cda709a1e7e1f8cad8a00a8c5e41b5b72b5fa5d096bc3acebfae9828777",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "kmt2a-recombinome",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+                "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+                "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "605414ac825b641ad269e8fe2f7fe6289f6a9b3d45c1d4ad18917b655d2f90a1",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-menin"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-menin",
+                "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+                "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+                "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "KMT2A::MLLT1",
+      "partners": [
+        "KMT2A",
+        "MLLT1"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "KMT2A::MLLT1 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+          "source_ids": [
+            "kmt2a-recombinome"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "c11aee3f4d34e13d3b07b31f044a4254179e84fbd2b7cb26452c74c4d22d34a6",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "kmt2a-recombinome",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+                "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+                "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "605414ac825b641ad269e8fe2f7fe6289f6a9b3d45c1d4ad18917b655d2f90a1",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-menin"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-menin",
+                "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+                "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+                "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "KMT2A::MLLT6",
+      "partners": [
+        "KMT2A",
+        "MLLT6"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Other KMT2A-rearranged acute leukemias"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "KMT2A::MLLT6 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+          "source_ids": [
+            "kmt2a-recombinome"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "6d21bc8732dacf57ff9770aca9d00ae01ff5bb446fa58153ed69d49da95e3a96",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "kmt2a-recombinome",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+                "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+                "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "605414ac825b641ad269e8fe2f7fe6289f6a9b3d45c1d4ad18917b655d2f90a1",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+          "source_ids": [
+            "fda-menin"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "fcd42118cba4a1223743cf6c20389dbd55a93c59bc6a1e20f241d9348f9cbadd",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-menin",
+                "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+                "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+                "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "CBFA2T3::GLIS2",
+      "partners": [
+        "CBFA2T3",
+        "GLIS2"
+      ],
+      "tumor_contexts": [
+        "Pediatric AML, often megakaryoblastic"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "CBFA2T3::GLIS2 was identified in pediatric non-Down-syndrome acute megakaryoblastic leukemia by molecular screening in an international cohort.",
+          "source_ids": [
+            "amkl-intergroup-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "62c15a6e2ff8e33f8d73de78b7fe028b0985478a0720dac2f0b4d0c1f8e80ee4",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "FUS::ERG",
+      "partners": [
+        "FUS",
+        "ERG"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Rare Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML.",
+          "source_ids": [
+            "t16"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "b9b9bf34cd056be69e7283ce976fe10d7a1dd63bacdde548283eca768e9c9349",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "t16",
+                "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+                "location": "Results, Gene expression profiling; Figure 2, PDF pages 4-5",
+                "scope": "Fusion-defined AML and distinct expression profile.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "tumor_relevance",
+          "text": "FUS::ERG also occurs in Ewing sarcoma: an RNA-based fusion panel confirmed the exact fusion in a reported renal Ewing sarcoma.",
+          "source_ids": [
+            "fus-erg-ewing-case-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "1b17217d8824cfbc473678a113e86f58c639fed6652ba04a92adcb9d6ed6347b",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "ewing",
+                "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
+                "location": "EWSR1/FUS and ETS-partner fusion table",
+                "scope": "Rare FUS::ERG Ewing association; source is classification summary.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
+          "source_ids": [
+            "t16"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "1acd275531921b58bef9c4a357bb8527a08b9d60e01d9e412099feb8487634d6",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "t16",
+                "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+                "location": "Results, outcome analyses; Table 1/Figure 1 and multivariable model, PDF pages 3-4",
+                "scope": "High relapse and poor pediatric outcomes.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "SET::NUP214",
+      "partners": [
+        "SET",
+        "NUP214"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia",
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "SET::NUP214 is a recurrent T-ALL fusion. In LOUCY cells, fusion knockdown reduced HOXA expression and proliferation and increased differentiation markers; ChIP detected association with HOXA9 and HOXA10 promoters.",
+          "source_ids": [
+            "set-nup214"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "cde20225cce81cdc32e94ced076c055211284302e574e9e28aa21e9fcfdfe092",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "nci-genomics",
+                "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
+                "location": "T-ALL molecular subtypes, paragraph 269",
+                "scope": "Documented T-ALL/HOXA association; removed broader mechanistic claims.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Original primary functional abstract inspected; full-text claim audit pending.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "KAT6A::CREBBP",
+      "partners": [
+        "KAT6A",
+        "CREBBP"
+      ],
+      "tumor_contexts": [
+        "AML, often monocytic or myelomonocytic"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "The fusion joins KAT6A to an acetyltransferase-associated coactivator. Domain-preserving fusion constructs induced AML in mice and altered chromatin-associated transcription in experimental models.",
+          "source_ids": [
+            "kat6a"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "primary_fulltext_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "7eb856f842c6850185e29ba0bbd7f3cef1f06a1f9ed555e97617351984614361",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "kat6a",
+                "url": "https://link.springer.com/article/10.1186/s13059-025-03743-y",
+                "location": "Results: Development of K/C and K/P murine leukemia models; Figures 1,3,6",
+                "scope": "Fusion-construct oncogenicity and chromatin-associated transcription; not validation of all clinical phenotypic claims.",
+                "access_level": "primary_fulltext"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "6861a2a7b3ecb5e300fafefe5ca087a7e8de6aa6771856ff4c940e3a32cc9232",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Removed neonatal spontaneous-remission subclaim pending direct primary review."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "ZBTB16::RARA",
+      "partners": [
+        "ZBTB16",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "ZBTB16::RARA was RT-PCR-confirmed in 18 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology.",
+          "source_ids": [
+            "rara"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "8c1522e20fc6980ced9ef94eb45df1e8163a98a61fc45bd3bc8b1d08e8f5a0e9",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "Molecular variants of APL other than PML::RARA",
+                "scope": "Exact RARA partners listed as variant APL; detailed corepressor effects removed.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "In the rare-RARA series, no evident ATRA/ATO-induced differentiation was observed in ZBTB16::RARA-positive cases despite frequent retinoid exposure; treatment responses to combination regimens do not establish retinoid sensitivity.",
+          "source_ids": [
+            "rara"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "4d46b703760e70ae864537ff3b56aa2564d874479c90212414c078895d3225db",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "Molecular variants of APL: ZBTB16::RARA subsection",
+                "scope": "Explicit guideline sensitivity statement, not direct case-series review.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "NPM1::RARA",
+      "partners": [
+        "NPM1",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "NPM1::RARA was confirmed by RT-qPCR in an infant with AML, a t(5;17) rearrangement and a mandibular myeloid sarcoma in a Hungarian clinical cohort.",
+          "source_ids": [
+            "npm-rara-hungary-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "1101bc93e6320232c8cff6c8c0c5d096375794fce1a5996bc50a33538bfa2ade",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "Molecular variants of APL other than PML::RARA",
+                "scope": "Exact RARA partners listed as variant APL; detailed corepressor effects removed.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "The reported infant with NPM1::RARA-positive AML achieved remission with an AML chemotherapy regimen plus ATRA and remained in first remission at the reported 36-month follow-up. Subsequent treatment included arsenic; this combination outcome does not establish isolated ATRA sensitivity.",
+          "source_ids": [
+            "npm-rara-hungary-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "060e7b169c6d7ca1bd0b5b5b6274edef96fb27f612fee268dcabc625d1bffcb6",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "Molecular variants of APL: NPM1::RARA/NUMA1::RARA subsection",
+                "scope": "Qualified guideline sensitivity; no blanket equivalence with PML::RARA.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "STAT5B::RARA",
+      "partners": [
+        "STAT5B",
+        "RARA"
+      ],
+      "tumor_contexts": [
+        "AML with variant RARA fusion"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "STAT5B::RARA was RT-PCR-confirmed in 3 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology.",
+          "source_ids": [
+            "rara"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "f5de497836282a77271dde1e3cd098001de1bace3814733f61744b3d5ed8fdf0",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "Molecular variants of APL other than PML::RARA",
+                "scope": "Exact RARA partners listed as variant APL; detailed corepressor effects removed.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "FIP1L1::PDGFRA",
+      "partners": [
+        "FIP1L1",
+        "PDGFRA"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with PDGFRA rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "FIP1L1::PDGFRA was documented in 78 patients in a registry study of myeloid/lymphoid neoplasms with tyrosine-kinase fusions, providing direct clinical evidence for this disease association.",
+          "source_ids": [
+            "mln-registry-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "216e4b4d581c4f6ee63e358909b804ce3908ca3e2504d616924ec4db781beebe",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+                "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Imatinib can induce durable hematologic, cytogenetic and molecular remissions in FIP1L1::PDGFRA-associated myeloid/lymphoid neoplasms.",
+          "source_ids": [
+            "icc-eo"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "ccaaa689ee10a03d9a079375bbaace259621343c0219ffdff83ef50df8e19ea3",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1, PDGFRA/PDGFRB rows; Treatment, PDF pages 3-5",
+                "scope": "Guideline synthesis of fusion-class clinical response, not independently reviewed trial.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "ETV6::PDGFRB",
+      "partners": [
+        "ETV6",
+        "PDGFRB"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with PDGFRB rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "ETV6::PDGFRB was identified in 18 patients in a 26-patient cohort of PDGFRB-rearranged myeloid neoplasms, predominantly chronic myeloproliferative or myelomonocytic disease with eosinophilia.",
+          "source_ids": [
+            "pdgfrb"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "9e5432909938111c947c7f662aa8359a2454bbc4b626992317174c84aa28ffcb",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+                "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "A PDGFRB-rearranged myeloid-neoplasm cohort, including 18 ETV6::PDGFRB cases, showed frequent and durable responses to imatinib; outcomes were reported for the pooled fusion cohort.",
+          "source_ids": [
+            "pdgfrb"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "d2f579291798bc43ca46c44357fcee1b186401e9ee58f211a2ced0aea9aa1076",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1, PDGFRA/PDGFRB rows; Treatment, PDF pages 3-5",
+                "scope": "Guideline synthesis of fusion-class clinical response, not independently reviewed trial.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "ZMYM2::FGFR1",
+      "partners": [
+        "ZMYM2",
+        "FGFR1"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "ZMYM2::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
+          "source_ids": [
+            "mln-registry-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "a3a465b6cbe71315eb99c69354cc2032c8c76b9da2131fe46a517c43e6e586a6",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+                "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
+          "source_ids": [
+            "fda-fgfr1"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "968414f92b014f1f95aacdf48a1d0fa3f8c261f623e142f40c443c798d553c11",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-fgfr1",
+                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf",
+                "location": "Prescribing information section 1.2, PDF page 2",
+                "scope": "Correct adult relapsed/refractory FGFR1-rearranged MLN indication.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "BCR::FGFR1",
+      "partners": [
+        "BCR",
+        "FGFR1"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with FGFR1 rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "BCR::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
+          "source_ids": [
+            "mln-registry-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "37d09095a957ff443bd850534bf1d43ec0ab3cc1de74d361d8efef07dac72f34",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+                "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
+          "source_ids": [
+            "fda-fgfr1"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "official_regulatory_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "968414f92b014f1f95aacdf48a1d0fa3f8c261f623e142f40c443c798d553c11",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "fda-fgfr1",
+                "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf",
+                "location": "Prescribing information section 1.2, PDF page 2",
+                "scope": "Correct adult relapsed/refractory FGFR1-rearranged MLN indication.",
+                "access_level": "official_regulatory"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "PCM1::JAK2",
+      "partners": [
+        "PCM1",
+        "JAK2"
+      ],
+      "tumor_contexts": [
+        "Myeloid/lymphoid neoplasm with JAK2 rearrangement"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "PCM1::JAK2 was documented in a clinical series of JAK2-fusion myeloid neoplasms presenting in chronic or blast phase, often with marrow fibrosis and abnormal erythropoiesis.",
+          "source_ids": [
+            "jak2"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "1a180e6317e4295480b84ee15022c8dcd9b6247788ece1d0fb297d344bd6d72d",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
+                "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "therapeutics",
+          "text": "In a series including eight PCM1::JAK2 and one BCR::JAK2 case, ruxolitinib produced hematologic or cytogenetic responses in some patients, but most discontinued for resistance, progression or planned transplantation.",
+          "source_ids": [
+            "jak2"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "be8bbe16e0e4f5d32746a2d3ff75336d70770be8e834dde5279afb8891efb1d4",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "icc-eo",
+                "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+                "location": "Table 1 JAK2 row and Treatment, PDF pages 3-6",
+                "scope": "Reference-supported response and durability limitation; no approval inferred.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "ETV6::RUNX1",
+      "partners": [
+        "ETV6",
+        "RUNX1"
+      ],
+      "tumor_contexts": [
+        "Childhood B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "ETV6::RUNX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort.",
+          "source_ids": [
+            "b-all-landscape-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "367d109434241222720e3c3544e0718087436bed75477aba32ce03cc662b3288",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "Cytogenetics/genomics: ETV6::RUNX1 subsection",
+                "scope": "Explicit ordered-pair subtype; detailed transcriptional repression mechanism removed.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "In St. Jude Total XV, ETV6::RUNX1-positive B-ALL had better event-free and overall survival than fusion-negative disease. This difference was not significant in the earlier Total XIIIA/B cohorts, supporting a treatment-specific interpretation.",
+          "source_ids": [
+            "etv6-runx1-outcome-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "4274e68a42578904cad1d1bd2298c42d77680c0cab04abac88fcb7873e48e331",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "ETV6::RUNX1 subsection, lines 344-351",
+                "scope": "Favorable pediatric outcome with specified response/risk modifiers.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "TCF3::PBX1",
+      "partners": [
+        "TCF3",
+        "PBX1"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TCF3::PBX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort.",
+          "source_ids": [
+            "b-all-landscape-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "e59f50d698355ebaf2e41515654d91906d385ce29462eab2a447132bbf0f5e88",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "Cytogenetics/genomics: TCF3::PBX1 subsection",
+                "scope": "Explicit ordered-pair subtype; detailed transcriptional repression mechanism removed.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "In the St. Jude cohort, TCF3::PBX1-positive B-ALL had event-free survival comparable to other B-cell-precursor ALL but a higher incidence of CNS relapse. The CNS association persisted in the study multivariable analyses.",
+          "source_ids": [
+            "tcf3-pbx1-cns-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "76c37845d84ea9b7b390efe2660fbce8151fba091901499e1abdacc202cc5ae1",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "TCF3::PBX1 subsection, lines 385-386",
+                "scope": "Dated treatment-specific outcome and CNS relapse observation.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "EP300::ZNF384",
+      "partners": [
+        "EP300",
+        "ZNF384"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EP300::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
+          "source_ids": [
+            "znf384"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "d78eca7a3b1439421911d3fc1cda96b158e3a4c34a0c059d939b51c1dd64349c",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "ZNF384-rearranged ALL, lines 399-402",
+                "scope": "Exact partners and subtype phenotype; no universal lineage-conversion mechanism inferred.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "TCF3::ZNF384",
+      "partners": [
+        "TCF3",
+        "ZNF384"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TCF3::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The reported TCF3 partner was identified by FISH.",
+          "source_ids": [
+            "znf384"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "d1f4989b1f33a544a48b5e6153816a8f8874abf0a770390c9995f149eff60ab7",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "ZNF384-rearranged ALL, lines 399-402",
+                "scope": "Exact partners and subtype phenotype; no universal lineage-conversion mechanism inferred.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "TAF15::ZNF384",
+      "partners": [
+        "TAF15",
+        "ZNF384"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia",
+        "B/myeloid mixed-phenotype acute leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TAF15::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
+          "source_ids": [
+            "znf384"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "4d80b378bea9e3f73b5be68d1dbdd1283a75aba84570b8224ba0ed76115aaac3",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "ZNF384-rearranged ALL, lines 399-402",
+                "scope": "Exact partners and subtype phenotype; no universal lineage-conversion mechanism inferred.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "No uniform favorable-prognosis statement: published outcomes differ between partners, cohorts and treatment protocols.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "PAX5::ETV6",
+      "partners": [
+        "PAX5",
+        "ETV6"
+      ],
+      "tumor_contexts": [
+        "B-lymphoblastic leukemia"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "PAX5::ETV6 is a recurrent in-frame fusion in the PAX5-altered B-ALL subgroup, identified in 19 cases in a large genomic study.",
+          "source_ids": [
+            "pax5-cohort-primary"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "cdfcf55895154edc54d5bf1a09c849dc7ffc507524640e685c3784a75a2e0d9a",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "all",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+                "location": "PAX5 alterations, lines 419-422",
+                "scope": "Pair-specific cytogenetic and B-ALL association only.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Pair-specific functional paper and modern subtype-level outcome audit remain pending.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "RUNX1::MECOM",
+      "partners": [
+        "RUNX1",
+        "MECOM"
+      ],
+      "tumor_contexts": [
+        "AML",
+        "Myelodysplastic neoplasia",
+        "CML blast phase"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "RUNX1::MECOM can occur in de novo AML: a pediatric acute myelomonocytic leukemia case had t(3;21) and Sanger-confirmed RUNX1::MECOM alongside RUNX1::RPL22.",
+          "source_ids": [
+            "runx1-mecom-case"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "f827fafb1bfd0043f14d88b0508228d0559204c3c471301fa5ef54f3fd9f153e",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        },
+        {
+          "kind": "prognosis",
+          "text": "MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
+          "source_ids": [
+            "eln-aml"
+          ],
+          "evidence_review_status": "reference_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "b859f87e98372a2de3c5b6dcccdba82f3fcf36449fc83d83a58fc7e70b0129e1",
+            "decision": "retain",
+            "evidence": [
+              {
+                "source_id": "eln-aml",
+                "url": "https://doi.org/10.1182/blood.2022016867",
+                "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+                "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "aliases": [
+        "RUNX1::MDS1::EVI1",
+        "AML1::EVI1"
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
+      "label": "NPM1::MLF1",
+      "partners": [
+        "NPM1",
+        "MLF1"
+      ],
+      "tumor_contexts": [
+        "AML with NPM1::MLF1"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "Patient-derived NPM1::MLF1 fusion constructs showed aberrant cytoplasmic localization and promoted myeloid leukemogenesis in experimental models, with HOX activation linked to XPO1.",
+          "source_ids": [
+            "npm-fusion-functional"
+          ],
+          "evidence_review_status": "primary_fulltext_supported",
+          "audit": {
+            "status": "reference_supported",
+            "audited_on": "2026-11-27",
+            "claim_sha256": "4f0afeb4983238c6c3080b031b391231a28e5481125fe77387d499039d9d9dbd",
+            "decision": "narrow",
+            "evidence": [
+              {
+                "source_id": "aml",
+                "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+                "location": "WHO classification tables and gene-specific cytogenetic sections",
+                "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
+                "access_level": "guideline"
+              }
+            ],
+            "rationale": "Retained only the statement supported at the recorded source location."
+          }
+        }
+      ],
+      "curation_notes": [
+        "Do not transfer the favorable-risk classification of NPM1-mutated AML to NPM1::MLF1.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+      "integration_status": "eligible",
+      "audit": {
+        "status": "reference_supported",
+        "audited_on": "2026-11-27",
+        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "label": "PML::RARA",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "a76da4f9783353b83ded5927b1d6c6b7857e415a22c705dc30ab41c22b37fe3d",
+      "decision": "narrow",
+      "replacement_text": "PML::RARA blocked IL-3-stimulated myeloid differentiation in experimental marrow systems; ATRA restored differentiation. Coexpression with IL-3 produced rapidly fatal AML-like disease in transplanted mice.",
+      "source_ids": [
+        "pml-rara-differentiation-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "pml-rara-differentiation-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC164846/",
+          "location": "Results; Figure 2 differentiation and ATRA rescue; Figures 3-4 murine leukemia",
+          "scope": "Root inspected direct functional and transplant results; does not equate model assays with clinical response rate.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "RUNX1::RUNX1T1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "f4061b258cba672536bbee1aecf8ed37bc1cbe4677579b54d1d3488f0953770d",
+      "decision": "narrow",
+      "replacement_text": "RUNX1::RUNX1T1 (AML1-ETO) promotes serial replating of murine hematopoietic progenitors. DNA-binding disruption or deletion of its NHR2 oligomerization region abolished this transforming activity in the tested model.",
+      "source_ids": [
+        "runx1-eto-functional"
+      ],
+      "evidence": [
+        {
+          "source_id": "runx1-eto-functional",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2650355/",
+          "location": "Results; Figures 2,4,5",
+          "scope": "Root inspected full body: serial replating, DNA-binding mutant and NHR2 deletion functional comparisons. Model-bounded mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "CBFB::MYH11",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "f435b08b1b5d30764b917838260e9b9ba60b006d715b7939d30dde363218106c",
+      "decision": "narrow",
+      "replacement_text": "CBFB::MYH11 formed cytoplasmic aggregates that recruited RUNX1 in hematopoietic-cell models. Immunofluorescence of primary fusion-positive AML samples also supported predominantly cytoplasmic localization.",
+      "source_ids": [
+        "cbfb-myh11-proteogenomic-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "cbfb-myh11-proteogenomic-primary",
+          "url": "https://www.jci.org/articles/view/176311",
+          "location": "Results: RUNX1 colocalizes with cytoplasmic CBFB::MYH11; Figures 4 and 5A-B; Supplemental Figures 2-3",
+          "scope": "Model domain comparisons plus actual primary AML imaging; no claim that RUNX1 function is simply extinguished.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "DEK::NUP214",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "977e5c0ffc5637d362ad67022c7f29d95f143b4b2e0f112ed69430532206bc24",
+      "decision": "narrow",
+      "replacement_text": "DEK::NUP214 bound regulatory regions of FOXC1 and HOXA/HOXB genes in cellular models. XPO1 inhibition reduced fusion-associated binding and expression of these leukemia-associated transcriptional targets, including in primary t(6;9) AML samples.",
+      "source_ids": [
+        "dek-nup214-functional-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "dek-nup214-functional-primary",
+          "url": "https://pure-oai.bham.ac.uk/ws/files/304240972/KayaF2025DEK_NUP214.pdf",
+          "location": "Results and Discussion: XPO1-dependent transcription factor; Figure 2B-F; PDF pages 4-6",
+          "scope": "Direct CUT&RUN and perturbation evidence; XPO1 inhibitor sensitivity is experimental and not a fusion-specific approved treatment.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "RBM15::MRTFA",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "1ff1246f86e02962cd71e7e712237c42fd518a7d21d2dd477f0d3ee5ddbb3eec",
+      "decision": "narrow",
+      "replacement_text": "RBM15::MRTFA, also called RBM15::MKL1, was detected in a subset of pediatric non-Down-syndrome acute megakaryoblastic leukemias. Fusion-positive children were younger at diagnosis than the other molecular groups.",
+      "source_ids": [
+        "amkl-intergroup-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "amkl-intergroup-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5161011/",
+          "location": "Results: Recurrent molecular aberrations; Figure 1; age-at-diagnosis paragraph 277",
+          "scope": "Direct screened pediatric AMKL cohort and infant-age association; detailed transcriptional mechanism excluded.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "CBFA2T3::GLIS2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "b2d0d7596f52fb28b03294d28e79d49096b5b0ffbb60ff05c97d67a602d0f012",
+      "decision": "narrow",
+      "replacement_text": "CBFA2T3::GLIS2 was identified in pediatric non-Down-syndrome acute megakaryoblastic leukemia by molecular screening in an international cohort.",
+      "source_ids": [
+        "amkl-intergroup-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "amkl-intergroup-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5161011/",
+          "location": "Results: molecular subgroups; Figure 1 and Figure 2D-F",
+          "scope": "Direct ordered-fusion detection in pediatric AMKL; does not establish a universal lineage phenotype.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "NPM1::MLF1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "4266a15f5f31a211a04c0e4f553b5f361ad7a5e3390de3c7bf351b19eac11db8",
+      "decision": "narrow",
+      "replacement_text": "Patient-derived NPM1::MLF1 fusion constructs showed aberrant cytoplasmic localization and promoted myeloid leukemogenesis in experimental models, with HOX activation linked to XPO1.",
+      "source_ids": [
+        "npm-fusion-functional"
+      ],
+      "evidence": [
+        {
+          "source_id": "npm-fusion-functional",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11717694/",
+          "location": "Results: NPM1 fusion proteins localize to the cytoplasm and promote myeloid leukemogenesis; Figures 1-2; HOX reporter/ChIP and XPO1 perturbation Results",
+          "scope": "Direct fusion constructs, localization, leukemic model and HOX experiments; not a clinical inhibitor indication.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "RUNX1::MECOM",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "19ce64648088a89df9fbc5121bde40a6220d480a600ff6bd0a3df48205ed63e1",
+      "decision": "narrow",
+      "replacement_text": "RUNX1::MECOM can occur in de novo AML: a pediatric acute myelomonocytic leukemia case had t(3;21) and Sanger-confirmed RUNX1::MECOM alongside RUNX1::RPL22.",
+      "source_ids": [
+        "runx1-mecom-case"
+      ],
+      "evidence": [
+        {
+          "source_id": "runx1-mecom-case",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10615462/",
+          "location": "Case presentation section 2.1; Figure 1A",
+          "scope": "Direct diagnosis and sequenced fusion; does not generalize a single case to all myeloid contexts.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "PML::RARA",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "97b34bbf379d589a064a54992be549cb003de9bb1c721e8f30215e89b8902be2",
+      "decision": "narrow",
+      "replacement_text": "All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia.",
+      "source_ids": [
+        "aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "APL-specific treatment cross-reference",
+          "scope": "Guideline treatment statement; not primary trial adjudication.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "RUNX1::RUNX1T1",
+      "section_kind": "prognosis",
+      "original_text_sha256": "f6b0c4be318310efb698e7ef4f8f7ae9322a912cb3d257534bdb724c73b0f0d1",
+      "decision": "retain",
+      "replacement_text": "Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "CBFB::MYH11",
+      "section_kind": "prognosis",
+      "original_text_sha256": "89863d1e7a3352195fe1689f3b2a5fc2ca6d540268b47d54aee2b5fec404fc43",
+      "decision": "retain",
+      "replacement_text": "Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "DEK::NUP214",
+      "section_kind": "prognosis",
+      "original_text_sha256": "b319983f03b90543112364918582d41c3e6e404f8f291b3c998677871814fc02",
+      "decision": "retain",
+      "replacement_text": "DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::MLLT3",
+      "section_kind": "prognosis",
+      "original_text_sha256": "cee358e55048bca695458ec8959ad0adf459643c0b14a6607d88c0a42ab05b0c",
+      "decision": "retain",
+      "replacement_text": "In adult AML, KMT2A::MLLT3 is assigned intermediate ELN 2022 genetic risk, unlike most other KMT2A rearrangements.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::ELL",
+      "section_kind": "prognosis",
+      "original_text_sha256": "605414ac825b641ad269e8fe2f7fe6289f6a9b3d45c1d4ad18917b655d2f90a1",
+      "decision": "retain",
+      "replacement_text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::MLLT1",
+      "section_kind": "prognosis",
+      "original_text_sha256": "605414ac825b641ad269e8fe2f7fe6289f6a9b3d45c1d4ad18917b655d2f90a1",
+      "decision": "retain",
+      "replacement_text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::MLLT6",
+      "section_kind": "prognosis",
+      "original_text_sha256": "605414ac825b641ad269e8fe2f7fe6289f6a9b3d45c1d4ad18917b655d2f90a1",
+      "decision": "retain",
+      "replacement_text": "In adult AML treated with intensive regimens, non-MLLT3 KMT2A rearrangements fall in the adverse ELN 2022 genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "RUNX1::MECOM",
+      "section_kind": "prognosis",
+      "original_text_sha256": "b859f87e98372a2de3c5b6dcccdba82f3fcf36449fc83d83a58fc7e70b0129e1",
+      "decision": "retain",
+      "replacement_text": "MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::MLLT10",
+      "section_kind": "prognosis",
+      "original_text_sha256": "97c57840481639de64af7a80d09a0d0db2883c53c7ba8fd87656f27d4fbdbdd4",
+      "decision": "narrow",
+      "replacement_text": "In adult AML treated with intensive regimens, KMT2A rearrangements other than t(9;11)/KMT2A::MLLT3 fall in the adverse ELN 2022 genetic-risk group.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed the pediatric partner-specific prognostic assertion because its primary outcome passage was not obtained; retained explicit adult guidance."
+    },
+    {
+      "label": "KMT2A::MLLT3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "fc539431822fa517d0cb8b616bd3cf728ffdcccb9377f5c76237d3a6a8ddbf82",
+      "decision": "narrow",
+      "replacement_text": "KMT2A::MLLT3 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+      "source_ids": [
+        "kmt2a-recombinome"
+      ],
+      "evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+    },
+    {
+      "label": "KMT2A::MLLT3",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
+      "decision": "narrow",
+      "replacement_text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-menin"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::MLLT10",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "fc539431822fa517d0cb8b616bd3cf728ffdcccb9377f5c76237d3a6a8ddbf82",
+      "decision": "narrow",
+      "replacement_text": "KMT2A::MLLT10 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+      "source_ids": [
+        "kmt2a-recombinome"
+      ],
+      "evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+    },
+    {
+      "label": "KMT2A::MLLT10",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
+      "decision": "narrow",
+      "replacement_text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-menin"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::ELL",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "fc539431822fa517d0cb8b616bd3cf728ffdcccb9377f5c76237d3a6a8ddbf82",
+      "decision": "narrow",
+      "replacement_text": "KMT2A::ELL is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+      "source_ids": [
+        "kmt2a-recombinome"
+      ],
+      "evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+    },
+    {
+      "label": "KMT2A::ELL",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
+      "decision": "narrow",
+      "replacement_text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-menin"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::MLLT1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "fc539431822fa517d0cb8b616bd3cf728ffdcccb9377f5c76237d3a6a8ddbf82",
+      "decision": "narrow",
+      "replacement_text": "KMT2A::MLLT1 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+      "source_ids": [
+        "kmt2a-recombinome"
+      ],
+      "evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+    },
+    {
+      "label": "KMT2A::MLLT1",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
+      "decision": "narrow",
+      "replacement_text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-menin"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KMT2A::MLLT6",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "afab6feccda3a61d43e558d163b78790bc70c81d3ee90f124a53263df975eaf6",
+      "decision": "narrow",
+      "replacement_text": "KMT2A::MLLT6 is a recurrent KMT2A fusion in acute leukemia, documented by genomic breakpoint analysis in a large patient cohort.",
+      "source_ids": [
+        "kmt2a-recombinome"
+      ],
+      "evidence": [
+        {
+          "source_id": "kmt2a-recombinome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10169636/",
+          "location": "Results; Table 1; Figure 2; disease distributions at lines 810-825",
+          "scope": "Patient-level detection and recurrent partner distribution; no blanket proof of menin/HOXA/MEIS1 mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed cohort-backed detection from an unsupported composite mechanistic paragraph."
+    },
+    {
+      "label": "KMT2A::MLLT6",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "faba0370595c20fab7d685d55fd8ce2fce4ecbfb1f997b4e07a785d9d898162f",
+      "decision": "narrow",
+      "replacement_text": "Revumenib has a US indication for relapsed or refractory acute leukemia with a KMT2A translocation in adults and children aged at least 1 year.",
+      "source_ids": [
+        "fda-menin"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-menin",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+          "location": "FDA approval notice, indication paragraph and Efficacy and Safety",
+          "scope": "Approved KMT2A-translocation class, not equivalent efficacy for every individual partner.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "FUS::ERG",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "58681f063d3f2bc10beb8d523563a655f2ff70665eb7a26637a0674a3b92a8c5",
+      "decision": "narrow",
+      "replacement_text": "The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML.",
+      "source_ids": [
+        "t16"
+      ],
+      "evidence": [
+        {
+          "source_id": "t16",
+          "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+          "location": "Results, Gene expression profiling; Figure 2, PDF pages 4-5",
+          "scope": "Fusion-defined AML and distinct expression profile.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "FUS::ERG",
+      "section_kind": "prognosis",
+      "original_text_sha256": "1acd275531921b58bef9c4a357bb8527a08b9d60e01d9e412099feb8487634d6",
+      "decision": "retain",
+      "replacement_text": "Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
+      "source_ids": [
+        "t16"
+      ],
+      "evidence": [
+        {
+          "source_id": "t16",
+          "url": "https://iris.uniroma1.it/bitstream/11573/1482062/2/Noort_Prognostic-impact_2018.pdf",
+          "location": "Results, outcome analyses; Table 1/Figure 1 and multivariable model, PDF pages 3-4",
+          "scope": "High relapse and poor pediatric outcomes.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "FUS::ERG",
+      "section_kind": "tumor_relevance",
+      "original_text_sha256": "c7cb8bd9ffdb6f11e6594a38ddc1aeaeee63a82f1d123049d25badd39f6cc376",
+      "decision": "narrow",
+      "replacement_text": "FUS::ERG also occurs in Ewing sarcoma: an RNA-based fusion panel confirmed the exact fusion in a reported renal Ewing sarcoma.",
+      "source_ids": [
+        "fus-erg-ewing-case-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "fus-erg-ewing-case-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12161885/",
+          "location": "Case report diagnostic workup; Figures 2-3",
+          "scope": "Actual patient FUS FISH followed by 507-gene RNA fusion-panel confirmation; primary-case diagnostic section inspected in indexed fulltext.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "KAT6A::CREBBP",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "cfd53b8d2f1af4c0db91e596153a651a9c3c525a54fa382bd647bfa92e42623d",
+      "decision": "narrow",
+      "replacement_text": "The fusion joins KAT6A to an acetyltransferase-associated coactivator. Domain-preserving fusion constructs induced AML in mice and altered chromatin-associated transcription in experimental models.",
+      "source_ids": [
+        "kat6a"
+      ],
+      "evidence": [
+        {
+          "source_id": "kat6a",
+          "url": "https://link.springer.com/article/10.1186/s13059-025-03743-y",
+          "location": "Results: Development of K/C and K/P murine leukemia models; Figures 1,3,6",
+          "scope": "Fusion-construct oncogenicity and chromatin-associated transcription; not validation of all clinical phenotypic claims.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "KAT6A::CREBBP",
+      "section_kind": "prognosis",
+      "original_text_sha256": "f99df3d9ae2af3ae3ac1ce72db032c433f527ea2f97bf3e81bbcb9f2eb0c8919",
+      "decision": "narrow",
+      "replacement_text": "Adult AML with KAT6A::CREBBP is assigned adverse ELN 2022 genetic risk.",
+      "source_ids": [
+        "eln-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "eln-aml",
+          "url": "https://doi.org/10.1182/blood.2022016867",
+          "location": "Table 6, 2022 ELN risk classification by genetics at initial diagnosis",
+          "scope": "Favorable CBF; intermediate t(9;11); adverse DEK::NUP214, other KMT2A, MECOM and KAT6A::CREBBP categories.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Removed neonatal spontaneous-remission subclaim pending direct primary review."
+    },
+    {
+      "label": "NPM1::ALK",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "2580af0416f48f7dbfc714504d737caccff69911b4763b3aff894b42ac3179f2",
+      "decision": "narrow",
+      "replacement_text": "In a conditional NPM1::ALK mouse model, fusion expression induced lymphoma with activation of MYC- and NOTCH1-associated programs. Dnmt1 deletion prevented lymphoma development despite persistent proximal ALK signaling.",
+      "source_ids": [
+        "npm-alk-dnmt1-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "npm-alk-dnmt1-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7768196/",
+          "location": "Results: Induction of ALK-dependent tumorigenic pathways; Figure 1 RNA-seq/qPCR; Figure 3 Dnmt1 deletion and pSTAT3",
+          "scope": "Primary mouse-model gene expression and genetic-dependency assays inspected by root and body accessed by delegated reviewer; no universal human clinical dependency inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "NPM1::ALK",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "6ba39d01a2405de5cbef8f65085dd516793dd87e24ded19b77ee4ccb6aec16fd",
+      "decision": "narrow",
+      "replacement_text": "Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma.",
+      "source_ids": [
+        "fda-criz"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-criz",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf",
+          "location": "Prescribing information section 1.2",
+          "scope": "Actual ALK-positive ALCL indication; not a fusion-specific label.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "BCR::ABL1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0440371bb049a18dcebf3dc36cc9a20cca84302472560ac9e02247ce4af9235d",
+      "decision": "narrow",
+      "replacement_text": "Expression of p210 BCR::ABL1 in transplanted murine bone marrow induced a CML-like myeloproliferative syndrome, demonstrating its leukemogenic activity in vivo. Other hematologic tumor phenotypes also occurred in the model.",
+      "source_ids": [
+        "bcr-abl-murine-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "bcr-abl-murine-primary",
+          "url": "https://escholarship.org/content/qt2702p39n/qt2702p39n_noSplash_c46cb787f73a3f68a430ec8592e8e614.pdf",
+          "location": "Results, page 825; Table 1; Figures 2-3",
+          "scope": "Root inspected primary PDF CML-like disease, proviral analyses and tumor phenotypes; does not independently prove all human isoform frequencies.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "BCR::ABL1",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "43042f5752f8565196ed5f833b6a9ba4f0144ee405425f68e7b8d6fc3af642e6",
+      "decision": "narrow",
+      "replacement_text": "ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL.",
+      "source_ids": [
+        "all"
+      ],
+      "evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "Treatment of newly diagnosed Ph-positive ALL",
+          "scope": "ALL treatment recommendation; removed broad resistance-sequencing assertions.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "ETV6::RUNX1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "cf61f10d068aca0168a360d80d70ba4637e363de3cc8e43329ad7eacaffca3d7",
+      "decision": "narrow",
+      "replacement_text": "ETV6::RUNX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort.",
+      "source_ids": [
+        "b-all-landscape-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "b-all-landscape-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7594377/",
+          "location": "Results: Correlation between genetic alteration and disease subgroup; supplemental Figure 6",
+          "scope": "Direct genomic subgroup assignment: ETV6RUNX1 n236; TCF3PBX1 n95; no untested biochemical mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "TCF3::PBX1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "ca979f7aa6c416ad5dbbfbf804a9b443ed508da9b6350940812db5ed0193d627",
+      "decision": "narrow",
+      "replacement_text": "TCF3::PBX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort.",
+      "source_ids": [
+        "b-all-landscape-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "b-all-landscape-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7594377/",
+          "location": "Results: Correlation between genetic alteration and disease subgroup; supplemental Figure 6",
+          "scope": "Direct genomic subgroup assignment: ETV6RUNX1 n236; TCF3PBX1 n95; no untested biochemical mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "ETV6::RUNX1",
+      "section_kind": "prognosis",
+      "original_text_sha256": "42dd8a74dd92f3a88893e15deca7268ddf84561da879f6f056aa291fa4f2c414",
+      "decision": "narrow",
+      "replacement_text": "In St. Jude Total XV, ETV6::RUNX1-positive B-ALL had better event-free and overall survival than fusion-negative disease. This difference was not significant in the earlier Total XIIIA/B cohorts, supporting a treatment-specific interpretation.",
+      "source_ids": [
+        "etv6-runx1-outcome-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "etv6-runx1-outcome-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3345278/",
+          "location": "Results: Response and outcome; Figure 1; prognostic features/Table 3, lines 303-335",
+          "scope": "Actual comparative cohort survival across successive protocols; no claim of an invariant independent genotype effect.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "TCF3::PBX1",
+      "section_kind": "prognosis",
+      "original_text_sha256": "43afb096d7317e0a9c2145c40300b4308690c13d61dc4fc82be9d22faeb69eaf",
+      "decision": "narrow",
+      "replacement_text": "In the St. Jude cohort, TCF3::PBX1-positive B-ALL had event-free survival comparable to other B-cell-precursor ALL but a higher incidence of CNS relapse. The CNS association persisted in the study multivariable analyses.",
+      "source_ids": [
+        "tcf3-pbx1-cns-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "tcf3-pbx1-cns-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2731684/",
+          "location": "Results: clinical outcomes and CNS relapse; Figure 1; multivariable analysis paragraph",
+          "scope": "Direct 41-fusion-positive-patient comparison; protocol-specific relapse pattern, not universal poor survival.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "EP300::ZNF384",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "10b210df5e6b3f84caf32ac6fa3047bfbe9c67b971e9a6d41ce1fa70b407f997",
+      "decision": "narrow",
+      "replacement_text": "EP300::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
+      "source_ids": [
+        "znf384"
+      ],
+      "evidence": [
+        {
+          "source_id": "znf384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611455/",
+          "location": "Results; Table 1 partner and immunophenotype columns; Figure 1A-B and 1D",
+          "scope": "Ordered pair and measured phenotype; selected CD10-low cohort. Excludes unsupported generalized MPAL frequency or lineage-conversion mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "TCF3::ZNF384",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "10b210df5e6b3f84caf32ac6fa3047bfbe9c67b971e9a6d41ce1fa70b407f997",
+      "decision": "narrow",
+      "replacement_text": "TCF3::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The reported TCF3 partner was identified by FISH.",
+      "source_ids": [
+        "znf384"
+      ],
+      "evidence": [
+        {
+          "source_id": "znf384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611455/",
+          "location": "Results; Table 1 partner and immunophenotype columns; Figure 1A-B and 1D",
+          "scope": "Ordered pair and measured phenotype; selected CD10-low cohort. Excludes unsupported generalized MPAL frequency or lineage-conversion mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "TAF15::ZNF384",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "10b210df5e6b3f84caf32ac6fa3047bfbe9c67b971e9a6d41ce1fa70b407f997",
+      "decision": "narrow",
+      "replacement_text": "TAF15::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
+      "source_ids": [
+        "znf384"
+      ],
+      "evidence": [
+        {
+          "source_id": "znf384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611455/",
+          "location": "Results; Table 1 partner and immunophenotype columns; Figure 1A-B and 1D",
+          "scope": "Ordered pair and measured phenotype; selected CD10-low cohort. Excludes unsupported generalized MPAL frequency or lineage-conversion mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "PAX5::ETV6",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "8a16722aac44214c1fa6e2460ec4cde1ae723fd13564aea72c840499baddae9c",
+      "decision": "narrow",
+      "replacement_text": "PAX5::ETV6 is a recurrent in-frame fusion in the PAX5-altered B-ALL subgroup, identified in 19 cases in a large genomic study.",
+      "source_ids": [
+        "pax5-cohort-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "pax5-cohort-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6525306/",
+          "location": "Results: PAX5 alterations; Figure 2A; Supplementary Table 6",
+          "scope": "Exact recurrent partner and expressed in-frame fusion in patient B-ALL, not merely PAX5 gene-level alterations.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "SET::NUP214",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "97769cf6a0e9ce74d9b019ab9c5ad4c1a269ea797791a28a87e5fe9b31c5a58a",
+      "decision": "narrow",
+      "replacement_text": "SET::NUP214 is a recurrent T-ALL fusion. In LOUCY cells, fusion knockdown reduced HOXA expression and proliferation and increased differentiation markers; ChIP detected association with HOXA9 and HOXA10 promoters.",
+      "source_ids": [
+        "set-nup214"
+      ],
+      "evidence": [
+        {
+          "source_id": "set-nup214",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2343598/",
+          "location": "Results: SET-NUP214 activates HOXA expression; direct HOXA activation; Figures 5A-G and 6A",
+          "scope": "Knockdown and promoter-binding results; DOT1L recruitment was proposed rather than causally established.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "FIP1L1::PDGFRA",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "e979b2dec6544a68b2d88d4dee2c8964f85a0d0d3cbb6f637d481aad7689e409",
+      "decision": "narrow",
+      "replacement_text": "FIP1L1::PDGFRA was documented in 78 patients in a registry study of myeloid/lymphoid neoplasms with tyrosine-kinase fusions, providing direct clinical evidence for this disease association.",
+      "source_ids": [
+        "mln-registry-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "mln-registry-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/",
+          "location": "Results: Patient characteristics; Table 1",
+          "scope": "All PDGFRA cases in this cohort had exact FIP1L1 partner; no independent kinase-domain functional proof asserted.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "ETV6::PDGFRB",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "4c795ff8d8e5fa331616665f078ee415e6a0d5a433f8b85b48640d3c2b141d42",
+      "decision": "narrow",
+      "replacement_text": "ETV6::PDGFRB was identified in 18 patients in a 26-patient cohort of PDGFRB-rearranged myeloid neoplasms, predominantly chronic myeloproliferative or myelomonocytic disease with eosinophilia.",
+      "source_ids": [
+        "pdgfrb"
+      ],
+      "evidence": [
+        {
+          "source_id": "pdgfrb",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4047496/",
+          "location": "Results, first paragraph and Table 1",
+          "scope": "Exact fusion partner frequencies and cohort morphologic diagnoses; no independent functional mechanism inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "ZMYM2::FGFR1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "a32b71782be888793a1837fbd6c2b9b998fc2a3fe50ebf15a5cb8173ebae501f",
+      "decision": "narrow",
+      "replacement_text": "ZMYM2::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
+      "source_ids": [
+        "mln-registry-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "mln-registry-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/",
+          "location": "Results: patients with FGFR1 fusion genes; Table 1",
+          "scope": "Among six partner-characterized cases, ZMYM2 occurred in three and BCR in two; direct pair-to-disease observation.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "BCR::FGFR1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "a32b71782be888793a1837fbd6c2b9b998fc2a3fe50ebf15a5cb8173ebae501f",
+      "decision": "narrow",
+      "replacement_text": "BCR::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
+      "source_ids": [
+        "mln-registry-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "mln-registry-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/",
+          "location": "Results: patients with FGFR1 fusion genes; Table 1",
+          "scope": "Among six partner-characterized cases, ZMYM2 occurred in three and BCR in two; direct pair-to-disease observation.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "PCM1::JAK2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "911aa44c8eb463bc143463a16d986f6dc3798a28966b20831f45cb3af1ef5b42",
+      "decision": "narrow",
+      "replacement_text": "PCM1::JAK2 was documented in a clinical series of JAK2-fusion myeloid neoplasms presenting in chronic or blast phase, often with marrow fibrosis and abnormal erythropoiesis.",
+      "source_ids": [
+        "jak2"
+      ],
+      "evidence": [
+        {
+          "source_id": "jak2",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.25825",
+          "location": "Results 3.1, Table 1 and Figure 1; PDF pages 3-5",
+          "scope": "Actual partner-confirmed patient series and morphologic features; no experimental constitutive-kinase proof inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "FIP1L1::PDGFRA",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "e0e514d28158f1746eb16ea4c2427ec62834c30cec5194fcc5dc4c1d3b0f7d89",
+      "decision": "narrow",
+      "replacement_text": "Imatinib can induce durable hematologic, cytogenetic and molecular remissions in FIP1L1::PDGFRA-associated myeloid/lymphoid neoplasms.",
+      "source_ids": [
+        "icc-eo"
+      ],
+      "evidence": [
+        {
+          "source_id": "icc-eo",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
+          "location": "Table 1, PDGFRA/PDGFRB rows; Treatment, PDF pages 3-5",
+          "scope": "Guideline synthesis of fusion-class clinical response, not independently reviewed trial.",
+          "access_level": "guideline"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "ETV6::PDGFRB",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "23e562c416d4903ea774b9d3ef5e99ea251e528ddaafc0b760cdf3b681ed9f6b",
+      "decision": "narrow",
+      "replacement_text": "A PDGFRB-rearranged myeloid-neoplasm cohort, including 18 ETV6::PDGFRB cases, showed frequent and durable responses to imatinib; outcomes were reported for the pooled fusion cohort.",
+      "source_ids": [
+        "pdgfrb"
+      ],
+      "evidence": [
+        {
+          "source_id": "pdgfrb",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4047496/",
+          "location": "Results: Table 1; response paragraphs and dose-reduction follow-up",
+          "scope": "Observed pooled imatinib responses; avoids converting class outcomes into partner-specific rates.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "ZMYM2::FGFR1",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "0c65123df6496d0d115bb34e711f20b427a55753a82ad66b49b21c28c43be187",
+      "decision": "narrow",
+      "replacement_text": "Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
+      "source_ids": [
+        "fda-fgfr1"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-fgfr1",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf",
+          "location": "Prescribing information section 1.2, PDF page 2",
+          "scope": "Correct adult relapsed/refractory FGFR1-rearranged MLN indication.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "BCR::FGFR1",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "0c65123df6496d0d115bb34e711f20b427a55753a82ad66b49b21c28c43be187",
+      "decision": "narrow",
+      "replacement_text": "Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
+      "source_ids": [
+        "fda-fgfr1"
+      ],
+      "evidence": [
+        {
+          "source_id": "fda-fgfr1",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf",
+          "location": "Prescribing information section 1.2, PDF page 2",
+          "scope": "Correct adult relapsed/refractory FGFR1-rearranged MLN indication.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained only the statement supported at the recorded source location."
+    },
+    {
+      "label": "PCM1::JAK2",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "3684b554300de06309af6a0b18b4ab38208848dbbd25e2f6cc4c351213f84cae",
+      "decision": "narrow",
+      "replacement_text": "In a series including eight PCM1::JAK2 and one BCR::JAK2 case, ruxolitinib produced hematologic or cytogenetic responses in some patients, but most discontinued for resistance, progression or planned transplantation.",
+      "source_ids": [
+        "jak2"
+      ],
+      "evidence": [
+        {
+          "source_id": "jak2",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.25825",
+          "location": "Results 3.2: Response to ruxolitinib; Table 1 and treatment-course Figure 1; PDF pages 3-6",
+          "scope": "Actual mixed-JAK2-fusion clinical series; outcomes pooled rather than assigned independently to PCM1.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "ZBTB16::RARA",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
+      "decision": "narrow",
+      "replacement_text": "ZBTB16::RARA was RT-PCR-confirmed in 18 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology.",
+      "source_ids": [
+        "rara"
+      ],
+      "evidence": [
+        {
+          "source_id": "rara",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/",
+          "location": "Body cohort molecular-results paragraph preceding Figure 1; Table 1 and Supplementary Table 1",
+          "scope": "Exact observed fusion/disease phenotype; structural/corepressor extrapolations excluded.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "NPM1::RARA",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
+      "decision": "narrow",
+      "replacement_text": "NPM1::RARA was confirmed by RT-qPCR in an infant with AML, a t(5;17) rearrangement and a mandibular myeloid sarcoma in a Hungarian clinical cohort.",
+      "source_ids": [
+        "npm-rara-hungary-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "npm-rara-hungary-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534106/",
+          "location": "Original-cohort Results sections 3.3.1 and 3.5; Figure 5; Table 4",
+          "scope": "Root inspected original own-patient case data, not the review portion of this article; exact fusion and phenotype.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "STAT5B::RARA",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "d40fd8bb1904d0c3d12185c0ca423686028dbf2c34f160b3784046f1caebbe47",
+      "decision": "narrow",
+      "replacement_text": "STAT5B::RARA was RT-PCR-confirmed in 3 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology.",
+      "source_ids": [
+        "rara"
+      ],
+      "evidence": [
+        {
+          "source_id": "rara",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/",
+          "location": "Body cohort molecular-results paragraph preceding Figure 1; Table 1 and Supplementary Table 1",
+          "scope": "Exact observed fusion/disease phenotype; structural/corepressor extrapolations excluded.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "ZBTB16::RARA",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "27644a85ce5d40e315178225cb4d12100cd18e173a38729d72c92828197db661",
+      "decision": "narrow",
+      "replacement_text": "In the rare-RARA series, no evident ATRA/ATO-induced differentiation was observed in ZBTB16::RARA-positive cases despite frequent retinoid exposure; treatment responses to combination regimens do not establish retinoid sensitivity.",
+      "source_ids": [
+        "rara"
+      ],
+      "evidence": [
+        {
+          "source_id": "rara",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/",
+          "location": "Treatment Results; paragraph beginning Most importantly; Figure 1 and Supplementary Table 1",
+          "scope": "Actual on-treatment differentiation observation rather than universal treatment-failure claim.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "NPM1::RARA",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "656ed7d2642e688154395fa75cc604095419f4bdf5b27bf4b5e3f0ffeab23d65",
+      "decision": "narrow",
+      "replacement_text": "The reported infant with NPM1::RARA-positive AML achieved remission with an AML chemotherapy regimen plus ATRA and remained in first remission at the reported 36-month follow-up. Subsequent treatment included arsenic; this combination outcome does not establish isolated ATRA sensitivity.",
+      "source_ids": [
+        "npm-rara-hungary-primary"
+      ],
+      "evidence": [
+        {
+          "source_id": "npm-rara-hungary-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534106/",
+          "location": "Original-cohort Results section 3.6; Table 4 molecular follow-up",
+          "scope": "Actual combination regimen and outcome in one fusion-positive patient; no monotherapy extrapolation.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary body observation supports this claim-scoped replacement; no broader claim is certified."
+    },
+    {
+      "label": "CBFA2T3::GLIS2",
+      "section_kind": "prognosis",
+      "original_text_sha256": "f5442d3286910cc2a7cc8b6855944567457d73a5202e5de4054cdab66121dccc",
+      "decision": "remove",
+      "replacement_text": null,
+      "source_ids": [],
+      "evidence": [
+        {
+          "source_id": "aml",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
+          "location": "Primary full text / exact claim passage not obtained in this pass",
+          "scope": "No primary-body support certified for this placement.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "Removed from report projection because the specific original claim was not confirmed against primary results or an applicable official reference."
+    },
+    {
+      "label": "STAT5B::RARA",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "27644a85ce5d40e315178225cb4d12100cd18e173a38729d72c92828197db661",
+      "decision": "remove",
+      "replacement_text": null,
+      "source_ids": [],
+      "evidence": [
+        {
+          "source_id": "rara",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/",
+          "location": "Primary full text / exact claim passage not obtained in this pass",
+          "scope": "No primary-body support certified for this placement.",
+          "access_level": "not_obtained"
+        },
+        {
+          "source_id": "stat5-rara",
+          "url": "https://www.nature.com/articles/leu2012371",
+          "location": "Primary full text / exact claim passage not obtained in this pass",
+          "scope": "No primary-body support certified for this placement.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "Removed from report projection because the specific original claim was not confirmed against primary results or an applicable official reference."
+    }
+  ],
+  "added_sources": [
+    {
+      "id": "npm-fusion-functional",
+      "title": "NPM1-fusion proteins promote myeloid leukemogenesis through XPO1-dependent HOX activation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11717694/",
+      "kind": "primary_study",
+      "citation_label": "NPM1-fusion proteins promote myeloid leukemogenesis through XPO1-dependent HOX activation",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "runx1-mecom-case",
+      "title": "A primary pediatric acute myelomonocytic leukemia with t(3;21)(q26;q22): a case report",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10615462/",
+      "kind": "primary_study",
+      "citation_label": "A primary pediatric acute myelomonocytic leukemia with t(3;21)(q26;q22): a case report",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "b-all-landscape-primary",
+      "title": "Landscape of driver mutations and their clinical impacts in pediatric B-cell precursor acute lymphoblastic leukemia",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7594377/",
+      "kind": "primary_study",
+      "citation_label": "Landscape of driver mutations and their clinical impacts in pediatric B-cell precursor acute lymphoblastic leukemia",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "pax5-cohort-primary",
+      "title": "PAX5-driven subtypes of B-progenitor acute lymphoblastic leukemia",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6525306/",
+      "kind": "primary_study",
+      "citation_label": "PAX5-driven subtypes of B-progenitor acute lymphoblastic leukemia",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "runx1-eto-functional",
+      "title": "Transforming activity of AML1-ETO is independent of CBFβ and ETO interaction but requires formation of homo-oligomeric complexes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2650355/",
+      "kind": "primary_study",
+      "citation_label": "Transforming activity of AML1-ETO is independent of CBFβ and ETO interaction but requires formation of homo-oligomeric complexes",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "bcr-abl-murine-primary",
+      "title": "Induction of chronic myelogenous leukemia in mice by the P210 bcr/abl gene of the Philadelphia chromosome",
+      "url": "https://escholarship.org/content/qt2702p39n/qt2702p39n_noSplash_c46cb787f73a3f68a430ec8592e8e614.pdf",
+      "kind": "primary_study",
+      "citation_label": "Induction of chronic myelogenous leukemia in mice by the P210 bcr/abl gene of the Philadelphia chromosome",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "npm-alk-dnmt1-primary",
+      "title": "Requirement of DNMT1 to orchestrate epigenomic reprogramming for NPM-ALK-driven lymphomagenesis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7768196/",
+      "kind": "primary_study",
+      "citation_label": "Requirement of DNMT1 to orchestrate epigenomic reprogramming for NPM-ALK-driven lymphomagenesis",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "pml-rara-differentiation-primary",
+      "title": "Cooperation of Cytokine Signaling with Chimeric Transcription Factors in Leukemogenesis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC164846/",
+      "kind": "primary_study",
+      "citation_label": "Cooperation of Cytokine Signaling with Chimeric Transcription Factors in Leukemogenesis",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "cbfb-myh11-proteogenomic-primary",
+      "title": "Proteogenomic analysis reveals cytoplasmic sequestration of RUNX1 by the CBFB::MYH11 oncofusion protein",
+      "url": "https://www.jci.org/articles/view/176311",
+      "kind": "primary_study",
+      "citation_label": "Proteogenomic analysis reveals cytoplasmic sequestration of RUNX1 by the CBFB::MYH11 oncofusion protein",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "dek-nup214-functional-primary",
+      "title": "DEK::NUP214 acts as an XPO1-dependent transcriptional activator of essential leukemia genes",
+      "url": "https://pure-oai.bham.ac.uk/ws/files/304240972/KayaF2025DEK_NUP214.pdf",
+      "kind": "primary_study",
+      "citation_label": "DEK::NUP214 acts as an XPO1-dependent transcriptional activator of essential leukemia genes",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "amkl-intergroup-primary",
+      "title": "Recurrent abnormalities can be used for risk group stratification in pediatric AMKL: a retrospective intergroup study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5161011/",
+      "kind": "primary_study",
+      "citation_label": "Recurrent abnormalities can be used for risk group stratification in pediatric AMKL: a retrospective intergroup study",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "mln-registry-primary",
+      "title": "Myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions: registry-based cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/",
+      "kind": "primary_study",
+      "citation_label": "Myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions: registry-based cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "etv6-runx1-outcome-primary",
+      "title": "ETV6-RUNX1-positive childhood acute lymphoblastic leukemia: improved outcome with contemporary therapy",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3345278/",
+      "kind": "primary_study",
+      "citation_label": "ETV6-RUNX1-positive childhood acute lymphoblastic leukemia: improved outcome with contemporary therapy",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "fus-erg-ewing-case-primary",
+      "title": "Oligometastatic renal Ewing sarcoma with FUS::ERG fusion: a case report and literature review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12161885/",
+      "kind": "primary_study",
+      "citation_label": "Oligometastatic renal Ewing sarcoma with FUS::ERG fusion: a case report and literature review",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "npm-rara-hungary-primary",
+      "title": "Recent Advances in the Management of Pediatric Acute Myeloid Leukemia: Report of the Hungarian Pediatric Oncology-Hematology Group",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534106/",
+      "kind": "primary_study",
+      "citation_label": "Recent Advances in the Management of Pediatric Acute Myeloid Leukemia: Report of the Hungarian Pediatric Oncology-Hematology Group",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    },
+    {
+      "id": "tcf3-pbx1-cns-primary",
+      "title": "Increased Risk for CNS Relapse in Pre-B Cell Leukemia with the t(1;19)/TCF3-PBX1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2731684/",
+      "kind": "primary_study",
+      "citation_label": "Increased Risk for CNS Relapse in Pre-B Cell Leukemia with the t(1;19)/TCF3-PBX1",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Specific primary Results/Figure/Table location documented in audit-followup-heme.json",
+      "access_level": "primary_body_or_results",
+      "reuse_notes": "Original synthesis with source links."
+    }
+  ],
+  "held_entries": [],
+  "limitations": [
+    "Unchanged dated ELN classification statements remain explicitly guideline-supported. Regulatory labels remain official-regulatory support.",
+    "Indexed fulltext Results/Figure/Table passages were used when direct publisher pages returned CAPTCHA or access errors; abstract-only evidence is not upgraded."
+  ],
+  "followup_attempts": [
+    {
+      "labels": [
+        "FIP1L1::PDGFRA"
+      ],
+      "section_kind": "therapeutics",
+      "outcome": "Primary 44-patient imatinib cohort identified (PMC4553979), direct page CAPTCHA and indexed exact treatment Results passage not adequately obtained; retain inspected ICC guidance."
+    }
+  ]
+}

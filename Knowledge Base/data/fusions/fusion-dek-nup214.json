@@ -64,20 +64,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(6;9) rearrangement joins DEK and NUP214 and defines a recurrent AML subtype.",
+      "text": "DEK::NUP214 bound regulatory regions of FOXC1 and HOXA/HOXB genes in cellular models. XPO1 inhibition reduced fusion-associated binding and expression of these leukemia-associated transcriptional targets, including in primary t(6;9) AML samples.",
       "source_ids": [
-        "aml"
+        "dek-nup214-functional-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "67aa77a00617d6377231f1c500f64e8d1375b3edee6da03356b32776b071cf00",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "641c549e3b801b78158d06d67ac951d10d618a9c3c7b411545347abe1d88a86a",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "WHO classification tables and gene-specific cytogenetic sections",
-          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
-          "access_level": "guideline"
+          "source_id": "dek-nup214-functional-primary",
+          "url": "https://pure-oai.bham.ac.uk/ws/files/304240972/KayaF2025DEK_NUP214.pdf",
+          "location": "Results and Discussion: XPO1-dependent transcription factor; Figure 2B-F; PDF pages 4-6",
+          "scope": "Direct CUT&RUN and perturbation evidence; XPO1 inhibitor sensitivity is experimental and not a fusion-specific approved treatment.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -102,11 +102,11 @@
     }
   ],
   "report_comment": {
-    "text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. The t(6;9) rearrangement joins DEK and NUP214 and defines a recurrent AML subtype. DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
+    "text": "DEK encodes a chromatin-associated regulator of transcription and DNA topology. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. DEK::NUP214 bound regulatory regions of FOXC1 and HOXA/HOXB genes in cellular models. XPO1 inhibition reduced fusion-associated binding and expression of these leukemia-associated transcriptional targets, including in primary t(6;9) AML samples. DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria.",
     "source_ids": [
       "ncbi-7913",
       "ncbi-8021",
-      "aml",
+      "dek-nup214-functional-primary",
       "eln-aml"
     ]
   },
@@ -123,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "7e49572ab248f641c5ce2b69be3f03a6f20be956ecd73fed54dfc74cc08d72a8"
+  "text_sha256": "e6b0b8f3be52a3d5607efd6940ce527d28763b22f07e719c792077d3b47c1555"
 }

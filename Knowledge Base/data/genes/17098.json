@@ -209,7 +209,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DICER1 encodes endoribonuclease Dicer. It participates in negative regulation of transcription by RNA polymerase II and miRNA processing. Functional annotations also associate the protein with RNA endonuclease activity and deoxyribonuclease I activity.",
+      "text": "DICER1 encodes a ribonuclease involved in RNA-interference pathways and production of small RNAs that repress gene expression. Its protein contains an amino-terminal RNA-helicase motif and carboxy-terminal RNA-related domains. By helping generate the active small-RNA component of these pathways, DICER1 links RNA processing with regulation of gene output. Its biological role concerns maturation of regulatory RNAs rather than direct transcription of their target genes.",
       "source_ids": [
         "ncbi-23405",
         "uniprot-Q9UPY3"

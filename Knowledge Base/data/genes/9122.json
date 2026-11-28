@@ -159,7 +159,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PMS2 encodes the endonuclease component of the MLH1–PMS2 mismatch-repair complex, which helps remove replication-associated DNA errors.",
+      "text": "PMS2 encodes the endonuclease component of MutL-alpha, a DNA mismatch-repair complex formed with MLH1. After MutS complexes recognize mismatches or insertion/deletion loops, MutL-alpha helps initiate removal of the incorrect DNA. PMS2 supplies the DNA-cutting activity, with a conserved carboxy-terminal motif contributing to its active site. This role distinguishes downstream incision of DNA from the initial recognition of the mismatch.",
       "source_ids": [
         "ncbi-5395"
       ]

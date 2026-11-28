@@ -64,44 +64,52 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group.",
+      "text": "BCOR::CCNB3 is associated with a round-to-spindle-cell sarcoma group. Primary molecular analyses demonstrated the BCOR exon 15–CCNB3 exon 5 junction and inversion-associated FISH pattern, with an expression profile distinct from Ewing and CIC-rearranged sarcomas.",
       "source_ids": [
-        "audit-sarcoma-nci-sts",
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-bcor"
       ],
-      "claim_sha256": "673e34c139db34d82c806c5c27d284e07356a9c585c23fd460d89f2ca77e0ef4",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "5e298160ad8e279f1d06b78a50765166b64aa78570020698b0941d8d084273d6",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-sts",
-          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
-          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
-          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
-          "access_level": "guideline"
-        },
+          "source_id": "audit-followup-sarcoma-bcor",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/",
+          "location": "Results: BCOR-CCNB3 fusions identified by FISH and RNA sequencing; Figures 3–4; Clinical follow-up and Figure 7",
+          "scope": "Indexed primary Results: BCOR exon 15-CCNB3 exon 5 junction, inversion FISH, distinct expression cluster; survival comparison of 22 followed BCS versus 57 historical CIC-rearranged controls and ES controls.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    },
+    {
+      "kind": "prognosis",
+      "text": "In a molecularly confirmed BCOR::CCNB3 series, the 22 patients with follow-up had a five-year overall survival estimate of 72%, better than the historical CIC-rearranged sarcoma control cohort. Seven of nine evaluable tumors treated with Ewing-type chemotherapy showed 60–100% treatment-related necrosis or fibrosis.",
+      "source_ids": [
+        "audit-followup-sarcoma-bcor"
+      ],
+      "claim_sha256": "873ca876e4b97be04fff08c0d3fb2275ccf8c3205e92f5c670d8e6b618c46cf4",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-ewing",
-          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
-          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
-          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
-          "access_level": "guideline"
+          "source_id": "audit-followup-sarcoma-bcor",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/",
+          "location": "Results: BCOR-CCNB3 fusions identified by FISH and RNA sequencing; Figures 3–4; Clinical follow-up and Figure 7",
+          "scope": "Indexed primary Results: BCOR exon 15-CCNB3 exon 5 junction, inversion FISH, distinct expression cluster; survival comparison of 22 followed BCS versus 57 historical CIC-rearranged controls and ES controls.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "BCOR encodes a BCL6-interacting transcriptional corepressor. CCNB3 encodes cyclin B3, a regulator of cell-cycle progression. BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group.",
+    "text": "BCOR encodes a BCL6-interacting transcriptional corepressor. CCNB3 encodes cyclin B3, a regulator of cell-cycle progression. BCOR::CCNB3 is associated with a round-to-spindle-cell sarcoma group. Primary molecular analyses demonstrated the BCOR exon 15–CCNB3 exon 5 junction and inversion-associated FISH pattern, with an expression profile distinct from Ewing and CIC-rearranged sarcomas. In a molecularly confirmed BCOR::CCNB3 series, the 22 patients with follow-up had a five-year overall survival estimate of 72%, better than the historical CIC-rearranged sarcoma control cohort. Seven of nine evaluable tumors treated with Ewing-type chemotherapy showed 60–100% treatment-related necrosis or fibrosis.",
     "source_ids": [
       "ncbi-54880",
       "ncbi-85417",
-      "audit-sarcoma-nci-sts",
-      "audit-sarcoma-nci-ewing"
+      "audit-followup-sarcoma-bcor"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
   ],
   "editorial": {
     "status": "draft",
@@ -112,9 +120,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "0d1308c65874cd6acc40c0a9cbae04f643187724712ad1dbe7c4861b01d20a59"
+  "text_sha256": "ec333b5db5ad17a4c7ec5683c2daf26e9a146cc5e52561b435b66f6f985419f8"
 }

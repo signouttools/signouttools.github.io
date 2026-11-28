@@ -2,7 +2,7 @@
 
 Pathologist review needed — LLM-generated summary/review.
 
-Evidence audit 2026-11-27. **185 integrated draft entries**; **1 previously drafted entries held**. Primary body/results, official regulatory evidence and authoritative references are distinguished in the audit. Unsupported subclaims have been excluded. Normal partner descriptions use gene/identity references. Specialist review remains pending.
+Evidence audit 2026-11-27. **186 integrated draft entries**; **0 previously drafted entries held**. Primary body/results, official regulatory evidence and authoritative references are distinguished in the audit. Unsupported subclaims have been excluded. Normal partner descriptions use gene/identity references. Specialist review remains pending.
 
 [Evidence audit and coverage](FUSION-REVIEW.md) · [Browse fusions](index.html?mode=fusions)
 
@@ -166,6 +166,14 @@ SQSTM1 encodes sequestosome 1/p62. ([HGNC identity snapshot](https://www.genenam
 
 ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase. ([NTRK3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4916)). ETV6::NTRK3 is a transforming fusion associated with secretory breast carcinoma. Expression in mammary epithelial cell lines produced transformation and experimental tumors. ([ETV6::NTRK3 breast epithelial transformation](https://www.sciencedirect.com/science/article/pii/S1535610802001800)). Larotrectinib targets oncogenic NTRK-fusion-positive advanced solid tumors in adults and children without known acquired TRK resistance mutations, after progression or without satisfactory alternatives, when disease is metastatic or surgery would cause severe morbidity. ([NCI larotrectinib approved use](https://www.cancer.gov/about-cancer/treatment/drugs/larotrectinibsulfate)).
 
+## ETV6::NTRK2
+
+**Tumor scope:** AML.
+
+**Evidence:** Primary fusion results checked.
+
+ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). ETV6::NTRK2 was identified in secondary refractory AML and retained the full NTRK2 kinase domain. Expression of the fusion supported cytokine-independent growth of Ba/F3 and 32D cells, demonstrating transforming activity in these experimental hematopoietic models. ([Oncogenic TRK fusions are amenable to inhibition in hematologic malignancies](https://dm5migu4zj3pb.cloudfront.net/manuscripts/120000/120787/JCI120787.v3.pdf)). A patient with refractory secondary AML and ETV6::NTRK2 achieved a partial remission with larotrectinib, followed by clinical relapse after 10–12 weeks. The patient also harbored ETV6::MECOM and other alterations, and the response differed between clones. This is case-level clinical evidence. ([Oncogenic TRK fusions are amenable to inhibition in hematologic malignancies](https://dm5migu4zj3pb.cloudfront.net/manuscripts/120000/120787/JCI120787.v3.pdf)).
+
 ## FGFR2::BICC1
 
 **Tumor scope:** Intrahepatic cholangiocarcinoma.
@@ -282,57 +290,57 @@ CARS1 encodes cytoplasmic cysteinyl-tRNA synthetase. ([HGNC identity snapshot](h
 
 **Tumor scope:** ALK-positive anaplastic large cell lymphoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). The t(2;5)-associated NPM1::ALK fusion is a recurrent driver in ALK-positive anaplastic large cell lymphoma. ([Childhood Cancer Genomics (PDQ), health professional version](https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq)). Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma. ([FDA crizotinib label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf)).
+NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). In a conditional NPM1::ALK mouse model, fusion expression induced lymphoma with activation of MYC- and NOTCH1-associated programs. Dnmt1 deletion prevented lymphoma development despite persistent proximal ALK signaling. ([Requirement of DNMT1 to orchestrate epigenomic reprogramming for NPM-ALK-driven lymphomagenesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC7768196/)). Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma. ([FDA crizotinib label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/202570s033lbl.pdf)).
 
 ## BCR::ABL1
 
 **Tumor scope:** Chronic myeloid leukemia; B-lymphoblastic leukemia; Rare de novo AML.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-BCR encodes breakpoint cluster region protein. ([BCR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/613)). ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses. ([ABL1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/25)). The t(9;22) rearrangement produces a tyrosine-kinase fusion that drives CML and a subset of B-ALL. The p210 isoform predominates in CML, while p190 is more common in B-ALL. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+BCR encodes breakpoint cluster region protein. ([BCR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/613)). ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses. ([ABL1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/25)). Expression of p210 BCR::ABL1 in transplanted murine bone marrow induced a CML-like myeloproliferative syndrome, demonstrating its leukemogenic activity in vivo. Other hematologic tumor phenotypes also occurred in the model. ([Induction of chronic myelogenous leukemia in mice by the P210 bcr/abl gene of the Philadelphia chromosome](https://escholarship.org/content/qt2702p39n/qt2702p39n_noSplash_c46cb787f73a3f68a430ec8592e8e614.pdf)). ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
 
 ## PML::RARA
 
 **Tumor scope:** Acute promyelocytic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways. ([PML — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5371)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). PML::RARA is the defining fusion of conventional acute promyelocytic leukemia and commonly arises from t(15;17). ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)). All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
+PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways. ([PML — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5371)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). PML::RARA blocked IL-3-stimulated myeloid differentiation in experimental marrow systems; ATRA restored differentiation. Coexpression with IL-3 produced rapidly fatal AML-like disease in transplanted mice. ([Cooperation of Cytokine Signaling with Chimeric Transcription Factors in Leukemogenesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC164846/)). All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
 
 ## RUNX1::RUNX1T1
 
 **Tumor scope:** Core-binding factor AML.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). RUNX1T1 encodes ETO, a transcriptional corepressor. ([RUNX1T1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/862)). The t(8;21) rearrangement joins RUNX1 and RUNX1T1 and defines a core-binding factor AML subtype. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)). Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
+RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). RUNX1T1 encodes ETO, a transcriptional corepressor. ([RUNX1T1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/862)). RUNX1::RUNX1T1 (AML1-ETO) promotes serial replating of murine hematopoietic progenitors. DNA-binding disruption or deletion of its NHR2 oligomerization region abolished this transforming activity in the tested model. ([Transforming activity of AML1-ETO is independent of CBFβ and ETO interaction but requires formation of homo-oligomeric complexes](https://pmc.ncbi.nlm.nih.gov/articles/PMC2650355/)). Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
 
 ## CBFB::MYH11
 
 **Tumor scope:** Core-binding factor AML.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex. ([CBFB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/865)). MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein. ([MYH11 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4629)). The inv(16)/t(16;16) rearrangement joins CBFB and MYH11 and is associated with myelomonocytic AML with abnormal eosinophils. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)). Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
+CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex. ([CBFB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/865)). MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein. ([MYH11 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4629)). CBFB::MYH11 formed cytoplasmic aggregates that recruited RUNX1 in hematopoietic-cell models. Immunofluorescence of primary fusion-positive AML samples also supported predominantly cytoplasmic localization. ([Proteogenomic analysis reveals cytoplasmic sequestration of RUNX1 by the CBFB::MYH11 oncofusion protein](https://www.jci.org/articles/view/176311)). Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
 
 ## DEK::NUP214
 
 **Tumor scope:** AML with DEK::NUP214.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-DEK encodes a chromatin-associated regulator of transcription and DNA topology. ([DEK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7913)). NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. ([NUP214 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8021)). The t(6;9) rearrangement joins DEK and NUP214 and defines a recurrent AML subtype. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)). DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
+DEK encodes a chromatin-associated regulator of transcription and DNA topology. ([DEK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7913)). NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. ([NUP214 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8021)). DEK::NUP214 bound regulatory regions of FOXC1 and HOXA/HOXB genes in cellular models. XPO1 inhibition reduced fusion-associated binding and expression of these leukemia-associated transcriptional targets, including in primary t(6;9) AML samples. ([DEK::NUP214 acts as an XPO1-dependent transcriptional activator of essential leukemia genes](https://pure-oai.bham.ac.uk/ws/files/304240972/KayaF2025DEK_NUP214.pdf)). DEK::NUP214 AML is in the adverse genetic-risk group under adult ELN 2022 intensive-treatment criteria. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
 
 ## RBM15::MRTFA
 
 **Tumor scope:** Infant acute megakaryoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-RBM15 encodes a SPEN-family RNA-binding regulatory protein. ([RBM15 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/64783)). MRTFA encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression. ([MRTFA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/57591)). The t(1;22) rearrangement joins RBM15 and MRTFA and occurs in a subset of infant acute megakaryoblastic leukemias. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
+RBM15 encodes a SPEN-family RNA-binding regulatory protein. ([RBM15 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/64783)). MRTFA encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression. ([MRTFA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/57591)). RBM15::MRTFA, also called RBM15::MKL1, was detected in a subset of pediatric non-Down-syndrome acute megakaryoblastic leukemias. Fusion-positive children were younger at diagnosis than the other molecular groups. ([Recurrent abnormalities can be used for risk group stratification in pediatric AMKL: a retrospective intergroup study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5161011/)).
 
 ## KMT2A::MLLT3
 
@@ -442,9 +450,9 @@ NUP98 encodes a nuclear pore protein with an amino-terminal region involved in t
 
 **Tumor scope:** Pediatric AML, often megakaryoblastic.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. ([CBFA2T3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/863)). GLIS2 encodes a zinc-finger transcriptional regulator. ([GLIS2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/84662)). The cryptic inv(16)(p13q24) rearrangement joins CBFA2T3 and GLIS2 and is associated with pediatric AML, frequently with megakaryoblastic differentiation. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
+CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. ([CBFA2T3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/863)). GLIS2 encodes a zinc-finger transcriptional regulator. ([GLIS2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/84662)). CBFA2T3::GLIS2 was identified in pediatric non-Down-syndrome acute megakaryoblastic leukemia by molecular screening in an international cohort. ([Recurrent abnormalities can be used for risk group stratification in pediatric AMKL: a retrospective intergroup study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5161011/)).
 
 ## FUS::ERG
 
@@ -452,7 +460,7 @@ CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differen
 
 **Evidence:** Primary fusion results checked.
 
-FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. ([ERG — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2078)). The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML. ([Pediatric t(16;21) outcome study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6265640/)). FUS::ERG also occurs rarely in Ewing sarcoma; the leukemia outcome evidence does not establish sarcoma prognosis. ([NCI Ewing and round cell sarcoma PDQ](https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq)). Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort. ([Pediatric t(16;21) outcome study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6265640/)).
+FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. ([ERG — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2078)). The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML. ([Pediatric t(16;21) outcome study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6265640/)). FUS::ERG also occurs in Ewing sarcoma: an RNA-based fusion panel confirmed the exact fusion in a reported renal Ewing sarcoma. ([Oligometastatic renal Ewing sarcoma with FUS::ERG fusion: a case report and literature review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12161885/)). Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort. ([Pediatric t(16;21) outcome study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6265640/)).
 
 ## RUNX1::CBFA2T3
 
@@ -474,9 +482,9 @@ PICALM encodes a clathrin-associated adaptor involved in endocytosis. ([PICALM �
 
 **Tumor scope:** T-lymphoblastic leukemia; AML.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-SET encodes SET nuclear protein. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. ([NUP214 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8021)). SET::NUP214 occurs in the HOXA-expression subgroup of T-ALL and is associated with HOXA9 overexpression. ([Childhood Cancer Genomics (PDQ), health professional version](https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq)).
+SET encodes SET nuclear protein. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. ([NUP214 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8021)). SET::NUP214 is a recurrent T-ALL fusion. In LOUCY cells, fusion knockdown reduced HOXA expression and proliferation and increased differentiation markers; ChIP detected association with HOXA9 and HOXA10 promoters. ([SET::NUP214 functional study](https://doi.org/10.1182/blood-2007-09-111872)).
 
 ## KAT6A::CREBBP
 
@@ -498,65 +506,65 @@ KAT6A encodes a histone acetyltransferase and transcriptional coactivator. ([KAT
 
 **Tumor scope:** AML with variant RARA fusion.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation. ([ZBTB16 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7704)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). ZBTB16::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)). ZBTB16::RARA-positive variant APL usually fails to respond to tretinoin or arsenic trioxide. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
+ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation. ([ZBTB16 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7704)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). ZBTB16::RARA was RT-PCR-confirmed in 18 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology. ([Uncommon RARA fusion AML outcomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/)). In the rare-RARA series, no evident ATRA/ATO-induced differentiation was observed in ZBTB16::RARA-positive cases despite frequent retinoid exposure; treatment responses to combination regimens do not establish retinoid sensitivity. ([Uncommon RARA fusion AML outcomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/)).
 
 ## NPM1::RARA
 
 **Tumor scope:** AML with variant RARA fusion.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). NPM1::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)). Rare NPM1::RARA-positive APL variants may retain sensitivity to tretinoin. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
+NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). NPM1::RARA was confirmed by RT-qPCR in an infant with AML, a t(5;17) rearrangement and a mandibular myeloid sarcoma in a Hungarian clinical cohort. ([Recent Advances in the Management of Pediatric Acute Myeloid Leukemia: Report of the Hungarian Pediatric Oncology-Hematology Group](https://pmc.ncbi.nlm.nih.gov/articles/PMC8534106/)). The reported infant with NPM1::RARA-positive AML achieved remission with an AML chemotherapy regimen plus ATRA and remained in first remission at the reported 36-month follow-up. Subsequent treatment included arsenic; this combination outcome does not establish isolated ATRA sensitivity. ([Recent Advances in the Management of Pediatric Acute Myeloid Leukemia: Report of the Hungarian Pediatric Oncology-Hematology Group](https://pmc.ncbi.nlm.nih.gov/articles/PMC8534106/)).
 
 ## STAT5B::RARA
 
 **Tumor scope:** AML with variant RARA fusion.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-STAT5B encodes a cytokine-responsive JAK-STAT transcription factor. ([STAT5B — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6777)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). STAT5B::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
+STAT5B encodes a cytokine-responsive JAK-STAT transcription factor. ([STAT5B — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6777)). RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ([RARA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5914)). STAT5B::RARA was RT-PCR-confirmed in 3 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology. ([Uncommon RARA fusion AML outcomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/)).
 
 ## FIP1L1::PDGFRA
 
 **Tumor scope:** Myeloid/lymphoid neoplasm with PDGFRA rearrangement.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery. ([FIP1L1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/81608)). PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase. ([PDGFRA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5156)). FIP1L1::PDGFRA is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)). Imatinib can induce durable hematologic, cytogenetic and molecular remissions in FIP1L1::PDGFRA-associated myeloid/lymphoid neoplasms. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)).
+FIP1L1 encodes a component of the messenger RNA cleavage and polyadenylation machinery. ([FIP1L1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/81608)). PDGFRA encodes platelet-derived growth factor receptor alpha, a receptor tyrosine kinase. ([PDGFRA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5156)). FIP1L1::PDGFRA was documented in 78 patients in a registry study of myeloid/lymphoid neoplasms with tyrosine-kinase fusions, providing direct clinical evidence for this disease association. ([Myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions: registry-based cohort](https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/)). Imatinib can induce durable hematologic, cytogenetic and molecular remissions in FIP1L1::PDGFRA-associated myeloid/lymphoid neoplasms. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)).
 
 ## ETV6::PDGFRB
 
 **Tumor scope:** Myeloid/lymphoid neoplasm with PDGFRB rearrangement.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. ([PDGFRB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5159)). ETV6::PDGFRB is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)). Imatinib can induce durable hematologic, cytogenetic and molecular remissions in ETV6::PDGFRB-associated myeloid/lymphoid neoplasms. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)).
+ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. ([PDGFRB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5159)). ETV6::PDGFRB was identified in 18 patients in a 26-patient cohort of PDGFRB-rearranged myeloid neoplasms, predominantly chronic myeloproliferative or myelomonocytic disease with eosinophilia. ([PDGFRB fusion long-term imatinib outcomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC4047496/)). A PDGFRB-rearranged myeloid-neoplasm cohort, including 18 ETV6::PDGFRB cases, showed frequent and durable responses to imatinib; outcomes were reported for the pooled fusion cohort. ([PDGFRB fusion long-term imatinib outcomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC4047496/)).
 
 ## ZMYM2::FGFR1
 
 **Tumor scope:** Myeloid/lymphoid neoplasm with FGFR1 rearrangement.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-ZMYM2 encodes a zinc-finger transcriptional coregulator. ([ZMYM2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7750)). FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2260)). ZMYM2::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)). Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement. ([FDA pemigatinib label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf)).
+ZMYM2 encodes a zinc-finger transcriptional coregulator. ([ZMYM2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7750)). FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2260)). ZMYM2::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort. ([Myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions: registry-based cohort](https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/)). Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement. ([FDA pemigatinib label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf)).
 
 ## BCR::FGFR1
 
 **Tumor scope:** Myeloid/lymphoid neoplasm with FGFR1 rearrangement.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-BCR encodes breakpoint cluster region protein. ([BCR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/613)). FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2260)). BCR::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)). Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement. ([FDA pemigatinib label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf)).
+BCR encodes breakpoint cluster region protein. ([BCR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/613)). FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2260)). BCR::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort. ([Myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase gene fusions: registry-based cohort](https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/)). Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement. ([FDA pemigatinib label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213736s002lbl.pdf)).
 
 ## PCM1::JAK2
 
 **Tumor scope:** Myeloid/lymphoid neoplasm with JAK2 rearrangement.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-PCM1 encodes a centrosomal-satellite scaffold protein. ([PCM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5108)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). PCM1::JAK2 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)). Ruxolitinib can produce hematologic and cytogenetic responses in JAK2-fusion myeloid/lymphoid neoplasms, but these responses may be limited in duration. ([International Consensus Classification of eosinophilic disorders and systemic mastocytosis](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966)).
+PCM1 encodes a centrosomal-satellite scaffold protein. ([PCM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5108)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). PCM1::JAK2 was documented in a clinical series of JAK2-fusion myeloid neoplasms presenting in chronic or blast phase, often with marrow fibrosis and abnormal erythropoiesis. ([TKI response in PCM1::JAK2, BCR::JAK2 and ETV6::ABL1](https://pubmed.ncbi.nlm.nih.gov/32279331/)). In a series including eight PCM1::JAK2 and one BCR::JAK2 case, ruxolitinib produced hematologic or cytogenetic responses in some patients, but most discontinued for resistance, progression or planned transplantation. ([TKI response in PCM1::JAK2, BCR::JAK2 and ETV6::ABL1](https://pubmed.ncbi.nlm.nih.gov/32279331/)).
 
 ## ETV6::JAK2
 
@@ -634,17 +642,17 @@ SSBP2 encodes single-stranded DNA-binding protein 2. ([HGNC identity snapshot](h
 
 **Tumor scope:** Childhood B-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). ETV6::RUNX1 defines a recurrent pediatric B-ALL subtype. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). Children with ETV6::RUNX1-positive B-ALL generally have favorable event-free and overall survival with contemporary treatment; early treatment response and NCI risk group refine this association. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). ETV6::RUNX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort. ([Landscape of driver mutations and their clinical impacts in pediatric B-cell precursor acute lymphoblastic leukemia](https://pmc.ncbi.nlm.nih.gov/articles/PMC7594377/)). In St. Jude Total XV, ETV6::RUNX1-positive B-ALL had better event-free and overall survival than fusion-negative disease. This difference was not significant in the earlier Total XIIIA/B cohorts, supporting a treatment-specific interpretation. ([ETV6-RUNX1-positive childhood acute lymphoblastic leukemia: improved outcome with contemporary therapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC3345278/)).
 
 ## TCF3::PBX1
 
 **Tumor scope:** B-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-TCF3 encodes E2A transcription factors required for lymphoid development. ([TCF3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6929)). PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators. ([PBX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5087)). TCF3::PBX1 defines a recurrent pediatric B-ALL subtype. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). The historically adverse outcome of TCF3::PBX1-positive childhood B-ALL was largely overcome by intensive multiagent treatment; a higher CNS relapse rate was observed in the cited St. Jude cohort. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+TCF3 encodes E2A transcription factors required for lymphoid development. ([TCF3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6929)). PBX1 encodes a homeobox transcription factor that cooperates with other developmental regulators. ([PBX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5087)). TCF3::PBX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort. ([Landscape of driver mutations and their clinical impacts in pediatric B-cell precursor acute lymphoblastic leukemia](https://pmc.ncbi.nlm.nih.gov/articles/PMC7594377/)). In the St. Jude cohort, TCF3::PBX1-positive B-ALL had event-free survival comparable to other B-cell-precursor ALL but a higher incidence of CNS relapse. The CNS association persisted in the study multivariable analyses. ([Increased Risk for CNS Relapse in Pre-B Cell Leukemia with the t(1;19)/TCF3-PBX1](https://pmc.ncbi.nlm.nih.gov/articles/PMC2731684/)).
 
 ## TCF3::HLF
 
@@ -674,33 +682,33 @@ MEF2D encodes a MADS-box transcription factor involved in differentiation and ce
 
 **Tumor scope:** B-lymphoblastic leukemia; B/myeloid mixed-phenotype acute leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase. ([EP300 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2033)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). EP300::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase. ([EP300 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2033)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). EP300::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing. ([ZNF384-rearranged B-ALL cohort](https://pubmed.ncbi.nlm.nih.gov/33988307/)).
 
 ## TCF3::ZNF384
 
 **Tumor scope:** B-lymphoblastic leukemia; B/myeloid mixed-phenotype acute leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-TCF3 encodes E2A transcription factors required for lymphoid development. ([TCF3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6929)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). TCF3::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+TCF3 encodes E2A transcription factors required for lymphoid development. ([TCF3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6929)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). TCF3::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The reported TCF3 partner was identified by FISH. ([ZNF384-rearranged B-ALL cohort](https://pubmed.ncbi.nlm.nih.gov/33988307/)).
 
 ## TAF15::ZNF384
 
 **Tumor scope:** B-lymphoblastic leukemia; B/myeloid mixed-phenotype acute leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. ([TAF15 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8148)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). TAF15::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. ([TAF15 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8148)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). TAF15::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing. ([ZNF384-rearranged B-ALL cohort](https://pubmed.ncbi.nlm.nih.gov/33988307/)).
 
 ## PAX5::ETV6
 
 **Tumor scope:** B-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). PAX5::ETV6 is a recurrent PAX5 fusion in B-ALL and is associated with dic(9;12)(p13;p13). ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). PAX5::ETV6 is a recurrent in-frame fusion in the PAX5-altered B-ALL subgroup, identified in 19 cases in a large genomic study. ([PAX5-driven subtypes of B-progenitor acute lymphoblastic leukemia](https://pmc.ncbi.nlm.nih.gov/articles/PMC6525306/)).
 
 ## BIRC3::MALT1
 
@@ -722,33 +730,33 @@ EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate tr
 
 **Tumor scope:** Ewing sarcoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. ([ERG — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2078)). EWSR1::ERG is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region. ([NCI Ewing sarcoma PDQ](https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq)).
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. ([ERG — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2078)). EWSR1::ERG is a molecularly confirmed Ewing sarcoma fusion. A primary clinicopathological cohort included 26 tumors with this fusion, with round, ovoid, spindle or epithelioid morphology. ([Clinical heterogeneity of fusion-defined round cell sarcomas](https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/)).
 
 ## EWSR1::ETV1
 
 **Tumor scope:** Ewing sarcoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). ETV1 encodes an ETS-family transcription factor. ([ETV1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2115)). EWSR1::ETV1 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region. ([NCI Ewing sarcoma PDQ](https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq)).
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). ETV1 encodes an ETS-family transcription factor. ([ETV1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2115)). EWSR1::ETV1 is a rare Ewing sarcoma fusion documented in clinical translocation-testing data and in a molecularly characterized Ewing sarcoma cohort. ([Translocation testing in metastatic Ewing sarcoma AEWS1221](https://pmc.ncbi.nlm.nih.gov/articles/PMC9048754/), [Clinical heterogeneity of fusion-defined round cell sarcomas](https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/)).
 
 ## EWSR1::ETV4
 
 **Tumor scope:** Ewing sarcoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). ETV4 encodes an ETS-family transcription factor. ([ETV4 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2118)). EWSR1::ETV4 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region. ([NCI Ewing sarcoma PDQ](https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq)).
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). ETV4 encodes an ETS-family transcription factor. ([ETV4 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2118)). EWSR1::ETV4 is a rare Ewing sarcoma fusion documented in molecularly characterized tumors. The reviewed cohort included an infant with an EWSR1::ETV4-positive paraspinal/pelvic soft-tissue tumor containing prominent calcification. ([Clinical heterogeneity of fusion-defined round cell sarcomas](https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/)).
 
 ## EWSR1::FEV
 
 **Tumor scope:** Ewing sarcoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). FEV encodes an ETS-family transcription factor expressed in serotonergic neurons. ([FEV — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/54738)). EWSR1::FEV is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region. ([NCI Ewing sarcoma PDQ](https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq)).
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). FEV encodes an ETS-family transcription factor expressed in serotonergic neurons. ([FEV — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/54738)). EWSR1::FEV is a rare Ewing sarcoma fusion. Molecular analysis demonstrates EWSR1 joined to FEV with retention of the FEV ETS DNA-binding domain; directly studied tumors show primitive round-cell morphology. ([FEV fusion Ewing sarcoma molecular cohort](https://pmc.ncbi.nlm.nih.gov/articles/PMC7135932/)).
 
 ## SS18::SSX1
 
@@ -794,9 +802,9 @@ PAX7 encodes a paired-box transcription factor involved in development. ([PAX7 �
 
 **Tumor scope:** Desmoplastic small round cell tumor.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). WT1 encodes a zinc-finger transcriptional regulator involved in kidney and gonadal development. ([WT1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7490)). EWSR1::WT1 is the characteristic fusion associated with desmoplastic small round cell tumor. ([NCI childhood soft tissue sarcoma PDQ](https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq)).
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). WT1 encodes a zinc-finger transcriptional regulator involved in kidney and gonadal development. ([WT1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7490)). EWSR1::WT1 is an oncogenic transcriptional regulator of desmoplastic small round cell tumor. Fusion-depletion experiments reduce active chromatin, three-dimensional enhancer contacts and direct target-gene expression; coexpression of its +KTS and −KTS splice isoforms generated DSRCT-like xenografts in a mesothelial-cell model. ([EWS-WT1 isoforms establish DSRCT oncogenic programs](https://www.nature.com/articles/s41467-024-51851-3)).
 
 ## FUS::DDIT3
 
@@ -810,9 +818,9 @@ FUS encodes an RNA-binding protein involved in RNA processing and transcriptiona
 
 **Tumor scope:** Myxoid liposarcoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor. ([DDIT3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/1649)). EWSR1::DDIT3 is a recognized fusion in myxoid liposarcoma. ([NCI childhood soft tissue sarcoma PDQ](https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq)). Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion. ([FDA trabectedin prescribing information (2026)](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf)).
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). DDIT3 encodes CHOP, a stress-responsive bZIP transcription factor. ([DDIT3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/1649)). Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion. ([FDA trabectedin prescribing information (2026)](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf)). EWSR1::DDIT3 is a myxoid liposarcoma fusion confirmed by RNA sequencing. A directly documented tumor had diffuse DDIT3 expression despite a negative DDIT3 break-apart FISH result. ([DDIT3 expression and cryptic EWSR1-DDIT3 in myxoid liposarcoma](https://pmc.ncbi.nlm.nih.gov/articles/PMC7796975/)).
 
 ## COL1A1::PDGFB
 
@@ -856,11 +864,11 @@ EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate tr
 
 ## FUS::ATF1
 
-**Tumor scope:** Angiomatoid fibrous histiocytoma.
+**Tumor scope:** Angiomatoid fibrous histiocytoma; Peritoneal mesothelioma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling. ([ATF1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/466)). FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma. ([NCI childhood soft tissue sarcoma PDQ](https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq)).
+FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling. ([ATF1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/466)). FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma. It has also been directly documented in a peritoneal mesothelioma in a primary genomic cohort. ([NCI childhood soft tissue sarcoma PDQ](https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq), [FET-CREB molecular cohort with FUS-ATF1 mesothelioma](https://pmc.ncbi.nlm.nih.gov/articles/9329182/)).
 
 ## FUS::CREB3L2
 
@@ -874,9 +882,9 @@ FUS encodes an RNA-binding protein involved in RNA processing and transcriptiona
 
 **Tumor scope:** Low-grade fibromyxoid sarcoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. ([CREB3L1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/90993)). FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma. ([NCI childhood soft tissue sarcoma PDQ](https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq)).
+FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. ([CREB3L1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/90993)). FUS::CREB3L1 is a recurrent fusion in low-grade fibromyxoid sarcoma. An international cohort recorded this fusion in six molecularly analyzed LGFMS patients. ([International LGFMS/SEF localized-disease cohort](https://pmc.ncbi.nlm.nih.gov/articles/PMC11634151/)).
 
 ## EWSR1::CREB3L1
 
@@ -890,17 +898,17 @@ EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate tr
 
 **Tumor scope:** CIC-rearranged undifferentiated round cell sarcoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-CIC encodes capicua, an HMG-box transcriptional repressor. ([CIC — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/23152)). DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus. ([DUX4 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/100288687)). CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma. ([NCI childhood soft tissue sarcoma PDQ](https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq), [NCI Ewing sarcoma PDQ](https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq)).
+CIC encodes capicua, an HMG-box transcriptional repressor. ([CIC — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/23152)). DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus. ([DUX4 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/100288687)). CIC::DUX4 acts as a transcriptional activator in CIC-rearranged sarcoma. In patient-derived cell models, fusion depletion reduced active chromatin and direct target-gene expression, including ETV1, ETV4 and ETV5; primary tumors shared the associated active chromatin pattern. ([CIC-DUX4 chromatin profiling and transcriptional regulation](https://www.mdpi.com/2072-6694/16/2/457)). In a retrospective comparison, a 57-patient CIC-rearranged sarcoma control cohort had worse overall survival than 22 followed patients with BCOR::CCNB3 sarcoma. ([BCOR-CCNB3 molecular and clinicopathological study of 36 cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/)).
 
 ## BCOR::CCNB3
 
 **Tumor scope:** BCOR::CCNB3 sarcoma of bone or soft tissue.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-BCOR encodes a BCL6-interacting transcriptional corepressor. ([BCOR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/54880)). CCNB3 encodes cyclin B3, a regulator of cell-cycle progression. ([CCNB3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/85417)). BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group. ([NCI childhood soft tissue sarcoma PDQ](https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq), [NCI Ewing sarcoma PDQ](https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq)).
+BCOR encodes a BCL6-interacting transcriptional corepressor. ([BCOR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/54880)). CCNB3 encodes cyclin B3, a regulator of cell-cycle progression. ([CCNB3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/85417)). BCOR::CCNB3 is associated with a round-to-spindle-cell sarcoma group. Primary molecular analyses demonstrated the BCOR exon 15–CCNB3 exon 5 junction and inversion-associated FISH pattern, with an expression profile distinct from Ewing and CIC-rearranged sarcomas. ([BCOR-CCNB3 molecular and clinicopathological study of 36 cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/)). In a molecularly confirmed BCOR::CCNB3 series, the 22 patients with follow-up had a five-year overall survival estimate of 72%, better than the historical CIC-rearranged sarcoma control cohort. Seven of nine evaluable tumors treated with Ewing-type chemotherapy showed 60–100% treatment-related necrosis or fibrosis. ([BCOR-CCNB3 molecular and clinicopathological study of 36 cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/)).
 
 ## EWSR1::NFATC2
 
@@ -1226,17 +1234,17 @@ MEAF6 encodes a component of histone acetyltransferase complexes. ([MEAF6 — NC
 
 **Tumor scope:** AML; Myelodysplastic neoplasia; CML blast phase.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. ([MECOM — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2122)). RUNX1::MECOM is a recurrent t(3;21)-associated rearrangement in myeloid neoplasia, including secondary AML and CML blast phase. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)). MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
+RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. ([MECOM — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2122)). RUNX1::MECOM can occur in de novo AML: a pediatric acute myelomonocytic leukemia case had t(3;21) and Sanger-confirmed RUNX1::MECOM alongside RUNX1::RPL22. ([A primary pediatric acute myelomonocytic leukemia with t(3;21)(q26;q22): a case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC10615462/)). MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria. ([ELN 2022 AML recommendations](https://doi.org/10.1182/blood.2022016867)).
 
 ## NPM1::MLF1
 
 **Tumor scope:** AML with NPM1::MLF1.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). MLF1 encodes myeloid leukemia factor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NPM1::MLF1 is a rare recurrent t(3;5)-associated AML fusion, distinct from the usual NPM1 exon 12 mutation. ([NCI childhood AML PDQ](https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq)).
+NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). MLF1 encodes myeloid leukemia factor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). Patient-derived NPM1::MLF1 fusion constructs showed aberrant cytoplasmic localization and promoted myeloid leukemogenesis in experimental models, with HOX activation linked to XPO1. ([NPM1-fusion proteins promote myeloid leukemogenesis through XPO1-dependent HOX activation](https://pmc.ncbi.nlm.nih.gov/articles/PMC11717694/)).
 
 ## PTPRZ1::MET
 
@@ -1298,9 +1306,9 @@ IGL is the immunoglobulin lambda light-chain locus involved in antibody light-ch
 
 **Tumor scope:** Follicular lymphoma; Selected large B-cell lymphomas.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). BCL2 encodes an antiapoptotic mitochondrial protein. ([BCL2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/596)). The t(14;18)/IGH-BCL2 rearrangement is characteristic of follicular lymphoma and is distinct from the t(14;18)/IGH-MALT1 rearrangement of MALT lymphoma. ([MALT lymphoma: a practical guide for pathologists](https://pmc.ncbi.nlm.nih.gov/articles/PMC2001121/)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). BCL2 encodes an antiapoptotic mitochondrial protein. ([BCL2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/596)). IGH/BCL2 translocations occur in follicular lymphoma. Whole-genome sequencing directly identified the rearrangement in patient tumors. ([Whole-genome sequencing reveals follicular lymphoma subtypes](https://www.sciencedirect.com/science/article/pii/S2666379125003519)).
 
 ## IGH / BCL6
 
@@ -1314,41 +1322,41 @@ IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor 
 
 **Tumor scope:** Mantle cell lymphoma; Plasma cell myeloma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression. ([CCND1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/595)). The t(11;14) rearrangement brings CCND1 under immunoglobulin regulation and is the genetic hallmark of mantle cell lymphoma; it also occurs in plasma-cell neoplasia. ([ICC mature lymphoid classification](https://pmc.ncbi.nlm.nih.gov/articles/PMC9479027/), [Guidelines for testing and reporting cytogenetic results for risk stratification of multiple myeloma](https://www.nature.com/articles/s41408-025-01286-w)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression. ([CCND1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/595)). IGH/CCND1 rearrangements are documented in mantle cell lymphoma and plasma cell myeloma. A sequenced mantle cell lymphoma case had a cryptic insertion of intact CCND1 into IGH; optical genome mapping also identified IGH/CCND1 events in myeloma. ([Cryptic IGH/CCND1 rearrangement in mantle cell lymphoma](https://pubmed.ncbi.nlm.nih.gov/31015206/), [Optical Genome Mapping for Cytogenetic Analysis in Multiple Myeloma: Real-World Evidence](https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175)).
 
 ## IGH / CCND2
 
 **Tumor scope:** Cyclin D1-negative mantle cell lymphoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). CCND2 encodes cyclin D2, a regulator of CDK4/6-dependent cell-cycle progression. ([CCND2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/894)). IGH-associated CCND2 rearrangements have been reported in cyclin-D1-negative mantle cell lymphoma; immunoglobulin light-chain partners are also important in this group. ([CCND2 and CCND3 hijack immunoglobulin light-chain enhancers in cyclin D1-negative mantle cell lymphoma](https://pmc.ncbi.nlm.nih.gov/articles/PMC6396173/)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). CCND2 encodes cyclin D2, a regulator of CDK4/6-dependent cell-cycle progression. ([CCND2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/894)). IGH/CCND2 rearrangements were detected by FISH in three of 40 cyclin-D1-negative, SOX11-positive mantle cell lymphomas. These are distinct from the more frequent CCND2 rearrangements involving immunoglobulin light-chain loci. ([CCND2 rearrangements are the most frequent genetic events in cyclin D1-negative MCL](https://pmc.ncbi.nlm.nih.gov/articles/3578954/)).
 
 ## IGH / CCND3
 
 **Tumor scope:** Cyclin D1-negative mantle cell lymphoma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). CCND3 encodes cyclin D3, a regulator of CDK4/6-dependent cell-cycle progression. ([CCND3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/896)). IGH-associated CCND3 rearrangements have been reported in cyclin-D1-negative mantle cell lymphoma; immunoglobulin light-chain partners are also important in this group. ([CCND2 and CCND3 hijack immunoglobulin light-chain enhancers in cyclin D1-negative mantle cell lymphoma](https://pmc.ncbi.nlm.nih.gov/articles/PMC6396173/)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). CCND3 encodes cyclin D3, a regulator of CDK4/6-dependent cell-cycle progression. ([CCND3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/896)). An IGH/CCND3 t(6;14) rearrangement was identified by cytogenetics and FISH in a cyclin-D1-negative mantle cell lymphoma. This patient observation is distinct from cryptic CCND3 rearrangements involving light-chain enhancers. ([Translocations targeting CCND2, CCND3 and MYCN in t(11;14)-negative MCL](https://ashpublications.org/blood/article-pdf/111/12/5683/1297306/zh801208005683.pdf)).
 
 ## IGH / MALT1
 
 **Tumor scope:** Extranodal marginal zone lymphoma of MALT.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling. ([MALT1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10892)). IGH regulatory rearrangements can increase MALT1 expression in a subset of MALT lymphomas. ([MALT lymphoma: a practical guide for pathologists](https://pmc.ncbi.nlm.nih.gov/articles/PMC2001121/)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling. ([MALT1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10892)). IGH/MALT1 t(14;18) rearrangements occur in MALT lymphoma. Primary dual-fusion FISH and expression studies documented the rearrangement and increased MALT1 mRNA and protein in affected tumors. ([MALT lymphoma with IGH-MALT1: MALT1/BCL10 expression](https://www.rifathamoudi.co.uk/publications/J_Pathol_2005_Feb_205_3_293_301.pdf)).
 
 ## IGH / BCL10
 
 **Tumor scope:** Extranodal marginal zone lymphoma of MALT.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway. ([BCL10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8915)). IGH regulatory rearrangements can increase BCL10 expression in a subset of MALT lymphomas. ([MALT lymphoma: a practical guide for pathologists](https://pmc.ncbi.nlm.nih.gov/articles/PMC2001121/)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). BCL10 encodes a signaling adaptor in the CARD11-BCL10-MALT1 NF-kappaB pathway. ([BCL10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8915)). In t(1;14)-positive MALT lymphomas, the BCL10 locus is relocated to the derivative chromosome 14. Primary Northern-blot analysis demonstrated BCL10 overexpression in three such tumors. ([BCL10 discovery and expression in t(1;14)-positive MALT lymphoma](https://genome.fli-leibniz.de/publications/download/free/Zhang_NatGenet_1999.pdf)).
 
 ## IGH / CRLF2
 
@@ -1370,41 +1378,41 @@ P2RY8 encodes a G-protein-coupled receptor. ([P2RY8 — NCBI Gene](https://www.n
 
 **Tumor scope:** DUX4-rearranged B-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus. ([DUX4 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/100288687)). IGH rearrangements are the most common mechanism of DUX4 overexpression in DUX4-rearranged B-ALL, a subtype often accompanied by ERG deletions. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus. ([DUX4 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/100288687)). In a primary B-cell precursor ALL cohort, partial DUX4 copies were inserted into IGH and associated with DUX4 overexpression. DNA sequencing confirmed the rearrangements; most characterized products retained both DUX4 homeodomains while truncating its carboxy terminus. ([Identification of ETV6-RUNX1-like and DUX4-rearranged pediatric BCP-ALL](https://www.nature.com/articles/ncomms11790)).
 
 ## TCR loci / TAL1
 
 **Tumor scope:** T-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development. ([TAL1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6886)). Rearrangements involving T-cell-receptor regulatory loci can deregulate TAL1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins. ([Childhood Cancer Genomics (PDQ), health professional version](https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq)).
+TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development. ([TAL1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6886)). TRD/TAL1 rearrangements were identified by targeted genomic sequencing in 23 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus. ([TREC-mediated oncogenesis in human immature T lymphoid malignancies](https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/)).
 
 ## TCR loci / TLX1
 
 **Tumor scope:** T-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). TLX1 encodes a homeobox transcription factor with developmental functions. ([TLX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3195)). Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins. ([Childhood Cancer Genomics (PDQ), health professional version](https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq)).
+TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). TLX1 encodes a homeobox transcription factor with developmental functions. ([TLX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3195)). TRD/TLX1 rearrangements were identified by targeted genomic sequencing in 95 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus. ([TREC-mediated oncogenesis in human immature T lymphoid malignancies](https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/)).
 
 ## TCR loci / TLX3
 
 **Tumor scope:** T-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). TLX3 encodes a homeobox DNA-binding transcription factor. ([TLX3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/30012)). Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX3 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins. ([Childhood Cancer Genomics (PDQ), health professional version](https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq)).
+TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). TLX3 encodes a homeobox DNA-binding transcription factor. ([TLX3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/30012)). TRD/TLX3 rearrangements were identified by targeted genomic sequencing in 4 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus. ([TREC-mediated oncogenesis in human immature T lymphoid malignancies](https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/)).
 
 ## TCR loci / LMO2
 
 **Tumor scope:** T-lymphoblastic leukemia.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). LMO2 encodes a LIM-domain scaffold for hematopoietic transcriptional complexes. ([LMO2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4005)). Rearrangements involving T-cell-receptor regulatory loci can deregulate LMO2 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins. ([Childhood Cancer Genomics (PDQ), health professional version](https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq)).
+TCR loci are the gene regions encoding T-cell receptor chains. ([NCI childhood ALL PDQ](https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq)). LMO2 encodes a LIM-domain scaffold for hematopoietic transcriptional complexes. ([LMO2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4005)). TRD/LMO2 rearrangements were identified by targeted genomic sequencing in 52 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus. ([TREC-mediated oncogenesis in human immature T lymphoid malignancies](https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/)).
 
 ## GATA2 enhancer / MECOM
 
@@ -1418,25 +1426,25 @@ GATA2 encodes a zinc-finger transcription factor required for hematopoietic stem
 
 **Tumor scope:** Plasma cell myeloma with t(4;14).
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2261)). NSD2 encodes a SET-domain chromatin regulator. ([NSD2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7468)). The t(4;14) IGH rearrangement in myeloma is associated with increased expression of FGFR3 and/or NSD2. ([Guidelines for testing and reporting cytogenetic results for risk stratification of multiple myeloma](https://www.nature.com/articles/s41408-025-01286-w)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). FGFR3 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2261)). NSD2 encodes a SET-domain chromatin regulator. ([NSD2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7468)). In plasma cell myeloma, rearrangements involving IGH and the FGFR3/NSD2 region were detected by FISH and mapped by optical genome mapping. The primary cohort documented 12 such events with different breakpoints. ([Optical Genome Mapping for Cytogenetic Analysis in Multiple Myeloma: Real-World Evidence](https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175)).
 
 ## IGH / MAF
 
 **Tumor scope:** Plasma cell myeloma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). MAF encodes a bZIP transcription factor involved in differentiation. ([MAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4094)). The t(14;16) IGH rearrangement in myeloma increases MAF expression. ([Guidelines for testing and reporting cytogenetic results for risk stratification of multiple myeloma](https://www.nature.com/articles/s41408-025-01286-w)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). MAF encodes a bZIP transcription factor involved in differentiation. ([MAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4094)). IGH/MAF translocations were detected in plasma cell myeloma by optical genome mapping, with 4 cases documented in the primary cohort. ([Optical Genome Mapping for Cytogenetic Analysis in Multiple Myeloma: Real-World Evidence](https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175)).
 
 ## IGH / MAFB
 
 **Tumor scope:** Plasma cell myeloma.
 
-**Evidence:** Authoritative reference support; primary full-text confirmation incomplete.
+**Evidence:** Primary fusion results checked.
 
-IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). MAFB encodes a bZIP transcription factor involved in lineage differentiation. ([MAFB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/9935)). The t(14;20) IGH rearrangement in myeloma increases MAFB expression. ([Guidelines for testing and reporting cytogenetic results for risk stratification of multiple myeloma](https://www.nature.com/articles/s41408-025-01286-w)).
+IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. ([IGH — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3492)). MAFB encodes a bZIP transcription factor involved in lineage differentiation. ([MAFB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/9935)). IGH/MAFB translocations were detected in plasma cell myeloma by optical genome mapping, with 2 cases documented in the primary cohort. ([Optical Genome Mapping for Cytogenetic Analysis in Multiple Myeloma: Real-World Evidence](https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175)).
 
 ## PRCC::TFE3
 

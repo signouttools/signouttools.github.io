@@ -2,7 +2,7 @@
 
 Hotspot library v0.4 · 2026-11-26 · Pathologist review needed — LLM-generated summary/review.
 
-Fusion expansion · 2026-11-27: **185 corrected fusion/rearrangement drafts** are integrated through the **Fusions & rearrangements** view and links from gene entries. All 305 original fusion-specific sections have source-review dispositions; 136 entries retain primary-body evidence and 49 retain narrower authoritative-reference support. One previously drafted entry is held. See [FUSION-REVIEW.md](FUSION-REVIEW.md) for access limits, corrections and reproducible checks, and [FUSION-DRAFTS.md](FUSION-DRAFTS.md) for the current prose. All entries remain specialist-unapproved drafts.
+Fusion expansion · 2026-11-27: **186 corrected fusion/rearrangement drafts** are integrated through the **Fusions & rearrangements** view and links from gene entries. All 305 original fusion-specific sections have source-review dispositions. The follow-up covered 49 reference-supported entries and held ETV6::NTRK2; all 50 now retain at least one primary-body finding, bringing the corpus to 186 entries with primary evidence and no previously drafted entry held. Individual guidance, regulatory and reference-only claims remain explicitly typed. See [FUSION-REVIEW.md](FUSION-REVIEW.md) for corrections and remaining access gaps, and [FUSION-DRAFTS.md](FUSION-DRAFTS.md) for the current prose. All entries remain specialist-unapproved drafts.
 
 ## Purpose and current boundary
 

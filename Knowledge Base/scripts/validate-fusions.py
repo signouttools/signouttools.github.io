@@ -43,6 +43,7 @@ for r,listing in zip(records,index['records']):
     for s in r['sections']:
         check(s['source_ids'] and set(s['source_ids'])<=source_map.keys(),label+' dangling citation')
         check(s['fulltext_audit_status'] in ['primary_fulltext_supported','official_regulatory_supported','reference_supported'],label+' unaudited claim in runtime')
+        check(s.get('evidence_review_status',s['fulltext_audit_status'])==s['fulltext_audit_status'],label+' conflicting legacy evidence status')
         check(s['claim_sha256']==hashlib.sha256(s['text'].encode()).hexdigest(),label+' stale claim hash')
         check(s.get('audit_evidence') and all(e.get('location') and e.get('url') for e in s['audit_evidence']),label+' missing exact evidence location')
         check(all(e.get('source_id') in s['source_ids'] for e in s['audit_evidence']),label+' audit evidence is not in the section citation list')
@@ -70,6 +71,15 @@ check(not (held & written),'Deferred pair received a blurb')
 check(original <= written|held,'Unaccounted original pair')
 check(stats['original_pairs_not_drafted']==sorted(original-written),'Coverage gaps do not match roster')
 check(stats['by_event_class']==dict(collections.Counter(r['event_class'] for r in records)),'Event class counts differ')
+if audit.get('followup_passes'):
+    targets={e['label'] for e in load('curation/fusions/followup-baseline.json')['entries']}
+    assignments=[label for p in audit['followup_passes'] for label in p['labels']]
+    check(targets<=set(assignments),'Follow-up omitted a requested target')
+    check(len(assignments)==len(set(assignments)),'Follow-up has overlapping entry assignments')
+    followup=stats['followup_review']
+    check(followup['target_count']==len(targets),'Follow-up target count mismatch')
+    check(followup['primary_supported_count']==sum(r['label'] in targets and r['audit']['status']=='primary_fulltext_supported' for r in records),'Follow-up primary evidence count mismatch')
+    check(followup['integrated_count']==len(targets & written),'Follow-up integration count mismatch')
 manifest=load('data/manifest.json')
 check(manifest.get('fusion_index_file')=='fusion-index.json' and manifest.get('fusion_browser_file')=='fusion-browser.json','Fusion corpus not integrated in runtime manifest')
 check(manifest.get('fusion_source_file')=='fusion-sources.json' and manifest.get('fusion_disease_file')=='fusion-diseases.json','Fusion runtime references missing')

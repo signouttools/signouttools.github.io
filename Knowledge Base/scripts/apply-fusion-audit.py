@@ -17,6 +17,22 @@ for name in ['audit-heme.json','audit-sarcoma.json','audit-solid-cns.json']:
         revised[e['label']]=e
     decisions+=fragment['decisions'];held+=fragment.get('held_entries',[])
 if revised.keys()!=original.keys():raise ValueError('Audit assignment coverage differs from original corpus')
+# Later passes replace complete entry assignments while keeping the first pass
+# and frozen original prose available for comparison and reproducibility.
+followup_passes=[]
+for path in sorted(CUR.glob('audit-followup-*.json')):
+    fragment=load(path)
+    labels={e['label'] for e in fragment['entries']}
+    if not labels or not labels<=original.keys():raise ValueError('Invalid follow-up assignment '+path.name)
+    if any(labels & set(p['labels']) for p in followup_passes):raise ValueError('Overlapping follow-up assignments '+path.name)
+    expected={(e['label'],s['kind'],digest(s['text'])) for e in base['entries'] if e['label'] in labels for s in e['sections']}
+    observed=[(d['label'],d['section_kind'],d['original_text_sha256']) for d in fragment['decisions']]
+    if len(observed)!=len(set(observed)) or set(observed)!=expected:raise ValueError('Incomplete follow-up decisions '+path.name)
+    for s in fragment.get('added_sources',[]):source_map[s['id']]=s
+    revised.update({e['label']:e for e in fragment['entries']})
+    decisions=[d for d in decisions if d['label'] not in labels]+fragment['decisions']
+    held=[e for e in held if e['label'] not in labels]+fragment.get('held_entries',[])
+    followup_passes.append({'file':path.name,'labels':sorted(labels),'decision_count':len(observed)})
 original_claims={(e['label'],s['kind'],digest(s['text'])):s for e in base['entries'] for s in e['sections']}
 by_original={}
 for d in decisions:
@@ -37,6 +53,7 @@ for label,e in revised.items():
         if any(i not in source_map for i in s['source_ids']):raise ValueError('Unknown retained source '+label)
         levels={a['access_level'] for a in evidence}
         status='primary_fulltext_supported' if 'primary_fulltext' in levels else 'official_regulatory_supported' if 'official_regulatory' in levels else 'reference_supported'
+        if 'evidence_review_status' in s:s['evidence_review_status']=status
         s['audit']={'status':status,'audited_on':'2026-11-27','claim_sha256':digest(s['text']),'decision':d['decision'],'evidence':evidence,'rationale':d['rationale']}
         retained.append(s)
     e['sections']=retained
@@ -50,5 +67,6 @@ base['entries']=[revised[e['label']] for e in base['entries']]
 base['audit_status']='claim_review_applied_with_explicit_primary_access_gaps'
 save(CUR/'draft-content.json',base);save(CUR/'sources.json',list(source_map.values()))
 result={'audited_on':'2026-11-27','status':'claim_review_applied_with_access_limits','method':'Explicit inspection of primary body/results or designated regulatory/guideline evidence; no term matching or abstract-only verification.','original_claim_count':len(original_claims),'decisions':decisions,'held_entries':held,'limitations':['Normal partner descriptions use gene/identity references, not a primary full-text audit.','Retained guideline/reference-only disease associations are distinguished from primary-supported claims.','Regulatory eligibility statements are checked against official sources, not labeled primary biological evidence.','Some primary full texts were inaccessible; these are not certified and unsupported language is excluded.']}
+result['followup_passes']=followup_passes
 save(CUR/'audit-decisions.json',result)
 print('Applied',len(decisions),'fusion-section decisions;',collections.Counter(d['decision'] for d in decisions))

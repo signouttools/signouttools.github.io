@@ -64,33 +64,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate TAL1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
+      "text": "TRD/TAL1 rearrangements were identified by targeted genomic sequencing in 23 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
       "source_ids": [
-        "nci-genomics"
+        "followup-trd-ngs"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "1c60063ff90d1daeb7973161877020dff7901246161b32a0af042daba1d333dd",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "d714cc455e908bee7d7b3d99d1b7a155d2fd470b2b61433c69d5da58653d20c9",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "nci-genomics",
-          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
-          "location": "T-ALL: Chromosomal translocations, lines 277-280",
-          "scope": "Explicit listed transcription factor and TCR-locus regulatory rearrangements.",
-          "access_level": "guideline"
+          "source_id": "followup-trd-ngs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+          "location": "Results and discussion, NGS-capture analysis of1533 T-ALL/T-LBL patients; Figure1A and TableS1",
+          "scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "TCR loci are the gene regions encoding T-cell receptor chains. TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development. Rearrangements involving T-cell-receptor regulatory loci can deregulate TAL1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
+    "text": "TCR loci are the gene regions encoding T-cell receptor chains. TAL1 encodes a basic helix-loop-helix transcription factor involved in hematopoietic development. TRD/TAL1 rearrangements were identified by targeted genomic sequencing in 23 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
     "source_ids": [
       "all",
       "ncbi-6886",
-      "nci-genomics"
+      "followup-trd-ngs"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "e12c0253a8a7822c6b0ebd3d67ffc20b07a7dbe2d813c80bb095e91df341df94"
+  "text_sha256": "7ec8a5c92e78cfc76161b3e8f0e427e26a72d862fdbbec630f95138687781693"
 }

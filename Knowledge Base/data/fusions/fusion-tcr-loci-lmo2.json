@@ -64,33 +64,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate LMO2 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
+      "text": "TRD/LMO2 rearrangements were identified by targeted genomic sequencing in 52 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
       "source_ids": [
-        "nci-genomics"
+        "followup-trd-ngs"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "c802f9daed54ec225d08a4b3c89821816155a01842bf646a9ea8d1ab2a0b4aaa",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "2c983f94cf2aecf44b05689b07c6db4ae0b35824029174b9eb55ffc3c763d244",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "nci-genomics",
-          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
-          "location": "T-ALL: Chromosomal translocations, lines 277-280",
-          "scope": "Explicit listed transcription factor and TCR-locus regulatory rearrangements.",
-          "access_level": "guideline"
+          "source_id": "followup-trd-ngs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+          "location": "Results and discussion, NGS-capture analysis of1533 T-ALL/T-LBL patients; Figure1A and TableS1",
+          "scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "TCR loci are the gene regions encoding T-cell receptor chains. LMO2 encodes a LIM-domain scaffold for hematopoietic transcriptional complexes. Rearrangements involving T-cell-receptor regulatory loci can deregulate LMO2 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
+    "text": "TCR loci are the gene regions encoding T-cell receptor chains. LMO2 encodes a LIM-domain scaffold for hematopoietic transcriptional complexes. TRD/LMO2 rearrangements were identified by targeted genomic sequencing in 52 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
     "source_ids": [
       "all",
       "ncbi-4005",
-      "nci-genomics"
+      "followup-trd-ngs"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "69d3fc2518fa1a06b0409fbaabba8bc48735a5ad99703941702549a275eff9dc"
+  "text_sha256": "264fdcd1b2033d112224feb9ac780ae61e97665f6b81825212cf457e337304db"
 }

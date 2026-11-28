@@ -64,20 +64,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "BCR::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
+      "text": "BCR::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
       "source_ids": [
-        "icc-eo"
+        "mln-registry-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "37d09095a957ff443bd850534bf1d43ec0ab3cc1de74d361d8efef07dac72f34",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "283fb95361563606bbfd1a00f873d4a38944486645e4651da0c93035835c7c97",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "icc-eo",
-          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
-          "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
-          "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
-          "access_level": "guideline"
+          "source_id": "mln-registry-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10457188/",
+          "location": "Results: patients with FGFR1 fusion genes; Table 1",
+          "scope": "Among six partner-characterized cases, ZMYM2 occurred in three and BCR in two; direct pair-to-disease observation.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "source_ids": [
         "fda-fgfr1"
       ],
-      "evidence_review_status": "reference_supported",
+      "evidence_review_status": "official_regulatory_supported",
       "claim_sha256": "968414f92b014f1f95aacdf48a1d0fa3f8c261f623e142f40c443c798d553c11",
       "fulltext_audit_status": "official_regulatory_supported",
       "audit_evidence": [
@@ -102,11 +102,11 @@
     }
   ],
   "report_comment": {
-    "text": "BCR encodes breakpoint cluster region protein. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. BCR::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
+    "text": "BCR encodes breakpoint cluster region protein. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. BCR::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort. Pemigatinib has a US indication for adults with relapsed or refractory myeloid/lymphoid neoplasms with FGFR1 rearrangement.",
     "source_ids": [
       "ncbi-613",
       "ncbi-2260",
-      "icc-eo",
+      "mln-registry-primary",
       "fda-fgfr1"
     ]
   },
@@ -123,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "b0828d319224e5c32a5e47391286c3cb8a444a1e0a1acef03e8ed45514290707"
+  "text_sha256": "e06aef82464d2f7b6dc6abf00c3b118cdc3921dcae76603f717579e4785cb2df"
 }

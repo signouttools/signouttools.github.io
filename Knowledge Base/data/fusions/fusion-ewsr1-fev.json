@@ -64,35 +64,34 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "EWSR1::FEV is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+      "text": "EWSR1::FEV is a rare Ewing sarcoma fusion. Molecular analysis demonstrates EWSR1 joined to FEV with retention of the FEV ETS DNA-binding domain; directly studied tumors show primitive round-cell morphology.",
       "source_ids": [
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-fev"
       ],
-      "claim_sha256": "176a1d73ac75b7646fe8e51a2066f1bacf308da4ef0f5ed46f789ddd4fd35fa3",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "3ea5eec31a0f249631deb1201f8521f09afea6ab0e4849c82d5e11d797d32ac1",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-ewing",
-          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
-          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
-          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
-          "access_level": "guideline"
+          "source_id": "audit-followup-sarcoma-fev",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7135932/",
+          "location": "Results 3.1–3.3; Table 1; Figures 1 and 3",
+          "scope": "Direct EWSR1-FEV/FUS-FEV cases; targeted RNA sequencing demonstrates EWSR1 exon 8-FEV exon 2; all sequenced fusions retain FEV ETS DNA-binding exon 3.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. FEV encodes an ETS-family transcription factor expressed in serotonergic neurons. EWSR1::FEV is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. FEV encodes an ETS-family transcription factor expressed in serotonergic neurons. EWSR1::FEV is a rare Ewing sarcoma fusion. Molecular analysis demonstrates EWSR1 joined to FEV with retention of the FEV ETS DNA-binding domain; directly studied tumors show primitive round-cell morphology.",
     "source_ids": [
       "ncbi-2130",
       "ncbi-54738",
-      "audit-sarcoma-nci-ewing"
+      "audit-followup-sarcoma-fev"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
   ],
   "editorial": {
     "status": "draft",
@@ -103,9 +102,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "6b6ff2f0cb6d8afdd3ce7a9fced8b0a4c9abe10fe6d4920381dd7d4c4adf7d16"
+  "text_sha256": "7cdc48b8c64089de0e447bf19981f727078b9a60924068a46d1e60b5acd9f7be"
 }

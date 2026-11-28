@@ -64,49 +64,50 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "ETV6::RUNX1 defines a recurrent pediatric B-ALL subtype.",
+      "text": "ETV6::RUNX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort.",
       "source_ids": [
-        "all"
+        "b-all-landscape-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "367d109434241222720e3c3544e0718087436bed75477aba32ce03cc662b3288",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "b6e21b92a1e971ac965d7eb444fbe179bcb524bf9999d0dba276393af32b8170",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "all",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
-          "location": "Cytogenetics/genomics: ETV6::RUNX1 subsection",
-          "scope": "Explicit ordered-pair subtype; detailed transcriptional repression mechanism removed.",
-          "access_level": "guideline"
+          "source_id": "b-all-landscape-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7594377/",
+          "location": "Results: Correlation between genetic alteration and disease subgroup; supplemental Figure 6",
+          "scope": "Direct genomic subgroup assignment: ETV6RUNX1 n236; TCF3PBX1 n95; no untested biochemical mechanism.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
     {
       "kind": "prognosis",
-      "text": "Children with ETV6::RUNX1-positive B-ALL generally have favorable event-free and overall survival with contemporary treatment; early treatment response and NCI risk group refine this association.",
+      "text": "In St. Jude Total XV, ETV6::RUNX1-positive B-ALL had better event-free and overall survival than fusion-negative disease. This difference was not significant in the earlier Total XIIIA/B cohorts, supporting a treatment-specific interpretation.",
       "source_ids": [
-        "all"
+        "etv6-runx1-outcome-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "4274e68a42578904cad1d1bd2298c42d77680c0cab04abac88fcb7873e48e331",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "2fcb6e006e04ccbffa47d4f2f3f5f77cc207a23f02688ee74eababf1b04ca7a2",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "all",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
-          "location": "ETV6::RUNX1 subsection, lines 344-351",
-          "scope": "Favorable pediatric outcome with specified response/risk modifiers.",
-          "access_level": "guideline"
+          "source_id": "etv6-runx1-outcome-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3345278/",
+          "location": "Results: Response and outcome; Figure 1; prognostic features/Table 3, lines 303-335",
+          "scope": "Actual comparative cohort survival across successive protocols; no claim of an invariant independent genotype effect.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ETV6::RUNX1 defines a recurrent pediatric B-ALL subtype. Children with ETV6::RUNX1-positive B-ALL generally have favorable event-free and overall survival with contemporary treatment; early treatment response and NCI risk group refine this association.",
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ETV6::RUNX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort. In St. Jude Total XV, ETV6::RUNX1-positive B-ALL had better event-free and overall survival than fusion-negative disease. This difference was not significant in the earlier Total XIIIA/B cohorts, supporting a treatment-specific interpretation.",
     "source_ids": [
       "ncbi-2120",
       "ncbi-861",
-      "all"
+      "b-all-landscape-primary",
+      "etv6-runx1-outcome-primary"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -122,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "5041111b50dd9919a4fd9cf7e0f7f55b8f0e607f08255616ed0ef9f41218377f"
+  "text_sha256": "a848c4a8e418d12d5a69dc193caff8408beb7a3a84a99a17d9d780a4a28535dd"
 }

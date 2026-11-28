@@ -64,36 +64,35 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma.",
+      "text": "FUS::CREB3L1 is a recurrent fusion in low-grade fibromyxoid sarcoma. An international cohort recorded this fusion in six molecularly analyzed LGFMS patients.",
       "source_ids": [
-        "audit-sarcoma-nci-sts"
+        "audit-followup-sarcoma-creb3l1"
       ],
-      "claim_sha256": "8eda57cc3618469ba027483eb1ed079d8a9a40ccdb96f54bb1ffb55239898f27",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "2d8a86cc2d8352c08025a019ba9a45f8665b8fba3d7e1a0207a402122c1f61fe",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-sts",
-          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
-          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
-          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
-          "access_level": "guideline"
+          "source_id": "audit-followup-sarcoma-creb3l1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11634151/",
+          "location": "Results: Patient Characteristics and Molecular Analysis; Table 1",
+          "scope": "FUS-CREB3L1 documented in six LGFMS patients in molecular findings table. Does not demonstrate functional bZIP mechanism or fusion-partner-specific prognosis.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. CREB3L1 encodes an endoplasmic-reticulum-associated bZIP transcription factor activated by proteolysis. FUS::CREB3L1 is a recurrent fusion in low-grade fibromyxoid sarcoma. An international cohort recorded this fusion in six molecularly analyzed LGFMS patients.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-90993",
-      "audit-sarcoma-nci-sts"
+      "audit-followup-sarcoma-creb3l1"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned.",
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
   ],
   "editorial": {
     "status": "draft",
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "dc74970863b2b9bcc4a276122de5ef8085e7dc5cb7b23c34d34f7f191c845cd6"
+  "text_sha256": "b2fe98d70261cec6107dcf7bb3974402e27c7f8673642b40b887619125e79658"
 }

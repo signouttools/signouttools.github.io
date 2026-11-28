@@ -149,7 +149,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MSH6 encodes the mismatch-recognition component of the MSH2–MSH6 complex, which detects base mismatches and small insertion/deletion loops during DNA mismatch repair.",
+      "text": "MSH6 encodes a MutS-family mismatch-repair protein that forms a mismatch-recognition complex with MSH2. The complex binds and releases mismatched DNA through a nucleotide-dependent molecular switch involving exchange of ADP and ATP. MSH6 contains a conserved nucleotide-binding motif that supports this activity. Its role is therefore in recognition and regulated handling of a DNA mismatch, upstream of the steps that remove and replace the incorrect sequence.",
       "source_ids": [
         "ncbi-2956"
       ]

@@ -3488,7 +3488,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "ALK encodes a receptor tyrosine kinase involved in developmental signaling, with downstream effects on cell growth, survival, and differentiation.",
+        "text": "ALK encodes a receptor tyrosine kinase with an extracellular region, a single membrane-spanning segment, and an intracellular kinase domain. It has a normal role in nervous-system development and effects on particular neuronal populations. In tumors, ALK can be rearranged, mutated, or amplified. Rearrangements create fusion genes with several different partners, providing a mechanism of oncogenic activation distinct from an isolated kinase-domain sequence substitution.",
         "source_ids": [
           "ncbi-238"
         ]
@@ -3713,7 +3713,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with retinal dystrophy, optic nerve edema, splenomegaly, anhidrosis, and migraine headache syndrome (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-35868845"
         ]
       },
       "somatic": {
@@ -9235,7 +9236,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "ATM encodes a protein kinase that coordinates DNA-damage responses, particularly following DNA double-strand breaks, through checkpoint and repair signaling.",
+        "text": "ATM encodes a checkpoint kinase that coordinates responses to DNA damage and helps maintain genome stability. It regulates several downstream proteins by phosphorylation, including p53, BRCA1, CHEK2, RAD17, RAD9, and NBS1. This places ATM upstream of multiple effectors of cell-cycle control and DNA repair, allowing a damage signal to influence several protective responses rather than a single repair reaction.",
         "source_ids": [
           "ncbi-472"
         ]
@@ -9757,7 +9758,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "ATR encodes a protein kinase that responds to replication stress and single-stranded DNA-associated damage to coordinate cell-cycle checkpoints and genome maintenance.",
+        "text": "ATR encodes a serine/threonine kinase that senses DNA stress and activates cell-cycle checkpoints. It phosphorylates proteins that inhibit further DNA replication or entry into mitosis while also supporting repair, recombination, and apoptosis. ATR additionally contributes to stability of fragile genomic sites and centrosome duplication. These functions connect detection of DNA stress with control of both genome duplication and cell division.",
         "source_ids": [
           "ncbi-545"
         ]
@@ -21032,7 +21033,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "CDH1 encodes cadherin-1 [Cleaved into: E-Cad/CTF1; E-Cad/CTF2; E-Cad/CTF3]. It participates in positive regulation of DNA-templated transcription and cell migration. Functional annotations also associate the protein with cell adhesion mediator activity and ankyrin binding.",
+        "text": "CDH1 encodes E-cadherin, a calcium-dependent protein that mediates adhesion between neighboring cells. The mature protein spans the cell membrane and contains extracellular cadherin repeats and a conserved cytoplasmic tail. Its extracellular region supports cell attachment, while the intracellular region connects adhesion with cellular responses. Loss of E-cadherin function can contribute to tumor progression through changes in proliferation, invasion, and metastatic behavior.",
         "source_ids": [
           "ncbi-999",
           "uniprot-P12830"
@@ -23082,7 +23083,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "CDKN2A produces distinct tumor-suppressor proteins through alternative transcripts: p16INK4A regulates CDK4/6–RB signaling, while p14ARF influences the MDM2–p53 pathway.",
+        "text": "CDKN2A produces structurally distinct tumor-suppressor proteins through alternative first exons and reading frames. The p16INK4A product inhibits cyclin-dependent kinase activity, whereas p14ARF stabilizes p53 by interacting with MDM2, a ubiquitin ligase that promotes p53 degradation. Both products contribute to G1 cell-cycle control through different mechanisms. This transcript structure is biologically important because a change in the locus can affect the two protein products differently.",
         "source_ids": [
           "ncbi-1029"
         ]
@@ -25225,7 +25226,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "CHEK2 encodes the CHK2 checkpoint kinase, which transmits DNA-damage signals to regulators of cell-cycle progression and other stress responses.",
+        "text": "CHEK2 encodes a nuclear serine/threonine kinase that helps halt cell-cycle progression after DNA damage or replication blocks. Activated CHEK2 inhibits the CDC25C phosphatase, helping prevent entry into mitosis, and can stabilize p53 to support arrest in G1. It also interacts with and phosphorylates BRCA1. These interactions connect checkpoint signaling with both temporary interruption of cell division and the DNA-damage response.",
         "source_ids": [
           "ncbi-11200"
         ]
@@ -30948,7 +30949,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant); global developmental delay with or without impaired intellectual development (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-37644171"
         ]
       },
       "somatic": {
@@ -34030,7 +34032,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "DICER1 encodes endoribonuclease Dicer. It participates in negative regulation of transcription by RNA polymerase II and miRNA processing. Functional annotations also associate the protein with RNA endonuclease activity and deoxyribonuclease I activity.",
+        "text": "DICER1 encodes a ribonuclease involved in RNA-interference pathways and production of small RNAs that repress gene expression. Its protein contains an amino-terminal RNA-helicase motif and carboxy-terminal RNA-related domains. By helping generate the active small-RNA component of these pathways, DICER1 links RNA processing with regulation of gene output. Its biological role concerns maturation of regulatory RNAs rather than direct transcription of their target genes.",
         "source_ids": [
           "ncbi-23405",
           "uniprot-Q9UPY3"
@@ -40725,7 +40727,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "ERBB2 encodes the HER2 receptor tyrosine kinase, an ERBB-family signaling protein that promotes growth and survival signaling through receptor dimerization.",
+        "text": "ERBB2 encodes HER2, a receptor tyrosine kinase in the epidermal growth factor receptor family. Rather than binding a growth-factor ligand independently, HER2 forms heterodimers with ligand-bound family members and strengthens downstream signaling. These receptor partnerships can enhance MAPK and PI3K pathway activity. Amplification or increased expression can therefore change signaling through receptor abundance as well as through the receptor's intrinsic kinase function.",
         "source_ids": [
           "ncbi-2064"
         ]
@@ -66433,7 +66435,9 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with hyper-IgE recurrent infection syndrome 4, autosomal recessive (autosomal recessive); hyper-IgE recurrent infection syndrome 4A, autosomal dominant (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-28747427",
+          "primary-pmid-32207811"
         ]
       },
       "somatic": {
@@ -67492,7 +67496,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Donohue syndrome (autosomal recessive); insulin-resistance syndrome type A (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-34965699"
         ]
       }
     },
@@ -72441,7 +72446,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "KIT encodes the receptor for stem cell factor, a tyrosine kinase that regulates hematopoietic, melanocytic, germ-cell, and interstitial-cell lineages.",
+        "text": "KIT encodes a receptor tyrosine kinase activated by stem cell factor. Its structure includes extracellular immunoglobulin-like domains, a membrane-spanning region, and an intracellular kinase domain. Activation triggers phosphorylation of downstream proteins controlling proliferation, differentiation, migration, and apoptosis. KIT has normal roles in blood-cell formation, stem-cell maintenance, germ-cell development, pigmentation, and mast-cell biology, explaining its involvement in several distinct tissue contexts.",
         "source_ids": [
           "ncbi-3815"
         ]
@@ -83570,7 +83575,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "MEN1 encodes menin. It participates in DNA repair and transcription initiation-coupled chromatin remodeling. Functional annotations also associate the protein with DNA-binding transcription activator activity and transcription cis-regulatory region binding.",
+        "text": "MEN1 encodes menin, a tumor-suppressor scaffold protein involved in histone modification and epigenetic regulation of gene expression. Menin helps organize protein interactions that alter chromatin structure and thereby influence transcription. Its scaffold role connects chromatin-associated regulatory proteins rather than specifying a single enzymatic reaction. Changes in these protein assemblies can affect multiple pathways through altered regulation of gene activity.",
         "source_ids": [
           "ncbi-4221",
           "uniprot-O00255"
@@ -83825,7 +83830,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "MET encodes the hepatocyte growth factor receptor tyrosine kinase, which regulates proliferation, survival, migration, and tissue-remodeling responses.",
+        "text": "MET encodes the receptor tyrosine kinase for hepatocyte growth factor. The precursor protein is processed into alpha and beta subunits linked by disulfide bonds. Ligand binding promotes receptor dimerization and activation, supporting survival, embryonic development, migration, and invasion. MET signaling therefore connects an extracellular growth factor with several cellular responses; increased receptor abundance and sequence alterations represent different ways in which this signaling system can be disrupted.",
         "source_ids": [
           "ncbi-4233"
         ]
@@ -84980,7 +84985,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "MLH1 encodes a DNA mismatch-repair protein that forms the MutLα complex with PMS2, helping correct replication-associated mismatches and insertion/deletion errors.",
+        "text": "MLH1 encodes a component of DNA mismatch repair that partners with PMS2 to form MutL-alpha. Following mismatch recognition, this complex helps initiate removal of the incorrect DNA segment; PMS2 supplies the endonuclease activity that introduces a nearby single-strand break. MLH1 also participates in DNA-damage signaling and can pair with MLH3 in MutL-gamma, a separate complex with a role in meiosis.",
         "source_ids": [
           "ncbi-4292"
         ]
@@ -86652,7 +86657,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "MSH6 encodes the mismatch-recognition component of the MSH2–MSH6 complex, which detects base mismatches and small insertion/deletion loops during DNA mismatch repair.",
+        "text": "MSH6 encodes a MutS-family mismatch-repair protein that forms a mismatch-recognition complex with MSH2. The complex binds and releases mismatched DNA through a nucleotide-dependent molecular switch involving exchange of ADP and ATP. MSH6 contains a conserved nucleotide-binding motif that supports this activity. Its role is therefore in recognition and regulated handling of a DNA mismatch, upstream of the steps that remove and replace the incorrect sequence.",
         "source_ids": [
           "ncbi-2956"
         ]
@@ -99950,7 +99955,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "PALB2 encodes a repair scaffold that connects BRCA1- and BRCA2-associated functions and supports RAD51-mediated homologous-recombination repair.",
+        "text": "PALB2 encodes a tumor-suppression-associated protein that binds BRCA2 and localizes with it in nuclear foci. PALB2 helps BRCA2 remain stably localized and accumulate within the nucleus. Its role therefore concerns the organization and localization of a repair-associated protein, rather than simply the abundance of BRCA2 transcripts. This protein partnership provides a functional connection between PALB2 and the BRCA2-associated genome-maintenance pathway.",
         "source_ids": [
           "ncbi-79728"
         ]
@@ -108034,7 +108039,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "PMS2 encodes the endonuclease component of the MLH1–PMS2 mismatch-repair complex, which helps remove replication-associated DNA errors.",
+        "text": "PMS2 encodes the endonuclease component of MutL-alpha, a DNA mismatch-repair complex formed with MLH1. After MutS complexes recognize mismatches or insertion/deletion loops, MutL-alpha helps initiate removal of the incorrect DNA. PMS2 supplies the DNA-cutting activity, with a conserved carboxy-terminal motif contributing to its active site. This role distinguishes downstream incision of DNA from the initial recognition of the mismatch.",
         "source_ids": [
           "ncbi-5395"
         ]
@@ -116165,7 +116170,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "RAD51C encodes DNA repair protein RAD51 homolog 3. It participates in DNA repair and telomere maintenance via recombination. Functional annotations also associate the protein with ATP-dependent DNA damage sensor activity.",
+        "text": "RAD51C encodes a member of the RAD51 family involved in homologous recombination and DNA repair. It interacts with other RAD51 paralogs and has a reported role in resolving Holliday junctions, the branched DNA intermediates formed during recombination. These interactions place RAD51C within a coordinated repair pathway, in which several related proteins contribute distinct activities rather than each acting as a standalone repair enzyme.",
         "source_ids": [
           "ncbi-5889",
           "uniprot-O43502"
@@ -116307,7 +116312,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "RAD51D encodes DNA repair protein RAD51 homolog 4. It participates in DNA repair and telomere maintenance. Functional annotations also associate the protein with ATP-dependent DNA damage sensor activity and ATP-dependent activity, acting on DNA.",
+        "text": "RAD51D encodes a RAD51-family protein that participates in homologous recombination and DNA repair. It forms a complex with other RAD51 paralogs, including XRCC2. This complex supports pairing between single-stranded and double-stranded DNA, an activity relevant to early recombinational repair. The protein's role therefore depends on cooperation with other repair factors in a multiprotein assembly rather than on an isolated DNA-binding event.",
         "source_ids": [
           "ncbi-5892",
           "uniprot-O75771"
@@ -119207,7 +119212,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "RET encodes a receptor tyrosine kinase that transduces signals from glial-cell-line-derived neurotrophic factor family ligands through coreceptor-dependent signaling.",
+        "text": "RET encodes a transmembrane receptor tyrosine kinase activated by GDNF and related ligands. Ligand binding promotes receptor dimerization and downstream signals controlling differentiation, growth, migration, and survival. The receptor is important in development of the nervous system and neural-crest-derived tissues. RET can undergo oncogenic activation through either activating point mutations or chromosomal rearrangements, mechanisms distinct from its normal developmentally regulated signaling.",
         "source_ids": [
           "ncbi-5979"
         ]
@@ -121061,7 +121066,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with neurooculorenal syndrome (autosomal recessive).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-35227688"
         ]
       }
     },
@@ -121339,7 +121345,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with pulmonary fibrosis and/or bone marrow failure, telomere-related, 6 (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-34767620"
         ]
       }
     },
@@ -129215,7 +129222,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with citrin deficiency (autosomal recessive); neonatal intrahepatic cholestasis due to citrin deficiency (autosomal recessive).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-29152073"
         ]
       }
     },
@@ -130967,7 +130975,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "SMAD4 encodes a shared signaling mediator that forms complexes with receptor-activated SMAD proteins to regulate transcription downstream of TGF-β superfamily receptors.",
+        "text": "SMAD4 encodes a signal-transduction protein that forms complexes with activated Smad proteins in TGF-beta-related signaling. These complexes accumulate in the nucleus, where they bind DNA and regulate target-gene transcription. SMAD4 also participates in bone morphogenetic protein signaling. Its tumor-suppressor role includes inhibition of epithelial proliferation, linking signals received at the cell surface with changes in nuclear gene expression.",
         "source_ids": [
           "ncbi-4089"
         ]
@@ -131649,7 +131657,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "SMARCA4 encodes BRG1, an ATP-dependent catalytic subunit of SWI/SNF chromatin-remodeling complexes that regulate nucleosome organization and gene expression.",
+        "text": "SMARCA4 encodes an ATP-dependent component of the SWI/SNF chromatin-remodeling complex. The complex changes chromatin organization so that transcriptional machinery can access genes otherwise repressed by chromatin. SMARCA4 also interacts with BRCA1 and can regulate CD44 expression. Its normal role therefore connects energy-dependent remodeling of DNA packaging with regulation of transcription and interactions with other growth-control proteins.",
         "source_ids": [
           "ncbi-6597"
         ]
@@ -131923,7 +131931,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "SMARCB1 encodes a core component of SWI/SNF chromatin-remodeling complexes that regulate access to DNA and control transcriptional and differentiation programs.",
+        "text": "SMARCB1 encodes a nuclear tumor-suppressor protein within a chromatin-remodeling complex. The complex relaxes repressive chromatin organization, making target regions more accessible to the transcriptional machinery. SMARCB1 therefore contributes to regulation of gene expression through a multiprotein assembly that changes DNA packaging. Its role as a complex component is distinct from a sequence-specific transcription factor that independently binds and activates a single target gene.",
         "source_ids": [
           "ncbi-6598"
         ]
@@ -135541,7 +135549,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with Floating-Harbor syndrome (autosomal dominant); developmental delay, hypotonia, musculoskeletal defects, and behavioral abnormalities (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-33909990"
         ]
       }
     },
@@ -137545,7 +137554,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with growth hormone insensitivity with immune dysregulation 1, autosomal recessive (autosomal recessive); growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-29844444"
         ]
       },
       "somatic": {
@@ -138026,7 +138036,7 @@
     },
     "report_summary": {
       "function": {
-        "text": "STK11 encodes serine/threonine-protein kinase STK11. It participates in activation of protein kinase activity and signal transduction. Functional annotations also associate the protein with protein serine kinase activity and protein serine/threonine kinase activity.",
+        "text": "STK11 encodes a serine/threonine kinase that functions as a tumor suppressor and regulates both cell polarity and energy metabolism. These roles link the spatial organization of a cell with its metabolic state. Its kinase function provides a mechanism for coordinating these processes through protein phosphorylation. Loss of STK11 function can consequently affect cellular organization and metabolic regulation within the same biological system.",
         "source_ids": [
           "ncbi-6794",
           "uniprot-Q15831"
@@ -138767,7 +138777,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with immunodeficiency 82 with systemic inflammation (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-33782605"
         ]
       },
       "somatic": {
@@ -140856,7 +140867,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant); neurodevelopmental disorder (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-34003604"
         ]
       },
       "somatic": {
@@ -155459,7 +155471,8 @@
       "germline": {
         "text": "Pathogenic germline variants are associated with syndromic complex neurodevelopmental disorder (autosomal dominant); neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (autosomal dominant).",
         "source_ids": [
-          "gencc-snapshot"
+          "gencc-snapshot",
+          "primary-pmid-37383123"
         ]
       },
       "somatic": {

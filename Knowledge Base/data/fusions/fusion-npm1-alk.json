@@ -64,20 +64,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(2;5)-associated NPM1::ALK fusion is a recurrent driver in ALK-positive anaplastic large cell lymphoma.",
+      "text": "In a conditional NPM1::ALK mouse model, fusion expression induced lymphoma with activation of MYC- and NOTCH1-associated programs. Dnmt1 deletion prevented lymphoma development despite persistent proximal ALK signaling.",
       "source_ids": [
-        "nci-genomics"
+        "npm-alk-dnmt1-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "d244465d687df0669c733f88d458db64b05943f2f586acdc7109b2a3919b0b61",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "7679596ea89144baa45cedb78654a107e36efeacbf8da7a42a9ace50bdacfd5c",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "nci-genomics",
-          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
-          "location": "Non-Hodgkin lymphoma: Anaplastic large cell lymphoma; Table 4",
-          "scope": "Specific NPM::ALK disease association; oligomerization/signaling pathway details not certified.",
-          "access_level": "guideline"
+          "source_id": "npm-alk-dnmt1-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7768196/",
+          "location": "Results: Induction of ALK-dependent tumorigenic pathways; Figure 1 RNA-seq/qPCR; Figure 3 Dnmt1 deletion and pSTAT3",
+          "scope": "Primary mouse-model gene expression and genetic-dependency assays inspected by root and body accessed by delegated reviewer; no universal human clinical dependency inferred.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "source_ids": [
         "fda-criz"
       ],
-      "evidence_review_status": "reference_supported",
+      "evidence_review_status": "official_regulatory_supported",
       "claim_sha256": "99176c9d9b1aa5a44ff3099ba38a35fa1309c5aa2e9a773e8a93fbb14e9c3803",
       "fulltext_audit_status": "official_regulatory_supported",
       "audit_evidence": [
@@ -102,11 +102,11 @@
     }
   ],
   "report_comment": {
-    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ALK encodes a receptor tyrosine kinase involved in neural development. The t(2;5)-associated NPM1::ALK fusion is a recurrent driver in ALK-positive anaplastic large cell lymphoma. Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma.",
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ALK encodes a receptor tyrosine kinase involved in neural development. In a conditional NPM1::ALK mouse model, fusion expression induced lymphoma with activation of MYC- and NOTCH1-associated programs. Dnmt1 deletion prevented lymphoma development despite persistent proximal ALK signaling. Crizotinib has a US indication for children aged at least 1 year and young adults with relapsed or refractory systemic ALK-positive anaplastic large cell lymphoma.",
     "source_ids": [
       "ncbi-4869",
       "ncbi-238",
-      "nci-genomics",
+      "npm-alk-dnmt1-primary",
       "fda-criz"
     ]
   },
@@ -123,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "6dda66e7192f28126cf2136b5314634c668858a284bf239d1289450cc4b85050"
+  "text_sha256": "b860579b9c82630927d5256cad1075593410f944a301636837ddd7e101472bb6"
 }

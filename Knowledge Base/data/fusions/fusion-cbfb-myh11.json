@@ -64,20 +64,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The inv(16)/t(16;16) rearrangement joins CBFB and MYH11 and is associated with myelomonocytic AML with abnormal eosinophils.",
+      "text": "CBFB::MYH11 formed cytoplasmic aggregates that recruited RUNX1 in hematopoietic-cell models. Immunofluorescence of primary fusion-positive AML samples also supported predominantly cytoplasmic localization.",
       "source_ids": [
-        "aml"
+        "cbfb-myh11-proteogenomic-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "a204f0a78adf1a9394e6ada3b804f77ab37041c048b3d7bcd3b3402f564885ee",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "a68bbe4c35d82c947b7e520b76626051faf8949d167694fa10953920e6e39ed7",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "WHO classification tables and gene-specific cytogenetic sections",
-          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
-          "access_level": "guideline"
+          "source_id": "cbfb-myh11-proteogenomic-primary",
+          "url": "https://www.jci.org/articles/view/176311",
+          "location": "Results: RUNX1 colocalizes with cytoplasmic CBFB::MYH11; Figures 4 and 5A-B; Supplemental Figures 2-3",
+          "scope": "Model domain comparisons plus actual primary AML imaging; no claim that RUNX1 function is simply extinguished.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -102,11 +102,11 @@
     }
   ],
   "report_comment": {
-    "text": "CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex. MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein. The inv(16)/t(16;16) rearrangement joins CBFB and MYH11 and is associated with myelomonocytic AML with abnormal eosinophils. Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group.",
+    "text": "CBFB encodes the non-DNA-binding beta subunit of the core-binding factor transcription complex. MYH11 encodes smooth-muscle myosin heavy chain, a contractile motor protein. CBFB::MYH11 formed cytoplasmic aggregates that recruited RUNX1 in hematopoietic-cell models. Immunofluorescence of primary fusion-positive AML samples also supported predominantly cytoplasmic localization. Under adult ELN 2022 intensive-treatment criteria, CBFB::MYH11 AML is assigned to the favorable genetic-risk group.",
     "source_ids": [
       "ncbi-865",
       "ncbi-4629",
-      "aml",
+      "cbfb-myh11-proteogenomic-primary",
       "eln-aml"
     ]
   },
@@ -123,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "15e6e29536ab4eea8c97287b2b6f15215714901c9d6b36b647a2175622839d2c"
+  "text_sha256": "11628c3b5f832b9d44df7c3223a6c9384d518b48446612f06e8855f461ca6a53"
 }

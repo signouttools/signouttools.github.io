@@ -64,44 +64,53 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma.",
+      "text": "CIC::DUX4 acts as a transcriptional activator in CIC-rearranged sarcoma. In patient-derived cell models, fusion depletion reduced active chromatin and direct target-gene expression, including ETV1, ETV4 and ETV5; primary tumors shared the associated active chromatin pattern.",
       "source_ids": [
-        "audit-sarcoma-nci-sts",
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-cic"
       ],
-      "claim_sha256": "81ee1f7c33f116bdddc13f64cb622315eea1e94479ac6f5a2d58c65dad6cd794",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "b0186cebf7296fc0a86f5d769b43cd048cf31fc8d27ff19ad0eb47e2b930436e",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-sts",
-          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
-          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
-          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
-          "access_level": "guideline"
-        },
+          "source_id": "audit-followup-sarcoma-cic",
+          "url": "https://www.mdpi.com/2072-6694/16/2/457",
+          "location": "Results 3.1–3.2; Figures 1–2; Table S5",
+          "scope": "ChIP-seq and fusion depletion in patient-derived CDS cell lines plus primary tumor chromatin profiles: CIC-DUX4-associated active chromatin; direct targets including ETV1/4/5 decrease after depletion.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    },
+    {
+      "kind": "prognosis",
+      "text": "In a retrospective comparison, a 57-patient CIC-rearranged sarcoma control cohort had worse overall survival than 22 followed patients with BCOR::CCNB3 sarcoma.",
+      "source_ids": [
+        "audit-followup-sarcoma-bcor"
+      ],
+      "claim_sha256": "4dabbcea24a52c785c90e78c98aa2b3d0bad72d3cc61f9b15e618d6d90e9f5f6",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-ewing",
-          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
-          "location": "Genomic characteristics; EWSR1-ETS and non-ETS/CIC/BCOR sections",
-          "scope": "Classification-level fusion associations and EWSR1-ETS domain architecture; rare partners lack direct functional review here.",
-          "access_level": "guideline"
+          "source_id": "audit-followup-sarcoma-bcor",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/",
+          "location": "Results: BCOR-CCNB3 fusions identified by FISH and RNA sequencing; Figures 3–4; Clinical follow-up and Figure 7",
+          "scope": "Indexed primary Results: BCOR exon 15-CCNB3 exon 5 junction, inversion FISH, distinct expression cluster; survival comparison of 22 followed BCS versus 57 historical CIC-rearranged controls and ES controls.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "CIC encodes capicua, an HMG-box transcriptional repressor. DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus. CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma.",
+    "text": "CIC encodes capicua, an HMG-box transcriptional repressor. DUX4 encodes a double-homeobox transcription factor from a repetitive subtelomeric locus. CIC::DUX4 acts as a transcriptional activator in CIC-rearranged sarcoma. In patient-derived cell models, fusion depletion reduced active chromatin and direct target-gene expression, including ETV1, ETV4 and ETV5; primary tumors shared the associated active chromatin pattern. In a retrospective comparison, a 57-patient CIC-rearranged sarcoma control cohort had worse overall survival than 22 followed patients with BCOR::CCNB3 sarcoma.",
     "source_ids": [
       "ncbi-23152",
       "ncbi-100288687",
-      "audit-sarcoma-nci-sts",
-      "audit-sarcoma-nci-ewing"
+      "audit-followup-sarcoma-cic",
+      "audit-followup-sarcoma-bcor"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
   ],
   "editorial": {
     "status": "draft",
@@ -112,9 +121,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "fb7ceb8e19e2795e0d97ca71abdea4df8f54a54c81197155f1e5dc4239002aeb"
+  "text_sha256": "e17ab24325d8d6d9300cdd35067da060bd348516c038efcb7ac035ef1aa6f8a6"
 }

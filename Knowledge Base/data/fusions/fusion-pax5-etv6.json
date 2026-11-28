@@ -64,30 +64,30 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "PAX5::ETV6 is a recurrent PAX5 fusion in B-ALL and is associated with dic(9;12)(p13;p13).",
+      "text": "PAX5::ETV6 is a recurrent in-frame fusion in the PAX5-altered B-ALL subgroup, identified in 19 cases in a large genomic study.",
       "source_ids": [
-        "all"
+        "pax5-cohort-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "cdfcf55895154edc54d5bf1a09c849dc7ffc507524640e685c3784a75a2e0d9a",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "65481525868b1fbacdf2e122510c7d718472ec606c43aff095663c34dc43d302",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "all",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
-          "location": "PAX5 alterations, lines 419-422",
-          "scope": "Pair-specific cytogenetic and B-ALL association only.",
-          "access_level": "guideline"
+          "source_id": "pax5-cohort-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6525306/",
+          "location": "Results: PAX5 alterations; Figure 2A; Supplementary Table 6",
+          "scope": "Exact recurrent partner and expressed in-frame fusion in patient B-ALL, not merely PAX5 gene-level alterations.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PAX5::ETV6 is a recurrent PAX5 fusion in B-ALL and is associated with dic(9;12)(p13;p13).",
+    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. PAX5::ETV6 is a recurrent in-frame fusion in the PAX5-altered B-ALL subgroup, identified in 19 cases in a large genomic study.",
     "source_ids": [
       "ncbi-5079",
       "ncbi-2120",
-      "all"
+      "pax5-cohort-primary"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -104,9 +104,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "88f8485fdf3d4865908b138d057bd0a43866c962d2a9bff6b417893084fada10"
+  "text_sha256": "6ec714943c2cb434cabd7825caa99eba2793cc57c2a767937a328b536be166aa"
 }

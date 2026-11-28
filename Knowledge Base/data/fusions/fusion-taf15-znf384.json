@@ -66,30 +66,30 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "TAF15::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
+      "text": "TAF15::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
       "source_ids": [
-        "all"
+        "znf384"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "4d80b378bea9e3f73b5be68d1dbdd1283a75aba84570b8224ba0ed76115aaac3",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "2fa1fc62556ed9ee6ed617ad9fc29993c5716ec1249d9d82863a28c6751d5979",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "all",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
-          "location": "ZNF384-rearranged ALL, lines 399-402",
-          "scope": "Exact partners and subtype phenotype; no universal lineage-conversion mechanism inferred.",
-          "access_level": "guideline"
+          "source_id": "znf384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611455/",
+          "location": "Results; Table 1 partner and immunophenotype columns; Figure 1A-B and 1D",
+          "scope": "Ordered pair and measured phenotype; selected CD10-low cohort. Excludes unsupported generalized MPAL frequency or lineage-conversion mechanism.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. ZNF384 encodes a zinc-finger transcriptional regulator. TAF15::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
+    "text": "TAF15 encodes an RNA-binding transcriptional regulator in the FET protein family. ZNF384 encodes a zinc-finger transcriptional regulator. TAF15::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
     "source_ids": [
       "ncbi-8148",
       "ncbi-171017",
-      "all"
+      "znf384"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -106,9 +106,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "6240fcbff271bf6b46f21bb9732e27d1e6c8e753f058e4817e7455aa77414ee1"
+  "text_sha256": "663ae4ee1c3f7d0a26a46616eb64b877c6598b50641e37c7593182840df3d105"
 }

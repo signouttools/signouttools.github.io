@@ -85,20 +85,20 @@
     },
     {
       "kind": "tumor_relevance",
-      "text": "FUS::ERG also occurs rarely in Ewing sarcoma; the leukemia outcome evidence does not establish sarcoma prognosis.",
+      "text": "FUS::ERG also occurs in Ewing sarcoma: an RNA-based fusion panel confirmed the exact fusion in a reported renal Ewing sarcoma.",
       "source_ids": [
-        "ewing"
+        "fus-erg-ewing-case-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "1b17217d8824cfbc473678a113e86f58c639fed6652ba04a92adcb9d6ed6347b",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "6b36048185ab9ed9a0509fd8d03678838416c3bd4648b13a089222b8561bd912",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "ewing",
-          "url": "https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq",
-          "location": "EWSR1/FUS and ETS-partner fusion table",
-          "scope": "Rare FUS::ERG Ewing association; source is classification summary.",
-          "access_level": "guideline"
+          "source_id": "fus-erg-ewing-case-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12161885/",
+          "location": "Case report diagnostic workup; Figures 2-3",
+          "scope": "Actual patient FUS FISH followed by 507-gene RNA fusion-panel confirmation; primary-case diagnostic section inspected in indexed fulltext.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -123,12 +123,12 @@
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML. FUS::ERG also occurs rarely in Ewing sarcoma; the leukemia outcome evidence does not establish sarcoma prognosis. Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. The t(16;21)(p11;q22) rearrangement joins FUS and ERG and defines a rare AML subgroup with a gene-expression profile distinct from RUNX1::CBFA2T3 AML. FUS::ERG also occurs in Ewing sarcoma: an RNA-based fusion panel confirmed the exact fusion in a reported renal Ewing sarcoma. Pediatric FUS::ERG AML has shown poor outcomes and frequent relapse in the international I-BFM cohort.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-2078",
       "t16",
-      "ewing"
+      "fus-erg-ewing-case-primary"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -148,5 +148,5 @@
     "audited_on": "2026-11-27",
     "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "6a262aef0f1b8c01ffbd5e146ec11b76e2a6397083bfd0dcfcf94e023eaa6666"
+  "text_sha256": "c818de593b466b6b7262cc247b0b9a97984c85028ea631f556258b0c053fae4c"
 }

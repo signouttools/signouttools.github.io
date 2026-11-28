@@ -132,7 +132,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CHEK2 encodes the CHK2 checkpoint kinase, which transmits DNA-damage signals to regulators of cell-cycle progression and other stress responses.",
+      "text": "CHEK2 encodes a nuclear serine/threonine kinase that helps halt cell-cycle progression after DNA damage or replication blocks. Activated CHEK2 inhibits the CDC25C phosphatase, helping prevent entry into mitosis, and can stabilize p53 to support arrest in G1. It also interacts with and phosphorylates BRCA1. These interactions connect checkpoint signaling with both temporary interruption of cell division and the DNA-damage response.",
       "source_ids": [
         "ncbi-11200"
       ]

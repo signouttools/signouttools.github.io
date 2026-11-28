@@ -118,7 +118,8 @@
     "YAP1::TFE3-fused hemangioendothelioma": "fusion-context-420e6174560e",
     "Colorectal adenocarcinoma": "colorectal",
     "Ossifying fibromyxoid tumor": "fusion-context-b8b17dd73888",
-    "Salivary hyalinizing clear cell carcinoma": "fusion-context-f0ad9dd8281d"
+    "Salivary hyalinizing clear cell carcinoma": "fusion-context-f0ad9dd8281d",
+    "Peritoneal mesothelioma": "fusion-context-d8b3e7c0c015"
   },
   "new_diseases": [
     {
@@ -810,6 +811,15 @@
       "name": "Salivary hyalinizing clear cell carcinoma",
       "category": "solid",
       "parent_id": null,
+      "synonyms": [],
+      "ontology_mappings": [],
+      "mapping_status": "local_unmapped"
+    },
+    {
+      "id": "fusion-context-d8b3e7c0c015",
+      "name": "Peritoneal mesothelioma",
+      "category": "solid",
+      "parent_id": "atlas-v-mesothelioma",
       "synonyms": [],
       "ontology_mappings": [],
       "mapping_status": "local_unmapped"

@@ -1,7 +1,7 @@
 {
   "built_on": "2026-11-27",
   "status": "source_audit_applied_specialist_review_pending",
-  "claim_count": 665,
+  "claim_count": 671,
   "claims": [
     {
       "fusion_id": "fusion-eml4-alk",
@@ -973,6 +973,54 @@
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
+      "fusion_id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "section_kind": "partner_function",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "review_status": "reference_supported",
+      "reviewer": "LLM source audit; specialist review pending"
+    },
+    {
+      "fusion_id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "section_kind": "partner_function",
+      "text": "NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase.",
+      "claim_sha256": "e7db4418936cfae6649b79765db681135e5792068ec5f22ec5b180c06ee77284",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "review_status": "reference_supported",
+      "reviewer": "LLM source audit; specialist review pending"
+    },
+    {
+      "fusion_id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "section_kind": "fusion_mechanism",
+      "text": "ETV6::NTRK2 was identified in secondary refractory AML and retained the full NTRK2 kinase domain. Expression of the fusion supported cytokine-independent growth of Ba/F3 and 32D cells, demonstrating transforming activity in these experimental hematopoietic models.",
+      "claim_sha256": "b3b3b4f81679f229774615416679169d747ea7115110b4ac98307840e52c359d",
+      "source_ids": [
+        "followup-etv6-ntrk2-aml"
+      ],
+      "review_status": "primary_fulltext_supported",
+      "reviewer": "LLM source audit; specialist review pending"
+    },
+    {
+      "fusion_id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "section_kind": "therapeutics",
+      "text": "A patient with refractory secondary AML and ETV6::NTRK2 achieved a partial remission with larotrectinib, followed by clinical relapse after 10–12 weeks. The patient also harbored ETV6::MECOM and other alterations, and the response differed between clones. This is case-level clinical evidence.",
+      "claim_sha256": "09e1bc7e66402eacfe8fdf9ec393e3f95db065d92d7aad36a44ff39a080a3683",
+      "source_ids": [
+        "followup-etv6-ntrk2-aml"
+      ],
+      "review_status": "primary_fulltext_supported",
+      "reviewer": "LLM source audit; specialist review pending"
+    },
+    {
       "fusion_id": "fusion-fgfr2-bicc1",
       "label": "FGFR2::BICC1",
       "section_kind": "partner_function",
@@ -1685,12 +1733,12 @@
       "fusion_id": "fusion-npm1-alk",
       "label": "NPM1::ALK",
       "section_kind": "fusion_mechanism",
-      "text": "The t(2;5)-associated NPM1::ALK fusion is a recurrent driver in ALK-positive anaplastic large cell lymphoma.",
-      "claim_sha256": "d244465d687df0669c733f88d458db64b05943f2f586acdc7109b2a3919b0b61",
+      "text": "In a conditional NPM1::ALK mouse model, fusion expression induced lymphoma with activation of MYC- and NOTCH1-associated programs. Dnmt1 deletion prevented lymphoma development despite persistent proximal ALK signaling.",
+      "claim_sha256": "7679596ea89144baa45cedb78654a107e36efeacbf8da7a42a9ace50bdacfd5c",
       "source_ids": [
-        "nci-genomics"
+        "npm-alk-dnmt1-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -1733,12 +1781,12 @@
       "fusion_id": "fusion-bcr-abl1",
       "label": "BCR::ABL1",
       "section_kind": "fusion_mechanism",
-      "text": "The t(9;22) rearrangement produces a tyrosine-kinase fusion that drives CML and a subset of B-ALL. The p210 isoform predominates in CML, while p190 is more common in B-ALL.",
-      "claim_sha256": "a0592f041be13195243de11a10ac8f06eb7929011216d01a69e5de11523bbf3c",
+      "text": "Expression of p210 BCR::ABL1 in transplanted murine bone marrow induced a CML-like myeloproliferative syndrome, demonstrating its leukemogenic activity in vivo. Other hematologic tumor phenotypes also occurred in the model.",
+      "claim_sha256": "ebc9ab8a8134073a8a42406c7405dd0415afde1eb726ea86e2fbf31424c9d7db",
       "source_ids": [
-        "all"
+        "bcr-abl-murine-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -1781,12 +1829,12 @@
       "fusion_id": "fusion-pml-rara",
       "label": "PML::RARA",
       "section_kind": "fusion_mechanism",
-      "text": "PML::RARA is the defining fusion of conventional acute promyelocytic leukemia and commonly arises from t(15;17).",
-      "claim_sha256": "387f001f02858bf01e867a8f0c93abd9d8525f9e7acbfbd0d0a8844156b59a62",
+      "text": "PML::RARA blocked IL-3-stimulated myeloid differentiation in experimental marrow systems; ATRA restored differentiation. Coexpression with IL-3 produced rapidly fatal AML-like disease in transplanted mice.",
+      "claim_sha256": "028263902501c80ac582ab3e723544f8a173e8abc078eae61cef2df4bab9297c",
       "source_ids": [
-        "aml"
+        "pml-rara-differentiation-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -1829,12 +1877,12 @@
       "fusion_id": "fusion-runx1-runx1t1",
       "label": "RUNX1::RUNX1T1",
       "section_kind": "fusion_mechanism",
-      "text": "The t(8;21) rearrangement joins RUNX1 and RUNX1T1 and defines a core-binding factor AML subtype.",
-      "claim_sha256": "2426ed750bd1c83bc2dbc140ea7953fe0d95299f13417d8f355a6ac17f6df9a4",
+      "text": "RUNX1::RUNX1T1 (AML1-ETO) promotes serial replating of murine hematopoietic progenitors. DNA-binding disruption or deletion of its NHR2 oligomerization region abolished this transforming activity in the tested model.",
+      "claim_sha256": "9a4d7f3d9571068a6144a3248a596a079932f9af89ebdc88648a2a076e1a6e5e",
       "source_ids": [
-        "aml"
+        "runx1-eto-functional"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -1877,12 +1925,12 @@
       "fusion_id": "fusion-cbfb-myh11",
       "label": "CBFB::MYH11",
       "section_kind": "fusion_mechanism",
-      "text": "The inv(16)/t(16;16) rearrangement joins CBFB and MYH11 and is associated with myelomonocytic AML with abnormal eosinophils.",
-      "claim_sha256": "a204f0a78adf1a9394e6ada3b804f77ab37041c048b3d7bcd3b3402f564885ee",
+      "text": "CBFB::MYH11 formed cytoplasmic aggregates that recruited RUNX1 in hematopoietic-cell models. Immunofluorescence of primary fusion-positive AML samples also supported predominantly cytoplasmic localization.",
+      "claim_sha256": "a68bbe4c35d82c947b7e520b76626051faf8949d167694fa10953920e6e39ed7",
       "source_ids": [
-        "aml"
+        "cbfb-myh11-proteogenomic-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -1925,12 +1973,12 @@
       "fusion_id": "fusion-dek-nup214",
       "label": "DEK::NUP214",
       "section_kind": "fusion_mechanism",
-      "text": "The t(6;9) rearrangement joins DEK and NUP214 and defines a recurrent AML subtype.",
-      "claim_sha256": "67aa77a00617d6377231f1c500f64e8d1375b3edee6da03356b32776b071cf00",
+      "text": "DEK::NUP214 bound regulatory regions of FOXC1 and HOXA/HOXB genes in cellular models. XPO1 inhibition reduced fusion-associated binding and expression of these leukemia-associated transcriptional targets, including in primary t(6;9) AML samples.",
+      "claim_sha256": "641c549e3b801b78158d06d67ac951d10d618a9c3c7b411545347abe1d88a86a",
       "source_ids": [
-        "aml"
+        "dek-nup214-functional-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -1973,12 +2021,12 @@
       "fusion_id": "fusion-rbm15-mrtfa",
       "label": "RBM15::MRTFA",
       "section_kind": "fusion_mechanism",
-      "text": "The t(1;22) rearrangement joins RBM15 and MRTFA and occurs in a subset of infant acute megakaryoblastic leukemias.",
-      "claim_sha256": "d31c28476a6501aac06a48a0649badabdeb6eb533aaa5b39e10cf6bf88ade040",
+      "text": "RBM15::MRTFA, also called RBM15::MKL1, was detected in a subset of pediatric non-Down-syndrome acute megakaryoblastic leukemias. Fusion-positive children were younger at diagnosis than the other molecular groups.",
+      "claim_sha256": "9673ac3078741755fb80bade80d628c8c9e1fb6e09231345ddd36e659b968e77",
       "source_ids": [
-        "aml"
+        "amkl-intergroup-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -2645,12 +2693,12 @@
       "fusion_id": "fusion-cbfa2t3-glis2",
       "label": "CBFA2T3::GLIS2",
       "section_kind": "fusion_mechanism",
-      "text": "The cryptic inv(16)(p13q24) rearrangement joins CBFA2T3 and GLIS2 and is associated with pediatric AML, frequently with megakaryoblastic differentiation.",
-      "claim_sha256": "62c15a6e2ff8e33f8d73de78b7fe028b0985478a0720dac2f0b4d0c1f8e80ee4",
+      "text": "CBFA2T3::GLIS2 was identified in pediatric non-Down-syndrome acute megakaryoblastic leukemia by molecular screening in an international cohort.",
+      "claim_sha256": "2d3691556507ff61dc07daf204c8dd66c21075aa59f4dc35eecc93ac4de9acfd",
       "source_ids": [
-        "aml"
+        "amkl-intergroup-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -2693,12 +2741,12 @@
       "fusion_id": "fusion-fus-erg",
       "label": "FUS::ERG",
       "section_kind": "tumor_relevance",
-      "text": "FUS::ERG also occurs rarely in Ewing sarcoma; the leukemia outcome evidence does not establish sarcoma prognosis.",
-      "claim_sha256": "1b17217d8824cfbc473678a113e86f58c639fed6652ba04a92adcb9d6ed6347b",
+      "text": "FUS::ERG also occurs in Ewing sarcoma: an RNA-based fusion panel confirmed the exact fusion in a reported renal Ewing sarcoma.",
+      "claim_sha256": "6b36048185ab9ed9a0509fd8d03678838416c3bd4648b13a089222b8561bd912",
       "source_ids": [
-        "ewing"
+        "fus-erg-ewing-case-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -2825,12 +2873,12 @@
       "fusion_id": "fusion-set-nup214",
       "label": "SET::NUP214",
       "section_kind": "fusion_mechanism",
-      "text": "SET::NUP214 occurs in the HOXA-expression subgroup of T-ALL and is associated with HOXA9 overexpression.",
-      "claim_sha256": "cde20225cce81cdc32e94ced076c055211284302e574e9e28aa21e9fcfdfe092",
+      "text": "SET::NUP214 is a recurrent T-ALL fusion. In LOUCY cells, fusion knockdown reduced HOXA expression and proliferation and increased differentiation markers; ChIP detected association with HOXA9 and HOXA10 promoters.",
+      "claim_sha256": "d9ff7e868a5893ab6eaa713e3db7e214dddcd02ad2fb3023830298177c607ca3",
       "source_ids": [
-        "nci-genomics"
+        "set-nup214"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -2945,24 +2993,24 @@
       "fusion_id": "fusion-zbtb16-rara",
       "label": "ZBTB16::RARA",
       "section_kind": "fusion_mechanism",
-      "text": "ZBTB16::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
-      "claim_sha256": "8c1522e20fc6980ced9ef94eb45df1e8163a98a61fc45bd3bc8b1d08e8f5a0e9",
+      "text": "ZBTB16::RARA was RT-PCR-confirmed in 18 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology.",
+      "claim_sha256": "885eeb82fede5ee4914d0a1945c0e76c8d490008ffd3cd183217ef66c3cbe955",
       "source_ids": [
-        "aml"
+        "rara"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
       "fusion_id": "fusion-zbtb16-rara",
       "label": "ZBTB16::RARA",
       "section_kind": "therapeutics",
-      "text": "ZBTB16::RARA-positive variant APL usually fails to respond to tretinoin or arsenic trioxide.",
-      "claim_sha256": "4d46b703760e70ae864537ff3b56aa2564d874479c90212414c078895d3225db",
+      "text": "In the rare-RARA series, no evident ATRA/ATO-induced differentiation was observed in ZBTB16::RARA-positive cases despite frequent retinoid exposure; treatment responses to combination regimens do not establish retinoid sensitivity.",
+      "claim_sha256": "741204706f43e1f5fed4492cdff94ed90a8bf6d94633f0f1a1d72c3f08b86f77",
       "source_ids": [
-        "aml"
+        "rara"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -2993,24 +3041,24 @@
       "fusion_id": "fusion-npm1-rara",
       "label": "NPM1::RARA",
       "section_kind": "fusion_mechanism",
-      "text": "NPM1::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
-      "claim_sha256": "1101bc93e6320232c8cff6c8c0c5d096375794fce1a5996bc50a33538bfa2ade",
+      "text": "NPM1::RARA was confirmed by RT-qPCR in an infant with AML, a t(5;17) rearrangement and a mandibular myeloid sarcoma in a Hungarian clinical cohort.",
+      "claim_sha256": "3676f71353df53ddb68cf9887b00b78828b6ed44d22e75a11a6e7f01e1e1c998",
       "source_ids": [
-        "aml"
+        "npm-rara-hungary-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
       "fusion_id": "fusion-npm1-rara",
       "label": "NPM1::RARA",
       "section_kind": "therapeutics",
-      "text": "Rare NPM1::RARA-positive APL variants may retain sensitivity to tretinoin.",
-      "claim_sha256": "060e7b169c6d7ca1bd0b5b5b6274edef96fb27f612fee268dcabc625d1bffcb6",
+      "text": "The reported infant with NPM1::RARA-positive AML achieved remission with an AML chemotherapy regimen plus ATRA and remained in first remission at the reported 36-month follow-up. Subsequent treatment included arsenic; this combination outcome does not establish isolated ATRA sensitivity.",
+      "claim_sha256": "869ab8e808401d3256308f025a8388b08622e3edef47b73f656f8a0e837e7e8b",
       "source_ids": [
-        "aml"
+        "npm-rara-hungary-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3041,12 +3089,12 @@
       "fusion_id": "fusion-stat5b-rara",
       "label": "STAT5B::RARA",
       "section_kind": "fusion_mechanism",
-      "text": "STAT5B::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
-      "claim_sha256": "f5de497836282a77271dde1e3cd098001de1bace3814733f61744b3d5ed8fdf0",
+      "text": "STAT5B::RARA was RT-PCR-confirmed in 3 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology.",
+      "claim_sha256": "a130823203eeb4b92a71cbb8da62e9043e7e4602ad2198de1e1fe905fd9b12a1",
       "source_ids": [
-        "aml"
+        "rara"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3077,12 +3125,12 @@
       "fusion_id": "fusion-fip1l1-pdgfra",
       "label": "FIP1L1::PDGFRA",
       "section_kind": "fusion_mechanism",
-      "text": "FIP1L1::PDGFRA is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
-      "claim_sha256": "216e4b4d581c4f6ee63e358909b804ce3908ca3e2504d616924ec4db781beebe",
+      "text": "FIP1L1::PDGFRA was documented in 78 patients in a registry study of myeloid/lymphoid neoplasms with tyrosine-kinase fusions, providing direct clinical evidence for this disease association.",
+      "claim_sha256": "bd8492217baec244f103f8c0d70d94f0c0b43076c7ea038361331922d9d767a6",
       "source_ids": [
-        "icc-eo"
+        "mln-registry-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3125,24 +3173,24 @@
       "fusion_id": "fusion-etv6-pdgfrb",
       "label": "ETV6::PDGFRB",
       "section_kind": "fusion_mechanism",
-      "text": "ETV6::PDGFRB is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
-      "claim_sha256": "9e5432909938111c947c7f662aa8359a2454bbc4b626992317174c84aa28ffcb",
+      "text": "ETV6::PDGFRB was identified in 18 patients in a 26-patient cohort of PDGFRB-rearranged myeloid neoplasms, predominantly chronic myeloproliferative or myelomonocytic disease with eosinophilia.",
+      "claim_sha256": "b5b4cae27e897baca149f1b0de8ff0111790366b7a6684ded585b15958c047a6",
       "source_ids": [
-        "icc-eo"
+        "pdgfrb"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
       "fusion_id": "fusion-etv6-pdgfrb",
       "label": "ETV6::PDGFRB",
       "section_kind": "therapeutics",
-      "text": "Imatinib can induce durable hematologic, cytogenetic and molecular remissions in ETV6::PDGFRB-associated myeloid/lymphoid neoplasms.",
-      "claim_sha256": "d2f579291798bc43ca46c44357fcee1b186401e9ee58f211a2ced0aea9aa1076",
+      "text": "A PDGFRB-rearranged myeloid-neoplasm cohort, including 18 ETV6::PDGFRB cases, showed frequent and durable responses to imatinib; outcomes were reported for the pooled fusion cohort.",
+      "claim_sha256": "1b9b4320c64196bb0f1518c66f9ee4d8511c6ee317f9804c27e63bdb431bb142",
       "source_ids": [
-        "icc-eo"
+        "pdgfrb"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3173,12 +3221,12 @@
       "fusion_id": "fusion-zmym2-fgfr1",
       "label": "ZMYM2::FGFR1",
       "section_kind": "fusion_mechanism",
-      "text": "ZMYM2::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
-      "claim_sha256": "a3a465b6cbe71315eb99c69354cc2032c8c76b9da2131fe46a517c43e6e586a6",
+      "text": "ZMYM2::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
+      "claim_sha256": "d6d29e05f8076f944a19b6bbb9e05894093cd6aec8812547bdc5afc199f17038",
       "source_ids": [
-        "icc-eo"
+        "mln-registry-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3221,12 +3269,12 @@
       "fusion_id": "fusion-bcr-fgfr1",
       "label": "BCR::FGFR1",
       "section_kind": "fusion_mechanism",
-      "text": "BCR::FGFR1 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
-      "claim_sha256": "37d09095a957ff443bd850534bf1d43ec0ab3cc1de74d361d8efef07dac72f34",
+      "text": "BCR::FGFR1 was a recurrent fusion identified among FGFR1-rearranged myeloid/lymphoid neoplasms in a registry cohort.",
+      "claim_sha256": "283fb95361563606bbfd1a00f873d4a38944486645e4651da0c93035835c7c97",
       "source_ids": [
-        "icc-eo"
+        "mln-registry-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3269,24 +3317,24 @@
       "fusion_id": "fusion-pcm1-jak2",
       "label": "PCM1::JAK2",
       "section_kind": "fusion_mechanism",
-      "text": "PCM1::JAK2 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
-      "claim_sha256": "1a180e6317e4295480b84ee15022c8dcd9b6247788ece1d0fb297d344bd6d72d",
+      "text": "PCM1::JAK2 was documented in a clinical series of JAK2-fusion myeloid neoplasms presenting in chronic or blast phase, often with marrow fibrosis and abnormal erythropoiesis.",
+      "claim_sha256": "ef675d97a4616d8b255df0a15d7406d179e8d4f6459f4c4f237d1bd033f6641d",
       "source_ids": [
-        "icc-eo"
+        "jak2"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
       "fusion_id": "fusion-pcm1-jak2",
       "label": "PCM1::JAK2",
       "section_kind": "therapeutics",
-      "text": "Ruxolitinib can produce hematologic and cytogenetic responses in JAK2-fusion myeloid/lymphoid neoplasms, but these responses may be limited in duration.",
-      "claim_sha256": "be8bbe16e0e4f5d32746a2d3ff75336d70770be8e834dde5279afb8891efb1d4",
+      "text": "In a series including eight PCM1::JAK2 and one BCR::JAK2 case, ruxolitinib produced hematologic or cytogenetic responses in some patients, but most discontinued for resistance, progression or planned transplantation.",
+      "claim_sha256": "e5c9ef7035daa2651a018e9345d7da4ff20791eb6956d2585b50ec55484daeaa",
       "source_ids": [
-        "icc-eo"
+        "jak2"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3737,24 +3785,24 @@
       "fusion_id": "fusion-etv6-runx1",
       "label": "ETV6::RUNX1",
       "section_kind": "fusion_mechanism",
-      "text": "ETV6::RUNX1 defines a recurrent pediatric B-ALL subtype.",
-      "claim_sha256": "367d109434241222720e3c3544e0718087436bed75477aba32ce03cc662b3288",
+      "text": "ETV6::RUNX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort.",
+      "claim_sha256": "b6e21b92a1e971ac965d7eb444fbe179bcb524bf9999d0dba276393af32b8170",
       "source_ids": [
-        "all"
+        "b-all-landscape-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
       "fusion_id": "fusion-etv6-runx1",
       "label": "ETV6::RUNX1",
       "section_kind": "prognosis",
-      "text": "Children with ETV6::RUNX1-positive B-ALL generally have favorable event-free and overall survival with contemporary treatment; early treatment response and NCI risk group refine this association.",
-      "claim_sha256": "4274e68a42578904cad1d1bd2298c42d77680c0cab04abac88fcb7873e48e331",
+      "text": "In St. Jude Total XV, ETV6::RUNX1-positive B-ALL had better event-free and overall survival than fusion-negative disease. This difference was not significant in the earlier Total XIIIA/B cohorts, supporting a treatment-specific interpretation.",
+      "claim_sha256": "2fcb6e006e04ccbffa47d4f2f3f5f77cc207a23f02688ee74eababf1b04ca7a2",
       "source_ids": [
-        "all"
+        "etv6-runx1-outcome-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3785,24 +3833,24 @@
       "fusion_id": "fusion-tcf3-pbx1",
       "label": "TCF3::PBX1",
       "section_kind": "fusion_mechanism",
-      "text": "TCF3::PBX1 defines a recurrent pediatric B-ALL subtype.",
-      "claim_sha256": "e59f50d698355ebaf2e41515654d91906d385ce29462eab2a447132bbf0f5e88",
+      "text": "TCF3::PBX1 defines a recurrent pediatric B-ALL subgroup documented by genomic profiling in a large patient cohort.",
+      "claim_sha256": "af4b5c79b690180384aa01f91f28cd247b77586db7e31324e0490edb6399cb57",
       "source_ids": [
-        "all"
+        "b-all-landscape-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
       "fusion_id": "fusion-tcf3-pbx1",
       "label": "TCF3::PBX1",
       "section_kind": "prognosis",
-      "text": "The historically adverse outcome of TCF3::PBX1-positive childhood B-ALL was largely overcome by intensive multiagent treatment; a higher CNS relapse rate was observed in the cited St. Jude cohort.",
-      "claim_sha256": "76c37845d84ea9b7b390efe2660fbce8151fba091901499e1abdacc202cc5ae1",
+      "text": "In the St. Jude cohort, TCF3::PBX1-positive B-ALL had event-free survival comparable to other B-cell-precursor ALL but a higher incidence of CNS relapse. The CNS association persisted in the study multivariable analyses.",
+      "claim_sha256": "c8e940c60725af5cc3693e8e493d87264350bc1a637582967c152e733ed64d6a",
       "source_ids": [
-        "all"
+        "tcf3-pbx1-cns-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -3989,12 +4037,12 @@
       "fusion_id": "fusion-ep300-znf384",
       "label": "EP300::ZNF384",
       "section_kind": "fusion_mechanism",
-      "text": "EP300::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
-      "claim_sha256": "d78eca7a3b1439421911d3fc1cda96b158e3a4c34a0c059d939b51c1dd64349c",
+      "text": "EP300::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
+      "claim_sha256": "8d994b920e78b035c1e70702720b5c4af0559f05d5f47481694c88e0a3cdbd02",
       "source_ids": [
-        "all"
+        "znf384"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4025,12 +4073,12 @@
       "fusion_id": "fusion-tcf3-znf384",
       "label": "TCF3::ZNF384",
       "section_kind": "fusion_mechanism",
-      "text": "TCF3::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
-      "claim_sha256": "d1f4989b1f33a544a48b5e6153816a8f8874abf0a770390c9995f149eff60ab7",
+      "text": "TCF3::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The reported TCF3 partner was identified by FISH.",
+      "claim_sha256": "498fbe88b3ce03153a0e50c7784c17e120aa0548ef10d5ee9f904aa1a93c4c5a",
       "source_ids": [
-        "all"
+        "znf384"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4061,12 +4109,12 @@
       "fusion_id": "fusion-taf15-znf384",
       "label": "TAF15::ZNF384",
       "section_kind": "fusion_mechanism",
-      "text": "TAF15::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
-      "claim_sha256": "4d80b378bea9e3f73b5be68d1dbdd1283a75aba84570b8224ba0ed76115aaac3",
+      "text": "TAF15::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The junction was confirmed by RT-PCR and sequencing.",
+      "claim_sha256": "2fa1fc62556ed9ee6ed617ad9fc29993c5716ec1249d9d82863a28c6751d5979",
       "source_ids": [
-        "all"
+        "znf384"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4097,12 +4145,12 @@
       "fusion_id": "fusion-pax5-etv6",
       "label": "PAX5::ETV6",
       "section_kind": "fusion_mechanism",
-      "text": "PAX5::ETV6 is a recurrent PAX5 fusion in B-ALL and is associated with dic(9;12)(p13;p13).",
-      "claim_sha256": "cdfcf55895154edc54d5bf1a09c849dc7ffc507524640e685c3784a75a2e0d9a",
+      "text": "PAX5::ETV6 is a recurrent in-frame fusion in the PAX5-altered B-ALL subgroup, identified in 19 cases in a large genomic study.",
+      "claim_sha256": "65481525868b1fbacdf2e122510c7d718472ec606c43aff095663c34dc43d302",
       "source_ids": [
-        "all"
+        "pax5-cohort-primary"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4218,12 +4266,12 @@
       "fusion_id": "fusion-ewsr1-erg",
       "label": "EWSR1::ERG",
       "section_kind": "fusion_mechanism",
-      "text": "EWSR1::ERG is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
-      "claim_sha256": "f3c141cccc247f4d24a397efb5df406c4e459b7409ff62eb1750ad31f3e340cf",
+      "text": "EWSR1::ERG is a molecularly confirmed Ewing sarcoma fusion. A primary clinicopathological cohort included 26 tumors with this fusion, with round, ovoid, spindle or epithelioid morphology.",
+      "claim_sha256": "a729cbfa41b87c22c455c09e6694a190ab2d8fbd175999eae852cec44c96c969",
       "source_ids": [
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-roundcell"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4254,12 +4302,13 @@
       "fusion_id": "fusion-ewsr1-etv1",
       "label": "EWSR1::ETV1",
       "section_kind": "fusion_mechanism",
-      "text": "EWSR1::ETV1 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
-      "claim_sha256": "fcc01fb823853dbdaccdc409336486e5fd5db99242fc4a88de6a1af3edbcd2a6",
+      "text": "EWSR1::ETV1 is a rare Ewing sarcoma fusion documented in clinical translocation-testing data and in a molecularly characterized Ewing sarcoma cohort.",
+      "claim_sha256": "1d3169b743995e740528e758b98ccf55829d6eaace7dd2a819b3b96cf5abd1ab",
       "source_ids": [
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-etv1",
+        "audit-followup-sarcoma-roundcell"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4290,12 +4339,12 @@
       "fusion_id": "fusion-ewsr1-etv4",
       "label": "EWSR1::ETV4",
       "section_kind": "fusion_mechanism",
-      "text": "EWSR1::ETV4 is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
-      "claim_sha256": "482210f80905085335c898b7ec24b0007193a3bb31097e27970e1f4206182892",
+      "text": "EWSR1::ETV4 is a rare Ewing sarcoma fusion documented in molecularly characterized tumors. The reviewed cohort included an infant with an EWSR1::ETV4-positive paraspinal/pelvic soft-tissue tumor containing prominent calcification.",
+      "claim_sha256": "40d912e3ea6f28348ec0e8ff041f1d5a0b96527cad93f5566693a24d8ea15847",
       "source_ids": [
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-roundcell"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4326,12 +4375,12 @@
       "fusion_id": "fusion-ewsr1-fev",
       "label": "EWSR1::FEV",
       "section_kind": "fusion_mechanism",
-      "text": "EWSR1::FEV is an EWSR1::ETS-family fusion recognized in Ewing sarcoma. The fusion class joins the EWSR1 amino-terminal activation region to an ETS-family DNA-binding region.",
-      "claim_sha256": "176a1d73ac75b7646fe8e51a2066f1bacf308da4ef0f5ed46f789ddd4fd35fa3",
+      "text": "EWSR1::FEV is a rare Ewing sarcoma fusion. Molecular analysis demonstrates EWSR1 joined to FEV with retention of the FEV ETS DNA-binding domain; directly studied tumors show primitive round-cell morphology.",
+      "claim_sha256": "3ea5eec31a0f249631deb1201f8521f09afea6ab0e4849c82d5e11d797d32ac1",
       "source_ids": [
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-fev"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4605,12 +4654,12 @@
       "fusion_id": "fusion-ewsr1-wt1",
       "label": "EWSR1::WT1",
       "section_kind": "fusion_mechanism",
-      "text": "EWSR1::WT1 is the characteristic fusion associated with desmoplastic small round cell tumor.",
-      "claim_sha256": "10f1c952442af5705b59add9710b6ad17993ea7e08923a31d1a07865f72a4a00",
+      "text": "EWSR1::WT1 is an oncogenic transcriptional regulator of desmoplastic small round cell tumor. Fusion-depletion experiments reduce active chromatin, three-dimensional enhancer contacts and direct target-gene expression; coexpression of its +KTS and −KTS splice isoforms generated DSRCT-like xenografts in a mesothelial-cell model.",
+      "claim_sha256": "c486d9bfccde833576a5082fce588486e01c13d0f80f35d536e681bf41068b71",
       "source_ids": [
-        "audit-sarcoma-nci-sts"
+        "audit-followup-sarcoma-wt1"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4689,18 +4738,6 @@
     {
       "fusion_id": "fusion-ewsr1-ddit3",
       "label": "EWSR1::DDIT3",
-      "section_kind": "fusion_mechanism",
-      "text": "EWSR1::DDIT3 is a recognized fusion in myxoid liposarcoma.",
-      "claim_sha256": "35ce67d5546bae5e0a3b364f45473d3d359cd794b24781546fdc256b6445f767",
-      "source_ids": [
-        "audit-sarcoma-nci-sts"
-      ],
-      "review_status": "reference_supported",
-      "reviewer": "LLM source audit; specialist review pending"
-    },
-    {
-      "fusion_id": "fusion-ewsr1-ddit3",
-      "label": "EWSR1::DDIT3",
       "section_kind": "therapeutics",
       "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
       "claim_sha256": "359d59ae9c5f42e056ca01438cffa5b16659103f27428493f6f0ce36c4dad505",
@@ -4708,6 +4745,18 @@
         "audit-sarcoma-fda-trabectedin"
       ],
       "review_status": "official_regulatory_supported",
+      "reviewer": "LLM source audit; specialist review pending"
+    },
+    {
+      "fusion_id": "fusion-ewsr1-ddit3",
+      "label": "EWSR1::DDIT3",
+      "section_kind": "fusion_mechanism",
+      "text": "EWSR1::DDIT3 is a myxoid liposarcoma fusion confirmed by RNA sequencing. A directly documented tumor had diffuse DDIT3 expression despite a negative DDIT3 break-apart FISH result.",
+      "claim_sha256": "fba5caa5334ba28e48664b9d24879e991f723687bf0b74e663f123872feed130",
+      "source_ids": [
+        "audit-followup-sarcoma-ddit3"
+      ],
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -4943,12 +4992,13 @@
       "fusion_id": "fusion-fus-atf1",
       "label": "FUS::ATF1",
       "section_kind": "fusion_mechanism",
-      "text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma.",
-      "claim_sha256": "72b1799132aa8f500f3b871d1863067f889405c60eb01a5369fee9a3972a3872",
+      "text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma. It has also been directly documented in a peritoneal mesothelioma in a primary genomic cohort.",
+      "claim_sha256": "aefe93e832a94b49103adb0f94f39dd5fd85f1ae0131ab4edabcc39d79def9c7",
       "source_ids": [
-        "audit-sarcoma-nci-sts"
+        "audit-sarcoma-nci-sts",
+        "audit-followup-sarcoma-fus-atf1-meso"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -5016,12 +5066,12 @@
       "fusion_id": "fusion-fus-creb3l1",
       "label": "FUS::CREB3L1",
       "section_kind": "fusion_mechanism",
-      "text": "FUS::CREB3L1 is a recognized fusion in low-grade fibromyxoid sarcoma.",
-      "claim_sha256": "8eda57cc3618469ba027483eb1ed079d8a9a40ccdb96f54bb1ffb55239898f27",
+      "text": "FUS::CREB3L1 is a recurrent fusion in low-grade fibromyxoid sarcoma. An international cohort recorded this fusion in six molecularly analyzed LGFMS patients.",
+      "claim_sha256": "2d8a86cc2d8352c08025a019ba9a45f8665b8fba3d7e1a0207a402122c1f61fe",
       "source_ids": [
-        "audit-sarcoma-nci-sts"
+        "audit-followup-sarcoma-creb3l1"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -5089,13 +5139,24 @@
       "fusion_id": "fusion-cic-dux4",
       "label": "CIC::DUX4",
       "section_kind": "fusion_mechanism",
-      "text": "CIC::DUX4 is a recurrent fusion in CIC-rearranged sarcoma, a molecular category distinct from Ewing sarcoma.",
-      "claim_sha256": "81ee1f7c33f116bdddc13f64cb622315eea1e94479ac6f5a2d58c65dad6cd794",
+      "text": "CIC::DUX4 acts as a transcriptional activator in CIC-rearranged sarcoma. In patient-derived cell models, fusion depletion reduced active chromatin and direct target-gene expression, including ETV1, ETV4 and ETV5; primary tumors shared the associated active chromatin pattern.",
+      "claim_sha256": "b0186cebf7296fc0a86f5d769b43cd048cf31fc8d27ff19ad0eb47e2b930436e",
       "source_ids": [
-        "audit-sarcoma-nci-sts",
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-cic"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
+      "reviewer": "LLM source audit; specialist review pending"
+    },
+    {
+      "fusion_id": "fusion-cic-dux4",
+      "label": "CIC::DUX4",
+      "section_kind": "prognosis",
+      "text": "In a retrospective comparison, a 57-patient CIC-rearranged sarcoma control cohort had worse overall survival than 22 followed patients with BCOR::CCNB3 sarcoma.",
+      "claim_sha256": "4dabbcea24a52c785c90e78c98aa2b3d0bad72d3cc61f9b15e618d6d90e9f5f6",
+      "source_ids": [
+        "audit-followup-sarcoma-bcor"
+      ],
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -5126,13 +5187,24 @@
       "fusion_id": "fusion-bcor-ccnb3",
       "label": "BCOR::CCNB3",
       "section_kind": "fusion_mechanism",
-      "text": "BCOR::CCNB3 results from an X-chromosome inversion and is recognized in a distinct BCOR-altered round-cell sarcoma group.",
-      "claim_sha256": "673e34c139db34d82c806c5c27d284e07356a9c585c23fd460d89f2ca77e0ef4",
+      "text": "BCOR::CCNB3 is associated with a round-to-spindle-cell sarcoma group. Primary molecular analyses demonstrated the BCOR exon 15–CCNB3 exon 5 junction and inversion-associated FISH pattern, with an expression profile distinct from Ewing and CIC-rearranged sarcomas.",
+      "claim_sha256": "5e298160ad8e279f1d06b78a50765166b64aa78570020698b0941d8d084273d6",
       "source_ids": [
-        "audit-sarcoma-nci-sts",
-        "audit-sarcoma-nci-ewing"
+        "audit-followup-sarcoma-bcor"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
+      "reviewer": "LLM source audit; specialist review pending"
+    },
+    {
+      "fusion_id": "fusion-bcor-ccnb3",
+      "label": "BCOR::CCNB3",
+      "section_kind": "prognosis",
+      "text": "In a molecularly confirmed BCOR::CCNB3 series, the 22 patients with follow-up had a five-year overall survival estimate of 72%, better than the historical CIC-rearranged sarcoma control cohort. Seven of nine evaluable tumors treated with Ewing-type chemotherapy showed 60–100% treatment-related necrosis or fibrosis.",
+      "claim_sha256": "873ca876e4b97be04fff08c0d3fb2275ccf8c3205e92f5c670d8e6b618c46cf4",
+      "source_ids": [
+        "audit-followup-sarcoma-bcor"
+      ],
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -6770,12 +6842,12 @@
       "fusion_id": "fusion-runx1-mecom",
       "label": "RUNX1::MECOM",
       "section_kind": "fusion_mechanism",
-      "text": "RUNX1::MECOM is a recurrent t(3;21)-associated rearrangement in myeloid neoplasia, including secondary AML and CML blast phase.",
-      "claim_sha256": "f827fafb1bfd0043f14d88b0508228d0559204c3c471301fa5ef54f3fd9f153e",
+      "text": "RUNX1::MECOM can occur in de novo AML: a pediatric acute myelomonocytic leukemia case had t(3;21) and Sanger-confirmed RUNX1::MECOM alongside RUNX1::RPL22.",
+      "claim_sha256": "8b8b68392819acbf0fe49206433a038ea1f72e97e84ed6b0d39604ed4ba15641",
       "source_ids": [
-        "aml"
+        "runx1-mecom-case"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -6818,12 +6890,12 @@
       "fusion_id": "fusion-npm1-mlf1",
       "label": "NPM1::MLF1",
       "section_kind": "fusion_mechanism",
-      "text": "NPM1::MLF1 is a rare recurrent t(3;5)-associated AML fusion, distinct from the usual NPM1 exon 12 mutation.",
-      "claim_sha256": "4f0afeb4983238c6c3080b031b391231a28e5481125fe77387d499039d9d9dbd",
+      "text": "Patient-derived NPM1::MLF1 fusion constructs showed aberrant cytoplasmic localization and promoted myeloid leukemogenesis in experimental models, with HOX activation linked to XPO1.",
+      "claim_sha256": "d73b1f0b2651f73719b0b1f66102d928826f7db99ee7066e8646216558cede76",
       "source_ids": [
-        "aml"
+        "npm-fusion-functional"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7154,12 +7226,12 @@
       "fusion_id": "fusion-igh-bcl2",
       "label": "IGH / BCL2",
       "section_kind": "fusion_mechanism",
-      "text": "The t(14;18)/IGH-BCL2 rearrangement is characteristic of follicular lymphoma and is distinct from the t(14;18)/IGH-MALT1 rearrangement of MALT lymphoma.",
-      "claim_sha256": "db74c4cddceb86ec4a6f34b65fbd7f4122bf14fc25ce0c77ae619a5361187240",
+      "text": "IGH/BCL2 translocations occur in follicular lymphoma. Whole-genome sequencing directly identified the rearrangement in patient tumors.",
+      "claim_sha256": "c4b254e27327f88c01f05c9cfd9c79464dd78537e4e9af6c00f2cfdc1b962f54",
       "source_ids": [
-        "malt-pathology"
+        "followup-fl-genome"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7226,13 +7298,13 @@
       "fusion_id": "fusion-igh-ccnd1",
       "label": "IGH / CCND1",
       "section_kind": "fusion_mechanism",
-      "text": "The t(11;14) rearrangement brings CCND1 under immunoglobulin regulation and is the genetic hallmark of mantle cell lymphoma; it also occurs in plasma-cell neoplasia.",
-      "claim_sha256": "f6395aa010702996ca06f0f2efdf0609ddade7cf9a794414d6a870cc68f9ecb1",
+      "text": "IGH/CCND1 rearrangements are documented in mantle cell lymphoma and plasma cell myeloma. A sequenced mantle cell lymphoma case had a cryptic insertion of intact CCND1 into IGH; optical genome mapping also identified IGH/CCND1 events in myeloma.",
+      "claim_sha256": "04757222a06d67426183d128df0420b6e8e8f8092aca8c54dce489642f5ffd2c",
       "source_ids": [
-        "icc-l",
-        "myeloma-fish-guidance"
+        "followup-mcl-ccnd1",
+        "followup-mm-ogm"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7263,12 +7335,12 @@
       "fusion_id": "fusion-igh-ccnd2",
       "label": "IGH / CCND2",
       "section_kind": "fusion_mechanism",
-      "text": "IGH-associated CCND2 rearrangements have been reported in cyclin-D1-negative mantle cell lymphoma; immunoglobulin light-chain partners are also important in this group.",
-      "claim_sha256": "99bb6f13aebdc3e296d7b3148f3c5e78843df6bf41ec527a7ba79644536a00d0",
+      "text": "IGH/CCND2 rearrangements were detected by FISH in three of 40 cyclin-D1-negative, SOX11-positive mantle cell lymphomas. These are distinct from the more frequent CCND2 rearrangements involving immunoglobulin light-chain loci.",
+      "claim_sha256": "77d066f73f1eff482d58f72859b310a8918ca7e1a2e3232d0a0cbc796ba904e8",
       "source_ids": [
-        "ccnd-regulatory-reference"
+        "followup-mcl-ccnd2"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7299,12 +7371,12 @@
       "fusion_id": "fusion-igh-ccnd3",
       "label": "IGH / CCND3",
       "section_kind": "fusion_mechanism",
-      "text": "IGH-associated CCND3 rearrangements have been reported in cyclin-D1-negative mantle cell lymphoma; immunoglobulin light-chain partners are also important in this group.",
-      "claim_sha256": "122b787c772a5e3b5a3bcffd43a3fad8965ca1c4f540aa671dafc104c34af638",
+      "text": "An IGH/CCND3 t(6;14) rearrangement was identified by cytogenetics and FISH in a cyclin-D1-negative mantle cell lymphoma. This patient observation is distinct from cryptic CCND3 rearrangements involving light-chain enhancers.",
+      "claim_sha256": "f93bdde811c8f307fb364d0d4905bb969aa9aebdea98cb7b40780665ebe7beb1",
       "source_ids": [
-        "ccnd-regulatory-reference"
+        "followup-mcl-ccnd3"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7335,12 +7407,12 @@
       "fusion_id": "fusion-igh-malt1",
       "label": "IGH / MALT1",
       "section_kind": "fusion_mechanism",
-      "text": "IGH regulatory rearrangements can increase MALT1 expression in a subset of MALT lymphomas.",
-      "claim_sha256": "680f8943eb74bc846ff1b2b29c85236cb29aa118ae6edbbd09d16f24961109e0",
+      "text": "IGH/MALT1 t(14;18) rearrangements occur in MALT lymphoma. Primary dual-fusion FISH and expression studies documented the rearrangement and increased MALT1 mRNA and protein in affected tumors.",
+      "claim_sha256": "aa1f6bbe680f34924805f581c1d79b5c3cef8dea41f261d749dbb3e681ee178d",
       "source_ids": [
-        "malt-pathology"
+        "followup-malt1-expression"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7371,12 +7443,12 @@
       "fusion_id": "fusion-igh-bcl10",
       "label": "IGH / BCL10",
       "section_kind": "fusion_mechanism",
-      "text": "IGH regulatory rearrangements can increase BCL10 expression in a subset of MALT lymphomas.",
-      "claim_sha256": "e23d987837db876737a42d92c5d2d3f15cb5559e188e0364cddf4354d752ce86",
+      "text": "In t(1;14)-positive MALT lymphomas, the BCL10 locus is relocated to the derivative chromosome 14. Primary Northern-blot analysis demonstrated BCL10 overexpression in three such tumors.",
+      "claim_sha256": "c1fe7ad0fb305288de78dcf4675cfc6251e05b5add9d5b5e3a2a23d2fe73676e",
       "source_ids": [
-        "malt-pathology"
+        "followup-bcl10-discovery"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7480,12 +7552,12 @@
       "fusion_id": "fusion-igh-dux4",
       "label": "IGH / DUX4",
       "section_kind": "fusion_mechanism",
-      "text": "IGH rearrangements are the most common mechanism of DUX4 overexpression in DUX4-rearranged B-ALL, a subtype often accompanied by ERG deletions.",
-      "claim_sha256": "3e2333a30478004fcd4a67bb14c053a4fc5e1ea4ebb9633b24e3e45ae5d9c7e5",
+      "text": "In a primary B-cell precursor ALL cohort, partial DUX4 copies were inserted into IGH and associated with DUX4 overexpression. DNA sequencing confirmed the rearrangements; most characterized products retained both DUX4 homeodomains while truncating its carboxy terminus.",
+      "claim_sha256": "0c53298d2c03f6423fd93336a5a8bbc2b89bb5b3d1e3cdcad5de8b4eea21c979",
       "source_ids": [
-        "all"
+        "followup-dux4-discovery"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7516,12 +7588,12 @@
       "fusion_id": "fusion-tcr-loci-tal1",
       "label": "TCR loci / TAL1",
       "section_kind": "fusion_mechanism",
-      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate TAL1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
-      "claim_sha256": "1c60063ff90d1daeb7973161877020dff7901246161b32a0af042daba1d333dd",
+      "text": "TRD/TAL1 rearrangements were identified by targeted genomic sequencing in 23 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "claim_sha256": "d714cc455e908bee7d7b3d99d1b7a155d2fd470b2b61433c69d5da58653d20c9",
       "source_ids": [
-        "nci-genomics"
+        "followup-trd-ngs"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7552,12 +7624,12 @@
       "fusion_id": "fusion-tcr-loci-tlx1",
       "label": "TCR loci / TLX1",
       "section_kind": "fusion_mechanism",
-      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX1 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
-      "claim_sha256": "818a42710fa1f329e321c465b1e106662308b0ffed0ddc0d3767b8b3cf754402",
+      "text": "TRD/TLX1 rearrangements were identified by targeted genomic sequencing in 95 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "claim_sha256": "af11ef9583223e15e0a58423290e34a8481f159fa0489ab442a587e06d42a722",
       "source_ids": [
-        "nci-genomics"
+        "followup-trd-ngs"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7588,12 +7660,12 @@
       "fusion_id": "fusion-tcr-loci-tlx3",
       "label": "TCR loci / TLX3",
       "section_kind": "fusion_mechanism",
-      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX3 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
-      "claim_sha256": "fe1fcfa0b1e293f7c8aa0e1467f529574d83782f33660209977d200401d73ea4",
+      "text": "TRD/TLX3 rearrangements were identified by targeted genomic sequencing in 4 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "claim_sha256": "d80427946b8a97c462958f3a595927295072e8a81acc9e06b0412a7529baadc1",
       "source_ids": [
-        "nci-genomics"
+        "followup-trd-ngs"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7624,12 +7696,12 @@
       "fusion_id": "fusion-tcr-loci-lmo2",
       "label": "TCR loci / LMO2",
       "section_kind": "fusion_mechanism",
-      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate LMO2 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
-      "claim_sha256": "c802f9daed54ec225d08a4b3c89821816155a01842bf646a9ea8d1ab2a0b4aaa",
+      "text": "TRD/LMO2 rearrangements were identified by targeted genomic sequencing in 52 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "claim_sha256": "2c983f94cf2aecf44b05689b07c6db4ae0b35824029174b9eb55ffc3c763d244",
       "source_ids": [
-        "nci-genomics"
+        "followup-trd-ngs"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7720,12 +7792,12 @@
       "fusion_id": "fusion-igh-fgfr3-and-nsd2",
       "label": "IGH / FGFR3 and NSD2",
       "section_kind": "fusion_mechanism",
-      "text": "The t(4;14) IGH rearrangement in myeloma is associated with increased expression of FGFR3 and/or NSD2.",
-      "claim_sha256": "c8aa2a4fbd093467a688a349930039b4c92a63253b07bebd83b7ec5dd2352308",
+      "text": "In plasma cell myeloma, rearrangements involving IGH and the FGFR3/NSD2 region were detected by FISH and mapped by optical genome mapping. The primary cohort documented 12 such events with different breakpoints.",
+      "claim_sha256": "1ec4c3e0daadb9d50a9bb7d0a70686dc67b11f25bd8ef2334d8241c9e183fe92",
       "source_ids": [
-        "myeloma-fish-guidance"
+        "followup-mm-ogm"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7756,12 +7828,12 @@
       "fusion_id": "fusion-igh-maf",
       "label": "IGH / MAF",
       "section_kind": "fusion_mechanism",
-      "text": "The t(14;16) IGH rearrangement in myeloma increases MAF expression.",
-      "claim_sha256": "da12ec57acd24e29fe956166606d04a5b902baa5ef969d4aa6d05b8f503da683",
+      "text": "IGH/MAF translocations were detected in plasma cell myeloma by optical genome mapping, with 4 cases documented in the primary cohort.",
+      "claim_sha256": "12f6b0c6e77803e86676c615ee944dc8d54979fb2409b1a85b4747f32353a701",
       "source_ids": [
-        "myeloma-fish-guidance"
+        "followup-mm-ogm"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {
@@ -7792,12 +7864,12 @@
       "fusion_id": "fusion-igh-mafb",
       "label": "IGH / MAFB",
       "section_kind": "fusion_mechanism",
-      "text": "The t(14;20) IGH rearrangement in myeloma increases MAFB expression.",
-      "claim_sha256": "9fd7305483c047609844e5ef21c9fb22362ffd41f760a3a1916a4f7ce8a07503",
+      "text": "IGH/MAFB translocations were detected in plasma cell myeloma by optical genome mapping, with 2 cases documented in the primary cohort.",
+      "claim_sha256": "9bb37b04656b0d3ffc9b24222bceef0e105857555350719e3b00a796afacd72b",
       "source_ids": [
-        "myeloma-fish-guidance"
+        "followup-mm-ogm"
       ],
-      "review_status": "reference_supported",
+      "review_status": "primary_fulltext_supported",
       "reviewer": "LLM source audit; specialist review pending"
     },
     {

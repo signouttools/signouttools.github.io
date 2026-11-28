@@ -64,33 +64,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX3 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
+      "text": "TRD/TLX3 rearrangements were identified by targeted genomic sequencing in 4 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
       "source_ids": [
-        "nci-genomics"
+        "followup-trd-ngs"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "fe1fcfa0b1e293f7c8aa0e1467f529574d83782f33660209977d200401d73ea4",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "d80427946b8a97c462958f3a595927295072e8a81acc9e06b0412a7529baadc1",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "nci-genomics",
-          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
-          "location": "T-ALL: Chromosomal translocations, lines 277-280",
-          "scope": "Explicit listed transcription factor and TCR-locus regulatory rearrangements.",
-          "access_level": "guideline"
+          "source_id": "followup-trd-ngs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+          "location": "Results and discussion, NGS-capture analysis of1533 T-ALL/T-LBL patients; Figure1A and TableS1",
+          "scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "TCR loci are the gene regions encoding T-cell receptor chains. TLX3 encodes a homeobox DNA-binding transcription factor. Rearrangements involving T-cell-receptor regulatory loci can deregulate TLX3 expression in T-ALL. These are regulatory rearrangements rather than necessarily coding fusion proteins.",
+    "text": "TCR loci are the gene regions encoding T-cell receptor chains. TLX3 encodes a homeobox DNA-binding transcription factor. TRD/TLX3 rearrangements were identified by targeted genomic sequencing in 4 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
     "source_ids": [
       "all",
       "ncbi-30012",
-      "nci-genomics"
+      "followup-trd-ngs"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "4b9b681e774c684cd01ecb3904edf83527fcce24a2397de0904f375dfd42ee4b"
+  "text_sha256": "f348f4e12dfe396a09a0ec5342664193a8581152dde4a5dd7ac3e174a7c5cc07"
 }

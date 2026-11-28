@@ -66,42 +66,41 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(11;14) rearrangement brings CCND1 under immunoglobulin regulation and is the genetic hallmark of mantle cell lymphoma; it also occurs in plasma-cell neoplasia.",
+      "text": "IGH/CCND1 rearrangements are documented in mantle cell lymphoma and plasma cell myeloma. A sequenced mantle cell lymphoma case had a cryptic insertion of intact CCND1 into IGH; optical genome mapping also identified IGH/CCND1 events in myeloma.",
       "source_ids": [
-        "icc-l",
-        "myeloma-fish-guidance"
+        "followup-mcl-ccnd1",
+        "followup-mm-ogm"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "f6395aa010702996ca06f0f2efdf0609ddade7cf9a794414d6a870cc68f9ecb1",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "04757222a06d67426183d128df0420b6e8e8f8092aca8c54dce489642f5ffd2c",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "icc-l",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9479027/",
-          "location": "Mantle cell lymphoma, lines 994-996",
-          "scope": "IGH/CCND1 hallmark and need for integrated diagnosis.",
-          "access_level": "guideline"
+          "source_id": "followup-mcl-ccnd1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31015206/",
+          "location": "Figure1A-I and Figure2C-D, patient pathology and mate-pair-sequencing junction/insertion plots",
+          "scope": "CCND1-positive MCL with an intact CCND1 insertion into IGH; routine FISH-negative cryptic event. Primary figure captions inspected at PMID31015206.",
+          "access_level": "primary_fulltext"
         },
         {
-          "source_id": "myeloma-fish-guidance",
-          "url": "https://www.nature.com/articles/s41408-025-01286-w",
-          "location": "Primary IGH rearrangements section",
-          "scope": "IGH::CCND1 in myeloma.",
-          "access_level": "guideline"
+          "source_id": "followup-mm-ogm",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+          "location": "Primary results paragraphs describing IGH rearrangements; Figure1c,e; publisher lines301,312",
+          "scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression. The t(11;14) rearrangement brings CCND1 under immunoglobulin regulation and is the genetic hallmark of mantle cell lymphoma; it also occurs in plasma-cell neoplasia.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. CCND1 encodes cyclin D1, a regulator of CDK4/6-dependent cell-cycle progression. IGH/CCND1 rearrangements are documented in mantle cell lymphoma and plasma cell myeloma. A sequenced mantle cell lymphoma case had a cryptic insertion of intact CCND1 into IGH; optical genome mapping also identified IGH/CCND1 events in myeloma.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-595",
-      "icc-l",
-      "myeloma-fish-guidance"
+      "followup-mcl-ccnd1",
+      "followup-mm-ogm"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "No universal prognosis or venetoclax recommendation is made across mantle-cell and plasma-cell disease.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -115,9 +114,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "dcc4cf066c716403ae5b901bca82271721e6fc217c2f60b19a5a61369ce4779f"
+  "text_sha256": "f15ffac5737a3e1cbe5bdb67b9c97cab85ef60cb2b6a21aa5e8cd21576912bad"
 }

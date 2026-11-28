@@ -64,20 +64,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(8;21) rearrangement joins RUNX1 and RUNX1T1 and defines a core-binding factor AML subtype.",
+      "text": "RUNX1::RUNX1T1 (AML1-ETO) promotes serial replating of murine hematopoietic progenitors. DNA-binding disruption or deletion of its NHR2 oligomerization region abolished this transforming activity in the tested model.",
       "source_ids": [
-        "aml"
+        "runx1-eto-functional"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "2426ed750bd1c83bc2dbc140ea7953fe0d95299f13417d8f355a6ac17f6df9a4",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "9a4d7f3d9571068a6144a3248a596a079932f9af89ebdc88648a2a076e1a6e5e",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "WHO classification tables and gene-specific cytogenetic sections",
-          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
-          "access_level": "guideline"
+          "source_id": "runx1-eto-functional",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2650355/",
+          "location": "Results; Figures 2,4,5",
+          "scope": "Root inspected full body: serial replating, DNA-binding mutant and NHR2 deletion functional comparisons. Model-bounded mechanism.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -102,11 +102,11 @@
     }
   ],
   "report_comment": {
-    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. RUNX1T1 encodes ETO, a transcriptional corepressor. The t(8;21) rearrangement joins RUNX1 and RUNX1T1 and defines a core-binding factor AML subtype. Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. RUNX1T1 encodes ETO, a transcriptional corepressor. RUNX1::RUNX1T1 (AML1-ETO) promotes serial replating of murine hematopoietic progenitors. DNA-binding disruption or deletion of its NHR2 oligomerization region abolished this transforming activity in the tested model. Under adult ELN 2022 intensive-treatment criteria, RUNX1::RUNX1T1 AML is assigned to the favorable genetic-risk group.",
     "source_ids": [
       "ncbi-861",
       "ncbi-862",
-      "aml",
+      "runx1-eto-functional",
       "eln-aml"
     ]
   },
@@ -123,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "925955e981670af4818f63a1a8d672d6bdc8f02df6f4e205c4754c5b38dce91e"
+  "text_sha256": "9fb3aa6c1a7bdf2dc8776432fddffd6fdcfdb59fe6077e64f1cdb83e9f2761b9"
 }

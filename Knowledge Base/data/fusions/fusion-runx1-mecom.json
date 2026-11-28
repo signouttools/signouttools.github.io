@@ -71,20 +71,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "RUNX1::MECOM is a recurrent t(3;21)-associated rearrangement in myeloid neoplasia, including secondary AML and CML blast phase.",
+      "text": "RUNX1::MECOM can occur in de novo AML: a pediatric acute myelomonocytic leukemia case had t(3;21) and Sanger-confirmed RUNX1::MECOM alongside RUNX1::RPL22.",
       "source_ids": [
-        "aml"
+        "runx1-mecom-case"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "f827fafb1bfd0043f14d88b0508228d0559204c3c471301fa5ef54f3fd9f153e",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "8b8b68392819acbf0fe49206433a038ea1f72e97e84ed6b0d39604ed4ba15641",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "WHO classification tables and gene-specific cytogenetic sections",
-          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
-          "access_level": "guideline"
+          "source_id": "runx1-mecom-case",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10615462/",
+          "location": "Case presentation section 2.1; Figure 1A",
+          "scope": "Direct diagnosis and sequenced fusion; does not generalize a single case to all myeloid contexts.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -109,11 +109,11 @@
     }
   ],
   "report_comment": {
-    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. RUNX1::MECOM is a recurrent t(3;21)-associated rearrangement in myeloid neoplasia, including secondary AML and CML blast phase. MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. MECOM encodes EVI1/MDS1-associated transcriptional regulators of hematopoiesis. RUNX1::MECOM can occur in de novo AML: a pediatric acute myelomonocytic leukemia case had t(3;21) and Sanger-confirmed RUNX1::MECOM alongside RUNX1::RPL22. MECOM-rearranged AML is assigned adverse genetic risk under adult ELN 2022 intensive-treatment criteria.",
     "source_ids": [
       "ncbi-861",
       "ncbi-2122",
-      "aml",
+      "runx1-mecom-case",
       "eln-aml"
     ]
   },
@@ -130,9 +130,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "f348de084ff0e069d52569a370716b0261c890bbc870c039527dd9759da7d865"
+  "text_sha256": "37521628b4977ba289e9576ac30b42be6a7d4e67d6ec5c7652172c83bb29fafc"
 }

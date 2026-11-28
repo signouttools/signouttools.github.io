@@ -67,30 +67,30 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(1;22) rearrangement joins RBM15 and MRTFA and occurs in a subset of infant acute megakaryoblastic leukemias.",
+      "text": "RBM15::MRTFA, also called RBM15::MKL1, was detected in a subset of pediatric non-Down-syndrome acute megakaryoblastic leukemias. Fusion-positive children were younger at diagnosis than the other molecular groups.",
       "source_ids": [
-        "aml"
+        "amkl-intergroup-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "d31c28476a6501aac06a48a0649badabdeb6eb533aaa5b39e10cf6bf88ade040",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "9673ac3078741755fb80bade80d628c8c9e1fb6e09231345ddd36e659b968e77",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "WHO classification tables and gene-specific cytogenetic sections",
-          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
-          "access_level": "guideline"
+          "source_id": "amkl-intergroup-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5161011/",
+          "location": "Results: Recurrent molecular aberrations; Figure 1; age-at-diagnosis paragraph 277",
+          "scope": "Direct screened pediatric AMKL cohort and infant-age association; detailed transcriptional mechanism excluded.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "RBM15 encodes a SPEN-family RNA-binding regulatory protein. MRTFA encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression. The t(1;22) rearrangement joins RBM15 and MRTFA and occurs in a subset of infant acute megakaryoblastic leukemias.",
+    "text": "RBM15 encodes a SPEN-family RNA-binding regulatory protein. MRTFA encodes a nuclear transcriptional regulator that links cytoskeletal signals to gene expression. RBM15::MRTFA, also called RBM15::MKL1, was detected in a subset of pediatric non-Down-syndrome acute megakaryoblastic leukemias. Fusion-positive children were younger at diagnosis than the other molecular groups.",
     "source_ids": [
       "ncbi-64783",
       "ncbi-57591",
-      "aml"
+      "amkl-intergroup-primary"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -106,9 +106,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "8fee67d131d4954045d24f9bc394bcff5ae0e48ec5c5e56c49b98d42ee12d7c5"
+  "text_sha256": "903086f0e839fe9f926751e12a94d49a110cb9d0c8637db1d750b6e5cb916b9e"
 }

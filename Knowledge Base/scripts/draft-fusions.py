@@ -54,6 +54,11 @@ def main():
     (ROOT/'FUSION-DRAFTS.md').write_text('\n'.join(md)+'\n')
     integrated={r['label'] for r in records};missing=sorted(set(proposed)-integrated)
     stats={'drafted_on':c['drafted_on'],'audited_on':'2026-11-27','total_entries':len(records),'previously_drafted_entries':len(c['entries']),'held_entries':held,'by_event_class':dict(collections.Counter(r['event_class'] for r in records)),'original_pair_roster':len(proposed),'original_pairs_drafted':len(set(proposed)&integrated),'original_pairs_not_drafted':missing,'additional_pair_entries':sorted({r['label'] for r in records if r['event_class']!='regulatory_rearrangement'}-set(proposed)),'source_count':len(used),'source_registry_count':len(sources),'partner_count':len(partners),'clinical_sections':dict(collections.Counter(s['kind'] for r in records for s in r['sections'])),'deferred':c['deferred'],'audit_decision_counts':dict(collections.Counter(d['decision'] for d in audit['decisions'])),'record_audit_counts':dict(collections.Counter(r['audit']['status'] for r in records)),'status':'audited_drafts_specialist_review_pending'}
+    followup_baseline=CUR/'followup-baseline.json'
+    if followup_baseline.exists():
+        targets={e['label'] for e in load(followup_baseline)['entries']}
+        targeted=[r for r in records if r['label'] in targets]
+        stats['followup_review']={'target_count':len(targets),'integrated_count':len(targeted),'primary_supported_count':sum(r['audit']['status']=='primary_fulltext_supported' for r in targeted),'reference_supported_labels':[r['label'] for r in targeted if r['audit']['status']=='reference_supported'],'held_labels':[e['label'] for e in held if e['label'] in targets],'passes':audit.get('followup_passes',[])}
     save(ROOT/'data/fusion-drafting-review.json',stats)
     queue=[{'fusion_id':r['id'],'label':r['label'],'section_kind':s['kind'],'text':s['text'],'claim_sha256':s['claim_sha256'],'source_ids':s['source_ids'],'review_status':s['fulltext_audit_status'],'reviewer':'LLM source audit; specialist review pending'} for r in records for s in r['sections']]
     save(ROOT/'data/fusion-evidence-review-queue.json',{'built_on':'2026-11-27','status':'source_audit_applied_specialist_review_pending','claim_count':len(queue),'claims':queue})

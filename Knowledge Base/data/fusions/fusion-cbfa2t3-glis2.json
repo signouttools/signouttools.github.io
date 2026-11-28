@@ -64,30 +64,30 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The cryptic inv(16)(p13q24) rearrangement joins CBFA2T3 and GLIS2 and is associated with pediatric AML, frequently with megakaryoblastic differentiation.",
+      "text": "CBFA2T3::GLIS2 was identified in pediatric non-Down-syndrome acute megakaryoblastic leukemia by molecular screening in an international cohort.",
       "source_ids": [
-        "aml"
+        "amkl-intergroup-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "62c15a6e2ff8e33f8d73de78b7fe028b0985478a0720dac2f0b4d0c1f8e80ee4",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "2d3691556507ff61dc07daf204c8dd66c21075aa59f4dc35eecc93ac4de9acfd",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "WHO classification tables and gene-specific cytogenetic sections",
-          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
-          "access_level": "guideline"
+          "source_id": "amkl-intergroup-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5161011/",
+          "location": "Results: molecular subgroups; Figure 1 and Figure 2D-F",
+          "scope": "Direct ordered-fusion detection in pediatric AMKL; does not establish a universal lineage phenotype.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. GLIS2 encodes a zinc-finger transcriptional regulator. The cryptic inv(16)(p13q24) rearrangement joins CBFA2T3 and GLIS2 and is associated with pediatric AML, frequently with megakaryoblastic differentiation.",
+    "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. GLIS2 encodes a zinc-finger transcriptional regulator. CBFA2T3::GLIS2 was identified in pediatric non-Down-syndrome acute megakaryoblastic leukemia by molecular screening in an international cohort.",
     "source_ids": [
       "ncbi-863",
       "ncbi-84662",
-      "aml"
+      "amkl-intergroup-primary"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -103,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "f46715e915d04367b03096bab0496a978ae77b2b16da6c0a4d9f7e7aaeedfcc2"
+  "text_sha256": "a20fdb8b901bb9e53227b8949c569b88063852b5535efd3607aada799b177f69"
 }

@@ -746,6 +746,43 @@
       }
     },
     {
+      "id": "fusion-etv6-ntrk2",
+      "label": "ETV6::NTRK2",
+      "event_class": "chimeric_fusion",
+      "partners": [
+        {
+          "symbol": "ETV6",
+          "hgnc_id": "HGNC:3495",
+          "ncbi_gene_id": "2120"
+        },
+        {
+          "symbol": "NTRK2",
+          "hgnc_id": "HGNC:8032",
+          "ncbi_gene_id": "4915"
+        }
+      ],
+      "aliases": [],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "disease_ids": [
+        "aml"
+      ],
+      "editorial": {
+        "status": "draft",
+        "revision": 2,
+        "drafted_on": "2026-11-27",
+        "reviewer": null,
+        "pathologist_review": "pending",
+        "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+      },
+      "audit": {
+        "status": "primary_fulltext_supported",
+        "audited_on": "2026-11-27",
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+      }
+    },
+    {
       "id": "fusion-fgfr2-bicc1",
       "label": "FGFR2::BICC1",
       "event_class": "chimeric_fusion",
@@ -1303,9 +1340,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1344,9 +1381,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1381,9 +1418,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1418,9 +1455,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1455,9 +1492,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1492,9 +1529,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -1532,9 +1569,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2071,9 +2108,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2227,9 +2264,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2338,9 +2375,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2375,9 +2412,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2412,9 +2449,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2449,9 +2486,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2486,9 +2523,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2523,9 +2560,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2560,9 +2597,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2597,9 +2634,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -2975,9 +3012,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3012,9 +3049,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3162,9 +3199,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3201,9 +3238,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3240,9 +3277,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3277,9 +3314,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3390,9 +3427,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3427,9 +3464,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3464,9 +3501,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3501,9 +3538,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3723,9 +3760,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -3797,9 +3834,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4013,10 +4050,12 @@
       ],
       "aliases": [],
       "tumor_contexts": [
-        "Angiomatoid fibrous histiocytoma"
+        "Angiomatoid fibrous histiocytoma",
+        "Peritoneal mesothelioma"
       ],
       "disease_ids": [
-        "fusion-context-2828430f1e7b"
+        "fusion-context-2828430f1e7b",
+        "fusion-context-d8b3e7c0c015"
       ],
       "editorial": {
         "status": "draft",
@@ -4027,9 +4066,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4103,9 +4142,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4177,9 +4216,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -4214,9 +4253,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5754,9 +5793,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -5791,9 +5830,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6099,9 +6138,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6175,9 +6214,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6212,9 +6251,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6249,9 +6288,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6286,9 +6325,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6323,9 +6362,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6434,9 +6473,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6471,9 +6510,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6508,9 +6547,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6545,9 +6584,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6582,9 +6621,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6661,9 +6700,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6698,9 +6737,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6735,9 +6774,9 @@
         "disclaimer": "Pathologist review needed — LLM-generated summary/review."
       },
       "audit": {
-        "status": "reference_supported",
+        "status": "primary_fulltext_supported",
         "audited_on": "2026-11-27",
-        "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+        "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
       }
     },
     {
@@ -6984,6 +7023,7 @@
     "fusions/fusion-eml4-ntrk3.json",
     "fusions/fusion-sqstm1-ntrk3.json",
     "fusions/fusion-etv6-ntrk3.json",
+    "fusions/fusion-etv6-ntrk2.json",
     "fusions/fusion-fgfr2-bicc1.json",
     "fusions/fusion-fgfr2-ahcyl1.json",
     "fusions/fusion-fgfr2-etv6.json",
@@ -7152,11 +7192,5 @@
   ],
   "source_file": "fusion-sources.json",
   "disease_file": "fusion-diseases.json",
-  "held_entries": [
-    {
-      "id": "fusion-etv6-ntrk2",
-      "label": "ETV6::NTRK2",
-      "reason": "No audited fusion biology/disease section retained; excluded from runtime and report export."
-    }
-  ]
+  "held_entries": []
 }

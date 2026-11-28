@@ -16,10 +16,12 @@
   ],
   "aliases": [],
   "tumor_contexts": [
-    "Angiomatoid fibrous histiocytoma"
+    "Angiomatoid fibrous histiocytoma",
+    "Peritoneal mesothelioma"
   ],
   "disease_ids": [
-    "fusion-context-2828430f1e7b"
+    "fusion-context-2828430f1e7b",
+    "fusion-context-d8b3e7c0c015"
   ],
   "sections": [
     {
@@ -64,12 +66,13 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma.",
+      "text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma. It has also been directly documented in a peritoneal mesothelioma in a primary genomic cohort.",
       "source_ids": [
-        "audit-sarcoma-nci-sts"
+        "audit-sarcoma-nci-sts",
+        "audit-followup-sarcoma-fus-atf1-meso"
       ],
-      "claim_sha256": "72b1799132aa8f500f3b871d1863067f889405c60eb01a5369fee9a3972a3872",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "aefe93e832a94b49103adb0f94f39dd5fd85f1ae0131ab4edabcc39d79def9c7",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
           "source_id": "audit-sarcoma-nci-sts",
@@ -77,23 +80,31 @@
           "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
           "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
           "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-followup-sarcoma-fus-atf1-meso",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+          "location": "Results: Fusion types and transcript variants by diagnosis; Table 3, Meso, 26/F, peritoneal, FUS-ATF1 row",
+          "scope": "Direct observation in peritoneal mesothelioma only; does not upgrade the AFH association or establish a functional transformation mechanism.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling. FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma.",
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ATF1 encodes a CREB-family transcription factor responsive to cyclic-AMP signaling. FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma. It has also been directly documented in a peritoneal mesothelioma in a primary genomic cohort.",
     "source_ids": [
       "ncbi-2521",
       "ncbi-466",
-      "audit-sarcoma-nci-sts"
+      "audit-sarcoma-nci-sts",
+      "audit-followup-sarcoma-fus-atf1-meso"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
-    "Tumor-specific primary references and functional adjudication remain pending; the pair must not be used as a unique histologic diagnosis.",
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up access attempts remained unsuccessful for the original FUS::ATF1 AFH reports; AFH association remains reference-supported.",
+    "Primary-reviewed association applies to the peritoneal mesothelioma observation; AFH association remains classification-supported because original AFH case bodies were inaccessible.",
+    "No fusion-specific functional transformation mechanism is asserted; the directly reviewed mesothelioma association and the remaining AFH primary-access gap are separately scoped."
   ],
   "editorial": {
     "status": "draft",
@@ -104,9 +115,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "5c675b24b83b9fd65e1bb4b09946a2da068f4cd5681b42a4891438f42b53d170"
+  "text_sha256": "131f590f8f4605d5c303a64da64793987d6a34c08b028b735bb55c58bc1035fd"
 }

@@ -1,0 +1,913 @@
+{
+  "audited_on": "2026-11-27",
+  "scope": "14 reference-supported regulatory labels plus previously held ETV6::NTRK2; all original pre-audit section hashes preserved",
+  "entries": [
+    {
+      "label": "IGH / BCL2",
+      "partners": [
+        "IGH",
+        "BCL2"
+      ],
+      "tumor_contexts": [
+        "Follicular lymphoma",
+        "Selected large B-cell lymphomas"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "IGH/BCL2 translocations occur in follicular lymphoma. Whole-genome sequencing directly identified the rearrangement in patient tumors.",
+          "source_ids": [
+            "followup-fl-genome"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / CCND1",
+      "partners": [
+        "IGH",
+        "CCND1"
+      ],
+      "tumor_contexts": [
+        "Mantle cell lymphoma",
+        "Plasma cell myeloma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "IGH/CCND1 rearrangements are documented in mantle cell lymphoma and plasma cell myeloma. A sequenced mantle cell lymphoma case had a cryptic insertion of intact CCND1 into IGH; optical genome mapping also identified IGH/CCND1 events in myeloma.",
+          "source_ids": [
+            "followup-mcl-ccnd1",
+            "followup-mm-ogm"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "No universal prognosis or venetoclax recommendation is made across mantle-cell and plasma-cell disease.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / CCND2",
+      "partners": [
+        "IGH",
+        "CCND2"
+      ],
+      "tumor_contexts": [
+        "Cyclin D1-negative mantle cell lymphoma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "IGH/CCND2 rearrangements were detected by FISH in three of 40 cyclin-D1-negative, SOX11-positive mantle cell lymphomas. These are distinct from the more frequent CCND2 rearrangements involving immunoglobulin light-chain loci.",
+          "source_ids": [
+            "followup-mcl-ccnd2"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / CCND3",
+      "partners": [
+        "IGH",
+        "CCND3"
+      ],
+      "tumor_contexts": [
+        "Cyclin D1-negative mantle cell lymphoma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "An IGH/CCND3 t(6;14) rearrangement was identified by cytogenetics and FISH in a cyclin-D1-negative mantle cell lymphoma. This patient observation is distinct from cryptic CCND3 rearrangements involving light-chain enhancers.",
+          "source_ids": [
+            "followup-mcl-ccnd3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / MALT1",
+      "partners": [
+        "IGH",
+        "MALT1"
+      ],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "IGH/MALT1 t(14;18) rearrangements occur in MALT lymphoma. Primary dual-fusion FISH and expression studies documented the rearrangement and increased MALT1 mRNA and protein in affected tumors.",
+          "source_ids": [
+            "followup-malt1-expression"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / BCL10",
+      "partners": [
+        "IGH",
+        "BCL10"
+      ],
+      "tumor_contexts": [
+        "Extranodal marginal zone lymphoma of MALT"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "In t(1;14)-positive MALT lymphomas, the BCL10 locus is relocated to the derivative chromosome 14. Primary Northern-blot analysis demonstrated BCL10 overexpression in three such tumors.",
+          "source_ids": [
+            "followup-bcl10-discovery"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Locus label describes a regulatory event; no chimeric coding product is asserted.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / DUX4",
+      "partners": [
+        "IGH",
+        "DUX4"
+      ],
+      "tumor_contexts": [
+        "DUX4-rearranged B-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "In a primary B-cell precursor ALL cohort, partial DUX4 copies were inserted into IGH and associated with DUX4 overexpression. DNA sequencing confirmed the rearrangements; most characterized products retained both DUX4 homeodomains while truncating its carboxy terminus.",
+          "source_ids": [
+            "followup-dux4-discovery"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "The repetitive DUX4 locus requires assay-specific mapping review; no single universal IGH/DUX4 junction is asserted.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "TCR loci / TAL1",
+      "partners": [
+        "TCR loci",
+        "TAL1"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TRD/TAL1 rearrangements were identified by targeted genomic sequencing in 23 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+          "source_ids": [
+            "followup-trd-ngs"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "TCR loci / TLX1",
+      "partners": [
+        "TCR loci",
+        "TLX1"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TRD/TLX1 rearrangements were identified by targeted genomic sequencing in 95 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+          "source_ids": [
+            "followup-trd-ngs"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "TCR loci / TLX3",
+      "partners": [
+        "TCR loci",
+        "TLX3"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TRD/TLX3 rearrangements were identified by targeted genomic sequencing in 4 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+          "source_ids": [
+            "followup-trd-ngs"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "TCR loci / LMO2",
+      "partners": [
+        "TCR loci",
+        "LMO2"
+      ],
+      "tumor_contexts": [
+        "T-lymphoblastic leukemia"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "TRD/LMO2 rearrangements were identified by targeted genomic sequencing in 52 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+          "source_ids": [
+            "followup-trd-ngs"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Exact TRA/TRD/TRB partner and breakpoint must be supplied for an assayed event; this record is a categorical locus group.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / FGFR3 and NSD2",
+      "partners": [
+        "IGH",
+        "FGFR3",
+        "NSD2"
+      ],
+      "tumor_contexts": [
+        "Plasma cell myeloma with t(4;14)"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "In plasma cell myeloma, rearrangements involving IGH and the FGFR3/NSD2 region were detected by FISH and mapped by optical genome mapping. The primary cohort documented 12 such events with different breakpoints.",
+          "source_ids": [
+            "followup-mm-ogm"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Not one chimeric kinase fusion; risk assessment must use the applicable current myeloma system and co-lesions.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / MAF",
+      "partners": [
+        "IGH",
+        "MAF"
+      ],
+      "tumor_contexts": [
+        "Plasma cell myeloma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "IGH/MAF translocations were detected in plasma cell myeloma by optical genome mapping, with 4 cases documented in the primary cohort.",
+          "source_ids": [
+            "followup-mm-ogm"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Historical adverse-risk associations differ from newer co-lesion-based risk definitions; no unqualified contemporary risk assignment included.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "IGH / MAFB",
+      "partners": [
+        "IGH",
+        "MAFB"
+      ],
+      "tumor_contexts": [
+        "Plasma cell myeloma"
+      ],
+      "event_class": "regulatory_rearrangement",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "IGH/MAFB translocations were detected in plasma cell myeloma by optical genome mapping, with 2 cases documented in the primary cohort.",
+          "source_ids": [
+            "followup-mm-ogm"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Historical adverse-risk associations differ from newer co-lesion-based risk definitions; no unqualified contemporary risk assignment included.",
+        "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
+      ],
+      "audit_status": "primary-reviewed"
+    },
+    {
+      "label": "ETV6::NTRK2",
+      "partners": [
+        "ETV6",
+        "NTRK2"
+      ],
+      "tumor_contexts": [
+        "AML"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "ETV6::NTRK2 was identified in secondary refractory AML and retained the full NTRK2 kinase domain. Expression of the fusion supported cytokine-independent growth of Ba/F3 and 32D cells, demonstrating transforming activity in these experimental hematopoietic models.",
+          "source_ids": [
+            "followup-etv6-ntrk2-aml"
+          ]
+        },
+        {
+          "kind": "therapeutics",
+          "text": "A patient with refractory secondary AML and ETV6::NTRK2 achieved a partial remission with larotrectinib, followed by clinical relapse after 10–12 weeks. The patient also harbored ETV6::MECOM and other alterations, and the response differed between clones. This is case-level clinical evidence.",
+          "source_ids": [
+            "followup-etv6-ntrk2-aml"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary-reviewed scope is ETV6::NTRK2 in AML. The pulmonary atypical carcinoid case PMID 38584068 remains unverified against its body: Clinical Lung Cancer and ScienceDirect full text returned 403; no accessible repository full text found. A later carcinoid cohort summarizes that published case and is not independent primary verification of its exact pairing."
+      ],
+      "audit_status": "primary-reviewed"
+    }
+  ],
+  "decisions": [
+    {
+      "label": "IGH / BCL2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0b19c337b9fecca6c6cb36251dd0982949b4c25887f26fa9c668b55f81050239",
+      "decision": "narrow",
+      "replacement_text": "IGH/BCL2 translocations occur in follicular lymphoma. Whole-genome sequencing directly identified the rearrangement in patient tumors.",
+      "current_text": "IGH/BCL2 translocations occur in follicular lymphoma. Whole-genome sequencing directly identified the rearrangement in patient tumors.",
+      "source_ids": [
+        "followup-fl-genome"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-fl-genome",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666379125003519",
+          "location": "Results, BCL2 and BCL6 translocations in FLs; Figure4D and FiguresS1D-G",
+          "scope": "Direct BCL2-IGH structural variant observations in follicular lymphoma; no global outcome or functional enhancer assay inferred.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Replaced review-only classification support with an inspected primary structural-variant Results passage; removed untested expression mechanism and cross-tumor extensions."
+    },
+    {
+      "label": "IGH / CCND1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "998947bab341766767bb56bfd489ea3bf191bb1f026226ae8ddca68704a7fc90",
+      "decision": "narrow",
+      "replacement_text": "IGH/CCND1 rearrangements are documented in mantle cell lymphoma and plasma cell myeloma. A sequenced mantle cell lymphoma case had a cryptic insertion of intact CCND1 into IGH; optical genome mapping also identified IGH/CCND1 events in myeloma.",
+      "current_text": "IGH/CCND1 rearrangements are documented in mantle cell lymphoma and plasma cell myeloma. A sequenced mantle cell lymphoma case had a cryptic insertion of intact CCND1 into IGH; optical genome mapping also identified IGH/CCND1 events in myeloma.",
+      "source_ids": [
+        "followup-mcl-ccnd1",
+        "followup-mm-ogm"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-mcl-ccnd1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31015206/",
+          "location": "Figure1A-I and Figure2C-D, patient pathology and mate-pair-sequencing junction/insertion plots",
+          "scope": "CCND1-positive MCL with an intact CCND1 insertion into IGH; routine FISH-negative cryptic event. Primary figure captions inspected at PMID31015206.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "followup-mm-ogm",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+          "location": "Primary results paragraphs describing IGH rearrangements; Figure1c,e; publisher lines301,312",
+          "scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary patient figures and cohort Results support both disease associations; avoided implying every IGH/CCND1 event has the same breakpoint architecture."
+    },
+    {
+      "label": "IGH / CCND2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "123720d4801301bc79dd99d10d665132fa0d597c3e1509c8f73196cda2d4db4b",
+      "decision": "narrow",
+      "replacement_text": "IGH/CCND2 rearrangements were detected by FISH in three of 40 cyclin-D1-negative, SOX11-positive mantle cell lymphomas. These are distinct from the more frequent CCND2 rearrangements involving immunoglobulin light-chain loci.",
+      "current_text": "IGH/CCND2 rearrangements were detected by FISH in three of 40 cyclin-D1-negative, SOX11-positive mantle cell lymphomas. These are distinct from the more frequent CCND2 rearrangements involving immunoglobulin light-chain loci.",
+      "source_ids": [
+        "followup-mcl-ccnd2"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-mcl-ccnd2",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/3578954/",
+          "location": "Results, FISH screening for CCND2 and CCND3 translocations, mRNA expression, and gene mutations; Figure2A-C; Table2",
+          "scope": "Three IGH-CCND2 cases among40 cyclin-D1-negative/SOX11-positive MCLs; light-chain partners separately identified.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Used exact IGH-positive primary cases rather than transferring the light-chain enhancer-hijacking mechanism to IGH."
+    },
+    {
+      "label": "IGH / CCND3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "b2af916b6bb80ea96f6bb58d8c854abf3fefeaa33569629080e38ffdbef1e8c8",
+      "decision": "narrow",
+      "replacement_text": "An IGH/CCND3 t(6;14) rearrangement was identified by cytogenetics and FISH in a cyclin-D1-negative mantle cell lymphoma. This patient observation is distinct from cryptic CCND3 rearrangements involving light-chain enhancers.",
+      "current_text": "An IGH/CCND3 t(6;14) rearrangement was identified by cytogenetics and FISH in a cyclin-D1-negative mantle cell lymphoma. This patient observation is distinct from cryptic CCND3 rearrangements involving light-chain enhancers.",
+      "source_ids": [
+        "followup-mcl-ccnd3"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-mcl-ccnd3",
+          "url": "https://ashpublications.org/blood/article-pdf/111/12/5683/1297306/zh801208005683.pdf",
+          "location": "Table2, case6, cytogenetic and FISH results; Results CCND3-associated rearrangement",
+          "scope": "Exact t(6;14)/IGH-CCND3 patient event in cyclin-D1-negative MCL; not evidence transferred from light-chain enhancer insertions.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Exact primary Table2 case6 supports the ordered partner pair. Removed generic mechanism inferred from a later light-chain cohort."
+    },
+    {
+      "label": "IGH / MALT1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "b2b7b03bc06a9e17c86a00c1c2c2efbd514192d2a1d003d31eeb2b8065fa4fc1",
+      "decision": "narrow",
+      "replacement_text": "IGH/MALT1 t(14;18) rearrangements occur in MALT lymphoma. Primary dual-fusion FISH and expression studies documented the rearrangement and increased MALT1 mRNA and protein in affected tumors.",
+      "current_text": "IGH/MALT1 t(14;18) rearrangements occur in MALT lymphoma. Primary dual-fusion FISH and expression studies documented the rearrangement and increased MALT1 mRNA and protein in affected tumors.",
+      "source_ids": [
+        "followup-malt1-expression"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-malt1-expression",
+          "url": "https://www.rifathamoudi.co.uk/publications/J_Pathol_2005_Feb_205_3_293_301.pdf",
+          "location": "Results, Correlation of MALT1 and BCL10 protein expression with their mRNA expression; Figure3, Figure4, Figure5; page298",
+          "scope": "IGH-MALT1 dual-fusion FISH and higher MALT1 mRNA/protein in rearranged MALT lymphomas. Primary body passage and captions inspected.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary Figure3 and expression Results/Figure5 substantiate the pair and deregulated expression; no treatment or prognosis extrapolation."
+    },
+    {
+      "label": "IGH / BCL10",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "3a3663e6f6fd99e27ab7cf015945292b8736066103eed64f5ee364726989ff18",
+      "decision": "narrow",
+      "replacement_text": "In t(1;14)-positive MALT lymphomas, the BCL10 locus is relocated to the derivative chromosome 14. Primary Northern-blot analysis demonstrated BCL10 overexpression in three such tumors.",
+      "current_text": "In t(1;14)-positive MALT lymphomas, the BCL10 locus is relocated to the derivative chromosome 14. Primary Northern-blot analysis demonstrated BCL10 overexpression in three such tumors.",
+      "source_ids": [
+        "followup-bcl10-discovery"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-bcl10-discovery",
+          "url": "https://genome.fli-leibniz.de/publications/download/free/Zhang_NatGenet_1999.pdf",
+          "location": "Main Results paragraphs adjacent to Figure2b, BCL10 genomic structure; Figure2b Northern-blot experiments",
+          "scope": "BCL10 gene moved to der14 and overexpressed in three t(1;14)-positive MALT lymphomas; direct genomic/expression observations.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Retained directly measured genomic relocation and expression rather than a uniform downstream NF-kappaB or clinical claim."
+    },
+    {
+      "label": "IGH / DUX4",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "b7f5b53e5233c7d1fb22dbd3067e28f22d4b1baff8b997c0d50c85e150ceaa31",
+      "decision": "narrow",
+      "replacement_text": "In a primary B-cell precursor ALL cohort, partial DUX4 copies were inserted into IGH and associated with DUX4 overexpression. DNA sequencing confirmed the rearrangements; most characterized products retained both DUX4 homeodomains while truncating its carboxy terminus.",
+      "current_text": "In a primary B-cell precursor ALL cohort, partial DUX4 copies were inserted into IGH and associated with DUX4 overexpression. DNA sequencing confirmed the rearrangements; most characterized products retained both DUX4 homeodomains while truncating its carboxy terminus.",
+      "source_ids": [
+        "followup-dux4-discovery"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-dux4-discovery",
+          "url": "https://www.nature.com/articles/ncomms11790",
+          "location": "Results, genomic confirmation of DUX4 rearrangements; Figure3, Supplementary Figures2-3, Supplementary Data6/8",
+          "scope": "Partial DUX4 copies inserted into IGH; DNA and RNA confirmation, DUX4 overexpression and preserved homeodomains; no obligatory chimeric protein.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary Figure3 and DNA/RNA Results support regulatory relocation and altered DUX4. Removed unsupported universal mechanism and prognostic generalization."
+    },
+    {
+      "label": "TCR loci / TAL1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "7115bc703a69a44c0b77c686d232bca13ed0f49825abff0860082bec564cc532",
+      "decision": "narrow",
+      "replacement_text": "TRD/TAL1 rearrangements were identified by targeted genomic sequencing in 23 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "current_text": "TRD/TAL1 rearrangements were identified by targeted genomic sequencing in 23 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "source_ids": [
+        "followup-trd-ngs"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-trd-ngs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+          "location": "Results and discussion, NGS-capture analysis of1533 T-ALL/T-LBL patients; Figure1A and TableS1",
+          "scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed categorical TCR-locus wording to the exact TRD partner studied in primary Results/Figure1A; does not generalize to TRA,TRB or TRG, or infer a coding fusion."
+    },
+    {
+      "label": "TCR loci / TLX1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "ffc71962d1ec428ef2859287da9a7d03289af179f9d18c2348d236ed5c32a98b",
+      "decision": "narrow",
+      "replacement_text": "TRD/TLX1 rearrangements were identified by targeted genomic sequencing in 95 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "current_text": "TRD/TLX1 rearrangements were identified by targeted genomic sequencing in 95 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "source_ids": [
+        "followup-trd-ngs"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-trd-ngs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+          "location": "Results and discussion, NGS-capture analysis of1533 T-ALL/T-LBL patients; Figure1A and TableS1",
+          "scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed categorical TCR-locus wording to the exact TRD partner studied in primary Results/Figure1A; does not generalize to TRA,TRB or TRG, or infer a coding fusion."
+    },
+    {
+      "label": "TCR loci / TLX3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "6369c09d64b1f284ea1b04a7aaa7c7f2db29be1b1d43cf3547be9e75011b5fb2",
+      "decision": "narrow",
+      "replacement_text": "TRD/TLX3 rearrangements were identified by targeted genomic sequencing in 4 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "current_text": "TRD/TLX3 rearrangements were identified by targeted genomic sequencing in 4 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "source_ids": [
+        "followup-trd-ngs"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-trd-ngs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+          "location": "Results and discussion, NGS-capture analysis of1533 T-ALL/T-LBL patients; Figure1A and TableS1",
+          "scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed categorical TCR-locus wording to the exact TRD partner studied in primary Results/Figure1A; does not generalize to TRA,TRB or TRG, or infer a coding fusion."
+    },
+    {
+      "label": "TCR loci / LMO2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "cbffb1e850f55b4058d9180b5253b20b2c7d8d00093ce7ac7573a9fa59cc042e",
+      "decision": "narrow",
+      "replacement_text": "TRD/LMO2 rearrangements were identified by targeted genomic sequencing in 52 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "current_text": "TRD/LMO2 rearrangements were identified by targeted genomic sequencing in 52 patients within a 1533-patient T-ALL/T-lymphoblastic lymphoma cohort. TRD denotes the T-cell receptor delta locus.",
+      "source_ids": [
+        "followup-trd-ngs"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-trd-ngs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+          "location": "Results and discussion, NGS-capture analysis of1533 T-ALL/T-LBL patients; Figure1A and TableS1",
+          "scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Narrowed categorical TCR-locus wording to the exact TRD partner studied in primary Results/Figure1A; does not generalize to TRA,TRB or TRG, or infer a coding fusion."
+    },
+    {
+      "label": "IGH / FGFR3 and NSD2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "373b91597e78bdfbc4662d68fec28155464d222c131a774dac270aaec6b5a17f",
+      "decision": "narrow",
+      "replacement_text": "In plasma cell myeloma, rearrangements involving IGH and the FGFR3/NSD2 region were detected by FISH and mapped by optical genome mapping. The primary cohort documented 12 such events with different breakpoints.",
+      "current_text": "In plasma cell myeloma, rearrangements involving IGH and the FGFR3/NSD2 region were detected by FISH and mapped by optical genome mapping. The primary cohort documented 12 such events with different breakpoints.",
+      "source_ids": [
+        "followup-mm-ogm"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-mm-ogm",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+          "location": "Primary results paragraphs describing IGH rearrangements; Figure1c,e; publisher lines301,312",
+          "scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary Figure1e and Results support the exact structural association; removed untested assertion that both FGFR3 and NSD2 are overexpressed in every case."
+    },
+    {
+      "label": "IGH / MAF",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "b9e75a6b69fa3bf9a5e22bf9f810d0902026fd3d4cb6dafb320fba175baf81fc",
+      "decision": "narrow",
+      "replacement_text": "IGH/MAF translocations were detected in plasma cell myeloma by optical genome mapping, with 4 cases documented in the primary cohort.",
+      "current_text": "IGH/MAF translocations were detected in plasma cell myeloma by optical genome mapping, with 4 cases documented in the primary cohort.",
+      "source_ids": [
+        "followup-mm-ogm"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-mm-ogm",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+          "location": "Primary results paragraphs describing IGH rearrangements; Figure1c,e; publisher lines301,312",
+          "scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Replaced guideline-only assertion with primary partner-specific patient observation; expression and universal outcome claims not inferred from a structural-detection study."
+    },
+    {
+      "label": "IGH / MAFB",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "f0df4b28c7c08a20b6e2016ecd3cd2da5a4c7453ab5f02581e9d3f45bb291eb4",
+      "decision": "narrow",
+      "replacement_text": "IGH/MAFB translocations were detected in plasma cell myeloma by optical genome mapping, with 2 cases documented in the primary cohort.",
+      "current_text": "IGH/MAFB translocations were detected in plasma cell myeloma by optical genome mapping, with 2 cases documented in the primary cohort.",
+      "source_ids": [
+        "followup-mm-ogm"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-mm-ogm",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+          "location": "Primary results paragraphs describing IGH rearrangements; Figure1c,e; publisher lines301,312",
+          "scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Replaced guideline-only assertion with primary partner-specific patient observation; expression and universal outcome claims not inferred from a structural-detection study."
+    },
+    {
+      "label": "ETV6::NTRK2",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "e2b28b9c12e5d4b4e23088e08f6966c94aeacc7271db6591da198284fe363c91",
+      "decision": "narrow",
+      "replacement_text": "ETV6::NTRK2 was identified in secondary refractory AML and retained the full NTRK2 kinase domain. Expression of the fusion supported cytokine-independent growth of Ba/F3 and 32D cells, demonstrating transforming activity in these experimental hematopoietic models.",
+      "current_text": "ETV6::NTRK2 was identified in secondary refractory AML and retained the full NTRK2 kinase domain. Expression of the fusion supported cytokine-independent growth of Ba/F3 and 32D cells, demonstrating transforming activity in these experimental hematopoietic models.",
+      "source_ids": [
+        "followup-etv6-ntrk2-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-etv6-ntrk2-aml",
+          "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/120000/120787/JCI120787.v3.pdf",
+          "location": "Results and Discussion; Table1; Figures1B-D,2A-B,3A-C; Supplemental Figure2A-B",
+          "scope": "ETV6-NTRK2 in secondary refractory AML, full kinase retention, cytokine-independent growth in Ba/F3/32D; transient patient larotrectinib response with clonal heterogeneity and relapse.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "etv6-ntrk2",
+          "url": "https://www.clinical-lung-cancer.com/article/S1525-7304(24)00040-8/fulltext",
+          "location": "Publisher body unavailable, 403; ScienceDirect PII S1525730424000408 also 403; repository search yielded abstract/review only",
+          "scope": "Pulmonary atypical carcinoid case and entrectinib claims excluded; AML replacement uses separate directly inspected primary study.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "Restored the exact pairing using independent primary AML discovery and functional results. The original pulmonary case remains body-inaccessible and its claims are excluded; no class label was used as proof of the exact partner."
+    },
+    {
+      "label": "ETV6::NTRK2",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "90ee772b66536aef8ad8478affd0c71f5eb8dc52cb9f18922e1219190be82c58",
+      "decision": "narrow",
+      "replacement_text": "A patient with refractory secondary AML and ETV6::NTRK2 achieved a partial remission with larotrectinib, followed by clinical relapse after 10–12 weeks. The patient also harbored ETV6::MECOM and other alterations, and the response differed between clones. This is case-level clinical evidence.",
+      "current_text": "A patient with refractory secondary AML and ETV6::NTRK2 achieved a partial remission with larotrectinib, followed by clinical relapse after 10–12 weeks. The patient also harbored ETV6::MECOM and other alterations, and the response differed between clones. This is case-level clinical evidence.",
+      "source_ids": [
+        "followup-etv6-ntrk2-aml"
+      ],
+      "evidence": [
+        {
+          "source_id": "followup-etv6-ntrk2-aml",
+          "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/120000/120787/JCI120787.v3.pdf",
+          "location": "Results and Discussion; Table1; Figures1B-D,2A-B,3A-C; Supplemental Figure2A-B",
+          "scope": "ETV6-NTRK2 in secondary refractory AML, full kinase retention, cytokine-independent growth in Ba/F3/32D; transient patient larotrectinib response with clonal heterogeneity and relapse.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "etv6-ntrk2",
+          "url": "https://www.clinical-lung-cancer.com/article/S1525-7304(24)00040-8/fulltext",
+          "location": "Publisher body unavailable, 403; ScienceDirect PII S1525730424000408 also 403; repository search yielded abstract/review only",
+          "scope": "Pulmonary atypical carcinoid case and entrectinib claims excluded; AML replacement uses separate directly inspected primary study.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "Primary Figure3 and clinical Results establish transient partial remission, not durable disease control. Replaced the original solid-tumor label extrapolation with actual AML case evidence; pulmonary entrectinib response remains unverified."
+    },
+    {
+      "label": "IGH / BCL2",
+      "section_kind": "prognosis",
+      "original_text_sha256": "90c2de8f23925eabe691769858719d79b8b5010df85852512120620183b8585e",
+      "decision": "remove",
+      "replacement_text": null,
+      "source_ids": [],
+      "evidence": [
+        {
+          "source_id": "icc-l",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9479027/",
+          "location": "Primary full text / exact claim passage not obtained in this pass",
+          "scope": "No primary-body support certified for this placement.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "Removed from report projection because the specific original claim was not confirmed against primary results or an applicable official reference.",
+      "original_text": "Concurrent MYC and BCL2 rearrangements in large B-cell lymphoma define an aggressive molecular group; this is distinct from isolated IGH/BCL2 rearrangement in follicular lymphoma.",
+      "current_text": null
+    },
+    {
+      "label": "IGH / DUX4",
+      "section_kind": "prognosis",
+      "original_text_sha256": "e362122b34044f9268fe6eec44fad99e04fdcff0d812e3b10993922bd8bf1cce",
+      "decision": "remove",
+      "replacement_text": null,
+      "source_ids": [],
+      "evidence": [
+        {
+          "source_id": "all",
+          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
+          "location": "Primary full text / exact claim passage not obtained in this pass",
+          "scope": "No primary-body support certified for this placement.",
+          "access_level": "not_obtained"
+        }
+      ],
+      "rationale": "Removed from report projection because the specific original claim was not confirmed against primary results or an applicable official reference.",
+      "original_text": "DUX4-rearranged childhood B-ALL generally has favorable outcomes in reported cohorts, despite frequent IKZF1 alterations; this is a subtype-level observation rather than a conclusion from ERG deletion alone.",
+      "current_text": null
+    }
+  ],
+  "added_sources": [
+    {
+      "id": "followup-fl-genome",
+      "title": "Whole-genome sequencing reveals follicular lymphoma subtypes",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666379125003519",
+      "kind": "primary_study",
+      "citation_label": "Whole-genome sequencing reveals follicular lymphoma subtypes",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Direct BCL2-IGH structural variant observations in follicular lymphoma; no global outcome or functional enhancer assay inferred.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-mm-ogm",
+      "title": "Optical Genome Mapping for Cytogenetic Analysis in Multiple Myeloma: Real-World Evidence",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajh.70175",
+      "kind": "primary_study",
+      "citation_label": "Optical Genome Mapping for Cytogenetic Analysis in Multiple Myeloma: Real-World Evidence",
+      "accessed_on": "2026-11-27",
+      "review_scope": "IGH rearrangements with CCND1(28),FGFR3/NSD2(12),MAF(4),MAFB(2); exact structural/disease observations, not functional expression tests.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-mcl-ccnd1",
+      "title": "Cryptic IGH/CCND1 rearrangement in mantle cell lymphoma",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31015206/",
+      "kind": "primary_study",
+      "citation_label": "Cryptic IGH/CCND1 rearrangement in mantle cell lymphoma",
+      "accessed_on": "2026-11-27",
+      "review_scope": "CCND1-positive MCL with an intact CCND1 insertion into IGH; routine FISH-negative cryptic event. Primary figure captions inspected at PMID31015206.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-mcl-ccnd2",
+      "title": "CCND2 rearrangements are the most frequent genetic events in cyclin D1-negative MCL",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/3578954/",
+      "kind": "primary_study",
+      "citation_label": "CCND2 rearrangements are the most frequent genetic events in cyclin D1-negative MCL",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Three IGH-CCND2 cases among40 cyclin-D1-negative/SOX11-positive MCLs; light-chain partners separately identified.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-mcl-ccnd3",
+      "title": "Translocations targeting CCND2, CCND3 and MYCN in t(11;14)-negative MCL",
+      "url": "https://ashpublications.org/blood/article-pdf/111/12/5683/1297306/zh801208005683.pdf",
+      "kind": "primary_study",
+      "citation_label": "Translocations targeting CCND2, CCND3 and MYCN in t(11;14)-negative MCL",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Exact t(6;14)/IGH-CCND3 patient event in cyclin-D1-negative MCL; not evidence transferred from light-chain enhancer insertions.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-malt1-expression",
+      "title": "MALT lymphoma with IGH-MALT1: MALT1/BCL10 expression",
+      "url": "https://www.rifathamoudi.co.uk/publications/J_Pathol_2005_Feb_205_3_293_301.pdf",
+      "kind": "primary_study",
+      "citation_label": "MALT lymphoma with IGH-MALT1: MALT1/BCL10 expression",
+      "accessed_on": "2026-11-27",
+      "review_scope": "IGH-MALT1 dual-fusion FISH and higher MALT1 mRNA/protein in rearranged MALT lymphomas. Primary body passage and captions inspected.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-bcl10-discovery",
+      "title": "BCL10 discovery and expression in t(1;14)-positive MALT lymphoma",
+      "url": "https://genome.fli-leibniz.de/publications/download/free/Zhang_NatGenet_1999.pdf",
+      "kind": "primary_study",
+      "citation_label": "BCL10 discovery and expression in t(1;14)-positive MALT lymphoma",
+      "accessed_on": "2026-11-27",
+      "review_scope": "BCL10 gene moved to der14 and overexpressed in three t(1;14)-positive MALT lymphomas; direct genomic/expression observations.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-dux4-discovery",
+      "title": "Identification of ETV6-RUNX1-like and DUX4-rearranged pediatric BCP-ALL",
+      "url": "https://www.nature.com/articles/ncomms11790",
+      "kind": "primary_study",
+      "citation_label": "Identification of ETV6-RUNX1-like and DUX4-rearranged pediatric BCP-ALL",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Partial DUX4 copies inserted into IGH; DNA and RNA confirmation, DUX4 overexpression and preserved homeodomains; no obligatory chimeric protein.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-trd-ngs",
+      "title": "TREC-mediated oncogenesis in human immature T lymphoid malignancies",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10332067/",
+      "kind": "primary_study",
+      "citation_label": "TREC-mediated oncogenesis in human immature T lymphoid malignancies",
+      "accessed_on": "2026-11-27",
+      "review_scope": "TRD partners TLX1(95),LMO2(52),TAL1(23),TLX3(4) identified. Supports TRD-specific patient observations, not all TCR loci or equal activation mechanisms.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    },
+    {
+      "id": "followup-etv6-ntrk2-aml",
+      "title": "Oncogenic TRK fusions are amenable to inhibition in hematologic malignancies",
+      "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/120000/120787/JCI120787.v3.pdf",
+      "kind": "primary_study",
+      "citation_label": "Oncogenic TRK fusions are amenable to inhibition in hematologic malignancies",
+      "accessed_on": "2026-11-27",
+      "review_scope": "ETV6-NTRK2 in secondary refractory AML, full kinase retention, cytokine-independent growth in Ba/F3/32D; transient patient larotrectinib response with clonal heterogeneity and relapse.",
+      "access_level": "primary_fulltext_body_excerpt",
+      "reuse_notes": "Original synthesis; Results/figure/table passage inspected through indexed full-text retrieval; no abstract-only promotion."
+    }
+  ],
+  "held_entries": [],
+  "access_gaps": [
+    {
+      "source_id": "etv6-ntrk2",
+      "url": "https://www.clinical-lung-cancer.com/article/S1525-7304(24)00040-8/fulltext",
+      "location": "Publisher body unavailable, 403; ScienceDirect PII S1525730424000408 also 403; repository search yielded abstract/review only",
+      "scope": "Pulmonary atypical carcinoid case and entrectinib claims excluded; AML replacement uses separate directly inspected primary study.",
+      "access_level": "not_obtained"
+    }
+  ]
+}

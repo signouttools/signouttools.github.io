@@ -64,36 +64,35 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "EWSR1::WT1 is the characteristic fusion associated with desmoplastic small round cell tumor.",
+      "text": "EWSR1::WT1 is an oncogenic transcriptional regulator of desmoplastic small round cell tumor. Fusion-depletion experiments reduce active chromatin, three-dimensional enhancer contacts and direct target-gene expression; coexpression of its +KTS and −KTS splice isoforms generated DSRCT-like xenografts in a mesothelial-cell model.",
       "source_ids": [
-        "audit-sarcoma-nci-sts"
+        "audit-followup-sarcoma-wt1"
       ],
-      "claim_sha256": "10f1c952442af5705b59add9710b6ad17993ea7e08923a31d1a07865f72a4a00",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "c486d9bfccde833576a5082fce588486e01c13d0f80f35d536e681bf41068b71",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "audit-sarcoma-nci-sts",
-          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
-          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
-          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
-          "access_level": "guideline"
+          "source_id": "audit-followup-sarcoma-wt1",
+          "url": "https://www.nature.com/articles/s41467-024-51851-3",
+          "location": "Results: EWS-WT1 depletion leads to strong changes in chromatin activity and 3D connectivity; Figures 3, 5 and 6",
+          "scope": "Indexed full Results and figure legends: depletion reduces active chromatin and direct target expression; EWS prion-like domain mutants lose binding/activation; coexpression of KTS isoforms generates DSRCT-like xenografts.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. WT1 encodes a zinc-finger transcriptional regulator involved in kidney and gonadal development. EWSR1::WT1 is the characteristic fusion associated with desmoplastic small round cell tumor.",
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. WT1 encodes a zinc-finger transcriptional regulator involved in kidney and gonadal development. EWSR1::WT1 is an oncogenic transcriptional regulator of desmoplastic small round cell tumor. Fusion-depletion experiments reduce active chromatin, three-dimensional enhancer contacts and direct target-gene expression; coexpression of its +KTS and −KTS splice isoforms generated DSRCT-like xenografts in a mesothelial-cell model.",
     "source_ids": [
       "ncbi-2130",
       "ncbi-7490",
-      "audit-sarcoma-nci-sts"
+      "audit-followup-sarcoma-wt1"
     ]
   },
   "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Primary functional citation and regimen-specific survival review remain pending; no numerical prognosis assigned.",
-    "Sarcoma audit 2026-11-27: section-specific evidence and access limits recorded in audit-sarcoma.json; classification/regulatory evidence is distinguished from primary experimental evidence.",
-    "Association is reference-supported; no partner-specific primary functional mechanism is asserted."
+    "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
   ],
   "editorial": {
     "status": "draft",
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "c91be5e747d149614252fe5efb89cb603f170fa90fbbcf0279df170c1e16c236"
+  "text_sha256": "47226becfa8f748fa4a2eaeca9b49948deeca27f98da81fb33cc83ab7f8063e4"
 }

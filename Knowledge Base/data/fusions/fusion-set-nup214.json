@@ -66,30 +66,30 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "SET::NUP214 occurs in the HOXA-expression subgroup of T-ALL and is associated with HOXA9 overexpression.",
+      "text": "SET::NUP214 is a recurrent T-ALL fusion. In LOUCY cells, fusion knockdown reduced HOXA expression and proliferation and increased differentiation markers; ChIP detected association with HOXA9 and HOXA10 promoters.",
       "source_ids": [
-        "nci-genomics"
+        "set-nup214"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "cde20225cce81cdc32e94ced076c055211284302e574e9e28aa21e9fcfdfe092",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "d9ff7e868a5893ab6eaa713e3db7e214dddcd02ad2fb3023830298177c607ca3",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "nci-genomics",
-          "url": "https://www.cancer.gov/types/childhood-cancers/pediatric-genomics-hp-pdq",
-          "location": "T-ALL molecular subtypes, paragraph 269",
-          "scope": "Documented T-ALL/HOXA association; removed broader mechanistic claims.",
-          "access_level": "guideline"
+          "source_id": "set-nup214",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2343598/",
+          "location": "Results: SET-NUP214 activates HOXA expression; direct HOXA activation; Figures 5A-G and 6A",
+          "scope": "Knockdown and promoter-binding results; DOT1L recruitment was proposed rather than causally established.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "SET encodes SET nuclear protein. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. SET::NUP214 occurs in the HOXA-expression subgroup of T-ALL and is associated with HOXA9 overexpression.",
+    "text": "SET encodes SET nuclear protein. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. SET::NUP214 is a recurrent T-ALL fusion. In LOUCY cells, fusion knockdown reduced HOXA expression and proliferation and increased differentiation markers; ChIP detected association with HOXA9 and HOXA10 promoters.",
     "source_ids": [
       "hgnc",
       "ncbi-8021",
-      "nci-genomics"
+      "set-nup214"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -106,9 +106,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "65aa9a88921e8a39b5703605ccd315853f49148e1678e3fb8f0eb4fe66b155b1"
+  "text_sha256": "6291f689cbbba3510f8bca87b3f4a79f8cb9601963579a8a8a998b9e6b2de9c7"
 }

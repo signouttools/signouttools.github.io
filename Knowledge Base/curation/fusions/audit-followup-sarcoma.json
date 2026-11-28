@@ -1,0 +1,747 @@
+{
+  "version": 1,
+  "audited_on": "2026-11-27",
+  "assigned_labels": [
+    "EWSR1::ERG",
+    "EWSR1::ETV1",
+    "EWSR1::ETV4",
+    "EWSR1::FEV",
+    "EWSR1::WT1",
+    "EWSR1::DDIT3",
+    "FUS::ATF1",
+    "FUS::CREB3L1",
+    "CIC::DUX4",
+    "BCOR::CCNB3"
+  ],
+  "entries": [
+    {
+      "label": "EWSR1::ERG",
+      "partners": [
+        "EWSR1",
+        "ERG"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::ERG is a molecularly confirmed Ewing sarcoma fusion. A primary clinicopathological cohort included 26 tumors with this fusion, with round, ovoid, spindle or epithelioid morphology.",
+          "source_ids": [
+            "audit-followup-sarcoma-roundcell"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "EWSR1::ETV1",
+      "partners": [
+        "EWSR1",
+        "ETV1"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::ETV1 is a rare Ewing sarcoma fusion documented in clinical translocation-testing data and in a molecularly characterized Ewing sarcoma cohort.",
+          "source_ids": [
+            "audit-followup-sarcoma-etv1",
+            "audit-followup-sarcoma-roundcell"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "EWSR1::ETV4",
+      "partners": [
+        "EWSR1",
+        "ETV4"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::ETV4 is a rare Ewing sarcoma fusion documented in molecularly characterized tumors. The reviewed cohort included an infant with an EWSR1::ETV4-positive paraspinal/pelvic soft-tissue tumor containing prominent calcification.",
+          "source_ids": [
+            "audit-followup-sarcoma-roundcell"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "EWSR1::FEV",
+      "partners": [
+        "EWSR1",
+        "FEV"
+      ],
+      "tumor_contexts": [
+        "Ewing sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::FEV is a rare Ewing sarcoma fusion. Molecular analysis demonstrates EWSR1 joined to FEV with retention of the FEV ETS DNA-binding domain; directly studied tumors show primitive round-cell morphology.",
+          "source_ids": [
+            "audit-followup-sarcoma-fev"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "EWSR1::WT1",
+      "partners": [
+        "EWSR1",
+        "WT1"
+      ],
+      "tumor_contexts": [
+        "Desmoplastic small round cell tumor"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::WT1 is an oncogenic transcriptional regulator of desmoplastic small round cell tumor. Fusion-depletion experiments reduce active chromatin, three-dimensional enhancer contacts and direct target-gene expression; coexpression of its +KTS and −KTS splice isoforms generated DSRCT-like xenografts in a mesothelial-cell model.",
+          "source_ids": [
+            "audit-followup-sarcoma-wt1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary functional citation and regimen-specific survival review remain pending; no numerical prognosis assigned.",
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "EWSR1::DDIT3",
+      "partners": [
+        "EWSR1",
+        "DDIT3"
+      ],
+      "tumor_contexts": [
+        "Myxoid liposarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "therapeutics",
+          "text": "Trabectedin has a US histology-based indication for adults with unresectable or metastatic liposarcoma after an anthracycline-containing regimen; DDIT3 fusion status is not the sole eligibility criterion.",
+          "source_ids": [
+            "audit-sarcoma-fda-trabectedin"
+          ]
+        },
+        {
+          "kind": "fusion_mechanism",
+          "text": "EWSR1::DDIT3 is a myxoid liposarcoma fusion confirmed by RNA sequencing. A directly documented tumor had diffuse DDIT3 expression despite a negative DDIT3 break-apart FISH result.",
+          "source_ids": [
+            "audit-followup-sarcoma-ddit3"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "FUS::ATF1",
+      "partners": [
+        "FUS",
+        "ATF1"
+      ],
+      "tumor_contexts": [
+        "Angiomatoid fibrous histiocytoma",
+        "Peritoneal mesothelioma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma. It has also been directly documented in a peritoneal mesothelioma in a primary genomic cohort.",
+          "source_ids": [
+            "audit-sarcoma-nci-sts",
+            "audit-followup-sarcoma-fus-atf1-meso"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up access attempts remained unsuccessful for the original FUS::ATF1 AFH reports; AFH association remains reference-supported.",
+        "Primary-reviewed association applies to the peritoneal mesothelioma observation; AFH association remains classification-supported because original AFH case bodies were inaccessible.",
+        "No fusion-specific functional transformation mechanism is asserted; the directly reviewed mesothelioma association and the remaining AFH primary-access gap are separately scoped."
+      ]
+    },
+    {
+      "label": "FUS::CREB3L1",
+      "partners": [
+        "FUS",
+        "CREB3L1"
+      ],
+      "tumor_contexts": [
+        "Low-grade fibromyxoid sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "FUS::CREB3L1 is a recurrent fusion in low-grade fibromyxoid sarcoma. An international cohort recorded this fusion in six molecularly analyzed LGFMS patients.",
+          "source_ids": [
+            "audit-followup-sarcoma-creb3l1"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "FUS::CREB3L1 is rarer than FUS::CREB3L2; no numerical or breakpoint-specific prognosis assigned.",
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "CIC::DUX4",
+      "partners": [
+        "CIC",
+        "DUX4"
+      ],
+      "tumor_contexts": [
+        "CIC-rearranged undifferentiated round cell sarcoma"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "CIC::DUX4 acts as a transcriptional activator in CIC-rearranged sarcoma. In patient-derived cell models, fusion depletion reduced active chromatin and direct target-gene expression, including ETV1, ETV4 and ETV5; primary tumors shared the associated active chromatin pattern.",
+          "source_ids": [
+            "audit-followup-sarcoma-cic"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In a retrospective comparison, a 57-patient CIC-rearranged sarcoma control cohort had worse overall survival than 22 followed patients with BCOR::CCNB3 sarcoma.",
+          "source_ids": [
+            "audit-followup-sarcoma-bcor"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    },
+    {
+      "label": "BCOR::CCNB3",
+      "partners": [
+        "BCOR",
+        "CCNB3"
+      ],
+      "tumor_contexts": [
+        "BCOR::CCNB3 sarcoma of bone or soft tissue"
+      ],
+      "event_class": "chimeric_fusion",
+      "sections": [
+        {
+          "kind": "fusion_mechanism",
+          "text": "BCOR::CCNB3 is associated with a round-to-spindle-cell sarcoma group. Primary molecular analyses demonstrated the BCOR exon 15–CCNB3 exon 5 junction and inversion-associated FISH pattern, with an expression profile distinct from Ewing and CIC-rearranged sarcomas.",
+          "source_ids": [
+            "audit-followup-sarcoma-bcor"
+          ]
+        },
+        {
+          "kind": "prognosis",
+          "text": "In a molecularly confirmed BCOR::CCNB3 series, the 22 patients with follow-up had a five-year overall survival estimate of 72%, better than the historical CIC-rearranged sarcoma control cohort. Seven of nine evaluable tumors treated with Ewing-type chemotherapy showed 60–100% treatment-related necrosis or fibrosis.",
+          "source_ids": [
+            "audit-followup-sarcoma-bcor"
+          ]
+        }
+      ],
+      "curation_notes": [
+        "Primary follow-up audit 2026-11-27: retained statements are restricted to inspected Results, tables and figures; article-specific scope is recorded in audit-followup-sarcoma.json."
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "label": "EWSR1::ERG",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "603ad89b72245e705cc9cae2a3d91f50062636950faabaf966d2f2cb11eeaa5a",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-roundcell"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-roundcell",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/",
+          "location": "Results 3.1–3.2; Figures 3–4; Methods 2.1–2.3",
+          "scope": "Direct cohort includes 26 EWSR1-ERG tumors and rare EWSR1-ETV1/4 tumors. Figure 4 shows EWSR1-ERG examples; Figures 3–4 show EWSR1-ETV4 infant case. No pair-specific functional transactivation experiment.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary Results separate 26 EWSR1-ERG from nine FUS-ERG tumors; Figures 4A–F show specific EWSR1-ERG cases. Removed EWSR1-FLI1-derived functional extrapolation.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "EWSR1::ERG is a molecularly confirmed Ewing sarcoma fusion. A primary clinicopathological cohort included 26 tumors with this fusion, with round, ovoid, spindle or epithelioid morphology."
+    },
+    {
+      "label": "EWSR1::ETV1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "b633fdf3b0b2818db7ec07551e12ec2b61e950e161ab853f7ee108d7843f062e",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-etv1",
+        "audit-followup-sarcoma-roundcell"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-etv1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9048754/",
+          "location": "Results: Specific Translocation Results; Table 5 (EWSR1-ETV1 row); Methods: data collection",
+          "scope": "Reported local translocation test results from 305 enrolled patients; Table 5 specifically records EWSR1-ETV1. This is primary clinical data, not centralized sequence-level functional validation.",
+          "access_level": "primary_fulltext"
+        },
+        {
+          "source_id": "audit-followup-sarcoma-roundcell",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/",
+          "location": "Results 3.1–3.2; Figures 3–4; Methods 2.1–2.3",
+          "scope": "Direct cohort includes 26 EWSR1-ERG tumors and rare EWSR1-ETV1/4 tumors. Figure 4 shows EWSR1-ERG examples; Figures 3–4 show EWSR1-ETV4 infant case. No pair-specific functional transactivation experiment.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct Table 5 identifies EWSR1-ETV1 in AEWS1221; second cohort groups ETV1/ETV4 cases. No functional reprogramming assertion. AEWS1221 data are reported local tests rather than central sequence confirmation.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "EWSR1::ETV1 is a rare Ewing sarcoma fusion documented in clinical translocation-testing data and in a molecularly characterized Ewing sarcoma cohort."
+    },
+    {
+      "label": "EWSR1::ETV4",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "3c2b034b87be6d23e6c11c6c9dd2af07641776e9aa07f683c76bb3a0c6cb2ad9",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-roundcell"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-roundcell",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/",
+          "location": "Results 3.1–3.2; Figures 3–4; Methods 2.1–2.3",
+          "scope": "Direct cohort includes 26 EWSR1-ERG tumors and rare EWSR1-ETV1/4 tumors. Figure 4 shows EWSR1-ERG examples; Figures 3–4 show EWSR1-ETV4 infant case. No pair-specific functional transactivation experiment.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Results and Figures 3A–D/4G provide a direct pair-specific example; removed untested ETS-class functional reprogramming claim.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "EWSR1::ETV4 is a rare Ewing sarcoma fusion documented in molecularly characterized tumors. The reviewed cohort included an infant with an EWSR1::ETV4-positive paraspinal/pelvic soft-tissue tumor containing prominent calcification."
+    },
+    {
+      "label": "EWSR1::FEV",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0b10f9fd37865011618d7454e51928e3d12e56056a6c748c521603dbdd98de82",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-fev"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-fev",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7135932/",
+          "location": "Results 3.1–3.3; Table 1; Figures 1 and 3",
+          "scope": "Direct EWSR1-FEV/FUS-FEV cases; targeted RNA sequencing demonstrates EWSR1 exon 8-FEV exon 2; all sequenced fusions retain FEV ETS DNA-binding exon 3.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Results 3.3 and Figure 3 establish fusion sequence/domain retention; Table 1 and Figure 1 establish direct tumor association. Avoided extrapolated cell-identity reprogramming or pooled FUS/FEV prognosis.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "EWSR1::FEV is a rare Ewing sarcoma fusion. Molecular analysis demonstrates EWSR1 joined to FEV with retention of the FEV ETS DNA-binding domain; directly studied tumors show primitive round-cell morphology."
+    },
+    {
+      "label": "EWSR1::WT1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "86f35949933a004637d57697eacb7da184e0e15d6c830445da7e1ce2f081a5e4",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-wt1"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-wt1",
+          "url": "https://www.nature.com/articles/s41467-024-51851-3",
+          "location": "Results: EWS-WT1 depletion leads to strong changes in chromatin activity and 3D connectivity; Figures 3, 5 and 6",
+          "scope": "Indexed full Results and figure legends: depletion reduces active chromatin and direct target expression; EWS prion-like domain mutants lose binding/activation; coexpression of KTS isoforms generates DSRCT-like xenografts.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Primary Results and Figures 3/5/6 establish fusion-dependent transcription and tumor formation in specified model; removed generalized intra-abdominal dissemination statement. No clinical CDK4/6 benefit inferred from preclinical experiments.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "EWSR1::WT1 is an oncogenic transcriptional regulator of desmoplastic small round cell tumor. Fusion-depletion experiments reduce active chromatin, three-dimensional enhancer contacts and direct target-gene expression; coexpression of its +KTS and −KTS splice isoforms generated DSRCT-like xenografts in a mesothelial-cell model."
+    },
+    {
+      "label": "EWSR1::DDIT3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "ad68db312397c9c765cf1960b3350284b2e54035d1ebefd5edafae3a8d6f2728",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-ddit3"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-ddit3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796975/",
+          "location": "Results; Figure 2",
+          "scope": "Fusion-targeted RNA sequencing detected EWSR1-DDIT3 in a myxoid liposarcoma with negative DDIT3 break-apart FISH and diffuse DDIT3 expression. No direct EWSR1-DDIT3 differentiation-block experiment.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Results and Figure 2 provide direct molecularly confirmed myxoid liposarcoma observation; FUS-DDIT3 adipogenic mechanism is not extrapolated.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "EWSR1::DDIT3 is a myxoid liposarcoma fusion confirmed by RNA sequencing. A directly documented tumor had diffuse DDIT3 expression despite a negative DDIT3 break-apart FISH result."
+    },
+    {
+      "label": "EWSR1::DDIT3",
+      "section_kind": "therapeutics",
+      "original_text_sha256": "359d59ae9c5f42e056ca01438cffa5b16659103f27428493f6f0ce36c4dad505",
+      "decision": "retain",
+      "source_ids": [
+        "audit-sarcoma-fda-trabectedin"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-fda-trabectedin",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
+          "location": "Section 1: Indications and Usage",
+          "scope": "Adults with unresectable/metastatic liposarcoma or leiomyosarcoma previously treated with anthracycline-containing regimen.",
+          "access_level": "official_regulatory"
+        }
+      ],
+      "rationale": "Retained histology-based FDA indication and prior anthracycline requirement.",
+      "review_status": "official_regulatory"
+    },
+    {
+      "label": "FUS::ATF1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "8dddb2a3402ce1386342096a843dca8343428d9d76b1c740f17403954c650d83",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-sarcoma-nci-sts",
+        "audit-followup-sarcoma-fus-atf1-meso"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-sarcoma-nci-sts",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+          "location": "Table 2: Frequent Chromosomal Aberrations; histology-specific genomic characteristics",
+          "scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+          "access_level": "guideline"
+        },
+        {
+          "source_id": "audit-followup-sarcoma-fus-atf1-unavailable-2000",
+          "url": "https://doi.org/10.1016/S0165-4608(00)00237-5",
+          "location": "Original case report full text not obtained",
+          "scope": "AFH molecular fusion discovery; abstract not accepted as primary-body review",
+          "access_level": "not_obtained"
+        },
+        {
+          "source_id": "audit-followup-sarcoma-fus-atf1-unavailable-2002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12218455/",
+          "location": "Original case report full text not obtained",
+          "scope": "AFH fusion case; publisher attempt failed, PubMed/Lund repository abstract only",
+          "access_level": "not_obtained"
+        },
+        {
+          "source_id": "audit-followup-sarcoma-fus-atf1-meso",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+          "location": "Results: Fusion types and transcript variants by diagnosis; Table 3, Meso, 26/F, peritoneal, FUS-ATF1 row",
+          "scope": "Direct observation in peritoneal mesothelioma only; does not upgrade the AFH association or establish a functional transformation mechanism.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "The reviewed primary FET-CREB cohort had FUS::ATF1 in mesothelioma, not AFH. Retained AFH association only as explicit classification-supported content; removed functional extrapolation. Follow-up attempted original PMID11063792 DOI10.1016/S0165-4608(00)00237-5 and PMID12218455 LWW publisher full text; only abstracts/repository abstracts obtained. Later primary AFH series had no FUS-positive cases and cannot substitute as direct validation. A separate directly inspected primary cohort documents FUS-ATF1 in peritoneal mesothelioma (not AFH), now added as a precisely scoped tumor observation.",
+      "replacement_text": "FUS::ATF1 is a recognized rare fusion in angiomatoid fibrous histiocytoma. It has also been directly documented in a peritoneal mesothelioma in a primary genomic cohort.",
+      "review_status": "primary_reviewed"
+    },
+    {
+      "label": "FUS::CREB3L1",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "e1f4b4af5f35d695cbe7a520a22021e99fa6902cbbc8221827e0ca06c9535498",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-creb3l1"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-creb3l1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11634151/",
+          "location": "Results: Patient Characteristics and Molecular Analysis; Table 1",
+          "scope": "FUS-CREB3L1 documented in six LGFMS patients in molecular findings table. Does not demonstrate functional bZIP mechanism or fusion-partner-specific prognosis.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct primary Table 1 and Results support partner-specific disease association. No aberrant bZIP mechanism or hybrid-tumor claim retained.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "FUS::CREB3L1 is a recurrent fusion in low-grade fibromyxoid sarcoma. An international cohort recorded this fusion in six molecularly analyzed LGFMS patients."
+    },
+    {
+      "label": "CIC::DUX4",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "0ad8522f7ea839df7b47ac92f5b25f952487163afc5a4f331b349085de780e5b",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-cic"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-cic",
+          "url": "https://www.mdpi.com/2072-6694/16/2/457",
+          "location": "Results 3.1–3.2; Figures 1–2; Table S5",
+          "scope": "ChIP-seq and fusion depletion in patient-derived CDS cell lines plus primary tumor chromatin profiles: CIC-DUX4-associated active chromatin; direct targets including ETV1/4/5 decrease after depletion.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct Results 3.1–3.2 and Figures 1–2 demonstrate target activation and fusion dependence. Removed unverified frequency superlative.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "CIC::DUX4 acts as a transcriptional activator in CIC-rearranged sarcoma. In patient-derived cell models, fusion depletion reduced active chromatin and direct target-gene expression, including ETV1, ETV4 and ETV5; primary tumors shared the associated active chromatin pattern."
+    },
+    {
+      "label": "CIC::DUX4",
+      "section_kind": "prognosis",
+      "original_text_sha256": "289c683acf56df2bbc641ad5bb72e1663897a3a12b11a0dd408b4bee9112680d",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-bcor"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-bcor",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/",
+          "location": "Results: BCOR-CCNB3 fusions identified by FISH and RNA sequencing; Figures 3–4; Clinical follow-up and Figure 7",
+          "scope": "Indexed primary Results: BCOR exon 15-CCNB3 exon 5 junction, inversion FISH, distinct expression cluster; survival comparison of 22 followed BCS versus 57 historical CIC-rearranged controls and ES controls.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Replaced inaccessible GRACefUl assertion with the comparison actually inspected in Figure 7 of the 36-case BCOR-CCNB3 study; this describes historical cohorts, not a universally adjusted fusion-specific prognostic effect.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "In a retrospective comparison, a 57-patient CIC-rearranged sarcoma control cohort had worse overall survival than 22 followed patients with BCOR::CCNB3 sarcoma."
+    },
+    {
+      "label": "BCOR::CCNB3",
+      "section_kind": "fusion_mechanism",
+      "original_text_sha256": "28ce22b340a374d2315ad8fec921caa10f5788252d3f3f1ce0ff1c420f5f4e85",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-bcor"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-bcor",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/",
+          "location": "Results: BCOR-CCNB3 fusions identified by FISH and RNA sequencing; Figures 3–4; Clinical follow-up and Figure 7",
+          "scope": "Indexed primary Results: BCOR exon 15-CCNB3 exon 5 junction, inversion FISH, distinct expression cluster; survival comparison of 22 followed BCS versus 57 historical CIC-rearranged controls and ES controls.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Direct fusion sequencing, FISH and clustering support the structural alteration and molecular distinction; no untested chromatin-regulatory causation asserted.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "BCOR::CCNB3 is associated with a round-to-spindle-cell sarcoma group. Primary molecular analyses demonstrated the BCOR exon 15–CCNB3 exon 5 junction and inversion-associated FISH pattern, with an expression profile distinct from Ewing and CIC-rearranged sarcomas."
+    },
+    {
+      "label": "BCOR::CCNB3",
+      "section_kind": "prognosis",
+      "original_text_sha256": "0afa93e32db611394bab8277163d3e868d913aef159ef54674338388fbf53752",
+      "decision": "narrow",
+      "source_ids": [
+        "audit-followup-sarcoma-bcor"
+      ],
+      "evidence": [
+        {
+          "source_id": "audit-followup-sarcoma-bcor",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/",
+          "location": "Results: BCOR-CCNB3 fusions identified by FISH and RNA sequencing; Figures 3–4; Clinical follow-up and Figure 7",
+          "scope": "Indexed primary Results: BCOR exon 15-CCNB3 exon 5 junction, inversion FISH, distinct expression cluster; survival comparison of 22 followed BCS versus 57 historical CIC-rearranged controls and ES controls.",
+          "access_level": "primary_fulltext"
+        }
+      ],
+      "rationale": "Replaced GRACefUl attribution with reviewed Results and Figure 7. Treatment response is a small retrospective observation, not an established regimen recommendation.",
+      "review_status": "primary_reviewed",
+      "replacement_text": "In a molecularly confirmed BCOR::CCNB3 series, the 22 patients with follow-up had a five-year overall survival estimate of 72%, better than the historical CIC-rearranged sarcoma control cohort. Seven of nine evaluable tumors treated with Ewing-type chemotherapy showed 60–100% treatment-related necrosis or fibrosis."
+    }
+  ],
+  "added_sources": [
+    {
+      "id": "audit-followup-sarcoma-roundcell",
+      "title": "Clinical heterogeneity of fusion-defined round cell sarcomas",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372700/",
+      "kind": "primary_study",
+      "citation_label": "Clinical heterogeneity of fusion-defined round cell sarcomas",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Direct cohort includes 26 EWSR1-ERG tumors and rare EWSR1-ETV1/4 tumors. Figure 4 shows EWSR1-ERG examples; Figures 3–4 show EWSR1-ETV4 infant case. No pair-specific functional transactivation experiment.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected primary full-text Results, figures and tables."
+    },
+    {
+      "id": "audit-followup-sarcoma-etv1",
+      "title": "Translocation testing in metastatic Ewing sarcoma AEWS1221",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9048754/",
+      "kind": "primary_study",
+      "citation_label": "Translocation testing in metastatic Ewing sarcoma AEWS1221",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Reported local translocation test results from 305 enrolled patients; Table 5 specifically records EWSR1-ETV1. This is primary clinical data, not centralized sequence-level functional validation.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected indexed primary article body/table/figure passages; direct article server inaccessible."
+    },
+    {
+      "id": "audit-followup-sarcoma-fev",
+      "title": "FEV fusion Ewing sarcoma molecular cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7135932/",
+      "kind": "primary_study",
+      "citation_label": "FEV fusion Ewing sarcoma molecular cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Direct EWSR1-FEV/FUS-FEV cases; targeted RNA sequencing demonstrates EWSR1 exon 8-FEV exon 2; all sequenced fusions retain FEV ETS DNA-binding exon 3.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected primary full-text Results, figures and tables."
+    },
+    {
+      "id": "audit-followup-sarcoma-wt1",
+      "title": "EWS-WT1 isoforms establish DSRCT oncogenic programs",
+      "url": "https://www.nature.com/articles/s41467-024-51851-3",
+      "kind": "primary_study",
+      "citation_label": "EWS-WT1 isoforms establish DSRCT oncogenic programs",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Indexed full Results and figure legends: depletion reduces active chromatin and direct target expression; EWS prion-like domain mutants lose binding/activation; coexpression of KTS isoforms generates DSRCT-like xenografts.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected indexed primary article body/table/figure passages; direct article server inaccessible."
+    },
+    {
+      "id": "audit-followup-sarcoma-ddit3",
+      "title": "DDIT3 expression and cryptic EWSR1-DDIT3 in myxoid liposarcoma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796975/",
+      "kind": "primary_study",
+      "citation_label": "DDIT3 expression and cryptic EWSR1-DDIT3 in myxoid liposarcoma",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Fusion-targeted RNA sequencing detected EWSR1-DDIT3 in a myxoid liposarcoma with negative DDIT3 break-apart FISH and diffuse DDIT3 expression. No direct EWSR1-DDIT3 differentiation-block experiment.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected primary full-text Results, figures and tables."
+    },
+    {
+      "id": "audit-followup-sarcoma-creb3l1",
+      "title": "International LGFMS/SEF localized-disease cohort",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11634151/",
+      "kind": "primary_study",
+      "citation_label": "International LGFMS/SEF localized-disease cohort",
+      "accessed_on": "2026-11-27",
+      "review_scope": "FUS-CREB3L1 documented in six LGFMS patients in molecular findings table. Does not demonstrate functional bZIP mechanism or fusion-partner-specific prognosis.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected primary full-text Results, figures and tables."
+    },
+    {
+      "id": "audit-followup-sarcoma-cic",
+      "title": "CIC-DUX4 chromatin profiling and transcriptional regulation",
+      "url": "https://www.mdpi.com/2072-6694/16/2/457",
+      "kind": "primary_study",
+      "citation_label": "CIC-DUX4 chromatin profiling and transcriptional regulation",
+      "accessed_on": "2026-11-27",
+      "review_scope": "ChIP-seq and fusion depletion in patient-derived CDS cell lines plus primary tumor chromatin profiles: CIC-DUX4-associated active chromatin; direct targets including ETV1/4/5 decrease after depletion.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected primary full-text Results, figures and tables."
+    },
+    {
+      "id": "audit-followup-sarcoma-bcor",
+      "title": "BCOR-CCNB3 molecular and clinicopathological study of 36 cases",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893395/",
+      "kind": "primary_study",
+      "citation_label": "BCOR-CCNB3 molecular and clinicopathological study of 36 cases",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Indexed primary Results: BCOR exon 15-CCNB3 exon 5 junction, inversion FISH, distinct expression cluster; survival comparison of 22 followed BCS versus 57 historical CIC-rearranged controls and ES controls.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected indexed primary article body/table/figure passages; direct article server inaccessible."
+    },
+    {
+      "id": "audit-followup-sarcoma-fus-atf1-unavailable-2000",
+      "title": "FUS-ATF1 AFH discovery (full text unavailable)",
+      "url": "https://doi.org/10.1016/S0165-4608(00)00237-5",
+      "kind": "primary_study",
+      "citation_label": "FUS-ATF1 AFH discovery (full text unavailable)",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Access attempt only; no fusion claim upgraded from abstract.",
+      "access_level": "not_obtained",
+      "reuse_notes": "Not used as verified primary evidence."
+    },
+    {
+      "id": "audit-followup-sarcoma-fus-atf1-unavailable-2002",
+      "title": "FUS-ATF1 deep AFH case (full text unavailable)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12218455/",
+      "kind": "primary_study",
+      "citation_label": "FUS-ATF1 deep AFH case (full text unavailable)",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Access attempt only; no fusion claim upgraded from abstract.",
+      "access_level": "not_obtained",
+      "reuse_notes": "Not used as verified primary evidence."
+    },
+    {
+      "id": "audit-sarcoma-nci-sts",
+      "title": "NCI childhood soft tissue sarcoma PDQ",
+      "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/child-soft-tissue-treatment-pdq",
+      "kind": "classification_reference",
+      "citation_label": "NCI childhood soft tissue sarcoma PDQ",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Authoritative classification-level fusion associations only; not treated as primary functional evidence.",
+      "access_level": "guideline",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-sarcoma-fda-trabectedin",
+      "title": "FDA trabectedin prescribing information (2026)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220837Orig1s000lbl.pdf",
+      "kind": "regulatory_reference",
+      "citation_label": "FDA trabectedin prescribing information (2026)",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Adults with unresectable/metastatic liposarcoma or leiomyosarcoma previously treated with anthracycline-containing regimen.",
+      "access_level": "official_regulatory",
+      "reuse_notes": "Original synthesis after review of the specified article body, figure, table or official reference; no copied abstract."
+    },
+    {
+      "id": "audit-followup-sarcoma-fus-atf1-meso",
+      "title": "FET-CREB molecular cohort with FUS-ATF1 mesothelioma",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/9329182/",
+      "kind": "primary_study",
+      "citation_label": "FET-CREB molecular cohort with FUS-ATF1 mesothelioma",
+      "accessed_on": "2026-11-27",
+      "review_scope": "Results: Fusion types and transcript variants by diagnosis and Table 3: one FUS-ATF1-positive peritoneal mesothelioma; not a direct AFH FUS-ATF1 case.",
+      "access_level": "primary_fulltext",
+      "reuse_notes": "Original synthesis from inspected primary full text. AFH association separately classification-supported."
+    }
+  ],
+  "held_entries": [],
+  "limitations": [
+    {
+      "label": "FUS::ATF1",
+      "status": "primary_reviewed_with_reference_supported_AFH_association",
+      "reason": "Peritoneal mesothelioma association is directly primary-reviewed; the two original AFH fusion reports remain abstract-only, so AFH is separately classification-supported."
+    },
+    "Primary_fulltext includes inspected indexed article-body passages or full figure/table legends where direct PMC/publisher access failed; this is recorded per source.",
+    "ETV1 clinical testing data are locally reported translocation results; no direct mechanism is asserted.",
+    "BCOR/CIC survival comparison uses nonuniform retrospective historical cohorts; treatment response is observational."
+  ],
+  "counts": {
+    "entries": 10,
+    "decisions": 13,
+    "primary_reviewed_entries": 10,
+    "reference_supported_entries": 0,
+    "by_decision": {
+      "narrow": 12,
+      "retain": 1
+    },
+    "entries_with_reference_supported_association": 1
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "fusion-etv6-ntrk2",
+  "label": "ETV6::NTRK2",
+  "event_class": "chimeric_fusion",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "NTRK2",
+      "hgnc_id": "HGNC:8032",
+      "ncbi_gene_id": "4915"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "AML"
+  ],
+  "disease_ids": [
+    "aml"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK2",
+      "text": "NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "claim_sha256": "e7db4418936cfae6649b79765db681135e5792068ec5f22ec5b180c06ee77284",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4915",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4915",
+          "location": "NCBI Gene 4915 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2b3a2bbed41a12b2889042a4f5a806af2e9b5a75712b2702a6f0702b8c35f9e1"
+        }
+      ]
+    },
+    {
+      "kind": "fusion_mechanism",
+      "text": "ETV6::NTRK2 was identified in secondary refractory AML and retained the full NTRK2 kinase domain. Expression of the fusion supported cytokine-independent growth of Ba/F3 and 32D cells, demonstrating transforming activity in these experimental hematopoietic models.",
+      "source_ids": [
+        "followup-etv6-ntrk2-aml"
+      ],
+      "claim_sha256": "b3b3b4f81679f229774615416679169d747ea7115110b4ac98307840e52c359d",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "followup-etv6-ntrk2-aml",
+          "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/120000/120787/JCI120787.v3.pdf",
+          "location": "Results and Discussion; Table1; Figures1B-D,2A-B,3A-C; Supplemental Figure2A-B",
+          "scope": "ETV6-NTRK2 in secondary refractory AML, full kinase retention, cytokine-independent growth in Ba/F3/32D; transient patient larotrectinib response with clonal heterogeneity and relapse.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    },
+    {
+      "kind": "therapeutics",
+      "text": "A patient with refractory secondary AML and ETV6::NTRK2 achieved a partial remission with larotrectinib, followed by clinical relapse after 10–12 weeks. The patient also harbored ETV6::MECOM and other alterations, and the response differed between clones. This is case-level clinical evidence.",
+      "source_ids": [
+        "followup-etv6-ntrk2-aml"
+      ],
+      "claim_sha256": "09e1bc7e66402eacfe8fdf9ec393e3f95db065d92d7aad36a44ff39a080a3683",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "followup-etv6-ntrk2-aml",
+          "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/120000/120787/JCI120787.v3.pdf",
+          "location": "Results and Discussion; Table1; Figures1B-D,2A-B,3A-C; Supplemental Figure2A-B",
+          "scope": "ETV6-NTRK2 in secondary refractory AML, full kinase retention, cytokine-independent growth in Ba/F3/32D; transient patient larotrectinib response with clonal heterogeneity and relapse.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ETV6::NTRK2 was identified in secondary refractory AML and retained the full NTRK2 kinase domain. Expression of the fusion supported cytokine-independent growth of Ba/F3 and 32D cells, demonstrating transforming activity in these experimental hematopoietic models. A patient with refractory secondary AML and ETV6::NTRK2 achieved a partial remission with larotrectinib, followed by clinical relapse after 10–12 weeks. The patient also harbored ETV6::MECOM and other alterations, and the response differed between clones. This is case-level clinical evidence.",
+    "source_ids": [
+      "ncbi-2120",
+      "ncbi-4915",
+      "followup-etv6-ntrk2-aml"
+    ]
+  },
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
+  "curation_notes": [
+    "Primary-reviewed scope is ETV6::NTRK2 in AML. The pulmonary atypical carcinoid case PMID 38584068 remains unverified against its body: Clinical Lung Cancer and ScienceDirect full text returned 403; no accessible repository full text found. A later carcinoid cohort summarizes that published case and is not independent primary verification of its exact pairing."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+  },
+  "text_sha256": "c3460d04e5fdda34490e7b52f346a9fd531231540b112f4921b6d84baef9263a"
+}

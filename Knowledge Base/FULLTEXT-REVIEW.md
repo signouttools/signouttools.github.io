@@ -5,9 +5,9 @@ Pathologist review needed — LLM-generated summary/review.
 **Status: in progress. The remaining full-text reviews are not complete.**
 
 - 1,311 candidate papers in the remaining queue.
-- 269 papers have at least one full-text claim decision; this is not a count of papers completely cleared.
-- 483 explicit claim decisions: 242 not supporting report claim, 181 supports specific claim, 60 needs supplementary or additional review.
-- 199 report citation placements now have confirmed full-text support, involving 148 distinct PMIDs.
+- 284 papers have at least one full-text claim decision; this is not a count of papers completely cleared.
+- 498 explicit claim decisions: 245 not supporting report claim, 194 supports specific claim, 59 needs supplementary or additional review.
+- 212 report citation placements now have confirmed full-text support, involving 161 distinct PMIDs.
 
 ## Access inventory
 
@@ -24,9 +24,9 @@ No PMC link is a publisher-lookup queue, not a determination that a paper cannot
 
 | Status | Papers |
 | --- | ---: |
-| candidate claims adjudicated | 205 |
-| partial claim review | 64 |
-| pending fulltext review | 1042 |
+| candidate claims adjudicated | 221 |
+| partial claim review | 63 |
+| pending fulltext review | 1027 |
 
 ## Findings applied
 
@@ -319,11 +319,11 @@ No PMC link is a publisher-lookup queue, not a determination that a paper cannot
 | [29392890](https://pubmed.ncbi.nlm.nih.gov/29392890/) | SMAD3 | germline | not supporting report claim | Introduction passage 6 and review content. A mutation update/review summarizes previous aneurysm-osteoarthritis findings; it is not a primary disease-discovery report. |
 | [29469822](https://pubmed.ncbi.nlm.nih.gov/29469822/) | LZTR1 | germline | not supporting report claim | Article primary family series and inheritance statement, passage 10. Primary cases have biallelic recessive Noonan syndrome; current report specifies dominant Noonan and dominant schwannomatosis. |
 | [28600779](https://pubmed.ncbi.nlm.nih.gov/28600779/) | NSD2 | germline | needs supplementary or additional review | Results passage 34 and candidate Table 4. Single WHSC1 splice variant is proposed as a candidate; syndrome-specific disease evidence needs further review. |
-| [28747427](https://pubmed.ncbi.nlm.nih.gov/28747427/) | IL6ST | germline | needs supplementary or additional review | Primary patient and functional data body paragraph 4; phenotype table pending. Homozygous IL6ST patient has immune and skeletal defects; confirm exact recessive hyper-IgE syndrome phenotype in patient data before restoring. |
+| [28747427](https://pubmed.ncbi.nlm.nih.gov/28747427/) | IL6ST | germline | supports specific claim | Primary case body paragraph 5, genotype and patient-cell cytokine assays. A homozygous IL6ST variant in a patient with recurrent infections, eczema, high IgE and skeletal features supports recessive hyper-IgE syndrome. |
 | [28796236](https://pubmed.ncbi.nlm.nih.gov/28796236/) | PLAG1 | germline | needs supplementary or additional review | Primary family Results and phenotype tables pending. PLAG1 growth restriction cohort requires checking family variants and Silver-Russell diagnostic phenotypes. |
 | [28852709](https://pubmed.ncbi.nlm.nih.gov/28852709/) | SAMD9L | germline | needs supplementary or additional review | Primary family results and genotyping pending. Neurologic follow-up includes previously described families; verify which new primary genotypes/phenotypes support the report. |
 | [28886343](https://pubmed.ncbi.nlm.nih.gov/28886343/) | GRM1 | germline | needs supplementary or additional review | Primary family sequencing tables pending. Dominant ataxia families require variant segregation and specific phenotype review. |
-| [29152073](https://pubmed.ncbi.nlm.nih.gov/29152073/) | SLC25A13 | germline | needs supplementary or additional review | Patient genetic Results and family figures pending. A citrin-deficiency infant is described; inspect biallelic genotype and parental phase. |
+| [29152073](https://pubmed.ncbi.nlm.nih.gov/29152073/) | SLC25A13 | germline | supports specific claim | Results passages 16 and 38, Figure 3 and allele expression analyses. An affected infant has a paternal SLC25A13 frameshift and maternal promoter/exon 1 deletion, supporting recessive neonatal citrin deficiency. |
 | [29178645](https://pubmed.ncbi.nlm.nih.gov/29178645/) | SHQ1 | germline | needs supplementary or additional review | Primary family phenotyping and functional analysis pending. Two inherited SHQ1 variants segregate in a family; verify dystonia and seizures in patient description. |
 | [29422544](https://pubmed.ncbi.nlm.nih.gov/29422544/) | KMT2B | somatic | needs supplementary or additional review | Primary vulvar cancer sequencing supplement pending. KMT2B-specific tumor mutation is absent from inspected body; variant supplement needs review. |
 | [29650961](https://pubmed.ncbi.nlm.nih.gov/29650961/) | SOX17 | germline | needs supplementary or additional review | Primary body paragraph 12 and variant tables pending. PAH cohort mentions SOX17 but the missense association did not survive multiple-testing correction; inspect truncating variant evidence and segregation. |
@@ -335,7 +335,7 @@ No PMC link is a publisher-lookup queue, not a determination that a paper cannot
 | [29666472](https://pubmed.ncbi.nlm.nih.gov/29666472/) | CASP8 | germline | not supporting report claim | Mouse model experimental Results and introductory design. Casp8-deficient mouse embryo inflammatory experiments do not establish human recessive ALPS2B. |
 | [29770609](https://pubmed.ncbi.nlm.nih.gov/29770609/) | MYOD1 | germline | not supporting report claim | Candidate gene Table and blepharospasm cohort. MYOD1 is a candidate in adult blepharospasm sequencing, a different phenotype from recessive congenital myopathy. |
 | [29777097](https://pubmed.ncbi.nlm.nih.gov/29777097/) | KAT8 | germline | not supporting report claim | Results passages 37 and 45, common-variant GWAS. Alzheimer family-history GWAS signal near BCKDK/KAT8 does not establish the stated dominant neurodevelopmental syndrome. |
-| [29844444](https://pubmed.ncbi.nlm.nih.gov/29844444/) | STAT5B | germline | needs supplementary or additional review | Primary family Results and functional figures pending. Dominant-negative STAT5B variants are reported in three families; verify exact patient segregation and functional results. |
+| [29844444](https://pubmed.ncbi.nlm.nih.gov/29844444/) | STAT5B | germline | supports specific claim | Results passages 19, 24, 27; family genotypes and Figure 3. Heterozygous dominant-negative STAT5B variants segregate with short stature and GH insensitivity in families, supported by signaling assays. Supports the dominant subclaim. |
 | [30061370](https://pubmed.ncbi.nlm.nih.gov/30061370/) | IRS4 | germline | needs supplementary or additional review | Primary family Results and Table pending. IRS4 variants in central hypothyroidism families require detailed segregation and phenotype review. |
 | [30158690](https://pubmed.ncbi.nlm.nih.gov/30158690/) | STAG1 | germline | needs supplementary or additional review | Primary STAG1 Results and patient table pending. Clinical exome cohort identifies STAG1 candidate disease variants; inspect gene-specific patient results. |
 | [30471718](https://pubmed.ncbi.nlm.nih.gov/30471718/) | DNAH9 | germline | needs supplementary or additional review | Primary DNAH9 variant Results pending. DNAH9 recessive variants are reported in a heterogeneous laterality/ciliary cohort; confirm primary patient genotype and ciliary findings. |
@@ -356,11 +356,26 @@ No PMC link is a publisher-lookup queue, not a determination that a paper cannot
 | [31752936](https://pubmed.ncbi.nlm.nih.gov/31752936/) | ERBB3 | germline | needs supplementary or additional review | Primary case phenotypes and variant table pending. Biallelic ERBB3 variants occur in a multisystem syndrome without congenital contractures; verify overlap with listed visceral neuropathy before restoring. |
 | [31949313](https://pubmed.ncbi.nlm.nih.gov/31949313/) | KMT2D | germline | needs supplementary or additional review | Primary clinical cohort and Figure pending. KMT2D missense variants in seven families cause a distinct multisystem disorder; confirm correspondence to the named choanal-atresia syndrome. |
 | [32083401](https://pubmed.ncbi.nlm.nih.gov/32083401/) | KMT2D | germline | needs supplementary or additional review | Clinical case and molecular tables pending. KMT2D case series expands phenotype; confirm each primary case matches a named syndrome. |
-| [32207811](https://pubmed.ncbi.nlm.nih.gov/32207811/) | IL6ST | germline | needs supplementary or additional review | Primary patient/functional Results pending. Dominant-negative IL6ST cases are described; patient-specific genetic and immunologic results require checking. |
+| [32207811](https://pubmed.ncbi.nlm.nih.gov/32207811/) | IL6ST | germline | supports specific claim | Primary family genetics body paragraph 4 and patient phenotype body paragraphs 33 and 38. Heterozygous IL6ST truncating variants in multiple HIES families support the dominant-negative hyper-IgE subclaim. |
 | [32212377](https://pubmed.ncbi.nlm.nih.gov/32212377/) | RAD50 | germline | needs supplementary or additional review | Primary patient and functional Results pending. Homozygous RAD50 variant in a second patient requires primary phenotype and functional Results review. |
 | [33199684](https://pubmed.ncbi.nlm.nih.gov/33199684/) | AGO2 | germline | needs supplementary or additional review | Primary mutation cohort and phenotype tables pending. Germline AGO2 neurodevelopmental cohort needs genotype and syndrome-specific Results review. |
 | [33537682](https://pubmed.ncbi.nlm.nih.gov/33537682/) | HDAC4 | germline | needs supplementary or additional review | Primary patient and molecular results pending. HDAC4 missense neurodevelopmental cohort needs exact phenotype and inheritance Results review. |
 | [33577785](https://pubmed.ncbi.nlm.nih.gov/33577785/) | RAD50 | somatic | needs supplementary or additional review | Primary gene-specific mutation supplement pending. RAD50 is not identified in the inspected glioblastoma body; somatic variant supplement needs review. |
+| [33782605](https://pubmed.ncbi.nlm.nih.gov/33782605/) | SYK | germline | supports specific claim | Results passages 9-10, Table 1 and functional analyses. Monoallelic SYK variants including de novo variants occur in patients with recurrent infections and systemic inflammation; supports dominant immune dysregulation. |
+| [33909990](https://pubmed.ncbi.nlm.nih.gov/33909990/) | SRCAP | germline | supports specific claim | Results passage 28 and cohort phenotype tables. Thirty-three patients with truncating SRCAP variants outside the Floating-Harbor locus have neurodevelopmental and musculoskeletal manifestations; supports the distinct developmental syndrome subclaim. |
+| [34003604](https://pubmed.ncbi.nlm.nih.gov/34003604/) | TCF7L2 | germline | supports specific claim | Primary cohort body paragraphs 1 and 4, Figure 1. Eleven patients with de novo heterozygous TCF7L2 variants have neurodevelopmental abnormalities. |
+| [34767620](https://pubmed.ncbi.nlm.nih.gov/34767620/) | RPA1 | germline | supports specific claim | Primary cohort body paragraph 2 and functional Results. Heterozygous RPA1 variants in four individuals with short telomeres and hematologic or pulmonary manifestations support the telomere-related disease association. |
+| [34965699](https://pubmed.ncbi.nlm.nih.gov/34965699/) | INSR | germline | supports specific claim | Results passage 21 and clinical patient description. A homozygous INSR missense variant in a patient with Donohue syndrome supports the recessive Donohue subclaim, not dominant insulin resistance. |
+| [35227688](https://pubmed.ncbi.nlm.nih.gov/35227688/) | ROBO1 | germline | supports specific claim | Results passages 13 and 19 and Table 1. Biallelic ROBO1 variants in patients with renal anomalies and neurodevelopmental features support the recessive neurooculorenal disease association. |
+| [37383123](https://pubmed.ncbi.nlm.nih.gov/37383123/) | ZMYM2 | germline | supports specific claim | Primary case body paragraphs 1 and 18; Sanger trio confirmation. A de novo ZMYM2 frameshift in a patient with developmental delay and dysmorphism supports the neurodevelopmental-craniofacial syndrome. |
+| [37644171](https://pubmed.ncbi.nlm.nih.gov/37644171/) | CUX1 | germline | supports specific claim | Results passages 40-42 and Table S1. Heterozygous CUX1 null variants in a clinical series, de novo or inherited from mildly affected parents, support dominant neurodevelopmental disorder. |
+| [39320016](https://pubmed.ncbi.nlm.nih.gov/39320016/) | ZFHX4 | germline | not supporting report claim | Results passage 21 and model organism experiments. Mouse and zebrafish craniofacial expression/perturbation experiments do not establish the human neurodevelopmental disease claim. |
+| [37463447](https://pubmed.ncbi.nlm.nih.gov/37463447/) | RINT1 | germline | not supporting report claim | Primary HSP cohort and introduction passage 4; disease mismatch. Primary biallelic cases concern hereditary spastic paraplegia; infantile liver failure cases are earlier cited findings. |
+| [7543139](https://pubmed.ncbi.nlm.nih.gov/7543139/) | CTLA4 | germline | not supporting report claim | Primary CD28/CTLA4 T-cell functional experiments. T-cell costimulation experiments do not establish the human inherited CTLA4 haploinsufficiency syndrome. |
+| [33864888](https://pubmed.ncbi.nlm.nih.gov/33864888/) | BACH2 | germline | needs supplementary or additional review | Patient S093 Table and variant supplement pending. Patient with BACH2 immune dysregulation is listed; gene-specific variant and pathogenicity need review. |
+| [35868845](https://pubmed.ncbi.nlm.nih.gov/35868845/) | ALPK1 | germline | supports specific claim | Primary clinical/variant cohort and ex vivo Results passage 58, Figure 5. ALPK1 T237M patient fibroblasts show enhanced inflammatory signaling in clinically characterized ROSAH cases. |
+| [36044892](https://pubmed.ncbi.nlm.nih.gov/36044892/) | TMEM147 | germline | needs supplementary or additional review | Patient genetic Results and tables pending. Biallelic cases are reported; confirm genotype segregation and exact pseudo-Pelger phenotype. |
+| [37206266](https://pubmed.ncbi.nlm.nih.gov/37206266/) | SH2B3 | germline | needs supplementary or additional review | Primary family genotype and inheritance Results pending. Biallelic SH2B3 immune disease is reported; assess whether the current semidominant statement is directly supported. |
 
 The two resource-paper rejections cover many gene-specific placements; every affected claim remains recorded in `curation/fulltext-review-decisions.json`. Full-text documents are cached outside the repository; source locations and content hashes are preserved.
 

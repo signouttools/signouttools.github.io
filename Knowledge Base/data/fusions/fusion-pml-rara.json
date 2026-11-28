@@ -64,20 +64,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "PML::RARA is the defining fusion of conventional acute promyelocytic leukemia and commonly arises from t(15;17).",
+      "text": "PML::RARA blocked IL-3-stimulated myeloid differentiation in experimental marrow systems; ATRA restored differentiation. Coexpression with IL-3 produced rapidly fatal AML-like disease in transplanted mice.",
       "source_ids": [
-        "aml"
+        "pml-rara-differentiation-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "387f001f02858bf01e867a8f0c93abd9d8525f9e7acbfbd0d0a8844156b59a62",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "028263902501c80ac582ab3e723544f8a173e8abc078eae61cef2df4bab9297c",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "WHO classification tables and gene-specific cytogenetic sections",
-          "scope": "Explicit fusion-to-disease association only; does not certify original functional mechanism.",
-          "access_level": "guideline"
+          "source_id": "pml-rara-differentiation-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC164846/",
+          "location": "Results; Figure 2 differentiation and ATRA rescue; Figures 3-4 murine leukemia",
+          "scope": "Root inspected direct functional and transplant results; does not equate model assays with clinical response rate.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -102,10 +102,11 @@
     }
   ],
   "report_comment": {
-    "text": "PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. PML::RARA is the defining fusion of conventional acute promyelocytic leukemia and commonly arises from t(15;17). All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia.",
+    "text": "PML encodes the organizer of PML nuclear bodies, which participate in stress and growth-control pathways. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. PML::RARA blocked IL-3-stimulated myeloid differentiation in experimental marrow systems; ATRA restored differentiation. Coexpression with IL-3 produced rapidly fatal AML-like disease in transplanted mice. All-trans retinoic acid and arsenic trioxide are central to treatment of PML::RARA-positive acute promyelocytic leukemia.",
     "source_ids": [
       "ncbi-5371",
       "ncbi-5914",
+      "pml-rara-differentiation-primary",
       "aml"
     ]
   },
@@ -122,9 +123,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "b9863e9eebf369dd8eabd8f3878d280adb7f4b2e3804f3cd026e3707a005eb4d"
+  "text_sha256": "7097cb42655c5160c0445100815ac5671d143060036015c44a8b01a0333c2022"
 }

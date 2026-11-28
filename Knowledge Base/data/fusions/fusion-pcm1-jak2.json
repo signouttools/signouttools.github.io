@@ -64,49 +64,49 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "PCM1::JAK2 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia.",
+      "text": "PCM1::JAK2 was documented in a clinical series of JAK2-fusion myeloid neoplasms presenting in chronic or blast phase, often with marrow fibrosis and abnormal erythropoiesis.",
       "source_ids": [
-        "icc-eo"
+        "jak2"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "1a180e6317e4295480b84ee15022c8dcd9b6247788ece1d0fb297d344bd6d72d",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "ef675d97a4616d8b255df0a15d7406d179e8d4f6459f4c4f237d1bd033f6641d",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "icc-eo",
-          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
-          "location": "Table 1; sections 1.1.1-1.1.2, PDF pages 2-4",
-          "scope": "Exact partner listed with disease category; no unreviewed experimental mechanism retained.",
-          "access_level": "guideline"
+          "source_id": "jak2",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.25825",
+          "location": "Results 3.1, Table 1 and Figure 1; PDF pages 3-5",
+          "scope": "Actual partner-confirmed patient series and morphologic features; no experimental constitutive-kinase proof inferred.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
     {
       "kind": "therapeutics",
-      "text": "Ruxolitinib can produce hematologic and cytogenetic responses in JAK2-fusion myeloid/lymphoid neoplasms, but these responses may be limited in duration.",
+      "text": "In a series including eight PCM1::JAK2 and one BCR::JAK2 case, ruxolitinib produced hematologic or cytogenetic responses in some patients, but most discontinued for resistance, progression or planned transplantation.",
       "source_ids": [
-        "icc-eo"
+        "jak2"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "be8bbe16e0e4f5d32746a2d3ff75336d70770be8e834dde5279afb8891efb1d4",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "e5c9ef7035daa2651a018e9345d7da4ff20791eb6956d2585b50ec55484daeaa",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "icc-eo",
-          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.26966",
-          "location": "Table 1 JAK2 row and Treatment, PDF pages 3-6",
-          "scope": "Reference-supported response and durability limitation; no approval inferred.",
-          "access_level": "guideline"
+          "source_id": "jak2",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ajh.25825",
+          "location": "Results 3.2: Response to ruxolitinib; Table 1 and treatment-course Figure 1; PDF pages 3-6",
+          "scope": "Actual mixed-JAK2-fusion clinical series; outcomes pooled rather than assigned independently to PCM1.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "PCM1 encodes a centrosomal-satellite scaffold protein. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. PCM1::JAK2 is a recognized fusion in myeloid/lymphoid neoplasms with tyrosine-kinase gene fusions, often associated with eosinophilia. Ruxolitinib can produce hematologic and cytogenetic responses in JAK2-fusion myeloid/lymphoid neoplasms, but these responses may be limited in duration.",
+    "text": "PCM1 encodes a centrosomal-satellite scaffold protein. JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. PCM1::JAK2 was documented in a clinical series of JAK2-fusion myeloid neoplasms presenting in chronic or blast phase, often with marrow fibrosis and abnormal erythropoiesis. In a series including eight PCM1::JAK2 and one BCR::JAK2 case, ruxolitinib produced hematologic or cytogenetic responses in some patients, but most discontinued for resistance, progression or planned transplantation.",
     "source_ids": [
       "ncbi-5108",
       "ncbi-3717",
-      "icc-eo"
+      "jak2"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -122,9 +122,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "bf22fb13ad6a364be55e02185623f97ccff563496d59451928008c6eaf22f63c"
+  "text_sha256": "754a138c4fde8797b019527e39c18ebc4d82e81ae9000843eb574838cc7f9ddd"
 }

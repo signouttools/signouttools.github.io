@@ -159,7 +159,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MLH1 encodes a DNA mismatch-repair protein that forms the MutLα complex with PMS2, helping correct replication-associated mismatches and insertion/deletion errors.",
+      "text": "MLH1 encodes a component of DNA mismatch repair that partners with PMS2 to form MutL-alpha. Following mismatch recognition, this complex helps initiate removal of the incorrect DNA segment; PMS2 supplies the endonuclease activity that introduces a nearby single-strand break. MLH1 also participates in DNA-damage signaling and can pair with MLH3 in MutL-gamma, a separate complex with a role in meiosis.",
       "source_ids": [
         "ncbi-4292"
       ]

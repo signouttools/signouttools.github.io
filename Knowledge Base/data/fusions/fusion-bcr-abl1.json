@@ -68,20 +68,20 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "The t(9;22) rearrangement produces a tyrosine-kinase fusion that drives CML and a subset of B-ALL. The p210 isoform predominates in CML, while p190 is more common in B-ALL.",
+      "text": "Expression of p210 BCR::ABL1 in transplanted murine bone marrow induced a CML-like myeloproliferative syndrome, demonstrating its leukemogenic activity in vivo. Other hematologic tumor phenotypes also occurred in the model.",
       "source_ids": [
-        "all"
+        "bcr-abl-murine-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "a0592f041be13195243de11a10ac8f06eb7929011216d01a69e5de11523bbf3c",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "ebc9ab8a8134073a8a42406c7405dd0415afde1eb726ea86e2fbf31424c9d7db",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "all",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
-          "location": "Cytogenetics/genomics: BCR::ABL1 fusion, lines 352-354",
-          "scope": "Disease association, kinase activity and common isoforms.",
-          "access_level": "guideline"
+          "source_id": "bcr-abl-murine-primary",
+          "url": "https://escholarship.org/content/qt2702p39n/qt2702p39n_noSplash_c46cb787f73a3f68a430ec8592e8e614.pdf",
+          "location": "Results, page 825; Table 1; Figures 2-3",
+          "scope": "Root inspected primary PDF CML-like disease, proviral analyses and tumor phenotypes; does not independently prove all human isoform frequencies.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
@@ -106,10 +106,11 @@
     }
   ],
   "report_comment": {
-    "text": "BCR encodes breakpoint cluster region protein. ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses. The t(9;22) rearrangement produces a tyrosine-kinase fusion that drives CML and a subset of B-ALL. The p210 isoform predominates in CML, while p190 is more common in B-ALL. ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL.",
+    "text": "BCR encodes breakpoint cluster region protein. ABL1 encodes a nonreceptor tyrosine kinase involved in cell division, adhesion and stress responses. Expression of p210 BCR::ABL1 in transplanted murine bone marrow induced a CML-like myeloproliferative syndrome, demonstrating its leukemogenic activity in vivo. Other hematologic tumor phenotypes also occurred in the model. ABL tyrosine-kinase inhibitors are incorporated into treatment of BCR::ABL1-positive ALL.",
     "source_ids": [
       "ncbi-613",
       "ncbi-25",
+      "bcr-abl-murine-primary",
       "all"
     ]
   },
@@ -127,9 +128,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "e98b7e7d2b2e3f4ee94a93543844c52f3452e6fd2919495ad7912c7c1453a450"
+  "text_sha256": "deac449b2e4a1b0501429cca86e974a06acb35658c10cec00e8a1010e15f339b"
 }

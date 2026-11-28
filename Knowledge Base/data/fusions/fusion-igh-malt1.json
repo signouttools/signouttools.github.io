@@ -64,33 +64,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "IGH regulatory rearrangements can increase MALT1 expression in a subset of MALT lymphomas.",
+      "text": "IGH/MALT1 t(14;18) rearrangements occur in MALT lymphoma. Primary dual-fusion FISH and expression studies documented the rearrangement and increased MALT1 mRNA and protein in affected tumors.",
       "source_ids": [
-        "malt-pathology"
+        "followup-malt1-expression"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "680f8943eb74bc846ff1b2b29c85236cb29aa118ae6edbbd09d16f24961109e0",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "aa1f6bbe680f34924805f581c1d79b5c3cef8dea41f261d749dbb3e681ee178d",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "malt-pathology",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2001121/",
-          "location": "Genetic abnormalities; t(14;18)/IGH-MALT1 and t(1;14)/IGH-BCL10 subsections, lines 180-194",
-          "scope": "Ordered regulatory events and disease association; review support explicitly, not primary.",
-          "access_level": "guideline"
+          "source_id": "followup-malt1-expression",
+          "url": "https://www.rifathamoudi.co.uk/publications/J_Pathol_2005_Feb_205_3_293_301.pdf",
+          "location": "Results, Correlation of MALT1 and BCL10 protein expression with their mRNA expression; Figure3, Figure4, Figure5; page298",
+          "scope": "IGH-MALT1 dual-fusion FISH and higher MALT1 mRNA/protein in rearranged MALT lymphomas. Primary body passage and captions inspected.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling. IGH regulatory rearrangements can increase MALT1 expression in a subset of MALT lymphomas.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. MALT1 encodes a signaling scaffold and paracaspase in antigen-receptor-associated NF-kappaB signaling. IGH/MALT1 t(14;18) rearrangements occur in MALT lymphoma. Primary dual-fusion FISH and expression studies documented the rearrangement and increased MALT1 mRNA and protein in affected tumors.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-10892",
-      "malt-pathology"
+      "followup-malt1-expression"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Locus label describes a regulatory event; no chimeric coding product is asserted.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "ccb5edaa082ff4e1a3b03240cc1120d8d3ff240ca223d64f4247908cc0848892"
+  "text_sha256": "975a57f9bb5a611d364ead30b2a055d4fb9e3287ef6e1c7fedc7696d2825ddac"
 }

@@ -64,49 +64,49 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "ZBTB16::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
+      "text": "ZBTB16::RARA was RT-PCR-confirmed in 18 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology.",
       "source_ids": [
-        "aml"
+        "rara"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "8c1522e20fc6980ced9ef94eb45df1e8163a98a61fc45bd3bc8b1d08e8f5a0e9",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "885eeb82fede5ee4914d0a1945c0e76c8d490008ffd3cd183217ef66c3cbe955",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "Molecular variants of APL other than PML::RARA",
-          "scope": "Exact RARA partners listed as variant APL; detailed corepressor effects removed.",
-          "access_level": "guideline"
+          "source_id": "rara",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/",
+          "location": "Body cohort molecular-results paragraph preceding Figure 1; Table 1 and Supplementary Table 1",
+          "scope": "Exact observed fusion/disease phenotype; structural/corepressor extrapolations excluded.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
     {
       "kind": "therapeutics",
-      "text": "ZBTB16::RARA-positive variant APL usually fails to respond to tretinoin or arsenic trioxide.",
+      "text": "In the rare-RARA series, no evident ATRA/ATO-induced differentiation was observed in ZBTB16::RARA-positive cases despite frequent retinoid exposure; treatment responses to combination regimens do not establish retinoid sensitivity.",
       "source_ids": [
-        "aml"
+        "rara"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "4d46b703760e70ae864537ff3b56aa2564d874479c90212414c078895d3225db",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "741204706f43e1f5fed4492cdff94ed90a8bf6d94633f0f1a1d72c3f08b86f77",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "Molecular variants of APL: ZBTB16::RARA subsection",
-          "scope": "Explicit guideline sensitivity statement, not direct case-series review.",
-          "access_level": "guideline"
+          "source_id": "rara",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8520532/",
+          "location": "Treatment Results; paragraph beginning Most importantly; Figure 1 and Supplementary Table 1",
+          "scope": "Actual on-treatment differentiation observation rather than universal treatment-failure claim.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ZBTB16::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype. ZBTB16::RARA-positive variant APL usually fails to respond to tretinoin or arsenic trioxide.",
+    "text": "ZBTB16 encodes PLZF, a zinc-finger transcriptional repressor involved in development and differentiation. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. ZBTB16::RARA was RT-PCR-confirmed in 18 patients in a 24-patient series of rare RARA-rearranged AML with APL-like morphology. In the rare-RARA series, no evident ATRA/ATO-induced differentiation was observed in ZBTB16::RARA-positive cases despite frequent retinoid exposure; treatment responses to combination regimens do not establish retinoid sensitivity.",
     "source_ids": [
       "ncbi-7704",
       "ncbi-5914",
-      "aml"
+      "rara"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -122,9 +122,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "b237568c3ffcf364d0206ee66a879913e4e4e29415013818f31c6821fdf628f1"
+  "text_sha256": "ae9ade35b91a239d0f750e31be192cef6d9443f2aed8d48958487f84963fcbb3"
 }

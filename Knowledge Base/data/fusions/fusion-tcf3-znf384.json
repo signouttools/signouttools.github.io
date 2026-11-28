@@ -66,30 +66,30 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "TCF3::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
+      "text": "TCF3::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The reported TCF3 partner was identified by FISH.",
       "source_ids": [
-        "all"
+        "znf384"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "d1f4989b1f33a544a48b5e6153816a8f8874abf0a770390c9995f149eff60ab7",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "498fbe88b3ce03153a0e50c7784c17e120aa0548ef10d5ee9f904aa1a93c4c5a",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "all",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq",
-          "location": "ZNF384-rearranged ALL, lines 399-402",
-          "scope": "Exact partners and subtype phenotype; no universal lineage-conversion mechanism inferred.",
-          "access_level": "guideline"
+          "source_id": "znf384",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611455/",
+          "location": "Results; Table 1 partner and immunophenotype columns; Figure 1A-B and 1D",
+          "scope": "Ordered pair and measured phenotype; selected CD10-low cohort. Excludes unsupported generalized MPAL frequency or lineage-conversion mechanism.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. ZNF384 encodes a zinc-finger transcriptional regulator. TCF3::ZNF384 is a reported ZNF384 rearrangement in B-ALL. ZNF384-rearranged disease commonly has weak or absent CD10 and may express myeloid markers; B/myeloid mixed-phenotype cases also occur.",
+    "text": "TCF3 encodes E2A transcription factors required for lymphoid development. ZNF384 encodes a zinc-finger transcriptional regulator. TCF3::ZNF384 was documented in B-ALL with weak CD10 and aberrant myeloid-marker expression in a targeted clinical cohort. The reported TCF3 partner was identified by FISH.",
     "source_ids": [
       "ncbi-6929",
       "ncbi-171017",
-      "all"
+      "znf384"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -106,9 +106,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "01764592b909d03a8c389873804d4f78251f24368106ec54668f1ae6fb404bb2"
+  "text_sha256": "ae33683ec79b8978eb837cf7999dccb89c5efc8e0dc0b0fd9231c8135dd4a790"
 }

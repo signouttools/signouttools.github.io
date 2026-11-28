@@ -64,33 +64,32 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "IGH-associated CCND3 rearrangements have been reported in cyclin-D1-negative mantle cell lymphoma; immunoglobulin light-chain partners are also important in this group.",
+      "text": "An IGH/CCND3 t(6;14) rearrangement was identified by cytogenetics and FISH in a cyclin-D1-negative mantle cell lymphoma. This patient observation is distinct from cryptic CCND3 rearrangements involving light-chain enhancers.",
       "source_ids": [
-        "ccnd-regulatory-reference"
+        "followup-mcl-ccnd3"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "122b787c772a5e3b5a3bcffd43a3fad8965ca1c4f540aa671dafc104c34af638",
-      "fulltext_audit_status": "reference_supported",
+      "claim_sha256": "f93bdde811c8f307fb364d0d4905bb969aa9aebdea98cb7b40780665ebe7beb1",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "ccnd-regulatory-reference",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6396173/",
-          "location": "Introduction, paragraphs 442-444; Discussion paragraphs 585-589",
-          "scope": "Explicit IGH partner reports summarized with primary citations; this statement is reference-supported, not certified as a result of the current light-chain cohort.",
-          "access_level": "guideline"
+          "source_id": "followup-mcl-ccnd3",
+          "url": "https://ashpublications.org/blood/article-pdf/111/12/5683/1297306/zh801208005683.pdf",
+          "location": "Table2, case6, cytogenetic and FISH results; Results CCND3-associated rearrangement",
+          "scope": "Exact t(6;14)/IGH-CCND3 patient event in cyclin-D1-negative MCL; not evidence transferred from light-chain enhancer insertions.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. CCND3 encodes cyclin D3, a regulator of CDK4/6-dependent cell-cycle progression. IGH-associated CCND3 rearrangements have been reported in cyclin-D1-negative mantle cell lymphoma; immunoglobulin light-chain partners are also important in this group.",
+    "text": "IGH is the immunoglobulin heavy-chain locus involved in B-cell antigen-receptor diversity. CCND3 encodes cyclin D3, a regulator of CDK4/6-dependent cell-cycle progression. An IGH/CCND3 t(6;14) rearrangement was identified by cytogenetics and FISH in a cyclin-D1-negative mantle cell lymphoma. This patient observation is distinct from cryptic CCND3 rearrangements involving light-chain enhancers.",
     "source_ids": [
       "ncbi-3492",
       "ncbi-896",
-      "ccnd-regulatory-reference"
+      "followup-mcl-ccnd3"
     ]
   },
-  "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
+  "evidence_scope": "Retained claims carry explicit audit evidence; reference and regulatory evidence is not labeled primary full text.",
   "curation_notes": [
     "Locus label describes a regulatory event; no chimeric coding product is asserted.",
     "Fusion sections audited 2026-11-27; primary-body and reference-supported assertions are explicitly distinguished. Partner normal-function review is tracked separately."
@@ -104,9 +103,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "d67fffaea817669e3e509d57c121e03f4cf44c20c443de10d7121dcc2bf13775"
+  "text_sha256": "a54547beba1a898abcf1b69dc50d7f38cb2e8122940cf2c76e52bd845a841eed"
 }

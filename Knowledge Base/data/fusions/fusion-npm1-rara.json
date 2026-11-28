@@ -64,49 +64,49 @@
     },
     {
       "kind": "fusion_mechanism",
-      "text": "NPM1::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype.",
+      "text": "NPM1::RARA was confirmed by RT-qPCR in an infant with AML, a t(5;17) rearrangement and a mandibular myeloid sarcoma in a Hungarian clinical cohort.",
       "source_ids": [
-        "aml"
+        "npm-rara-hungary-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "1101bc93e6320232c8cff6c8c0c5d096375794fce1a5996bc50a33538bfa2ade",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "3676f71353df53ddb68cf9887b00b78828b6ed44d22e75a11a6e7f01e1e1c998",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "Molecular variants of APL other than PML::RARA",
-          "scope": "Exact RARA partners listed as variant APL; detailed corepressor effects removed.",
-          "access_level": "guideline"
+          "source_id": "npm-rara-hungary-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534106/",
+          "location": "Original-cohort Results sections 3.3.1 and 3.5; Figure 5; Table 4",
+          "scope": "Root inspected original own-patient case data, not the review portion of this article; exact fusion and phenotype.",
+          "access_level": "primary_fulltext"
         }
       ]
     },
     {
       "kind": "therapeutics",
-      "text": "Rare NPM1::RARA-positive APL variants may retain sensitivity to tretinoin.",
+      "text": "The reported infant with NPM1::RARA-positive AML achieved remission with an AML chemotherapy regimen plus ATRA and remained in first remission at the reported 36-month follow-up. Subsequent treatment included arsenic; this combination outcome does not establish isolated ATRA sensitivity.",
       "source_ids": [
-        "aml"
+        "npm-rara-hungary-primary"
       ],
-      "evidence_review_status": "reference_supported",
-      "claim_sha256": "060e7b169c6d7ca1bd0b5b5b6274edef96fb27f612fee268dcabc625d1bffcb6",
-      "fulltext_audit_status": "reference_supported",
+      "evidence_review_status": "primary_fulltext_supported",
+      "claim_sha256": "869ab8e808401d3256308f025a8388b08622e3edef47b73f656f8a0e837e7e8b",
+      "fulltext_audit_status": "primary_fulltext_supported",
       "audit_evidence": [
         {
-          "source_id": "aml",
-          "url": "https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq",
-          "location": "Molecular variants of APL: NPM1::RARA/NUMA1::RARA subsection",
-          "scope": "Qualified guideline sensitivity; no blanket equivalence with PML::RARA.",
-          "access_level": "guideline"
+          "source_id": "npm-rara-hungary-primary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8534106/",
+          "location": "Original-cohort Results section 3.6; Table 4 molecular follow-up",
+          "scope": "Actual combination regimen and outcome in one fusion-positive patient; no monotherapy extrapolation.",
+          "access_level": "primary_fulltext"
         }
       ]
     }
   ],
   "report_comment": {
-    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. NPM1::RARA is a rare RARA fusion associated with an APL-like leukemia phenotype. Rare NPM1::RARA-positive APL variants may retain sensitivity to tretinoin.",
+    "text": "NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. RARA encodes retinoic acid receptor alpha, a ligand-regulated nuclear-receptor transcription factor. NPM1::RARA was confirmed by RT-qPCR in an infant with AML, a t(5;17) rearrangement and a mandibular myeloid sarcoma in a Hungarian clinical cohort. The reported infant with NPM1::RARA-positive AML achieved remission with an AML chemotherapy regimen plus ATRA and remained in first remission at the reported 36-month follow-up. Subsequent treatment included arsenic; this combination outcome does not establish isolated ATRA sensitivity.",
     "source_ids": [
       "ncbi-4869",
       "ncbi-5914",
-      "aml"
+      "npm-rara-hungary-primary"
     ]
   },
   "evidence_scope": "Claim-specific primary Results/Figure/Table review where recorded; otherwise narrowed official-reference support. No inaccessible article is certified as reviewed.",
@@ -122,9 +122,9 @@
     "disclaimer": "Pathologist review needed — LLM-generated summary/review."
   },
   "audit": {
-    "status": "reference_supported",
+    "status": "primary_fulltext_supported",
     "audited_on": "2026-11-27",
-    "summary": "The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
+    "summary": "Primary body/results support the retained fusion claims identified below. Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending."
   },
-  "text_sha256": "e08f0cf3c75fb2c96381a4420105d66b7b0487d6691c6d48491b51a38da6f430"
+  "text_sha256": "5dbbce23e81ce01b7e2b2502cdb9b53671d7c9e2f4ba2b11ef3bff6cb05a5485"
 }
