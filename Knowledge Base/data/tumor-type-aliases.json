@@ -1,0 +1,550 @@
+{
+  "reviewed_on": "2026-11-27",
+  "reviewed_dropdown_entries": 606,
+  "groups": [
+    {
+      "canonical_id": "refseq-tumor-3c15c755a555",
+      "name": "Acute lymphoblastic leukemia",
+      "member_ids": [
+        "refseq-tumor-3c15c755a555",
+        "hotspots-cohort-all"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "aml",
+      "name": "Acute myeloid leukemia",
+      "member_ids": [
+        "aml",
+        "atlas-h-aml",
+        "hotspots-cohort-laml",
+        "refseq-tumor-6c2881ff6bdf"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-h-apl",
+      "name": "Acute promyelocytic leukemia",
+      "member_ids": [
+        "atlas-h-apl",
+        "refseq-tumor-e4b6d9013f36"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-e-cxadeno",
+      "name": "Adenocarcinoma of cervix",
+      "member_ids": [
+        "atlas-e-cxadeno",
+        "curation-intogen-CEAD"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "hotspots-cohort-adrenal_gland",
+      "name": "Adrenal gland tumors",
+      "member_ids": [
+        "hotspots-cohort-adrenal_gland",
+        "hotspots-cohort-adrenalgland"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-v-adrenocortical-carcinoma",
+      "name": "Adrenocortical carcinoma",
+      "member_ids": [
+        "atlas-v-adrenocortical-carcinoma",
+        "hotspots-cohort-acc"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-nm-atrt",
+      "name": "Atypical teratoid/rhabdoid tumor",
+      "member_ids": [
+        "atlas-nm-atrt",
+        "curation-intogen-ATRT"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-h-ball",
+      "name": "B-lymphoblastic leukemia/lymphoma",
+      "member_ids": [
+        "atlas-h-ball",
+        "fusion-context-214d146d359b"
+      ],
+      "reason": "User approved combining these current, legacy, and leukemia/lymphoma terminology groups on 2026-11-27; source-specific labels remain in the evidence."
+    },
+    {
+      "canonical_id": "hotspots-cohort-biliary_tract",
+      "name": "Biliary tract tumors",
+      "member_ids": [
+        "hotspots-cohort-biliary_tract",
+        "hotspots-cohort-biliarytract"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "curation-intogen-BLCA",
+      "name": "Bladder Urothelial Carcinoma",
+      "member_ids": [
+        "curation-intogen-BLCA",
+        "hotspots-cohort-blca"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "refseq-tumor-4effb7767b61",
+      "name": "Breast carcinoma",
+      "member_ids": [
+        "refseq-tumor-4effb7767b61",
+        "hotspots-cohort-brca"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "hotspots-cohort-ampulla_of_vater",
+      "name": "Cancer Hotspots source tumor code: ampulla_of_vater",
+      "member_ids": [
+        "hotspots-cohort-ampulla_of_vater",
+        "hotspots-cohort-ampullaofvater"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "curation-b39cd30b0226",
+      "name": "Cervical carcinoma",
+      "member_ids": [
+        "curation-b39cd30b0226",
+        "hotspots-cohort-cesc"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-e-chrcc",
+      "name": "Chromophobe renal cell carcinoma",
+      "member_ids": [
+        "atlas-e-chrcc",
+        "hotspots-cohort-kich"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "refseq-tumor-e9a532a07ea2",
+      "name": "Chronic lymphocytic leukemia",
+      "member_ids": [
+        "refseq-tumor-e9a532a07ea2",
+        "hotspots-cohort-cll"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-h-cll",
+      "name": "Chronic lymphocytic leukemia / small lymphocytic lymphoma",
+      "member_ids": [
+        "atlas-h-cll",
+        "curation-intogen-CLLSLL"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-e-ccrcc",
+      "name": "Clear cell renal cell carcinoma",
+      "member_ids": [
+        "atlas-e-ccrcc",
+        "curation-intogen-CCRCC",
+        "hotspots-cohort-kirc"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "hotspots-cohort-brain",
+      "name": "CNS tumors",
+      "member_ids": [
+        "hotspots-cohort-brain",
+        "hotspots-cohort-cnsbrain"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "colorectal",
+      "name": "Colorectal carcinoma",
+      "member_ids": [
+        "colorectal",
+        "hotspots-cohort-coadread",
+        "refseq-tumor-9ec030c325ea"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-e-melanoma",
+      "name": "Cutaneous melanoma",
+      "member_ids": [
+        "atlas-e-melanoma",
+        "hotspots-cohort-skcm"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "refseq-tumor-c266a271d920",
+      "name": "Endometrial carcinoma",
+      "member_ids": [
+        "refseq-tumor-c266a271d920",
+        "hotspots-cohort-ucec"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "hotspots-cohort-esophagusstomach",
+      "name": "Esophagus / stomach tumors",
+      "member_ids": [
+        "hotspots-cohort-esophagusstomach",
+        "curation-intogen-STOMACH"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-nm-ewing",
+      "name": "Ewing sarcoma",
+      "member_ids": [
+        "atlas-nm-ewing",
+        "refseq-tumor-0d6750b99854"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-v-gastric-adenocarcinoma",
+      "name": "Gastric adenocarcinoma",
+      "member_ids": [
+        "atlas-v-gastric-adenocarcinoma",
+        "curation-intogen-STAD",
+        "hotspots-cohort-stad"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "curation-intogen-GB",
+      "name": "Glioblastoma",
+      "member_ids": [
+        "curation-intogen-GB",
+        "atlas-nm-gbm",
+        "curation-intogen-GBM",
+        "hotspots-cohort-gbm"
+      ],
+      "reason": "User approved combining these current, legacy, and leukemia/lymphoma terminology groups on 2026-11-27; source-specific labels remain in the evidence."
+    },
+    {
+      "canonical_id": "curation-intogen-HNSC",
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "member_ids": [
+        "curation-intogen-HNSC",
+        "hotspots-cohort-hnsc"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "hotspots-cohort-head_neck",
+      "name": "Head and neck tumors",
+      "member_ids": [
+        "hotspots-cohort-head_neck",
+        "hotspots-cohort-headandneck"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-v-hepatocellular-carcinoma",
+      "name": "Hepatocellular carcinoma",
+      "member_ids": [
+        "atlas-v-hepatocellular-carcinoma",
+        "hotspots-cohort-lihc"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "fusion-context-b47a7ba074d4",
+      "name": "High-grade glioma",
+      "member_ids": [
+        "fusion-context-b47a7ba074d4",
+        "hotspots-cohort-hgg"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-e-salclear",
+      "name": "Hyalinizing clear cell carcinoma of salivary gland",
+      "member_ids": [
+        "atlas-e-salclear",
+        "fusion-context-f0ad9dd8281d"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-v-lung-adenocarcinoma",
+      "name": "Lung adenocarcinoma",
+      "member_ids": [
+        "atlas-v-lung-adenocarcinoma",
+        "hotspots-cohort-luad"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-v-lung-squamous-cell-carcinoma",
+      "name": "Lung squamous cell carcinoma",
+      "member_ids": [
+        "atlas-v-lung-squamous-cell-carcinoma",
+        "hotspots-cohort-lusc"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "hotspots-cohort-lung",
+      "name": "Lung tumors",
+      "member_ids": [
+        "hotspots-cohort-lung",
+        "curation-intogen-LUNG"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "hotspots-cohort-lymph",
+      "name": "Lymphoid neoplasms",
+      "member_ids": [
+        "hotspots-cohort-lymph",
+        "curation-intogen-LNM"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-nm-mb",
+      "name": "Medulloblastoma",
+      "member_ids": [
+        "atlas-nm-mb",
+        "hotspots-cohort-mbl"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-h-mds",
+      "name": "Myelodysplastic neoplasm",
+      "member_ids": [
+        "atlas-h-mds",
+        "curation-intogen-MDS",
+        "fusion-context-b4935b7d50c4",
+        "hotspots-cohort-mds"
+      ],
+      "reason": "User approved combining these current, legacy, and leukemia/lymphoma terminology groups on 2026-11-27; source-specific labels remain in the evidence."
+    },
+    {
+      "canonical_id": "atlas-e-nasoph",
+      "name": "Nasopharyngeal carcinoma",
+      "member_ids": [
+        "atlas-e-nasoph",
+        "hotspots-cohort-npc"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "refseq-tumor-4a05d08284cf",
+      "name": "Ovarian carcinoma",
+      "member_ids": [
+        "refseq-tumor-4a05d08284cf",
+        "hotspots-cohort-ov"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "curation-intogen-PAAD",
+      "name": "Pancreatic Adenocarcinoma",
+      "member_ids": [
+        "curation-intogen-PAAD",
+        "hotspots-cohort-paad"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "hotspots-cohort-pancreas",
+      "name": "Pancreatic tumors",
+      "member_ids": [
+        "hotspots-cohort-pancreas",
+        "curation-intogen-PANCREAS"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-e-prcc",
+      "name": "Papillary renal cell carcinoma",
+      "member_ids": [
+        "atlas-e-prcc",
+        "hotspots-cohort-kirp"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "atlas-v-paraganglioma",
+      "name": "Paraganglioma",
+      "member_ids": [
+        "atlas-v-paraganglioma",
+        "curation-intogen-PGNG"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "fusion-context-db1c59b8f11b",
+      "name": "Ph-like B-lymphoblastic leukemia",
+      "member_ids": [
+        "fusion-context-db1c59b8f11b",
+        "fusion-context-ea801e61035d"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-h-myeloma",
+      "name": "Plasma cell myeloma",
+      "member_ids": [
+        "atlas-h-myeloma",
+        "hotspots-cohort-mmyl"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-e-prad",
+      "name": "Prostate adenocarcinoma",
+      "member_ids": [
+        "atlas-e-prad",
+        "hotspots-cohort-prad"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "hotspots-cohort-prostate",
+      "name": "Prostate tumors",
+      "member_ids": [
+        "hotspots-cohort-prostate",
+        "curation-intogen-PROSTATE"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-e-salsecret",
+      "name": "Secretory carcinoma of salivary gland",
+      "member_ids": [
+        "atlas-e-salsecret",
+        "fusion-context-d38c219d8297"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "hotspots-cohort-skin",
+      "name": "Skin tumors",
+      "member_ids": [
+        "hotspots-cohort-skin",
+        "curation-intogen-SKIN"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-v-small-cell-lung-carcinoma",
+      "name": "Small cell lung carcinoma",
+      "member_ids": [
+        "atlas-v-small-cell-lung-carcinoma",
+        "curation-intogen-SCLC"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "hotspots-cohort-soft_tissue",
+      "name": "Soft tissue tumors",
+      "member_ids": [
+        "hotspots-cohort-soft_tissue",
+        "curation-intogen-SOFT_TISSUE",
+        "hotspots-cohort-softtissue"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-e-cxscc",
+      "name": "Squamous cell carcinoma of cervix",
+      "member_ids": [
+        "atlas-e-cxscc",
+        "curation-intogen-CESC"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-e-sccskin",
+      "name": "Squamous cell carcinoma of skin",
+      "member_ids": [
+        "atlas-e-sccskin",
+        "curation-intogen-CSCC"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-h-tall",
+      "name": "T-lymphoblastic leukemia/lymphoma",
+      "member_ids": [
+        "atlas-h-tall",
+        "fusion-context-4dca18fb00ef",
+        "fusion-context-f1367cb5be80",
+        "refseq-tumor-8ff1af37fe44"
+      ],
+      "reason": "User approved combining these current, legacy, and leukemia/lymphoma terminology groups on 2026-11-27; source-specific labels remain in the evidence."
+    },
+    {
+      "canonical_id": "thyroid",
+      "name": "Thyroid carcinoma",
+      "member_ids": [
+        "thyroid",
+        "hotspots-cohort-thca"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    },
+    {
+      "canonical_id": "hotspots-cohort-ucs",
+      "name": "Uterine carcinosarcoma",
+      "member_ids": [
+        "hotspots-cohort-ucs",
+        "curation-intogen-UCS"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "hotspots-cohort-vulvavagina",
+      "name": "Vulva / vagina tumors",
+      "member_ids": [
+        "hotspots-cohort-vulvavagina",
+        "curation-intogen-VULVA"
+      ],
+      "reason": "Equivalent wording, abbreviation, anatomical word order, or formatting of the same source tumor/site category."
+    },
+    {
+      "canonical_id": "atlas-e-wilms",
+      "name": "Wilms tumor",
+      "member_ids": [
+        "atlas-e-wilms",
+        "curation-intogen-WT",
+        "refseq-tumor-b859209b3406"
+      ],
+      "reason": "Same tumor name; only case, punctuation, spacing, or source cohort suffix differs."
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/79024",
+      "supports": "Cervical adenocarcinoma / adenocarcinoma of cervix wording."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/57450",
+      "supports": "Small cell lung cancer / carcinoma synonym."
+    },
+    {
+      "url": "https://seer.cancer.gov/seertools/hemelymph/51f6cf5ae3e27c3994bd54aa/",
+      "supports": "Plasma cell myeloma / multiple myeloma terminology."
+    },
+    {
+      "url": "https://ncbi.nlm.nih.gov/medgen/83678",
+      "supports": "Uterine carcinosarcoma / malignant mixed Müllerian tumor synonym."
+    }
+  ]
+}

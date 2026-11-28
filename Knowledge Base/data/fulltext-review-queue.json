@@ -21407,16 +21407,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3700575/unicode",
       "cache_file": "PMC3700575.xml",
       "fulltext_sha256": "2d37516f2c67d2bbe1f463942621bfbb213edd73a594e617f3bd5685a37f8c80",
       "body_characters": 25971,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:6819:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:6819:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "23731537",
@@ -21617,16 +21620,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3694281/unicode",
       "cache_file": "PMC3694281.xml",
       "fulltext_sha256": "2a98f51f8dcc24cf07371f7a54a5602733ae993576cad25f061dc52a1f8a67e8",
       "body_characters": 32945,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:18145:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:18145:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "23791841",
@@ -21683,16 +21689,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3773604/unicode",
       "cache_file": "PMC3773604.xml",
       "fulltext_sha256": "20d7f92912c361961dbe36e60d6addc67d728e3844d088a7bb376a991f8b28a6",
       "body_characters": 32729,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:4379:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:4379:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "23810378",
@@ -21753,17 +21762,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=3756455",
       "format": "jats",
       "cache_file": "PMC3756455-jats.xml",
       "fulltext_sha256": "fe8f433fb73eba8421c78324bb0a1d91126916165145a102be620e1944f90f47",
       "body_characters": 22646,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:3688:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:3688:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "23904686",
@@ -21910,16 +21922,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3868952/unicode",
       "cache_file": "PMC3868952.xml",
       "fulltext_sha256": "cdb2d97282780392ebe624c2b1e56ea6c2f1ab9966f4385ec0cd2b6319e83aca",
       "body_characters": 21652,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:4585:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:4585:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "23934111",
@@ -21934,16 +21949,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3773011/unicode",
       "cache_file": "PMC3773011.xml",
       "fulltext_sha256": "851392812391449dfec413d0a57fa744f49b6ecceb38c4cddeb47c52bcf09fcf",
       "body_characters": 34737,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:1917:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:1917:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "23936128",
@@ -21958,16 +21976,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3728344/unicode",
       "cache_file": "PMC3728344.xml",
       "fulltext_sha256": "a17eb1f4ec51855f6863b1340b50b6d045551f02df867f1fc76b06725d166cf7",
       "body_characters": 42808,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:25815:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:25815:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24029230",
@@ -22089,16 +22110,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3930011/unicode",
       "cache_file": "PMC3930011.xml",
       "fulltext_sha256": "5ede061838c64ef6b481fa81471c023657213e8bac35f52c762d99081274fd7b",
       "body_characters": 19769,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:8977:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:8977:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24144697",
@@ -22136,16 +22160,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3826640/unicode",
       "cache_file": "PMC3826640.xml",
       "fulltext_sha256": "3e1e93abbb299041a2819b3080ecb770b2c81379eb82ded5f8870c6322694c8e",
       "body_characters": 48510,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:18122:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:18122:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24165795",
@@ -22160,17 +22187,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4209962",
       "format": "jats",
       "cache_file": "PMC4209962-jats.xml",
       "fulltext_sha256": "6273f0ef3167051465f642390d4e014f2969777f2bfc3e0c679a2e97b43fec18",
       "body_characters": 41890,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:8977:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:8977:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24170322",
@@ -22185,16 +22215,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4670623/unicode",
       "cache_file": "PMC4670623.xml",
       "fulltext_sha256": "e229c5c9493ffef672c4934959b65ea958677647c75221d3314d6415990fa891",
       "body_characters": 48079,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11104:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11104:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24176758",
@@ -22209,16 +22242,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3902017/unicode",
       "cache_file": "PMC3902017.xml",
       "fulltext_sha256": "d87761589852cbd708fb1041054d9db8c011a61201175f351af9f1b27b82d752",
       "body_characters": 17216,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:6269:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:6269:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24207121",
@@ -22256,17 +22292,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4349522",
       "format": "jats",
       "cache_file": "PMC4349522-jats.xml",
       "fulltext_sha256": "4d49130ff593e47cab295f6bdd2bb21ecf8a34f9c1e6cf8eeba69a6a2ed5836f",
       "body_characters": 35844,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:8957:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:8957:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24266877",
@@ -22281,17 +22320,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=3963521",
       "format": "jats",
       "cache_file": "PMC3963521-jats.xml",
       "fulltext_sha256": "ec2263a34121fb1a2e093e40a8f0ff79c5571df2bd64446376434d4817b6f496",
       "body_characters": 19110,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:2553:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:2553:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24285683",
@@ -22415,17 +22457,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4352302",
       "format": "jats",
       "cache_file": "PMC4352302-jats.xml",
       "fulltext_sha256": "1c1612802c99635a787ec237eb70d46f9c2de9a67d6196d27c9302035e99b7ef",
       "body_characters": 28790,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:6742:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:6742:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24378232",
@@ -22551,17 +22596,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=3981653",
       "format": "jats",
       "cache_file": "PMC3981653-jats.xml",
       "fulltext_sha256": "44f9338b9da3b1271fbc3ed39f4fe3dd350141bec1449aaccc0c0b7ad3a8571d",
       "body_characters": 13882,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:2978:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:2978:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24614104",
@@ -22599,16 +22647,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4191552/unicode",
       "cache_file": "PMC4191552.xml",
       "fulltext_sha256": "53fea941cd0f904e1dd106b3f1bf10d933b4fb12a4eb4a13105806e79753bfa3",
       "body_characters": 15182,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:399:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:399:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24675553",
@@ -22623,17 +22674,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=3972785",
       "format": "jats",
       "cache_file": "PMC3972785-jats.xml",
       "fulltext_sha256": "f1256e06c9aa5b1eb9e784d1f7ade49466acf113172be47c6f97f36e2407f297",
       "body_characters": 20620,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:10414:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:10414:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24680889",
@@ -22671,16 +22725,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4266105/unicode",
       "cache_file": "PMC4266105.xml",
       "fulltext_sha256": "1988dc1c15497d73eae4f8267944947b5a05792649e85ed23e2f91c3404d2a94",
       "body_characters": 34724,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:17284:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:17284:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24700710",
@@ -22695,16 +22752,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4277879/unicode",
       "cache_file": "PMC4277879.xml",
       "fulltext_sha256": "bbac7786cca676f44c11266a8ef5fce4e4ed5fdf5e9043764b0931040ab41521",
       "body_characters": 16126,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:6269:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:6269:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24705253",
@@ -22719,17 +22779,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4004933",
       "format": "jats",
       "cache_file": "PMC4004933-jats.xml",
       "fulltext_sha256": "0c4a1365de28c2ead4400aecf961d3e4cc5353fc16ff507e4870adf2d625fff6",
       "body_characters": 32896,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:1583:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:1583:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24738973",
@@ -22809,16 +22872,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4230298/unicode",
       "cache_file": "PMC4230298.xml",
       "fulltext_sha256": "d8a359f4e684e21b712258e89090bae1004e716e0eb2d6a74a35b44fdc35bd5b",
       "body_characters": 15434,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11254:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11254:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24881494",
@@ -22833,17 +22899,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4125456",
       "format": "jats",
       "cache_file": "PMC4125456-jats.xml",
       "fulltext_sha256": "3dbcc6cfdea061549cef780a34966109f1ccd45371586120de1800dcc4c2e761",
       "body_characters": 17879,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:2711:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:2711:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "24886874",
@@ -22900,17 +22969,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4129488",
       "format": "jats",
       "cache_file": "PMC4129488-jats.xml",
       "fulltext_sha256": "e0913b49f34eaf6872907721365315f0a2390fdd190e2a08add9ca012bc7e50c",
       "body_characters": 14263,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11364:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11364:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25049390",
@@ -23147,17 +23219,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4177294",
       "format": "jats",
       "cache_file": "PMC4177294-jats.xml",
       "fulltext_sha256": "3ff081cff042b4a1032f8c1071af1e5b2c7205f7e35077346ff246d4d067b1b9",
       "body_characters": 32342,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:15573:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:15573:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25228304",
@@ -23172,17 +23247,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4215269",
       "format": "jats",
       "cache_file": "PMC4215269-jats.xml",
       "fulltext_sha256": "cb7be497fb24f0ea96d21ccf0c05ae7598112c848e9f50fd8937dcf7f7ab1fe8",
       "body_characters": 41608,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11631:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11631:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25232846",
@@ -23264,16 +23342,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4192121/unicode",
       "cache_file": "PMC4192121.xml",
       "fulltext_sha256": "52228d21bc3af72e448b9dae5c251e5f7c9310f992147529f8b3136fca94e547",
       "body_characters": 20281,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:18037:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:18037:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25326669",
@@ -23376,17 +23457,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4255440",
       "format": "jats",
       "cache_file": "PMC4255440-jats.xml",
       "fulltext_sha256": "1d5bf7a2f38360291863f4411e5e0df5eaca7c9629b23bde6e9b63a40d5ba01e",
       "body_characters": 23940,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:8941:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:8941:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25437880",
@@ -23468,16 +23552,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4323933/unicode",
       "cache_file": "PMC4323933.xml",
       "fulltext_sha256": "dda6770e558a91f70169a003c6e51f5c50118f387ab642338da3f9147fcd3c2b",
       "body_characters": 31454,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:2433:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:2433:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25512081",
@@ -23492,16 +23579,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4426222/unicode",
       "cache_file": "PMC4426222.xml",
       "fulltext_sha256": "6ec5828af96e359a36d974708a0e62ec5b6e279535f409dba53c683851cd4af0",
       "body_characters": 13462,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:9802:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:9802:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25644381",
@@ -23516,16 +23606,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5414091/unicode",
       "cache_file": "PMC5414091.xml",
       "fulltext_sha256": "637e3d00a27e3c908082c54bdf14e47d5aa5d802d41df7998825481ef4331a05",
       "body_characters": 61790,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11535:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11535:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25678562",
@@ -23607,16 +23700,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4375449/unicode",
       "cache_file": "PMC4375449.xml",
       "fulltext_sha256": "20882239008a667f762d0d91316d300f872f4508982a8a509f7983f1501f91a0",
       "body_characters": 18367,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:9154:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:9154:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25728776",
@@ -23738,16 +23834,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4439260/unicode",
       "cache_file": "PMC4439260.xml",
       "fulltext_sha256": "cab3ed3ae9c5e4e6bbb4c80cd458e4955d6499142f9a1d982db26c127382f8f2",
       "body_characters": 20328,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:1509:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:1509:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25817018",
@@ -23785,17 +23884,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4414891",
       "format": "jats",
       "cache_file": "PMC4414891-jats.xml",
       "fulltext_sha256": "efbadd736f3f051b29708c8362029538cb968fce2ad9a315c70390ac7d1479dd",
       "body_characters": 21460,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:8609:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:8609:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25851998",
@@ -23831,17 +23933,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4570552",
       "format": "jats",
       "cache_file": "PMC4570552-jats.xml",
       "fulltext_sha256": "a7a57ab1db7df4ae0882ed59fd8ab51024e8df702a638f8103df587d4d1863ab",
       "body_characters": 24542,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:6776:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:6776:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "25873734",
@@ -23942,17 +24047,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4760689",
       "format": "jats",
       "cache_file": "PMC4760689-jats.xml",
       "fulltext_sha256": "7819bf57f0bc6c1374b67134cfdf1bd54f1002a90f9e9ace6a6ea02e743da1ed",
       "body_characters": 15025,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:10023:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:10023:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26021864",
@@ -23967,17 +24075,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4448127",
       "format": "jats",
       "cache_file": "PMC4448127-jats.xml",
       "fulltext_sha256": "37b5422222a62dd0510a622be2d9fa376a0680c62e4ac379945a27f9b4460894",
       "body_characters": 25363,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:7785:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:7785:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26046368",
@@ -24036,16 +24147,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4550815/unicode",
       "cache_file": "PMC4550815.xml",
       "fulltext_sha256": "8984d2881406e986dc7b0cf5db7456d19a9054d1a739a49ae009d0dfc1992edc",
       "body_characters": 53900,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:25009:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:25009:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26097063",
@@ -24146,16 +24260,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4589226/unicode",
       "cache_file": "PMC4589226.xml",
       "fulltext_sha256": "3823fc560add206d9a85150366f6a4c8838884494461b9af352584c6c0c85c3f",
       "body_characters": 27667,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:5044:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:5044:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26178921",
@@ -24170,16 +24287,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5310715/unicode",
       "cache_file": "PMC5310715.xml",
       "fulltext_sha256": "a0457b4a268b918750365040eb9f1f70bd7ea52ecae8ff8e5770eaa6b14583e1",
       "body_characters": 29791,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:9955:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:9955:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26188271",
@@ -24303,17 +24423,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4529964",
       "format": "jats",
       "cache_file": "PMC4529964-jats.xml",
       "fulltext_sha256": "ae39428192befd9d68c6a28f04f9f7b3be88f8cfd3004e510394f5d33cc2e6cb",
       "body_characters": 34231,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:9817:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:9817:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26279204",
@@ -24416,16 +24539,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4612309/unicode",
       "cache_file": "PMC4612309.xml",
       "fulltext_sha256": "d5fbd81e5b7e50205d8346dda54b811046c88e65ef56419efefb589ad3bb70cd",
       "body_characters": 28926,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:16712:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:16712:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26482878",
@@ -24440,16 +24566,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4791094/unicode",
       "cache_file": "PMC4791094.xml",
       "fulltext_sha256": "a2b85c206bb3a01f317815ece4f76f09bea3ec01e7f4f2784f2de871e01db04b",
       "body_characters": 39997,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:8609:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:8609:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26520804",
@@ -24464,16 +24593,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4672724/unicode",
       "cache_file": "PMC4672724.xml",
       "fulltext_sha256": "b9f5ee7ce13835a19322bad51dce91a51988bdaaefabbe712fb9794bc95fc13b",
       "body_characters": 46852,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:8980:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:8980:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26539891",
@@ -24488,16 +24620,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4824012/unicode",
       "cache_file": "PMC4824012.xml",
       "fulltext_sha256": "5a3dad7ea484ef50671c5a27334ef66718d64d1425549f6f7321defebca99942",
       "body_characters": 46792,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11097:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11097:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26542245",
@@ -24512,16 +24647,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4635597/unicode",
       "cache_file": "PMC4635597.xml",
       "fulltext_sha256": "2cfc2617eae346b4a3fa5401578f64de3a07d8e1544374a85a0a80ef7499e131",
       "body_characters": 35875,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:3942:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:3942:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26543203",
@@ -24536,16 +24674,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4789813/unicode",
       "cache_file": "PMC4789813.xml",
       "fulltext_sha256": "c1ab0b7339759e8f57c312cdec4386f8bb04e409ff9af9a330c04ab689351677",
       "body_characters": 38843,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11191:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11191:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26551668",
@@ -24581,16 +24722,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5392243/unicode",
       "cache_file": "PMC5392243.xml",
       "fulltext_sha256": "502bc970690cc4fcd18310f8b860696b26a4225d250e5d6fa2698d128fbb2d79",
       "body_characters": 50877,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:7871:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:7871:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26581901",
@@ -24628,17 +24772,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4678794",
       "format": "jats",
       "cache_file": "PMC4678794-jats.xml",
       "fulltext_sha256": "25eb620079697ebdf56768fe943750d5144ec1dcce86bcdb53850104a8f0af45",
       "body_characters": 21939,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11535:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11535:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26638989",
@@ -24653,17 +24800,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4671015",
       "format": "jats",
       "cache_file": "PMC4671015-jats.xml",
       "fulltext_sha256": "b1469bb08284b44fb6e73e3552e429944ce7101563dc12a30417b604c3f4c602",
       "body_characters": 38404,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:5044:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:5044:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26642243",
@@ -24678,16 +24828,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4777523/unicode",
       "cache_file": "PMC4777523.xml",
       "fulltext_sha256": "11ae325ccb26c95abdf772944ddafaf165b4171536f143eed0f035ca3dcc1f56",
       "body_characters": 32495,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:11896:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:11896:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26681308",
@@ -24702,16 +24855,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4703882/unicode",
       "cache_file": "PMC4703882.xml",
       "fulltext_sha256": "62cab6a0988d027bcc0ae5203840be1347a16e5fd27d9ccb567a442e1b227bfa",
       "body_characters": 49983,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:9817:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:9817:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26691986",
@@ -24726,16 +24882,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4787620/unicode",
       "cache_file": "PMC4787620.xml",
       "fulltext_sha256": "a0c6b5a0fd7b17fdf35341cc23c9eb5e58c6b11e6c8195c141f08012e39b114c",
       "body_characters": 51524,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:2509:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:2509:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26694549",
@@ -24750,16 +24909,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4787201/unicode",
       "cache_file": "PMC4787201.xml",
       "fulltext_sha256": "5d025103e0913e0df5bf645de3a0ff1ce974acc48df830c6232bf60098741643",
       "body_characters": 57330,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:12692:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:12692:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26729423",
@@ -24774,16 +24936,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4949650/unicode",
       "cache_file": "PMC4949650.xml",
       "fulltext_sha256": "9d4a6fda3385e8a90e84c08adb70e96f630cc6a85d56f0f05560c41d98eb4cc1",
       "body_characters": 23922,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:4379:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:4379:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26733463",
@@ -24798,16 +24963,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4819622/unicode",
       "cache_file": "PMC4819622.xml",
       "fulltext_sha256": "47f46d4d25ad5085fa8d095bacc27a4ac556b33050a2ca8b9e31d4bd548711a1",
       "body_characters": 20573,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:7611:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:7611:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26740508",
@@ -24843,16 +25011,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4853543/unicode",
       "cache_file": "PMC4853543.xml",
       "fulltext_sha256": "4941fe25d6a6127c29eb522999c94d4b3a1d9503efb30c63089a6d5a7c09dea4",
       "body_characters": 24519,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:29529:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:29529:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26822784",
@@ -24909,16 +25080,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4811732/unicode",
       "cache_file": "PMC4811732.xml",
       "fulltext_sha256": "a1d7100717475bd5f0d525a5ddbd33bc9d3d59d32c11dbe675d1470c45db2fec",
       "body_characters": 40357,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:28958:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:28958:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26905694",
@@ -24933,17 +25107,20 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&retmode=xml&id=4770090",
       "format": "jats",
       "cache_file": "PMC4770090-jats.xml",
       "fulltext_sha256": "98b9bd21d2ab5ca83efc596c174a086a9f0bdc0f1f4effd142504516aaf5213e",
       "body_characters": 35678,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:3595:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:3595:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "26974950",
@@ -24958,16 +25135,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6689268/unicode",
       "cache_file": "PMC6689268.xml",
       "fulltext_sha256": "1e3c4c936ec6a75f1a6889d877b00de2db95b3e48e53d825a6b4767d99730a65",
       "body_characters": 59152,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:29010:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:29010:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "27056061",
@@ -25177,16 +25357,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4894975/unicode",
       "cache_file": "PMC4894975.xml",
       "fulltext_sha256": "9bcd272a4384bd3cda8cc7df651f14856b47ad3e6455ccfffba4bc658c542386",
       "body_characters": 51148,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:868:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:868:germline",
+          "decision": "supports_specific_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "27236920",
@@ -25224,16 +25407,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "candidate_claims_adjudicated",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4895769/unicode",
       "cache_file": "PMC4895769.xml",
       "fulltext_sha256": "1a8527aaea0ac57dcb6963f0a510417d5b4005b82bcc7d71d17aa342a9e01650",
       "body_characters": 27603,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:18078:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:18078:germline",
+          "decision": "not_supporting_report_claim"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "27259050",
@@ -25315,16 +25501,19 @@
           "part": "germline"
         }
       ],
-      "review_status": "pending_fulltext_review",
+      "review_status": "partial_claim_review",
       "access_status": "public_fulltext_downloaded",
       "access_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4927383/unicode",
       "cache_file": "PMC4927383.xml",
       "fulltext_sha256": "a75c8631101e29ec38c822bd9de882fda6317651d3a92a9a6be0b9ff3217e501",
       "body_characters": 50155,
-      "reviewed_claims": [],
-      "remaining_claim_record_ids": [
-        "gene:HGNC:1476:germline"
-      ]
+      "reviewed_claims": [
+        {
+          "record_id": "gene:HGNC:1476:germline",
+          "decision": "needs_supplementary_or_additional_review"
+        }
+      ],
+      "remaining_claim_record_ids": []
     },
     {
       "pmid": "27329731",

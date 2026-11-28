@@ -16,12 +16,36 @@ function el(tag, attrs = {}, text = '') {
 }
 const normalize = text => text.toLowerCase().normalize('NFKD').replace(/[–—−]/g, '-');
 const disease = id => state.diseaseMap.get(id);
+function configureTumorTypes(registry) {
+  // Keep source IDs in the evidence files; resolve reviewed equivalents to one
+  // shared record for display, search, filtering, and existing bookmarked URLs.
+  const originals = new Map(state.diseases.map(d => [d.id, d]));
+  const aliases = new Map();
+  const canonicalRecords = new Map();
+  for (const group of registry.groups) {
+    if (!originals.has(group.canonical_id)) throw new Error(`Unknown canonical tumor: ${group.canonical_id}`);
+    if (!group.member_ids.includes(group.canonical_id)) throw new Error('Canonical tumor must belong to its alias group');
+    const members = group.member_ids.map(id => {
+      if (!originals.has(id) || aliases.has(id)) throw new Error(`Invalid tumor alias: ${id}`);
+      aliases.set(id, group.canonical_id);
+      return originals.get(id);
+    });
+    canonicalRecords.set(group.canonical_id, {...originals.get(group.canonical_id), name: group.name,
+      synonyms: [...new Set(members.flatMap(d => [d.name, ...d.synonyms]))].filter(name => name !== group.name)});
+  }
+  state.diseaseMap = new Map([...originals].map(([id, record]) =>
+    [id, canonicalRecords.get(aliases.get(id)) || record]));
+  state.diseases = [...new Map([...state.diseaseMap.values()].map(d => [d.id, d])).values()];
+}
 function isWithin(id, ancestor) {
+  id = disease(id)?.id || id;
+  ancestor = disease(ancestor)?.id || ancestor;
   const seen = new Set();
   while (id && !seen.has(id)) {
     if (id === ancestor) return true;
     seen.add(id);
-    id = disease(id)?.parent_id;
+    const parent = disease(id)?.parent_id;
+    id = disease(parent)?.id || parent;
   }
   return false;
 }
@@ -32,7 +56,7 @@ function matchesDisease(id) {
 function variantInContext(variant) {
   if ($('category').value && disease(variant.disease_id)?.category !== $('category').value) return false;
   const selected = $('tumor').value;
-  if (!selected || selected === variant.disease_id) return true;
+  if (!selected || selected === disease(variant.disease_id)?.id) return true;
   // A broad selection may display a more specific comment, with its own context visible.
   // A specific selection may inherit a broader comment only if explicitly permitted.
   return isWithin(variant.disease_id, selected) ||
@@ -101,11 +125,15 @@ function populateTumors() {
     state.hotspots.forEach(h => h.disease_ids.forEach(id => somaticIDs.add(id)));
     state.fusions.forEach(f => f.disease_ids.forEach(id => somaticIDs.add(id)));
   }
+  for (const id of [...somaticIDs]) {
+    somaticIDs.delete(id);
+    somaticIDs.add(disease(id)?.id || id);
+  }
   // Include the ancestors of linked somatic diseases so broad categories remain selectable.
   for (const id of [...somaticIDs]) {
     let parent = disease(id)?.parent_id;
     const seen = new Set();
-    while (parent && !seen.has(parent)) { seen.add(parent); somaticIDs.add(parent); parent = disease(parent)?.parent_id; }
+    while (parent && !seen.has(parent)) { seen.add(parent); somaticIDs.add(disease(parent)?.id || parent); parent = disease(parent)?.parent_id; }
   }
   state.diseases.filter(d => somaticIDs.has(d.id) && (!$('category').value || d.category === $('category').value))
     .sort((a, b) => a.name.localeCompare(b.name))
@@ -397,7 +425,7 @@ async function renderHotspots(panel, gene) {
         for (const site of filtered) {
           const context = `${site.releases.join(', ').toUpperCase()} · ${site.kind.replaceAll('_', ' ')} · Source transcript: ${site.source_transcript || 'not supplied'}`;
           const card = draftCard(site, `${gene.symbol} ${site.residue} · ${site.alleles.length} observed alleles`, context);
-          const contexts = el('details'); contexts.append(el('summary', {}, 'View all reported tumor contexts'), el('p', {}, site.disease_ids.map(id => disease(id).name).join('; ') || 'not supplied')); card.append(contexts);
+          const contexts = el('details'); contexts.append(el('summary', {}, 'View all reported tumor contexts'), el('p', {}, [...new Set(site.disease_ids.map(id => disease(id).name))].join('; ') || 'not supplied')); card.append(contexts);
           if (site.alleles.length) {
             const alleles = el('details'); alleles.append(el('summary', {}, `Observed allele drafts (${site.alleles.length})`));
             alleles.append(el('p', {class: 'notice'}, 'These alleles were observed across the source cohorts. A tumor filter identifies sites reported in that context; it does not establish that every listed allele was seen in the selected tumor type.'));
@@ -478,7 +506,7 @@ async function loadJSON(path) {
 async function init() {
   try {
     const manifest = await loadJSON('manifest.json');
-    const [genes, variants, diseases, sources, hotspots, disruptions, fda, reportOverrides, fusionBundle, fusionSources, fusionDiseases] = await Promise.all([
+    const [genes, variants, diseases, sources, hotspots, disruptions, fda, reportOverrides, fusionBundle, fusionSources, fusionDiseases, tumorTypes] = await Promise.all([
       manifest.gene_index_file ? loadJSON(manifest.gene_index_file) : Promise.all(manifest.gene_files.map(loadJSON)), Promise.all(manifest.variant_files.map(loadJSON)),
       loadJSON(manifest.disease_file), loadJSON(manifest.source_file),
       manifest.hotspot_index_file ? loadJSON(manifest.hotspot_index_file) : [],
@@ -487,11 +515,12 @@ async function init() {
       manifest.report_comment_override_file ? loadJSON(manifest.report_comment_override_file) : {},
       manifest.fusion_browser_file ? loadJSON(manifest.fusion_browser_file) : {records: []},
       manifest.fusion_source_file ? loadJSON(manifest.fusion_source_file) : [],
-      manifest.fusion_disease_file ? loadJSON(manifest.fusion_disease_file) : []
+      manifest.fusion_disease_file ? loadJSON(manifest.fusion_disease_file) : [],
+      loadJSON('tumor-type-aliases.json')
     ]);
     Object.assign(state, {genes, variants, diseases: [...diseases, ...fusionDiseases.filter(d => !diseases.some(existing => existing.id === d.id))], sources, hotspots, disruptions, fda, reportOverrides, fusions: fusionBundle.records, fusionSources, fusionDiseases});
     state.hotspotMap = new Map(hotspots.map(h => [h.gene_id, h]));
-    state.diseaseMap = new Map(state.diseases.map(d => [d.id, d]));
+    configureTumorTypes(tumorTypes);
     state.searchMap = new Map(genes.map(g => [g.id, searchable(g)]));
     state.fusionSearchMap = new Map(state.fusions.map(f => [f.id, fusionNormalize([f.label, ...f.aliases, ...f.partners.map(p => p.symbol), ...f.tumor_contexts, ...f.sections.map(s => s.text)].join(' '))]));
     const params = new URLSearchParams(location.search);
@@ -499,7 +528,8 @@ async function init() {
     $('search').value = params.get('q') || '';
     if (Object.hasOwn(categories, params.get('category'))) $('category').value = params.get('category');
     populateTumors();
-    if ([...$('tumor').options].some(o => o.value === params.get('tumor'))) $('tumor').value = params.get('tumor');
+    const tumorID = disease(params.get('tumor'))?.id;
+    if ([...$('tumor').options].some(o => o.value === tumorID)) $('tumor').value = tumorID;
     const letter = params.get('letter') || '';
     state.letter = /^[A-Z]$/.test(letter) ? letter : '';
     state.selected = state.mode === 'fusions' ? (state.fusions.some(f => f.id === params.get('fusion')) ? params.get('fusion') : null) : (genes.some(g => g.id === params.get('gene')) ? params.get('gene') : null);

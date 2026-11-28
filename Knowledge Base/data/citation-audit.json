@@ -1196,8 +1196,13 @@
       "part": "germline",
       "pmid": "27231034",
       "source_id": "primary-pmid-27231034",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Hemizygous ATP6AP1 variants in male patients with immunodeficiency, hepatopathy and abnormal glycosylation support X-linked disease.",
+      "location": "Results passages 8-11, Table 1 and family genotyping.",
+      "pmcid": "PMC4894975",
+      "fulltext_sha256": "9bcd272a4384bd3cda8cc7df651f14856b47ad3e6455ccfffba4bc658c542386",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:18305:germline",
@@ -2255,8 +2260,13 @@
       "part": "germline",
       "pmid": "25814141",
       "source_id": "primary-pmid-25814141",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Two affected siblings carry homozygous CASP8 R248W with heterozygous parents and lymphoproliferative immune manifestations.",
+      "location": "Results passage 20; familial segregation and clinical findings.",
+      "pmcid": "PMC4439260",
+      "fulltext_sha256": "cab3ed3ae9c5e4e6bbb4c80cd458e4955d6499142f9a1d982db26c127382f8f2",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:1509:germline",
@@ -2415,8 +2425,13 @@
       "part": "germline",
       "pmid": "24705253",
       "source_id": "primary-pmid-24705253",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Twelve patients with MPPH carry confirmed de novo heterozygous CCND2 variants; mutant cyclin stabilization is demonstrated.",
+      "location": "Results body paragraph 2, Figure 1 and Table 1; functional experiments.",
+      "pmcid": "PMC4004933",
+      "fulltext_sha256": "0c4a1365de28c2ead4400aecf961d3e4cc5353fc16ff507e4870adf2d625fff6",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:1583:germline",
@@ -3773,8 +3788,13 @@
       "part": "germline",
       "pmid": "26691986",
       "source_id": "primary-pmid-26691986",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Heterozygous CTNNA1 variants segregate with butterfly-shaped macular dystrophy in families; supports the macular dystrophy subclaim, not cancer predisposition.",
+      "location": "Results passage 8 and Figure 1, families B and C.",
+      "pmcid": "PMC4787620",
+      "fulltext_sha256": "a0c6b5a0fd7b17fdf35341cc23c9eb5e58c6b11e6c8195c141f08012e39b114c",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:2514:germline",
@@ -4100,8 +4120,13 @@
       "part": "germline",
       "pmid": "24881494",
       "source_id": "primary-pmid-24881494",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "DCTN1 variants in three Perry syndrome families show impaired microtubule binding. Supports Perry syndrome, not ALS.",
+      "location": "Clinical family Results and body paragraphs 18 and 20; binding assay.",
+      "pmcid": "PMC4125456",
+      "fulltext_sha256": "3dbcc6cfdea061549cef780a34966109f1ccd45371586120de1800dcc4c2e761",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:2711:germline",
@@ -4573,8 +4598,13 @@
       "part": "germline",
       "pmid": "24614070",
       "source_id": "primary-pmid-24614070",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Thirteen de novo DNMT3A variants were identified in individuals with overgrowth; supports Tatton-Brown-Rahman syndrome, not the separate Heyn-Sproul-Jackson syndrome.",
+      "location": "Results body paragraphs 1-2; Table 1 and parental sequencing.",
+      "pmcid": "PMC3981653",
+      "fulltext_sha256": "44f9338b9da3b1271fbc3ed39f4fe3dd350141bec1449aaccc0c0b7ad3a8571d",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:2978:germline",
@@ -6336,8 +6366,13 @@
       "part": "germline",
       "pmid": "23812909",
       "source_id": "primary-pmid-23812909",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "FGFR1 variants identified in six patients with Hartsfield syndrome include de novo variants; supports Hartsfield subclaim.",
+      "location": "Primary WES and validation Results paragraph 0, Figure 1 and Table 1.",
+      "pmcid": "PMC3756455",
+      "fulltext_sha256": "fe8f433fb73eba8421c78324bb0a1d91126916165145a102be620e1944f90f47",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:3689:germline",
@@ -7135,8 +7170,13 @@
       "part": "germline",
       "pmid": "26729423",
       "source_id": "primary-pmid-26729423",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Heterozygous GNA11 Thr54Met with functional loss supports familial hypocalciuric hypercalcemia 2; not hypocalcemia.",
+      "location": "Results passage 19, Figure 2 and calcium signaling assays.",
+      "pmcid": "PMC4949650",
+      "fulltext_sha256": "9d4a6fda3385e8a90e84c08adb70e96f630cc6a85d56f0f05560c41d98eb4cc1",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:4379:germline",
@@ -7145,8 +7185,13 @@
       "part": "germline",
       "pmid": "23802516",
       "source_id": "primary-pmid-23802516",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "GNA11 Ile200 deletion segregates with familial hypocalciuric hypercalcemia across four generations; supports FHH2 subclaim.",
+      "location": "Results passage 27, Figure 1 and functional analyses.",
+      "pmcid": "PMC3773604",
+      "fulltext_sha256": "20d7f92912c361961dbe36e60d6addc67d728e3844d088a7bb376a991f8b28a6",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:4379:somatic",
@@ -7373,8 +7418,13 @@
       "part": "germline",
       "pmid": "23933818",
       "source_id": "primary-pmid-23933818",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "GRIN2A start-codon variant is identified in a family with Landau-Kleffner syndrome within the epilepsy-aphasia cohort.",
+      "location": "Primary family findings and Table 1, family B; variant segregation discussion.",
+      "pmcid": "PMC3868952",
+      "fulltext_sha256": "cdb2d97282780392ebe624c2b1e56ea6c2f1ab9966f4385ec0cd2b6319e83aca",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:4593:germline",
@@ -7741,8 +7791,13 @@
       "part": "germline",
       "pmid": "26173930",
       "source_id": "primary-pmid-26173930",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Two affected individuals have de novo HNRNPK variants and overlapping malformation/neurodevelopmental phenotypes, supporting Au-Kline syndrome.",
+      "location": "Primary trio sequencing passages 17-18 and clinical phenotyping.",
+      "pmcid": "PMC4589226",
+      "fulltext_sha256": "3823fc560add206d9a85150366f6a4c8838884494461b9af352584c6c0c85c3f",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:5044:germline",
@@ -8737,8 +8792,13 @@
       "part": "germline",
       "pmid": "24700710",
       "source_id": "primary-pmid-24700710",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "A de novo KCNJ8 C176S variant in a Cantú syndrome patient shows reduced ATP sensitivity in reconstituted channels.",
+      "location": "Primary patient sequencing passage 5 and functional Figures 1-2.",
+      "pmcid": "PMC4277879",
+      "fulltext_sha256": "bbac7786cca676f44c11266a8ef5fce4e4ed5fdf5e9043764b0931040ab41521",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:6269:somatic",
@@ -9718,8 +9778,13 @@
       "part": "germline",
       "pmid": "24362817",
       "source_id": "primary-pmid-24362817",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Germline LZTR1 variants occur in 16 of 20 SMARCB1-negative schwannomatosis probands, with tumor loss of the wild-type allele. Supports schwannomatosis, not Noonan syndrome.",
+      "location": "Results body paragraphs 2-3; Table 1 and tumor LOH.",
+      "pmcid": "PMC4352302",
+      "fulltext_sha256": "1c1612802c99635a787ec237eb70d46f9c2de9a67d6196d27c9302035e99b7ef",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:6742:germline",
@@ -9778,8 +9843,13 @@
       "part": "germline",
       "pmid": "25865493",
       "source_id": "primary-pmid-25865493",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "De novo heterozygous MAF missense variants in patients with cataract, deafness and neurodevelopmental features support Ayme-Gripp syndrome.",
+      "location": "Primary screening body paragraph 2 and Table 1; parental and multi-tissue genotyping.",
+      "pmcid": "PMC4570552",
+      "fulltext_sha256": "a7a57ab1db7df4ae0882ed59fd8ab51024e8df702a638f8103df587d4d1863ab",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:6408:germline",
@@ -9874,8 +9944,13 @@
       "part": "germline",
       "pmid": "23727036",
       "source_id": "primary-pmid-23727036",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Homozygous MALT1 mutation in two affected siblings, absent protein expression, and defective T-cell function support recessive MALT1 combined immunodeficiency.",
+      "location": "Results passages 35-38 and genetic/functional analyses; Figure 2 and complementation.",
+      "pmcid": "PMC3700575",
+      "fulltext_sha256": "2d37516f2c67d2bbe1f463942621bfbb213edd73a594e617f3bd5685a37f8c80",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:6819:somatic",
@@ -10823,8 +10898,13 @@
       "part": "germline",
       "pmid": "26542245",
       "source_id": "primary-pmid-26542245",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Two affected brothers are heterozygous for activating MTOR E1799K with megalencephaly and neurodevelopmental abnormalities; parental gonadal mosaicism is inferred.",
+      "location": "Clinical and family sequencing passage 15, Figure 2 and kinase functional experiments.",
+      "pmcid": "PMC4635597",
+      "fulltext_sha256": "2cfc2617eae346b4a3fa5401578f64de3a07d8e1544374a85a0a80ef7499e131",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:3942:somatic",
@@ -11082,8 +11162,13 @@
       "part": "germline",
       "pmid": "26733463",
       "source_id": "primary-pmid-26733463",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "A homozygous MYOD1 variant segregates in a family with fetal akinesia, neonatal respiratory failure and diaphragmatic abnormalities, supporting the recessive congenital myopathy subclaim.",
+      "location": "Results passages 25-26 and 32 onward; family mapping and clinical/autopsy findings.",
+      "pmcid": "PMC4819622",
+      "fulltext_sha256": "47f46d4d25ad5085fa8d095bacc27a4ac556b33050a2ca8b9e31d4bd548711a1",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:7611:germline",
@@ -11525,8 +11610,13 @@
       "part": "germline",
       "pmid": "26571461",
       "source_id": "primary-pmid-26571461",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "De novo or inherited NONO variants in males with intellectual disability support the X-linked syndrome association.",
+      "location": "Results passage 6 and Figure 1; patient and maternal genotyping.",
+      "pmcid": "PMC5392243",
+      "fulltext_sha256": "502bc970690cc4fcd18310f8b860696b26a4225d250e5d6fa2698d128fbb2d79",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:7871:germline",
@@ -12038,8 +12128,13 @@
       "part": "germline",
       "pmid": "26878725",
       "source_id": "primary-pmid-26878725",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Biallelic NUP93 variants in six families with steroid-resistant nephrotic syndrome support recessive nephrotic syndrome 12.",
+      "location": "Results passages 4-5, Table 1 and Figure 1; splice assay.",
+      "pmcid": "PMC4811732",
+      "fulltext_sha256": "a1d7100717475bd5f0d525a5ddbd33bc9d3d59d32c11dbe675d1470c45db2fec",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:8071:somatic",
@@ -12278,8 +12373,13 @@
       "part": "germline",
       "pmid": "25848748",
       "source_id": "primary-pmid-25848748",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Rare damaging PARN variants in familial pulmonary fibrosis probands, with telomere shortening, support the pulmonary fibrosis subclaim; not recessive dyskeratosis congenita.",
+      "location": "Primary exome and family analyses body paragraphs 2-3, Tables 1-2 and Figure 2.",
+      "pmcid": "PMC4414891",
+      "fulltext_sha256": "efbadd736f3f051b29708c8362029538cb968fce2ad9a315c70390ac7d1479dd",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:8609:germline",
@@ -12746,8 +12846,13 @@
       "part": "germline",
       "pmid": "24259288",
       "source_id": "primary-pmid-24259288",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "An X-linked PIGA in-frame deletion segregates with neurodevelopmental/epileptic disease in a family, with recombination excluding linked candidate variants. Supports the broad PIGA neurodevelopmental association.",
+      "location": "Results body paragraphs 19-20; pedigree and segregation.",
+      "pmcid": "PMC4349522",
+      "fulltext_sha256": "4d49130ff593e47cab295f6bdd2bb21ecf8a34f9c1e6cf8eeba69a6a2ed5836f",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:8975:germline",
@@ -12806,8 +12911,13 @@
       "part": "germline",
       "pmid": "24136356",
       "source_id": "primary-pmid-24136356",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Heterozygous PIK3CD E1021K segregates with immunodeficiency in unrelated families; supports dominant activated PI3K-delta syndrome, not recessive immunodeficiency.",
+      "location": "Primary sequencing and segregation passage 3, Figure 1; functional kinase studies.",
+      "pmcid": "PMC3930011",
+      "fulltext_sha256": "5ede061838c64ef6b481fa81471c023657213e8bac35f52c762d99081274fd7b",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:8977:germline",
@@ -12816,8 +12926,13 @@
       "part": "germline",
       "pmid": "24165795",
       "source_id": "primary-pmid-24165795",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Heterozygous activating PIK3CD variants in affected families support dominant combined immunodeficiency, not the separate recessive association.",
+      "location": "Primary Results body paragraph 6, Figure 2 and cellular functional assays.",
+      "pmcid": "PMC4209962",
+      "fulltext_sha256": "6273f0ef3167051465f642390d4e014f2969777f2bfc3e0c679a2e97b43fec18",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:8979:germline",
@@ -12881,8 +12996,13 @@
       "part": "germline",
       "pmid": "26520804",
       "source_id": "primary-pmid-26520804",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Twelve patients had constitutional PIK3R2 variants in a polymicrogyria/overgrowth cohort; eight additional mosaic cases are distinct. Supports constitutional cerebral malformation association.",
+      "location": "Results passages 35-38, Tables 2-3 and multi-tissue allele analysis.",
+      "pmcid": "PMC4672724",
+      "fulltext_sha256": "b9f5ee7ce13835a19322bad51dce91a51988bdaaefabbe712fb9794bc95fc13b",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:8986:somatic",
@@ -13124,8 +13244,13 @@
       "part": "germline",
       "pmid": "25728773",
       "source_id": "primary-pmid-25728773",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Biallelic PNKP variants in 11 affected individuals from eight families support recessive ataxia with oculomotor apraxia type 4.",
+      "location": "Primary exome and clinical findings passages 7-8, Tables 1-2 and Figure 1.",
+      "pmcid": "PMC4375449",
+      "fulltext_sha256": "20882239008a667f762d0d91316d300f872f4508982a8a509f7983f1501f91a0",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:23492:somatic",
@@ -13298,8 +13423,13 @@
       "part": "germline",
       "pmid": "24686849",
       "source_id": "primary-pmid-24686849",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "POT1 variants segregate in familial melanoma pedigrees and are enriched versus controls, supporting the tumor predisposition association through melanoma.",
+      "location": "Primary family sequencing and control analyses, passages 3-4, Figure 1 and supplementary tables.",
+      "pmcid": "PMC4266105",
+      "fulltext_sha256": "1988dc1c15497d73eae4f8267944947b5a05792649e85ed23e2f91c3404d2a94",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:17284:germline",
@@ -14098,8 +14228,13 @@
       "part": "germline",
       "pmid": "25512081",
       "source_id": "primary-pmid-25512081",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Homozygous RAC2 W56X in two siblings with combined hypogammaglobulinemia and immunodeficiency supports the recessive subclaim; not the separate dominant disorder.",
+      "location": "Primary genetic findings passage 7, Figure 1 and cellular studies.",
+      "pmcid": "PMC4426222",
+      "fulltext_sha256": "6ec5828af96e359a36d974708a0e62ec5b6e279535f409dba53c683851cd4af0",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:9802:germline",
@@ -14188,8 +14323,13 @@
       "part": "germline",
       "pmid": "26253028",
       "source_id": "primary-pmid-26253028",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "A heterozygous dominant RAD51 T131P variant in a patient with Fanconi anemia-like abnormalities and crosslink repair defect supports FANCR.",
+      "location": "Primary patient-cell functional results; discussion body paragraph 23; repair experiments.",
+      "pmcid": "PMC4529964",
+      "fulltext_sha256": "ae39428192befd9d68c6a28f04f9f7b3be88f8cfd3004e510394f5d33cc2e6cb",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:9817:germline",
@@ -14198,8 +14338,13 @@
       "part": "germline",
       "pmid": "26681308",
       "source_id": "primary-pmid-26681308",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "A de novo heterozygous dominant-negative RAD51 mutation with patient-cell crosslink sensitivity supports Fanconi anemia R.",
+      "location": "Primary patient sequencing and functional assays, passage 6 and subsequent Results.",
+      "pmcid": "PMC4703882",
+      "fulltext_sha256": "62cab6a0988d027bcc0ae5203840be1347a16e5fd27d9ccb567a442e1b227bfa",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:9820:germline",
@@ -14840,8 +14985,13 @@
       "part": "germline",
       "pmid": "25959749",
       "source_id": "primary-pmid-25959749",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Two patients with RIT1 variants and Noonan features plus functional signaling assays support the Noonan association.",
+      "location": "Primary case and functional analyses body paragraphs 16 and 18; Table 1.",
+      "pmcid": "PMC4760689",
+      "fulltext_sha256": "7819bf57f0bc6c1374b67134cfdf1bd54f1002a90f9e9ace6a6ea02e743da1ed",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:18505:germline",
@@ -14958,8 +15108,13 @@
       "part": "germline",
       "pmid": "24675553",
       "source_id": "primary-pmid-24675553",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Two DBA patients carry heterozygous RPS26 splice-site or nonsense mutations. Supports RPS26-associated Diamond-Blackfan anemia.",
+      "location": "Results body paragraph 14, Figure 1 and Table 1.",
+      "pmcid": "PMC3972785",
+      "fulltext_sha256": "f1256e06c9aa5b1eb9e784d1f7ade49466acf113172be47c6f97f36e2407f297",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:17271:germline",
@@ -15523,8 +15678,13 @@
       "part": "germline",
       "pmid": "25425243",
       "source_id": "primary-pmid-25425243",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Homozygous SERPINA1 null alleles in patients with undetectable or severely reduced AAT and emphysema support recessive AAT deficiency.",
+      "location": "Results Table 2, Q0brescia and Q0lampedusa homozygotes; sequencing Figure 1.",
+      "pmcid": "PMC4255440",
+      "fulltext_sha256": "1d5bf7a2f38360291863f4411e5e0df5eaca7c9629b23bde6e9b63a40d5ba01e",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:8583:germline",
@@ -15573,8 +15733,13 @@
       "part": "germline",
       "pmid": "25217958",
       "source_id": "primary-pmid-25217958",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "A de novo deletion and truncating SETBP1 variants in patients with intellectual and language impairment support the neurodevelopmental disorder subclaim, not Schinzel-Giedion syndrome.",
+      "location": "Results body paragraph 9, Figure 2 and Tables 3-4.",
+      "pmcid": "PMC4177294",
+      "fulltext_sha256": "3ff081cff042b4a1032f8c1071af1e5b2c7205f7e35077346ff246d4d067b1b9",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:15573:germline",
@@ -16739,8 +16904,13 @@
       "part": "germline",
       "pmid": "26543203",
       "source_id": "primary-pmid-26543203",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Three patients with de novo SOX11 mutations and additional deletion cases show overlapping neurodevelopmental phenotypes.",
+      "location": "Primary mutation Results and clinical comparisons; passage 12, Figure 3.",
+      "pmcid": "PMC4789813",
+      "fulltext_sha256": "c1ab0b7339759e8f57c312cdec4386f8bb04e409ff9af9a330c04ab689351677",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:18122:germline",
@@ -17154,8 +17324,13 @@
       "part": "germline",
       "pmid": "25038750",
       "source_id": "primary-pmid-25038750",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Five patients with early-onset autoimmunity carry de novo heterozygous STAT3 variants; supports autoimmune disease, not hyper-IgE syndrome.",
+      "location": "Results body paragraphs 2-3 and functional assays.",
+      "pmcid": "PMC4129488",
+      "fulltext_sha256": "e0913b49f34eaf6872907721365315f0a2390fdd190e2a08add9ca012bc7e50c",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:11364:germline",
@@ -17395,8 +17570,13 @@
       "part": "germline",
       "pmid": "26637982",
       "source_id": "primary-pmid-26637982",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Fourteen affected individuals from eleven families with TAF1 variants/duplications present a recognizable neurodevelopmental syndrome; supports the X-linked intellectual disability subclaim, not dystonia-parkinsonism.",
+      "location": "Primary cohort and phenotype Results body paragraph 2 and subsequent family tables.",
+      "pmcid": "PMC4678794",
+      "fulltext_sha256": "25eb620079697ebdf56768fe943750d5144ec1dcce86bcdb53850104a8f0af45",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:11535:germline",
@@ -17528,8 +17708,13 @@
       "part": "germline",
       "pmid": "26769062",
       "source_id": "primary-pmid-26769062",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Recurrent TBL1XR1 mutation was found in six Pierpont syndrome patients, including de novo cases.",
+      "location": "Primary exome and Sanger analysis passage 11 and patient results.",
+      "pmcid": "PMC4853543",
+      "fulltext_sha256": "4941fe25d6a6127c29eb522999c94d4b3a1d9503efb30c63089a6d5a7c09dea4",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:29529:germline",
@@ -17601,8 +17786,13 @@
       "part": "germline",
       "pmid": "25228304",
       "source_id": "primary-pmid-25228304",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "De novo TCF20 variants include a frameshift in a patient with autism and intellectual disability, supporting the neurodevelopmental association.",
+      "location": "Results and discussion body paragraphs 38 and 43; family and transcript analyses.",
+      "pmcid": "PMC4215269",
+      "fulltext_sha256": "cb7be497fb24f0ea96d21ccf0c05ae7598112c848e9f50fd8937dcf7f7ab1fe8",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:11631:germline",
@@ -18257,8 +18447,13 @@
       "part": "germline",
       "pmid": "26642243",
       "source_id": "primary-pmid-26642243",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Heterozygous truncating TNFAIP3 variants segregate with early-onset Behcet-like autoinflammation across multiple families.",
+      "location": "Primary family sequencing passages 3-5, Figure 1 and Table 1.",
+      "pmcid": "PMC4777523",
+      "fulltext_sha256": "11ae325ccb26c95abdf772944ddafaf165b4171536f143eed0f035ca3dcc1f56",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:11986:somatic",
@@ -18808,8 +19003,13 @@
       "part": "germline",
       "pmid": "26085575",
       "source_id": "primary-pmid-26085575",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "Biallelic UBE2T structural variants and patient fibroblast DNA crosslink sensitivity support recessive Fanconi anemia T.",
+      "location": "Results passages 7-12 and subsequent mutation/complementation findings; Figure 1 and Table 1.",
+      "pmcid": "PMC4550815",
+      "fulltext_sha256": "8984d2881406e986dc7b0cf5db7456d19a9054d1a739a49ae009d0dfc1992edc",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:16806:germline",
@@ -19101,8 +19301,13 @@
       "part": "germline",
       "pmid": "26694549",
       "source_id": "primary-pmid-26694549",
-      "status": "removed_unconfirmed_specific_support",
-      "scope": "Abstract gene mention, assertion bibliography, or cohort membership alone is insufficient. Specific report-claim support was not confirmed; this is not a finding that the article is false or irrelevant to all uses."
+      "status": "retained_with_specific_support",
+      "kind": "primary_fulltext_claim_review",
+      "scope": "One cataract case has a de novo VIM variant in the targeted sequencing cohort, supporting dominant congenital cataract association.",
+      "location": "Results passage 23 and Table 1; family-level segregation.",
+      "pmcid": "PMC4787201",
+      "fulltext_sha256": "5d025103e0913e0df5bf645de3a0ff1ce974acc48df830c6232bf60098741643",
+      "reviewed_on": "2026-11-27"
     },
     {
       "record_id": "gene:HGNC:25754:somatic",
@@ -114903,7 +115108,18 @@
     },
     "gene:HGNC:868:germline": {
       "text_sha256": "ce30364fae3e53223d1df8baee63d9fd236139f5796e181777d200d11c0df31b",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "27231034",
+          "source_id": "primary-pmid-27231034",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Hemizygous ATP6AP1 variants in male patients with immunodeficiency, hepatopathy and abnormal glycosylation support X-linked disease.",
+          "location": "Results passages 8-11, Table 1 and family genotyping.",
+          "pmcid": "PMC4894975",
+          "fulltext_sha256": "9bcd272a4384bd3cda8cc7df651f14856b47ad3e6455ccfffba4bc658c542386",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:18305:function": {
       "text_sha256": "ba207c0d2b98ed59c832dfadfe39d6cab913fa55c245bad459862cef685b405b",
@@ -115639,7 +115855,18 @@
     },
     "gene:HGNC:1509:germline": {
       "text_sha256": "ffe13d6837d70226da77a3a719648fcb6acfb91eff93c39c6fa244342631d1bf",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "25814141",
+          "source_id": "primary-pmid-25814141",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Two affected siblings carry homozygous CASP8 R248W with heterozygous parents and lymphoproliferative immune manifestations.",
+          "location": "Results passage 20; familial segregation and clinical findings.",
+          "pmcid": "PMC4439260",
+          "fulltext_sha256": "cab3ed3ae9c5e4e6bbb4c80cd458e4955d6499142f9a1d982db26c127382f8f2",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:1509:somatic": {
       "text_sha256": "960deaefd4e433f34dd3b6d2e5f3a74f452eb861e30b343e6958aa233e785bef",
@@ -115723,7 +115950,18 @@
     },
     "gene:HGNC:1583:germline": {
       "text_sha256": "113d598889a1d5921807749b75b4a7b795ddb0adef75f6628866bdc70e4fbf72",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24705253",
+          "source_id": "primary-pmid-24705253",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Twelve patients with MPPH carry confirmed de novo heterozygous CCND2 variants; mutant cyclin stabilization is demonstrated.",
+          "location": "Results body paragraph 2, Figure 1 and Table 1; functional experiments.",
+          "pmcid": "PMC4004933",
+          "fulltext_sha256": "0c4a1365de28c2ead4400aecf961d3e4cc5353fc16ff507e4870adf2d625fff6",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:1583:somatic": {
       "text_sha256": "8a68517aa3d27bb8270180da300fd2c84c578aa59b2bb95f7170312d5d679814",
@@ -116775,7 +117013,18 @@
     },
     "gene:HGNC:2509:germline": {
       "text_sha256": "517259f6d8f6a519b4ac7139024f584479f300d680071db1109dd8a3aea48621",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26691986",
+          "source_id": "primary-pmid-26691986",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Heterozygous CTNNA1 variants segregate with butterfly-shaped macular dystrophy in families; supports the macular dystrophy subclaim, not cancer predisposition.",
+          "location": "Results passage 8 and Figure 1, families B and C.",
+          "pmcid": "PMC4787620",
+          "fulltext_sha256": "a0c6b5a0fd7b17fdf35341cc23c9eb5e58c6b11e6c8195c141f08012e39b114c",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:2514:function": {
       "text_sha256": "0b22c4de2c594be247c7739e14d22ec1dc5212e0a21c726616aff292300fd82d",
@@ -116983,6 +117232,16 @@
           "location": "Primary family sequencing/linkage findings, passage 5, Figure 1 and Supplementary Tables 2-3.",
           "pmcid": "PMC2813485",
           "fulltext_sha256": "2528d92fa4886b4e56731b318e7dc90e02a8de7102e47dd9d6a8a28537be8489",
+          "reviewed_on": "2026-11-27"
+        },
+        {
+          "pmid": "24881494",
+          "source_id": "primary-pmid-24881494",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "DCTN1 variants in three Perry syndrome families show impaired microtubule binding. Supports Perry syndrome, not ALS.",
+          "location": "Clinical family Results and body paragraphs 18 and 20; binding assay.",
+          "pmcid": "PMC4125456",
+          "fulltext_sha256": "3dbcc6cfdea061549cef780a34966109f1ccd45371586120de1800dcc4c2e761",
           "reviewed_on": "2026-11-27"
         }
       ]
@@ -117281,7 +117540,18 @@
     },
     "gene:HGNC:2978:germline": {
       "text_sha256": "fdd227dc295429b3c2740e21a0d076de2fcd42799c8cbc73e7143e83a3f6ee22",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24614070",
+          "source_id": "primary-pmid-24614070",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Thirteen de novo DNMT3A variants were identified in individuals with overgrowth; supports Tatton-Brown-Rahman syndrome, not the separate Heyn-Sproul-Jackson syndrome.",
+          "location": "Results body paragraphs 1-2; Table 1 and parental sequencing.",
+          "pmcid": "PMC3981653",
+          "fulltext_sha256": "44f9338b9da3b1271fbc3ed39f4fe3dd350141bec1449aaccc0c0b7ad3a8571d",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:2978:somatic": {
       "text_sha256": "218f89c1581e85fcb0cc1c0db59e772888c527d8d81ca933e2091c73fb964d42",
@@ -118345,7 +118615,18 @@
     },
     "gene:HGNC:3688:germline": {
       "text_sha256": "3a865e274a204610561211e535bee89ba9930ca7237b4c03d22f127c3ac997dc",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "23812909",
+          "source_id": "primary-pmid-23812909",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "FGFR1 variants identified in six patients with Hartsfield syndrome include de novo variants; supports Hartsfield subclaim.",
+          "location": "Primary WES and validation Results paragraph 0, Figure 1 and Table 1.",
+          "pmcid": "PMC3756455",
+          "fulltext_sha256": "fe8f433fb73eba8421c78324bb0a1d91126916165145a102be620e1944f90f47",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:3688:mosaic": {
       "text_sha256": "93dcaeaf754d2775da51d786c22ebc85f2b6811b05c6c95d3e1c533727410cd7",
@@ -118889,7 +119170,28 @@
     },
     "gene:HGNC:4379:germline": {
       "text_sha256": "89443ce7274c770092aa623173f4305d2f50d866a2e404f875c291847f24b313",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "23802516",
+          "source_id": "primary-pmid-23802516",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "GNA11 Ile200 deletion segregates with familial hypocalciuric hypercalcemia across four generations; supports FHH2 subclaim.",
+          "location": "Results passage 27, Figure 1 and functional analyses.",
+          "pmcid": "PMC3773604",
+          "fulltext_sha256": "20d7f92912c361961dbe36e60d6addc67d728e3844d088a7bb376a991f8b28a6",
+          "reviewed_on": "2026-11-27"
+        },
+        {
+          "pmid": "26729423",
+          "source_id": "primary-pmid-26729423",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Heterozygous GNA11 Thr54Met with functional loss supports familial hypocalciuric hypercalcemia 2; not hypocalcemia.",
+          "location": "Results passage 19, Figure 2 and calcium signaling assays.",
+          "pmcid": "PMC4949650",
+          "fulltext_sha256": "9d4a6fda3385e8a90e84c08adb70e96f630cc6a85d56f0f05560c41d98eb4cc1",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:4379:somatic": {
       "text_sha256": "07c178fbd43326b379a9455a1366fee5684ce92667e15638378d0f6d6cf38ae6",
@@ -119021,7 +119323,18 @@
     },
     "gene:HGNC:4585:germline": {
       "text_sha256": "3a5e3436fc4086b335099a384c63a0876bf5f219b3dddc4e78fc29511b640d97",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "23933818",
+          "source_id": "primary-pmid-23933818",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "GRIN2A start-codon variant is identified in a family with Landau-Kleffner syndrome within the epilepsy-aphasia cohort.",
+          "location": "Primary family findings and Table 1, family B; variant segregation discussion.",
+          "pmcid": "PMC3868952",
+          "fulltext_sha256": "cdb2d97282780392ebe624c2b1e56ea6c2f1ab9966f4385ec0cd2b6319e83aca",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:4585:somatic": {
       "text_sha256": "8c3552ab7683ca283c73745ec77cb7cdc81df7b787e1f0568b421a52c8d946df",
@@ -119399,7 +119712,18 @@
     },
     "gene:HGNC:5044:germline": {
       "text_sha256": "a46b948f8253aa8dba036ebfa519b023432a587449b36b5491b34cde0b190f8c",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26173930",
+          "source_id": "primary-pmid-26173930",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Two affected individuals have de novo HNRNPK variants and overlapping malformation/neurodevelopmental phenotypes, supporting Au-Kline syndrome.",
+          "location": "Primary trio sequencing passages 17-18 and clinical phenotyping.",
+          "pmcid": "PMC4589226",
+          "fulltext_sha256": "3823fc560add206d9a85150366f6a4c8838884494461b9af352584c6c0c85c3f",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:19884:function": {
       "text_sha256": "284414bfaad724ebb32b8e2a0794ef24e339e22775a6e734789894efaa76582b",
@@ -120082,7 +120406,18 @@
     },
     "gene:HGNC:6269:germline": {
       "text_sha256": "f105d360f4f8cac96806866610af22737e4c4dced2a196e4f02a9e0838267994",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24700710",
+          "source_id": "primary-pmid-24700710",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "A de novo KCNJ8 C176S variant in a Cantú syndrome patient shows reduced ATP sensitivity in reconstituted channels.",
+          "location": "Primary patient sequencing passage 5 and functional Figures 1-2.",
+          "pmcid": "PMC4277879",
+          "fulltext_sha256": "bbac7786cca676f44c11266a8ef5fce4e4ed5fdf5e9043764b0931040ab41521",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:6269:somatic": {
       "text_sha256": "59edf88f5146bb4ece1d0f4d27a3e6b50b5dd346c8b6452d5fa68890b9980369",
@@ -120697,7 +121032,18 @@
     },
     "gene:HGNC:6742:germline": {
       "text_sha256": "8f2853f89a77a18cc9a84d738deafd37df23733772ee04e9f7a34a70941f8012",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24362817",
+          "source_id": "primary-pmid-24362817",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Germline LZTR1 variants occur in 16 of 20 SMARCB1-negative schwannomatosis probands, with tumor loss of the wild-type allele. Supports schwannomatosis, not Noonan syndrome.",
+          "location": "Results body paragraphs 2-3; Table 1 and tumor LOH.",
+          "pmcid": "PMC4352302",
+          "fulltext_sha256": "1c1612802c99635a787ec237eb70d46f9c2de9a67d6196d27c9302035e99b7ef",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:6742:somatic": {
       "text_sha256": "ce3404db0b4d04f1ce1fef105a2cda5d10a44879bba87d1c2df80fbfacee6efe",
@@ -120713,7 +121059,18 @@
     },
     "gene:HGNC:6776:germline": {
       "text_sha256": "c984f52e40b781ce33edfc28e2aa1eda0073e73c86918b0890b333e50b0c7da5",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "25865493",
+          "source_id": "primary-pmid-25865493",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "De novo heterozygous MAF missense variants in patients with cataract, deafness and neurodevelopmental features support Ayme-Gripp syndrome.",
+          "location": "Primary screening body paragraph 2 and Table 1; parental and multi-tissue genotyping.",
+          "pmcid": "PMC4570552",
+          "fulltext_sha256": "a7a57ab1db7df4ae0882ed59fd8ab51024e8df702a638f8103df587d4d1863ab",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:6776:somatic": {
       "text_sha256": "5823b28ccdac83c33345ba6254e16a9b38e01ba74db979526c9fc844adad42b7",
@@ -120791,7 +121148,18 @@
     },
     "gene:HGNC:6819:germline": {
       "text_sha256": "f077b9ee32b6d5e4716eafa7999e3e960b15941317a7d085610608553950ce56",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "23727036",
+          "source_id": "primary-pmid-23727036",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Homozygous MALT1 mutation in two affected siblings, absent protein expression, and defective T-cell function support recessive MALT1 combined immunodeficiency.",
+          "location": "Results passages 35-38 and genetic/functional analyses; Figure 2 and complementation.",
+          "pmcid": "PMC3700575",
+          "fulltext_sha256": "2d37516f2c67d2bbe1f463942621bfbb213edd73a594e617f3bd5685a37f8c80",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:6819:somatic": {
       "text_sha256": "98f4fcb99670f3602345ad38956a0d1fd0f02bab1f801a8a97e30b96b3d03eaa",
@@ -121498,7 +121866,18 @@
     },
     "gene:HGNC:3942:germline": {
       "text_sha256": "5cbc8d0ac514a0d7438d537c282ef7c4cc346eba2bd81540462c35e401aba042",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26542245",
+          "source_id": "primary-pmid-26542245",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Two affected brothers are heterozygous for activating MTOR E1799K with megalencephaly and neurodevelopmental abnormalities; parental gonadal mosaicism is inferred.",
+          "location": "Clinical and family sequencing passage 15, Figure 2 and kinase functional experiments.",
+          "pmcid": "PMC4635597",
+          "fulltext_sha256": "2cfc2617eae346b4a3fa5401578f64de3a07d8e1544374a85a0a80ef7499e131",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:3942:somatic": {
       "text_sha256": "9609530a4a898e1e55247aac9bbd52c034d0c7debc646028394cc06a13b00775",
@@ -121713,7 +122092,18 @@
     },
     "gene:HGNC:7611:germline": {
       "text_sha256": "5cea750e73b4734ce318a25f55078a9a815ef952a90f01d19dc46a4fbebd810b",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26733463",
+          "source_id": "primary-pmid-26733463",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "A homozygous MYOD1 variant segregates in a family with fetal akinesia, neonatal respiratory failure and diaphragmatic abnormalities, supporting the recessive congenital myopathy subclaim.",
+          "location": "Results passages 25-26 and 32 onward; family mapping and clinical/autopsy findings.",
+          "pmcid": "PMC4819622",
+          "fulltext_sha256": "47f46d4d25ad5085fa8d095bacc27a4ac556b33050a2ca8b9e31d4bd548711a1",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:7611:somatic": {
       "text_sha256": "cc63e4b3bcd90892e7192d08a8dda8d8bf0a9be9842403257988dc2072f46c7b",
@@ -122058,7 +122448,18 @@
     },
     "gene:HGNC:7871:germline": {
       "text_sha256": "760fd20e80f9e46ee1223fb18ffca7fc5bac31eb992873595c068382cc0fe229",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26571461",
+          "source_id": "primary-pmid-26571461",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "De novo or inherited NONO variants in males with intellectual disability support the X-linked syndrome association.",
+          "location": "Results passage 6 and Figure 1; patient and maternal genotyping.",
+          "pmcid": "PMC5392243",
+          "fulltext_sha256": "502bc970690cc4fcd18310f8b860696b26a4225d250e5d6fa2698d128fbb2d79",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:7871:somatic": {
       "text_sha256": "802655a0bb55151ef51af9abcd778296868272a552ef88cda9d0750d41d13599",
@@ -122348,7 +122749,18 @@
     },
     "gene:HGNC:28958:germline": {
       "text_sha256": "423f24a47d2158920353c3775823bd819b9742cb4cc586e586a07506cebf6bbb",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26878725",
+          "source_id": "primary-pmid-26878725",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Biallelic NUP93 variants in six families with steroid-resistant nephrotic syndrome support recessive nephrotic syndrome 12.",
+          "location": "Results passages 4-5, Table 1 and Figure 1; splice assay.",
+          "pmcid": "PMC4811732",
+          "fulltext_sha256": "a1d7100717475bd5f0d525a5ddbd33bc9d3d59d32c11dbe675d1470c45db2fec",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:8068:function": {
       "text_sha256": "09448640ffcbd1bb9da586aa7b8b6356cac9e8ebe94ee5169561991a62659d0a",
@@ -122568,7 +122980,18 @@
     },
     "gene:HGNC:8609:germline": {
       "text_sha256": "9b69f08893bfe05f0640994b31969000a3b630907cdd158428bdd80498250fb4",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "25848748",
+          "source_id": "primary-pmid-25848748",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Rare damaging PARN variants in familial pulmonary fibrosis probands, with telomere shortening, support the pulmonary fibrosis subclaim; not recessive dyskeratosis congenita.",
+          "location": "Primary exome and family analyses body paragraphs 2-3, Tables 1-2 and Figure 2.",
+          "pmcid": "PMC4414891",
+          "fulltext_sha256": "efbadd736f3f051b29708c8362029538cb968fce2ad9a315c70390ac7d1479dd",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:270:function": {
       "text_sha256": "3b8905c32903d8ed81864ee033734848a16a9894f8342f0f768dc7579a35bf66",
@@ -122922,7 +123345,18 @@
     },
     "gene:HGNC:8957:germline": {
       "text_sha256": "e6ac96def13b5e6d30ec130827ba4598bd1d21f6100c3ba17dbbb30ea941467d",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24259288",
+          "source_id": "primary-pmid-24259288",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "An X-linked PIGA in-frame deletion segregates with neurodevelopmental/epileptic disease in a family, with recombination excluding linked candidate variants. Supports the broad PIGA neurodevelopmental association.",
+          "location": "Results body paragraphs 19-20; pedigree and segregation.",
+          "pmcid": "PMC4349522",
+          "fulltext_sha256": "4d49130ff593e47cab295f6bdd2bb21ecf8a34f9c1e6cf8eeba69a6a2ed5836f",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:8972:function": {
       "text_sha256": "015f2c5335e6378354ce6eb12e77af96bde005c9fd6ef8208febe21e831582d4",
@@ -122977,7 +123411,28 @@
     },
     "gene:HGNC:8977:germline": {
       "text_sha256": "e22e0c1d2c5ac86bf73d3718c1c316fe231d46cf3e5fbc533c37de619e0235bc",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24136356",
+          "source_id": "primary-pmid-24136356",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Heterozygous PIK3CD E1021K segregates with immunodeficiency in unrelated families; supports dominant activated PI3K-delta syndrome, not recessive immunodeficiency.",
+          "location": "Primary sequencing and segregation passage 3, Figure 1; functional kinase studies.",
+          "pmcid": "PMC3930011",
+          "fulltext_sha256": "5ede061838c64ef6b481fa81471c023657213e8bac35f52c762d99081274fd7b",
+          "reviewed_on": "2026-11-27"
+        },
+        {
+          "pmid": "24165795",
+          "source_id": "primary-pmid-24165795",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Heterozygous activating PIK3CD variants in affected families support dominant combined immunodeficiency, not the separate recessive association.",
+          "location": "Primary Results body paragraph 6, Figure 2 and cellular functional assays.",
+          "pmcid": "PMC4209962",
+          "fulltext_sha256": "6273f0ef3167051465f642390d4e014f2969777f2bfc3e0c679a2e97b43fec18",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:8978:function": {
       "text_sha256": "3bcb92e85a874750bc01a84fc59f16b16deb0da92adacaedfd34041af9308438",
@@ -123011,6 +123466,16 @@
           "pmcid": "PMC3408813",
           "fulltext_sha256": "35edaf59e87dddb79796f7a3de25d79a7c08b53a1f67e7e380ca75facb03181b",
           "reviewed_on": "2026-11-26"
+        },
+        {
+          "pmid": "26520804",
+          "source_id": "primary-pmid-26520804",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Twelve patients had constitutional PIK3R2 variants in a polymicrogyria/overgrowth cohort; eight additional mosaic cases are distinct. Supports constitutional cerebral malformation association.",
+          "location": "Results passages 35-38, Tables 2-3 and multi-tissue allele analysis.",
+          "pmcid": "PMC4672724",
+          "fulltext_sha256": "b9f5ee7ce13835a19322bad51dce91a51988bdaaefabbe712fb9794bc95fc13b",
+          "reviewed_on": "2026-11-27"
         }
       ]
     },
@@ -123182,6 +123647,16 @@
           "pmcid": "PMC2835984",
           "fulltext_sha256": "57cfd03c70fde5eaeb38d9847c98867b089e4b178d466171b031f0f7d56dd55a",
           "reviewed_on": "2026-11-27"
+        },
+        {
+          "pmid": "25728773",
+          "source_id": "primary-pmid-25728773",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Biallelic PNKP variants in 11 affected individuals from eight families support recessive ataxia with oculomotor apraxia type 4.",
+          "location": "Primary exome and clinical findings passages 7-8, Tables 1-2 and Figure 1.",
+          "pmcid": "PMC4375449",
+          "fulltext_sha256": "20882239008a667f762d0d91316d300f872f4508982a8a509f7983f1501f91a0",
+          "reviewed_on": "2026-11-27"
         }
       ]
     },
@@ -123322,7 +123797,18 @@
     },
     "gene:HGNC:17284:germline": {
       "text_sha256": "1aa5f83a2b2df1e7f28c0e4f9ed4c565e80e37e26a1a53127a1a122874792b03",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24686849",
+          "source_id": "primary-pmid-24686849",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "POT1 variants segregate in familial melanoma pedigrees and are enriched versus controls, supporting the tumor predisposition association through melanoma.",
+          "location": "Primary family sequencing and control analyses, passages 3-4, Figure 1 and supplementary tables.",
+          "pmcid": "PMC4266105",
+          "fulltext_sha256": "1988dc1c15497d73eae4f8267944947b5a05792649e85ed23e2f91c3404d2a94",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:17284:somatic": {
       "text_sha256": "8a92c46113fd1b6f6cf24e40a010607970262ccc28b5a1ecad2d194d34aa6eb3",
@@ -123876,7 +124362,18 @@
     },
     "gene:HGNC:9802:germline": {
       "text_sha256": "32738059e14d79f85e47765cbd4311e925af1a9f88964d64752e2b6027352709",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "25512081",
+          "source_id": "primary-pmid-25512081",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Homozygous RAC2 W56X in two siblings with combined hypogammaglobulinemia and immunodeficiency supports the recessive subclaim; not the separate dominant disorder.",
+          "location": "Primary genetic findings passage 7, Figure 1 and cellular studies.",
+          "pmcid": "PMC4426222",
+          "fulltext_sha256": "6ec5828af96e359a36d974708a0e62ec5b6e279535f409dba53c683851cd4af0",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:9811:function": {
       "text_sha256": "c6795ea15db3a22b85af69dc10c66dd7dfb104cd25961ea9c21c8144384e3f95",
@@ -123908,7 +124405,28 @@
     },
     "gene:HGNC:9817:germline": {
       "text_sha256": "25694112a6e91a26c78079e7af7ba03efd451489fdf4f6c5ab632e3aa0993993",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26253028",
+          "source_id": "primary-pmid-26253028",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "A heterozygous dominant RAD51 T131P variant in a patient with Fanconi anemia-like abnormalities and crosslink repair defect supports FANCR.",
+          "location": "Primary patient-cell functional results; discussion body paragraph 23; repair experiments.",
+          "pmcid": "PMC4529964",
+          "fulltext_sha256": "ae39428192befd9d68c6a28f04f9f7b3be88f8cfd3004e510394f5d33cc2e6cb",
+          "reviewed_on": "2026-11-27"
+        },
+        {
+          "pmid": "26681308",
+          "source_id": "primary-pmid-26681308",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "A de novo heterozygous dominant-negative RAD51 mutation with patient-cell crosslink sensitivity supports Fanconi anemia R.",
+          "location": "Primary patient sequencing and functional assays, passage 6 and subsequent Results.",
+          "pmcid": "PMC4703882",
+          "fulltext_sha256": "62cab6a0988d027bcc0ae5203840be1347a16e5fd27d9ccb567a442e1b227bfa",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:9822:function": {
       "text_sha256": "db360aa99e862a0531b94c43765296796733f47bae3dfb9e56fe294919799688",
@@ -124324,7 +124842,18 @@
     },
     "gene:HGNC:10023:germline": {
       "text_sha256": "548f07822ad601395ac42b2a8068b96770ac51a5dc9b24ffab4e89a067a5bf01",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "25959749",
+          "source_id": "primary-pmid-25959749",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Two patients with RIT1 variants and Noonan features plus functional signaling assays support the Noonan association.",
+          "location": "Primary case and functional analyses body paragraphs 16 and 18; Table 1.",
+          "pmcid": "PMC4760689",
+          "fulltext_sha256": "7819bf57f0bc6c1374b67134cfdf1bd54f1002a90f9e9ace6a6ea02e743da1ed",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:10023:somatic": {
       "text_sha256": "4d3fa751065e1afdcaa19b08529ccc976946d54526bc1175cee85ebab9a9a3c0",
@@ -124416,7 +124945,18 @@
     },
     "gene:HGNC:10414:germline": {
       "text_sha256": "e7cd07b17cc612d9381183aeea15971ec88ece39f7839733f21fa2257bc39467",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "24675553",
+          "source_id": "primary-pmid-24675553",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Two DBA patients carry heterozygous RPS26 splice-site or nonsense mutations. Supports RPS26-associated Diamond-Blackfan anemia.",
+          "location": "Results body paragraph 14, Figure 1 and Table 1.",
+          "pmcid": "PMC3972785",
+          "fulltext_sha256": "f1256e06c9aa5b1eb9e784d1f7ade49466acf113172be47c6f97f36e2407f297",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:10433:function": {
       "text_sha256": "4a6c4af6bd712273f7e5296b762375570562827f9e5402f7d870732c02168e37",
@@ -124823,7 +125363,18 @@
     },
     "gene:HGNC:8941:germline": {
       "text_sha256": "ac55f29a797001518926ddf310705473431a06b055e466946e6a5acf540fdaca",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "25425243",
+          "source_id": "primary-pmid-25425243",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Homozygous SERPINA1 null alleles in patients with undetectable or severely reduced AAT and emphysema support recessive AAT deficiency.",
+          "location": "Results Table 2, Q0brescia and Q0lampedusa homozygotes; sequencing Figure 1.",
+          "pmcid": "PMC4255440",
+          "fulltext_sha256": "1d5bf7a2f38360291863f4411e5e0df5eaca7c9629b23bde6e9b63a40d5ba01e",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:10569:function": {
       "text_sha256": "909abdd7385e1aa6fb964400cbf6acbb98b577f78e5d27298be854e7d07db897",
@@ -124869,6 +125420,16 @@
           "pmcid": "PMC4214635",
           "fulltext_sha256": "c16ce492531c53a6dc3a3d692da8db2d7f8d91c2b8cbcc3db4ed054aa6682591",
           "reviewed_on": "2026-11-26"
+        },
+        {
+          "pmid": "25217958",
+          "source_id": "primary-pmid-25217958",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "A de novo deletion and truncating SETBP1 variants in patients with intellectual and language impairment support the neurodevelopmental disorder subclaim, not Schinzel-Giedion syndrome.",
+          "location": "Results body paragraph 9, Figure 2 and Tables 3-4.",
+          "pmcid": "PMC4177294",
+          "fulltext_sha256": "3ff081cff042b4a1032f8c1071af1e5b2c7205f7e35077346ff246d4d067b1b9",
+          "reviewed_on": "2026-11-27"
         }
       ]
     },
@@ -125528,7 +126089,18 @@
     },
     "gene:HGNC:11191:germline": {
       "text_sha256": "6e09a0bd63fa4d62a0fba9a9c894c6d7a67f01d3642c249fe8d6a5fcdf4a1842",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26543203",
+          "source_id": "primary-pmid-26543203",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Three patients with de novo SOX11 mutations and additional deletion cases show overlapping neurodevelopmental phenotypes.",
+          "location": "Primary mutation Results and clinical comparisons; passage 12, Figure 3.",
+          "pmcid": "PMC4789813",
+          "fulltext_sha256": "c1ab0b7339759e8f57c312cdec4386f8bb04e409ff9af9a330c04ab689351677",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:18122:function": {
       "text_sha256": "ffb28958a52b3d23dea60e488843f2fbb4653ce62800d04b4fa5e13e927d2ba2",
@@ -125848,6 +126420,16 @@
           "pmcid": "PMC4560358",
           "fulltext_sha256": "ea697899f5ba3a5defaff3da3af3bf887eece746388ec2c769e8e6aaf25c758e",
           "reviewed_on": "2026-11-26"
+        },
+        {
+          "pmid": "25038750",
+          "source_id": "primary-pmid-25038750",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Five patients with early-onset autoimmunity carry de novo heterozygous STAT3 variants; supports autoimmune disease, not hyper-IgE syndrome.",
+          "location": "Results body paragraphs 2-3 and functional assays.",
+          "pmcid": "PMC4129488",
+          "fulltext_sha256": "e0913b49f34eaf6872907721365315f0a2390fdd190e2a08add9ca012bc7e50c",
+          "reviewed_on": "2026-11-27"
         }
       ]
     },
@@ -126011,7 +126593,18 @@
     },
     "gene:HGNC:11535:germline": {
       "text_sha256": "66e50b9503cfa6075ae4e447160a4a2c79630fecd4f4bfdd0560096dc7dc5737",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26637982",
+          "source_id": "primary-pmid-26637982",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Fourteen affected individuals from eleven families with TAF1 variants/duplications present a recognizable neurodevelopmental syndrome; supports the X-linked intellectual disability subclaim, not dystonia-parkinsonism.",
+          "location": "Primary cohort and phenotype Results body paragraph 2 and subsequent family tables.",
+          "pmcid": "PMC4678794",
+          "fulltext_sha256": "25eb620079697ebdf56768fe943750d5144ec1dcce86bcdb53850104a8f0af45",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:11547:function": {
       "text_sha256": "e5f91e622291553604a85d09912e3700bb68cb8000d6c656e7b71dbb09b7a041",
@@ -126084,7 +126677,18 @@
     },
     "gene:HGNC:29529:germline": {
       "text_sha256": "b5c1ee85511ecdf3e0b869d5509a55d314917577f0bb97d46c80b6c36a4c93dd",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26769062",
+          "source_id": "primary-pmid-26769062",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Recurrent TBL1XR1 mutation was found in six Pierpont syndrome patients, including de novo cases.",
+          "location": "Primary exome and Sanger analysis passage 11 and patient results.",
+          "pmcid": "PMC4853543",
+          "fulltext_sha256": "4941fe25d6a6127c29eb522999c94d4b3a1d9503efb30c63089a6d5a7c09dea4",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:29529:somatic": {
       "text_sha256": "6cc0e9755ec070ef2be38a5a84a3c1c5d752a1bc9b035d1503140ec3fbacd448",
@@ -126137,7 +126741,18 @@
     },
     "gene:HGNC:11631:germline": {
       "text_sha256": "b03c85604cbb78583291dbc69119a28c818a69f93b0acf5940edfb56bd866aaf",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "25228304",
+          "source_id": "primary-pmid-25228304",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "De novo TCF20 variants include a frameshift in a patient with autism and intellectual disability, supporting the neurodevelopmental association.",
+          "location": "Results and discussion body paragraphs 38 and 43; family and transcript analyses.",
+          "pmcid": "PMC4215269",
+          "fulltext_sha256": "cb7be497fb24f0ea96d21ccf0c05ae7598112c848e9f50fd8937dcf7f7ab1fe8",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:11631:somatic": {
       "text_sha256": "fbb4d11e9dd3ba78f953d61bacb51a93d3bebf9a18ea44bdb18fcbf734dc4c0a",
@@ -126607,7 +127222,18 @@
     },
     "gene:HGNC:11896:germline": {
       "text_sha256": "096e23455cd482580e3adbdf74e6fbdd8912622443500f6f56f650fcfd801b27",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26642243",
+          "source_id": "primary-pmid-26642243",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Heterozygous truncating TNFAIP3 variants segregate with early-onset Behcet-like autoinflammation across multiple families.",
+          "location": "Primary family sequencing passages 3-5, Figure 1 and Table 1.",
+          "pmcid": "PMC4777523",
+          "fulltext_sha256": "11ae325ccb26c95abdf772944ddafaf165b4171536f143eed0f035ca3dcc1f56",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:11896:somatic": {
       "text_sha256": "a3d4d8caa373dacbfed719cf2ce0c99867adfb4a2fde0626402badcda4ec38df",
@@ -127079,7 +127705,18 @@
     },
     "gene:HGNC:25009:germline": {
       "text_sha256": "f9158b42bbe19deb1823ba6a319a3b3f6c938a1095151b44a2af9d99b479168e",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26085575",
+          "source_id": "primary-pmid-26085575",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "Biallelic UBE2T structural variants and patient fibroblast DNA crosslink sensitivity support recessive Fanconi anemia T.",
+          "location": "Results passages 7-12 and subsequent mutation/complementation findings; Figure 1 and Table 1.",
+          "pmcid": "PMC4550815",
+          "fulltext_sha256": "8984d2881406e986dc7b0cf5db7456d19a9054d1a739a49ae009d0dfc1992edc",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:16806:function": {
       "text_sha256": "7bae7049deec8f9acbaaa06fe2dac85a14c98dc1c4e8dcab36c11fbd6a250532",
@@ -127256,7 +127893,18 @@
     },
     "gene:HGNC:12692:germline": {
       "text_sha256": "652913125c108f46a1996f59cd6620246af9d9a2a4f752a6a35cda06ce04c030",
-      "verified_pmids": []
+      "verified_pmids": [
+        {
+          "pmid": "26694549",
+          "source_id": "primary-pmid-26694549",
+          "kind": "primary_fulltext_claim_review",
+          "scope": "One cataract case has a de novo VIM variant in the targeted sequencing cohort, supporting dominant congenital cataract association.",
+          "location": "Results passage 23 and Table 1; family-level segregation.",
+          "pmcid": "PMC4787201",
+          "fulltext_sha256": "5d025103e0913e0df5bf645de3a0ff1ce974acc48df830c6232bf60098741643",
+          "reviewed_on": "2026-11-27"
+        }
+      ]
     },
     "gene:HGNC:12692:somatic": {
       "text_sha256": "8a757b31ffa8f5a9add8fd140062c89e5f4265523f1c15cab824b035b9949a8f",
@@ -216252,8 +216900,8 @@
     }
   },
   "counts": {
-    "removed_unconfirmed_specific_support": 1607,
-    "retained_with_specific_support": 7520
+    "removed_unconfirmed_specific_support": 1566,
+    "retained_with_specific_support": 7561
   },
   "limitations": [
     "This is a conservative citation-retention audit, not a completed full-text review of every candidate article or independent validation of all database-backed biological claims.",

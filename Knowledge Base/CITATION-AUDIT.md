@@ -4,7 +4,7 @@ Pathologist review needed — LLM-generated summary/review.
 
 Audit date: 2026-11-27.
 
-All **1,305 genes** and **8,846 report sections/comments** are included. The current audit has **1,607 withdrawn/unconfirmed placements** and **7,520 retained placements across 113 distinct PMIDs**. Repeated citations across different comments are counted separately. The continuing [full-text review](FULLTEXT-REVIEW.md) has restored confirmed placements and records the remaining work.
+All **1,305 genes** and **8,846 report sections/comments** are included. The current audit has **1,566 withdrawn/unconfirmed placements** and **7,561 retained placements across 154 distinct PMIDs**. Repeated citations across different comments are counted separately. The continuing [full-text review](FULLTEXT-REVIEW.md) has restored confirmed placements and records the remaining work.
 
 ## What the audit means
 
