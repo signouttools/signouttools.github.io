@@ -196,7 +196,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DNMT3A encodes a de novo DNA methyltransferase that establishes cytosine methylation patterns and helps regulate chromatin state, gene expression, and cellular differentiation.",
+      "text": "DNMT3A encodes a DNA methyltransferase involved in establishing new DNA-methylation patterns, rather than simply copying an existing pattern after DNA replication. Methylation of CpG sites is an epigenetic modification important in development, genomic imprinting, and X-chromosome inactivation. DNMT3A expression is developmentally regulated, linking its role in DNA modification to changes in cellular state during development.",
       "source_ids": [
         "ncbi-1788"
       ]
@@ -205,7 +205,9 @@
       "text": "Pathogenic germline variants are associated with Tatton-Brown-Rahman overgrowth syndrome (autosomal dominant); Heyn-Sproul-Jackson syndrome (autosomal dominant).",
       "source_ids": [
         "gencc-snapshot",
-        "primary-pmid-24614070"
+        "primary-pmid-24614070",
+        "primary-pmid-29900417",
+        "primary-pmid-30478443"
       ]
     },
     "somatic": {

@@ -95,7 +95,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RELA encodes transcription factor p65. It participates in DNA-templated transcription and chromatin organization.",
+      "text": "RELA encodes transcription factor p65. It participates in DNA-templated transcription and chromatin organization. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
       "source_ids": [
         "ncbi-5970",
         "uniprot-Q04206"
@@ -104,7 +104,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with combined immunodeficiency due to RELA haploinsufficiency (autosomal dominant); autoinflammatory disease, familial, Behcet-like-3 (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-28600438"
       ]
     },
     "somatic": {

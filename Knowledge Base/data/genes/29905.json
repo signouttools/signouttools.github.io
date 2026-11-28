@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CSDE1 encodes cold shock domain-containing protein E1. It participates in CRD-mediated mRNA stabilization and male gonad development.",
+      "text": "CSDE1 encodes cold shock domain-containing protein E1. It participates in CRD-mediated mRNA stabilization and male gonad development. Functional annotations also associate the protein with protein-RNA adaptor activity and lncRNA binding.",
       "source_ids": [
         "ncbi-7812",
         "uniprot-O75534"
@@ -82,7 +82,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-31579823"
       ]
     }
   },

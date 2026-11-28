@@ -78,7 +78,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ELP1 encodes elongator complex protein 1. It participates in regulation of translation and tRNA wobble base 5-methoxycarbonylmethyl-2-thiouridinylation.",
+      "text": "ELP1 encodes elongator complex protein 1. It participates in regulation of translation and tRNA wobble base 5-methoxycarbonylmethyl-2-thiouridinylation. Functional annotations also associate the protein with tRNA binding.",
       "source_ids": [
         "ncbi-8518",
         "uniprot-O95163"
@@ -87,7 +87,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with Riley-Day syndrome (autosomal recessive); medulloblastoma (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-32296180"
       ]
     }
   },

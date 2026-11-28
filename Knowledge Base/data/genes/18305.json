@@ -80,7 +80,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ATP6AP2 encodes renin receptor (ATPase H(+)-transporting lysosomal accessory protein 2) (ATPase H(+)-transporting lysosomal-interacting protein 2) [Cleaved into: Renin receptor N-terminal fragment; Renin receptor C-terminal fragment]. It participates in angiotensin maturation and eye pigmentation.",
+      "text": "ATP6AP2 encodes renin receptor (ATPase H(+)-transporting lysosomal accessory protein 2) (ATPase H(+)-transporting lysosomal-interacting protein 2) [Cleaved into: Renin receptor N-terminal fragment; Renin receptor C-terminal fragment]. It participates in angiotensin maturation and eye pigmentation. Functional annotations also associate the protein with signaling receptor activity.",
       "source_ids": [
         "ncbi-10159",
         "uniprot-O75787"
@@ -89,7 +89,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with ATP6AP2-related disorder (x-linked); congenital disorder of glycosylation, type IIr (x-linked).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-29127204"
       ]
     }
   },

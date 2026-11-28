@@ -160,7 +160,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CIC encodes protein capicua homolog. It participates in negative regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II.",
+      "text": "CIC encodes protein capicua homolog. It participates in negative regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity, RNA polymerase II-specific and RNA polymerase II transcription regulatory region sequence-specific DNA binding.",
       "source_ids": [
         "ncbi-23152",
         "uniprot-Q96RK0"
@@ -169,7 +169,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with complex neurodevelopmental disorder (autosomal dominant); intellectual developmental disorder, autosomal dominant 45 (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-28288114"
       ]
     },
     "somatic": {

@@ -97,7 +97,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DROSHA encodes ribonuclease 3. It participates in pre-miRNA processing and rRNA processing.",
+      "text": "DROSHA encodes the catalytic ribonuclease III component of the microprocessor complex. In the nucleus, it cleaves primary microRNA transcripts to release stem-loop precursor microRNAs. These precursors are subsequently exported to the cytoplasm for further processing. DROSHA therefore acts early in the microRNA-production pathway, working with an RNA-binding partner rather than carrying out all of the steps needed to produce mature microRNAs.",
       "source_ids": [
         "ncbi-29102",
         "uniprot-Q9NRR4"

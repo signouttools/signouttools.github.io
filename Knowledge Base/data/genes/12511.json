@@ -85,7 +85,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "UBTF encodes nucleolar transcription factor 1. It participates in transcription by RNA polymerase I and transcription initiation at RNA polymerase I promoter.",
+      "text": "UBTF encodes nucleolar transcription factor 1. It participates in transcription by RNA polymerase I and transcription initiation at RNA polymerase I promoter. Functional annotations also associate the protein with RNA polymerase I general transcription initiation factor activity and chromatin binding.",
       "source_ids": [
         "ncbi-7343",
         "uniprot-P17480"
@@ -94,7 +94,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with childhood-onset motor and cognitive regression syndrome with extrapyramidal movement disorder (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-29300972"
       ]
     },
     "somatic": {

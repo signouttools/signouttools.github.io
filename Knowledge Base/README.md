@@ -69,7 +69,9 @@ Broad pan-cancer genes remain discoverable through their actual curated disease 
 
 ### Gene paragraph
 
-Aim for **80–140 words**, usually three to five sentences; allow up to 180 for complex genes with an explicit editorial reason. Follow this fixed order:
+Aim for **80–300 words**. This is a soft target: use the length needed to describe the gene accurately and clearly. Follow this fixed order:
+
+The current paragraph expansion review is recorded in [GENE-PARAGRAPH-REVIEW.md](GENE-PARAGRAPH-REVIEW.md), with per-gene word counts and evidence gaps in `data/gene-paragraph-review.json`. Regeneration applies `expand-gene-paragraphs.py` after the citation audit. Source-backed normal-function expansions are retained separately from disease-claim adjudication; entries may remain below the target when further evidence review is needed.
 
 1. **Normal function:** state the encoded protein or RNA, its principal biological role, and the relevant pathway in plain language. Use NCBI Gene/RefSeq as the default functional source; verify specialized mechanisms against primary literature or an authoritative protein resource.
 2. **Germline disease:** describe established pathogenic/likely pathogenic variant associations, including non-neoplastic syndromes when relevant. State inheritance and allele/mechanism restrictions where supported. A susceptibility association, Mendelian syndrome, and postzygotic mosaic disorder are different assertions. Put mosaic disease in a separate structured field, and explicitly identify it in the prose if mentioned. For a gene with no established inherited association found in the reviewed sources, use a qualified statement and record the search scope/date; absence of a curated association is not proof that none exists.
@@ -122,7 +124,7 @@ The validator checks required structure, duplicate IDs, source and disease refer
 
 1. Which assays should anchor the inventory? Default proposal: MSK-IMPACT, TSO500, FoundationOne CDx, plus heme/CNS/pediatric/sarcoma supplements. A local laboratory panel can take priority if supplied.
 2. Should germline coverage include **all established Mendelian diseases**, or focus on cancer predisposition with brief mention of other major syndromes? The pilot uses the broader option.
-3. Is a single **80–140-word paragraph**, with optional structured details and citations below it, the desired report-writing format?
+3. Is a single paragraph targeting **80–300 words**, with optional structured details and citations below it, the desired report-writing format?
 4. Who will provide specialist approval before entries can be marked approved? Until a reviewer is designated and reviews content, all entries remain drafts.
 5. US FDA regulatory indexing is now authorized. Exact allele/disease eligibility, current labels, and withdrawals still need adjudication before therapeutic report language can be approved.
 

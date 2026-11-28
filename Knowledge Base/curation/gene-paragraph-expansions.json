@@ -1,0 +1,200 @@
+{
+  "reviewed_on": "2026-11-27",
+  "basis": "Original synthesis of the cached NCBI Gene/RefSeq summaries already cited for each normal-function section. No inherited disease or somatic claim broadened.",
+  "function_by_symbol": {
+    "APC": "APC encodes a tumor suppressor that restrains Wnt signaling and also participates in cell adhesion, migration, and regulation of gene expression. These functions connect control of cell growth with interactions between neighboring cells. In colorectal tumors, disease-associated APC sequence changes commonly produce a shortened protein and cluster within a particular part of the gene, termed the mutation cluster region.",
+    "ARID1A": "ARID1A encodes a DNA-binding component of the SWI/SNF chromatin-remodeling complex. This complex uses energy from ATP to change the organization of chromatin, allowing access to genes that would otherwise be repressed. ARID1A helps direct the complex to its targets through interactions with DNA or other proteins; it is a targeting component rather than the ATPase that powers remodeling.",
+    "BRAF": "BRAF encodes a serine/threonine kinase in the RAF family that relays growth signals through the MAPK/ERK pathway. This signaling pathway helps regulate cell division, differentiation, and secretion. Activating changes in BRAF can increase this signaling output; V600E is a well-characterized example, but the gene's normal role is to transmit regulated signals rather than maintain continuous pathway activation.",
+    "BRCA1": "BRCA1 encodes a nuclear tumor suppressor involved in maintaining genome stability. It works with DNA-damage sensors, other tumor suppressors, and signaling proteins in multiprotein assemblies that coordinate responses to damaged DNA. Its functions include repair of DNA double-strand breaks, recombination, and regulation of transcription. Interactions with RNA polymerase II and chromatin-associated complexes link these DNA-repair functions with regulation of gene activity.",
+    "BRCA2": "BRCA2 encodes a tumor suppressor that maintains genome stability through homologous recombination and protection of DNA replication forks. The protein binds DNA and interacts with RAD51, helping assemble RAD51 filaments at DNA double-strand breaks. It also interacts with PALB2. These coordinated activities support accurate repair during cell division and help protect DNA while it is being copied.",
+    "CTNNB1": "CTNNB1 encodes beta-catenin, a component of adherens junctions that connect neighboring epithelial cells. Beta-catenin links these junctions with the actin cytoskeleton and participates in signaling that couples cell contact with control of proliferation. It also interacts with the APC tumor suppressor. Its roles in cell adhesion and growth regulation connect the organization of epithelial tissues with control of cell division.",
+    "DGCR8": "DGCR8 encodes the non-catalytic RNA-binding component of the microprocessor complex, which carries out an early step in microRNA production. DGCR8 recognizes and binds double-stranded regions of primary microRNA transcripts and helps position them for cleavage by DROSHA. This division of labor separates RNA recognition from RNA cutting: DGCR8 binds the substrate, while DROSHA supplies the ribonuclease activity.",
+    "DNMT3A": "DNMT3A encodes a DNA methyltransferase involved in establishing new DNA-methylation patterns, rather than simply copying an existing pattern after DNA replication. Methylation of CpG sites is an epigenetic modification important in development, genomic imprinting, and X-chromosome inactivation. DNMT3A expression is developmentally regulated, linking its role in DNA modification to changes in cellular state during development.",
+    "DROSHA": "DROSHA encodes the catalytic ribonuclease III component of the microprocessor complex. In the nucleus, it cleaves primary microRNA transcripts to release stem-loop precursor microRNAs. These precursors are subsequently exported to the cytoplasm for further processing. DROSHA therefore acts early in the microRNA-production pathway, working with an RNA-binding partner rather than carrying out all of the steps needed to produce mature microRNAs.",
+    "EGFR": "EGFR encodes a cell-surface receptor tyrosine kinase that recognizes members of the epidermal growth factor family. Ligand binding promotes receptor dimerization and phosphorylation of tyrosine residues on the receptor itself, initiating signals that support cell proliferation. Its normal activity thus couples an extracellular growth signal to an intracellular response through regulated receptor assembly and kinase activation.",
+    "HRAS": "HRAS encodes a small GTPase that binds GDP or GTP and participates in intracellular signal transmission. The protein also moves between the Golgi apparatus and the plasma membrane. Reversible attachment and removal of palmitate regulate this trafficking, linking its cellular location with its signaling role. These properties provide both a nucleotide-dependent signaling cycle and a mechanism for controlling where the protein acts.",
+    "IDH1": "IDH1 encodes an NADP-dependent isocitrate dehydrogenase located mainly in the cytoplasm and peroxisomes. The enzyme converts isocitrate to alpha-ketoglutarate, also called 2-oxoglutarate, while generating NADPH. Cytoplasmic NADPH production and regeneration of NADPH within peroxisomes are important aspects of its normal function. Its subcellular location distinguishes IDH1 from the related mitochondrial NADP-dependent enzyme encoded by IDH2.",
+    "IDH2": "IDH2 encodes a mitochondrial NADP-dependent isocitrate dehydrogenase. It catalyzes conversion of isocitrate to alpha-ketoglutarate, also called 2-oxoglutarate, and contributes to intermediary metabolism and energy production. Unlike the predominantly cytoplasmic and peroxisomal enzyme encoded by IDH1, IDH2 functions within mitochondria. The normal enzyme belongs to the NADP-dependent subgroup of isocitrate dehydrogenases and operates as a homodimer.",
+    "KRAS": "KRAS encodes a small GTPase that switches between GDP-bound and GTP-bound states to relay signals controlling cell proliferation and survival. Activating amino-acid substitutions can disrupt the normal regulation of this signaling function. Alternative splicing produces two protein isoforms with different carboxy-terminal regions, so the gene gives rise to distinct protein forms while retaining its central role in intracellular signal transmission.",
+    "NF1": "NF1 encodes neurofibromin, a negative regulator of RAS signal transmission. Its normal role helps restrain signaling through a pathway involved in cell growth and proliferation. The gene produces alternatively spliced transcripts encoding different protein isoforms. Its messenger RNA can also undergo editing that creates a premature termination signal, providing an additional level of regulation of the encoded protein product.",
+    "NF2": "NF2 encodes merlin, a protein related to the ezrin-radixin-moesin family that connects cell-membrane proteins with the cytoskeleton. Merlin participates in cell adhesion, signaling across the membrane, and contact-dependent inhibition of proliferation. It interacts with cell-surface proteins and regulators of cytoskeletal dynamics, helping link physical contacts between cells to signals that limit further cell division.",
+    "NPM1": "NPM1 encodes nucleophosmin, a phosphoprotein that moves between the nucleolus, nucleus, and cytoplasm. It acts as a protein chaperone for ribosomal proteins and core histones and participates in centrosome duplication and cell proliferation. Nucleophosmin also retains the ARF tumor suppressor in the nucleolus, where it can be protected from degradation, connecting intracellular protein handling with regulation of growth-control pathways.",
+    "NRAS": "NRAS encodes a small GTPase whose activity is controlled by proteins that promote nucleotide exchange or stimulate GTP hydrolysis. NRAS also cycles between the Golgi apparatus and the plasma membrane. Reversible palmitoylation, regulated by the ZDHHC9-GOLGA7 complex, helps control this trafficking. Regulation of both nucleotide binding and cellular location therefore contributes to the normal control of NRAS signaling.",
+    "PIK3CA": "PIK3CA encodes the p110-alpha catalytic subunit of phosphatidylinositol 3-kinase. The enzyme combines a catalytic subunit with an approximately 85-kDa regulatory subunit and uses ATP to phosphorylate phosphoinositide lipids. Its normal role is therefore to generate lipid signaling products through regulated enzymatic activity. The distinction between catalytic and regulatory components is central to understanding its place in the PI3K signaling pathway.",
+    "PTEN": "PTEN encodes a tumor suppressor that removes a phosphate from phosphatidylinositol-3,4,5-trisphosphate, reducing the cellular abundance of this signaling lipid. This activity opposes AKT signaling. Although PTEN contains a domain related to protein tyrosine phosphatases, it preferentially acts on phosphoinositide substrates. Its lipid-phosphatase activity therefore provides a direct biochemical mechanism for restraining a pathway that promotes cellular growth and survival.",
+    "RB1": "RB1 encodes a tumor suppressor that negatively regulates cell-cycle progression and also helps maintain chromatin structure. In its active, hypophosphorylated state, the protein binds the E2F1 transcription factor. This interaction connects the protein's phosphorylation state with transcriptional control of the cell cycle. Its additional role in stabilizing heterochromatin links regulation of cell division with organization of the genome.",
+    "TET2": "TET2 encodes a methylcytosine dioxygenase that converts methylcytosine in DNA to 5-hydroxymethylcytosine. This enzymatic activity changes the chemical state of methylated DNA and is part of the regulation of epigenetic information. TET2 also participates in myelopoiesis, connecting its role in DNA modification with normal production and development of myeloid blood cells. Alternative transcripts encode different protein isoforms.",
+    "TP53": "TP53 encodes p53, a tumor-suppressor transcription factor with DNA-binding, transcriptional-activation, and oligomerization domains. In response to cellular stress, p53 changes expression of target genes that control cell-cycle arrest, DNA repair, senescence, apoptosis, and metabolism. Alternative promoters, RNA splicing, and translation initiation produce multiple protein isoforms. These properties allow the gene to connect detection of cellular stress with several distinct growth-control and cell-fate responses.",
+    "VHL": "VHL encodes a component of a ubiquitination complex that targets hypoxia-inducible factor for degradation. Hypoxia-inducible factor is a transcription factor central to regulation of gene expression in response to oxygen, so VHL links protein turnover with oxygen-responsive signaling. The VHL protein also participates in processes involving cilia, cytokine signaling, cellular senescence, and formation of the extracellular matrix."
+  },
+  "source_evidence": {
+    "PIK3CA": {
+      "ncbi_gene_id": "5290",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/5290",
+      "cache_file": "ncbi-7.json",
+      "summary_sha256": "6e9f41f1470eadbcf23b9bee05b41b7549f541cf07aa2019eba4e2129c2ecc16",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "NF1": {
+      "ncbi_gene_id": "4763",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4763",
+      "cache_file": "ncbi-6.json",
+      "summary_sha256": "4ac39f46d4a0b742c846893a07af0698103ac379940615e218f15306f7c7e941",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "NF2": {
+      "ncbi_gene_id": "4771",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4771",
+      "cache_file": "ncbi-6.json",
+      "summary_sha256": "b5cde18b795db2320adc5841e4dee10cf6295c09ac722cddc3d0d5315b649242",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "NPM1": {
+      "ncbi_gene_id": "4869",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4869",
+      "cache_file": "ncbi-6.json",
+      "summary_sha256": "99aaef966005b26d462a37fbaf1d5563728148d2da3693dafe118e48a5fc289d",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "NRAS": {
+      "ncbi_gene_id": "4893",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/4893",
+      "cache_file": "ncbi-6.json",
+      "summary_sha256": "a96cb53b1f0259869e1006b6bde7f194a3049bb3f96aaf5defbe3005c1ea8979",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "CTNNB1": {
+      "ncbi_gene_id": "1499",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/1499",
+      "cache_file": "ncbi-1.json",
+      "summary_sha256": "7570d72fa21dc5cc16d0886b4c79ba5616938f3f3da7f2b0016352138f0b7f7c",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "TET2": {
+      "ncbi_gene_id": "54790",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/54790",
+      "cache_file": "ncbi-10.json",
+      "summary_sha256": "93f61282fb258e111c3daed6f2b7f5a243c126fe5558d67dcc981e8e96aa1935",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "TP53": {
+      "ncbi_gene_id": "7157",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/7157",
+      "cache_file": "ncbi-10.json",
+      "summary_sha256": "05b3c53160bf51c3b10b580aee21384800aa9f367947019ae0d1f61abf0308f6",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "VHL": {
+      "ncbi_gene_id": "7428",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/7428",
+      "cache_file": "ncbi-10.json",
+      "summary_sha256": "839438e82b307c570940231303ff6fa54c3ad9821f982a5f4eed49cf5a42f8c7",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "APC": {
+      "ncbi_gene_id": "324",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/324",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "3138ddd814c309872d7fc990846b6157f2ce9eb563cb61cde2069f82cd18ec0c",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "ARID1A": {
+      "ncbi_gene_id": "8289",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/8289",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "c6d48b566e59fc8d1ae018c79eaf9e815335419297ecb1f6fd11806f28f44e60",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "BRAF": {
+      "ncbi_gene_id": "673",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/673",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "e20fa3bf60afa6febddcdcbc0238fd2af1b0d963f7433cb834a1cf6f6dc63825",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "BRCA1": {
+      "ncbi_gene_id": "672",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/672",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "128e0d4d5c1bedd05f6492b454a9207e936d6564fc5f29213b8f425765b5ba0f",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "BRCA2": {
+      "ncbi_gene_id": "675",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/675",
+      "cache_file": "ncbi-0.json",
+      "summary_sha256": "91bb8d41c18578b800b2ed02c1f6f9e3b2ef0a516160ee4229940e9ab3931bf4",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "DGCR8": {
+      "ncbi_gene_id": "54487",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/54487",
+      "cache_file": "ncbi-2.json",
+      "summary_sha256": "9920fa134b5411119abfa93444774661812b502e44b3019e0e45881ac2d067ae",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "DNMT3A": {
+      "ncbi_gene_id": "1788",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/1788",
+      "cache_file": "ncbi-2.json",
+      "summary_sha256": "90f5a90c79a0e531d23723a7a6e5fde391beed42e1f457611d19c79aa5c9970d",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "DROSHA": {
+      "ncbi_gene_id": "29102",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/29102",
+      "cache_file": "ncbi-2.json",
+      "summary_sha256": "f78075c9fa2a08d7b8463807677fff7307c6e3c01f52e54ce409594ee01344e9",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "EGFR": {
+      "ncbi_gene_id": "1956",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/1956",
+      "cache_file": "ncbi-2.json",
+      "summary_sha256": "90e6d8579559cef7adf37c7a2d50fb240756f1a8f10d06cc7a2cd7219bbcdaa0",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "KRAS": {
+      "ncbi_gene_id": "3845",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/3845",
+      "cache_file": "ncbi-5.json",
+      "summary_sha256": "5f1951b99e0bcedadf2d73e2bcf59cb5ee4f362750eafb90e018a2d6e4f8d40c",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "HRAS": {
+      "ncbi_gene_id": "3265",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/3265",
+      "cache_file": "ncbi-4.json",
+      "summary_sha256": "a6c84e274b5ce8ef0394b577f873a08faaf682a2d02f16d0e6f8176335826a91",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "IDH1": {
+      "ncbi_gene_id": "3417",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/3417",
+      "cache_file": "ncbi-4.json",
+      "summary_sha256": "450a0b3b46dfa3d07142842781619dcd9388f23282198f7b6d96bfe3eb321348",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "IDH2": {
+      "ncbi_gene_id": "3418",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/3418",
+      "cache_file": "ncbi-4.json",
+      "summary_sha256": "088d3a5afe19b46fccbb00ff32e8798f7ccecaff84d44eae94b38ac4ffe1fc85",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "PTEN": {
+      "ncbi_gene_id": "5728",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/5728",
+      "cache_file": "ncbi-8.json",
+      "summary_sha256": "edd81f54beb42464650af2bf3f4c89c2f3117b38d6a42b070d3e23bf186196be",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    },
+    "RB1": {
+      "ncbi_gene_id": "5925",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/5925",
+      "cache_file": "ncbi-8.json",
+      "summary_sha256": "12d69e9b42ec3b273c1dbcb719f73b3320e0e6c39279fcd2cdd388aad29078d4",
+      "review_scope": "Normal-function paragraph only; existing germline and somatic claims unchanged."
+    }
+  }
+}

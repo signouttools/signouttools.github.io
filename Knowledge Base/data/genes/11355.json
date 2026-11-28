@@ -198,7 +198,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "STAG2 encodes cohesin subunit SA-2. It participates in mitotic spindle assembly and sister chromatid cohesion.",
+      "text": "STAG2 encodes cohesin subunit SA-2. It participates in mitotic spindle assembly and sister chromatid cohesion. Functional annotations also associate the protein with chromatin binding.",
       "source_ids": [
         "ncbi-10735",
         "uniprot-Q8N3U4"
@@ -207,7 +207,9 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with Mullegama-Klein-Martinez syndrome (x-linked).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-28296084",
+        "primary-pmid-29263825"
       ]
     },
     "somatic": {

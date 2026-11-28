@@ -113,7 +113,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TRAF7 encodes E3 ubiquitin-protein ligase TRAF7. It participates in apoptotic process and protein ubiquitination.",
+      "text": "TRAF7 encodes E3 ubiquitin-protein ligase TRAF7. It participates in apoptotic process and protein ubiquitination. Functional annotations also associate the protein with ubiquitin-protein transferase activity and ubiquitin protein ligase activity.",
       "source_ids": [
         "ncbi-84231",
         "uniprot-Q6Q0C0"
@@ -122,7 +122,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with syndromic complex neurodevelopmental disorder (autosomal dominant); cardiac, facial, and digital anomalies with developmental delay (autosomal dominant).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-32376980"
       ]
     },
     "somatic": {

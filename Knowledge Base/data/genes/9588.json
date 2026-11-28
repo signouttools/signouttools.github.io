@@ -501,7 +501,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PTEN encodes a tumor-suppressor phosphatase that counteracts PI3K signaling by dephosphorylating phosphatidylinositol lipid messengers, thereby restraining AKT pathway activation.",
+      "text": "PTEN encodes a tumor suppressor that removes a phosphate from phosphatidylinositol-3,4,5-trisphosphate, reducing the cellular abundance of this signaling lipid. This activity opposes AKT signaling. Although PTEN contains a domain related to protein tyrosine phosphatases, it preferentially acts on phosphoinositide substrates. Its lipid-phosphatase activity therefore provides a direct biochemical mechanism for restraining a pathway that promotes cellular growth and survival.",
       "source_ids": [
         "ncbi-5728"
       ]

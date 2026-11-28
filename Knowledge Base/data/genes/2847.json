@@ -91,7 +91,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DGCR8 encodes microprocessor complex subunit DGCR8. It participates in DNA damage response and primary miRNA processing.",
+      "text": "DGCR8 encodes the non-catalytic RNA-binding component of the microprocessor complex, which carries out an early step in microRNA production. DGCR8 recognizes and binds double-stranded regions of primary microRNA transcripts and helps position them for cleavage by DROSHA. This division of labor separates RNA recognition from RNA cutting: DGCR8 binds the substrate, while DROSHA supplies the ribonuclease activity.",
       "source_ids": [
         "ncbi-54487",
         "uniprot-Q8WYQ5"

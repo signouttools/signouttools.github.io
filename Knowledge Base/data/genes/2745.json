@@ -168,7 +168,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DDX3X encodes ATP-dependent RNA helicase DDX3X. It participates in intracellular signal transduction and negative regulation of non-canonical NF-kappaB signal transduction.",
+      "text": "DDX3X encodes ATP-dependent RNA helicase DDX3X. It participates in intracellular signal transduction and negative regulation of non-canonical NF-kappaB signal transduction. Functional annotations also associate the protein with transcription factor binding and CTPase activity.",
       "source_ids": [
         "ncbi-1654",
         "uniprot-O00571"
@@ -177,7 +177,8 @@
     "germline": {
       "text": "Pathogenic germline variants are associated with X-linked syndromic intellectual disability (x-linked); intellectual disability, X-linked 102 (x-linked).",
       "source_ids": [
-        "gencc-snapshot"
+        "gencc-snapshot",
+        "primary-pmid-29490693"
       ]
     },
     "somatic": {

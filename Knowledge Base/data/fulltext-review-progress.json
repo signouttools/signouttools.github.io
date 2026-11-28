@@ -8,19 +8,19 @@
     "public_fulltext_fetch_failed": 89
   },
   "review_status": {
-    "candidate_claims_adjudicated": 167,
-    "partial_claim_review": 33,
-    "pending_fulltext_review": 1111
+    "candidate_claims_adjudicated": 205,
+    "partial_claim_review": 64,
+    "pending_fulltext_review": 1042
   },
-  "manual_claim_decisions": 414,
+  "manual_claim_decisions": 483,
   "decision_counts": {
-    "not_supporting_report_claim": 226,
-    "supports_specific_claim": 159,
-    "needs_supplementary_or_additional_review": 29
+    "not_supporting_report_claim": 242,
+    "supports_specific_claim": 181,
+    "needs_supplementary_or_additional_review": 60
   },
-  "papers_with_claim_review": 200,
-  "restored_report_placements": 177,
-  "verified_primary_fulltext_pmids": 126,
+  "papers_with_claim_review": 269,
+  "restored_report_placements": 199,
+  "verified_primary_fulltext_pmids": 148,
   "status": "in_progress",
   "limitations": [
     "Full-text access is not verification.",

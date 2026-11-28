@@ -231,3 +231,7 @@ print(f'Prepared report language for {len(genes)} genes, {len(sites)} sites, {le
 if (root/'data/citation-audit.json').exists():
  import subprocess
  subprocess.run([sys.executable,str(root/'scripts/audit-report-citations.py')],check=True)
+
+# Restore source-backed functional detail under the soft 80–300-word guidance.
+import subprocess
+subprocess.run([sys.executable,str(root/'scripts/expand-gene-paragraphs.py')],check=True)
