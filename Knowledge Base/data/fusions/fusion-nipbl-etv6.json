@@ -1,0 +1,118 @@
+{
+  "id": "fusion-nipbl-etv6",
+  "label": "NIPBL::ETV6",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "NIPBL",
+      "hgnc_id": "HGNC:28862",
+      "ncbi_gene_id": "25836"
+    },
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "NIPBL",
+      "text": "NIPBL encodes NIPBL cohesin loading factor.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "b114253f9e8dab1959175bb27d81ed77041cfa6f7eea4d24ddfbd3709709274a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:28862",
+          "location": "Frozen HGNC TSV: HGNC:28862, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "NIPBL::ETV6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "02c002f3ce456229d6185dd2826d7849b8784380080b18e31d9e4b362c027d12",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3937, 5265, 5266",
+          "source_rows": [
+            3937,
+            5265,
+            5266
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "NIPBL encodes NIPBL cohesin loading factor. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. NIPBL::ETV6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-2120",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "5443c0b4b724c3daae8fc77c6acbe12ca30a3cd34557f512420e53063de6cc85"
+}

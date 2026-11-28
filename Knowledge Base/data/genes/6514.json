@@ -112,7 +112,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "LATS1 encodes serine/threonine-protein kinase LATS1. It participates in negative regulation of cyclin-dependent protein serine/threonine kinase activity and hippo signaling. Functional annotations also associate the protein with protein serine kinase activity.",
+      "text": "LATS1 encodes serine/threonine-protein kinase LATS1. The core of this pathway is composed of a kinase cascade wherein STK3/MST2 and STK4/MST1, in complex with its regulatory protein SAV1, phosphorylates and activates LATS1/2 in complex with its regulatory protein MOB1, which in turn phosphorylates and inactivates YAP1 oncoprotein and WWTR1/TAZ. It negatively regulates G2/M transition by down-regulating CDK1 kinase activity. It participates in the control of p53 expression.",
       "source_ids": [
         "ncbi-9113",
         "uniprot-O95835"

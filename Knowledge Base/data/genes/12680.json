@@ -103,7 +103,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "VEGFA encodes vascular endothelial growth factor A, long form [Cleaved into: N-VEGF; VEGFA]. It participates in negative regulation of miRNA transcription and positive regulation of canonical NF-kappaB signal transduction. Functional annotations also associate the protein with chemoattractant activity and cytokine activity.",
+      "text": "VEGFA encodes vascular endothelial growth factor A, long form. Based in part on similarity, it induces endothelial cell proliferation, promotes cell migration, inhibits apoptosis and induces permeabilization of blood vessels. It binds to the FLT1/VEGFR1 and KDR/VEGFR2 receptors, heparan sulfate and heparin. It binds to the NRP1/neuropilin-1 receptor.",
       "source_ids": [
         "ncbi-7422",
         "uniprot-P15692"

@@ -247,7 +247,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PIK3R1 encodes phosphatidylinositol 3-kinase regulatory subunit alpha. It participates in positive regulation of RNA splicing and phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with phosphatidylinositol kinase activity and 1-phosphatidylinositol-3-kinase regulator activity.",
+      "text": "PIK3R1 encodes phosphatidylinositol 3-kinase regulatory subunit alpha. It binds to activated (phosphorylated) protein-Tyr kinases, through its SH2 domain, and acts as an adapter, mediating the association of the p110 catalytic unit to the plasma membrane. It is necessary for the insulin-stimulated increase in glucose uptake and glycogen synthesis in insulin-sensitive tissues. It contributes to signaling in response to FGFR1, FGFR2, FGFR3, FGFR4, KITLG/SCF, KIT, PDGFRA and PDGFRB.",
       "source_ids": [
         "ncbi-5295",
         "uniprot-P27986"

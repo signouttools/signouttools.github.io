@@ -92,7 +92,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MTAP encodes s-methyl-5'-thioadenosine phosphorylase. It participates in L-methionine cycle and nucleobase-containing compound metabolic process. Functional annotations also associate the protein with 1,4-alpha-oligoglucan phosphorylase activity and S-methyl-5-thioadenosine phosphorylase activity.",
+      "text": "MTAP encodes s-methyl-5'-thioadenosine phosphorylase. It catalyzes the phosphorolytic cleavage of S-methyl-5'-thioadenosine (MTA) to adenine and 5-methylthioribose1-phosphate. It participates in the breakdown of MTA, a major by-product of polyamine biosynthesis. It has broad substrate specificity with 6-aminopurine nucleosides as preferred substrates.",
       "source_ids": [
         "ncbi-4507",
         "uniprot-Q13126"

@@ -66,7 +66,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NUF2 encodes kinetochore protein Nuf2. It participates in chromosome segregation and kinetochore organization. Functional annotations also associate the protein with microtubule binding.",
+      "text": "NUF2 encodes kinetochore protein Nuf2. It functions as a component of the essential kinetochore-associated NDC80 complex, which is required for chromosome segregation and spindle checkpoint activity. It is required for kinetochore integrity and the organization of stable microtubule binding sites in the outer plate of the kinetochore. The NDC80 complex synergistically enhances the affinity of the SKA1 complex for microtubules and may allow the NDC80 complex to track depolymerizing microtubules.",
       "source_ids": [
         "ncbi-83540",
         "uniprot-Q9BZD4"

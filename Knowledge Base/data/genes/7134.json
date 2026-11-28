@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MLLT1 encodes protein ENL. It participates in positive regulation of DNA-templated transcription. Functional annotations also associate the protein with chromatin binding.",
+      "text": "MLLT1 encodes protein ENL. It is a chromatin reader component of the super elongation complex (SEC), a complex required to increase the catalytic rate of RNA polymerase II transcription by suppressing transient pausing by the polymerase at multiple sites along the DNA. It specifically recognizes and binds acetylated and crotonylated histones, with a preference for histones that are crotonylated. It has a slightly higher affinity for binding histone H3 crotonylated at 'Lys-27' (H3K27cr) than 'Lys-20' (H3K9cr20).",
       "source_ids": [
         "ncbi-4298",
         "uniprot-Q03111"

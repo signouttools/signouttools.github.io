@@ -1,0 +1,129 @@
+{
+  "id": "fusion-hnrnph1-erg",
+  "label": "HNRNPH1::ERG",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "HNRNPH1",
+      "hgnc_id": "HGNC:5041",
+      "ncbi_gene_id": "3187"
+    },
+    {
+      "symbol": "ERG",
+      "hgnc_id": "HGNC:3446",
+      "ncbi_gene_id": "2078"
+    }
+  ],
+  "aliases": [
+    "HNRPH1::ERG"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "HNRNPH1",
+      "text": "HNRNPH1 encodes heterogeneous nuclear ribonucleoprotein H1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "9c575b3f148ee8c6d43408535e9f61f269deeb62de1f891bfe5205f07b789647",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5041",
+          "location": "Frozen HGNC TSV: HGNC:5041, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ERG",
+      "text": "ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development.",
+      "source_ids": [
+        "ncbi-2078"
+      ],
+      "claim_sha256": "1f39dff201608e93a1735c1006918c0cb4f9ed68ca87dc66c89d34a3be019c37",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2078",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2078",
+          "location": "NCBI Gene 2078 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "fdcd254ddd17a0a9d903aebfff988a346549274dca371869a7088c3c58df1585"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "HNRNPH1::ERG was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "71fa47e17742308f6ce78c05a3269560e7732f9334c96f54991a62f47af67dde",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1272, 3931, 4055, 4246, 4339, 4522, 4923, 4924, 5009, 5010, 5175, 5176",
+          "source_rows": [
+            1272,
+            3931,
+            4055,
+            4246,
+            4339,
+            4522,
+            4923,
+            4924,
+            5009,
+            5010,
+            5175,
+            5176
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "HNRNPH1 encodes heterogeneous nuclear ribonucleoprotein H1. ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. HNRNPH1::ERG was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-2078",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "a11c85833698838fd451056e2b19288eecf7785124a121e4f0dc9f50421160a9"
+}

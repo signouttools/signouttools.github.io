@@ -104,7 +104,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TERC encodes the RNA component of telomerase, providing the template used by the TERT catalytic subunit to add telomeric repeats to chromosome ends.",
+      "text": "TERC produces the RNA template component of telomerase. The telomerase ribonucleoprotein combines this template with a reverse-transcriptase protein component to add TTAGGG repeats at chromosome ends. TERC therefore supplies sequence information for telomere extension rather than the catalytic protein itself. Regulation of telomerase activity is linked to telomere maintenance and cellular senescence.",
       "source_ids": [
         "ncbi-7012"
       ]

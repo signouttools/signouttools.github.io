@@ -1,0 +1,118 @@
+{
+  "id": "fusion-mn1-etv6",
+  "label": "MN1::ETV6",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "MN1",
+      "hgnc_id": "HGNC:7180",
+      "ncbi_gene_id": "4330"
+    },
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    }
+  ],
+  "aliases": [
+    "MGCR::ETV6"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MN1",
+      "text": "MN1 encodes the meningioma 1 protein.",
+      "source_ids": [
+        "ncbi-4330"
+      ],
+      "claim_sha256": "d43c10303d708623f9b6ec3622cfec3b1d19984736072677c19a310212ea75b0",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4330",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4330",
+          "location": "NCBI Gene 4330 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "da31de996b6452dd7d6975f3483c2f1adcb34be0e72dbf011227d11b40482253"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "MN1::ETV6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "f9bc5880c2108a4cb3a4f546601f6cf7e55790e636f3a17dee886075527b86e1",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 4454",
+          "source_rows": [
+            4454
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "MN1 encodes the meningioma 1 protein. ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. MN1::ETV6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-4330",
+      "ncbi-2120",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "fa7eceaa5a1b8fb3749dff86b7623d51be86b210905d31ac731ef32b6fb8eb73"
+}

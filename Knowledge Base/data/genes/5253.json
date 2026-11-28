@@ -83,7 +83,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "HSP90AA1 encodes heat shock protein HSP 90-alpha. It participates in telomere maintenance via telomerase and positive regulation of telomere maintenance via telomerase. Functional annotations also associate the protein with ATP hydrolysis activity and enzyme-substrate adaptor activity.",
+      "text": "HSP90AA1 encodes heat shock protein HSP 90-alpha. It undergoes a functional cycle that is linked to its ATPase activity which is essential for its chaperone activity. This cycle probably induces conformational changes in the client proteins, thereby causing their activation. It interacts dynamically with various co-chaperones that modulate its substrate recognition, ATPase cycle and chaperone function.",
       "source_ids": [
         "ncbi-3320",
         "uniprot-P07900"

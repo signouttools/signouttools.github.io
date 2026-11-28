@@ -123,7 +123,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MECOM encodes histone-lysine N-methyltransferase MECOM. It participates in heterochromatin organization and negative regulation of DNA-templated transcription. Functional annotations also associate the protein with histone H3 methyltransferase activity and histone H3K9 methyltransferase activity.",
+      "text": "MECOM encodes histone-lysine N-methyltransferase MECOM. Based in part on similarity, may also play a role in apoptosis through regulation of the JNK and TGF-beta signaling. It probably catalyzes the monomethylation of free histone H3 in the cytoplasm which is then transported to the nucleus and incorporated into nucleosomes where SUV39H methyltransferases use it as a substrate to catalyze histone H3 'Lys-9' trimethylation. It likely to be one of the primary histone methyltransferases along with PRDM16 that direct cytoplasmic H3K9me1 methylation.",
       "source_ids": [
         "ncbi-2122",
         "uniprot-Q03112"

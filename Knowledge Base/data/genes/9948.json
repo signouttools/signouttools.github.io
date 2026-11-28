@@ -71,7 +71,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RECQL encodes ATP-dependent DNA helicase Q1. It participates in DNA repair and double-strand break repair via homologous recombination. Functional annotations also associate the protein with ATP hydrolysis activity and DNA helicase activity.",
+      "text": "RECQL encodes ATP-dependent DNA helicase Q1. It is a DNA helicase that plays a role in DNA damage repair and genome stability. It exhibits a Mg(2+)- and ATP-dependent DNA-helicase activity that unwinds single- and double-stranded DNA in a 3'-5' direction. It contributes to restoring regressed replication forks.",
       "source_ids": [
         "ncbi-5965",
         "uniprot-P46063"

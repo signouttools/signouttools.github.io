@@ -89,7 +89,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GLI2 encodes transcription activator GLI2 [Cleaved into: Transcription repressor GLI2R]. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "GLI2 encodes transcription activator GLI2. Based in part on similarity, it is a transcription factor that acts as a key effector of the smoothened signaling pathway, and which plays a role in skeleton development. It specifically binds to the minimal GLI-consensus sequence 5'-GACCACCCA-3' to activate or repress the expression of target genes. It functions both as a transcriptional activator and repressor: the full-length GLI2 form (Transcription activator GLI2) acts as a transcription activator following smoothened activation, while the Transcription repressor GLI2R, which is generated in absence of smoothened, acts as a transcription repressor.",
       "source_ids": [
         "ncbi-2736",
         "uniprot-P10070"

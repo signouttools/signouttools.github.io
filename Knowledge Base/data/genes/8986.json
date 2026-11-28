@@ -127,7 +127,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PIM1 encodes serine/threonine-protein kinase pim-1. It participates in positive regulation of DNA-templated transcription and protein stabilization. Functional annotations also associate the protein with protein serine kinase activity and protein serine/threonine kinase activity.",
+      "text": "PIM1 encodes serine/threonine-protein kinase pim-1. Based in part on similarity, it mediates survival signaling through phosphorylation of BAD, which induces release of the anti-apoptotic protein Bcl-X(L)/BCL2L1. It stimulates cell cycle progression at the G1-S and G2-M transitions by phosphorylation of CDC25A and CDC25C. It promotes cell cycle progression and tumorigenesis by down-regulating expression of a regulator of cell cycle progression, CDKN1B, at both transcriptional and post-translational levels.",
       "source_ids": [
         "ncbi-5292",
         "uniprot-P11309"

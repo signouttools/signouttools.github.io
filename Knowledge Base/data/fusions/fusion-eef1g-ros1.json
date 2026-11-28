@@ -1,0 +1,116 @@
+{
+  "id": "fusion-eef1g-ros1",
+  "label": "EEF1G::ROS1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "EEF1G",
+      "hgnc_id": "HGNC:3213",
+      "ncbi_gene_id": "1937"
+    },
+    {
+      "symbol": "ROS1",
+      "hgnc_id": "HGNC:10261",
+      "ncbi_gene_id": "6098"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EEF1G",
+      "text": "EEF1G encodes eukaryotic translation elongation factor 1 gamma.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "c68325e59a4a42f72211070def6bfac42c373c4bd3082c250569fd318c627b64",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3213",
+          "location": "Frozen HGNC TSV: HGNC:3213, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ROS1",
+      "text": "ROS1 encodes a transmembrane receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-6098"
+      ],
+      "claim_sha256": "cf8fa6e349ef6f35e1660591a63860296eea74105a1b77ab7916950dcb065566",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6098",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6098",
+          "location": "NCBI Gene 6098 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f0bd82336a04bf326cb790a1607f50d5c763799bc8ec9faa31cf4c7ac582b0e"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "EEF1G::ROS1 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "ef1904077412c123291b6f117b35e0344cf4ad5188affe733f7d1a9ddcb43f19",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 2037",
+          "source_rows": [
+            2037
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "EEF1G encodes eukaryotic translation elongation factor 1 gamma. ROS1 encodes a transmembrane receptor tyrosine kinase. EEF1G::ROS1 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-6098",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "e10a9a1be1c0b48e9b73a4826b664897ce281f4cc1370924be64e70d9e7d4987"
+}

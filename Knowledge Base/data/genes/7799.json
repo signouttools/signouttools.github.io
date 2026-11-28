@@ -99,7 +99,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NFKBIE encodes NF-kappa-B inhibitor epsilon. It participates in negative regulation of canonical NF-kappaB signal transduction. Functional annotations also associate the protein with protein sequestering activity.",
+      "text": "NFKBIE encodes NF-kappa-B inhibitor epsilon. Based in part on similarity, it sequesters NF-kappa-B transcription factor complexes in the cytoplasm, thereby inhibiting their activity. It limits B-cell activation in response to pathogens, and also plays an important role in B-cell development.",
       "source_ids": [
         "ncbi-4794",
         "uniprot-O00221"

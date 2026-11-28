@@ -62,7 +62,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TEAD1 encodes transcriptional enhancer factor TEF-1. It participates in positive regulation of DNA-templated transcription and positive regulation of miRNA transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "TEAD1 encodes transcriptional enhancer factor TEF-1. The core of this pathway is composed of a kinase cascade wherein MST1/MST2, in complex with its regulatory protein SAV1, phosphorylates and activates LATS1/2 in complex with its regulatory protein MOB1, which in turn phosphorylates and inactivates YAP1 oncoprotein and WWTR1/TAZ. It acts by mediating gene expression of YAP1 and WWTR1/TAZ, thereby regulating cell proliferation, migration and epithelial mesenchymal transition (EMT) induction. The activation function appears to be mediated by a limiting cell-specific transcriptional intermediary factor (TIF).",
       "source_ids": [
         "ncbi-7003",
         "uniprot-P28347"

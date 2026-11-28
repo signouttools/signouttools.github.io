@@ -108,7 +108,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ACADS encodes acyl-CoA dehydrogenase short chain. Its functions include acyl-CoA dehydrogenase activity and flavin adenine dinucleotide binding.",
+      "text": "ACADS encodes acyl-CoA dehydrogenase short chain. Based in part on similarity, short-chain specific acyl-CoA dehydrogenase is one of the acyl-CoA dehydrogenases that catalyze the first step of mitochondrial fatty acid beta-oxidation, an aerobic process breaking down fatty acids into acetyl-CoA and allowing the production of energy from fats. The first step of fatty acid beta-oxidation consists in the removal of one hydrogen from C-2 and C-3 of the straight-chain fatty acyl-CoA thioester, resulting in the formation of trans-2-enoyl-CoA.",
       "source_ids": [
         "ncbi-35",
         "uniprot-P16219"

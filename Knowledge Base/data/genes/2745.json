@@ -168,7 +168,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DDX3X encodes ATP-dependent RNA helicase DDX3X. It participates in intracellular signal transduction and negative regulation of non-canonical NF-kappaB signal transduction. Functional annotations also associate the protein with transcription factor binding and CTPase activity.",
+      "text": "DDX3X encodes ATP-dependent RNA helicase DDX3X. Based in part on similarity, the ATPase activity can be stimulated by various ribo-and deoxynucleic acids indicative for a relaxed substrate specificity. It binds RNA G-quadruplex (rG4s) structures, including those located in the 5'-UTR of NRAS mRNA. It positively regulates CDKN1A/WAF1/CIP1 transcription in an SP1-dependent manner, hence inhibits cell growth.",
       "source_ids": [
         "ncbi-1654",
         "uniprot-O00571"

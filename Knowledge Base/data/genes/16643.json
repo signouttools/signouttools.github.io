@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SLMAP encodes sarcolemmal membrane-associated protein. It participates in muscle contraction and negative regulation of hippo signaling. Functional annotations also associate the protein with protein-macromolecule adaptor activity.",
+      "text": "SLMAP encodes sarcolemmal membrane-associated protein. Based in part on similarity, it associates with the striatin-interacting phosphatase and kinase (STRIPAK) core complex, forming the extended (SIKE1:SLMAP)STRIPAK complex. The (SIKE1:SLMAP)STRIPAK complex dephosphorylates STK3 leading to the inhibition of Hippo signaling and the control of cell growth. May play a role during myoblast fusion.",
       "source_ids": [
         "ncbi-7871",
         "uniprot-Q14BN4"

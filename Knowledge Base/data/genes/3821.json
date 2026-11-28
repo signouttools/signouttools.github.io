@@ -82,7 +82,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FOXO3 encodes forkhead box protein O3. It participates in mitochondrial transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with mitochondrial transcription factor activity and DNA-binding transcription factor activity.",
+      "text": "FOXO3 encodes forkhead box protein O3. Based in part on similarity, it functions as a positive regulator of autophagy in skeletal muscle: in starved cells, enters the nucleus following dephosphorylation and binds the promoters of autophagy genes, such as GABARAP1L, MAP1LC3B and ATG12, thereby activating their expression, resulting in proteolysis of skeletal muscle proteins. It triggers apoptosis in the absence of survival factors, including neuronal cell death upon oxidative stress. It participates in post-transcriptional regulation of MYC: following phosphorylation by MAPKAPK5, promotes induction of miR-34b and miR-34c expression, 2 post-transcriptional regulators of MYC that bind to the 3'UTR of MYC transcript and prevent its translation.",
       "source_ids": [
         "ncbi-2309",
         "uniprot-O43524"

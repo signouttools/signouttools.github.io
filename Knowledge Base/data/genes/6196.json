@@ -72,7 +72,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "JARID2 encodes protein Jumonji. It participates in negative regulation of transcription by RNA polymerase II and chromatin remodeling. Functional annotations also associate the protein with histone H3K27 methyltransferase activity and chromatin binding.",
+      "text": "JARID2 encodes protein Jumonji. Based in part on similarity, it is a histone reader that acts as a regulator of histone methyltransferase complexes, thereby playing an essential role in embryonic development, including heart and liver development, neural tube fusion process and hematopoiesis. It specifically recognizes and binds histone H2A ubiquitinated at 'Lys-119' (H2AK119Ub). It functions as an accessory subunit for the core PRC2 (Polycomb repressive complex 2) complex, which mediates histone H3K27 (H3K27me3) trimethylation on chromatin.",
       "source_ids": [
         "ncbi-3720",
         "uniprot-Q92833"

@@ -81,7 +81,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FGF1 encodes fibroblast growth factor 1. It participates in positive regulation of MAP kinase activity and signal transduction. Functional annotations also associate the protein with growth factor activity and heparin binding.",
+      "text": "FGF1 encodes fibroblast growth factor 1. It contributes to the regulation of cell survival, cell division, angiogenesis, cell differentiation and cell migration. It functions as a ligand for FGFR1 and integrins. It binds to FGFR1 in the presence of heparin leading to FGFR1 dimerization and activation via sequential autophosphorylation on tyrosine residues which act as docking sites for interacting proteins, leading to the activation of several signaling cascades.",
       "source_ids": [
         "ncbi-2246",
         "uniprot-P05230"

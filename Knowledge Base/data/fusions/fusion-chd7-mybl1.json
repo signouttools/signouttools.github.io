@@ -1,0 +1,118 @@
+{
+  "id": "fusion-chd7-mybl1",
+  "label": "CHD7::MYBL1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "CHD7",
+      "hgnc_id": "HGNC:20626",
+      "ncbi_gene_id": "55636"
+    },
+    {
+      "symbol": "MYBL1",
+      "hgnc_id": "HGNC:7547",
+      "ncbi_gene_id": "4603"
+    }
+  ],
+  "aliases": [
+    "CRG::MYBL1"
+  ],
+  "tumor_contexts": [
+    "Pediatric high-grade glioma"
+  ],
+  "disease_ids": [
+    "fusion-context-cca7a6625b3f"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CHD7",
+      "text": "CHD7 encodes chromodomain helicase DNA binding protein 7.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "b3ea9bee8c1fd3b2c3ac4690ba9a40e33af458b4ae179fe6cfe932f67c76ff36",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:20626",
+          "location": "Frozen HGNC TSV: HGNC:20626, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MYBL1",
+      "text": "MYBL1 encodes a MYB-family transcription factor.",
+      "source_ids": [
+        "ncbi-4603"
+      ],
+      "claim_sha256": "3c1de0a1875ffc95ee4087452717cb2e1d87de1a8ad8dd55cf8d01868288c5d1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4603",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4603",
+          "location": "NCBI Gene 4603 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b446970711bd093a825ecd49258219d1662dce033f89ea365c50169dfaeb71d0"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "CHD7::MYBL1 was reported in specimens labeled as Pediatric high-grade glioma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "727d620bf712186d28c996616cca5d5b81d629a2180cbad5d1d665fc3627bc41",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3198",
+          "source_rows": [
+            3198
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "CHD7 encodes chromodomain helicase DNA binding protein 7. MYBL1 encodes a MYB-family transcription factor. CHD7::MYBL1 was reported in specimens labeled as Pediatric high-grade glioma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-4603",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "297b3f85443dda6b9a4054fcfc0ba08870287c24e7de2516fad61eca8a51bbef"
+}

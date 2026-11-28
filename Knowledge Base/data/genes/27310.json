@@ -135,7 +135,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FLCN encodes folliculin. It participates in intracellular signal transduction and regulation of Ras protein signal transduction. Functional annotations also associate the protein with GTPase activator activity and enzyme inhibitor activity.",
+      "text": "FLCN encodes folliculin. Based in part on similarity, it is a GTPase-activating protein that plays a key role in the cellular response to amino acid availability through regulation of the non-canonical mTORC1 signaling cascade controlling the MiT/TFE factors TFEB and TFE3. It activates mTORC1 by acting as a GTPase-activating protein: specifically stimulates GTP hydrolysis by RagC/RRAGC or RagD/RRAGD, promoting the conversion to the GDP-bound state of RagC/RRAGC or RagD/RRAGD, and thereby activating the kinase activity of mTORC1. The GTPase-activating activity is inhibited during starvation and activated in presence of nutrients.",
       "source_ids": [
         "ncbi-201163",
         "uniprot-Q8NFG4"

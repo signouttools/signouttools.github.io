@@ -161,7 +161,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KEAP1 encodes kelch-like ECH-associated protein 1. It participates in negative regulation of transcription by RNA polymerase II and protein ubiquitination. Functional annotations also associate the protein with transcription regulator inhibitor activity and RNA polymerase II-specific DNA-binding transcription factor binding.",
+      "text": "KEAP1 encodes kelch-like ECH-associated protein 1. It is a substrate-specific adapter of a BCR (BTB-CUL3-RBX1) E3 ubiquitin ligase complex that regulates the response to oxidative stress by targeting NFE2L2/NRF2 for ubiquitination. The BCR(KEAP1) complex also mediates ubiquitination of SQSTM1/p62, increasing SQSTM1/p62 sequestering activity and degradation. The BCR(KEAP1) complex also targets BPTF and PGAM5 for ubiquitination and degradation by the proteasome.",
       "source_ids": [
         "ncbi-9817",
         "uniprot-Q14145"

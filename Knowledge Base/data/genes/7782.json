@@ -197,7 +197,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NFE2L2 encodes nuclear factor erythroid 2-related factor 2. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "NFE2L2 encodes nuclear factor erythroid 2-related factor 2. Based in part on similarity, it is a transcription factor that plays a key role in the response to oxidative stress: binds to antioxidant response (ARE) elements present in the promoter region of many cytoprotective genes, such as phase 2 detoxifying enzymes, and promotes their expression, thereby neutralizing reactive electrophiles. The NFE2L2/NRF2 pathway is also activated in response to selective autophagy: autophagy promotes interaction between KEAP1 and SQSTM1/p62 and subsequent inactivation of the BCR(KEAP1) complex, leading to NFE2L2/NRF2 nuclear accumulation and expression of cytoprotective genes. The NFE2L2/NRF2 pathway is also activated during the unfolded protein response (UPR), contributing to redox homeostasis and cell survival following endoplasmic reticulum stress.",
       "source_ids": [
         "ncbi-4780",
         "uniprot-Q16236"

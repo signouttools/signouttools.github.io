@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EZH1 encodes histone-lysine N-methyltransferase EZH1. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with protein-lysine N-methyltransferase activity and transcription corepressor activity.",
+      "text": "EZH1 encodes histone-lysine N-methyltransferase EZH1. It is a catalytic subunit of the PRC2/EED-EZH1 complex, which methylates 'Lys-27' of histone H3, leading to transcriptional repression of the affected target gene. It is required for embryonic stem cell derivation and self-renewal, suggesting that it is involved in safeguarding embryonic stem cell identity. Compared to EZH2-containing complexes, it is less abundant in embryonic stem cells, has weak methyltransferase activity and plays a less critical role in forming H3K27me3, which is required for embryonic stem cell identity and proper differentiation.",
       "source_ids": [
         "ncbi-2145",
         "uniprot-Q92800"

@@ -42,6 +42,20 @@ for d in decisions:
     by_original[k]=d
     d['original_text']=original_claims[k]['text']
 if by_original.keys()!=original_claims.keys():raise ValueError('Missing decisions: '+str(original_claims.keys()-by_original.keys()))
+expansion_batches=[]
+for path in sorted(CUR.glob('expansion-cohort*.json')):
+    fragment=load(path)
+    labels=[e['label'] for e in fragment['entries']]
+    if len(labels)!=len(set(labels)) or set(labels)&revised.keys():raise ValueError('Expansion overlaps existing audit '+path.name)
+    claims={(e['label'],s['kind'],digest(s['text'])) for e in fragment['entries'] for s in e['sections']}
+    reviewed=[(d['label'],d['section_kind'],d['original_text_sha256']) for d in fragment['decisions']]
+    if len(reviewed)!=len(set(reviewed)) or set(reviewed)!=claims:raise ValueError('Expansion audit coverage mismatch '+path.name)
+    for d in fragment['decisions']:
+        if digest(d['original_text'])!=d['original_text_sha256']:raise ValueError('Stale expansion decision '+d['label'])
+    for s in fragment['added_sources']:source_map[s['id']]=s
+    revised.update({e['label']:e for e in fragment['entries']})
+    decisions+=fragment['decisions']
+    expansion_batches.append({'file':path.name,'entry_count':len(labels),'claim_count':len(reviewed),'scope':'cohort_observation'})
 accepted_access={'primary_fulltext','official_regulatory','guideline','gene_reference','identity_reference','authoritative_reference'}
 for label,e in revised.items():
     retained=[]
@@ -63,10 +77,14 @@ for label,e in revised.items():
     biological=[s for s in retained if s['kind'] in ['fusion_mechanism','tumor_relevance','prognosis']]
     primary=any(s['audit']['status']=='primary_fulltext_supported' for s in biological)
     e['audit']={'status':'primary_fulltext_supported' if primary else 'reference_supported','audited_on':'2026-11-27','summary':('Primary body/results support the retained fusion claims identified below. ' if primary else 'The retained fusion association is supported by the named authoritative references; primary full-text confirmation remains incomplete. ')+'Gene-partner descriptions were checked separately against gene or identity references. Unsupported subclaims were removed. Specialist approval remains pending.'}
+    if e.get('evidence_scope')=='cohort_observation':
+        e['audit']['summary']='The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending.'
 base['entries']=[revised[e['label']] for e in base['entries']]
+base['entries'] += [revised[label] for label in revised if label not in original]
 base['audit_status']='claim_review_applied_with_explicit_primary_access_gaps'
 save(CUR/'draft-content.json',base);save(CUR/'sources.json',list(source_map.values()))
 result={'audited_on':'2026-11-27','status':'claim_review_applied_with_access_limits','method':'Explicit inspection of primary body/results or designated regulatory/guideline evidence; no term matching or abstract-only verification.','original_claim_count':len(original_claims),'decisions':decisions,'held_entries':held,'limitations':['Normal partner descriptions use gene/identity references, not a primary full-text audit.','Retained guideline/reference-only disease associations are distinguished from primary-supported claims.','Regulatory eligibility statements are checked against official sources, not labeled primary biological evidence.','Some primary full texts were inaccessible; these are not certified and unsupported language is excluded.']}
 result['followup_passes']=followup_passes
+result['expansion_batches']=expansion_batches
 save(CUR/'audit-decisions.json',result)
 print('Applied',len(decisions),'fusion-section decisions;',collections.Counter(d['decision'] for d in decisions))

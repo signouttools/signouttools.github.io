@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IRF2 encodes interferon regulatory factor 2. It participates in regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "IRF2 encodes interferon regulatory factor 2. Based in part on similarity, it is a DNA-binding transcription factor that specifically binds to the upstream regulatory region of type I interferon (IFN) and IFN-inducible genes and regulates their expression. It also acts as an activator for several genes including H4 and IL7. Constitutively binds to the ISRE promoter to activate IL7.",
       "source_ids": [
         "ncbi-3660",
         "uniprot-P14316"

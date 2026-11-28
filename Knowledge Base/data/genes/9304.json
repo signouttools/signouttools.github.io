@@ -69,7 +69,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PPP2R2A encodes serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B alpha isoform. It participates in protein dephosphorylation and regulation of chromosome segregation. Functional annotations also associate the protein with enzyme-substrate adaptor activity and protein phosphatase regulator activity.",
+      "text": "PPP2R2A encodes serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B alpha isoform. Based in part on similarity, it is a substrate-recognition subunit of protein phosphatase 2A (PP2A) that plays a key role in cell cycle by controlling mitosis entry and exit. It participates in chromosome clustering during late mitosis by mediating dephosphorylation of MKI67. It is essential for serine/threonine-protein phosphatase 2A-mediated dephosphorylation of WEE1, preventing its ubiquitin-mediated proteolysis, increasing WEE1 protein levels, and promoting the G2/M checkpoint.",
       "source_ids": [
         "ncbi-5520",
         "uniprot-P63151"

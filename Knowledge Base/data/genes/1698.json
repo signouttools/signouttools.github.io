@@ -113,7 +113,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CD79A encodes b-cell antigen receptor complex-associated protein alpha chain. It participates in B cell activation and B cell differentiation. Functional annotations also associate the protein with transmembrane signaling receptor activity.",
+      "text": "CD79A encodes b-cell antigen receptor complex-associated protein alpha chain. It is also required for BCR surface expression and for efficient differentiation of pro- and pre-B-cells. It stimulates SYK autophosphorylation and activation. It binds to BLNK, bringing BLNK into proximity with SYK and allowing SYK to phosphorylate BLNK.",
       "source_ids": [
         "ncbi-973",
         "uniprot-P11912"

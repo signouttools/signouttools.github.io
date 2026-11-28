@@ -95,7 +95,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "XRCC2 encodes DNA repair protein XRCC2. It participates in DNA repair and double-strand break repair via homologous recombination. Functional annotations also associate the protein with ATP-dependent DNA damage sensor activity.",
+      "text": "XRCC2 encodes DNA repair protein XRCC2. It participates in the homologous recombination repair (HRR) pathway of double-stranded DNA, thought to repair chromosomal fragmentation, translocations and deletions. It forms part of the RAD51 paralog protein complex BCDX2 which acts in the BRCA1-BRCA2-dependent HR pathway. BCDX2 binds predominantly to the intersection of the four duplex arms of the Holliday junction and to junction of replication forks.",
       "source_ids": [
         "ncbi-7516",
         "uniprot-O43543"

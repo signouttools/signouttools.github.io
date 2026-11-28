@@ -122,7 +122,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "HLA-B encodes HLA class I histocompatibility antigen, B alpha chain. It participates in defense response and immune response. Functional annotations also associate the protein with TAP binding and beta-2-microglobulin binding.",
+      "text": "HLA-B encodes HLA class I histocompatibility antigen, B alpha chain. May also present self-peptides derived from the signal sequence of secreted or membrane proteins, although T cells specific for these peptides are usually inactivated to prevent autoreactivity. It typically presents intracellular peptide antigens of 8 to 13 amino acids that arise from cytosolic proteolysis via constitutive proteasome and IFNG-induced immunoproteasome. It presents an EBV/HHV-4 epitope derived from BZLF1 (SELEIKRY).",
       "source_ids": [
         "ncbi-3106",
         "uniprot-P01889"

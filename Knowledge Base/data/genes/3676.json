@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FGF2 encodes fibroblast growth factor 2. It participates in positive regulation of MAP kinase activity and signal transduction. Functional annotations also associate the protein with chemoattractant activity and cytokine activity.",
+      "text": "FGF2 encodes fibroblast growth factor 2. It functions as a ligand for FGFR1, FGFR2, FGFR3 and FGFR4. It also acts as an integrin ligand which is required for FGF2 signaling. It contributes to the regulation of cell survival, cell division, cell differentiation and cell migration.",
       "source_ids": [
         "ncbi-2247",
         "uniprot-P09038"

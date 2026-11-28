@@ -229,9 +229,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "BAP1 encodes a deubiquitinase involved in chromatin regulation and other cellular processes, including regulation of transcription and DNA-damage responses.",
+      "text": "BAP1 encodes a deubiquitinase involved in chromatin regulation and other cellular processes, including regulation of transcription and DNA-damage responses. It is the catalytic component of the polycomb repressive deubiquitinase (PR-DUB) complex, a complex that specifically mediates deubiquitination of histone H2A monoubiquitinated at 'Lys-120' (H2AK119ub1). It does not deubiquitinate monoubiquitinated histone H2B.",
       "source_ids": [
-        "ncbi-8314"
+        "ncbi-8314",
+        "uniprot-Q92560"
       ]
     },
     "germline": {

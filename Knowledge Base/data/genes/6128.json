@@ -61,7 +61,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IRS4 encodes insulin receptor substrate 4. It participates in signal transduction and phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with transmembrane receptor protein tyrosine kinase adaptor activity and insulin receptor binding.",
+      "text": "IRS4 encodes insulin receptor substrate 4. It functions as an interface between multiple growth factor receptors possessing tyrosine kinase activity, such as insulin receptor, IGF1R and FGFR1, and a complex network of intracellular signaling molecules containing SH2 domains. It participates in the IGF1R mitogenic signaling pathway. It promotes the AKT1 signaling pathway and BAD phosphorylation during insulin stimulation without activation of RPS6KB1 or the inhibition of apoptosis.",
       "source_ids": [
         "ncbi-8471",
         "uniprot-O14654"

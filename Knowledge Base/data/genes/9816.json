@@ -133,7 +133,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RAD50 encodes DNA repair protein RAD50. It participates in DNA repair and homologous recombination. Functional annotations also associate the protein with ATP hydrolysis activity and protein-macromolecule adaptor activity.",
+      "text": "RAD50 encodes DNA repair protein RAD50. Based in part on similarity, it forms part of the MRN complex, which plays a central role in double-strand break (DSB) repair, DNA recombination, maintenance of telomere integrity and meiosis. The MRN complex is involved in the repair of DNA double-strand breaks (DSBs) via homologous recombination (HR), an error-free mechanism which primarily occurs during S and G2 phases. The complex (1) mediates the end resection of damaged DNA, which generates proper single-stranded DNA, a key initial steps in HR, and is (2) required for the recruitment of other repair factors and efficient activation of ATM and ATR upon DNA damage.",
       "source_ids": [
         "ncbi-10111",
         "uniprot-Q92878"

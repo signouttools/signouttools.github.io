@@ -1,0 +1,116 @@
+{
+  "id": "fusion-ewsr1-elf5",
+  "label": "EWSR1::ELF5",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "EWSR1",
+      "hgnc_id": "HGNC:3508",
+      "ncbi_gene_id": "2130"
+    },
+    {
+      "symbol": "ELF5",
+      "hgnc_id": "HGNC:3320",
+      "ncbi_gene_id": "2001"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EWSR1",
+      "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription.",
+      "source_ids": [
+        "ncbi-2130"
+      ],
+      "claim_sha256": "cd9e977579b9dc450c4d0572ddc09b89201e08c146dc2392801ca7483bd0aecd",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2130",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2130",
+          "location": "NCBI Gene 2130 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "3c6860439824412256f34210cfd2daffc399baed2970a38c2f1e5c5136188780"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ELF5",
+      "text": "ELF5 encodes E74 like ETS transcription factor 5.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "c9d79fdd1f0abdc43122a0b7e07d3f6d444c2025633ee629264a223d4491390a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3320",
+          "location": "Frozen HGNC TSV: HGNC:3320, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "EWSR1::ELF5 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "836b9aa34854196ae7f94f790e0cf235d8a50e59584fe629e8bd803624bc9840",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1359",
+          "source_rows": [
+            1359
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ELF5 encodes E74 like ETS transcription factor 5. EWSR1::ELF5 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2130",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "c0933ee17b4240b5a576163ed3561d68be3dac78ad5c41010a2e5aa72f80b8bf"
+}

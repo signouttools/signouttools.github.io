@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PARN encodes poly(A)-specific ribonuclease PARN. It participates in positive regulation of telomere maintenance via telomerase and RNA modification. Functional annotations also associate the protein with nuclease activity and 3'-5'-RNA exonuclease activity.",
+      "text": "PARN encodes poly(A)-specific ribonuclease PARN. It interacts with both the 3'-end poly(A) tail and the 5'-end cap structure during degradation, the interaction with the cap structure being required for an efficient degradation of poly(A) tails. It participates in nonsense-mediated mRNA decay, a critical process of selective degradation of mRNAs that contain premature stop codons.",
       "source_ids": [
         "ncbi-5073",
         "uniprot-O95453"

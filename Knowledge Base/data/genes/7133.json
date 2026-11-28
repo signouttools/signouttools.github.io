@@ -460,7 +460,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KMT2D encodes histone-lysine N-methyltransferase 2D. It participates in regulation of DNA-templated transcription and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with transcription coactivator activity and histone H3K4 methyltransferase activity.",
+      "text": "KMT2D encodes histone-lysine N-methyltransferase 2D. It is a histone methyltransferase that catalyzes methyl group transfer from S-adenosyl-L-methionine to the epsilon-amino group of 'Lys-4' of histone H3 (H3K4). It forms part of chromatin remodeling machinery predominantly forms H3K4me1 methylation marks at active chromatin sites where transcription and DNA repair take place. It functions as a coactivator for estrogen receptor by being recruited by ESR1, thereby activating transcription.",
       "source_ids": [
         "ncbi-8085",
         "uniprot-O14686"

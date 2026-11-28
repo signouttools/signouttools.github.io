@@ -93,7 +93,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IFNGR1 encodes interferon gamma receptor 1. It participates in signal transduction and astrocyte activation. Functional annotations also associate the protein with cytokine receptor activity and type II interferon receptor activity.",
+      "text": "IFNGR1 encodes interferon gamma receptor 1. Based in part on similarity, it is a receptor subunit for interferon gamma/INFG that plays crucial roles in antimicrobial, antiviral, and antitumor responses by activating effector immune cells and enhancing antigen presentation. It associates with transmembrane accessory factor IFNGR2 to form a functional receptor. STAT3 can also be activated in a similar manner although activation seems weaker.",
       "source_ids": [
         "ncbi-3459",
         "uniprot-P15260"

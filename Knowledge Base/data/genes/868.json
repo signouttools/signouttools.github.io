@@ -87,7 +87,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ATP6AP1 encodes v-type proton ATPase subunit S1. It participates in osteoclast development and vacuolar acidification. Functional annotations also associate the protein with small GTPase binding.",
+      "text": "ATP6AP1 encodes v-type proton ATPase subunit S1. Based in part on similarity, V-ATPase is responsible for acidifying and maintaining the pH of intracellular compartments and in some cell types, is targeted to the plasma membrane, where it promotes acidification of the extracellular environment. The V-ATPase complex also acts as an activator for mTORC1 on lysosomal membrane by promoting the guanine nucleotide exchange factor (GEF) of the Ragulator complex, thereby enabling mTORC1 recruitment. It guides the V-type ATPase into specialized subcellular compartments, such as neuroendocrine regulated secretory vesicles or the ruffled border of the osteoclast, thereby regulating its activity.",
       "source_ids": [
         "ncbi-537",
         "uniprot-Q15904"

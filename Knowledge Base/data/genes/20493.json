@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD3 encodes actin-histidine N-methyltransferase. It participates in positive regulation of DNA-templated transcription and actin filament organization. Functional annotations also associate the protein with protein-L-histidine N-tele-methyltransferase activity and transcription coactivator activity.",
+      "text": "SETD3 encodes actin-histidine N-methyltransferase. It is a protein-histidine N-methyltransferase that specifically mediates 3-methylhistidine (tele-methylhistidine) methylation of actin at 'His-73'. Histidine methylation of actin is required for smooth muscle contraction of the laboring uterus during delivery. It does not have protein-lysine N-methyltransferase activity and probably only catalyzes histidine methylation of actin.",
       "source_ids": [
         "ncbi-84193",
         "uniprot-Q86TU7"

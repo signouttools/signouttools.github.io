@@ -187,9 +187,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "EZH2 encodes the catalytic methyltransferase component of polycomb repressive complex 2, which methylates histone H3 lysine 27 to regulate transcriptional repression.",
+      "text": "EZH2 encodes the catalytic methyltransferase component of polycomb repressive complex 2, which methylates histone H3 lysine 27 to regulate transcriptional repression. Based in part on similarity, it is a catalytic subunit of the PRC2/EED-EZH2 complex, a Polycomb group (PcG) complex that methylates 'Lys-9' (H3K9me) and 'Lys-27' (H3K27me) of histone H3, leading to transcriptional repression of the affected target gene. It displays a preference for substrates with less methylation, loses activity when progressively more methyl groups are incorporated into H3K27, H3K27me0 > H3K27me1 > H3K27me2. Compared to EZH1-containing complexes, it is more abundant in embryonic stem cells and plays a major role in forming H3K27me3, which is required for embryonic stem cell identity and proper differentiation.",
       "source_ids": [
-        "ncbi-2146"
+        "ncbi-2146",
+        "uniprot-Q15910"
       ]
     },
     "germline": {

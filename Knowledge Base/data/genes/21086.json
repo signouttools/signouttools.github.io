@@ -68,7 +68,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MIB1 encodes E3 ubiquitin-protein ligase MIB1. It participates in endocytosis and protein ubiquitination. Functional annotations also associate the protein with ubiquitin-protein transferase activity and ubiquitin protein ligase activity.",
+      "text": "MIB1 encodes an E3 ubiquitin ligase that promotes Delta-mediated NOTCH signaling. It ubiquitinates Delta-family ligands, facilitating their endocytosis and the signaling interaction with NOTCH. The distinction between ligand and receptor is important to this mechanism: the normal functional description concerns modification of the ligand-bearing signaling partner.",
       "source_ids": [
         "ncbi-57534",
         "uniprot-Q86YT6"

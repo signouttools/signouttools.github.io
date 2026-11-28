@@ -64,7 +64,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "XRCC1 encodes DNA repair protein XRCC1. It participates in regulation of DNA repair and base-excision repair. Functional annotations also associate the protein with 3' overhang single-stranded DNA endonuclease activity and poly-ADP-D-ribose binding.",
+      "text": "XRCC1 encodes DNA repair protein XRCC1. It is a scaffold protein involved in DNA single-strand break repair by mediating the assembly of DNA break repair protein complexes. It negatively regulates ADP-ribosyltransferase activity of PARP1 during base-excision repair in order to prevent excessive PARP1 activity. It recognizes and binds poly-ADP-ribose chains: specifically binds auto-poly-ADP-ribosylated PARP1, limiting its activity.",
       "source_ids": [
         "ncbi-7515",
         "uniprot-P18887"

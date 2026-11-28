@@ -61,7 +61,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RBM15 encodes RNA-binding protein 15. It participates in regulation of alternative mRNA splicing, via spliceosome and RNA methylation. Functional annotations also associate the protein with mRNA binding.",
+      "text": "RBM15 encodes RNA-binding protein 15. Based in part on similarity, it is an RNA-binding protein that acts as a key regulator of N6-methyladenosine (m6A) methylation of RNAs, thereby regulating different processes, such as hematopoietic cell homeostasis, alternative splicing of mRNAs and X chromosome inactivation mediated by Xist RNA. It contributes to m6A methylation, possibly by binding target RNAs and recruiting the WMM complex. It participates in random X inactivation mediated by Xist RNA: acts by binding Xist RNA and recruiting the WMM complex, which mediates m6A methylation, leading to target YTHDC1 reader on Xist RNA and promoting transcription repression activity of Xist.",
       "source_ids": [
         "ncbi-64783",
         "uniprot-Q96T37"

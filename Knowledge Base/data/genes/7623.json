@@ -89,7 +89,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MYT1L encodes myelin transcription factor 1 like. Its functions include cobalt ion binding and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "MYT1L encodes myelin transcription factor 1 like. Based in part on similarity, it is a transcription factor that plays a key role in neuronal differentiation by specifically repressing expression of non-neuronal genes during neuron differentiation. It also represses expression of negative regulators of neurogenesis, such as members of the Notch signaling pathway, including HES1. It directly binds the 5'-AAGTT-3' core motif present on the promoter of target genes and represses transcription by recruiting a multiprotein complex containing SIN3B.",
       "source_ids": [
         "ncbi-23040",
         "uniprot-Q9UL68"

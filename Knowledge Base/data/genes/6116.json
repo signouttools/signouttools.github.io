@@ -72,7 +72,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IRF1 encodes interferon regulatory factor 1. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "IRF1 encodes interferon regulatory factor 1. It stimulates both innate and acquired immune responses through the activation of specific target genes and can act as a transcriptional activator and repressor regulating target genes by binding to an interferon-stimulated response element (ISRE) in their promoters. It has an essential role in IFNG-dependent immunity to mycobacteria. It competes with the transcriptional repressor ZBED2 for binding to a common consensus sequence in gene promoters.",
       "source_ids": [
         "ncbi-3659",
         "uniprot-P10914"

@@ -66,7 +66,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NFKBIZ encodes NF-kappa-B inhibitor zeta. It participates in regulation of gene expression and T cell receptor signaling pathway. Functional annotations also associate the protein with POU domain binding.",
+      "text": "NFKBIZ encodes NF-kappa-B inhibitor zeta. Based in part on similarity, it participates in regulation of NF-kappa-B transcription factor complexes. It inhibits NF-kappa-B activity without affecting its nuclear translocation upon stimulation. It inhibits DNA-binding of RELA and NFKB1/p50, and of the NF-kappa-B p65-p50 heterodimer and the NF-kappa-B p50-p50 homodimer.",
       "source_ids": [
         "ncbi-64332",
         "uniprot-Q9BYH8"

@@ -66,7 +66,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MPEG1 encodes macrophage-expressed gene 1 protein [Cleaved into: Macrophage-expressed gene 1 protein, processed form]. It participates in antibacterial innate immune response and defense response to bacterium. Functional annotations also associate the protein with wide pore channel activity.",
+      "text": "MPEG1 encodes macrophage-expressed gene 1 protein. Based in part on similarity, it plays a central role in antigen cross-presentation in dendritic cells by forming a pore in antigen-containing compartments, thereby promoting delivery of antigens for cross-presentation. It acts by forming a pore in antigen-containing compartments, promoting the release of antigens into the cytosol, enabling generation of MHCI:peptide complexes and T-cell priming.",
       "source_ids": [
         "ncbi-219972",
         "uniprot-Q2M385"

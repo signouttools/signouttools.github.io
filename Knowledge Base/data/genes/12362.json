@@ -205,7 +205,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TSC1 encodes hamartin. It participates in activation of GTPase activity and negative regulation of ATP-dependent activity. Functional annotations also associate the protein with ATPase inhibitor activity and protein folding chaperone.",
+      "text": "TSC1 encodes hamartin. Based in part on similarity, the TSC-TBC complex acts as a GTPase-activating protein (GAP) for the small GTPase RHEB, a direct activator of the protein kinase activity of mTORC1. The TSC-TBC complex is inactivated in response to nutrients, relieving inhibition of mTORC1. It participates in microtubule-mediated protein transport via its ability to regulate mTORC1 signaling.",
       "source_ids": [
         "ncbi-7248",
         "uniprot-Q92574"

@@ -140,7 +140,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BRIP1 encodes Fanconi anemia group J protein. It participates in DNA repair and homologous recombination. Functional annotations also associate the protein with ATP hydrolysis activity and DNA helicase activity.",
+      "text": "BRIP1 encodes Fanconi anemia group J protein. It is a DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of chromosomal stability. It acts late in the Fanconi anemia pathway, after FANCD2 ubiquitination. It participates in the repair of DNA double-strand breaks by homologous recombination in a manner that depends on its association with BRCA1.",
       "source_ids": [
         "ncbi-83990",
         "uniprot-Q9BX63"

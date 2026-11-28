@@ -76,7 +76,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TRIM65 encodes tripartite motif containing 65. Its functions include protein domain specific binding and ubiquitin protein ligase activity.",
+      "text": "TRIM65 encodes tripartite motif containing 65. It is an E3 ubiquitin ligase that plays a role in several processes including innate immnity, autophagy or inflammation. It negatively regulates miRNAs by modulating the ubiquitination and stability of TNRC6A, a protein involved in RNA-mediated gene silencing by both micro-RNAs (miRNAs) and short interfering RNAs. This ubiquitination results in the suppressed expression of miR-138-5p leading to increased autophagy.",
       "source_ids": [
         "ncbi-201292",
         "uniprot-Q6PJ69"

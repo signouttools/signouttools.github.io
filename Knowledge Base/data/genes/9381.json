@@ -68,7 +68,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PRKACB encodes cAMP-dependent protein kinase catalytic subunit beta. It participates in signal transduction and protein phosphorylation. Functional annotations also associate the protein with cAMP-dependent protein kinase activity and protein serine kinase activity.",
+      "text": "PRKACB encodes cAMP-dependent protein kinase catalytic subunit beta. It mediates cAMP-dependent signaling triggered by receptor binding to GPCRs. PKA activation regulates diverse cellular processes such as cell proliferation, the cell cycle, differentiation and regulation of microtubule dynamics, chromatin condensation and decondensation, nuclear envelope disassembly and reassembly, as well as regulation of intracellular transport mechanisms and ion flux. It regulates the abundance of compartmentalized pools of its regulatory subunits through phosphorylation of PJA2 which binds and ubiquitinates these subunits, leading to their subsequent proteolysis.",
       "source_ids": [
         "ncbi-5567",
         "uniprot-P22694"

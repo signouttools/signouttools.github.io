@@ -154,7 +154,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MAP2K4 encodes dual specificity mitogen-activated protein kinase kinase 4. It participates in signal transduction and JNK cascade. Functional annotations also associate the protein with protein kinase activity and JUN kinase kinase activity.",
+      "text": "MAP2K4 encodes dual specificity mitogen-activated protein kinase kinase 4. It is an essential component of the stress-activated protein kinase/c-Jun N-terminal kinase (SAP/JNK) signaling pathway. With MAP2K7/MKK7, is the one of the only known kinase to directly activate the stress-activated protein kinase/c-Jun N-terminal kinases MAPK8/JNK1, MAPK9/JNK2 and MAPK10/JNK3. The phosphorylation of the Thr residue by MAP2K7/MKK7 seems to be the prerequisite for JNK activation at least in response to pro-inflammatory cytokines, while other stimuli activate both MAP2K4/MKK4 and MAP2K7/MKK7 which synergistically phosphorylate JNKs.",
       "source_ids": [
         "ncbi-6416",
         "uniprot-P45985"

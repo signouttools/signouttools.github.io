@@ -71,7 +71,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EGR1 encodes early growth response protein 1. It participates in positive regulation of DNA-templated transcription and positive regulation of miRNA transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "EGR1 encodes early growth response protein 1. Based in part on similarity, it recognizes and binds to the DNA sequence 5'-GCG(T/G)GGGCG-3'(EGR-site) in the promoter region of target genes. It binds double-stranded target DNA, irrespective of the cytosine methylation status. It regulates the transcription of numerous target genes, and thereby plays an important role in regulating the response to growth factors, DNA damage, and ischemia.",
       "source_ids": [
         "ncbi-1958",
         "uniprot-P18146"

@@ -72,7 +72,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DUX4 encodes double homeobox protein 4. It participates in regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "text": "DUX4 encodes double homeobox protein 4. It binds to double-stranded DNA elements with the consensus sequence 5'-TAATCTAATCA-3'. It binds to chromatin containing histone H3 acetylated at 'Lys-27' (H3K27ac) and promotes deacetylation of H3K27ac. It participates in transcriptional regulation of numerous genes, primarily as transcriptional activator, but also mediates repression of a set of target genes.",
       "source_ids": [
         "ncbi-100288687",
         "uniprot-Q9UBX2"

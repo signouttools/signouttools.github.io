@@ -78,7 +78,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "UBE2D3 encodes ubiquitin conjugating enzyme E2 D3. Its functions include ubiquitin conjugating enzyme activity and ubiquitin protein ligase activity.",
+      "text": "UBE2D3 encodes ubiquitin conjugating enzyme E2 D3. It accepts ubiquitin from the E1 complex and catalyzes its covalent attachment to other proteins. It cooperates with the E2 CDC34 and the SCF(FBXW11) E3 ligase complex for the polyubiquitination of NFKBIA leading to its subsequent proteasomal degradation. It functions as an initiator E2, priming the phosphorylated NFKBIA target at positions 'Lys-21' and/or 'Lys-22' with a monoubiquitin.",
       "source_ids": [
         "ncbi-7323",
         "uniprot-P61077"

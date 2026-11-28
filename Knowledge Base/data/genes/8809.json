@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PDK1 encodes [Pyruvate dehydrogenase] kinase isozyme 1, mitochondrial. It participates in phosphatidylinositol 3-kinase/protein kinase B signal transduction and cell population proliferation. Functional annotations also associate the protein with protein kinase activity and pyruvate dehydrogenase (acetyl-transferring) kinase activity.",
+      "text": "PDK1 encodes pyruvate dehydrogenase kinase 1. This inhibits pyruvate dehydrogenase activity, and thereby regulates metabolite flux through the tricarboxylic acid cycle, down-regulates aerobic respiration and inhibits the formation of acetyl-coenzyme A from pyruvate. It contributes to cellular responses to hypoxia and is important for cell proliferation under hypoxia.",
       "source_ids": [
         "ncbi-5163",
         "uniprot-Q15118"

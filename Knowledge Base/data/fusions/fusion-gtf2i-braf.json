@@ -1,0 +1,118 @@
+{
+  "id": "fusion-gtf2i-braf",
+  "label": "GTF2I::BRAF",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "GTF2I",
+      "hgnc_id": "HGNC:4659",
+      "ncbi_gene_id": "2969"
+    },
+    {
+      "symbol": "BRAF",
+      "hgnc_id": "HGNC:1097",
+      "ncbi_gene_id": "673"
+    }
+  ],
+  "aliases": [
+    "WBSCR6::BRAF"
+  ],
+  "tumor_contexts": [
+    "Pediatric glioneuronal tumor, NOS"
+  ],
+  "disease_ids": [
+    "fusion-context-aa43098b0c09"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "GTF2I",
+      "text": "GTF2I encodes general transcription factor IIi.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "7fd01eb569f44efb1fa573719000d0801ace8da4161715c9b022436c2ee35c42",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4659",
+          "location": "Frozen HGNC TSV: HGNC:4659, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BRAF",
+      "text": "BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "source_ids": [
+        "ncbi-673"
+      ],
+      "claim_sha256": "296284c6ac14cd374c43e01f7bd9287f9c3e5dc95e23fea5d313545f2bd42417",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-673",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/673",
+          "location": "NCBI Gene 673 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d3caeddefe5a3e1048b3a11323f59ed4364e5e1f5ca8b6c536bec3e31dd04259"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "GTF2I::BRAF was reported in specimens labeled as Pediatric glioneuronal tumor, NOS in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "71e1d66f5105a6fa90f8e8e6b7c99ce3d02ba91b983a1d9001d209ef3dc127b0",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3102",
+          "source_rows": [
+            3102
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "GTF2I encodes general transcription factor IIi. BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. GTF2I::BRAF was reported in specimens labeled as Pediatric glioneuronal tumor, NOS in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-673",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "2110e964ad1520cca2dc549af1c2539446b89a02c4c50fb746cb362c59ef9316"
+}

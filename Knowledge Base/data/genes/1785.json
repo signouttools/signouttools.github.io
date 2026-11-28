@@ -161,7 +161,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CDKN1B encodes cyclin-dependent kinase inhibitor 1B. It participates in regulation of cyclin-dependent protein serine/threonine kinase activity and DNA damage response, signal transduction by p53 class mediator. Functional annotations also associate the protein with molecular adaptor activity and molecular function inhibitor activity.",
+      "text": "CDKN1B encodes cyclin-dependent kinase inhibitor 1B. It inhibits the kinase activity of CDK2 bound to cyclin A, but has little inhibitory activity on CDK2 bound to SPDYA. It forms a complex with cyclin type D-CDK4 complexes and is involved in the assembly, stability, and modulation of CCND1-CDK4 complex activation. It acts either as an inhibitor or an activator of cyclin type D-CDK4 complexes depending on its phosphorylation state and/or stoichiometry.",
       "source_ids": [
         "ncbi-1027",
         "uniprot-P46527"

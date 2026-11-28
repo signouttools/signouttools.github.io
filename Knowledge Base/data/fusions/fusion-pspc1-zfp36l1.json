@@ -1,0 +1,117 @@
+{
+  "id": "fusion-pspc1-zfp36l1",
+  "label": "PSPC1::ZFP36L1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "PSPC1",
+      "hgnc_id": "HGNC:20320",
+      "ncbi_gene_id": "55269"
+    },
+    {
+      "symbol": "ZFP36L1",
+      "hgnc_id": "HGNC:1107",
+      "ncbi_gene_id": "677"
+    }
+  ],
+  "aliases": [
+    "PSPC1::BRF1"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PSPC1",
+      "text": "PSPC1 encodes paraspeckle component 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "3129bc45b6a2d249d9cacfedde48aba0908c8034c131c270509a62bd6710b81a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:20320",
+          "location": "Frozen HGNC TSV: HGNC:20320, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ZFP36L1",
+      "text": "ZFP36L1 encodes ZFP36 like 1 zinc finger CCCH-type.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "0815c6588e87e2ad45a82f26fc1b7173794f3e597d333424b65963595164f81f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1107",
+          "location": "Frozen HGNC TSV: HGNC:1107, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "PSPC1::ZFP36L1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "1d849858082ae158b56740918043bf47a2ea28aab7b739fc145c825a605abaf6",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 4221",
+          "source_rows": [
+            4221
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "PSPC1 encodes paraspeckle component 1. ZFP36L1 encodes ZFP36 like 1 zinc finger CCCH-type. PSPC1::ZFP36L1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "c79e90f970aaaf66184c67dccb3b66746a4e038c9a537900e447da20e34455c7"
+}

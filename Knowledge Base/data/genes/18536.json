@@ -64,7 +64,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "HELQ encodes helicase POLQ-like. It participates in double-strand break repair via homologous recombination and positive regulation of double-strand break repair via homologous recombination. Functional annotations also associate the protein with ATP hydrolysis activity and 3'-5' DNA helicase activity.",
+      "text": "HELQ encodes helicase POLQ-like. It is a single-stranded 3'-5' DNA helicase that plays a key role in homology-driven double-strand break (DSB) repair. It participates in different DSB repair mechanisms that are guided by annealing of extensive stretches of complementary bases at break ends, such as microhomology-mediated end-joining (MMEJ), single-strand annealing (SSA) or synthesis-dependent strand annealing (SDSA). It possesses both DNA unwinding and annealing activities.",
       "source_ids": [
         "ncbi-113510",
         "uniprot-Q8TDG4"

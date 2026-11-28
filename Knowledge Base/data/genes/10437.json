@@ -83,7 +83,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RPS6KB2 encodes ribosomal protein S6 kinase beta-2. It participates in signal transduction and translation. Functional annotations also associate the protein with protein kinase activity and protein serine kinase activity.",
+      "text": "RPS6KB2 encodes ribosomal protein S6 kinase beta-2. It phosphorylates specifically ribosomal protein S6. It seems to act downstream of mTOR signaling in response to growth factors and nutrients to promote cell proliferation, cell growth and cell cycle progression in an alternative pathway regulated by MEAK7.",
       "source_ids": [
         "ncbi-6199",
         "uniprot-Q9UBS0"

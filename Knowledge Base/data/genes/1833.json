@@ -129,9 +129,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "CEBPA encodes a basic leucine-zipper transcription factor that regulates differentiation programs, including granulocytic maturation, and can influence cell-cycle control.",
+      "text": "CEBPA encodes a basic leucine-zipper transcription factor that regulates differentiation programs, including granulocytic maturation, and can influence cell-cycle control. Based in part on similarity, it is a transcription factor that coordinates proliferation arrest and the differentiation of myeloid progenitors, adipocytes, hepatocytes, and cells of the lung and the placenta. It is essential for the transition from common myeloid progenitors (CMP) to granulocyte/monocyte progenitors (GMP). It is necessary for terminal adipocyte differentiation, is required for postnatal maintenance of systemic energy homeostasis and lipid storage.",
       "source_ids": [
-        "ncbi-1050"
+        "ncbi-1050",
+        "uniprot-P49715"
       ]
     },
     "germline": {

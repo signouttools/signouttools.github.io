@@ -79,7 +79,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MDC1 encodes mediator of DNA damage checkpoint protein 1. It participates in DNA damage response and DNA replication checkpoint signaling. Functional annotations also associate the protein with chromatin-protein adaptor activity and histone reader activity.",
+      "text": "MDC1 encodes mediator of DNA damage checkpoint protein 1. It is a histone reader protein required for checkpoint-mediated cell cycle arrest in response to DNA damage within both the S phase and G2/M phases of the cell cycle. It specifically recognizes and binds histone H2AX phosphorylated at 'Ser-139', a marker of DNA damage, serving as a scaffold for the recruitment of DNA repair and signal transduction proteins to discrete foci of DNA damage sites. It is also required for downstream events subsequent to the recruitment of these proteins.",
       "source_ids": [
         "ncbi-9656",
         "uniprot-Q14676"

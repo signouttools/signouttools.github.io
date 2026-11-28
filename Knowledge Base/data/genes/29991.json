@@ -58,7 +58,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PAN3 encodes PAN2-PAN3 deadenylation complex subunit PAN3 (PAB1P-dependent poly(A)-specific ribonuclease) (Poly(A)-nuclease deadenylation complex subunit 3). It participates in nuclear-transcribed mRNA poly(A) tail shortening and positive regulation of cytoplasmic mRNA processing body assembly. Functional annotations also associate the protein with poly(A) binding.",
+      "text": "PAN3 encodes PAN2-PAN3 deadenylation complex subunit PAN3 (PAB1P-dependent poly(A)-specific ribonuclease) (Poly(A)-nuclease deadenylation complex subunit 3). PAN deadenylation is followed by rapid degradation of the shortened mRNA tails by the CCR4-NOT complex. Deadenylated mRNAs are then degraded by two alternative mechanisms, namely exosome-mediated 3'-5' exonucleolytic degradation, or deadenylation-dependent mRNA decapping and subsequent 5'-3' exonucleolytic degradation by XRN1. It has a significant effect on mRNA stability, generally stabilizing a subset of the transcriptome.",
       "source_ids": [
         "ncbi-255967",
         "uniprot-Q58A45"

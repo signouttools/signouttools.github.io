@@ -84,7 +84,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DKC1 encodes H/ACA ribonucleoprotein complex subunit DKC1. It participates in telomere maintenance via telomerase and positive regulation of telomere maintenance via telomerase. Functional annotations also associate the protein with telomerase activity and pseudouridine synthase activity.",
+      "text": "DKC1 encodes H/ACA ribonucleoprotein complex subunit DKC1. This involves the isomerization of uridine such that the ribose is subsequently attached to C5, instead of the normal N1. Each rRNA can contain up to 100 pseudouridine ('psi') residues, which may serve to stabilize the conformation of rRNAs. It is required for ribosome biogenesis and telomere maintenance.",
       "source_ids": [
         "ncbi-1736",
         "uniprot-O60832"

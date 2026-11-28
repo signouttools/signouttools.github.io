@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SOCS3 encodes suppressor of cytokine signaling 3. It participates in intracellular signal transduction and protein ubiquitination. Functional annotations also associate the protein with kinase inhibitor activity and protein kinase inhibitor activity.",
+      "text": "SOCS3 encodes suppressor of cytokine signaling 3. Based in part on similarity, SOCS family proteins form part of a classical negative feedback system that regulates cytokine signal transduction. SOCS3 is involved in negative regulation of cytokines that signal through the JAK/STAT pathway. It inhibits signal transduction by binding to transmembrane signaling receptors including IL6ST/gp130, LIFR, EPOR, INSR, IL12RB2, CSF3R/G-CSF-R and LEPR.",
       "source_ids": [
         "ncbi-9021",
         "uniprot-O14543"

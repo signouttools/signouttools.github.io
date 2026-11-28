@@ -1,0 +1,119 @@
+{
+  "id": "fusion-cbfa2t3-glis3",
+  "label": "CBFA2T3::GLIS3",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "CBFA2T3",
+      "hgnc_id": "HGNC:1537",
+      "ncbi_gene_id": "863"
+    },
+    {
+      "symbol": "GLIS3",
+      "hgnc_id": "HGNC:28510",
+      "ncbi_gene_id": "169792"
+    }
+  ],
+  "aliases": [
+    "CBFA2T3::ZNF515"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CBFA2T3",
+      "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation.",
+      "source_ids": [
+        "ncbi-863"
+      ],
+      "claim_sha256": "313d32ab607d5d39167551e93e53c8b89eacf5e4cdb2819c00f4088f5919422b",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-863",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/863",
+          "location": "NCBI Gene 863 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "887d155eaf9968e1aa64e5c824e18ffb51f7417403b2c73ab6b53690039852b5"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "GLIS3",
+      "text": "GLIS3 encodes GLIS family zinc finger 3.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "0d86ed82493675bccdd4f63ffb4273a1cdd1b185d214f86d3ca95371ef5414f9",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:28510",
+          "location": "Frozen HGNC TSV: HGNC:28510, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "CBFA2T3::GLIS3 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "e434c229629e4cdbd54fe7976615116bccbbd035d2180ff3528e0e38694ea21a",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1382, 4422",
+          "source_rows": [
+            1382,
+            4422
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. GLIS3 encodes GLIS family zinc finger 3. CBFA2T3::GLIS3 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-863",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "31cd5890bd38a93193964d6c0443aec4d19ee522d03b7f86e417c5bf2cf0fe6e"
+}

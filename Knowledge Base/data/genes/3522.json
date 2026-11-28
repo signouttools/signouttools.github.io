@@ -87,7 +87,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EYA4 encodes EYA transcriptional coactivator and phosphatase 4. Its functions include protein tyrosine phosphatase activity and anatomical structure morphogenesis.",
+      "text": "EYA4 encodes EYA transcriptional coactivator and phosphatase 4. Based in part on similarity, it is a tyrosine phosphatase that specifically dephosphorylates 'Tyr-142' of histone H2AX (H2AXY142ph). 'Tyr-142' phosphorylation of histone H2AX plays a central role in DNA repair and acts as a mark that distinguishes between apoptotic and repair responses to genotoxic stress. It promotes efficient DNA repair by dephosphorylating H2AX, promoting the recruitment of DNA repair complexes containing MDC1.",
       "source_ids": [
         "ncbi-2070",
         "uniprot-O95677"

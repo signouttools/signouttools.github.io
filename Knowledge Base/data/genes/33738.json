@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EZHIP encodes EZH inhibitory protein. It participates in chromatin organization and epigenetic regulation of gene expression. Functional annotations also associate the protein with histone methyltransferase inhibitor activity.",
+      "text": "EZHIP encodes EZH inhibitory protein. Based in part on similarity, it inhibits PRC2/EED-EZH1 and PRC2/EED-EZH2 complex function by inhibiting EZH1/EZH2 methyltransferase activity, thereby causing down-regulation of histone H3 trimethylation on 'Lys-27' (H3K27me3). It probably inhibits methyltransferase activity by limiting the stimulatory effect of cofactors such as AEBP2 and JARID2. It inhibits H3K27me3 deposition during spermatogenesis and oogenesis.",
       "source_ids": [
         "ncbi-340602",
         "uniprot-Q86X51"

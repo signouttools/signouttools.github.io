@@ -114,7 +114,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AXIN1 encodes axin-1. It participates in cell development and protein-containing complex assembly. Functional annotations also associate the protein with molecular adaptor activity.",
+      "text": "AXIN1 encodes axin-1. Based in part on similarity, it forms part of the beta-catenin destruction complex required for regulating CTNNB1 levels through phosphorylation and ubiquitination, and modulating Wnt-signaling. It enhances TGF-beta signaling by recruiting the RNF111 E3 ubiquitin ligase and promoting the degradation of inhibitory SMAD7. It also a component of the AXIN1-HIPK2-TP53 complex which controls cell growth, apoptosis and development.",
       "source_ids": [
         "ncbi-8312",
         "uniprot-O15169"

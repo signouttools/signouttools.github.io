@@ -1,0 +1,117 @@
+{
+  "id": "fusion-macf1-slc6a18",
+  "label": "MACF1::SLC6A18",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "MACF1",
+      "hgnc_id": "HGNC:13664",
+      "ncbi_gene_id": "23499"
+    },
+    {
+      "symbol": "SLC6A18",
+      "hgnc_id": "HGNC:26441",
+      "ncbi_gene_id": "348932"
+    }
+  ],
+  "aliases": [
+    "KIAA0754::SLC6A18"
+  ],
+  "tumor_contexts": [
+    "Pediatric medulloblastoma"
+  ],
+  "disease_ids": [
+    "fusion-context-a6f968cfac96"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MACF1",
+      "text": "MACF1 encodes microtubule actin crosslinking factor 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "efc4bbba341b2d0ce93539964f9253b4fbb1fd92c6791671c0897b0fa886b7cc",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:13664",
+          "location": "Frozen HGNC TSV: HGNC:13664, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "SLC6A18",
+      "text": "SLC6A18 encodes solute carrier family 6 member 18.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "314df25099fa1eee75539340c3e40e20847f16ef35007b437ab55de640cd72f4",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:26441",
+          "location": "Frozen HGNC TSV: HGNC:26441, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "MACF1::SLC6A18 was reported in specimens labeled as Pediatric medulloblastoma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "21e7ed428c8490913d0c9f9782190da3e9ac6f67725ec7d8ee6559d17aba2fa3",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3030",
+          "source_rows": [
+            3030
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "MACF1 encodes microtubule actin crosslinking factor 1. SLC6A18 encodes solute carrier family 6 member 18. MACF1::SLC6A18 was reported in specimens labeled as Pediatric medulloblastoma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "8a5c06a9fddbb681450cdebe4015a228db7da38461e38467e4f62fe7fba22295"
+}

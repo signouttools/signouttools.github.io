@@ -122,7 +122,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BIRC3 encodes baculoviral IAP repeat-containing protein 3. It participates in canonical NF-kappaB signal transduction and non-canonical NF-kappaB signal transduction. Functional annotations also associate the protein with transferase activity and ubiquitin-protein transferase activity.",
+      "text": "BIRC3 encodes baculoviral IAP repeat-containing protein 3. It functions as an E3 ubiquitin-protein ligase regulating NF-kappa-B signaling. It regulates both canonical and non-canonical NF-kappa-B signaling by acting in opposite directions: acts as a positive regulator of the canonical pathway and suppresses constitutive activation of non-canonical NF-kappa-B signaling. The target proteins for its E3 ubiquitin-protein ligase activity include: RIPK1, RIPK2, RIPK3, RIPK4, CASP3, CASP7, CASP8, IKBKE, TRAF1, and BCL10.",
       "source_ids": [
         "ncbi-330",
         "uniprot-Q13489"

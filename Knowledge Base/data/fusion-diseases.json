@@ -646,5 +646,158 @@
     "synonyms": [],
     "ontology_mappings": [],
     "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-d1a5bc0ed7fb",
+    "name": "Pediatric B-lymphoblastic leukemia",
+    "category": "hematologic",
+    "parent_id": "atlas-h-ball",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-180bf8abba7a",
+    "name": "Pediatric solid tumor, subtype unspecified",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-423a9a5a9014",
+    "name": "Pediatric brain tumor, subtype unspecified",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-c5ce92ff2a2a",
+    "name": "Pediatric neurofibroma/plexiform neurofibroma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-e365fd0b9b83",
+    "name": "Pediatric acute myeloid leukemia",
+    "category": "hematologic",
+    "parent_id": "aml",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-10a46607941b",
+    "name": "Pediatric ependymoma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-cca7a6625b3f",
+    "name": "Pediatric high-grade glioma",
+    "category": "cns",
+    "parent_id": "glioma",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-619f43a426dd",
+    "name": "Pediatric Ewing sarcoma",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-b7cbf693bf5f",
+    "name": "Pediatric metastatic tumor, primary unspecified",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-063b022e71e6",
+    "name": "Pediatric diffuse intrinsic pontine glioma (study diagnosis)",
+    "category": "cns",
+    "parent_id": "glioma",
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-d0092e4d0ab7",
+    "name": "Pediatric dysembryoplastic neuroepithelial tumor",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-3fd78e2d4dc0",
+    "name": "Pediatric ganglioglioma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-aa43098b0c09",
+    "name": "Pediatric glioneuronal tumor, NOS",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-9c4ebd0338b2",
+    "name": "Pediatric sarcoma, subtype unspecified",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-a6f968cfac96",
+    "name": "Pediatric medulloblastoma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-c38dfa929648",
+    "name": "Pediatric rhabdomyosarcoma, subtype unspecified",
+    "category": "solid",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
+  },
+  {
+    "id": "fusion-context-d578282b40b6",
+    "name": "Pediatric meningioma",
+    "category": "cns",
+    "parent_id": null,
+    "synonyms": [],
+    "ontology_mappings": [],
+    "mapping_status": "local_unmapped"
   }
 ]

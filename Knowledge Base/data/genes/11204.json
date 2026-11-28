@@ -130,7 +130,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SOX9 encodes transcription factor SOX-9. It participates in signal transduction and negative regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "SOX9 encodes transcription factor SOX-9. Based in part on similarity, it is a transcription factor that plays a key role in chondrocytes differentiation and skeletal development. It specifically binds the 5'-ACAAAG-3' DNA motif present in enhancers and super-enhancers and promotes expression of genes important for chondrogenesis, including cartilage matrix protein-coding genes COL2A1, COL4A2, COL9A1, COL11A2 and ACAN, SOX5 and SOX6. It also binds to some promoter regions.",
       "source_ids": [
         "ncbi-6662",
         "uniprot-P48436"

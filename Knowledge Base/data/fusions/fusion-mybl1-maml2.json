@@ -1,0 +1,116 @@
+{
+  "id": "fusion-mybl1-maml2",
+  "label": "MYBL1::MAML2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "MYBL1",
+      "hgnc_id": "HGNC:7547",
+      "ncbi_gene_id": "4603"
+    },
+    {
+      "symbol": "MAML2",
+      "hgnc_id": "HGNC:16259",
+      "ncbi_gene_id": "84441"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MYBL1",
+      "text": "MYBL1 encodes a MYB-family transcription factor.",
+      "source_ids": [
+        "ncbi-4603"
+      ],
+      "claim_sha256": "3c1de0a1875ffc95ee4087452717cb2e1d87de1a8ad8dd55cf8d01868288c5d1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4603",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4603",
+          "location": "NCBI Gene 4603 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b446970711bd093a825ecd49258219d1662dce033f89ea365c50169dfaeb71d0"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAML2",
+      "text": "MAML2 encodes a transcriptional coactivator in Notch signaling.",
+      "source_ids": [
+        "ncbi-84441"
+      ],
+      "claim_sha256": "9e1d042cd553b86c78427c144b147e01affc777efd1703376c7932386ae3cbf1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-84441",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/84441",
+          "location": "NCBI Gene 84441 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9ae7a41f31cfee79ccf8a69e30e1406629670c1691c7a5bf44aec08561708b0a"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "MYBL1::MAML2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "4bb9b54818d91fe57c99c4e89d02822b79d45875d3a6b1fe25e6f776f00b08de",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 391",
+          "source_rows": [
+            391
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "MYBL1 encodes a MYB-family transcription factor. MAML2 encodes a transcriptional coactivator in Notch signaling. MYBL1::MAML2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-4603",
+      "ncbi-84441",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "2e7889736f2a7a61e4ce29ac53a1a1dc9e707ce1dec2f9b74b05f44db4974e75"
+}

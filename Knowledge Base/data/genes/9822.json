@@ -92,7 +92,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RAD51B encodes DNA repair protein RAD51 homolog 2. It participates in DNA repair and double-strand break repair via homologous recombination. Functional annotations also associate the protein with ATP-dependent DNA damage sensor activity and ATP-dependent activity, acting on DNA.",
+      "text": "RAD51B encodes DNA repair protein RAD51 homolog 2. It participates in the homologous recombination repair (HRR) pathway of double-stranded DNA breaks arising during DNA replication or induced by DNA-damaging agents. It may promote the assembly of presynaptic RAD51 nucleoprotein filaments. It binds single-stranded DNA and double-stranded DNA and has DNA-dependent ATPase activity.",
       "source_ids": [
         "ncbi-5890",
         "uniprot-O15315"

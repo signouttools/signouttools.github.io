@@ -1,0 +1,119 @@
+{
+  "id": "fusion-ep300-bcor",
+  "label": "EP300::BCOR",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "EP300",
+      "hgnc_id": "HGNC:3373",
+      "ncbi_gene_id": "2033"
+    },
+    {
+      "symbol": "BCOR",
+      "hgnc_id": "HGNC:20893",
+      "ncbi_gene_id": "54880"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified",
+    "Pediatric ependymoma"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014",
+    "fusion-context-10a46607941b"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EP300",
+      "text": "EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase.",
+      "source_ids": [
+        "ncbi-2033"
+      ],
+      "claim_sha256": "b97f6cdb677d816faf19b946f1816c755fcd346db279a70eabeb9f724abcc38f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2033",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2033",
+          "location": "NCBI Gene 2033 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "07ff4137aebe0e206b7d67bdadfa3e9803e723322a2aaf740d60e2111a837b17"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "BCOR",
+      "text": "BCOR encodes a BCL6-interacting transcriptional corepressor.",
+      "source_ids": [
+        "ncbi-54880"
+      ],
+      "claim_sha256": "58f9e6337523f6660522073dae1ad3e7ca781cf8151993d456ef02b7c8e016fa",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-54880",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/54880",
+          "location": "NCBI Gene 54880 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "da085aa0dd08fa844b35e7ef62b80b2572dee3df540b2fb55e43173d601bb123"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "EP300::BCOR was reported in specimens labeled as Pediatric brain tumor, subtype unspecified; Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "b1752dd86cff4561f85ea38ca200a433a5f63dc414cec6dac4cc5fd1bf15dc89",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 298, 3249",
+          "source_rows": [
+            298,
+            3249
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase. BCOR encodes a BCL6-interacting transcriptional corepressor. EP300::BCOR was reported in specimens labeled as Pediatric brain tumor, subtype unspecified; Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2033",
+      "ncbi-54880",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "66efaa59d3c8ca0671bc6dd0177145227186d0510905979bf2cfca2abe504304"
+}

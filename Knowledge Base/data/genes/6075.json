@@ -99,7 +99,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "INPP4B encodes inositol polyphosphate 4-phosphatase type II. It participates in signal transduction and regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with inositol-1,3,4-trisphosphate 4-phosphatase activity and inositol-3,4-bisphosphate 4-phosphatase activity.",
+      "text": "INPP4B encodes inositol polyphosphate 4-phosphatase type II. It catalyzes the hydrolysis of the 4-position phosphate of phosphatidylinositol 3,4-bisphosphate, inositol 1,3,4-trisphosphate and inositol 3,4-trisphosphate. It contributes to the late stages of macropinocytosis by dephosphorylating phosphatidylinositol 3,4-bisphosphate in membrane ruffles. It antagonizes the PI3K-AKT/PKB signaling pathway by dephosphorylating phosphoinositides and thereby modulating cell cycle progression and cell survival.",
       "source_ids": [
         "ncbi-8821",
         "uniprot-O15327"

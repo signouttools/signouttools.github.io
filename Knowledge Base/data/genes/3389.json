@@ -104,7 +104,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EPHA5 encodes ephrin type-A receptor 5. It participates in axon guidance and axonal fasciculation. Functional annotations also associate the protein with ephrin receptor activity and transmembrane-ephrin receptor activity.",
+      "text": "EPHA5 encodes ephrin type-A receptor 5. Based in part on similarity, it is a receptor tyrosine kinase which binds promiscuously GPI-anchored ephrin-A family ligands residing on adjacent cells, leading to contact-dependent bidirectional signaling into neighboring cells. The signaling pathway downstream of the receptor is referred to as forward signaling while the signaling pathway downstream of the ephrin ligand is referred to as reverse signaling. It acts as an axon guidance molecule during development and may be involved in the development of the retinotectal, entorhino-hippocampal and hippocamposeptal pathways.",
       "source_ids": [
         "ncbi-2044",
         "uniprot-P54756"

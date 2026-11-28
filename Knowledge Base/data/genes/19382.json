@@ -69,7 +69,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SOCS2 encodes suppressor of cytokine signaling 2. It participates in intracellular signal transduction and regulation of signal transduction. Functional annotations also associate the protein with JAK pathway signal transduction adaptor activity and ubiquitin-like ligase-substrate adaptor activity.",
+      "text": "SOCS2 encodes suppressor of cytokine signaling 2. It is a substrate-recognition component of a cullin-5-RING E3 ubiquitin-protein ligase complex (ECS complex, also named CRL5 complex), which mediates the ubiquitination and subsequent proteasomal degradation of target proteins, such as EPOR and GHR. It specifically recognizes and binds phosphorylated proteins via its SH2 domain, promoting their ubiquitination. The ECS(SOCS2) complex acts as a key regulator of growth hormone receptor (GHR) levels by mediating ubiquitination and degradation of GHR, following GHR phosphorylation by JAK2.",
       "source_ids": [
         "ncbi-8835",
         "uniprot-O14508"

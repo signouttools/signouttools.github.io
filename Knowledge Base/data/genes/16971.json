@@ -80,7 +80,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FRS2 encodes fibroblast growth factor receptor substrate 2. It participates in G protein-coupled receptor signaling pathway and fibroblast growth factor receptor signaling pathway. Functional annotations also associate the protein with phosphatase activator activity and transmembrane receptor protein tyrosine kinase adaptor activity.",
+      "text": "FRS2 encodes fibroblast growth factor receptor substrate 2. It is an adapter protein that links activated FGR and NGF receptors to downstream signaling pathways. It contributes to the activation of MAP kinases and in the phosphorylation of PIK3R1, the regulatory subunit of phosphatidylinositol 3-kinase, in response to ligand-mediated activation of FGFR1. It modulates signaling via SHC1 by competing for a common binding site on NTRK1.",
       "source_ids": [
         "ncbi-10818",
         "uniprot-Q8WU20"

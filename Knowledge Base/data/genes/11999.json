@@ -78,7 +78,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TP53BP1 encodes TP53-binding protein 1. It participates in positive regulation of DNA-templated transcription and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with transcription coactivator activity and transcription coregulator activity.",
+      "text": "TP53BP1 encodes TP53-binding protein 1. Based in part on similarity, it is a double-strand break (DSB) repair protein involved in response to DNA damage, telomere dynamics and class-switch recombination (CSR) during antibody genesis. It contributes to the repair of double-strand DNA breaks (DSBs) in response to DNA damage by promoting non-homologous end joining (NHEJ)-mediated repair of DSBs and specifically counteracting the function of the homologous recombination (HR) repair protein BRCA1. It is required for immunoglobulin class-switch recombination (CSR) during antibody genesis, a process that involves the generation of DNA DSBs.",
       "source_ids": [
         "ncbi-7158",
         "uniprot-Q12888"

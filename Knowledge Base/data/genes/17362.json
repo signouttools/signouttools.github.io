@@ -90,7 +90,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ARID5B encodes AT-rich interactive domain-containing protein 5B. It participates in transcription initiation-coupled chromatin remodeling and negative regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coactivator activity and transcription cis-regulatory region binding.",
+      "text": "ARID5B encodes AT-rich interactive domain-containing protein 5B. It acts by forming a complex with phosphorylated PHF2, which mediates demethylation at Lys-336, leading to target the PHF2-ARID5B complex to target promoters, where PHF2 mediates demethylation of dimethylated 'Lys-9' of histone H3 (H3K9me2), followed by transcription activation of target genes. The PHF2-ARID5B complex acts as a coactivator of HNF4A in liver. It is required for adipogenesis: regulates triglyceride metabolism in adipocytes by regulating expression of adipogenic genes.",
       "source_ids": [
         "ncbi-84159",
         "uniprot-Q14865"

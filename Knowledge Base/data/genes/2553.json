@@ -129,7 +129,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CUL3 encodes cullin-3. It participates in negative regulation of Rho protein signal transduction and cell migration. Functional annotations also associate the protein with ubiquitin protein ligase activity and ubiquitin ligase complex scaffold activity.",
+      "text": "CUL3 encodes cullin-3. It is a core component of multiple cullin-RING-based BCR (BTB-CUL3-RBX1) E3 ubiquitin-protein ligase complexes which mediate the ubiquitination and subsequent proteasomal degradation of target proteins. The E3 ubiquitin-protein ligase activity of the complex is dependent on the neddylation of the cullin subunit and is inhibited by the association of the deneddylated cullin subunit with TIP120A/CAND1. The functional specificity of the BCR complex depends on the BTB domain-containing protein as the substrate recognition component.",
       "source_ids": [
         "ncbi-8452",
         "uniprot-Q13618"

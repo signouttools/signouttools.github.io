@@ -66,7 +66,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TOPBP1 encodes DNA topoisomerase 2-binding protein 1. It participates in DNA repair and homologous recombination. Functional annotations also associate the protein with chromatin-protein adaptor activity and protein serine/threonine kinase activator activity.",
+      "text": "TOPBP1 encodes DNA topoisomerase 2-binding protein 1. Based in part on similarity, it is a scaffold protein that acts as a key protein-protein adapter in DNA replication and DNA repair. It is necessary for the loading of replication factors onto chromatin, including GMNC, CDC45, DNA polymerases and components of the GINS complex. It plays a central role in DNA repair by bridging proteins and promoting recruitment of proteins to DNA damage sites.",
       "source_ids": [
         "ncbi-11073",
         "uniprot-Q92547"

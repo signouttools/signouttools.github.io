@@ -89,7 +89,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RHEB encodes GTP-binding protein Rheb. It participates in signal transduction and small GTPase-mediated signal transduction. Functional annotations also associate the protein with GTPase activity and protein kinase activator activity.",
+      "text": "RHEB encodes GTP-binding protein Rheb. It is a small GTPase that acts as an allosteric activator of the canonical mTORC1 complex, an evolutionarily conserved central nutrient sensor that stimulates anabolic reactions and macromolecule biosynthesis to promote cellular biomass generation and growth. RHEB is also required for localization of the TSC-TBC complex to lysosomal membranes. It has low intrinsic GTPase activity.",
       "source_ids": [
         "ncbi-6009",
         "uniprot-Q15382"

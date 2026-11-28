@@ -80,7 +80,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IL10 encodes interleukin-10. It participates in positive regulation of DNA-templated transcription and positive regulation of miRNA transcription. Functional annotations also associate the protein with cytokine activity and growth factor activity.",
+      "text": "IL10 encodes interleukin-10. Based in part on similarity, it is a major immune regulatory cytokine that acts on many cells of the immune system where it has profound anti-inflammatory functions, limiting excessive tissue disruption caused by inflammation. Mechanistically, IL10 binds to its heterotetrameric receptor comprising IL10RA and IL10RB leading to JAK1 and STAT2-mediated phosphorylation of STAT3. It targets antigen-presenting cells (APCs) such as macrophages and monocytes and inhibits their release of pro-inflammatory cytokines including granulocyte-macrophage colony-stimulating factor /GM-CSF, granulocyte colony-stimulating factor/G-CSF, IL-1 alpha, IL-1 beta, IL-6, IL-8 and TNF.",
       "source_ids": [
         "ncbi-3586",
         "uniprot-P22301"

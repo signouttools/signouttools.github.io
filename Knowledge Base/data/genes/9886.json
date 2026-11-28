@@ -114,7 +114,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KDM5A encodes lysine-specific demethylase 5A demethylase 5A). It participates in regulation of DNA-templated transcription and transcription initiation-coupled chromatin remodeling. Functional annotations also associate the protein with transcription coactivator activity and transcription cis-regulatory region binding.",
+      "text": "KDM5A encodes lysine demethylase 5A. Based in part on similarity, it is a histone demethylase that specifically demethylates 'Lys-4' of histone H3, thereby playing a central role in histone code. It does not demethylate histone H3 'Lys-9', H3 'Lys-27', H3 'Lys-36', H3 'Lys-79' or H4 'Lys-20'. It regulates specific gene transcription through DNA-binding on 5'-CCGCCC-3' motif.",
       "source_ids": [
         "ncbi-5927",
         "uniprot-P29375"

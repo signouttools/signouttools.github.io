@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BUB1B encodes mitotic checkpoint serine/threonine-protein kinase BUB1 beta. It participates in meiotic sister chromatid cohesion, centromeric and mitotic spindle assembly checkpoint signaling. Functional annotations also associate the protein with protein kinase activity and protein serine kinase activity.",
+      "text": "BUB1B encodes mitotic checkpoint serine/threonine-protein kinase BUB1 beta. Based in part on similarity, the MCC, which consists of CDC20, MAD2L1/MAD2, BUB1B/BUBR1 and BUB3, is a key player of the spindle assembly checkpoint. The MCC-bound APC/C complex is inactive and this delays the metaphase/anaphase transition.",
       "source_ids": [
         "ncbi-701",
         "uniprot-O60566"

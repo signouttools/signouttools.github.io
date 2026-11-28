@@ -91,7 +91,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RAD54L encodes DNA repair and recombination protein RAD54-like. It participates in DNA repair and double-strand break repair via homologous recombination. Functional annotations also associate the protein with ATP hydrolysis activity and DNA translocase activity.",
+      "text": "RAD54L encodes DNA repair and recombination protein RAD54-like. Based in part on similarity, it functions as a molecular motor during the homology search and guides RAD51 ssDNA along a donor dsDNA thereby changing the homology search from the diffusion-based mechanism to a motor-guided mechanism. It also plays an essential role in RAD51-mediated synaptic complex formation which consists of three strands encased in a protein filament formed once homology is recognized.",
       "source_ids": [
         "ncbi-8438",
         "uniprot-Q92698"

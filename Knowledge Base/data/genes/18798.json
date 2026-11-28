@@ -63,7 +63,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SLC44A1 encodes choline transporter-like protein 1. It participates in choline transport and ethanolamine transport. Functional annotations also associate the protein with choline transmembrane transporter activity and ethanolamine transmembrane transporter activity.",
+      "text": "SLC44A1 encodes choline transporter-like protein 1. It also acts as a high-affinity ethanolamine/H+ antiporter, regulating the supply of extracellular ethanolamine (Etn) for the CDP-Etn pathway, redistribute intracellular Etn and balance the CDP-Cho and CDP-Etn arms of the Kennedy pathway. It participates in membrane synthesis and myelin production.",
       "source_ids": [
         "ncbi-23446",
         "uniprot-Q8WWI5"

@@ -121,7 +121,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RASA1 encodes ras GTPase-activating protein 1. It participates in signal transduction and intracellular signal transduction. Functional annotations also associate the protein with GTPase activity and GTPase activator activity.",
+      "text": "RASA1 encodes ras GTPase-activating protein 1. It is a GTPase-activating protein (GAP) that stimulates the intrinsic GTPase activity of Ras proteins, such as NRAS, facilitating their transition from the active GTP-bound state to the inactive GDP-bound state, thereby terminating Ras signaling.",
       "source_ids": [
         "ncbi-5921",
         "uniprot-P20936"

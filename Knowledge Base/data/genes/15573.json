@@ -131,7 +131,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETBP1 encodes SET-binding protein. It participates in regulation of DNA-templated transcription. Functional annotations also associate the protein with histone H3K4 methyltransferase activity.",
+      "text": "SETBP1 encodes a protein with a SET-binding region, a SKI-homology region, and nuclear-localization signals. It binds the SET protein, which participates in DNA replication. Its protein interactions and nuclear targeting provide functional context, while the cited description does not establish SETBP1 as an independently acting DNA-replication enzyme.",
       "source_ids": [
         "ncbi-26040",
         "uniprot-Q9Y6X0"

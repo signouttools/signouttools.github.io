@@ -58,7 +58,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MGMT encodes methylated-DNA--protein-cysteine methyltransferase. It participates in DNA repair and negative regulation of apoptotic process. Functional annotations also associate the protein with DNA-methyltransferase activity and methyltransferase activity.",
+      "text": "MGMT encodes methylated-DNA--protein-cysteine methyltransferase. It participates in the cellular defense against the biological effects of O6-methylguanine (O6-MeG) and O4-methylthymine (O4-MeT) in DNA. It repairs the methylated nucleobase in DNA by stoichiometrically transferring the methyl group to a cysteine residue in the enzyme. This is a suicide reaction: the enzyme is irreversibly inactivated.",
       "source_ids": [
         "ncbi-4255",
         "uniprot-P16455"

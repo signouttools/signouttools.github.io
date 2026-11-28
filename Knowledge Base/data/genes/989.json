@@ -121,7 +121,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BCL10 encodes b-cell lymphoma/leukemia 10. It participates in positive regulation of DNA-templated transcription and regulation of canonical NF-kappaB signal transduction. Functional annotations also associate the protein with transcription coactivator activity and general transcription initiation factor binding.",
+      "text": "BCL10 encodes b-cell lymphoma/leukemia 10. It contributes to both adaptive and innate immune signaling by bridging CARD domain-containing proteins to immune activation. It acts by channeling adaptive and innate immune signaling downstream of CARD domain-containing proteins CARD9, CARD11 and CARD14 to activate NF-kappa-B and MAP kinase p38 (MAPK11, MAPK12, MAPK13 and/or MAPK14) pathways which stimulate expression of genes encoding pro-inflammatory cytokines and chemokines. It promotes apoptosis, pro-caspase-9 maturation and activation of NF-kappa-B via NIK and IKK.",
       "source_ids": [
         "ncbi-8915",
         "uniprot-O95999"

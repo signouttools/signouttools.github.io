@@ -2,7 +2,9 @@
 
 Pathologist review needed — LLM-generated summary/review.
 
-Evidence audit 2026-11-27. **186 integrated draft entries**; **0 previously drafted entries held**. Primary body/results, official regulatory evidence and authoritative references are distinguished in the audit. Unsupported subclaims have been excluded. Normal partner descriptions use gene/identity references. Specialist review remains pending.
+Evidence audit 2026-11-27. **382 integrated draft entries**; **0 previously drafted entries held**. Primary body/results, official regulatory evidence and authoritative references are distinguished in the audit. Unsupported subclaims have been excluded. Normal partner descriptions use gene/identity references. Specialist review remains pending.
+The library contains **186 interpretive drafts** and **196 cohort-observation drafts**. Cohort observations describe reported transcript detection only; functional and clinical significance are not adjudicated. See [expansion sources and limits](FUSION-COVERAGE.md).
+
 
 [Evidence audit and coverage](FUSION-REVIEW.md) · [Browse fusions](index.html?mode=fusions)
 
@@ -1493,4 +1495,1572 @@ CLTC encodes clathrin heavy chain, which forms coated vesicles for intracellular
 **Evidence:** Primary fusion results checked.
 
 MALAT1 produces a long noncoding RNA involved in nuclear RNA organization and gene regulation. ([MALAT1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/378938)). TFEB encodes a MiT/TFE-family transcription factor that regulates lysosome biogenesis and autophagy. ([TFEB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7942)). MALAT1::TFEB has been detected by RNA sequencing in translocation renal cell carcinoma. It involves the noncoding MALAT1 partner and TFEB, rather than a partner-derived receptor-kinase product. ([Primary translocation renal carcinoma genomic cohort](https://www.jci.org/articles/view/170559/files/pdf)).
+
+## ACIN1::NUTM1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ACIN1 encodes apoptotic chromatin condensation inducer 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUTM1 encodes NUT family member 1. ([NUTM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/256646)). ACIN1::NUTM1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## AFAP1::NTRK2
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+AFAP1 encodes actin filament associated protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). AFAP1::NTRK2 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## AGK::BRAF
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+AGK encodes acylglycerol kinase. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). AGK::BRAF was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## AKAP9::BRAF
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+AKAP9 encodes A-kinase anchoring protein 9. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). AKAP9::BRAF was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ALK::BIRC6
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). BIRC6 encodes baculoviral IAP repeat containing 6. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK::BIRC6 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ANTXR1::BRAF
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ANTXR1 encodes ANTXR cell adhesion molecule 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). ANTXR1::BRAF was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ARHGEF2::NTRK1
+
+**Tumor scope:** Pediatric neurofibroma/plexiform neurofibroma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ARHGEF2 encodes Rho/Rac guanine nucleotide exchange factor 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase. ([NTRK1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4914)). ARHGEF2::NTRK1 was reported in specimens labeled as Pediatric neurofibroma/plexiform neurofibroma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ARID1B::ZNF384
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ARID1B encodes AT-rich interaction domain 1B. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). ARID1B::ZNF384 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ATF7IP::JAK2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ATF7IP encodes activating transcription factor 7 interacting protein. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). ATF7IP::JAK2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ATXN1::NUTM2B
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ATXN1 encodes ataxin 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUTM2B encodes NUT family member 2B. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ATXN1::NUTM2B was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## BCAS1::RAF1
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+BCAS1 encodes brain enriched myelin associated protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. ([RAF1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5894)). BCAS1::RAF1 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## BEND5::NTRK2
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+BEND5 encodes BEN domain containing 5. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). BEND5::NTRK2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## BICD2::JAK2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+BICD2 encodes BICD cargo adaptor 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). BICD2::JAK2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## BRD9::NUTM1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+BRD9 encodes bromodomain containing 9. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUTM1 encodes NUT family member 1. ([NUTM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/256646)). BRD9::NUTM1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## BTBD1::NTRK3
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+BTBD1 encodes BTB domain containing 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase. ([NTRK3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4916)). BTBD1::NTRK3 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ZFTA::MAML2
+
+**Tumor scope:** Pediatric ependymoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ZFTA encodes a nuclear zinc-finger transcriptional regulator. ([ZFTA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/65998)). MAML2 encodes a transcriptional coactivator in Notch signaling. ([MAML2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/84441)). ZFTA::MAML2 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ZFTA::NCOA2
+
+**Tumor scope:** Pediatric ependymoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ZFTA encodes a nuclear zinc-finger transcriptional regulator. ([ZFTA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/65998)). NCOA2 encodes a nuclear-receptor transcriptional coactivator. ([NCOA2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10499)). ZFTA::NCOA2 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ZFTA::YAP1
+
+**Tumor scope:** Pediatric ependymoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ZFTA encodes a nuclear zinc-finger transcriptional regulator. ([ZFTA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/65998)). YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. ([YAP1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10413)). ZFTA::YAP1 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CBFA2T3::GLIS3
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. ([CBFA2T3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/863)). GLIS3 encodes GLIS family zinc finger 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). CBFA2T3::GLIS3 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CCDC88A::ALK
+
+**Tumor scope:** Pediatric high-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CCDC88A encodes coiled-coil and HOOK domain protein 88A. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). CCDC88A::ALK was reported in specimens labeled as Pediatric high-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CHD7::MYBL1
+
+**Tumor scope:** Pediatric high-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CHD7 encodes chromodomain helicase DNA binding protein 7. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MYBL1 encodes a MYB-family transcription factor. ([MYBL1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4603)). CHD7::MYBL1 was reported in specimens labeled as Pediatric high-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CIC::FOXO4
+
+**Tumor scope:** Pediatric Ewing sarcoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CIC encodes capicua, an HMG-box transcriptional repressor. ([CIC — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/23152)). FOXO4 encodes forkhead box O4. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). CIC::FOXO4 was reported in specimens labeled as Pediatric Ewing sarcoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CIC::NUTM1
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CIC encodes capicua, an HMG-box transcriptional repressor. ([CIC — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/23152)). NUTM1 encodes NUT family member 1. ([NUTM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/256646)). CIC::NUTM1 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CLIP1::ALK
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CLIP1 encodes CAP-Gly domain containing linker protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). CLIP1::ALK was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CLIP1::ROS1
+
+**Tumor scope:** Pediatric high-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CLIP1 encodes CAP-Gly domain containing linker protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ROS1 encodes a transmembrane receptor tyrosine kinase. ([ROS1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6098)). CLIP1::ROS1 was reported in specimens labeled as Pediatric high-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## CLIP2::ALK
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+CLIP2 encodes CAP-Gly domain containing linker protein 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). CLIP2::ALK was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## DCTN1::ALK
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+DCTN1 encodes dynactin subunit 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). DCTN1::ALK was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## DDX3X::MLLT10
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+DDX3X encodes DEAD-box helicase 3 X-linked. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. ([MLLT10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8028)). DDX3X::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## DDX3Y::MLLT10
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+DDX3Y encodes DEAD-box helicase 3 Y-linked. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. ([MLLT10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8028)). DDX3Y::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## DIAPH2::NTRK2
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+DIAPH2 encodes diaphanous related formin 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). DIAPH2::NTRK2 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EEF1G::ROS1
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EEF1G encodes eukaryotic translation elongation factor 1 gamma. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ROS1 encodes a transmembrane receptor tyrosine kinase. ([ROS1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6098)). EEF1G::ROS1 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EGFR::ZNRF3
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EGFR encodes epidermal growth factor receptor. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ZNRF3 encodes zinc and ring finger 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). EGFR::ZNRF3 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EML1::NTRK2
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EML1 encodes EMAP like 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). EML1::NTRK2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EML4::BRAF
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EML4 encodes a microtubule-associated protein with an amino-terminal oligomerization domain. ([EML4 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/27436)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). EML4::BRAF was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EP300::BCOR
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified; Pediatric ependymoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase. ([EP300 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2033)). BCOR encodes a BCL6-interacting transcriptional corepressor. ([BCOR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/54880)). EP300::BCOR was reported in specimens labeled as Pediatric brain tumor, subtype unspecified; Pediatric ependymoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EP300::ETV6
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase. ([EP300 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2033)). ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). EP300::ETV6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ERC2::RAF1
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ERC2 encodes ELKS/RAB6-interacting/CAST family member 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. ([RAF1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5894)). ERC2::RAF1 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ETV6::FAM169BP
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). FAM169BP is annotated by HGNC as family with sequence similarity 169 member B, pseudogene (pseudogene). ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ETV6::FAM169BP was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ETV6::FOXO1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). FOXO1 encodes a forkhead-family transcription factor. ([FOXO1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2308)). ETV6::FOXO1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ETV6::INO80D
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). INO80D encodes INO80 complex subunit D. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ETV6::INO80D was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ETV6::SKAP1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). SKAP1 encodes src kinase associated phosphoprotein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ETV6::SKAP1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EWSR1::CREM
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). CREM encodes cAMP responsive element modulator. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). EWSR1::CREM was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EWSR1::ELF5
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). ELF5 encodes E74 like ETS transcription factor 5. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). EWSR1::ELF5 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## EWSR1::KLF15
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. ([EWSR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2130)). KLF15 encodes KLF transcription factor 15. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). EWSR1::KLF15 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## FGFR2::CTNNA3
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2263)). CTNNA3 encodes catenin alpha 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). FGFR2::CTNNA3 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## FGFR2::SHTN1
+
+**Tumor scope:** Pediatric ganglioglioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2263)). SHTN1 encodes shootin 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). FGFR2::SHTN1 was reported in specimens labeled as Pediatric ganglioglioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## FUS::FEV
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). FEV encodes an ETS-family transcription factor expressed in serotonergic neurons. ([FEV — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/54738)). FUS::FEV was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## FUS::FLI1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). FLI1 encodes an ETS-domain transcription factor. ([FLI1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2313)). FUS::FLI1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## FUS::NFATC2
+
+**Tumor scope:** Pediatric Ewing sarcoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. ([FUS — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2521)). NFATC2 encodes a nuclear-factor-of-activated-T-cells transcription factor. ([NFATC2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4773)). FUS::NFATC2 was reported in specimens labeled as Pediatric Ewing sarcoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## FYCO1::RAF1
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+FYCO1 encodes FYVE and coiled-coil domain autophagy adaptor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. ([RAF1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5894)). FYCO1::RAF1 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## GATA2::ERG
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+GATA2 encodes a zinc-finger transcription factor required for hematopoietic stem/progenitor-cell function. ([GATA2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2624)). ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. ([ERG — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2078)). GATA2::ERG was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## GKAP1::NTRK2
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+GKAP1 encodes G kinase anchoring protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). GKAP1::NTRK2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## GOLGB1::JAK2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+GOLGB1 encodes golgin B1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). GOLGB1::JAK2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## GSN::NTRK1
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+GSN encodes gelsolin. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase. ([NTRK1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4914)). GSN::NTRK1 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## GTF2I::BRAF
+
+**Tumor scope:** Pediatric glioneuronal tumor, NOS.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+GTF2I encodes general transcription factor IIi. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). GTF2I::BRAF was reported in specimens labeled as Pediatric glioneuronal tumor, NOS in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## HIP1::ALK
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+HIP1 encodes huntingtin interacting protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). HIP1::ALK was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## HIP1::MET
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+HIP1 encodes huntingtin interacting protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. ([MET — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4233)). HIP1::MET was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## HMGA2::NCOR2
+
+**Tumor scope:** Pediatric medulloblastoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+HMGA2 encodes high mobility group AT-hook 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NCOR2 encodes nuclear receptor corepressor 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). HMGA2::NCOR2 was reported in specimens labeled as Pediatric medulloblastoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## HNRNPA2B1::MET
+
+**Tumor scope:** Pediatric diffuse intrinsic pontine glioma (study diagnosis).
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+HNRNPA2B1 encodes heterogeneous nuclear ribonucleoprotein A2/B1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. ([MET — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4233)). HNRNPA2B1::MET was reported in specimens labeled as Pediatric diffuse intrinsic pontine glioma (study diagnosis) in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## HNRNPH1::ERG
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+HNRNPH1 encodes heterogeneous nuclear ribonucleoprotein H1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ERG encodes an ETS-family transcription factor involved in vascular and hematopoietic development. ([ERG — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2078)). HNRNPH1::ERG was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## HSPA8::FLI1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+HSPA8 encodes heat shock protein family A (Hsp70) member 8. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). FLI1 encodes an ETS-domain transcription factor. ([FLI1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2313)). HSPA8::FLI1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## IKZF1::ZEB2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+IKZF1 encodes IKAROS family zinc finger 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ZEB2 encodes zinc finger E-box binding homeobox 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). IKZF1::ZEB2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## JAKMIP2::BRAF
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+JAKMIP2 encodes janus kinase and microtubule interacting protein 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). JAKMIP2::BRAF was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KANK1::NTRK2
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KANK1 encodes KN motif and ankyrin repeat domains 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). KANK1::NTRK2 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KAT6A::NCOA2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KAT6A encodes a histone acetyltransferase and transcriptional coactivator. ([KAT6A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7994)). NCOA2 encodes a nuclear-receptor transcriptional coactivator. ([NCOA2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10499)). KAT6A::NCOA2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KCTD8::NTRK2
+
+**Tumor scope:** Pediatric ganglioglioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KCTD8 encodes potassium channel tetramerization domain containing 8. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). KCTD8::NTRK2 was reported in specimens labeled as Pediatric ganglioglioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KIAA1217::RET
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KIAA1217 encodes KIAA1217. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. ([RET — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5979)). KIAA1217::RET was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KLF3::PAX5
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KLF3 encodes KLF transcription factor 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). KLF3::PAX5 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KLHL7::MET
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KLHL7 encodes kelch like family member 7. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. ([MET — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4233)). KLHL7::MET was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::ABI1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). ABI1 encodes abl interactor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::ABI1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::ACTN4
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). ACTN4 encodes actinin alpha 4. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::ACTN4 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::AFF3
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). AFF3 encodes ALF transcription elongation factor 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::AFF3 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::AFF4
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). AFF4 encodes ALF transcription elongation factor 4. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::AFF4 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::ARFIP1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). ARFIP1 encodes ARF interacting protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::ARFIP1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::ARHGEF37
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). ARHGEF37 encodes Rho guanine nucleotide exchange factor 37. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::ARHGEF37 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::CREBBP
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase. ([CREBBP — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/1387)). KMT2A::CREBBP was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::DCP1A
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). DCP1A encodes decapping mRNA 1A. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::DCP1A was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::EP300
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). EP300 encodes p300, a transcriptional coactivator and histone acetyltransferase. ([EP300 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2033)). KMT2A::EP300 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::FNBP1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). FNBP1 encodes formin binding protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::FNBP1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::LASP1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). LASP1 encodes LIM and SH3 protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::LASP1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::LYN
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). LYN encodes LYN proto-oncogene, Src family tyrosine kinase. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::LYN was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::MAML2
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). MAML2 encodes a transcriptional coactivator in Notch signaling. ([MAML2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/84441)). KMT2A::MAML2 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::MATR3
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). MATR3 encodes matrin 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::MATR3 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::MLLT11
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). MLLT11 encodes MLLT11 transcription factor 7 cofactor. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::MLLT11 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::MYO1F
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). MYO1F encodes myosin IF. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::MYO1F was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::MYOCD
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). MYOCD encodes myocardin. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::MYOCD was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::PICALM
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). PICALM encodes a clathrin-associated adaptor involved in endocytosis. ([PICALM — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8301)). KMT2A::PICALM was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::RELA
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). RELA encodes p65, a transcriptional subunit of the NF-kappaB complex. ([RELA — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5970)). KMT2A::RELA was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::SARNP
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). SARNP encodes SAP domain containing ribonucleoprotein. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::SARNP was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::SEPTIN2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). SEPTIN2 encodes septin 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::SEPTIN2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::SEPTIN6
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). SEPTIN6 encodes septin 6. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::SEPTIN6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::SEPTIN9
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). SEPTIN9 encodes septin 9. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::SEPTIN9 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::USP2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia; Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). USP2 encodes ubiquitin specific peptidase 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::USP2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia; Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## KMT2A::USP9X
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. ([KMT2A — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4297)). USP9X encodes ubiquitin specific peptidase 9 X-linked. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). KMT2A::USP9X was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MACF1::BRAF
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MACF1 encodes microtubule actin crosslinking factor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). MACF1::BRAF was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MACF1::SLC6A18
+
+**Tumor scope:** Pediatric medulloblastoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MACF1 encodes microtubule actin crosslinking factor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). SLC6A18 encodes solute carrier family 6 member 18. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MACF1::SLC6A18 was reported in specimens labeled as Pediatric medulloblastoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MAP2K2::DIS3L
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MAP2K2 encodes mitogen-activated protein kinase kinase 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). DIS3L encodes DIS3 like exosome 3'-5' exoribonuclease. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MAP2K2::DIS3L was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MAP2K2::MLLT10
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MAP2K2 encodes mitogen-activated protein kinase kinase 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. ([MLLT10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8028)). MAP2K2::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MAP3K8::GNG2
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MAP3K8 encodes mitogen-activated protein kinase kinase kinase 8. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). GNG2 encodes G protein subunit gamma 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MAP3K8::GNG2 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MAP3K8::STX7
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MAP3K8 encodes mitogen-activated protein kinase kinase kinase 8. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). STX7 encodes syntaxin 7. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MAP3K8::STX7 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MAP3K8::SVIL
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MAP3K8 encodes mitogen-activated protein kinase kinase kinase 8. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). SVIL encodes supervillin. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MAP3K8::SVIL was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MBNL1::BRAF
+
+**Tumor scope:** Pediatric sarcoma, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MBNL1 encodes muscleblind like splicing regulator 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). MBNL1::BRAF was reported in specimens labeled as Pediatric sarcoma, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MEF2D::DAZAP1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival. ([MEF2D — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4209)). DAZAP1 encodes DAZ associated protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MEF2D::DAZAP1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MEF2D::KHDRBS1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival. ([MEF2D — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4209)). KHDRBS1 encodes KH RNA binding domain containing, signal transduction associated 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MEF2D::KHDRBS1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MEIS1::FOXO1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MEIS1 encodes Meis homeobox 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). FOXO1 encodes a forkhead-family transcription factor. ([FOXO1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2308)). MEIS1::FOXO1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MLLT10::DDX10
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. ([MLLT10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8028)). DDX10 encodes DEAD-box helicase 10. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MLLT10::DDX10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MN1::ETV6
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MN1 encodes the meningioma 1 protein. ([MN1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4330)). ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). MN1::ETV6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MN1::FLI1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MN1 encodes the meningioma 1 protein. ([MN1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4330)). FLI1 encodes an ETS-domain transcription factor. ([FLI1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2313)). MN1::FLI1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MN1::PATZ1
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified; Pediatric ependymoma; Pediatric high-grade glioma; Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MN1 encodes the meningioma 1 protein. ([MN1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4330)). PATZ1 encodes a zinc-finger transcriptional regulator with an AT-hook DNA-binding motif. ([PATZ1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/23598)). MN1::PATZ1 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified; Pediatric ependymoma; Pediatric high-grade glioma; Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MTMR2::MAML2
+
+**Tumor scope:** Pediatric diffuse intrinsic pontine glioma (study diagnosis).
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MTMR2 encodes myotubularin related protein 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MAML2 encodes a transcriptional coactivator in Notch signaling. ([MAML2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/84441)). MTMR2::MAML2 was reported in specimens labeled as Pediatric diffuse intrinsic pontine glioma (study diagnosis) in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MYBL1::MAML2
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MYBL1 encodes a MYB-family transcription factor. ([MYBL1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4603)). MAML2 encodes a transcriptional coactivator in Notch signaling. ([MAML2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/84441)). MYBL1::MAML2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MYBL1::QKI
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MYBL1 encodes a MYB-family transcription factor. ([MYBL1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4603)). QKI encodes an RNA-binding protein that regulates RNA processing and myelination. ([QKI — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/9444)). MYBL1::QKI was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MYB::CLINT1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MYB encodes a DNA-binding transcriptional regulator involved in hematopoiesis. ([MYB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4602)). CLINT1 encodes clathrin interactor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MYB::CLINT1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MYB::GATA1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MYB encodes a DNA-binding transcriptional regulator involved in hematopoiesis. ([MYB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4602)). GATA1 encodes GATA binding protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MYB::GATA1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## MYO5A::NTRK3
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+MYO5A encodes myosin VA. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK3 encodes TRKC, a neurotrophin receptor tyrosine kinase. ([NTRK3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4916)). MYO5A::NTRK3 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NAP1L1::MLLT10
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NAP1L1 encodes nucleosome assembly protein 1 like 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. ([MLLT10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8028)). NAP1L1::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NAV1::NTRK2
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NAV1 encodes neuron navigator 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). NAV1::NTRK2 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NIPBL::ETV6
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NIPBL encodes NIPBL cohesin loading factor. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. ([ETV6 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2120)). NIPBL::ETV6 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NONO::ZFP36L1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NONO encodes an RNA-binding protein involved in RNA processing and nuclear organization. ([NONO — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4841)). ZFP36L1 encodes ZFP36 like 1 zinc finger CCCH-type. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NONO::ZFP36L1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NPM1::CCDC28A
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). CCDC28A encodes coiled-coil domain containing 28A. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NPM1::CCDC28A was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NPM1::HAUS1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NPM1 encodes nucleophosmin, a nucleolar protein involved in ribosome assembly and protein trafficking. ([NPM1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4869)). HAUS1 encodes HAUS augmin like complex subunit 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NPM1::HAUS1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NR1D1::MAML1
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NR1D1 encodes nuclear receptor subfamily 1 group D member 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MAML1 encodes mastermind like transcriptional coactivator 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NR1D1::MAML1 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NRCAM::PRKCB
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NRCAM encodes neuronal cell adhesion molecule. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PRKCB encodes protein kinase C beta. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NRCAM::PRKCB was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NRF1::BRAF
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NRF1 encodes nuclear respiratory factor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). NRF1::BRAF was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::BPTF
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). BPTF encodes bromodomain PHD finger transcription factor. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::BPTF was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::BRWD3
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). BRWD3 encodes bromodomain and WD repeat domain containing 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::BRWD3 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::CADM1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). CADM1 encodes cell adhesion molecule 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::CADM1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::JADE2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). JADE2 encodes jade family PHD finger 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::JADE2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::PHF23
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). PHF23 encodes PHD finger protein 23. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::PHF23 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::PRRX1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). PRRX1 encodes paired related homeobox 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::PRRX1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::RAP1GDS1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). RAP1GDS1 encodes Rap1 GTPase-GDP dissociation stimulator 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::RAP1GDS1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## NUP98::ZFX
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+NUP98 encodes a nuclear pore protein with an amino-terminal region involved in transport and transcriptional regulation. ([NUP98 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4928)). ZFX encodes zinc finger protein X-linked. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP98::ZFX was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAG1::ABL2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAG1 encodes phosphoprotein membrane anchor with glycosphingolipid microdomains 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ABL2 encodes ABL proto-oncogene 2, non-receptor tyrosine kinase. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAG1::ABL2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX3::INO80D
+
+**Tumor scope:** Pediatric rhabdomyosarcoma, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX3 encodes a paired-box transcription factor involved in development. ([PAX3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5077)). INO80D encodes INO80 complex subunit D. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX3::INO80D was reported in specimens labeled as Pediatric rhabdomyosarcoma, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX3::NCOA1
+
+**Tumor scope:** Pediatric rhabdomyosarcoma, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX3 encodes a paired-box transcription factor involved in development. ([PAX3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5077)). NCOA1 encodes nuclear receptor coactivator 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX3::NCOA1 was reported in specimens labeled as Pediatric rhabdomyosarcoma, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX3::NCOA2
+
+**Tumor scope:** Pediatric medulloblastoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX3 encodes a paired-box transcription factor involved in development. ([PAX3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5077)). NCOA2 encodes a nuclear-receptor transcriptional coactivator. ([NCOA2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10499)). PAX3::NCOA2 was reported in specimens labeled as Pediatric medulloblastoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::AUTS2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). AUTS2 encodes activator of transcription and developmental regulator AUTS2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::AUTS2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::BCOR
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). BCOR encodes a BCL6-interacting transcriptional corepressor. ([BCOR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/54880)). PAX5::BCOR was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::CBFA2T3
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). CBFA2T3 encodes a transcriptional corepressor involved in hematopoietic differentiation. ([CBFA2T3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/863)). PAX5::CBFA2T3 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::DACH1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). DACH1 encodes dachshund family transcription factor 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::DACH1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::ESRRA
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). ESRRA encodes estrogen related receptor alpha. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::ESRRA was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::FAM184B
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). FAM184B encodes family with sequence similarity 184 member B. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::FAM184B was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::FBRSL1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). FBRSL1 encodes fibrosin like 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::FBRSL1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::FOXP1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). FOXP1 encodes forkhead box P1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::FOXP1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::GREB1L
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). GREB1L encodes GREB1 like retinoic acid receptor coactivator. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::GREB1L was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::NCOA5
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). NCOA5 encodes nuclear receptor coactivator 5. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::NCOA5 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::NOL4L
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). NOL4L encodes nucleolar protein 4 like. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::NOL4L was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PAX5::ZNF276
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PAX5 encodes a paired-box transcription factor required for B-cell identity. ([PAX5 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5079)). ZNF276 encodes zinc finger protein 276. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PAX5::ZNF276 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PDE4DIP::NTRK1
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PDE4DIP encodes phosphodiesterase 4D interacting protein. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK1 encodes TRKA, a neurotrophin receptor tyrosine kinase. ([NTRK1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4914)). PDE4DIP::NTRK1 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PDGFB::LRP1
+
+**Tumor scope:** Pediatric dysembryoplastic neuroepithelial tumor.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PDGFB encodes the B-chain ligand of platelet-derived growth factor. ([PDGFB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5155)). LRP1 encodes LDL receptor related protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PDGFB::LRP1 was reported in specimens labeled as Pediatric dysembryoplastic neuroepithelial tumor in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PICALM::AFF2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PICALM encodes a clathrin-associated adaptor involved in endocytosis. ([PICALM — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8301)). AFF2 encodes ALF transcription elongation factor 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PICALM::AFF2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PID1::BRAF
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PID1 encodes phosphotyrosine interaction domain containing 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). PID1::BRAF was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PID1::RAF1
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PID1 encodes phosphotyrosine interaction domain containing 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. ([RAF1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5894)). PID1::RAF1 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PPFIBP1::JAK2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PPFIBP1 encodes PPFIB scaffold protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). PPFIBP1::JAK2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PPP1CB::ALK
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified; Pediatric ganglioglioma; Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PPP1CB encodes protein phosphatase 1 catalytic subunit beta. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). PPP1CB::ALK was reported in specimens labeled as Pediatric brain tumor, subtype unspecified; Pediatric ganglioglioma; Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PSIP1::NUP214
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PSIP1 encodes PC4 and SRSF1 interacting protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. ([NUP214 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8021)). PSIP1::NUP214 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## PSPC1::ZFP36L1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+PSPC1 encodes paraspeckle component 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ZFP36L1 encodes ZFP36 like 1 zinc finger CCCH-type. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PSPC1::ZFP36L1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## QKI::ARID1B
+
+**Tumor scope:** Pediatric ependymoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+QKI encodes an RNA-binding protein that regulates RNA processing and myelination. ([QKI — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/9444)). ARID1B encodes AT-rich interaction domain 1B. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). QKI::ARID1B was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## RAB10::ALK
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+RAB10 encodes RAB10, member RAS oncogene family. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). RAB10::ALK was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## RCSD1::ABL2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+RCSD1 encodes RCSD domain-containing protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ABL2 encodes ABL proto-oncogene 2, non-receptor tyrosine kinase. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RCSD1::ABL2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## RNF130::BRAF
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+RNF130 encodes ring finger protein 130. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). RNF130::BRAF was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## RUNX1::CBFA2T2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). CBFA2T2 encodes CBFA2/RUNX1 partner transcriptional co-repressor 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RUNX1::CBFA2T2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## RUNX1::USP42
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). USP42 encodes ubiquitin specific peptidase 42. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RUNX1::USP42 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## RUNX1::ZFPM2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ([RUNX1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/861)). ZFPM2 encodes zinc finger protein, FOG family member 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RUNX1::ZFPM2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SFPQ::AGO1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SFPQ encodes an RNA-binding protein involved in splicing and transcriptional regulation. ([SFPQ — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6421)). AGO1 encodes argonaute RISC component 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). SFPQ::AGO1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SFPQ::ZFP36L2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SFPQ encodes an RNA-binding protein involved in splicing and transcriptional regulation. ([SFPQ — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6421)). ZFP36L2 encodes ZFP36 like 2 zinc finger CCCH-type. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). SFPQ::ZFP36L2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SLMAP::NTRK2
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SLMAP encodes sarcolemma associated protein. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). SLMAP::NTRK2 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SMARCA2::ZNF362
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SMARCA2 encodes SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ZNF362 encodes zinc finger protein 362. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). SMARCA2::ZNF362 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SMARCA2::ZNF384
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SMARCA2 encodes SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ZNF384 encodes a zinc-finger transcriptional regulator. ([ZNF384 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/171017)). SMARCA2::ZNF384 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SNRNP70::FGFR1
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SNRNP70 encodes small nuclear ribonucleoprotein U1 subunit 70. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. ([FGFR1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2260)). SNRNP70::FGFR1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SPTBN1::ALK
+
+**Tumor scope:** Pediatric acute myeloid leukemia; Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SPTBN1 encodes spectrin beta, non-erythrocytic 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). SPTBN1::ALK was reported in specimens labeled as Pediatric acute myeloid leukemia; Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SQSTM1::ALK
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SQSTM1 encodes sequestosome 1/p62. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ALK encodes a receptor tyrosine kinase involved in neural development. ([ALK — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/238)). SQSTM1::ALK was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SSBP2::FLT3
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SSBP2 encodes single-stranded DNA-binding protein 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. ([FLT3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2322)). SSBP2::FLT3 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SSBP2::JAK2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SSBP2 encodes single-stranded DNA-binding protein 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). SSBP2::JAK2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## SSBP2::PDGFRB
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+SSBP2 encodes single-stranded DNA-binding protein 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). PDGFRB encodes platelet-derived growth factor receptor beta, a receptor tyrosine kinase. ([PDGFRB — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5159)). SSBP2::PDGFRB was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## STAG2::AFF2
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+STAG2 encodes STAG2 cohesin complex component. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). AFF2 encodes ALF transcription elongation factor 2. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). STAG2::AFF2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## STRN3::JAK2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+STRN3 encodes striatin 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). STRN3::JAK2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TAX1BP1::BRAF
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TAX1BP1 encodes Tax1 binding protein 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). TAX1BP1::BRAF was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TBL1XR1::RARB
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TBL1XR1 encodes TBL1X/Y related 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RARB encodes retinoic acid receptor beta. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). TBL1XR1::RARB was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TCF3::FLI1
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TCF3 encodes E2A transcription factors required for lymphoid development. ([TCF3 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6929)). FLI1 encodes an ETS-domain transcription factor. ([FLI1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/2313)). TCF3::FLI1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TEC::MLLT10
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TEC encodes tec protein tyrosine kinase. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. ([MLLT10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8028)). TEC::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TFG::ROS1
+
+**Tumor scope:** Pediatric metastatic tumor, primary unspecified; Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TFG encodes TFG protein, a recurrent partner in oncogenic rearrangements. ([TFG — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10342)). ROS1 encodes a transmembrane receptor tyrosine kinase. ([ROS1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6098)). TFG::ROS1 was reported in specimens labeled as Pediatric metastatic tumor, primary unspecified; Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TNS3::BRAF
+
+**Tumor scope:** Pediatric ganglioglioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TNS3 encodes tensin 3. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). TNS3::BRAF was reported in specimens labeled as Pediatric ganglioglioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TPR::JAK2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TPR encodes a coiled-coil nuclear-pore-associated protein. ([TPR — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/7175)). JAK2 encodes a nonreceptor tyrosine kinase that transduces cytokine-receptor signals. ([JAK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/3717)). TPR::JAK2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TRIM24::BRAF
+
+**Tumor scope:** Pediatric high-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TRIM24 encodes tripartite motif containing 24. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). BRAF encodes a RAF-family serine/threonine kinase in the MAPK pathway. ([BRAF — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/673)). TRIM24::BRAF was reported in specimens labeled as Pediatric high-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TRIM24::ROS1
+
+**Tumor scope:** Pediatric low-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TRIM24 encodes tripartite motif containing 24. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ROS1 encodes a transmembrane receptor tyrosine kinase. ([ROS1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6098)). TRIM24::ROS1 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## TSPAN12::MET
+
+**Tumor scope:** Pediatric diffuse intrinsic pontine glioma (study diagnosis).
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+TSPAN12 encodes tetraspanin 12. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. ([MET — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4233)). TSPAN12::MET was reported in specimens labeled as Pediatric diffuse intrinsic pontine glioma (study diagnosis) in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## VCL::NTRK2
+
+**Tumor scope:** Pediatric brain tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+VCL encodes vinculin. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. ([NTRK2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/4915)). VCL::NTRK2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## VCL::RET
+
+**Tumor scope:** Pediatric solid tumor, subtype unspecified.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+VCL encodes vinculin. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). RET encodes a receptor tyrosine kinase activated by GDNF-family ligands and their coreceptors. ([RET — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/5979)). VCL::RET was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## XPO1::MLLT10
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+XPO1 encodes exportin 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. ([MLLT10 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/8028)). XPO1::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## XPO1::TNRC18
+
+**Tumor scope:** Pediatric acute myeloid leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+XPO1 encodes exportin 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). TNRC18 encodes trinucleotide repeat containing 18. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). XPO1::TNRC18 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## YAP1::SIRAL1
+
+**Tumor scope:** Pediatric low-grade glioma; Pediatric meningioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. ([YAP1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10413)). SIRAL1 encodes SIR2 antiphage like 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). YAP1::SIRAL1 was reported in specimens labeled as Pediatric low-grade glioma; Pediatric meningioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## YAP1::KDM2B
+
+**Tumor scope:** Pediatric ependymoma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. ([YAP1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10413)). KDM2B encodes lysine demethylase 2B. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). YAP1::KDM2B was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## YAP1::MAML2
+
+**Tumor scope:** Pediatric ependymoma; Pediatric meningioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. ([YAP1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/10413)). MAML2 encodes a transcriptional coactivator in Notch signaling. ([MAML2 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/84441)). YAP1::MAML2 was reported in specimens labeled as Pediatric ependymoma; Pediatric meningioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ZC3HAV1::ABL2
+
+**Tumor scope:** Pediatric B-lymphoblastic leukemia.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ZC3HAV1 encodes zinc finger CCCH-type containing, antiviral 1. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ABL2 encodes ABL proto-oncogene 2, non-receptor tyrosine kinase. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ZC3HAV1::ABL2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
+
+## ZCCHC8::ROS1
+
+**Tumor scope:** Pediatric high-grade glioma.
+
+**Evidence:** Primary cohort observation only; functional and clinical significance not adjudicated.
+
+ZCCHC8 encodes zinc finger CCHC-type containing 8. ([HGNC identity snapshot](https://www.genenames.org/download/archive/)). ROS1 encodes a transmembrane receptor tyrosine kinase. ([ROS1 — NCBI Gene](https://www.ncbi.nlm.nih.gov/gene/6098)). ZCCHC8::ROS1 was reported in specimens labeled as Pediatric high-grade glioma in the RNA-sequencing cohort of Liu et al. ([Liu et al. (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/)).
 

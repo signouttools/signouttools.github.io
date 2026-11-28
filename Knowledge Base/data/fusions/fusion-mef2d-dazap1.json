@@ -1,0 +1,117 @@
+{
+  "id": "fusion-mef2d-dazap1",
+  "label": "MEF2D::DAZAP1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "MEF2D",
+      "hgnc_id": "HGNC:6997",
+      "ncbi_gene_id": "4209"
+    },
+    {
+      "symbol": "DAZAP1",
+      "hgnc_id": "HGNC:2683",
+      "ncbi_gene_id": "26528"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric B-lymphoblastic leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-d1a5bc0ed7fb"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MEF2D",
+      "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival.",
+      "source_ids": [
+        "ncbi-4209"
+      ],
+      "claim_sha256": "cf20ae7c37712517a8d17e5970ad4c3dba84707ca52f1c3654631537e7855ec6",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4209",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4209",
+          "location": "NCBI Gene 4209 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2ebb719058a4588059f5afb09080c25fe45e00d9f8d9d7ff702d0d726cf75181"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "DAZAP1",
+      "text": "DAZAP1 encodes DAZ associated protein 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "4c0ecc53f85675f7e097113178aa4819f9fc7acdacef4c8bc790c1cf7dd02001",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2683",
+          "location": "Frozen HGNC TSV: HGNC:2683, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "MEF2D::DAZAP1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "fe3ebf86ea815126e948d1f1511eda09ad61d1e80d1df5ca8d873b5bf9ee3989",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1698, 1700",
+          "source_rows": [
+            1698,
+            1700
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "MEF2D encodes a MADS-box transcription factor involved in differentiation and cell survival. DAZAP1 encodes DAZ associated protein 1. MEF2D::DAZAP1 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-4209",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "d0f5043f17c1ae1720a6247f0d1df73c7a1d0ba274e0110fff6bfb01f661c725"
+}

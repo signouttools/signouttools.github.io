@@ -3757,13 +3757,14 @@
       "part": "function",
       "record_id": "gene:HGNC:11254:function",
       "decision": "supports_specific_claim",
-      "support_scope": "SPOP binds protein substrates and recruits Cul3 ubiquitin-ligase machinery for polyubiquitination, supporting the normal-function statement.",
+      "support_scope": "Normal molecular function only: SPOP MATH-domain substrate recognition, BTB/3-box CUL3 association, and dimeric assembly. No cancer, germline, or treatment inference.",
       "location": "Results: SPOP MATH-substrate binding, in-vitro ubiquitination and SPOP-Cul3 complex assembly; Figures 1-4.",
       "pmcid": "PMC2847577",
       "fulltext_sha256": "adcdb09c2c23d54b7910b9477d65e22221670ff5a1ac082c02fe4db19898a3f2",
-      "report_text_sha256": "4cd114573294d243142d4a578bedf218fbb8bb3ff30bd8ab6b97be6b60ea2cb5",
+      "report_text_sha256": "2a00c42ebc080730b10219a5c93e738667ae2d8d20f4952ed545e1210cb2c120",
       "reviewed_on": "2026-11-26",
-      "method": "LLM review of primary full-text Results/figure/table passages; specialist review pending."
+      "method": "LLM review of primary full-text Results/figure/table passages; specialist review pending.",
+      "claim_renewal": "Renewed against PMID 19818708 abstract and publicly displayed Figures 1-7 legends on PubMed, https://pubmed.ncbi.nlm.nih.gov/19818708/, 2026-11-27."
     },
     {
       "pmid": "32649874",

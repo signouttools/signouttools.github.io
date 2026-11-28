@@ -216,7 +216,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EWSR1 encodes RNA-binding protein EWS. It participates in regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coregulator activity.",
+      "text": "EWSR1 encodes RNA-binding protein EWS. It binds to ssRNA containing the consensus sequence 5'-AGGUAA-3'. EWS-fusion-proteins (EFPS) may play a role in the tumorigenic process. They may disturb gene expression by mimicking, or interfering with the normal function of CTD-POLII within the transcription initiation complex.",
       "source_ids": [
         "ncbi-2130",
         "uniprot-Q01844"

@@ -52,7 +52,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CKS1B encodes cyclin-dependent kinases regulatory subunit 1. It participates in mitotic cell cycle phase transition. Functional annotations also associate the protein with cyclin-dependent protein serine/threonine kinase activator activity.",
+      "text": "CKS1B encodes cyclin-dependent kinases regulatory subunit 1. It forms part of the substrate-specific subunit in cullin-RING E3 ubiquitin-protein ligase complexes. The E3 ubiquitin-protein ligase activity is regulated by the COP9 signalosome (CSN), which restores the ligase to its inactive state and resets the ligase for substrate recognition by reversing the activating neddylation on the cullin. It binds to the catalytic subunit of the cyclin dependent kinases and is essential for their biological function.",
       "source_ids": [
         "ncbi-1163",
         "uniprot-P61024"

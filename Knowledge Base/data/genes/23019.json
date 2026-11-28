@@ -127,9 +127,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "ZRSR2 encodes a splicing factor important for recognition and processing of introns, particularly those handled by the minor spliceosome.",
+      "text": "ZRSR2 encodes a splicing factor important for recognition and processing of introns, particularly those handled by the minor spliceosome. It selectively interacts with the 3'-splice site of U2- and U12-type pre-mRNAs and promotes different steps in U2 and U12 intron splicing.",
       "source_ids": [
-        "ncbi-8233"
+        "ncbi-8233",
+        "uniprot-Q15696"
       ]
     },
     "somatic": {

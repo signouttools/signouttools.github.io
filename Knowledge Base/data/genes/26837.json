@@ -120,7 +120,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AMER1 encodes APC membrane recruitment protein 1. It participates in positive regulation of protein ubiquitination and positive regulation of protein catabolic process. Functional annotations also associate the protein with protein-membrane adaptor activity and beta-catenin binding.",
+      "text": "AMER1 encodes APC membrane recruitment protein 1. It is a regulator of the canonical Wnt signaling pathway. It acts by specifically binding phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P2), translocating to the cell membrane and interacting with key regulators of the canonical Wnt signaling pathway, such as components of the beta-catenin destruction complex. It acts both as a positive and negative regulator of the Wnt signaling pathway, depending on the context: acts as a positive regulator by promoting LRP6 phosphorylation.",
       "source_ids": [
         "ncbi-139285",
         "uniprot-Q5JTC6"

@@ -112,7 +112,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TGFBR1 encodes TGF-beta receptor type-1. It participates in signal transduction and intracellular signal transduction. Functional annotations also associate the protein with protein kinase activity and protein serine/threonine kinase activity.",
+      "text": "TGFBR1 encodes TGF-beta receptor type-1. It transduces the TGFB1, TGFB2 and TGFB3 signal from the cell surface to the cytoplasm and is thus regulating a plethora of physiological and pathological processes including cell cycle arrest in epithelial and hematopoietic cells, control of mesenchymal cell proliferation and differentiation, wound healing, extracellular matrix production, immunosuppression and carcinogenesis. The formation of the receptor complex composed of 2 TGFBR1 and 2 TGFBR2 molecules symmetrically bound to the cytokine dimer results in the phosphorylation and the activation of TGFBR1 by the constitutively active TGFBR2. The SMAD2-SMAD4 complex is subsequently translocated to the nucleus where it modulates the transcription of the TGF-beta-regulated genes.",
       "source_ids": [
         "ncbi-7046",
         "uniprot-P36897"

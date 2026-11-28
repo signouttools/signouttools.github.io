@@ -1,0 +1,120 @@
+{
+  "id": "fusion-yap1-maml2",
+  "label": "YAP1::MAML2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "YAP1",
+      "hgnc_id": "HGNC:16262",
+      "ncbi_gene_id": "10413"
+    },
+    {
+      "symbol": "MAML2",
+      "hgnc_id": "HGNC:16259",
+      "ncbi_gene_id": "84441"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric ependymoma",
+    "Pediatric meningioma"
+  ],
+  "disease_ids": [
+    "fusion-context-10a46607941b",
+    "fusion-context-d578282b40b6"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "YAP1",
+      "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling.",
+      "source_ids": [
+        "ncbi-10413"
+      ],
+      "claim_sha256": "1a8bd583ad13c35afcf7349c401739f077529104c1fc58ab3a152b7e58f79c01",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10413",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10413",
+          "location": "NCBI Gene 10413 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "e80aa0a2311bfb61df3c96c7f5b5525a70c20667d9236ead51ca5676615a7fa4"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAML2",
+      "text": "MAML2 encodes a transcriptional coactivator in Notch signaling.",
+      "source_ids": [
+        "ncbi-84441"
+      ],
+      "claim_sha256": "9e1d042cd553b86c78427c144b147e01affc777efd1703376c7932386ae3cbf1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-84441",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/84441",
+          "location": "NCBI Gene 84441 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9ae7a41f31cfee79ccf8a69e30e1406629670c1691c7a5bf44aec08561708b0a"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "YAP1::MAML2 was reported in specimens labeled as Pediatric ependymoma; Pediatric meningioma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "49e4f718331a4afe7b34a8d49345aecd29fdcfb2c1426fdc3e178cdb7fd0b922",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3092, 3322, 3829",
+          "source_rows": [
+            3092,
+            3322,
+            3829
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. MAML2 encodes a transcriptional coactivator in Notch signaling. YAP1::MAML2 was reported in specimens labeled as Pediatric ependymoma; Pediatric meningioma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-10413",
+      "ncbi-84441",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "1a69495be6b605bb30eeddbe7dec207afb761423548f66daca1783c99565e457"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "fusion-psip1-nup214",
+  "label": "PSIP1::NUP214",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "PSIP1",
+      "hgnc_id": "HGNC:9527",
+      "ncbi_gene_id": "11168"
+    },
+    {
+      "symbol": "NUP214",
+      "hgnc_id": "HGNC:8064",
+      "ncbi_gene_id": "8021"
+    }
+  ],
+  "aliases": [
+    "PSIP2::NUP214"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PSIP1",
+      "text": "PSIP1 encodes PC4 and SRSF1 interacting protein 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "2bb5128d9d8b2ae5de6e0f11ad387b40ba7988ba5c72fb04e5b0b6bfccec241b",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9527",
+          "location": "Frozen HGNC TSV: HGNC:9527, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NUP214",
+      "text": "NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport.",
+      "source_ids": [
+        "ncbi-8021"
+      ],
+      "claim_sha256": "0b4c23f9c46379217039bc5f187f555d066c7a483f56cea6396daca6fad6ce2d",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8021",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8021",
+          "location": "NCBI Gene 8021 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "0c8163466f7fcef582c64b18cdaec921e2b06ab6a8d561b9980a942a53738262"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "PSIP1::NUP214 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "60a0708e48082f622ef02adda8143119680d589cdc0e5b6b7dd3dc486b8c1ba7",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3891",
+          "source_rows": [
+            3891
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "PSIP1 encodes PC4 and SRSF1 interacting protein 1. NUP214 encodes a nuclear pore component involved in nucleocytoplasmic transport. PSIP1::NUP214 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-8021",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "8b80fc7c368a6d6c593dfeb1dc932491aee3d8ae1c81cfbc1fb635b8f68f6fe6"
+}

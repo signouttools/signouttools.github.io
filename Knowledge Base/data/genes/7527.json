@@ -135,7 +135,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MUTYH encodes adenine DNA glycosylase. It participates in DNA repair and mismatch repair. Functional annotations also associate the protein with DNA N-glycosylase activity and 8-oxo-7,8-dihydroguanine DNA N-glycosylase activity.",
+      "text": "MUTYH encodes adenine DNA glycosylase. It participates in oxidative DNA damage repair. It initiates repair of A*oxoG to C*G by removing the inappropriately paired adenine base from the DNA backbone. It possesses both adenine and 2-OH-A DNA glycosylase activities.",
       "source_ids": [
         "ncbi-4595",
         "uniprot-Q9UIF7"

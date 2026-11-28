@@ -114,7 +114,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD1B encodes histone-lysine N-methyltransferase SETD1B. Its functions include histone H3 methyltransferase activity and histone H3K4 monomethyltransferase activity.",
+      "text": "SETD1B encodes histone-lysine N-methyltransferase SETD1B. Based in part on similarity, it is a histone methyltransferase that catalyzes methyl group transfer from S-adenosyl-L-methionine to the epsilon-amino group of 'Lys-4' of histone H3 (H3K4) via a non-processive mechanism. It forms part of chromatin remodeling machinery, forms H3K4me1, H3K4me2 and H3K4me3 methylation marks at active chromatin sites where transcription and DNA repair take place. It contributes to regulating the transcriptional programming of multipotent hematopoietic progenitor cells and lymphoid lineage specification during hematopoiesis.",
       "source_ids": [
         "ncbi-23067",
         "uniprot-Q9UPS6"

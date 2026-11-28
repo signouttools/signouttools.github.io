@@ -165,9 +165,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "ROS1 encodes a receptor tyrosine kinase whose signaling can regulate cellular proliferation, survival, and differentiation.",
+      "text": "ROS1 encodes a receptor tyrosine kinase whose signaling can regulate cellular proliferation, survival, and differentiation. Based in part on similarity, it is a receptor tyrosine kinase (RTK) that plays a role in epithelial cell differentiation and regionalization of the proximal epididymal epithelium. NELL2 is an endogenous ligand for ROS1. It may activate several downstream signaling pathways related to cell differentiation, proliferation, growth and survival including the PI3 kinase-mTOR signaling pathway.",
       "source_ids": [
-        "ncbi-6098"
+        "ncbi-6098",
+        "uniprot-P08922"
       ]
     },
     "somatic": {

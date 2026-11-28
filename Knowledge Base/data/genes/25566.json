@@ -80,7 +80,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD5 encodes histone-lysine N-methyltransferase SETD5. It participates in regulation of DNA-templated transcription and regulation of chromatin organization. Functional annotations also associate the protein with transcription corepressor activity and histone H3K36 methyltransferase activity.",
+      "text": "SETD5 encodes histone-lysine N-methyltransferase SETD5. Based in part on similarity, it is a chromatin regulator required for brain development: acts as a regulator of RNA elongation rate, thereby regulating neural stem cell (NSC) proliferation and synaptic transmission. It may act by mediating trimethylation of 'Lys-36' of histone H3 (H3K36me3), which is essential to allow on-time RNA elongation dynamics.",
       "source_ids": [
         "ncbi-55209",
         "uniprot-Q9C0A6"

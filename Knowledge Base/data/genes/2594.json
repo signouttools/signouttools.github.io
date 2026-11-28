@@ -78,7 +78,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CYP19A1 encodes aromatase. It participates in androgen catabolic process and estrogen biosynthetic process. Functional annotations also associate the protein with aromatase activity and electron transfer activity.",
+      "text": "CYP19A1 encodes aromatase. It catalyzes three successive oxidations of C19 androgens: two conventional oxidations at C19 yielding 19-hydroxy and 19-oxo/19-aldehyde derivatives, followed by a third oxidative aromatization step that involves C1-beta hydrogen abstraction combined with cleavage of the C10-C19 bond to yield a phenolic A ring and formic acid. It converts dihydrotestosterone to delta1,10-dehydro 19-nordihydrotestosterone and may play a role in homeostasis of this potent androgen. It also displays 2-hydroxylase activity toward estrone.",
       "source_ids": [
         "ncbi-1588",
         "uniprot-P11511"

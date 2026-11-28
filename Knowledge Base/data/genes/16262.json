@@ -139,7 +139,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "YAP1 encodes transcriptional coactivator YAP1. It participates in positive regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with transcription coactivator activity and transcription coregulator activity.",
+      "text": "YAP1 encodes transcriptional coactivator YAP1. Based in part on similarity, the Hippo signaling pathway core involves a kinase cascade featuring STK3/MST2 and STK4/MST1, along with its regulatory partner SAV1, which phosphorylates and activates LATS1/2 in complex with their regulatory protein, MOB1. This activation leads to the phosphorylation and inactivation of the YAP1 oncoprotein and WWTR1/TAZ. The transcriptional regulation of gene expression requires TEAD transcription factors and modulates cell growth, anchorage-independent growth, and induction of epithelial-mesenchymal transition (EMT).",
       "source_ids": [
         "ncbi-10413",
         "uniprot-P46937"

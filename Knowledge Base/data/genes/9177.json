@@ -131,9 +131,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "POLE encodes the catalytic subunit of DNA polymerase epsilon, which participates in DNA replication and contains a proofreading exonuclease domain.",
+      "text": "POLE encodes the catalytic subunit of DNA polymerase epsilon, which participates in DNA replication and contains a proofreading exonuclease domain. Based in part on similarity, it is the catalytic component of the DNA polymerase epsilon complex. It participates in chromosomal DNA replication. It has 3'-5' proofreading exonuclease activity that corrects errors arising during DNA replication.",
       "source_ids": [
-        "ncbi-5426"
+        "ncbi-5426",
+        "uniprot-Q07864"
       ]
     },
     "germline": {

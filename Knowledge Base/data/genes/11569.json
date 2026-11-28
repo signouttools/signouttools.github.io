@@ -71,7 +71,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TARBP2 encodes TARBP2 subunit of RISC loading complex. Its functions include double-stranded RNA binding and enzyme binding.",
+      "text": "TARBP2 encodes TARBP2 subunit of RISC loading complex. Based in part on similarity, it is required for formation of the RNA induced silencing complex (RISC). It forms part of the RISC loading complex (RLC), also known as the micro-RNA (miRNA) loading complex (miRLC), which is composed of DICER1, AGO2 and TARBP2. May also play a role in the production of short interfering RNAs (siRNAs) from double-stranded RNA (dsRNA) by DICER1.",
       "source_ids": [
         "ncbi-6895",
         "uniprot-Q15633"

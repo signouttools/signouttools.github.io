@@ -118,7 +118,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RECQL4 encodes ATP-dependent DNA helicase Q4. It participates in DNA repair and telomere maintenance. Functional annotations also associate the protein with helicase activity and ATP hydrolysis activity.",
+      "text": "RECQL4 encodes ATP-dependent DNA helicase Q4. It does not unwind more than 18 bp of dsDNA. The N-terminal domain (residues 1-54) binds DNA Y-shaped DNA better than ss- or dsDNA. The core helicase domain binds ssDNA.",
       "source_ids": [
         "ncbi-9401",
         "uniprot-O94761"

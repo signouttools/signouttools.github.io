@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PICALM encodes phosphatidylinositol-binding clathrin assembly protein. It participates in positive regulation of DNA-templated transcription and positive regulation of Ras protein signal transduction. Functional annotations also associate the protein with 1-phosphatidylinositol binding and SNARE binding.",
+      "text": "PICALM encodes phosphatidylinositol-binding clathrin assembly protein. It is a cytoplasmic adapter protein that plays a critical role in clathrin-mediated endocytosis which is important in processes such as internalization of cell receptors, synaptic transmission or removal of apoptotic cells. It recruits AP-2 and attaches clathrin triskelions to the cytoplasmic side of plasma membrane leading to clathrin-coated vesicles (CCVs) assembly. Furthermore, regulates clathrin-coated vesicle size and maturation by directly sensing and driving membrane curvature.",
       "source_ids": [
         "ncbi-8301",
         "uniprot-Q13492"

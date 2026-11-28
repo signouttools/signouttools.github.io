@@ -105,7 +105,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SMAD3 encodes SMAD family member 3. It participates in SMAD protein signal transduction and regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription repressor activity.",
+      "text": "SMAD3 encodes SMAD family member 3. It is a receptor-regulated SMAD (R-SMAD) that is an intracellular signal transducer and transcriptional modulator activated by TGF-beta (transforming growth factor) and activin type 1 receptor kinases. It binds the TRE element in the promoter region of many genes that are regulated by TGF-beta and, on formation of the SMAD3/SMAD4 complex, activates transcription. It also can form a SMAD3/SMAD4/JUN/FOS complex at the AP-1/SMAD site to regulate TGF-beta-mediated transcription.",
       "source_ids": [
         "ncbi-4088",
         "uniprot-P84022"

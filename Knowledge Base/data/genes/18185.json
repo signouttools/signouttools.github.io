@@ -91,7 +91,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ERRFI1 encodes ERBB receptor feedback inhibitor 1. It participates in negative regulation of epidermal growth factor-activated receptor activity and skin morphogenesis. Functional annotations also associate the protein with GTPase activator activity and SH3 domain binding.",
+      "text": "ERRFI1 encodes ERBB receptor feedback inhibitor 1. Based in part on similarity, it functions as a negative regulator for several EGFR family members, including ERBB2, ERBB3 and ERBB4. It inhibits EGFR catalytic activity by interfering with its dimerization. It inhibits autophosphorylation of EGFR, ERBB2 and ERBB4.",
       "source_ids": [
         "ncbi-54206",
         "uniprot-Q9UJM3"

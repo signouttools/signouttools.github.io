@@ -98,7 +98,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FANCI encodes Fanconi anemia group I protein. It participates in DNA damage response and interstrand cross-link repair. Functional annotations also associate the protein with DNA polymerase binding.",
+      "text": "FANCI encodes Fanconi anemia group I protein. Based in part on similarity, it contributes to the repair of DNA double-strand breaks by homologous recombination and in the repair of interstrand DNA cross-links (ICLs) by promoting FANCD2 monoubiquitination by FANCL and participating in recruitment to DNA repair sites. It participates in S phase and G2 phase checkpoint activation upon DNA damage.",
       "source_ids": [
         "ncbi-55215",
         "uniprot-Q9NVI1"

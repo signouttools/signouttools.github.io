@@ -109,7 +109,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KLHL6 encodes kelch-like protein 6. It participates in germinal center formation and B cell receptor signaling pathway. Functional annotations also associate the protein with ubiquitin-like ligase-substrate adaptor activity.",
+      "text": "KLHL6 encodes kelch-like protein 6. It is a substrate-specific adapter of a BCR (BTB-CUL3-RBX1) E3 ubiquitin ligase complex that acts as a multifunctional regulator of B-cell receptor (BCR) signaling, germinal center formation, and T-cell function. It functions by mediating polyubiquitination of target proteins, leading to their proteasomal degradation. It targets the BCR signaling subunits CD79A and CD79B for ubiquitin-mediated degradation, thereby controlling surface BCR homeostasis.",
       "source_ids": [
         "ncbi-89857",
         "uniprot-Q8WZ60"

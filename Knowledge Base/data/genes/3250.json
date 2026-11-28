@@ -130,7 +130,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EIF1AX encodes eukaryotic translation initiation factor 1A, X-chromosomal. It participates in ribosome assembly and translational initiation. Functional annotations also associate the protein with translation initiation factor activity and translation factor activity, RNA binding.",
+      "text": "EIF1AX encodes eukaryotic translation initiation factor 1A, X-chromosomal. It forms part of the 43S pre-initiation complex (43S PIC), which binds to the mRNA cap-proximal region, scans mRNA 5'-untranslated region, and locates the initiation codon. This protein enhances formation of the cap-proximal complex. It is released after 80S initiation complex formation, just after GTP hydrolysis by EIF5B, and before release of EIF5B.",
       "source_ids": [
         "ncbi-1964",
         "uniprot-P47813"

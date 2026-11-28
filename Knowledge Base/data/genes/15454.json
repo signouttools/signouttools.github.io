@@ -91,7 +91,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SHOC2 encodes leucine-rich repeat protein SHOC-2. It participates in intracellular signal transduction and positive regulation of Ras protein signal transduction. Functional annotations also associate the protein with protein phosphatase regulator activity and protein phosphatase binding.",
+      "text": "SHOC2 encodes leucine-rich repeat protein SHOC-2. It is a core component of the SHOC2-MRAS-PP1c (SMP) holophosphatase complex that regulates activation of the MAPK pathway. It functions as a scaffolding protein in the SMP complex. The SMP complex specifically dephosphorylates the inhibitory phosphorylation at 'Ser-259' of RAF1 kinase, 'Ser-365' of BRAF kinase and 'Ser-214' of ARAF kinase, stimulating their kinase activities.",
       "source_ids": [
         "ncbi-8036",
         "uniprot-Q9UQ13"

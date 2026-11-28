@@ -1,0 +1,120 @@
+{
+  "id": "fusion-zfta-maml2",
+  "label": "ZFTA::MAML2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "ZFTA",
+      "hgnc_id": "HGNC:28449",
+      "ncbi_gene_id": "65998"
+    },
+    {
+      "symbol": "MAML2",
+      "hgnc_id": "HGNC:16259",
+      "ncbi_gene_id": "84441"
+    }
+  ],
+  "aliases": [
+    "C11orf95::MAML2"
+  ],
+  "tumor_contexts": [
+    "Pediatric ependymoma"
+  ],
+  "disease_ids": [
+    "fusion-context-10a46607941b"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ZFTA",
+      "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator.",
+      "source_ids": [
+        "ncbi-65998"
+      ],
+      "claim_sha256": "ada20b5f8beab08a7c88d4c88f91f2a7d973348d837041cda272a1e7cba88144",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-65998",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/65998",
+          "location": "NCBI Gene 65998 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "454ef726b0ee11c05d1fcea82440700a3435f8de9c6b0de6b3ed0713040f36e3"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAML2",
+      "text": "MAML2 encodes a transcriptional coactivator in Notch signaling.",
+      "source_ids": [
+        "ncbi-84441"
+      ],
+      "claim_sha256": "9e1d042cd553b86c78427c144b147e01affc777efd1703376c7932386ae3cbf1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-84441",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/84441",
+          "location": "NCBI Gene 84441 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9ae7a41f31cfee79ccf8a69e30e1406629670c1691c7a5bf44aec08561708b0a"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "ZFTA::MAML2 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "3c6e772a17ee4c7ccf0fc20bbc63faae8ff35dd84d96b360f4e6764db1f1906f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 320, 344, 1853",
+          "source_rows": [
+            320,
+            344,
+            1853
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator. MAML2 encodes a transcriptional coactivator in Notch signaling. ZFTA::MAML2 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-65998",
+      "ncbi-84441",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "b618591ac0f84aae749d68a1939d2b319f15d8d8cce3f4c5866843d13dc34a1c"
+}

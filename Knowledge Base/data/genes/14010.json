@@ -137,7 +137,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MGA encodes MAX gene-associated protein. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity, RNA polymerase II-specific and protein dimerization activity.",
+      "text": "MGA encodes MAX gene-associated protein. Based in part on similarity, it acts as a dual-specificity transcription factor, regulating the expression of both MAX-network and T-box family target genes. It acts as a repressor or an activator. It binds to 5'-AATTTCACACCTAGGTGTGAAATT-3' core sequence and seems to regulate MYC-MAX target genes.",
       "source_ids": [
         "ncbi-23269",
         "uniprot-Q8IWI9"

@@ -74,7 +74,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SHH encodes sonic hedgehog protein [Cleaved into: Sonic hedgehog protein N-product]. It participates in positive regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with endopeptidase activity and morphogen activity.",
+      "text": "SHH encodes sonic hedgehog protein. Based in part on similarity, the C-terminal part of the precursor displays an autoproteolysis and a cholesterol transferase activity, resulting (1) in the cleavage of the full-length protein into two parts, Sonic hedgehog protein N-product and C-product (ShhN and ShhC, respectively) and (2) covalent attachment of a cholesterol moiety to the C-terminus of the newly generated ShhN. It acts by binding to the patched receptor (PTCH1 or PTCH2), relieving smoothened (SMO) inhibition by patched, activating the smoothened signaling pathway and transcription of target genes. ShhN is widely expressed and plays a key role in the patterning of the central nervous system and limb development.",
       "source_ids": [
         "ncbi-6469",
         "uniprot-Q15465"

@@ -1,0 +1,120 @@
+{
+  "id": "fusion-tfg-ros1",
+  "label": "TFG::ROS1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "TFG",
+      "hgnc_id": "HGNC:11758",
+      "ncbi_gene_id": "10342"
+    },
+    {
+      "symbol": "ROS1",
+      "hgnc_id": "HGNC:10261",
+      "ncbi_gene_id": "6098"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric metastatic tumor, primary unspecified",
+    "Pediatric solid tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-b7cbf693bf5f",
+    "fusion-context-180bf8abba7a"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TFG",
+      "text": "TFG encodes TFG protein, a recurrent partner in oncogenic rearrangements.",
+      "source_ids": [
+        "ncbi-10342"
+      ],
+      "claim_sha256": "fac3dd55234785b24c2917c703d8cec7e6e04682dcb12a720edf91c72986a280",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10342",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10342",
+          "location": "NCBI Gene 10342 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "78b8536ce84e0ac3dad8ffb0ee05fe84e56a1e61d4446c0bfb0daaf213afdd32"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ROS1",
+      "text": "ROS1 encodes a transmembrane receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-6098"
+      ],
+      "claim_sha256": "cf8fa6e349ef6f35e1660591a63860296eea74105a1b77ab7916950dcb065566",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-6098",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/6098",
+          "location": "NCBI Gene 6098 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9f0bd82336a04bf326cb790a1607f50d5c763799bc8ec9faa31cf4c7ac582b0e"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "TFG::ROS1 was reported in specimens labeled as Pediatric metastatic tumor, primary unspecified; Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "082306f504f3050177128ae70f422a2374697b94b351e4127e85c63a2fc3e304",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 803, 3614, 3670",
+          "source_rows": [
+            803,
+            3614,
+            3670
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "TFG encodes TFG protein, a recurrent partner in oncogenic rearrangements. ROS1 encodes a transmembrane receptor tyrosine kinase. TFG::ROS1 was reported in specimens labeled as Pediatric metastatic tumor, primary unspecified; Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-10342",
+      "ncbi-6098",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "45bcd03b84bd12d4f8429c05084dc07061c9ee3277c66f9fcc09c89fd4c513b6"
+}

@@ -70,7 +70,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TNFRSF1B encodes tumor necrosis factor receptor superfamily member 1B [Cleaved into: Tumor necrosis factor receptor superfamily member 1b, membrane form; Tumor necrosis factor-binding protein 2]. It participates in activation of NF-kappaB-inducing kinase activity and inflammatory response. Functional annotations also associate the protein with tumor necrosis factor receptor activity and tumor necrosis factor binding.",
+      "text": "TNFRSF1B encodes tumor necrosis factor receptor superfamily member 1B. It has high affinity for TNFSF2/TNF and approximately 5-fold lower affinity for LTA/TNFSF1. The TNF signaling pathway acts as a master regulator of the immune system, which either (1) promotes cell survival and inflammation by activating the canonical NF-kappa-B pathway or (2) trigger programmed cell death (apoptosis and necroptosis).",
       "source_ids": [
         "ncbi-7133",
         "uniprot-P20333"

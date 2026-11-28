@@ -137,7 +137,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SUZ12 encodes polycomb protein SUZ12. It participates in negative regulation of transcription by RNA polymerase II and heterochromatin formation. Functional annotations also associate the protein with transcription corepressor binding and enzyme activator activity.",
+      "text": "SUZ12 encodes polycomb protein SUZ12. It forms part of the PRC2 complex, which methylates 'Lys-9' (H3K9me) and 'Lys-27' (H3K27me) of histone H3, leading to transcriptional repression of the affected target gene. The PRC2 complex may also serve as a recruiting platform for DNA methyltransferases, thereby linking two epigenetic repression systems.",
       "source_ids": [
         "ncbi-23512",
         "uniprot-Q15022"

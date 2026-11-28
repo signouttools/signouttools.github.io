@@ -84,7 +84,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GPC3 encodes glypican-3 [Cleaved into: Glypican-3 alpha subunit; Glypican-3 beta subunit]. It participates in cell migration and anatomical structure morphogenesis. Functional annotations also associate the protein with peptidyl-dipeptidase inhibitor activity.",
+      "text": "GPC3 encodes glypican-3. Based in part on similarity, it negatively regulates the hedgehog signaling pathway when attached via the GPI-anchor to the cell surface by competing with the hedgehog receptor PTC1 for binding to hedgehog proteins. It positively regulates the canonical Wnt signaling pathway by binding to the Wnt receptor Frizzled and stimulating the binding of the Frizzled receptor to Wnt ligands. It positively regulates the non-canonical Wnt signaling pathway.",
       "source_ids": [
         "ncbi-2719",
         "uniprot-P51654"

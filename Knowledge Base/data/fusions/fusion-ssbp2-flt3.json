@@ -1,0 +1,116 @@
+{
+  "id": "fusion-ssbp2-flt3",
+  "label": "SSBP2::FLT3",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "SSBP2",
+      "hgnc_id": "HGNC:15831",
+      "ncbi_gene_id": "23635"
+    },
+    {
+      "symbol": "FLT3",
+      "hgnc_id": "HGNC:3765",
+      "ncbi_gene_id": "2322"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric B-lymphoblastic leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-d1a5bc0ed7fb"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "SSBP2",
+      "text": "SSBP2 encodes single-stranded DNA-binding protein 2.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "b4903092a0f7dfc01962d0590b0af60097b7d4b08bc71404868831deba8345dc",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:15831",
+          "location": "Approved HGNC snapshot row HGNC:15831 / SSBP2",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FLT3",
+      "text": "FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors.",
+      "source_ids": [
+        "ncbi-2322"
+      ],
+      "claim_sha256": "6eb2e5e1e6dee10502c9cbbfb056eae2365d86035658a8c8324f718828dd2ed4",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2322",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2322",
+          "location": "NCBI Gene 2322 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "d349ff11507025fdc98e412cfb0ccd142c8de75acf2b8859570edee0b1f0f9fd"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "SSBP2::FLT3 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "aed8b689af699a98df3ee515b9cd925295c3bc314de0d94b5b579ef7b37aae8e",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 168",
+          "source_rows": [
+            168
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "SSBP2 encodes single-stranded DNA-binding protein 2. FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. SSBP2::FLT3 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-2322",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "58782c34df396f01569d2d02b1b60a8acd5f0641cb6b16ad89af083b934c052c"
+}

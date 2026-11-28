@@ -115,7 +115,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ACVR1B encodes activin receptor type-1B. It participates in signal transduction and regulation of DNA-templated transcription. Functional annotations also associate the protein with protein serine/threonine kinase activity and transmembrane receptor protein serine/threonine kinase activity.",
+      "text": "ACVR1B encodes activin receptor type-1B. It transduces the activin signal from the cell surface to the cytoplasm and is thus regulating a many physiological and pathological processes including neuronal differentiation and neuronal survival, hair follicle development and cycling, FSH production by the pituitary gland, wound healing, extracellular matrix production, immunosuppression and carcinogenesis. Activin is also thought to have a paracrine or autocrine role in follicular development in the ovary. Activin binds to type-2 receptor at the plasma membrane and activates its serine-threonine kinase.",
       "source_ids": [
         "ncbi-91",
         "uniprot-P36896"

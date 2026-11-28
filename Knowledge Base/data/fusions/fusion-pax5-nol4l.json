@@ -1,0 +1,124 @@
+{
+  "id": "fusion-pax5-nol4l",
+  "label": "PAX5::NOL4L",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "PAX5",
+      "hgnc_id": "HGNC:8619",
+      "ncbi_gene_id": "5079"
+    },
+    {
+      "symbol": "NOL4L",
+      "hgnc_id": "HGNC:16106",
+      "ncbi_gene_id": "140688"
+    }
+  ],
+  "aliases": [
+    "PAX5::C20orf112",
+    "PAX5::C20orf113"
+  ],
+  "tumor_contexts": [
+    "Pediatric B-lymphoblastic leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-d1a5bc0ed7fb"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX5",
+      "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity.",
+      "source_ids": [
+        "ncbi-5079"
+      ],
+      "claim_sha256": "82f40ae0455ff64d4c262db6b1e7bc098d0f1f53e4dac8fc70661ed9d5055483",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5079",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5079",
+          "location": "NCBI Gene 5079 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "049153be1296fee3c5dcec18f6fb0662ced3d22f53f99c81d6d99e96f08f0c5a"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NOL4L",
+      "text": "NOL4L encodes nucleolar protein 4 like.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "da2a2a9b97092642439389414793644bb76378e46bc31fb1afaf75b56d318b9e",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:16106",
+          "location": "Frozen HGNC TSV: HGNC:16106, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "PAX5::NOL4L was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "c5db27f12f7bdc0574cf8f29e431784346f806214a5584569e4f1980e07effa5",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 936, 2064, 5455, 5456, 5459, 5460",
+          "source_rows": [
+            936,
+            2064,
+            5455,
+            5456,
+            5459,
+            5460
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. NOL4L encodes nucleolar protein 4 like. PAX5::NOL4L was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-5079",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "495e3809ff66338053fd2d74b82744442524ff022a3b75da24aaab42280eed2e"
+}

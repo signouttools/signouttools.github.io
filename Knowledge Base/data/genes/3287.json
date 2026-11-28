@@ -79,7 +79,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EIF4E encodes eukaryotic translation initiation factor 4E. It participates in translational initiation and regulation of translation. Functional annotations also associate the protein with DNA-binding transcription factor binding and translation initiation factor activity.",
+      "text": "EIF4E encodes eukaryotic translation initiation factor 4E. Based in part on similarity, it acts in the cytoplasm to initiate and regulate protein synthesis and is required in the nucleus for export of a subset of mRNAs from the nucleus to the cytoplasm which promotes processes such as RNA capping, processing and splicing. It forms part of the protein complex eIF4F, which is involved in the recognition of the mRNA cap, ATP-dependent unwinding of 5'-terminal secondary structure and recruitment of mRNA to the ribosome. This protein recognizes and binds the 7-methylguanosine (m7G)-containing mRNA cap during an early step in the initiation of protein synthesis and facilitates ribosome binding by inducing the unwinding of the mRNAs secondary structures.",
       "source_ids": [
         "ncbi-1977",
         "uniprot-P06730"

@@ -1,0 +1,116 @@
+{
+  "id": "fusion-pax5-fam184b",
+  "label": "PAX5::FAM184B",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "PAX5",
+      "hgnc_id": "HGNC:8619",
+      "ncbi_gene_id": "5079"
+    },
+    {
+      "symbol": "FAM184B",
+      "hgnc_id": "HGNC:29235",
+      "ncbi_gene_id": "27146"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric B-lymphoblastic leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-d1a5bc0ed7fb"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX5",
+      "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity.",
+      "source_ids": [
+        "ncbi-5079"
+      ],
+      "claim_sha256": "82f40ae0455ff64d4c262db6b1e7bc098d0f1f53e4dac8fc70661ed9d5055483",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5079",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5079",
+          "location": "NCBI Gene 5079 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "049153be1296fee3c5dcec18f6fb0662ced3d22f53f99c81d6d99e96f08f0c5a"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FAM184B",
+      "text": "FAM184B encodes family with sequence similarity 184 member B.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "8b01f90588d8d7a0273b8010317c730437da117ec686450dfa40412cbdabbca3",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:29235",
+          "location": "Frozen HGNC TSV: HGNC:29235, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "PAX5::FAM184B was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "269e26993233f156a3630686293830138013ba6a69b1aeed12f3d5a26fcc43cc",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 162",
+          "source_rows": [
+            162
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "PAX5 encodes a paired-box transcription factor required for B-cell identity. FAM184B encodes family with sequence similarity 184 member B. PAX5::FAM184B was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-5079",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "001cf7a1710b1a88df5667be9c750176033882bc91dddfbd6e907ea5f44cfe6c"
+}

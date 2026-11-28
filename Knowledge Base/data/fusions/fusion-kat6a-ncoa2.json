@@ -1,0 +1,122 @@
+{
+  "id": "fusion-kat6a-ncoa2",
+  "label": "KAT6A::NCOA2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "KAT6A",
+      "hgnc_id": "HGNC:13013",
+      "ncbi_gene_id": "7994"
+    },
+    {
+      "symbol": "NCOA2",
+      "hgnc_id": "HGNC:7669",
+      "ncbi_gene_id": "10499"
+    }
+  ],
+  "aliases": [
+    "MYST3::NCOA2",
+    "RUNXBP2::NCOA2",
+    "ZNF220::NCOA2"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KAT6A",
+      "text": "KAT6A encodes a histone acetyltransferase and transcriptional coactivator.",
+      "source_ids": [
+        "ncbi-7994"
+      ],
+      "claim_sha256": "3840c9195b36e2ff64ee9b16909107eda96acea60c08819775573ea5cdb482e2",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-7994",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/7994",
+          "location": "NCBI Gene 7994 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "c182dc16a2d95da70203589f3c6c22146b3997ba1616db383c6a11ac47bfa2ca"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NCOA2",
+      "text": "NCOA2 encodes a nuclear-receptor transcriptional coactivator.",
+      "source_ids": [
+        "ncbi-10499"
+      ],
+      "claim_sha256": "ffe285d3866ef36d8e8edaab61e7944117b10c44b8a7c09c35790ea5efb9c241",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10499",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10499",
+          "location": "NCBI Gene 10499 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ada4ba34be6da07d64e4607e6c566083fcda408536b6b5dc28690cd0814a7a05"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "KAT6A::NCOA2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "7ef256670ffac6a814ac3c63846f79ae9c0812d36ecd7396690a099ccbe89d79",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1349, 1535, 4404",
+          "source_rows": [
+            1349,
+            1535,
+            4404
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "KAT6A encodes a histone acetyltransferase and transcriptional coactivator. NCOA2 encodes a nuclear-receptor transcriptional coactivator. KAT6A::NCOA2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-7994",
+      "ncbi-10499",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "0c3f6e0380c406aba2f1f2d08a70addede805bc3177319e6bd8ee1802a7a0fbd"
+}

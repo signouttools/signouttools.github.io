@@ -87,7 +87,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TMEM147 encodes transmembrane protein 147. Its functions include ribosome binding and multi-pass transmembrane protein insertion into ER membrane.",
+      "text": "TMEM147 encodes transmembrane protein 147. It forms part of the multi-pass translocon (MPT) complex that mediates insertion of multi-pass membrane proteins into the lipid bilayer of membranes. The MPT complex takes over after the SEC61 complex: following membrane insertion of the first few transmembrane segments of proteins by the SEC61 complex, the MPT complex occludes the lateral gate of the SEC61 complex to promote insertion of subsequent transmembrane regions. It also acts as a negative regulator of CHRM3 function, most likely by interfering with its trafficking to the cell membrane.",
       "source_ids": [
         "ncbi-10430",
         "uniprot-Q9BVK8"

@@ -87,7 +87,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MAFB encodes transcription factor MafB. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "text": "MAFB encodes transcription factor MafB. Based in part on similarity, it functions as a transcriptional activator or repressor. It plays a pivotal role in regulating lineage-specific hematopoiesis by repressing ETS1-mediated transcription of erythroid-specific genes in myeloid cells. It is required for monocytic, macrophage, osteoclast, podocyte and islet beta cell differentiation.",
       "source_ids": [
         "ncbi-9935",
         "uniprot-Q9Y5Q3"

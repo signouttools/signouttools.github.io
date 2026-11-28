@@ -135,7 +135,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CHD4 encodes ATP-dependent chromatin remodeler CHD4. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription corepressor activity and transcription coregulator binding.",
+      "text": "CHD4 encodes ATP-dependent chromatin remodeler CHD4. Based in part on similarity, it is an ATP-dependent chromatin-remodeling factor that binds and distorts nucleosomal DNA. It functions as a component of the histone deacetylase NuRD complex which participates in the remodeling of chromatin. It localizes to acetylated damaged chromatin in a ZMYND8-dependent manner, to promote transcriptional repression and double-strand break repair by homologous recombination.",
       "source_ids": [
         "ncbi-1108",
         "uniprot-Q14839"

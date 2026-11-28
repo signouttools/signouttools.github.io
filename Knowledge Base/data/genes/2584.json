@@ -218,7 +218,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CYLD encodes ubiquitin carboxyl-terminal hydrolase CYLD. It participates in negative regulation of canonical NF-kappaB signal transduction and negative regulation of non-canonical NF-kappaB signal transduction. Functional annotations also associate the protein with K63-linked deubiquitinase activity and cysteine-type deubiquitinase activity.",
+      "text": "CYLD encodes ubiquitin carboxyl-terminal hydrolase CYLD. Based in part on similarity, it negatively regulates NF-kappa-B activation by deubiquitinating upstream signaling factors, thereby preventing recruitment of TAB2 and TAB3. It contributes to the regulation of cell survival, inflammation and innate immune response, via its effects on NF-kappa-B. RIPK1 deubiquitination regulates the kinase activity of RIPK1, promotes assembly of death-inducing complexes and TNF-induced apoptosis and necroptosis.",
       "source_ids": [
         "ncbi-1540",
         "uniprot-Q9NQC7"

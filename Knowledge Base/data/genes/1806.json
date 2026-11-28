@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CDX2 encodes homeobox protein CDX-2. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "text": "CDX2 encodes homeobox protein CDX-2. Based in part on similarity, it is a transcription factor which regulates the transcription of multiple genes expressed in the intestinal epithelium. It binds to the promoter of the intestinal sucrase-isomaltase SI and activates SI transcription. It binds to the DNA sequence 5'-ATAAAAACTTAT-3' in the promoter region of VDR and activates VDR transcription.",
       "source_ids": [
         "ncbi-1045",
         "uniprot-Q99626"

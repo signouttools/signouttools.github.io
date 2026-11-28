@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NADK encodes NAD kinase/ATP NAD kinase). It participates in phosphorylation and ATP metabolic process. Functional annotations also associate the protein with NAD+ kinase activity.",
+      "text": "NADK encodes NAD kinase, which uses ATP to phosphorylate NAD and generate NADP. Reduced NADP serves as an electron donor in biosynthetic reactions. This reaction connects nucleotide-cofactor metabolism with the reducing capacity used by cellular biosynthetic pathways, rather than directly synthesizing the downstream lipid or other metabolic products.",
       "source_ids": [
         "ncbi-65220",
         "uniprot-O95544"

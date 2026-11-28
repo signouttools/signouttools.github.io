@@ -98,7 +98,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PPP6C encodes serine/threonine-protein phosphatase 6 catalytic subunit [Cleaved into: Serine/threonine-protein phosphatase 6 catalytic subunit, N-terminally processed]. It participates in protein dephosphorylation and COPII vesicle coat assembly. Functional annotations also associate the protein with protein serine/threonine phosphatase activity.",
+      "text": "PPP6C encodes serine/threonine-protein phosphatase 6 catalytic subunit. It is a catalytic subunit of protein phosphatase 6 (PP6). PP6 is a component of a signaling pathway regulating cell cycle progression in response to IL2 receptor stimulation. It also participates in the innate immune defense against viruses by desphosphorylating RIGI, an essential step that triggers RIGI-mediated signaling activation.",
       "source_ids": [
         "ncbi-5537",
         "uniprot-O00743"

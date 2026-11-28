@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RBBP8 encodes DNA endonuclease RBBP8. It participates in homologous recombination and double-strand break repair via homologous recombination. Functional annotations also associate the protein with transcription corepressor activity and RNA polymerase II-specific DNA-binding transcription factor binding.",
+      "text": "RBBP8 encodes DNA endonuclease RBBP8. Based in part on similarity, HR is restricted to S and G2 phases of the cell cycle and preferentially repairs DSBs resulting from replication fork collapse. It is a key determinant of DSB repair pathway choice, as it commits cells to HR by preventing classical non-homologous end-joining (NHEJ). It specifically promotes the endonuclease activity of the MRN complex to clear DNA ends containing protein adducts: recruited to DSBs by NBN following phosphorylation by CDK1, and promotes the endonuclease activity of MRE11 to clear protein-DNA adducts and generate clean double-strand break ends.",
       "source_ids": [
         "ncbi-5932",
         "uniprot-Q99708"

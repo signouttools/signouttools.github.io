@@ -110,7 +110,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "POT1 encodes protection of telomeres protein 1. It participates in telomere maintenance via telomerase and positive regulation of telomere maintenance. Functional annotations also associate the protein with telomerase inhibitor activity and 8-hydroxy-2'-deoxyguanosine DNA binding.",
+      "text": "POT1 encodes protection of telomeres protein 1. It forms part of the telomerase ribonucleoprotein (RNP) complex that is essential for the replication of chromosome termini. It is a component of the double-stranded telomeric DNA-binding TRF1 complex which is involved in the regulation of telomere length by cis-inhibition of telomerase. It also acts as a single-stranded telomeric DNA-binding protein and thus may act as a downstream effector of the TRF1 complex and may transduce information about telomere maintenance and/or length to the telomere terminus.",
       "source_ids": [
         "ncbi-25913",
         "uniprot-Q9NUX5"

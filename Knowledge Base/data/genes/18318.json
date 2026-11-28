@@ -254,9 +254,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "ASXL1 encodes a chromatin-regulatory protein involved in controlling histone modifications and transcriptional programs, including those governing hematopoietic differentiation.",
+      "text": "ASXL1 encodes a chromatin-regulatory protein involved in controlling histone modifications and transcriptional programs, including those governing hematopoietic differentiation. Based in part on similarity, it functions as a coactivator of RARA and RXRA through association with NCOA1. It functions as a corepressor for PPARG and suppresses its adipocyte differentiation-inducing activity. It functions as a sensor of N(6)-methyladenine methylation on DNA (6mA): recognizes and binds 6mA DNA, leading to its ubiquitination and degradation by TRIP12, thereby inactivating the PR-DUB complex and regulating Polycomb silencing.",
       "source_ids": [
-        "ncbi-171023"
+        "ncbi-171023",
+        "uniprot-Q8IXJ9"
       ]
     },
     "germline": {

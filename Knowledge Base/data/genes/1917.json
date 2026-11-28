@@ -120,7 +120,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CHD2 encodes ATP-dependent chromatin remodeler CHD2. It participates in nucleosome organization and muscle organ development. Functional annotations also associate the protein with ATP hydrolysis activity and ATP-dependent chromatin remodeler activity.",
+      "text": "CHD2 encodes ATP-dependent chromatin remodeler CHD2. Based in part on similarity, it is an ATP-dependent chromatin-remodeling factor that specifically binds to the promoter of target genes, leading to chromatin remodeling, possibly by promoting deposition of histone H3.3. It participates in myogenesis via interaction with MYOD1: binds to myogenic gene regulatory sequences and mediates incorporation of histone H3.3 prior to the onset of myogenic gene expression, promoting their expression.",
       "source_ids": [
         "ncbi-1106",
         "uniprot-O14647"

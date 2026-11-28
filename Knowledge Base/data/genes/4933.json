@@ -96,7 +96,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "HLA-C encodes HLA class I histocompatibility antigen, C alpha chain. It participates in immune response and positive regulation of T cell mediated cytotoxicity. Functional annotations also associate the protein with receptor ligand activity and TAP binding.",
+      "text": "HLA-C encodes HLA class I histocompatibility antigen, C alpha chain. Based in part on similarity, it typically presents intracellular peptide antigens of 9 amino acids that arise from cytosolic proteolysis via proteasome. It can bind different peptides containing allele-specific binding motifs, which are mainly defined by anchor residues at position 2 and 9. The low affinity peptides compete with the high affinity peptides impeding KIR-mediated inhibition and favoring lysis of infected cells.",
       "source_ids": [
         "ncbi-3107",
         "uniprot-P10321"

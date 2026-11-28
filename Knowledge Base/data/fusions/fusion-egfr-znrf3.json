@@ -1,0 +1,117 @@
+{
+  "id": "fusion-egfr-znrf3",
+  "label": "EGFR::ZNRF3",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "EGFR",
+      "hgnc_id": "HGNC:3236",
+      "ncbi_gene_id": "1956"
+    },
+    {
+      "symbol": "ZNRF3",
+      "hgnc_id": "HGNC:18126",
+      "ncbi_gene_id": "84133"
+    }
+  ],
+  "aliases": [
+    "ERBB::ZNRF3"
+  ],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EGFR",
+      "text": "EGFR encodes epidermal growth factor receptor.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "1e722d64b2888cfe3bea11ae05be03f63e56340cfa1aaa4d4967c7d2eadd7b9f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3236",
+          "location": "Frozen HGNC TSV: HGNC:3236, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ZNRF3",
+      "text": "ZNRF3 encodes zinc and ring finger 3.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "88597bfb27643ed3ac994169c65fe02cb21636dd1545df220a174d2b51a40a14",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:18126",
+          "location": "Frozen HGNC TSV: HGNC:18126, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "EGFR::ZNRF3 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "cdbabd3472b070bc76e06d80bb160ab364f759e8b76722dc43c8fa1bddb22f71",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 437",
+          "source_rows": [
+            437
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "EGFR encodes epidermal growth factor receptor. ZNRF3 encodes zinc and ring finger 3. EGFR::ZNRF3 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "55e7144f3655ebd64bc62b8a51051e1668063f76e08fa0ceb9f901944f3ea173"
+}

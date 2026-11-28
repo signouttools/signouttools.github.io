@@ -1,0 +1,118 @@
+{
+  "id": "fusion-zfta-yap1",
+  "label": "ZFTA::YAP1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "ZFTA",
+      "hgnc_id": "HGNC:28449",
+      "ncbi_gene_id": "65998"
+    },
+    {
+      "symbol": "YAP1",
+      "hgnc_id": "HGNC:16262",
+      "ncbi_gene_id": "10413"
+    }
+  ],
+  "aliases": [
+    "C11orf95::YAP1"
+  ],
+  "tumor_contexts": [
+    "Pediatric ependymoma"
+  ],
+  "disease_ids": [
+    "fusion-context-10a46607941b"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ZFTA",
+      "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator.",
+      "source_ids": [
+        "ncbi-65998"
+      ],
+      "claim_sha256": "ada20b5f8beab08a7c88d4c88f91f2a7d973348d837041cda272a1e7cba88144",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-65998",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/65998",
+          "location": "NCBI Gene 65998 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "454ef726b0ee11c05d1fcea82440700a3435f8de9c6b0de6b3ed0713040f36e3"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "YAP1",
+      "text": "YAP1 encodes a transcriptional coactivator regulated by Hippo signaling.",
+      "source_ids": [
+        "ncbi-10413"
+      ],
+      "claim_sha256": "1a8bd583ad13c35afcf7349c401739f077529104c1fc58ab3a152b7e58f79c01",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10413",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10413",
+          "location": "NCBI Gene 10413 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "e80aa0a2311bfb61df3c96c7f5b5525a70c20667d9236ead51ca5676615a7fa4"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "ZFTA::YAP1 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "5f36ad3d6f23bd6540ce5d480e0e8a488047088b7fbf6cc18f726dbe30d63ec1",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1118",
+          "source_rows": [
+            1118
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator. YAP1 encodes a transcriptional coactivator regulated by Hippo signaling. ZFTA::YAP1 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-65998",
+      "ncbi-10413",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "54ad8eb037502ea3a6b8e798c2ea042704e0a70b726672b5e232a071d7abf6d6"
+}

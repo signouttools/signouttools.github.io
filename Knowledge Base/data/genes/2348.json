@@ -334,9 +334,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "CREBBP encodes the CBP transcriptional coactivator and acetyltransferase, which modifies histones and other proteins to regulate gene expression.",
+      "text": "CREBBP encodes the CBP transcriptional coactivator and acetyltransferase, which modifies histones and other proteins to regulate gene expression. It acetylates histones, giving a specific tag for transcriptional activation. It mediates acetylation of histone H3 at 'Lys-18' and 'Lys-27' (H3K18ac and H3K27ac, respectively). It also acetylates non-histone proteins, like DDX21, FBL, IRF2, MAFG, NCOA3, POLR1E/PAF53 and FOXO1.",
       "source_ids": [
-        "ncbi-1387"
+        "ncbi-1387",
+        "uniprot-Q92793"
       ]
     },
     "germline": {

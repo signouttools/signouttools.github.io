@@ -83,7 +83,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DDB2 encodes DNA damage-binding protein 2. It participates in DNA repair and nucleotide-excision repair. Functional annotations also associate the protein with damaged DNA binding.",
+      "text": "DDB2 encodes DNA damage-binding protein 2. It is a protein, which is both involved in DNA repair and protein ubiquitination, as part of the UV-DDB complex and DCX (DDB1-CUL4-X-box) complexes, respectively. It is a core component of the UV-DDB complex (UV-damaged DNA-binding protein complex), a complex that recognizes UV-induced DNA damage and recruit proteins of the nucleotide excision repair pathway (the NER pathway) to initiate DNA repair. The UV-DDB complex preferentially binds to cyclobutane pyrimidine dimers (CPD), 6-4 photoproducts (6-4 PP), apurinic sites and short mismatches.",
       "source_ids": [
         "ncbi-1643",
         "uniprot-Q92466"

@@ -163,7 +163,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BCR encodes breakpoint cluster region protein. It participates in signal transduction and small GTPase-mediated signal transduction. Functional annotations also associate the protein with protein serine kinase activity and protein serine/threonine kinase activity.",
+      "text": "BCR encodes breakpoint cluster region protein. Based in part on similarity, it is a protein with a unique structure having two opposing regulatory activities toward small GTP-binding proteins. The C-terminus is a GTPase-activating protein (GAP) domain which stimulates GTP hydrolysis by RAC1, RAC2 and CDC42. It accelerates the intrinsic rate of GTP hydrolysis of RAC1 or CDC42, leading to down-regulation of the active GTP-bound form.",
       "source_ids": [
         "ncbi-613",
         "uniprot-P11274"

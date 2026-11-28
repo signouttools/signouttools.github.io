@@ -93,7 +93,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DTD2 encodes D-aminoacyl-tRNA deacylase 2. Its functions include Ala-tRNA(Thr) deacylase activity and D-aminoacyl-tRNA deacylase activity.",
+      "text": "DTD2 encodes D-aminoacyl-tRNA deacylase 2. Based in part on similarity, it deacylates mischarged D-aminoacyl-tRNAs. It also deacylates mischarged glycyl-tRNA(Ala), protecting cells against glycine mischarging by AlaRS. It probably acts by rejecting L-amino acids from its binding site rather than specific recognition of D-amino acids.",
       "source_ids": [
         "ncbi-112487",
         "uniprot-Q96FN9"

@@ -145,7 +145,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ARHGAP35 encodes rho GTPase-activating protein 35. It participates in Rho protein signal transduction and negative regulation of Rho protein signal transduction. Functional annotations also associate the protein with GTPase activity and GTPase activator activity.",
+      "text": "ARHGAP35 encodes rho GTPase-activating protein 35. Based in part on similarity, it binds several acidic phospholipids which inhibits the Rho GAP activity to promote the Rac GAP activity. This binding is inhibited by phosphorylation by PRKCA. It participates in cell differentiation as well as cell adhesion and migration, plays an important role in retinal tissue morphogenesis, neural tube fusion, midline fusion of the cerebral hemispheres and mammary gland branching morphogenesis.",
       "source_ids": [
         "ncbi-2909",
         "uniprot-Q9NRY4"

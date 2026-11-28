@@ -119,7 +119,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PLCG1 encodes 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1. It participates in calcium-mediated signaling and cell migration. Functional annotations also associate the protein with C-type glycerophospholipase activity and lysophospholipase C activity.",
+      "text": "PLCG1 encodes 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1. Based in part on similarity, it mediates the production of the second messenger molecules diacylglycerol (DAG) and inositol 1,4,5-trisphosphate (IP3). It contributes to the regulation of intracellular signaling cascades. It becomes activated in response to ligand-mediated activation of receptor-type tyrosine kinases, such as PDGFRA, PDGFRB, EGFR, FGFR1, FGFR2, FGFR3 and FGFR4.",
       "source_ids": [
         "ncbi-5335",
         "uniprot-P19174"

@@ -77,7 +77,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PLK2 encodes serine/threonine-protein kinase PLK2. It participates in Rap protein signal transduction and Ras protein signal transduction. Functional annotations also associate the protein with protein serine kinase activity and protein serine/threonine kinase activity.",
+      "text": "PLK2 encodes serine/threonine-protein kinase PLK2. It phosphorylates CPAP, NPM1, RAPGEF2, RASGRF1, SNCA, SIPA1L1 and SYNGAP1. It contributes to synaptic plasticity and memory by regulating the Ras and Rap protein signaling: required for overactivity-dependent spine remodeling by phosphorylating the Ras activator RASGRF1 and the Rap inhibitor SIPA1L1 leading to their degradation by the proteasome. It also regulates synaptic plasticity independently of kinase activity, via its interaction with NSF that disrupts the interaction between NSF and the GRIA2 subunit of AMPARs, leading to a rapid rundown of AMPAR-mediated current that occludes long term depression.",
       "source_ids": [
         "ncbi-10769",
         "uniprot-Q9NYY3"

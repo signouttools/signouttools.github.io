@@ -163,7 +163,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PPM1D encodes protein phosphatase 1D. It participates in regulation of intracellular signal transduction and regulation of transcription initiation by RNA polymerase II. Functional annotations also associate the protein with protein serine/threonine kinase activity and protein serine/threonine phosphatase activity.",
+      "text": "PPM1D encodes protein phosphatase 1D. Based in part on similarity, it participates in the negative regulation of p53 expression. It is required for the relief of p53-dependent checkpoint mediated cell cycle arrest. It binds to and dephosphorylates 'Ser-15' of TP53 and 'Ser-345' of CHEK1 which contributes to the functional inactivation of these proteins.",
       "source_ids": [
         "ncbi-8493",
         "uniprot-O15297"

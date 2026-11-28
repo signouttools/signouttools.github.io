@@ -79,7 +79,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RYBP encodes RING1 and YY1-binding protein. It participates in regulation of DNA-templated transcription and negative regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coregulator activity and transcription corepressor activity.",
+      "text": "RYBP encodes RING1 and YY1-binding protein. Based in part on similarity, it forms part of a Polycomb group (PcG) multiprotein PRC1-like complex, a complex class required to maintain the transcriptionally repressive state of many genes, including Hox genes, throughout development. It forms part of a PRC1-like complex that mediates monoubiquitination of histone H2A 'Lys-119' on the X chromosome and is required for normal silencing of one copy of the X chromosome in XX females. It may stimulate ubiquitination of histone H2A 'Lys-119' by recruiting the complex to target sites.",
       "source_ids": [
         "ncbi-23429",
         "uniprot-Q8N488"

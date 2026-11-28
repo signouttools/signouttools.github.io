@@ -66,7 +66,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NEIL2 encodes endonuclease 8-like 2 lyase Neil2). It participates in depyrimidination. Functional annotations also associate the protein with DNA N-glycosylase activity and class I DNA-(apurinic or apyrimidinic site) endonuclease activity.",
+      "text": "NEIL2 encodes nei like DNA glycosylase 2. It participates in base excision repair of DNA damaged by oxidation or by mutagenic agents. It has DNA glycosylase activity towards 5-hydroxyuracil and other oxidized derivatives of cytosine with a preference for mismatched double-stranded DNA (DNA bubbles). It has low or no DNA glycosylase activity towards thymine glycol, 2-hydroxyadenine, hypoxanthine and 8-oxoguanine.",
       "source_ids": [
         "ncbi-252969",
         "uniprot-Q969S2"

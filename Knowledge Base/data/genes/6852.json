@@ -90,7 +90,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MAP3K13 encodes mitogen-activated protein kinase kinase kinase 13. It participates in positive regulation of canonical NF-kappaB signal transduction and JNK cascade. Functional annotations also associate the protein with protein serine kinase activity and protein serine/threonine kinase activity.",
+      "text": "MAP3K13 encodes mitogen-activated protein kinase kinase kinase 13. It activates the JUN N-terminal pathway through activation of the MAP kinase kinase MAP2K7. It acts synergistically with PRDX3 to regulate the activation of NF-kappa-B in the cytosol. This activation is kinase-dependent and involves activating the IKK complex, the IKBKB-containing complex that phosphorylates inhibitors of NF-kappa-B.",
       "source_ids": [
         "ncbi-9175",
         "uniprot-O43283"

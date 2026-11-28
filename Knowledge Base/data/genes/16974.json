@@ -81,7 +81,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SRCAP encodes chromatin remodeling protein SRCAP. It participates in cAMP/PKA signal transduction and regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coactivator activity and ATP hydrolysis activity.",
+      "text": "SRCAP encodes chromatin remodeling protein SRCAP. It acts both as a chromatin remodeler and transcription coregulator. It is the catalytic component of the SRCAP complex which mediates the ATP-dependent exchange of histone H2AZ/H2B dimers for nucleosomal H2A/H2B, leading to transcriptional regulation of selected genes expression through chromatin remodeling. It functions as a coactivator for CREB-mediated transcription, steroid receptor-mediated transcription, and Notch-mediated transcription.",
       "source_ids": [
         "ncbi-10847",
         "uniprot-Q6ZRS2"

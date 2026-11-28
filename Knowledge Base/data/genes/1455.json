@@ -128,9 +128,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "CALR encodes calreticulin, an endoplasmic-reticulum chaperone that assists glycoprotein folding and contributes to intracellular calcium homeostasis.",
+      "text": "CALR encodes calreticulin, an endoplasmic-reticulum chaperone that assists glycoprotein folding and contributes to intracellular calcium homeostasis. Based in part on similarity, it is a calcium-binding chaperone that promotes folding, oligomeric assembly and quality control in the endoplasmic reticulum (ER) via the calreticulin/calnexin cycle. This lectin interacts transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER. It interacts with the DNA-binding domain of NR3C1 and mediates its nuclear export.",
       "source_ids": [
-        "ncbi-811"
+        "ncbi-811",
+        "uniprot-P27797"
       ]
     },
     "somatic": {

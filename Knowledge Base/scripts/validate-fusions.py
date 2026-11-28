@@ -32,6 +32,7 @@ for r,listing in zip(records,index['records']):
     label=r['label']
     check(r['editorial']['status']=='draft' and r['editorial']['reviewer'] is None,label+' incorrectly promoted')
     check(listing['id']==r['id'] and listing['partners']==r['partners'],label+' index mismatch')
+    check(listing['evidence_scope']==r['evidence_scope'],label+' index lost evidence scope')
     check(len(r['partners'])>=2,label+' missing partners')
     check(bool(r['tumor_contexts']),label+' missing tumor scope')
     function_sections=[s for s in r['sections'] if s['kind']=='partner_function']
@@ -90,5 +91,30 @@ for r in records:
     check(all(disease_map[i]['category'] not in ['constitutional','mosaic'] for i in r['disease_ids']),r['label']+' inherited disease used as fusion tumor scope')
 for d in diseases:
     if d['parent_id']:check(d['parent_id'] in disease_map,d['name']+' missing parent')
+expansion_path=ROOT/'curation/fusions/expansion-observations.json'
+if expansion_path.exists():
+    expansion=json.loads(expansion_path.read_text())
+    pairs=expansion['pediatric']['pairs']
+    check(len(pairs)==expansion['pediatric']['published_pairs']==272,'Pediatric extraction pair total differs from study')
+    check(len({p['label'] for p in pairs})==len(pairs),'Normalized pediatric pair collision')
+    additions={p['label']:p for p in pairs if p['disposition']=='new_cohort_observation_draft'}
+    observed={r['label']:r for r in records if r['evidence_scope']=='cohort_observation'}
+    check(observed.keys()==additions.keys(),'Cohort additions differ from source extraction')
+    check(len(observed)==expansion['new_runtime_entries'],'Incorrect expansion count')
+    for label,r in observed.items():
+        p=additions[label]
+        check(r['event_class']=='fusion_transcript',label+' observation incorrectly assumes a protein fusion')
+        check(r['tumor_contexts']==p['tumor_contexts'],label+' occurrence tumor scope changed')
+        sections=[s for s in r['sections'] if s['kind']!='partner_function']
+        check(len(sections)==1 and sections[0]['kind']=='tumor_relevance',label+' observation acquired clinical/mechanistic claims')
+        s=sections[0]
+        check(s['source_ids']==[p['source_id']],label+' observation was re-sourced')
+        check(s['audit_evidence'][0]['source_rows']==[row['row'] for row in p['source_rows']],label+' source row evidence mismatch')
+        check(s['audit_evidence'][0]['document_sha256']==expansion['receipts']['pediatric_workbook_sha256'],label+' workbook provenance mismatch')
+    wgs=expansion['wgs']
+    check(len(wgs['pairs'])==wgs['distinct_directed_pairs']==178,'WGS pair count mismatch')
+    check(all(p['report_eligible'] is False for p in wgs['pairs']),'WGS observation incorrectly cleared for report prose')
+    check(not any(p.get('source_id')=='van-belzen-2023-wgs' for r in records for s in r['sections'] for p in s.get('audit_evidence',[])),'WGS candidates bypassed review queue')
+    check(stats['evidence_scope_counts']['cohort_observation']==len(observed),'Scope statistics mismatch')
 print(f'Validated {len(records)} draft entries, {len(sources)} sources and {len(claims)} exact-hash claim-review placements.')
 print('Checked partner IDs, retained-source evidence, exact audit hashes, runtime/index/export consistency, held-candidate exclusion and disease filters.')

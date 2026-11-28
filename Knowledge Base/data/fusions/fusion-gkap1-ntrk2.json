@@ -1,0 +1,116 @@
+{
+  "id": "fusion-gkap1-ntrk2",
+  "label": "GKAP1::NTRK2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "GKAP1",
+      "hgnc_id": "HGNC:17496",
+      "ncbi_gene_id": "80318"
+    },
+    {
+      "symbol": "NTRK2",
+      "hgnc_id": "HGNC:8032",
+      "ncbi_gene_id": "4915"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "GKAP1",
+      "text": "GKAP1 encodes G kinase anchoring protein 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "07bf2c0385b3be48c643cbe5607d4f7d5081e6dbdac284037cbc01bb0b6d7f4c",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:17496",
+          "location": "Frozen HGNC TSV: HGNC:17496, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK2",
+      "text": "NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "claim_sha256": "e7db4418936cfae6649b79765db681135e5792068ec5f22ec5b180c06ee77284",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4915",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4915",
+          "location": "NCBI Gene 4915 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2b3a2bbed41a12b2889042a4f5a806af2e9b5a75712b2702a6f0702b8c35f9e1"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "GKAP1::NTRK2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "f82d050c72bbd134734243bb6f28ce130cf08f42b9e402c84f80496e77753171",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 390",
+          "source_rows": [
+            390
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "GKAP1 encodes G kinase anchoring protein 1. NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. GKAP1::NTRK2 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-4915",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "58aee3a81f709089ada0f6255238b8fb19c4674b1a09505fca7d20c2a760607a"
+}

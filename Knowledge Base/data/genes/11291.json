@@ -52,7 +52,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SRF encodes serum response factor. It participates in negative regulation of miRNA transcription and positive regulation of miRNA transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "SRF encodes serum response factor. Based in part on similarity, SRF is a transcription factor that binds to the serum response element (SRE), a short sequence of dyad symmetry located 300 bp to the 5' of the site of transcription initiation of some genes (such as FOS). The SRF-MRTFA complex activity responds to Rho GTPase-induced changes in cellular globular actin (G-actin) concentration, thereby coupling cytoskeletal gene expression to cytoskeletal dynamics. It is required for cardiac differentiation and maturation.",
       "source_ids": [
         "ncbi-6722",
         "uniprot-P11831"

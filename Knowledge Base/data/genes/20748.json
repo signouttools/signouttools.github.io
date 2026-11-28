@@ -112,7 +112,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FANCL encodes E3 ubiquitin-protein ligase FANCL. It participates in DNA repair and protein monoubiquitination. Functional annotations also associate the protein with ubiquitin-protein transferase activity and ubiquitin protein ligase activity.",
+      "text": "FANCL encodes E3 ubiquitin-protein ligase FANCL. It is an ubiquitin ligase protein that mediates monoubiquitination of FANCD2 in the presence of UBE2T, a key step in the DNA damage pathway. It also mediates monoubiquitination of FANCI. It may stimulate the ubiquitin release from UBE2W.",
       "source_ids": [
         "ncbi-55120",
         "uniprot-Q9NW38"

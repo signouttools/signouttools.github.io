@@ -64,7 +64,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RNF8 encodes E3 ubiquitin-protein ligase RNF8. It participates in DNA repair-dependent chromatin remodeling and positive regulation of DNA repair. Functional annotations also associate the protein with ubiquitin protein ligase activity.",
+      "text": "RNF8 encodes E3 ubiquitin-protein ligase RNF8. It is an E3 ubiquitin-protein ligase that plays a key role in DNA damage signaling via 2 distinct roles: by mediating the 'Lys-63'-linked ubiquitination of histones H2A and H2AX and promoting the recruitment of DNA repair proteins at double-strand breaks (DSBs) sites, and by catalyzing 'Lys-48'-linked ubiquitination to remove target proteins from DNA damage sites. It also controls the recruitment of UIMC1-BRCC3 (RAP80-BRCC36) and PAXIP1/PTIP to DNA damage sites. It promotes the recruitment of NBN to DNA damage sites by catalyzing 'Lys-6'-linked ubiquitination of NBN.",
       "source_ids": [
         "ncbi-9025",
         "uniprot-O76064"

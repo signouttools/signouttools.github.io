@@ -120,7 +120,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AURKB encodes aurora kinase B. It participates in positive regulation of telomere maintenance and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with histone H1-4S27 kinase activity and protein serine kinase activity.",
+      "text": "AURKB encodes aurora kinase B. Based in part on similarity, it is a serine/threonine-protein kinase component of the chromosomal passenger complex (CPC), a complex that acts as a key regulator of mitosis. The CPC complex has essential functions at the centromere in ensuring correct chromosome alignment and segregation and is required for chromatin-induced microtubule stabilization and spindle assembly. It participates in the bipolar attachment of spindle microtubules to kinetochores and is a key regulator for the onset of cytokinesis during mitosis.",
       "source_ids": [
         "ncbi-9212",
         "uniprot-Q96GD4"

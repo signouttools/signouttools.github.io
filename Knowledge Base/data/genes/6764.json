@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MAD2L2 encodes mitotic spindle assembly checkpoint protein MAD2B. It participates in DNA repair and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription corepressor activity and RNA polymerase II-specific DNA-binding transcription factor binding.",
+      "text": "MAD2L2 encodes mitotic spindle assembly checkpoint protein MAD2B. It is an adapter protein able to interact with different proteins and involved in different biological processes. It mediates the interaction between the error-prone DNA polymerase zeta catalytic subunit REV3L and the inserter polymerase REV1, thereby mediating the second polymerase switching in translesion DNA synthesis. It forms part of the shieldin complex, which plays an important role in repair of DNA double-stranded breaks (DSBs).",
       "source_ids": [
         "ncbi-10459",
         "uniprot-Q9UI95"

@@ -150,7 +150,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BRD4 encodes bromodomain-containing protein 4. It participates in host-mediated suppression of viral transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coactivator activity and transcription coregulator activity.",
+      "text": "BRD4 encodes bromodomain-containing protein 4. Based in part on similarity, it is a chromatin reader protein that recognizes and binds acetylated histones and plays a key role in transmission of epigenetic memory across cell divisions and transcription regulation. It remains associated with acetylated chromatin throughout the entire cell cycle and provides epigenetic memory for postmitotic G1 gene transcription by preserving acetylated chromatin status and maintaining high-order chromatin structure. It also recruits P-TEFb complex to distal enhancers, so called anti-pause enhancers in collaboration with JMJD6.",
       "source_ids": [
         "ncbi-23476",
         "uniprot-O60885"

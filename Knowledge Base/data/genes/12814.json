@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "XPA encodes DNA repair protein complementing XP-A cells. It participates in DNA repair and UV protection. Functional annotations also associate the protein with damaged DNA binding.",
+      "text": "XPA encodes DNA repair protein complementing XP-A cells. It participates in DNA nucleotide excision repair (NER). It initiates repair by binding to damaged sites with various affinities, depending on the photoproduct and the transcriptional state of the region. It is required for UV-induced CHEK1 phosphorylation and the recruitment of CEP164 to cyclobutane pyrimidine dimmers (CPD), sites of DNA damage after UV irradiation.",
       "source_ids": [
         "ncbi-7507",
         "uniprot-P23025"

@@ -107,7 +107,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SOS1 encodes son of sevenless homolog 1. It participates in signal transduction and Ras protein signal transduction. Functional annotations also associate the protein with GTPase activator activity.",
+      "text": "SOS1 encodes a guanine-nucleotide exchange factor that promotes replacement of RAS-bound GDP with GTP. This exchange favors RAS activation and connects extracellular signaling with the MAPK pathway. SOS1 interacts with adaptor proteins such as GRB2, providing a route for coupling receptor-associated signaling assemblies to the nucleotide state of RAS.",
       "source_ids": [
         "ncbi-6654",
         "uniprot-Q07889"

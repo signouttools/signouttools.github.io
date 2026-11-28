@@ -81,7 +81,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "REST encodes RE1-silencing transcription factor. It participates in regulation of DNA-templated transcription and host-mediated suppression of viral transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription repressor activity, RNA polymerase II-specific.",
+      "text": "REST encodes RE1-silencing transcription factor. Based in part on similarity, it restricts the expression of neuronal genes by associating with two distinct corepressors, SIN3A and RCOR1, which in turn recruit histone deacetylase to the promoters of REST-regulated genes. It mediates repression by recruiting the BHC complex at RE1/NRSE sites which acts by deacetylating and demethylating specific sites on histones, thereby acting as a chromatin modifier.",
       "source_ids": [
         "ncbi-5978",
         "uniprot-Q13127"

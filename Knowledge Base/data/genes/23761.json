@@ -80,7 +80,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KBTBD4 encodes kelch repeat and BTB domain-containing protein 4. It participates in proteasome-mediated ubiquitin-dependent protein catabolic process.",
+      "text": "KBTBD4 encodes kelch repeat and BTB domain-containing protein 4. It is a substrate-specific adapter of a BCR (BTB-CUL3-RBX1) E3 ubiquitin ligase complex which targets CoREST corepressor complex components RCOR1, KDM1A/LSD1 and HDAC2 for proteasomal degradation. RCOR1 is likely to be the primary target while degradation of KDM1A and HDAC2 is likely due to their association with RCOR1. It also targets RCOR3, MIER2 and MIER3 for proteasomal degradation as well as associated proteins ZNF217 and RREB1.",
       "source_ids": [
         "ncbi-55709",
         "uniprot-Q9NVX7"

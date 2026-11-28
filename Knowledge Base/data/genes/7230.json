@@ -134,7 +134,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MRE11 encodes double-strand break repair protein MRE11. It participates in DNA repair and homologous recombination. Functional annotations also associate the protein with nuclease activity and 3'-5' exonuclease activity.",
+      "text": "MRE11 encodes double-strand break repair protein MRE11. Based in part on similarity, it is a core component of the MRN complex, which plays a central role in double-strand break (DSB) repair, DNA recombination, maintenance of telomere integrity and meiosis. The MRN complex is involved in the repair of DNA double-strand breaks (DSBs) via homologous recombination (HR), an error-free mechanism which primarily occurs during S and G2 phases. The complex (1) mediates the end resection of damaged DNA, which generates proper single-stranded DNA, a key initial steps in HR, and is (2) required for the recruitment of other repair factors and efficient activation of ATM and ATR upon DNA damage.",
       "source_ids": [
         "ncbi-4361",
         "uniprot-P49959"

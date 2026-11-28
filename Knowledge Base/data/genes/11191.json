@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SOX11 encodes transcription factor SOX-11. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "SOX11 encodes transcription factor SOX-11. Based in part on similarity, it is a transcription factor that acts as a transcriptional activator. It binds cooperatively with POU3F2/BRN2 or POU3F1/OCT6 to gene promoters, which enhances transcriptional activation. It functions as a transcriptional activator of TEAD2 by binding to its gene promoter and first intron.",
       "source_ids": [
         "ncbi-6664",
         "uniprot-P35716"

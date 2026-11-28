@@ -90,7 +90,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TRAF2 encodes TNF receptor-associated factor 2. It participates in positive regulation of JUN kinase activity and signal transduction. Functional annotations also associate the protein with protein-macromolecule adaptor activity and signaling adaptor activity.",
+      "text": "TRAF2 encodes TNF receptor-associated factor 2. Based in part on similarity, it is an E3 ubiquitin-protein ligase that regulates activation of NF-kappa-B and JNK and plays a central role in the regulation of cell survival and apoptosis. It catalyzes 'Lys-63'-linked ubiquitination of target proteins, such as BIRC3, IKBKE, MLST8, RIPK1 and TICAM1. Is an essential constituent of several E3 ubiquitin-protein ligase complexes, where it promotes the ubiquitination of target proteins by bringing them into contact with other E3 ubiquitin ligases.",
       "source_ids": [
         "ncbi-7186",
         "uniprot-Q12933"

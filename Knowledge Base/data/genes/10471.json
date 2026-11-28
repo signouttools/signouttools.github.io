@@ -187,9 +187,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "RUNX1 encodes a DNA-binding transcription factor that forms the core-binding factor complex with CBFB and regulates hematopoietic development and differentiation.",
+      "text": "RUNX1 encodes a DNA-binding transcription factor that forms the core-binding factor complex with CBFB and regulates hematopoietic development and differentiation. Based in part on similarity, it forms the heterodimeric complex core-binding factor (CBF) with CBFB. It is essential for the development of normal hematopoiesis. It acts synergistically with ELF4 to transactivate the IL-3 promoter and with ELF2 to transactivate the BLK promoter.",
       "source_ids": [
-        "ncbi-861"
+        "ncbi-861",
+        "uniprot-Q01196"
       ]
     },
     "germline": {

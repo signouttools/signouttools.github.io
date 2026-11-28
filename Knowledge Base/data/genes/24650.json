@@ -86,7 +86,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EHMT1 encodes euchromatic histone lysine methyltransferase 1. Its functions include histone H3K27 methyltransferase activity and histone H3K9 methyltransferase activity.",
+      "text": "EHMT1 encodes euchromatic histone lysine methyltransferase 1. Based in part on similarity, it is a histone methyltransferase that specifically mono-, di- and trimethylates 'Lys-9' of histone H3 (H3K9me1, H3K9me2 and H3K9me3, respectively) in euchromatin. H3K9me represents a specific tag for epigenetic transcriptional repression by recruiting HP1 proteins to methylated histones. It also weakly methylates 'Lys-27' of histone H3 (H3K27me).",
       "source_ids": [
         "ncbi-79813",
         "uniprot-Q9H9B1"

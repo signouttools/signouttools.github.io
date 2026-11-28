@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CRBN encodes protein cereblon. It participates in protein ubiquitination and locomotory exploration behavior. Functional annotations also associate the protein with ubiquitin-like ligase-substrate adaptor activity and transmembrane transporter binding.",
+      "text": "CRBN encodes protein cereblon. Based in part on similarity, it is a substrate recognition component of a DCX (DDB1-CUL4-X-box) E3 protein ligase complex that mediates the ubiquitination and subsequent proteasomal degradation of target proteins, such as MEIS2, ILF2, GLUL, IKZF1 and CSNK1A1. It maintains presynaptic glutamate release and consequently cognitive functions, such as memory and learning, by negatively regulating large-conductance calcium-activated potassium (BK) channels in excitatory neurons. It likely to function by regulating the assembly and neuronal surface expression of BK channels via its interaction with KCNT1.",
       "source_ids": [
         "ncbi-51185",
         "uniprot-Q96SW2"

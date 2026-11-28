@@ -95,7 +95,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ARIH1 encodes ariadne RBR E3 ubiquitin protein ligase 1. Its functions include ISG15 ligase activity and ubiquitin conjugating enzyme binding.",
+      "text": "ARIH1 encodes ariadne RBR E3 ubiquitin protein ligase 1. It is an E3 ubiquitin-protein ligase, which catalyzes ubiquitination of target proteins together with ubiquitin-conjugating enzyme E2 UBE2L3. It functions as an atypical E3 ubiquitin-protein ligase by working together with cullin-RING ubiquitin ligase (CRL) complexes and initiating ubiquitination of CRL substrates: associates with CRL complexes and specifically mediates addition of the first ubiquitin on CRLs targets. The initial ubiquitin is then elongated by CDC34/UBE2R1 and UBE2R2.",
       "source_ids": [
         "ncbi-25820",
         "uniprot-Q9Y4X5"

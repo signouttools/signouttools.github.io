@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SLX1B encodes structure-specific endonuclease subunit SLX1. It participates in DNA repair and telomere maintenance via telomere lengthening. Functional annotations also associate the protein with 5'-flap endonuclease activity and crossover junction DNA endonuclease activity.",
+      "text": "SLX1B encodes structure-specific endonuclease subunit SLX1. It is a catalytic subunit of the SLX1-SLX4 structure-specific endonuclease that resolves DNA secondary structures generated during DNA repair and recombination. It has endonuclease activity towards branched DNA substrates, introducing single-strand cuts in duplex DNA close to junctions with ss-DNA. It has a preference for 5'-flap structures, and promotes symmetrical cleavage of static and migrating Holliday junctions (HJs).",
       "source_ids": [
         "ncbi-79008",
         "uniprot-Q9BQ83"

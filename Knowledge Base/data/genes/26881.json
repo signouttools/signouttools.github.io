@@ -84,7 +84,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GEN1 encodes flap endonuclease GEN homolog 1. It participates in double-strand break repair via homologous recombination and replication fork processing. Functional annotations also associate the protein with 5'-flap endonuclease activity.",
+      "text": "GEN1 encodes flap endonuclease GEN homolog 1. It cleaves HJs by a nick and counter-nick mechanism involving dual coordinated incisions that lead to the formation of ligatable nicked duplex products. Cleavage of the first strand is rate limiting, while second strand cleavage is rapid. It exhibits a weak sequence preference for incision between two G residues that reside in a T-rich region of DNA.",
       "source_ids": [
         "ncbi-348654",
         "uniprot-Q17RS7"

@@ -66,7 +66,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MAPKAP1 encodes target of rapamycin complex 2 subunit MAPKAP1. It participates in negative regulation of Ras protein signal transduction and TORC2 signaling. Functional annotations also associate the protein with enzyme-substrate adaptor activity and molecular adaptor activity.",
+      "text": "MAPKAP1 encodes target of rapamycin complex 2 subunit MAPKAP1. Based in part on similarity, it forms part of the mechanistic target of rapamycin complex 2 (mTORC2), which transduces signals from growth factors to pathways involved in proliferation, cytoskeletal organization, lipogenesis and anabolic output. The mTORC2 complex also phosphorylates various proteins involved in insulin signaling, such as FBXW8 and IGF2BP1 . mTORC2 acts upstream of Rho GTPases to regulate the actin cytoskeleton, probably by activating one or more Rho-type guanine nucleotide exchange factors . mTORC2 promotes the serum-induced formation of stress-fibers or F-actin. It inhibits HRAS and KRAS independently of mTORC2 complex.",
       "source_ids": [
         "ncbi-79109",
         "uniprot-Q9BPZ7"

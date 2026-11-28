@@ -173,7 +173,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CASP8 encodes caspase-8 [Cleaved into: Caspase-8 subunit p18; Caspase-8 subunit p10]. It participates in negative regulation of canonical NF-kappaB signal transduction and positive regulation of canonical NF-kappaB signal transduction. Functional annotations also associate the protein with peptidase activity and cysteine-type endopeptidase activity.",
+      "text": "CASP8 encodes caspase-8. Based in part on similarity, it cleaves and activates effector caspases CASP3, CASP4, CASP6, CASP7, CASP9 and CASP10. The resulting aggregates, named death-inducing signaling complexes (DISCs), perform CASP8 proteolytic activation.",
       "source_ids": [
         "ncbi-841",
         "uniprot-Q14790"

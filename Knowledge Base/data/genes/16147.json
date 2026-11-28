@@ -78,7 +78,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MCM8 encodes DNA helicase MCM8. It participates in double-strand break repair via homologous recombination and mismatch repair involved in maintenance of fidelity involved in DNA-dependent DNA replication. Functional annotations also associate the protein with ATP hydrolysis activity and 3'-5' DNA helicase activity.",
+      "text": "MCM8 encodes DNA helicase MCM8. Based in part on similarity, it forms part of the MCM8-MCM9 complex, which is involved in the repair of double-stranded DNA breaks (DBSs) and DNA interstrand cross-links (ICLs) by homologous recombination (HR). The MCM8-MCM9 complex is a 3'-5' DNA helicase and single-stranded (ss)DNA-stimulated ATPase which binds ssDNA in the presence of nucleoside triphosphates. It is required for DNA resection by the MRE11-RAD50-NBN/NBS1 (MRN) complex by recruiting the MRN complex to the repair site and by promoting the complex nuclease activity.",
       "source_ids": [
         "ncbi-84515",
         "uniprot-Q9UJA3"

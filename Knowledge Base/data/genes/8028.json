@@ -92,7 +92,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NTHL1 encodes endonuclease III-like protein 1 lyase). It participates in depyrimidination and nucleotide-excision repair. Functional annotations also associate the protein with endonuclease activity and DNA N-glycosylase activity.",
+      "text": "NTHL1 encodes nth like DNA glycosylase 1. The DNA N-glycosylase activity releases the damaged DNA base from DNA by cleaving the N-glycosidic bond, leaving an AP site. The AP-lyase activity cleaves the phosphodiester bond 3' to the AP site by a beta-elimination. It also has 8-oxo-7,8-dihydroguanine (8-oxoG) DNA glycosylase activity.",
       "source_ids": [
         "ncbi-4913",
         "uniprot-P78549"

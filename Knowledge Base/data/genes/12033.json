@@ -87,7 +87,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TRAF3 encodes TNF receptor-associated factor 3. It participates in signal transduction and regulation of canonical NF-kappaB signal transduction. Functional annotations also associate the protein with signaling adaptor activity and ubiquitin-protein transferase activity.",
+      "text": "TRAF3 encodes TNF receptor-associated factor 3. It is a cytoplasmic E3 ubiquitin ligase that regulates various signaling pathways, such as the NF-kappa-B, mitogen-activated protein kinase (MAPK) and interferon regulatory factor (IRF) pathways, and thus controls a lot of biological processes in both immune and non-immune cell types. It also acts as a constitutive negative regulator of the alternative NF-kappa-B pathway, which controls B-cell survival and lymphoid organ development. It is required for normal antibody isotype switching from IgM to IgG.",
       "source_ids": [
         "ncbi-7187",
         "uniprot-Q13114"

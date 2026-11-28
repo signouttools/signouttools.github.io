@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BRD3 encodes bromodomain-containing protein 3. It participates in transcription elongation-coupled chromatin remodeling and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with protein serine/threonine kinase activity and histone reader activity.",
+      "text": "BRD3 encodes bromodomain-containing protein 3. Based in part on similarity, it is a chromatin reader that recognizes and binds acetylated histones, thereby controlling gene expression and remodeling chromatin structures. It recruits transcription factors and coactivators to target gene sites, and activates RNA polymerase II machinery for transcriptional elongation. It participates in endoderm differentiation via its association with long non-coding RNA (lncRNA) DIGIT: BRD3 undergoes liquid-liquid phase separation upon binding to lncRNA DIGIT, promoting binding to histone H3 acetylated at 'Lys-18' (H3K18ac) to induce endoderm gene expression.",
       "source_ids": [
         "ncbi-8019",
         "uniprot-Q15059"

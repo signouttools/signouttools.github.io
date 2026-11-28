@@ -220,9 +220,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "JAK2 encodes a nonreceptor tyrosine kinase that associates with cytokine receptors and transmits signals through STAT proteins and other downstream pathways in hematopoietic cells.",
+      "text": "JAK2 encodes a nonreceptor tyrosine kinase that associates with cytokine receptors and transmits signals through STAT proteins and other downstream pathways in hematopoietic cells. Functionally, plays a pivotal role in signal transduction and is involved in various processes such as cell growth, development, differentiation or histone modifications. It mediates essential signaling events in both innate and adaptive immunity. Phosphorylated STATs then form homodimer or heterodimers and translocate to the nucleus to activate gene transcription.",
       "source_ids": [
-        "ncbi-3717"
+        "ncbi-3717",
+        "uniprot-O60674"
       ]
     },
     "germline": {

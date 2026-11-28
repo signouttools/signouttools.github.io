@@ -76,7 +76,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RPA1 encodes replication protein A 70 kDa DNA-binding subunit [Cleaved into: Replication protein A 70 kDa DNA-binding subunit, N-terminally processed]. It participates in DNA repair and mismatch repair. Functional annotations also associate the protein with chromatin-protein adaptor activity and damaged DNA binding.",
+      "text": "RPA1 encodes replication protein A 70 kDa DNA-binding subunit. Thereby, it plays an essential role both in DNA replication and the cellular response to DNA damage. It is required for the recruitment of the DNA double-strand break repair factors RAD51 and RAD52 to chromatin in response to DNA damage. It also recruits to sites of DNA damage proteins like XPA and XPG that are involved in nucleotide excision repair and is required for this mechanism of DNA repair.",
       "source_ids": [
         "ncbi-6117",
         "uniprot-P27694"

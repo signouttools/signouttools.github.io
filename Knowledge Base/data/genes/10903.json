@@ -55,7 +55,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SLAMF1 encodes signaling lymphocytic activation molecule. It participates in signal transduction and immune response. Functional annotations also associate the protein with signaling receptor activity and virus receptor activity.",
+      "text": "SLAMF1 encodes signaling lymphocytic activation molecule. Based in part on similarity, activities are controlled by presence or absence of small cytoplasmic adapter proteins, SH2D1A/SAP and/or SH2D1B/EAT-2. SLAMF1-induced signal-transduction events in T-lymphocytes are different from those in B-cells. Initially it has been proposed that association with SH2D1A prevents binding to inhibitory effectors including INPP5D/SHIP1 and PTPN11/SHP-2.",
       "source_ids": [
         "ncbi-6504",
         "uniprot-Q13291"

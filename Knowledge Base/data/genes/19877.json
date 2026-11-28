@@ -64,7 +64,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GALNT12 encodes polypeptide N-acetylgalactosaminyltransferase 12. It participates in protein O-linked glycosylation and protein O-linked glycosylation via N-acetylgalactosamine. Functional annotations also associate the protein with polypeptide N-acetylgalactosaminyltransferase activity.",
+      "text": "GALNT12 encodes polypeptide N-acetylgalactosaminyltransferase 12. It catalyzes the initial reaction in O-linked oligosaccharide biosynthesis, the transfer of an N-acetyl-D-galactosamine residue to a serine or threonine residue on the protein receptor. It has activity toward non-glycosylated peptides such as Muc5AC, Muc1a and EA2, and no detectable activity with Muc2 and Muc7. It displays enzymatic activity toward the Gal-NAc-Muc5AC glycopeptide, but no detectable activity to mono-GalNAc-glycosylated Muc1a, Muc2, Muc7 and EA2.",
       "source_ids": [
         "ncbi-79695",
         "uniprot-Q8IXK2"

@@ -135,9 +135,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "DAXX encodes a histone chaperone and regulatory protein that participates with ATRX in histone H3.3 deposition and chromatin maintenance.",
+      "text": "DAXX encodes a histone chaperone and regulatory protein that participates with ATRX in histone H3.3 deposition and chromatin maintenance. It is a transcription corepressor known to repress transcriptional potential of several sumoylated transcription factors. Its transcription repressor activity is modulated by recruiting it to subnuclear compartments like the nucleolus or PML/POD/ND10 nuclear bodies through interactions with MCSR1 and PML, respectively. It seems to regulate transcription in PML/POD/ND10 nuclear bodies together with PML and may influence TNFRSF6-dependent apoptosis thereby.",
       "source_ids": [
-        "ncbi-1616"
+        "ncbi-1616",
+        "uniprot-Q9UER7"
       ]
     },
     "somatic": {

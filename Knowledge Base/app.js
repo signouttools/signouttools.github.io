@@ -189,7 +189,7 @@ function renderFusionBrowser() {
   for (const fusion of rows) {
     const item = el('li');
     const button = el('button', {type: 'button', class: 'gene-button', 'aria-current': String(state.selected === fusion.id), 'aria-controls': 'entry'});
-    button.append(el('strong', {}, fusion.label), el('span', {}, fusion.tumor_contexts.join(' · ')), el('span', {class: 'gene-meta'}, fusion.audit?.status === 'primary_fulltext_supported' ? 'Primary results checked · Draft' : 'Reference-supported · Draft'));
+    button.append(el('strong', {}, fusion.label), el('span', {}, fusion.tumor_contexts.join(' · ')), el('span', {class: 'gene-meta'}, fusionEvidenceLabel(fusion)));
     button.addEventListener('click', () => { state.selected = fusion.id; render(); });
     item.append(button); $('gene-list').append(item);
   }
@@ -204,6 +204,7 @@ function renderFusionBrowser() {
   heading.append(el('h2', {}, fusion.label), el('span', {class: 'badge'}, 'Draft · specialist review pending')); entry.append(heading);
   entry.append(el('p', {class: 'notice entry-disclaimer'}, DISCLAIMER));
   entry.append(el('p', {class: 'context'}, fusion.tumor_contexts.join(' · ')));
+  if (fusion.evidence_scope === 'cohort_observation') entry.append(el('p', {class: 'notice'}, 'Cohort observation. The cited study reports this fusion in the listed specimens. Functional significance, diagnostic specificity, prognosis and treatment response have not been adjudicated for this entry.'));
   entry.append(el('p', {class: 'metadata'}, `${fusion.event_class.replaceAll('_', ' ')}${fusion.aliases.length ? ' · Also known as ' + fusion.aliases.join(', ') : ''}`));
   const partnerLinks = el('div', {class: 'tags', 'aria-label': 'Gene partners'});
   for (const partner of fusion.partners) {
@@ -217,9 +218,9 @@ function renderFusionBrowser() {
   entry.append(partnerLinks);
   const sections = fusion.sections, ids = fusion.report_comment.source_ids;
   const sectionHeading = el('div', {class: 'section-heading'});
-  const copy = el('button', {type: 'button', class: 'quiet'}, 'Copy fusion draft');
-  copy.addEventListener('click', () => copyDraft(sections.map(s => `${s.text} ${citationText(s.source_ids, state.fusionSources)}`).join(' '), ids, state.fusionSources, fusion.audit?.audited_on || fusion.editorial.drafted_on));
-  sectionHeading.append(el('h3', {}, 'Report paragraph'), copy); entry.append(sectionHeading);
+  const copy = el('button', {type: 'button', class: 'quiet'}, fusion.evidence_scope === 'cohort_observation' ? 'Copy observation draft' : 'Copy fusion draft');
+  copy.addEventListener('click', () => copyDraft((fusion.evidence_scope === 'cohort_observation' ? 'Cohort observation; functional and clinical significance not adjudicated. ' : '') + sections.map(s => `${s.text} ${citationText(s.source_ids, state.fusionSources)}`).join(' '), ids, state.fusionSources, fusion.audit?.audited_on || fusion.editorial.drafted_on));
+  sectionHeading.append(el('h3', {}, fusion.evidence_scope === 'cohort_observation' ? 'Fusion observation' : 'Report paragraph'), copy); entry.append(sectionHeading);
   const paragraph = el('p', {class: 'paragraph'});
   sections.forEach((s, i) => { if (i) paragraph.append(document.createTextNode(' ')); paragraph.append(citeText(s, ids, 'span', state.fusionSources)); }); entry.append(paragraph);
   const audit = el('details', {class: 'association-group evidence-review'});
@@ -236,6 +237,10 @@ function renderFusionBrowser() {
   }
   audit.append(decisions); entry.append(audit, renderSources(ids, state.fusionSources));
   entry.append(el('p', {class: 'review-line'}, `Evidence audit ${fusion.audit?.audited_on || 'pending'} · Specialist review pending. Held claims are excluded from this paragraph.`));
+}
+function fusionEvidenceLabel(fusion) {
+  if (fusion.evidence_scope === 'cohort_observation') return 'Cohort observation · Draft';
+  return fusion.audit?.status === 'primary_fulltext_supported' ? 'Primary results checked · Draft' : 'Reference-supported · Draft';
 }
 function citationText(ids, registry = state.sources) {
   return `(${ids.map(id => citationLabel(registry.find(s => s.id === id))).join(', ')})`;

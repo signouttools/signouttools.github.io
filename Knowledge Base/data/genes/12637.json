@@ -237,7 +237,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KDM6A encodes lysine-specific demethylase 6A demethylase 6A). It participates in chromatin remodeling and heart development. Functional annotations also associate the protein with histone demethylase activity and histone H3K27me2/H3K27me3 demethylase activity.",
+      "text": "KDM6A encodes lysine demethylase 6A. Based in part on similarity, it is a histone demethylase that specifically demethylates 'Lys-27' of histone H3, thereby playing a central role in histone code. It plays a central role in regulation of posterior development, by regulating HOX gene expression. It plays a demethylase-independent role in chromatin remodeling to regulate T-box family member-dependent gene expression.",
       "source_ids": [
         "ncbi-7403",
         "uniprot-O15550"

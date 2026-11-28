@@ -1,0 +1,116 @@
+{
+  "id": "fusion-ewsr1-crem",
+  "label": "EWSR1::CREM",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "EWSR1",
+      "hgnc_id": "HGNC:3508",
+      "ncbi_gene_id": "2130"
+    },
+    {
+      "symbol": "CREM",
+      "hgnc_id": "HGNC:2352",
+      "ncbi_gene_id": "1390"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "EWSR1",
+      "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription.",
+      "source_ids": [
+        "ncbi-2130"
+      ],
+      "claim_sha256": "cd9e977579b9dc450c4d0572ddc09b89201e08c146dc2392801ca7483bd0aecd",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2130",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2130",
+          "location": "NCBI Gene 2130 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "3c6860439824412256f34210cfd2daffc399baed2970a38c2f1e5c5136188780"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CREM",
+      "text": "CREM encodes cAMP responsive element modulator.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "b90e867be25eb5a389aa9300495ad031e554eafdf4e5a452b3b669ca8ae938f0",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2352",
+          "location": "Frozen HGNC TSV: HGNC:2352, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "EWSR1::CREM was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "3b62cf711540f297e21d199f4f81eda243fa3f086653badf9b4a65847ab40962",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 220",
+          "source_rows": [
+            220
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "EWSR1 encodes an RNA-binding protein whose amino-terminal region can activate transcription. CREM encodes cAMP responsive element modulator. EWSR1::CREM was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2130",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "753706499124d52383d99974589e8d24e60a516bba593174c8db2d8f787ba2d3"
+}

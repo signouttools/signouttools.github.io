@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "UBE2T encodes ubiquitin-conjugating enzyme E2 T. It participates in DNA repair and protein autoubiquitination. Functional annotations also associate the protein with ubiquitin-protein transferase activity and ubiquitin conjugating enzyme activity.",
+      "text": "UBE2T encodes ubiquitin-conjugating enzyme E2 T. It accepts ubiquitin from the E1 complex and catalyzes its covalent attachment to other proteins. It participates in mitomycin-C (MMC)-induced DNA repair. It functions as a specific E2 ubiquitin-conjugating enzyme for the Fanconi anemia complex by associating with E3 ubiquitin-protein ligase FANCL and catalyzing monoubiquitination of FANCD2, a key step in the DNA damage pathway.",
       "source_ids": [
         "ncbi-29089",
         "uniprot-Q9NPD8"

@@ -104,7 +104,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EED encodes polycomb protein EED. It participates in negative regulation of DNA-templated transcription and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with transcription corepressor binding and enzyme activator activity.",
+      "text": "EED encodes polycomb protein EED. It forms part of the PRC2/EED-EZH2 complex, which methylates 'Lys-9' and 'Lys-27' of histone H3, leading to transcriptional repression of the affected target gene. It also recognizes 'Lys-26' trimethylated histone H1 with the effect of inhibiting PRC2 complex methyltransferase activity on nucleosomal histone H3 'Lys-27', whereas H3 'Lys-27' recognition has the opposite effect, enabling the propagation of this repressive mark. The PRC2/EED-EZH2 complex may also serve as a recruiting platform for DNA methyltransferases, thereby linking two epigenetic repression systems.",
       "source_ids": [
         "ncbi-8726",
         "uniprot-O75530"

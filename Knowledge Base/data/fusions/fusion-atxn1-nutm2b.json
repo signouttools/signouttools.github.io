@@ -1,0 +1,118 @@
+{
+  "id": "fusion-atxn1-nutm2b",
+  "label": "ATXN1::NUTM2B",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "ATXN1",
+      "hgnc_id": "HGNC:10548",
+      "ncbi_gene_id": "6310"
+    },
+    {
+      "symbol": "NUTM2B",
+      "hgnc_id": "HGNC:23445",
+      "ncbi_gene_id": "729262"
+    }
+  ],
+  "aliases": [
+    "ATXN1::FAM22B",
+    "SCA1::NUTM2B"
+  ],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ATXN1",
+      "text": "ATXN1 encodes ataxin 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "8cb8f75b1a08783251d1e7c1f349efb4d31f0542872cec7b759c91351b0e302d",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10548",
+          "location": "Frozen HGNC TSV: HGNC:10548, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NUTM2B",
+      "text": "NUTM2B encodes NUT family member 2B.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "56700d841e8071661e61322934ceaa3ec4f121e875e15ecb48365f00721aa80a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:23445",
+          "location": "Approved HGNC snapshot row HGNC:23445 / NUTM2B",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "ATXN1::NUTM2B was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "8e10d2558226fb9049d8eb99df1f2ea07a77795485fdb02f03c4652a07e81420",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 406",
+          "source_rows": [
+            406
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "ATXN1 encodes ataxin 1. NUTM2B encodes NUT family member 2B. ATXN1::NUTM2B was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "7c694651d334d8129fcadd2d84f7a3b43e31733ecb23034e3f30e53d1b8cc94f"
+}

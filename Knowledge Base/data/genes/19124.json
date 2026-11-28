@@ -62,7 +62,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FIP1L1 encodes pre-mRNA 3'-end-processing factor FIP1. It participates in mRNA 3'-end processing and mRNA 3'-end processing by stem-loop binding and cleavage.",
+      "text": "FIP1L1 encodes pre-mRNA 3'-end-processing factor FIP1. It forms part of the cleavage and polyadenylation specificity factor (CPSF) complex that plays a key role in pre-mRNA 3'-end formation, recognizing the AAUAAA signal sequence and interacting with poly(A) polymerase and other factors to bring about cleavage and poly(A) addition. It binds to U-rich RNA sequence elements surrounding the poly(A) site. It may act to tether poly(A) polymerase to the CPSF complex.",
       "source_ids": [
         "ncbi-81608",
         "uniprot-Q6UN15"

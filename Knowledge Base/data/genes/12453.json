@@ -180,9 +180,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "U2AF1 encodes a component of the U2 auxiliary splicing factor that contributes to recognition of 3′ splice sites during pre-mRNA processing.",
+      "text": "U2AF1 encodes a component of the U2 auxiliary splicing factor that contributes to recognition of 3′ splice sites during pre-mRNA processing. It contributes to both constitutive and enhancer-dependent splicing by mediating protein-protein interactions and protein-RNA interactions required for accurate 3'-splice site selection. It recruits U2 snRNP to the branch point. It directly mediates interactions between U2AF2 and proteins bound to the enhancers and thus may function as a bridge between U2AF2 and the enhancer complex to recruit it to the adjacent intron.",
       "source_ids": [
-        "ncbi-7307"
+        "ncbi-7307",
+        "uniprot-Q01081"
       ]
     },
     "somatic": {

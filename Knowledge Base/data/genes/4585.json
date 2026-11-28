@@ -144,7 +144,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GRIN2A encodes glutamate receptor ionotropic, NMDA 2A. It participates in brain development and chemical synaptic transmission. Functional annotations also associate the protein with NMDA glutamate receptor activity and glutamate-gated calcium ion channel activity.",
+      "text": "GRIN2A encodes glutamate receptor ionotropic, NMDA 2A. Based in part on similarity, it forms part of N-methyl-D-aspartate (NMDA) receptors (NMDARs) that function as heterotetrameric, ligand-gated cation channels with high calcium permeability and voltage-dependent block by Mg(2+). It participates in the synaptic plasticity regulation through activation by the L-glutamate releaseed by BEST1, into the synaptic cleft, upon F2R/PAR-1 activation in astrocyte.",
       "source_ids": [
         "ncbi-2903",
         "uniprot-Q12879"

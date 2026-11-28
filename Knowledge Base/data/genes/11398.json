@@ -68,7 +68,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "WHR1 encodes winged helix repair factor 1. It participates in transcription-coupled nucleotide-excision repair and regulation of DNA repair. Functional annotations also associate the protein with transcription factor TFIIH holo complex binding.",
+      "text": "WHR1 encodes winged helix repair factor 1. It is a DNA-binding protein which is required for efficient transcription-coupled nucleotide excision repair (TC-NER). It functions as part of a TC-NER complex which assembles and interacts with RNA polymerase II (RNAPII) when it stalls at DNA lesions. TC-NER complex subunit UVSSA binds to the GTF2H1/p62 subunit of the TFIIH transcription factor complex, tethering TFIIH to the TC-NER complex.",
       "source_ids": [
         "ncbi-8859",
         "uniprot-P49842"

@@ -175,7 +175,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CTCF encodes transcriptional repressor CTCF. It participates in negative regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription repressor activity, RNA polymerase II-specific.",
+      "text": "CTCF encodes transcriptional repressor CTCF. Based in part on similarity, it is a chromatin binding factor that binds to DNA sequence specific sites and regulates the 3D structure of chromatin. It binds together strands of DNA, thus forming chromatin loops, and anchors DNA to cellular structures, such as the nuclear lamina. It defines the boundaries between active and heterochromatic DNA via binding to chromatin insulators, thereby preventing interaction between promoter and nearby enhancers and silencers.",
       "source_ids": [
         "ncbi-10664",
         "uniprot-P49711"

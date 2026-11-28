@@ -69,7 +69,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "UPF1 encodes regulator of nonsense transcripts 1. It participates in DNA repair and regulation of telomere maintenance. Functional annotations also associate the protein with helicase activity and ATP hydrolysis activity.",
+      "text": "UPF1 encodes regulator of nonsense transcripts 1. Based in part on similarity, it is an RNA-dependent helicase required for nonsense-mediated decay (NMD) of aberrant mRNAs containing premature stop codons and which modulates the expression level of normal mRNAs. It is an ATP-dependent 5'-3' helicase active on RNA:DNA substrates with a 5'-RNA extension. Phosphorylated UPF1 is recognized by EST1B/SMG5, SMG6 and SMG7 which are thought to provide a link to the mRNA degradation machinery involving exonucleolytic and endonucleolytic pathways, and to serve as adapters to protein phosphatase 2A (PP2A), thereby triggering UPF1 dephosphorylation and allowing the recycling of NMD factors.",
       "source_ids": [
         "ncbi-5976",
         "uniprot-Q92900"

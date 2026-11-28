@@ -57,7 +57,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MIR143 encodes a microRNA precursor. The mature microRNA participates in post-transcriptional regulation of target transcripts through effects on mRNA stability and translation.",
+      "text": "MIR143 encodes a microRNA precursor rather than a protein. MicroRNA production involves sequential processing of a primary transcript by DROSHA and DICER, followed by incorporation of the mature small RNA into a silencing complex. Base pairing with target messenger RNAs can reduce their translation or stability. The RefSeq record represents the precursor stem-loop, distinguishing the genomic precursor from the mature regulatory RNA.",
       "source_ids": [
         "ncbi-406935"
       ]

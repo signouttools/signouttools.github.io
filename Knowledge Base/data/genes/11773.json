@@ -151,7 +151,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TGFBR2 encodes TGF-beta receptor type-2. It participates in positive regulation of SMAD protein signal transduction and vasculogenesis. Functional annotations also associate the protein with protein serine/threonine kinase activity and transmembrane receptor protein serine/threonine kinase activity.",
+      "text": "TGFBR2 encodes TGF-beta receptor type-2. It transduces the TGFB1, TGFB2 and TGFB3 signal from the cell surface to the cytoplasm and thus regulates a plethora of physiological and pathological processes including cell cycle arrest in epithelial and hematopoietic cells, control of mesenchymal cell proliferation and differentiation, wound healing, extracellular matrix production, immunosuppression and carcinogenesis. The formation of the receptor complex composed of 2 TGFBR1 and 2 TGFBR2 molecules symmetrically bound to the cytokine dimer results in the phosphorylation and activation of TGFBR1 by the constitutively active TGFBR2. The SMAD2-SMAD4 complex is subsequently translocated to the nucleus where it modulates the transcription of the TGF-beta-regulated genes.",
       "source_ids": [
         "ncbi-7048",
         "uniprot-P37173"

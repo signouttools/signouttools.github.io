@@ -58,7 +58,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SIX2 encodes homeobox protein SIX2. It participates in regulation of transcription by RNA polymerase II and cell migration. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "SIX2 encodes homeobox protein SIX2. Based in part on similarity, it is a transcription factor that plays an important role in the development of several organs, including kidney, skull and stomach. It acts through its interaction with TCF7L2 and OSR1 in a canonical Wnt signaling independent manner preventing transcription of differentiation genes in cap mesenchyme such as WNT4. It also acts independently of OSR1 to activate expression of many cap mesenchyme genes, including itself, GDNF and OSR1.",
       "source_ids": [
         "ncbi-10736",
         "uniprot-Q9NPC8"

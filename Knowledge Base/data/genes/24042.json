@@ -94,7 +94,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "WWTR1 encodes WW domain-containing transcription regulator protein 1. It participates in SMAD protein signal transduction and regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coactivator activity and transcription coregulator activity.",
+      "text": "WWTR1 encodes WW domain-containing transcription regulator protein 1. The core of this pathway is composed of a kinase cascade wherein STK3/MST2 and STK4/MST1, in complex with its regulatory protein SAV1, phosphorylates and activates LATS1/2 in complex with its regulatory protein MOB1, which in turn phosphorylates and inactivates YAP1 oncoprotein and WWTR1/TAZ. It contributes to coupling SMADs to the transcriptional machinery such as the mediator complex. It regulates embryonic stem-cell self-renewal, promotes cell proliferation and epithelial-mesenchymal transition.",
       "source_ids": [
         "ncbi-25937",
         "uniprot-Q9GZV5"

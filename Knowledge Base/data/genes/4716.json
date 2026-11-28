@@ -93,7 +93,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "H1-2 encodes histone H1.2. It participates in regulation of mRNA splicing, via spliceosome and chromosome condensation. Functional annotations also associate the protein with histone H3K27me3 reader activity and structural constituent of chromatin.",
+      "text": "H1-2 encodes histone H1.2. Histone H1 protein binds to linker DNA between nucleosomes forming the macromolecular structure known as the chromatin fiber. Histone H1-2 is required for the condensation of nucleosome chains into higher-order structured fibers. Histone H1-2 also acts as a histone reader: specifically recognizes and binds histone H3 trimethylated at 'lys-27' (H3K27me3).",
       "source_ids": [
         "ncbi-3006",
         "uniprot-P16403"

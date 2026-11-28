@@ -70,7 +70,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RPS6KB1 encodes ribosomal protein S6 kinase beta-1. It participates in regulation of kinase activity and signal transduction. Functional annotations also associate the protein with protein kinase activity and protein serine kinase activity.",
+      "text": "RPS6KB1 encodes ribosomal protein S6 kinase beta-1. Based in part on similarity, it is a serine/threonine-protein kinase that acts downstream of mTOR signaling in response to growth factors and nutrients to promote cell proliferation, cell growth and cell cycle progression. It regulates protein synthesis through phosphorylation of EIF4B, RPS6 and EEF2K, and contributes to cell survival by repressing the pro-apoptotic function of BAD. The active form then phosphorylates and activates several substrates in the pre-initiation complex, including the EIF2B complex and the cap-binding complex component EIF4B.",
       "source_ids": [
         "ncbi-6198",
         "uniprot-P23443"

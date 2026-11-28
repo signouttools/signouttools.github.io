@@ -94,7 +94,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EGR2 encodes E3 SUMO-protein ligase EGR2. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "EGR2 encodes E3 SUMO-protein ligase EGR2. Based in part on similarity, it contributes to hindbrain segmentation by regulating the expression of a subset of homeobox containing genes and in Schwann cell myelination by regulating the expression of genes involved in the formation and maintenance of myelin. It binds to two EGR2-consensus sites EGR2A (5'-CTGTAGGAG-3') and EGR2B (5'-ATGTAGGTG-3') in the HOXB3 enhancer and promotes HOXB3 transcriptional activation. It binds to specific DNA sites located in the promoter region of HOXA4, HOXB2 and ERBB2.",
       "source_ids": [
         "ncbi-1959",
         "uniprot-P11161"

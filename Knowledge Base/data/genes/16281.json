@@ -53,7 +53,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TRIM11 encodes E3 ubiquitin-protein ligase TRIM11. It participates in negative regulation of DNA-templated transcription and protein autoubiquitination. Functional annotations also associate the protein with protein-macromolecule adaptor activity and ubiquitin-protein transferase activity.",
+      "text": "TRIM11 encodes E3 ubiquitin-protein ligase TRIM11. Based in part on similarity, it is an E3 ubiquitin-protein ligase that promotes the degradation of insoluble ubiquitinated proteins, including insoluble PAX6, poly-Gln repeat expanded HTT and poly-Ala repeat expanded ARX. It mediates PAX6 ubiquitination leading to proteasomal degradation, thereby modulating cortical neurogenesis. It may also inhibit PAX6 transcriptional activity, possibly in part by preventing the binding of PAX6 to its consensus sequences.",
       "source_ids": [
         "ncbi-81559",
         "uniprot-Q96F44"

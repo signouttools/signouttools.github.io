@@ -89,7 +89,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KAT8 encodes lysine acetyltransferase 8. Its functions include enzyme binding and histone acetyltransferase activity.",
+      "text": "KAT8 encodes lysine acetyltransferase 8. Based in part on similarity, it is a histone acetyltransferase that catalyzes histone H4 acetylation at 'Lys-5'- and 'Lys-8' (H4K5ac and H4K8ac) or 'Lys-16' (H4K16ac), depending on the context. It is the catalytic component of the MSL histone acetyltransferase complex, a multiprotein complex that mediates the majority of histone H4 acetylation at 'Lys-16' (H4K16ac), an epigenetic mark that prevents chromatin compaction. The MSL complex is required for chromosome stability and genome integrity by maintaining homeostatic levels of H4K16ac.",
       "source_ids": [
         "ncbi-84148",
         "uniprot-Q9H7Z6"

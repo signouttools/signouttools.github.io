@@ -1,0 +1,118 @@
+{
+  "id": "fusion-fus-nfatc2",
+  "label": "FUS::NFATC2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "FUS",
+      "hgnc_id": "HGNC:4010",
+      "ncbi_gene_id": "2521"
+    },
+    {
+      "symbol": "NFATC2",
+      "hgnc_id": "HGNC:7776",
+      "ncbi_gene_id": "4773"
+    }
+  ],
+  "aliases": [
+    "ALS6::NFATC2"
+  ],
+  "tumor_contexts": [
+    "Pediatric Ewing sarcoma"
+  ],
+  "disease_ids": [
+    "fusion-context-619f43a426dd"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FUS",
+      "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NFATC2",
+      "text": "NFATC2 encodes a nuclear-factor-of-activated-T-cells transcription factor.",
+      "source_ids": [
+        "ncbi-4773"
+      ],
+      "claim_sha256": "c5cfe51aab87b8c9a78a0a5748cf34c516ec97dd515ee03ac8b74b9d1141f170",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4773",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4773",
+          "location": "NCBI Gene 4773 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "08c00e511aef3c80f9da5ccd43cb0e7576da06cac51025642f7f9def6afaeed3"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "FUS::NFATC2 was reported in specimens labeled as Pediatric Ewing sarcoma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "e7d594fd28232d90d08e1bfd29f0c49ba81dd89a42a9a8e1ea3c2c70eb8d4f1e",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 4712",
+          "source_rows": [
+            4712
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. NFATC2 encodes a nuclear-factor-of-activated-T-cells transcription factor. FUS::NFATC2 was reported in specimens labeled as Pediatric Ewing sarcoma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2521",
+      "ncbi-4773",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "8066ce5efba68a1050a7bc31e4796b69cbccebd47ccb3d364b930412f732395d"
+}

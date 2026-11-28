@@ -99,7 +99,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GSK3B encodes glycogen synthase kinase-3 beta. It participates in intracellular signal transduction and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with kinase activity and protein kinase activity.",
+      "text": "GSK3B encodes glycogen synthase kinase-3 beta. Based in part on similarity, it requires primed phosphorylation of the majority of its substrates. It regulates protein synthesis by controlling the activity of initiation factor 2B (EIF2BE/EIF2B5) in the same manner as glycogen synthase. It phosphorylates JUN at sites proximal to its DNA-binding domain, thereby reducing its affinity for DNA.",
       "source_ids": [
         "ncbi-2932",
         "uniprot-P49841"

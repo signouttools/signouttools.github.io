@@ -81,7 +81,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DCUN1D1 encodes DCN1-like protein 1. It participates in regulation of protein neddylation and regulation of protein ubiquitination. Functional annotations also associate the protein with NEDD8 transferase activity and cullin family protein binding.",
+      "text": "DCUN1D1 encodes DCN1-like protein 1. Based in part on similarity, it forms part of an E3 ubiquitin ligase complex for neddylation. It promotes neddylation of cullin components of E3 cullin-RING ubiquitin ligase complexes. It acts by binding to cullin-RBX1 complexes in the cytoplasm and promoting their nuclear translocation, enhancing recruitment of E2-NEDD8 (UBE2M-NEDD8) thioester to the complex, and optimizing the orientation of proteins in the complex to allow efficient transfer of NEDD8 from the E2 to the cullin substrates.",
       "source_ids": [
         "ncbi-54165",
         "uniprot-Q96GG9"

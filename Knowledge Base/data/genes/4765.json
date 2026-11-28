@@ -92,9 +92,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "H3-3B encodes the histone variant H3.3, which participates in replication-independent nucleosome assembly and regulation of chromatin organization.",
+      "text": "H3-3B encodes the histone variant H3.3, which participates in replication-independent nucleosome assembly and regulation of chromatin organization. It constitutes the predominant form of histone H3 in non-dividing cells and is incorporated into chromatin independently of DNA synthesis. Nucleosomes wrap and compact DNA into chromatin, limiting DNA accessibility to the cellular machineries which require DNA as a template. Histones thereby play a central role in transcription regulation, DNA repair, DNA replication and chromosomal stability.",
       "source_ids": [
-        "ncbi-3021"
+        "ncbi-3021",
+        "uniprot-P84243"
       ]
     },
     "somatic": {

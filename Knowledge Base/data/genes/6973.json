@@ -170,9 +170,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "MDM2 encodes an E3 ubiquitin ligase and negative regulator of p53, helping control p53 stability and activity.",
+      "text": "MDM2 encodes an E3 ubiquitin ligase and negative regulator of p53, helping control p53 stability and activity. Based in part on similarity, it is an E3 ubiquitin-protein ligase that mediates ubiquitination of p53/TP53, leading to its degradation by the proteasome. It inhibits p53/TP53- and p73/TP73-mediated cell cycle arrest and apoptosis by binding its transcriptional activation domain. It also acts as a ubiquitin ligase E3 toward itself and ARRB1.",
       "source_ids": [
-        "ncbi-4193"
+        "ncbi-4193",
+        "uniprot-Q00987"
       ]
     },
     "somatic": {

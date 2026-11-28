@@ -1,0 +1,118 @@
+{
+  "id": "fusion-etv6-fam169bp",
+  "label": "ETV6::FAM169BP",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "ETV6",
+      "hgnc_id": "HGNC:3495",
+      "ncbi_gene_id": "2120"
+    },
+    {
+      "symbol": "FAM169BP",
+      "hgnc_id": "HGNC:26835",
+      "ncbi_gene_id": "283777"
+    }
+  ],
+  "aliases": [
+    "ETV6::FAM169B"
+  ],
+  "tumor_contexts": [
+    "Pediatric B-lymphoblastic leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-d1a5bc0ed7fb"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ETV6",
+      "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain.",
+      "source_ids": [
+        "ncbi-2120"
+      ],
+      "claim_sha256": "29c0d74196efce14586190a11ce746e42b310a6ecfceab0432e5c26993db5b5f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2120",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2120",
+          "location": "NCBI Gene 2120 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58eb5b3ad4f1b9c2bb002888a2235e5e3eb720af7047c72570347fdc21459035"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FAM169BP",
+      "text": "FAM169BP is annotated by HGNC as family with sequence similarity 169 member B, pseudogene (pseudogene).",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "7314d0befe4779bc7c88be2f61ce2625b9561f213ed5fb99bc301f99b5d70909",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:26835",
+          "location": "Frozen HGNC TSV: HGNC:26835, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "ETV6::FAM169BP was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "7e380d5526f4e331da0c093c8bd6d4fcf8342efafddfad19324827926de2a1b8",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1792",
+          "source_rows": [
+            1792
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "ETV6 encodes an ETS-family transcriptional repressor with an amino-terminal oligomerization domain. FAM169BP is annotated by HGNC as family with sequence similarity 169 member B, pseudogene (pseudogene). ETV6::FAM169BP was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2120",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "3aa86f86a1606ec4ce46328b8f06008dea169efcae960051b0d435b2a0d91550"
+}

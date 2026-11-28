@@ -95,7 +95,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FBXO11 encodes f-box only protein 11. It participates in protein ubiquitination and sensory perception of sound. Functional annotations also associate the protein with protein-arginine N-methyltransferase activity and ubiquitin-protein transferase activity.",
+      "text": "FBXO11 encodes f-box only protein 11. It is a substrate recognition component of a SCF (SKP1-CUL1-F-box protein) E3 ubiquitin-protein ligase complex which mediates the ubiquitination and subsequent proteasomal degradation of target proteins, such as DTL/CDT2, BCL6, SNAI1 and PRDM1/BLIMP1. The SCF(FBXO11) complex mediates ubiquitination and degradation of BCL6, thereby playing a role in the germinal center B-cells terminal differentiation toward memory B-cells and plasma cells. The SCF(FBXO11) complex also mediates ubiquitination and degradation of DTL, an important step for the regulation of TGF-beta signaling, cell migration and the timing of the cell-cycle progression and exit.",
       "source_ids": [
         "ncbi-80204",
         "uniprot-Q86XK2"

@@ -82,7 +82,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PRKCB encodes protein kinase C beta type. It participates in signal transduction and intracellular signal transduction. Functional annotations also associate the protein with transcription coactivator activity and calcium,diacylglycerol-dependent serine/threonine kinase activity.",
+      "text": "PRKCB encodes protein kinase C beta type. Based in part on similarity, it is a calcium-activated, phospholipid- and diacylglycerol (DAG)-dependent serine/threonine-protein kinase involved in various cellular processes such as regulation of the B-cell receptor (BCR) signalosome, oxidative stress-induced apoptosis, androgen receptor-dependent transcription regulation, insulin signaling and endothelial cells proliferation. It contributes to B-cell activation by regulating BCR-induced NF-kappa-B activation. It mediates the activation of the canonical NF-kappa-B pathway (NFKB1) by direct phosphorylation of CARD11/CARMA1 at 'Ser-559', 'Ser-644' and 'Ser-652'.",
       "source_ids": [
         "ncbi-5579",
         "uniprot-P05771"

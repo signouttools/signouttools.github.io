@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MEF2C encodes myocyte-specific enhancer factor 2C. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "MEF2C encodes myocyte-specific enhancer factor 2C. Based in part on similarity, it is a transcription activator which binds specifically to the MEF2 element present in the regulatory regions of many muscle-specific genes. It controls cardiac morphogenesis and myogenesis, and is also involved in vascular development. It enhances transcriptional activation mediated by SOX18.",
       "source_ids": [
         "ncbi-4208",
         "uniprot-Q06413"

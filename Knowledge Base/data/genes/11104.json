@@ -63,7 +63,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SMARCC1 encodes SWI/SNF complex subunit SMARCC1. It participates in positive regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with transcription coactivator activity and ATP-dependent chromatin remodeler activity.",
+      "text": "SMARCC1 encodes SWI/SNF complex subunit SMARCC1. Based in part on similarity, it participates in transcriptional activation and repression of select genes by chromatin remodeling (alteration of DNA-nucleosome topology). It forms part of SWI/SNF chromatin remodeling complexes that carry out key enzymatic activities, changing chromatin structure by altering DNA-histone contacts within a nucleosome in an ATP-dependent manner. It may stimulate the ATPase activity of the catalytic subunit of the complex.",
       "source_ids": [
         "ncbi-6599",
         "uniprot-Q92922"

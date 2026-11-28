@@ -1,0 +1,116 @@
+{
+  "id": "fusion-hip1-met",
+  "label": "HIP1::MET",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "HIP1",
+      "hgnc_id": "HGNC:4913",
+      "ncbi_gene_id": "3092"
+    },
+    {
+      "symbol": "MET",
+      "hgnc_id": "HGNC:7029",
+      "ncbi_gene_id": "4233"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "HIP1",
+      "text": "HIP1 encodes huntingtin interacting protein 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "520fd6f49140739e499cabdd7b4aee45ecb5c1f1ff16da8dffd132c2027856e0",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4913",
+          "location": "Frozen HGNC TSV: HGNC:4913, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MET",
+      "text": "MET encodes the hepatocyte-growth-factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4233"
+      ],
+      "claim_sha256": "79c99a4f2e4dd152687fabddef26634b6e30083aed25fdeba5e500c81ae79399",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4233",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4233",
+          "location": "NCBI Gene 4233 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b99409cd2e98e6eb279f27a430ff0ffcdb9699adc54635f62c37089c592534e9"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "HIP1::MET was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "4d18bba288d67b6d7cd6a9d866553ecb5aa87b19d06f41caf16dd1b1a28996e9",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 411",
+          "source_rows": [
+            411
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "HIP1 encodes huntingtin interacting protein 1. MET encodes the hepatocyte-growth-factor receptor tyrosine kinase. HIP1::MET was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-4233",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "9715872cb70378bc8e387d77507745a5f35bf7f273d2a869aef568e058c5b8d4"
+}

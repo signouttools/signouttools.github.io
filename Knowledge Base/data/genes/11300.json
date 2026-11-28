@@ -62,7 +62,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SRP19 encodes signal recognition particle 19 kDa protein. It participates in cotranslational protein targeting to membrane and SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition. Functional annotations also associate the protein with 7S RNA binding.",
+      "text": "SRP19 encodes signal recognition particle 19 kDa protein. Based in part on similarity, it forms part of the signal recognition particle (SRP) complex, a ribonucleoprotein complex that mediates the cotranslational targeting of secretory and membrane proteins to the endoplasmic reticulum (ER). It binds directly to 7SL RNA. It mediates binding of SRP54 to the SRP complex.",
       "source_ids": [
         "ncbi-6728",
         "uniprot-P09132"

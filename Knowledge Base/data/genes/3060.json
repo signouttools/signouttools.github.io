@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DTX1 encodes E3 ubiquitin-protein ligase DTX1. It participates in DNA-templated transcription and transcription by RNA polymerase II. Functional annotations also associate the protein with transcription coactivator activity and ubiquitin protein ligase activity.",
+      "text": "DTX1 encodes E3 ubiquitin-protein ligase DTX1. Based in part on similarity, it is an E3 ubiquitin-protein ligase that mediates ubiquitination and proteasomal degradation of MEKK1, thereby modulating signaling pathways involved in cell fate determination. It regulates the Notch signaling pathway, acting predominantly as a positive regulator but functioning as a context-dependent negative regulator in specific developmental or cellular settings. It mediates the antineural activity of Notch signaling, likely by inhibiting transcriptional activation mediated by MATCH1.",
       "source_ids": [
         "ncbi-1840",
         "uniprot-Q86Y01"

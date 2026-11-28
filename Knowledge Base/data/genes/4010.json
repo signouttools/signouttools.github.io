@@ -140,7 +140,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FUS encodes RNA-binding protein FUS. It participates in RNA splicing and regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coactivator activity and transcription coregulator activity.",
+      "text": "FUS encodes RNA-binding protein FUS. Based in part on similarity, it is a DNA/RNA-binding protein that plays a role in various cellular processes such as transcription regulation, RNA splicing, RNA transport, DNA repair and damage response. It binds to ssRNA containing the consensus sequence 5'-AGGUAA-3'. It binds to nascent pre-mRNAs and acts as a molecular mediator between RNA polymerase II and U1 small nuclear ribonucleoprotein thereby coupling transcription and splicing.",
       "source_ids": [
         "ncbi-2521",
         "uniprot-P35637"

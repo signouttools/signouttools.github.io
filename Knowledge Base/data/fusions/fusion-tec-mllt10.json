@@ -1,0 +1,118 @@
+{
+  "id": "fusion-tec-mllt10",
+  "label": "TEC::MLLT10",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "TEC",
+      "hgnc_id": "HGNC:11719",
+      "ncbi_gene_id": "7006"
+    },
+    {
+      "symbol": "MLLT10",
+      "hgnc_id": "HGNC:16063",
+      "ncbi_gene_id": "8028"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "TEC",
+      "text": "TEC encodes tec protein tyrosine kinase.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "492e4dd99543c8beebcde316c0f452be09e66233e067bce281b798570a5c5993",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:11719",
+          "location": "Frozen HGNC TSV: HGNC:11719, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MLLT10",
+      "text": "MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L.",
+      "source_ids": [
+        "ncbi-8028"
+      ],
+      "claim_sha256": "c0eea6521144af9a1a1c353ff341dd752dda55da7fefcdc166f5857eaa28892a",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8028",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8028",
+          "location": "NCBI Gene 8028 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6f91a51f3226eeb10d9d06d48d11d65b5ff17f7333471b0c35edf28bd022ff3a"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "TEC::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "ba712b2049dc5911ef566d0b05f3a06b07f5df0c7276dd842f2b3b6c654d4db9",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1479, 4168, 5331",
+          "source_rows": [
+            1479,
+            4168,
+            5331
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "TEC encodes tec protein tyrosine kinase. MLLT10 encodes AF10, a chromatin-associated regulator that recruits the H3K79 methyltransferase DOT1L. TEC::MLLT10 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-8028",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "72e672f33f6d60cbc5c319c235db9071d91b54437ec529a76a99dfde05a17f0d"
+}

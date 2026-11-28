@@ -116,7 +116,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RICTOR encodes rapamycin-insensitive companion of mTOR. It participates in regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with enzyme-substrate adaptor activity and molecular adaptor activity.",
+      "text": "RICTOR encodes rapamycin-insensitive companion of mTOR. Based in part on similarity, it forms part of the mechanistic target of rapamycin complex 2 (mTORC2), which transduces signals from growth factors to pathways involved in proliferation, cytoskeletal organization, lipogenesis and anabolic output. The mTORC2 complex also phosphorylates various proteins involved in insulin signaling, such as FBXW8 and IGF2BP1 . mTORC2 acts upstream of Rho GTPases to regulate the actin cytoskeleton, probably by activating one or more Rho-type guanine nucleotide exchange factors . mTORC2 promotes the serum-induced formation of stress-fibers or F-actin.",
       "source_ids": [
         "ncbi-253260",
         "uniprot-Q6R327"

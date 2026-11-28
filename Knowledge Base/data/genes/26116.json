@@ -64,7 +64,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD6 encodes n-lysine methyltransferase SETD6. It participates in peptidyl-lysine monomethylation and stem cell differentiation. Functional annotations also associate the protein with histone methyltransferase activity and protein-lysine N-methyltransferase activity.",
+      "text": "SETD6 encodes n-lysine methyltransferase SETD6. Based in part on similarity, it monomethylates 'Lys-310' of the RELA subunit of NF-kappa-B complex, leading to down-regulation of NF-kappa-B transcription factor activity. It monomethylates 'Lys-8' of H2AZ (H2AZK8me1). It is required for the maintenance of embryonic stem cell self-renewal.",
       "source_ids": [
         "ncbi-79918",
         "uniprot-Q8TBK2"

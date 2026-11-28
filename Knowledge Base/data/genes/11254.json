@@ -162,7 +162,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SPOP encodes speckle-type POZ protein. It participates in protein polyubiquitination and regulation of proteolysis.",
+      "text": "SPOP encodes a substrate-recognition adaptor for a CUL3-based ubiquitin-ligase assembly. Its MATH domain recognizes short consensus sequences in protein substrates, while its BTB region and an adjacent helical structure support CUL3 binding. SPOP can form dimers, allowing multiple substrate-recognition sites to cooperate. This architecture connects selective substrate binding with ubiquitination, while distinguishing the adaptor from the catalytic functions of the complete ligase assembly.",
       "source_ids": [
         "ncbi-8405",
         "uniprot-O43791",

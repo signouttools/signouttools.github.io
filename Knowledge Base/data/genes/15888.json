@@ -103,7 +103,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RTEL1 encodes regulator of telomere elongation helicase 1. It participates in DNA repair and telomere maintenance. Functional annotations also associate the protein with ATP hydrolysis activity and DNA helicase activity.",
+      "text": "RTEL1 encodes regulator of telomere elongation helicase 1. It functions as an anti-recombinase to counteract toxic recombination and limit crossover during meiosis. It regulates meiotic recombination and crossover homeostasis by physically dissociating strand invasion events and thereby promotes noncrossover repair by meiotic synthesis dependent strand annealing (SDSA) as well as disassembly of D loop recombination intermediates. It also disassembles T loops and prevents telomere fragility by counteracting telomeric G4-DNA structures, which together ensure the dynamics and stability of the telomere.",
       "source_ids": [
         "ncbi-51750",
         "uniprot-Q9NZ71"

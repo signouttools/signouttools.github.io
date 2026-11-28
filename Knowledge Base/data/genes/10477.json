@@ -74,7 +74,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RXRA encodes retinoic acid receptor RXR-alpha. It participates in positive regulation of DNA-templated transcription and mRNA transcription by RNA polymerase II. Functional annotations also associate the protein with transcription coregulator activity and DNA-binding transcription factor activity.",
+      "text": "RXRA encodes retinoic acid receptor RXR-alpha. It is a receptor for retinoic acid that acts as a transcription factor. It forms homo- or heterodimers with retinoic acid receptors (RARs) and binds to target response elements in response to their ligands, all-trans or 9-cis retinoic acid, to regulate gene expression in various biological processes. The RAR/RXR heterodimers bind to the retinoic acid response elements (RARE) composed of tandem 5'-AGGTCA-3' sites known as DR1-DR5 to regulate transcription.",
       "source_ids": [
         "ncbi-6256",
         "uniprot-P19793"

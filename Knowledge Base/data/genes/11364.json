@@ -216,7 +216,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "STAT3 encodes signal transducer and activator of transcription 3. It participates in signal transduction and regulation of DNA-templated transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "STAT3 encodes signal transducer and activator of transcription 3. Based in part on similarity, it may mediate cellular responses to activated FGFR1, FGFR2, FGFR3 and FGFR4. It functions as a regulator of inflammatory response by regulating differentiation of naive CD4(+) T-cells into T-helper Th17 or regulatory T-cells (Treg): acetylation promotes its transcription activity and cell differentiation while deacetylation and oxidation of lysine residues by LOXL3 inhibits differentiation. It participates in cell cycle regulation by inducing the expression of key genes for the progression from G1 to S phase, such as CCND1.",
       "source_ids": [
         "ncbi-6774",
         "uniprot-P40763"

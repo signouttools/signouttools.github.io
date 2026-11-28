@@ -83,7 +83,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EGLN1 encodes egl nine homolog 1. It participates in positive regulation of transcription by RNA polymerase II and intracellular oxygen homeostasis. Functional annotations also associate the protein with 2-oxoglutarate-dependent dioxygenase activity and enzyme inhibitor activity.",
+      "text": "EGLN1 encodes egl nine homolog 1. It hydroxylates a specific proline found in each of the oxygen-dependent degradation (ODD) domains (N-terminal, NODD, and C-terminal, CODD) of HIF1A. It has a preference for the CODD site for both HIF1A and HIF1B. Hydroxylated HIFs are then targeted for proteasomal degradation via the von Hippel-Lindau ubiquitination complex.",
       "source_ids": [
         "ncbi-54583",
         "uniprot-Q9GZT9"

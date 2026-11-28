@@ -148,7 +148,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GNAQ encodes guanine nucleotide-binding protein G(q) subunit alpha. It participates in blood coagulation and bone resorption. Functional annotations also associate the protein with GTPase activity and G protein activity.",
+      "text": "GNAQ encodes guanine nucleotide-binding protein G(q) subunit alpha. Based in part on similarity, it is a guanine nucleotide-binding proteins (G proteins) function as transducers downstream of G protein-coupled receptors (GPCRs) in numerous signaling cascades. The alpha chain contains the guanine nucleotide binding site and alternates between an active, GTP-bound state and an inactive, GDP-bound state. The alpha subunit has a low GTPase activity that converts bound GTP to GDP, thereby terminating the signal.",
       "source_ids": [
         "ncbi-2776",
         "uniprot-P50148"

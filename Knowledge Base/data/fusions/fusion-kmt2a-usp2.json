@@ -1,0 +1,124 @@
+{
+  "id": "fusion-kmt2a-usp2",
+  "label": "KMT2A::USP2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "KMT2A",
+      "hgnc_id": "HGNC:7132",
+      "ncbi_gene_id": "4297"
+    },
+    {
+      "symbol": "USP2",
+      "hgnc_id": "HGNC:12618",
+      "ncbi_gene_id": "9099"
+    }
+  ],
+  "aliases": [
+    "MLL::USP2"
+  ],
+  "tumor_contexts": [
+    "Pediatric B-lymphoblastic leukemia",
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-d1a5bc0ed7fb",
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KMT2A",
+      "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes.",
+      "source_ids": [
+        "ncbi-4297"
+      ],
+      "claim_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4297",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+          "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "USP2",
+      "text": "USP2 encodes ubiquitin specific peptidase 2.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "71176433709d8b762e0dd6cf8b4f106a513cd7f914be9f720f1f0beb061ed4a3",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:12618",
+          "location": "Frozen HGNC TSV: HGNC:12618, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "KMT2A::USP2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia; Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "52b5a0fed1abeb765337314df6eecbf5e99d74ac5ba4fee1bfec1c1031bb2885",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 186, 1361, 1777, 2096, 4275",
+          "source_rows": [
+            186,
+            1361,
+            1777,
+            2096,
+            4275
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. USP2 encodes ubiquitin specific peptidase 2. KMT2A::USP2 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia; Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-4297",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "9ae6a2e671dce7ec7c28dcb2ddb95c97c6098bb8dd9d06172e251c1e6c72d304"
+}

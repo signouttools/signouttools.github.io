@@ -86,7 +86,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "USP8 encodes ubiquitin carboxyl-terminal hydrolase 8. It participates in Ras protein signal transduction and endosome organization. Functional annotations also associate the protein with K48-linked deubiquitinase activity and K63-linked deubiquitinase activity.",
+      "text": "USP8 encodes ubiquitin carboxyl-terminal hydrolase 8. It converts both 'Lys-48' an 'Lys-63'-linked ubiquitin chains. Catalytic activity is enhanced in the M phase.",
       "source_ids": [
         "ncbi-9101",
         "uniprot-P40818"

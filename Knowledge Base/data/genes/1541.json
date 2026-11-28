@@ -141,7 +141,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CBL encodes E3 ubiquitin-protein ligase CBL. It participates in signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with ubiquitin-protein transferase activity and ubiquitin protein ligase activity.",
+      "text": "CBL encodes E3 ubiquitin-protein ligase CBL. Based in part on similarity, it is an E3 ubiquitin-protein ligase that acts as a negative regulator of many signaling pathways by mediating ubiquitination of cell surface receptors. It accepts ubiquitin from specific E2 ubiquitin-conjugating enzymes, and then transfers it to substrates promoting their degradation by the proteasome. It recognizes activated receptor tyrosine kinases, including KIT, FLT1, FGFR1, FGFR2, PDGFRA, PDGFRB, CSF1R, EPHA8 and KDR and mediates their ubiquitination to terminate signaling.",
       "source_ids": [
         "ncbi-867",
         "uniprot-P22681"

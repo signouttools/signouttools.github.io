@@ -96,7 +96,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ELF3 encodes ETS-related transcription factor Elf-3. It participates in negative regulation of DNA-templated transcription and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "ELF3 encodes ETS-related transcription factor Elf-3. Based in part on similarity, it acts synergistically with POU2F3 to transactivate the SPRR2A promoter and with RUNX1 to transactivate the ANGPT1 promoter. It also transactivates collagenase, CCL20, CLND7, FLG, KRT8, NOS2, PTGS2, SPRR2B, TGFBR2 and TGM3 promoters. It participates in mediating vascular inflammation.",
       "source_ids": [
         "ncbi-1999",
         "uniprot-P78545"

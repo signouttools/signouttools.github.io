@@ -58,7 +58,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SRP54 encodes signal recognition particle subunit SRP54. It participates in granulocyte differentiation and neutrophil chemotaxis. Functional annotations also associate the protein with GTPase activity and endoplasmic reticulum signal sequence receptor activity.",
+      "text": "SRP54 encodes signal recognition particle subunit SRP54. Based in part on similarity, it forms part of the signal recognition particle (SRP) complex, a ribonucleoprotein complex that mediates the cotranslational targeting of secretory and membrane proteins to the endoplasmic reticulum (ER). It binds to the signal sequence of presecretory proteins when they emerge from the ribosomes. It displays basal GTPase activity, and stimulates reciprocal GTPase activation of the SR subunit SRPRA.",
       "source_ids": [
         "ncbi-6729",
         "uniprot-P61011"

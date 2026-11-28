@@ -62,7 +62,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TDG encodes G/T mismatch-specific thymine DNA glycosylase. It participates in depyrimidination and base-excision repair. Functional annotations also associate the protein with DNA N-glycosylase activity and uracil DNA N-glycosylase activity.",
+      "text": "TDG encodes G/T mismatch-specific thymine DNA glycosylase. It is a DNA glycosylase that plays a key role in active DNA demethylation: specifically recognizes and binds 5-formylcytosine (5fC) and 5-carboxylcytosine (5caC) in the context of CpG sites and mediates their excision through base-excision repair (BER) to install an unmethylated cytosine. It is also involved in DNA repair by acting as a thymine-DNA glycosylase that mediates correction of G/T mispairs to G/C pairs: in the DNA of higher eukaryotes, hydrolytic deamination of 5-methylcytosine to thymine leads to the formation of G/T mismatches. It is capable of hydrolyzing the carbon-nitrogen bond between the sugar-phosphate backbone of the DNA and a mispaired thymine.",
       "source_ids": [
         "ncbi-6996",
         "uniprot-Q13569"

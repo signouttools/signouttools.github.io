@@ -139,7 +139,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FAS encodes tumor necrosis factor receptor superfamily member 6. It participates in signal transduction and apoptotic process. Functional annotations also associate the protein with signaling receptor activity and tumor necrosis factor receptor activity.",
+      "text": "FAS encodes tumor necrosis factor receptor superfamily member 6. The adapter molecule FADD recruits caspase CASP8 to the activated receptor. The resulting death-inducing signaling complex (DISC) performs CASP8 proteolytic activation which initiates the subsequent cascade of caspases (aspartate-specific cysteine proteases) mediating apoptosis. FAS-mediated apoptosis may have a role in the induction of peripheral tolerance, in the antigen-stimulated suicide of mature T-cells, or both.",
       "source_ids": [
         "ncbi-355",
         "uniprot-P25445"

@@ -80,7 +80,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TET3 encodes methylcytosine dioxygenase TET3. It participates in positive regulation of transcription by RNA polymerase II and protein O-linked glycosylation. Functional annotations also associate the protein with DNA 5-methylcytosine dioxygenase activity and methyl-CpG binding.",
+      "text": "TET3 encodes methylcytosine dioxygenase TET3. Based in part on similarity, it also mediates subsequent conversion of 5hmC into 5-formylcytosine (5fC), and conversion of 5fC to 5-carboxylcytosine (5caC). It selectively binds to the promoter region of target genes and contributes to regulate the expression of numerous developmental genes. It participates in DNA demethylation in the paternal pronucleus by mediating conversion of 5mC into 5hmC, 5fC and 5caC.",
       "source_ids": [
         "ncbi-200424",
         "uniprot-O43151"

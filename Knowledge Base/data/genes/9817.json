@@ -126,7 +126,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RAD51 encodes DNA repair protein RAD51 homolog 1. It participates in DNA repair and telomere maintenance via recombination. Functional annotations also associate the protein with ATP hydrolysis activity and DNA strand exchange activity.",
+      "text": "RAD51 encodes DNA repair protein RAD51 homolog 1. Based in part on similarity, it binds to single-stranded DNA (ssDNA) in an ATP-dependent manner to form nucleoprotein filaments which are essential for the homology search and strand exchange. It catalyzes the recognition of homology and strand exchange between homologous DNA partners to form a joint molecule between a processed DNA break and the repair template.",
       "source_ids": [
         "ncbi-5888",
         "uniprot-Q06609"

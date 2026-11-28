@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD1A encodes histone-lysine N-methyltransferase SETD1A. It participates in regulation of chromatin organization and brain development. Functional annotations also associate the protein with histone H3K4 methyltransferase activity and histone H3K4 monomethyltransferase activity.",
+      "text": "SETD1A encodes histone-lysine N-methyltransferase SETD1A. Based in part on similarity, it is a histone methyltransferase that catalyzes methyl group transfer from S-adenosyl-L-methionine to the epsilon-amino group of 'Lys-4' of histone H3 (H3K4) via a non-processive mechanism. It forms part of chromatin remodeling machinery, forms H3K4me1, H3K4me2 and H3K4me3 methylation marks at active chromatin sites where transcription and DNA repair take place. It is required for H3K4me1 mark at stalled replication forks.",
       "source_ids": [
         "ncbi-9739",
         "uniprot-O15047"

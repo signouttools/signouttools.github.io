@@ -108,7 +108,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETDB1 encodes histone-lysine N-methyltransferase SETDB1. It participates in heterochromatin organization and DNA methylation-dependent constitutive heterochromatin formation. Functional annotations also associate the protein with histone H3 methyltransferase activity and histone H3K9 dimethyltransferase activity.",
+      "text": "SETDB1 encodes histone-lysine N-methyltransferase SETDB1. It is a histone methyltransferase that specifically trimethylates 'Lys-9' of histone H3 (H3K9me3). H3 'Lys-9' trimethylation represents a specific tag for epigenetic transcriptional repression by recruiting HP1 (CBX1, CBX3 and/or CBX5) proteins to methylated histones. H3 'Lys-9' trimethylation is coordinated with DNA methylation.",
       "source_ids": [
         "ncbi-9869",
         "uniprot-Q15047"

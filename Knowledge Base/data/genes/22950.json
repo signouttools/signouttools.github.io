@@ -162,7 +162,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PREX2 encodes phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 2 protein (PtdIns(3,4,5)-dependent Rac exchanger 2). It participates in intracellular signal transduction and regulation of small GTPase mediated signal transduction. Functional annotations also associate the protein with GTPase activator activity and guanyl-nucleotide exchange factor activity.",
+      "text": "PREX2 encodes phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 2 protein (PtdIns(3,4,5)-dependent Rac exchanger 2). It acts as a RAC1 guanine nucleotide exchange factor (GEF), activating Rac proteins by exchanging bound GDP for free GTP. Its activity is synergistically activated by phosphatidylinositol 3,4,5-trisphosphate and the beta gamma subunits of heterotrimeric G protein. It mediates the activation of RAC1 in a PI3K-dependent manner.",
       "source_ids": [
         "ncbi-80243",
         "uniprot-Q70Z35"

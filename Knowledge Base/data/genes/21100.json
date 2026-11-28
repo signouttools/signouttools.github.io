@@ -102,7 +102,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "QKI encodes KH domain-containing RNA-binding protein QKI. It participates in regulation of mRNA splicing, via spliceosome and mRNA stabilization. Functional annotations also associate the protein with transcription coactivator activity and internal N(7)-methylguanine-containing RNA reader activity.",
+      "text": "QKI encodes KH domain-containing RNA-binding protein QKI. Based in part on similarity, it is an RNA reader protein, which recognizes and binds specific RNAs, thereby regulating RNA metabolic processes, such as pre-mRNA splicing, circular RNA (circRNA) formation, mRNA export, mRNA stability and/or translation. It participates in various cellular processes, such as mRNA storage into stress granules, apoptosis, lipid deposition, interferon response, glial cell fate and development. It binds to the 5'-NACUAAY-N(1,20)-UAAY-3' RNA core sequence.",
       "source_ids": [
         "ncbi-9444",
         "uniprot-Q96PU8"

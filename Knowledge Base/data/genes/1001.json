@@ -145,9 +145,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "BCL6 encodes a transcriptional repressor important for germinal-center B-cell development and regulation of differentiation and DNA-damage-response programs.",
+      "text": "BCL6 encodes a transcriptional repressor important for germinal-center B-cell development and regulation of differentiation and DNA-damage-response programs. It forms complexes with different corepressors and histone deacetylases to repress the transcriptional expression of different subsets of target genes. It represses its target genes by binding directly to the DNA sequence 5'-TTCCTAGAA-3' (BCL6-binding site) or indirectly by repressing the transcriptional activity of transcription factors. An important function is to allow GC B-cells to proliferate very rapidly in response to T-cell dependent antigens and tolerate the physiological DNA breaks required for immunoglobulin class switch recombination and somatic hypermutation without inducing a p53/TP53-dependent apoptotic response.",
       "source_ids": [
-        "ncbi-604"
+        "ncbi-604",
+        "uniprot-P41182"
       ]
     },
     "somatic": {

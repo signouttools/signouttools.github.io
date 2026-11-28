@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "HSD11B1 encodes hydroxysteroid 11-beta dehydrogenase 1. Its functions include 11-beta-hydroxysteroid dehydrogenase (NADP+) activity and 7-beta-hydroxysteroid dehydrogenase (NADP+) activity.",
+      "text": "HSD11B1 encodes an NADP(H)-dependent enzyme that interconverts active and inactive glucocorticoids. Although the reaction can run in both directions in vitro, the enzyme predominantly acts as a reductase in vivo, converting cortisone to cortisol and increasing local active-glucocorticoid availability. This directional distinction connects its enzymatic role with regulation of glucocorticoid action.",
       "source_ids": [
         "ncbi-3290",
         "uniprot-P28845"

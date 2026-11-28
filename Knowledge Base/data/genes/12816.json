@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "XPC encodes DNA repair protein complementing XP-C cells. It participates in DNA repair and mismatch repair. Functional annotations also associate the protein with transcription coactivator activity and DNA damage sensor activity.",
+      "text": "XPC encodes DNA repair protein complementing XP-C cells. It participates in global genome nucleotide excision repair (GG-NER) by acting as damage sensing and DNA-binding factor component of the XPC complex. It has only a low DNA repair activity by itself which is stimulated by RAD23B and RAD23A. This feature is proposed to be related to a dynamic sensor function: XPC can rapidly screen duplex DNA for non-hydrogen-bonded bases by forming a transient nucleoprotein intermediate complex which matures into a stable recognition complex through an intrinsic single-stranded DNA-binding activity.",
       "source_ids": [
         "ncbi-7508",
         "uniprot-Q01831"

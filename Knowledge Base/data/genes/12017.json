@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TPR encodes nucleoprotein TPR. It participates in negative regulation of transcription by RNA polymerase II and nucleocytoplasmic transport. Functional annotations also associate the protein with structural constituent of nuclear pore.",
+      "text": "TPR encodes nucleoprotein TPR. It forms part of the nuclear pore complex (NPC), a complex required for the trafficking across the nuclear envelope. It acts as a scaffolding element in the nuclear phase of the NPC essential for normal nucleocytoplasmic transport of proteins and mRNAs, plays a role in the establishment of nuclear-peripheral chromatin compartmentalization in interphase, and in the mitotic spindle checkpoint signaling during mitosis. It negatively regulates both the association of CTE-containing mRNA with large polyribosomes and translation initiation.",
       "source_ids": [
         "ncbi-7175",
         "uniprot-P12270"

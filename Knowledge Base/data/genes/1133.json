@@ -127,9 +127,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "BTK encodes Bruton tyrosine kinase, a signaling protein important for B-cell development and transmission of B-cell antigen-receptor signals.",
+      "text": "BTK encodes Bruton tyrosine kinase, a signaling protein important for B-cell development and transmission of B-cell antigen-receptor signals. It is a non-receptor tyrosine kinase indispensable for B lymphocyte development, differentiation and signaling. PLCG2 phosphorylation is performed in close cooperation with the adapter protein B-cell linker protein BLNK. It contributes to the function of immune cells of innate as well as adaptive immunity, as a component of the Toll-like receptors (TLR) pathway.",
       "source_ids": [
-        "ncbi-695"
+        "ncbi-695",
+        "uniprot-Q06187"
       ]
     },
     "germline": {

@@ -255,9 +255,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "EP300 encodes the p300 transcriptional coactivator and acetyltransferase, which regulates transcription through histone acetylation and interactions with transcription factors.",
+      "text": "EP300 encodes the p300 transcriptional coactivator and acetyltransferase, which regulates transcription through histone acetylation and interactions with transcription factors. Based in part on similarity, it acts as a histone acetyltransferase and regulates transcription via chromatin remodeling. It acetylates all four core histones in nucleosomes. It is a histone acetylation gives an epigenetic tag for transcriptional activation.",
       "source_ids": [
-        "ncbi-2033"
+        "ncbi-2033",
+        "uniprot-Q09472"
       ]
     },
     "germline": {

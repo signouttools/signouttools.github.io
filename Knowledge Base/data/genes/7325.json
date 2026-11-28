@@ -152,9 +152,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "MSH2 encodes a DNA mismatch-recognition protein. It forms complexes with MSH6 or MSH3 to recognize mismatched bases and insertion/deletion loops and initiate mismatch repair.",
+      "text": "MSH2 encodes a DNA mismatch-recognition protein. It forms part of the post-replicative DNA mismatch repair system (MMR). It forms two different heterodimers: MutS alpha (MSH2-MSH6 heterodimer) and MutS beta (MSH2-MSH3 heterodimer) which binds to DNA mismatches thereby initiating DNA repair. It recruits DNA helicase MCM9 to chromatin which unwinds the mismatch containing DNA strand.",
       "source_ids": [
-        "ncbi-4436"
+        "ncbi-4436",
+        "uniprot-P43246"
       ]
     },
     "germline": {

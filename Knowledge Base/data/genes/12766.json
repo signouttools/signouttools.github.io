@@ -126,7 +126,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NSD2 encodes histone-lysine N-methyltransferase NSD2. It participates in regulation of DNA-templated transcription and double-strand break repair. Functional annotations also associate the protein with histone H3 methyltransferase activity and histone H3K36 dimethyltransferase activity.",
+      "text": "NSD2 encodes histone-lysine N-methyltransferase NSD2. Based in part on similarity, it is a histone methyltransferase which specifically dimethylates nucleosomal histone H3 at 'Lys-36' (H3K36me2). It does not trimethylate nucleosomal histone H3 at 'Lys-36' (H3K36me3). It contributes to adipogenesis, by regulating expression of genes involved in pre-adipocyte differentiation.",
       "source_ids": [
         "ncbi-7468",
         "uniprot-O96028"

@@ -93,7 +93,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ABRAXAS1 encodes BRCA1-A complex subunit Abraxas 1. It participates in regulation of DNA repair and positive regulation of DNA repair. Functional annotations also associate the protein with microtubule binding and polyubiquitin modification-dependent protein binding.",
+      "text": "ABRAXAS1 encodes BRCA1-A complex subunit Abraxas 1. It participates in DNA damage response and double-strand break (DSB) repair. It forms part of the BRCA1-A complex, acting as a central scaffold protein that assembles the various components of the complex and mediates the recruitment of BRCA1. The BRCA1-A complex specifically recognizes 'Lys-63'-linked ubiquitinated histones H2A and H2AX at DNA lesion sites, leading to target the BRCA1-BARD1 heterodimer to sites of DNA damage at DSBs.",
       "source_ids": [
         "ncbi-84142",
         "uniprot-Q6UWZ7"

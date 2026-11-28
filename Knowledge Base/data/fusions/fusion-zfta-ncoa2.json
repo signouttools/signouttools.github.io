@@ -1,0 +1,120 @@
+{
+  "id": "fusion-zfta-ncoa2",
+  "label": "ZFTA::NCOA2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "ZFTA",
+      "hgnc_id": "HGNC:28449",
+      "ncbi_gene_id": "65998"
+    },
+    {
+      "symbol": "NCOA2",
+      "hgnc_id": "HGNC:7669",
+      "ncbi_gene_id": "10499"
+    }
+  ],
+  "aliases": [
+    "C11orf95::NCOA2"
+  ],
+  "tumor_contexts": [
+    "Pediatric ependymoma"
+  ],
+  "disease_ids": [
+    "fusion-context-10a46607941b"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ZFTA",
+      "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator.",
+      "source_ids": [
+        "ncbi-65998"
+      ],
+      "claim_sha256": "ada20b5f8beab08a7c88d4c88f91f2a7d973348d837041cda272a1e7cba88144",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-65998",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/65998",
+          "location": "NCBI Gene 65998 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "454ef726b0ee11c05d1fcea82440700a3435f8de9c6b0de6b3ed0713040f36e3"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NCOA2",
+      "text": "NCOA2 encodes a nuclear-receptor transcriptional coactivator.",
+      "source_ids": [
+        "ncbi-10499"
+      ],
+      "claim_sha256": "ffe285d3866ef36d8e8edaab61e7944117b10c44b8a7c09c35790ea5efb9c241",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-10499",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/10499",
+          "location": "NCBI Gene 10499 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ada4ba34be6da07d64e4607e6c566083fcda408536b6b5dc28690cd0814a7a05"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "ZFTA::NCOA2 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "4b8809f2663065f719c711a2c8989af6495bc578c6d02d21e0cbda555164a517",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 317, 371, 3059",
+          "source_rows": [
+            317,
+            371,
+            3059
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "ZFTA encodes a nuclear zinc-finger transcriptional regulator. NCOA2 encodes a nuclear-receptor transcriptional coactivator. ZFTA::NCOA2 was reported in specimens labeled as Pediatric ependymoma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-65998",
+      "ncbi-10499",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "e923a27e969c73194ded89ca5f5d54b26632813ea6bb27b10c9835b8ebd45802"
+}

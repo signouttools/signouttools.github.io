@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DUSP22 encodes dual specificity protein phosphatase 22. It participates in intracellular signal transduction and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with protein serine/threonine phosphatase activity and protein tyrosine phosphatase activity.",
+      "text": "DUSP22 encodes dual specificity protein phosphatase 22. Based in part on similarity, it activates the JNK signaling pathway. It inhibits T-cell receptor signaling and T-cell mediated immune responses, acting, at least in part, by inducing degradation of E3 ubiquitin ligase UBR2. It dephosphorylates and thereby induces 'Lys-48'-linked ubiquitination of UBR2, leading to proteasomal degradation of UBR2.",
       "source_ids": [
         "ncbi-56940",
         "uniprot-Q9NRW4"

@@ -97,7 +97,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SAMHD1 encodes deoxynucleoside triphosphate triphosphohydrolase SAMHD1. It participates in double-strand break repair via homologous recombination and immune response. Functional annotations also associate the protein with dGTPase activity and RNA nuclease activity.",
+      "text": "SAMHD1 encodes deoxynucleoside triphosphate triphosphohydrolase SAMHD1. Based in part on similarity, it functions during S phase at stalled DNA replication forks to promote the resection of gapped or reversed forks: acts by stimulating the exonuclease activity of MRE11, activating the ATR-CHK1 pathway and allowing the forks to restart replication. Its ability to promote degradation of nascent DNA at stalled replication forks is required to prevent induction of type I interferons, thereby preventing chronic inflammation.",
       "source_ids": [
         "ncbi-25939",
         "uniprot-Q9Y3Z3"

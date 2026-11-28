@@ -116,7 +116,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RPTOR encodes regulatory-associated protein of mTOR (p150 target of rapamycin (TOR)-scaffold protein). It participates in positive regulation of transcription by RNA polymerase III and TOR signaling. Functional annotations also associate the protein with enzyme-substrate adaptor activity and protein-macromolecule adaptor activity.",
+      "text": "RPTOR encodes regulatory-associated protein of mTOR (p150 target of rapamycin (TOR)-scaffold protein). Based in part on similarity, it forms part of the mechanistic target of rapamycin complex 1 (mTORC1), an evolutionarily conserved central nutrient sensor that stimulates anabolic reactions and macromolecule biosynthesis to promote cellular biomass generation and growth. The mTORC1 complex is inhibited in response to starvation and amino acid depletion.",
       "source_ids": [
         "ncbi-57521",
         "uniprot-Q8N122"

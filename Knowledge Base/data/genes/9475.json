@@ -72,7 +72,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PRSS1 encodes serine protease 1 [Cleaved into: Alpha-trypsin chain 1; Alpha-trypsin chain 2]. It participates in proteolysis and extracellular matrix disassembly. Functional annotations also associate the protein with serine-type endopeptidase activity.",
+      "text": "PRSS1 encodes serine protease 1. It has activity against the synthetic substrates Boc-Phe-Ser-Arg-Mec, Boc-Leu-Thr-Arg-Mec, Boc-Gln-Ala-Arg-Mec and Boc-Val-Pro-Arg-Mec. The single-chain form is more active than the two-chain form against all of these substrates.",
       "source_ids": [
         "ncbi-5644",
         "uniprot-P07477"

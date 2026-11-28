@@ -89,7 +89,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PDPK1 encodes 3-phosphoinositide-dependent protein kinase 1. It participates in intracellular signal transduction and phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with 3-phosphoinositide-dependent protein kinase activity and protein serine kinase activity.",
+      "text": "PDPK1 encodes 3-phosphoinositide-dependent protein kinase 1. Based in part on similarity, it is a serine/threonine kinase which acts as a master kinase, phosphorylating and activating a subgroup of the AGC family of protein kinases. It plays a central role in the transduction of signals from insulin by providing the activating phosphorylation to PKB/AKT1, thus propagating the signal to downstream targets controlling cell proliferation and survival, as well as glucose and amino acid uptake and storage.",
       "source_ids": [
         "ncbi-5170",
         "uniprot-O15530"

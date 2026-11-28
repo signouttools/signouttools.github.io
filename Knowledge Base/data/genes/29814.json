@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MUS81 encodes structure-specific endonuclease subunit MUS81. It participates in DNA repair and telomere maintenance. Functional annotations also associate the protein with endonuclease activity and 3'-flap endonuclease activity.",
+      "text": "MUS81 encodes structure-specific endonuclease subunit MUS81. It is a catalytic subunit of two functionally distinct, structure-specific, heterodimeric DNA endonucleases MUS81-EME1 and MUS81-EME2 that are involved in the maintenance of genome stability. MUS81-EME1, on the other hand, is active later in the cell cycle and functions in the resolution of mitotic recombination intermediates including the Holliday junctions, the four-way DNA intermediates that form during homologous recombination.",
       "source_ids": [
         "ncbi-80198",
         "uniprot-Q96NY9"

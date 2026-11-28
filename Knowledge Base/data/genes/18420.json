@@ -325,7 +325,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD2 encodes histone-lysine N-methyltransferase SETD2. It participates in mismatch repair and regulation of DNA-templated transcription. Functional annotations also associate the protein with protein-lysine N-methyltransferase activity and histone H3 methyltransferase activity.",
+      "text": "SETD2 encodes histone-lysine N-methyltransferase SETD2. Based in part on similarity, it is a histone methyltransferase that specifically trimethylates 'Lys-36' of histone H3 (H3K36me3) using dimethylated 'Lys-36' (H3K36me2) as substrate. It represents the main enzyme generating H3K36me3, a specific tag for epigenetic transcriptional activation. It contributes to chromatin structure modulation during elongation by coordinating recruitment of the FACT complex and by interacting with hyperphosphorylated POLR2A.",
       "source_ids": [
         "ncbi-29072",
         "uniprot-Q9BYW2"

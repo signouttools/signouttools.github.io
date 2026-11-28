@@ -172,7 +172,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RHOA encodes transforming protein RhoA. It participates in positive regulation of protein serine/threonine kinase activity and Rho protein signal transduction. Functional annotations also associate the protein with GTPase activity and G protein activity.",
+      "text": "RHOA encodes transforming protein RhoA. Based in part on similarity, it is a small GTPase which cycles between an active GTP-bound and an inactive GDP-bound state. It regulates a signal transduction pathway linking plasma membrane receptors to the assembly of focal adhesions and actin stress fibers. It participates in a microtubule-dependent signal that is required for the myosin contractile ring formation during cell cycle cytokinesis.",
       "source_ids": [
         "ncbi-387",
         "uniprot-P61586"

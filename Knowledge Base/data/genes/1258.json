@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD4 encodes SET domain-containing protein 4. It participates in chromatin remodeling and positive regulation of inflammatory response. Functional annotations also associate the protein with protein-lysine N-methyltransferase activity and histone H3K4 methyltransferase activity.",
+      "text": "SETD4 encodes SET domain-containing protein 4. Based in part on similarity, it is a protein-lysine N-methyltransferase that methylates both histones and non-histone proteins. Via its catalytic activity, regulates many processes, including cell proliferation, cell differentiation, inflammatory response and apoptosis. It regulates the inflammatory response by mediating mono- and dimethylation of 'Lys-4' of histone H3 (H3K4me1 and H3K4me2, respectively), leading to activate the transcription of pro-inflammatory cytokines IL6 and TNF.",
       "source_ids": [
         "ncbi-54093",
         "uniprot-Q9NVD3"

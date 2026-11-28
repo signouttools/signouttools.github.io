@@ -110,7 +110,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GNA13 encodes guanine nucleotide-binding protein subunit alpha-13. It participates in signal transduction and Rho protein signal transduction. Functional annotations also associate the protein with GTPase activity and G protein activity.",
+      "text": "GNA13 encodes guanine nucleotide-binding protein subunit alpha-13. Based in part on similarity, guanine nucleotide-binding proteins (G proteins) are involved as modulators or transducers in various transmembrane signaling systems. It activates effector molecule RhoA by binding and activating RhoGEFs (ARHGEF1/p115RhoGEF, ARHGEF11/PDZ-RhoGEF and ARHGEF12/LARG). GNA13-dependent Rho signaling subsequently regulates transcription factor AP-1 (activating protein-1).",
       "source_ids": [
         "ncbi-10672",
         "uniprot-Q14344"

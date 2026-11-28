@@ -109,7 +109,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PIK3CB encodes phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform. It participates in signal transduction and phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with 1-phosphatidylinositol-3-kinase activity and 1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity.",
+      "text": "PIK3CB encodes phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform. It uses ATP and PtdIns(4,5)P2 (phosphatidylinositol 4,5-bisphosphate) to generate phosphatidylinositol 3,4,5-trisphosphate (PIP3). PIP3 plays a key role by recruiting PH domain-containing proteins to the membrane, including AKT1 and PDPK1, activating signaling cascades involved in cell growth, survival, proliferation, motility and morphology. It participates in the activation of AKT1 upon stimulation by G protein-coupled receptor (GPCR) ligands such as CXCL12, sphingosine 1-phosphate, and lysophosphatidic acid.",
       "source_ids": [
         "ncbi-5291",
         "uniprot-P42338"

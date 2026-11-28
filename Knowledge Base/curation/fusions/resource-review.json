@@ -1,0 +1,226 @@
+{
+  "reviewed_on": "2026-11-27",
+  "submitted_link_count": 19,
+  "distinct_resource_count": 18,
+  "resources": [
+    {
+      "id": "PMC10076316",
+      "submitted_urls": [
+        "https://www.nature.com/articles/s41467-023-37438-4",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/",
+      "title": "Etiology of oncogenic fusions in 5,190 childhood cancers and its clinical and therapeutic implication",
+      "disposition": "primary_supplement_extracted",
+      "review_scope": "272 final cohort pairs reconciled to 2005 fusion-positive patients among 5190 patients; 196 absent pairs added as detection-only drafts. Duplicate Nature/PMC links counted once.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "83561925983130c45aafab3e425e78d711f0e1f7ba749cd8501e79b1b104e45d",
+      "license_statement": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."
+    },
+    {
+      "id": "PMC11994825",
+      "submitted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11994825/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11994825/",
+      "title": "Oncogenic gene fusions in cancer: from biology to therapy",
+      "disposition": "discovery_reference",
+      "review_scope": "Review of biology and therapy. Body retrieved; no treatment claims imported from the review.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "e06950a1acb3adc0192e46547b2a70c80f8d2330382740ef0050113ea1dbfbf2",
+      "license_statement": "https://creativecommons.org/licenses/by/4.0/Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/."
+    },
+    {
+      "id": "PMC5916809",
+      "submitted_urls": [
+        "https://doi.org/10.1016/j.celrep.2018.03.050"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5916809/",
+      "title": "Driver Fusions and Their Implications in the Development and Treatment of Human Cancers",
+      "disposition": "supplement_access_gap",
+      "review_scope": "Primary pan-cancer article body retrieved. Europe PMC supplementary endpoint returned an error payload and direct PMC supplement request returned 404. Complete source table not imported; prioritize retrieval of the exact driver and fusion-event supplements.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "888d3687c3e6a67e53eaf81c9491932e04cf27ef9e75165254e10fc7a574cb19",
+      "license_statement": "https://creativecommons.org/licenses/by/4.0/This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+    },
+    {
+      "id": "PMC11972630",
+      "submitted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11972630/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11972630/",
+      "title": "FusionPub, a therapeutic landscape of human fusion genes",
+      "disposition": "discovery_reference",
+      "review_scope": "FusionPub mines abstracts and includes AI-generated relationship summaries. Resource for finding original studies; no treatment claim is cleared by co-mention or a generated summary.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "a10633975e6d237ac2793767704df0a059c0a8b8c766aa0ce689ee5e0aa06c4e",
+      "license_statement": "https://creativecommons.org/licenses/by-nc/4.0/This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (https://creativecommons.org/licenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact journals.permissions@oup.com"
+    },
+    {
+      "id": "PMC8728198",
+      "submitted_urls": [
+        "https://doi.org/10.1093/nar/gkab1056"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8728198/",
+      "title": "FusionGDB 2.0: fusion gene annotation updates aided by deep learning",
+      "disposition": "reuse_restricted",
+      "review_scope": "Data availability limits annotations to academic purpose only. No bulk annotation import or redistribution.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "db8f6057ed8918e504475c71af457741b5ed6a3001f9c6ac66b2d43aedd2fe30",
+      "license_statement": "This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (https://creativecommons.org/licenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact journals.permissions@oup.com"
+    },
+    {
+      "id": "PMC7145594",
+      "submitted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7145594/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7145594/",
+      "title": "ChimerDB 4.0: an updated and expanded database of fusion genes",
+      "disposition": "discovery_reference",
+      "review_scope": "ChimerKB, ChimerPub and ChimerSeq represent different evidence types. Article body retrieved; no complete underlying database release imported or licensed summaries copied.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "b297683605e21ea694b81d7fecb5654f5707a3697d1fbd343ce494a76e1d7764",
+      "license_statement": "This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited."
+    },
+    {
+      "id": "PMC4363948",
+      "submitted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4363948/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4363948/",
+      "title": "Pegasus: a comprehensive annotation and prediction tool for detection of driver gene fusions in cancer",
+      "disposition": "prediction_method",
+      "review_scope": "Pegasus predictions support candidate prioritization, not automatic oncogenic or clinical classification. Body retrieved; no prediction-derived clinical entries added.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "c79750c9ddb1a3270745bf481ce056db00394c1fe44cb4219004f52f00d14438",
+      "license_statement": ""
+    },
+    {
+      "id": "PMC10318758",
+      "submitted_urls": [
+        "https://doi.org/10.1186/s12885-023-11054-3"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10318758/",
+      "title": "Systematic discovery of gene fusions in pediatric cancer by integrating RNA-seq and WGS",
+      "disposition": "primary_supplement_extracted",
+      "review_scope": "178 distinct directed pairs from the 222 rows of Additional file 4, Table S1 retained for review. Includes incidental observations and reciprocal fusions. High-confidence and author clinical flags preserved separately. No new runtime report prose from these rows.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "6a99f46ba347d9b4e215b21410aa1c320b8ab68a0be9a314d1a7a6ff4cdc6e8e",
+      "license_statement": "https://creativecommons.org/licenses/by/4.0/Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data."
+    },
+    {
+      "id": "PMC7931065",
+      "submitted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7931065/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7931065/",
+      "title": "Fusion Genes and RNAs in Cancer Development",
+      "disposition": "discovery_reference",
+      "review_scope": "Review includes rearrangement-dependent and RNA-level fusions. Body retrieved; no fusion-specific report claim adjudicated from this source.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "7209d300a30b92296d1b6998fce6eaf41e305a0fabc174a27813d26f287e61e0",
+      "license_statement": "Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/)."
+    },
+    {
+      "id": "PMC13133868",
+      "submitted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13133868/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13133868/",
+      "title": "Cancer Cytogenetics: Deep Roots, New Branches in the Age of Omics",
+      "disposition": "discovery_reference",
+      "review_scope": "Cytogenetics review body retrieved; no copied descriptions or database export. CC BY-NC-ND 4.0; use links and original primary references for future curation.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "83d33a3456f4ac36e0b8bd5e7308ded133e7168e455757c3e3cc119a0bb15e8a",
+      "license_statement": "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY-NC-ND) 4.0 international license"
+    },
+    {
+      "id": "PMC13529871",
+      "submitted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13529871/"
+      ],
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13529871/",
+      "title": "Cancer-associated fusion transcripts: mechanisms, functional roles, and clinical implications",
+      "disposition": "discovery_reference",
+      "review_scope": "Fusion transcript mechanisms review body retrieved; no fusion-specific clinical claim adjudicated from the review.",
+      "access": "Europe PMC fullTextXML; source body available",
+      "document_sha256": "c3e2aafa74580a6d19038968ca2c0bfd3d43596071fd2e4299993bc27444f85f",
+      "license_statement": "https://creativecommons.org/licenses/by/4.0/Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/."
+    },
+    {
+      "id": "tumorfusions",
+      "submitted_urls": [
+        "https://www.tumorfusions.org/"
+      ],
+      "canonical_url": "https://www.tumorfusions.org/",
+      "title": "TumorFusions",
+      "disposition": "access_gap",
+      "review_scope": "Website request failed (502). No release downloaded. Use the Cell Reports study to identify original observations when supplements become accessible."
+    },
+    {
+      "id": "fusiongdb3",
+      "submitted_urls": [
+        "https://doi.org/10.1093/nar/gkag1214"
+      ],
+      "canonical_url": "https://doi.org/10.1093/nar/gkag1214",
+      "title": "FusionGDB 3.0: integrating breakpoints, generating personalized sequences, and inferring tumorigenic scenarios for human fusion genes",
+      "disposition": "discovery_reference",
+      "review_scope": "Publisher article accessible. No complete database release retrieved or redistribution terms adjudicated. Functional predictions are not validated driver or therapeutic claims."
+    },
+    {
+      "id": "mitelman",
+      "submitted_urls": [
+        "https://mitelmandatabase.isb-cgc.org/"
+      ],
+      "canonical_url": "https://mitelmandatabase.isb-cgc.org/",
+      "title": "Mitelman Database of Chromosome Aberrations and Gene Fusions in Cancer",
+      "disposition": "release_not_imported",
+      "review_scope": "Public site accessible; underlying tables and release reuse terms were not obtained. Resource membership alone will not clear report text."
+    },
+    {
+      "id": "fusionhub",
+      "submitted_urls": [
+        "https://fusionhub.persistent.co.in"
+      ],
+      "canonical_url": "https://fusionhub.persistent.co.in",
+      "title": "FusionHub",
+      "disposition": "access_gap",
+      "review_scope": "Website inaccessible through web retrieval. No export obtained."
+    },
+    {
+      "id": "oncofuse",
+      "submitted_urls": [
+        "https://academic.oup.com/bioinformatics/article/29/20/2539/277679"
+      ],
+      "canonical_url": "https://academic.oup.com/bioinformatics/article/29/20/2539/277679",
+      "title": "Oncofuse: a computational framework for the prediction of the oncogenic potential of gene fusions",
+      "disposition": "prediction_method",
+      "review_scope": "Publisher article accessible. Prediction scores are candidate-prioritization evidence and do not establish oncogenicity or treatment response."
+    },
+    {
+      "id": "quiver",
+      "submitted_urls": [
+        "https://quiver.archerdx.com/about-quiver"
+      ],
+      "canonical_url": "https://quiver.archerdx.com/about-quiver",
+      "title": "Quiver Gene Fusion Database",
+      "disposition": "release_not_imported",
+      "review_scope": "About page accessible. Aggregates internally curated and imported database entries. No bulk data acquired or proprietary summaries copied."
+    },
+    {
+      "id": "latysheva2016",
+      "submitted_urls": [
+        "https://academic.oup.com/nar/article/44/10/4487/2516680"
+      ],
+      "canonical_url": "https://academic.oup.com/nar/article/44/10/4487/2516680",
+      "title": "Discovering and understanding oncogenic gene fusions through data intensive computational approaches",
+      "disposition": "discovery_reference",
+      "review_scope": "Publisher review accessible; useful computational-method taxonomy. No fusion-specific report claim adjudicated from this review."
+    }
+  ],
+  "limits": [
+    "Resource triage is distinct from claim-specific review. Retrieved article bodies are not automatically verified clinical evidence.",
+    "No complete TumorFusions, Mitelman, FusionGDB, FusionPub, FusionHub, ChimerDB or Quiver database release has been imported.",
+    "Database membership, computational scores and drug co-mentions are not promoted to driver, diagnostic, prognostic or predictive claims."
+  ]
+}

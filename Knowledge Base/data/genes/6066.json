@@ -87,7 +87,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "INHBA encodes inhibin beta A chain. It participates in SMAD protein signal transduction and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with cytokine activity and hormone activity.",
+      "text": "INHBA encodes inhibin beta A chain. It signals through type I (such as ACVR1B or ACVR1C) and type II receptors (such as ACVR2A, ACVR2B or BMPR2) which, upon ligand binding, phosphorylate SMAD2 and SMAD3 intracellular signaling mediators that form a complex with SMAD4, translocate to the nucleus and modulate gene expression. It can also activate alternative non-canonical intracellular signaling pathways including the p38 MAPK, extracellular signal-regulated kinases 1/2 (ERK1/2) and c-Jun N-terminal kinases (JNKs) to modulate cell migration and differentiation. It inhibits the secretion of FSH from the anterior pituitary gland by acting on pituitary gonadotrope cells.",
       "source_ids": [
         "ncbi-3624",
         "uniprot-P08476"

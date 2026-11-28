@@ -82,7 +82,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ERCC6 encodes chimeric ERCC6-PGBD3 protein. It participates in positive regulation of DNA repair and positive regulation of gene expression. Functional annotations also associate the protein with sequence-specific DNA binding.",
+      "text": "ERCC6 encodes CSB, a DNA-binding ATPase important in transcription-coupled excision repair. It interacts with transcription and repair proteins and may help assemble repair machinery at damaged DNA. Its role links repair with the transcriptional apparatus, rather than treating all damaged genomic regions as equivalent repair substrates.",
       "source_ids": [
         "ncbi-2074",
         "uniprot-P0DP91"

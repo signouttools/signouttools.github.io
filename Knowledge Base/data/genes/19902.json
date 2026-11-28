@@ -84,7 +84,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RRAGC encodes ras-related GTP-binding protein C. It participates in DNA-templated transcription and RNA splicing. Functional annotations also associate the protein with GTPase activity and enzyme-substrate adaptor activity.",
+      "text": "RRAGC encodes ras-related GTP-binding protein C. It is a guanine nucleotide-binding protein that plays a crucial role in the cellular response to amino acid availability through regulation of the mTORC1 signaling cascade. It forms heterodimeric Rag complexes with RagA/RRAGA or RagB/RRAGB and cycles between an inactive GTP-bound and an active GDP-bound form: RagC/RRAGC is in its active form when GDP-bound RagC/RRAGC forms a complex with GTP-bound RagA/RRAGA (or RagB/RRAGB) and in an inactive form when GTP-bound RagC/RRAGC heterodimerizes with GDP-bound RagA/RRAGA (or RagB/RRAGB). This is a crucial step in the activation of the MTOR signaling cascade by amino acids.",
       "source_ids": [
         "ncbi-64121",
         "uniprot-Q9HB90"

@@ -132,7 +132,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IGF1R encodes insulin-like growth factor 1 receptor [Cleaved into: Insulin-like growth factor 1 receptor alpha chain; Insulin-like growth factor 1 receptor beta chain]. It participates in signal transduction and phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with protein tyrosine kinase activity and insulin receptor activity.",
+      "text": "IGF1R encodes insulin-like growth factor 1 receptor. It is a receptor tyrosine kinase which mediates actions of insulin-like growth factor 1 (IGF1). It binds IGF1 with high affinity and IGF2 and insulin (INS) with a lower affinity. The activated IGF1R is involved in cell growth and survival control.",
       "source_ids": [
         "ncbi-3480",
         "uniprot-P08069"

@@ -128,9 +128,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "GATA2 encodes a zinc-finger transcription factor important for hematopoietic stem and progenitor-cell maintenance and development of several blood-cell lineages.",
+      "text": "GATA2 encodes a zinc-finger transcription factor important for hematopoietic stem and progenitor-cell maintenance and development of several blood-cell lineages. It binds to the consensus sequence 5'-AGATAG-3'.",
       "source_ids": [
-        "ncbi-2624"
+        "ncbi-2624",
+        "uniprot-P23769"
       ]
     },
     "germline": {

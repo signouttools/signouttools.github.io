@@ -163,9 +163,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "SRSF2 encodes a serine/arginine-rich RNA-binding splicing factor that regulates splice-site selection and processing of pre-mRNA.",
+      "text": "SRSF2 encodes a serine/arginine-rich RNA-binding splicing factor that regulates splice-site selection and processing of pre-mRNA. It is necessary for the splicing of pre-mRNA. It is required for formation of the earliest ATP-dependent splicing complex and interacts with spliceosomal components bound to both the 5'- and 3'-splice sites during spliceosome assembly. It also is required for ATP-dependent interactions of both U1 and U2 snRNPs with pre-mRNA.",
       "source_ids": [
-        "ncbi-6427"
+        "ncbi-6427",
+        "uniprot-Q01130"
       ]
     },
     "somatic": {

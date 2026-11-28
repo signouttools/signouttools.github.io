@@ -108,7 +108,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IKBKE encodes inhibitor of nuclear factor kappa-B kinase subunit epsilon. It participates in positive regulation of canonical NF-kappaB signal transduction and immune response. Functional annotations also associate the protein with IkappaB kinase activity and protein serine kinase activity.",
+      "text": "IKBKE encodes inhibitor of nuclear factor kappa-B kinase subunit epsilon. Based in part on similarity, it is also involved in TNFA and inflammatory cytokines, like Interleukin-1, signaling. This activity allows subsequent homodimerization and nuclear translocation of the IRF3 leading to transcriptional activation of pro-inflammatory and antiviral genes including IFNB. It activates NF-kappa-B by mediating phosphorylation and inactivation of CYLD.",
       "source_ids": [
         "ncbi-9641",
         "uniprot-Q14164"

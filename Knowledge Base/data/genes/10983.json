@@ -88,7 +88,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SLC25A13 encodes electrogenic aspartate/glutamate antiporter SLC25A13, mitochondrial. It participates in cellular respiration and malate-aspartate shuttle. Functional annotations also associate the protein with L-aspartate transmembrane transporter activity and L-glutamate transmembrane transporter activity.",
+      "text": "SLC25A13 encodes electrogenic aspartate/glutamate antiporter SLC25A13, mitochondrial. It is a mitochondrial electrogenic aspartate/glutamate antiporter that favors efflux of aspartate and entry of glutamate and proton within the mitochondria as part of the malate-aspartate shuttle. Substrate exchange across the membrane occurs consecutively with one substrate being transported first, then dissociating from the substrate binding site before the second substrate binds for transport in the opposite direction. It also mediates the uptake of L-cysteinesulfinate (3-sulfino-L-alanine) by mitochondria in exchange for L-glutamate and proton.",
       "source_ids": [
         "ncbi-10165",
         "uniprot-Q9UJS0"

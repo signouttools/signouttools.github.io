@@ -112,7 +112,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SYK encodes tyrosine-protein kinase SYK. It participates in intracellular signal transduction and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with kinase activity and protein kinase activity.",
+      "text": "SYK encodes tyrosine-protein kinase SYK. Based in part on similarity, it is a non-receptor tyrosine kinase which mediates signal transduction downstream of a variety of transmembrane receptors including classical immunoreceptors like the B-cell receptor (BCR). It regulates several biological processes including innate and adaptive immunity, cell adhesion, osteoclast maturation, platelet activation and vascular development. It assembles into signaling complexes with activated receptors at the plasma membrane via interaction between its SH2 domains and the receptor tyrosine-phosphorylated ITAM domains.",
       "source_ids": [
         "ncbi-6850",
         "uniprot-P43405"

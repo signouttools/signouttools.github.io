@@ -65,9 +65,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "SAMD9L encodes a SAM-domain-containing protein implicated in regulation of cellular growth and hematopoietic homeostasis.",
+      "text": "SAMD9L encodes a SAM-domain-containing protein implicated in regulation of cellular growth and hematopoietic homeostasis. Based in part on similarity, it may participate in endosome fusion. It mediates down-regulation of growth factor signaling via internalization of growth factor receptors.",
       "source_ids": [
-        "ncbi-219285"
+        "ncbi-219285",
+        "uniprot-Q8IVG5"
       ]
     },
     "germline": {

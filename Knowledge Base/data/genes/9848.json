@@ -115,7 +115,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RANBP2 encodes E3 SUMO-protein ligase RanBP2. It participates in negative regulation of transcription by RNA polymerase II and centrosome localization. Functional annotations also associate the protein with SUMO ligase activity and SUMO transferase activity.",
+      "text": "RANBP2 encodes E3 SUMO-protein ligase RanBP2. It is an E3 SUMO-protein ligase which facilitates SUMO1 and SUMO2 conjugation by UBE2I. It participates in transport factor (Ran-GTP, karyopherin)-mediated protein import via the F-G repeat-containing domain which acts as a docking site for substrates. It forms part of the nuclear export pathway.",
       "source_ids": [
         "ncbi-5903",
         "uniprot-P49792"

@@ -1,0 +1,118 @@
+{
+  "id": "fusion-arid1b-znf384",
+  "label": "ARID1B::ZNF384",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "ARID1B",
+      "hgnc_id": "HGNC:18040",
+      "ncbi_gene_id": "57492"
+    },
+    {
+      "symbol": "ZNF384",
+      "hgnc_id": "HGNC:11955",
+      "ncbi_gene_id": "171017"
+    }
+  ],
+  "aliases": [
+    "ARID1B::TNRC1"
+  ],
+  "tumor_contexts": [
+    "Pediatric B-lymphoblastic leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-d1a5bc0ed7fb"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "ARID1B",
+      "text": "ARID1B encodes AT-rich interaction domain 1B.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "47a002cf2981d3472df328471fdb48acf5c32333ce641bad1cd1b8544d90579c",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:18040",
+          "location": "Frozen HGNC TSV: HGNC:18040, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ZNF384",
+      "text": "ZNF384 encodes a zinc-finger transcriptional regulator.",
+      "source_ids": [
+        "ncbi-171017"
+      ],
+      "claim_sha256": "20112a2158228c89becb3ddb4d9ec80d68f341ae840459ddca7c87a3a32b022f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-171017",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/171017",
+          "location": "NCBI Gene 171017 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "1ace6fd3c5d36c3e00013ce0863847820e34cb923c9c9b3c40b7f234b41fdeb9"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "ARID1B::ZNF384 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "ca5dc6823bc2705049fa5b838093b8b871f990570bd4118411c0cb32d5eb633f",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1800",
+          "source_rows": [
+            1800
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "ARID1B encodes AT-rich interaction domain 1B. ZNF384 encodes a zinc-finger transcriptional regulator. ARID1B::ZNF384 was reported in specimens labeled as Pediatric B-lymphoblastic leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-171017",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "05a850acb9a5ce0bb7dcc723dfcf1323cdad21f280965aef62b3dca4c12770e1"
+}

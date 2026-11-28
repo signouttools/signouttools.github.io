@@ -1,0 +1,118 @@
+{
+  "id": "fusion-kmt2a-maml2",
+  "label": "KMT2A::MAML2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "KMT2A",
+      "hgnc_id": "HGNC:7132",
+      "ncbi_gene_id": "4297"
+    },
+    {
+      "symbol": "MAML2",
+      "hgnc_id": "HGNC:16259",
+      "ncbi_gene_id": "84441"
+    }
+  ],
+  "aliases": [
+    "MLL::MAML2"
+  ],
+  "tumor_contexts": [
+    "Pediatric solid tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-180bf8abba7a"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KMT2A",
+      "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes.",
+      "source_ids": [
+        "ncbi-4297"
+      ],
+      "claim_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4297",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+          "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "MAML2",
+      "text": "MAML2 encodes a transcriptional coactivator in Notch signaling.",
+      "source_ids": [
+        "ncbi-84441"
+      ],
+      "claim_sha256": "9e1d042cd553b86c78427c144b147e01affc777efd1703376c7932386ae3cbf1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-84441",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/84441",
+          "location": "NCBI Gene 84441 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9ae7a41f31cfee79ccf8a69e30e1406629670c1691c7a5bf44aec08561708b0a"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "KMT2A::MAML2 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "935202fb745c46006714eb50df0b935b87e23fe34485896bcbe8b8b92c58af2d",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 785",
+          "source_rows": [
+            785
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. MAML2 encodes a transcriptional coactivator in Notch signaling. KMT2A::MAML2 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-4297",
+      "ncbi-84441",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "6d3322ad6774045f33a2a89159ed65c373b2a08b51fb21ffb925aeb156557a7a"
+}

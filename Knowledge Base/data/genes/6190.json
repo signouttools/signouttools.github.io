@@ -176,7 +176,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "JAK1 encodes tyrosine-protein kinase JAK1. It participates in intracellular signal transduction and cell differentiation. Functional annotations also associate the protein with protein tyrosine kinase activity and non-membrane spanning protein tyrosine kinase activity.",
+      "text": "JAK1 encodes tyrosine-protein kinase JAK1. Functionally, is involved in the IFN-alpha/beta/gamma signal pathway. It directly phosphorylates STAT proteins but also activates STAT signaling through the transactivation of other JAK kinases associated with signaling receptors. It participates in the MT-RNR2/humanin-mediated signaling pathway leading to STAT3 phosphorylation.",
       "source_ids": [
         "ncbi-3716",
         "uniprot-P23458"

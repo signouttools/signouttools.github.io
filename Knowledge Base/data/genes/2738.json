@@ -70,7 +70,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DHX15 encodes ATP-dependent RNA helicase DHX15. It participates in RNA splicing and mRNA splicing, via spliceosome. Functional annotations also associate the protein with helicase activity and ATP hydrolysis activity.",
+      "text": "DHX15 encodes ATP-dependent RNA helicase DHX15. Based in part on similarity, it is an RNA helicase involved in mRNA processing and antiviral innate immunity. It contributes to antiviral innate immunity by promoting both MAVS-dependent signaling and NLRP6 inflammasome. The NLRP6 inflammasome acts by promoting maturation and secretion of IL18 in the extracellular milieu.",
       "source_ids": [
         "ncbi-1665",
         "uniprot-O43143"

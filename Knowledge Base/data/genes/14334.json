@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MRTFA encodes myocardin-related transcription factor A. It participates in positive regulation of miRNA transcription and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with transcription coactivator activity and actin binding.",
+      "text": "MRTFA encodes myocardin-related transcription factor A. Based in part on similarity, it is a transcription coactivator that associates with the serum response factor (SRF) transcription factor to control expression of genes regulating the cytoskeleton during development, morphogenesis and cell migration. The SRF-MRTFA complex activity responds to Rho GTPase-induced changes in cellular globular actin (G-actin) concentration, thereby coupling cytoskeletal gene expression to cytoskeletal dynamics. MRTFA binds G-actin via its RPEL repeats, regulating activity of the MRTFA-SRF complex.",
       "source_ids": [
         "ncbi-57591",
         "uniprot-Q969V6"

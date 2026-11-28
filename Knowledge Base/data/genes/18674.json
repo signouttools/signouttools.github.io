@@ -96,9 +96,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "DDX41 encodes a DEAD-box helicase-family protein implicated in RNA processing and cellular nucleic-acid sensing.",
+      "text": "DDX41 encodes a DEAD-box helicase-family protein implicated in RNA processing and cellular nucleic-acid sensing. Based in part on similarity, it plays pivotal roles in innate immune sensing and hematopoietic homeostasis. It modulates the homeostasis of dsDNA through its ATP-dependent DNA-unwinding activity and ATP-independent strand-annealing activity. It selectively modulates the transcription of certain immunity-associated genes by regulating their alternative splicing.",
       "source_ids": [
-        "ncbi-51428"
+        "ncbi-51428",
+        "uniprot-Q9UJV9"
       ]
     },
     "germline": {

@@ -73,7 +73,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FAN1 encodes Fanconi-associated nuclease 1. It participates in DNA repair and double-strand break repair via homologous recombination. Functional annotations also associate the protein with 5'-3' exonuclease activity and 5'-flap endonuclease activity.",
+      "text": "FAN1 encodes Fanconi-associated nuclease 1. It specifically involved in repair of ICL-induced DNA breaks by being required for efficient homologous recombination, probably in the resolution of homologous recombination intermediates. It functions as a 5'-3' exonuclease that anchors at a cut end of DNA and cleaves DNA successively at every third nucleotide, allowing to excise an ICL from one strand through flanking incisions. It probably keeps excising with 3'-flap annealing until it reaches and unhooks the ICL.",
       "source_ids": [
         "ncbi-22909",
         "uniprot-Q9Y2M0"

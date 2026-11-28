@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "POU5F1 encodes POU domain, class 5, transcription factor 1. It participates in regulation of DNA-templated transcription and negative regulation of miRNA transcription. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "text": "POU5F1 encodes POU domain, class 5, transcription factor 1. It is a transcription factor that binds to the octamer motif (5'-ATTTGCAT-3'). It forms a trimeric complex with SOX2 or SOX15 on DNA and controls the expression of a number of genes involved in embryonic development such as YES1, FGF4, UTF1 and ZFP206.",
       "source_ids": [
         "ncbi-5460",
         "uniprot-Q01860"

@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "XRCC5 encodes DNA repair protein Ku80). It participates in telomere maintenance and regulation of telomere maintenance. Functional annotations also associate the protein with transcription cis-regulatory region binding and ATP hydrolysis activity.",
+      "text": "XRCC5 encodes X-ray repair cross complementing 5. It is a DNA-binding protein critical for the DNA damage response, specifically in repairing double-strand breaks (DSBs) via the classical non-homologous end joining (NHEJ) pathway. It forms a heterodimer with XRCC6 (Ku70), creating the Ku70:Ku80 heterodimer (Ku complex), which serves as a DNA end-binding complex. It primarily binds DSBs and recruits essential repair factors, assembling the core long-range NHEJ complex to facilitate the alignment and ligation of broken DNA ends.",
       "source_ids": [
         "ncbi-7520",
         "uniprot-P13010"

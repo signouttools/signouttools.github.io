@@ -103,7 +103,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SRC encodes proto-oncogene tyrosine-protein kinase Src. It participates in signal transduction and intracellular signal transduction. Functional annotations also associate the protein with protein kinase activity and protein tyrosine kinase activity.",
+      "text": "SRC encodes proto-oncogene tyrosine-protein kinase Src. Based in part on similarity, it is a non-receptor protein tyrosine kinase which is activated following engagement of many different classes of cellular receptors including immune response receptors, integrins and other adhesion receptors, receptor protein tyrosine kinases, G protein-coupled receptors as well as cytokine receptors. It participates in signaling pathways that control a diverse spectrum of biological activities including gene transcription, immune response, cell adhesion, cell cycle progression, apoptosis, migration, and transformation. Receptor clustering or dimerization leads to recruitment of SRC to the receptor complexes where it phosphorylates the tyrosine residues within the receptor cytoplasmic domains.",
       "source_ids": [
         "ncbi-6714",
         "uniprot-P12931"

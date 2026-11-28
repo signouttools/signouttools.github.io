@@ -65,7 +65,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CYP4A11 encodes cytochrome P450 family 4 subfamily A member 11. Its functions include alkane 1-monooxygenase activity and arachidonate epoxygenase activity.",
+      "text": "CYP4A11 encodes cytochrome P450 family 4 subfamily A member 11. It catalyzes predominantly the oxidation of the terminal carbon (omega-oxidation) of saturated and unsaturated fatty acids, the catalytic efficiency decreasing in the following order: dodecanoic > tetradecanoic > (9Z)-octadecenoic > (9Z,12Z)-octadecadienoic > hexadecanoic acid. It functions as a major omega-hydroxylase for dodecanoic (lauric) acid in liver. It participates in omega-hydroxylation of (5Z,8Z,11Z,14Z)-eicosatetraenoic acid (arachidonate) to 20-hydroxyeicosatetraenoic acid (20-HETE), a signaling molecule acting both as vasoconstrictive and natriuretic with overall effect on arterial blood pressure.",
       "source_ids": [
         "ncbi-1579",
         "uniprot-Q02928"

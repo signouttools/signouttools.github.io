@@ -69,7 +69,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PTPN2 encodes tyrosine-protein phosphatase non-receptor type 2. It participates in erythrocyte differentiation and glucose homeostasis. Functional annotations also associate the protein with protein tyrosine phosphatase activity and non-membrane spanning protein tyrosine phosphatase activity.",
+      "text": "PTPN2 encodes tyrosine-protein phosphatase non-receptor type 2. It is a non-receptor type tyrosine-specific phosphatase that dephosphorylates receptor protein tyrosine kinases including INSR, EGFR, CSF1R, PDGFR. It also dephosphorylates non-receptor protein tyrosine kinases like JAK1, JAK2, JAK3, Src family kinases, STAT1, STAT3 and STAT6 either in the nucleus or the cytoplasm. It negatively regulates numerous signaling pathways and biological processes like hematopoiesis, inflammatory response, cell proliferation and differentiation, and glucose homeostasis.",
       "source_ids": [
         "ncbi-5771",
         "uniprot-P17706"

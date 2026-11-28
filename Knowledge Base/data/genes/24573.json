@@ -74,7 +74,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NEIL3 encodes endonuclease 8-like 3. It participates in depurination and base-excision repair. Functional annotations also associate the protein with DNA N-glycosylase activity and DNA-(apurinic or apyrimidinic site) endonuclease activity.",
+      "text": "NEIL3 encodes endonuclease 8-like 3. Based in part on similarity, it is a DNA glycosylase which prefers single-stranded DNA (ssDNA), or partially ssDNA structures such as bubble and fork structures, to double-stranded DNA (dsDNA). It mediates interstrand cross-link repair in response to replication stress: acts by mediating DNA glycosylase activity, cleaving one of the two N-glycosyl bonds comprising the interstrand cross-link, which avoids the formation of a double-strand break but generates an abasic site that is bypassed by translesion synthesis polymerases. It also shows weak DNA-(apurinic or apyrimidinic site) lyase activity.",
       "source_ids": [
         "ncbi-55247",
         "uniprot-Q8TAT5"

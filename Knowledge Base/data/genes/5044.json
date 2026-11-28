@@ -82,7 +82,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "HNRNPK encodes heterogeneous nuclear ribonucleoprotein K. It participates in signal transduction and mRNA splicing, via spliceosome. Functional annotations also associate the protein with cadherin binding and mRNA binding.",
+      "text": "HNRNPK encodes heterogeneous nuclear ribonucleoprotein K. It binds tenaciously to poly(C) sequences. It likely to play a role in the nuclear metabolism of hnRNAs, particularly for pre-mRNAs that contain cytidine-rich sequences. It can also bind poly(C) single-stranded DNA.",
       "source_ids": [
         "ncbi-3190",
         "uniprot-P61978"

@@ -115,7 +115,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "REL encodes proto-oncogene c-Rel. It participates in canonical NF-kappaB signal transduction and non-canonical NF-kappaB signal transduction. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "REL encodes proto-oncogene c-Rel. NF-kappa-B is a pleiotropic transcription factor which is present in almost all cell types and is involved in many biological processed such as inflammation, immunity, differentiation, cell growth, tumorigenesis and apoptosis. NF-kappa-B is a homo- or heterodimeric complex formed by the Rel-like domain-containing proteins RELA/p65, RELB, NFKB1/p105, NFKB1/p50, REL and NFKB2/p52. The dimers bind at kappa-B sites in the DNA of their target genes and the individual dimers have distinct preferences for different kappa-B sites that they can bind with distinguishable affinity and specificity.",
       "source_ids": [
         "ncbi-5966",
         "uniprot-Q04864"

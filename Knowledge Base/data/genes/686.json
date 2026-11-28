@@ -91,7 +91,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "RHOH encodes rho-related GTP-binding protein RhoH. It participates in signal transduction and regulation of DNA-templated transcription. Functional annotations also associate the protein with GTPase activity and G protein activity.",
+      "text": "RHOH encodes rho-related GTP-binding protein RhoH. Based in part on similarity, it is required for phosphorylation of CD3Z, membrane translocation of ZAP70 and subsequent activation of the ZAP70-mediated pathways. It is essential for efficient beta-selection and positive selection by promoting the ZAP70-dependent phosphorylation of the LAT signalosome during pre-TCR and TCR signaling. It plays critical roles in mast cell function by facilitating phosphorylation of SYK in Fc epsilon RI-mediated signal transduction.",
       "source_ids": [
         "ncbi-399",
         "uniprot-Q15669"

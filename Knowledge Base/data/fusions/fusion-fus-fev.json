@@ -1,0 +1,118 @@
+{
+  "id": "fusion-fus-fev",
+  "label": "FUS::FEV",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "FUS",
+      "hgnc_id": "HGNC:4010",
+      "ncbi_gene_id": "2521"
+    },
+    {
+      "symbol": "FEV",
+      "hgnc_id": "HGNC:18562",
+      "ncbi_gene_id": "54738"
+    }
+  ],
+  "aliases": [
+    "ALS6::FEV"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FUS",
+      "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FEV",
+      "text": "FEV encodes an ETS-family transcription factor expressed in serotonergic neurons.",
+      "source_ids": [
+        "ncbi-54738"
+      ],
+      "claim_sha256": "34ce9a650f74d5b7186f6a3a4f6a1e848ee4e62536f78b8c5a4a2cfd1ab3bb1c",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-54738",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/54738",
+          "location": "NCBI Gene 54738 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "56b5c390998abe4028f29b7ec99beb2d6bac934a532c5efbdc57b9ce17d00a71"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "FUS::FEV was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "3c324ef4d2808ce934127a15794915f445500845069dccdd77c6c0f94576e1d4",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 2314",
+          "source_rows": [
+            2314
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. FEV encodes an ETS-family transcription factor expressed in serotonergic neurons. FUS::FEV was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2521",
+      "ncbi-54738",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "d4fb66f851e290ab3982f5cb29ccc239ae3be84486b36df0c6d5a99a1a27143e"
+}

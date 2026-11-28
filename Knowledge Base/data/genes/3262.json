@@ -80,7 +80,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AGO1 encodes protein argonaute-1. It participates in regulatory ncRNA-mediated post-transcriptional gene silencing and positive regulation of non-canonical NF-kappaB signal transduction. Functional annotations also associate the protein with miRNA binding and double-stranded RNA binding.",
+      "text": "AGO1 encodes protein argonaute-1. It is required for RNA-mediated gene silencing (RNAi). It binds to short RNAs such as microRNAs (miRNAs) or short interfering RNAs (siRNAs), and represses the translation of mRNAs which are complementary to them. It is also required for transcriptional gene silencing (TGS) of promoter regions which are complementary to bound short antigene RNAs (agRNAs).",
       "source_ids": [
         "ncbi-26523",
         "uniprot-Q9UL18"

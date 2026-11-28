@@ -348,7 +348,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KMT2C encodes histone-lysine N-methyltransferase 2C. It participates in positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with histone methyltransferase activity and transcription coactivator activity.",
+      "text": "KMT2C encodes histone-lysine N-methyltransferase 2C. It is a histone methyltransferase that catalyzes methyl group transfer from S-adenosyl-L-methionine to the epsilon-amino group of 'Lys-4' of histone H3 (H3K4). It forms part of chromatin remodeling machinery predominantly forms H3K4me1 methylation marks at active chromatin sites where transcription and DNA repair take place. It likely plays a redundant role with KMT2D in enriching H3K4me1 mark on primed and active enhancer elements.",
       "source_ids": [
         "ncbi-58508",
         "uniprot-Q8NEZ4"

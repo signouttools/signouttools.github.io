@@ -319,9 +319,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "NOTCH1 encodes a transmembrane receptor whose proteolytic activation releases an intracellular signaling component that regulates transcription, cell fate, and differentiation.",
+      "text": "NOTCH1 encodes a transmembrane receptor whose proteolytic activation releases an intracellular signaling component that regulates transcription, cell fate, and differentiation. It acts as a receptor for membrane-bound ligands Jagged-1 (JAG1), Jagged-2 (JAG2) and Delta-1 (DLL1) to regulate cell-fate determination. It affects the implementation of differentiation, proliferation and apoptotic programs. It participates in the maturation of both CD4(+) and CD8(+) cells in the thymus.",
       "source_ids": [
-        "ncbi-4851"
+        "ncbi-4851",
+        "uniprot-P46531"
       ]
     },
     "germline": {

@@ -85,7 +85,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "IL6ST encodes interleukin-6 receptor subunit beta. It participates in negative regulation of cytokine activity and autocrine signaling. Functional annotations also associate the protein with coreceptor activity.",
+      "text": "IL6ST encodes interleukin-6 receptor subunit beta. Based in part on similarity, it acts as a shared signal-transducing subunit not only for IL6 but also for other cytokine receptor complexes, including IL6, LIF, OSM, CNTF, IL11, CTF1, BSF3, MT-RNR2/humanin, CLCF1 and the heterodimeric complex CRLF1-CLCF1. It engages site 2 of CNTF, CLCF1, LIF, and IL-6, and site 3 of IL27 and IL6. It initiates signal transmission through three mechanisms.",
       "source_ids": [
         "ncbi-3572",
         "uniprot-P40189"

@@ -224,7 +224,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ERBB3 encodes receptor tyrosine-protein kinase erbB-3. It participates in signal transduction and negative regulation of signal transduction. Functional annotations also associate the protein with protein tyrosine kinase activity and neuregulin receptor activity.",
+      "text": "ERBB3 encodes receptor tyrosine-protein kinase erbB-3. Based in part on similarity, it is a tyrosine kinase receptor that, despite substitutions of key catalytic residues in the kinase domain, retains residual catalytic activity enabling autophosphorylation. It functions primarily as a heterodimer, preferentially partnering with ERBB2/HER2, which phosphorylates ERBB3 on specific tyrosine residues and provides the kinase activity required for downstream signaling. It binds neuregulins NRG1 and NRG2 through its extracellular domain, which induces conformational change from a tethered autoinhibited state to an extended conformation competent for dimerization.",
       "source_ids": [
         "ncbi-2065",
         "uniprot-P21860"

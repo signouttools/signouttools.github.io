@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TRIM37 encodes E3 ubiquitin-protein ligase TRIM37. It participates in negative regulation of transcription by RNA polymerase II and aggresome assembly. Functional annotations also associate the protein with transcription coactivator activity.",
+      "text": "TRIM37 encodes E3 ubiquitin-protein ligase TRIM37. It is an E3 ubiquitin-protein ligase required to prevent centriole reduplication. It probably acts by ubiquitinating positive regulators of centriole reduplication. It mediates monoubiquitination of 'Lys-119' of histone H2A (H2AK119Ub), a specific tag for epigenetic transcriptional repression: associates with some Polycomb group (PcG) multiprotein PRC2-like complex and mediates repression of target genes.",
       "source_ids": [
         "ncbi-4591",
         "uniprot-O94972"

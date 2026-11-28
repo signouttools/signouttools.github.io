@@ -1,0 +1,118 @@
+{
+  "id": "fusion-fus-fli1",
+  "label": "FUS::FLI1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "FUS",
+      "hgnc_id": "HGNC:4010",
+      "ncbi_gene_id": "2521"
+    },
+    {
+      "symbol": "FLI1",
+      "hgnc_id": "HGNC:3749",
+      "ncbi_gene_id": "2313"
+    }
+  ],
+  "aliases": [
+    "ALS6::FLI1"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FUS",
+      "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation.",
+      "source_ids": [
+        "ncbi-2521"
+      ],
+      "claim_sha256": "0ce24096162a78b80758a33babc09d83d481540ddb61714262d49b7ac871a266",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2521",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2521",
+          "location": "NCBI Gene 2521 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "9d8cd2faf51dfa0b225d38645707bda36b1c20af12c9ce6c814fac17d71fc8ae"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FLI1",
+      "text": "FLI1 encodes an ETS-domain transcription factor.",
+      "source_ids": [
+        "ncbi-2313"
+      ],
+      "claim_sha256": "5e100acdeecea7f217b2582e133735d82caabab966571dd88059b5931cf62d95",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2313",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2313",
+          "location": "NCBI Gene 2313 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "58b55345f079ccc1f874b655df66bdc6182548614940efb556873dd9e9f4d015"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "FUS::FLI1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "dc26696715dd4662c70c2ce5f67dd1779e1c13bc7fa10e99631146d0824a5dc5",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 2316",
+          "source_rows": [
+            2316
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "FUS encodes an RNA-binding protein involved in RNA processing and transcriptional regulation. FLI1 encodes an ETS-domain transcription factor. FUS::FLI1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2521",
+      "ncbi-2313",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "8b88c1c04ebec49b66c5631bba366bdd85d692ca12292fc87eebe037bab64327"
+}

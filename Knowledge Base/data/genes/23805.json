@@ -161,7 +161,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ASXL2 encodes putative Polycomb group protein ASXL2. It participates in positive regulation of transcription by RNA polymerase II and positive regulation of fat cell differentiation. Functional annotations also associate the protein with chromatin binding and peroxisome proliferator activated receptor binding.",
+      "text": "ASXL2 encodes putative Polycomb group protein ASXL2. Based in part on similarity, pcG proteins are not required to initiate repression, but to maintain it during later stages of development. It participates in transcriptional regulation mediated by ligand-bound nuclear hormone receptors, such as peroxisome proliferator-activated receptor gamma (PPARG). The PR-DUB complex is an epigenetic regulator of gene expression and acts as a transcriptional coactivator, affecting genes involved in development, cell communication, signaling, cell proliferation and cell viability.",
       "source_ids": [
         "ncbi-55252",
         "uniprot-Q76L83"

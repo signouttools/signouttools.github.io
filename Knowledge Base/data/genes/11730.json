@@ -306,9 +306,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "TERT encodes the catalytic reverse-transcriptase component of telomerase. Together with the TERC RNA template, it adds telomeric repeats to chromosome ends.",
+      "text": "TERT encodes the catalytic reverse-transcriptase component of telomerase. Telomerase is a ribonucleoprotein enzyme essential for the replication of chromosome termini in most eukaryotes. It is the catalytic component of the teleromerase holoenzyme complex whose main activity is the elongation of telomeres by acting as a reverse transcriptase that adds simple sequence repeats to chromosome ends by copying a template sequence within the RNA component of the enzyme. It catalyzes the RNA-dependent extension of 3'-chromosomal termini with the 6-nucleotide telomeric repeat unit, 5'-TTAGGG-3'.",
       "source_ids": [
-        "ncbi-7015"
+        "ncbi-7015",
+        "uniprot-O14746"
       ]
     },
     "germline": {

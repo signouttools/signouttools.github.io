@@ -70,7 +70,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "LIG4 encodes DNA ligase 4. It participates in V(D)J recombination and base-excision repair. Functional annotations also associate the protein with ligase activity and DNA ligase activity.",
+      "text": "LIG4 encodes DNA ligase 4. It catalyzes the NHEJ ligation step of the broken DNA during DSB repair by resealing the DNA breaks after the gap filling is completed. It joins single-strand breaks in a double-stranded polydeoxynucleotide in an ATP-dependent reaction. LIG4 is mechanistically flexible: it can ligate nicks as well as compatible DNA overhangs alone, while in the presence of XRCC4, it can ligate ends with 2-nucleotides (nt) microhomology and 1-nt gaps.",
       "source_ids": [
         "ncbi-3981",
         "uniprot-P49917"

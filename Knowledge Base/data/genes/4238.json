@@ -68,7 +68,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GFI1B encodes zinc finger protein Gfi-1b. It participates in regulation of transcription by RNA polymerase II and negative regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "text": "GFI1B encodes zinc finger protein Gfi-1b. It forms part of a RCOR-GFI-KDM1A-HDAC complex that suppresses, via histone deacetylase (HDAC) recruitment, a number of genes implicated in multilineage blood cell development and controls hematopoietic differentiation. It inhibits down-regulation of MYC and MYB as well as the cyclin-dependent kinase inhibitor CDKN1A/P21WAF1 in IL6-treated myelomonocytic cells. It suppresses GATA1-mediated stimulation of GFI1B promoter through protein interaction.",
       "source_ids": [
         "ncbi-8328",
         "uniprot-Q5VTD9"

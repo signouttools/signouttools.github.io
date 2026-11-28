@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SPRTN encodes DNA-dependent metalloprotease SPRTN. It participates in proteolysis and protein autoprocessing. Functional annotations also associate the protein with metalloendopeptidase activity and ubiquitin binding.",
+      "text": "SPRTN encodes DNA-dependent metalloprotease SPRTN. Based in part on similarity, it is a DNA-dependent metalloendopeptidase that mediates the proteolytic cleavage of covalent DNA-protein cross-links (DPCs) during DNA synthesis and mitosis, thereby playing a key role in maintaining genomic integrity. DPCs are highly toxic DNA lesions that interfere with essential chromatin transactions, such as replication and transcription, and which are induced by reactive agents, such as UV light or formaldehyde. It associates with the DNA replication machinery and specifically removes DPCs during DNA synthesis.",
       "source_ids": [
         "ncbi-83932",
         "uniprot-Q9H040"

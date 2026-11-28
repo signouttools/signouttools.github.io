@@ -122,9 +122,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "XPO1 encodes exportin 1, a nuclear-export receptor that transports cargo proteins and RNA-associated complexes from the nucleus to the cytoplasm.",
+      "text": "XPO1 encodes exportin 1, a nuclear-export receptor that transports cargo proteins and RNA-associated complexes from the nucleus to the cytoplasm. It mediates the nuclear export of cellular proteins (cargos) bearing a leucine-rich nuclear export signal (NES) and of RNAs. The directionality of nuclear export is thought to be conferred by an asymmetric distribution of the GTP- and GDP-bound forms of Ran between the cytoplasm and nucleus. It participates in U3 snoRNA transport from Cajal bodies to nucleoli.",
       "source_ids": [
-        "ncbi-7514"
+        "ncbi-7514",
+        "uniprot-O14980"
       ]
     },
     "somatic": {

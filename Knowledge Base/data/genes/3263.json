@@ -76,7 +76,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AGO2 encodes protein argonaute-2. It participates in regulatory ncRNA-mediated post-transcriptional gene silencing and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with RNA endonuclease activity and translation initiation factor activity.",
+      "text": "AGO2 encodes protein argonaute-2. Based in part on similarity, it is required for RNA-mediated gene silencing (RNAi) by the RNA-induced silencing complex (RISC). The 'minimal RISC' appears to include AGO2 bound to a short guide RNA such as a microRNA (miRNA) or short interfering RNA (siRNA). The precise mechanism of gene silencing depends on the degree of complementarity between the miRNA or siRNA and its target.",
       "source_ids": [
         "ncbi-27161",
         "uniprot-Q9UKV8"

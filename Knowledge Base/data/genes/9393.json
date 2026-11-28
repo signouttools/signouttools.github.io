@@ -53,7 +53,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PRKCA encodes protein kinase C alpha type. It participates in intracellular signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with protein kinase activity and calcium,diacylglycerol-dependent serine/threonine kinase activity.",
+      "text": "PRKCA encodes protein kinase C alpha type. Based in part on similarity, it is a calcium-activated, phospholipid- and diacylglycerol (DAG)-dependent serine/threonine-protein kinase that is involved in positive and negative regulation of cell proliferation, apoptosis, differentiation, migration and adhesion, tumorigenesis, cardiac hypertrophy, angiogenesis, platelet function and inflammation, by directly phosphorylating targets such as RAF1, BCL2, CSPG4, TNNT2/CTNT, or activating signaling cascade involving MAPK1/3 (ERK1/2) and RAP1GAP. It participates in cell proliferation and cell growth arrest by positive and negative regulation of the cell cycle. It can promote cell growth by phosphorylating and activating RAF1, which mediates the activation of the MAPK/ERK signaling cascade, and/or by up-regulating CDKN1A, which facilitates active cyclin-dependent kinase (CDK) complex formation in glioma cells.",
       "source_ids": [
         "ncbi-5578",
         "uniprot-P17252"

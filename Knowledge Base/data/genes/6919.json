@@ -64,7 +64,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MBD4 encodes methyl-CpG-binding domain protein 4. It participates in DNA repair and depyrimidination. Functional annotations also associate the protein with DNA N-glycosylase activity and DNA endonuclease activity.",
+      "text": "MBD4 encodes methyl-CpG-binding domain protein 4. It has thymine glycosylase activity and is specific for G:T mismatches within methylated and unmethylated CpG sites. It can also remove uracil or 5-fluorouracil in G:U mismatches. It was first identified as methyl-CpG-binding protein.",
       "source_ids": [
         "ncbi-8930",
         "uniprot-O95243"

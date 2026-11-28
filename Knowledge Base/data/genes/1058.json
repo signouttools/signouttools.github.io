@@ -131,7 +131,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "BLM encodes recQ-like DNA helicase BLM. It participates in regulation of cyclin-dependent protein serine/threonine kinase activity and DNA repair. Functional annotations also associate the protein with helicase activity and ATP hydrolysis activity.",
+      "text": "BLM encodes recQ-like DNA helicase BLM. Based in part on similarity, it is an ATP-dependent DNA helicase that unwinds double-stranded (ds)DNA in a 3'-5' direction. It participates in DNA replication and repair. It participates in 5'-end resection of DNA during double-strand break (DSB) repair: unwinds DNA and recruits DNA2 which mediates the cleavage of 5'-ssDNA.",
       "source_ids": [
         "ncbi-641",
         "uniprot-P54132"

@@ -55,7 +55,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AHRR encodes aryl hydrocarbon receptor repressor. It participates in regulation of transcription by RNA polymerase II and xenobiotic metabolic process. Functional annotations also associate the protein with DNA-binding transcription factor activity, RNA polymerase II-specific and DNA-binding transcription repressor activity, RNA polymerase II-specific.",
+      "text": "AHRR encodes aryl hydrocarbon receptor repressor. It mediates dioxin toxicity and is involved in regulation of cell growth and differentiation. It represses the transcription activity of AHR by competing with AHR for heterodimer formation with ARNT and subsequently binding to the xenobiotic response element (XRE) sequence present in the promoter regulatory region of a variety of genes. It represses CYP1A1 by binding the XRE sequence and recruiting ANKRA2, HDAC4 and/or HDAC5.",
       "source_ids": [
         "ncbi-57491",
         "uniprot-A9YTQ3"

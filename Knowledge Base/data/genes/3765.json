@@ -151,9 +151,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. Ligand-dependent signaling regulates survival, proliferation, and differentiation of these cells.",
+      "text": "FLT3 encodes a receptor tyrosine kinase expressed in hematopoietic progenitors. It is a tyrosine-protein kinase that acts as a cell-surface receptor for the cytokine FLT3LG and regulates differentiation, proliferation and survival of hematopoietic progenitor cells and of dendritic cells. It promotes phosphorylation of SHC1 and AKT1, and activation of the downstream effector MTOR. It promotes activation of RAS signaling and phosphorylation of downstream kinases, including MAPK1/ERK2 and/or MAPK3/ERK1.",
       "source_ids": [
-        "ncbi-2322"
+        "ncbi-2322",
+        "uniprot-P36888"
       ]
     },
     "somatic": {

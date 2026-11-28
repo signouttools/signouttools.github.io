@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GTF2I encodes general transcription factor II-I. It participates in transcription by RNA polymerase II and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "GTF2I encodes general transcription factor II-I. It interacts with the basal transcription machinery by coordinating the formation of a multiprotein complex at the C-FOS promoter, and linking specific signal responsive activator complexes. It promotes the formation of stable high-order complexes of SRF and PHOX1 and interacts cooperatively with PHOX1 to promote serum-inducible transcription of a reporter gene deriven by the C-FOS serum response element (SRE). It functions as a coregulator for USF1 by binding independently two promoter elements, a pyrimidine-rich initiator (Inr) and an upstream E-box.",
       "source_ids": [
         "ncbi-2969",
         "uniprot-P78347"

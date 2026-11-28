@@ -131,7 +131,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EPHA3 encodes ephrin type-A receptor 3. It participates in axon guidance and cell migration. Functional annotations also associate the protein with ephrin receptor activity and transmembrane-ephrin receptor activity.",
+      "text": "EPHA3 encodes ephrin type-A receptor 3. Based in part on similarity, it is a receptor tyrosine kinase which binds promiscuously membrane-bound ephrin family ligands residing on adjacent cells, leading to contact-dependent bidirectional signaling into neighboring cells. The signaling pathway downstream of the receptor is referred to as forward signaling while the signaling pathway downstream of the ephrin ligand is referred to as reverse signaling. It also activated by EFNA1, inhibiting epithelial-to-mesenchymal transition of cardiac cells and playing a role in heart development.",
       "source_ids": [
         "ncbi-2042",
         "uniprot-P29320"

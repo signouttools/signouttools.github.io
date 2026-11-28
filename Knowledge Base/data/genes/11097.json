@@ -78,7 +78,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SMARCA1 encodes SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 1. It participates in regulation of DNA-templated transcription and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with RNA polymerase II-specific DNA-binding transcription factor binding and helicase activity.",
+      "text": "SMARCA1 encodes SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 1. ATPase activity is substrate-dependent, and is increased when nucleosomes are the substrate, but is also catalytically active when DNA alone is the substrate. It is a catalytic subunit of ISWI chromatin-remodeling complexes, which form ordered nucleosome arrays on chromatin and facilitate access to DNA during DNA-templated processes such as DNA replication, transcription, and repair. Catalytic activity and histone octamer sliding propensity is regulated and determined by components of the ISWI chromatin-remodeling complexes.",
       "source_ids": [
         "ncbi-6594",
         "uniprot-P28370"

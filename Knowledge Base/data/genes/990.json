@@ -150,9 +150,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "BCL2 encodes an anti-apoptotic mitochondrial protein that restrains activation of the intrinsic cell-death pathway.",
+      "text": "BCL2 encodes an anti-apoptotic mitochondrial protein that restrains activation of the intrinsic cell-death pathway. It suppresses apoptosis in a variety of cell systems including factor-dependent lymphohematopoietic and neural cells. It regulates cell death by controlling the mitochondrial membrane permeability. It appears to function in a feedback loop system with caspases.",
       "source_ids": [
-        "ncbi-596"
+        "ncbi-596",
+        "uniprot-P10415"
       ]
     },
     "somatic": {

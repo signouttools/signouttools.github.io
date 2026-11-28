@@ -92,7 +92,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MAP3K14 encodes mitogen-activated protein kinase kinase kinase 14. It participates in non-canonical NF-kappaB signal transduction and MAPK cascade. Functional annotations also associate the protein with protein kinase activity and protein serine kinase activity.",
+      "text": "MAP3K14 encodes mitogen-activated protein kinase kinase kinase 14. It phosphorylates CHUK/IKKA, thereby promoting proteolytic processing of NFKB2/P100, which leads to NF-kappa-B activation via the non-canonical pathway. It has an essential role in the non-canonical NF-kappa-B signaling that regulates genes encoding molecules involved in B-cell survival, lymphoid organogenesis, and immune response.",
       "source_ids": [
         "ncbi-9020",
         "uniprot-Q99558"

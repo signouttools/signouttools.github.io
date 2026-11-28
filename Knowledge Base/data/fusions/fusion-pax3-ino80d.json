@@ -1,0 +1,118 @@
+{
+  "id": "fusion-pax3-ino80d",
+  "label": "PAX3::INO80D",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "PAX3",
+      "hgnc_id": "HGNC:8617",
+      "ncbi_gene_id": "5077"
+    },
+    {
+      "symbol": "INO80D",
+      "hgnc_id": "HGNC:25997",
+      "ncbi_gene_id": "54891"
+    }
+  ],
+  "aliases": [
+    "WS1::INO80D"
+  ],
+  "tumor_contexts": [
+    "Pediatric rhabdomyosarcoma, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-c38dfa929648"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PAX3",
+      "text": "PAX3 encodes a paired-box transcription factor involved in development.",
+      "source_ids": [
+        "ncbi-5077"
+      ],
+      "claim_sha256": "3e7a01d467c813cfecf8b52bb137ec4d2f34d9d33059f01f73e8ef0b41532498",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5077",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5077",
+          "location": "NCBI Gene 5077 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "ad5d31cabbc5aa0bbc6dd4ad656d39f9183acccdf2bdc69eb93fecc8a20d9c9f"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "INO80D",
+      "text": "INO80D encodes INO80 complex subunit D.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "cb0dd5d0982f7cc65ee974758cbfb82e9da17b0a9ae298c09063def736b11e7b",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:25997",
+          "location": "Frozen HGNC TSV: HGNC:25997, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "PAX3::INO80D was reported in specimens labeled as Pediatric rhabdomyosarcoma, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "ece210249b6092275a50bc03f48f3ab89fa4e2d00011ebf93f1181eb37378d5b",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 4811",
+          "source_rows": [
+            4811
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "PAX3 encodes a paired-box transcription factor involved in development. INO80D encodes INO80 complex subunit D. PAX3::INO80D was reported in specimens labeled as Pediatric rhabdomyosarcoma, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-5077",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "6a8f48cbf6ba7cb44b56f3a9aeaa8543dfb11799a8ef8e97d422dad548e29993"
+}

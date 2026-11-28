@@ -146,7 +146,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TNFRSF14 encodes tumor necrosis factor receptor superfamily member 14. It participates in immune response and T cell costimulation. Functional annotations also associate the protein with receptor ligand activity and tumor necrosis factor receptor activity.",
+      "text": "TNFRSF14 encodes tumor necrosis factor receptor superfamily member 14. Based in part on similarity, it is a receptor for four distinct ligands: The TNF superfamily members TNFSF14/LIGHT and homotrimeric LTA/lymphotoxin-alpha and the immunoglobulin superfamily members BTLA and CD160, altogether defining a complex stimulatory and inhibitory signaling network. It signals via the TRAF2-TRAF3 E3 ligase pathway to promote immune cell survival and differentiation. It participates in bidirectional cell-cell contact signaling between antigen presenting cells and lymphocytes.",
       "source_ids": [
         "ncbi-8764",
         "uniprot-Q92956"

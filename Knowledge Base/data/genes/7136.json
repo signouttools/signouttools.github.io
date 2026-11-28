@@ -76,7 +76,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "MLLT3 encodes protein AF-9. It participates in regulation of chromatin organization and positive regulation of DNA-templated transcription. Functional annotations also associate the protein with molecular adaptor activity and histone H3K18ac reader activity.",
+      "text": "MLLT3 encodes protein AF-9. Based in part on similarity, it is a chromatin reader component of the super elongation complex (SEC), a complex required to increase the catalytic rate of RNA polymerase II transcription by suppressing transient pausing by the polymerase at multiple sites along the DNA. It specifically recognizes and binds acylated histone H3, with a preference for histone H3 that is crotonylated. It recognizes and binds histone H3 crotonylated at 'Lys-9' (H3K9cr), and with slightly lower affinity histone H3 crotonylated at 'Lys-18' (H3K18cr).",
       "source_ids": [
         "ncbi-4300",
         "uniprot-P42568"

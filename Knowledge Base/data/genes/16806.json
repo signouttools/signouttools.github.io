@@ -119,7 +119,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "UBR5 encodes E3 ubiquitin-protein ligase UBR5. It participates in DNA repair-dependent chromatin remodeling and protein polyubiquitination. Functional annotations also associate the protein with ubiquitin-ubiquitin ligase activity and ubiquitin protein ligase activity.",
+      "text": "UBR5 encodes E3 ubiquitin-protein ligase UBR5. Based in part on similarity, it is an E3 ubiquitin-protein ligase involved in different protein quality control pathways in the cytoplasm and nucleus. It forms part of the N-end rule pathway: ubiquitinates proteins bearing specific N-terminal residues that are destabilizing according to the N-end rule, leading to their degradation. It recognizes type-1 N-degrons, containing positively charged amino acids (Arg, Lys and His).",
       "source_ids": [
         "ncbi-51366",
         "uniprot-O95071"

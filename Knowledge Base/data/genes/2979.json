@@ -83,7 +83,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DNMT3B encodes DNA (cytosine-5)-methyltransferase 3B. It participates in negative regulation of transcription by RNA polymerase II and positive regulation of gene expression. Functional annotations also associate the protein with DNA-methyltransferase activity and DNA (cytosine-5-)-methyltransferase activity.",
+      "text": "DNMT3B encodes DNA (cytosine-5)-methyltransferase 3B. Based in part on similarity, it is a DNA (cytosine-5)-methyltransferase that mediates genome-wide de novo methylation and which is essential for the establishment of DNA methylation patterns during development. It modifies DNA at CpG sites with selectivity for residues flanking the target CpG site at positions -1 and +1, and strong preference for a guanine (G) immediately following the CpG sites. It methylates DNA in a non-cooperative processive manner, allowing the enzyme to diffuse along DNA and methylate multiple sites before dissociation.",
       "source_ids": [
         "ncbi-1789",
         "uniprot-Q9UBC3"

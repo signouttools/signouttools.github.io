@@ -120,7 +120,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "KAT6A encodes histone acetyltransferase KAT6A. It participates in regulation of DNA-templated transcription and negative regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coactivator activity and transcription coregulator activity.",
+      "text": "KAT6A encodes histone acetyltransferase KAT6A. It forms part of the MOZ/MORF complex which has a histone H3 acetyltransferase activity. It may act as a transcriptional coactivator for RUNX1 and RUNX2. It acetylates p53/TP53 at 'Lys-120' and 'Lys-382' and controls its transcriptional activity via association with PML.",
       "source_ids": [
         "ncbi-7994",
         "uniprot-Q92794"

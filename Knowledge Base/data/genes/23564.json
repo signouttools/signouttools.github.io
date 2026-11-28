@@ -71,9 +71,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "MIR17HG is the host gene for the miR-17–92 microRNA cluster. Its primary transcript gives rise to microRNAs that regulate expression of target genes involved in growth and differentiation.",
+      "text": "MIR17HG is a noncoding host gene for the MIR17-92 cluster, which contains at least six microRNAs. These regulatory RNAs have roles in survival, proliferation, differentiation, and angiogenesis. Not all host-gene transcripts contain the complete cluster: the longer polycistronic transcript carries it, whereas another noncoding transcript does not. Transcript structure is therefore relevant to the gene's normal regulatory output.",
       "source_ids": [
-        "ncbi-407975"
+        "ncbi-407975",
+        "uniprot-Q75NE6"
       ]
     },
     "germline": {

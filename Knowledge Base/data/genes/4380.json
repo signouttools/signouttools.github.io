@@ -64,7 +64,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GNA12 encodes guanine nucleotide-binding protein subunit alpha-12. It participates in Rho protein signal transduction and blood coagulation. Functional annotations also associate the protein with GTPase activity and G protein activity.",
+      "text": "GNA12 encodes guanine nucleotide-binding protein subunit alpha-12. Based in part on similarity, guanine nucleotide-binding proteins (G proteins) are involved as modulators or transducers in various transmembrane signaling systems. It activates effector molecule RhoA by binding and activating RhoGEFs (ARHGEF12/LARG). GNA12-dependent Rho signaling subsequently regulates transcription factor AP-1 (activating protein-1).",
       "source_ids": [
         "ncbi-2768",
         "uniprot-Q03113"

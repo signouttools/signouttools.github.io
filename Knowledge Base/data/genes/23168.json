@@ -99,7 +99,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "FANCM encodes Fanconi anemia group M protein. It participates in interstrand cross-link repair and replication fork processing. Functional annotations also associate the protein with ATP hydrolysis activity and RNA helicase activity.",
+      "text": "FANCM encodes Fanconi anemia group M protein. It is a DNA-dependent ATPase component of the Fanconi anemia (FA) core complex. Its ATP-dependent DNA branch migration activity can process branched DNA structures such as a movable replication fork. This activity is strongly stimulated in the presence of CENPS and CENPX.",
       "source_ids": [
         "ncbi-57697",
         "uniprot-Q8IYD8"

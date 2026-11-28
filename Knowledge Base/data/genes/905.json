@@ -117,7 +117,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AXL encodes tyrosine-protein kinase receptor UFO. It participates in signal transduction and positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction. Functional annotations also associate the protein with protein tyrosine kinase activity and transmembrane receptor protein tyrosine kinase activity.",
+      "text": "AXL encodes tyrosine-protein kinase receptor UFO. Based in part on similarity, it is a receptor tyrosine kinase that transduces signals from the extracellular matrix into the cytoplasm by binding growth factors GAS6 and PROS1, and which is thus regulating many physiological processes including cell survival, cell proliferation, migration and differentiation. GAS6/AXL signaling plays a role in various processes such as endothelial cell survival during acidification by preventing apoptosis, optimal cytokine signaling during human natural killer cell development, hepatic regeneration, gonadotropin-releasing hormone neuron survival and migration, platelet activation, or regulation of thrombotic responses. It also plays an important role in inhibition of Toll-like receptors (TLRs)-mediated innate immune response.",
       "source_ids": [
         "ncbi-558",
         "uniprot-P30530"

@@ -1,0 +1,119 @@
+{
+  "id": "fusion-kank1-ntrk2",
+  "label": "KANK1::NTRK2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "KANK1",
+      "hgnc_id": "HGNC:19309",
+      "ncbi_gene_id": "23189"
+    },
+    {
+      "symbol": "NTRK2",
+      "hgnc_id": "HGNC:8032",
+      "ncbi_gene_id": "4915"
+    }
+  ],
+  "aliases": [
+    "ANKRD15::NTRK2"
+  ],
+  "tumor_contexts": [
+    "Pediatric low-grade glioma"
+  ],
+  "disease_ids": [
+    "fusion-context-15fb253dea61"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KANK1",
+      "text": "KANK1 encodes KN motif and ankyrin repeat domains 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "34b6db6353d6604203dfd636688b2d58fdc5c4cfa382986d63d19bef9209dd59",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:19309",
+          "location": "Frozen HGNC TSV: HGNC:19309, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NTRK2",
+      "text": "NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-4915"
+      ],
+      "claim_sha256": "e7db4418936cfae6649b79765db681135e5792068ec5f22ec5b180c06ee77284",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4915",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4915",
+          "location": "NCBI Gene 4915 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "2b3a2bbed41a12b2889042a4f5a806af2e9b5a75712b2702a6f0702b8c35f9e1"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "KANK1::NTRK2 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "4d7d9040c211572929c47192d712fefe2e500f841a0768d95cd21c882729665e",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3069, 3723",
+          "source_rows": [
+            3069,
+            3723
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "KANK1 encodes KN motif and ankyrin repeat domains 1. NTRK2 encodes TRKB, a neurotrophin receptor tyrosine kinase. KANK1::NTRK2 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-4915",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "c21e1d163147bcbc21162620638ad7a0bc221ed797c3e4967f6574cdc419056f"
+}

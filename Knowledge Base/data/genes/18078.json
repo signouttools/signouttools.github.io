@@ -78,7 +78,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ZBTB7A encodes zinc finger and BTB domain-containing protein 7A. It participates in DNA-templated transcription and chromatin organization. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "text": "ZBTB7A encodes zinc finger and BTB domain-containing protein 7A. Based in part on similarity, it is a transcription factor that represses the transcription of a wide range of genes involved in cell proliferation and differentiation. It negatively regulates SMAD4 transcriptional activity in the TGF-beta signaling pathway through these two mechanisms. It collaborates with transcription factors like RELA to modify the accessibility of gene transcription regulatory regions to secondary transcription factors.",
       "source_ids": [
         "ncbi-51341",
         "uniprot-O95365"

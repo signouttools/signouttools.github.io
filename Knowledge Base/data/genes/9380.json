@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PRKACA encodes cAMP-dependent protein kinase catalytic subunit alpha. It participates in cAMP/PKA signal transduction and bone resorption. Functional annotations also associate the protein with cAMP-dependent protein kinase activity and histone H1-4S35 kinase activity.",
+      "text": "PRKACA encodes cAMP-dependent protein kinase catalytic subunit alpha. Based in part on similarity, it phosphorylates a large number of substrates in the cytoplasm and the nucleus. It phosphorylates CDC25B, ABL1, NFKB1, CLDN3, histone H1.4 (H1-4), PSMC5/RPT6, PJA2, RYR2, RORA, SLC6A6, SOX9, UHRF1 and VASP. It regulates the abundance of compartmentalized pools of its regulatory subunits through phosphorylation of PJA2 which binds and ubiquitinates these subunits, leading to their subsequent proteolysis.",
       "source_ids": [
         "ncbi-5566",
         "uniprot-P17612"

@@ -121,7 +121,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "AKT2 encodes RAC-beta serine/threonine-protein kinase. It participates in signal transduction and intracellular signal transduction. Functional annotations also associate the protein with protein serine kinase activity and protein serine/threonine kinase activity.",
+      "text": "AKT2 encodes RAC-beta serine/threonine-protein kinase. Based in part on similarity, it is a serine/threonine kinase closely related to AKT1 and AKT3. AKT regulates many processes including metabolism, proliferation, cell survival, growth and angiogenesis, through the phosphorylation of a range of downstream substrates. Over 100 substrates have been reported so far, although for most of them, the precise AKT kinase catalyzing the reaction was not specified.",
       "source_ids": [
         "ncbi-208",
         "uniprot-P31751"

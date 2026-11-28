@@ -75,7 +75,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DOCK8 encodes dedicator of cytokinesis protein 8. It participates in small GTPase-mediated signal transduction and regulation of Rho protein signal transduction. Functional annotations also associate the protein with guanyl-nucleotide exchange factor activity.",
+      "text": "DOCK8 encodes dedicator of cytokinesis protein 8. Based in part on similarity, it is a guanine nucleotide exchange factor (GEF) which specifically activates small GTPase CDC42 by exchanging bound GDP for free GTP. It is required for CD4(+) T-cell migration in response to chemokine stimulation by promoting CDC42 activation at T cell leading edge membrane. It is involved in NK cell cytotoxicity by controlling polarization of microtubule-organizing center (MTOC), and possibly regulating CCDC88B-mediated lytic granule transport to MTOC during cell killing.",
       "source_ids": [
         "ncbi-81704",
         "uniprot-Q8NF50"

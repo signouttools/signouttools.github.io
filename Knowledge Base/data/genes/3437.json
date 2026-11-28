@@ -98,7 +98,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ERCC5 encodes DNA excision repair protein ERCC-5. It participates in transcription-coupled nucleotide-excision repair and double-strand break repair via homologous recombination. Functional annotations also associate the protein with endonuclease activity and DNA endonuclease activity.",
+      "text": "ERCC5 encodes DNA excision repair protein ERCC-5. It is a single-stranded structure-specific DNA endonuclease involved in DNA excision repair. It makes the 3'incision in DNA nucleotide excision repair (NER). It binds and bends DNA repair bubble substrate and breaks base stacking at the single-strand/double-strand DNA junction of the DNA bubble.",
       "source_ids": [
         "ncbi-2073",
         "uniprot-P28715"

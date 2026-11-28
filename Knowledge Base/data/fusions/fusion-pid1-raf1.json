@@ -1,0 +1,116 @@
+{
+  "id": "fusion-pid1-raf1",
+  "label": "PID1::RAF1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "PID1",
+      "hgnc_id": "HGNC:26084",
+      "ncbi_gene_id": "55022"
+    },
+    {
+      "symbol": "RAF1",
+      "hgnc_id": "HGNC:9829",
+      "ncbi_gene_id": "5894"
+    }
+  ],
+  "aliases": [],
+  "tumor_contexts": [
+    "Pediatric low-grade glioma"
+  ],
+  "disease_ids": [
+    "fusion-context-15fb253dea61"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PID1",
+      "text": "PID1 encodes phosphotyrosine interaction domain containing 1.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "6c0d10660a8f5e09223a44b2187f85050af9581d99b4265df8cb6833578b5862",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:26084",
+          "location": "Frozen HGNC TSV: HGNC:26084, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "RAF1",
+      "text": "RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway.",
+      "source_ids": [
+        "ncbi-5894"
+      ],
+      "claim_sha256": "7e1a823abf592f1456c12323ea827d3707666c0689e9d2135329135dbca400cd",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-5894",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/5894",
+          "location": "NCBI Gene 5894 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "6febe1c0bbcbfb7779c8091d66132c147d8688e98a8f0c117ff3a5e9ca8fa1cf"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "PID1::RAF1 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "dc866a1375c9f201880a2dd0eb290891ce3e3c76ec063228803a77672c239303",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 3150",
+          "source_rows": [
+            3150
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "PID1 encodes phosphotyrosine interaction domain containing 1. RAF1 encodes CRAF, a RAF-family serine/threonine kinase in the MAPK pathway. PID1::RAF1 was reported in specimens labeled as Pediatric low-grade glioma in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-5894",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "43951a2cc31753849136305dca4e34086851673f7b9b2cd327be90bf82911f02"
+}

@@ -106,7 +106,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PRKDC encodes DNA-dependent protein kinase catalytic subunit. It participates in telomere maintenance and positive regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with protein kinase activity and DNA-dependent protein kinase activity.",
+      "text": "PRKDC encodes DNA-dependent protein kinase catalytic subunit. Based in part on similarity, it is a serine/threonine-protein kinase that acts as a molecular sensor for DNA damage. It participates in DNA non-homologous end joining (NHEJ) required for double-strand break (DSB) repair and V(D)J recombination. It promotes processing of hairpin DNA structures in V(D)J recombination by activation of the hairpin endonuclease artemis (DCLRE1C).",
       "source_ids": [
         "ncbi-5591",
         "uniprot-P78527"

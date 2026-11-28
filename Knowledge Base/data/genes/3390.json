@@ -120,7 +120,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EPHA7 encodes ephrin type-A receptor 7. It participates in negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction and phosphorylation. Functional annotations also associate the protein with protein tyrosine kinase activity and chemorepellent activity.",
+      "text": "EPHA7 encodes ephrin type-A receptor 7. It is a receptor tyrosine kinase which binds promiscuously GPI-anchored ephrin-A family ligands residing on adjacent cells, leading to contact-dependent bidirectional signaling into neighboring cells. The signaling pathway downstream of the receptor is referred to as forward signaling while the signaling pathway downstream of the ephrin ligand is referred to as reverse signaling.",
       "source_ids": [
         "ncbi-2045",
         "uniprot-Q15375"

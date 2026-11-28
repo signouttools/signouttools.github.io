@@ -68,7 +68,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETD7 encodes histone-lysine N-methyltransferase SETD7. It participates in chromatin organization and heterochromatin organization. Functional annotations also associate the protein with histone methyltransferase activity and protein-lysine N-methyltransferase activity.",
+      "text": "SETD7 encodes histone-lysine N-methyltransferase SETD7. Based in part on similarity, it is a histone methyltransferase that specifically monomethylates 'Lys-4' of histone H3. H3 'Lys-4' methylation represents a specific tag for epigenetic transcriptional activation. It plays a central role in the transcriptional activation of genes such as collagenase or insulin.",
       "source_ids": [
         "ncbi-80854",
         "uniprot-Q8WTS6"

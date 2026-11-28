@@ -67,7 +67,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SETDB2 encodes histone-lysine N-methyltransferase SETDB2. It participates in heterochromatin organization and negative regulation of DNA-templated transcription. Functional annotations also associate the protein with histone H3 methyltransferase activity and histone H3K9 methyltransferase activity.",
+      "text": "SETDB2 encodes histone-lysine N-methyltransferase SETDB2. It is a histone methyltransferase involved in left-right axis specification in early development and mitosis. It specifically trimethylates 'Lys-9' of histone H3 (H3K9me3). H3K9me3 is a specific tag for epigenetic transcriptional repression that recruits HP1 (CBX1, CBX3 and/or CBX5) proteins to methylated histones.",
       "source_ids": [
         "ncbi-83852",
         "uniprot-Q96T68"

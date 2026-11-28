@@ -55,7 +55,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "PPP1R10 encodes serine/threonine-protein phosphatase 1 regulatory subunit 10. It participates in positive regulation of telomere maintenance and negative regulation of transcription elongation by RNA polymerase II. Functional annotations also associate the protein with enzyme-substrate adaptor activity and protein phosphatase inhibitor activity.",
+      "text": "PPP1R10 encodes serine/threonine-protein phosphatase 1 regulatory subunit 10. Based in part on similarity, it is a substrate-recognition component of the PNUTS-PP1 protein phosphatase complex, a protein phosphatase 1 (PP1) complex that promotes RNA polymerase II transcription pause-release, allowing transcription elongation. The PNUTS-PP1 complex mediates the release of RNA polymerase II from promoter-proximal region of genes by catalyzing dephosphorylation of proteins involved in transcription, such as AFF4, CDK9, MEPCE, INTS12, NCBP1, POLR2M/GDOWN1 and SUPT6H. The PNUTS-PP1 complex also regulates RNA polymerase II transcription termination by mediating dephosphorylation of SUPT5H in termination zones downstream of poly(A) sites, thereby promoting deceleration of RNA polymerase II transcription.",
       "source_ids": [
         "ncbi-5514",
         "uniprot-Q96QC0"

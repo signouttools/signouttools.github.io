@@ -77,7 +77,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "GID4 encodes glucose-induced degradation protein 4 homolog. It participates in proteasome-mediated ubiquitin-dependent protein catabolic process. Functional annotations also associate the protein with ubiquitin protein ligase activity.",
+      "text": "GID4 encodes a substrate-recognition component of the CTLH ubiquitin-ligase complex. It recognizes proteins with particular amino-terminal proline-containing degradation signals, helping select substrates for ubiquitination and subsequent turnover. Substrate recognition is its role within the assembly, rather than the entire catalytic activity of the ligase complex being assigned to GID4 alone.",
       "source_ids": [
         "ncbi-79018",
         "uniprot-Q8IVV7"

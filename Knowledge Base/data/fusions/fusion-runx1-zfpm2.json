@@ -1,0 +1,119 @@
+{
+  "id": "fusion-runx1-zfpm2",
+  "label": "RUNX1::ZFPM2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "RUNX1",
+      "hgnc_id": "HGNC:10471",
+      "ncbi_gene_id": "861"
+    },
+    {
+      "symbol": "ZFPM2",
+      "hgnc_id": "HGNC:16700",
+      "ncbi_gene_id": "23414"
+    }
+  ],
+  "aliases": [
+    "AML1::ZFPM2",
+    "CBFA2::ZFPM2"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "RUNX1",
+      "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis.",
+      "source_ids": [
+        "ncbi-861"
+      ],
+      "claim_sha256": "a8f1edd175ea5c2526264879f920c4a91fecba3fdf493206b48afd19ba050675",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-861",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/861",
+          "location": "NCBI Gene 861 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "281d1db63e514c1be3b182ab702596a22d8563f242022de1c89338d1f902efcf"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "ZFPM2",
+      "text": "ZFPM2 encodes zinc finger protein, FOG family member 2.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "3938ae07c8490b7b47d6dbfaad29874f34b72d461ddddafe2da20986a936fb28",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:16700",
+          "location": "Frozen HGNC TSV: HGNC:16700, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "RUNX1::ZFPM2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "130b77399e397e01cf535ed2075104b2a8abf967dd19bd9da5a99fb75c9bbeb1",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 4484",
+          "source_rows": [
+            4484
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "RUNX1 encodes the DNA-binding alpha subunit of core-binding factor, a regulator of hematopoiesis. ZFPM2 encodes zinc finger protein, FOG family member 2. RUNX1::ZFPM2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-861",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "a3e0807221387aa6efced2332bc81df3f688977c8771ccb7b1fe47e7259b2924"
+}

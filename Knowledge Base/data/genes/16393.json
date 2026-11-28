@@ -189,7 +189,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "CARD11 encodes caspase recruitment domain-containing protein 11. It participates in signal transduction and canonical NF-kappaB signal transduction. Functional annotations also associate the protein with GMP kinase activity and signaling adaptor activity.",
+      "text": "CARD11 encodes caspase recruitment domain-containing protein 11. It is an adapter protein that plays a key role in adaptive immune response by transducing the activation of NF-kappa-B downstream of T-cell receptor (TCR) and B-cell receptor (BCR) engagement. It transduces signals downstream TCR or BCR activation via the formation of a multiprotein complex together with BCL10 and MALT1 that induces NF-kappa-B and MAP kinase p38 (MAPK11, MAPK12, MAPK13 and/or MAPK14) pathways.",
       "source_ids": [
         "ncbi-84433",
         "uniprot-Q9BXL7"

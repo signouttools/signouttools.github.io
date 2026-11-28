@@ -1,0 +1,122 @@
+{
+  "id": "fusion-fgfr2-ctnna3",
+  "label": "FGFR2::CTNNA3",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "FGFR2",
+      "hgnc_id": "HGNC:3689",
+      "ncbi_gene_id": "2263"
+    },
+    {
+      "symbol": "CTNNA3",
+      "hgnc_id": "HGNC:2511",
+      "ncbi_gene_id": "29119"
+    }
+  ],
+  "aliases": [
+    "BEK::CTNNA3",
+    "CFD1::CTNNA3",
+    "JWS::CTNNA3",
+    "KGFR::CTNNA3"
+  ],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "FGFR2",
+      "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2263"
+      ],
+      "claim_sha256": "1cdae57704778e23e2f4c24a0da1305717e3fb5643ca80b10ca71163bfb36719",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2263",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2263",
+          "location": "NCBI Gene 2263 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a22c8457ca12f4b693edc00e5aedcdcdfd22b1f39c928b40155579c5f01e0e51"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CTNNA3",
+      "text": "CTNNA3 encodes catenin alpha 3.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "446df80571569888ed8adff7a35e310b470da1a0eeb1107657a93f7f54fbf761",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:2511",
+          "location": "Frozen HGNC TSV: HGNC:2511, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "FGFR2::CTNNA3 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "28bfd285e7b7af10058b980e52640f17da24f8a77b498d87eeaac8e286736aa7",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 282, 3565",
+          "source_rows": [
+            282,
+            3565
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "FGFR2 encodes a fibroblast growth factor receptor tyrosine kinase. CTNNA3 encodes catenin alpha 3. FGFR2::CTNNA3 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-2263",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "35bbce06a0050723009064bca88b1bdcb798ca5379bba06fd4060363471a0abc"
+}

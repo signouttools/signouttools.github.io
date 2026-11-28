@@ -76,7 +76,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "DCLRE1C encodes protein artemis. It participates in telomere maintenance and interstrand cross-link repair. Functional annotations also associate the protein with endonuclease activity and 5'-3' exonuclease activity.",
+      "text": "DCLRE1C encodes protein artemis. It is required for V(D)J recombination, the process by which exons encoding the antigen-binding domains of immunoglobulins and T-cell receptor proteins are assembled from individual V, (D), and J gene segments. V(D)J recombination is initiated by the lymphoid specific RAG endonuclease complex, which generates site specific DNA double strand breaks (DSBs). These ends are independently repaired by the non homologous end joining (NHEJ) pathway to form coding and signal joints respectively.",
       "source_ids": [
         "ncbi-64421",
         "uniprot-Q96SD1"

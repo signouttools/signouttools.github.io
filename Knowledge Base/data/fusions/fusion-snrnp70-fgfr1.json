@@ -1,0 +1,122 @@
+{
+  "id": "fusion-snrnp70-fgfr1",
+  "label": "SNRNP70::FGFR1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "SNRNP70",
+      "hgnc_id": "HGNC:11150",
+      "ncbi_gene_id": "6625"
+    },
+    {
+      "symbol": "FGFR1",
+      "hgnc_id": "HGNC:3688",
+      "ncbi_gene_id": "2260"
+    }
+  ],
+  "aliases": [
+    "RNPU1Z::FGFR1",
+    "RPU1::FGFR1",
+    "SNRNP70::FLT2",
+    "SNRNP70::KAL2",
+    "SNRP70::FGFR1"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "SNRNP70",
+      "text": "SNRNP70 encodes small nuclear ribonucleoprotein U1 subunit 70.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "abc39c727c48fce5b19804cc15b90574570cdbeb25ffe97bb8e4a2479572b43f",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:11150",
+          "location": "Frozen HGNC TSV: HGNC:11150, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "FGFR1",
+      "text": "FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase.",
+      "source_ids": [
+        "ncbi-2260"
+      ],
+      "claim_sha256": "0873ffc09ea58b6367f10070d7afa2c8ce61ca270f9f201036a60596a76a9dfd",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-2260",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/2260",
+          "location": "NCBI Gene 2260 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "7ea841889cae5e4418d7d07782dfcfec4a162f88cbc338606418fec3cefd1bf4"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "SNRNP70::FGFR1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "f43798ce71c07229d4007ed9cd82584aad9f05380070a255b926453cb1730876",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 1439",
+          "source_rows": [
+            1439
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "SNRNP70 encodes small nuclear ribonucleoprotein U1 subunit 70. FGFR1 encodes a fibroblast growth factor receptor tyrosine kinase. SNRNP70::FGFR1 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "ncbi-2260",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "ee43a7bfda4b11389d60d3c86630121415a79d7c3f420493679cce61de2f8f3f"
+}

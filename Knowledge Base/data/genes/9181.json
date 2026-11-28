@@ -74,7 +74,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "POLH encodes DNA polymerase eta. It participates in DNA repair and regulation of DNA repair. Functional annotations also associate the protein with DNA polymerase activity and DNA-directed DNA polymerase activity.",
+      "text": "POLH encodes DNA polymerase eta. It is a DNA polymerase specifically involved in the DNA repair by translesion synthesis (TLS). It inserts one or 2 nucleotide(s) opposite the lesion, the primer is further extended by the tetrameric POLZ complex. Although inserts the correct base, may cause base transitions and transversions depending upon the context.",
       "source_ids": [
         "ncbi-5429",
         "uniprot-Q9Y253"

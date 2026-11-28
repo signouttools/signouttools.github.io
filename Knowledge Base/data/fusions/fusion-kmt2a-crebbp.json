@@ -1,0 +1,119 @@
+{
+  "id": "fusion-kmt2a-crebbp",
+  "label": "KMT2A::CREBBP",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "KMT2A",
+      "hgnc_id": "HGNC:7132",
+      "ncbi_gene_id": "4297"
+    },
+    {
+      "symbol": "CREBBP",
+      "hgnc_id": "HGNC:2348",
+      "ncbi_gene_id": "1387"
+    }
+  ],
+  "aliases": [
+    "KMT2A::RSTS",
+    "MLL::CREBBP"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "KMT2A",
+      "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes.",
+      "source_ids": [
+        "ncbi-4297"
+      ],
+      "claim_sha256": "c257e4998bc6d8098c06af38ca697e49286f7baa3cbab9619ff250d5f0dc8867",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-4297",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/4297",
+          "location": "NCBI Gene 4297 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf3f50410478a1303104b1305d6540516727418367060f3b054f3b3d73a7dfae"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "CREBBP",
+      "text": "CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase.",
+      "source_ids": [
+        "ncbi-1387"
+      ],
+      "claim_sha256": "43a6e96a30a4771e89808e611aebdf5266cf684ed1231f1555c3997b48422fa1",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-1387",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/1387",
+          "location": "NCBI Gene 1387 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "bf6a65c8add04db4ba7aafda377c66fb1fac279b6e862fc4a896dd1cfac1f023"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "KMT2A::CREBBP was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "e2b08fd9e779e3f47848860749d17683111fcf7d4039e617e800a7deae7fcf97",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 5096",
+          "source_rows": [
+            5096
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "KMT2A encodes a chromatin regulator that controls developmental and hematopoietic transcription, including HOX genes. CREBBP encodes CBP, a transcriptional coactivator and histone acetyltransferase. KMT2A::CREBBP was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-4297",
+      "ncbi-1387",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "92dc00c76423fc607c73e58b04b557fd37e54a66095871bcaf6cdfac9e3b8b32"
+}

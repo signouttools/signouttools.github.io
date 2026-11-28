@@ -54,7 +54,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ATG2B encodes autophagy-related protein 2 homolog B. It participates in glycophagy and pexophagy. Functional annotations also associate the protein with lipid transfer activity and protein-membrane adaptor activity.",
+      "text": "ATG2B encodes autophagy-related protein 2 homolog B. Based in part on similarity, it is a lipid transfer protein required for both autophagosome formation and regulation of lipid droplet morphology and dispersion. It tethers the edge of the isolation membrane (IM) to the endoplasmic reticulum (ER) and mediates direct lipid transfer from ER to IM for IM expansion. It binds to the ER exit site (ERES), which is the membrane source for autophagosome formation, and extracts phospholipids from the membrane source and transfers them to ATG9 (ATG9A or ATG9B) to the IM for membrane expansion.",
       "source_ids": [
         "ncbi-55102",
         "uniprot-Q96BY7"

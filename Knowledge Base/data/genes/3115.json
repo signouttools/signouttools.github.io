@@ -82,7 +82,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "E2F3 encodes transcription factor E2F3. It participates in regulation of transcription by RNA polymerase II and transcription initiation at RNA polymerase II promoter. Functional annotations also associate the protein with DNA-binding transcription factor activity and DNA-binding transcription activator activity, RNA polymerase II-specific.",
+      "text": "E2F3 encodes transcription factor E2F3. Based in part on similarity, the DRTF1/E2F complex functions in the control of cell-cycle progression from G1 to S phase. E2F3 binds specifically to RB1 in a cell-cycle dependent manner. It inhibits adipogenesis, probably through the repression of CEBPA binding to its target gene promoters.",
       "source_ids": [
         "ncbi-1871",
         "uniprot-O00716"

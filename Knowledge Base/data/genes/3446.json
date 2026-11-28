@@ -133,7 +133,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ERG encodes transcriptional regulator ERG. It participates in signal transduction and regulation of transcription by RNA polymerase II. Functional annotations also associate the protein with DNA-binding transcription activator activity, RNA polymerase II-specific and DNA-binding transcription factor activity, RNA polymerase II-specific.",
+      "text": "ERG encodes an ETS-family transcriptional regulator. It may influence gene expression through recruitment of the SETDB1 histone methyltransferase and consequent changes in local chromatin organization. This connects sequence-specific transcriptional regulation with recruitment of chromatin-modifying machinery.",
       "source_ids": [
         "ncbi-2078",
         "uniprot-P11308"

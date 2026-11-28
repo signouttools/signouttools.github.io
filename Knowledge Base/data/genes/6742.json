@@ -157,7 +157,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "LZTR1 encodes leucine-zipper-like transcriptional regulator 1. It participates in negative regulation of Ras protein signal transduction and protein ubiquitination. Functional annotations also associate the protein with ubiquitin-like ligase-substrate adaptor activity and small GTPase binding.",
+      "text": "LZTR1 encodes leucine-zipper-like transcriptional regulator 1. It is a substrate-specific adapter of a BCR (BTB-CUL3-RBX1) E3 ubiquitin-protein ligase complex that mediates ubiquitination of Ras GTPases (M-Ras/MRAS, K-Ras/KRAS, N-Ras/NRAS and H-Ras/HRAS) and Ras-like protein RIT1. It functions as a negative regulator of RAS-MAPK signaling by controlling Ras levels and decreasing Ras association with membranes.",
       "source_ids": [
         "ncbi-8216",
         "uniprot-Q8N653"

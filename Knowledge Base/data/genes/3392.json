@@ -102,7 +102,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "EPHB1 encodes ephrin type-B receptor 1. It participates in angiogenesis and neurogenesis. Functional annotations also associate the protein with transmembrane-ephrin receptor activity.",
+      "text": "EPHB1 encodes ephrin type-B receptor 1. Based in part on similarity, it is a receptor tyrosine kinase which binds promiscuously transmembrane ephrin-B family ligands residing on adjacent cells, leading to contact-dependent bidirectional signaling into neighboring cells. The signaling pathway downstream of the receptor is referred to as forward signaling while the signaling pathway downstream of the ephrin ligand is referred to as reverse signaling. This probably requires repulsive interaction with EFNB2.",
       "source_ids": [
         "ncbi-2047",
         "uniprot-P54762"

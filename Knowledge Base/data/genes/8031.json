@@ -159,9 +159,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "NTRK1 encodes the TRKA receptor tyrosine kinase, which mediates nerve growth factor signaling important for neuronal development and survival.",
+      "text": "NTRK1 encodes the TRKA receptor tyrosine kinase, which mediates nerve growth factor signaling important for neuronal development and survival. Based in part on similarity, it is a receptor tyrosine kinase involved in the development and the maturation of the central and peripheral nervous systems through regulation of proliferation, differentiation and survival of sympathetic and nervous neurons. It can also bind and be activated by NTF3/neurotrophin-3. It antagonizes the anti-proliferative NGF-NTRK1 signaling that promotes neuronal precursors differentiation.",
       "source_ids": [
-        "ncbi-4914"
+        "ncbi-4914",
+        "uniprot-P04629"
       ]
     },
     "germline": {

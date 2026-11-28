@@ -2,11 +2,13 @@
 
 2026-11-27 · Pathologist review needed — LLM-generated summary/review.
 
-**186 corrected draft entries are integrated into the knowledge base.** The follow-up pass covered the 49 previously reference-supported entries and the held ETV6::NTRK2 entry. All 50 now retain at least one fusion-specific finding supported by inspected primary body material. This entry-level status does not certify every assertion or tumor association in its paragraph as primary-supported. All 305 original fusion-specific sections across the 186 drafted entries have an explicit source-review decision. This is a completed disposition pass with documented access limits, not certification that every assertion was verified against a primary full text.
+**382 draft entries are integrated into the knowledge base: 186 interpretive drafts and 196 cohort-observation drafts.** The expansion is documented in [Fusion coverage and source intake](FUSION-COVERAGE.md). The 196 new entries describe reported fusion detection in a primary study's supplementary table; functional and clinical significance have not been adjudicated. They are visibly labeled in the browser and copied text.
+
+For the original interpretive corpus, the follow-up pass covered the 49 previously reference-supported entries and the held ETV6::NTRK2 entry. All 50 now retain at least one fusion-specific finding supported by inspected primary body material. This entry-level status does not certify every assertion or tumor association in its paragraph as primary-supported. All 305 original fusion-specific sections across the 186 drafted entries have an explicit source-review decision. This is a completed disposition pass with documented access limits, not certification that every assertion was verified against a primary full text.
 
 [Browse fusions](index.html?mode=fusions) · [Read the corrected blurbs](FUSION-DRAFTS.md) · [Machine-readable audit](data/fusion-audit.json)
 
-## What was reviewed
+## Original interpretive corpus audit
 
 | Measure | Result |
 | --- | ---: |
@@ -16,20 +18,20 @@
 | Removed without replacement | 7 |
 | Unique normal partner descriptions reviewed separately | 210 |
 | Partner descriptions narrowed | 79 |
-| Integrated draft entries | 186 |
+| Integrated interpretive draft entries | 186 |
 | Entries with retained primary-body fusion evidence | 186 |
 | Entries with authoritative-reference support only | 0 |
 | Previously drafted entry held from runtime | 0 |
 | Retained therapeutic sections | 79 |
 | Retained prognostic sections | 32 |
 
-The integrated corpus has 165 named pairs (161 chimeric fusions, three promoter-substitution pairs and one other regulatory fusion) plus 21 regulatory-event categories. Some categories group locus rearrangements rather than specifying a sequenced chimeric transcript. It covers 151 original pair-roster candidates and 14 additional pairs.
+The interpretive corpus has 165 named pairs (161 chimeric fusions, three promoter-substitution pairs and one other regulatory fusion) plus 21 regulatory-event categories. Some categories group locus rearrangements rather than specifying a sequenced chimeric transcript. It covers 151 original pair-roster candidates and 14 additional pairs. The 196 additional cohort-observation entries are counted separately as fusion transcripts and do not assert that each event produces a functional chimeric protein.
 
 ## Evidence boundaries
 
 Review decisions cite an inspected primary Results section, figure, table or indexed body passage when available. Publisher/PMC access failures and abstract-only evidence are not counted as primary-body confirmation. Official drug labels and authoritative classifications/guidance are explicitly typed as such. Some individual claims remain supported by classifications, guidance or regulatory sources. The section evidence identifies these separately even when another finding gives the entry a primary-evidence status. FUS::ATF1 illustrates this distinction: its peritoneal mesothelioma observation is primary-supported, while its angiomatoid fibrous histiocytoma association remains classification-supported.
 
-There are 671 retained source-linked section placements in the runtime corpus: 230 supported by inspected primary-body material, 54 by official regulatory evidence, and 387 by gene/identity or other authoritative references. The latter includes 373 repeated partner-description placements. These counts are placements, not distinct studies or independently validated patient observations.
+The original interpretive subset retains 671 source-linked section placements: 230 supported by inspected primary-body material, 54 by official regulatory evidence, and 387 by gene/identity or other authoritative references. The latter includes 373 repeated partner-description placements. The 196 new cohort observations add 588 placements: 196 supplementary-table occurrence claims and 392 partner descriptions, bringing the whole runtime library to 1,259 section placements. These counts are placements, not distinct studies or independently validated patient observations.
 
 Normal partner descriptions were separately checked against the existing cached NCBI/RefSeq/Alliance summaries and frozen HGNC identities. Unsubstantiated functional detail was narrowed, sometimes to the encoded protein identity. This is a reference/identity check, not a primary full-text functional audit of 210 genes.
 

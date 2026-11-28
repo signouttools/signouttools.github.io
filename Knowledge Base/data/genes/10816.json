@@ -74,7 +74,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SCG5 encodes neuroendocrine protein 7B2 [Cleaved into: N-terminal peptide; C-terminal peptide]. It participates in intracellular protein transport and neuropeptide signaling pathway. Functional annotations also associate the protein with enzyme inhibitor activity and enzyme regulator activity.",
+      "text": "SCG5 encodes neuroendocrine protein 7B2. It functions as a molecular chaperone for PCSK2/PC2, preventing its premature activation in the regulated secretory pathway. It binds to inactive PCSK2 in the endoplasmic reticulum and facilitates its transport from there to later compartments of the secretory pathway where it is proteolytically matured and activated. It contributes to regulating pituitary hormone secretion.",
       "source_ids": [
         "ncbi-6447",
         "uniprot-P05408"

@@ -110,7 +110,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "NRG1 encodes pro-neuregulin-1, membrane-bound isoform [Cleaved into: Neuregulin-1]. It participates in intracellular signal transduction and negative regulation of DNA-templated transcription. Functional annotations also associate the protein with transcription coregulator activity and chemorepellent activity.",
+      "text": "NRG1 encodes pro-neuregulin-1, membrane-bound isoform. Based in part on similarity, it functions as a ligand for integrins and binds (via EGF domain) to integrins ITGAV:ITGB3 or ITGA6:ITGB4. Its binding to integrins and subsequent ternary complex formation with integrins and ERRB3 are essential for NRG1-ERBB signaling. It induces the phosphorylation and activation of MAPK3/ERK1, MAPK1/ERK2 and AKT1.",
       "source_ids": [
         "ncbi-3084",
         "uniprot-Q02297"

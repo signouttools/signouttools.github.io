@@ -177,7 +177,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TSC2 encodes tuberin. It participates in small GTPase-mediated signal transduction and regulation of small GTPase mediated signal transduction. Functional annotations also associate the protein with GTPase activator activity.",
+      "text": "TSC2 encodes tuberin. Based in part on similarity, it is the catalytic component of the TSC-TBC complex, a multiprotein complex that acts as a negative regulator of the canonical mTORC1 complex, an evolutionarily conserved central nutrient sensor that stimulates anabolic reactions and macromolecule biosynthesis to promote cellular biomass generation and growth. The TSC-TBC complex is inactivated in response to nutrients, relieving inhibition of mTORC1. It participates in microtubule-mediated protein transport via its ability to regulate mTORC1 signaling.",
       "source_ids": [
         "ncbi-7249",
         "uniprot-P49815"

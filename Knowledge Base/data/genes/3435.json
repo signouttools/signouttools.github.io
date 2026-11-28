@@ -119,7 +119,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "ERCC3 encodes general transcription and DNA repair factor IIH helicase/translocase subunit XPB. It participates in DNA repair and transcription-coupled nucleotide-excision repair. Functional annotations also associate the protein with ATP hydrolysis activity and 3'-5' DNA helicase activity.",
+      "text": "ERCC3 encodes general transcription and DNA repair factor IIH helicase/translocase subunit XPB. It binds dsDNA rather than ssDNA, unzipping it in a translocase rather than classical helicase activity. It forms part of the general transcription and DNA repair factor IIH (TFIIH) core complex. The ATP-dependent helicase activity of XPB/ERCC3 is required for promoter opening and promoter escape.",
       "source_ids": [
         "ncbi-2071",
         "uniprot-P19447"

@@ -1,0 +1,118 @@
+{
+  "id": "fusion-map3k8-stx7",
+  "label": "MAP3K8::STX7",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "MAP3K8",
+      "hgnc_id": "HGNC:6860",
+      "ncbi_gene_id": "1326"
+    },
+    {
+      "symbol": "STX7",
+      "hgnc_id": "HGNC:11442",
+      "ncbi_gene_id": "8417"
+    }
+  ],
+  "aliases": [
+    "COT::STX7",
+    "ESTF::STX7"
+  ],
+  "tumor_contexts": [
+    "Pediatric solid tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-180bf8abba7a"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "MAP3K8",
+      "text": "MAP3K8 encodes mitogen-activated protein kinase kinase kinase 8.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "04a6f50f95e2bd5db60b5a942389921938d185fac601f3e42e01b28e332502bf",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6860",
+          "location": "Frozen HGNC TSV: HGNC:6860, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "STX7",
+      "text": "STX7 encodes syntaxin 7.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "8ac2c180ff647456a0ffc300c640b21c9deacdf4ccf57eeadaa07a68b67ca067",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:11442",
+          "location": "Frozen HGNC TSV: HGNC:11442, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "MAP3K8::STX7 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "18227d15f14137e6e4ea994693a68818e0e6c2b3b41ee5f01344f26b4de854b8",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 643",
+          "source_rows": [
+            643
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "MAP3K8 encodes mitogen-activated protein kinase kinase kinase 8. STX7 encodes syntaxin 7. MAP3K8::STX7 was reported in specimens labeled as Pediatric solid tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "3c986f42e979e3671078834d0070ad391424e624b4af93b1a600c1ec36bc6e0c"
+}

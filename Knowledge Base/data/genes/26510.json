@@ -60,7 +60,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "TMEM68 encodes DGAT1/2-independent enzyme synthesizing storage lipids. It participates in triglyceride biosynthetic process. Functional annotations also associate the protein with 2-acylglycerol O-acyltransferase activity and diacylglycerol O-acyltransferase activity.",
+      "text": "TMEM68 encodes DGAT1/2-independent enzyme synthesizing storage lipids. Based in part on similarity, it is a catalytic subunit of the alternative triglyceride biosynthesis pathway, which mediates formation of triacylglycerol from diacylglycerol and membrane phospholipids. It synthesizes triacylglycerol at the expense of membrane phospholipids, such as phosphatidylcholine (PC) and its ether-linked form (ePC), thereby altering the composition of membranes. The alternative triglyceride biosynthesis pathway is probably required to provide the energy required for rapid growth when fuel sources are limiting.",
       "source_ids": [
         "ncbi-137695",
         "uniprot-Q96MH6"

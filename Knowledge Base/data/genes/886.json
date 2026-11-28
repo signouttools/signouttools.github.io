@@ -282,9 +282,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "ATRX encodes an ATP-dependent chromatin-regulatory protein that works with DAXX in deposition of histone H3.3 and maintenance of repetitive chromatin, including telomeric regions.",
+      "text": "ATRX encodes an ATP-dependent chromatin-regulatory protein that works with DAXX in deposition of histone H3.3 and maintenance of repetitive chromatin, including telomeric regions. It participates in transcriptional regulation and chromatin remodeling. It facilitates DNA replication in multiple cellular environments and is required for efficient replication of a subset of genomic loci. It may help stabilizing G-rich regions into regular chromatin structures by remodeling G4 DNA and incorporating H3.3-containing nucleosomes.",
       "source_ids": [
-        "ncbi-546"
+        "ncbi-546",
+        "uniprot-P46100"
       ]
     },
     "germline": {

@@ -62,7 +62,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "SRP72 encodes signal recognition particle subunit SRP72. It participates in SRP-dependent cotranslational protein targeting to membrane and SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition. Functional annotations also associate the protein with 7S RNA binding and TPR domain binding.",
+      "text": "SRP72 encodes signal recognition particle subunit SRP72. Based in part on similarity, it forms part of the signal recognition particle (SRP) complex, a ribonucleoprotein complex that mediates the cotranslational targeting of secretory and membrane proteins to the endoplasmic reticulum (ER). The SRP complex interacts with the signal sequence in nascent secretory and membrane proteins and directs them to the membrane of the ER. The SRP complex targets the ribosome-nascent chain complex to the SRP receptor (SR), which is anchored in the ER, where SR compaction and GTPase rearrangement drive cotranslational protein translocation into the ER.",
       "source_ids": [
         "ncbi-6731",
         "uniprot-O76094"

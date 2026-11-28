@@ -132,9 +132,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "POLD1 encodes the catalytic subunit of DNA polymerase delta, which participates in DNA replication and repair and provides proofreading exonuclease activity.",
+      "text": "POLD1 encodes the catalytic subunit of DNA polymerase delta, which participates in DNA replication and repair and provides proofreading exonuclease activity. It exhibits both DNA polymerase and 3'- to 5'-exonuclease activities. It requires the presence of accessory proteins POLD2, POLD3 and POLD4 for full activity. Pol-delta3 idling process may avoid the formation of a gap, while maintaining a nick that can be readily ligated.",
       "source_ids": [
-        "ncbi-5424"
+        "ncbi-5424",
+        "uniprot-P28340"
       ]
     },
     "germline": {

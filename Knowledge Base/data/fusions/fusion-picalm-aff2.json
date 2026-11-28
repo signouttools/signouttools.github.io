@@ -1,0 +1,118 @@
+{
+  "id": "fusion-picalm-aff2",
+  "label": "PICALM::AFF2",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "PICALM",
+      "hgnc_id": "HGNC:15514",
+      "ncbi_gene_id": "8301"
+    },
+    {
+      "symbol": "AFF2",
+      "hgnc_id": "HGNC:3776",
+      "ncbi_gene_id": "2334"
+    }
+  ],
+  "aliases": [
+    "PICALM::FMR2"
+  ],
+  "tumor_contexts": [
+    "Pediatric acute myeloid leukemia"
+  ],
+  "disease_ids": [
+    "fusion-context-e365fd0b9b83"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "PICALM",
+      "text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis.",
+      "source_ids": [
+        "ncbi-8301"
+      ],
+      "claim_sha256": "2fcb5a94a5798347d5447d19c4f5ab57403c6ecd6be66d719fbd0263fa96f2c9",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-8301",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/8301",
+          "location": "NCBI Gene 8301 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "a95f55aebe1d9eb788590177b07a84af4e6c36a82d5f7ec9a3ae783963623a93"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "AFF2",
+      "text": "AFF2 encodes ALF transcription elongation factor 2.",
+      "source_ids": [
+        "hgnc"
+      ],
+      "claim_sha256": "cbe4865372fdb601db324fe67a32b0478c2fd208de419149436df7b2b4fe1f99",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "hgnc",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3776",
+          "location": "Frozen HGNC TSV: HGNC:3776, approved symbol, name and locus_type columns",
+          "scope": "Approved gene identity/name only; no additional protein mechanism asserted.",
+          "access_level": "identity_reference",
+          "document_sha256": "46b83736ec351f15e22331575dce2f08416c5233765b26a08c65e6b42e56b651"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "PICALM::AFF2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "a140be0288eadda5ced6cffeaa0beb3c29a15e4b66a76b6a32df20501ade8923",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 5375",
+          "source_rows": [
+            5375
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "PICALM encodes a clathrin-associated adaptor involved in endocytosis. AFF2 encodes ALF transcription elongation factor 2. PICALM::AFF2 was reported in specimens labeled as Pediatric acute myeloid leukemia in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-8301",
+      "hgnc",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "734829bffb89e24c15de4852c797f107839dcd4380703584ed25439fdca68eba"
+}

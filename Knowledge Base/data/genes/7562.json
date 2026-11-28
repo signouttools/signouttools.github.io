@@ -175,9 +175,10 @@
   },
   "report_summary": {
     "function": {
-      "text": "MYD88 encodes an adaptor for Toll-like and interleukin-1 receptor signaling that links receptor activation to downstream inflammatory signaling, including NF-κB activation.",
+      "text": "MYD88 encodes an adaptor for Toll-like and interleukin-1 receptor signaling that links receptor activation to downstream inflammatory signaling, including NF-κB activation. Based in part on similarity, it is an adapter protein involved in the Toll-like receptor and IL-1 receptor signaling pathway in the innate immune response. It acts via IRAK1, IRAK2, IRF7 and TRAF6, leading to NF-kappa-B activation, cytokine secretion and the inflammatory response. It participates in IL-18-mediated signaling pathway.",
       "source_ids": [
-        "ncbi-4615"
+        "ncbi-4615",
+        "uniprot-Q99836"
       ]
     },
     "germline": {

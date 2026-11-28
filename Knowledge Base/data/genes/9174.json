@@ -62,7 +62,7 @@
   },
   "report_summary": {
     "function": {
-      "text": "POLB encodes DNA polymerase beta. It participates in DNA repair and regulation of DNA repair. Functional annotations also associate the protein with lyase activity and 5'-deoxyribose-5-phosphate lyase activity.",
+      "text": "POLB encodes DNA polymerase beta. It conducts 'gap-filling' DNA synthesis in a stepwise distributive fashion rather than in a processive fashion as for other DNA polymerases. It is also able to cleave sugar-phosphate bonds 3' to an intact AP site, acting as an AP lyase.",
       "source_ids": [
         "ncbi-5423",
         "uniprot-P06746"

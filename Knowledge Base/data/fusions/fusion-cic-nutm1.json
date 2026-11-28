@@ -1,0 +1,118 @@
+{
+  "id": "fusion-cic-nutm1",
+  "label": "CIC::NUTM1",
+  "event_class": "fusion_transcript",
+  "partners": [
+    {
+      "symbol": "CIC",
+      "hgnc_id": "HGNC:14214",
+      "ncbi_gene_id": "23152"
+    },
+    {
+      "symbol": "NUTM1",
+      "hgnc_id": "HGNC:29919",
+      "ncbi_gene_id": "256646"
+    }
+  ],
+  "aliases": [
+    "CIC::C15orf55"
+  ],
+  "tumor_contexts": [
+    "Pediatric brain tumor, subtype unspecified"
+  ],
+  "disease_ids": [
+    "fusion-context-423a9a5a9014"
+  ],
+  "sections": [
+    {
+      "kind": "partner_function",
+      "partner": "CIC",
+      "text": "CIC encodes capicua, an HMG-box transcriptional repressor.",
+      "source_ids": [
+        "ncbi-23152"
+      ],
+      "claim_sha256": "719c9ce079aa3d268bee7dc4ad29579ffabe20ffd3d90dfd582bd439ab76add3",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-23152",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/23152",
+          "location": "NCBI Gene 23152 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "b7a55c6473bff056c8466c3b9c22bb678f95ff523893b6a8e57b7b36fd51a336"
+        }
+      ]
+    },
+    {
+      "kind": "partner_function",
+      "partner": "NUTM1",
+      "text": "NUTM1 encodes NUT family member 1.",
+      "source_ids": [
+        "ncbi-256646"
+      ],
+      "claim_sha256": "edc158c79253e143c8da7811b9b6caa650572ce21a07a01ece4bce1479f61c46",
+      "fulltext_audit_status": "reference_supported",
+      "audit_evidence": [
+        {
+          "source_id": "ncbi-256646",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/256646",
+          "location": "NCBI Gene 256646 RefSeq/Alliance summary, inspected cached esummary record",
+          "scope": "Normal partner description only; not primary fusion evidence.",
+          "access_level": "gene_reference",
+          "document_sha256": "625140a91ec612bd0edaea025643709930b5dddf00d28d0775be9f4b8a57d0dc"
+        }
+      ]
+    },
+    {
+      "kind": "tumor_relevance",
+      "text": "CIC::NUTM1 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+      "source_ids": [
+        "liu-2023-pediatric-cohort"
+      ],
+      "claim_sha256": "ec08e21745881b01fe4b6fe3d01924c1aa4a5b1fca56f1e4ae3d6a78e27a9879",
+      "fulltext_audit_status": "primary_fulltext_supported",
+      "audit_evidence": [
+        {
+          "source_id": "liu-2023-pediatric-cohort",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076316/#MOESM4",
+          "location": "Supplementary Data 1, columns C–F, rows 986",
+          "source_rows": [
+            986
+          ],
+          "table": "Supplementary Data 1",
+          "document_sha256": "151e1a8f8619b2d14307aee0eefbb8fc1fa7a0ccdc4f8bcdf6c7183e2fe538ce",
+          "scope": "Reported directed fusion and specimen diagnosis only. Not independent functional validation or a treatment indication.",
+          "access_level": "primary_fulltext"
+        }
+      ]
+    }
+  ],
+  "report_comment": {
+    "text": "CIC encodes capicua, an HMG-box transcriptional repressor. NUTM1 encodes NUT family member 1. CIC::NUTM1 was reported in specimens labeled as Pediatric brain tumor, subtype unspecified in the RNA-sequencing cohort of Liu et al.",
+    "source_ids": [
+      "ncbi-23152",
+      "ncbi-256646",
+      "liu-2023-pediatric-cohort"
+    ]
+  },
+  "evidence_scope": "cohort_observation",
+  "curation_notes": [
+    "Transcript detection only. Functional orientation follows the authors' Supplementary Data 32; uncommon orientations are not corrected by reversing partners.",
+    "Literature references in Supplementary Data 25 are candidates for claim-specific review, not verified citations."
+  ],
+  "editorial": {
+    "status": "draft",
+    "revision": 2,
+    "drafted_on": "2026-11-27",
+    "reviewer": null,
+    "pathologist_review": "pending",
+    "disclaimer": "Pathologist review needed — LLM-generated summary/review."
+  },
+  "audit": {
+    "status": "primary_fulltext_supported",
+    "audited_on": "2026-11-27",
+    "summary": "The cited primary supplementary table supports the reported directed fusion and specimen labels. This is a cohort observation; independent functional validation, diagnostic specificity, prognosis and treatment response have not been adjudicated. Partner descriptions use gene/identity references. Specialist approval remains pending."
+  },
+  "text_sha256": "2b9815166e2db733aa426fe860d6652816978323ddb5b8c326ce57b312a93190"
+}
